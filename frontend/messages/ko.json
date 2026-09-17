@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "close": "닫기",
+    "now": "지금",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "success": "성공",
+    "confirm": "확인",
+    "back": "뒤로",
+    "or": "또는",
+    "next": "다음",
+    "submit": "제출",
+    "search": "검색",
+    "filter": "필터",
+    "clear": "지우기",
+    "all": "전체",
+    "yes": "예",
+    "no": "아니요",
+    "download": "다운로드",
+    "and": "및",
+    "tryAgain": "다시 시도",
+    "change": "변경"
+  },
+  "navigation": {
+    "new": "NEW",
+    "sectionBrowse": "둘러보기",
+    "sectionTalk": "대화",
+    "sectionCreate": "생성",
+    "sectionLibrary": "라이브러리",
+    "explore": "홈",
+    "discover": "발견",
+    "createShort": "AI 생성",
+    "chats": "채팅",
+    "groupChat": "AI 그룹 채팅",
+    "roleplay": "롤플레이",
+    "collection": "컬렉션",
+    "generateImage": "이미지 생성",
+    "generateVideo": "비디오 생성",
+    "createCharacter": "AI 캐릭터 생성",
+    "myAI": "내 AI",
+    "language": "언어",
+    "contactUs": "문의하기",
+    "account": "계정",
+    "sidebarPromoTitle": "여름 세일 — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "여성",
+      "anime": "애니메",
+      "guys": "남성"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "지금 채팅",
+    "like": "좋아요"
+  },
+  "auth": {
+    "login": "로그인",
+    "signup": "회원가입",
+    "createFreeAccount": "무료 계정 만들기",
+    "logout": "로그아웃",
+    "email": "이메일",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "noAccount": "계정이 없으신가요?",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "signupPrompt": "무료 계정 만들기",
+    "loginPrompt": "로그인",
+    "continueWith": "계속하기",
+    "welcomeBack": "다시 오신 것을 환영합니다!",
+    "createAccount": "계정 만들기",
+    "signInToAccount": "계정에 로그인",
+    "emailRequired": "이메일은 필수입니다",
+    "emailInvalid": "유효하지 않은 이메일 주소입니다",
+    "passwordRequired": "비밀번호는 필수입니다",
+    "passwordLength": "비밀번호는 6자 이상이어야 합니다",
+    "passwordsMismatch": "비밀번호가 일치하지 않습니다",
+    "emailAlreadyRegistered": "이미 등록된 이메일입니다",
+    "emailAlreadyRegisteredDescription": "이 이메일로 생성된 계정이 있습니다. 로그인해 주세요.",
+    "loginError": "로그인에 실패했습니다",
+    "signupError": "회원가입에 실패했습니다",
+    "loginSuccess": "다시 오신 것을 환영합니다!",
+    "signupSuccess": "계정이 성공적으로 생성되었습니다!",
+    "logoutSuccess": "성공적으로 로그아웃되었습니다",
+    "logoutError": "로그아웃에 실패했습니다",
+    "linkExpired": "이 인증 링크는 만료되었습니다. 새 링크를 요청해 주세요.",
+    "accessDenied": "접근이 거부되었습니다. 다시 시도해 주세요.",
+    "verifyEmail": "이메일 인증",
+    "verificationEmailSent": "인증 이메일을 보냈습니다",
+    "confirmYourEmail": "이메일을 확인하세요",
+    "confirmationLinkSent": "\"{email}\"로 확인 링크를 보냈습니다.",
+    "checkSpamFolder": "이메일을 받지 못하셨나요? 스팸 폴더를 확인해 보세요.",
+    "signupToChat": "시작하려면 무료 계정을 만드세요.",
+    "signupDescription": "대화를 계속하려면 계정을 만드세요",
+    "emailVerificationTitle": "이메일을 확인하세요",
+    "emailVerificationMessage": "{email}로 인증 링크를 보냈습니다. 받은편지함을 확인하고 링크를 클릭해 계정을 인증하세요.",
+    "emailVerificationNext": "인증 후 온보딩 과정을 완료합니다.",
+    "verificationEmailSentTo": "{email}로 인증 이메일을 보냈습니다",
+    "verificationInstructions": "받은 편지함을 확인하고 인증 링크를 클릭해 계정을 활성화하세요.",
+    "resetPassword": "비밀번호 재설정",
+    "resetPasswordDescription": "이메일을 입력하면 재설정 링크를 보내드립니다",
+    "resetEmailSent": "이 이메일로 등록된 계정이 있다면 곧 재설정 링크를 받게 됩니다",
+    "backToLogin": "로그인으로 돌아가기",
+    "newPassword": "새 비밀번호",
+    "confirmNewPassword": "새 비밀번호 확인",
+    "passwordResetSuccess": "비밀번호가 성공적으로 업데이트되었습니다. 로그인해 주세요.",
+    "enterNewPassword": "새 비밀번호를 입력하세요",
+    "redirectingToLogin": "로그인으로 이동 중...",
+    "invalidResetLink": "유효하지 않거나 만료된 링크",
+    "invalidResetLinkDescription": "이 비밀번호 재설정 링크는 유효하지 않거나 만료되었습니다. 새 링크를 요청하세요.",
+    "passwordsDontMatch": "비밀번호가 일치하지 않습니다",
+    "currentPassword": "현재 비밀번호",
+    "currentPasswordRequired": "현재 비밀번호를 입력하세요",
+    "changePassword": "비밀번호 변경",
+    "changePasswordDescription": "현재 비밀번호를 입력하고 새 비밀번호를 선택하세요",
+    "newPasswordMustBeDifferent": "새 비밀번호는 현재 비밀번호와 달라야 합니다",
+    "incorrectPassword": "현재 비밀번호가 올바르지 않습니다",
+    "passwordChangeSuccess": "비밀번호가 성공적으로 변경되었습니다",
+    "changeEmail": "이메일 변경",
+    "newEmail": "새 이메일",
+    "confirmNewEmail": "새 이메일 확인",
+    "emailsDontMatch": "이메일이 일치하지 않습니다",
+    "emailChangeDescription": "현재 이메일과 새 이메일 모두로 인증 이메일이 전송됩니다",
+    "emailMustBeDifferent": "새 이메일은 현재 이메일과 달라야 합니다",
+    "emailChangeSent": "인증 이메일을 보냈습니다. 새 이메일 받은 편지함을 확인하세요.",
+    "emailChangeSecurityNote": "보안을 위해 현재 이메일과 새 이메일 모두로 확인 이메일이 전송됩니다. 변경을 완료하려면 두 곳에서 모두 확인해야 합니다.",
+    "otpDescription": "{email}로 6자리 코드를 보냈습니다",
+    "otpVerify": "인증",
+    "otpResend": "코드 재전송",
+    "otpResendIn": "{seconds}초 후 재전송",
+    "otpNoCode": "코드를 받지 못하셨나요?",
+    "otpInvalid": "잘못된 코드입니다. 다시 시도하세요.",
+    "otpSuccess": "이메일 인증이 완료되었습니다!",
+    "otpResendSuccess": "새 코드를 이메일로 보냈습니다",
+    "otpResendError": "코드 재전송에 실패했습니다",
+    "continueWithEmail": "이메일로 계속하기",
+    "moreOptions": "더 보기",
+    "lessOptions": "간단히 보기",
+    "enterYourEmail": "이메일 주소를 입력하세요",
+    "sendCode": "코드 보내기",
+    "byCreatingAccountAgree": "계정을 만들면 다음에 동의하게 됩니다",
+    "termsOfService": "서비스 약관",
+    "continueWithZhihu": "Zhihu로 계속하기"
+  },
+  "onboarding": {
+    "welcome": "sweetwine에 오신 것을 환영합니다",
+    "welcomeTo": "환영합니다",
+    "letsGetStarted": "설정을 시작해 볼까요",
+    "setupProfile": "프로필 설정",
+    "step1of2": "1/2단계",
+    "step2of2": "2/2단계",
+    "nickname": "닉네임",
+    "nicknamePlaceholder": "닉네임을 선택하세요",
+    "nicknameRequired": "닉네임을 입력하세요",
+    "gender": "성별",
+    "genderRequired": "성별을 선택하세요",
+    "male": "남성",
+    "female": "여성",
+    "interfaceLanguage": "인터페이스 언어",
+    "interfaceLanguageDesc": "메뉴와 버튼에 표시되는 언어",
+    "aiLanguage": "AI 응답 언어",
+    "aiLanguageDesc": "AI가 대화할 때 사용하는 언어",
+    "languageRequired": "언어를 선택하세요",
+    "continue": "계속",
+    "ageVerification": "연령 확인",
+    "ageVerificationText": "sweetwine을 이용하려면 만 18세 이상이어야 합니다. 계속 진행하면 법적 연령임을 확인하는 것입니다.",
+    "beforeContinue": "계속하기 전에",
+    "mustBe18": "이 서비스를 이용하려면 만 18세 이상이어야 합니다",
+    "agreeToTerms": "계속 진행하면 {termsLink} 및 {privacyLink}에 동의하게 됩니다",
+    "termsOfService": "서비스 약관",
+    "privacyPolicy": "개인정보 처리방침",
+    "iConfirm": "만 18세 이상이며 다음에 동의함을 확인합니다",
+    "ageRequired": "계속하려면 연령을 확인해야 합니다",
+    "aiActConsent": "AI와만 소통함을 인지합니다",
+    "aiActRequired": "계속하려면 이를 인지해야 합니다",
+    "newsletterOptIn": "업데이트와 소식을 받기 위해 뉴스레터를 구독합니다",
+    "complete": "설정 완료!",
+    "completeText": "모든 준비가 완료되었습니다! AI 캐릭터와 채팅을 시작하세요.",
+    "startExploring": "탐색 시작",
+    "featuresTitle": "사용 가능한 기능",
+    "featuresTitleWord1": "사용 가능한",
+    "featuresTitleWord2": "기능",
+    "feature1Title": "AI 채팅",
+    "feature1Desc": "무검열 및 비공개 대화",
+    "feature2Title": "이미지 생성",
+    "feature2Desc": "AI 캐릭터와 함께 무검열 맞춤 이미지를 생성하세요",
+    "feature3Title": "비디오 생성",
+    "feature3Desc": "효과가 포함된 무검열 AI 비디오를 생성하세요",
+    "feature5Title": "커스텀 AI 생성기",
+    "feature5Desc": "나만의 캐릭터를 디자인하세요",
+    "feature6Title": "캐릭터 둘러보기",
+    "feature6Desc": "100개 이상의 독특한 개성",
+    "feature7Title": "AI 롤플레이",
+    "feature7Desc": "전문적으로 제작된 스토리와 판타지를 경험하세요",
+    "showcase": {
+      "chatTitle": "AI 채팅",
+      "chatDesc": "무제한의 검열 없는 프라이빗 대화",
+      "imageTitle": "이미지 생성",
+      "imageDesc": "나만의 AI로 검열 없는 맞춤 이미지 만들기",
+      "videoTitle": "영상 생성",
+      "videoDesc": "효과를 더한 검열 없는 AI 영상 생성",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "동반자와 실시간 음성 대화",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "몰입감 있는 스토리, 판타지, 인터랙티브 플레이",
+      "groupChatTitle": "AI 그룹 채팅",
+      "groupChatDesc": "최대 3명의 AI 캐릭터와 동시에 채팅",
+      "creatorTitle": "커스텀 AI 크리에이터",
+      "creatorDesc": "나만의 AI 캐릭터를 디자인하고 생성"
+    },
+    "freePlan": {
+      "title": "모두 준비됐어요!",
+      "subtitle": "무료 플랜에 포함된 혜택이에요.",
+      "charactersTitle": "나만의 캐릭터 만들기",
+      "charactersDesc": "처음부터 {count}개의 맞춤 AI 캐릭터를 디자인하세요",
+      "imagesTitle": "이미지 생성",
+      "imagesDesc": "동반자의 무료 AI 이미지 {count}개",
+      "messagesTitle": "매일 채팅하기",
+      "messagesDesc": "하루에 {count}개의 메시지, 24시간마다 새로고침",
+      "cta": "탐색 시작하기"
+    },
+    "redirectingIn": "리디렉션까지",
+    "seconds": "초",
+    "generateCharacter": "캐릭터 생성",
+    "redirectingToCreate": "캐릭터 생성기로 리디렉션까지"
+  },
+  "errors": {
+    "pageNotFound": "페이지를 찾을 수 없습니다",
+    "pageNotFoundDesc": "찾으시는 페이지가 존재하지 않습니다.",
+    "goHome": "홈으로 이동",
+    "somethingWentWrong": "문제가 발생했습니다",
+    "tryAgain": "다시 시도",
+    "unauthorized": "권한 없음",
+    "unauthorizedDesc": "이 페이지에 접근하려면 로그인해야 합니다.",
+    "forbidden": "접근 금지",
+    "forbiddenDesc": "이 페이지에 접근할 권한이 없습니다."
+  },
+  "footer": {
+    "allRightsReserved": "모든 권리 보유.",
+    "madeWith": "제작",
+    "by": "by sweetwine",
+    "description": "독특한 개성과 시각적 정체성, 매력적인 대화를 갖춘 개인화된 AI 캐릭터를 경험하세요.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "제품",
+    "legal": "법적 고지",
+    "company": "회사",
+    "resources": "리소스",
+    "partnerships": "파트너십",
+    "pressMedia": "보도자료",
+    "careers": "채용",
+    "aiRealClones": "AI 실시간 클론",
+    "about": "소개",
+    "blog": "블로그",
+    "news": "뉴스",
+    "productUpdates": "제품 업데이트",
+    "help": "도움말",
+    "sitemap": "사이트맵",
+    "paymentOptions": "결제 옵션",
+    "chats": "채팅",
+    "collection": "컬렉션",
+    "generateImage": "이미지 생성",
+    "generateVideo": "비디오 생성",
+    "myAI": "내 AI",
+    "createCharacter": "캐릭터 만들기",
+    "api": "API",
+    "features": "기능",
+    "allFeatures": "모든 기능",
+    "aiGroupChat": "AI 그룹 채팅",
+    "aiMemory": "AI memory",
+    "aiGirlfriend": "AI 여자친구",
+    "aiBoyfriend": "AI 남자친구",
+    "aiCompanions": "AI 캐릭터",
+    "aiFriend": "AI 친구",
+    "aiBreakupSupport": "이별 지원",
+    "aiParent": "AI 부모",
+    "aiRoleplay": "AI 롤플레이",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsAndConditions": "이용약관",
+    "cookiePolicy": "쿠키 정책",
+    "cookieSettings": "쿠키 설정",
+    "other": "기타 정책",
+    "copyright": "© {year} sweetwine. All rights reserved."
+  },
+  "cookies": {
+    "banner": {
+      "title": "이 사이트의 쿠키",
+      "customizeButton": "사용자 지정",
+      "rejectButton": "거부",
+      "acceptButton": "수락"
+    },
+    "modal": {
+      "title": "쿠키 관리",
+      "subtitle": "아래에서 카테고리를 켜거나 끌 수 있습니다. 사이트 작동에 필수적인 쿠키는 항상 유지됩니다.",
+      "categories": {
+        "necessary": {
+          "title": "필수 쿠키",
+          "description": "로그인, 결제, 보안을 위해 필요합니다. 이 쿠키 없이는 사이트가 작동할 수 없습니다.",
+          "alwaysOn": "항상 사용"
+        },
+        "analytics": {
+          "title": "성능",
+          "description": "Google Analytics 4를 통해 사용량과 전환을 측정합니다. 서버에서 가명 식별자를 사용해 주요 전환(가입, 구매)을 전송합니다. 서비스 이용 방식을 이해하는 데 도움이 되며 개인 식별에는 사용되지 않습니다."
+        },
+        "marketing": {
+          "title": "타겟팅",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "쿠키 보기",
+      "hideCookies": "쿠키 숨기기",
+      "table": {
+        "name": "이름",
+        "provider": "제공자",
+        "expiration": "만료",
+        "description": "설명",
+        "session": "세션"
+      },
+      "policyLink": "자세한 내용은 <policy>쿠키 정책</policy>을 참조하세요.",
+      "rejectButton": "거부",
+      "saveButton": "저장 후 닫기",
+      "acceptButton": "수락",
+      "cookieDescriptions": {
+        "supabaseAuth": "인증된 세션을 저장하여 로그인 상태를 유지합니다.",
+        "nextLocale": "인터페이스에서 선택한 언어를 기억합니다.",
+        "consent": "쿠키 선택 사항을 저장하여 방문할 때마다 배너가 표시되지 않도록 합니다.",
+        "ga": "고유 방문자를 구분합니다 (Google Analytics 4). 동일한 가명 식별자가 서버 측 주요 전환 측정에도 사용됩니다.",
+        "gaSession": "Google Analytics 4 세션 상태와 참여 지표를 유지합니다.",
+        "fbp": "Meta Pixel 속성을 위해 브라우저를 식별합니다.",
+        "fbc": "광고 전환 속성을 위한 Facebook 클릭 ID를 저장합니다. Meta 광고 클릭 후에만 설정됩니다.",
+        "gclAu": "Google Ads에서 교차 사이트 전환 연결에 사용됩니다.",
+        "saleCountdown": "현재 프로모션 종료 시점을 추적하여 할인 카운트다운이 페이지 간 일관되게 유지됩니다.",
+        "onboarded": "계정을 온보딩 완료로 표시하여 이후 페이지에서 연령 확인 DB 검사를 건너뜁니다.",
+        "attribution": "지난 30일 내 가장 최근에 유료 캠페인이나 광고 링크를 통해 사이트에 방문한 기록을 저장하여 광고 효과를 측정합니다. 당사 서버에만 저장되는 퍼스트파티 식별자로 제3자와 공유되지 않습니다."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "이 기능을 제공하기 위해 열심히 작업 중입니다.",
+    "notify": "준비되면 알림 받기",
+    "backHome": "홈으로 돌아가기",
+    "generateVideo": {
+      "title": "비디오 생성",
+      "description": "AI 캐릭터를 생동감 있게 움직이는 영상으로 만들어보세요. 좋아하는 캐릭터가 등장하는 맞춤형 영상을 제작할 수 있습니다."
+    },
+    "createCharacter": {
+      "title": "캐릭터 만들기",
+      "description": "나만의 독특한 AI 캐릭터를 디자인하고 커스터마이징하세요. 성격, 외모, 배경을 정의하고 진정한 개인화된 상호작용을 만들어보세요."
+    },
+    "myAI": {
+      "title": "내 AI",
+      "description": "내가 만든 모든 AI 캐릭터를 관리하세요. 성격을 편집하고, 외모를 업데이트하며, 응답을 세밀하게 조정할 수 있습니다."
+    }
+  },
+  "exploreMore": {
+    "title": "더 둘러보기",
+    "aiGroupChat": "AI 그룹 채팅",
+    "aiGroupChatDesc": "최대 3명의 캐릭터와 채팅",
+    "aiMemory": "AI memory",
+    "aiMemoryDesc": "모든 모드에 따라오는 컨텍스트",
+    "aiGirlfriend": "AI 여자친구",
+    "aiGirlfriendDesc": "가상 여자친구와 채팅",
+    "aiBoyfriend": "AI 남자친구",
+    "aiBoyfriendDesc": "AI 남자친구와 소통",
+    "aiCompanions": "AI 캐릭터",
+    "aiCompanionsDesc": "독특한 AI 페르소나 만나기",
+    "aiFriend": "AI 친구",
+    "aiFriendDesc": "판단 없는 친구 찾기",
+    "aiBreakupSupport": "이별 지원",
+    "aiBreakupSupportDesc": "치유의 대화",
+    "aiParent": "AI 부모",
+    "aiParentDesc": "따뜻한 지원과 조언",
+    "aiRoleplay": "AI 롤플레잉",
+    "aiRoleplayDesc": "몰입감 있는 스토리 시나리오",
+    "allFeatures": "모든 기능",
+    "allFeaturesDesc": "우리가 제공하는 모든 것을 탐색하세요"
+  },
+  "legal": {
+    "policies": "정책",
+    "termsAndConditions": "이용약관",
+    "privacyPolicy": "개인정보 처리방침",
+    "cookiePolicy": "쿠키 정책",
+    "contentReportingPolicy": "콘텐츠 신고 정책",
+    "communityGuidelines": "커뮤니티 가이드라인",
+    "complaintPolicy": "불만 처리 정책",
+    "contentRemovalPolicy": "콘텐츠 삭제 정책",
+    "blockedContentPolicy": "차단 콘텐츠 정책",
+    "underagePolicy": "미성년자 정책",
+    "usc2257": "18 U.S.C. 2257 면제",
+    "lastUpdated": "최종 업데이트",
+    "index": {
+      "title": "법적 문서",
+      "subtitle": "sweetwine과 관련된 모든 법적 정책 및 계약을 둘러보세요",
+      "documents": {
+        "privacyPolicy": {
+          "title": "개인정보 처리방침",
+          "description": "당사가 개인정보를 수집, 사용 및 보호하는 방법을 알아보세요. 데이터 처리, 저장 및 개인정보 권리에 대한 세부 정보입니다."
+        },
+        "termsAndConditions": {
+          "title": "이용약관",
+          "description": "sweetwine 이용에 적용되는 서비스 약관. 사용자 책임, 서비스 설명 및 법적 계약입니다."
+        },
+        "cookiePolicy": {
+          "title": "쿠키 정책",
+          "description": "당사가 쿠키 및 유사 기술을 사용하여 플랫폼 경험을 향상하는 방법에 대한 정보입니다."
+        },
+        "underagePolicy": {
+          "title": "미성년자 정책",
+          "description": "당사의 엄격한 연령 확인 및 보호 정책. sweetwine은 18세 이상 사용자만 이용할 수 있습니다."
+        },
+        "complaintPolicy": {
+          "title": "불만 처리 정책",
+          "description": "불만 제기 방법, 문제 신고 방법 및 사용자 우려와 분쟁 처리 과정입니다."
+        },
+        "contentRemovalPolicy": {
+          "title": "콘텐츠 삭제 정책",
+          "description": "콘텐츠 삭제 요청 절차 및 부적절하거나 불법적인 콘텐츠 신고 처리 방법입니다."
+        },
+        "blockedContentPolicy": {
+          "title": "차단 콘텐츠 정책",
+          "description": "플랫폼에서 금지되는 콘텐츠 유형 및 집행 정책입니다."
+        },
+        "contentReportingPolicy": {
+          "title": "콘텐츠 신고 정책",
+          "description": "sweetwine에서 저작권 침해 및 부적절한 콘텐츠를 신고하는 방법입니다."
+        },
+        "communityGuidelines": {
+          "title": "커뮤니티 가이드라인",
+          "description": "모든 사용자를 위한 존중, 안전하고 즐거운 커뮤니티 유지를 위한 규칙과 가이드라인입니다."
+        }
+      },
+      "lastUpdated": "최종 업데이트: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "채팅",
+    "groupChat": "AI 그룹 채팅",
+    "aiMemory": "AI Memory",
+    "generate": "이미지 생성",
+    "generateVideo": "비디오 생성",
+    "create": "AI 캐릭터 생성",
+    "myAI": "내 AI",
+    "collection": "컬렉션",
+    "invite": "초대",
+    "profile": "프로필 설정",
+    "legal": "법적",
+    "privacyPolicy": "개인정보 처리방침",
+    "termsAndConditions": "이용약관",
+    "cookiePolicy": "쿠키 정책",
+    "dmcaPolicy": "DMCA 정책",
+    "communityGuidelines": "커뮤니티 가이드라인",
+    "contentRemovalPolicy": "콘텐츠 삭제 정책",
+    "contentReportingPolicy": "콘텐츠 신고 정책",
+    "complaintPolicy": "불만 처리 정책",
+    "blockedContentPolicy": "차단 콘텐츠 정책",
+    "underagePolicy": "미성년자 정책",
+    "usc2257Exemption": "USC 2257 면제"
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "궁금한 점이나 피드백이 있으신가요? 언제든 말씀해 주세요.",
+    "name": "이름",
+    "namePlaceholder": "이름을 입력하세요",
+    "nameRequired": "이름을 입력해 주세요",
+    "email": "이메일",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "이메일을 입력해 주세요",
+    "emailInvalid": "유효하지 않은 이메일 주소입니다",
+    "message": "메시지",
+    "messagePlaceholder": "메시지를 입력하세요...",
+    "messageRequired": "메시지를 입력해 주세요",
+    "send": "메시지 보내기",
+    "sending": "전송 중...",
+    "success": "메시지가 성공적으로 전송되었습니다!",
+    "successDesc": "곧 답변 드리겠습니다.",
+    "error": "메시지 전송에 실패했습니다",
+    "errorDesc": "잠시 후 다시 시도해 주세요."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI 그룹 채팅",
+    "lobbyHeadingSuffix": "최대 {max}명의 AI 캐릭터 선택",
+    "history": "기록",
+    "newGroup": "새 그룹 채팅",
+    "createGroup": "그룹 채팅 만들기",
+    "createError": "그룹 채팅을 만들 수 없습니다. 다시 시도해 주세요.",
+    "creatingGroup": "그룹 채팅을 설정 중입니다...",
+    "sectionWoman": "여성",
+    "sectionMan": "남성",
+    "sectionAnime": "애니메이션",
+    "tabPremade": "AI 캐릭터",
+    "tabMyAi": "내 AI",
+    "tabSingle": "단일 채팅",
+    "tabGroup": "그룹 채팅",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "더 보기",
+    "noCustom": "아직 생성한 AI 캐릭터가 없습니다.",
+    "noMessagesYet": "아직 메시지가 없습니다",
+    "emptyTitle": "아직 그룹 채팅이 없습니다",
+    "membersTitle": "이 채팅 참여자",
+    "typing": "입력 중",
+    "backToLobby": "그룹 채팅으로 돌아가기",
+    "deleteGroup": "그룹 채팅 삭제",
+    "confirmDeleteGroup": "이 그룹 채팅을 삭제하시겠습니까? 모든 메시지가 삭제됩니다.",
+    "deleteError": "그룹 채팅을 삭제할 수 없습니다.",
+    "mediaTargetImageTitle": "누가 사진을 보낼까요?",
+    "mediaTargetVideoTitle": "누가 영상을 보낼까요?",
+    "mediaTargetSubtitle": "미디어를 생성할 캐릭터를 선택하세요.",
+    "mediaTargetGroup": "단체 사진",
+    "groupPhotoTitle": "단체 사진",
+    "groupPhotoHint": "{name}의 사진을 한 장 생성합니다.",
+    "promoSubtitle": "최대 3명의 캐릭터와 함께",
+    "promoCta": "새로 만들기",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> 모험",
+    "live": "LIVE",
+    "scrollPrev": "왼쪽으로 스크롤",
+    "scrollNext": "오른쪽으로 스크롤"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "시작하기"
+    },
+    "hero": {
+      "tagline": "10만 명이 신뢰하며 매일 가입 중",
+      "headlinePrefix": "당신의",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "무료로 시작하기"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI 여자친구",
+      "friend": "AI 친구",
+      "boyfriend": "AI 남자친구",
+      "companion": "AI 캐릭터"
+    },
+    "features": {
+      "chat": {
+        "title": "AI 여자친구와 대화하기",
+        "description": "무제한 메시지. 그녀는 당신을 기억하고, 지능적으로 반응하며, 실제 행동을 취합니다. 프라이버시 중심 설계."
+      },
+      "media": {
+        "title": "리얼리스틱 AI 사진 & 영상",
+        "description": "실제와 구분이 안 될 정도로 리얼한 온디맨드 사진과 영상 — 그녀의 얼굴, 스타일, 어떤 장면이든 움직이거나 정지 상태로."
+      },
+      "groupChat": {
+        "title": "AI 그룹 채팅",
+        "description": "최대 3명의 캐릭터와 동시에 그룹 채팅을 시작하세요. 그들은 자연스럽게 답장하고 서로 반응하며 사진과 영상을 보냅니다."
+      },
+      "roleplay": {
+        "title": "AI 롤플레이",
+        "description": "역할을 유지하고 당신의 모든 선택을 기억하는 캐릭터와 함께 몰입감 있는 스토리 중심 시나리오에 빠져보세요."
+      }
+    },
+    "memory": {
+      "title": "AI Memory",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "AI Memory 작동 방식",
+      "diagram": {
+        "center": "동반자의 기억",
+        "chat": "채팅",
+        "image": "이미지",
+        "video": "영상",
+        "gifts": "선물",
+        "roleplay": "롤플레이"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "나만의",
+      "headlineHighlight": "AI 캐릭터",
+      "subtitle": "캐릭터의 외모와 성격을 만들고 즉시 생생하게 구현하세요 — 당신의 완벽한 AI 파트너, 당신의 조건으로.",
+      "cta": "AI 만들기"
+    },
+    "companions": {
+      "headlinePrefix": "당신의",
+      "headlineHighlight": "AI 캐릭터",
+      "subtitle": "각 캐릭터는 자신만의 세계를 가지고 있습니다. 따뜻하고 쉽게 마음을 열 수 있는 캐릭터도 있고, 복잡하고 경계심이 강하거나 연결하기 어려운 캐릭터도 있습니다. 독특한 롤플레이 시나리오를 탐색하거나 처음부터 직접 만들어보세요."
+    },
+    "languages": {
+      "headlinePrefix": "어떤 언어로든 말하세요,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "앱 인터페이스와 AI 캐릭터 모두 매끄럽게 전환됩니다 — 언어 불일치나 깨진 경험이 없습니다.",
+      "more": "더 보기"
+    },
+    "finalCta": {
+      "headlinePrefix": "준비되셨나요",
+      "headlineHighlight": "시작할까요?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "왜",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "진짜 같은 연결에 필요한 모든 것 — 필요 없는 것은 없습니다.",
+      "benefits": {
+        "freeToStart": {
+          "title": "무료로 시작",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "항상 이용 가능",
+          "desc": "낮이든 밤이든, 캐릭터가 항상 곁에 있어요. 기다릴 필요도, 예약할 필요도 없어요."
+        },
+        "remembers": {
+          "title": "모든 것을 기억해요",
+          "desc": "모든 대화가 맥락을 쌓아요. 캐릭터가 당신의 이름, 취향, 세계를 배워요."
+        },
+        "unlimited": {
+          "title": "진정한 무제한",
+          "desc": "메시지 제한도, 콘텐츠 제한도 없어요. 원하는 만큼, 원하는 만큼 자주 보내세요."
+        },
+        "private": {
+          "title": "100% 프라이버시",
+          "desc": "대화는 오직 둘 사이에만 남아요. 데이터가 절대 공유되지 않아요."
+        },
+        "createYourOwn": {
+          "title": "나만의 캐릭터 만들기",
+          "desc": "원하는 대로 외모, 성격, 목소리를 가진 캐릭터를 직접 디자인하세요."
+        }
+      },
+      "difference": {
+        "title": "sweetwine의 차별점",
+        "freedomTitle": "책임과 함께하는 자유.",
+        "freedomDescription": "sweetwine은 개방적이고 편견 없는 공간이지만, 명확한 기준이 있어요. CSAM, 미성년자 콘텐츠, 비동의 시나리오, 극단적 폭력, 수간, 사체 성애, 실존 인물 딥페이크, 불법 활동 조장에는 절대 관용하지 않아요.",
+        "freedomStatement": "모두에게 안전한 공간 안에서 무한한 창의적 자유를 추구해요."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> 캐릭터",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "필터"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "subtitle": "sweetwine에 대해 알아야 할 모든 것",
+      "questions": {
+        "q1": {
+          "question": "sweetwine이란 무엇인가요?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine은 안전하고 합법적인가요?",
+          "answer": "네, sweetwine은 합법적인 서비스이며 개인정보 보호를 최우선으로 합니다. GDPR 및 기타 데이터 보호 기준을 준수하며, 데이터를 신중하게 다룹니다. 결제 내역은 중립적인 상호로 표시되어 은행 명세서에 sweetwine이 노출되지 않으므로 완전한 비밀 보장이 가능해요."
+        },
+        "q3": {
+          "question": "내 AI 캐릭터를 직접 만들 수 있나요?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "캐릭터 생성기",
+          "answerPart2": "를 사용해 원하는 대로 캐릭터를 디자인할 수 있어요. 사실적인 ",
+          "linkTextGirlfriend": "AI 여친",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI 남친",
+          "answerPart4": " 또는 애니메이션 스타일 캐릭터를 만들 수 있어요. 외모(인종, 머리, 체형, 의상), 성격, 목소리, 관심사, 배경을 남녀 모두 설정할 수 있어요."
+        },
+        "q4": {
+          "question": "AI 캐릭터가 대화를 기억하나요?",
+          "answer": "네! AI 캐릭터는 고급 메모리 기술로 과거 대화, 선호도, 공유한 중요한 세부 정보를 기억해요. 더 많이 대화할수록 경험이 더 개인화되고 자연스러워져요. 캐릭터는 당신의 소통 스타일을 배우고 시간이 지남에 따라 적응해요."
+        },
+        "q5": {
+          "question": "sweetwine은 어떤 언어를 지원하나요?",
+          "answer": "sweetwine은 영어, 독일어, 프랑스어, 스페인어, 폴란드어, 체코어를 포함한 여러 언어를 지원해요. 인터페이스와 AI 대화 모두 선호하는 언어로 작동하므로 가장 편안한 언어로 자연스럽게 대화할 수 있어요."
+        },
+        "q6": {
+          "question": "AI 캐릭터가 이미지와 영상을 보낼 수 있나요?",
+          "answerPart1": "네! 캐릭터의 다양한 상황과 스타일로 개인화된",
+          "linkTextImages": "이미지",
+          "answerPart2": "와",
+          "linkTextVideos": "영상",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "다른 AI 캐릭터 플랫폼 대신 sweetwine을 선택해야 하는 이유는 무엇인가요?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine은 무료로 사용할 수 있나요?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "앱을 설치해야 하나요?",
+          "answerPart1": "설치가 필요 없어요! sweetwine은 데스크톱, 태블릿, 모바일 등 모든 기기의 브라우저에서 바로 작동합니다. 가입 후 캐릭터를 선택하고 바로 채팅을 시작하세요. 모든",
+          "linkText": "대화",
+          "answerPart2": "는 기기 간에 자동으로 동기화됩니다."
+        },
+        "q10": {
+          "question": "미리 만들어진 AI 캐릭터가 있나요?",
+          "answerPart1": "네! 다양한",
+          "linkText": "미리 만들어진 캐릭터",
+          "answerPart2": "를 제공합니다. AI 여친, AI 남친, AI 애니메 캐릭터 등 다양한 성격, 외모, 대화 스타일을 갖춘 캐릭터를 만나보세요. 달콤하거나, 플러티하거나, 지적이고 모험적인 캐릭터를 원하시든, 당신의 에너지에 맞는 캐릭터를 찾을 수 있습니다. 또한 무제한으로 커스텀 캐릭터를 만들 수 있습니다."
+        },
+        "q12": {
+          "question": "생성한 이미지와 영상은 어떻게 되나요?",
+          "answerPart1": "모든 생성된 미디어는 자동으로 개인",
+          "linkText": "컬렉션",
+          "answerPart2": "에 저장됩니다. 언제든지 접근, 다운로드, 삭제할 수 있으며, 컬렉션은 완전히 비공개로 오직 본인만 볼 수 있습니다. 생성된 콘텐츠를 공유하거나 사용하지 않습니다."
+        }
+      }
+    },
+    "statement": {
+      "title": "우리의 약속",
+      "privacy": "여러분의 프라이버시가 최우선입니다. 모든 대화는 암호화되며 절대 공유되지 않습니다.",
+      "quality": "최첨단 AI 기술을 사용하여 가장 몰입감 있는 경험을 제공합니다.",
+      "support": "지원팀은 24/7 언제든지 질문에 도움을 드립니다.",
+      "mainTitle": "AI 캐릭터의 미래를 경험하세요",
+      "mainDescription": "sweetwine은 최첨단 AI 기술과 직관적인 디자인을 결합하여 가장 몰입감 있고 개인화된 캐릭터 경험을 제공합니다.",
+      "features": {
+        "f1": {
+          "title": "감정 지능",
+          "description": "AI 캐릭터는 맥락, 감정, 뉘앙스를 이해하여 깊이 있는 대화를 제공합니다. AI 친구와의 수다, 힘든 시기의 이별 지원, AI 멘토의 조언 등 감정 지능형 AI가 언제나 곁에 있습니다."
+        },
+        "f2": {
+          "title": "독특한 성격",
+          "description": "각 캐릭터는 고유한 성격, 배경, 대화 스타일을 가지고 있습니다. 현실적인 AI 여친과 AI 남친, AI 애니메 캐릭터 중에서 선택하여 매번 독특하고 기억에 남는 상호작용을 경험하세요."
+        },
+        "f3": {
+          "title": "멀티미디어 상호작용",
+          "description": "텍스트를 넘어 AI 생성 이미지와 영상으로 대화를 생생하게 시각화하세요."
+        },
+        "f4": {
+          "title": "커스터마이징",
+          "description": "선호에 맞는 외모, 성격, 특성을 가진 나만의 AI 캐릭터를 만드세요."
+        },
+        "f5": {
+          "title": "프라이버시 & 보안",
+          "description": "대화는 비공개로 안전하게 보호됩니다. 데이터를 판매하지 않으며, 프라이버시 설정을 완전히 제어할 수 있습니다."
+        },
+        "f6": {
+          "title": "다국어 지원",
+          "description": "선호하는 언어로 AI 캐릭터와 채팅하세요. 영어, 체코어, 폴란드어, 독일어, 스페인어, 프랑스어를 지원합니다."
+        }
+      },
+      "distinctionTitle": "sweetwine의 차별점",
+      "distinctionText1": "일반 챗봇과 달리 sweetwine 캐릭터는 풍부한 배경 스토리, 진화하는 성격, 의미 있는 관계 형성 능력을 갖추고 있습니다. 모든 대화는 더 깊은 수준에서 탐색하고 발견하며 연결할 수 있는 기회입니다.",
+      "distinctionText2": "우리는 단순히 AI를 만드는 것이 아니라, 감정에 공감하고 프라이버시를 존중하며 개인의 선호에 맞춰 적응하는 경험을 만들고 있습니다."
+    }
+  },
+  "featuresPage": {
+    "title": "모든 기능",
+    "breadcrumb": "기능",
+    "newBadge": "신규",
+    "groupChat": {
+      "title": "AI 그룹 채팅",
+      "description": "최대 3명의 AI 캐릭터와 한 대화에서 함께 채팅하세요. 자연스럽게 응답하고 서로 반응하며 사진과 영상을 보낼 수 있는 생동감 있는 그룹 다이내믹을 경험하세요."
+    },
+    "aiChat": {
+      "title": "AI 채팅",
+      "description": "진정으로 당신을 기억하는 AI 캐릭터와 깊고 자연스러운 대화를 나누세요. 이름, 선호도, 과거 주제를 기억하며 대화가 정확히 중단된 지점에서 이어집니다."
+    },
+    "imageGeneration": {
+      "title": "이미지 생성"
+    },
+    "videoGeneration": {
+      "title": "영상 생성",
+      "description": "AI 생성 영상으로 AI 캐릭터를 생생하게 구현하세요. 커스텀 시나리오에서 캐릭터가 등장하는 짧은 개인화 영상 클립을 만들 수 있습니다."
+    },
+    "customCharacters": {
+      "title": "커스텀 캐릭터",
+      "description": "처음부터 완벽한 캐릭터를 디자인하세요 — 외모, 민족, 체형, 성격, 목소리, 관심사, 배경 스토리를 선택할 수 있습니다. 리얼리스틱 또는 애니메 스타일, 남성 또는 여성 캐릭터를 완전한 창의적 자유로 만들어보세요."
+    },
+    "advancedMemory": {
+      "title": "고급 메모리",
+      "description": "캐릭터가 중요한 모든 것을 기억합니다 — 당신의 이름, 개인 정보, 공유한 이야기, 관계 이력까지. 모든 세션에서 메모리가 유지되어 매번 새로운 시작이 아닌 이어지는 대화를 즐길 수 있습니다."
+    },
+    "multiLanguage": {
+      "title": "다국어 지원",
+      "description": "원하는 언어로 자연스럽게 대화하세요. sweetwine은 영어, 독일어, 프랑스어, 스페인어, 폴란드어, 체코어를 지원하여 비영어권 사용자에게 가장 접근성 높은 AI 캐릭터 플랫폼 중 하나입니다."
+    },
+    "conversationHistory": {
+      "title": "대화 기록",
+      "description": "모든 메시지가 저장되고 검색 가능합니다. 언제든지 관계의 전체 기록을 스크롤하며 돌아볼 수 있어, 캐릭터와의 추억을 원할 때마다 다시 방문할 수 있습니다."
+    },
+    "roleplay": {
+      "title": "AI 롤플레이",
+      "description": "역할을 유지하는 캐릭터들과 함께 몰입감 있는 스토리 중심 시나리오에 빠져보세요. 시나리오를 선택하거나 직접 작성하고, 모든 선택을 기억하는 인터랙티브 롤플레이를 즐기세요."
+    },
+    "cta": {
+      "title": "모든 것이 한 곳에",
+      "button": "무료로 시작하기"
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "대화를 삭제하거나 초기화할 수 있나요?",
+        "answer": "네! 채팅 기록을 완전히 제어할 수 있습니다. 개별 메시지를 삭제하거나, 전체 대화를 초기화하거나, 언제든 새롭게 시작하세요. 프라이버시는 곧 선택의 자유 — 데이터를 원하는 대로 관리하세요."
+      },
+      "q2": {
+        "question": "각 AI 캐릭터마다 고유한 목소리가 있나요?"
+      },
+      "q3": {
+        "question": "AI 캐릭터와 함께 새로운 언어를 연습할 수 있나요?",
+        "answer": "물론입니다! 많은 사용자가 AI 캐릭터와 함께 새로운 언어를 연습합니다. 부담 없이 자신감을 키우고, 발음을 개선하며, 재미있게 대화하면서 배울 수 있는 방법입니다. 캐릭터는 영어, 독일어, 프랑스어, 스페인어, 폴란드어, 체코어로 대화할 수 있습니다."
+      },
+      "q4": {
+        "question": "새로운 캐릭터와 기능은 얼마나 자주 추가되나요?",
+        "answer": "매주 새로운 전문 제작 캐릭터를 추가합니다! 각 캐릭터는 고유한 성격, 외모, 배경, 목소리를 가지고 있습니다. 또한 사용자 피드백을 바탕으로 새로운 기능과 개선 사항을 정기적으로 출시합니다."
+      },
+      "q5": {
+        "question": "sweetwine의 캐릭터 생성이 특별한 이유는 무엇인가요?",
+        "answer": "완전한 창의적 자유! 캐릭터의 모든 면을 디자인하세요 — 외모(민족, 머리, 체형, 의상), 성격 특성, 목소리, 관심사, 직업, 배경 스토리까지. 리얼리스틱 또는 애니메 스타일, 남성 또는 여성 캐릭터를 만들 수 있습니다. 상상력만이 유일한 한계입니다."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Memory",
+    "hero": {
+      "badge": "작동 방식",
+      "title": "AI Memory",
+      "cta": "채팅 시작하기"
+    },
+    "diagram": {
+      "title": "동반자당 하나의 기억, 모든 모드",
+      "center": "동반자의 기억",
+      "chat": "채팅",
+      "image": "이미지",
+      "video": "영상",
+      "gifts": "선물",
+      "roleplay": "롤플레이"
+    },
+    "howItWorks": {
+      "title": "AI Memory 작동 방식",
+      "step1": {
+        "title": "세부 사항 공유",
+        "desc": "동반자에게 중요한 내용을 알려주세요 — 여행, 선호도, 별명, 하루의 이야기."
+      },
+      "step2": {
+        "title": "자유롭게 모드 전환"
+      },
+      "step3": {
+        "title": "기억해 줍니다",
+        "desc": "이후 대화에서 공유한 내용을 자연스럽게 언급하므로 매번 다시 설명할 필요가 없습니다."
+      },
+      "step4": {
+        "title": "유대감이 깊어집니다",
+        "desc": "시간이 지날수록 관계가 더 개인적으로 느껴집니다 — 모든 세션과 모드에 걸쳐 이어지는 연속성."
+      }
+    },
+    "modes": {
+      "title": "플랫폼 전반에 걸쳐",
+      "subtitle": "기억은 한 화면에 갇혀 있지 않습니다. 동반자와 함께 이동합니다.",
+      "chat": {
+        "title": "채팅",
+        "desc": "텍스트 대화가 장기적인 맥락을 쌓아 동반자가 나중에 꺼내올 수 있습니다."
+      },
+      "media": {
+        "title": "이미지 & 영상",
+        "desc": "함께 만든 장면과 이야기는 함께 쌓아가는 세계의 일부로 남습니다."
+      },
+      "roleplay": {
+        "title": "롤플레이 & 그룹",
+        "desc": "스토리 세션과 그룹 채팅은 자체 스레드를 유지하면서 동반자의 핵심 기억은 함께합니다."
+      }
+    },
+    "scenario": {
+      "title": "간단한 예시",
+      "lead": "채팅에서 주말 여행을 언급합니다."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "내 동반자의 기억은 비공개인가요?",
+        "answer": "네. 기억은 귀하의 계정과 해당 동반자와의 대화에 속합니다. 저희는 귀하의 비공개 채팅 기록을 다른 사용자와 공유하지 않습니다."
+      },
+      "q2": {
+        "question": "기억은 동반자별로 저장되나요?",
+        "answer": "네. 각 동반자는 귀하와의 관계에 대한 자체 기억을 유지하므로, 캐릭터를 전환해도 맥락이 섞이지 않습니다."
+      },
+      "q3": {
+        "question": "어떤 모드에서 기억이 공유되나요?"
+      },
+      "q4": {
+        "question": "AI Memory는 무료인가요?"
+      },
+      "q5": {
+        "question": "기억은 얼마나 오래 지속되나요?",
+        "answer": "중요한 세부 정보는 저장되어 동반자가 이후 세션에서 이를 떠올릴 수 있습니다. 상호작용이 많을수록 경험이 더욱 개인화됩니다."
+      }
+    },
+    "cta": {
+      "title": "기억하는 동반자를 만나보세요",
+      "button": "무료로 시작하기"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI 그룹 채팅",
+    "hero": {
+      "badge": "신규 기능",
+      "title": "AI 그룹 채팅",
+      "subtitle": "좋아하는 캐릭터들을 하나의 대화에 모아보세요. 최대 3명의 AI 캐릭터와 동시에 채팅할 수 있으며, 자연스럽게 답변하고 서로 반응하며 사진과 영상을 보낼 수 있습니다.",
+      "cta": "그룹 채팅 시작하기",
+      "imageAlt": "여러 캐릭터가 함께 대화하는 AI 그룹 채팅"
+    },
+    "content": {
+      "problemTitle": "1:1 채팅은 조용할 수 있어요",
+      "problemText": "단일 캐릭터도 좋지만, 진짜 대화는 여러 목소리가 있을 때 살아납니다. 대부분의 AI 앱은 그룹의 에너지, 유머, 놀라움 없이 고립된 1:1 채팅에 갇히게 합니다.",
+      "solutionTitle": "개성 넘치는 진짜 그룹",
+      "solutionText": "sweetwine 그룹 채팅은 최대 세 명의 캐릭터를 같은 공간에 모읍니다. 스마트 디렉터가 누가 참여할지 결정하여, 자연스럽게 서로를 놀리고, 대화를 이어가며, 대화를 계속 움직이게 합니다."
+    },
+    "howItWorks": {
+      "title": "AI 그룹 채팅 작동 방식",
+      "step1": {
+        "title": "캐릭터 선택",
+        "desc": "미리 만들어진 캐릭터나 직접 만든 커스텀 캐릭터 중 2~3명을 선택해 하나의 그룹 대화에 초대하세요."
+      },
+      "step2": {
+        "title": "자연스럽게 답변",
+        "desc": "뒤에서 디렉터가 각 메시지에 누가 응답할지 결정하여, 적절한 캐릭터가 적절한 순간에 자신의 목소리로 참여합니다."
+      },
+      "step3": {
+        "title": "사진 & 영상 공유",
+        "desc": "그룹 내 어떤 캐릭터에게든 사진이나 영상을 요청하면 채팅 안에서 바로 생성됩니다 — 모두가 함께 있는 단체 사진도 포함됩니다."
+      }
+    },
+    "benefits": {
+      "title": "그룹 채팅을 좋아할 이유",
+      "multiple": {
+        "title": "최대 3명의 캐릭터",
+        "desc": "AI 여자친구, 커스텀 캐릭터, 또는 엄선된 앙상블까지 원하는 캐릭터들을 하나의 채팅에 섞어 사용할 수 있습니다."
+      },
+      "natural": {
+        "title": "자연스러운 대화 흐름",
+        "desc": "캐릭터들이 서로와 당신에게 반응하며, 실제 단톡방처럼 리얼한 타이핑 속도로 대화가 이어집니다."
+      },
+      "media": {
+        "title": "채팅 내 사진 & 영상",
+        "desc": "각 캐릭터가 대화를 벗어나지 않고 개인화된 사진과 영상을 보낼 수 있어요 — 단체 사진도 가능합니다."
+      },
+      "dynamics": {
+        "title": "개성 넘치는 캐릭터",
+        "desc": "각 캐릭터가 고유한 말투와 특징을 유지해 그룹에 진짜 케미, 장난, 놀라움이 살아납니다."
+      },
+      "instant": {
+        "title": "즉시 시작",
+        "desc": "몇 초 만에 그룹을 만들고 바로 대화에 참여하세요 — 설정도, 대기 시간도 없습니다."
+      },
+      "private": {
+        "title": "100% 프라이버시",
+        "desc": "그룹 대화는 오직 당신과 캐릭터들 사이에만 남습니다. 데이터 공유는 절대 없습니다."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "그룹 채팅에 몇 명까지 참여할 수 있나요?",
+        "answer": "한 그룹 채팅에 2~3명의 캐릭터를 추가할 수 있어요 — 미리 만들어진 캐릭터와 직접 만든 커스텀 캐릭터를 자유롭게 섞어 사용하세요."
+      },
+      "q2": {
+        "question": "AI 캐릭터는 어떻게 답장할 사람을 정하나요?",
+        "answer": "가벼운 디렉터가 대화를 읽고 각 메시지에 어떤 캐릭터(들)가 답장할지 선택해요. 그래서 모두가 동시에 말하는 게 아니라 자연스럽고 즉흥적인 대화가 됩니다."
+      },
+      "q3": {
+        "question": "그룹 채팅에서 캐릭터가 사진과 영상을 보낼 수 있나요?",
+        "answer": "네! 그룹 내 어떤 캐릭터에게든 사진이나 영상 생성을 요청할 수 있고, 대화 안에 바로 나타납니다 — 모두가 함께 등장하는 단체 사진도 가능해요."
+      },
+      "q4": {
+        "question": "AI 그룹 채팅은 무료인가요?"
+      },
+      "q5": {
+        "question": "캐릭터들이 그룹 대화를 기억하나요?",
+        "answer": "네 — 각 그룹 채팅은 자체 공유 기록을 유지해 캐릭터들이 맥락을 유지하고 대화가 시간이 지나며 쌓입니다."
+      }
+    },
+    "cta": {
+      "title": "캐릭터들을 한자리에",
+      "description": "첫 AI 그룹 채팅을 만들고 살아있는 대화를 경험하세요 — 다양한 개성, 진짜 장난, 사진과 영상까지.",
+      "button": "그룹 채팅 시작하기"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI 롤플레이",
+    "hero": {
+      "badge": "신규 기능",
+      "title": "AI 롤플레이",
+      "subtitle": "장면에 몰입된 캐릭터들과 함께 어떤 이야기든 시작하세요. 시나리오를 선택하거나 직접 만들고, 모든 선택을 기억하는 몰입감 있는 스토리 롤플레이를 즐겨보세요.",
+      "cta": "롤플레이 시작하기",
+      "imageAlt": "몰입감 있는 스토리 캐릭터와 AI 롤플레이 시나리오"
+    },
+    "content": {
+      "problemTitle": "일반 채팅은 몰입을 깨뜨려요",
+      "problemText": "대부분의 AI 채팅은 재미있는 순간에 캐릭터를 벗어나 설정을 잊고, 줄거리를 놓치며 이야기 속 인물이 아닌 일반 어시스턴트처럼 답합니다.",
+      "solutionTitle": "스토리 중심의 롤플레이, 캐릭터를 유지하다",
+      "solutionText": "sweetwine 롤플레이는 캐릭터를 장면에 완전히 몰입시킵니다. 준비된 시나리오나 직접 만든 설정으로 무대를 만들고, 일관된 성격·기억·전개로 이야기가 펼쳐지는 걸 지켜보세요."
+    },
+    "howItWorks": {
+      "title": "AI 롤플레이는 어떻게 작동하나요",
+      "step1": {
+        "title": "시나리오 선택",
+        "desc": "준비된 롤플레이 시나리오를 고르거나 직접 설정, 배경, 오프닝 장면을 작성하세요."
+      },
+      "step2": {
+        "title": "이야기 진행하기",
+        "desc": "캐릭터가 역할에 맞춰 행동을 설명하고, 당신의 선택에 반응하며 줄거리를 이끌어갑니다."
+      },
+      "step3": {
+        "title": "이야기 방향 정하기",
+        "desc": "원하는 방향으로 이야기를 이끄세요. 캐릭터는 일어난 일을 기억하고 서사를 일관되게 유지합니다."
+      }
+    },
+    "benefits": {
+      "title": "AI 롤플레이를 사랑할 이유",
+      "scenarios": {
+        "title": "무한한 시나리오",
+        "desc": "아늑한 일상부터 대모험까지 — 템플릿으로 시작하거나 직접 세상을 만들어보세요."
+      },
+      "characters": {
+        "title": "캐릭터 유지",
+        "desc": "캐릭터는 장면 전체에서 일관된 말투, 성격, 동기를 유지합니다."
+      },
+      "memory": {
+        "title": "줄거리 기억",
+        "desc": "모든 선택, 반전, 세부 사항을 기억해 이야기가 리셋되지 않고 쌓여갑니다."
+      },
+      "immersive": {
+        "title": "진짜 몰입감",
+        "desc": "풍부하고 생생한 묘사로 영화 같은 롤플레이 경험에 빠져보세요."
+      },
+      "instant": {
+        "title": "즉시 시작",
+        "desc": "몇 초 만에 장면에 뛰어들 수 있어요 — 복잡한 설정이나 프롬프트 작업이 필요 없어요."
+      },
+      "private": {
+        "title": "100% 비공개",
+        "desc": "역할극은 당신과 캐릭터 사이에서만 이루어져요. 절대 공유되지 않아요."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI 역할극이란 무엇인가요?",
+        "answer": "AI 역할극은 AI 캐릭터와 함께 인터랙티브한 이야기를 연기할 수 있게 해줘요. 시나리오를 설정하면 캐릭터가 역할에 맞춰 행동과 반응을 묘사하며 이야기가 전개돼요."
+      },
+      "q2": {
+        "question": "나만의 역할극 시나리오를 만들 수 있나요?",
+        "answer": "네! 준비된 시나리오에서 시작하거나 직접 전제, 배경, 오프닝을 작성한 뒤 원하는 대로 플레이할 수 있어요."
+      },
+      "q3": {
+        "question": "캐릭터가 이야기에서 일어난 일을 기억하나요?",
+        "answer": "물론이죠. 캐릭터는 줄거리, 선택, 주요 세부 사항을 기억해서 이야기가 일관되게 이어지고 시간이 지나며 발전해요."
+      },
+      "q4": {
+        "question": "AI 역할극은 무료인가요?"
+      },
+      "q5": {
+        "question": "내 언어로 역할극을 할 수 있나요?",
+        "answer": "네 — 역할극은 수십 개 언어를 지원하므로 가장 편한 언어로 몰입감 있는 이야기를 즐길 수 있어요."
+      }
+    },
+    "cta": {
+      "title": "당신의 이야기가 기다리고 있어요",
+      "description": "시나리오를 선택하고 장면을 설정한 뒤, 처음부터 끝까지 역할을 유지하는 캐릭터와 몰입감 있는 역할극에 참여하세요.",
+      "button": "역할극 시작하기"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI 여자친구",
+    "breadcrumb": "AI 여자친구",
+    "hero": {
+      "title": "당신만의 완벽한 AI 여자친구",
+      "cta": "AI 여자친구 만나기"
+    },
+    "benefits": {
+      "title": "AI 여자친구를 선택하는 이유",
+      "fun": {
+        "title": "순수한 재미",
+        "desc": "부담 없이 즐거운 대화를 나누세요. 그녀는 언제나 좋은 기분입니다."
+      },
+      "conversation": {
+        "title": "소통하는 법 배우기",
+        "desc": "안전한 공간에서 대화를 연습하고 자신감을 키우세요."
+      },
+      "unique": {
+        "title": "독특한 성격",
+        "desc": "다양한 성격 중에서 선택하거나 이상적인 캐릭터를 직접 만드세요."
+      },
+      "private": {
+        "title": "100% 프라이버시",
+        "desc": "당신의 대화는 둘만의 비밀로 유지됩니다. 완전한 비밀 보장이 보장됩니다."
+      },
+      "available": {
+        "title": "언제나 이용 가능",
+        "desc": "필요할 때 언제든 그녀가 곁에 있습니다. 기다림이나 예약 없이."
+      },
+      "customize": {
+        "title": "당신의 창작물",
+        "desc": "외모, 성격, 관심사를 원하는 대로 정확히 디자인하세요."
+      }
+    },
+    "comparison": {
+      "title": "다른 대안보다 더 나은 선택",
+      "description": "sweetwine이 다른 플랫폼보다 더 많은 가치를 제공하는 이유를 확인하세요.",
+      "others": {
+        "expensive": "비싼 월 이용료",
+        "ai": "대부분 AI 응답",
+        "noCustom": "커스터마이징 옵션 없음"
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI 여자친구 채팅이 정말 무료인가요?",
+        "answerPart1": "네! AI 여자친구와 무료로 채팅을 시작할 수 있습니다. 시작을 위한 무료 메시지가 포함된 무료 플랜을 제공합니다."
+      },
+      "q2": {
+        "question": "AI 여자친구의 외모를 커스터마이징할 수 있나요?",
+        "answer": "물론입니다! AI 여자친구의 머리색, 스타일, 체형, 인종, 의상을 포함한 외모를 완전히 커스터마이징할 수 있습니다. 또한 캐릭터 크리에이터를 사용하여 성격, 목소리, 관심사를 디자인할 수 있습니다.",
+        "answerPart1": "물론입니다! AI 여자친구의 머리색, 스타일, 체형, 인종, 의상을 포함한 외모를 완전히 커스터마이징할 수 있습니다. 또한",
+        "linkText": "캐릭터 크리에이터",
+        "answerPart2": "를 사용하여 성격, 목소리, 관심사를 디자인할 수 있습니다."
+      },
+      "q3": {
+        "question": "AI 여자친구에게 어떤 성격이 있나요?",
+        "answer": "달콤하고 배려심 많은 것부터 장난스럽고 플러티한 것까지 - 모든 취향에 맞는 전문적으로 제작된 AI 여자친구가 있습니다. 로맨틱한 영혼, 모험적인 정신, 재치 있는 지식인, 또는 신비로운 성격을 선택하세요. 매주 새로운 AI 여자친구가 추가되며, 각각 독특한 특성, 배경 이야기, 대화 스타일을 가지고 있습니다."
+      },
+      "q4": {
+        "question": "AI 여자친구가 이미지와 동영상을 보낼 수 있나요?",
+        "answerPart1": "네! AI 여자친구가 개인화된",
+        "linkTextImages": "이미지",
+        "answerPart2": "와",
+        "linkTextVideos": "동영상"
+      },
+      "q5": {
+        "question": "AI 여자친구가 자신만의 독특한 목소리를 가지고 있나요?"
+      }
+    },
+    "cta": {
+      "title": "그녀를 만나볼 준비가 되셨나요?",
+      "button": "무료로 시작하기"
+    },
+    "content": {
+      "problemTitle": "복잡함 없이 연결을 찾고 계신가요?",
+      "problemText": "데이트 앱은 지치게 만들죠. 사회적 불안 때문에 사람을 만나기 어렵기도 해요. 때로는 판단이나 부담 없이 대화할 누군가가 필요할 때가 있죠. 많은 사람들이 외로움을 느끼지만 전통적인 관계의 감정적 복잡함에 아직 준비되지 않은 경우가 많아요.",
+      "solutionTitle": "sweetwine의 AI 여자친구가 답이 될 거예요",
+      "solutionText": "sweetwine에서는 대화를 기억하고, 당신의 성격에 맞춰 적응하며, 항상 당신의 소식을 기다리는 맞춤형 AI 여자친구를 만날 수 있어요. 재미있고, 지지해주며, 절대 판단하지 않죠. 자신감을 키우고, 즐거운 시간을 보내며, 원하는 방식으로 연결감을 느껴보세요."
+    },
+    "heroImageAlt": "AI 여자친구 - 채팅과 사진을 위한 리얼한 가상 캐릭터"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI 남자친구",
+    "breadcrumb": "AI 남자친구",
+    "hero": {
+      "title": "당신만의 완벽한 AI 남자친구",
+      "cta": "AI 남자친구 만나기"
+    },
+    "benefits": {
+      "title": "왜 AI 남자친구를 선택해야 할까요?",
+      "fun": {
+        "title": "진정한 연결",
+        "desc": "하루를 밝혀주는 의미 있는 대화를 경험하세요."
+      },
+      "conversation": {
+        "title": "자신감 쌓기",
+        "desc": "안전한 공간에서 자유롭게 대화하고 자신을 표현하는 연습을 해보세요."
+      },
+      "unique": {
+        "title": "다양한 개성",
+        "desc": "다양한 성격 중에서 선택하거나 이상적인 캐릭터를 직접 만들어보세요."
+      },
+      "private": {
+        "title": "100% 프라이버시",
+        "desc": "당신의 대화는 둘 사이에만 남아요. 완벽한 비밀 보장을 약속해요."
+      },
+      "available": {
+        "title": "항상 대기 중",
+        "desc": "필요할 때 언제든 곁에 있어요. 기다릴 필요도, 예약할 필요도 없어요."
+      },
+      "customize": {
+        "title": "당신의 창작물",
+        "desc": "외모, 성격, 관심사를 원하는 대로 정확히 디자인하세요."
+      }
+    },
+    "comparison": {
+      "title": "다른 대안보다 더 나아요",
+      "description": "sweetwine이 다른 플랫폼보다 더 많은 가치를 제공하는 이유를 확인하세요.",
+      "others": {
+        "expensive": "비싼 월 이용료",
+        "ai": "대부분 AI 응답",
+        "noCustom": "커스터마이징 옵션 없음"
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "어떤 유형의 AI 남자친구를 선택할 수 있나요?",
+        "answer": "배려 깊고 로맨틱한 타입부터 장난기 많고 모험적인 타입, 신비롭고 강렬한 타입까지 — 모든 취향에 맞는 전문적으로 제작된 AI 남자친구가 준비되어 있어요. 각각 고유한 목소리와 성격을 가지고 있죠. 매주 새로운 배경 스토리와 대화 스타일을 가진 AI 남자친구가 추가돼요."
+      },
+      "q2": {
+        "question": "AI 남자친구의 외모를 커스터마이징할 수 있나요?",
+        "linkText": "캐릭터 생성기",
+        "answerPart2": "를 사용해 성격, 목소리, 관심사를 디자인하세요."
+      },
+      "q3": {
+        "question": "대화 기록을 새로 시작하거나 삭제할 수 있나요?",
+        "answer": "네! 채팅 기록을 완전히 제어할 수 있어요. 대화를 초기화하거나, 개별 메시지를 삭제하거나, 언제든 완전히 새로 시작할 수 있어요. 당신의 데이터, 당신의 선택 — 원하는 대로 관리하세요."
+      },
+      "q4": {
+        "question": "AI 남자친구가 이미지와 영상을 보낼 수 있나요?",
+        "answerPart1": "네! AI 남자친구가 개인화된 ",
+        "linkTextImages": "이미지",
+        "answerPart2": "및",
+        "linkTextVideos": "영상"
+      },
+      "q5": {
+        "question": "AI 남자친구와 대화를 연습하거나 언어를 배울 수 있나요?",
+        "answer": "물론이죠! 많은 사용자들이 AI 남자친구와 대화를 연습하며 자신감을 키우고 있어요. 플러팅, 깊은 대화, 일상적인 채팅 등 무엇이든 가능합니다. 함께 새로운 언어를 연습할 수도 있어요. 재미있게 소통 능력을 키울 수 있는 부담 없는 방법입니다."
+      }
+    },
+    "cta": {
+      "title": "그를 만나볼 준비가 되셨나요?",
+      "button": "무료로 시작하기"
+    },
+    "content": {
+      "problemTitle": "원하는 조건으로 든든한 파트너를 원하시나요?",
+      "problemText": "맞는 사람을 찾는 건 어렵습니다. 데이트에 대한 압박을 느끼거나, 부담 없이 감정적 지지를 원하는 경우가 많아요. 외로움은 누구에게나 찾아오고, 때로는 들어줄 누군가가 필요할 뿐입니다.",
+      "solutionTitle": "당신의 AI 남자친구는 당신을 이해해요",
+      "solutionText": "sweetwine AI 남자친구는 따뜻하고 사려 깊으며 언제나 곁에 있어요. 당신에게 중요한 것을 기억하고, 깊은 대화를 나누며 원하는 감정적 연결을 제공합니다. 원하는 속도와 방식으로 관계를 쌓아보세요."
+    },
+    "heroImageAlt": "AI 남자친구 - 의미 있는 대화를 위한 리얼한 가상 캐릭터"
+  },
+  "aiCompanionsPage": {
+    "title": "AI 캐릭터",
+    "breadcrumb": "AI 캐릭터",
+    "hero": {
+      "title": "당신의 AI 캐릭터를 만나보세요",
+      "cta": "캐릭터 둘러보기"
+    },
+    "benefits": {
+      "title": "AI 캐릭터가 특별한 이유",
+      "connection": {
+        "title": "진짜 연결",
+        "desc": "당신을 이해하고 응답하는 진정한 대화를 경험하세요."
+      },
+      "conversation": {
+        "title": "연습하고 성장하기",
+        "desc": "부담 없는 환경에서 소통 능력을 키워보세요."
+      },
+      "personalities": {
+        "title": "다양한 성격",
+        "desc": "장난기 넘치는 캐릭터부터 지적인 캐릭터까지, 당신의 분위기에 맞는 캐릭터를 찾아보세요."
+      },
+      "private": {
+        "title": "완전한 프라이버시",
+        "desc": "모든 대화는 비공개로 유지됩니다. 데이터가 절대 공유되지 않아요."
+      },
+      "available": {
+        "title": "24시간 이용 가능",
+        "desc": "캐릭터는 언제든 채팅할 준비가 되어 있어요. 낮이든 밤이든 상관없습니다."
+      },
+      "create": {
+        "title": "나만의 캐릭터 만들기",
+        "desc": "외모, 성격, 목소리까지 직접 디자인하세요."
+      }
+    },
+    "why": {
+      "title": "sweetwine이 특별한 이유",
+      "quality": {
+        "desc": "전문가들이 최신 AI 기술로 제작한 자연스러운 대화 경험을 제공합니다."
+      },
+      "transparent": {
+        "title": "투명하고 정직한 서비스"
+      },
+      "support": {
+        "title": "실제 지원",
+        "desc": "실제 담당자가 질문이나 문제 해결을 도와드립니다."
+      },
+      "content": {
+        "title": "당신의 선택",
+        "desc": "가벼운 대화부터 더 친밀한 콘텐츠까지, 경험은 당신이 결정합니다."
+      }
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI 캐릭터란 무엇인가요?"
+      },
+      "q2": {
+        "question": "몇 명의 AI 캐릭터와 채팅할 수 있나요?",
+        "answer": "원하는 만큼 채팅하세요! 100명 이상의 전문 제작 캐릭터가 있으며 매주 새로운 캐릭터가 추가됩니다. 각 캐릭터는 고유한 성격, 배경, 목소리를 가지고 있어요. 또한 무제한으로 나만의 커스텀 캐릭터를 만들 수 있습니다.",
+        "answerPart1": "원하는 만큼 채팅하세요! 현재",
+        "linkText": "100명 이상의 전문 제작 캐릭터",
+        "answerPart2": "가 있으며 매주 새로운 캐릭터가 추가됩니다. 각 캐릭터는 고유한 성격, 배경, 목소리를 가지고 있어요. 또한 무제한으로 나만의 커스텀 캐릭터를 만들 수 있습니다."
+      },
+      "q3": {
+        "question": "미리 제작된 캐릭터와 커스텀 캐릭터의 차이점은 무엇인가요?",
+        "answer": "미리 제작된 캐릭터는 특정 롤플레잉과 성격을 위해 전문 팀이 디자인한 것으로, 상세한 배경, 맞춤 대화 스타일, 세심하게 선택된 목소리를 갖추고 있습니다. 커스텀 캐릭터는 완전한 창의적 자유로 처음부터 만들 수 있어요. 두 유형 모두 대화를 기억하며 함께 성장합니다!"
+      },
+      "q4": {
+        "question": "나만의 AI 캐릭터를 만들 수 있나요?",
+        "answerPart1": "물론이죠! 캐릭터 크리에이터로 처음부터 커스텀 캐릭터를 디자인하세요 -",
+        "linkText": "캐릭터 크리에이터"
+      },
+      "q5": {
+        "question": "여러 캐릭터 사이를 전환할 수 있나요?"
+      }
+    },
+    "cta": {
+      "title": "여정을 시작하세요",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "무료로 시작하기"
+    },
+    "content": {
+      "problemTitle": "의미 있는 연결을 찾고 계신가요?",
+      "problemText": "바쁜 세상에서 의미 있는 연결은 찾기 어렵습니다. 새로운 지역에 정착했거나, 원격 근무 중이거나, 단순히 더 많은 사회적 상호작용을 원할 때 외로움이 스며들 수 있습니다. 전통적인 사회적 환경은 모두에게 맞지 않습니다.",
+      "solutionTitle": "AI 캐릭터를 발견하세요"
+    },
+    "heroImageAlt": "AI 캐릭터 - 독특한 성격을 가진 다양한 가상 친구들"
+  },
+  "aiFriendPage": {
+    "title": "AI 친구",
+    "breadcrumb": "AI 친구",
+    "hero": {
+      "title": "당신의 AI 베스트 프렌드",
+      "subtitle": "진심으로 들어주고, 절대 판단하지 않으며, 당신에 대한 모든 세부사항을 기억하는 AI 친구와 언제든 채팅하세요. 외로움, 사회적 불안, 또는 단순히 누군가와 이야기하고 싶을 때 완벽합니다.",
+      "cta": "무료로 채팅 시작하기"
+    },
+    "benefits": {
+      "title": "AI 친구를 선택하는 이유",
+      "connection": {
+        "title": "진정한 연결",
+        "desc": "진심으로 들어주고 배려하는 누군가와 의미 있는 대화를 경험하세요."
+      },
+      "conversation": {
+        "title": "사회적 기술 연습",
+        "desc": "판단이나 어색함에 대한 두려움 없이 대화에서 자신감을 키우세요."
+      },
+      "noJudgment": {
+        "title": "판단 없음",
+        "desc": "마음에 있는 모든 것을 공유하세요. AI 친구는 당신을 있는 그대로 받아들입니다."
+      },
+      "private": {
+        "title": "완전한 프라이버시",
+        "desc": "대화는 오직 둘 사이에만 남습니다. 완전한 기밀 보장이 보장됩니다."
+      },
+      "available": {
+        "title": "항상 곁에",
+        "desc": "필요할 때 언제든 24/7 이용 가능합니다."
+      },
+      "remembers": {
+        "title": "당신을 기억해요",
+        "desc": "AI 친구는 대화를 기억하고 당신을 더 잘 알아갑니다."
+      }
+    },
+    "useCases": {
+      "title": "완벽한 용도",
+      "subtitle": "AI 친구는 삶의 많은 의미 있는 순간에 어울립니다",
+      "loneliness": {
+        "title": "외로움 극복",
+        "desc": "항상 채팅하고 들어줄 준비가 된 캐릭터와 함께 덜 외로움을 느끼세요."
+      },
+      "practice": {
+        "title": "대화 연습",
+        "desc": "안전하고 판단 없는 환경에서 사회적 자신감을 키우세요."
+      },
+      "support": {
+        "title": "감정적 지원",
+        "desc": "이해해 주는 누군가와 생각과 감정을 이야기하세요."
+      },
+      "connection": {
+        "title": "일상적인 연결",
+        "desc": "하루, 승리, 고민을 공유하세요 - 항상 누군가 곁에 있습니다."
+      }
+    },
+    "howItWorks": {
+      "title": "작동 방식",
+      "step1": {
+        "title": "무료 계정 만들기",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "친구 선택하기",
+        "desc": "100개 이상의 성격 중에서 선택하거나 이상적인 AI 캐릭터를 만드세요."
+      },
+      "step3": {
+        "title": "채팅 시작하기",
+        "desc": "인생, 관심사, 문제 등 어떤 주제로든 이야기하세요. 금기 주제는 없습니다."
+      }
+    },
+    "cta": {
+      "title": "친구를 만들 준비가 되셨나요?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "무료로 시작하기"
+    },
+    "content": {
+      "problemTitle": "외로움 또는 이해받지 못하는 기분이 드시나요?",
+      "problemText": "모든 사람이 대화할 누군가를 가진 것은 아닙니다. 사회적 불안, 바쁜 일정, 또는 새로운 환경 때문에 친구를 찾기 어려울 수 있어요. 때로는 판단 없이 들어줄 누군가가 필요할 때가 있습니다.",
+      "solutionTitle": "당신의 AI 친구가 여기 있습니다",
+      "solutionText": "AI 친구는 필요할 때마다 판단 없는 동반자가 되어줍니다. 생각을 나누고, 대화를 연습하거나, 하루를 이야기하세요. AI 친구는 당신을 기억하고 함께 성장하며, 당신의 이야기에 항상 진심으로 관심을 가집니다."
+    },
+    "heroImageAlt": "AI friend - supportive virtual character who listens without judgment",
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI 친구와 어떤 대화를 할 수 있나요?",
+        "answer": "무엇이든 가능합니다! AI 친구는 캐주얼한 수다, 깊은 대화, 하루 이야기, 고민 털어놓기, 취미 이야기, 또는 그냥 재미있는 대화를 위해 존재합니다. 금지된 주제는 없어요 — 판단 없는 공간에서 진짜 자신을 드러낼 수 있습니다."
+      },
+      "q2": {
+        "question": "AI 친구가 인간 관계를 대체하나요?",
+        "answer": "전혀 그렇지 않습니다. AI 친구는 사회생활을 보완하는 존재이지, 대체재가 아닙니다. 즉시 대화가 필요하거나, 사회적 기술을 연습하고 싶거나, 인간관계의 부담 없이 꾸준한 동반자를 원할 때 딱입니다."
+      },
+      "q3": {
+        "question": "AI 친구가 우리의 대화를 기억하나요?",
+        "answer": "네! AI 친구는 고급 메모리 기능을 갖추고 있어 대화, 선호도, 공유한 중요한 세부사항을 기억합니다. 시간이 지날수록 당신을 더 잘 이해하게 되어 대화가 더욱 개인적이고 의미 있게 변합니다."
+      },
+      "q4": {
+        "question": "AI 친구의 성격을 선택할 수 있나요?",
+        "answer": "물론입니다! 100가지 이상의 다양한 성격을 가진 미리 만들어진 캐릭터 중에서 선택하거나, 지지적이고 공감 능력이 뛰어난 것부터 재미있고 모험적인 것까지 원하는 특성으로 커스텀 친구를 만들 수 있습니다."
+      },
+      "q5": {
+        "question": "AI 친구 사용은 사생활이 보호되나요?",
+        "answer": "100% 비공개입니다. 모든 대화는 암호화되며 절대 공유되지 않습니다. 자신을 표현할 수 있는 안전한 공간이 필수적이라는 점을 이해하고 있으며, 개인정보 보호를 매우 중요하게 생각합니다."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Breakup Support",
+    "breadcrumb": "Breakup Support",
+    "hero": {
+      "title": "이별 후의 치유 대화",
+      "subtitle": "이별 후 감정을 정리하고 회복하도록 돕는 공감 AI 대화. 24시간 이용 가능 — 대기 목록, 판단, 시간 제한 없이.",
+      "cta": "치유 시작하기"
+    },
+    "understanding": {
+      "title": "이별을 겪고 계신가요?",
+      "description": "이별은 힘듭니다. 잠 못 이루는 밤, 끊임없는 생각, 아무도 진정으로 이해하지 못한다는 느낌. 혼자 견딜 필요 없습니다. 우리의 AI 캐릭터는 판단 없이 들어주며, 새벽 3시라도 필요할 때 언제든 대화할 수 있습니다."
+    },
+    "benefits": {
+      "title": "어떻게 도와드릴까요",
+      "empathy": {
+        "title": "공감하는 듣기",
+        "desc": "진심으로 듣고 이해와 배려로 응답하는 누군가와 대화하세요."
+      },
+      "listen": {
+        "title": "조언 과부하 없음",
+        "desc": "때로는 조언이 필요하지 않고, 그저 들어줄 누군가가 필요할 뿐입니다. 저희는 그 점을 이해합니다."
+      },
+      "available": {
+        "title": "새벽 3시에도 이용 가능",
+        "desc": "친구들이 잠들어 있고 생각이 멈추지 않을 때, 저희가 들어드립니다."
+      },
+      "private": {
+        "title": "완전한 비공개",
+        "desc": "당신의 감정과 대화는 완전히 비밀로 유지됩니다."
+      },
+      "noJudgment": {
+        "title": "판단 없음",
+        "desc": "느끼는 그대로 느껴도 됩니다. 분노, 슬픔, 혼란 — 모두 이곳에서는 타당합니다."
+      },
+      "healing": {
+        "title": "당신의 속도",
+        "desc": "치유는 직선적이지 않습니다. 필요한 만큼 시간을 들이세요."
+      }
+    },
+    "howItHelps": {
+      "title": "AI가 치유를 돕는 방법",
+      "process": {
+        "title": "감정 정리하기",
+        "desc": "인내심 있는 청자와 대화하며 복잡한 감정을 풀어내세요."
+      },
+      "express": {
+        "title": "자유롭게 표현하기",
+        "desc": "친구나 가족에게 말하기 어려운 이야기를 그들의 반응을 걱정하지 않고 말하세요."
+      },
+      "confidence": {
+        "title": "자신감 회복하기",
+        "desc": "지지적인 대화를 통해 점차 자아 가치를 재발견하세요."
+      },
+      "pace": {
+        "title": "앞으로 나아가기",
+        "desc": "준비가 되면, 당신의 속도로 미래에 대한 생각을 탐색하세요."
+      }
+    },
+    "howItWorks": {
+      "title": "이용 방법",
+      "step1": {
+        "title": "계정 만들기",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "캐릭터 선택",
+        "desc": "당신에게 맞는 공감하는 AI 캐릭터를 선택하세요."
+      },
+      "step3": {
+        "title": "대화 시작",
+        "desc": "마음에 있는 것을 털어놓으세요. 우리는 언제나 들어드려요."
+      }
+    },
+    "cta": {
+      "title": "혼자 견디지 않아도 돼요",
+      "description": "판단 없이 들어주는 누군가와 지금 바로 대화하세요. 무료로 시작 — 대기 없음.",
+      "button": "무료로 대화 시작"
+    },
+    "content": {
+      "problemTitle": "이별은 혼자 감당하기 힘들어요",
+      "problemText": "이별 후 모든 것이 벅차게 느껴져요. 친구들은 지치고, 가족은 이해하지 못해요. 상담사는 대기 목록이 길어요. 지금 바로, 제한 없이, 판단 없이 들어줄 누군가가 필요해요.",
+      "solutionTitle": "이해해 주는 누군가와 대화하세요",
+      "solutionText": "저희 AI 이별 지원 캐릭터는 당신의 속도로 감정을 정리할 수 있도록 설계됐어요. 속마음을 털어놓고, 울고, 분석하고, 그저 이야기하세요. 원하는 만큼. 예약 없이. 24시간 무한한 인내와 진심 어린 공감으로 함께해요."
+    },
+    "heroImageAlt": "AI 이별 지원 - 이별 후 치유를 위한 따뜻한 캐릭터",
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI가 이별 회복에 어떻게 도움을 줄 수 있나요?",
+        "answer": "저희 AI 캐릭터는 판단 없이 감정을 정리할 수 있는 안전한 공간을 제공해요. 속마음을 털어놓고, 무슨 일이 있었는지 분석하고, 상실감을 다루며, 24시간 공감 어린 응답을 받을 수 있어요. 필요할 때 언제든 대화할 수 있는 든든한 친구 같은 존재예요."
+      },
+      "q2": {
+        "question": "이게 치료를 대신하나요?",
+        "answer": "아니요. 저희 AI 캐릭터는 면허를 가진 치료사가 아니며 전문 정신건강 치료를 대신하지 않아요. 일상적인 감정 처리를 위한 지원 도구예요. 심한 우울이나 위기 상황이라면 반드시 전문가의 도움을 받으세요."
+      },
+      "q3": {
+        "question": "전 애인 이야기를 원하는 만큼 할 수 있나요?",
+        "answer": "물론이죠. 친구들은 이별 이야기를 지겨워할 수 있지만, AI 캐릭터는 무한한 인내심을 가지고 있어요. 전 애인에 대해 이야기하고, 관계를 분석하고, 감정을 정리하세요. 판단 없이 원하는 만큼."
+      },
+      "q4": {
+        "question": "AI가 제 이야기를 기억하나요?",
+        "answer": "네, AI 캐릭터는 대화 내용과 상황을 기억해요. 매번 다시 설명할 필요가 없어요. 치유 여정에 연속성을 제공해요."
+      },
+      "q5": {
+        "question": "대화 내용은 비공개로 유지되나요?",
+        "answer": "완전히 비공개예요. 모든 대화는 암호화되어 절대 공유되지 않아요. 이별 대화는 매우 개인적인 만큼, 당신의 프라이버시는 철저히 보호돼요."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI 부모",
+    "breadcrumb": "AI 부모",
+    "hero": {
+      "title": "언제든 의지할 수 있는 부모 같은 존재",
+      "subtitle": "당신의 상황을 기억하고, 판단하지 않으며, 언제나 따뜻하고 현명한 조언을 주는 AI 부모에게서 무조건적인 지지와 따뜻한 안내를 받아보세요 — 낮이든 밤이든.",
+      "cta": "지금 지원받기"
+    },
+    "benefits": {
+      "title": "왜 AI 부모를 선택하나요?",
+      "guidance": {
+        "title": "따뜻한 조언",
+        "desc": "진심으로 당신을 생각하는 누군가에게서 오는 듯한 배려 깊은 조언을 받아보세요."
+      },
+      "listen": {
+        "title": "진심으로 들어줘요",
+        "desc": "당신의 상황을 충분히 들은 후, 성의 있는 따뜻한 답변을 드려요 — 성급한 해결책이 아니라."
+      },
+      "noJudgment": {
+        "title": "판단 없음",
+        "desc": "실망이나 비판에 대한 두려움 없이 무엇이든 물어보세요. 언제나 무조건적인 지지."
+      },
+      "private": {
+        "title": "완전한 비공개",
+        "desc": "당신의 대화와 개인적인 고민은 완전히 비밀로 유지돼요."
+      },
+      "available": {
+        "title": "언제나 이용 가능",
+        "desc": "새벽 3시, 주말, 가장 필요할 때 언제든 조언을 받아보세요 — 예약 없이."
+      },
+      "supportive": {
+        "title": "무조건적인 지지",
+        "desc": "어떤 상황이든, 어떤 결정을 내렸든 따뜻한 격려와 응원을 드려요."
+      }
+    },
+    "useCases": {
+      "title": "무엇이든 이야기하세요",
+      "subtitle": "무엇을 겪고 있든, AI 부모가 들어주고 안내해 드려요",
+      "career": {
+        "title": "커리어 & 인생 결정",
+        "desc": "당신의 성공을 바라는 누군가와 함께 직장 변화, 큰 인생 선택, 직업적 도전을 헤쳐 나가세요."
+      },
+      "education": {
+        "title": "교육 & 미래",
+        "desc": "학습과 성장의 선택지를 탐색하며, 당신의 꿈을 응원하는 누군가와 함께하세요."
+      },
+      "relationships": {
+        "title": "관계 & 가족"
+      },
+      "life": {
+        "title": "개인적인 고민",
+        "desc": "불안, 자기 의심, 외로움, 불확실성 등 마음을 무겁게 하는 모든 것을 이야기해 보세요."
+      }
+    },
+    "howItWorks": {
+      "title": "이용 방법",
+      "step1": {
+        "title": "계정 만들기",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "AI 부모 선택하기",
+        "desc": "따뜻하고 어울리는 성격의 캐릭터를 골라보세요."
+      },
+      "step3": {
+        "title": "대화 시작하기",
+        "desc": "마음에 있는 이야기를 나누고 따뜻하고 사려 깊은 지원을 받아보세요."
+      }
+    },
+    "cta": {
+      "title": "항상 곁에 있는 누군가",
+      "description": "판단 없이 듣고 무조건적으로 응원하는 AI 부모와 대화를 시작하세요. 무료로 시작할 수 있으며 예약이 필요 없습니다.",
+      "button": "무료로 시작하기"
+    },
+    "content": {
+      "problemTitle": "항상 내 편이 되어줄 누군가가 필요하신가요?",
+      "problemText": "모두에게 의지할 수 있는 부모 역할이 있는 것은 아닙니다. 실제 부모는 멀리 있거나 비판적일 수 있고, 친구는 편향될 수 있으며, 상담사는 대기 목록이 길 수 있습니다. 때로는 판단 없이 듣고, 돌보고, 안내해 주는 누군가가 필요할 때가 있습니다.",
+      "solutionTitle": "당신의 AI 부모는 언제나 곁에 있습니다",
+      "solutionText": "온전히 들어주고 따뜻하고 균형 잡힌 조언을 주는 AI 부모와 대화해 보세요. 삶의 결정, 개인적인 고민, 혹은 그저 들어주길 바랄 때 — AI 부모는 24시간 인내심과 배려로 곁에 있습니다."
+    },
+    "heroImageAlt": "AI 부모 - 무조건적인 지원과 삶의 안내를 제공하는 따뜻한 가상 캐릭터",
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "AI 부모와 어떤 이야기를 나눌 수 있나요?"
+      },
+      "q2": {
+        "question": "이것이 치료사와 같은가요?",
+        "answer": "이것은 면허를 가진 치료사나 정신 건강 전문가가 아닙니다. 24시간 이용 가능한 따뜻하고 지지적인 부모 역할에 가깝습니다. 충분히 들어주고 관점을 제시하며 정서적으로 지원합니다. 심각한 정신 건강 문제는 전문가와 상담하세요."
+      },
+      "q3": {
+        "question": "AI 부모가 내 선택을 판단하나요?",
+        "answer": "절대 아닙니다. AI 부모는 무조건적인 지원을 제공합니다. 관점이나 부드러운 조언을 줄 수는 있지만, 결코 비판하거나 작게 만들지 않습니다. 솔직함을 위한 안전한 공간입니다."
+      },
+      "q4": {
+        "question": "민감하거나 개인적인 주제를 논의할 수 있나요?",
+        "answer": "네. 관계 고민, 가족 관계, 재정 스트레스, 자존감, 또는 깊이 있는 개인적 어려움까지 — AI 부모는 비공개적이고 비판 없는 공간을 제공합니다."
+      },
+      "q5": {
+        "question": "다른 AI 캐릭터와 어떻게 다른가요?",
+        "answer": "AI 부모는 로맨스나 가벼운 우정 대신 따뜻함, 정서적 지원, 부모 같은 안내를 중심으로 설계되었습니다. 이해받고 지원받으며 삶의 어려움을 헤쳐나갈 수 있도록 돕는 데 집중합니다."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "파트너십",
+    "eyebrow": "저희와 파트너가 되세요",
+    "titlePrefix": "함께 성장하세요",
+    "titleHighlight": "sweetwine",
+    "subtitle": "빠르게 성장하고 높은 참여도를 가진 AI 동반자 오디언스에게 다가가세요. 기술, 유통, 또는 새로운 아이디어를 가지고 계시다면 함께 만들어 갑시다.",
+    "types": {
+      "title": "파트너십 방식",
+      "items": [
+        {
+          "title": "통합",
+          "description": "기술 통합을 통해 제품, 모델 또는 플랫폼을 sweetwine과 연결하세요."
+        },
+        {
+          "title": "공동 마케팅",
+          "description": "두 브랜드를 새로운 오디언스에게 선보이는 공동 캠페인, 콘텐츠, 런칭을 진행하세요."
+        },
+        {},
+        {
+          "title": "전략적 파트너십",
+          "description": "제품, 데이터, 시장 진출 전반에 걸친 장기 협력입니다."
+        }
+      ]
+    },
+    "why": {
+      "title": "sweetwine과 파트너십을 맺는 이유",
+      "items": [
+        {
+          "title": "참여도 높은 오디언스",
+          "description": "70개 언어로 매일 방문하는 수십만 명의 사용자."
+        },
+        {
+          "title": "빠른 실행력",
+          "description": "빠르게 제품을 출시하고 명확하게 소통하는 집중된 팀."
+        },
+        {
+          "title": "글로벌 도달 범위",
+          "description": "수십 개 시장에서 이용 가능한 다국어 제품."
+        },
+        {
+          "description": "브랜드가 신뢰할 수 있는, 프라이버시 바이 디자인 플랫폼입니다.",
+          "title": "프라이버시 우선"
+        }
+      ]
+    },
+    "form": {
+      "title": "파트너십에 대해 알려주세요",
+      "description": "간단한 정보를 남겨주시면 파트너십 팀이 연락드립니다.",
+      "nameLabel": "이름",
+      "namePlaceholder": "홍길동",
+      "emailLabel": "회사 이메일",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "회사",
+      "companyPlaceholder": "회사명",
+      "typeLabel": "파트너십 유형",
+      "typePlaceholder": "파트너십 유형 선택",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "어떤 방식으로 파트너십을 진행하고 싶으신가요?",
+      "messagePlaceholder": "회사와 원하시는 파트너십에 대해 알려주세요...",
+      "submit": "파트너십 문의 제출",
+      "submitting": "제출 중...",
+      "termsNote": "제출 시 문의에 대한 연락에 동의하게 됩니다. 귀하의 정보는 절대 공유되지 않습니다.",
+      "success": "감사합니다! 파트너십 문의가 전송되었습니다.",
+      "error": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "cta": {
+      "title": "이메일로 문의하시겠어요?",
+      "description": "파트너십 팀에 직접 연락하기"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Press & Media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "언론인, 크리에이터, 미디어 파트너를 위한 리소스입니다. 인터뷰, 인용, 기사 지원, 브랜드 요청은 저희 보도팀에 문의하세요.",
+    "help": {
+      "title": "저희가 도와드릴 수 있는 일",
+      "description": "기사나 리뷰를 준비 중이시라면, 보도팀에 요청할 수 있는 내용은 다음과 같습니다.",
+      "items": [
+        {
+          "title": "Interviews",
+          "description": "제품, 회사, AI 동반의 미래에 대해 팀과 대화하세요."
+        },
+        {
+          "title": "Quotes & comments",
+          "description": "기사에 사용할 공식 성명이나 전문가 의견을 받아보세요."
+        },
+        {
+          "title": "Feature & review support",
+          "description": "기사나 리뷰에 필요한 접근 권한, 맥락, 사실 확인이 필요하신가요? 도와드리겠습니다."
+        },
+        {
+          "title": "Brand & logo requests",
+          "description": "발행물에 사용할 로고, 브랜드 자산, 사용 가이드라인을 요청하세요."
+        }
+      ]
+    },
+    "form": {
+      "title": "Media inquiry",
+      "description": "인터뷰, 인용, 기사 요청은 메시지를 보내주세요. 신속히 답변드리겠습니다.",
+      "nameLabel": "이름",
+      "namePlaceholder": "홍길동",
+      "emailLabel": "이메일",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publication / outlet",
+      "outletPlaceholder": "Where will this be published?",
+      "requestTypeLabel": "Type of request",
+      "requestTypePlaceholder": "Select a request type",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Your request",
+      "messagePlaceholder": "Tell us about your story, deadline, and what you need from us...",
+      "submit": "Send media inquiry",
+      "submitting": "Sending...",
+      "termsNote": "We aim to respond to press inquiries within two business days.",
+      "success": "Thanks! Your media inquiry has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "cta": {
+      "title": "Press contact",
+      "description": "For urgent media requests, email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Careers",
+    "eyebrow": "Careers",
+    "titlePrefix": "Build the future of",
+    "titleHighlight": "AI companionship",
+    "subtitle": "We're a small, fast-moving team building products people genuinely love. If that excites you, we'd love to meet you.",
+    "perks": {
+      "title": "Why work with us",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Work from where you do your best work, with flexible hours."
+        },
+        {
+          "title": "Real ownership",
+          "description": "Ship meaningful work fast and see it reach users worldwide."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Work hands-on with the latest models and generative tooling."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Fair compensation and meaningful upside as we grow."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Open positions",
+      "emptyTitle": "No open roles right now",
+      "emptyDescription": "We're not actively hiring at the moment, but we're always glad to meet great people. Introduce yourself below.",
+      "applyButton": "Apply now",
+      "viewButton": "View role"
+    },
+    "form": {
+      "title": "Introduce yourself",
+      "description": "Don't see a role that fits? Tell us about yourself and we'll reach out when there's a match.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Role or area of interest",
+      "rolePlaceholder": "예: 프론트엔드 엔지니어, 디자이너, 마케팅",
+      "linkLabel": "CV 링크",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "자기소개",
+      "messagePlaceholder": "경험과 함께 하고 싶은 일에 대해 알려주세요...",
+      "submit": "지원서 보내기",
+      "submitting": "전송 중...",
+      "termsNote": "지원하시면 귀하의 정보를 저장하여 채용을 검토하는 데 동의하게 됩니다.",
+      "success": "감사합니다! 지원서가 전송되었습니다.",
+      "error": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "cta": {
+      "title": "근무 관련 문의가 있으신가요?",
+      "description": "팀에 문의하기"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "고객센터",
+    "eyebrow": "고객센터",
+    "titlePrefix": "어떻게",
+    "titleHighlight": "도와드릴까요?",
+    "subtitle": "자주 묻는 주제와 답변을 찾아보세요. 원하는 내용을 찾지 못하셨나요? 지원팀에 문의하시면 도와드리겠습니다.",
+    "searchPlaceholder": "도움말 검색...",
+    "categoriesTitle": "주제별 찾아보기",
+    "articlesTitle": "아티클",
+    "categoryEmpty": "이 카테고리에는 아직 아티클이 없습니다. 곧 다시 확인해 주세요.",
+    "backToHelp": "고객센터로 돌아가기",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "시작하기",
+        "description": "계정을 만들고 프로필을 설정한 후 채팅을 시작하세요."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI 채팅",
+        "description": "대화, 메모리, 캐릭터의 작동 방식."
+      },
+      {
+        "slug": "images-videos",
+        "title": "이미지 및 영상",
+        "description": "AI 사진과 영상을 생성하고 관리하세요."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "개인정보 및 안전",
+        "description": "데이터, 개인정보 제어 및 안전 도구."
+      }
+    ],
+    "faq": {
+      "title": "자주 묻는 질문",
+      "q1": {
+        "question": "sweetwine을 어떻게 시작하나요?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "무료 플랜에는 무엇이 포함되나요?"
+      },
+      "q5": {
+        "question": "내 데이터는 비공개인가요?",
+        "answer": "프라이버시는 sweetwine의 핵심입니다. 대화는 계정에만 비공개로 유지되며, 사용자가 데이터를 제어합니다. 데이터 저장 및 보호에 대한 자세한 내용은 개인정보 처리방침을 확인하세요."
+      },
+      "q6": {
+        "question": "지원팀에 어떻게 연락하나요?",
+        "answer": "support@sweetwine.ai로 이메일을 보내거나 앱 내 문의 옵션을 이용하세요. 보통 영업일 기준 1일 이내에 답변드립니다."
+      }
+    },
+    "cta": {
+      "title": "추가로 도움이 필요하신가요?",
+      "description": "저희 팀이"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "소개",
+    "eyebrow": "우리의 이야기",
+    "titlePrefix": "교감,",
+    "titleHighlight": "새롭게",
+    "subtitle": "sweetwine은 언제 어디서나, 어떤 언어로든 진심으로 듣고 기억하며 연결되는 프라이빗하고 개인화된 AI 동반자를 만듭니다.",
+    "mission": {
+      "title": "우리의 미션",
+      "body": "모두가 판단 없이 들을 수 있는 공간을 가질 자격이 있다고 믿습니다. sweetwine은 따뜻하고 프라이빗하며 언제나 곁에 있는 의미 있는 개인화 AI 연결을 전 세계에 제공합니다."
+    },
+    "values": {
+      "title": "우리가 추구하는 가치",
+      "items": [
+        {
+          "title": "프라이버시 중심 설계",
+          "description": "대화는 온전히 사용자의 것입니다. 우리는 처음부터 프라이버시와 보안을 바탕으로 구축합니다."
+        },
+        {
+          "title": "진정한 연결",
+          "description": "우리는 허영 지표가 아닌 진짜 감정적 가치를 최우선으로 합니다."
+        },
+        {
+          "title": "기본적으로 글로벌",
+          "description": "언어로 인한 연결의 한계를 없애기 위해 처음부터 다국어로 구축했습니다."
+        },
+        {
+          "title": "끊임없는 장인 정신",
+          "description": "모든 상호작용이 자연스럽고 생생하게 느껴지도록 세심한 부분까지 신경 씁니다."
+        }
+      ]
+    },
+    "stats": {
+      "title": "숫자로 보는 sweetwine",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "사용자, 그리고 성장 중"
+        },
+        {
+          "value": "70",
+          "label": "지원 언어"
+        },
+        {
+          "value": "24/7",
+          "label": "항상 이용 가능"
+        }
+      ]
+    },
+    "cta": {
+      "title": "더 알아보고 싶으신가요?",
+      "description": "다음 주소로 연락 주세요"
+    }
+  },
+  "postsPage": {
+    "allTag": "전체",
+    "readMore": "더 읽기",
+    "publishedOn": "게시일",
+    "minRead": "분 소요",
+    "sortNewest": "최신순",
+    "sortOldest": "오래된순",
+    "blog": {
+      "breadcrumb": "블로그",
+      "eyebrow": "블로그",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "AI 동반자를 최대한 활용할 수 있도록 돕는 팁, 가이드, 이야기.",
+      "empty": "아직 게시물이 없습니다. 곧 다시 확인해 주세요."
+    },
+    "news": {
+      "breadcrumb": "뉴스",
+      "eyebrow": "뉴스룸",
+      "titlePrefix": "뉴스 &",
+      "titleHighlight": "공지",
+      "subtitle": "sweetwine 팀의 공식 발표, 보도자료, 주요 성과입니다.",
+      "empty": "아직 뉴스가 없습니다. 곧 다시 확인해 주세요."
+    },
+    "productUpdates": {
+      "breadcrumb": "제품 업데이트",
+      "eyebrow": "변경 로그",
+      "titlePrefix": "제품",
+      "titleHighlight": "업데이트",
+      "subtitle": "sweetwine 플랫폼 전반의 최신 기능, 개선 사항 및 수정 사항입니다.",
+      "empty": "아직 업데이트가 없습니다. 곧 다시 확인해 주세요."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "개발자용",
+    "titlePrefix": "Build with the",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "개인화된 AI 동반자를 여러분의 제품에 도입하세요. 단일 개발자 친화적 API로 채팅, 이미지, 음성, 캐릭터 제작 기능을 이용할 수 있습니다.",
+    "capabilities": {
+      "title": "무엇을 만들 수 있나요",
+      "items": [
+        {
+          "title": "대화형 채팅",
+          "description": "간단한 메시징 API로 성격이 풍부하고 맥락을 이해하는 AI 대화를 앱에 추가하세요."
+        },
+        {
+          "title": "이미지 생성",
+          "description": "텍스트 프롬프트로 브랜드에 맞는 캐릭터 이미지와 장면을 프로그래밍 방식으로 생성하세요."
+        },
+        {
+          "title": "음성",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "캐릭터 생성",
+          "description": "API를 통해 동반자, 성격, 메모리를 정의하고 관리하세요."
+        }
+      ]
+    },
+    "form": {
+      "title": "API 액세스 요청",
+      "description": "프로젝트와 만들고 싶은 것에 대해 알려주세요. 개발자 팀이 다음 단계를 안내해 드립니다.",
+      "nameLabel": "이름",
+      "namePlaceholder": "홍길동",
+      "emailLabel": "회사 이메일",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "회사 / 프로젝트",
+      "companyPlaceholder": "회사 또는 프로젝트 이름",
+      "websiteLabel": "웹사이트 또는 앱 URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "통합 유형",
+      "integrationTypePlaceholder": "통합 유형 선택",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "예상 월간 사용량",
+      "volumePlaceholder": "예상 사용량 선택",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "10k 미만 요청"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k 요청"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M 요청"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ 요청"
+        }
+      ],
+      "timelineLabel": "타임라인",
+      "timelinePlaceholder": "타임라인 선택",
+      "timelineOptions": [
+        {
+          "value": "둘러보는 중",
+          "label": "둘러보는 중"
+        },
+        {
+          "value": "1개월 이내",
+          "label": "1개월 이내"
+        },
+        {
+          "value": "1~3개월",
+          "label": "1~3개월"
+        },
+        {
+          "value": "3개월 이상",
+          "label": "3개월 이상"
+        }
+      ],
+      "messageLabel": "사용 사례를 알려주세요",
+      "messagePlaceholder": "어떤 것을 만들고 있으며, API를 어떻게 활용할 계획인가요?",
+      "submit": "API 액세스 요청",
+      "submitting": "제출 중...",
+      "termsNote": "제출하면 문의 사항에 대해 연락하는 데 동의하게 됩니다. 귀하의 정보를 공유하지 않습니다.",
+      "success": "감사합니다! API 액세스 요청이 전송되었습니다.",
+      "error": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "faq": {
+      "title": "개발자 FAQ",
+      "items": [
+        {
+          "question": "API 액세스는 어떻게 받나요?",
+          "answer": "위 요청 양식에 사용 사례를 입력하세요. 개발팀이 각 요청을 검토한 후 액세스 정보와 문서를 보내드립니다."
+        },
+        {
+          "question": "인증은 어떻게 작동하나요?",
+          "answer": "API 요청은 요청 헤더에 포함된 비밀 API 키로 인증됩니다. 온보딩 후 키를 관리하고 교체할 수 있습니다."
+        },
+        {
+          "question": "요청 제한이 있나요?",
+          "answer": "네. 제한은 플랜과 예상 사용량에 따라 달라집니다. 예상 트래픽을 양식에 알려주시면 적합한 티어를 추천해 드립니다."
+        },
+        {
+          "question": "비용은 얼마인가요?"
+        },
+        {
+          "question": "어떤 기능이 제공되나요?",
+          "answer": "채팅, 이미지 생성, 음성, 캐릭터 생성이 가능합니다. 필요한 기능을 알려주시면 관련 엔드포인트 시작을 도와드립니다."
+        }
+      ]
+    },
+    "cta": {
+      "title": "기술적인 질문이 있으신가요?",
+      "description": "개발팀에 문의하세요:"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI 리얼 클론",
+    "eyebrow": "크리에이터 & 에이전시용",
+    "heroTitleLead": "우리가 만듭니다,",
+    "heroTitleHighlight": "당신이 수익을 얻습니다.",
+    "heroSubtitle": "우리가 당신의 AI 클론을 만듭니다. AI 클론이 24시간 팬과 소통하고 콘텐츠를 보내며 수익을 창출합니다.",
+    "calculator": {
+      "title": "얼마를 벌 수 있을까요?",
+      "subtitle": "팬 규모를 선택하고 가격을 설정하세요 — 예상 수익을 즉시 확인하세요.",
+      "tierLabel": "팬 규모",
+      "tiers": {
+        "small": {
+          "name": "소규모"
+        },
+        "medium": {
+          "name": "중간"
+        },
+        "large": {
+          "name": "대규모"
+        }
+      },
+      "priceLabel": "언락 가격",
+      "promoLabel": "sweetwine을 홍보할게요",
+      "breakdown": {
+        "title": "예상 수익",
+        "perMonth": "월",
+        "perYear": "연간"
+      },
+      "disclaimer": "수익 추정치는 sweetwine 수익 공유 모델과 일반적인 활동을 기반으로 합니다. 실제 수익은 오디언스, 콘텐츠 품질, 참여도, 수요에 따라 달라집니다."
+    },
+    "offer": {
+      "title": "당신을 위한 혜택",
+      "items": [
+        {
+          "title": "자면서도 수익 창출",
+          "description": "당신의 클론이 24시간 내내 팔로워를 수익으로 전환합니다 — 채팅, 판매, 쉬지 않고."
+        },
+        {
+          "title": "비용 없이, 순수한 이익",
+          "description": "우리가 모든 것을 비용 부담 없이 구축, 훈련, 운영합니다. 손가락 하나 까딱하지 않고 새로운 수익원을 추가하세요."
+        },
+        {
+          "title": "콘텐츠 10배 확장",
+          "description": "필요할 때마다 무제한 사진과 영상 — 더 많은 촬영, 편집, 번아웃 없이 출력량을 확장하세요."
+        },
+        {
+          "title": "항상 통제권 유지"
+        }
+      ]
+    },
+    "how": {
+      "title": "작동 방식",
+      "steps": [
+        {
+          "title": "등록"
+        },
+        {
+          "title": "온보딩",
+          "description": "sweetwine 전문가가 당신의 외모, 목소리, 성격을 포착하여 클론이 진짜 당신처럼 느껴지도록 합니다."
+        },
+        {
+          "title": "우리가 구축하고 훈련",
+          "description": "우리 팀이 전적으로 비용을 부담하여 AI 클론을 제작하고 훈련합니다 — 당신의 작업은 필요 없습니다."
+        },
+        {
+          "title": "라이브 시작 및 수익 창출",
+          "description": "당신의 클론이 24시간 채팅과 판매를 시작하고, 당신은 수익 공유를 받습니다."
+        }
+      ]
+    },
+    "form": {
+      "title": "AI 클론 생성 신청",
+      "description": "당신과 오디언스에 대해 알려주세요. 크리에이터 파트너십 팀이 모든 신청서를 검토하고 다음 단계를 안내합니다.",
+      "nameLabel": "이름",
+      "namePlaceholder": "이름 또는 예명",
+      "emailLabel": "이메일",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "에이전시 또는 스튜디오",
+      "companyPlaceholder": "에이전시 이름 (개인인 경우 비워두세요)",
+      "roleLabel": "저는",
+      "rolePlaceholder": "당신이 누구인지 선택하세요",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "크리에이터"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "에이전시 / 스튜디오"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "매니저 / 대리인"
+        },
+        {
+          "value": "Other",
+          "label": "기타"
+        }
+      ],
+      "linksLabel": "웹사이트 및 소셜 링크",
+      "linksPlaceholder": "Instagram, X, OnlyFans 등",
+      "modelCountLabel": "대표하는 모델 수",
+      "modelCountPlaceholder": "예: 저만, 또는 5명",
+      "audienceSizeLabel": "오디언스 규모",
+      "audienceSizePlaceholder": "총 팔로워 수를 선택하세요",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "팔로워 1만 미만"
+        },
+        {
+          "value": "10k-100k",
+          "label": "팔로워 1만~10만"
+        },
+        {
+          "label": "10만-50만 팔로워",
+          "value": "100k-500k"
+        },
+        {
+          "value": "50만-100만",
+          "label": "50만-100만 팔로워"
+        },
+        {
+          "value": "100만+",
+          "label": "100만+ 팔로워"
+        }
+      ],
+      "contentPrefLabel": "콘텐츠 선호도",
+      "contentPrefPlaceholder": "콘텐츠 유형 선택",
+      "contentPrefOptions": [
+        {
+          "value": "SFW만",
+          "label": "SFW만"
+        },
+        {
+          "value": "아직 잘 모르겠어요",
+          "label": "아직 잘 모르겠어요"
+        }
+      ],
+      "countryLabel": "국가 / 지역",
+      "countryPlaceholder": "어디에 기반을 두고 계신가요?",
+      "messageLabel": "당신과 오디언스에 대해 알려주세요",
+      "messagePlaceholder": "오디언스, 콘텐츠, 원하는 점을 이해하는 데 도움이 되는 내용을 공유해주세요.",
+      "openButton": "지금 신청하기",
+      "submit": "신청서 제출",
+      "submitting": "제출 중...",
+      "termsNote": "제출하면 18세 이상임을 확인하고 신청 관련 연락에 동의하는 것입니다. 저희는 귀하의 정보를 절대 공유하지 않습니다.",
+      "success": "감사합니다! 신청서가 전송되었습니다. 곧 연락드리겠습니다.",
+      "error": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "cta": {
+      "title": "신청 전에 질문이 있으신가요?",
+      "description": "크리에이터 파트너십 팀과 직접 대화하세요 — 보통 하루 안에 답변드립니다.",
+      "telegram": "텔레그램",
+      "instagram": "인스타그램",
+      "email": "이메일"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "사이트맵",
+    "eyebrow": "사이트맵",
+    "titlePrefix": "둘러보기",
+    "titleHighlight": "모든 것",
+    "subtitle": "sweetwine의 모든 중요 페이지가 한 곳에 모여 있습니다. XML 사이트맵을 찾고 계신가요?",
+    "xmlLink": "XML 사이트맵 보기",
+    "sections": {
+      "product": "제품",
+      "features": "기능",
+      "company": "회사",
+      "resources": "리소스",
+      "legal": "법적 고지"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine 모바일 앱",
+      "cta": "앱 받기",
+      "dismiss": "닫기"
+    },
+    "guide": {
+      "title": "sweetwine 설치",
+      "subtitle": "sweetwine을 홈 화면에 추가해 더 빠르고 풀스크린, 앱 같은 경험을 즐겨보세요.",
+      "iosTitle": "iPhone & iPad (Safari)",
+      "iosStep1": "도구 모음에서 공유 버튼 탭",
+      "iosStep2": "\"홈 화면에 추가\" 선택",
+      "iosStep3": "\"추가\" 탭하여 완료",
+      "androidTitle": "Android (Chrome)",
+      "androidStep1": "메뉴(점 세 개) 탭",
+      "androidStep2": "\"앱 설치\" 또는 \"홈 화면에 추가\" 선택",
+      "androidStep3": "\"설치\" 탭하여 완료"
+    },
+    "settings": {
+      "title": "sweetwine 모바일 앱",
+      "description": "휴대폰에 sweetwine을 설치해 홈 화면에서 더 빠르고 풀스크린 경험을 즐겨보세요.",
+      "cta": "앱 설치"
+    }
+  },
+  "language": {
+    "selectTitle": "언어 선택",
+    "searchPlaceholder": "언어 검색",
+    "noResults": "언어를 찾을 수 없습니다",
+    "regions": {
+      "americas": "아메리카",
+      "europe": "유럽",
+      "middleEast": "중동",
+      "asiaPacific": "아시아 태평양",
+      "africa": "아프리카"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "롤플레이",
+    "newRoleplay": "새 롤플레이",
+    "tabRoleplay": "롤플레이",
+    "emptyTitle": "아직 롤플레이가 없습니다",
+    "noMessagesYet": "아직 메시지가 없습니다",
+    "deleteRoleplay": "롤플레이 삭제",
+    "deleteError": "롤플레이를 삭제할 수 없습니다.",
+    "backToLobby": "롤플레이 목록으로 돌아가기",
+    "creating": "롤플레이를 설정하는 중...",
+    "createError": "롤플레이를 생성할 수 없습니다. 다시 시도해 주세요.",
+    "steps": {
+      "companion": {
+        "title": "캐릭터 선택",
+        "subtitle": "함께 롤플레이할 캐릭터를 골라보세요"
+      },
+      "location": {
+        "title": "장소 선택",
+        "subtitle": "장면이 어디에서 펼쳐지나요?"
+      },
+      "tone": {
+        "title": "분위기 설정",
+        "subtitle": "장면의 느낌을 어떻게 설정할까요?"
+      },
+      "scene": {
+        "title": "장면 설정",
+        "subtitle": "장면이 어떻게 시작되는지 설명해 주세요"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "비 오는 날 우산 아래서 우연히 마주쳐요.",
+      "staring_grin": "방 건너편에서 제가 쳐다보는 걸 보고 미소 지으며 다가와요.",
+      "power_out": "정전이 되고 어둠 속에 우리 둘만 남아 긴장된 웃음을 나눠요.",
+      "spilled_drink": "늦은 시간에 달려가다 실수로 음료를 쏟아요.",
+      "stayed_behind": "모두 떠난 후 우리 둘만 남아 있어요.",
+      "music_slows": "음악이 느려지는 순간 눈이 마주쳐요.",
+      "storm_inside": "갑작스러운 폭풍으로 갇혀 대화할 시간만 남아요.",
+      "seat_taken": "제 옆에 앉아 자리가 비었는지 물어요."
+    },
+    "locations": {
+      "home": "집",
+      "cafe": "카페",
+      "restaurant": "레스토랑",
+      "bar": "바",
+      "library": "도서관",
+      "bookstore": "서점",
+      "park": "공원",
+      "garden": "정원",
+      "nightclub": "나이트클럽",
+      "casino": "카지노",
+      "concert": "콘서트",
+      "theater": "극장",
+      "cinema": "영화관",
+      "carnival": "카니발",
+      "stadium": "경기장",
+      "beach": "해변",
+      "pool": "수영장",
+      "spa": "스파",
+      "hotel": "호텔",
+      "rooftop": "옥상",
+      "yacht": "요트",
+      "cabin": "산장",
+      "hotspring": "온천",
+      "skilodge": "스키 롯지",
+      "campsite": "캠핑장",
+      "car": "자동차",
+      "train": "기차",
+      "airport": "공항",
+      "cruise": "크루즈",
+      "office": "사무실",
+      "gym": "헬스장",
+      "university": "대학교",
+      "mall": "쇼핑몰",
+      "hospital": "병원",
+      "museum": "박물관"
+    },
+    "tones": {
+      "fun": {
+        "title": "재미",
+        "desc": "가볍고 유쾌하며 여유로운 분위기."
+      },
+      "romantic": {
+        "title": "로맨틱",
+        "desc": "부드럽고 애정 어린 마음이 담긴."
+      },
+      "flirty": {
+        "title": "플러팅",
+        "desc": "장난기 있고 매력 넘치는."
+      },
+      "mysterious": {
+        "title": "미스터리",
+        "desc": "호기심을 자아내고 비밀스러운."
+      },
+      "spooky": {
+        "title": "스푸키",
+        "desc": "으스스하고 긴장감 있는."
+      },
+      "action": {
+        "title": "액션",
+        "desc": "강렬하고 모험적이며 빠른 전개."
+      },
+      "dramatic": {
+        "title": "드라마틱",
+        "desc": "감정적이고 긴장감 넘치는."
+      },
+      "cozy": {
+        "title": "코지",
+        "desc": "따뜻하고 편안하며 여유로운."
+      }
+    },
+    "sceneLabel": "장면 오프닝",
+    "scenarioTab": "시나리오",
+    "generatingScene": "장면을 생생하게 만들고 있어요...",
+    "locationLabel": "장소",
+    "toneLabel": "톤",
+    "scenePlaceholder": "예: 비 오는 거리에서 우산 아래로 함께 피신해요...",
+    "sceneHint": "장면이 시작되는 순간만 묘사하세요 — 어디에 있고 무슨 일이 벌어지는지. 캐릭터의 성격, 관계, 전체 스토리는 바꾸지 마세요.",
+    "sceneError": "장면이 시작되는 부분을 설명해 주세요.",
+    "reviewTitle": "선택 사항 확인",
+    "characterLabel": "캐릭터",
+    "randomize": "랜덤",
+    "sceneGuidanceTitle": "장면 오프닝 가이드",
+    "sceneGuide1": "캐릭터의 성격이나 관계를 바꾸지 마세요.",
+    "sceneGuide2": "장면 오프닝은 상호 동의와 존중을 지켜주세요.",
+    "sceneGuide3": "장면 시작 부분만 묘사하고, 전체 스토리는 쓰지 마세요.",
+    "next": "다음",
+    "create": "롤플레이 시작",
+    "creatingMessages": [
+      "장면을 설정하는 중...",
+      "조명을 딱 맞게 어둡게 조정하는 중...",
+      "주변 환경을 그리고 있는 중...",
+      "동반자를 캐릭터에 맞게 준비하는 중...",
+      "마무리 손질을 하는 중...",
+      "거의 다 됐어요..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "메시지 작성...",
+    "send": "보내기",
+    "typing": "입력 중...",
+    "read": "읽음",
+    "resetChat": "채팅 초기화",
+    "deleteChat": "채팅 삭제",
+    "settings": "설정",
+    "chatSettings": "채팅 설정",
+    "roleplayMode": "롤플레이 모드",
+    "roleplayModeDescription": "켜져 있으면 동반자가 *별표*로 제스처와 행동을 연기해 몰입감 있는 롤플레이를 제공합니다. 꺼져 있으면 실제 채팅처럼 자연스럽게 대화합니다.",
+    "roleplayModeError": "롤플레이 모드를 업데이트할 수 없습니다",
+    "roleplayCtaDescription": "전용 롤플레이 경험을 열어 동반자와 함께 장면과 이야기를 연출하세요.",
+    "goToRoleplay": "롤플레이로 이동",
+    "confirmReset": "이 채팅을 초기화하시겠습니까? 모든 메시지가 삭제됩니다.",
+    "confirmDelete": "이 채팅을 삭제하시겠습니까?",
+    "resetSuccess": "채팅이 성공적으로 초기화되었습니다",
+    "deleteMemory": "메모리 삭제",
+    "confirmDeleteMemory": "이 캐릭터의 장기 메모리를 삭제하시겠습니까? 채팅 메시지는 유지되지만, 다음 답변부터 캐릭터가 이전 사실을 잊게 됩니다.",
+    "deleteMemorySuccess": "메모리가 삭제되었습니다",
+    "deleteSuccess": "채팅이 성공적으로 삭제되었습니다",
+    "sendError": "메시지 전송에 실패했습니다",
+    "noChats": "아직 채팅이 없습니다",
+    "noChatsDesc": "캐릭터와 대화를 시작하면 여기에 채팅이 표시됩니다",
+    "lastMessage": "마지막 메시지",
+    "messageCount": "{count}개의 메시지",
+    "uploadImage": "이미지 업로드",
+    "uploadVideo": "비디오 업로드 (출시 예정)",
+    "yourConversations": "내 대화",
+    "continueChattingDesc": "AI 캐릭터와 계속 채팅하세요",
+    "newChat": "새 채팅",
+    "noConversationsYet": "아직 대화가 없습니다",
+    "startChattingDesc": "캐릭터와 채팅을 시작하면 여기에 대화가 표시됩니다",
+    "browseCharacters": "캐릭터 둘러보기",
+    "createCustomCharacter": "커스텀 캐릭터 만들기",
+    "imageTooLarge": "이미지가 너무 큽니다 (최대 5MB)",
+    "generateImageTitle": "{name}과(와) 이미지 생성",
+    "imagePromptLabel": "이미지 설명",
+    "imagePromptPlaceholder": "예: 파란 드레스를 입고 해변에서, 카페에서 커피 마시기, 공원 산책...",
+    "imagePromptHint": "AI가 설명에 따라 {name}의 이미지를 생성합니다.",
+    "referenceImageLabel": "내 사진 (선택 사항)",
+    "referenceImageHint": "{name}과 함께 장면에 포함될 사진을 업로드하세요. 사진이 없으면 {name}만 생성됩니다.",
+    "uploadReferenceImage": "내 사진 업로드",
+    "uploadReferenceImageDesc": "생성된 이미지에 둘 다 등장합니다",
+    "referenceImageSelected": "당신과 {name}이(가) 함께 등장합니다",
+    "generating": "생성 중...",
+    "generate": "생성",
+    "generateImage": "이미지 생성",
+    "imageGenerated": "이미지가 성공적으로 생성되었습니다",
+    "generateError": "이미지 생성에 실패했습니다",
+    "contentBlockedReply": "죄송하지만 그 이미지는 만들 수 없어요. 안전 필터에 의해 차단되었어요. 다른 설명으로 시도해 주세요! 💕",
+    "generateVideoTitle": "{name}과 함께 비디오 생성",
+    "generateVideo": "비디오 생성",
+    "videoPromptLabel": "동작 설명",
+    "videoPromptPlaceholder": "예: 춤추기, 손 흔들기, 키스 날리기...",
+    "videoPromptHint": "AI가 {name}이 설명된 동작을 수행하는 비디오를 생성합니다.",
+    "generatingImage": "이미지 생성 중...",
+    "generatingVideo": "비디오 생성 중... (3-5분)",
+    "viewPhoto": "사진 보기",
+    "viewVideo": "비디오 보기",
+    "selectVideoOption": "위에서 비디오 옵션을 선택하세요",
+    "contentPolicyViolation": "메시지를 보낼 수 없습니다. 대화를 정중하게 유지해 주세요.",
+    "functionCallBetaHint": "💡 이 기능은 베타 버전입니다 — 제한 없이 안정적인 미디어 생성을 위해 도구 모음의 사진/비디오 버튼을 사용하세요.",
+    "repliedToStory": "스토리에 답장함",
+    "repliedToStoryLiked": "스토리를 좋아하고 답장함",
+    "storyNoLongerAvailable": "스토리를 더 이상 사용할 수 없습니다",
+    "rateLimitExceeded": "요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.",
+    "profileTab": "프로필",
+    "galleryTab": "갤러리",
+    "giftsTab": "선물",
+    "tts": {
+      "play": "음성 재생",
+      "stop": "중지",
+      "generating": "음성 생성 중…",
+      "error": "오디오를 재생할 수 없습니다"
+    }
+  },
+  "gallery": {
+    "all": "전체",
+    "images": "이미지",
+    "videos": "비디오",
+    "empty": "아직 미디어가 없습니다"
+  },
+  "gifts": {
+    "sendAGift": "선물 보내기",
+    "catalogSubtitle": "{name}에게 보낼 선물을 선택하세요",
+    "browseGifts": "선물 둘러보기",
+    "noneSent": "아직 보낸 선물이 없습니다",
+    "confirmTitle": "선물 확인",
+    "forCompanion": "{name}에게",
+    "optionalMessage": "메시지 추가 (선택 사항)",
+    "optionalMessagePlaceholder": "달콤한 말을 적어 보세요...",
+    "sendGiftFor": "보내기",
+    "giftSent": "선물을 보냈어요",
+    "sendError": "선물 보내기에 실패했어요"
+  },
+  "stories": {
+    "replyPlaceholder": "{name}에게 답장...",
+    "like": "좋아요",
+    "send": "보내기",
+    "close": "닫기",
+    "previous": "이전 스토리",
+    "next": "다음 스토리",
+    "pause": "일시 정지",
+    "play": "재생",
+    "mute": "음소거",
+    "unmute": "음소거 해제",
+    "openStory": "{name}의 스토리 열기"
+  },
+  "generate": {
+    "title": "이미지 생성",
+    "description": "AI 캐릭터로 멋진 이미지를 만들어 보세요",
+    "selectCompanion": "캐릭터 선택",
+    "promptPlaceholder": "생성할 이미지를 설명하세요... 예: 해변에서, 빨간 드레스 입고",
+    "promptLabel": "이미지 설명",
+    "promptRequired": "설명을 입력하세요",
+    "generateButton": "이미지 생성",
+    "generating": "생성 중...",
+    "creatingImage": "이미지를 만드는 중...",
+    "pleaseWait": "10~30초 정도 소요될 수 있습니다",
+    "noCompanionSelected": "먼저 캐릭터를 선택하세요",
+    "emptyGallery": "아직 생성된 이미지가 없습니다. 캐릭터를 선택하고 이미지를 설명하세요!",
+    "sessionGallery": "생성된 이미지",
+    "regenerate": "다시 생성",
+    "regenerating": "다시 생성 중...",
+    "animate": "애니메이션",
+    "animateReference": "이 이미지는 영상의 첫 프레임이 됩니다.",
+    "filterMyAI": "내 AI",
+    "filterAll": "전체",
+    "filterGirls": "여성",
+    "filterAnime": "애니메이션",
+    "filterGuys": "남성",
+    "imageGenerationFailed": "이미지 생성에 실패했습니다. 이미지가 요구 사항을 충족하지 않거나 설명이 너무 복잡할 수 있습니다. 더 간단한 프롬프트로 시도해 보세요.",
+    "noImageData": "이미지가 생성되지 않았습니다. 다른 설명으로 다시 시도해 주세요.",
+    "generationFailed": "생성에 실패했습니다. 나중에 다시 시도하거나 다른 프롬프트를 사용해 보세요.",
+    "random": "랜덤",
+    "custom": "커스텀",
+    "settings": "설정",
+    "videoTitle": "비디오 생성",
+    "videoDescription": "AI 캐릭터로 멋진 비디오를 만들어 보세요",
+    "videoPromptLabel": "비디오 설명",
+    "videoPromptPlaceholder": "생성하고 싶은 동작을 설명하세요... 예: 춤추기, 손 흔들기, 미소 짓기",
+    "generateVideoButton": "비디오 생성",
+    "generatingVideo": "비디오 생성 중...",
+    "creatingVideo": "비디오를 만드는 중...",
+    "videoWait": "1~5분 정도 소요될 수 있습니다",
+    "emptyVideoGallery": "아직 생성된 비디오가 없습니다. 캐릭터를 선택하고 동작을 설명해 보세요!",
+    "sessionVideoGallery": "생성된 비디오",
+    "videoGenerated": "비디오가 성공적으로 생성되었습니다!",
+    "videoGenerationFailed": "비디오 생성에 실패했습니다. 다시 시도해 주세요.",
+    "duration": "길이",
+    "shortVideo": "짧음",
+    "longVideo": "길음",
+    "seconds": "초",
+    "audio": "오디오",
+    "renderingVideo": "비디오 렌더링 중…",
+    "renderingVideoHint": "(최대 1분 소요)",
+    "rateLimitExceeded": "요청이 너무 많습니다. 잠시 기다렸다가 다시 시도해 주세요.",
+    "chooseCharacter": "캐릭터 선택",
+    "selectButton": "선택",
+    "noCustomCompanions": "아직 생성한 AI 캐릭터가 없습니다.",
+    "numberOfImages": "이미지 수",
+    "numberOfVideos": "비디오 수",
+    "freeTrial": "무료 체험",
+    "changeCharacter": "캐릭터 변경",
+    "randomize": "프롬프트 랜덤화",
+    "aiVideo": "AI 비디오",
+    "download": "다운로드",
+    "seriesHelper": "여기서 결과를 확인할 수 있습니다. 완료될 때까지 페이지를 떠나거나 새 시리즈를 시작할 수 있습니다.",
+    "suggestions": {
+      "title": "추천",
+      "categories": {
+        "outfit": "의상",
+        "action": "동작",
+        "pose": "포즈",
+        "accessories": "액세서리",
+        "scene": "장면"
+      },
+      "items": {
+        "bikini": "비키니",
+        "skirt": "스커트",
+        "lingerie": "란제리",
+        "crop_top": "크롭탑",
+        "leather": "가죽",
+        "mini_skirt": "미니스커트",
+        "satin_robe": "새틴 로브",
+        "jeans": "청바지",
+        "summer_dress": "여름 원피스",
+        "sportswear": "스포츠웨어",
+        "selfie": "셀피",
+        "walking": "걷기",
+        "dancing": "춤추기",
+        "stretching": "스트레칭",
+        "lying_down": "누워 있기",
+        "leaning": "기대기",
+        "blowing_kiss": "키스 날리기",
+        "drinking_coffee": "커피 마시기",
+        "hands_on_hips": "허리에 손 올리기",
+        "over_shoulder": "어깨 너머",
+        "side_profile": "사이드 프로필",
+        "arms_crossed": "팔짱 끼기",
+        "kneeling": "무릎 꿇기",
+        "squatting": "쪼그려 앉기",
+        "back_view": "뒷모습",
+        "sitting": "앉기",
+        "necklace": "목걸이",
+        "earrings": "귀걸이",
+        "glasses": "안경",
+        "choker": "초커",
+        "hat": "모자",
+        "sunglasses": "선글라스",
+        "garden": "정원",
+        "beach": "해변",
+        "bedroom": "침실",
+        "gym": "헬스장",
+        "bar": "바",
+        "kitchen": "주방",
+        "restaurant": "레스토랑",
+        "balcony": "발코니",
+        "city_street": "도시 거리",
+        "pool": "수영장"
+      },
+      "fragments": {
+        "bikini": "비키니를 입고",
+        "skirt": "스커트를 입고",
+        "lingerie": "란제리를 입고",
+        "crop_top": "크롭탑을 입고",
+        "leather": "가죽 의상을 입고",
+        "mini_skirt": "미니스커트를 입고",
+        "satin_robe": "새틴 로브를 입고",
+        "jeans": "청바지를 입고",
+        "summer_dress": "여름 원피스를 입고",
+        "sportswear": "타이트한 스포츠웨어를 입고",
+        "selfie": "셀카를 찍고",
+        "walking": "걷고",
+        "dancing": "춤추고",
+        "stretching": "스트레칭하고",
+        "lying_down": "누워 있고",
+        "leaning": "벽에 기대어",
+        "blowing_kiss": "키스를 날리고",
+        "drinking_coffee": "커피를 마시고",
+        "hands_on_hips": "허리에 손을 얹고",
+        "over_shoulder": "어깨 너머로 바라보고",
+        "side_profile": "사이드 프로필 포즈",
+        "arms_crossed": "팔짱을 끼고",
+        "kneeling": "무릎 꿇은 포즈",
+        "squatting": "스쿼팅 포즈",
+        "back_view": "뒤에서 본 모습",
+        "sitting": "앉아 있고",
+        "necklace": "목걸이를 하고",
+        "earrings": "귀걸이를 하고",
+        "glasses": "안경을 쓰고",
+        "choker": "초커를 하고",
+        "hat": "모자를 쓰고",
+        "sunglasses": "선글라스를 쓰고",
+        "garden": "정원에서",
+        "beach": "해변에서",
+        "bedroom": "침실에서",
+        "gym": "헬스장에서",
+        "bar": "바에서",
+        "kitchen": "주방에서",
+        "restaurant": "레스토랑에서",
+        "balcony": "발코니에서",
+        "city_street": "도시 거리에서",
+        "pool": "수영장에서"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "셀피",
+          "uiPrompt": "당신의 셀피를 보여주세요"
+        },
+        "posing": {
+          "name": "포즈",
+          "uiPrompt": "당신이 포즈 취하는 모습 보여주세요"
+        },
+        "sitting": {
+          "name": "앉기",
+          "uiPrompt": "당신이 앉아 있는 모습 보여주세요"
+        },
+        "waving": {
+          "name": "손 흔들기",
+          "uiPrompt": "당신이 손 흔드는 모습 보여주세요"
+        },
+        "dancing": {
+          "name": "춤추기",
+          "uiPrompt": "당신이 춤추는 모습 보여주세요"
+        },
+        "reading": {
+          "name": "책 읽기",
+          "uiPrompt": "당신이 책 읽는 모습 보여주세요"
+        },
+        "smiling": {
+          "name": "미소",
+          "uiPrompt": "미소 지어줘"
+        },
+        "walking": {
+          "name": "걷기",
+          "uiPrompt": "걷는 모습 보여줘"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "셀피",
+          "uiPrompt": "셀피 영상 보여줘"
+        },
+        "posing": {
+          "name": "포즈",
+          "uiPrompt": "포즈 취하는 영상 보여줘"
+        },
+        "sitting": {
+          "name": "앉기",
+          "uiPrompt": "앉아 있는 영상 보여줘"
+        },
+        "waving": {
+          "name": "손 흔들기",
+          "uiPrompt": "손 흔드는 영상 보여줘"
+        },
+        "dancing": {
+          "name": "춤추기",
+          "uiPrompt": "춤추는 영상 보여줘"
+        },
+        "reading": {
+          "name": "책 읽기",
+          "uiPrompt": "책 읽는 영상 보여줘"
+        },
+        "smiling": {
+          "name": "미소",
+          "uiPrompt": "미소 짓는 영상 보여줘"
+        },
+        "walking": {
+          "name": "걷기",
+          "uiPrompt": "걷는 영상 보여줘"
+        }
+      }
+    },
+    "writeYourOwn": "또는 직접 프롬프트 작성",
+    "presetSelected": "프리셋 선택됨",
+    "effects": {
+      "categories": {
+        "solo": "솔로 & 티즈",
+        "oral": "오럴",
+        "positions": "자세",
+        "pov": "POV",
+        "extra": "추가",
+        "remix": "리믹스"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "애널 그립"
+        },
+        "bath_towel": {
+          "name": "목욕 타월"
+        },
+        "bikini": {
+          "name": "비키니"
+        },
+        "blowjob_69": {
+          "name": "블로우잡 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "블로우잡 그랜드 슬램"
+        },
+        "blowjob_pov": {
+          "name": "블로우잡 POV"
+        },
+        "blowjob_sideview": {
+          "name": "블로우잡 사이드뷰"
+        },
+        "bondage": {
+          "name": "본디지"
+        },
+        "breast_milk": {
+          "name": "모유"
+        },
+        "bunny_suit": {
+          "name": "버니 수트"
+        },
+        "chain_leash": {
+          "name": "체인 리드"
+        },
+        "chinese_dress": {
+          "name": "차이나 드레스"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "몸에 정액"
+        },
+        "cum_on_face": {
+          "name": "얼굴에 정액"
+        },
+        "cunnilingus": {
+          "name": "커닐링구스"
+        },
+        "custom": {
+          "name": "커스텀"
+        },
+        "doggystyle_pov": {
+          "name": "도기스타일 POV"
+        },
+        "doggystyle_sideview": {
+          "name": "도기스타일 사이드뷰"
+        },
+        "fingering": {
+          "name": "핑거링"
+        },
+        "handjob": {
+          "name": "핸드잡"
+        },
+        "jk_uniform": {
+          "name": "교복"
+        },
+        "legsup": {
+          "name": "다리 들기"
+        },
+        "leopard_bikini": {
+          "name": "레오파드 비키니"
+        },
+        "lingerie": {
+          "name": "란제리"
+        },
+        "masturbation": {
+          "name": "자위"
+        },
+        "missionary_condoms": {
+          "name": "선교사 콘돔"
+        },
+        "missionary_pov": {
+          "name": "선교사 POV"
+        },
+        "missionary_sideview": {
+          "name": "선교사 측면 시점"
+        },
+        "remix_blowjob": {
+          "name": "리믹스 블로우잡"
+        },
+        "remix_cowgirl": {
+          "name": "리믹스 카우걸"
+        },
+        "remix_doggystyle": {
+          "name": "리믹스 도기 스타일"
+        },
+        "remix_dress": {
+          "name": "리믹스 드레스"
+        },
+        "remix_hold_dick": {
+          "name": "리믹스 자지 잡기"
+        },
+        "remix_kiss": {
+          "name": "리믹스 키스"
+        },
+        "remix_pronebone": {
+          "name": "리믹스 프론본"
+        },
+        "remix_suck": {
+          "name": "리믹스 빨기"
+        },
+        "remix_wear": {
+          "name": "리믹스 착용"
+        },
+        "remix_yoga": {
+          "name": "리믹스 요가"
+        },
+        "ride_on_dildo": {
+          "name": "딜도 타기"
+        },
+        "sipping_condoms": {
+          "name": "콘돔 빨기"
+        },
+        "squatting_cowgirl": {
+          "name": "스쿼팅 카우걸"
+        },
+        "tattoo": {
+          "name": "타투"
+        },
+        "tentacles": {
+          "name": "촉수"
+        },
+        "titjob": {
+          "name": "가슴잡이"
+        },
+        "topless": {
+          "name": "토플리스"
+        },
+        "undress": {
+          "name": "옷 벗기"
+        },
+        "used": {
+          "name": "사용됨"
+        },
+        "xray": {
+          "name": "엑스레이"
+        },
+        "maid_outfit": {
+          "name": "메이드 의상"
+        },
+        "nurse_outfit": {
+          "name": "간호사 의상"
+        },
+        "cheerleader": {
+          "name": "치어리더"
+        },
+        "wet_tshirt": {
+          "name": "젖은 티셔츠"
+        },
+        "latex_catsuit": {
+          "name": "라텍스 캣수트"
+        },
+        "corset_stockings": {
+          "name": "코르셋 & 스타킹"
+        },
+        "gym_shorts": {
+          "name": "짐 쇼츠"
+        },
+        "thong_tease": {
+          "name": "쏭 티즈"
+        },
+        "upskirt_panties": {
+          "name": "업스커트"
+        },
+        "mirror_selfie": {
+          "name": "거울 셀피"
+        },
+        "shower_nude": {
+          "name": "샤워"
+        },
+        "oiled_body": {
+          "name": "오일 바디"
+        },
+        "spread_open": {
+          "name": "스프레드 오픈"
+        },
+        "ahegao": {
+          "name": "아헤가오"
+        },
+        "deepthroat": {
+          "name": "딥스로트"
+        },
+        "sloppy_blowjob": {
+          "name": "슬로피 블로우잡"
+        },
+        "ball_licking": {
+          "name": "볼 리킹"
+        },
+        "face_sitting_oral": {
+          "name": "페이스 시팅"
+        },
+        "cowgirl": {
+          "name": "카우걸"
+        },
+        "reverse_cowgirl": {
+          "name": "리버스 카우걸"
+        },
+        "prone_bone": {
+          "name": "프론 본"
+        },
+        "standing_sex": {
+          "name": "스탠딩"
+        },
+        "against_wall": {
+          "name": "벽에 기대서"
+        },
+        "spooning": {
+          "name": "스푸닝"
+        },
+        "legs_on_shoulders": {
+          "name": "다리 어깨 위"
+        },
+        "mating_press": {
+          "name": "메이팅 프레스"
+        },
+        "cowgirl_pov": {
+          "name": "카우걸 POV"
+        },
+        "titjob_pov": {
+          "name": "타이트잡 POV"
+        },
+        "handjob_pov": {
+          "name": "핸드잡 POV"
+        },
+        "cunnilingus_pov": {
+          "name": "커닐링구스 POV"
+        },
+        "double_penetration": {
+          "name": "더블 페네트레이션"
+        },
+        "threesome_mmf": {
+          "name": "쓰리섬"
+        },
+        "glory_hole": {
+          "name": "글로리 홀"
+        },
+        "creampie": {
+          "name": "크림파이"
+        },
+        "pearl_necklace": {
+          "name": "펄 네클레스"
+        },
+        "bukkake": {
+          "name": "부카케"
+        },
+        "squirting": {
+          "name": "스쿼팅"
+        },
+        "spanking": {
+          "name": "스팽킹"
+        },
+        "gagged_bdsm": {
+          "name": "개그"
+        },
+        "facefuck": {
+          "name": "페이스펙"
+        },
+        "throatpie": {
+          "name": "스로트파이"
+        },
+        "cock_worship": {
+          "name": "자지 숭배"
+        },
+        "footjob": {
+          "name": "풋잡"
+        },
+        "amazon": {
+          "name": "아마존"
+        },
+        "full_nelson": {
+          "name": "풀 넬슨"
+        },
+        "lotus": {
+          "name": "로터스"
+        },
+        "piledriver": {
+          "name": "파일드라이버"
+        },
+        "facefuck_pov": {
+          "name": "페이스펙 POV"
+        },
+        "riding_pov": {
+          "name": "라이딩 POV"
+        },
+        "spitroast": {
+          "name": "스핏로스트"
+        },
+        "hair_pulling": {
+          "name": "머리채 잡기"
+        },
+        "facial_cumshot": {
+          "name": "페이셜 컴샷"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "애널"
+        },
+        "back_doggystyle": {
+          "name": "뒤 도기 스타일"
+        },
+        "blowjob": {
+          "name": "블로우잡"
+        },
+        "blowjob_69": {
+          "name": "블로우잡 69"
+        },
+        "blowjob_reverse": {
+          "name": "리버스 블로우잡"
+        },
+        "breast_massage": {
+          "name": "가슴 마사지"
+        },
+        "breast_massage_nude": {
+          "name": "누드 가슴 마사지"
+        },
+        "butt_smothering": {
+          "name": "엉덩이 스머더링"
+        },
+        "cock_worship": {
+          "name": "자지 숭배"
+        },
+        "cum_in_mouth": {
+          "name": "입 안에 사정"
+        },
+        "dildo_masturbation": {
+          "name": "딜도 자위"
+        },
+        "double_blowjob": {
+          "name": "더블 블로우잡"
+        },
+        "double_penetration": {
+          "name": "더블 페네트레이션"
+        },
+        "ejaculation": {
+          "name": "사정"
+        },
+        "facefuck": {
+          "name": "페이스펙"
+        },
+        "facefuck_pov": {
+          "name": "페이스펙 POV"
+        },
+        "facial_cumshot": {
+          "name": "얼굴 사정"
+        },
+        "footjob": {
+          "name": "풋잡"
+        },
+        "front_doggystyle": {
+          "name": "앞 도기 스타일"
+        },
+        "fuck_machine": {
+          "name": "섹스 머신"
+        },
+        "full_nelson": {
+          "name": "풀 넬슨"
+        },
+        "handjob": {
+          "name": "핸드잡"
+        },
+        "masturbation": {
+          "name": "자위"
+        },
+        "missionary_pov": {
+          "name": "선교사 POV"
+        },
+        "missionary_sideview": {
+          "name": "선교사 측면 시점"
+        },
+        "nipple_play": {
+          "name": "유두 플레이"
+        },
+        "nude_posing": {
+          "name": "누드 포징"
+        },
+        "orgasm": {
+          "name": "오르가즘"
+        },
+        "pronebone": {
+          "name": "프론본"
+        },
+        "pussy_closeup": {
+          "name": "보지 클로즈업"
+        },
+        "reverse_cowgirl": {
+          "name": "리버스 카우걸"
+        },
+        "shoejob": {
+          "name": "슈잡"
+        },
+        "spitroast": {
+          "name": "스핏로스트"
+        },
+        "squatting_cowgirl": {
+          "name": "스쿼팅 카우걸"
+        },
+        "throatpie": {
+          "name": "스로트파이"
+        },
+        "tiktok_trend": {
+          "name": "틱톡 트렌드"
+        },
+        "titjob": {
+          "name": "타이잡"
+        },
+        "titty_flash": {
+          "name": "가슴 노출"
+        },
+        "triple_dicked": {
+          "name": "트리플 딕드"
+        },
+        "twerk": {
+          "name": "트워크"
+        },
+        "undress": {
+          "name": "옷 벗기"
+        },
+        "strip_tease": {
+          "name": "스트립 티즈"
+        },
+        "booty_bounce": {
+          "name": "부티 바운스"
+        },
+        "oil_show": {
+          "name": "오일 쇼"
+        },
+        "shower_show": {
+          "name": "샤워 쇼"
+        },
+        "panty_drop": {
+          "name": "팬티 드롭"
+        },
+        "ahegao_solo": {
+          "name": "아헤가오"
+        },
+        "deepthroat": {
+          "name": "딥스로트"
+        },
+        "sloppy_blowjob": {
+          "name": "슬로피 블로우잡"
+        },
+        "ball_sucking": {
+          "name": "볼 빨기"
+        },
+        "cowgirl": {
+          "name": "카우걸"
+        },
+        "standing_carry": {
+          "name": "스탠딩 캐리"
+        },
+        "against_wall": {
+          "name": "벽에 기대기"
+        },
+        "spooning": {
+          "name": "스푸닝"
+        },
+        "mating_press": {
+          "name": "메이팅 프레스"
+        },
+        "amazon": {
+          "name": "아마존"
+        },
+        "cowgirl_pov": {
+          "name": "카우걸 POV"
+        },
+        "doggy_pov": {
+          "name": "도기 POV"
+        },
+        "titjob_pov": {
+          "name": "타이트잡 POV"
+        },
+        "handjob_pov": {
+          "name": "핸드잡 POV"
+        },
+        "riding_pov": {
+          "name": "라이딩 POV"
+        },
+        "gangbang": {
+          "name": "갱뱅"
+        },
+        "creampie": {
+          "name": "크림파이"
+        },
+        "bukkake": {
+          "name": "부카케"
+        },
+        "squirting": {
+          "name": "스쿼팅"
+        },
+        "spanking": {
+          "name": "스팽킹"
+        },
+        "hair_pulling": {
+          "name": "머리채 잡기"
+        },
+        "fingering": {
+          "name": "핑거링"
+        },
+        "come_hither": {
+          "name": "컴 히더"
+        },
+        "spread_legs": {
+          "name": "다리 벌리기"
+        },
+        "blowjob_sideview": {
+          "name": "블로우잡 사이드뷰"
+        },
+        "cunnilingus": {
+          "name": "커닐링구스"
+        },
+        "missionary": {
+          "name": "미셔너리"
+        },
+        "legs_on_shoulders": {
+          "name": "다리 어깨 위"
+        },
+        "blowjob_pov": {
+          "name": "블로우잡 POV"
+        },
+        "cunnilingus_pov": {
+          "name": "커닐링구스 POV"
+        },
+        "glory_hole": {
+          "name": "글로리 홀"
+        },
+        "threesome_mmf": {
+          "name": "쓰리섬"
+        },
+        "aftercare_mess": {
+          "name": "애프터케어 메스"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "정말 삭제하시겠습니까?",
+    "deleteSuccess": "삭제 완료",
+    "deleteError": "삭제 실패",
+    "empty": "아직 미디어가 없습니다. 채팅에서 생성해보세요!",
+    "gallerySubtitle": "AI로 생성한 나만의 갤러리",
+    "filterAll": "전체",
+    "filterImages": "이미지",
+    "filterVideos": "비디오",
+    "loadMore": "더 보기",
+    "folders": "폴더",
+    "newFolder": "새 폴더",
+    "deleteFolders": "선택한 폴더 삭제",
+    "folderCreated": "폴더 생성 완료",
+    "folderCreateError": "폴더 생성 실패",
+    "folderRenamed": "폴더 이름 변경 완료",
+    "folderRenameError": "폴더 이름 변경 실패",
+    "folderDeleted": "폴더 삭제 완료",
+    "folderDeleteError": "폴더 삭제 실패",
+    "folderNamePlaceholder": "폴더 이름",
+    "seeMore": "더 보기",
+    "seeLess": "간단히 보기",
+    "selectedCount": "{count}개 선택됨",
+    "selectAll": "전체 선택",
+    "select": "선택",
+    "moveToFolder": "이동",
+    "bulkDeleteConfirm": "{count}개 항목을 삭제할까요?",
+    "bulkDeleteSuccess": "항목 삭제 완료",
+    "bulkDownloadStart": "{count}개 항목 다운로드 중...",
+    "moveSuccess": "항목 이동 완료"
+  },
+  "voice": {
+    "connecting": "연결 중...",
+    "connected": "연결됨",
+    "mute": "음소거",
+    "unmute": "음소거 해제",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "자연스럽게 말하세요. AI는 멈출 때 응답합니다.",
+    "connectionError": "연결에 실패했어요. 다시 시도해 주세요.",
+    "minutesRemaining": "{minutes}분 남음",
+    "minutesUsed": "{minutes}분 사용"
+  },
+  "characters": {
+    "filters": "필터",
+    "ethnicity": "민족",
+    "bodyType": "체형",
+    "ageRange": "연령대",
+    "relationship": "관계",
+    "occupation": "직업",
+    "hobbies": "취미",
+    "personality": "성격",
+    "language": "언어",
+    "age": "나이",
+    "all": "전체",
+    "noResults": "캐릭터를 찾을 수 없어요",
+    "noResultsDesc": "필터를 조정해 보세요",
+    "newBadge": "신규",
+    "chatNow": "지금 채팅하기",
+    "viewProfile": "프로필 보기",
+    "ethnicities": {
+      "caucasian": "백인",
+      "asian": "아시아인",
+      "middleEastern": "중동인",
+      "hispanic": "히스패닉",
+      "african": "아프리카인",
+      "southAsian": "남아시아인",
+      "nativeAmerican": "아메리카 원주민",
+      "pacificIslander": "태평양 섬 주민",
+      "mixed": "혼혈",
+      "other": "기타"
+    },
+    "bodyTypes": {
+      "slim": "슬림",
+      "athletic": "운동선수형",
+      "average": "보통",
+      "curvy": "글래머",
+      "plus": "플러스 사이즈"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "싱글",
+      "dating": "연애 중",
+      "married": "기혼",
+      "none": "없음"
+    }
+  },
+  "settings": {
+    "profile": "프로필",
+    "myProfile": "내 프로필",
+    "settings": "설정",
+    "account": "계정",
+    "plan": "플랜",
+    "profileSettings": "프로필 설정",
+    "manageAccountSettings": "계정 설정 및 환경설정 관리",
+    "personalInfo": "개인 정보",
+    "nickname": "닉네임",
+    "gender": "성별",
+    "male": "남성",
+    "female": "여성",
+    "preferences": "환경설정",
+    "newsletter": "뉴스레터 구독",
+    "newsletterDesc": "업데이트 및 소식 수신",
+    "aiTrainingTitle": "AI 및 모더레이션 학습",
+    "aiTrainingDesc": "채팅과 프롬프트를 sweetwine의 AI와 모더레이션 개선에 활용하도록 허용합니다. 언제든지 끌 수 있습니다.",
+    "aiTrainingLink": "개인정보 처리방침에서 자세히 알아보기",
+    "aiTrainingError": "AI 학습 설정을 업데이트할 수 없습니다",
+    "interfaceLanguage": "인터페이스 언어",
+    "interfaceLanguageDesc": "사용자 인터페이스 언어",
+    "aiLanguage": "AI 응답 언어",
+    "aiLanguageDesc": "AI 캐릭터가 대화할 때 사용할 언어",
+    "currentPlan": "현재 플랜",
+    "freePlan": "무료 플랜",
+    "dangerZone": "위험 구역",
+    "dangerZoneDescription": "이 계정과 모든 데이터를 영구적으로 삭제하려면",
+    "deleteAllMemory": "모든 메모리 삭제",
+    "confirmDeleteAllMemory": "모든 AI 캐릭터의 장기 메모리를 삭제하시겠습니까? 채팅 메시지는 유지되지만, 다음 답변부터 캐릭터들이 이전 사실을 잊게 됩니다.",
+    "deleteAllMemorySuccess": "모든 메모리가 삭제되었습니다",
+    "deleteAccount": {
+      "button": "계정 삭제",
+      "title": "계정 삭제",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "확인을 위해 다음을 입력하세요",
+      "confirmRequired": "확인을 위해 DELETE를 입력하세요",
+      "confirmButton": "내 계정 삭제",
+      "deleting": "삭제 중...",
+      "success": "계정이 삭제되었습니다",
+      "error": "계정 삭제에 실패했습니다. 다시 시도해 주세요."
+    },
+    "saveChanges": "변경 사항 저장",
+    "changesSaved": "변경 사항이 성공적으로 저장되었습니다",
+    "saveFailed": "변경 사항 저장에 실패했습니다",
+    "languageUpdated": "언어가 업데이트되었습니다",
+    "aiLanguageUpdated": "AI 언어가 업데이트되었습니다"
+  },
+  "create": {
+    "defaultGreeting": "안녕하세요",
+    "title": "AI 캐릭터 만들기",
+    "step": "단계 {current} / {total}",
+    "step1": {
+      "title": "스타일 선택",
+      "description": "캐릭터의 스타일과 기본 속성을 선택하세요"
+    },
+    "step2": {
+      "title": "민족 선택",
+      "description": "캐릭터의 민족과 나이를 선택하세요"
+    },
+    "step3": {
+      "title": "머리카락 & 눈 선택",
+      "description": "헤어 스타일, 머리카락 색상, 눈 색상을 커스터마이즈하세요"
+    },
+    "step4": {
+      "title": "체형 선택",
+      "description": "캐릭터의 체형을 커스터마이즈하세요"
+    },
+    "step5": {
+      "title": "성격 & 세부 정보",
+      "description": "캐릭터의 성격과 목소리를 정의하세요"
+    },
+    "style": {
+      "title": "캐릭터 스타일",
+      "realistic": "리얼리스틱",
+      "anime": "애니메"
+    },
+    "gender": {
+      "title": "성별",
+      "female": "여성",
+      "male": "남성"
+    },
+    "age": {
+      "title": "나이",
+      "years": "{age}세"
+    },
+    "ethnicity": {
+      "title": "민족"
+    },
+    "hairStyle": {
+      "title": "헤어 스타일"
+    },
+    "hairColor": {
+      "title": "머리카락 색상"
+    },
+    "eyeColor": {
+      "title": "눈 색상"
+    },
+    "bodyType": {
+      "title": "체형"
+    },
+    "breastSize": {
+      "title": "가슴 크기"
+    },
+    "name": {
+      "title": "이름",
+      "placeholder": "캐릭터 이름 입력",
+      "randomize": "랜덤 이름 생성"
+    },
+    "language": {
+      "title": "언어",
+      "widgetLabel": "언어 선택",
+      "placeholder": "언어 선택",
+      "selectTitle": "언어를 선택하세요"
+    },
+    "personality": {
+      "title": "성격",
+      "widgetLabel": "성격 선택",
+      "placeholder": "성격 선택",
+      "sectionTitle": "성격 선택",
+      "clickToChange": "클릭하여 변경"
+    },
+    "relationship": {
+      "title": "관계",
+      "widgetLabel": "관계 선택",
+      "placeholder": "관계 선택",
+      "selectTitle": "관계 편집"
+    },
+    "occupation": {
+      "title": "직업",
+      "widgetLabel": "직업 선택",
+      "placeholder": "직업 선택",
+      "selectTitle": "직업 편집"
+    },
+    "kinks": {
+      "title": "관심사",
+      "widgetLabel": "관심 있는 취향은? (최대 {max})",
+      "labelMax": "관심사 (최대 {max})",
+      "placeholder": "관심사 선택 (선택 사항)",
+      "optional": "선택 사항",
+      "selectTitle": "관심사 편집",
+      "moreCount": "+{count}개 더"
+    },
+    "selector": {
+      "searchPlaceholder": "검색",
+      "noResults": "옵션을 찾을 수 없음",
+      "cancel": "취소",
+      "saveChanges": "변경 사항 저장",
+      "selectedCount": "{count}개 선택됨"
+    },
+    "voice": {
+      "title": "음성",
+      "widgetLabel": "음성 선택",
+      "placeholder": "음성 선택",
+      "selectTitle": "음성 선택"
+    },
+    "advanced": {
+      "title": "고급 설정",
+      "optional": "선택 사항",
+      "filled": "입력 완료",
+      "autocompleteTitle": "AI 자동 완성",
+      "autocompleteDesc": "더 깊은 캐릭터를 위해 AI가 빈 필드를 채우도록 하세요",
+      "autocompleteSuccess": "필드가 성공적으로 채워졌습니다!",
+      "autocompleteError": "제안을 생성하지 못했습니다. 다시 시도해 주세요.",
+      "greetingLabel": "인사말",
+      "greetingPlaceholder": "캐릭터가 보내는 첫 메시지...",
+      "scenarioLabel": "시나리오",
+      "scenarioPlaceholder": "만난 배경이나 이야기...",
+      "personalityLabel": "추가 성격 세부 정보",
+      "personalityPlaceholder": "특이점, 말투, 행동 특성...",
+      "extraLabel": "추가 세부 정보",
+      "extraPlaceholder": "배경, 취미, 생애..."
+    },
+    "navigation": {
+      "back": "뒤로",
+      "next": "다음",
+      "create": "생성",
+      "generateYourCharacter": "캐릭터 생성"
+    },
+    "progress": {
+      "generatingPrompt": "성격 생성 중...",
+      "generatingImage": "초상화 생성 중...",
+      "creatingVoice": "음성 설정 중...",
+      "saving": "저장 중...",
+      "complete": "완료!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "성격 생성 중...",
+      "addingSweetness": "달콤함 추가 중...",
+      "tooMuchSweet": "이런, 너무 달콤해...",
+      "testingSounds": "사운드 테스트 중..."
+    },
+    "overlay": {
+      "signupPrompt": "캐릭터 잠금을 해제하려면 회원가입을 완료하세요…",
+      "processingHint": "보통 20–30초 정도 소요됩니다",
+      "traitEthnicity": "민족",
+      "traitBody": "체형",
+      "traitHair": "헤어",
+      "traitColor": "색상",
+      "traitEyes": "눈",
+      "traitVibe": "바이브",
+      "bannerTitle": "캐릭터를 생성할 준비가 되었어요!",
+      "bannerDesc": "선호도가 저장되었습니다. 아래에서 검토하고 생성하세요."
+    },
+    "success": {
+      "title": "캐릭터 생성 완료!",
+      "description": "AI 캐릭터가 성공적으로 생성되었습니다.",
+      "yearsOld": "세",
+      "meetButton": "만나기"
+    },
+    "error": {
+      "title": "생성 실패",
+      "generic": "캐릭터 생성에 실패했습니다. 다시 시도해 주세요."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "백인",
+        "asian": "아시아인",
+        "middle_eastern": "중동인",
+        "hispanic": "히스패닉",
+        "african": "아프리카인",
+        "south_asian": "남아시아인",
+        "native_american": "아메리카 원주민",
+        "pacific_islander": "태평양 섬 주민",
+        "mixed": "혼혈",
+        "arab": "아랍인"
+      },
+      "hairStyleFemale": {
+        "straight": "스트레이트",
+        "bangs": "뱅",
+        "curly": "컬리",
+        "bun": "번",
+        "short_bob": "숏밥",
+        "ponytail": "포니테일",
+        "wavy": "웨이브",
+        "long_layers": "롱 레이어",
+        "braids": "브레이드",
+        "pixie_cut": "픽시 컷",
+        "updo": "업두",
+        "french_twist": "프렌치 트위스트",
+        "fishtail_braid": "피쉬테일 브레이드",
+        "top_knot": "탑 노트",
+        "space_buns": "스페이스 번",
+        "halo_braid": "헤일로 브레이드",
+        "beehive": "비하이브",
+        "finger_waves": "핑거 웨이브",
+        "lob": "롱밥 (Lob)",
+        "shag_cut": "섀그 컷",
+        "bald": "대머리"
+      },
+      "hairStyleMale": {
+        "short": "숏컷",
+        "buzz_cut": "버즈 컷",
+        "crew_cut": "크루 컷",
+        "undercut": "언더컷",
+        "fade": "페이드",
+        "pompadour": "폼파두르",
+        "quiff": "퀴프",
+        "slicked_back": "백콤",
+        "curly": "컬리",
+        "afro": "아프로",
+        "man_bun": "맨번",
+        "dreadlocks": "드레드락",
+        "cornrows": "콘로우",
+        "mohawk": "모히칸",
+        "side_part": "사이드 파트",
+        "textured_crop": "텍스처드 크롭",
+        "french_crop": "프렌치 크롭",
+        "spiky": "스파이키",
+        "comb_over": "콤오버",
+        "long_hair": "롱 헤어",
+        "bald": "대머리"
+      },
+      "hairColor": {
+        "brunette": "브루넷",
+        "blonde": "블론드",
+        "black": "블랙",
+        "redhead": "레드헤드",
+        "pink": "핑크",
+        "auburn": "오번",
+        "brown": "브라운",
+        "platinum_blonde": "플래티넘 블론드",
+        "silver_grey": "실버/그레이",
+        "white": "화이트",
+        "blue": "블루",
+        "purple": "퍼플",
+        "green": "그린",
+        "burgundy": "버건디",
+        "copper": "코퍼",
+        "strawberry_blonde": "스트로베리 블론드",
+        "ash_brown": "애쉬 브라운",
+        "golden_blonde": "골든 블론드",
+        "mahogany": "마호가니",
+        "pastel_pink": "파스텔 핑크",
+        "ombre": "옴브레",
+        "balayage": "발레이아주",
+        "highlights": "하이라이트",
+        "jet_black": "제트 블랙",
+        "dark_brown": "다크 브라운",
+        "light_brown": "라이트 브라운",
+        "honey_blonde": "허니 블론드",
+        "dirty_blonde": "더티 블론드",
+        "cherry_red": "체리 레드",
+        "violet": "바이올렛"
+      },
+      "eyeColor": {
+        "brown": "브라운",
+        "blue": "블루",
+        "green": "그린",
+        "hazel": "헤이즐",
+        "amber": "앰버",
+        "gray": "그레이",
+        "heterochromia": "헤테로크로미아",
+        "violet": "바이올렛",
+        "red_pink": "레드/핑크",
+        "black": "블랙"
+      },
+      "bodyTypeFemale": {
+        "skinny": "슬림",
+        "athletic": "애슬레틱",
+        "average": "보통",
+        "curvy": "글래머",
+        "chubby": "통통"
+      },
+      "bodyTypeMale": {
+        "skinny": "슬림",
+        "athletic": "애슬레틱",
+        "average": "보통",
+        "muscular": "머슬",
+        "heavy": "헤비",
+        "big_tall": "빅 & 톨"
+      },
+      "breastSize": {
+        "small": "스몰",
+        "medium": "미디엄",
+        "large": "라지",
+        "extra_large": "엑스트라 라지"
+      },
+      "personality": {
+        "nympho": "님포",
+        "lover": "러버",
+        "submissive": "서브미시브",
+        "dominant": "도미넌트",
+        "temptress": "템트리스",
+        "innocent": "이노센트",
+        "caregiver": "케어기버",
+        "experimenter": "익스페리멘터",
+        "mean": "민",
+        "confidant": "컨피던트",
+        "shy": "샤이",
+        "queen": "퀸",
+        "adventurous": "어드벤처러스",
+        "romantic": "로맨틱",
+        "intellectual": "인텔렉추얼",
+        "protector": "프로텍터",
+        "rebel": "리벨",
+        "optimist": "옵티미스트",
+        "realist": "리얼리스트",
+        "free_spirit": "프리 스피릿",
+        "leader": "리더",
+        "loyal": "충성스러운",
+        "playful": "장난기 있는",
+        "mysterious": "신비로운",
+        "ambitious": "야심찬",
+        "gentle": "상냥한",
+        "sarcastic": "빈정대는",
+        "empathetic": "공감하는",
+        "stoic": "냉정한",
+        "charismatic": "카리스마 있는"
+      },
+      "relationship": {
+        "stranger": "낯선 사람",
+        "girlfriend": "여자친구",
+        "sex_friend": "섹스 프렌드",
+        "school_mate": "학교 친구",
+        "work_colleague": "직장 동료",
+        "wife": "아내",
+        "mistress": "정부",
+        "friend": "친구",
+        "step_sister": "의붓자매",
+        "step_mom": "의붓엄마",
+        "step_daughter": "의붓딸",
+        "landlord": "집주인",
+        "sugar_baby": "슈가 베이비",
+        "boss": "상사",
+        "teacher": "선생님",
+        "student": "학생",
+        "neighbour": "이웃",
+        "mother_in_law": "시어머니",
+        "sister_in_law": "시누이",
+        "boyfriend": "남자친구",
+        "husband": "남편",
+        "fiance": "약혼자",
+        "ex": "전 연인",
+        "roommate": "룸메이트",
+        "best_friend": "베스트 프렌드",
+        "classmate": "반 친구",
+        "mentor": "멘토",
+        "client": "클라이언트",
+        "therapist": "치료사",
+        "trainer": "트레이너",
+        "rival": "라이벌",
+        "crush": "짝사랑 상대",
+        "secret_admirer": "비밀스러운 팬",
+        "pen_pal": "펜팔",
+        "business_partner": "비즈니스 파트너",
+        "babysitter": "베이비시터",
+        "childhood_friend": "소꿉친구",
+        "long_distance_partner": "장거리 연인"
+      },
+      "occupation": {
+        "student": "학생",
+        "dancer": "댄서",
+        "model": "모델",
+        "maid": "메이드",
+        "boss_ceo": "사장 / CEO",
+        "babysitter_au_pair": "베이비시터 / 오페어",
+        "streamer": "스트리머",
+        "bartender": "바텐더",
+        "tech_engineer": "테크 엔지니어",
+        "lifeguard": "인명 구조원",
+        "cashier": "캐셔",
+        "massage_therapist": "마사지 테라피스트",
+        "teacher": "교사",
+        "nurse": "간호사",
+        "secretary": "비서",
+        "yoga_instructor": "요가 강사",
+        "fitness_coach": "피트니스 코치",
+        "cook": "요리사",
+        "artist": "아티스트",
+        "movie_star_actress": "영화배우",
+        "doctor": "의사",
+        "librarian": "사서",
+        "spy": "스파이",
+        "police_officer": "경찰관",
+        "soldier": "군인",
+        "lawyer": "변호사",
+        "hairdresser": "헤어 디자이너",
+        "dentist": "치과의사",
+        "singer_musician": "가수/뮤지션",
+        "gynecologist": "산부인과 의사",
+        "writer": "작가",
+        "flight_attendant": "승무원",
+        "professional_athlete": "프로 선수",
+        "scientist": "과학자",
+        "florist": "플로리스트",
+        "makeup_artist": "메이크업 아티스트",
+        "photographer": "사진작가",
+        "social_worker": "사회복지사",
+        "designer": "디자이너",
+        "pharmacist": "약사",
+        "nutritionist": "영양사",
+        "architect": "건축가",
+        "veterinarian": "수의사",
+        "mechanic": "정비사",
+        "journalist": "기자",
+        "pilot": "파일럿",
+        "firefighter": "소방관",
+        "accountant": "회계사",
+        "electrician": "전기기사",
+        "carpenter": "목수",
+        "psychologist": "심리학자",
+        "real_estate_agent": "부동산 중개인",
+        "chef": "요리사",
+        "farmer": "농부",
+        "delivery_driver": "배달 기사",
+        "janitor": "청소원",
+        "security_guard": "경비원",
+        "banker": "은행원",
+        "judge": "판사",
+        "paramedic": "응급구조사",
+        "actor": "배우",
+        "comedian": "코미디언",
+        "archaeologist": "고고학자",
+        "astronaut": "우주비행사"
+      },
+      "kinks": {
+        "bondage": "본디지",
+        "spanking": "스팽킹",
+        "collar_leash": "칼라 & 리드",
+        "punishment": "처벌",
+        "humiliation": "굴욕",
+        "public_play": "공공 플레이",
+        "roleplay": "롤플레이",
+        "anal_play": "애널 플레이",
+        "oral_play": "오럴 플레이",
+        "cum_play": "컴 플레이",
+        "creampie": "크림파이",
+        "squirting": "스쿼팅",
+        "dirty_talk": "더티 토크",
+        "breeding": "브리딩",
+        "daddy_mommy_dominance": "대디/마미 지배",
+        "edging": "에징",
+        "obedience": "복종",
+        "control": "통제",
+        "inexperienced": "미숙",
+        "shy_flirting": "수줍은 플러팅",
+        "playful_teasing": "장난스러운 놀림",
+        "cuddling": "포옹",
+        "slow_sensual": "느리고 관능적인",
+        "hair_pulling": "머리채 잡기",
+        "foot_fetish": "발 페티시",
+        "voyeurism": "관음증",
+        "exhibitionism": "노출증",
+        "sensation_play": "감각 플레이",
+        "wax_play": "왁스 플레이",
+        "pet_play": "펫 플레이",
+        "age_play": "에이지 플레이",
+        "medical_play": "메디컬 플레이",
+        "orgasm_control_denial": "오르가즘 통제/거부",
+        "forced_orgasms": "강제 오르가즘",
+        "group_sex": "그룹 섹스",
+        "threesomes": "쓰리섬",
+        "swapping": "스와핑",
+        "cuckolding_cuckqueaning": "넷토리/넷토라레",
+        "femdom": "펨돔",
+        "gentle_domination": "젠틀 지배",
+        "sensation_deprivation": "감각 박탈",
+        "sensory_overload": "감각 과부하",
+        "uniform_costume_fetish": "유니폼/코스튬 페티시",
+        "food_play": "푸드 플레이",
+        "watersports": "워터스포츠",
+        "bdsm": "BDSM",
+        "impact_play": "임팩트 플레이",
+        "knife_play": "나이프 플레이",
+        "consensual_non_consent": "합의된 비동의",
+        "power_exchange": "파워 익스체인지",
+        "master_slave": "마스터/슬레이브",
+        "owner_pet": "오너/펫"
+      },
+      "languages": {
+        "en": "영어",
+        "cs": "체코어",
+        "pl": "폴란드어",
+        "de": "독일어",
+        "es": "스페인어",
+        "fr": "프랑스어"
+      }
+    }
+  },
+  "myAI": {
+    "title": "내 AI",
+    "titlePart1": "내",
+    "titlePart2": "AI",
+    "createNew": "새 AI 만들기",
+    "createButton": "캐릭터 만들기",
+    "characterCount": "{count}/{limit} 캐릭터",
+    "loadMore": "더 보기",
+    "empty": {
+      "title": "아직 캐릭터가 없어요",
+      "description": "첫 AI 캐릭터를 만들고 채팅을 시작하세요! 외모, 성격, 목소리를 커스터마이즈할 수 있어요.",
+      "createFirst": "첫 캐릭터 만들기"
+    },
+    "delete": {
+      "title": "캐릭터 삭제",
+      "message": "{name}을(를) 삭제하시겠어요? 캐릭터, 모든 채팅 기록, 생성된 콘텐츠가 영구 삭제됩니다.",
+      "confirm": "삭제",
+      "success": "캐릭터가 성공적으로 삭제되었습니다"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ 상호작용",
+    "interactionDescription": "자연스럽게 입력하세요 — 사진, 영상을 요청하거나 대화를 시작하세요. AI는 어떤 언어로든 의도를 이해합니다.",
+    "mediaTitle": "이미지 & 영상 생성",
+    "mediaDescription": "상상력을 마음껏 발휘하세요 — 제한 없이 이미지나 영상을 생성하세요.",
+    "next": "다음 →",
+    "gotIt": "알겠어요"
+  }
+}

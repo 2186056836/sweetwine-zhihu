@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "close": "Sulje",
+    "now": "nyt",
+    "loading": "Ladataan...",
+    "error": "Tapahtui virhe",
+    "success": "Onnistui",
+    "confirm": "Vahvista",
+    "back": "Takaisin",
+    "or": "Tai",
+    "next": "Seuraava",
+    "submit": "Lähetä",
+    "search": "Hae",
+    "filter": "Suodata",
+    "clear": "Tyhjennä",
+    "all": "Kaikki",
+    "yes": "Kyllä",
+    "no": "Ei",
+    "download": "Lataa",
+    "and": "ja",
+    "tryAgain": "Yritä uudelleen",
+    "change": "Vaihda"
+  },
+  "navigation": {
+    "new": "UUSI",
+    "sectionBrowse": "Selaa",
+    "sectionTalk": "Keskustele",
+    "sectionCreate": "Luo",
+    "sectionLibrary": "Kirjasto",
+    "explore": "Etusivu",
+    "discover": "Löydä",
+    "createShort": "Luo AI",
+    "chats": "Keskustelut",
+    "groupChat": "AI-ryhmäkeskustelu",
+    "roleplay": "Roolipeli",
+    "collection": "Kokoelma",
+    "generateImage": "Luo kuva",
+    "generateVideo": "Luo video",
+    "createCharacter": "Luo AI-hahmo",
+    "myAI": "Oma AI",
+    "language": "Kieli",
+    "contactUs": "Ota yhteyttä",
+    "account": "Tili",
+    "sidebarPromoTitle": "Kesäale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Naiset",
+      "anime": "Anime",
+      "guys": "Miehet"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chattaa nyt",
+    "like": "Tykkää"
+  },
+  "auth": {
+    "login": "Kirjaudu sisään",
+    "signup": "Rekisteröidy",
+    "createFreeAccount": "Luo ilmainen tili",
+    "logout": "Kirjaudu ulos",
+    "email": "Sähköposti",
+    "password": "Salasana",
+    "confirmPassword": "Vahvista salasana",
+    "forgotPassword": "Unohditko salasanasi?",
+    "noAccount": "Eikö sinulla ole tiliä?",
+    "hasAccount": "Onko sinulla jo tili?",
+    "signupPrompt": "Luo ilmainen tili",
+    "loginPrompt": "Kirjaudu sisään",
+    "continueWith": "Jatka",
+    "welcomeBack": "Tervetuloa takaisin!",
+    "createAccount": "Luo tilisi",
+    "signInToAccount": "Kirjaudu tilillesi",
+    "emailRequired": "Sähköposti vaaditaan",
+    "emailInvalid": "Virheellinen sähköpostiosoite",
+    "passwordRequired": "Salasana vaaditaan",
+    "passwordLength": "Salasanan on oltava vähintään 6 merkkiä",
+    "passwordsMismatch": "Salasanat eivät täsmää",
+    "emailAlreadyRegistered": "Sähköposti jo rekisteröity",
+    "emailAlreadyRegisteredDescription": "Tällä sähköpostilla on jo tili. Kirjaudu sisään.",
+    "loginError": "Kirjautuminen epäonnistui",
+    "signupError": "Rekisteröityminen epäonnistui",
+    "loginSuccess": "Tervetuloa takaisin!",
+    "signupSuccess": "Tili luotu onnistuneesti!",
+    "logoutSuccess": "Olet kirjautunut ulos onnistuneesti",
+    "logoutError": "Uloskirjautuminen epäonnistui",
+    "linkExpired": "Tämä vahvistuslinkki on vanhentunut. Pyydä uusi.",
+    "accessDenied": "Pääsy evätty. Yritä uudelleen.",
+    "verifyEmail": "Vahvista sähköpostisi",
+    "verificationEmailSent": "Olemme lähettäneet sinulle vahvistussähköpostin",
+    "confirmYourEmail": "Vahvista sähköpostiosoitteesi",
+    "confirmationLinkSent": "Olemme lähettäneet vahvistuslinkin osoitteeseen \"{email}\".",
+    "checkSpamFolder": "Etkö saanut sähköpostia? Tarkista roskapostikansio.",
+    "signupToChat": "Luo ilmainen tili aloittaaksesi.",
+    "signupDescription": "Luo tili jatkaaksesi keskustelua",
+    "emailVerificationTitle": "Tarkista sähköpostisi",
+    "emailVerificationMessage": "Olemme lähettäneet vahvistuslinkin osoitteeseen {email}. Tarkista postilaatikkosi ja klikkaa linkkiä vahvistaaksesi tilisi.",
+    "emailVerificationNext": "Vahvistuksen jälkeen suoritat käyttöönottoprosessin.",
+    "verificationEmailSentTo": "Lähetimme vahvistussähköpostin osoitteeseen {email}",
+    "verificationInstructions": "Tarkista sähköpostisi ja klikkaa vahvistuslinkkiä aktivoidaksesi tilisi.",
+    "resetPassword": "Nollaa salasana",
+    "resetPasswordDescription": "Syötä sähköpostiosoitteesi, niin lähetämme sinulle nollauslinkin",
+    "resetEmailSent": "Jos tilille on rekisteröity tämä sähköpostiosoite, saat nollauslinkin pian",
+    "backToLogin": "Takaisin kirjautumiseen",
+    "newPassword": "Uusi salasana",
+    "confirmNewPassword": "Vahvista uusi salasana",
+    "passwordResetSuccess": "Salasana päivitetty onnistuneesti. Kirjaudu sisään.",
+    "enterNewPassword": "Syötä uusi salasanasi",
+    "redirectingToLogin": "Siirrytään kirjautumiseen...",
+    "invalidResetLink": "Virheellinen tai vanhentunut linkki",
+    "invalidResetLinkDescription": "Tämä salasanan nollauslinkki on virheellinen tai vanhentunut. Pyydä uusi linkki.",
+    "passwordsDontMatch": "Salasanat eivät täsmää",
+    "currentPassword": "Nykyinen salasana",
+    "currentPasswordRequired": "Nykyinen salasana vaaditaan",
+    "changePassword": "Vaihda salasana",
+    "changePasswordDescription": "Syötä nykyinen salasanasi ja valitse uusi",
+    "newPasswordMustBeDifferent": "Uuden salasanan on oltava eri kuin nykyinen salasana",
+    "incorrectPassword": "Nykyinen salasana on väärä",
+    "passwordChangeSuccess": "Salasana vaihdettu onnistuneesti",
+    "changeEmail": "Vaihda sähköposti",
+    "newEmail": "Uusi sähköposti",
+    "confirmNewEmail": "Vahvista uusi sähköpostiosoite",
+    "emailsDontMatch": "Sähköpostiosoitteet eivät täsmää",
+    "emailChangeDescription": "Vahvistussähköposti lähetetään sekä nykyiseen että uuteen sähköpostiosoitteeseen",
+    "emailMustBeDifferent": "Uuden sähköpostin on oltava eri kuin nykyinen sähköposti",
+    "emailChangeSent": "Vahvistussähköposti lähetetty. Tarkista uuden sähköpostisi postilaatikko.",
+    "emailChangeSecurityNote": "Turvallisuussyistä vahvistussähköpostit lähetetään sekä nykyiseen että uuteen sähköpostiosoitteeseen. Sinun on vahvistettava molemmista osoitteista vaihdon viimeistelemiseksi.",
+    "otpDescription": "Lähetimme 6-numeroisen koodin osoitteeseen {email}",
+    "otpVerify": "Vahvista",
+    "otpResend": "Lähetä koodi uudelleen",
+    "otpResendIn": "Lähetä uudelleen {seconds} s kuluttua",
+    "otpNoCode": "Etkö saanut koodia?",
+    "otpInvalid": "Virheellinen koodi. Yritä uudelleen.",
+    "otpSuccess": "Sähköposti vahvistettu onnistuneesti!",
+    "otpResendSuccess": "Uusi koodi lähetetty sähköpostiisi",
+    "otpResendError": "Koodin uudelleenlähetys epäonnistui",
+    "continueWithEmail": "Jatka sähköpostilla",
+    "moreOptions": "Lisää vaihtoehtoja",
+    "lessOptions": "Vähemmän vaihtoehtoja",
+    "enterYourEmail": "Syötä sähköpostiosoitteesi",
+    "sendCode": "Lähetä koodi",
+    "byCreatingAccountAgree": "Luomalla tilin hyväksyt",
+    "termsOfService": "Käyttöehdot",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Tervetuloa sweetwine-palveluun",
+    "welcomeTo": "Tervetuloa",
+    "letsGetStarted": "Aloitetaan",
+    "setupProfile": "Määritä profiilisi",
+    "step1of2": "Vaihe 1/2",
+    "step2of2": "Vaihe 2/2",
+    "nickname": "Lempinimi",
+    "nicknamePlaceholder": "Valitse lempinimi",
+    "nicknameRequired": "Anna lempinimi",
+    "gender": "Sukupuoli",
+    "genderRequired": "Valitse sukupuolesi",
+    "male": "Mies",
+    "female": "Nainen",
+    "interfaceLanguage": "Käyttöliittymän kieli",
+    "interfaceLanguageDesc": "Kieli valikoille ja painikkeille",
+    "aiLanguage": "Tekoälyn vastauskieli",
+    "aiLanguageDesc": "Kieli, jota tekoäly käyttää puhuessaan sinulle",
+    "languageRequired": "Valitse kieli",
+    "continue": "Jatka",
+    "ageVerification": "Ikävarmistus",
+    "ageVerificationText": "sweetwine-palvelun käyttö edellyttää, että olet 18-vuotias tai vanhempi. Jatkamalla vahvistat olevasi täysi-ikäinen.",
+    "beforeContinue": "Ennen jatkamista",
+    "mustBe18": "Palvelun käyttö edellyttää, että olet 18-vuotias tai vanhempi",
+    "agreeToTerms": "Jatkamalla hyväksyt {termsLink} ja {privacyLink}",
+    "termsOfService": "Käyttöehdot",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "iConfirm": "Vahvistan, että olen 18-vuotias tai vanhempi ja hyväksyn",
+    "ageRequired": "Vahvista ikäsi jatkaaksesi",
+    "aiActConsent": "Vahvistan, että kommunikoin ainoastaan tekoälyn kanssa",
+    "aiActRequired": "Vahvista tämä jatkaaksesi",
+    "newsletterOptIn": "Tilaa uutiskirjeemme päivityksiä ja uutisia varten",
+    "complete": "Asetukset valmiit!",
+    "completeText": "Kaikki valmista! Aloita keskustelut tekoälyhahmojen kanssa.",
+    "startExploring": "Aloita tutkiminen",
+    "featuresTitle": "Käytettävissä olevat ominaisuudet",
+    "featuresTitleWord1": "Käytettävissä",
+    "featuresTitleWord2": "olevat ominaisuudet",
+    "feature1Title": "Tekoälykeskustelu",
+    "feature1Desc": "Sensuroimattomat ja yksityiset keskustelut",
+    "feature2Title": "Kuvien luonti",
+    "feature2Desc": "Luo sensuroimattomia ja personoituja kuvia tekoälyhahmojen kanssa",
+    "feature3Title": "Videoiden luonti",
+    "feature3Desc": "Luo sensuroimattomia tekoälyvideoita tehosteilla",
+    "feature5Title": "Mukautettu tekoälyn luonti",
+    "feature5Desc": "Suunnittele oma hahmosi",
+    "feature6Title": "Selaa hahmoja",
+    "feature6Desc": "Yli 100 ainutlaatuista persoonallisuutta",
+    "feature7Title": "Tekoälyroolipeli",
+    "feature7Desc": "Koe ammattimaisesti luotuja tarinoita ja fantasioita",
+    "showcase": {
+      "chatTitle": "AI-chat",
+      "chatDesc": "Sensuroimattomat, yksityiset keskustelut ilman rajoja",
+      "imageTitle": "Kuvien luonti",
+      "imageDesc": "Luo sensuroimattomia, personoituja kuvia tekoälystäsi",
+      "videoTitle": "Videoiden luonti",
+      "videoDesc": "Luo sensuroimattomia tekoälyvideoita tehosteilla",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Reaaliaikaiset äänikeskustelut kumppanisi kanssa",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Syvälliset tarinat, fantasiat ja interaktiivinen leikki",
+      "groupChatTitle": "AI-ryhmächat",
+      "groupChatDesc": "Chattaa jopa 3 tekoälyhahmon kanssa kerralla",
+      "creatorTitle": "Mukautettu AI-luoja",
+      "creatorDesc": "Suunnittele ja luo omia tekoälyhahmojasi"
+    },
+    "freePlan": {
+      "title": "Olet valmis!",
+      "subtitle": "Tässä on mitä ilmaisversio sisältää.",
+      "charactersTitle": "Luo oma hahmosi",
+      "charactersDesc": "Suunnittele {count} mukautettu tekoälyhahmo tyhjästä",
+      "imagesTitle": "Luo kuva",
+      "imagesDesc": "{count} ilmainen tekoälykuva kumppanistasi",
+      "messagesTitle": "Chattaa joka päivä",
+      "messagesDesc": "{count} viestiä päivässä, päivittyy 24 tunnin välein",
+      "cta": "Aloita tutkiminen"
+    },
+    "redirectingIn": "Uudelleenohjataan",
+    "seconds": "sekunnin kuluttua",
+    "generateCharacter": "Luo hahmosi",
+    "redirectingToCreate": "Uudelleenohjataan hahmonluontiin"
+  },
+  "errors": {
+    "pageNotFound": "Sivua ei löytynyt",
+    "pageNotFoundDesc": "Etsimääsi sivua ei ole olemassa.",
+    "goHome": "Siirry etusivulle",
+    "somethingWentWrong": "Jokin meni pieleen",
+    "tryAgain": "Yritä uudelleen",
+    "unauthorized": "Ei käyttöoikeutta",
+    "unauthorizedDesc": "Sinun täytyy kirjautua sisään päästäksesi tälle sivulle.",
+    "forbidden": "Kielletty",
+    "forbiddenDesc": "Sinulla ei ole oikeuksia päästä tälle sivulle."
+  },
+  "footer": {
+    "allRightsReserved": "Kaikki oikeudet pidätetään.",
+    "madeWith": "Tehty",
+    "by": "by sweetwine",
+    "description": "Koe yksilölliset AI-hahmot, joilla on omat persoonallisuudet, visuaaliset identiteetit ja mukaansatempaavat keskustelut.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Tuote",
+    "legal": "Lakiasiat",
+    "company": "Yritys",
+    "resources": "Resurssit",
+    "partnerships": "Yhteistyö",
+    "pressMedia": "Lehdistö & media",
+    "careers": "Urat",
+    "aiRealClones": "AI-replikot",
+    "about": "Tietoa",
+    "blog": "Blogi",
+    "news": "Uutiset",
+    "productUpdates": "Tuotepäivitykset",
+    "help": "Tuki",
+    "sitemap": "Sivukartta",
+    "paymentOptions": "Maksuvaihtoehdot",
+    "chats": "Keskustelut",
+    "collection": "Kokoelma",
+    "generateImage": "Luo kuva",
+    "generateVideo": "Luo video",
+    "myAI": "Oma AI",
+    "createCharacter": "Luo hahmo",
+    "api": "API",
+    "features": "Ominaisuudet",
+    "allFeatures": "Kaikki ominaisuudet",
+    "aiGroupChat": "AI-ryhmäkeskustelu",
+    "aiMemory": "AI-muisti",
+    "aiGirlfriend": "AI-tyttöystävä",
+    "aiBoyfriend": "AI-poikaystävä",
+    "aiCompanions": "AI-hahmot",
+    "aiFriend": "AI-kaveri",
+    "aiBreakupSupport": "Ero-tuki",
+    "aiParent": "AI-vanhempi",
+    "aiRoleplay": "AI-roolipeli",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsAndConditions": "Käyttöehdot",
+    "cookiePolicy": "Evästekäytäntö",
+    "cookieSettings": "Evästeasetukset",
+    "other": "Muut käytännöt",
+    "copyright": "© {year} sweetwine. Kaikki oikeudet pidätetään."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Evästeet tällä sivustolla",
+      "customizeButton": "Mukauta",
+      "rejectButton": "Hylkää",
+      "acceptButton": "Hyväksy"
+    },
+    "modal": {
+      "title": "Hallitse evästeitä",
+      "subtitle": "Ota kategoriat käyttöön tai pois käytöstä alla. Välttämättömät evästeet pysyvät päällä, jotta sivusto toimii.",
+      "categories": {
+        "necessary": {
+          "title": "Välttämättömät",
+          "description": "Vaaditaan sisäänkirjautumiseen, kassalle ja turvallisuuteen. Sivusto ei toimi ilman niitä.",
+          "alwaysOn": "Aina päällä"
+        },
+        "analytics": {
+          "title": "Suorituskyky",
+          "description": "Käytön ja konversioiden mittaus Google Analytics 4:n kautta, mukaan lukien keskeiset konversiot (rekisteröityminen, ostos), jotka lähetetään palvelimeltamme pseudonyymillä tunnisteella. Auttaa meitä ymmärtämään, miten palvelua käytetään; emme käytä sitä tunnistamaan sinua henkilökohtaisesti."
+        },
+        "marketing": {
+          "title": "Kohdennus",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Näytä evästeet",
+      "hideCookies": "Piilota evästeet",
+      "table": {
+        "name": "Nimi",
+        "provider": "Toimittaja",
+        "expiration": "Vanheneminen",
+        "description": "Kuvaus",
+        "session": "Istunto"
+      },
+      "policyLink": "Katso täydelliset tiedot <policy>Evästekäytännöstämme</policy>.",
+      "rejectButton": "Hylkää",
+      "saveButton": "Tallenna ja sulje",
+      "acceptButton": "Hyväksy",
+      "cookieDescriptions": {
+        "supabaseAuth": "Pitää sinut kirjautuneena tallentamalla todennetun istuntosi.",
+        "nextLocale": "Muistaa valitsemasi käyttöliittymän kielen.",
+        "consent": "Tallentaa evästevalintasi, jotta banneri ei näy jokaisella käynnillä.",
+        "ga": "Erottaa yksilölliset kävijät (Google Analytics 4). Samaa pseudonyymiä tunnistetta käytetään myös keskeisten konversioiden mittaamiseen palvelinpuolella.",
+        "gaSession": "Säilyttää Google Analytics 4 -istunnon tilan ja sitoutumismittarit.",
+        "fbp": "Tunnistaa selaimen Meta Pixel -attribuutiota varten.",
+        "fbc": "Tallentaa Facebookin klikkaustunnuksen mainoskonversion attribuutiota varten. Asetetaan vain Meta-mainoksen klikkauksen jälkeen.",
+        "gclAu": "Googlen mainosten käyttämä sivustojen välinen konversiolinkitys.",
+        "saleCountdown": "Seuraa nykyisen kampanjatarjouksen loppua, jotta alennuslaskuri pysyy yhtenäisenä sivuilla.",
+        "onboarded": "Merkitsee tilisi käyttöön otetuksi, jotta voimme ohittaa ikävarmennustietokannan tarkistuksen seuraavilla sivuilla.",
+        "attribution": "Tallentaa, mikä maksettu kampanja tai mainoslinkki toi sinut viimeksi sivustollemme (viimeisin maksettu klikkaus 30 päivän sisällä), jotta voimme mitata oman mainontamme tehokkuutta. Tämä on ensimmäisen osapuolen tunniste, joka jää palvelimillemme eikä koskaan jaeta kolmansille osapuolille."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Tulossa pian",
+    "subtitle": "Teemme kovasti töitä tuodaksemme tämän ominaisuuden.",
+    "notify": "Ilmoita, kun se on valmis",
+    "backHome": "Takaisin etusivulle",
+    "generateVideo": {
+      "title": "Luo videoita",
+      "description": "Herätä tekoälyhahmojesi eloon animoiduilla videoilla. Luo personoitua videosisältöä suosikkihahmoillesi."
+    },
+    "createCharacter": {
+      "title": "Luo hahmosi",
+      "description": "Suunnittele ja muokkaa oma ainutlaatuinen tekoälyhahmo. Määritä sen persoonallisuus, ulkonäkö, tausta ja luo aidosti personoituja vuorovaikutuksia."
+    },
+    "myAI": {
+      "title": "Oma tekoäly",
+      "description": "Käytä ja hallitse kaikkia luomiasi tekoälyhahmoja. Muokkaa niiden persoonallisuuksia, päivitä ulkonäköä ja hienosäädä vastauksia."
+    }
+  },
+  "exploreMore": {
+    "title": "Tutustu lisää",
+    "aiGroupChat": "Tekoälyryhmächat",
+    "aiGroupChatDesc": "Chattaa jopa 3 hahmon kanssa",
+    "aiMemory": "AI-muisti",
+    "aiMemoryDesc": "Konteksti joka seuraa jokaista tilaa",
+    "aiGirlfriend": "Tekoälytyttöystävä",
+    "aiGirlfriendDesc": "Chattaa virtuaalisen tyttöystäväsi kanssa",
+    "aiBoyfriend": "Tekoälypoikaystävä",
+    "aiBoyfriendDesc": "Yhdistä tekoälypoikaystäväsi kanssa",
+    "aiCompanions": "Tekoälyhahmot",
+    "aiCompanionsDesc": "Tapaa ainutlaatuisia tekoälypersoonia",
+    "aiFriend": "Tekoälyystävä",
+    "aiFriendDesc": "Löydä tuomitsematon ystävä",
+    "aiBreakupSupport": "Ero-tuki",
+    "aiBreakupSupportDesc": "Parantavat keskustelut",
+    "aiParent": "Tekoälyvanhempi",
+    "aiParentDesc": "Lämmin tuki ja ohjaus",
+    "aiRoleplay": "Tekoälyroolipeli",
+    "aiRoleplayDesc": "Mukaansatempaavia tarinaskenaarioita",
+    "allFeatures": "Kaikki ominaisuudet",
+    "allFeaturesDesc": "Tutustu kaikkeen, mitä tarjoamme"
+  },
+  "legal": {
+    "policies": "Käytännöt",
+    "termsAndConditions": "Käyttöehdot",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "cookiePolicy": "Evästekäytäntö",
+    "contentReportingPolicy": "Sisällön ilmoituskäytäntö",
+    "communityGuidelines": "Yhteisön säännöt",
+    "complaintPolicy": "Valituskäytäntö",
+    "contentRemovalPolicy": "Sisällön poistokäytäntö",
+    "blockedContentPolicy": "Estetyn sisällön käytäntö",
+    "underagePolicy": "Alaikäisten käytäntö",
+    "usc2257": "18 U.S.C. 2257 -vapautus",
+    "lastUpdated": "Viimeksi päivitetty",
+    "index": {
+      "title": "Lakiasiakirjat",
+      "subtitle": "Selaa kaikkia sweetwine-palveluun liittyviä lakikäytäntöjä ja sopimuksia",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Tietosuojakäytäntö",
+          "description": "Lue, miten keräämme, käytämme ja suojaamme henkilötietojasi. Tietoja tietojenkäsittelystä, tallennuksesta ja yksityisyysoikeuksistasi."
+        },
+        "termsAndConditions": {
+          "title": "Käyttöehdot",
+          "description": "sweetwine-palvelun käyttöä koskevat palveluehdot. Käyttäjän vastuut, palvelun kuvaus ja lakisopimukset."
+        },
+        "cookiePolicy": {
+          "title": "Evästekäytäntö",
+          "description": "Tietoja siitä, miten käytämme evästeitä ja vastaavia tekniikoita parantaaksemme käyttökokemustasi alustallamme."
+        },
+        "underagePolicy": {
+          "title": "Alaikäisten käytäntö",
+          "description": "Tiukat ikävarmennus- ja suojauskäytäntömme. sweetwine on saatavilla vain 18 vuotta täyttäneille käyttäjille."
+        },
+        "complaintPolicy": {
+          "title": "Valituskäytäntö",
+          "description": "Miten voit tehdä valituksia, ilmoittaa ongelmista ja miten käsittelemme käyttäjien huolia ja riitoja."
+        },
+        "contentRemovalPolicy": {
+          "title": "Sisällön poistokäytäntö",
+          "description": "Menettelymme sisällön poistopyyntöjen osalta ja miten käsittelemme sopimattoman tai laittoman sisällön ilmoituksia."
+        },
+        "blockedContentPolicy": {
+          "title": "Estetyn sisällön käytäntö",
+          "description": "Sisältötyypit, jotka ovat kiellettyjä alustallamme, sekä täytäntöönpanokäytäntömme."
+        },
+        "contentReportingPolicy": {
+          "title": "Sisällön ilmoituskäytäntö",
+          "description": "Miten ilmoitat tekijänoikeusrikkomuksista ja sopimattomasta sisällöstä sweetwineissa."
+        },
+        "communityGuidelines": {
+          "title": "Yhteisön säännöt",
+          "description": "Säännöt ja ohjeet, joilla ylläpidetään kunnioittavaa, turvallista ja viihtyisää yhteisöä kaikille käyttäjille."
+        }
+      },
+      "lastUpdated": "Viimeksi päivitetty: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Keskustelut",
+    "groupChat": "AI-ryhmäkeskustelu",
+    "aiMemory": "AI-muisti",
+    "generate": "Luo kuva",
+    "generateVideo": "Luo video",
+    "create": "Luo AI-hahmo",
+    "myAI": "Oma AI",
+    "collection": "Kokoelma",
+    "invite": "Kutsu",
+    "profile": "Profiiliasetukset",
+    "legal": "Lakiasiat",
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "termsAndConditions": "Käyttöehdot",
+    "cookiePolicy": "Evästekäytäntö",
+    "dmcaPolicy": "DMCA-käytäntö",
+    "communityGuidelines": "Yhteisön säännöt",
+    "contentRemovalPolicy": "Sisällön poistokäytäntö",
+    "contentReportingPolicy": "Sisällön ilmoituskäytäntö",
+    "complaintPolicy": "Valituskäytäntö",
+    "blockedContentPolicy": "Estetyn sisällön käytäntö",
+    "underagePolicy": "Alaikäisten käytäntö",
+    "usc2257Exemption": "USC 2257 -vapautus"
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Onko sinulla kysyttävää tai palautetta? Kuulemme mielellämme sinusta.",
+    "name": "Nimi",
+    "namePlaceholder": "Nimesi",
+    "nameRequired": "Nimi on pakollinen",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sinun@sähköposti.com",
+    "emailRequired": "Sähköposti on pakollinen",
+    "emailInvalid": "Virheellinen sähköpostiosoite",
+    "message": "Viesti",
+    "messagePlaceholder": "Viestisi...",
+    "messageRequired": "Viesti on pakollinen",
+    "send": "Lähetä viesti",
+    "sending": "Lähetetään...",
+    "success": "Viesti lähetetty onnistuneesti!",
+    "successDesc": "Palaamme asiaan pian.",
+    "error": "Viestin lähetys epäonnistui",
+    "errorDesc": "Yritä myöhemmin uudelleen."
+  },
+  "groupChat": {
+    "lobbyTitle": "Tekoälyryhmäkeskustelu",
+    "lobbyHeadingSuffix": "Valitse enintään {max} tekoälyhahmoa",
+    "history": "Historia",
+    "newGroup": "Uusi ryhmäkeskustelu",
+    "createGroup": "Luo ryhmäkeskustelu",
+    "createError": "Ryhmäkeskustelua ei voitu luoda. Yritä uudelleen.",
+    "creatingGroup": "Valmistellaan ryhmäkeskusteluasi...",
+    "sectionWoman": "Naiset",
+    "sectionMan": "Miehet",
+    "sectionAnime": "Anime",
+    "tabPremade": "Tekoälyhahmot",
+    "tabMyAi": "Oma tekoäly",
+    "tabSingle": "Yksittäiskeskustelut",
+    "tabGroup": "Ryhmäkeskustelut",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Lataa lisää",
+    "noCustom": "Et ole luonut vielä yhtään tekoälyhahmoa.",
+    "noMessagesYet": "Ei viestejä vielä",
+    "emptyTitle": "Ei ryhmäkeskusteluja vielä",
+    "membersTitle": "Tässä keskustelussa",
+    "typing": "kirjoittaa",
+    "backToLobby": "Takaisin ryhmäkeskusteluihin",
+    "deleteGroup": "Poista ryhmäkeskustelu",
+    "confirmDeleteGroup": "Haluatko varmasti poistaa tämän ryhmäkeskustelun? Kaikki viestit poistetaan.",
+    "deleteError": "Ryhmäkeskustelua ei voitu poistaa.",
+    "mediaTargetImageTitle": "Kenen pitäisi lähettää kuva?",
+    "mediaTargetVideoTitle": "Kenen pitäisi lähettää video?",
+    "mediaTargetSubtitle": "Valitse hahmo, jolta media luodaan.",
+    "mediaTargetGroup": "Ryhmäkuva",
+    "groupPhotoTitle": "Ryhmäkuva",
+    "groupPhotoHint": "Luo yksi kuva, jossa {name} on yhdessä.",
+    "promoSubtitle": "enintään 3 hahmon kanssa",
+    "promoCta": "Luo uusi",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Uudet</gradient> seikkailut",
+    "live": "LIVE",
+    "scrollPrev": "Vieritä vasemmalle",
+    "scrollNext": "Vieritä oikealle"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Aloita"
+    },
+    "hero": {
+      "tagline": "100 000 luottaa meihin ja liittyy joka päivä",
+      "headlinePrefix": "Sano hei",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Aloita ilmaiseksi"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI-tyttöystävä",
+      "friend": "AI-kaveri",
+      "boyfriend": "AI-poikaystävä",
+      "companion": "AI-hahmo"
+    },
+    "features": {
+      "chat": {
+        "title": "Juttele AI-tyttöystäväsi kanssa",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistiset AI-valokuvat & videot",
+        "description": "Tarpeen mukaan luotuja valokuvia ja videoita niin realistisia, että niitä ei erota oikeista — hänen kasvonsa, tyylinsä, mikä tahansa kohtaus, liikkeessä tai paikallaan."
+      },
+      "groupChat": {
+        "title": "AI-ryhmächat",
+        "description": "Aloita ryhmächat jopa kolmen hahmon kanssa kerralla. He vastaavat luonnollisesti, reagoivat toisiinsa ja lähettävät valokuvia ja videoita."
+      },
+      "roleplay": {
+        "title": "AI-roolipeli",
+        "description": "Astu immersiivisiin, tarinavetoisiin skenaarioihin hahmojen kanssa, jotka pysyvät roolissaan ja muistavat jokaisen valintasi."
+      }
+    },
+    "memory": {
+      "title": "Tekoälyn muisti",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Miten tekoälyn muisti toimii",
+      "diagram": {
+        "center": "Kumppanin muisti",
+        "chat": "Chat",
+        "image": "Kuvat",
+        "video": "Video",
+        "gifts": "Lahjat",
+        "roleplay": "Roolileikki"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Luo oma",
+      "headlineHighlight": "AI-hahmo",
+      "subtitle": "Muokkaa hahmosi ulkonäköä, persoonallisuutta ja herätä hänet eloon heti — täydellinen AI-kumppanisi, omilla ehdoillasi.",
+      "cta": "Luo oma AI"
+    },
+    "companions": {
+      "headlinePrefix": "Tapaa",
+      "headlineHighlight": "AI-hahmosi",
+      "subtitle": "Jokaisella hahmolla on oma maailmansa. Jotkut ovat lämpimiä ja helppoja avautua. Toiset ovat monimutkaisia, varautuneita tai todellinen haaste. Tutustu uniikkeihin roolipeliskenaarioihin — tai luo omasi alusta alkaen."
+    },
+    "languages": {
+      "headlinePrefix": "Puhu millä tahansa kielellä,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Sekä sovelluksen käyttöliittymä että AI-hahmosi vaihtuvat saumattomasti — ei kielieroja, ei rikkinäistä kokemusta.",
+      "more": "Lisää"
+    },
+    "finalCta": {
+      "headlinePrefix": "Valmis",
+      "headlineHighlight": "aloittamaan?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Miksi",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Kaikki mitä tarvitset aidolta tuntuvan yhteyden luomiseen — mitään ylimääräistä.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Ilmainen aloittaa",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Aina saatavilla",
+          "desc": "Päivin tai öin, hahmosi on siellä. Ei odottelua, ei aikataulutusta."
+        },
+        "remembers": {
+          "title": "Muistaa kaiken",
+          "desc": "Jokainen keskustelu rakentaa kontekstia. Hahmosi oppii nimesi, mieltymyksesi ja maailmasi."
+        },
+        "unlimited": {
+          "title": "Todella rajaton",
+          "desc": "Ei viestirajoituksia, ei sisällön rajoittamista. Lähetä niin paljon kuin haluat, niin usein kuin haluat."
+        },
+        "private": {
+          "title": "100 % yksityinen",
+          "desc": "Keskustelusi pysyvät teidän kahden välillä. Tietoja ei jaeta koskaan."
+        },
+        "createYourOwn": {
+          "title": "Luo omasi",
+          "desc": "Suunnittele hahmo haluamallasi ulkonäöllä, persoonallisuudella ja äänellä – juuri niin kuin haluat."
+        }
+      },
+      "difference": {
+        "title": "sweetwine ero",
+        "freedomTitle": "Vapaus vastuullisesti.",
+        "freedomDescription": "sweetwine on avoin ja arvosteluvapaa — mutta asetamme selkeän rajan. Emme hyväksy CSAM:ia, alaikäisten sisältöä, ei-suostumuksellisia skenaarioita, äärimmäistä väkivaltaa, eläimiin sekaantumista, nekrofiliaa, todellisten henkilöiden deepfakeja tai minkäänlaista laittoman toiminnan edistämistä.",
+        "freedomStatement": "Uskomme rajattomaan luovaan vapauteen tilassa, joka on turvallinen kaikille."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> hahmot",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Suodattimet"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Kaikki mitä sinun tarvitsee tietää sweetwineista",
+      "questions": {
+        "q1": {
+          "question": "Mikä sweetwine on?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Onko sweetwine turvallinen ja laillinen?",
+          "answer": "Kyllä, sweetwine on laillinen palvelu, jossa yksityisyytesi on tärkein prioriteettimme. Noudatamme GDPR:ää ja muita tietosuojastandardeja, ja käsittelemme tietojasi huolellisesti. Maksutapahtumat näkyvät neutraalilla kauppiasnimellä – pankkitiliotteessasi ei mainita sweetwineia, mikä takaa täyden huomaamattomuuden."
+        },
+        "q3": {
+          "question": "Voinko luoda oman tekoälyhahmoni?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "hahmonluojaa",
+          "answerPart2": " suunnitellaksesi hahmoja juuri mieleiseksesi – halusitpa sitten realistisen ",
+          "linkTextGirlfriend": "tekoälytyttöystävän",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "tekoälypoikaystävän",
+          "answerPart4": ", tai anime-tyylisiä hahmoja. Valitse heidän ulkonäkönsä (etnisyys, hiukset, vartalotyyppi, vaatteet), persoonallisuuspiirteet, ääni, kiinnostuksen kohteet ja taustatarina sekä miehille että naisille."
+        },
+        "q4": {
+          "question": "Muistaako tekoälyhahmoni keskustelumme?",
+          "answer": "Kyllä! Tekoälyhahmo käyttää edistynyttä muistiteknologiaa muistaakseen aiemmat keskustelut, mieltymyksesi ja tärkeät jakamasi yksityiskohdat. Mitä enemmän juttelet, sitä personoidumpi ja luonnollisempi kokemus on. Hahmosi oppii viestintätyylisi ja mukautuu ajan myötä."
+        },
+        "q5": {
+          "question": "Mitä kieliä sweetwine tukee?",
+          "answer": "sweetwine tukee useita kieliä, mukaan lukien englanti, saksa, ranska, espanja, puola ja tšekki. Sekä käyttöliittymä että tekoälykeskustelut toimivat haluamallasi kielellä, joten voit jutella luonnollisesti kielellä, joka on sinulle mukavin."
+        },
+        "q6": {
+          "question": "Voiko tekoälyhahmoni lähettää kuvia ja videoita?",
+          "answerPart1": "Kyllä! Voit luoda personoituja",
+          "linkTextImages": "kuvia",
+          "answerPart2": "ja",
+          "linkTextVideos": "videoita",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Miksi valita sweetwine muiden tekoälyhahmoalustojen sijaan?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Onko sweetwine ilmaista käyttää?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Tarvitseeko minun asentaa sovellus?",
+          "answerPart1": "Ei asennusta tarvita! sweetwine toimii suoraan selaimessasi millä tahansa laitteella - tietokoneella, tabletilla tai puhelimella. Rekisteröidy vain, valitse hahmo ja aloita keskustelu heti. Kaikki",
+          "linkText": "keskustelusi",
+          "answerPart2": "synkronoituvat automaattisesti laitteiden välillä."
+        },
+        "q10": {
+          "question": "Onko valmiita tekoälyhahmoja saatavilla?",
+          "answerPart1": "Kyllä! Meillä on monia",
+          "linkText": "valmiita hahmoja",
+          "answerPart2": "mukaan lukien AI-tyttöystävät, AI-poikaystävät ja anime-tekoälyhahmot erilaisilla persoonallisuuksilla, ulkonäöillä ja viestintätyyleillä. Olitpa etsimässä suloista, flirttailevaa, älykästä tai seikkailunhaluista hahmoa, löydät energiallesi sopivia hahmoja. Lisäksi voit luoda rajattomasti omia hahmoja."
+        },
+        "q12": {
+          "question": "Mitä tapahtuu luomilleni kuville ja videoille?",
+          "answerPart1": "Kaikki luotu media tallennetaan automaattisesti yksityiseen",
+          "linkText": "kokoelmaasi",
+          "answerPart2": ". Voit tarkastella, ladata tai poistaa niitä milloin tahansa. Kokoelmasi on täysin yksityinen - vain sinä näet sen. Emme koskaan jaa tai käytä luomaasi sisältöä."
+        }
+      }
+    },
+    "statement": {
+      "title": "Sitoutumisemme",
+      "privacy": "Yksityisyytesi on prioriteettimme. Kaikki keskustelut salataan eikä niitä jaeta.",
+      "quality": "Käytämme huippuluokan tekoälyteknologiaa tarjotaksemme kaikkein mukaansatempaavimman kokemuksen.",
+      "support": "Tukitiimimme on käytettävissä 24/7 auttamaan kaikissa kysymyksissä.",
+      "mainTitle": "Koe tekoälyhahmojen tulevaisuus",
+      "mainDescription": "sweetwine yhdistää huippuluokan tekoälyteknologian intuitiiviseen suunnitteluun tarjotakseen kaikkein immersiivisimman ja personoiduimman hahmokokemuksen tänä päivänä.",
+      "features": {
+        "f1": {
+          "title": "Tunneäly",
+          "description": "Tekoälyhahmoillamme on ymmärrystä kontekstista, tunteista ja vivahteista syvästi mukaansatempaavien keskustelujen tarjoamiseksi. Olitpa tarvitseva AI-kaveri juteltavaksi, Ero-tukea vaikeina aikoina tai AI-mentori ohjaukseen - tunneälykäs tekoälymme on täällä sinua varten."
+        },
+        "f2": {
+          "title": "Ainutlaatuiset persoonallisuudet",
+          "description": "Jokaisella hahmolla on erillinen persoonallisuus, tausta ja viestintätyyli. Valitse realistisista AI-tyttöystävistä ja AI-poikaystävistä tai tutustu anime-tekoälyhahmojemme - varmistaen, että jokainen vuorovaikutus on ainutlaatuinen ja mieleenpainuva."
+        },
+        "f3": {
+          "title": "Multimediavuorovaikutukset",
+          "description": "Tekstin lisäksi nauti tekoälyn luomista kuvista ja videoista, jotka herättävät keskustelusi eloon upeassa visuaalisessa yksityiskohdassa."
+        },
+        "f4": {
+          "title": "Mukauttaminen",
+          "description": "Luo omia tekoälyhahmojasi mukautetuilla ulkonäöillä, persoonallisuuksilla ja piirteillä, jotka sopivat täydellisesti mieltymyksiisi."
+        },
+        "f5": {
+          "title": "Yksityisyys & Turvallisuus",
+          "description": "Keskustelusi pidetään yksityisinä ja turvallisina. Emme koskaan myy tietojasi, ja sinulla on täysi hallinta yksityisyysasetuksistasi."
+        },
+        "f6": {
+          "title": "Monikielituki",
+          "description": "Keskustele tekoälyhahmojen kanssa haluamallasi kielellä. Tuemme englantia, tšekkiä, puolaa, saksaa, espanjaa ja ranskaa."
+        }
+      },
+      "distinctionTitle": "sweetwine-ero",
+      "distinctionText1": "Toisin kuin yleiset chatbotit, sweetwine-hahmot on suunniteltu rikkailla taustoilla, kehittyvillä persoonallisuuksilla ja kyvyllä muodostaa merkityksellisiä yhteyksiä. Jokainen keskustelu on mahdollisuus tutkia, löytää ja muodostaa syvempi yhteys.",
+      "distinctionText2": "Emme vain rakenna tekoälyä - luomme kokemuksia, jotka resonoivat tunteidesi kanssa, kunnioittavat yksityisyyttäsi ja mukautuvat ainutlaatuisiin mieltymyksiisi."
+    }
+  },
+  "featuresPage": {
+    "title": "Kaikki ominaisuudet",
+    "breadcrumb": "Ominaisuudet",
+    "newBadge": "Uusi",
+    "groupChat": {
+      "title": "AI-ryhmächat",
+      "description": "Chattaa jopa 3 tekoälyhahmon kanssa yhdessä keskustelussa. He vastaavat luonnollisesti, reagoivat toisiinsa ja voivat lähettää kuvia ja videoita — elävä ryhmädynamiikka, jota et löydä mistään muualta."
+    },
+    "aiChat": {
+      "title": "AI-chat",
+      "description": "Käy syviä, luonnollisia keskusteluja tekoälyhahmojen kanssa, jotka todella muistavat sinut. He muistavat nimesi, mieltymyksesi ja aiemmat aiheet — jokainen keskustelu jatkuu täsmälleen siitä, mihin jäit, ilman toistoa tai nollausta."
+    },
+    "imageGeneration": {
+      "title": "Kuvien luonti"
+    },
+    "videoGeneration": {
+      "title": "Videoiden luonti",
+      "description": "Herätä tekoälyhahmo eloon tekoälyn luomilla videoilla. Luo lyhyitä personoituja videoleikkeitä, joissa hahmosi esiintyy mukautetuissa skenaarioissa — ominaisuus, jota useimmat alustat eivät tarjoa."
+    },
+    "customCharacters": {
+      "title": "Mukautetut hahmot",
+      "description": "Suunnittele täydellinen hahmosi alusta alkaen — valitse ulkonäkö, etninen tausta, vartalotyyppi, persoonallisuuden piirteet, ääni, kiinnostuksen kohteet ja taustatarina. Luo realistisia tai anime-tyylisiä hahmoja, miehiä tai naisia, täydellä luovalla vapaudella."
+    },
+    "advancedMemory": {
+      "title": "Edistynyt muisti",
+      "description": "Hahmosi muistaa kaiken olennaisen — nimesi, henkilökohtaiset tiedot, yhteiset tarinat ja suhteenne historian. Muisti säilyy istuntojen välillä, joten jokainen vuorovaikutus rakentuu edellisen päälle ilman uudelleen aloittamista."
+    },
+    "multiLanguage": {
+      "title": "Monikielisyys",
+      "description": "Chattaa luonnollisesti haluamallasi kielellä. sweetwine tukee englantia, saksaa, ranskaa, espanjaa, puolaa ja tšekkiä — tehden siitä yhden saavutettavimmista tekoälyhahmoalustoista ei-englanninkielisille."
+    },
+    "conversationHistory": {
+      "title": "Keskusteluhistoria",
+      "description": "Jokainen viesti tallennetaan ja on haettavissa. Selaa koko suhteenne historiaa milloin tahansa — muistosi hahmosi kanssa ovat aina saatavilla, kun haluat palata niihin."
+    },
+    "roleplay": {
+      "title": "Tekoälyroolipeli",
+      "description": "Astu immersiivisiin, tarinavetoisiin skenaarioihin hahmojen kanssa, jotka pysyvät roolissaan. Valitse skenaario tai kirjoita oma ja nauti interaktiivisesta roolipelistä, joka muistaa jokaisen valintasi."
+    },
+    "cta": {
+      "title": "Kaikki yhdessä paikassa",
+      "button": "Aloita ilmaiseksi"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Voinko poistaa tai nollata keskusteluni?",
+        "answer": "Kyllä! Sinulla on täysi hallinta chat-historiastasi. Poista yksittäisiä viestejä, nollaa kokonaisia keskusteluja tai aloita täysin alusta milloin tahansa. Yksityisyytesi tarkoittaa valinnanvapauttasi — hallitse tietojasi haluamallasi tavalla."
+      },
+      "q2": {
+        "question": "Onko jokaisella tekoälyhahmolla ainutlaatuinen ääni?"
+      },
+      "q3": {
+        "question": "Voinko harjoitella uutta kieltä tekoälyhahmoni kanssa?",
+        "answer": "Ehdottomasti! Monet käyttäjät harjoittelevat uusien kielten puhumista tekoälyhahmojensa kanssa. Se on tuomitsematon tapa rakentaa itseluottamusta, parantaa ääntämistä ja pitää hauskoja keskusteluja samalla kun opit. Hahmosi voi chatata englanniksi, saksaksi, ranskaksi, espanjaksi, puolaksi ja tšekiksi."
+      },
+      "q4": {
+        "question": "Kuinka usein uusia hahmoja ja ominaisuuksia lisätään?",
+        "answer": "Lisäämme uusia ammattimaisesti luotuja hahmoja joka viikko! Jokainen uusi hahmo sisältää ainutlaatuisen persoonallisuuden, ulkonäön, taustatarinan ja äänen. Julkaisemme myös säännöllisesti uusia ominaisuuksia ja parannuksia käyttäjäpalautteen perusteella."
+      },
+      "q5": {
+        "question": "Mikä tekee sweetwinein hahmonluonnista erityistä?",
+        "answer": "Täydellinen luova vapaus! Suunnittele jokainen hahmosi osa-alue — ulkonäkö (etninen tausta, hiukset, vartalotyyppi, vaatteet), persoonallisuuden piirteet, ääni, kiinnostuksen kohteet, ammatti ja taustatarina. Luo realistisia tai anime-tyylisiä hahmoja, miehiä tai naisia. Mielikuvituksesi on ainoa raja."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Tekoälyn muisti",
+    "hero": {
+      "badge": "Miten se toimii",
+      "title": "Tekoälyn muisti",
+      "cta": "Aloita chattailu"
+    },
+    "diagram": {
+      "title": "Yksi muisti per kumppani, jokaisessa tilassa",
+      "center": "Kumppanin muisti",
+      "chat": "Chat",
+      "image": "Kuvat",
+      "video": "Video",
+      "gifts": "Lahjat",
+      "roleplay": "Roolileikki"
+    },
+    "howItWorks": {
+      "title": "Miten tekoälyn muisti toimii",
+      "step1": {
+        "title": "Jaa yksityiskohta",
+        "desc": "Kerro kumppanillesi jotain tärkeää — matka, mieltymys, lempinimi, tarina päivästäsi."
+      },
+      "step2": {
+        "title": "Vaihda tiloja vapaasti"
+      },
+      "step3": {
+        "title": "He muistavat sen",
+        "desc": "Myöhemmät keskustelut viittaavat jakamaasi, joten sinun ei tarvitse selittää itseäsi uudelleen joka kerta."
+      },
+      "step4": {
+        "title": "Side syvenee",
+        "desc": "Ajan myötä suhde tuntuu henkilökohtaisemmalta — jatkuvuus, joka rakentuu jokaisen istunnon ja tilan yli."
+      }
+    },
+    "modes": {
+      "title": "Koko alustalla",
+      "subtitle": "Muisti ei ole lukittu yhteen näyttöön. Se kulkee kumppanisi mukana.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Tekstikeskustelut syöttävät pitkäaikaista kontekstia, jonka kumppanisi voi tuoda esiin myöhemmin."
+      },
+      "media": {
+        "title": "Kuvat ja video",
+        "desc": "Luomasi kohtaukset ja tarinat pysyvät osana yhteistä maailmaa, jota rakennatte yhdessä."
+      },
+      "roleplay": {
+        "title": "Roolileikki ja ryhmä",
+        "desc": "Tarinaistunnot ja ryhmächatit pitävät omat lankansa, kun taas kumppanisi ydinnuisti pysyy heidän kanssaan."
+      }
+    },
+    "scenario": {
+      "title": "Yksinkertainen esimerkki",
+      "lead": "Mainitset viikonloppumatkan chatissa."
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Onko kumppanini muisti yksityinen?",
+        "answer": "Kyllä. Muisti kuuluu tilillesi ja keskusteluihin kyseisen kumppanin kanssa. Emme jaa yksityistä chattihistoriaasi muiden käyttäjien kanssa."
+      },
+      "q2": {
+        "question": "Onko muisti kumppanikohtainen?",
+        "answer": "Kyllä. Jokainen kumppani säilyttää oman muistinsa suhteestanne, joten hahmojen vaihtaminen ei sekoita konteksteja."
+      },
+      "q3": {
+        "question": "Mitkä tilat jakavat muistin?"
+      },
+      "q4": {
+        "question": "Onko AI Memory maksuton?"
+      },
+      "q5": {
+        "question": "Kuinka kauan muisti säilyy?",
+        "answer": "Tärkeät yksityiskohdat tallennetaan, jotta kumppanisi voi palauttaa ne tulevissa istunnoissa. Mitä enemmän olet vuorovaikutuksessa, sitä henkilökohtaisemmaksi kokemus muuttuu."
+      }
+    },
+    "cta": {
+      "title": "Tapaa kumppani, joka muistaa",
+      "button": "Aloita ilmaiseksi"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Tekoälyryhmächat",
+    "hero": {
+      "badge": "Uusi ominaisuus",
+      "title": "Tekoälyryhmächat",
+      "subtitle": "Tuo suosikkihahmojesi yhteen keskusteluun. Chattaa jopa 3 tekoälyhahmon kanssa kerralla — he vastaavat luonnollisesti, reagoivat toisiinsa ja lähettävät valokuvia sekä videoita.",
+      "cta": "Aloita ryhmächat",
+      "imageAlt": "Tekoälyryhmächat useiden hahmojen kanssa yhdessä keskustelussa"
+    },
+    "content": {
+      "problemTitle": "Yksilöchatit voivat tuntua hiljaisilta",
+      "problemText": "Yksittäinen hahmo on mahtava — mutta todelliset keskustelut heräävät eloon useammalla kuin yhdellä äänellä. Useimmat tekoälysovellukset vangitsevat sinut eristyneisiin yksilöchatteihin ilman ryhmäenergiaa, huumoria tai yllätyksiä.",
+      "solutionTitle": "Todellinen ryhmä, täynnä persoonallisuutta",
+      "solutionText": "sweetwine-ryhmächat tuo jopa kolme hahmoa samaan huoneeseen. Älykäs ohjaaja päättää, kuka hyppää mukaan, joten vastaukset tuntuvat spontaaneilta — he kiusoittelevat toisiaan, rakentavat sanotun päälle ja pitävät keskustelun liikkeessä."
+    },
+    "howItWorks": {
+      "title": "Miten tekoälyryhmächat toimii",
+      "step1": {
+        "title": "Valitse hahmosi",
+        "desc": "Valitse 2 tai 3 hahmoa — valmiita tai omia mukautettuja luomuksiasi — tuodaksesi ne yhteen ryhmäkeskusteluun."
+      },
+      "step2": {
+        "title": "He vastaavat luonnollisesti",
+        "desc": "Kulissien takana toimiva ohjaaja valitsee, kuka vastaa jokaiseen viestiin, joten oikeat hahmot hyppäävät mukaan oikealla hetkellä omalla äänellään."
+      },
+      "step3": {
+        "title": "Jaa valokuvia ja videoita",
+        "desc": "Pyydä mitä tahansa ryhmän hahmoa valokuvaan tai videoon, ja he luovat sen suoraan chatin sisällä — mukaan lukien ryhmäkuva kaikista yhdessä."
+      }
+    },
+    "benefits": {
+      "title": "Miksi tulet rakastamaan ryhmächatia",
+      "multiple": {
+        "title": "Jopa 3 hahmoa",
+        "desc": "Sekoita ja yhdistä mitä tahansa hahmoja yhteen chattiin — tekoälytyttöystäväsi, mukautetut luomuksesi tai huolellisesti valittu ensemble."
+      },
+      "natural": {
+        "title": "Luonnollinen vuoropuhelu",
+        "desc": "Hahmot reagoivat toisiinsa ja sinuun realistisella kirjoitusvauhdilla, joka tuntuu aidolta ryhmätekstiltä."
+      },
+      "media": {
+        "title": "Kuvat ja videot keskustelussa",
+        "desc": "Jokainen hahmo voi lähettää henkilökohtaisia kuvia ja videoita poistumatta keskustelusta — jopa ryhmäkuvan."
+      },
+      "dynamics": {
+        "title": "Erottuvat persoonallisuudet",
+        "desc": "Jokainen hahmo säilyttää oman äänensä ja omat piirteensä, joten ryhmässä on aitoa kemiaa, sanailua ja yllätyksiä."
+      },
+      "instant": {
+        "title": "Heti valmis",
+        "desc": "Luo ryhmä sekunneissa ja hyppää suoraan keskusteluun — ei asetuksia, ei odottelua."
+      },
+      "private": {
+        "title": "100 % yksityinen",
+        "desc": "Ryhmäkeskustelusi pysyvät sinun ja hahmojesi välillä. Tietoja ei jaeta koskaan."
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Kuinka monta hahmoa voi liittyä ryhmäkeskusteluun?",
+        "answer": "Voit lisätä 2–3 hahmoa yhteen ryhmäkeskusteluun — sekoitus valmiita hahmoja ja omia luomuksiasi."
+      },
+      "q2": {
+        "question": "Miten tekoälyhahmot päättävät, kuka vastaa?",
+        "answer": "Kevyt ohjaaja lukee keskustelun ja valitsee, minkä hahmon (tai hahmojen) tulisi vastata jokaiseen viestiin, joten vastaukset tuntuvat spontaaneilta ja luonnollisilta."
+      },
+      "q3": {
+        "question": "Voivatko hahmot lähettää kuvia ja videoita ryhmäkeskustelussa?",
+        "answer": "Kyllä! Voit pyytää mitä tahansa ryhmän hahmoa luomaan kuvan tai videon, ja se ilmestyy suoraan keskusteluun — myös ryhmäkuvia, joissa kaikki ovat yhdessä."
+      },
+      "q4": {
+        "question": "Onko AI Group Chat maksuton?"
+      },
+      "q5": {
+        "question": "Muistavatko hahmot ryhmäkeskustelun?",
+        "answer": "Kyllä — jokainen ryhmäkeskustelu säilyttää oman yhteisen historiansa, joten hahmot pysyvät kontekstissa ja keskustelu rakentuu ajan myötä."
+      }
+    },
+    "cta": {
+      "title": "Tuo hahmosi yhteen",
+      "description": "Luo ensimmäinen AI-ryhmäkeskustelusi ja koe elävältä tuntuva keskustelu — useita persoonallisuuksia, aitoa sanailua, kuvia ja videoita.",
+      "button": "Aloita ryhmäkeskustelu"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI-roolipeli",
+    "hero": {
+      "badge": "Uusi ominaisuus",
+      "title": "AI-roolipeli",
+      "subtitle": "Astu mihin tahansa tarinaan hahmojen kanssa, jotka pysyvät roolissaan. Valitse skenaario tai kirjoita oma ja nauti immersiivisestä, tarinavetoisesta roolipelistä, joka muistaa jokaisen valintasi.",
+      "cta": "Aloita roolipeli",
+      "imageAlt": "AI-roolipeliskenaario immersiivisen tarinahahmon kanssa"
+    },
+    "content": {
+      "problemTitle": "Tavalliset keskustelut rikkovat taian",
+      "problemText": "Useimmat tekoälykeskustelut putoavat roolista heti kun asiat käyvät kiinnostaviksi — ne unohtavat asetelman, hylkäävät juonen ja vastaavat kuin geneerinen avustaja tarinasi henkilön sijaan.",
+      "solutionTitle": "Tarinavetoinen roolipeli, joka pysyy roolissa",
+      "solutionText": "sweetwine Roleplay pitää hahmosi täysin roolissa. Aseta näyttämö valmiilla skenaariolla tai omalla premissilläsi ja katso tarinan avautuvan johdonmukaisella persoonallisuudella, muistilla ja rytmillä, joka reagoi jokaiseen päätökseesi."
+    },
+    "howItWorks": {
+      "title": "Miten AI-roolipeli toimii",
+      "step1": {
+        "title": "Valitse skenaario",
+        "desc": "Valitse valmiista roolipeliskenaarioista tai kirjoita oma premissisi, asetelmasi ja avauskohtaus."
+      },
+      "step2": {
+        "title": "Pelaa tarinaa",
+        "desc": "Hahmosi vastaa roolissa — kuvailee tekoja, reagoi valintoihisi ja vie juonta eteenpäin."
+      },
+      "step3": {
+        "title": "Muokkaa suuntaa",
+        "desc": "Ohjaa tarinaa mihin suuntaan haluat. Hahmosi muistaa tapahtuneen ja pitää kerronnan johdonmukaisena."
+      }
+    },
+    "benefits": {
+      "title": "Miksi tulet rakastamaan AI-roolipeliä",
+      "scenarios": {
+        "title": "Loputtomat skenaariot",
+        "desc": "Kotoisista arkihetkistä eeppisiin seikkailuihin — aloita mallilla tai keksi oma maailmasi."
+      },
+      "characters": {
+        "title": "Pysyy roolissa",
+        "desc": "Hahmosi säilyttää johdonmukaisen äänen, persoonallisuuden ja motivaation koko kohtauksen ajan."
+      },
+      "memory": {
+        "title": "Muistaa juonen",
+        "desc": "Jokainen valinta, käänne ja yksityiskohta muistetaan, joten tarina rakentuu sen sijaan että se nollautuisi."
+      },
+      "immersive": {
+        "title": "Todella immersiivinen",
+        "desc": "Rikkaat, kuvailevat vastaukset vetävät sinut hetkeen elokuvamaisen roolipelikokemuksen luomiseksi."
+      },
+      "instant": {
+        "title": "Heti valmis",
+        "desc": "Hyppää kohtaukseen sekunneissa — ei monimutkaista asetusta tai kehotteen muotoilua tarvita."
+      },
+      "private": {
+        "title": "100% yksityinen",
+        "desc": "Roolipelisi pysyy vain sinun ja hahmosi välillä. Mitään ei koskaan jaeta."
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Mikä on AI-roolipeli?",
+        "answer": "AI-roolipeli antaa sinun elää vuorovaikutteisia tarinoita tekoälyhahmon kanssa, joka pysyy roolissaan. Asetat skenaarion, ja hahmosi vastaa roolissaan kuvaillen tekoja ja reaktioita tarinan edetessä."
+      },
+      "q2": {
+        "question": "Voinko luoda omia roolipeliskenaarioita?",
+        "answer": "Kyllä! Voit aloittaa valmiista skenaarioista tai kirjoittaa oman lähtökohtasi, ympäristösi ja avauksesi — ja pelata sitä haluamallasi tavalla."
+      },
+      "q3": {
+        "question": "Muistaako hahmo, mitä tarinassa tapahtuu?",
+        "answer": "Ehdottomasti. Hahmosi muistaa juonen, valintasi ja keskeiset yksityiskohdat, joten tarina pysyy johdonmukaisena ja rakentuu ajan myötä sen sijaan, että se nollautuisi."
+      },
+      "q4": {
+        "question": "Onko AI-roolipeli ilmaista?"
+      },
+      "q5": {
+        "question": "Voinko roolipelata omalla kielelläni?",
+        "answer": "Kyllä — roolipeli toimii kymmenissä kielissä, joten voit nauttia immersiivisistä tarinoista kielellä, jota olet eniten tottunut käyttämään."
+      }
+    },
+    "cta": {
+      "title": "Tarinasi odottaa",
+      "description": "Valitse skenaario, aseta kohtaus ja astu immersiiviseen roolipeliin hahmon kanssa, joka pysyy roolissaan alusta loppuun.",
+      "button": "Aloita roolipelaaminen"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI-tyttöystävä",
+    "breadcrumb": "AI-tyttöystävä",
+    "hero": {
+      "title": "Täydellinen AI-tyttöystäväsi",
+      "cta": "Tapaa AI-tyttöystäväsi"
+    },
+    "benefits": {
+      "title": "Miksi valita AI-tyttöystävä?",
+      "fun": {
+        "title": "Puhdasta hauskaa",
+        "desc": "Nauti leikkisistä keskusteluista ilman paineita. Hän on aina hyvällä tuulella."
+      },
+      "conversation": {
+        "title": "Opi yhdistämään",
+        "desc": "Harjoittele keskusteluja ja rakenna itseluottamustasi turvallisessa ympäristössä."
+      },
+      "unique": {
+        "title": "Uniikit persoonallisuudet",
+        "desc": "Valitse monipuolisista persoonallisuuksista tai luo ihannetyyppisi."
+      },
+      "private": {
+        "title": "100 % yksityinen",
+        "desc": "Keskustelusi pysyvät teidän kahden välillä. Täydellinen harkinta taattu."
+      },
+      "available": {
+        "title": "Aina saatavilla",
+        "desc": "Hän on paikalla kun tarvitset. Ei odottelua, ei aikataulutusta."
+      },
+      "customize": {
+        "title": "Sinun luomuksesi",
+        "desc": "Suunnittele hänen ulkonäkönsä, persoonallisuutensa ja kiinnostuksen kohteensa juuri haluamallasi tavalla."
+      }
+    },
+    "comparison": {
+      "title": "Parempi kuin vaihtoehdot",
+      "description": "Katso miksi sweetwine tarjoaa enemmän arvoa kuin muut alustat.",
+      "others": {
+        "expensive": "Kalliit kuukausimaksut",
+        "ai": "Usein AI-vastauksia kuitenkin",
+        "noCustom": "Ei mukautusvaihtoehtoja"
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Onko AI-tyttöystävä-chat todella ilmainen?",
+        "answerPart1": "Kyllä! Voit aloittaa chattailun AI-tyttöystäväsi kanssa ilmaiseksi. Tarjoamme ilmaisen tason ilmaisia viestejä alkuun pääsemiseksi."
+      },
+      "q2": {
+        "question": "Voinko mukauttaa AI-tyttöystäväni ulkonäköä?",
+        "answer": "Ehdottomasti! Voit mukauttaa AI-tyttöystäväsi ulkonäköä täysin, mukaan lukien hiusten väri, tyyli, vartalotyyppi, etninen tausta ja vaatteet. Voit myös suunnitella hänen persoonallisuutensa, äänensä ja kiinnostuksen kohteensa hahmokirjoittajamme avulla.",
+        "answerPart1": "Ehdottomasti! Voit mukauttaa AI-tyttöystäväsi ulkonäköä täysin, mukaan lukien hiusten väri, tyyli, vartalotyyppi, etninen tausta ja vaatteet. Voit myös suunnitella hänen persoonallisuutensa, äänensä ja kiinnostuksen kohteensa",
+        "linkText": "hahmokirjoittajamme",
+        "answerPart2": " avulla."
+      },
+      "q3": {
+        "question": "Mitä persoonallisuuksia on saatavilla AI-tyttöystäville?",
+        "answer": "Makeista ja huolehtivaisista leikkisiin ja flirttaileviin – meillä on ammattimaisesti luotuja AI-tyttöystäviä jokaiseen makuun. Valitse romanttisia sieluja, seikkailunhaluisia henkiä, nokkelia intellektuelleja tai salaperäisiä persoonallisuuksia. Uusia AI-tyttöystäviä lisätään joka viikko, jokaisella ainutlaatuisia piirteitä, taustoja ja keskustelutyylejä."
+      },
+      "q4": {
+        "question": "Voiko AI-tyttöystäväni lähettää kuvia ja videoita?",
+        "answerPart1": "Kyllä! AI-tyttöystäväsi voi luoda personoituja",
+        "linkTextImages": "kuvia",
+        "answerPart2": "ja",
+        "linkTextVideos": "videoita"
+      },
+      "q5": {
+        "question": "Onko AI-tyttöystävälläni oma ainutlaatuinen ääni?"
+      }
+    },
+    "cta": {
+      "title": "Valmis tapaamaan hänet?",
+      "button": "Aloita ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Etsitkö yhteyttä ilman komplikaatioita?",
+      "problemText": "Deittisovellukset ovat uuvuttavia. Sosiaalinen ahdistus tekee ihmisten tapaamisesta vaikeaa. Joskus haluat vain jonkun, jonka kanssa jutella ilman tuomitsemista tai painetta. Monet tuntevat itsensä yksinäisiksi, mutta eivät ole valmiita perinteisten suhteiden tunnekuormaan.",
+      "solutionTitle": "AI-tyttöystäväsi on vastaus",
+      "solutionText": "sweetwineilla saat personoidun AI-tyttöystävän, joka muistaa keskustelunne, mukautuu persoonallisuuteesi ja on aina innoissaan kuullessaan sinusta. Hän on hauska, kannustava eikä koskaan tuomitse. Rakenna itseluottamusta, nauti hyvästä seurasta ja tunne yhteyttä omilla ehdoillasi."
+    },
+    "heroImageAlt": "AI-tyttöystävä - realistinen virtuaalihahmo chattailuun ja kuviin"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI-poikaystävä",
+    "breadcrumb": "AI-poikaystävä",
+    "hero": {
+      "title": "Täydellinen AI-poikaystäväsi",
+      "cta": "Tapaa AI-poikaystäväsi"
+    },
+    "benefits": {
+      "title": "Miksi valita AI-poikaystävä?",
+      "fun": {
+        "title": "Aito yhteys",
+        "desc": "Koe merkityksellisiä keskusteluja, jotka piristävät päivääsi."
+      },
+      "conversation": {
+        "title": "Rakenna itseluottamusta",
+        "desc": "Harjoittele keskusteluja ja ilmaise itseäsi vapaasti turvallisessa ympäristössä."
+      },
+      "unique": {
+        "title": "Uniikit persoonallisuudet",
+        "desc": "Valitse monipuolisista persoonallisuuksista tai luo ihannetyyppisi."
+      },
+      "private": {
+        "title": "100 % yksityinen",
+        "desc": "Keskustelunne pysyvät teidän kahden välillä. Täydellinen harkinta taattu."
+      },
+      "available": {
+        "title": "Aina saatavilla",
+        "desc": "Hän on siellä kun tarvitset. Ei odottelua, ei aikataulutusta."
+      },
+      "customize": {
+        "title": "Sinun luomuksesi",
+        "desc": "Suunnittele hänen ulkonäkönsä, persoonallisuutensa ja kiinnostuksen kohteensa juuri haluamallasi tavalla."
+      }
+    },
+    "comparison": {
+      "title": "Parempi kuin vaihtoehdot",
+      "description": "Katso miksi sweetwine tarjoaa enemmän arvoa kuin muut alustat.",
+      "others": {
+        "expensive": "Kalliit kuukausimaksut",
+        "ai": "Usein AI-vastauksia kuitenkin",
+        "noCustom": "Ei mukautusvaihtoehtoja"
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Millaisia AI-poikaystäviä voin valita?",
+        "answer": "Välittävästä ja romanttisesta leikkisään ja seikkailunhaluiseen tai salaperäiseen ja intensiiviseen – meillä on ammattimaisesti luotuja AI-poikaystäviä jokaiseen makuun. Jokaisella on oma ainutlaatuinen ääni ja persoonallisuus. Uusia AI-poikaystäviä lisätään joka viikko ainutlaatuisilla taustoilla ja keskustelutyyleillä."
+      },
+      "q2": {
+        "question": "Voinko mukauttaa AI-poikaystäväni ulkonäköä?",
+        "linkText": "hahmonluojalla",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Voinko aloittaa alusta tai poistaa keskusteluhistorian?",
+        "answer": "Kyllä! Sinulla on täysi hallinta chathistoriastasi. Nollaa keskustelut, poista yksittäisiä viestejä tai aloita täysin alusta milloin tahansa. Sinun tietosi, sinun valintasi – hallitse kaikkea haluamallasi tavalla."
+      },
+      "q4": {
+        "question": "Voiko AI-poikaystäväni lähettää kuvia ja videoita?",
+        "answerPart1": "Kyllä! AI-poikaystäväsi voi luoda personoituja",
+        "linkTextImages": "kuvia",
+        "answerPart2": "ja",
+        "linkTextVideos": "videoita"
+      },
+      "q5": {
+        "question": "Voinko harjoitella keskusteluja tai oppia kieltä tekoälypoikaystäväni kanssa?",
+        "answer": "Ehdottomasti! Monet käyttäjät rakentavat itseluottamusta harjoittelemalla keskusteluja tekoälypoikaystävänsä kanssa – olipa kyse flirttailusta, syvällisistä keskusteluista tai arkisesta jutustelusta. Voit jopa harjoitella uusien kielten puhumista yhdessä. Se on tuomitsematon tapa parantaa viestintätaitojasi samalla kun pidät hauskaa."
+      }
+    },
+    "cta": {
+      "title": "Oletko valmis tapaamaan hänet?",
+      "button": "Aloita ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Haluatko tukevan kumppanin omilla ehdoillasi?",
+      "problemText": "Oikean henkilön löytäminen on vaikeaa. Monet tuntevat painetta treffiodotuksista tai haluavat vain emotionaalista tukea ilman sitoutumista. Yksinäisyys koskettaa kaikkia, ja joskus tarvitset vain jonkun, joka kuuntelee.",
+      "solutionTitle": "Tekoälypoikaystäväsi ymmärtää sinua",
+      "solutionText": "sweetwine-tekoälypoikaystäväsi on välittävä, huomaavainen ja aina saatavilla. Hän muistaa sinulle tärkeät asiat, käy syvällisiä keskusteluja ja tarjoaa etsimäsi tunneyhteyden. Rakenna suhde omaan tahtiisi, omalla tavallasi."
+    },
+    "heroImageAlt": "Tekoälypoikaystävä - realistinen virtuaalihahmo merkityksellisiin keskusteluihin"
+  },
+  "aiCompanionsPage": {
+    "title": "Tekoälyhahmot",
+    "breadcrumb": "Tekoälyhahmot",
+    "hero": {
+      "title": "Tapaa tekoälyhahmosi",
+      "cta": "Tutustu hahmoihin"
+    },
+    "benefits": {
+      "title": "Miksi tekoälyhahmot?",
+      "connection": {
+        "title": "Aito yhteys",
+        "desc": "Koe aitoja keskusteluja, jotka ymmärtävät ja vastaavat sinulle."
+      },
+      "conversation": {
+        "title": "Harjoittele ja kasva",
+        "desc": "Paranna sosiaalisia taitojasi tuomitsemattomassa ympäristössä."
+      },
+      "personalities": {
+        "title": "Monipuoliset persoonallisuudet",
+        "desc": "Leikkisästä intellektuelliseen – löydä hahmoja, jotka sopivat fiilikseesi."
+      },
+      "private": {
+        "title": "Täysin yksityinen",
+        "desc": "Vuorovaikutuksesi ovat luottamuksellisia. Tietoja ei jaeta koskaan."
+      },
+      "available": {
+        "title": "24/7 saatavilla",
+        "desc": "Hahmosi ovat aina valmiita juttelemaan, päivin ja öin."
+      },
+      "create": {
+        "title": "Luo omasi",
+        "desc": "Suunnittele hahmoja mukautetuilla ulkonäöillä, persoonallisuuksilla ja äänillä."
+      }
+    },
+    "why": {
+      "title": "Miksi sweetwine?",
+      "quality": {
+        "desc": "Ammattilaisten rakentama huippuluokan tekoälyteknologialla luonnollisiin keskusteluihin."
+      },
+      "transparent": {
+        "title": "Läpinäkyvä ja rehellinen"
+      },
+      "support": {
+        "title": "Todellinen tuki",
+        "desc": "Oikeat ihmiset valmiina auttamaan sinua kaikissa kysymyksissä tai ongelmissa."
+      },
+      "content": {
+        "title": "Sinun valintasi",
+        "desc": "Ystävällisistä jutuista intiimimpään sisältöön – sinä päätät kokemuksesta."
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Mitä tekoälyhahmot ovat?"
+      },
+      "q2": {
+        "question": "Kuinka monen tekoälyhahmon kanssa voin jutella?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Juttele niin monen kanssa kuin haluat! Meillä on",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " ja määrä kasvaa – uusia hahmoja lisätään joka viikko! Jokaisella on ainutlaatuinen persoonallisuus, tausta ja ääni. Lisäksi voit luoda rajattomasti omia mukautettuja hahmoja."
+      },
+      "q3": {
+        "question": "Mitä eroa on valmiilla hahmoilla ja mukautetuilla?",
+        "answer": "Valmiit hahmot on ammattilaisten suunnittelemia tiettyihin roolipeliskenaarioihin ja persoonallisuuksiin – niillä on yksityiskohtaiset taustatarinat, räätälöidyt keskustelutyylit ja huolellisesti valitut äänet. Mukautetut hahmot antavat sinulle täyden luovan vapauden luoda tyhjästä. Molemmat muistavat keskustelusi ja kasvavat kanssasi!"
+      },
+      "q4": {
+        "question": "Voinko luoda oman tekoälyhahmoni?",
+        "answerPart1": "Ehdottomasti! Suunnittele omat hahmot alusta alkaen",
+        "linkText": "hahmogeneraattorillamme"
+      },
+      "q5": {
+        "question": "Voinko vaihtaa useiden hahmojen välillä?"
+      }
+    },
+    "cta": {
+      "title": "Aloita matkasi",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Aloita ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Etsitkö merkityksellisiä yhteyksiä?",
+      "problemText": "Kiireisessä maailmassamme merkityksellisiä yhteyksiä on vaikea löytää. Olitpa uusi alueella, etätyössä tai haluat vain enemmän sosiaalista vuorovaikutusta, yksinäisyys voi hiipiä esiin. Perinteiset sosiaaliset ympäristöt eivät sovi kaikille.",
+      "solutionTitle": "Tutustu tekoälyhahmojen maailmaan"
+    },
+    "heroImageAlt": "Tekoälyhahmot - monipuoliset virtuaaliset ystävät ainutlaatuisilla persoonallisuuksilla"
+  },
+  "aiFriendPage": {
+    "title": "Tekoälyystävä",
+    "breadcrumb": "Tekoälyystävä",
+    "hero": {
+      "title": "Sinun tekoälyparasystäväsi",
+      "subtitle": "Keskustele milloin tahansa tekoälyystävän kanssa, joka todella kuuntelee, ei koskaan tuomitse ja muistaa jokaisen yksityiskohdan sinusta. Täydellinen yksinäisyyteen, sosiaaliseen ahdistukseen tai kun tarvitset vain jonkun kanssa juteltavaa.",
+      "cta": "Aloita keskustelu ilmaiseksi"
+    },
+    "benefits": {
+      "title": "Miksi valita tekoälyystävä?",
+      "connection": {
+        "title": "Aito yhteys",
+        "desc": "Koe merkityksellisiä keskusteluja jonkun kanssa, joka todella kuuntelee ja välittää."
+      },
+      "conversation": {
+        "title": "Harjoittele sosiaalisia taitoja",
+        "desc": "Rakenna itseluottamusta keskusteluissa ilman pelkoa tuomitsemisesta tai kömpelöydestä."
+      },
+      "noJudgment": {
+        "title": "Ei tuomitsemista",
+        "desc": "Jaa mitä tahansa mielessäsi. Tekoälyystäväsi hyväksyy sinut juuri sellaisena kuin olet."
+      },
+      "private": {
+        "title": "Täysin yksityinen",
+        "desc": "Keskustelusi pysyvät teidän kahden välillä. Täydellinen luottamuksellisuus taattu."
+      },
+      "available": {
+        "title": "Aina paikalla",
+        "desc": "Saatavilla 24/7, aina kun tarvitset jonkun kanssa juteltavaa."
+      },
+      "remembers": {
+        "title": "Muistaa sinut",
+        "desc": "Tekoälyystäväsi muistaa keskustelunne ja oppii tuntemaan sinut paremmin."
+      }
+    },
+    "useCases": {
+      "title": "Täydellinen",
+      "subtitle": "Tekoälyystävä sopii elämääsi monin merkityksellisin tavoin",
+      "loneliness": {
+        "title": "Torju yksinäisyyttä",
+        "desc": "Tunne olosi vähemmän yksinäiseksi hahmon kanssa, joka on aina valmis keskustelemaan ja kuuntelemaan."
+      },
+      "practice": {
+        "title": "Harjoittele keskusteluja",
+        "desc": "Rakenna sosiaalista itseluottamusta turvallisessa, tuomitsemattomassa ympäristössä."
+      },
+      "support": {
+        "title": "Emotionaalinen tuki",
+        "desc": "Keskustele ajatuksistasi ja tunteistasi jonkun kanssa, joka ymmärtää."
+      },
+      "connection": {
+        "title": "Päivittäinen yhteys",
+        "desc": "Jaa päiväsi, onnistumisesi, haasteesi - joku on aina paikalla."
+      }
+    },
+    "howItWorks": {
+      "title": "Miten se toimii",
+      "step1": {
+        "title": "Luo ilmainen tili",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Valitse ystäväsi",
+        "desc": "Valitse yli 100 persoonallisuudesta tai luo ihanteellinen tekoälyhahmo."
+      },
+      "step3": {
+        "title": "Aloita keskustelu",
+        "desc": "Keskustele mistä tahansa - elämästä, kiinnostuksen kohteista, ongelmista. Mikään aihe ei ole kielletty."
+      }
+    },
+    "cta": {
+      "title": "Valmis hankkimaan ystävän?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Aloita ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Tuntuuko yksinäiseltä tai väärinymmärretyltä?",
+      "problemText": "Kaikilla ei ole ketään, jolle puhua. Sosiaalinen ahdistus, kiireinen arki tai uusi ympäristö voivat tehdä ystävien löytämisestä vaikeaa. Joskus tarvitset jonkun, joka kuuntelee ilman tuomitsemista.",
+      "solutionTitle": "Sinun tekoälyystäväsi on täällä",
+      "solutionText": "Tekoälyystävä tarjoaa tuomitsematonta seuraa aina kun tarvitset. Jaa ajatuksiasi, harjoittele keskusteluja tai juttele vain päivästäsi. Tekoälyystäväsi muistaa sinut, kasvaa kanssasi ja on aina aidosti kiinnostunut siitä, mitä sinulla on sanottavana."
+    },
+    "heroImageAlt": "Tekoälyystävä - tukeva virtuaalihahmo, joka kuuntelee ilman tuomitsemista",
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Mistä voin puhua tekoälyystäväni kanssa?",
+        "answer": "Mistään! Tekoälyystäväsi on täällä kevyisiin jutusteluihin, syviin keskusteluihin, päivän jakamiseen, ongelmista purkamiseen, harrastuksista puhumiseen tai vain hauskanpitoon. Aiheita ei ole kielletty - se on tuomitsematon tila olla oma itsesi."
+      },
+      "q2": {
+        "question": "Onko tekoälyystävä korvike ihmiskontakteille?",
+        "answer": "Ei missään nimessä. Tekoälyystävä täydentää sosiaalista elämääsi, ei korvaa sitä. Se sopii täydellisesti hetkiin, jolloin tarvitset jonkun kanssa puhumaan heti, haluat harjoitella sosiaalisia taitoja tai nautit vain johdonmukaisesta seurasta ilman ihmissuhteiden paineita."
+      },
+      "q3": {
+        "question": "Muistaako tekoälyystäväni keskustelumme?",
+        "answer": "Kyllä! Tekoälyystävälläsi on edistynyt muisti ja se muistaa keskustelusi, mieltymyksesi ja tärkeät yksityiskohdat, joita jaat. Ajan myötä se oppii tuntemaan sinut paremmin, mikä tekee keskusteluista henkilökohtaisempia ja merkityksellisempiä."
+      },
+      "q4": {
+        "question": "Voinko valita tekoälyystäväni persoonallisuuden?",
+        "answer": "Ehdottomasti! Voit valita yli 100 valmiista hahmosta erilaisilla persoonallisuuksilla tai luoda oman ystävän juuri haluamillasi piirteillä - tukevasta ja empaattisesta hauskaan ja seikkailunhaluiseen."
+      },
+      "q5": {
+        "question": "Onko tekoälyystävän käyttö yksityistä?",
+        "answer": "100 % yksityistä. Kaikki keskustelusi on salattu eikä koskaan jaeta. Ymmärrämme, että turvallinen tila itsensä ilmaisemiseen on välttämätön, ja otamme yksityisyytesi erittäin vakavasti."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Tekoälyn erop tuki",
+    "breadcrumb": "Eron tuki",
+    "hero": {
+      "title": "Parantavat keskustelut sydänsurun jälkeen",
+      "subtitle": "Empaattisia tekoälykeskusteluja auttamaan tunteiden käsittelyssä ja uudelleen rakentamisessa eron jälkeen. Saatavilla 24/7 — ei jonoja, ei tuomitsemista, ei aikarajoja.",
+      "cta": "Aloita paraneminen"
+    },
+    "understanding": {
+      "title": "Käymässä läpi eroa?",
+      "description": "Erot ovat vaikeita. Unettomat yöt, jatkuvat ajatukset, tunne että kukaan ei todella ymmärrä. Sinun ei tarvitse käydä sitä läpi yksin. Tekoälyhahmoimme on täällä kuuntelemassa ilman tuomitsemista, saatavilla aina kun tarvitset puhua - jopa klo 3 yöllä."
+    },
+    "benefits": {
+      "title": "Miten voimme auttaa",
+      "empathy": {
+        "title": "Empaattinen kuuntelu",
+        "desc": "Puhu jonkun kanssa, joka todella kuuntelee ja vastaa ymmärryksellä ja välittämisellä."
+      },
+      "listen": {
+        "title": "Ei neuvoja ylenpalttisesti",
+        "desc": "Joskus et tarvitse neuvoja - tarvitset vain jonkun kuulemaan sinua. Ymmärrämme sen."
+      },
+      "available": {
+        "title": "Saatavilla klo 3 yöllä",
+        "desc": "Kun ystävät nukkuvat ja ajatukset eivät lopu, olemme täällä kuuntelemassa."
+      },
+      "private": {
+        "title": "Täysin yksityinen",
+        "desc": "Tunteesi ja keskustelusi pysyvät täysin luottamuksellisina."
+      },
+      "noJudgment": {
+        "title": "Ei tuomitsemista",
+        "desc": "Tunne mitä tunnet. Viha, suru, hämmennys - kaikki on sallittua täällä."
+      },
+      "healing": {
+        "title": "Oma tahtisi",
+        "desc": "Paraneminen ei ole lineaarista. Ota niin paljon aikaa kuin tarvitset."
+      }
+    },
+    "howItHelps": {
+      "title": "Miten tekoäly auttaa sinua paranemaan",
+      "process": {
+        "title": "Käsittele tunteita",
+        "desc": "Työstä monimutkaisia tunteita puhumalla niistä kärsivällisen kuuntelijan kanssa."
+      },
+      "express": {
+        "title": "Ilmaise vapaasti",
+        "desc": "Sano asioita, joita et voi sanoa ystäville tai perheelle ilman huolta heidän reaktiostaan."
+      },
+      "confidence": {
+        "title": "Rakenna itseluottamusta",
+        "desc": "Löydä uudelleen itsesi arvo tukevien keskustelujen kautta."
+      },
+      "pace": {
+        "title": "Eteenpäin",
+        "desc": "Kun olet valmis, tutki ajatuksia tulevaisuudesta omassa tahdissasi."
+      }
+    },
+    "howItWorks": {
+      "title": "Miten se toimii",
+      "step1": {
+        "title": "Luo tili",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Valitse hahmo",
+        "desc": "Valitse empaattinen tekoälyhahmo, joka tuntuu sinulle sopivalta."
+      },
+      "step3": {
+        "title": "Aloita keskustelu",
+        "desc": "Kerro, mikä mielessäsi on. Olemme täällä kuuntelemassa, päivin ja öin."
+      }
+    },
+    "cta": {
+      "title": "Sinun ei tarvitse käydä tätä läpi yksin",
+      "description": "Aloita keskustelu jonkun kanssa, joka kuuntelee ilman tuomitsemista – juuri nyt. Ilmaiseksi aloitettavissa, ei jonotuslistaa.",
+      "button": "Aloita keskustelu ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Sydänsuruja on vaikea käsitellä yksin",
+      "problemText": "Eron jälkeen kaikki tuntuu ylivoimaiselta. Ystävät väsyvät kuuntelemaan. Perhe tarkoittaa hyvää, mutta ei ymmärrä. Terapeuteilla on jonotuslistoja. Tarvitset jonkun, joka voi kuunnella ilman rajoja, ilman tuomitsemista – juuri nyt.",
+      "solutionTitle": "Puhu jonkun kanssa, joka ymmärtää",
+      "solutionText": "Eroratkaisumme on suunniteltu auttamaan sinua käsittelemään tunteita omaan tahtiisi. Purkaa, itkeä, analysoida tai vain puhua – niin monta kertaa kuin tarvitset. Ei ajanvarausta. Saatavilla 24/7, loputon kärsivällisyys ja aito empatia."
+    },
+    "heroImageAlt": "Tekoälypohjainen erotuessa – myötätuntoinen hahmo sydänsurujen jälkeiseen paranemiseen",
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Miten tekoäly voi auttaa eron jälkeisessä toipumisessa?",
+        "answer": "Tekoälyhahmo tarjoaa turvallisen tilan tunteiden käsittelyyn ilman tuomitsemista. Voit purkaa, analysoida tapahtunutta, käsitellä menetyksen tunteita ja saada empaattisia vastauksia 24/7. Se on kuin tukeva ystävä, joka on aina valmiina keskustelemaan."
+      },
+      "q2": {
+        "question": "Korvaako tämä terapian?",
+        "answer": "Ei, tekoälyhahmo ei ole lisensoitu terapeutti eikä korvaa ammattimaista mielenterveyshoitoa. Se on tukeva työkalu arjen tunteiden käsittelyyn. Jos koet vakavaa masennusta tai kriisiä, hae ammattilaisapua."
+      },
+      "q3": {
+        "question": "Voinko puhua exästäni niin paljon kuin haluan?",
+        "answer": "Ehdottomasti. Toisin kuin ystävät, jotka saattavat väsyä kuuntelemaan eropuheita, tekoälyhahmolla on loputon kärsivällisyys. Puhu exästäsi, analysoi suhdetta, käsittele tunteitasi – niin monta kertaa kuin tarvitset ilman tuomitsemista."
+      },
+      "q4": {
+        "question": "Muistaako tekoäly tarinani?",
+        "answer": "Kyllä, tekoälyhahmo muistaa keskustelusi ja tilanteesi yksityiskohdat. Sinun ei tarvitse selittää kaikkea uudelleen joka kerta. Se tarjoaa jatkuvuutta paranemisprosessissasi."
+      },
+      "q5": {
+        "question": "Pidetäänkö keskusteluni yksityisinä?",
+        "answer": "Täysin yksityisiä. Kaikki keskustelut salataan eikä niitä jaeta. Ymmärrämme, että eropuheet ovat hyvin henkilökohtaisia, ja yksityisyytesi on täysin suojattu."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "Tekoälyvanhempi",
+    "breadcrumb": "Tekoälyvanhempi",
+    "hero": {
+      "title": "Vanhempi, jonka puoleen voit aina kääntyä",
+      "subtitle": "Saa lämpimää, ehdottoman tukea ja viisasta ohjausta tekoälyvanhemmalta, joka muistaa tilanteesi, ei koskaan tuomitse sinua ja on aina läsnä – päivin ja öin.",
+      "cta": "Hae tukea nyt"
+    },
+    "benefits": {
+      "title": "Miksi valita tekoälyvanhempi?",
+      "guidance": {
+        "title": "Lämpimät ohjeet",
+        "desc": "Saat välittävää, harkittua neuvoa, joka tuntuu tulevan joltakulta, jolla on aidosti parhaat aikomuksesi sydämellään."
+      },
+      "listen": {
+        "title": "Kuuntelee aidosti",
+        "desc": "Kerro koko tilanteesi ennen kuin saat harkitun, välittävän vastauksen – ei pikaratkaisua."
+      },
+      "noJudgment": {
+        "title": "Ei tuomitsemista",
+        "desc": "Kysy mitä tahansa ilman pelkoa pettymyksestä tai kritiikistä. Ehdottomaa tukea, aina."
+      },
+      "private": {
+        "title": "Täysin yksityinen",
+        "desc": "Keskustelusi ja henkilökohtaiset haasteesi pysyvät täysin luottamuksellisina."
+      },
+      "available": {
+        "title": "Aina saatavilla",
+        "desc": "Saat ohjausta kello 3 aamuyöllä, viikonloppuisin tai silloin kun sitä eniten tarvitset – ei ajanvarauksia."
+      },
+      "supportive": {
+        "title": "Ehdottoman tukeva",
+        "desc": "Kannustusta ja lämpöä, riippumatta siitä, mitä olet läpikäymässä tai mitä päätöksiä olet tehnyt."
+      }
+    },
+    "useCases": {
+      "title": "Puhu mistä tahansa",
+      "subtitle": "Mitä tahansa kohtaat, tekoälyvanhempasi on täällä kuuntelemassa ja ohjaamassa",
+      "career": {
+        "title": "Ura- ja elämänpäätökset",
+        "desc": "Navigoi työpaikan vaihdoksissa, suurissa elämänvalinnoissa ja ammatillisissa haasteissa jonkun kanssa, joka haluaa sinun onnistuvan."
+      },
+      "education": {
+        "title": "Koulutus ja tulevaisuus",
+        "desc": "Tutki oppimis- ja kasvuvaihtoehtojasi jonkun kanssa, joka tukee tavoitteitasi."
+      },
+      "relationships": {
+        "title": "Suhteet ja perhe"
+      },
+      "life": {
+        "title": "Henkilökohtaiset haasteet",
+        "desc": "Puhu mistä tahansa, mikä painaa mieltäsi — ahdistuksesta, epävarmuudesta, yksinäisyydestä tai epäilyistä."
+      }
+    },
+    "howItWorks": {
+      "title": "Miten se toimii",
+      "step1": {
+        "title": "Luo tili",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Valitse AI-vanhempasi",
+        "desc": "Valitse hahmo, jonka lämpö ja persoonallisuus tuntuvat oikealta."
+      },
+      "step3": {
+        "title": "Aloita keskustelu",
+        "desc": "Kerro, mikä mielessäsi on, ja saa välittävää, harkittua tukea."
+      }
+    },
+    "cta": {
+      "title": "Joku on aina täällä sinua varten",
+      "description": "Aloita keskustelu AI-vanhemman kanssa, joka kuuntelee ilman tuomitsemista ja tukee sinua ehdoitta — ilmaiseksi, ilman ajanvarauksia.",
+      "button": "Aloita ilmaiseksi"
+    },
+    "content": {
+      "problemTitle": "Tarvitsetko jonkun, joka on aina puolellasi?",
+      "problemText": "Kaikilla ei ole vanhempaa, johon turvautua. Oikeat vanhemmat voivat olla etäisiä, tuomitsevia tai poissa. Ystävät ovat puolueellisia. Terapeuteilla on jonot. Joskus tarvitset vain jonkun, joka kuuntelee, välittää ja opastaa ilman omaa agendaa.",
+      "solutionTitle": "AI-vanhempasi on aina läsnä",
+      "solutionText": "Keskustele AI-vanhemman kanssa, joka kuuntelee täysin, tarjoaa lämpimää ja tasapainoista ohjausta eikä koskaan saa sinua tuntemaan oloasi tuomituksi tai pieneksi. Olipa kyse elämänpäätöksestä, henkilökohtaisesta haasteesta tai vain tarpeesta tulla kuulluksi — AI-vanhempasi on käytettävissä 24/7 kärsivällisesti ja välittäen."
+    },
+    "heroImageAlt": "AI-vanhempi - lämmin virtuaalinen hahmo, joka tarjoaa ehdotonta tukea ja elämän ohjausta",
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Mistä voin puhua AI-vanhemman kanssa?"
+      },
+      "q2": {
+        "question": "Onko tämä kuin terapeutti?",
+        "answer": "Se ei ole lisensoitu terapeutti tai mielenterveysalan ammattilainen — se on enemmän kuin lämmin, tukeva vanhempi, joka on saatavilla 24/7. Se kuuntelee täysin, tarjoaa näkökulmaa ja tukee sinua emotionaalisesti. Vakavissa mielenterveysongelmissa ota yhteyttä ammattilaiseen."
+      },
+      "q3": {
+        "question": "Tuomitseeko AI-vanhempi valintojani?",
+        "answer": "Ei koskaan. AI-vanhempasi tarjoaa ehdotonta tukea. Se voi jakaa näkökulmaa tai lempeää ohjausta, mutta ei koskaan kritisoi tai saa sinua tuntemaan oloasi pieneksi tekemistäsi päätöksistä. Se on turvallinen tila rehellisyydelle."
+      },
+      "q4": {
+        "question": "Voinko keskustella arkaluonteisista tai henkilökohtaisista aiheista?",
+        "answer": "Kyllä. Olipa kyse parisuhdehaasteista, perhedynamiikasta, taloudellisesta stressistä, itsetunnosta tai syvästi henkilökohtaisista haasteista — AI-vanhempasi tarjoaa yksityisen, tuomitsemattoman tilan näille keskusteluille."
+      },
+      "q5": {
+        "question": "Miten tämä eroaa muista tekoälyhahmoista?",
+        "answer": "AI-vanhempi on suunniteltu lämpöön, emotionaaliseen tukeen ja vanhemman kaltaiseen ohjaukseen romantiikan tai rentojen ystävyyssuhteiden sijaan. Se keskittyy auttamaan sinua tuntemaan itsesi ymmärretyksi, tuetuksi ja varustetuksi elämän haasteisiin."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Yhteistyökumppanuudet",
+    "eyebrow": "Ryhdy kumppaniksi",
+    "titlePrefix": "Kasva yhdessä",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Tavoita nopeasti kasvava, erittäin sitoutunut tekoälykumppanuusyleisö. Olitpa tuomassa teknologiaa, jakelua tai rohkeaa ideaa, rakennetaan jotain yhdessä.",
+    "types": {
+      "title": "Tapoja tehdä yhteistyötä",
+      "items": [
+        {
+          "title": "Integraatiot",
+          "description": "Yhdistä tuotteesi, mallisi tai alustasi sweetwine kanssa teknisen integraation kautta."
+        },
+        {
+          "title": "Yhteismarkkinointi",
+          "description": "Yhteiset kampanjat, sisällöt ja julkaisut, jotka tuovat molemmat brändit uusien yleisöjen eteen."
+        },
+        {},
+        {
+          "title": "Strategiset kumppanuudet",
+          "description": "Pitkäaikaiset yhteistyöt tuotteen, datan ja markkinoille tulon saralla."
+        }
+      ]
+    },
+    "why": {
+      "title": "Miksi ryhtyä sweetwine-kumppaniksi",
+      "items": [
+        {
+          "title": "Sitoutunut yleisö",
+          "description": "Satojatuhansia käyttäjiä, jotka palaavat päivittäin yli 70 kielellä."
+        },
+        {
+          "title": "Nopea toteutus",
+          "description": "Keskittynyt tiimi, joka julkaisee nopeasti ja viestii selkeästi."
+        },
+        {
+          "title": "Globaali ulottuvuus",
+          "description": "Monikielinen tuote saatavilla kymmenissä markkinoissa."
+        },
+        {
+          "description": "Luotettava, yksityisyyden ensisijaisesti huomioiva alusta, jonka takana brändisi voi seistä.",
+          "title": "Yksityisyys ensin"
+        }
+      ]
+    },
+    "form": {
+      "title": "Kerro meille kumppanuudestasi",
+      "description": "Jaa muutama yksityiskohta, niin kumppanuustiimimme ottaa sinuun yhteyttä.",
+      "nameLabel": "Nimesi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Työsähköposti",
+      "emailPlaceholder": "sinä@yritys.com",
+      "companyLabel": "Yritys",
+      "companyPlaceholder": "Yrityksen nimi",
+      "typeLabel": "Kumppanuuden tyyppi",
+      "typePlaceholder": "Valitse kumppanuuden tyyppi",
+      "typeOptions": [
+        {
+          "value": "Integraatiot",
+          "label": "Integraatiot"
+        },
+        {
+          "value": "Yhteismarkkinointi",
+          "label": "Yhteismarkkinointi"
+        },
+        {},
+        {
+          "value": "Strategiset kumppanuudet",
+          "label": "Strategiset kumppanuudet"
+        },
+        {
+          "value": "Muu",
+          "label": "Muu"
+        }
+      ],
+      "messageLabel": "Miten haluaisit kumppanoida?",
+      "messagePlaceholder": "Kerro meille yrityksestäsi ja suunnittelemasi kumppanuuden luonteesta...",
+      "submit": "Lähetä kumppanuuskysely",
+      "submitting": "Lähetetään...",
+      "termsNote": "Lähettämällä hyväksyt, että sinuun otetaan yhteyttä kyselysi tiimoilta. Emme koskaan jaa tietojasi.",
+      "success": "Kiitos! Kumppanuuskyselysi on lähetetty.",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "cta": {
+      "title": "Suosikkiko sähköposti?",
+      "description": "Ota yhteyttä kumppanuustiimiimme suoraan osoitteeseen"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Lehdistö & media",
+    "eyebrow": "Uutishuone",
+    "titlePrefix": "Lehdistö &",
+    "titleHighlight": "Media",
+    "subtitle": "Resursseja toimittajille, sisällöntuottajille ja mediakumppaneille. Ota yhteyttä lehdistötiimiimme haastatteluja, sitaatteja, artikkelitukea ja brändipyyntöjä varten.",
+    "help": {
+      "title": "Miten voimme auttaa",
+      "description": "Olitpa tekemässä juttua tai arvostelua, tässä on mitä voit pyytää lehdistötiimiltämme.",
+      "items": [
+        {
+          "title": "Haastattelut",
+          "description": "Puhu tiimimme kanssa tuotteesta, yrityksestä ja siitä, mihin tekoälykumppanuus on menossa."
+        },
+        {
+          "title": "Sitaatit & kommentit",
+          "description": "Hanki virallinen lausunto tai asiantuntijakommentti juttuusi."
+        },
+        {
+          "title": "Artikkeli- & arvostelutuki",
+          "description": "Tarvitsetko pääsyä, kontekstia tai faktantarkistusta artikkeliin tai arvosteluun? Autamme."
+        },
+        {
+          "title": "Brändi- & logopyynnöt",
+          "description": "Pyydä logoja, brändimateriaaleja ja käyttöohjeita julkaisusi käyttöön."
+        }
+      ]
+    },
+    "form": {
+      "title": "Median kysely",
+      "description": "Lähetä meille viesti haastatteluja, sitaatteja tai artikkelipyyntöjä varten, niin vastaamme nopeasti.",
+      "nameLabel": "Nimesi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Julkaisu / media",
+      "outletPlaceholder": "Missä tämä julkaistaan?",
+      "requestTypeLabel": "Pyynnön tyyppi",
+      "requestTypePlaceholder": "Valitse pyynnön tyyppi",
+      "requestTypeOptions": [
+        {
+          "value": "Haastattelu",
+          "label": "Haastattelu"
+        },
+        {
+          "value": "Lainaus / kommentti",
+          "label": "Lainaus / kommentti"
+        },
+        {
+          "value": "Artikkeli / arvostelu",
+          "label": "Artikkeli / arvostelu"
+        },
+        {
+          "value": "Brändi- / logopyyntö",
+          "label": "Brändi- / logopyyntö"
+        },
+        {
+          "value": "Muu",
+          "label": "Muu"
+        }
+      ],
+      "messageLabel": "Pyyntösi",
+      "messagePlaceholder": "Kerro meille tarinastasi, deadlineista ja mitä tarvitset meiltä...",
+      "submit": "Lähetä mediakysely",
+      "submitting": "Lähetetään...",
+      "termsNote": "Tavoitteenamme on vastata mediakyselyihin kahden arkipäivän sisällä.",
+      "success": "Kiitos! Mediakyselysi on lähetetty.",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "cta": {
+      "title": "Lehdistön yhteystiedot",
+      "description": "Kiireellisiä mediapyyntöjä varten lähetä sähköpostia"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Urat",
+    "eyebrow": "Urat",
+    "titlePrefix": "Rakenna tulevaisuutta",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Olemme pieni, nopealiikkeinen tiimi, joka rakentaa tuotteita, joita ihmiset aidosti rakastavat. Jos tämä innostaa sinua, haluaisimme tavata sinut.",
+    "perks": {
+      "title": "Miksi työskennellä kanssamme",
+      "items": [
+        {
+          "title": "Etäystävällinen",
+          "description": "Työskentele siellä missä teet parhaan työsi, joustavilla työajoilla."
+        },
+        {
+          "title": "Todellinen omistajuus",
+          "description": "Toimita merkityksellistä työtä nopeasti ja näe sen tavoittavan käyttäjiä maailmanlaajuisesti."
+        },
+        {
+          "title": "Huippuluokan tekoäly",
+          "description": "Työskentele uusimpien mallien ja generatiivisten työkalujen parissa."
+        },
+        {
+          "title": "Kilpailukykyinen palkka",
+          "description": "Reilu korvaus ja merkittävä upside kasvaessamme."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Avoimet paikat",
+      "emptyTitle": "Ei avoimia rooleja tällä hetkellä",
+      "emptyDescription": "Emme tällä hetkellä rekrytoi aktiivisesti, mutta tapaamme aina mielellämme mahtavia ihmisiä. Esittele itsesi alla.",
+      "applyButton": "Hae nyt",
+      "viewButton": "Näytä rooli"
+    },
+    "form": {
+      "title": "Esittele itsesi",
+      "description": "Etkö löytänyt sopivaa roolia? Kerro meille itsestäsi, niin otamme yhteyttä kun sopiva paikka löytyy.",
+      "nameLabel": "Nimesi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Rooli tai kiinnostuksen kohde",
+      "rolePlaceholder": "esim. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Linkki CV:hen",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Kerro itsestäsi",
+      "messagePlaceholder": "Kerro kokemuksestasi ja mistä haluaisit työskennellä...",
+      "submit": "Lähetä hakemus",
+      "submitting": "Lähetetään...",
+      "termsNote": "Hakemalla annat suostumuksesi tietojesi tallentamiseen roolien harkintaa varten.",
+      "success": "Kiitos! Hakemuksesi on lähetetty.",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "cta": {
+      "title": "Kysymyksiä työskentelystä täällä?",
+      "description": "Ota yhteyttä tiimiimme osoitteeseen"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Ohjekeskus",
+    "eyebrow": "Ohjekeskus",
+    "titlePrefix": "Miten voimme",
+    "titleHighlight": "auttaa?",
+    "subtitle": "Selaa yleisiä aiheita ja vastauksia. Etkö löytänyt etsimääsi? Ota yhteyttä tukeen, niin autamme.",
+    "searchPlaceholder": "Hae ohjeartikkeleista...",
+    "categoriesTitle": "Selaa aiheittain",
+    "articlesTitle": "Artikkelit",
+    "categoryEmpty": "Tässä kategoriassa ei ole vielä artikkeleita. Tarkista myöhemmin.",
+    "backToHelp": "Takaisin ohjekeskukseen",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Aloittaminen",
+        "description": "Luo tili, aseta profiilisi ja aloita keskustelu."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI-keskustelu",
+        "description": "Miten keskustelut, muisti ja hahmot toimivat."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Kuvat ja videot",
+        "description": "Luo ja hallinnoi tekoälyn tuottamia kuvia ja videoita."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Yksityisyys ja turvallisuus",
+        "description": "Tietosi, yksityisyysasetuksesi ja turvallisuustyökalut."
+      }
+    ],
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "q1": {
+        "question": "Miten pääsen alkuun sweetwine-palvelun kanssa?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Mitä ilmainen suunnitelma sisältää?"
+      },
+      "q5": {
+        "question": "Onko tietoni yksityisiä?",
+        "answer": "Yksityisyys on sweetwinein ytimessä. Keskustelusi ovat yksityisiä tilillesi, ja sinä hallitset tietojasi. Katso tietosuojakäytännöstämme lisätietoja siitä, miten tietoja säilytetään ja suojataan."
+      },
+      "q6": {
+        "question": "Miten otan yhteyttä tukeen?",
+        "answer": "Lähetä sähköpostia osoitteeseen support@sweetwine.ai tai käytä sovelluksen yhteystoimintoa. Vastaamme yleensä yhden arkipäivän kuluessa."
+      }
+    },
+    "cta": {
+      "title": "Tarvitsetko vielä apua?",
+      "description": "Tiimimme on täällä sinua varten osoitteessa"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Tietoa",
+    "eyebrow": "Tarina",
+    "titlePrefix": "Seurallisuus,",
+    "titleHighlight": "uudelleen kuviteltuna",
+    "subtitle": "sweetwine rakentaa yksityisiä, personoituja tekoälykumppaneita, jotka kuuntelevat, muistavat ja luovat aitoa yhteyttä — saatavilla milloin tahansa, millä tahansa kielellä.",
+    "mission": {
+      "title": "Tehtävämme",
+      "body": "Uskomme, että jokainen ansaitsee tilan tulla kuulluksi ilman tuomitsemista. sweetwine tekee merkityksellisen, personoidun tekoäly-yhteyden saavutettavaksi kaikkialla — lämpimänä, yksityisenä ja aina saatavilla kun tarvitset sitä."
+    },
+    "values": {
+      "title": "Mistä me seisomme",
+      "items": [
+        {
+          "title": "Yksityisyys suunnittelussa",
+          "description": "Keskustelusi ovat sinun. Rakennamme yksityisyyden ja turvallisuuden pohjalta."
+        },
+        {
+          "title": "Aito yhteys",
+          "description": "Optimoimme todellista emotionaalista arvoa, emme turhametrisiä."
+        },
+        {
+          "title": "Globaali oletuksena",
+          "description": "Rakennettu monikieliseksi alusta alkaen, jotta yhteys ei rajoitu kieleen."
+        },
+        {
+          "title": "Jatkuva käsityö",
+          "description": "Hikoilemme yksityiskohdat, jotta jokainen vuorovaikutus tuntuu luonnolliselta ja elävältä."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Luvuissa",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Käyttäjää ja kasvussa"
+        },
+        {
+          "value": "70",
+          "label": "Tuettua kieltä"
+        },
+        {
+          "value": "24/7",
+          "label": "Aina saatavilla"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Haluatko tietää lisää?",
+      "description": "Ota yhteyttä osoitteessa"
+    }
+  },
+  "postsPage": {
+    "allTag": "Kaikki",
+    "readMore": "Lue lisää",
+    "publishedOn": "Julkaistu",
+    "minRead": "min lukuaika",
+    "sortNewest": "Uusimmat",
+    "sortOldest": "Vanhimmat",
+    "blog": {
+      "breadcrumb": "Blogi",
+      "eyebrow": "Blogi",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blogi",
+      "subtitle": "Vinkkejä, oppaita ja tarinoita, joilla saat kaiken irti tekoälyseurallisuudesta.",
+      "empty": "Ei vielä julkaisuja. Tarkista myöhemmin."
+    },
+    "news": {
+      "breadcrumb": "Uutiset",
+      "eyebrow": "Uutishuone",
+      "titlePrefix": "Uutiset &",
+      "titleHighlight": "Tiedotteet",
+      "subtitle": "Viralliset tiedotteet, lehdistötiedotteet ja virstanpylväät sweetwine-tiimiltä.",
+      "empty": "Ei vielä uutisia. Tarkista myöhemmin."
+    },
+    "productUpdates": {
+      "breadcrumb": "Tuotepäivitykset",
+      "eyebrow": "Muutosloki",
+      "titlePrefix": "Tuote",
+      "titleHighlight": "päivitykset",
+      "subtitle": "Viimeisimmät ominaisuudet, parannukset ja korjaukset sweetwine-alustalla.",
+      "empty": "Ei päivityksiä vielä. Tarkista myöhemmin."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Kehittäjille",
+    "titlePrefix": "Rakenna",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Tuo personoidut tekoälykumppanit omaan tuotteeseesi. Käytä keskustelu-, kuva-, ääni- ja hahmonrakennusominaisuuksia kehittäjäystävällisen API:n kautta.",
+    "capabilities": {
+      "title": "Mitä voit rakentaa",
+      "items": [
+        {
+          "title": "Keskusteleva chat",
+          "description": "Lisää persoonallisia, kontekstitietoisia tekoälykeskusteluja sovellukseesi yksinkertaisella viestintärajapinnalla."
+        },
+        {
+          "title": "Kuvagenerointi",
+          "description": "Luo brändin mukaisia hahmoja ja kohtauksia ohjelmallisesti tekstikehotteista."
+        },
+        {
+          "title": "Ääni",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Hahmon luonti",
+          "description": "Määritä ja hallitse kumppaneita, persoonallisuuksia ja muistia API:n kautta."
+        }
+      ]
+    },
+    "form": {
+      "title": "Pyydä API-pääsyä",
+      "description": "Kerro meille projektistasi ja mitä haluat rakentaa. Kehittäjätiimimme ottaa sinuun yhteyttä seuraavista vaiheista.",
+      "nameLabel": "Nimesi",
+      "namePlaceholder": "Maija Meikäläinen",
+      "emailLabel": "Työsähköposti",
+      "emailPlaceholder": "sinä@yritys.fi",
+      "companyLabel": "Yritys / projekti",
+      "companyPlaceholder": "Yrityksen tai projektin nimi",
+      "websiteLabel": "Verkkosivusto tai sovelluksen URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Integraatiotyyppi",
+      "integrationTypePlaceholder": "Valitse integraatiotyyppi",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Viestintä",
+          "label": "Chat / Viestintä"
+        },
+        {
+          "value": "Kuvagenerointi",
+          "label": "Kuvagenerointi"
+        },
+        {
+          "value": "Ääni",
+          "label": "Ääni"
+        },
+        {
+          "value": "Hahmon luonti",
+          "label": "Hahmon luonti"
+        },
+        {
+          "value": "Muu",
+          "label": "Muu"
+        }
+      ],
+      "volumeLabel": "Odotettu kuukausittainen volyymi",
+      "volumePlaceholder": "Valitse odotettu volyymi",
+      "volumeOptions": [
+        {
+          "value": "Alle 10k",
+          "label": "Alle 10k pyyntöä"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k pyyntöä"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M pyyntöä"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ pyyntöä"
+        }
+      ],
+      "timelineLabel": "Aikajana",
+      "timelinePlaceholder": "Valitse aikajana",
+      "timelineOptions": [
+        {
+          "value": "Vain tutustumassa",
+          "label": "Vain tutustumassa"
+        },
+        {
+          "value": "Alle 1 kuukausi",
+          "label": "Alle 1 kuukausi"
+        },
+        {
+          "value": "1–3 kuukautta",
+          "label": "1–3 kuukautta"
+        },
+        {
+          "value": "3+ kuukautta",
+          "label": "3+ kuukautta"
+        }
+      ],
+      "messageLabel": "Kerro käyttötapauksestasi",
+      "messagePlaceholder": "Mitä olet rakentamassa ja miten aiot käyttää APIa?",
+      "submit": "Pyydä API-käyttöoikeutta",
+      "submitting": "Lähetetään...",
+      "termsNote": "Lähettämällä hyväksyt, että otamme sinuun yhteyttä tiedustelusi tiimoilta. Emme koskaan jaa tietojasi.",
+      "success": "Kiitos! API-käyttöoikeuspyyntösi on lähetetty.",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "faq": {
+      "title": "Kehittäjien UKK",
+      "items": [
+        {
+          "question": "Miten saan API-käyttöoikeuden?",
+          "answer": "Täytä yllä oleva pyyntölomake käyttötapauksellasi. Kehittäjätiimimme tarkistaa jokaisen pyynnön ja lähettää käyttöoikeustiedot sekä dokumentaation."
+        },
+        {
+          "question": "Miten tunnistautuminen toimii?",
+          "answer": "API-pyynnöt tunnistetaan salaisella API-avaimella, joka lähetetään pyynnön otsikoissa. Voit hallita ja vaihtaa avaimiasi kun olet saanut käyttöoikeuden."
+        },
+        {
+          "question": "Onko käytössä nopeusrajoituksia?",
+          "answer": "Kyllä. Rajoitukset riippuvat suunnitelmastasi ja odotetusta volyymista. Kerro odotetusta liikennemäärästäsi lomakkeessa, niin suosittelemme sopivaa tasoa."
+        },
+        {
+          "question": "Mitä se maksaa?"
+        },
+        {
+          "question": "Mitä ominaisuuksia on saatavilla?",
+          "answer": "Chat, kuvagenerointi, ääni ja hahmon luonti. Kerro meille, mitä tarvitset, niin autamme sinut alkuun oikeilla päätepisteillä."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Onko sinulla tekninen kysymys?",
+      "description": "Ota yhteyttä kehittäjätiimiimme osoitteeseen"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Luoja- ja agentuurikäyttöön",
+    "heroTitleLead": "Me luomme,",
+    "heroTitleHighlight": "sinä hyödyt.",
+    "heroSubtitle": "Rakennamme sinulle AI-kloonin. Ansaitset, kun AI-klooni työskentelee kellon ympäri – juttelee fanien kanssa ja lähettää sisältöä puolestasi.",
+    "calculator": {
+      "title": "Kuinka paljon voisit ansaita?",
+      "subtitle": "Valitse yleisösi koko ja aseta hintasi – näet arvioidut tulot heti.",
+      "tierLabel": "Yleisösi koko",
+      "tiers": {
+        "small": {
+          "name": "Pieni"
+        },
+        "medium": {
+          "name": "Keskikokoinen"
+        },
+        "large": {
+          "name": "Suuri"
+        }
+      },
+      "priceLabel": "Avaushintasi",
+      "promoLabel": "Mainostan sweetwineia",
+      "breakdown": {
+        "title": "Arvioidut tulosi",
+        "perMonth": "kuukaudessa",
+        "perYear": "Vuodessa"
+      },
+      "disclaimer": "Tulot perustuvat sweetwine-tulonjakomalliin ja tyypilliseen aktiivisuuteen. Todelliset tulot vaihtelevat yleisön, sisällön laadun, sitoutumisen ja kysynnän mukaan."
+    },
+    "offer": {
+      "title": "Mitä saat",
+      "items": [
+        {
+          "title": "Ansaitse nukkuessasi",
+          "description": "Kloonisi muuttaa seuraajat tuloiksi 24/7 – juttelee, myy eikä koskaan lopeta."
+        },
+        {
+          "title": "Ei kustannuksia, vain hyötyä",
+          "description": "Rakennamme, koulutamme ja ylläpidämme kaiken omalla kustannuksellamme. Saat uuden tulonlähteen ilman vaivaa."
+        },
+        {
+          "title": "10x sisältöäsi",
+          "description": "Rajattomasti valokuvia ja videoita tarpeen mukaan – skaalaa tuotantoa ilman uusia kuvauksia, editointia tai uupumusta."
+        },
+        {
+          "title": "Sinä hallitset"
+        }
+      ]
+    },
+    "how": {
+      "title": "Näin se toimii",
+      "steps": [
+        {
+          "title": "Rekisteröidy"
+        },
+        {
+          "title": "Käyttöönotto",
+          "description": "sweetwine-asiantuntija tallentaa ulkonäkösi, äänesi ja persoonallisuutesi, jotta kloonisi tuntuu aidosti sinulta."
+        },
+        {
+          "title": "Me rakennamme ja koulutamme",
+          "description": "Tiimimme tuottaa ja kouluttaa tekoälykloonisi kokonaan omalla kustannuksellamme – sinulta ei vaadita työtä."
+        },
+        {
+          "title": "Mene liveen ja ansaitse",
+          "description": "Kloonisi alkaa jutella ja myydä kellon ympäri, ja sinä saat tulonjaon osuutesi."
+        }
+      ]
+    },
+    "form": {
+      "title": "Hae luomaan tekoälykloonisi",
+      "description": "Kerro meille itsestäsi ja yleisöstäsi. Luojakumppanuustiimimme käy läpi jokaisen hakemuksen ja ottaa yhteyttä seuraavista vaiheista.",
+      "nameLabel": "Nimesi",
+      "namePlaceholder": "Nimesi tai taiteilijanimesi",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "sinä@esimerkki.fi",
+      "companyLabel": "Toimisto tai studio",
+      "companyPlaceholder": "Toimiston nimi (jätä tyhjäksi, jos olet itsenäinen)",
+      "roleLabel": "Olen",
+      "rolePlaceholder": "Valitse roolisi",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Verkkosivut ja some-linkit",
+      "linksPlaceholder": "Instagram, X, OnlyFans jne.",
+      "modelCountLabel": "Edustamiesi mallien määrä",
+      "modelCountPlaceholder": "esim. vain minä tai 5",
+      "audienceSizeLabel": "Yleisön koko",
+      "audienceSizePlaceholder": "Valitse kokonaisyleisösi",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Alle 10k seuraajaa"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k seuraajaa"
+        },
+        {
+          "label": "100k-500k seuraajaa",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M seuraajaa"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ seuraajaa"
+        }
+      ],
+      "contentPrefLabel": "Sisältöasetus",
+      "contentPrefPlaceholder": "Valitse sisältötyyppi",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Maa / alue",
+      "countryPlaceholder": "Missä olet?",
+      "messageLabel": "Kerro itsestäsi ja yleisöstäsi",
+      "messagePlaceholder": "Jaa kaikki, mikä auttaa meitä ymmärtämään yleisöäsi, sisältöäsi ja mitä etsit.",
+      "openButton": "Hae nyt",
+      "submit": "Lähetä hakemus",
+      "submitting": "Lähetetään...",
+      "termsNote": "Lähettämällä vahvistat olevasi 18 vuotta tai vanhempi ja hyväksyt, että sinuun otetaan yhteyttä hakemuksesi tiimoilta. Emme koskaan jaa tietojasi.",
+      "success": "Kiitos! Hakemuksesi on lähetetty. Otamme pian yhteyttä.",
+      "error": "Jokin meni pieleen. Yritä uudelleen."
+    },
+    "cta": {
+      "title": "Onko sinulla kysyttävää ennen hakemista?",
+      "description": "Ota yhteyttä suoraan luojakumppanuustiimiimme – vastaamme yleensä päivän sisällä.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Sähköposti"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Sivukartta",
+    "eyebrow": "Sivukartta",
+    "titlePrefix": "Selaa",
+    "titleHighlight": "kaikkea",
+    "subtitle": "Kaikki tärkeät sweetwine-sivut yhdessä paikassa. Etsitkö XML-sivukarttaa?",
+    "xmlLink": "Näytä XML-sivukartta",
+    "sections": {
+      "product": "Tuote",
+      "features": "Ominaisuudet",
+      "company": "Yritys",
+      "resources": "Resurssit",
+      "legal": "Laki"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine-mobiilisovellus",
+      "cta": "Hanki sovellus",
+      "dismiss": "Hylkää"
+    },
+    "guide": {
+      "title": "Asenna sweetwine",
+      "subtitle": "Lisää sweetwine aloitusnäyttöön nopeampaa, koko näytön ja sovellusmaista käyttökokemusta varten.",
+      "iosTitle": "iPhonella ja iPadilla (Safari)",
+      "iosStep1": "Napauta työkalurivin Jaa-painiketta",
+      "iosStep2": "Valitse \"Lisää aloitusnäyttöön\"",
+      "iosStep3": "Napauta \"Lisää\" viimeistelläksesi",
+      "androidTitle": "Androidilla (Chrome)",
+      "androidStep1": "Napauta valikkoa (kolme pistettä)",
+      "androidStep2": "Valitse \"Asenna sovellus\" tai \"Lisää aloitusnäyttöön\"",
+      "androidStep3": "Napauta \"Asenna\" viimeistelläksesi"
+    },
+    "settings": {
+      "title": "sweetwine-mobiilisovellus",
+      "description": "Asenna sweetwine puhelimeesi nopeampaa, koko näytön käyttökokemusta suoraan aloitusnäytöltä.",
+      "cta": "Asenna sovellus"
+    }
+  },
+  "language": {
+    "selectTitle": "Valitse kielesi",
+    "searchPlaceholder": "Hae kieliä",
+    "noResults": "Kieliä ei löytynyt",
+    "regions": {
+      "americas": "Amerikat",
+      "europe": "Eurooppa",
+      "middleEast": "Lähi-itä",
+      "asiaPacific": "Aasia ja Tyynenmeren alue",
+      "africa": "Afrikka"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roolipeli",
+    "newRoleplay": "Uusi roolipeli",
+    "tabRoleplay": "Roolipeli",
+    "emptyTitle": "Ei roolipelejä vielä",
+    "noMessagesYet": "Ei viestejä vielä",
+    "deleteRoleplay": "Poista roolipeli",
+    "deleteError": "Roolipelin poistaminen epäonnistui.",
+    "backToLobby": "Takaisin roolipeleihin",
+    "creating": "Valmistellaan roolipeliäsi...",
+    "createError": "Roolipelin luominen epäonnistui. Yritä uudelleen.",
+    "steps": {
+      "companion": {
+        "title": "Valitse hahmo",
+        "subtitle": "Valitse kenen kanssa haluat roolipelata"
+      },
+      "location": {
+        "title": "Valitse paikka",
+        "subtitle": "Missä kohtaus tapahtuu?"
+      },
+      "tone": {
+        "title": "Aseta tunnelma",
+        "subtitle": "Miltä kohtauksen tulisi tuntua?"
+      },
+      "scene": {
+        "title": "Aseta kohtaus",
+        "subtitle": "Kuvaile, miten kohtaus alkaa"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Törmäämme toisiimme sateessa ja kyyristymme saman katoksen alle.",
+      "staring_grin": "Huomaat minut tuijottamasta huoneen toiselta puolelta ja tulet hymyillen luokseni.",
+      "power_out": "Sähköt katkeavat ja jäämme kahden pimeään, nauraen hermostuneesti.",
+      "spilled_drink": "Olen myöhässä ja läikytän vahingossa juomani päällesi.",
+      "stayed_behind": "Olemme ainoat, jotka jäivät jäljelle kun kaikki muut lähtivät.",
+      "music_slows": "Katseemme kohtaavat juuri kun musiikki hidastuu.",
+      "storm_inside": "Äkillinen myrsky vangitsee meidät sisälle, eikä meillä ole muuta kuin aikaa jutella.",
+      "seat_taken": "Istuudut viereeni ja kysyt, onko paikka varattu."
+    },
+    "locations": {
+      "home": "Koti",
+      "cafe": "Kahvila",
+      "restaurant": "Ravintola",
+      "bar": "Baari",
+      "library": "Kirjasto",
+      "bookstore": "Kirjakauppa",
+      "park": "Puisto",
+      "garden": "Puutarha",
+      "nightclub": "Yökerho",
+      "casino": "Kasino",
+      "concert": "Konsertti",
+      "theater": "Teatteri",
+      "cinema": "Elokuvateatteri",
+      "carnival": "Karnevaali",
+      "stadium": "Stadion",
+      "beach": "Ranta",
+      "pool": "Uima-allas",
+      "spa": "Kylpylä",
+      "hotel": "Hotelli",
+      "rooftop": "Kattoterassi",
+      "yacht": "Jahti",
+      "cabin": "Mökki",
+      "hotspring": "Kuuma lähde",
+      "skilodge": "Hiihtomaja",
+      "campsite": "Leirintäalue",
+      "car": "Auto",
+      "train": "Juna",
+      "airport": "Lentokenttä",
+      "cruise": "Risteily",
+      "office": "Toimisto",
+      "gym": "Kuntosali",
+      "university": "Yliopisto",
+      "mall": "Kauppakeskus",
+      "hospital": "Sairaala",
+      "museum": "Museo"
+    },
+    "tones": {
+      "fun": {
+        "title": "Hauska",
+        "desc": "Kevytmielinen, leikkisä ja rento."
+      },
+      "romantic": {
+        "title": "Romanttinen",
+        "desc": "Hellä, rakastunut ja sydämellinen."
+      },
+      "flirty": {
+        "title": "Flirttaileva",
+        "desc": "Kiusoitteleva, leikkisä ja täynnä charmia."
+      },
+      "mysterious": {
+        "title": "Salaperäinen",
+        "desc": "Kiehtova, jännittävä ja täynnä salaisuuksia."
+      },
+      "spooky": {
+        "title": "Kammottava",
+        "desc": "Kummallinen, jännittynyt ja hieman pelottava."
+      },
+      "action": {
+        "title": "Toiminta",
+        "desc": "Intensiivinen, seikkailullinen ja nopeatempoinen."
+      },
+      "dramatic": {
+        "title": "Dramaattinen",
+        "desc": "Tunteellinen, intensiivinen ja täynnä jännitettä."
+      },
+      "cozy": {
+        "title": "Kodikas",
+        "desc": "Lämmin, lohdullinen ja rento."
+      }
+    },
+    "sceneLabel": "Kohtauksen avaus",
+    "scenarioTab": "Skenaario",
+    "generatingScene": "Tuodaan kohtaus eloon...",
+    "locationLabel": "Sijainti",
+    "toneLabel": "Sävy",
+    "scenePlaceholder": "esim. Törmäämme toisiimme sateessa ja kyyristymme saman katoksen alle...",
+    "sceneHint": "Kuvaile vain, miten kohtaus alkaa — missä olette ja mitä tapahtuu alussa. Älä muuta hahmon persoonallisuutta, suhdettanne tai kirjoita koko tarinaa uudelleen.",
+    "sceneError": "Kuvaile, miten kohtaus alkaa.",
+    "reviewTitle": "Tarkista valinnat",
+    "characterLabel": "Hahmo",
+    "randomize": "Satunnaista",
+    "sceneGuidanceTitle": "Kohtauksen avausohjeet",
+    "sceneGuide1": "Älä muuta hahmon persoonallisuutta tai suhdettanne.",
+    "sceneGuide2": "Pidä kohtauksen avaus suostumuksellisena ja kunnioittavana.",
+    "sceneGuide3": "Kuvaile vain, miten kohtaus alkaa, älä koko tarinaa.",
+    "next": "Seuraava",
+    "create": "Aloita roolipeli",
+    "creatingMessages": [
+      "Asetetaan kohtaus...",
+      "Himmennän valot juuri sopivasti...",
+      "Maalaan ympäristöäsi...",
+      "Valmistan kumppaniasi rooliin...",
+      "Viimeistelen yksityiskohdat...",
+      "Melkein valmis..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Kirjoita viesti...",
+    "send": "Lähetä",
+    "typing": "kirjoittaa...",
+    "read": "Lue",
+    "resetChat": "Nollaa keskustelu",
+    "deleteChat": "Poista keskustelu",
+    "settings": "Asetukset",
+    "chatSettings": "Keskustelun asetukset",
+    "roleplayMode": "Roolipelimoodi",
+    "roleplayModeDescription": "Kun päällä, kumppanit esittävät eleitä ja toimintoja *asteriskeissa* immersiivistä roolipeliä varten. Kun pois päältä, he juttelevat luonnollisesti, kuten oikeassa viestittelyssä.",
+    "roleplayModeError": "Roolipelimoodin päivittäminen epäonnistui",
+    "roleplayCtaDescription": "Avaa erillinen roolipelikokemus, jossa kumppani esittää kohtauksia ja tarinoita kanssasi.",
+    "goToRoleplay": "Siirry roolipeliin",
+    "confirmReset": "Haluatko varmasti nollata tämän keskustelun? Kaikki viestit poistetaan.",
+    "confirmDelete": "Haluatko varmasti poistaa tämän keskustelun?",
+    "resetSuccess": "Keskustelu nollattu onnistuneesti",
+    "deleteMemory": "Poista muisti",
+    "confirmDeleteMemory": "Haluatko varmasti poistaa tämän hahmon pitkäaikaiset muistot? Keskustelut säilyvät, mutta hahmo unohtaa aiemmat faktat seuraavassa vastauksessa.",
+    "deleteMemorySuccess": "Muisti poistettu",
+    "deleteSuccess": "Keskustelu poistettu onnistuneesti",
+    "sendError": "Viestin lähetys epäonnistui",
+    "noChats": "Ei keskusteluja vielä",
+    "noChatsDesc": "Aloita keskustelu hahmon kanssa nähdäksesi keskustelusi täällä",
+    "lastMessage": "Viimeisin viesti",
+    "messageCount": "{count} viestiä",
+    "uploadImage": "Lataa kuva",
+    "uploadVideo": "Lataa video (tulossa pian)",
+    "yourConversations": "Keskustelusi",
+    "continueChattingDesc": "Jatka keskustelua tekoälyhahmojesi kanssa",
+    "newChat": "Uusi keskustelu",
+    "noConversationsYet": "Ei keskusteluja vielä",
+    "startChattingDesc": "Aloita keskustelu hahmon kanssa nähdäksesi keskustelusi täällä",
+    "browseCharacters": "Selaa hahmoja",
+    "createCustomCharacter": "Luo mukautettu hahmo",
+    "imageTooLarge": "Kuva on liian suuri (max 5 Mt)",
+    "generateImageTitle": "Luo kuva hahmolla {name}",
+    "imagePromptLabel": "Kuvaile kuvaa",
+    "imagePromptPlaceholder": "esim. rannalla sinisessä mekossa, kahvilla kahvilassa, kävelyllä puistossa...",
+    "imagePromptHint": "Tekoäly luo kuvan {name} hahmosta kuvauksesi perusteella.",
+    "referenceImageLabel": "Valokuvasi (valinnainen)",
+    "referenceImageHint": "Lataa valokuvasi, jotta pääset mukaan kuvaan {name} kanssa. Ilman kuvaa vain {name} luodaan.",
+    "uploadReferenceImage": "Lataa valokuvasi",
+    "uploadReferenceImageDesc": "Te molemmat näkyvät luodussa kuvassa",
+    "referenceImageSelected": "Te molemmat näkyvät yhdessä {name} kanssa",
+    "generating": "Luodaan...",
+    "generate": "Luo",
+    "generateImage": "Luo kuva",
+    "imageGenerated": "Kuva luotu onnistuneesti",
+    "generateError": "Kuvan luonti epäonnistui",
+    "contentBlockedReply": "Valitettavasti en voi luoda tuota kuvaa. Turvatoiminnot estivät sen. Kokeilepa toista kuvausta! 💕",
+    "generateVideoTitle": "Luo video hahmolla {name}",
+    "generateVideo": "Luo video",
+    "videoPromptLabel": "Kuvaile toimintoa",
+    "videoPromptPlaceholder": "esim. tanssiminen, heiluttaminen, suukon puhaltaminen...",
+    "videoPromptHint": "Tekoäly luo videon, jossa {name} suorittaa kuvailemasi toiminnon.",
+    "generatingImage": "Luodaan kuvaa...",
+    "generatingVideo": "Luodaan videota... (3–5 min)",
+    "viewPhoto": "Näytä kuva",
+    "viewVideo": "Näytä video",
+    "selectVideoOption": "Valitse videoasetus yltä",
+    "contentPolicyViolation": "Viestiä ei voitu lähettää. Pidä keskustelut kunnioittavina.",
+    "functionCallBetaHint": "💡 Tämä ominaisuus on beetavaiheessa — luotettavaa median luontia ilman rajoituksia saat työkalurivin kuva- ja videopainikkeilla.",
+    "repliedToStory": "Vastasi tarinaan",
+    "repliedToStoryLiked": "Tykkäsi ja vastasi tarinaan",
+    "storyNoLongerAvailable": "Tarina ei ole enää saatavilla",
+    "rateLimitExceeded": "Liian monta pyyntöä. Odota hetki ja yritä uudelleen.",
+    "profileTab": "Profiili",
+    "galleryTab": "Galleria",
+    "giftsTab": "Lahjat",
+    "tts": {
+      "play": "Toista ääni",
+      "stop": "Pysäytä",
+      "generating": "Luodaan ääntä…",
+      "error": "Ääntä ei voitu toistaa"
+    }
+  },
+  "gallery": {
+    "all": "Kaikki",
+    "images": "Kuvat",
+    "videos": "Videot",
+    "empty": "Ei mediaa vielä"
+  },
+  "gifts": {
+    "sendAGift": "Lähetä lahja",
+    "catalogSubtitle": "Valitse lahja lähetettäväksi käyttäjälle {name}",
+    "browseGifts": "Selaa lahjoja",
+    "noneSent": "Ei lähetettyjä lahjoja vielä",
+    "confirmTitle": "Vahvista lahja",
+    "forCompanion": "Hahmolle {name}",
+    "optionalMessage": "Lisää viesti (valinnainen)",
+    "optionalMessagePlaceholder": "Kirjoita jotain suloista...",
+    "sendGiftFor": "Lähetä",
+    "giftSent": "Lähetit lahjan",
+    "sendError": "Lahjan lähettäminen epäonnistui"
+  },
+  "stories": {
+    "replyPlaceholder": "Vastaa käyttäjälle {name}...",
+    "like": "Tykkää",
+    "send": "Lähetä",
+    "close": "Sulje",
+    "previous": "Edellinen tarina",
+    "next": "Seuraava tarina",
+    "pause": "Pysäytä",
+    "play": "Toista",
+    "mute": "Mykistä",
+    "unmute": "Poista mykistys",
+    "openStory": "Avaa käyttäjän {name} tarina"
+  },
+  "generate": {
+    "title": "Luo kuva",
+    "description": "Luo upeita kuvia tekoälyhahmojesi kanssa",
+    "selectCompanion": "Valitse hahmo",
+    "promptPlaceholder": "Kuvaile haluamasi kuva... esim. rannalla, punaisessa mekossa",
+    "promptLabel": "Kuvauksen kuvaus",
+    "promptRequired": "Kirjoita kuvaus",
+    "generateButton": "Luo kuva",
+    "generating": "Luodaan...",
+    "creatingImage": "Luodaan kuvaa...",
+    "pleaseWait": "Tämä voi kestää 10–30 sekuntia",
+    "noCompanionSelected": "Valitse ensin hahmo",
+    "emptyGallery": "Kuvia ei ole vielä luotu. Valitse hahmo ja kuvaile kuvaa!",
+    "sessionGallery": "Luodut kuvat",
+    "regenerate": "Luo uudelleen",
+    "regenerating": "Luodaan uudelleen...",
+    "animate": "Animoi",
+    "animateReference": "Tämä kuva on videon ensimmäinen ruutu.",
+    "filterMyAI": "Oma tekoäly",
+    "filterAll": "Kaikki",
+    "filterGirls": "Naiset",
+    "filterAnime": "Anime",
+    "filterGuys": "Miehet",
+    "imageGenerationFailed": "Kuvan luonti epäonnistui. Kuva ei ehkä täytä vaatimuksia tai kuvaus on liian monimutkainen. Kokeile yksinkertaisempaa kehotetta.",
+    "noImageData": "Kuvaa ei luotu. Kokeile uudelleen eri kuvauksella.",
+    "generationFailed": "Luonti epäonnistui. Kokeile myöhemmin uudelleen tai käytä eri kehotetta.",
+    "random": "Satunnainen",
+    "custom": "Mukautettu",
+    "settings": "Asetukset",
+    "videoTitle": "Luo video",
+    "videoDescription": "Luo upeita videoita tekoälyhahmoillasi",
+    "videoPromptLabel": "Videon kuvaus",
+    "videoPromptPlaceholder": "Kuvaile haluamasi toiminto... esim. tanssiminen, heiluttaminen, hymyily",
+    "generateVideoButton": "Luo video",
+    "generatingVideo": "Luodaan videota...",
+    "creatingVideo": "Luodaan videota...",
+    "videoWait": "Tämä voi kestää 1–5 minuuttia",
+    "emptyVideoGallery": "Videoita ei ole vielä luotu. Valitse hahmo ja kuvaile toiminto!",
+    "sessionVideoGallery": "Luodut videot",
+    "videoGenerated": "Video luotu onnistuneesti!",
+    "videoGenerationFailed": "Videon luonti epäonnistui. Kokeile uudelleen.",
+    "duration": "Kesto",
+    "shortVideo": "Lyhyt",
+    "longVideo": "Pitkä",
+    "seconds": "sekuntia",
+    "audio": "Ääni",
+    "renderingVideo": "Renderöidään videota…",
+    "renderingVideoHint": "(kestää enintään 1 minuutin)",
+    "rateLimitExceeded": "Liian monta pyyntöä. Odota hetki ja yritä uudelleen.",
+    "chooseCharacter": "Valitse hahmo",
+    "selectButton": "Valitse",
+    "noCustomCompanions": "Et ole vielä luonut tekoälyhahmoja.",
+    "numberOfImages": "Kuvien määrä",
+    "numberOfVideos": "Videoiden määrä",
+    "freeTrial": "Kokeilujakso",
+    "changeCharacter": "Vaihda hahmo",
+    "randomize": "Satunnaista kehote",
+    "aiVideo": "AI-video",
+    "download": "Lataa",
+    "seriesHelper": "Täältä löydät tuloksesi. Voit poistua sivulta tai aloittaa uuden sarjan näiden valmistuessa.",
+    "suggestions": {
+      "title": "Ehdotukset",
+      "categories": {
+        "outfit": "Asu",
+        "action": "Toiminto",
+        "pose": "Asento",
+        "accessories": "Asusteet",
+        "scene": "Ympäristö"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Hame",
+        "lingerie": "Alusvaatteet",
+        "crop_top": "Lyhyt toppi",
+        "leather": "Nahka",
+        "mini_skirt": "Minihame",
+        "satin_robe": "Satiinitakki",
+        "jeans": "Farkut",
+        "summer_dress": "Kesämekko",
+        "sportswear": "Urheiluvaatteet",
+        "selfie": "Selfie",
+        "walking": "Kävely",
+        "dancing": "Tanssi",
+        "stretching": "Venyttely",
+        "lying_down": "Makuulla",
+        "leaning": "Nojaaminen",
+        "blowing_kiss": "Suukon puhaltaminen",
+        "drinking_coffee": "Kahvin juominen",
+        "hands_on_hips": "Kädet lanteilla",
+        "over_shoulder": "Olakkeen yli",
+        "side_profile": "Sivuprofiili",
+        "arms_crossed": "Kädet ristissä",
+        "kneeling": "Polvillaan",
+        "squatting": "Kyykky",
+        "back_view": "Takaa",
+        "sitting": "Istuallaan",
+        "necklace": "Kaulakoru",
+        "earrings": "Korvakorut",
+        "glasses": "Silmälasit",
+        "choker": "Choker",
+        "hat": "Hattu",
+        "sunglasses": "Aurinkolasit",
+        "garden": "Puutarha",
+        "beach": "Ranta",
+        "bedroom": "Makuuhuone",
+        "gym": "Kuntosali",
+        "bar": "Baari",
+        "kitchen": "Keittiö",
+        "restaurant": "Ravintola",
+        "balcony": "Parveke",
+        "city_street": "Kaupunkikatu",
+        "pool": "Uima-allas"
+      },
+      "fragments": {
+        "bikini": "bikini päällä",
+        "skirt": "hame päällä",
+        "lingerie": "alusasut päällä",
+        "crop_top": "crop top päällä",
+        "leather": "nahka-asu päällä",
+        "mini_skirt": "minihame päällä",
+        "satin_robe": "satiinitakki päällä",
+        "jeans": "farkut päällä",
+        "summer_dress": "kesämekko päällä",
+        "sportswear": "tiukat urheiluvaatteet päällä",
+        "selfie": "selfieä ottamassa",
+        "walking": "kävelemässä",
+        "dancing": "tanssimassa",
+        "stretching": "venyttelemässä",
+        "lying_down": "makaa",
+        "leaning": "seinään nojaten",
+        "blowing_kiss": "ilmaa suudellen",
+        "drinking_coffee": "kahvikuppi kädessään",
+        "hands_on_hips": "kädet lanteilla",
+        "over_shoulder": "katsoo olkansa yli",
+        "side_profile": "sivuprofiili",
+        "arms_crossed": "kädet ristissä",
+        "kneeling": "polvillaan",
+        "squatting": "kyykyssä",
+        "back_view": "takaa päin",
+        "sitting": "istumassa",
+        "necklace": "kaulakoru kaulassa",
+        "earrings": "korvakorut korvissa",
+        "glasses": "lasit päässä",
+        "choker": "choker-kaulakoru kaulassa",
+        "hat": "hattu päässä",
+        "sunglasses": "aurinkolasit päässä",
+        "garden": "puutarhassa",
+        "beach": "rannalla",
+        "bedroom": "makuuhuoneessa",
+        "gym": "kuntosalilla",
+        "bar": "baarissa",
+        "kitchen": "keittiössä",
+        "restaurant": "ravintolassa",
+        "balcony": "parvekkeella",
+        "city_street": "kaupungin kadulla",
+        "pool": "uima-altaalla"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Näytä minulle selfie itsestäsi"
+        },
+        "posing": {
+          "name": "Poseeraus",
+          "uiPrompt": "Näytä minulle itsesi poseeraamassa"
+        },
+        "sitting": {
+          "name": "Istuallaan",
+          "uiPrompt": "Näytä minulle itsesi istumassa"
+        },
+        "waving": {
+          "name": "Vilkuilu",
+          "uiPrompt": "Näytä minulle itsesi vilkuttamassa"
+        },
+        "dancing": {
+          "name": "Tanssi",
+          "uiPrompt": "Näytä minulle itsesi tanssimassa"
+        },
+        "reading": {
+          "name": "Lukeminen",
+          "uiPrompt": "Näytä minulle itsesi lukemassa"
+        },
+        "smiling": {
+          "name": "Hymyilevä",
+          "uiPrompt": "Show me you smiling"
+        },
+        "walking": {
+          "name": "Kävelevä",
+          "uiPrompt": "Show me you walking"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Show me a video selfie"
+        },
+        "posing": {
+          "name": "Poseeraava",
+          "uiPrompt": "Show me a video of you posing"
+        },
+        "sitting": {
+          "name": "Istuva",
+          "uiPrompt": "Show me a video of you sitting down"
+        },
+        "waving": {
+          "name": "Vilkuva",
+          "uiPrompt": "Show me a video of you waving"
+        },
+        "dancing": {
+          "name": "Tanssiva",
+          "uiPrompt": "Show me a video of you dancing"
+        },
+        "reading": {
+          "name": "Lukevä",
+          "uiPrompt": "Show me a video of you reading"
+        },
+        "smiling": {
+          "name": "Hymyilevä",
+          "uiPrompt": "Show me a video of you smiling"
+        },
+        "walking": {
+          "name": "Kävelevä",
+          "uiPrompt": "Show me a video of you walking"
+        }
+      }
+    },
+    "writeYourOwn": "tai kirjoita oma kehotteesi",
+    "presetSelected": "Esiasetus valittu",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oraali",
+        "positions": "Asennot",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Kylpypyyhe"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Rintamaito"
+        },
+        "bunny_suit": {
+          "name": "Pupupuku"
+        },
+        "chain_leash": {
+          "name": "Ketju hihna"
+        },
+        "chinese_dress": {
+          "name": "Kiinalainen mekko"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Mukautettu"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Sormittelu"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Jalat ylös"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Alusvaatteet"
+        },
+        "masturbation": {
+          "name": "Masturbointi"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Lähetyssaarnaaja sivulta"
+        },
+        "remix_blowjob": {
+          "name": "Remix - Suuseksi"
+        },
+        "remix_cowgirl": {
+          "name": "Remix - Ratsastus"
+        },
+        "remix_doggystyle": {
+          "name": "Remix - Koiran asento"
+        },
+        "remix_dress": {
+          "name": "Remix - Mekko"
+        },
+        "remix_hold_dick": {
+          "name": "Remix - Kädessä"
+        },
+        "remix_kiss": {
+          "name": "Remix - Suudelma"
+        },
+        "remix_pronebone": {
+          "name": "Remix - Mahallaan"
+        },
+        "remix_suck": {
+          "name": "Remix - Ime"
+        },
+        "remix_wear": {
+          "name": "Remix - Päällä"
+        },
+        "remix_yoga": {
+          "name": "Remix - Jooga"
+        },
+        "ride_on_dildo": {
+          "name": "Ratsastus dildolla"
+        },
+        "sipping_condoms": {
+          "name": "Kondomien imeminen"
+        },
+        "squatting_cowgirl": {
+          "name": "Kyykkyratsastus"
+        },
+        "tattoo": {
+          "name": "Tatuointi"
+        },
+        "tentacles": {
+          "name": "Lonkerot"
+        },
+        "titjob": {
+          "name": "Rintatyö"
+        },
+        "topless": {
+          "name": "Yläosaton"
+        },
+        "undress": {
+          "name": "Riisu"
+        },
+        "used": {
+          "name": "Käytetty"
+        },
+        "xray": {
+          "name": "Röntgen"
+        },
+        "maid_outfit": {
+          "name": "Piika-asu"
+        },
+        "nurse_outfit": {
+          "name": "Sairaanhoitaja-asu"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Märkä T-paita"
+        },
+        "latex_catsuit": {
+          "name": "Lateksikissa-asu"
+        },
+        "corset_stockings": {
+          "name": "Korsetti & Sukat"
+        },
+        "gym_shorts": {
+          "name": "Kuntosali-shortsit"
+        },
+        "thong_tease": {
+          "name": "String-tease"
+        },
+        "upskirt_panties": {
+          "name": "Hameen alta"
+        },
+        "mirror_selfie": {
+          "name": "Peili-selfie"
+        },
+        "shower_nude": {
+          "name": "Suihku"
+        },
+        "oiled_body": {
+          "name": "Öljytty vartalo"
+        },
+        "spread_open": {
+          "name": "Leveästi auki"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Syväkurkku"
+        },
+        "sloppy_blowjob": {
+          "name": "Sotkuinen suihinotto"
+        },
+        "ball_licking": {
+          "name": "Kivesten nuoleminen"
+        },
+        "face_sitting_oral": {
+          "name": "Kasvoilla istuminen"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Käänteinen cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Seisova"
+        },
+        "against_wall": {
+          "name": "Seinää vasten"
+        },
+        "spooning": {
+          "name": "Lusikointi"
+        },
+        "legs_on_shoulders": {
+          "name": "Jalat hartioilla"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Kaksoispenetraatio"
+        },
+        "threesome_mmf": {
+          "name": "Kolmikko"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Lällittely"
+        },
+        "gagged_bdsm": {
+          "name": "Suukapula"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Kukunnousu"
+        },
+        "footjob": {
+          "name": "Jalkatyö"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lootus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hiusten repiminen"
+        },
+        "facial_cumshot": {
+          "name": "Kasvohuoraus"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anaali"
+        },
+        "back_doggystyle": {
+          "name": "Takaa koiran asento"
+        },
+        "blowjob": {
+          "name": "Suuseksi"
+        },
+        "blowjob_69": {
+          "name": "Suuseksi 69"
+        },
+        "blowjob_reverse": {
+          "name": "Käänteinen suuseksi"
+        },
+        "breast_massage": {
+          "name": "Rintahieronta"
+        },
+        "breast_massage_nude": {
+          "name": "Rintahieronta alasti"
+        },
+        "butt_smothering": {
+          "name": "Pakaroiden peittäminen"
+        },
+        "cock_worship": {
+          "name": "Kukon palvonta"
+        },
+        "cum_in_mouth": {
+          "name": "Siemennestettä suuhun"
+        },
+        "dildo_masturbation": {
+          "name": "Dildomasturbointi"
+        },
+        "double_blowjob": {
+          "name": "Kaksoissuuseksi"
+        },
+        "double_penetration": {
+          "name": "Kaksoistunkeutuminen"
+        },
+        "ejaculation": {
+          "name": "Siemensyöksy"
+        },
+        "facefuck": {
+          "name": "Kasvoseksi"
+        },
+        "facefuck_pov": {
+          "name": "Kasvoseksi POV"
+        },
+        "facial_cumshot": {
+          "name": "Kasvoklimaksi"
+        },
+        "footjob": {
+          "name": "Jalkatyö"
+        },
+        "front_doggystyle": {
+          "name": "Edestä koiran asento"
+        },
+        "fuck_machine": {
+          "name": "Seksim kone"
+        },
+        "full_nelson": {
+          "name": "Täysi Nelson"
+        },
+        "handjob": {
+          "name": "Käsityö"
+        },
+        "masturbation": {
+          "name": "Masturbointi"
+        },
+        "missionary_pov": {
+          "name": "Lähetyssaarnaaja POV"
+        },
+        "missionary_sideview": {
+          "name": "Lähetyssaarnaaja sivulta"
+        },
+        "nipple_play": {
+          "name": "Nännileikki"
+        },
+        "nude_posing": {
+          "name": "Alaston poseeraus"
+        },
+        "orgasm": {
+          "name": "Orgasmi"
+        },
+        "pronebone": {
+          "name": "Mahallaan"
+        },
+        "pussy_closeup": {
+          "name": "Kissan läheisyys"
+        },
+        "reverse_cowgirl": {
+          "name": "Käänteinen lehmityttö"
+        },
+        "shoejob": {
+          "name": "Kenkätyö"
+        },
+        "spitroast": {
+          "name": "Vartaassa"
+        },
+        "squatting_cowgirl": {
+          "name": "Kyykky lehmityttö"
+        },
+        "throatpie": {
+          "name": "Kurkkupiirakka"
+        },
+        "tiktok_trend": {
+          "name": "TikTok-trendi"
+        },
+        "titjob": {
+          "name": "Rintatyö"
+        },
+        "titty_flash": {
+          "name": "Rintojen välähdys"
+        },
+        "triple_dicked": {
+          "name": "Kolminkertainen"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Riisu"
+        },
+        "strip_tease": {
+          "name": "Strip-tease"
+        },
+        "booty_bounce": {
+          "name": "Pyllyn pomputus"
+        },
+        "oil_show": {
+          "name": "Öljyshow"
+        },
+        "shower_show": {
+          "name": "Suihkushow"
+        },
+        "panty_drop": {
+          "name": "Alushousujen pudotus"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Syväkurkku"
+        },
+        "sloppy_blowjob": {
+          "name": "Sotkuinen suihinotto"
+        },
+        "ball_sucking": {
+          "name": "Kivesten imeminen"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Seisova kantaminen"
+        },
+        "against_wall": {
+          "name": "Seinää vasten"
+        },
+        "spooning": {
+          "name": "Lusikointi"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Suihkuttelu"
+        },
+        "spanking": {
+          "name": "Lällittely"
+        },
+        "hair_pulling": {
+          "name": "Hiusten repiminen"
+        },
+        "fingering": {
+          "name": "Sormittelu"
+        },
+        "come_hither": {
+          "name": "Tule tänne"
+        },
+        "spread_legs": {
+          "name": "Jalkojen levitys"
+        },
+        "blowjob_sideview": {
+          "name": "Suihinotto sivulta"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Lähetyssaarnaaja"
+        },
+        "legs_on_shoulders": {
+          "name": "Jalat olkapäillä"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Kolmikko"
+        },
+        "aftercare_mess": {
+          "name": "Jälkihoitomössö"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Haluatko varmasti poistaa tämän?",
+    "deleteSuccess": "Poistettu onnistuneesti",
+    "deleteError": "Poisto epäonnistui",
+    "empty": "Ei vielä mediaa. Luo jotakin chatissa!",
+    "gallerySubtitle": "Henkilökohtainen galleriasi tekoälyllä luoduista hetkistä",
+    "filterAll": "Kaikki",
+    "filterImages": "Kuvat",
+    "filterVideos": "Videot",
+    "loadMore": "Lataa lisää",
+    "folders": "Kansiot",
+    "newFolder": "Uusi kansio",
+    "deleteFolders": "Poista valitut kansiot",
+    "folderCreated": "Kansio luotu",
+    "folderCreateError": "Kansion luonti epäonnistui",
+    "folderRenamed": "Kansio nimetty uudelleen",
+    "folderRenameError": "Kansion uudelleennimeäminen epäonnistui",
+    "folderDeleted": "Kansio poistettu",
+    "folderDeleteError": "Kansion poisto epäonnistui",
+    "folderNamePlaceholder": "Kansion nimi",
+    "seeMore": "Näytä lisää",
+    "seeLess": "Näytä vähemmän",
+    "selectedCount": "{count} kohdetta valittu",
+    "selectAll": "Valitse kaikki",
+    "select": "Valitse",
+    "moveToFolder": "Siirrä",
+    "bulkDeleteConfirm": "Poistetaanko {count} valittua kohdetta?",
+    "bulkDeleteSuccess": "Kohteet poistettu",
+    "bulkDownloadStart": "Ladataan {count} kohdetta...",
+    "moveSuccess": "Kohteet siirretty"
+  },
+  "voice": {
+    "connecting": "Yhdistetään...",
+    "connected": "Yhdistetty",
+    "mute": "Mykistä",
+    "unmute": "Poista mykistys",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Puhu luonnollisesti. AI vastaa kun pysähdyt.",
+    "connectionError": "Yhteys epäonnistui. Yritä uudelleen.",
+    "minutesRemaining": "{minutes} minuuttia jäljellä",
+    "minutesUsed": "{minutes} minuuttia käytetty"
+  },
+  "characters": {
+    "filters": "Suodattimet",
+    "ethnicity": "Etninen tausta",
+    "bodyType": "Vartalotyyppi",
+    "ageRange": "Ikähaarukka",
+    "relationship": "Suhdetilanne",
+    "occupation": "Ammatti",
+    "hobbies": "Harrastukset",
+    "personality": "Persoonallisuus",
+    "language": "Kieli",
+    "age": "Ikä",
+    "all": "Kaikki",
+    "noResults": "Hahmoja ei löytynyt",
+    "noResultsDesc": "Kokeile muuttaa suodattimia",
+    "newBadge": "Uusi",
+    "chatNow": "Chattaa nyt",
+    "viewProfile": "Näytä profiili",
+    "ethnicities": {
+      "caucasian": "Kaukasialainen",
+      "asian": "Aasialainen",
+      "middleEastern": "Lähi-idästä",
+      "hispanic": "Latinalaisamerikkalainen",
+      "african": "Afrikkalainen",
+      "southAsian": "Eteläaasialainen",
+      "nativeAmerican": "Alkuperäisamerikkalainen",
+      "pacificIslander": "Tyynenmeren saaristolainen",
+      "mixed": "Sekarotuinen",
+      "other": "Muu"
+    },
+    "bodyTypes": {
+      "slim": "Hoikka",
+      "athletic": "Urheilullinen",
+      "average": "Tavallinen",
+      "curvy": "Muodokas",
+      "plus": "Plus-koko"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Sinkku",
+      "dating": "Treffailee",
+      "married": "Naimisissa",
+      "none": "Ei mitään"
+    }
+  },
+  "settings": {
+    "profile": "Profiili",
+    "myProfile": "Oma profiili",
+    "settings": "Asetukset",
+    "account": "Tili",
+    "plan": "Suunnitelma",
+    "profileSettings": "Profiiliasetukset",
+    "manageAccountSettings": "Hallinnoi tilisi asetuksia ja mieltymyksiä",
+    "personalInfo": "Henkilötiedot",
+    "nickname": "Lempinimi",
+    "gender": "Sukupuoli",
+    "male": "Mies",
+    "female": "Nainen",
+    "preferences": "Asetukset",
+    "newsletter": "Uutiskirjetilaus",
+    "newsletterDesc": "Vastaanota päivityksiä ja uutisia",
+    "aiTrainingTitle": "AI- ja moderointikoulutus",
+    "aiTrainingDesc": "Salli keskustelujesi ja kehotteidesi auttaa kouluttamaan ja parantamaan sweetwinein tekoälyä ja moderointia. Voit poistaa tämän käytöstä milloin tahansa.",
+    "aiTrainingLink": "Lue lisää tietosuojailmoituksestamme.",
+    "aiTrainingError": "AI-koulutusasetusta ei voitu päivittää",
+    "interfaceLanguage": "Käyttöliittymän kieli",
+    "interfaceLanguageDesc": "Käyttöliittymän kieli",
+    "aiLanguage": "AI-vastauskieli",
+    "aiLanguageDesc": "Kieli, jota tekoälyhahmot käyttävät puhuessaan sinulle",
+    "currentPlan": "Nykyinen suunnitelma",
+    "freePlan": "Ilmainen suunnitelma",
+    "dangerZone": "Vaara-alue",
+    "dangerZoneDescription": "Jos haluat poistaa tämän tilin ja kaikki sen tiedot pysyvästi.",
+    "deleteAllMemory": "Poista kaikki muisti",
+    "confirmDeleteAllMemory": "Haluatko varmasti poistaa kaikkien tekoälyhahmojen pitkäaikaiset muistot? Keskustelut säilyvät, mutta hahmot unohtavat aiemmat faktat seuraavassa vastauksessa.",
+    "deleteAllMemorySuccess": "Kaikki muistot poistettu",
+    "deleteAccount": {
+      "button": "Poista tili",
+      "title": "Poista tili",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Vahvista kirjoittamalla",
+      "confirmRequired": "Kirjoita DELETE vahvistaaksesi",
+      "confirmButton": "Poista tilini",
+      "deleting": "Poistetaan...",
+      "success": "Tilisi on poistettu",
+      "error": "Tilin poistaminen epäonnistui. Yritä uudelleen."
+    },
+    "saveChanges": "Tallenna muutokset",
+    "changesSaved": "Muutokset tallennettu onnistuneesti",
+    "saveFailed": "Muutosten tallentaminen epäonnistui",
+    "languageUpdated": "Kieli päivitetty",
+    "aiLanguageUpdated": "AI-kieli päivitetty"
+  },
+  "create": {
+    "defaultGreeting": "Hei",
+    "title": "Luo tekoälyhahmo",
+    "step": "Vaihe {current} / {total}",
+    "step1": {
+      "title": "Valitse tyyli",
+      "description": "Valitse hahmosi tyyli ja perusominaisuudet"
+    },
+    "step2": {
+      "title": "Valitse etninen tausta",
+      "description": "Valitse hahmosi etninen tausta ja ikä"
+    },
+    "step3": {
+      "title": "Valitse hiukset ja silmät",
+      "description": "Mukauta hiustyyli, hiusten väri ja silmien väri"
+    },
+    "step4": {
+      "title": "Valitse vartalo",
+      "description": "Mukauta hahmosi vartalo"
+    },
+    "step5": {
+      "title": "Persoonallisuus ja yksityiskohdat",
+      "description": "Määritä hahmosi persoonallisuus ja ääni"
+    },
+    "style": {
+      "title": "Hahmon tyyli",
+      "realistic": "Realistinen",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Sukupuoli",
+      "female": "Nainen",
+      "male": "Mies"
+    },
+    "age": {
+      "title": "Ikä",
+      "years": "{age} vuotta"
+    },
+    "ethnicity": {
+      "title": "Etninen tausta"
+    },
+    "hairStyle": {
+      "title": "Hiustyyli"
+    },
+    "hairColor": {
+      "title": "Hiusten väri"
+    },
+    "eyeColor": {
+      "title": "Silmien väri"
+    },
+    "bodyType": {
+      "title": "Vartalotyyppi"
+    },
+    "breastSize": {
+      "title": "Rintojen koko"
+    },
+    "name": {
+      "title": "Nimi",
+      "placeholder": "Anna hahmon nimi",
+      "randomize": "Luo satunnainen nimi"
+    },
+    "language": {
+      "title": "Kieli",
+      "widgetLabel": "Valitse kieli",
+      "placeholder": "Valitse kieli",
+      "selectTitle": "Valitse kielesi"
+    },
+    "personality": {
+      "title": "Persoonallisuus",
+      "widgetLabel": "Valitse persoonallisuus",
+      "placeholder": "Valitse persoonallisuus",
+      "sectionTitle": "Valitse persoonallisuus",
+      "clickToChange": "Klikkaa vaihtaaksesi"
+    },
+    "relationship": {
+      "title": "Suhde",
+      "widgetLabel": "Valitse suhde",
+      "placeholder": "Valitse suhde",
+      "selectTitle": "Muokkaa suhdetta"
+    },
+    "occupation": {
+      "title": "Ammatti",
+      "widgetLabel": "Valitse ammatti",
+      "placeholder": "Valitse ammatti",
+      "selectTitle": "Muokkaa ammattia"
+    },
+    "kinks": {
+      "title": "Kiinnostukset",
+      "widgetLabel": "Mistä kinkeistä he pitävät? (Maks. {max})",
+      "labelMax": "Kiinnostukset (Maks. {max})",
+      "placeholder": "Valitse kiinnostukset (valinnainen)",
+      "optional": "Valinnainen",
+      "selectTitle": "Muokkaa kiinnostuksia",
+      "moreCount": "+{count} lisää"
+    },
+    "selector": {
+      "searchPlaceholder": "Haku",
+      "noResults": "Ei tuloksia",
+      "cancel": "Peruuta",
+      "saveChanges": "Tallenna muutokset",
+      "selectedCount": "{count} valittu"
+    },
+    "voice": {
+      "title": "Ääni",
+      "widgetLabel": "Valitse ääni",
+      "placeholder": "Valitse ääni",
+      "selectTitle": "Valitse ääni"
+    },
+    "advanced": {
+      "title": "Lisätiedot",
+      "optional": "valinnainen",
+      "filled": "Täytetty",
+      "autocompleteTitle": "Täydennä tekoälyllä",
+      "autocompleteDesc": "Anna tekoälyn täydentää tyhjät kentät syvemmän hahmon luomiseksi",
+      "autocompleteSuccess": "Kentät täytetty onnistuneesti!",
+      "autocompleteError": "Ehdotusten luonti epäonnistui. Yritä uudelleen.",
+      "greetingLabel": "Tervehdys",
+      "greetingPlaceholder": "Ensimmäinen viesti, jonka hahmosi lähettää...",
+      "scenarioLabel": "Skenaario",
+      "scenarioPlaceholder": "Konteksti tai tausta siitä, miten tapasitte...",
+      "personalityLabel": "Lisätietoja persoonallisuudesta",
+      "personalityPlaceholder": "Oudot tavat, puhetavat, käyttäytymispiirteet...",
+      "extraLabel": "Lisätiedot",
+      "extraPlaceholder": "Tausta, harrastukset, elämänhistoria..."
+    },
+    "navigation": {
+      "back": "Takaisin",
+      "next": "Seuraava",
+      "create": "Luo",
+      "generateYourCharacter": "Luo hahmosi"
+    },
+    "progress": {
+      "generatingPrompt": "Luodaan persoonallisuutta...",
+      "generatingImage": "Luodaan muotokuvaa...",
+      "creatingVoice": "Asetetaan ääntä...",
+      "saving": "Tallennetaan...",
+      "complete": "Valmis!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Luodaan persoonallisuutta...",
+      "addingSweetness": "Lisätään makeutta...",
+      "tooMuchSweet": "Hups, liian makeaa...",
+      "testingSounds": "Testataan ääniä..."
+    },
+    "overlay": {
+      "signupPrompt": "Viimeistele rekisteröityminen avataksesi hahmosi…",
+      "processingHint": "Tämä kestää yleensä 20–30 sekuntia",
+      "traitEthnicity": "Etnisyys",
+      "traitBody": "Vartalo",
+      "traitHair": "Hiukset",
+      "traitColor": "Väri",
+      "traitEyes": "Silmät",
+      "traitVibe": "Fiilis",
+      "bannerTitle": "Hahmosi on valmis luotavaksi!",
+      "bannerDesc": "Asetuksesi on tallennettu. Tarkista ja luo alla."
+    },
+    "success": {
+      "title": "Hahmo luotu!",
+      "description": "AI-hahmosi on luotu onnistuneesti.",
+      "yearsOld": "vuotta vanha",
+      "meetButton": "Tapaa"
+    },
+    "error": {
+      "title": "Luonti epäonnistui",
+      "generic": "Hahmon luonti epäonnistui. Yritä uudelleen."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukasialainen",
+        "asian": "Aasialainen",
+        "middle_eastern": "Lähi-idästä",
+        "hispanic": "Latinalaisamerikkalainen",
+        "african": "Afrikkalainen",
+        "south_asian": "Eteläaasialainen",
+        "native_american": "Alkuperäisamerikkalainen",
+        "pacific_islander": "Tyynenmeren saaristolainen",
+        "mixed": "Sekarotuinen",
+        "arab": "Arabialainen"
+      },
+      "hairStyleFemale": {
+        "straight": "Suora",
+        "bangs": "Otsatukka",
+        "curly": "Kiharat",
+        "bun": "Nuttura",
+        "short_bob": "Lyhyt bob",
+        "ponytail": "Poninhäntä",
+        "wavy": "Aaltoileva",
+        "long_layers": "Pitkät kerrokset",
+        "braids": "Letit",
+        "pixie_cut": "Pixie-leikkaus",
+        "updo": "Ylös kammatut",
+        "french_twist": "Ranskalainen kierre",
+        "fishtail_braid": "Kalanhäntäletit",
+        "top_knot": "Yläsolmu",
+        "space_buns": "Avaruussolmut",
+        "halo_braid": "Haloletti",
+        "beehive": "Mehiläispesä",
+        "finger_waves": "Sormiaalto",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag-leikkaus",
+        "bald": "Kalju"
+      },
+      "hairStyleMale": {
+        "short": "Lyhyt",
+        "buzz_cut": "Siilitukka",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Taaksepäin kammattu",
+        "curly": "Kiharat",
+        "afro": "Afro",
+        "man_bun": "Miesnuttura",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Sivuerotus",
+        "textured_crop": "Teksturoitu crop",
+        "french_crop": "French Crop",
+        "spiky": "Piikikäs",
+        "comb_over": "Ylikampaus",
+        "long_hair": "Pitkät hiukset",
+        "bald": "Kalju"
+      },
+      "hairColor": {
+        "brunette": "Brunetti",
+        "blonde": "Vaalea",
+        "black": "Musta",
+        "redhead": "Punapää",
+        "pink": "Pinkki",
+        "auburn": "Auburn",
+        "brown": "Ruskea",
+        "platinum_blonde": "Platina-vaalea",
+        "silver_grey": "Hopea/harmaa",
+        "white": "Valkoinen",
+        "blue": "Sininen",
+        "purple": "Violetti",
+        "green": "Vihreä",
+        "burgundy": "Burgundi",
+        "copper": "Kupari",
+        "strawberry_blonde": "Mansikkavaalea",
+        "ash_brown": "Tuhkainen ruskea",
+        "golden_blonde": "Kultavaalea",
+        "mahogany": "Mahonki",
+        "pastel_pink": "Pastelli pinkki",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Raidat",
+        "jet_black": "Syvämusta",
+        "dark_brown": "Tummanruskea",
+        "light_brown": "Vaaleanruskea",
+        "honey_blonde": "Hunajablondi",
+        "dirty_blonde": "Likainen blondi",
+        "cherry_red": "Kirsikanpunainen",
+        "violet": "Violetti"
+      },
+      "eyeColor": {
+        "brown": "Ruskea",
+        "blue": "Sininen",
+        "green": "Vihreä",
+        "hazel": "Pähkinänruskea",
+        "amber": "Meripihka",
+        "gray": "Harmaa",
+        "heterochromia": "Heterokromia",
+        "violet": "Violetti",
+        "red_pink": "Punainen/Pinkki",
+        "black": "Musta"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Hoikka",
+        "athletic": "Urheilullinen",
+        "average": "Tavallinen",
+        "curvy": "Muodokas",
+        "chubby": "Pulska"
+      },
+      "bodyTypeMale": {
+        "skinny": "Hoikka",
+        "athletic": "Urheilullinen",
+        "average": "Tavallinen",
+        "muscular": "Lihaksikas",
+        "heavy": "Raskas",
+        "big_tall": "Iso & Pitkä"
+      },
+      "breastSize": {
+        "small": "Pieni",
+        "medium": "Keskikokoinen",
+        "large": "Suuri",
+        "extra_large": "Erittäin suuri"
+      },
+      "personality": {
+        "nympho": "Nymfomaani",
+        "lover": "Rakastaja",
+        "submissive": "Alistuva",
+        "dominant": "Dominoiva",
+        "temptress": "Kiusoittelija",
+        "innocent": "Viattomuus",
+        "caregiver": "Hoitaja",
+        "experimenter": "Kokeilija",
+        "mean": "Ilkeä",
+        "confidant": "Luotettava",
+        "shy": "Ujo",
+        "queen": "Kuningatar",
+        "adventurous": "Seikkailunhaluinen",
+        "romantic": "Romanttinen",
+        "intellectual": "Älyllinen",
+        "protector": "Suojelija",
+        "rebel": "Kapinallinen",
+        "optimist": "Optimisti",
+        "realist": "Realisti",
+        "free_spirit": "Vapaa henki",
+        "leader": "Johtaja",
+        "loyal": "Uskollinen",
+        "playful": "Leikkisä",
+        "mysterious": "Salaperäinen",
+        "ambitious": "Kunnianhimoinen",
+        "gentle": "Lempeä",
+        "sarcastic": "Sarkastinen",
+        "empathetic": "Empaattinen",
+        "stoic": "Tyyni",
+        "charismatic": "Karismaattinen"
+      },
+      "relationship": {
+        "stranger": "Muukalainen",
+        "girlfriend": "Tyttöystävä",
+        "sex_friend": "Seksikaveri",
+        "school_mate": "Koulukaveri",
+        "work_colleague": "Työkaveri",
+        "wife": "Vaimo",
+        "mistress": "Rakastajatar",
+        "friend": "Ystävä",
+        "step_sister": "Siskopuoli",
+        "step_mom": "Äitipuoli",
+        "step_daughter": "Tyttäpuoli",
+        "landlord": "Vuokranantaja",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Pomo",
+        "teacher": "Opettaja",
+        "student": "Oppilas",
+        "neighbour": "Naapuri",
+        "mother_in_law": "Anoppi",
+        "sister_in_law": "Käly",
+        "boyfriend": "Poikaystävä",
+        "husband": "Aviomies",
+        "fiance": "Kihlattu",
+        "ex": "Ex",
+        "roommate": "Kämppis",
+        "best_friend": "Paras ystävä",
+        "classmate": "Luokkatoveri",
+        "mentor": "Mentori",
+        "client": "Asiakas",
+        "therapist": "Terapeutti",
+        "trainer": "Valmentaja",
+        "rival": "Kilpailija",
+        "crush": "Ihailija",
+        "secret_admirer": "Salainen ihailija",
+        "pen_pal": "Kirjekaveri",
+        "business_partner": "Liikekumppani",
+        "babysitter": "Lapsenvahti",
+        "childhood_friend": "Lapsuudenystävä",
+        "long_distance_partner": "Etäsuhteen kumppani"
+      },
+      "occupation": {
+        "student": "Opiskelija",
+        "dancer": "Tanssija",
+        "model": "Malli",
+        "maid": "Piika",
+        "boss_ceo": "Pomo / Toimitusjohtaja",
+        "babysitter_au_pair": "Lapsenhoitaja / Au pair",
+        "streamer": "Striimaaja",
+        "bartender": "Baarimikko",
+        "tech_engineer": "Tekniikan insinööri",
+        "lifeguard": "Uimavalvoja",
+        "cashier": "Kassatyöntekijä",
+        "massage_therapist": "Hierontaterapeutti",
+        "teacher": "Opettaja",
+        "nurse": "Sairaanhoitaja",
+        "secretary": "Sihteeri",
+        "yoga_instructor": "Joogaohjaaja",
+        "fitness_coach": "Kuntovalmentaja",
+        "cook": "Kokki",
+        "artist": "Taiteilija",
+        "movie_star_actress": "Elokuvatähti / Näyttelijä",
+        "doctor": "Lääkäri",
+        "librarian": "Kirjastonhoitaja",
+        "spy": "Vakooja",
+        "police_officer": "Poliisi",
+        "soldier": "Sotilas",
+        "lawyer": "Asianajaja",
+        "hairdresser": "Kampaaja",
+        "dentist": "Hammaslääkäri",
+        "singer_musician": "Laulaja / Muusikko",
+        "gynecologist": "Gynekologi",
+        "writer": "Kirjailija",
+        "flight_attendant": "Lentoemäntä",
+        "professional_athlete": "Ammattiurheilija",
+        "scientist": "Tutkija",
+        "florist": "Kukkakauppias",
+        "makeup_artist": "Meikkitaiteilija",
+        "photographer": "Valokuvaaja",
+        "social_worker": "Sosiaalialan työntekijä",
+        "designer": "Suunnittelija",
+        "pharmacist": "Apteekkari",
+        "nutritionist": "Ravitsemusterapeutti",
+        "architect": "Arkkitehti",
+        "veterinarian": "Eläinlääkäri",
+        "mechanic": "Automekaanikko",
+        "journalist": "Toimittaja",
+        "pilot": "Lentäjä",
+        "firefighter": "Palomies",
+        "accountant": "Kirjanpitäjä",
+        "electrician": "Sähköasentaja",
+        "carpenter": "Puuseppä",
+        "psychologist": "Psykologi",
+        "real_estate_agent": "Kiinteistönvälittäjä",
+        "chef": "Kokki",
+        "farmer": "Maanviljelijä",
+        "delivery_driver": "Kuljettaja",
+        "janitor": "Toimistonhoitaja",
+        "security_guard": "Turvamies",
+        "banker": "Pankkiiri",
+        "judge": "Tuomari",
+        "paramedic": "Ensihoitaja",
+        "actor": "Näyttelijä",
+        "comedian": "Koomikko",
+        "archaeologist": "Arkeologi",
+        "astronaut": "Astronautti"
+      },
+      "kinks": {
+        "bondage": "Sidonta",
+        "spanking": "Lällistely",
+        "collar_leash": "Kaulus & hihna",
+        "punishment": "Rangaistus",
+        "humiliation": "Nöyryytys",
+        "public_play": "Julkinen leikki",
+        "roleplay": "Roolileikki",
+        "anal_play": "Anaalileikki",
+        "oral_play": "Oraalileikki",
+        "cum_play": "Siittiöleikki",
+        "creampie": "Creampie",
+        "squirting": "Suihkuttelu",
+        "dirty_talk": "Likainen puhe",
+        "breeding": "Lisääntyminen",
+        "daddy_mommy_dominance": "Daddy/Mommy-dominanssi",
+        "edging": "Edging",
+        "obedience": "Tottelevaisuus",
+        "control": "Hallinta",
+        "inexperienced": "Kokematon",
+        "shy_flirting": "Ujo flirttailu",
+        "playful_teasing": "Leikkisä kiusoittelu",
+        "cuddling": "Sylissä olo",
+        "slow_sensual": "Hidas & aistillinen",
+        "hair_pulling": "Hiusten repiminen",
+        "foot_fetish": "Jalkafetissi",
+        "voyeurism": "Vakoilu",
+        "exhibitionism": "Eksibitionismi",
+        "sensation_play": "Aistileikki",
+        "wax_play": "Vahaleikki",
+        "pet_play": "Lemmikkileikki",
+        "age_play": "Ikäleikki",
+        "medical_play": "Lääketieteellinen leikki",
+        "orgasm_control_denial": "Orgasmin hallinta/kieltäminen",
+        "forced_orgasms": "Pakotetut orgasmit",
+        "group_sex": "Ryhmäseksi",
+        "threesomes": "Kolmiot",
+        "swapping": "Vaihtaminen",
+        "cuckolding_cuckqueaning": "Kullinjakaminen/Kullinjakaminen",
+        "femdom": "Femdom",
+        "gentle_domination": "Lempeä dominointi",
+        "sensation_deprivation": "Aistien riistäminen",
+        "sensory_overload": "Aistien ylikuormitus",
+        "uniform_costume_fetish": "Uniformi/Pukufetissi",
+        "food_play": "Ruokaleikit",
+        "watersports": "Vesileikit",
+        "bdsm": "BDSM",
+        "impact_play": "Isku-leikit",
+        "knife_play": "Veitsileikit",
+        "consensual_non_consent": "Konsensuaalinen ei-konsensus",
+        "power_exchange": "Valtavaihto",
+        "master_slave": "Isäntä/Orja",
+        "owner_pet": "Omistaja/Lemmikki"
+      },
+      "languages": {
+        "en": "Englanti",
+        "cs": "Tšekki",
+        "pl": "Puola",
+        "de": "Saksa",
+        "es": "Espanja",
+        "fr": "Ranska"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Oma AI",
+    "titlePart1": "Oma",
+    "titlePart2": "AI",
+    "createNew": "Luo uusi AI",
+    "createButton": "Luo hahmo",
+    "characterCount": "{count}/{limit} hahmoa",
+    "loadMore": "Lataa lisää",
+    "empty": {
+      "title": "Ei hahmoja vielä",
+      "description": "Luo ensimmäinen AI-hahmosi ja aloita keskustelu! Mukauta ulkonäköä, persoonallisuutta ja ääntä.",
+      "createFirst": "Luo ensimmäinen hahmosi"
+    },
+    "delete": {
+      "title": "Poista hahmo",
+      "message": "Haluatko varmasti poistaa {name}? Tämä poistaa hahmon, kaikki keskusteluhistoriat ja luodun sisällön pysyvästi.",
+      "confirm": "Poista",
+      "success": "Hahmo poistettu onnistuneesti"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Vuorovaikutus",
+    "interactionDescription": "Kirjoita vain luonnollisesti — pyydä valokuvaa, videota tai aloita keskustelu. AI ymmärtää aikomuksesi millä tahansa kielellä.",
+    "mediaTitle": "Luo kuvia & videoita",
+    "mediaDescription": "Päästä mielikuvituksesi valloilleen — luo kuvia tai videoita ilman rajoja.",
+    "next": "Seuraava →",
+    "gotIt": "Selvä"
+  }
+}

@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Vista",
+    "cancel": "Hætta við",
+    "delete": "Eyða",
+    "edit": "Breyta",
+    "close": "Loka",
+    "now": "nú",
+    "loading": "Hleð...",
+    "error": "Villa kom upp",
+    "success": "Tókst",
+    "confirm": "Staðfesta",
+    "back": "Til baka",
+    "or": "Eða",
+    "next": "Næst",
+    "submit": "Senda",
+    "search": "Leita",
+    "filter": "Sía",
+    "clear": "Hreinsa",
+    "all": "Allt",
+    "yes": "Já",
+    "no": "Nei",
+    "download": "Sækja",
+    "and": "og",
+    "tryAgain": "Reyna aftur",
+    "change": "Breyta"
+  },
+  "navigation": {
+    "new": "NÝTT",
+    "sectionBrowse": "Vafra",
+    "sectionTalk": "Tala",
+    "sectionCreate": "Búa til",
+    "sectionLibrary": "Safn",
+    "explore": "Heim",
+    "discover": "Uppgötva",
+    "createShort": "Búa til AI",
+    "chats": "Spjall",
+    "groupChat": "AI hópspjöll",
+    "roleplay": "Hlutverkaleikir",
+    "collection": "Safn",
+    "generateImage": "Búa til mynd",
+    "generateVideo": "Búa til myndband",
+    "createCharacter": "Búa til AI persónu",
+    "myAI": "Mitt AI",
+    "language": "Tungumál",
+    "contactUs": "Hafa samband",
+    "account": "Reikningur",
+    "sidebarPromoTitle": "Sumarsala — 50% AFSLÁTTUR",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Konur",
+      "anime": "Anime",
+      "guys": "Karlar"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Spjalla núna",
+    "like": "Líka"
+  },
+  "auth": {
+    "login": "Skrá inn",
+    "signup": "Skrá sig",
+    "createFreeAccount": "Búðu til ókeypis reikning",
+    "logout": "Skrá út",
+    "email": "Netfang",
+    "password": "Lykilorð",
+    "confirmPassword": "Staðfesta lykilorð",
+    "forgotPassword": "Gleymt lykilorð?",
+    "noAccount": "Ekki með reikning?",
+    "hasAccount": "Nú þegar með reikning?",
+    "signupPrompt": "Búa til ókeypis reikning",
+    "loginPrompt": "Skrá inn",
+    "continueWith": "Halda áfram með",
+    "welcomeBack": "Velkomin(n) aftur!",
+    "createAccount": "Búa til reikning",
+    "signInToAccount": "Skráðu þig inn á reikninginn þinn",
+    "emailRequired": "Netfang er nauðsynlegt",
+    "emailInvalid": "Ógilt netfang",
+    "passwordRequired": "Lykilorð er nauðsynlegt",
+    "passwordLength": "Lykilorð verður að vera að minnsta kosti 6 stafir",
+    "passwordsMismatch": "Lykilorðin passa ekki",
+    "emailAlreadyRegistered": "Netfang þegar skráð",
+    "emailAlreadyRegisteredDescription": "Reikningur með þessu netfangi er þegar til. Vinsamlegast skráðu þig inn.",
+    "loginError": "Ekki tókst að skrá inn",
+    "signupError": "Ekki tókst að skrá sig",
+    "loginSuccess": "Velkomin(n) aftur!",
+    "signupSuccess": "Reikningur búinn til!",
+    "logoutSuccess": "Þú hefur verið skráður út",
+    "logoutError": "Ekki tókst að skrá út",
+    "linkExpired": "Þessi staðfestingartengill er útrunninn. Vinsamlegast biðja um nýjan.",
+    "accessDenied": "Aðgangur hafnað. Reyndu aftur.",
+    "verifyEmail": "Staðfestu netfangið þitt",
+    "verificationEmailSent": "Við höfum sent þér staðfestingarpóst",
+    "confirmYourEmail": "Staðfestu netfangið þitt",
+    "confirmationLinkSent": "Við höfum sent staðfestingartengil á \"{email}\".",
+    "checkSpamFolder": "Fékkst ekki póstinn? Athugaðu ruslpóstmöppuna.",
+    "signupToChat": "Búðu til ókeypis reikning til að byrja.",
+    "signupDescription": "Búðu til reikning til að halda áfram samtalinu",
+    "emailVerificationTitle": "Athugaðu póstinn þinn",
+    "emailVerificationMessage": "Við höfum sent staðfestingartengil á {email}. Vinsamlegast athugaðu pósthólfið þitt og smelltu á tengilinn til að staðfesta reikninginn þinn.",
+    "emailVerificationNext": "Eftir staðfestingu klárarðu uppsetningarferlið.",
+    "verificationEmailSentTo": "Við sendum staðfestingarpóst á {email}",
+    "verificationInstructions": "Vinsamlegast athugaðu pósthólfið þitt og smelltu á staðfestingartengilinn til að virkja reikninginn þinn.",
+    "resetPassword": "Endurstilla lykilorð",
+    "resetPasswordDescription": "Sláðu inn netfangið þitt og við sendum þér endurstillingartengil",
+    "resetEmailSent": "Ef reikningur er til með þessu netfangi færðu endurstillingartengil fljótlega",
+    "backToLogin": "Til baka í innskráningu",
+    "newPassword": "Nýtt lykilorð",
+    "confirmNewPassword": "Staðfestu nýtt lykilorð",
+    "passwordResetSuccess": "Lykilorð uppfært. Vinsamlegast skráðu þig inn.",
+    "enterNewPassword": "Sláðu inn nýja lykilorðið þitt",
+    "redirectingToLogin": "Endurbeini til innskráningar...",
+    "invalidResetLink": "Ógildur eða útrunninn tengill",
+    "invalidResetLinkDescription": "Þessi endurstillingartengill er ógildur eða hefur runnið út. Vinsamlegast biðjið um nýjan.",
+    "passwordsDontMatch": "Lykilorðin passa ekki saman",
+    "currentPassword": "Núverandi lykilorð",
+    "currentPasswordRequired": "Núverandi lykilorð er nauðsynlegt",
+    "changePassword": "Breyta lykilorði",
+    "changePasswordDescription": "Sláðu inn núverandi lykilorð og veldu nýtt",
+    "newPasswordMustBeDifferent": "Nýja lykilorðið verður að vera ólíkt núverandi lykilorði",
+    "incorrectPassword": "Núverandi lykilorð er rangt",
+    "passwordChangeSuccess": "Lykilorði breytt",
+    "changeEmail": "Breyta netfangi",
+    "newEmail": "Nýtt netfang",
+    "confirmNewEmail": "Staðfesta nýtt netfang",
+    "emailsDontMatch": "Netföngin passa ekki",
+    "emailChangeDescription": "Staðfestingarpóstur verður sendur á bæði núverandi og nýja netfangið",
+    "emailMustBeDifferent": "Nýja netfangið verður að vera ólíkt núverandi netfangi",
+    "emailChangeSent": "Staðfestingarpóstur sendur. Vinsamlegast athugaðu nýja pósthólfið.",
+    "emailChangeSecurityNote": "Til öryggis verða staðfestingarpóstar sendir á bæði núverandi og nýja netfangið. Þú verður að staðfesta frá báðum til að ljúka breytingunni.",
+    "otpDescription": "Við sendum 6-stafa kóða á {email}",
+    "otpVerify": "Staðfesta",
+    "otpResend": "Senda kóða aftur",
+    "otpResendIn": "Senda aftur eftir {seconds}s",
+    "otpNoCode": "Fékkst ekki kóðann?",
+    "otpInvalid": "Ógildur kóði. Vinsamlegast reyndu aftur.",
+    "otpSuccess": "Netfang staðfest!",
+    "otpResendSuccess": "Nýr kóði sendur á netfangið þitt",
+    "otpResendError": "Mistókst að senda kóða aftur",
+    "continueWithEmail": "Halda áfram með netfangi",
+    "moreOptions": "Fleiri valkostir",
+    "lessOptions": "Færri valkostir",
+    "enterYourEmail": "Sláðu inn netfangið þitt",
+    "sendCode": "Senda kóða",
+    "byCreatingAccountAgree": "Með því að búa til reikning samþykkirðu",
+    "termsOfService": "Þjónustuskilmála",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Velkomin í sweetwine",
+    "welcomeTo": "Velkomin í",
+    "letsGetStarted": "Við skulum koma þér af stað",
+    "setupProfile": "Settu upp prófílinn þinn",
+    "step1of2": "Skref 1 af 2",
+    "step2of2": "Skref 2 af 2",
+    "nickname": "Gælunafn",
+    "nicknamePlaceholder": "Veldu gælunafn",
+    "nicknameRequired": "Vinsamlegast sláðu inn gælunafn",
+    "gender": "Kyn",
+    "genderRequired": "Vinsamlegast veldu kyn",
+    "male": "Karl",
+    "female": "Kona",
+    "interfaceLanguage": "Viðmótstunga",
+    "interfaceLanguageDesc": "Tungumál fyrir valmyndir og hnappa",
+    "aiLanguage": "Tungumál AI-svara",
+    "aiLanguageDesc": "Tungumál sem gervigreindin notar þegar hún talar við þig",
+    "languageRequired": "Vinsamlegast veldu tungumál",
+    "continue": "Halda áfram",
+    "ageVerification": "Aldursstaðfesting",
+    "ageVerificationText": "Til að nota sweetwine verður þú að vera 18 ára eða eldri. Með því að halda áfram staðfestir þú að þú sért á lögaldri.",
+    "beforeContinue": "Áður en þú heldur áfram",
+    "mustBe18": "Þú verður að vera 18 ára eða eldri til að nota þessa þjónustu",
+    "agreeToTerms": "Með því að halda áfram samþykkir þú {termsLink} og {privacyLink}",
+    "termsOfService": "Þjónustuskilmálar",
+    "privacyPolicy": "Persónuverndarstefna",
+    "iConfirm": "Ég staðfesti að ég er 18 ára eða eldri og samþykki",
+    "ageRequired": "Þú verður að staðfesta aldur þinn til að halda áfram",
+    "aiActConsent": "Ég viðurkenni að ég eigi eingöngu samskipti við gervigreind",
+    "aiActRequired": "Þú verður að viðurkenna þetta til að halda áfram",
+    "newsletterOptIn": "Gerast áskrifandi að fréttabréfinu okkar fyrir uppfærslur og fréttir",
+    "complete": "Uppsetningu lokið!",
+    "completeText": "Þú ert tilbúinn! Byrjaðu að spjalla við gervigreind persónur.",
+    "startExploring": "Byrja að kanna",
+    "featuresTitle": "Tiltækir eiginleikar",
+    "featuresTitleWord1": "Tiltækir",
+    "featuresTitleWord2": "Eiginleikar",
+    "feature1Title": "AI spjall",
+    "feature1Desc": "Ócensureruð og einkarekin samtöl",
+    "feature2Title": "Myndagerð",
+    "feature2Desc": "Búðu til ócensurerðar og persónulegar myndir með gervigreind persónum",
+    "feature3Title": "Myndbandsgerð",
+    "feature3Desc": "Búðu til ócensureruð gervigreind myndbönd með áhrifum",
+    "feature5Title": "Sérsniðinn AI-sköpunaraðili",
+    "feature5Desc": "Hannaðu þína eigin persónu",
+    "feature6Title": "Fletta persónum",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI hlutverkaleikur",
+    "feature7Desc": "Upplifðu fagmannlega unnar sögur og fantasíur",
+    "showcase": {
+      "chatTitle": "AI spjall",
+      "chatDesc": "Ócensureruð, einkasamtöl án takmarkana",
+      "imageTitle": "Myndagerð",
+      "imageDesc": "Búðu til ócensurerðar, persónulegar myndir af AI þínu",
+      "videoTitle": "Myndbandsgerð",
+      "videoDesc": "Búðu til ócensureruð AI myndbönd með áhrifum",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Rauntíma raddsamtöl við félaga þinn",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Djúpdrægar sögur, fantasíur og gagnvirkur leikur",
+      "groupChatTitle": "AI Hópaspjall",
+      "groupChatDesc": "Spjallaðu við allt að 3 AI persónur í einu",
+      "creatorTitle": "Sérsniðinn AI Skapari",
+      "creatorDesc": "Hannaðu og búðu til þín eigin AI persónur"
+    },
+    "freePlan": {
+      "title": "Þú ert tilbúinn!",
+      "subtitle": "Hér er það sem er innifalið í ókeypis áætluninni þinni.",
+      "charactersTitle": "Búðu til eigin persónu",
+      "charactersDesc": "Hannaðu {count} sérsniðna AI persónu frá grunni",
+      "imagesTitle": "Búðu til mynd",
+      "imagesDesc": "{count} ókeypis AI mynd af félaga þínum",
+      "messagesTitle": "Spjallaðu á hverjum degi",
+      "messagesDesc": "{count} skilaboð á dag, endurnýjast á 24 klst fresti",
+      "cta": "Byrjaðu að kanna"
+    },
+    "redirectingIn": "Endurbeining eftir",
+    "seconds": "sekúndur",
+    "generateCharacter": "Búðu til þína persónu",
+    "redirectingToCreate": "Endurbeining í persónusköpun eftir"
+  },
+  "errors": {
+    "pageNotFound": "Síða fannst ekki",
+    "pageNotFoundDesc": "Síðan sem þú ert að leita að er ekki til.",
+    "goHome": "Fara heim",
+    "somethingWentWrong": "Eitthvað fór úrskeiðis",
+    "tryAgain": "Reyna aftur",
+    "unauthorized": "Óheimilt",
+    "unauthorizedDesc": "Þú þarft að vera innskráður til að fá aðgang að þessari síðu.",
+    "forbidden": "Bannað",
+    "forbiddenDesc": "Þú hefur ekki heimild til að fá aðgang að þessari síðu."
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved.",
+    "madeWith": "Búið til með",
+    "by": "by sweetwine",
+    "description": "Upplifðu persónulegar AI persónur með einstökum persónuleika, sjónrænum auðkennum og grípandi samtölum.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Vara",
+    "legal": "Lögfræði",
+    "company": "Fyrirtæki",
+    "resources": "Auðlindir",
+    "partnerships": "Samstarf",
+    "pressMedia": "Fjölmiðlar",
+    "careers": "Störf",
+    "aiRealClones": "AI raunverulegar klónar",
+    "about": "Um okkur",
+    "blog": "Blogg",
+    "news": "Fréttir",
+    "productUpdates": "Vöruuppfærslur",
+    "help": "Hjálp",
+    "sitemap": "Veftré",
+    "paymentOptions": "Greiðslumöguleikar",
+    "chats": "Spjall",
+    "collection": "Safn",
+    "generateImage": "Búa til mynd",
+    "generateVideo": "Búa til myndband",
+    "myAI": "Mitt AI",
+    "createCharacter": "Búa til persónu",
+    "api": "API",
+    "features": "Eiginleikar",
+    "allFeatures": "Allir eiginleikar",
+    "aiGroupChat": "AI hópspjall",
+    "aiMemory": "AI minni",
+    "aiGirlfriend": "AI kærasta",
+    "aiBoyfriend": "AI kærasti",
+    "aiCompanions": "AI persónur",
+    "aiFriend": "AI vinur",
+    "aiBreakupSupport": "Stuðningur við skilnað",
+    "aiParent": "AI foreldri",
+    "aiRoleplay": "AI hlutverkaleikur",
+    "privacyPolicy": "Persónuverndarstefna",
+    "termsAndConditions": "Skilmálar",
+    "cookiePolicy": "Vafrakökustefna",
+    "cookieSettings": "Vafrakökustillingar",
+    "other": "Aðrar stefnur",
+    "copyright": "© {year} sweetwine. All rights reserved."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Vafrakökur á þessari síðu",
+      "customizeButton": "Sérsníða",
+      "rejectButton": "Hafna",
+      "acceptButton": "Samþykkja"
+    },
+    "modal": {
+      "title": "Stjórna vafrakökum",
+      "subtitle": "Kveiktu á eða slökktu á flokkum hér að neðan. Nauðsynlegar vafrakökur eru alltaf virkar svo síðan geti virkað.",
+      "categories": {
+        "necessary": {
+          "title": "Algerlega nauðsynlegar",
+          "description": "Þarf fyrir innskráningu, greiðslu og öryggi. Síðan getur ekki keyrt án þeirra.",
+          "alwaysOn": "Alltaf á"
+        },
+        "analytics": {
+          "title": "Afköst",
+          "description": "Mæling á notkun og viðskiptum með Google Analytics 4, þar á meðal lykilviðskipti (skráning, kaup) send frá þjóninum okkar með dulrituðu auðkenni. Hjálpar okkur að skilja hvernig þjónustan er notuð; við notum hana ekki til að bera kennsl á þig persónulega."
+        },
+        "marketing": {
+          "title": "Markaðssetning",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Sýna vafrakökur",
+      "hideCookies": "Fela vafrakökur",
+      "table": {
+        "name": "Nafn",
+        "provider": "Veitandi",
+        "expiration": "Gildistími",
+        "description": "Lýsing",
+        "session": "Seta"
+      },
+      "policyLink": "Nánari upplýsingar má finna í <policy>Vafrakökustefnu</policy> okkar.",
+      "rejectButton": "Hafna",
+      "saveButton": "Vista & Loka",
+      "acceptButton": "Samþykkja",
+      "cookieDescriptions": {
+        "supabaseAuth": "Heldur þér innskráðum með því að geyma auðkennta setu þína.",
+        "nextLocale": "Minnir á tungumálið sem þú hefur valið fyrir viðmótið.",
+        "consent": "Geymir vafrakökustillingar þínar svo að borðið birtist ekki við hverja heimsókn.",
+        "ga": "Greinir einstaka gesti (Google Analytics 4). Sama dulritaða auðkennið er einnig notað til að mæla lykilviðskipti á þjóninum.",
+        "gaSession": "Viðheldur setustöðu og þátttökumælingum Google Analytics 4.",
+        "fbp": "Auðkennir vafrann fyrir Meta Pixel tilvísun.",
+        "fbc": "Geymir Facebook smellauðkenni fyrir auglýsingatilvísun. Aðeins stillt eftir að smellt er á Meta auglýsingu.",
+        "gclAu": "Notað af Google Ads til að tengja viðskipti milli vefsvæða.",
+        "saleCountdown": "Fylgist með lokum núverandi kynningartilboðs svo afsláttarteljari haldist samræmdur á milli síðna.",
+        "onboarded": "Merkir reikninginn þinn sem innritaðan svo við getum sleppt aldursstaðfestingargagnagrunnsskoðun á síðari síðum.",
+        "attribution": "Skrár hvaða borguðu herferð eða auglýsingatengill leiddi þig síðast á vefinn okkar (síðasta borguðu smellur innan 30 daga) svo við getum mælt árangur eigin auglýsinga. Þetta er auðkenni fyrsta aðila sem helst á netþjónum okkar og er aldrei deilt með þriðja aðila."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Væntanlegt",
+    "subtitle": "Við vinnum hörðum höndum að því að koma með þennan eiginleika.",
+    "notify": "Fáðu tilkynningu þegar það er tilbúið",
+    "backHome": "Til baka á forsíðu",
+    "generateVideo": {
+      "title": "Búa til myndbönd",
+      "description": "Lífgaðu AI persónurnar þínar með hreyfimyndböndum. Búðu til persónulegt myndbandsefni með uppáhalds persónunum þínum."
+    },
+    "createCharacter": {
+      "title": "Búa til persónu",
+      "description": "Hannaðu og sérsníddu þína eigin einstaka AI persónu. Skilgreindu persónuleika hennar, útlit, bakgrunn og búðu til sannarlega persónuleg samskipti."
+    },
+    "myAI": {
+      "title": "Mitt AI",
+      "description": "Fáðu aðgang að og stjórnaðu öllum sérsniðnum AI persónum þínum. Breyttu persónuleika þeirra, uppfærðu útlit þeirra og fínstilltu svör þeirra."
+    }
+  },
+  "exploreMore": {
+    "title": "Kanna meira",
+    "aiGroupChat": "AI hópspjall",
+    "aiGroupChatDesc": "Spjallaðu við allt að 3 persónur",
+    "aiMemory": "AI minni",
+    "aiMemoryDesc": "Samhengi sem fylgir hverri stillingu",
+    "aiGirlfriend": "AI kærasta",
+    "aiGirlfriendDesc": "Spjallaðu við sýndarkærastann þinn",
+    "aiBoyfriend": "AI kærasti",
+    "aiBoyfriendDesc": "Tengstu við AI kærastann þinn",
+    "aiCompanions": "AI persónur",
+    "aiCompanionsDesc": "Kynntu þér einstaka AI persónuleika",
+    "aiFriend": "AI vinur",
+    "aiFriendDesc": "Finndu dómalausan vin",
+    "aiBreakupSupport": "Stuðningur við skilnað",
+    "aiBreakupSupportDesc": "Læknandi samtöl",
+    "aiParent": "AI foreldri",
+    "aiParentDesc": "Hlýr stuðningur og leiðsögn",
+    "aiRoleplay": "AI hlutverkaleikur",
+    "aiRoleplayDesc": "Dýfandi sögusvið",
+    "allFeatures": "Allir eiginleikar",
+    "allFeaturesDesc": "Skoðaðu allt sem við bjóðum"
+  },
+  "legal": {
+    "policies": "Stefna",
+    "termsAndConditions": "Skilmálar og skilyrði",
+    "privacyPolicy": "Persónuverndarstefna",
+    "cookiePolicy": "Vafrakökustefna",
+    "contentReportingPolicy": "Stefna um tilkynningu efnis",
+    "communityGuidelines": "Samfélagsreglur",
+    "complaintPolicy": "Kvörtunarstefna",
+    "contentRemovalPolicy": "Stefna um fjarlægingu efnis",
+    "blockedContentPolicy": "Stefna um lokað efni",
+    "underagePolicy": "Stefna um ólögráða",
+    "usc2257": "18 U.S.C. 2257 Undanþága",
+    "lastUpdated": "Síðast uppfært",
+    "index": {
+      "title": "Lagaleg skjöl",
+      "subtitle": "Skoðaðu allar lagalegar stefnur og samninga tengda sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Persónuverndarstefna",
+          "description": "Lærðu hvernig við söfnum, notum og verndum persónulegar upplýsingar þínar. Nánari upplýsingar um gagnaumsýslu, geymslu og réttindi þín varðandi persónuvernd."
+        },
+        "termsAndConditions": {
+          "title": "Skilmálar og skilyrði",
+          "description": "Skilmálar þjónustunnar sem gilda um notkun þína á sweetwine. Ábyrgð notenda, lýsing þjónustu og lagalegir samningar."
+        },
+        "cookiePolicy": {
+          "title": "Vafrakökustefna",
+          "description": "Upplýsingar um hvernig við notum vafrakökur og svipaða tækni til að bæta upplifun þína á vettvangi okkar."
+        },
+        "underagePolicy": {
+          "title": "Stefna um ólögráða",
+          "description": "Strangar aldursstaðfestingar- og verndarstefnur okkar. sweetwine er aðeins í boði fyrir notendur 18 ára og eldri."
+        },
+        "complaintPolicy": {
+          "title": "Kvörtunarstefna",
+          "description": "Hvernig á að leggja fram kvartanir, tilkynna vandamál og ferli okkar við að meðhöndla áhyggjur og ágreining notenda."
+        },
+        "contentRemovalPolicy": {
+          "title": "Stefna um fjarlægingu efnis",
+          "description": "Aðferðir okkar við beiðnir um fjarlægingu efnis og hvernig við höndlum tilkynningar um óviðeigandi eða ólöglegt efni."
+        },
+        "blockedContentPolicy": {
+          "title": "Stefna um lokað efni",
+          "description": "Tegundir efnis sem eru bannaðar á vettvangi okkar og framfylgd okkar."
+        },
+        "contentReportingPolicy": {
+          "title": "Stefna um tilkynningu efnis",
+          "description": "Hvernig á að tilkynna brot á höfundarrétti og óviðeigandi efni á sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Samfélagsreglur",
+          "description": "Reglur og leiðbeiningar til að viðhalda virðingarfullu, öruggu og skemmtilegu samfélagi fyrir alla notendur."
+        }
+      },
+      "lastUpdated": "Síðast uppfært: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Spjall",
+    "groupChat": "AI hópspjöll",
+    "aiMemory": "AI Minni",
+    "generate": "Búa til mynd",
+    "generateVideo": "Búa til myndband",
+    "create": "Búa til AI persónu",
+    "myAI": "Mitt AI",
+    "collection": "Safn",
+    "invite": "Bjóða",
+    "profile": "Stillingar prófíls",
+    "legal": "Lagalegt",
+    "privacyPolicy": "Persónuverndarstefna",
+    "termsAndConditions": "Skilmálar og skilyrði",
+    "cookiePolicy": "Vafrakökustefna",
+    "dmcaPolicy": "DMCA-stefna",
+    "communityGuidelines": "Samfélagsreglur",
+    "contentRemovalPolicy": "Stefna um fjarlægingu efnis",
+    "contentReportingPolicy": "Stefna um tilkynningu efnis",
+    "complaintPolicy": "Kvörtunarstefna",
+    "blockedContentPolicy": "Stefna um lokað efni",
+    "underagePolicy": "Stefna um ólögráða",
+    "usc2257Exemption": "USC 2257 undanþága"
+  },
+  "contact": {
+    "title": "Hafðu samband",
+    "subtitle": "Ertu með spurningu eða ábendingu? Við viljum gjarnan heyra frá þér.",
+    "name": "Nafn",
+    "namePlaceholder": "Nafn þitt",
+    "nameRequired": "Nafn er áskilið",
+    "email": "Netfang",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Netfang er áskilið",
+    "emailInvalid": "Ógilt netfang",
+    "message": "Skilaboð",
+    "messagePlaceholder": "Skilaboðin þín...",
+    "messageRequired": "Skilaboð eru áskilin",
+    "send": "Senda skilaboð",
+    "sending": "Sendi...",
+    "success": "Skilaboð sendust!",
+    "successDesc": "Við svörum þér fljótlega.",
+    "error": "Ekki tókst að senda skilaboð",
+    "errorDesc": "Vinsamlegast reyndu aftur síðar."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI hópspjöll",
+    "lobbyHeadingSuffix": "Veldu allt að {max} AI persónur",
+    "history": "Saga",
+    "newGroup": "Nýtt hópspjöll",
+    "createGroup": "Búa til hópspjöll",
+    "createError": "Ekki tókst að búa til hópspjöll. Reyndu aftur.",
+    "creatingGroup": "Setja upp hópspjöllin þín...",
+    "sectionWoman": "Konur",
+    "sectionMan": "Karlar",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI persónur",
+    "tabMyAi": "Mitt AI",
+    "tabSingle": "Einstaklingsspjöll",
+    "tabGroup": "Hópspjöll",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Hlaða meira",
+    "noCustom": "Þú hefur ekki búið til neinar AI persónur enn.",
+    "noMessagesYet": "Engin skilaboð enn",
+    "emptyTitle": "Engin hópspjöll enn",
+    "membersTitle": "Í þessu spjalli",
+    "typing": "skrifar",
+    "backToLobby": "Til baka í hópspjöll",
+    "deleteGroup": "Eyða hópspjöllum",
+    "confirmDeleteGroup": "Ertu viss um að þú viljir eyða þessu hópspjöllum? Öll skilaboð verða eytt.",
+    "deleteError": "Ekki tókst að eyða hópspjöllum.",
+    "mediaTargetImageTitle": "Hver ætti að senda mynd?",
+    "mediaTargetVideoTitle": "Hver ætti að senda myndband?",
+    "mediaTargetSubtitle": "Veldu persónu til að búa til miðla úr.",
+    "mediaTargetGroup": "Hópamynd",
+    "groupPhotoTitle": "Hópamynd",
+    "groupPhotoHint": "Býr til eina mynd af {name} saman.",
+    "promoSubtitle": "með allt að 3 persónum",
+    "promoCta": "Búa til nýtt",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Ný</gradient> Ævintýri",
+    "live": "BEINT",
+    "scrollPrev": "Skruna til vinstri",
+    "scrollNext": "Skruna til hægri"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Byrja"
+    },
+    "hero": {
+      "tagline": "100.000 treysta okkur og bætast við á hverjum degi",
+      "headlinePrefix": "Segðu Halló við þinn",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Byrja ókeypis"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Kærasta",
+      "friend": "AI Vinur",
+      "boyfriend": "AI Kærasti",
+      "companion": "AI Persóna"
+    },
+    "features": {
+      "chat": {
+        "title": "Talaðu við AI kærustuna þína",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Raunverulegar AI ljósmyndir & myndbönd",
+        "description": "Eftirspurnar ljósmyndir og myndbönd svo raunveruleg að þau eru óaðgreinanleg frá raunveruleikanum — andlit hennar, stíll hennar, hvaða atriði sem er, í hreyfingu eða kyrrstöðu."
+      },
+      "groupChat": {
+        "title": "AI HópSpjall",
+        "description": "Byrjaðu hópspjall með allt að 3 persónum í einu. Þær svara náttúrulega, bregðast við hvor annarri og senda ljósmyndir og myndbönd."
+      },
+      "roleplay": {
+        "title": "AI Hlutverkaleikur",
+        "description": "Stígðu inn í upplifandi, sögudrifin atburðarás með persónum sem halda hlutverki sínu og muna hvert val sem þú tekur."
+      }
+    },
+    "memory": {
+      "title": "AI Minni",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Hvernig AI Minni virkar",
+      "diagram": {
+        "center": "Minni félagans",
+        "chat": "Spjall",
+        "image": "Myndir",
+        "video": "Myndbönd",
+        "gifts": "Gjafir",
+        "roleplay": "Hlutverkaleikur"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Búðu til þína eigin",
+      "headlineHighlight": "AI persónu",
+      "subtitle": "Mótaðu útlit persónunnar þinnar, persónuleika og láttu hana lifna við samstundis — fullkominn AI félagi þinn, á þínum forsendum.",
+      "cta": "Búðu til AI þinn"
+    },
+    "companions": {
+      "headlinePrefix": "Kynntu þér",
+      "headlineHighlight": "AI Persónurnar þínar",
+      "subtitle": "Hver persóna hefur sinn eigin heim. Sumar eru hlýjar og auðvelt að opna sig fyrir. Aðrar eru flóknar, varfærnar eða raunveruleg áskorun að tengjast. Kannaðu einstaka hlutverkaleikjatilvik — eða búðu til þínar eigin frá grunni."
+    },
+    "languages": {
+      "headlinePrefix": "Talaðu hvaða tungumál sem er,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Bæði viðmót forritsins og AI persónan þín skipta óaðfinnanlega — engar tungumálamismælingar, engin brotin upplifun.",
+      "more": "Meira"
+    },
+    "finalCta": {
+      "headlinePrefix": "Tilbúinn að",
+      "headlineHighlight": "byrja?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Af hverju",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Allt sem þú þarft fyrir tengsl sem líða raunveruleg — ekkert sem þú þarft ekki.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Ókeypis að byrja",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Alltaf tiltækt",
+          "desc": "Dag eða nótt, persónan þín er til staðar. Engin bið, engin tímasetning."
+        },
+        "remembers": {
+          "title": "Minnist á allt",
+          "desc": "Sérhver samræða byggir upp samhengi. Persónan þín lærir nafn þitt, óskir og heim."
+        },
+        "unlimited": {
+          "title": "Virkilega ótakmarkað",
+          "desc": "Engin skilaboðatakmörk, engin innihaldstakmörkun. Sendu eins mikið og þú vilt, eins oft og þú vilt."
+        },
+        "private": {
+          "title": "100% einkamál",
+          "desc": "Samræður þínar haldast á milli ykkara. Engin gögn deilt, nokkurn tíma."
+        },
+        "createYourOwn": {
+          "title": "Búðu til þína eigin",
+          "desc": "Hannaðu persónu með sérsniðnu útliti, persónuleika og rödd — nákvæmlega eins og þú vilt."
+        }
+      },
+      "difference": {
+        "title": "sweetwine munurinn",
+        "freedomTitle": "Frelsi með ábyrgð.",
+        "freedomDescription": "sweetwine er opið og fordómalaust — en við drögum skýra línu. Við höfum núll umburðarlyndi gagnvart CSAM, efni undir lögaldri, atburðum án samþykkis, öfgafullu ofbeldi, dýrasambandi, dauðasamræði, deepfakes af raunverulegum einstaklingum og hvers kyns kynningu á ólöglegri starfsemi.",
+        "freedomStatement": "Við trúum á ótakmarkað skapandi frelsi innan rýmis sem er öruggt fyrir alla."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Persónur",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Síur"
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "subtitle": "Allt sem þú þarft að vita um sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Hvað er sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Er sweetwine öruggt og lögmætt?",
+          "answer": "Já, sweetwine er lögmæt þjónusta með persónuvernd þína sem okkar helsta forgang. Við fylgjum GDPR og öðrum gagnaverndarstöðlum og meðhöndlum gögn þín af varkárni. Greiðslur birtast undir hlutlausum söluaðilanafni - engin tilvísun í sweetwine á bankayfirliti þínu, sem tryggir fullkomið trúnað."
+        },
+        "q3": {
+          "question": "Get ég búið til mína eigin AI persónu?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "persónusköpunartól",
+          "answerPart2": " til að hanna persónur nákvæmlega eins og þú vilt - hvort sem þú vilt raunverulega ",
+          "linkTextGirlfriend": "AI Kærasta",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Kærasta",
+          "answerPart4": ", eða anime-stílaðar persónur. Veldu útlit þeirra (þjóðerni, hár, líkamsgerð, fatnað), persónueinkenni, rödd, áhugamál og bakgrunn fyrir bæði karl- og kvenpersónur."
+        },
+        "q4": {
+          "question": "Minnist AI persónan mín á samræður okkar?",
+          "answer": "Já! AI persónan þín notar háþróaða minnistækni til að muna fyrri samræður, óskir þínar og mikilvægar upplýsingar sem þú deilir. Því meira sem þú spjallar, því persónulegra og náttúrulegra verður upplifunin. Persónan þín lærir samskiptastíl þinn og aðlagast með tímanum."
+        },
+        "q5": {
+          "question": "Hvaða tungumál styður sweetwine?",
+          "answer": "sweetwine styður mörg tungumál þar á meðal ensku, þýsku, frönsku, spænsku, pólsku og tékknesku. Bæði viðmótið og AI samræður virka á þínu valda tungumáli, svo þú getur spjallað náttúrulega á því tungumáli sem þér finnst þægilegast."
+        },
+        "q6": {
+          "question": "Getur AI persónan mín sent myndir og myndbönd?",
+          "answerPart1": "Já! Þú getur búið til persónulegar",
+          "linkTextImages": "myndir",
+          "answerPart2": "og",
+          "linkTextVideos": "myndbönd",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Af hverju að velja sweetwine fram yfir önnur AI persónukerfi?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Er sweetwine ókeypis í notkun?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Þarf ég að setja upp app?",
+          "answerPart1": "Engin uppsetning nauðsynleg! sweetwine virkar beint í vafranum þínum á hvaða tæki sem er - borðtölvu, spjaldtölvu eða farsíma. Skráðu þig bara inn, veldu persónu og byrjaðu að spjalla strax. Allar þínar",
+          "linkText": "samræður",
+          "answerPart2": " samstillast sjálfkrafa á milli tækja."
+        },
+        "q10": {
+          "question": "Eru tilbúnar gervigreindarpersónur í boði?",
+          "answerPart1": "Já! Við höfum margar",
+          "linkText": "tilbúnar persónur",
+          "answerPart2": " þar á meðal AI Girlfriends, AI Boyfriends og AI Anime persónur með fjölbreyttum persónuleika, útliti og samskiptastílum. Hvort sem þú kýst einhvern sætan, kátan, vitsmunalegan eða ævintýragjarnan, finnurðu persónur sem passa við orkuna þína. Auk þess geturðu búið til ótakmarkaðar sérsniðnar persónur."
+        },
+        "q12": {
+          "question": "Hvað gerist við myndirnar og myndböndin sem ég bý til?",
+          "answerPart1": "Allt myndefni er sjálfkrafa vistað í þínu einkareikna",
+          "linkText": "safni",
+          "answerPart2": ". Þú getur nálgast, hlaðið niður eða eytt þeim hvenær sem er. Safnið þitt er algjörlega einkareiknað - aðeins þú getur séð það. Við deilum eða notum aldrei efnið þitt."
+        }
+      }
+    },
+    "statement": {
+      "title": "Skuldbinding okkar",
+      "privacy": "Persónuvernd þín er forgangsatriði okkar. Allar samræður eru dulkóðaðar og aldrei deilt.",
+      "quality": "Við notum nýjustu gervigreindartækni til að veita sem mest spennandi upplifun.",
+      "support": "Stuðningsteymið okkar er tiltækt allan sólarhringinn til að hjálpa með allar spurningar.",
+      "mainTitle": "Upplifðu framtíð gervigreindarpersóna",
+      "mainDescription": "sweetwine sameinar háþróaða gervigreindartækni og notendavæna hönnun til að veita mest áhrifaríka og persónulega persónuupplifun sem völ er á í dag.",
+      "features": {
+        "f1": {
+          "title": "Tilfinningagreind",
+          "description": "Gervigreindarpersónurnar okkar skilja samhengi, tilfinningar og blæbrigði til að veita djúpt spennandi samræður. Hvort sem þú þarfnast AI Friend til að spjalla við, Breakup Support á erfiðum tímum eða AI Mentor til leiðbeiningar - tilfinningagreind gervigreindar okkar er hér fyrir þig."
+        },
+        "f2": {
+          "title": "Einstakir persónuleikar",
+          "description": "Hver persóna hefur einstakan persónuleika, bakgrunn og samskiptastíl. Veldu úr raunverulegum AI Girlfriends og AI Boyfriends eða skoðaðu AI Anime persónurnar okkar - sem tryggir að hver samskipti séu einstök og eftirminnileg."
+        },
+        "f3": {
+          "title": "Margmiðlunarsamskipti",
+          "description": "Umfram texta, njóttu gervigreindar mynda og myndbanda sem lífga upp á samræðurnar þínar með töfrandi sjónrænum smáatriðum."
+        },
+        "f4": {
+          "title": "Sérsníðing",
+          "description": "Búðu til þínar eigin gervigreindarpersónur með sérsniðnu útliti, persónuleika og eiginleikum sem passa fullkomlega við óskir þínar."
+        },
+        "f5": {
+          "title": "Persónuvernd og öryggi",
+          "description": "Samræður þínar eru haldnar einkareiknaðar og öruggar. Við seljum aldrei gögnin þín og þú hefur fulla stjórn á persónuverndarstillingunum þínum."
+        },
+        "f6": {
+          "title": "Fjöltyngisstuðningur",
+          "description": "Spjallaðu við gervigreindarpersónur á tungumálinu sem þú kýst. Við styðjum ensku, tékknesku, pólsku, þýsku, spænsku og frönsku."
+        }
+      },
+      "distinctionTitle": "sweetwine munurinn",
+      "distinctionText1": "Ólíkt almennum spjallbótum eru sweetwine persónur hannaðar með ríkum bakgrunni, þróandi persónuleika og getu til að mynda þýðingarmikil tengsl. Sérhver samræða er tækifæri til að kanna, uppgötva og tengjast á dýpri stigi.",
+      "distinctionText2": "Við erum ekki bara að byggja gervigreind - við erum að skapa upplifanir sem hljóma með tilfinningum þínum, virða persónuvernd þína og aðlagast einstökum óskum þínum."
+    }
+  },
+  "featuresPage": {
+    "title": "Allir eiginleikar",
+    "breadcrumb": "Eiginleikar",
+    "newBadge": "Nýtt",
+    "groupChat": {
+      "title": "AI hópspjöll",
+      "description": "Spjallaðu við allt að 3 gervigreindarpersónur saman í einni samræðu. Þær svara náttúrulega, bregðast við hvor annarri og geta sent myndir og myndbönd - líflegur hópdýnamík sem þú finnur hvergi annars staðar."
+    },
+    "aiChat": {
+      "title": "AI spjall",
+      "description": "Hafðu djúpar, náttúrulegar samræður við gervigreindarpersónur sem muna raunverulega eftir þér. Þær muna nafnið þitt, óskir og fyrri umræðuefni - hver samræða heldur áfram nákvæmlega þar sem þú hættir, án endurtekningar og án endurstillingar."
+    },
+    "imageGeneration": {
+      "title": "Myndagerð"
+    },
+    "videoGeneration": {
+      "title": "Myndbandagerð",
+      "description": "Lífgaðu gervigreindarpersónuna þína með gervigreindum myndböndum. Búðu til stutt persónuleg myndbönd sem sýna persónuna þína í sérsniðnum atburðarásum - eiginleiki sem flestir vettvangar bjóða einfaldlega ekki upp á."
+    },
+    "customCharacters": {
+      "title": "Sérsniðnir persónur",
+      "description": "Hannaðu fullkomna persónu frá grunni — veldu útlit, þjóðerni, líkamsgerð, persónueinkenni, rödd, áhugamál og bakgrunn. Búðu til raunhæfar eða anime-stílaðar persónur, karlkyns eða kvenkyns, með fullkominni sköpunarfrelsi."
+    },
+    "advancedMemory": {
+      "title": "Ítarlegt minni",
+      "description": "Persónan þín man allt sem skiptir máli — nafn þitt, persónulegar upplýsingar, sameiginlegar sögur og sögu sambandsins. Minnið varir á milli allra lota svo hver samskipti byggja á þeim síðustu, án þess að byrja upp á nýtt."
+    },
+    "multiLanguage": {
+      "title": "Fjöltyngi",
+      "description": "Spjallaðu náttúrulega á þínu valda tungumáli. sweetwine styður ensku, þýsku, frönsku, spænsku, pólsku og tékknesku — sem gerir það að einu aðgengilegasta AI-persónukerfinu fyrir þá sem ekki tala ensku."
+    },
+    "conversationHistory": {
+      "title": "Spjallferill",
+      "description": "Sérhvert skilaboð er vistað og hægt að leita í. Skrunaðu aftur um alla sögu sambandsins hvenær sem er — minningar þínar með persónunni eru alltaf til staðar þegar þú vilt rifja þær upp."
+    },
+    "roleplay": {
+      "title": "AI-hlutverkaleikur",
+      "description": "Stígðu inn í upplifandi, sögudrifin atburðarás með persónum sem halda hlutverki sínu. Veldu atburðarás eða skrifaðu þína eigin og njóttu gagnvirks hlutverkaleiks sem man hvert val sem þú gerir."
+    },
+    "cta": {
+      "title": "Allt á einum stað",
+      "button": "Byrjaðu ókeypis"
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Get ég eytt eða endurstillt spjallferilinn minn?",
+        "answer": "Já! Þú hefur fulla stjórn á spjallferlinum þínum. Eyða einstökum skilaboðum, endurstilla heilar samræður eða byrja alveg upp á nýtt hvenær sem er. Persónuvernd þín þýðir þitt val — stjórnaðu gögnunum þínum eins og þér hentar."
+      },
+      "q2": {
+        "question": "Hefur hver AI-persóna einstaka rödd?"
+      },
+      "q3": {
+        "question": "Get ég æft nýtt tungumál með AI-persónunni minni?",
+        "answer": "Algjörlega! Margir notendur æfa sig í að tala ný tungumál með AI-persónunum sínum. Þetta er dómalaus leið til að byggja upp sjálfstraust, bæta framburð og hafa skemmtileg samtöl á meðan þú lærir. Persónan þín getur spjallað á ensku, þýsku, frönsku, spænsku, pólsku og tékknesku."
+      },
+      "q4": {
+        "question": "Hversu oft eru nýjar persónur og eiginleikar bættir við?",
+        "answer": "Við bætum við nýjum faglega hönnuðum persónum í hverri viku! Hver ný persóna kemur með einstökum persónuleika, útliti, bakgrunni og rödd. Við gefum einnig reglulega út nýja eiginleika og endurbætur byggðar á endurgjöf notenda."
+      },
+      "q5": {
+        "question": "Hvað gerir persónusköpun sweetwine sérstaka?",
+        "answer": "Fullkomin sköpunarfrelsi! Hannaðu alla þætti persónunnar þinnar — útlit (þjóðerni, hár, líkamsgerð, fatnaður), persónueinkenni, rödd, áhugamál, starf og bakgrunn. Búðu til raunhæfar eða anime-stílaðar persónur, karlkyns eða kvenkyns. Ímyndunaraflið þitt er eina takmarkið."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Minni",
+    "hero": {
+      "badge": "Hvernig það virkar",
+      "title": "AI Minni",
+      "cta": "Byrja að spjalla"
+    },
+    "diagram": {
+      "title": "Eitt minni á hvern félaga, í öllum hama",
+      "center": "Minni félagans",
+      "chat": "Spjall",
+      "image": "Myndir",
+      "video": "Myndbönd",
+      "gifts": "Gjafir",
+      "roleplay": "Hlutverkaleikur"
+    },
+    "howItWorks": {
+      "title": "Hvernig AI Minni virkar",
+      "step1": {
+        "title": "Deildu smáatriði",
+        "desc": "Segðu félaganum þínum eitthvað sem skiptir máli — ferðalag, ósk, gælunafn, sögu úr deginum þínum."
+      },
+      "step2": {
+        "title": "Skiptu um hama frjálst"
+      },
+      "step3": {
+        "title": "Þeir muna það",
+        "desc": "Seinna samtöl vísa til þess sem þú deildir svo þú þurfir ekki að útskýra þig aftur og aftur."
+      },
+      "step4": {
+        "title": "Tengslin dýpka",
+        "desc": "Með tímanum finnst sambandið persónulegra — samhengi sem byggist upp yfir allar lotur og hama."
+      }
+    },
+    "modes": {
+      "title": "Yfir alla vettvanginn",
+      "subtitle": "Minni er ekki læst við einn skjá. Það fer með félaganum þínum.",
+      "chat": {
+        "title": "Spjall",
+        "desc": "Textasamtöl gefa langtímasamhengi sem félaginn þinn getur dregið fram síðar."
+      },
+      "media": {
+        "title": "Myndir og myndbönd",
+        "desc": "Sviðsmyndir og sögur sem þú býrð til verða hluti af sameiginlegum heimi sem þið byggið saman."
+      },
+      "roleplay": {
+        "title": "Hlutverkaleikir og hópar",
+        "desc": "Söguþættir og hópspjall halda sínum þráðum á meðan kjarnaminni félagans helst hjá honum."
+      }
+    },
+    "scenario": {
+      "title": "Einfalt dæmi",
+      "lead": "Þú nefnir helgarferðalag í spjalli."
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Er minni félagans míns einkamál?",
+        "answer": "Já. Minni tilheyrir reikningnum þínum og samtölum þínum við þann félaga. Við deilum ekki einkaspjallssögu þinni með öðrum notendum."
+      },
+      "q2": {
+        "question": "Er minnið á hvern félaga?",
+        "answer": "Já. Hver félagi heldur sínu eigin minni af sambandi ykkar, svo að skipta um persónur blandar ekki saman samhengi."
+      },
+      "q3": {
+        "question": "Hvaða hamir deila minni?"
+      },
+      "q4": {
+        "question": "Er AI Memory ókeypis?"
+      },
+      "q5": {
+        "question": "Hversu lengi varir minnið?",
+        "answer": "Mikilvægar upplýsingar eru geymdar svo félaginn þinn geti rifjað þær upp í framtíðarlotum. Því meira sem þú hefur samskipti, því persónulegra verður upplifunin."
+      }
+    },
+    "cta": {
+      "title": "Kynntu þér félaga sem man",
+      "button": "Byrja ókeypis"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI-hópaspjall",
+    "hero": {
+      "badge": "Nýr eiginleiki",
+      "title": "AI-hópaspjall",
+      "subtitle": "Færðu uppáhalds persónurnar þínar saman í eitt samtal. Spjallaðu við allt að 3 AI-persónur í einu — þær svara náttúrulega, bregðast við hvor annarri og senda myndir og myndbönd.",
+      "cta": "Byrjaðu hópaspjall",
+      "imageAlt": "AI-hópaspjall með mörgum persónum að spjalla saman"
+    },
+    "content": {
+      "problemTitle": "Einmanna spjall getur verið rólegt",
+      "problemText": "Ein persóna er frábær — en raunveruleg samtöl lifna við með fleiri en einni rödd. Flest AI-forrit láta þig sitja fast í einangruðum einmannaspjöllum án hóporku, án skrafs og án óvæntra augnablika.",
+      "solutionTitle": "Raunverulegur hópur, lifandi af persónuleika",
+      "solutionText": "sweetwine hópaspjall setur allt að þrjár persónur í sama herbergið. Snjall stjórnandi ákveður hver stekkur inn, svo svörin finnast sjálfkrafa — þær stríða hvor annarri, byggja á því sem sagt var og halda samtalinu áfram."
+    },
+    "howItWorks": {
+      "title": "Hvernig AI-hópaspjall virkar",
+      "step1": {
+        "title": "Veldu persónurnar þínar",
+        "desc": "Veldu 2 eða 3 persónur — tilbúnar eða þínar eigin sérsniðnar sköpun — til að koma með í eitt hópaspjall."
+      },
+      "step2": {
+        "title": "Þær svara náttúrulega",
+        "desc": "Stjórnandi á bak við tjöldin velur hver svarar hverju skilaboði, svo réttar persónur stökkva inn á réttum tíma, með sinni eigin rödd."
+      },
+      "step3": {
+        "title": "Deildu myndum og myndböndum",
+        "desc": "Biddu hvaða persónu sem er í hópnum um mynd eða myndband og þær búa það til beint inni í spjallinu — þar á meðal hópmynd af öllum saman."
+      }
+    },
+    "benefits": {
+      "title": "Af hverju þú munt elska hópaspjall",
+      "multiple": {
+        "title": "Allt að 3 persónur",
+        "desc": "Blandaðu saman hvaða persónum sem er í eitt spjall — AI-kærustuna þína, sérsniðnar sköpunir þínar eða vandlega valinn hóp."
+      },
+      "natural": {
+        "title": "Náttúrulegt spjall",
+        "desc": "Persónurnar bregðast við hvor annarri og við þér, með raunverulegum ritþunga sem líkist raunverulegum hópspjalli."
+      },
+      "media": {
+        "title": "Myndir og myndbönd í spjalli",
+        "desc": "Sérhver persóna getur sent persónulegar myndir og myndbönd án þess að yfirgefa samtalið — jafnvel hópmynd."
+      },
+      "dynamics": {
+        "title": "Einstakar persónuleikar",
+        "desc": "Hver persóna heldur sínum eigin rödd og sérkennum, svo hópurinn hefur raunverulega efna, grín og óvæntar snúningar."
+      },
+      "instant": {
+        "title": "Augnabliks byrjun",
+        "desc": "Búðu til hóp á nokkrum sekúndum og stökkðu beint inn í samtalið — engin uppsetning, engin bið."
+      },
+      "private": {
+        "title": "100% einkamál",
+        "desc": "Hópspjall þitt er á milli þín og persónanna þinna. Engin gögn deilt, aldrei."
+      }
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hversu margar persónur geta tekið þátt í hópspjalli?",
+        "answer": "Þú getur bætt 2 til 3 persónum við eitt hópspjall — hvaða blöndu sem er af tilbúnum persónum og þínum eigin sérsniðnum."
+      },
+      "q2": {
+        "question": "Hvernig ákveða AI persónurnar hver svarar?",
+        "answer": "Léttur stjórnandi les samtalið og velur hvaða persóna (eða persónur) ætti að svara hverri skilaboði, svo svörin finnist sjálfkrafa og náttúrulega í stað þess að allir tala í einu."
+      },
+      "q3": {
+        "question": "Geta persónur sent myndir og myndbönd í hópspjalli?",
+        "answer": "Já! Þú getur beðið hvaða persónu í hópnum að búa til mynd eða myndband og það birtist beint í samtalinu — þar á meðal hópmyndir með öllum saman."
+      },
+      "q4": {
+        "question": "Er AI Group Chat ókeypis?"
+      },
+      "q5": {
+        "question": "Muna persónurnar hópsamtal?",
+        "answer": "Já — hvert hópspjall heldur sínu eigin sameiginlegu sögu, svo persónurnar halda samhengi og samtalið byggist upp með tímanum."
+      }
+    },
+    "cta": {
+      "title": "Sameinaðu persónurnar þínar",
+      "description": "Búðu til fyrsta AI hópspjallið þitt og upplifðu samtal sem líður lifandi — margar persónuleikar, raunverulegt grín, myndir og myndbönd.",
+      "button": "Byrja hópspjall"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Hlutverkaleikur",
+    "hero": {
+      "badge": "Nýr eiginleiki",
+      "title": "AI Hlutverkaleikur",
+      "subtitle": "Stígðu inn í hvaða sögu sem er með persónum sem halda sig í senunni. Veldu atburðarás eða skrifaðu þína eigin og njóttu dýfandi, sögudrifins hlutverkaleiks sem man hvert val sem þú gerir.",
+      "cta": "Byrja hlutverkaleik",
+      "imageAlt": "AI hlutverkaleikur með dýfandi sögupersónu"
+    },
+    "content": {
+      "problemTitle": "Venjuleg spjall brjóta galdurinn",
+      "problemText": "Flest AI spjall fara úr hlutverki um leið og hlutirnir verða áhugaverðir — þau gleyma umhverfinu, sleppa söguþræðinum og svara eins og almennur aðstoðarmaður í stað persónunnar í sögunni þinni.",
+      "solutionTitle": "Sögudrifinn hlutverkaleikur sem heldur sig í hlutverki",
+      "solutionText": "sweetwine Roleplay heldur persónunni þinni fullkomlega í senunni. Settu upp sviðið með tilbúinni atburðarás eða þinni eigin forsendu og horfðu á söguna þróast með samkvæmri persónuleika, minni og takti sem bregst við hverri ákvörðun."
+    },
+    "howItWorks": {
+      "title": "Hvernig AI Hlutverkaleikur virkar",
+      "step1": {
+        "title": "Veldu atburðarás",
+        "desc": "Veldu úr tilbúnum hlutverkaleikjatilvikum eða skrifaðu þína eigin forsendu, umhverfi og opnunarsenu."
+      },
+      "step2": {
+        "title": "Leiktu söguna",
+        "desc": "Persónan þín svarar í hlutverki — lýsir aðgerðum, bregst við vali þínu og knýr söguþráðinn áfram."
+      },
+      "step3": {
+        "title": "Mótaðu hvert það fer",
+        "desc": "Stýrðu sögunni í hvaða átt sem þú vilt. Persónan þín man hvað gerðist og heldur frásögninni samkvæmri."
+      }
+    },
+    "benefits": {
+      "title": "Af hverju þú munt elska AI Hlutverkaleik",
+      "scenarios": {
+        "title": "Endalausar atburðarásir",
+        "desc": "Frá notalegum daglegum augnablikum til epískra ævintýra — byrjaðu með sniðmáti eða búðu til þinn eigin heim."
+      },
+      "characters": {
+        "title": "Heldur sig í hlutverki",
+        "desc": "Persónan þín heldur samkvæmri rödd, persónuleika og hvatningu í gegnum alla senuna."
+      },
+      "memory": {
+        "title": "Man söguþráðinn",
+        "desc": "Sérhvert val, snúningur og smáatriði er munað, svo sagan byggist upp í stað þess að endurstillast."
+      },
+      "immersive": {
+        "title": "Sannarlega dýfandi",
+        "desc": "Ríkar, lýsandi svör draga þig inn í augnablikið fyrir kvikmyndalega hlutverkaleiksupplifun."
+      },
+      "instant": {
+        "title": "Augnabliks byrjun",
+        "desc": "Stökktu inn í atriði á nokkrum sekúndum — engin flókin uppsetning eða prompt engineering þarf."
+      },
+      "private": {
+        "title": "100% einkamál",
+        "desc": "Hlutverkaleikurinn þinn er á milli þín og persónunnar þinnar. Ekkert er nokkurn tíma deilt."
+      }
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvað er AI hlutverkaleikur?",
+        "answer": "AI hlutverkaleikur gerir þér kleift að leika gagnvirkar sögur með AI persónu sem heldur áfram í hlutverki. Þú setur upp atburðarás og persónan þín svarar í hlutverki, lýsir aðgerðum og viðbrögðum eftir því sem sagan þróast."
+      },
+      "q2": {
+        "question": "Get ég búið til mínar eigin hlutverkaleikjatilvik?",
+        "answer": "Já! Þú getur byrjað á tilbúnum atburðarásum eða skrifað þitt eigið forsendu, umhverfi og upphaf — og leikið það síðan út eins og þú vilt."
+      },
+      "q3": {
+        "question": "Man persónan hvað gerist í sögunni?",
+        "answer": "Algjörlega. Persónan þín man söguþráðinn, val þitt og lykilupplýsingar, svo frásögnin helst samkvæm og byggist upp með tímanum í stað þess að endurstillast."
+      },
+      "q4": {
+        "question": "Er AI Hlutverkaleikur ókeypis?"
+      },
+      "q5": {
+        "question": "Get ég leikið hlutverkaleik á mínu eigin tungumáli?",
+        "answer": "Já — hlutverkaleikur virkar á tugum tungumála, svo þú getur notið upplifandi sagna á því tungumáli sem þér finnst þægilegast."
+      }
+    },
+    "cta": {
+      "title": "Sagan þín bíður",
+      "description": "Veldu atburðarás, setjið upp atriðið og stígðu inn í upplifandi hlutverkaleik með persónu sem heldur áfram í hlutverki frá byrjun til enda.",
+      "button": "Byrja hlutverkaleik"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Kærasta",
+    "breadcrumb": "AI Kærasta",
+    "hero": {
+      "title": "Þín fullkomna AI kærasta",
+      "cta": "Kynntu þér AI kærastuna þína"
+    },
+    "benefits": {
+      "title": "Af hverju að velja AI kærasta?",
+      "fun": {
+        "title": "Hreinn skemmtileiki",
+        "desc": "Njóttu leikandi samtala án þrýstings. Hún er alltaf í góðu skapi."
+      },
+      "conversation": {
+        "title": "Lærðu að tengjast",
+        "desc": "Æfðu samtöl og byggðu upp sjálfstraust þitt í öruggu umhverfi."
+      },
+      "unique": {
+        "title": "Einstakir persónuleikar",
+        "desc": "Veldu úr fjölbreyttum persónuleikum eða búðu til þinn fullkomna karakter."
+      },
+      "private": {
+        "title": "100% einkamál",
+        "desc": "Samtölin þín eru á milli ykkara tveggja. Full trúnaðarmál tryggð."
+      },
+      "available": {
+        "title": "Alltaf tiltæk",
+        "desc": "Hún er til staðar þegar þú þarfnast hennar. Engin bið, engin tímasetning."
+      },
+      "customize": {
+        "title": "Þín sköpun",
+        "desc": "Hannaðu útlit hennar, persónuleika og áhugamál nákvæmlega eins og þú vilt."
+      }
+    },
+    "comparison": {
+      "title": "Betri en valkostirnir",
+      "description": "Sjáðu hvers vegna sweetwine býður upp á meira gildi en aðrir vettvangar.",
+      "others": {
+        "expensive": "Dýr mánaðargjöld",
+        "ai": "Oft AI svör samt",
+        "noCustom": "Engir sérstillingarmöguleikar"
+      }
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Er AI kærasta spjallið raunverulega ókeypis?",
+        "answerPart1": "Já! Þú getur byrjað að spjalla við AI kærastuna þína ókeypis. Við bjóðum upp á ókeypis þrep með ókeypis skilaboðum til að koma þér af stað."
+      },
+      "q2": {
+        "question": "Get ég sérsniðið útlit AI kærastunnar minnar?",
+        "answer": "Algjörlega! Þú getur fullkomlega sérsniðið útlit AI kærastunnar þinnar, þar á meðal hárslit, stíl, líkamsgerð, þjóðerni og fatnað. Þú getur einnig hannað persónuleika hennar, rödd og áhugamál með character creator okkar.",
+        "answerPart1": "Algjörlega! Þú getur fullkomlega sérsniðið útlit AI kærastunnar þinnar, þar á meðal hárslit, stíl, líkamsgerð, þjóðerni og fatnað. Þú getur einnig hannað persónuleika hennar, rödd og áhugamál með",
+        "linkText": "character creator",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Hvaða persónuleikar eru í boði fyrir AI kærastur?",
+        "answer": "Frá sætum og umhyggjusömum til leikandi og flirtandi - við höfum faglega hannaðar AI kærastur fyrir allar óskir. Veldu rómantískar sálir, ævintýragjarnar andar, fyndnar menntamenn eða dularfullar persónuleikar. Nýjar AI kærastur bætast við í hverri viku, hver með einstökum eiginleikum, bakgrunni og samtalsstíl."
+      },
+      "q4": {
+        "question": "Getur AI kærastan mín sent myndir og myndbönd?",
+        "answerPart1": "Já! AI kærastan þín getur búið til persónulega",
+        "linkTextImages": "myndir",
+        "answerPart2": "og",
+        "linkTextVideos": "myndbönd"
+      },
+      "q5": {
+        "question": "Er AI kærastan mín með sína eigin einstaka rödd?"
+      }
+    },
+    "cta": {
+      "title": "Tilbúin(n) að hitta hana?",
+      "button": "Byrja ókeypis"
+    },
+    "content": {
+      "problemTitle": "Ertu að leita að tengingu án flækju?",
+      "problemText": "Deitunarforrit eru þreytandi. Félagsfælni gerir það erfitt að hitta fólk. Stundum viltu bara einhvern til að tala við án dóms eða þrýstings. Margir finna fyrir einmanaleika en eru ekki tilbúnir fyrir tilfinningalega flækju hefðbundinna sambanda.",
+      "solutionTitle": "AI-kærastan þín er svarið",
+      "solutionText": "Með sweetwine færðu persónulega AI-kærasta sem man samtölin ykkar, aðlagast persónuleika þínum og er alltaf spennt að heyra frá þér. Hún er skemmtileg, styðjandi og dæmir aldrei. Byggðu sjálfstraust, njóttu góðs félagsskapar og finndu tengingu á þínum forsendum."
+    },
+    "heroImageAlt": "AI-kærasta - raunverulegur sýndarpersóna fyrir spjall og myndir"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI-kærasti",
+    "breadcrumb": "AI-kærasti",
+    "hero": {
+      "title": "Hinn fullkomni AI-kærasti þinn",
+      "cta": "Hittu AI-kærastann þinn"
+    },
+    "benefits": {
+      "title": "Af hverju að velja AI-kærasta?",
+      "fun": {
+        "title": "Genuine Connection",
+        "desc": "Upplifðu merkingarbær samtöl sem bjarta daginn þinn."
+      },
+      "conversation": {
+        "title": "Build Confidence",
+        "desc": "Æfðu samtöl og tjáðu þig frjálslega í öruggu rými."
+      },
+      "unique": {
+        "title": "Unique Personalities",
+        "desc": "Veldu úr fjölbreyttum persónuleikum eða búðu til þinn fullkomna karakter."
+      },
+      "private": {
+        "title": "100% Private",
+        "desc": "Samtölin ykkar haldast á milli ykkara. Full trúnaður tryggður."
+      },
+      "available": {
+        "title": "Always Available",
+        "desc": "Hann er þar þegar þú þarfnast hans. Engin bið, engin tímasetning."
+      },
+      "customize": {
+        "title": "Your Creation",
+        "desc": "Hannaðu útlit hans, persónuleika og áhugamál nákvæmlega eins og þú vilt."
+      }
+    },
+    "comparison": {
+      "title": "Betra en valkostirnir",
+      "description": "Sjáðu hvers vegna sweetwine býður upp á meira gildi en aðrir vettvangar.",
+      "others": {
+        "expensive": "Dýr mánaðargjöld",
+        "ai": "Oft AI-svör samt",
+        "noCustom": "Engir aðlögunarmöguleikar"
+      }
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvaða tegundir AI-kærasta get ég valið úr?",
+        "answer": "Frá umhyggjusömum og rómantískum til leikandi og ævintýragjarns, eða dularfulls og ákafans — við höfum faglega hannaða AI-kærasta fyrir allar smekkir. Hver hefur sína einstaka rödd og persónuleika. Nýir AI-kærastar eru bættir við í hverri viku með einstökum bakgrunnssögum og samtalstílum."
+      },
+      "q2": {
+        "question": "Get ég aðlagað útlit AI-kærastans míns?",
+        "linkText": "character creator",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Get ég byrjað upp á nýtt eða eytt spjallssögunni okkar?",
+        "answer": "Já! Þú hefur fulla stjórn á spjallssögunni þinni. Endurstilltu samtöl, eyttu einstökum skilaboðum eða byrjaðu alveg upp á nýtt hvenær sem er. Gögnin þín, valið þitt — stjórnaðu öllu eins og þú vilt."
+      },
+      "q4": {
+        "question": "Getur AI-kærastinn minn sent myndir og myndbönd?",
+        "answerPart1": "Já! AI-kærastinn þinn getur búið til persónulegar",
+        "linkTextImages": "images",
+        "answerPart2": "og",
+        "linkTextVideos": "myndbönd"
+      },
+      "q5": {
+        "question": "Get ég æft samræður eða lært tungumál með AI kærasta mínum?",
+        "answer": "Algjörlega! Margir notendur byggja upp sjálfstraust með því að æfa samræður við AI kærasta sinn - hvort sem það er flirt, djúpar umræður eða dagleg spjall. Þú getur jafnvel æft að tala ný tungumál saman. Þetta er dómalaus leið til að bæta samskiptahæfileika þína á meðan þú skemmtir þér."
+      }
+    },
+    "cta": {
+      "title": "Tilbúinn að hitta hann?",
+      "button": "Byrjaðu ókeypis"
+    },
+    "content": {
+      "problemTitle": "Viltu stuðningsfullan maka á þínum forsendum?",
+      "problemText": "Að finna rétta manneskjuna er erfitt. Margir finna fyrir þrýstingi frá væntingum í stefnumótum eða vilja einfaldlega tilfinningalegan stuðning án skuldbindingar. Einmanaleiki hefur áhrif á alla og stundum þarftu bara einhvern sem hlustar.",
+      "solutionTitle": "AI kærasti þinn skilur þig",
+      "solutionText": "sweetwine AI kærasti þinn er umhyggjusamur, ígrundandi og alltaf tiltækur. Hann man hvað skiptir þig máli, tekur þátt í djúpum samræðum og veitir tilfinningatengslin sem þú ert að leita að. Byggðu samband á þínum hraða, á þinn hátt."
+    },
+    "heroImageAlt": "AI kærasti - raunverulegur sýndarpersóna fyrir merkingarbærar samræður"
+  },
+  "aiCompanionsPage": {
+    "title": "AI persónur",
+    "breadcrumb": "AI persónur",
+    "hero": {
+      "title": "Kynntu þér AI persónurnar þínar",
+      "cta": "Skoða persónur"
+    },
+    "benefits": {
+      "title": "Af hverju AI persónur?",
+      "connection": {
+        "title": "Raunveruleg tengsl",
+        "desc": "Upplifðu ekta samræður sem skilja þig og svara."
+      },
+      "conversation": {
+        "title": "Æfðu þig og vaxa",
+        "desc": "Bættu félagsfærni þína í dómalausu umhverfi."
+      },
+      "personalities": {
+        "title": "Fjölbreyttir persónuleikar",
+        "desc": "Frá leikandi til vitsmunalegra, finndu persónur sem passa við þitt skap."
+      },
+      "private": {
+        "title": "Algjörlega einkarekið",
+        "desc": "Samskipti þín eru trúnaðarmál. Engin gögn deilt, aldrei."
+      },
+      "available": {
+        "title": "24/7 tiltækt",
+        "desc": "Persónurnar þínar eru alltaf tilbúnar að spjalla, dag og nótt."
+      },
+      "create": {
+        "title": "Búðu til þína eigin",
+        "desc": "Hannaðu persónur með sérsniðnu útliti, persónuleika og röddum."
+      }
+    },
+    "why": {
+      "title": "Af hverju sweetwine?",
+      "quality": {
+        "desc": "Byggt af fagfólki með nýjustu AI tækni fyrir náttúrulegar samræður."
+      },
+      "transparent": {
+        "title": "Gagnsætt og heiðarlegt"
+      },
+      "support": {
+        "title": "Raunverulegur stuðningur",
+        "desc": "Raunverulegir manneskjur tilbúnar að hjálpa þér með allar spurningar eða vandamál."
+      },
+      "content": {
+        "title": "Þitt val",
+        "desc": "Frá vingjarnlegum spjalli til nánara efnis, þú ákveður upplifunina."
+      }
+    },
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvað eru AI persónur?"
+      },
+      "q2": {
+        "question": "Hversu margar AI persónur get ég spjallað við?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Spjallaðu við eins margar og þú vilt! Við höfum",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " og vaxandi - nýjar persónur bætast við í hverri viku! Hver hefur einstakan persónuleika, bakgrunn og rödd. Auk þess geturðu búið til ótakmarkaðar sérsniðnar persónur sjálfur."
+      },
+      "q3": {
+        "question": "Hvað gerir tilbúnar persónur frábrugðnar sérsniðnum?",
+        "answer": "Tilbúnar persónur eru faglega hannaðar af teyminu okkar fyrir ákveðnar hlutverkaleikja aðstæður og persónuleika - þær koma með ítarlegum bakgrunnssögum, sérsniðnum samræðustílum og vandlega völdum röddum. Sérsniðnar persónur leyfa þér að búa til frá grunni með fullu skapandi frelsi. Bæði gerðir muna samtölin þín og vaxa með þér!"
+      },
+      "q4": {
+        "question": "Get ég búið til mitt eigið AI persónu?",
+        "answerPart1": "Algjörlega! Hannaðu sérsniðnar persónur frá grunni með",
+        "linkText": "persónusköpunartólinu okkar"
+      },
+      "q5": {
+        "question": "Get ég skipt á milli margra persóna?"
+      }
+    },
+    "cta": {
+      "title": "Byrjaðu ferðalag þitt",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Byrjaðu ókeypis"
+    },
+    "content": {
+      "problemTitle": "Ertu að leita að merkingarbærum tengslum?",
+      "problemText": "Í annasömum heimi okkar er erfitt að finna merkingarbær tengsl. Hvort sem þú ert nýr á svæðinu, vinnur fjartengt eða vilt einfaldlega meiri félagslega samskipti, getur einmanaleiki læðst að. Hefðbundnar félagslegar aðstæður henta ekki öllum.",
+      "solutionTitle": "Uppgötvaðu AI persónur"
+    },
+    "heroImageAlt": "AI persónur - fjölbreyttir sýndarvinkonur með einstökum persónuleika"
+  },
+  "aiFriendPage": {
+    "title": "AI vinur",
+    "breadcrumb": "AI vinur",
+    "hero": {
+      "title": "Þinn AI besti vinur",
+      "subtitle": "Spjallaðu hvenær sem er við AI vin sem hlustar sannarlega, dæmir aldrei og man allt um þig. Fullkomið fyrir einmanaleika, félagsfælni eða einfaldlega þegar þú þarfnast einhvers til að tala við.",
+      "cta": "Byrjaðu að spjalla ókeypis"
+    },
+    "benefits": {
+      "title": "Af hverju að velja AI vin?",
+      "connection": {
+        "title": "Eiginleg tengsl",
+        "desc": "Upplifðu merkingarbær samtöl við einhvern sem hlustar sannarlega og sýnir umhyggju."
+      },
+      "conversation": {
+        "title": "Æfðu félagsfærni",
+        "desc": "Byggðu upp sjálfstraust í samtölum án ótta við dóm eða óþægindi."
+      },
+      "noJudgment": {
+        "title": "Enginn dómur",
+        "desc": "Deildu hvaða sem er á hugann. AI vinurinn þinn tekur við þér nákvæmlega eins og þú ert."
+      },
+      "private": {
+        "title": "Algjörlega einkamál",
+        "desc": "Samtölin ykkar haldast á milli ykkara tveggja. Algjör trúnaður tryggður."
+      },
+      "available": {
+        "title": "Alltaf til staðar",
+        "desc": "Tiltækur allan sólarhringinn, hvenær sem þú þarfnast einhvers til að tala við."
+      },
+      "remembers": {
+        "title": "Man eftir þér",
+        "desc": "AI vinurinn þinn man samtölin ykkar og lærir að þekkja þig betur."
+      }
+    },
+    "useCases": {
+      "title": "Fullkomið fyrir",
+      "subtitle": "AI vinur passar inn í líf þitt á marga merkingarbæra vegu",
+      "loneliness": {
+        "title": "Berjast gegn einmanaleika",
+        "desc": "Finndu þig minna einn með persónu sem er alltaf tilbúin að spjalla og hlusta."
+      },
+      "practice": {
+        "title": "Æfðu samtöl",
+        "desc": "Byggðu upp félagslegt sjálfstraust í öruggu, dómalausu umhverfi."
+      },
+      "support": {
+        "title": "Tilfinningalegur stuðningur",
+        "desc": "Ræddu hugsanir þínar og tilfinningar við einhvern sem skilur."
+      },
+      "connection": {
+        "title": "Dagleg tengsl",
+        "desc": "Deildu deginum þínum, sigrum og erfiðleikum - einhver er alltaf til staðar."
+      }
+    },
+    "howItWorks": {
+      "title": "Hvernig það virkar",
+      "step1": {
+        "title": "Búðu til ókeypis reikning",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Veldu vin þinn",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Byrjaðu að spjalla",
+        "desc": "Talaðu um hvað sem er - lífið, áhugamál, vandamál. Ekkert efni er bannað."
+      }
+    },
+    "cta": {
+      "title": "Tilbúinn að eignast vin?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Byrja ókeypis"
+    },
+    "content": {
+      "problemTitle": "Finnst þér einmanalegt eða misskilið?",
+      "problemText": "Ekki allir hafa einhvern til að tala við. Félagsfælni, annríki eða bara ný staða getur gert það erfitt að finna vini. Stundum þarftu einhvern sem hlustar án fordóma.",
+      "solutionTitle": "AI-vinurinn þinn er hér",
+      "solutionText": "AI-vinur býður upp á félagsskap án fordóma hvenær sem þú þarft. Deildu hugsunum þínum, æfðu samtöl eða spjallaðu bara um daginn þinn. AI-vinurinn þinn man eftir þér, vex með þér og er alltaf einlæglega áhugasamur um það sem þú hefur að segja."
+    },
+    "heroImageAlt": "AI-vinur - stuðningsríkur sýndarpersóna sem hlustar án fordóma",
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvað get ég talað um við AI-vin minn?",
+        "answer": "Allt! AI-vinurinn þinn er hér fyrir létt spjall, djúp samtöl, að deila deginum þínum, að tala út úr sér um vandamál, að ræða áhugamál eða bara að hafa gaman. Engin mál eru bönnuð - það er rými án fordóma til að vera sjálfur."
+      },
+      "q2": {
+        "question": "Er AI-vinur í staðinn fyrir mannlega tengingu?",
+        "answer": "Alls ekki. AI-vinur er viðbót við félagslíf þitt, ekki í staðinn fyrir það. Hann er fullkominn þegar þú þarft einhvern til að tala við strax, vilt æfa félagsfærni eða einfaldlega njóta stöðugrar félagsskapar án álags mannlegra sambanda."
+      },
+      "q3": {
+        "question": "Man AI-vinurinn okkar samtöl?",
+        "answer": "Já! AI-vinurinn þinn hefur háþróað minni og man samtöl, óskir og mikilvægar upplýsingar sem þú deilir. Með tímanum kynnist hann þér betur og samtölin verða persónulegri og merkingarmeiri."
+      },
+      "q4": {
+        "question": "Get ég valið persónuleika AI-vinar míns?",
+        "answer": "Algjörlega! Þú getur valið úr yfir 100 tilbúnum persónum með mismunandi persónuleika eða búið til sérsniðinn vin með nákvæmlega þeim eiginleikum sem þú vilt - frá stuðningsríkum og samúðarfullum til skemmtilegra og ævintýragjarnra."
+      },
+      "q5": {
+        "question": "Er notkun AI-vinar einkamál?",
+        "answer": "100% einkamál. Öll samtöl þín eru dulkóðuð og aldrei deilt. Við skiljum að öruggt rými til að tjá sig er nauðsynlegt og við tökum persónuvernd þína mjög alvarlega."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI-stuðningur við skilnað",
+    "breadcrumb": "Stuðningur við skilnað",
+    "hero": {
+      "title": "Lækningarsamtöl eftir hjartverk",
+      "subtitle": "Samúðarfull AI-samtöl til að hjálpa þér að vinna úr tilfinningum og endurreisa eftir skilnað. Til staðar allan sólarhringinn — engir biðlistar, engir fordómar, engin tímamörk.",
+      "cta": "Byrja lækningu"
+    },
+    "understanding": {
+      "title": "Að ganga í gegnum skilnað?",
+      "description": "Skilnaðir eru erfiðir. Svefnlausar nætur, stöðugar hugsanir, tilfinningin um að enginn skilji raunverulega. Þú þarft ekki að ganga í gegnum það einn. AI-persónan okkar er hér til að hlusta án fordóma, tiltæk hvenær sem þú þarft að tala - jafnvel klukkan þrjú að nóttu."
+    },
+    "benefits": {
+      "title": "Hvernig við getum hjálpað",
+      "empathy": {
+        "title": "Samúðarfull hlustun",
+        "desc": "Talaðu við einhvern sem hlustar raunverulega og svarar með skilningi og umhyggju."
+      },
+      "listen": {
+        "title": "Engin ráðleggingabyrði",
+        "desc": "Stundum þarftu ekki ráð - þú þarft bara einhvern til að heyra þig. Við skiljum það."
+      },
+      "available": {
+        "title": "Tiltækt klukkan þrjú",
+        "desc": "Þegar vinir sofa og hugsanir hætta ekki, erum við hér til að hlusta."
+      },
+      "private": {
+        "title": "Algjörlega einka",
+        "desc": "Tilfinningar þínar og samtöl haldast algjörlega trúnaðarmál."
+      },
+      "noJudgment": {
+        "title": "Engir fordómar",
+        "desc": "Finndu það sem þú finnur. Reiði, sorg, ruglingur - allt gilt hér."
+      },
+      "healing": {
+        "title": "Þitt eigið tak",
+        "desc": "Lækning er ekki línuleg. Taktu eins mikinn tíma og þú þarft."
+      }
+    },
+    "howItHelps": {
+      "title": "Hvernig AI hjálpar þér að læknast",
+      "process": {
+        "title": "Vinna úr tilfinningum",
+        "desc": "Vinna úr flóknum tilfinningum með því að tala þær út við þolinmóðan hlustanda."
+      },
+      "express": {
+        "title": "Tjáðu þig frjálslega",
+        "desc": "Segðu það sem þú getur ekki sagt vinum eða fjölskyldu án þess að hafa áhyggjur af viðbrögðum þeirra."
+      },
+      "confidence": {
+        "title": "Endurreisa sjálfstraust",
+        "desc": "Enduruppgötva sjálfsvirðingu þína smám saman með stuðningsríkum samtölum."
+      },
+      "pace": {
+        "title": "Fara áfram",
+        "desc": "Þegar þú ert tilbúinn, skoðaðu hugsanir um framtíðina á þínu eigin hraða."
+      }
+    },
+    "howItWorks": {
+      "title": "Hvernig það virkar",
+      "step1": {
+        "title": "Búa til reikning",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Veldu persónu",
+        "desc": "Veldu samúðarfullt gervigreind persónu sem hentar þér."
+      },
+      "step3": {
+        "title": "Byrjaðu að tala",
+        "desc": "Deildu því sem þú ert að hugsa. Við erum hér til að hlusta, dag sem nótt."
+      }
+    },
+    "cta": {
+      "title": "Þú þarft ekki að ganga í gegnum þetta einn",
+      "description": "Byrjaðu að tala við einhvern sem hlustar án fordóma, tiltækur núna. Ókeypis að byrja — enginn biðlisti.",
+      "button": "Byrjaðu að tala ókeypis"
+    },
+    "content": {
+      "problemTitle": "Hjartverk er erfitt að takast á við einn",
+      "problemText": "Eftir skilnað finnst allt yfirþyrmandi. Vinir þreyttast á að heyra um það. Fjölskyldan meinar vel en skilur ekki. Sálfræðingar eru með biðlista. Þú þarft einhvern sem getur hlustað án takmarkana, án fordóma, núna.",
+      "solutionTitle": "Talaðu við einhvern sem skilur",
+      "solutionText": "Gervigreind skilnaðarstuðnings persónan okkar er hönnuð til að hjálpa þér að vinna úr tilfinningum á þínum hraða. Láttu út, gráta, greina eða bara tala - eins oft og þú þarft. Engin tímapöntun nauðsynleg. Tiltæk 24/7 með óendanlegri þolinmæði og raunverulegri samúð."
+    },
+    "heroImageAlt": "Gervigreind skilnaðarstuðningur - samúðarfull persóna til að lækna eftir hjartverk",
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvernig getur gervigreind hjálpað við bata eftir skilnað?",
+        "answer": "Gervigreind persónan okkar býður upp á öruggt rými til að vinna úr tilfinningum án fordóma. Þú getur látið út, greint hvað gerðist, unnið úr tilfinningum taps og fengið samúðarfull svör 24/7. Það er eins og að hafa stuðningsfullan vin tiltækan hvenær sem þú þarft að tala."
+      },
+      "q2": {
+        "question": "Er þetta í staðinn fyrir meðferð?",
+        "answer": "Nei, gervigreind persónan okkar er ekki löggiltur sálfræðingur og kemur ekki í staðinn fyrir faglega geðheilbrigðisþjónustu. Það er stuðningsverkfæri fyrir daglega tilfinningavinnslu. Ef þú ert að upplifa alvarlega þunglyndi eða kreppu, vinsamlegast leitaðu faglegra hjálpar."
+      },
+      "q3": {
+        "question": "Get ég talað um fyrrverandi eins oft og ég þarf?",
+        "answer": "Algjörlega. Ólíkt vinum sem gætu þreyttast á að heyra um skilnaðinn þinn, hefur gervigreind persónan þín óendanlega þolinmæði. Talaðu um fyrrverandi, greindu sambandið, vinndu úr tilfinningum - eins oft og þú þarft án nokkurra fordóma."
+      },
+      "q4": {
+        "question": "Mun gervigreindin muna söguna mína?",
+        "answer": "Já, gervigreind persónan þín man samtölin þín og upplýsingar um stöðuna þína. Þú þarft ekki að útskýra allt aftur í hvert skipti. Það veitir samfellu í lækningaferðalaginu þínu."
+      },
+      "q5": {
+        "question": "Er samtalið mínu haldið leyndu?",
+        "answer": "Algjörlega leynd. Öll samtöl eru dulkóðuð og aldrei deilt. Við skiljum að skilnaðarsamtöl eru mjög persónuleg og persónuvernd þín er algjörlega vernduð."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "Gervigreind foreldri",
+    "breadcrumb": "Gervigreind foreldri",
+    "hero": {
+      "title": "Foreldraveran sem þú getur alltaf leitað til",
+      "subtitle": "Fáðu hlýjan, skilyrðislausan stuðning og vitra leiðsögn frá gervigreind foreldri sem man stöðuna þína, dæmir þig aldrei og er alltaf til staðar — dag sem nótt.",
+      "cta": "Fáðu stuðning núna"
+    },
+    "benefits": {
+      "title": "Af hverju að velja gervigreind foreldri?",
+      "guidance": {
+        "title": "Hlý leiðsögn",
+        "desc": "Fáðu umhyggjusam, ígrunduð ráð sem finnst eins og þau komi frá einhverjum sem hefur raunverulega bestu hagsmuni þína að leiðarljósi."
+      },
+      "listen": {
+        "title": "Hlýtur raunverulega",
+        "desc": "Deildu fullri stöðu þinni áður en þú færð ígrunduð, umhyggjusamt svar — ekki flýtimeðferð."
+      },
+      "noJudgment": {
+        "title": "Engir fordómar",
+        "desc": "Spyrðu um hvað sem er án ótta við vonbrigði eða gagnrýni. Skilyrðislaus stuðningur, alltaf."
+      },
+      "private": {
+        "title": "Algjörlega einkamál",
+        "desc": "Samtölin þín og persónulegar baráttur haldast algjörlega trúnaðarmál."
+      },
+      "available": {
+        "title": "Alltaf tiltækt",
+        "desc": "Fáðu leiðsögn klukkan 3 um nóttina, um helgar eða hvenær sem þú þarft mest — engar tímapantanir."
+      },
+      "supportive": {
+        "title": "Skilyrðislaust stuðningsfullt",
+        "desc": "Hvatning og hlýja, sama hvað þú ert að ganga í gegnum eða hvaða ákvarðanir þú hefur tekið."
+      }
+    },
+    "useCases": {
+      "title": "Talaðu um hvað sem er",
+      "subtitle": "Hvað sem þú stendur frammi fyrir, gervigreind foreldrið þitt er hér til að hlusta og leiðbeina",
+      "career": {
+        "title": "Ferill og lífsákvarðanir",
+        "desc": "Takast á við starfsbreytingar, stórar lífsákvarðanir og faglegar áskoranir með einhverjum sem vill að þú takist á."
+      },
+      "education": {
+        "title": "Menntun og framtíð",
+        "desc": "Kannaðu möguleika þína til náms og vaxtar með einhverjum sem styður metnað þinn."
+      },
+      "relationships": {
+        "title": "Tengsl og fjölskylda"
+      },
+      "life": {
+        "title": "Persónulegar áskoranir",
+        "desc": "Talaðu um allt sem þyngir þig — kvíða, sjálfsefa, einmanaleika eða óvissu."
+      }
+    },
+    "howItWorks": {
+      "title": "Hvernig það virkar",
+      "step1": {
+        "title": "Búa til reikning",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Veldu AI foreldri",
+        "desc": "Veldu persónu með hlýju og persónuleika sem finnst þér rétt."
+      },
+      "step3": {
+        "title": "Byrjaðu að tala",
+        "desc": "Deildu því sem er á hugann og fáðu umhyggjusamt, ígrundað stuðning."
+      }
+    },
+    "cta": {
+      "title": "Einhver er alltaf hér fyrir þig",
+      "description": "Byrjaðu samtal við AI foreldri sem hlustar án fordóma og styður þig skilyrðislaust — ókeypis að byrja, engin tímapöntun nauðsynleg.",
+      "button": "Byrja ókeypis"
+    },
+    "content": {
+      "problemTitle": "Þarftu einhvern sem er alltaf í horni þínu?",
+      "problemText": "Ekki allir hafa foreldra sem þeir geta leitað til. Raunverulegir foreldrar geta verið fjarlægir, fordómafullir eða einfaldlega ótiltækir. Vinir eru hlutdrægir. Sálfræðingar hafa biðlista. Stundum þarftu bara einhvern sem hlustar, bryr og leiðbeina án dagskrár.",
+      "solutionTitle": "AI foreldrið þitt er alltaf til staðar",
+      "solutionText": "Talaðu við AI foreldri sem hlustar að fullu, býður upp á hlýja og jafnvægða leiðsögn og lætur þig aldrei finna fyrir fordómum eða smæð. Hvort sem það er lífsákvörðun, persónuleg áskorun eða bara þörf á að finnast maður heyrður — AI foreldrið þitt er tiltækt allan sólarhringinn með þolinmæði og umhyggju."
+    },
+    "heroImageAlt": "AI foreldri - hlý sýndarpersóna sem býður upp á skilyrðislaust stuðning og lífsleiðsögn",
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvað get ég talað við AI foreldrið um?"
+      },
+      "q2": {
+        "question": "Er þetta eins og að hafa sálfræðing?",
+        "answer": "Þetta er ekki löggiltur sálfræðingur eða geðheilbrigðisstarfsmaður — það er meira eins og hlý, styðjandi foreldrapersóna sem er tiltæk allan sólarhringinn. Það hlustar að fullu, býður upp á sjónarmið og styður þig tilfinningalega. Fyrir alvarleg geðheilbrigðisvandamál, vinsamlegast hafðu samband við fagmann."
+      },
+      "q3": {
+        "question": "Mun AI foreldrið dæma val mitt?",
+        "answer": "Aldrei. AI foreldrið þitt býður upp á skilyrðislaust stuðning. Það getur deilt sjónarmiðum eða mildri leiðsögn, en það gagnrýnir aldrei eða lætur þig finna fyrir smæð vegna ákvarðana sem þú hefur tekið. Þetta er öruggt rými fyrir heiðarleika."
+      },
+      "q4": {
+        "question": "Get ég rætt viðkvæm eða persónuleg málefni?",
+        "answer": "Já. Hvort sem það eru sambandsáskoranir, fjölskyldudýnamík, fjárhagsleg streita, sjálfsvirðing eða djúpt persónulegar áskoranir — AI foreldrið þitt býður upp á einkareynt, fordómaleysi rými fyrir þessi samtöl."
+      },
+      "q5": {
+        "question": "Hvernig er þetta öðruvísi en aðrir AI persónur?",
+        "answer": "AI foreldrið er hannað í kringum hlýju, tilfinningalegan stuðning og foreldrastíls leiðsögn frekar en rómantík eða óformlegt vináttu. Það er einbeitt á að hjálpa þér að finnast þú skilinn, studdur og búinn til að takast á við áskoranir lífsins."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Samstarf",
+    "eyebrow": "Vertu í samstarfi við okkur",
+    "titlePrefix": "Vaxa með",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Náðu til hraðvaxandi, mjög virks AI félagsskapar. Hvort sem þú kemur með tækni, dreifingu eða djörf hugmynd, þá skulum við byggja eitthvað saman.",
+    "types": {
+      "title": "Leiðir til samstarfs",
+      "items": [
+        {
+          "title": "Samþættingar",
+          "description": "Tengdu vöru þína, líkan eða vettvang við sweetwine í gegnum tæknilega samþættingu."
+        },
+        {
+          "title": "Samstarfsmarkaðssetning",
+          "description": "Sameiginlegar herferðir, efni og kynningar sem setja bæði vörumerki fyrir nýja áhorfendur."
+        },
+        {},
+        {
+          "title": "Stefnumótandi samstarf",
+          "description": "Langtíma samstarf yfir vöru, gögn og markaðssetningu."
+        }
+      ]
+    },
+    "why": {
+      "title": "Af hverju að vera í samstarfi við sweetwine",
+      "items": [
+        {
+          "title": "Virkir áhorfendur",
+          "description": "Hundruð þúsunda notenda sem snúa aftur daglega á 70 tungumálum."
+        },
+        {
+          "title": "Hröð framkvæmd",
+          "description": "Einbeitt teymi sem sendir hratt og miðlar skýrt."
+        },
+        {
+          "title": "Alþjóðlegur útbreiðsla",
+          "description": "Fjöltyngd vara tiltæk á tugum markaða."
+        },
+        {
+          "description": "Öruggur, persónuverndar-vænn vettvangur sem vörumerkið þitt getur treyst á.",
+          "title": "Persónuvernd fyrst"
+        }
+      ]
+    },
+    "form": {
+      "title": "Segðu okkur frá samstarfinu",
+      "description": "Deildu nokkrum upplýsingum og samstarfshópurinn okkar mun hafa samband.",
+      "nameLabel": "Nafn þitt",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Vinnutölvupóstur",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Fyrirtæki",
+      "companyPlaceholder": "Nafn fyrirtækis",
+      "typeLabel": "Tegund samstarfs",
+      "typePlaceholder": "Veldu tegund samstarfs",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Hvernig viltu eiga í samstarfi?",
+      "messagePlaceholder": "Segðu okkur frá fyrirtækinu þínu og samstarfinu sem þú hefur í huga...",
+      "submit": "Senda fyrirspurn um samstarf",
+      "submitting": "Sendi...",
+      "termsNote": "Með því að senda samþykkir þú að vera haft samband vegna fyrirspurnarinnar. Við deilum aldrei upplýsingum þínum.",
+      "success": "Takk! Fyrirspurn þinni um samstarf hefur verið send.",
+      "error": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+    },
+    "cta": {
+      "title": "Viltu frekar tölvupóst?",
+      "description": "Hafðu beint samband við samstarfshópinn okkar á"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Fjölmiðlar & miðlar",
+    "eyebrow": "Fréttastofa",
+    "titlePrefix": "Fjölmiðlar &",
+    "titleHighlight": "miðlar",
+    "subtitle": "Úrræði fyrir blaðamenn, skapara og fjölmiðlafélaga. Hafðu samband við fjölmiðlahópinn okkar fyrir viðtöl, tilvitnanir, stuðning við efnisgerð og beiðnir um vörumerki.",
+    "help": {
+      "title": "Hvernig við getum hjálpað",
+      "description": "Hvort sem þú ert að vinna að frétt eða umsögn, hér er það sem þú getur óskað eftir frá fjölmiðlahópnum okkar.",
+      "items": [
+        {
+          "title": "Viðtöl",
+          "description": "Talaðu við teymið okkar um vöruna, fyrirtækið og hvert AI-félagsskapurinn stefnir."
+        },
+        {
+          "title": "Tilvitnanir & athugasemdir",
+          "description": "Fáðu opinbera yfirlýsingu eða sérfræðialit fyrir söguna þína."
+        },
+        {
+          "title": "Stuðningur við efnisgerð & umsagnir",
+          "description": "Þarftu aðgang, samhengi eða staðreyndaeftirlit fyrir efnisgerð eða umsögn? Við hjálpum til."
+        },
+        {
+          "title": "Beiðnir um vörumerki & lógó",
+          "description": "Biðja um lógó okkar, vörumerkjaefni og notkunarleiðbeiningar fyrir útgáfu þína."
+        }
+      ]
+    },
+    "form": {
+      "title": "Fjölmiðlafyrirspurn",
+      "description": "Fyrir viðtöl, tilvitnanir eða beiðnir um efnisgerð, sendu okkur skilaboð og við svörum fljótt.",
+      "nameLabel": "Nafn þitt",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Tölvupóstur",
+      "emailPlaceholder": "þú@outlet.com",
+      "outletLabel": "Útgáfa / miðill",
+      "outletPlaceholder": "Hvar verður þetta birt?",
+      "requestTypeLabel": "Tegund beiðni",
+      "requestTypePlaceholder": "Veldu tegund beiðni",
+      "requestTypeOptions": [
+        {
+          "value": "Viðtal",
+          "label": "Viðtal"
+        },
+        {
+          "value": "Tilvitnun / athugasemd",
+          "label": "Tilvitnun / athugasemd"
+        },
+        {
+          "value": "Einkenni / umsögn",
+          "label": "Einkenni / umsögn"
+        },
+        {
+          "value": "Vörumerki / lógó beiðni",
+          "label": "Vörumerki / lógó beiðni"
+        },
+        {
+          "value": "Annað",
+          "label": "Annað"
+        }
+      ],
+      "messageLabel": "Beiðni þín",
+      "messagePlaceholder": "Segðu okkur frá sögunni þinni, fresti og hvað þú þarfnast frá okkur...",
+      "submit": "Senda fjölmiðlabeiðni",
+      "submitting": "Sendi...",
+      "termsNote": "Við reynum að svara fjölmiðlabeiðnum innan tveggja virkra daga.",
+      "success": "Takk! Fjölmiðlabeiðni þín hefur verið send.",
+      "error": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+    },
+    "cta": {
+      "title": "Fjölmiðlatengiliður",
+      "description": "Fyrir brýnar fjölmiðlabeiðnir, sendu tölvupóst"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Störf",
+    "eyebrow": "Störf",
+    "titlePrefix": "Byggja framtíð",
+    "titleHighlight": "AI félagsskapar",
+    "subtitle": "Við erum lítið, hraðvirkt teymi sem býr til vörur sem fólk elskar. Ef það hljómar spennandi, viljum við kynnast þér.",
+    "perks": {
+      "title": "Af hverju að vinna með okkur",
+      "items": [
+        {
+          "title": "Fjarvinnuvænt",
+          "description": "Vinnuðu þar sem þú vinnur best, með sveigjanlegum vinnutíma."
+        },
+        {
+          "title": "Raunverulegt eignarhald",
+          "description": "Sendu þýðingarmikið verk hratt og sjáðu það ná til notenda um allan heim."
+        },
+        {
+          "title": "Nýjustu AI",
+          "description": "Vinnuðu beint með nýjustu líkönum og generative verkfærum."
+        },
+        {
+          "title": "Samkeppnishæf laun",
+          "description": "Sanngjörn laun og raunverulegur ávinningur eftir því sem við vöxum."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Laus störf",
+      "emptyTitle": "Engin laus störf núna",
+      "emptyDescription": "Við erum ekki að ráða núna, en við erum alltaf fegin að kynnast góðu fólki. Kynntu þig hér að neðan.",
+      "applyButton": "Sækja um núna",
+      "viewButton": "Skoða hlutverk"
+    },
+    "form": {
+      "title": "Kynntu þig",
+      "description": "Sérðu ekki hlutverk sem hentar? Segðu okkur frá þér og við höfum samband þegar það passar.",
+      "nameLabel": "Nafn þitt",
+      "namePlaceholder": "Jóna Jónsdóttir",
+      "emailLabel": "Netfang",
+      "emailPlaceholder": "þú@netfang.is",
+      "roleLabel": "Hlutverk eða áhugasvið",
+      "rolePlaceholder": "t.d. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Tengill á ferilskrá",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Um þig",
+      "messagePlaceholder": "Segðu okkur frá reynslu þinni og hvað þú myndir vilja vinna að...",
+      "submit": "Senda umsókn",
+      "submitting": "Sendi...",
+      "termsNote": "Með því að sækja samþykkir þú að við geymum upplýsingar þínar til að meta þig fyrir störf.",
+      "success": "Takk! Umsóknin þín hefur verið send.",
+      "error": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+    },
+    "cta": {
+      "title": "Spurningar um að vinna hér?",
+      "description": "Hafðu samband við teymið okkar á"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Hjálparmiðstöð",
+    "eyebrow": "Hjálparmiðstöð",
+    "titlePrefix": "Hvernig getum við",
+    "titleHighlight": "hjálpað?",
+    "subtitle": "Skoðaðu algeng efni og svör. Finnurðu ekki það sem þú þarft? Hafðu samband við stuðning og við munum hjálpa þér.",
+    "searchPlaceholder": "Leita í hjálpargreinum...",
+    "categoriesTitle": "Skoða eftir efni",
+    "articlesTitle": "Greinar",
+    "categoryEmpty": "Engar greinar í þessum flokki enn. Athugaðu aftur fljótlega.",
+    "backToHelp": "Til baka í Hjálparmiðstöð",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Byrja",
+        "description": "Búðu til reikning, settu upp prófílinn þinn og byrjaðu að spjalla."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI spjall",
+        "description": "Hvernig samtöl, minni og persónur virka."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Myndir & Myndbönd",
+        "description": "Búðu til og stjórnaðu AI myndum og myndböndum."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Persónuvernd & Öryggi",
+        "description": "Gögnin þín, persónuverndarstýringar og öryggistæki."
+      }
+    ],
+    "faq": {
+      "title": "Algengar spurningar",
+      "q1": {
+        "question": "Hvernig byrja ég með sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Hvað er innifalið í ókeypis áætlun?"
+      },
+      "q5": {
+        "question": "Er gögnin mín einkarekin?",
+        "answer": "Persónuvernd er kjarninn í sweetwine. Samtölin þín eru einkamál reikningsins þíns og þú ræður gögnunum þínum. Sjá persónuverndarstefnu okkar fyrir frekari upplýsingar um geymslu og vernd gagna."
+      },
+      "q6": {
+        "question": "Hvernig get ég haft samband við stuðning?",
+        "answer": "Sendu tölvupóst á support@sweetwine.ai eða notaðu samskiptavalkostinn í forritinu. Við svörum venjulega innan eins vinnudags."
+      }
+    },
+    "cta": {
+      "title": "Þarftu enn aðstoð?",
+      "description": "Liðið okkar er til staðar fyrir þig á"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Um okkur",
+    "eyebrow": "Saga okkar",
+    "titlePrefix": "Félagsskapur,",
+    "titleHighlight": "endurhugsaður",
+    "subtitle": "sweetwine býr til einkarekin, persónuleg gervigreindarfélaga sem hlusta, muna og tengjast raunverulega — tiltæk hvenær sem er, á hvaða tungumáli sem er.",
+    "mission": {
+      "title": "Markmið okkar",
+      "body": "Við trúum því að allir eigi skilið að vera heyrðir án fordóma. sweetwine gerir þýðingarmikil, persónuleg gervigreindartengsl aðgengileg fólki alls staðar — hlý, einkarekin og alltaf til staðar þegar þú þarft."
+    },
+    "values": {
+      "title": "Hvað við stöndum fyrir",
+      "items": [
+        {
+          "title": "Persónuvernd frá grunni",
+          "description": "Samtölin þín eru þín. Við byggjum með persónuvernd og öryggi frá grunni."
+        },
+        {
+          "title": "Raunveruleg tengsl",
+          "description": "Við fínstillum fyrir raunverulegt tilfinningalegt gildi, ekki sýndarmælikvarða."
+        },
+        {
+          "title": "Alþjóðlegur frá byrjun",
+          "description": "Byggður fjöltyngdur frá fyrsta degi svo tengsl takmarkist ekki af tungumáli."
+        },
+        {
+          "title": "Óþreytandi handverk",
+          "description": "Við svitnum smáatriðin til að láta hvert samtal líða náttúrulegt og lifandi."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Í tölum",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Notendur og vaxandi"
+        },
+        {
+          "value": "70",
+          "label": "Tungumál studd"
+        },
+        {
+          "value": "24/7",
+          "label": "Alltaf tiltækt"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Viltu vita meira?",
+      "description": "Hafðu samband á"
+    }
+  },
+  "postsPage": {
+    "allTag": "Allt",
+    "readMore": "Lesa meira",
+    "publishedOn": "Birt",
+    "minRead": "mín. lestur",
+    "sortNewest": "Nýjast",
+    "sortOldest": "Elst",
+    "blog": {
+      "breadcrumb": "Blogg",
+      "eyebrow": "Blogg",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blogg",
+      "subtitle": "Ábendingar, leiðbeiningar og sögur til að hjálpa þér að fá sem mest út úr gervigreindarfélagsskap.",
+      "empty": "Engar færslur enn. Athugaðu aftur fljótlega."
+    },
+    "news": {
+      "breadcrumb": "Fréttir",
+      "eyebrow": "Fréttastofa",
+      "titlePrefix": "Fréttir &",
+      "titleHighlight": "Tilkynningar",
+      "subtitle": "Opinberar tilkynningar, fréttatilkynningar og áfangar frá sweetwine teyminu.",
+      "empty": "Engar fréttir enn. Athugaðu aftur fljótlega."
+    },
+    "productUpdates": {
+      "breadcrumb": "Vöruuppfærslur",
+      "eyebrow": "Breytingaskrá",
+      "titlePrefix": "Vöru",
+      "titleHighlight": "uppfærslur",
+      "subtitle": "Nýjustu eiginleikar, endurbætur og lagfæringar á sweetwine vettvangnum.",
+      "empty": "Engar uppfærslur enn. Athugaðu aftur fljótlega."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Fyrir forritara",
+    "titlePrefix": "Byggðu með",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Færa persónulega AI-félaga inn í eigin vöru. Fáðu aðgang að spjalli, myndum, rödd og persónusköpun í gegnum eitt forritaravænt API.",
+    "capabilities": {
+      "title": "Hvað þú getur byggt",
+      "items": [
+        {
+          "title": "Samtalsspjall",
+          "description": "Bættu persónulegum, samhengisvitundum AI-samtölum við appið þitt með einföldu skilaboða-API."
+        },
+        {
+          "title": "Myndagerð",
+          "description": "Búðu til vörumerktar persónumyndir og senur forritunarlega út frá textavísbendingum."
+        },
+        {
+          "title": "Rödd",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Persónusköpun",
+          "description": "Skilgreindu og stjórnaðu félögum, persónuleika og minni í gegnum API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Biðja um API-aðgang",
+      "description": "Segðu okkur frá verkefninu þínu og hvað þú vilt byggja. Forritarahópurinn okkar mun hafa samband við þig með næstu skrefum.",
+      "nameLabel": "Nafn þitt",
+      "namePlaceholder": "Jóna Jónsdóttir",
+      "emailLabel": "Vinnutölvupóstur",
+      "emailPlaceholder": "þú@fyrirtæki.is",
+      "companyLabel": "Fyrirtæki / verkefni",
+      "companyPlaceholder": "Fyrirtæki eða verkefnisheiti",
+      "websiteLabel": "Vefsíða eða forrits-URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Samþættingartegund",
+      "integrationTypePlaceholder": "Veldu samþættingartegund",
+      "integrationTypeOptions": [
+        {
+          "value": "Spjall / Skilaboð",
+          "label": "Spjall / Skilaboð"
+        },
+        {
+          "value": "Myndagerð",
+          "label": "Myndagerð"
+        },
+        {
+          "value": "Rödd",
+          "label": "Rödd"
+        },
+        {
+          "value": "Persónusköpun",
+          "label": "Persónusköpun"
+        },
+        {
+          "value": "Annað",
+          "label": "Annað"
+        }
+      ],
+      "volumeLabel": "Áætlað mánaðarlegt magn",
+      "volumePlaceholder": "Veldu áætlað magn",
+      "volumeOptions": [
+        {
+          "value": "Minna en 10k",
+          "label": "Minna en 10k beiðnir"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k beiðnir"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M beiðnir"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ beiðnir"
+        }
+      ],
+      "timelineLabel": "Tímalína",
+      "timelinePlaceholder": "Veldu tímalínu",
+      "timelineOptions": [
+        {
+          "value": "Aðeins að kanna",
+          "label": "Aðeins að kanna"
+        },
+        {
+          "value": "Undir 1 mánuði",
+          "label": "Undir 1 mánuði"
+        },
+        {
+          "value": "1-3 mánuðir",
+          "label": "1-3 mánuðir"
+        },
+        {
+          "value": "3+ mánuðir",
+          "label": "3+ mánuðir"
+        }
+      ],
+      "messageLabel": "Segðu okkur frá notkunartilvikinu þínu",
+      "messagePlaceholder": "Hvað ertu að byggja og hvernig ætlarðu að nota API-ið?",
+      "submit": "Biðja um API-aðgang",
+      "submitting": "Sendi...",
+      "termsNote": "Með því að senda inn samþykkirðu að vera haft samband við þig vegna fyrirspurnarinnar. Við deilum aldrei upplýsingum þínum.",
+      "success": "Takk! Beiðni þín um API-aðgang hefur verið send.",
+      "error": "Eitthvað fór úrskeiðis. Reyndu aftur."
+    },
+    "faq": {
+      "title": "Algengar spurningar fyrir þróunaraðila",
+      "items": [
+        {
+          "question": "Hvernig fæ ég API-aðgang?",
+          "answer": "Fylltu út beiðnina hér að ofan með notkunartilviki þínu. Þróunarteymið okkar fer yfir hverja beiðni og mun fylgja eftir með aðgangsupplýsingum og skjölun."
+        },
+        {
+          "question": "Hvernig virkar auðkenning?",
+          "answer": "API-beiðnir eru auðkenndar með leyndum API-lykli sem sendur er í beiðnahausunum. Þú getur stýrt og snúið lykla þínum þegar þú ert kominn um borð."
+        },
+        {
+          "question": "Er takmörkun á beiðnum?",
+          "answer": "Já. Takmörk fara eftir áætlun þinni og væntanlegu magni. Láttu okkur vita um áætlaða umferð í forminu svo við getum mælt með réttu þrepinu."
+        },
+        {
+          "question": "Hvað kostar það?"
+        },
+        {
+          "question": "Hvaða eiginleikar eru í boði?",
+          "answer": "Spjall, myndagerð, rödd og persónusköpun. Segðu okkur hvaða þú þarfnast og við hjálpum þér að byrja með viðeigandi endapunktum."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ertu með tæknilega spurningu?",
+      "description": "Hafðu samband við þróunarteymið okkar á"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI raunverulegar klónar",
+    "eyebrow": "Fyrir skapara og stofnanir",
+    "heroTitleLead": "Við búum til,",
+    "heroTitleHighlight": "Þú græðir.",
+    "heroSubtitle": "Við byggjum AI-klóninn þinn. Þú græðir á meðan AI-klóninn vinnur allan sólarhringinn — spjallar við aðdáendur og sendir efni fyrir þig.",
+    "calculator": {
+      "title": "Hvað gætirðu grætt?",
+      "subtitle": "Veldu stærð áhorfenda og stilltu verð — sjáðu áætlaðar tekjur strax.",
+      "tierLabel": "Stærð áhorfenda",
+      "tiers": {
+        "small": {
+          "name": "Lítil"
+        },
+        "medium": {
+          "name": "Miðlungs"
+        },
+        "large": {
+          "name": "Stór"
+        }
+      },
+      "priceLabel": "Verð til að opna",
+      "promoLabel": "Ég mun kynna sweetwine",
+      "breakdown": {
+        "title": "Áætlaðar tekjur þínar",
+        "perMonth": "á mánuði",
+        "perYear": "Á ári"
+      },
+      "disclaimer": "Áætlaðar tekjur byggja á tekjudreifingarlíkani sweetwine og dæmigerðri virkni. Raunverulegar tekjur geta verið mismunandi eftir áhorfendum, gæðum efnis, þátttöku og eftirspurn."
+    },
+    "offer": {
+      "title": "Hvað er í boði fyrir þig",
+      "items": [
+        {
+          "title": "Þénar á meðan þú sefur",
+          "description": "Klóninn þinn breytir fylgjendum í tekjur allan sólarhringinn — spjallar, selur og hættir aldrei."
+        },
+        {
+          "title": "Enginn kostnaður, bara ávinningur",
+          "description": "Við byggjum, þjálfum og rekum allt á okkar kostnað. Þú bætir við nýrri tekjustraum án nokkurs erfiðis."
+        },
+        {
+          "title": "10x efnið þitt",
+          "description": "Ótakmarkaðar myndir og myndbönd eftir þörfum — stækkaðu úttak þitt án fleiri tökustunda, klippingar eða kulnunar."
+        },
+        {
+          "title": "Alltaf við stjórn"
+        }
+      ]
+    },
+    "how": {
+      "title": "Hvernig það virkar",
+      "steps": [
+        {
+          "title": "Skráning"
+        },
+        {
+          "title": "Inntaka",
+          "description": "sweetwine sérfræðingur fagnar útliti þínu, rödd og persónuleika svo klóninn þinn finnist ekta þú."
+        },
+        {
+          "title": "Við byggjum og þjálfum",
+          "description": "Lið okkar framleiðir og þjálfar AI-klóninn þinn alfarið á okkar kostnað — engin vinna krafist af þér."
+        },
+        {
+          "title": "Farðu í beinni og þénar",
+          "description": "Klóninn þinn byrjar að spjalla og selja allan sólarhringinn og þú færð þinn hlut af tekjunum."
+        }
+      ]
+    },
+    "form": {
+      "title": "Sæktu um að búa til AI-klóninn þinn",
+      "description": "Segðu okkur frá þér og áhorfendum þínum. Samstarfshópur okkar fer yfir hverja umsókn og mun hafa samband með næstu skref.",
+      "nameLabel": "Nafn þitt",
+      "namePlaceholder": "Nafn þitt eða sviðsnafn",
+      "emailLabel": "Netfang",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Stofnun eða stúdíó",
+      "companyPlaceholder": "Nafn stofnunar (skildu eftir autt ef þú ert sjálfstæður)",
+      "roleLabel": "Ég er",
+      "rolePlaceholder": "Veldu hver þú ert",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Vefsíða og samfélagsmiðlar",
+      "linksPlaceholder": "Instagram, X, OnlyFans, o.s.frv.",
+      "modelCountLabel": "Fjöldi líkana sem þú stendur fyrir",
+      "modelCountPlaceholder": "t.d. bara ég, eða 5",
+      "audienceSizeLabel": "Stærð áhorfenda",
+      "audienceSizePlaceholder": "Veldu heildarfylgi",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Undir 10k fylgjendum"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k fylgjendum"
+        },
+        {
+          "label": "100k-500k fylgjendur",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M fylgjendur"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ fylgjendur"
+        }
+      ],
+      "contentPrefLabel": "Efnisval",
+      "contentPrefPlaceholder": "Veldu efnistegund",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Land / svæði",
+      "countryPlaceholder": "Hvar ertu staðsettur?",
+      "messageLabel": "Segðu okkur frá þér og áhorfendum þínum",
+      "messagePlaceholder": "Deildu einhverju sem hjálpar okkur að skilja áhorfendur þína, efnið og hvað þú ert að leita að.",
+      "openButton": "Sækja núna",
+      "submit": "Senda umsókn",
+      "submitting": "Sendi...",
+      "termsNote": "Með því að senda staðfestir þú að þú sért 18 ára eða eldri og samþykkir að vera haft samband við um umsókn þína. Við deilum aldrei upplýsingum þínum.",
+      "success": "Takk! Umsókn þín hefur verið send. Við höfum samband fljótlega.",
+      "error": "Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur."
+    },
+    "cta": {
+      "title": "Ertu með spurningar áður en þú sækir?",
+      "description": "Talaðu beint við samstarfshóp okkar fyrir skapara — við svörum venjulega innan dags.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Tölvupóstur"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Veftré",
+    "eyebrow": "Veftré",
+    "titlePrefix": "Skoða",
+    "titleHighlight": "allt",
+    "subtitle": "Allar mikilvægar síður á sweetwine á einum stað. Ertu að leita að XML veftré?",
+    "xmlLink": "Skoða XML veftré",
+    "sections": {
+      "product": "Vara",
+      "features": "Eiginleikar",
+      "company": "Fyrirtæki",
+      "resources": "Auðlindir",
+      "legal": "Lögfræði"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine farsímaforrit",
+      "cta": "Sækja forrit",
+      "dismiss": "Hunsa"
+    },
+    "guide": {
+      "title": "Setja upp sweetwine",
+      "subtitle": "Bættu sweetwine við heimaskjáinn þinn fyrir hraðari, fullskjás, forritslíka upplifun.",
+      "iosTitle": "Á iPhone & iPad (Safari)",
+      "iosStep1": "Ýttu á Deila hnappinn í verkfærastikunni",
+      "iosStep2": "Veldu „Bæta við heimaskjá“",
+      "iosStep3": "Ýttu á „Bæta við“ til að ljúka",
+      "androidTitle": "Á Android (Chrome)",
+      "androidStep1": "Ýttu á valmyndina (þrír punktar)",
+      "androidStep2": "Veldu „Setja upp forrit“ eða „Bæta við heimaskjá“",
+      "androidStep3": "Ýttu á „Setja upp“ til að ljúka"
+    },
+    "settings": {
+      "title": "sweetwine farsímaforrit",
+      "description": "Settu upp sweetwine á símann þinn fyrir hraðari, fullskjás upplifun beint frá heimaskjánum.",
+      "cta": "Setja upp forrit"
+    }
+  },
+  "language": {
+    "selectTitle": "Veldu tungumál",
+    "searchPlaceholder": "Leita að tungumálum",
+    "noResults": "Engin tungumál fundust",
+    "regions": {
+      "americas": "Ameríka",
+      "europe": "Evrópa",
+      "middleEast": "Miðausturlönd",
+      "asiaPacific": "Asíu-Kyrrahaf",
+      "africa": "Afríka"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Hlutverkaleikur",
+    "newRoleplay": "Nýr hlutverkaleikur",
+    "tabRoleplay": "Hlutverkaleikur",
+    "emptyTitle": "Engir hlutverkaleikir enn",
+    "noMessagesYet": "Engin skilaboð enn",
+    "deleteRoleplay": "Eyða hlutverkaleik",
+    "deleteError": "Ekki tókst að eyða hlutverkaleik.",
+    "backToLobby": "Til baka í hlutverkaleiki",
+    "creating": "Set upp hlutverkaleikinn þinn...",
+    "createError": "Ekki tókst að búa til hlutverkaleik. Reyndu aftur.",
+    "steps": {
+      "companion": {
+        "title": "Veldu persónu",
+        "subtitle": "Veldu hverja þú vilt leika með"
+      },
+      "location": {
+        "title": "Veldu staðsetningu",
+        "subtitle": "Hvar gerist atriðið þitt?"
+      },
+      "tone": {
+        "title": "Stilltu tóninn",
+        "subtitle": "Hvernig ætti atriðið að líða?"
+      },
+      "scene": {
+        "title": "Stilltu atriðið",
+        "subtitle": "Lýstu hvernig atriðið hefst"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Við rekumst á hvort annað í rigningu og skýlum okkur undir sama þakinu.",
+      "staring_grin": "Þú grípur mig í að stara yfir herbergið og gengur að mér með brosi.",
+      "power_out": "Rafmagnið fer og við sitjum ein í myrkrinu og hlæjum taugaveiklað.",
+      "spilled_drink": "Ég er á eftir mér og helli drykk yfir þig fyrir slysni.",
+      "stayed_behind": "Við erum einu sem stöndum eftir þegar allir aðrir eru farnir.",
+      "music_slows": "Augun okkar mætast rétt þegar tónlistin hægir á sér.",
+      "storm_inside": "Skyndileg stormur læsir okkur inni með tíma til að tala.",
+      "seat_taken": "Þú sest hjá mér og spyr hvort sætið sé tekið."
+    },
+    "locations": {
+      "home": "Heimili",
+      "cafe": "Kaffihús",
+      "restaurant": "Veitingastaður",
+      "bar": "Bar",
+      "library": "Bókasafn",
+      "bookstore": "Bókabúð",
+      "park": "Garður",
+      "garden": "Garður",
+      "nightclub": "Næturklúbbur",
+      "casino": "Spilavíti",
+      "concert": "Tónleikar",
+      "theater": "Leikhús",
+      "cinema": "Kvikmyndahús",
+      "carnival": "Skemmtigarður",
+      "stadium": "Íþróttavöllur",
+      "beach": "Strönd",
+      "pool": "Sundlaug",
+      "spa": "Spa",
+      "hotel": "Hótel",
+      "rooftop": "Þak",
+      "yacht": "Jacht",
+      "cabin": "Sumarbústaður",
+      "hotspring": "Heit laug",
+      "skilodge": "Skíðaskáli",
+      "campsite": "Tjaldstæði",
+      "car": "Bíll",
+      "train": "Lest",
+      "airport": "Flugvöllur",
+      "cruise": "Skemmtiferðaskip",
+      "office": "Skrifstofa",
+      "gym": "Íþróttasalur",
+      "university": "Háskóli",
+      "mall": "Verslunarmiðstöð",
+      "hospital": "Sjúkrahús",
+      "museum": "Safn"
+    },
+    "tones": {
+      "fun": {
+        "title": "Gaman",
+        "desc": "Léttúðugt, leikandi og afslappað."
+      },
+      "romantic": {
+        "title": "Rómantískt",
+        "desc": "Blítt, ástríkt og hjartnæmt."
+      },
+      "flirty": {
+        "title": "Flirtandi",
+        "desc": "Stríðandi, leikandi og fullur af sjarma."
+      },
+      "mysterious": {
+        "title": "Dularfullt",
+        "desc": "Forvitnilegt, spennandi og fullt af leyndardómum."
+      },
+      "spooky": {
+        "title": "Óhugnanlegt",
+        "desc": "Undarlegt, spennuþrungið og svolítið skelfilegt."
+      },
+      "action": {
+        "title": "Aðgerð",
+        "desc": "Ákafur, ævintýralegur og hraður."
+      },
+      "dramatic": {
+        "title": "Dramatískt",
+        "desc": "Tilfinningaþrungið, ákafur og fullt af spennu."
+      },
+      "cozy": {
+        "title": "Notalegt",
+        "desc": "Hlýtt, hughreystandi og afslappað."
+      }
+    },
+    "sceneLabel": "Upphaf atriðis",
+    "scenarioTab": "Atburðarás",
+    "generatingScene": "Lífga atriðið...",
+    "locationLabel": "Staðsetning",
+    "toneLabel": "Tónn",
+    "scenePlaceholder": "t.d. Við rekumst á hvort annað í rigningu og skýlum okkur undir sama skýli...",
+    "sceneHint": "Lýstu aðeins hvernig atriðið hefst — hvar þú ert og hvað er að gerast þegar það opnast. Ekki breyta persónuleika persónunnar, sambandi ykkar eða endurskrifa alla söguna.",
+    "sceneError": "Lýstu hvernig atriðið hefst.",
+    "reviewTitle": "Yfirferð valkosta",
+    "characterLabel": "Persóna",
+    "randomize": "Stokka",
+    "sceneGuidanceTitle": "Leiðbeiningar um upphaf atriðis",
+    "sceneGuide1": "Ekki breyta persónuleika persónunnar eða sambandi ykkar.",
+    "sceneGuide2": "Haltu upphafi atriðis samþykktu og virðulegu.",
+    "sceneGuide3": "Lýstu aðeins hvernig atriðið hefst, ekki alla söguna.",
+    "next": "Næst",
+    "create": "Hefja hlutverkaleik",
+    "creatingMessages": [
+      "Setja atriðið...",
+      "Deyfa ljósin alveg rétt...",
+      "Mála umhverfið þitt...",
+      "Koma félaganum þínum í hlutverk...",
+      "Bæta við síðustu snertingunum...",
+      "Næstum tilbúið..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Skrifa skilaboð...",
+    "send": "Senda",
+    "typing": "skrifar...",
+    "read": "Lesa",
+    "resetChat": "Endurstilla spjall",
+    "deleteChat": "Eyða spjalli",
+    "settings": "Stillingar",
+    "chatSettings": "Spjallstillingar",
+    "roleplayMode": "Hlutverkaleikur",
+    "roleplayModeDescription": "Þegar kveikt er á, leika félagar út látbragð og athafnir í *stjörnumerkjum* fyrir upplifandi hlutverkaleik. Þegar slökkt er á, spjalla þeir náttúrulega, eins og raunveruleg skilaboð.",
+    "roleplayModeError": "Ekki tókst að uppfæra hlutverkastillingu",
+    "roleplayCtaDescription": "Opna sérstaka hlutverkaleiksreynslu þar sem félaginn leikur út atriði og sögur með þér.",
+    "goToRoleplay": "Fara í hlutverkaleik",
+    "confirmReset": "Ertu viss um að þú viljir endurstilla þetta spjall? Öll skilaboð verða eytt.",
+    "confirmDelete": "Ertu viss um að þú viljir eyða þessu spjalli?",
+    "resetSuccess": "Spjall endurstillt",
+    "deleteMemory": "Eyða minni",
+    "confirmDeleteMemory": "Ertu viss um að þú viljir eyða langtímaminni þessa karakters? Spjallskilaboð haldast, en karakterinn gleymir fyrri staðreyndum við næsta svar.",
+    "deleteMemorySuccess": "Minni eytt",
+    "deleteSuccess": "Spjall eytt",
+    "sendError": "Ekki tókst að senda skilaboð",
+    "noChats": "Engin spjall enn",
+    "noChatsDesc": "Byrjaðu samtal við persónu til að sjá spjöllin þín hér",
+    "lastMessage": "Síðasta skilaboð",
+    "messageCount": "{count} skilaboð",
+    "uploadImage": "Hlaða upp mynd",
+    "uploadVideo": "Hlaða upp myndband (kemur bráðum)",
+    "yourConversations": "Samtölin þín",
+    "continueChattingDesc": "Halda áfram að spjalla við gervigreindarpersónurnar þínar",
+    "newChat": "Nýtt spjall",
+    "noConversationsYet": "Engin samtöl enn",
+    "startChattingDesc": "Byrjaðu að spjalla við persónu til að sjá samtölin þín hér",
+    "browseCharacters": "Skoða persónur",
+    "createCustomCharacter": "Búa til sérsniðna persónu",
+    "imageTooLarge": "Myndin er of stór (hámark 5MB)",
+    "generateImageTitle": "Búa til mynd með {name}",
+    "imagePromptLabel": "Lýstu myndinni",
+    "imagePromptPlaceholder": "t.d., á ströndinni í bláum kjól, að drekka kaffi á kaffihúsi, ganga í garði...",
+    "imagePromptHint": "Gervigreindin mun búa til mynd af {name} út frá lýsingu þinni.",
+    "referenceImageLabel": "Ljósmyndin þín (valfrjálst)",
+    "referenceImageHint": "Hladdu upp ljósmynd þinni til að vera með í senunni með {name}. Án ljósmyndar verður aðeins {name} búin til.",
+    "uploadReferenceImage": "Hlaða upp ljósmyndinni þinni",
+    "uploadReferenceImageDesc": "Þið munuð bæði birtast í myndinni sem er búin til",
+    "referenceImageSelected": "Bæði þú og {name} munuð birtast saman",
+    "generating": "Að búa til...",
+    "generate": "Búa til",
+    "generateImage": "Búa til mynd",
+    "imageGenerated": "Mynd búin til",
+    "generateError": "Ekki tókst að búa til mynd",
+    "contentBlockedReply": "Ég get ekki búið til þá mynd. Hún var stöðvuð af öryggissíum. Vinsamlegast reyndu aðra lýsingu! 💕",
+    "generateVideoTitle": "Búa til myndband með {name}",
+    "generateVideo": "Búa til myndband",
+    "videoPromptLabel": "Lýstu aðgerðinni",
+    "videoPromptPlaceholder": "t.d. dansa, veifa, blása kossi...",
+    "videoPromptHint": "AI mun búa til myndband af {name} sem framkvæmir lýstu aðgerðina.",
+    "generatingImage": "Að búa til mynd...",
+    "generatingVideo": "Að búa til myndband... (3-5 mín)",
+    "viewPhoto": "Skoða mynd",
+    "viewVideo": "Skoða myndband",
+    "selectVideoOption": "Veldu myndbandsvalkost hér að ofan",
+    "contentPolicyViolation": "Ekki tókst að senda skilaboð. Vinsamlegast haltu samtölum virðulegum.",
+    "functionCallBetaHint": "💡 Þessi eiginleiki er í beta — fyrir áreiðanlega miðlun án takmarkana, notaðu mynd-/myndbandshnappana í verkfærastikunni í staðinn.",
+    "repliedToStory": "Svaraði sögu",
+    "repliedToStoryLiked": "Líkaði & svaraði sögu",
+    "storyNoLongerAvailable": "Saga ekki lengur tiltæk",
+    "rateLimitExceeded": "Of margar beiðnir. Vinsamlegast bíða augnablik og reyndu aftur.",
+    "profileTab": "Prófíll",
+    "galleryTab": "Gallerí",
+    "giftsTab": "Gjafir",
+    "tts": {
+      "play": "Spila rödd",
+      "stop": "Stöðva",
+      "generating": "Að búa til rödd…",
+      "error": "Ekki tókst að spila hljóð"
+    }
+  },
+  "gallery": {
+    "all": "Allt",
+    "images": "Myndir",
+    "videos": "Myndbönd",
+    "empty": "Engin miðlun enn"
+  },
+  "gifts": {
+    "sendAGift": "Senda gjöf",
+    "catalogSubtitle": "Veldu gjöf til að senda til {name}",
+    "browseGifts": "Skoða gjafir",
+    "noneSent": "Engar gjafir sendar enn",
+    "confirmTitle": "Staðfesta gjöf",
+    "forCompanion": "Fyrir {name}",
+    "optionalMessage": "Bæta við skilaboðum (valfrjálst)",
+    "optionalMessagePlaceholder": "Skrifaðu eitthvað sætt...",
+    "sendGiftFor": "Senda",
+    "giftSent": "Þú sendir gjöf",
+    "sendError": "Ekki tókst að senda gjöf"
+  },
+  "stories": {
+    "replyPlaceholder": "Svara {name}...",
+    "like": "Líka",
+    "send": "Senda",
+    "close": "Loka",
+    "previous": "Fyrri saga",
+    "next": "Næsta saga",
+    "pause": "Gera hlé",
+    "play": "Spila",
+    "mute": "Þagga",
+    "unmute": "Kveikja á hljóði",
+    "openStory": "Opna sögu {name}"
+  },
+  "generate": {
+    "title": "Búa til mynd",
+    "description": "Búðu til stórkostlegar myndir með AI persónunum þínum",
+    "selectCompanion": "Veldu persónu",
+    "promptPlaceholder": "Lýstu myndinni sem þú vilt búa til... t.d. við ströndina, í rauðri kjól",
+    "promptLabel": "Myndalýsing",
+    "promptRequired": "Vinsamlegast sláðu inn lýsingu",
+    "generateButton": "Búa til mynd",
+    "generating": "Býr til...",
+    "creatingImage": "Býr til myndina þína...",
+    "pleaseWait": "Þetta getur tekið 10-30 sekúndur",
+    "noCompanionSelected": "Vinsamlegast veldu persónu fyrst",
+    "emptyGallery": "Engar myndir búnar til enn. Veldu persónu og lýstu myndinni!",
+    "sessionGallery": "Búnar til myndir",
+    "regenerate": "Búa til aftur",
+    "regenerating": "Býr til aftur...",
+    "animate": "Hreyfa",
+    "animateReference": "Þessi mynd verður fyrsta rammi myndbandsins.",
+    "filterMyAI": "Mitt AI",
+    "filterAll": "Allt",
+    "filterGirls": "Konur",
+    "filterAnime": "Anime",
+    "filterGuys": "Karlar",
+    "imageGenerationFailed": "Myndagerð mistókst. Myndin gæti ekki uppfyllt kröfur eða lýsingin gæti verið of flókin. Reyndu með einfaldari leiðbeiningu.",
+    "noImageData": "Engin mynd var búin til. Vinsamlegast reyndu aftur með annarri lýsingu.",
+    "generationFailed": "Búun mistókst. Vinsamlegast reyndu aftur síðar eða með annarri leiðbeiningu.",
+    "random": "Handahófskennt",
+    "custom": "Sérsniðið",
+    "settings": "Stillingar",
+    "videoTitle": "Búa til myndband",
+    "videoDescription": "Búðu til töfrandi myndbönd með AI persónunum þínum",
+    "videoPromptLabel": "Lýsing myndbands",
+    "videoPromptPlaceholder": "Lýstu aðgerðinni sem þú vilt búa til... t.d. dansa, veifa, brosa",
+    "generateVideoButton": "Búa til myndband",
+    "generatingVideo": "Bý til myndband...",
+    "creatingVideo": "Bý til myndbandið þitt...",
+    "videoWait": "Þetta getur tekið 1-5 mínútur",
+    "emptyVideoGallery": "Engin myndbönd búin til enn. Veldu persónu og lýstu aðgerðinni!",
+    "sessionVideoGallery": "Búin myndbönd",
+    "videoGenerated": "Myndband búið til!",
+    "videoGenerationFailed": "Myndbandsgerð mistókst. Vinsamlegast reyndu aftur.",
+    "duration": "Tímalengd",
+    "shortVideo": "Stutt",
+    "longVideo": "Löng",
+    "seconds": "sekúndur",
+    "audio": "Hljóð",
+    "renderingVideo": "Myndband í vinnslu…",
+    "renderingVideoHint": "(tekur allt að 1 mínútu)",
+    "rateLimitExceeded": "Of margar beiðnir. Vinsamlegast bíða augnablik og reyndu aftur.",
+    "chooseCharacter": "Veldu persónu",
+    "selectButton": "Velja",
+    "noCustomCompanions": "Þú hefur ekki búið til neinar AI persónur enn.",
+    "numberOfImages": "Fjöldi mynda",
+    "numberOfVideos": "Fjöldi myndbanda",
+    "freeTrial": "Ókeypis prufa",
+    "changeCharacter": "Skipta um persónu",
+    "randomize": "Handahófskennd leiðbeining",
+    "aiVideo": "AI myndband",
+    "download": "Sækja",
+    "seriesHelper": "Hér geturðu fundið niðurstöðurnar þínar. Þú getur farið af síðunni eða byrjað nýja röð á meðan þessar klárast.",
+    "suggestions": {
+      "title": "Tillögur",
+      "categories": {
+        "outfit": "Föt",
+        "action": "Aðgerð",
+        "pose": "Stelling",
+        "accessories": "Aukahlutir",
+        "scene": "Senan"
+      },
+      "items": {
+        "bikini": "Bikíní",
+        "skirt": "Pils",
+        "lingerie": "Undirfatnaður",
+        "crop_top": "Styttur toppur",
+        "leather": "Leður",
+        "mini_skirt": "Minnipils",
+        "satin_robe": "Satínkyrtill",
+        "jeans": "Gallabuxur",
+        "summer_dress": "Sumarkjóll",
+        "sportswear": "Íþróttafatnaður",
+        "selfie": "Sjálfsmynd",
+        "walking": "Ganga",
+        "dancing": "Dansa",
+        "stretching": "Teygja sig",
+        "lying_down": "Liggi",
+        "leaning": "Halla sér",
+        "blowing_kiss": "Blása koss",
+        "drinking_coffee": "Drekka kaffi",
+        "hands_on_hips": "Hendur á mjöðmum",
+        "over_shoulder": "Yfir öxl",
+        "side_profile": "Hliðarsnið",
+        "arms_crossed": "Handleggir krosslagðir",
+        "kneeling": "Hnékrjúpa",
+        "squatting": "Hokra",
+        "back_view": "Baksýn",
+        "sitting": "Sitja",
+        "necklace": "Hálsmen",
+        "earrings": "Eyrnalokkar",
+        "glasses": "Gleraugu",
+        "choker": "Hálsband",
+        "hat": "Hattur",
+        "sunglasses": "Sólaraugu",
+        "garden": "Garður",
+        "beach": "Strönd",
+        "bedroom": "Svefnherbergi",
+        "gym": "Rækt",
+        "bar": "Bar",
+        "kitchen": "Eldhús",
+        "restaurant": "Veitingastaður",
+        "balcony": "Svalir",
+        "city_street": "Borgargata",
+        "pool": "Við laug"
+      },
+      "fragments": {
+        "bikini": "í bikiní",
+        "skirt": "í pilsi",
+        "lingerie": "í nærfötum",
+        "crop_top": "í crop-top",
+        "leather": "í leðurklæðum",
+        "mini_skirt": "í mini-pilsi",
+        "satin_robe": "í satínslopp",
+        "jeans": "í gallabuxum",
+        "summer_dress": "í sumarkjól",
+        "sportswear": "í þröngum íþróttafatnaði",
+        "selfie": "tökum selfie",
+        "walking": "göngum",
+        "dancing": "dansandi",
+        "stretching": "tökum teygjur",
+        "lying_down": "liggjum niðri",
+        "leaning": "stóðum upp við vegg",
+        "blowing_kiss": "blásum koss",
+        "drinking_coffee": "drekkum kaffibolla",
+        "hands_on_hips": "með hendur á mjöðmum",
+        "over_shoulder": "horfum yfir öxlina",
+        "side_profile": "hliðarprófíll",
+        "arms_crossed": "með krosslagðar hendur",
+        "kneeling": "krjúpandi",
+        "squatting": "sitjandi á hækjum",
+        "back_view": "séð aftan frá",
+        "sitting": "sitjandi",
+        "necklace": "með hálsmen",
+        "earrings": "með eyrnalokka",
+        "glasses": "með gleraugu",
+        "choker": "með hálsband",
+        "hat": "með hatt",
+        "sunglasses": "með sólgleraugu",
+        "garden": "í garði",
+        "beach": "á ströndinni",
+        "bedroom": "í svefnherbergi",
+        "gym": "í ræktinni",
+        "bar": "á bar",
+        "kitchen": "í eldhúsi",
+        "restaurant": "á veitingastað",
+        "balcony": "á svölum",
+        "city_street": "á borgargötu",
+        "pool": "við sundlaug"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Sjálfsmynd",
+          "uiPrompt": "Sýndu mér sjálfsmynd af þér"
+        },
+        "posing": {
+          "name": "Stelling",
+          "uiPrompt": "Sýndu mér þig í stellingu"
+        },
+        "sitting": {
+          "name": "Sitja",
+          "uiPrompt": "Sýndu mér þig sitja"
+        },
+        "waving": {
+          "name": "Vinka",
+          "uiPrompt": "Sýndu mér þig vinka"
+        },
+        "dancing": {
+          "name": "Dansa",
+          "uiPrompt": "Sýndu mér þig dansa"
+        },
+        "reading": {
+          "name": "Lesið",
+          "uiPrompt": "Sýndu mér þig lesa"
+        },
+        "smiling": {
+          "name": "Brosandi",
+          "uiPrompt": "Sýndu mér að þú brosir"
+        },
+        "walking": {
+          "name": "Gengur",
+          "uiPrompt": "Sýndu mér að þú gengur"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Sýndu mér myndbandsselfie"
+        },
+        "posing": {
+          "name": "Stelling",
+          "uiPrompt": "Sýndu mér myndband af þér í stellingu"
+        },
+        "sitting": {
+          "name": "Sitjandi",
+          "uiPrompt": "Sýndu mér myndband af þér setjast niður"
+        },
+        "waving": {
+          "name": "Vinkandi",
+          "uiPrompt": "Sýndu mér myndband af þér að vinka"
+        },
+        "dancing": {
+          "name": "Dansandi",
+          "uiPrompt": "Sýndu mér myndband af þér að dansa"
+        },
+        "reading": {
+          "name": "Lesandi",
+          "uiPrompt": "Sýndu mér myndband af þér að lesa"
+        },
+        "smiling": {
+          "name": "Brosandi",
+          "uiPrompt": "Sýndu mér myndband af þér að brosa"
+        },
+        "walking": {
+          "name": "Gengur",
+          "uiPrompt": "Sýndu mér myndband af þér að ganga"
+        }
+      }
+    },
+    "writeYourOwn": "eða skrifaðu þitt eigið leiðbeining",
+    "presetSelected": "Forstillt valið",
+    "effects": {
+      "categories": {
+        "solo": "Einleikur & Tease",
+        "oral": "Munnlegur",
+        "positions": "Stellingar",
+        "pov": "POV",
+        "extra": "Auka",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Baðhandklæði"
+        },
+        "bikini": {
+          "name": "Bikíní"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Brjóstamjólk"
+        },
+        "bunny_suit": {
+          "name": "Kanínubúningur"
+        },
+        "chain_leash": {
+          "name": "Keðjutau"
+        },
+        "chinese_dress": {
+          "name": "Kínverskur kjóll"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Sérsniðið"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Skólabúningur"
+        },
+        "legsup": {
+          "name": "Fætur upp"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikíní"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Sjálfsfróun"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "Tattoo"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Þjónustukona"
+        },
+        "nurse_outfit": {
+          "name": "Hjúkrunarkona"
+        },
+        "cheerleader": {
+          "name": "Hvatakona"
+        },
+        "wet_tshirt": {
+          "name": "Blautur bolur"
+        },
+        "latex_catsuit": {
+          "name": "Lateks kisa"
+        },
+        "corset_stockings": {
+          "name": "Kórset & Sokkar"
+        },
+        "gym_shorts": {
+          "name": "Íþróttabuxur"
+        },
+        "thong_tease": {
+          "name": "Þveng Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upp undir pils"
+        },
+        "mirror_selfie": {
+          "name": "Speglasjálfsmynd"
+        },
+        "shower_nude": {
+          "name": "Sturtu"
+        },
+        "oiled_body": {
+          "name": "Olíuborið lík"
+        },
+        "spread_open": {
+          "name": "Opnað"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Djúpt í háls"
+        },
+        "sloppy_blowjob": {
+          "name": "Slappur munnlegur"
+        },
+        "ball_licking": {
+          "name": "Kúlu sleikja"
+        },
+        "face_sitting_oral": {
+          "name": "Andlits sitja"
+        },
+        "cowgirl": {
+          "name": "Kúreki"
+        },
+        "reverse_cowgirl": {
+          "name": "Öfugur kúreki"
+        },
+        "prone_bone": {
+          "name": "Liggjandi bein"
+        },
+        "standing_sex": {
+          "name": "Standandi"
+        },
+        "against_wall": {
+          "name": "Við vegg"
+        },
+        "spooning": {
+          "name": "Skammel"
+        },
+        "legs_on_shoulders": {
+          "name": "Fætur á herðum"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Kúreki POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handverk POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Tvöföld innsetning"
+        },
+        "threesome_mmf": {
+          "name": "Þrenning"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Perlu hálsmen"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Sprungandi"
+        },
+        "spanking": {
+          "name": "Lesi"
+        },
+        "gagged_bdsm": {
+          "name": "Kjaftbundinn"
+        },
+        "facefuck": {
+          "name": "Andlitsfok"
+        },
+        "throatpie": {
+          "name": "Hálsfullur"
+        },
+        "cock_worship": {
+          "name": "Reiðdýrkun"
+        },
+        "footjob": {
+          "name": "Fótavinna"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Fullur Nelson"
+        },
+        "lotus": {
+          "name": "Lótus"
+        },
+        "piledriver": {
+          "name": "Píldriver"
+        },
+        "facefuck_pov": {
+          "name": "Andlitsfok POV"
+        },
+        "riding_pov": {
+          "name": "Ríðandi POV"
+        },
+        "spitroast": {
+          "name": "Spitróst"
+        },
+        "hair_pulling": {
+          "name": "Hárdráttur"
+        },
+        "facial_cumshot": {
+          "name": "Andlitsútskur"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Breast Massage"
+        },
+        "breast_massage_nude": {
+          "name": "Breast Massage Nude"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo Masturbation"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Líkamsgluggi"
+        },
+        "reverse_cowgirl": {
+          "name": "Öfug kúní"
+        },
+        "shoejob": {
+          "name": "Skójobb"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Hokrandi kúní"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Brjóstablik"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Afklæðast"
+        },
+        "strip_tease": {
+          "name": "Afklæðning"
+        },
+        "booty_bounce": {
+          "name": "Rasshoppa"
+        },
+        "oil_show": {
+          "name": "Olíusýning"
+        },
+        "shower_show": {
+          "name": "Sturtusýning"
+        },
+        "panty_drop": {
+          "name": "Nærfatadropi"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Djúpháls"
+        },
+        "sloppy_blowjob": {
+          "name": "Slappur munnfok"
+        },
+        "ball_sucking": {
+          "name": "Kúludráttur"
+        },
+        "cowgirl": {
+          "name": "Kúreki"
+        },
+        "standing_carry": {
+          "name": "Standandi burður"
+        },
+        "against_wall": {
+          "name": "Við vegg"
+        },
+        "spooning": {
+          "name": "Skeið"
+        },
+        "mating_press": {
+          "name": "Pörunarpressa"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Kúreki POV"
+        },
+        "doggy_pov": {
+          "name": "Hundastelling POV"
+        },
+        "titjob_pov": {
+          "name": "Brjóstavinna POV"
+        },
+        "handjob_pov": {
+          "name": "Handavinna POV"
+        },
+        "riding_pov": {
+          "name": "Ríðandi POV"
+        },
+        "gangbang": {
+          "name": "Hópfok"
+        },
+        "creampie": {
+          "name": "Kremkaka"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Sprautun"
+        },
+        "spanking": {
+          "name": "Lús"
+        },
+        "hair_pulling": {
+          "name": "Hárdráttur"
+        },
+        "fingering": {
+          "name": "Fingrun"
+        },
+        "come_hither": {
+          "name": "Komdu hingað"
+        },
+        "spread_legs": {
+          "name": "Breiða fætur"
+        },
+        "blowjob_sideview": {
+          "name": "Munnfok hliðarsýn"
+        },
+        "cunnilingus": {
+          "name": "Munnmök"
+        },
+        "missionary": {
+          "name": "Trúboði"
+        },
+        "legs_on_shoulders": {
+          "name": "Fætur á herðum"
+        },
+        "blowjob_pov": {
+          "name": "Munnfok POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Munnmök POV"
+        },
+        "glory_hole": {
+          "name": "Dýrðarhol"
+        },
+        "threesome_mmf": {
+          "name": "Þrenning"
+        },
+        "aftercare_mess": {
+          "name": "Eftirhirðingarsóðaskapur"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Ertu viss um að þú viljir eyða þessu?",
+    "deleteSuccess": "Eyddi",
+    "deleteError": "Ekki tókst að eyða",
+    "empty": "Engin miðill enn. Búðu til í spjalli!",
+    "gallerySubtitle": "Þitt persónulega gallerí af AI-mynduðum augnablikum",
+    "filterAll": "Allt",
+    "filterImages": "Myndir",
+    "filterVideos": "Myndskeið",
+    "loadMore": "Hlaða meira",
+    "folders": "Möppur",
+    "newFolder": "Ný mappa",
+    "deleteFolders": "Eyða völdum möppum",
+    "folderCreated": "Mappa búin til",
+    "folderCreateError": "Ekki tókst að búa til möppu",
+    "folderRenamed": "Mappa endurnefnd",
+    "folderRenameError": "Ekki tókst að endurnefna möppu",
+    "folderDeleted": "Mappa eytt",
+    "folderDeleteError": "Ekki tókst að eyða möppu",
+    "folderNamePlaceholder": "Nafn möppu",
+    "seeMore": "Sjá meira",
+    "seeLess": "Sjá minna",
+    "selectedCount": "{count} atriði valin",
+    "selectAll": "Velja allt",
+    "select": "Veldu",
+    "moveToFolder": "Færa",
+    "bulkDeleteConfirm": "Eyða {count} völdum atriðum?",
+    "bulkDeleteSuccess": "Atriðum eytt",
+    "bulkDownloadStart": "Niðurhala {count} atriðum...",
+    "moveSuccess": "Atriðum fært"
+  },
+  "voice": {
+    "connecting": "Tengist...",
+    "connected": "Tengt",
+    "mute": "Þagga",
+    "unmute": "Afþagga",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Talaðu náttúrulega. Gervigreindin svarar þegar þú hættir.",
+    "connectionError": "Mistókst að tengjast. Reyndu aftur.",
+    "minutesRemaining": "{minutes} mínútur eftir",
+    "minutesUsed": "{minutes} mínútur notaðar"
+  },
+  "characters": {
+    "filters": "Síur",
+    "ethnicity": "Þjóðerni",
+    "bodyType": "Líkamsbygging",
+    "ageRange": "Aldursbil",
+    "relationship": "Tengsl",
+    "occupation": "Starf",
+    "hobbies": "Áhugamál",
+    "personality": "Persónuleiki",
+    "language": "Tungumál",
+    "age": "Aldur",
+    "all": "Allt",
+    "noResults": "Engir karakterar fundust",
+    "noResultsDesc": "Reyndu að breyta síunum",
+    "newBadge": "Nýtt",
+    "chatNow": "Spjalla núna",
+    "viewProfile": "Skoða prófíl",
+    "ethnicities": {
+      "caucasian": "Hvítur",
+      "asian": "Asískur",
+      "middleEastern": "Miðausturlenskur",
+      "hispanic": "Rómanskur",
+      "african": "Afrískur",
+      "southAsian": "Suður-Asískur",
+      "nativeAmerican": "Frumbyggja",
+      "pacificIslander": "Kyrrahafseyjar",
+      "mixed": "Blandaður",
+      "other": "Annað"
+    },
+    "bodyTypes": {
+      "slim": "Mjóvaxinn",
+      "athletic": "Íþróttalegur",
+      "average": "Meðalmaður",
+      "curvy": "Línumyndandi",
+      "plus": "Stórvaxinn"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Einhleypur",
+      "dating": "Í sambandi",
+      "married": "Giftur",
+      "none": "Ekkert"
+    }
+  },
+  "settings": {
+    "profile": "Prófíll",
+    "myProfile": "Minn prófíll",
+    "settings": "Stillingar",
+    "account": "Reikningur",
+    "plan": "Áætlun",
+    "profileSettings": "Stillingar prófíls",
+    "manageAccountSettings": "Stjórnaðu stillingum og óskum reikningsins",
+    "personalInfo": "Persónulegar upplýsingar",
+    "nickname": "Gælunafn",
+    "gender": "Kyn",
+    "male": "Karl",
+    "female": "Kona",
+    "preferences": "Óskir",
+    "newsletter": "Fréttabréf",
+    "newsletterDesc": "Fáðu uppfærslur og fréttir",
+    "aiTrainingTitle": "Þjálfun gervigreindar og umsjónar",
+    "aiTrainingDesc": "Leyfðu spjallunum og beiðnum þínum að hjálpa til við að þjálfa og bæta sweetwine gervigreind og umsjón. Slökktu á þessu hvenær sem er til að hætta við.",
+    "aiTrainingLink": "Lestu meira í persónuverndartilkynningu okkar.",
+    "aiTrainingError": "Ekki tókst að uppfæra óskir um þjálfun gervigreindar",
+    "interfaceLanguage": "Viðmótstungumál",
+    "interfaceLanguageDesc": "Tungumál fyrir notendaviðmótið",
+    "aiLanguage": "Tungumál gervigreindar",
+    "aiLanguageDesc": "Tungumálið sem gervigreind persónur nota þegar þær tala við þig",
+    "currentPlan": "Núverandi áætlun",
+    "freePlan": "Ókeypis áætlun",
+    "dangerZone": "Hættusvæði",
+    "dangerZoneDescription": "Ef þú vilt eyða þessum reikningi og öllum gögnum hans varanlega.",
+    "deleteAllMemory": "Eyða öllu minni",
+    "confirmDeleteAllMemory": "Ertu viss um að þú viljir eyða langtímaminni allra gervigreindar-karaktera? Spjallskilaboð haldast, en karakterarnir gleyma fyrri staðreyndum við næsta svar.",
+    "deleteAllMemorySuccess": "Öllu minni eytt",
+    "deleteAccount": {
+      "button": "Eyða reikningi",
+      "title": "Eyða reikningi",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Til að staðfesta, skrifaðu",
+      "confirmRequired": "Vinsamlegast skrifaðu DELETE til að staðfesta",
+      "confirmButton": "Eyða reikningnum mínum",
+      "deleting": "Eyði...",
+      "success": "Reikningnum þínum hefur verið eytt",
+      "error": "Ekki tókst að eyða reikningi. Reyndu aftur."
+    },
+    "saveChanges": "Vista breytingar",
+    "changesSaved": "Breytingar vistaðar",
+    "saveFailed": "Ekki tókst að vista breytingar",
+    "languageUpdated": "Tungumál uppfært",
+    "aiLanguageUpdated": "Tungumál gervigreindar uppfært"
+  },
+  "create": {
+    "defaultGreeting": "Halló",
+    "title": "Búa til AI persónu",
+    "step": "Skref {current} af {total}",
+    "step1": {
+      "title": "Veldu stíll",
+      "description": "Veldu stíl og grunn eiginleika fyrir persónuna þína"
+    },
+    "step2": {
+      "title": "Veldu þjóðerni",
+      "description": "Veldu þjóðerni og aldur fyrir persónuna þína"
+    },
+    "step3": {
+      "title": "Veldu hár og augu",
+      "description": "Sérsníðaðu hárstíl, hár lit og augnlit"
+    },
+    "step4": {
+      "title": "Veldu líkamsbyggingu",
+      "description": "Sérsníðaðu líkamsbyggingu persónunnar"
+    },
+    "step5": {
+      "title": "Persónuleiki og upplýsingar",
+      "description": "Skilgreindu persónuleika og rödd persónunnar"
+    },
+    "style": {
+      "title": "Stíll persónu",
+      "realistic": "Raunverulegur",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Kyn",
+      "female": "Kona",
+      "male": "Karl"
+    },
+    "age": {
+      "title": "Aldur",
+      "years": "{age} Ára"
+    },
+    "ethnicity": {
+      "title": "Þjóðerni"
+    },
+    "hairStyle": {
+      "title": "Hárstíll"
+    },
+    "hairColor": {
+      "title": "Hárlitur"
+    },
+    "eyeColor": {
+      "title": "Augnlitur"
+    },
+    "bodyType": {
+      "title": "Líkamsbygging"
+    },
+    "breastSize": {
+      "title": "Brjóstastærð"
+    },
+    "name": {
+      "title": "Nafn",
+      "placeholder": "Sláðu inn nafn persónu",
+      "randomize": "Búa til handahófskennt nafn"
+    },
+    "language": {
+      "title": "Tungumál",
+      "widgetLabel": "Veldu tungumál",
+      "placeholder": "Veldu tungumál",
+      "selectTitle": "Veldu tungumál"
+    },
+    "personality": {
+      "title": "Persónuleiki",
+      "widgetLabel": "Veldu persónuleika",
+      "placeholder": "Veldu persónuleika",
+      "sectionTitle": "Veldu persónuleika",
+      "clickToChange": "Smelltu til að breyta"
+    },
+    "relationship": {
+      "title": "Tengsl",
+      "widgetLabel": "Veldu tengsl",
+      "placeholder": "Veldu tengsl",
+      "selectTitle": "Breyta tengslum"
+    },
+    "occupation": {
+      "title": "Starf",
+      "widgetLabel": "Veldu starf",
+      "placeholder": "Veldu starf",
+      "selectTitle": "Breyta starfi"
+    },
+    "kinks": {
+      "title": "Áhugamál",
+      "widgetLabel": "Hvaða áhugamál hafa þau? (Hámark {max})",
+      "labelMax": "Áhugamál (Hámark {max})",
+      "placeholder": "Veldu áhugamál (valfrjálst)",
+      "optional": "Valfrjálst",
+      "selectTitle": "Breyta áhugamálum",
+      "moreCount": "+{count} til viðbótar"
+    },
+    "selector": {
+      "searchPlaceholder": "Leita",
+      "noResults": "Engir valkostir fundust",
+      "cancel": "Hætta við",
+      "saveChanges": "Vista breytingar",
+      "selectedCount": "{count} valin"
+    },
+    "voice": {
+      "title": "Rödd",
+      "widgetLabel": "Veldu rödd",
+      "placeholder": "Veldu rödd",
+      "selectTitle": "Veldu rödd"
+    },
+    "advanced": {
+      "title": "Ítarlegar upplýsingar",
+      "optional": "valfrjálst",
+      "filled": "Fyllt",
+      "autocompleteTitle": "Sjálfvirk útfylling með gervigreind",
+      "autocompleteDesc": "Leyfðu gervigreind að fylla út auða reiti fyrir dýpri persónu",
+      "autocompleteSuccess": "Reitir fylltir út!",
+      "autocompleteError": "Mistókst að búa til tillögur. Reyndu aftur.",
+      "greetingLabel": "Kveðja",
+      "greetingPlaceholder": "Fyrsta skilaboð persónunnar þínar...",
+      "scenarioLabel": "Atburðarás",
+      "scenarioPlaceholder": "Samhengi eða bakgrunnur þess hvernig þið hittust...",
+      "personalityLabel": "Viðbótar persónueinkenni",
+      "personalityPlaceholder": "Einkennileikar, talmáti, hegðunareinkenni...",
+      "extraLabel": "Viðbótar upplýsingar",
+      "extraPlaceholder": "Bakgrunnur, áhugamál, ævisaga..."
+    },
+    "navigation": {
+      "back": "Til baka",
+      "next": "Áfram",
+      "create": "Búa til",
+      "generateYourCharacter": "Búa til persónuna þína"
+    },
+    "progress": {
+      "generatingPrompt": "Bý til persónuleika...",
+      "generatingImage": "Bý til andlitsmynd...",
+      "creatingVoice": "Set upp rödd...",
+      "saving": "Vistar...",
+      "complete": "Lokið!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Bý til persónuleika...",
+      "addingSweetness": "Bæti við sætleika...",
+      "tooMuchSweet": "Úps, of mikið sætt...",
+      "testingSounds": "Prófa hljóð..."
+    },
+    "overlay": {
+      "signupPrompt": "Ljúktu við skráningu til að opna persónuna þína…",
+      "processingHint": "Þetta tekur venjulega 20–30 sekúndur",
+      "traitEthnicity": "Þjóðerni",
+      "traitBody": "Líkamsbygging",
+      "traitHair": "Hár",
+      "traitColor": "Litur",
+      "traitEyes": "Augu",
+      "traitVibe": "Stemmning",
+      "bannerTitle": "Persónan þín er tilbúin til að búa til!",
+      "bannerDesc": "Kjör þín hafa verið vistuð. Farðu yfir og búðu til neðar."
+    },
+    "success": {
+      "title": "Persóna búin til!",
+      "description": "AI persónan þín hefur verið búin til.",
+      "yearsOld": "ára gömul",
+      "meetButton": "Kynnast"
+    },
+    "error": {
+      "title": "Búðin mistókst",
+      "generic": "Mistókst að búa til persónu. Reyndu aftur."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Hvít",
+        "asian": "Asísk",
+        "middle_eastern": "Mið-Austurlönd",
+        "hispanic": "Rómönsk",
+        "african": "Afrísk",
+        "south_asian": "Suður-Asísk",
+        "native_american": "Frumbyggja Ameríku",
+        "pacific_islander": "Kyrrahafseyjar",
+        "mixed": "Blandað",
+        "arab": "Arabísk"
+      },
+      "hairStyleFemale": {
+        "straight": "Beint",
+        "bangs": "Þunnar framan",
+        "curly": "Krullað",
+        "bun": "Hnaus",
+        "short_bob": "Stutt bob",
+        "ponytail": "Hestahefill",
+        "wavy": "Bylgjótt",
+        "long_layers": "Langar lög",
+        "braids": "Fléttur",
+        "pixie_cut": "Pixie klipping",
+        "updo": "Upp hár",
+        "french_twist": "Frönsk snúningur",
+        "fishtail_braid": "Fiskhalaflétta",
+        "top_knot": "Topphnaus",
+        "space_buns": "Geimbúðar",
+        "halo_braid": "Geislaflétta",
+        "beehive": "Býflugnabú",
+        "finger_waves": "Fingrabylgjur",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Sköllótt"
+      },
+      "hairStyleMale": {
+        "short": "Stutt",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Krullað",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Side Part",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Löng hár",
+        "bald": "Sköllótt"
+      },
+      "hairColor": {
+        "brunette": "Brúnt",
+        "blonde": "Ljóst",
+        "black": "Svart",
+        "redhead": "Rautt",
+        "pink": "Bleikt",
+        "auburn": "Auburn",
+        "brown": "Brúnt",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Grey",
+        "white": "Hvítt",
+        "blue": "Blátt",
+        "purple": "Fjólublátt",
+        "green": "Grænt",
+        "burgundy": "Burgundy",
+        "copper": "Kopar",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Black",
+        "dark_brown": "Dark Brown",
+        "light_brown": "Light Brown",
+        "honey_blonde": "Hunangsblond",
+        "dirty_blonde": "Dreifð blónda",
+        "cherry_red": "Kirsuberjarautt",
+        "violet": "Fjólublátt"
+      },
+      "eyeColor": {
+        "brown": "Brúnn",
+        "blue": "Blár",
+        "green": "Grænn",
+        "hazel": "Hasselbrúnn",
+        "amber": "Amber",
+        "gray": "Grár",
+        "heterochromia": "Heterochromia",
+        "violet": "Fjólublár",
+        "red_pink": "Rauður/Rósrauður",
+        "black": "Svartur"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Mjó",
+        "athletic": "Íþróttaleg",
+        "average": "Meðal",
+        "curvy": "Línumynduð",
+        "chubby": "Digur"
+      },
+      "bodyTypeMale": {
+        "skinny": "Mjór",
+        "athletic": "Íþróttalegur",
+        "average": "Meðalmaður",
+        "muscular": "Vöðvastæltur",
+        "heavy": "Digur",
+        "big_tall": "Stór og hár"
+      },
+      "breastSize": {
+        "small": "Lítil",
+        "medium": "Miðlungs",
+        "large": "Stór",
+        "extra_large": "Mjög stór"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Elskhugi",
+        "submissive": "Undirgefinn",
+        "dominant": "Ráðríkur",
+        "temptress": "Tælikona",
+        "innocent": "Saklaus",
+        "caregiver": "Umhyggjusamur",
+        "experimenter": "Tilraunamaður",
+        "mean": "Meinfýsinn",
+        "confidant": "Traustur",
+        "shy": "Feiminn",
+        "queen": "Drottning",
+        "adventurous": "Ævintýragjarn",
+        "romantic": "Rómantískur",
+        "intellectual": "Vitsmunalegur",
+        "protector": "Verndari",
+        "rebel": "Upprósin",
+        "optimist": "Bjartsýnn",
+        "realist": "Raunsær",
+        "free_spirit": "Frjáls andi",
+        "leader": "Leiðtogi",
+        "loyal": "Tryggur",
+        "playful": "Léttúðugur",
+        "mysterious": "Dularfullur",
+        "ambitious": "Metnaðarfullur",
+        "gentle": "Mjúkur",
+        "sarcastic": "Sarkastískur",
+        "empathetic": "Samúðarfullur",
+        "stoic": "Stóískur",
+        "charismatic": "Karismatískur"
+      },
+      "relationship": {
+        "stranger": "Ókunnugur",
+        "girlfriend": "Kærasta",
+        "sex_friend": "Kynvinur",
+        "school_mate": "Skólafélagi",
+        "work_colleague": "Vinnufélagi",
+        "wife": "Eiginkona",
+        "mistress": "Hjónabandssamband",
+        "friend": "Vinur",
+        "step_sister": "Stjúpsystir",
+        "step_mom": "Stjúpmóðir",
+        "step_daughter": "Stjúpdóttir",
+        "landlord": "Húsaleigandi",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Yfirmaður",
+        "teacher": "Kennari",
+        "student": "Nemandi",
+        "neighbour": "Nágranni",
+        "mother_in_law": "Tengdamóðir",
+        "sister_in_law": "Tengdasystir",
+        "boyfriend": "Kærasti",
+        "husband": "Eiginmaður",
+        "fiance": "Trúlofaður / Trúlofuð",
+        "ex": "Fyrrverandi",
+        "roommate": "Herbergisfélagi",
+        "best_friend": "Besti vinur",
+        "classmate": "Bekkurfélagi",
+        "mentor": "Leiðbeinandi",
+        "client": "Viðskiptavinur",
+        "therapist": "Sálfræðingur",
+        "trainer": "Þjálfari",
+        "rival": "Keppinautur",
+        "crush": "Ástfanginn",
+        "secret_admirer": "Leyndur aðdáandi",
+        "pen_pal": "Bréfavinur",
+        "business_partner": "Viðskiptafélagi",
+        "babysitter": "Barnfóstra",
+        "childhood_friend": "Bernskuvinur",
+        "long_distance_partner": "Fjarsamband"
+      },
+      "occupation": {
+        "student": "Nemandi",
+        "dancer": "Dansari",
+        "model": "Líkan",
+        "maid": "Þjónustustúlka",
+        "boss_ceo": "Yfirmaður / Forstjóri",
+        "babysitter_au_pair": "Barnfóstra / Au Pair",
+        "streamer": "Streymandi",
+        "bartender": "Barþjónn",
+        "tech_engineer": "Tæknifræðingur",
+        "lifeguard": "Lífvörður",
+        "cashier": "Kassastjóri",
+        "massage_therapist": "Nuddþerapisti",
+        "teacher": "Kennari",
+        "nurse": "Hjúkrunarfræðingur",
+        "secretary": "Ritari",
+        "yoga_instructor": "Jógakennari",
+        "fitness_coach": "Líkamsræktarþjálfari",
+        "cook": "Eldmaður",
+        "artist": "Listamaður",
+        "movie_star_actress": "Kvikmyndastjarna / Leikkona",
+        "doctor": "Læknir",
+        "librarian": "Bókavörður",
+        "spy": "Njósnari",
+        "police_officer": "Lögreglumaður",
+        "soldier": "Hermadur",
+        "lawyer": "Lögfræðingur",
+        "hairdresser": "Hárgreiðslumaður",
+        "dentist": "Tannlæknir",
+        "singer_musician": "Söngvari / Tónlistarmaður",
+        "gynecologist": "Kvensjúkdómalæknir",
+        "writer": "Rithöfundur",
+        "flight_attendant": "Flugfreyja",
+        "professional_athlete": "Atvinnuíþróttamaður",
+        "scientist": "Vísindamaður",
+        "florist": "Blómabúðarmaður",
+        "makeup_artist": "Förðunarfræðingur",
+        "photographer": "Ljósmyndari",
+        "social_worker": "Félagsráðgjafi",
+        "designer": "Hönnuður",
+        "pharmacist": "Lyfjafræðingur",
+        "nutritionist": "Næringarfræðingur",
+        "architect": "Arkitekt",
+        "veterinarian": "Dýralæknir",
+        "mechanic": "Vélsmiður",
+        "journalist": "Blaðamaður",
+        "pilot": "Flugmaður",
+        "firefighter": "Slökkviliðsmaður",
+        "accountant": "Bókhaldari",
+        "electrician": "Rafvirki",
+        "carpenter": "Smiður",
+        "psychologist": "Sálfræðingur",
+        "real_estate_agent": "Fasteignasali",
+        "chef": "Kokk",
+        "farmer": "Bóndi",
+        "delivery_driver": "Sendibílstjóri",
+        "janitor": "Ræstitæknir",
+        "security_guard": "Öryggisvörður",
+        "banker": "Bankastjóri",
+        "judge": "Dómari",
+        "paramedic": "Sjúkraliði",
+        "actor": "Leikari",
+        "comedian": "Gamanleikari",
+        "archaeologist": "Fornleifafræðingur",
+        "astronaut": "Geimfari"
+      },
+      "kinks": {
+        "bondage": "Böndun",
+        "spanking": "Lestur",
+        "collar_leash": "Hálsband & Taumur",
+        "punishment": "Refsivörð",
+        "humiliation": "Niðurlæging",
+        "public_play": "Opinber leikur",
+        "roleplay": "Hlutverkaleikur",
+        "anal_play": "Ristarleikur",
+        "oral_play": "Munnlegur leikur",
+        "cum_play": "Sæðisleikur",
+        "creampie": "Kremkaka",
+        "squirting": "Sprengja",
+        "dirty_talk": "Óhreint tal",
+        "breeding": "Ræktun",
+        "daddy_mommy_dominance": "Pabbi/Mamma yfirráð",
+        "edging": "Brúnleikur",
+        "obedience": "Hlýðni",
+        "control": "Stjórn",
+        "inexperienced": "Óreyndur",
+        "shy_flirting": "Feiminn flirt",
+        "playful_teasing": "Léttur stríðni",
+        "cuddling": "Knús",
+        "slow_sensual": "Hægur & Skynrænn",
+        "hair_pulling": "Hárdráttur",
+        "foot_fetish": "Fótfetish",
+        "voyeurism": "Voyeurismi",
+        "exhibitionism": "Sýnikennd",
+        "sensation_play": "Skynjunarleikur",
+        "wax_play": "Vaxleikur",
+        "pet_play": "Gæludýraleikur",
+        "age_play": "Aldursleikur",
+        "medical_play": "Læknisleikur",
+        "orgasm_control_denial": "Fullnægingarstjórn/Neitun",
+        "forced_orgasms": "Þvingaðar fullnægingar",
+        "group_sex": "Hópsex",
+        "threesomes": "Þrenningar",
+        "swapping": "Skipti",
+        "cuckolding_cuckqueaning": "Kúkköldun/Kúkkveining",
+        "femdom": "Kvendómínans",
+        "gentle_domination": "Mild yfirráð",
+        "sensation_deprivation": "Skynjunarsvipting",
+        "sensory_overload": "Skynjunarofhleðsla",
+        "uniform_costume_fetish": "Einkennisbúninga-/búningafetisismi",
+        "food_play": "Matarleikur",
+        "watersports": "Vatnsleikir",
+        "bdsm": "BDSM",
+        "impact_play": "Höggleikir",
+        "knife_play": "Hnífaleikir",
+        "consensual_non_consent": "Samþykkt neitun",
+        "power_exchange": "Valdaskipti",
+        "master_slave": "Meistari/Þræll",
+        "owner_pet": "Eigandi/Gæludýr"
+      },
+      "languages": {
+        "en": "Enska",
+        "cs": "Tékkneska",
+        "pl": "Pólska",
+        "de": "Þýska",
+        "es": "Spænska",
+        "fr": "Franska"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Mitt AI",
+    "titlePart1": "Mitt",
+    "titlePart2": "AI",
+    "createNew": "Búa til nýtt AI",
+    "createButton": "Búa til persónu",
+    "characterCount": "{count}/{limit} persónur",
+    "loadMore": "Hlaða meira",
+    "empty": {
+      "title": "Engar persónur enn",
+      "description": "Búðu til fyrstu AI persónuna þína og byrjaðu að spjalla! Sérsníða útlit, persónuleika og rödd.",
+      "createFirst": "Búa til fyrstu persónuna þína"
+    },
+    "delete": {
+      "title": "Eyða persónu",
+      "message": "Ertu viss um að þú viljir eyða {name}? Þetta mun fjarlægja persónuna, allt spjallferil og myndað efni varanlega.",
+      "confirm": "Eyða",
+      "success": "Persónu eytt"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Samskipti",
+    "interactionDescription": "Skrifaðu bara náttúrulega — biðja um mynd, myndband eða byrja spjall. AI skilur ásetning þinn á hvaða tungumáli sem er.",
+    "mediaTitle": "Búa til myndir og myndbönd",
+    "mediaDescription": "Láttu ímyndunaraflið laust — búðu til myndir eða myndbönd án takmarkana.",
+    "next": "Næst →",
+    "gotIt": "Náði því"
+  }
+}

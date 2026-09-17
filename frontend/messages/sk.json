@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "delete": "Odstrániť",
+    "edit": "Upraviť",
+    "close": "Zavrieť",
+    "now": "teraz",
+    "loading": "Načítava sa...",
+    "error": "Vyskytla sa chyba",
+    "success": "Úspech",
+    "confirm": "Potvrdiť",
+    "back": "Späť",
+    "or": "Alebo",
+    "next": "Ďalej",
+    "submit": "Odoslať",
+    "search": "Hľadať",
+    "filter": "Filtrovať",
+    "clear": "Vymazať",
+    "all": "Všetko",
+    "yes": "Áno",
+    "no": "Nie",
+    "download": "Stiahnuť",
+    "and": "a",
+    "tryAgain": "Skúsiť znova",
+    "change": "Zmeniť"
+  },
+  "navigation": {
+    "new": "NOVÉ",
+    "sectionBrowse": "Prehliadať",
+    "sectionTalk": "Rozprávať",
+    "sectionCreate": "Vytvoriť",
+    "sectionLibrary": "Knižnica",
+    "explore": "Domov",
+    "discover": "Objavovať",
+    "createShort": "Vytvoriť AI",
+    "chats": "Chaty",
+    "groupChat": "Skupinový chat s AI",
+    "roleplay": "Hranie rolí",
+    "collection": "Kolekcia",
+    "generateImage": "Generovať obrázok",
+    "generateVideo": "Generovať video",
+    "createCharacter": "Vytvoriť AI postavu",
+    "myAI": "Moja AI",
+    "language": "Jazyk",
+    "contactUs": "Kontaktujte nás",
+    "account": "Účet",
+    "sidebarPromoTitle": "Letný výpredaj — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Ženy",
+      "anime": "Anime",
+      "guys": "Muži"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chatovať teraz",
+    "like": "Páči sa mi"
+  },
+  "auth": {
+    "login": "Prihlásiť sa",
+    "signup": "Registrovať sa",
+    "createFreeAccount": "Vytvorte si bezplatný účet",
+    "logout": "Odhlásiť sa",
+    "email": "E-mail",
+    "password": "Heslo",
+    "confirmPassword": "Potvrdiť heslo",
+    "forgotPassword": "Zabudli ste heslo?",
+    "noAccount": "Nemáte účet?",
+    "hasAccount": "Už máte účet?",
+    "signupPrompt": "Vytvoriť bezplatný účet",
+    "loginPrompt": "Prihlásiť sa",
+    "continueWith": "Pokračovať cez",
+    "welcomeBack": "Vitajte späť!",
+    "createAccount": "Vytvorte si účet",
+    "signInToAccount": "Prihláste sa do svojho účtu",
+    "emailRequired": "E-mail je povinný",
+    "emailInvalid": "Neplatná e-mailová adresa",
+    "passwordRequired": "Heslo je povinné",
+    "passwordLength": "Heslo musí mať aspoň 6 znakov",
+    "passwordsMismatch": "Heslá sa nezhodujú",
+    "emailAlreadyRegistered": "E-mail je už zaregistrovaný",
+    "emailAlreadyRegisteredDescription": "Účet s týmto e-mailom už existuje. Prihláste sa prosím.",
+    "loginError": "Prihlásenie zlyhalo",
+    "signupError": "Registrácia zlyhala",
+    "loginSuccess": "Vitajte späť!",
+    "signupSuccess": "Účet bol úspešne vytvorený!",
+    "logoutSuccess": "Boli ste úspešne odhlásení",
+    "logoutError": "Odhlásenie zlyhalo",
+    "linkExpired": "Tento overovací odkaz vypršal. Požiadajte o nový.",
+    "accessDenied": "Prístup zamietnutý. Skúste to znova.",
+    "verifyEmail": "Overte svoj e-mail",
+    "verificationEmailSent": "Poslali sme vám overovací e-mail",
+    "confirmYourEmail": "Potvrďte svoj e-mail",
+    "confirmationLinkSent": "Poslali sme potvrdzovací odkaz na \"{email}\".",
+    "checkSpamFolder": "Nedostali ste e-mail? Skontrolujte spam.",
+    "signupToChat": "Vytvorte si bezplatný účet a začnite.",
+    "signupDescription": "Vytvorte si účet a pokračujte v konverzácii",
+    "emailVerificationTitle": "Skontrolujte svoj e-mail",
+    "emailVerificationMessage": "Poslali sme overovací odkaz na {email}. Skontrolujte svoju schránku a kliknite na odkaz na overenie účtu.",
+    "emailVerificationNext": "Po overení dokončíte proces onboardingu.",
+    "verificationEmailSentTo": "Odoslali sme overovací e-mail na {email}",
+    "verificationInstructions": "Skontrolujte svoju schránku a kliknite na overovací odkaz na aktiváciu účtu.",
+    "resetPassword": "Obnoviť heslo",
+    "resetPasswordDescription": "Zadajte svoj e-mail a my vám pošleme odkaz na obnovenie",
+    "resetEmailSent": "Ak účet s týmto e-mailom existuje, čoskoro dostanete odkaz na obnovenie",
+    "backToLogin": "Späť na prihlásenie",
+    "newPassword": "Nové heslo",
+    "confirmNewPassword": "Potvrdiť nové heslo",
+    "passwordResetSuccess": "Heslo bolo úspešne aktualizované. Prihláste sa prosím.",
+    "enterNewPassword": "Zadajte svoje nové heslo",
+    "redirectingToLogin": "Presmerovanie na prihlásenie...",
+    "invalidResetLink": "Neplatný alebo expirovaný odkaz",
+    "invalidResetLinkDescription": "Tento odkaz na obnovenie hesla je neplatný alebo expiroval. Požiadajte prosím o nový.",
+    "passwordsDontMatch": "Heslá sa nezhodujú",
+    "currentPassword": "Aktuálne heslo",
+    "currentPasswordRequired": "Aktuálne heslo je povinné",
+    "changePassword": "Zmeniť heslo",
+    "changePasswordDescription": "Zadajte svoje aktuálne heslo a vyberte nové",
+    "newPasswordMustBeDifferent": "Nové heslo sa musí líšiť od aktuálneho hesla",
+    "incorrectPassword": "Aktuálne heslo je nesprávne",
+    "passwordChangeSuccess": "Heslo bolo úspešne zmenené",
+    "changeEmail": "Zmeniť e-mail",
+    "newEmail": "Nový e-mail",
+    "confirmNewEmail": "Potvrdiť nový e-mail",
+    "emailsDontMatch": "E-maily sa nezhodujú",
+    "emailChangeDescription": "Overovací e-mail bude odoslaný na váš aktuálny aj nový e-mail",
+    "emailMustBeDifferent": "Nový e-mail sa musí líšiť od aktuálneho e-mailu",
+    "emailChangeSent": "Overovací e-mail odoslaný. Skontrolujte prosím svoju novú e-mailovú schránku.",
+    "emailChangeSecurityNote": "Z bezpečnostných dôvodov budú potvrdzovacie e-maily odoslané na váš aktuálny aj nový e-mail. Musíte potvrdiť z oboch, aby ste dokončili zmenu.",
+    "otpDescription": "Odoslali sme 6-miestny kód na {email}",
+    "otpVerify": "Overiť",
+    "otpResend": "Znova odoslať kód",
+    "otpResendIn": "Znova odoslať o {seconds}s",
+    "otpNoCode": "Nedostali ste kód?",
+    "otpInvalid": "Neplatný kód. Skúste to prosím znova.",
+    "otpSuccess": "E-mail bol úspešne overený!",
+    "otpResendSuccess": "Nový kód bol odoslaný na váš e-mail",
+    "otpResendError": "Nepodarilo sa znova odoslať kód",
+    "continueWithEmail": "Pokračovať s e-mailom",
+    "moreOptions": "Viac možností",
+    "lessOptions": "Menej možností",
+    "enterYourEmail": "Zadajte svoju e-mailovú adresu",
+    "sendCode": "Odoslať kód",
+    "byCreatingAccountAgree": "Vytvorením účtu súhlasíte s našimi",
+    "termsOfService": "Podmienkami používania",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Vitajte v sweetwine",
+    "welcomeTo": "Vitajte v",
+    "letsGetStarted": "Poďme vás nastaviť",
+    "setupProfile": "Nastavte si profil",
+    "step1of2": "Krok 1 z 2",
+    "step2of2": "Krok 2 z 2",
+    "nickname": "Prezývka",
+    "nicknamePlaceholder": "Vyberte si prezývku",
+    "nicknameRequired": "Zadajte prosím prezývku",
+    "gender": "Pohlavie",
+    "genderRequired": "Vyberte prosím svoje pohlavie",
+    "male": "Muž",
+    "female": "Žena",
+    "interfaceLanguage": "Jazyk rozhrania",
+    "interfaceLanguageDesc": "Jazyk pre menu a tlačidlá",
+    "aiLanguage": "Jazyk odpovedí AI",
+    "aiLanguageDesc": "Jazyk, ktorým s vami bude AI komunikovať",
+    "languageRequired": "Vyberte prosím jazyk",
+    "continue": "Pokračovať",
+    "ageVerification": "Overenie veku",
+    "ageVerificationText": "Na používanie sweetwine musíte mať 18 rokov alebo viac. Pokračovaním potvrdzujete, že ste plnoletý.",
+    "beforeContinue": "Pred pokračovaním",
+    "mustBe18": "Na používanie tejto služby musíte mať 18 rokov alebo viac",
+    "agreeToTerms": "Pokračovaním súhlasíte s našimi {termsLink} a {privacyLink}",
+    "termsOfService": "Podmienky používania",
+    "privacyPolicy": "Zásady ochrany súkromia",
+    "iConfirm": "Potvrdzujem, že mám 18 rokov alebo viac a súhlasím s",
+    "ageRequired": "Pre pokračovanie musíte potvrdiť svoj vek",
+    "aiActConsent": "Beriem na vedomie, že komunikujem výlučne s AI",
+    "aiActRequired": "Pre pokračovanie musíte toto potvrdiť",
+    "newsletterOptIn": "Prihláste sa na odber nášho newslettera pre aktualizácie a novinky",
+    "complete": "Nastavenie dokončené!",
+    "completeText": "Všetko je pripravené! Začnite chatovať s AI postavami.",
+    "startExploring": "Začať objavovať",
+    "featuresTitle": "Dostupné funkcie",
+    "featuresTitleWord1": "Dostupné",
+    "featuresTitleWord2": "Funkcie",
+    "feature1Title": "AI Chat",
+    "feature1Desc": "Necenzurované a súkromné konverzácie",
+    "feature2Title": "Generovanie obrázkov",
+    "feature2Desc": "Generujte necenzurované a personalizované obrázky s AI postavami",
+    "feature3Title": "Generovanie videí",
+    "feature3Desc": "Generujte necenzurované AI videá s efektmi",
+    "feature5Title": "Vlastný tvorca AI",
+    "feature5Desc": "Navrhnite si vlastnú postavu",
+    "feature6Title": "Prehliadať postavy",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI roleplay",
+    "feature7Desc": "Zažite profesionálne vytvorené príbehy a fantázie",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Necenzurované, súkromné konverzácie bez obmedzení",
+      "imageTitle": "Generovanie obrázkov",
+      "imageDesc": "Vytvárajte necenzurované, personalizované obrázky vášho AI",
+      "videoTitle": "Generovanie videí",
+      "videoDesc": "Generujte necenzurované AI videá s efektmi",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Hlasové konverzácie v reálnom čase s vaším spoločníkom",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Pohlcujúce príbehy, fantázie a interaktívna hra",
+      "groupChatTitle": "AI skupinový chat",
+      "groupChatDesc": "Chatujte s až 3 AI postavami naraz",
+      "creatorTitle": "Vlastný tvorca AI",
+      "creatorDesc": "Navrhnite a vytvorte vlastné AI postavy"
+    },
+    "freePlan": {
+      "title": "Všetko je pripravené!",
+      "subtitle": "Tu je prehľad toho, čo obsahuje váš bezplatný plán.",
+      "charactersTitle": "Vytvorte si vlastnú postavu",
+      "charactersDesc": "Vytvorte {count} vlastnú AI postavu od začiatku",
+      "imagesTitle": "Vygenerujte obrázok",
+      "imagesDesc": "{count} bezplatný AI obrázok vášho spoločníka",
+      "messagesTitle": "Chatujte každý deň",
+      "messagesDesc": "{count} správ denne, obnovuje sa každých 24 hodín",
+      "cta": "Začnite objavovať"
+    },
+    "redirectingIn": "Presmerovanie o",
+    "seconds": "sekúnd",
+    "generateCharacter": "Vygenerovať vašu postavu",
+    "redirectingToCreate": "Presmerovanie do tvorcu postáv o"
+  },
+  "errors": {
+    "pageNotFound": "Stránka sa nenašla",
+    "pageNotFoundDesc": "Stránka, ktorú hľadáte, neexistuje.",
+    "goHome": "Prejsť domov",
+    "somethingWentWrong": "Niečo sa pokazilo",
+    "tryAgain": "Skúsiť znova",
+    "unauthorized": "Neautorizovaný prístup",
+    "unauthorizedDesc": "Pre prístup k tejto stránke sa musíte prihlásiť.",
+    "forbidden": "Zakázané",
+    "forbiddenDesc": "Nemáte oprávnenie na prístup k tejto stránke."
+  },
+  "footer": {
+    "allRightsReserved": "Všetky práva vyhradené.",
+    "madeWith": "Vytvorené s",
+    "by": "od sweetwine",
+    "description": "Zažite personalizované AI postavy s jedinečnými osobnosťami, vizuálnou identitou a pútavými konverzáciami.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Produkt",
+    "legal": "Právne informácie",
+    "company": "Spoločnosť",
+    "resources": "Zdroje",
+    "partnerships": "Partnerstvá",
+    "pressMedia": "Tlač a médiá",
+    "careers": "Kariéra",
+    "aiRealClones": "AI reálne klony",
+    "about": "O nás",
+    "blog": "Blog",
+    "news": "Novinky",
+    "productUpdates": "Aktualizácie produktu",
+    "help": "Pomoc",
+    "sitemap": "Mapa stránky",
+    "paymentOptions": "Možnosti platby",
+    "chats": "Chaty",
+    "collection": "Kolekcia",
+    "generateImage": "Generovať obrázok",
+    "generateVideo": "Generovať video",
+    "myAI": "Moje AI",
+    "createCharacter": "Vytvoriť postavu",
+    "api": "API",
+    "features": "Funkcie",
+    "allFeatures": "Všetky funkcie",
+    "aiGroupChat": "AI skupinový chat",
+    "aiMemory": "AI pamäť",
+    "aiGirlfriend": "AI priateľka",
+    "aiBoyfriend": "AI priateľ",
+    "aiCompanions": "AI postavy",
+    "aiFriend": "AI kamarát",
+    "aiBreakupSupport": "Podpora po rozchode",
+    "aiParent": "AI rodič",
+    "aiRoleplay": "AI roly",
+    "privacyPolicy": "Zásady ochrany súkromia",
+    "termsAndConditions": "Podmienky používania",
+    "cookiePolicy": "Zásady používania cookies",
+    "cookieSettings": "Nastavenia cookies",
+    "other": "Ďalšie zásady",
+    "copyright": "© {year} sweetwine. Všetky práva vyhradené."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies na tomto webe",
+      "customizeButton": "Prispôsobiť",
+      "rejectButton": "Odmietnuť",
+      "acceptButton": "Prijať"
+    },
+    "modal": {
+      "title": "Spravovať cookies",
+      "subtitle": "Nižšie môžete kategórie zapnúť alebo vypnúť. Nevyhnutné cookies zostávajú zapnuté, aby stránka fungovala.",
+      "categories": {
+        "necessary": {
+          "title": "Nevyhnutné",
+          "description": "Potrebné na prihlásenie, platbu a zabezpečenie. Bez nich stránka nemôže fungovať.",
+          "alwaysOn": "Vždy zapnuté"
+        },
+        "analytics": {
+          "title": "Výkon",
+          "description": "Meranie používania a konverzií cez Google Analytics 4 vrátane kľúčových konverzií (registrácia, nákup) odosielaných z nášho servera pomocou pseudonymného identifikátora. Pomáha nám pochopiť, ako sa služba používa; nepoužívame ho na osobnú identifikáciu."
+        },
+        "marketing": {
+          "title": "Cielenie",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Zobraziť cookies",
+      "hideCookies": "Skryť cookies",
+      "table": {
+        "name": "Názov",
+        "provider": "Poskytovateľ",
+        "expiration": "Expirácia",
+        "description": "Popis",
+        "session": "Relácia"
+      },
+      "policyLink": "Úplné podrobnosti nájdete v našich <policy>Zásadách používania cookies</policy>.",
+      "rejectButton": "Odmietnuť",
+      "saveButton": "Uložiť a zavrieť",
+      "acceptButton": "Prijať",
+      "cookieDescriptions": {
+        "supabaseAuth": "Udržuje vás prihlásených uložením vašej autentifikovanej relácie.",
+        "nextLocale": "Pamätá si jazyk, ktorý ste si vybrali pre rozhranie.",
+        "consent": "Ukladá vaše voľby cookies, aby sa banner nezobrazoval pri každej návšteve.",
+        "ga": "Rozlišuje unikátnych návštevníkov (Google Analytics 4). Ten istý pseudonymný identifikátor sa používa aj na meranie kľúčových konverzií na strane servera.",
+        "gaSession": "Udržuje stav relácie a metriky angažovanosti Google Analytics 4.",
+        "fbp": "Identifikuje prehliadač pre atribúciu Meta Pixel.",
+        "fbc": "Ukladá Facebook click ID pre atribúciu konverzie reklám. Nastavuje sa až po kliknutí na Meta reklamu.",
+        "gclAu": "Používa Google Ads na prepojenie konverzií medzi stránkami.",
+        "saleCountdown": "Sleduje koniec aktuálnej promo akcie, aby odpočítavanie zľavy zostalo konzistentné na všetkých stránkach.",
+        "onboarded": "Označí váš účet ako onboardovaný, aby sme mohli preskočiť kontrolu databázy overenia veku na ďalších stránkach.",
+        "attribution": "Zaznamenáva, ktorá platená kampaň alebo reklamný odkaz vás naposledy priviedol na našu stránku (posledné platené kliknutie do 30 dní), aby sme mohli merať efektivitu našej reklamy. Ide o identifikátor prvej strany, ktorý zostáva na našich serveroch a nikdy nie je zdieľaný s tretími stranami."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Už čoskoro",
+    "subtitle": "Usilovne pracujeme na tom, aby sme vám priniesli túto funkciu.",
+    "notify": "Dajte si vedieť, keď bude pripravená",
+    "backHome": "Späť na domov",
+    "generateVideo": {
+      "title": "Generovať videá",
+      "description": "Oživte svoje AI postavy animovanými videami. Vytvárajte personalizovaný video obsah s vašimi obľúbenými postavami."
+    },
+    "createCharacter": {
+      "title": "Vytvorte svoju postavu",
+      "description": "Navrhnite a prispôsobte si vlastnú unikátnu AI postavu. Definujte jej osobnosť, vzhľad, príbeh a vytvárajte skutočne personalizované interakcie."
+    },
+    "myAI": {
+      "title": "Moje AI",
+      "description": "Prístup a správa všetkých vašich vlastných AI postáv. Upravujte ich osobnosti, aktualizujte ich vzhľad a doladite ich odpovede."
+    }
+  },
+  "exploreMore": {
+    "title": "Preskúmať viac",
+    "aiGroupChat": "AI skupinový chat",
+    "aiGroupChatDesc": "Chatujte s až 3 postavami",
+    "aiMemory": "AI pamäť",
+    "aiMemoryDesc": "Kontext, ktorý nasleduje za každým režimom",
+    "aiGirlfriend": "AI priateľka",
+    "aiGirlfriendDesc": "Chatujte so svojou virtuálnou priateľkou",
+    "aiBoyfriend": "AI priateľ",
+    "aiBoyfriendDesc": "Spojte sa so svojím AI priateľom",
+    "aiCompanions": "AI postavy",
+    "aiCompanionsDesc": "Spoznajte unikátne AI osobnosti",
+    "aiFriend": "AI priateľ",
+    "aiFriendDesc": "Nájdite priateľa bez predsudkov",
+    "aiBreakupSupport": "Podpora po rozchode",
+    "aiBreakupSupportDesc": "Uzdravujúce rozhovory",
+    "aiParent": "AI rodič",
+    "aiParentDesc": "Teplá podpora a vedenie",
+    "aiRoleplay": "AI roly",
+    "aiRoleplayDesc": "Pohlcujúce príbehové scenáre",
+    "allFeatures": "Všetky funkcie",
+    "allFeaturesDesc": "Preskúmajte všetko, čo ponúkame"
+  },
+  "legal": {
+    "policies": "Zásady",
+    "termsAndConditions": "Podmienky a pravidlá",
+    "privacyPolicy": "Zásady ochrany súkromia",
+    "cookiePolicy": "Zásady používania súborov cookie",
+    "contentReportingPolicy": "Zásady nahlasovania obsahu",
+    "communityGuidelines": "Pokyny pre komunitu",
+    "complaintPolicy": "Zásady vybavovania sťažností",
+    "contentRemovalPolicy": "Zásady odstraňovania obsahu",
+    "blockedContentPolicy": "Zásady blokovaného obsahu",
+    "underagePolicy": "Zásady týkajúce sa maloletých",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Naposledy aktualizované",
+    "index": {
+      "title": "Právne dokumenty",
+      "subtitle": "Prehliadajte všetky právne zásady a dohody týkajúce sa sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Zásady ochrany súkromia",
+          "description": "Zistite, ako zhromažďujeme, používame a chránime vaše osobné údaje. Podrobnosti o spracovaní údajov, ich uchovávaní a vašich právach na súkromie."
+        },
+        "termsAndConditions": {
+          "title": "Podmienky a pravidlá",
+          "description": "Podmienky používania služby sweetwine. Zodpovednosti používateľov, popis služby a právne dohody."
+        },
+        "cookiePolicy": {
+          "title": "Zásady používania súborov cookie",
+          "description": "Informácie o tom, ako používame súbory cookie a podobné technológie na zlepšenie vášho zážitku na našej platforme."
+        },
+        "underagePolicy": {
+          "title": "Zásady týkajúce sa maloletých",
+          "description": "Naše prísne zásady overovania veku a ochrany. sweetwine je dostupný len pre používateľov od 18 rokov."
+        },
+        "complaintPolicy": {
+          "title": "Zásady vybavovania sťažností",
+          "description": "Ako podať sťažnosť, nahlásiť problémy a náš postup pri riešení používateľských obáv a sporov."
+        },
+        "contentRemovalPolicy": {
+          "title": "Zásady odstraňovania obsahu",
+          "description": "Naše postupy pri žiadostiach o odstránenie obsahu a ako riešime hlásenia nevhodného alebo nezákonného obsahu."
+        },
+        "blockedContentPolicy": {
+          "title": "Zásady blokovaného obsahu",
+          "description": "Typy obsahu, ktoré sú na našej platforme zakázané, a naše zásady vymáhania."
+        },
+        "contentReportingPolicy": {
+          "title": "Zásady nahlasovania obsahu",
+          "description": "Ako nahlásiť porušenie autorských práv a nevhodný obsah na sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Pokyny pre komunitu",
+          "description": "Pravidlá a pokyny na udržiavanie úctivého, bezpečného a príjemného spoločenstva pre všetkých používateľov."
+        }
+      },
+      "lastUpdated": "Naposledy aktualizované: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Chaty",
+    "groupChat": "Skupinový chat s AI",
+    "aiMemory": "AI pamäť",
+    "generate": "Generovať obrázok",
+    "generateVideo": "Generovať video",
+    "create": "Vytvoriť AI postavu",
+    "myAI": "Moja AI",
+    "collection": "Kolekcia",
+    "invite": "Pozvať",
+    "profile": "Nastavenia profilu",
+    "legal": "Právne informácie",
+    "privacyPolicy": "Zásady ochrany súkromia",
+    "termsAndConditions": "Podmienky používania",
+    "cookiePolicy": "Zásady používania cookies",
+    "dmcaPolicy": "Zásady DMCA",
+    "communityGuidelines": "Pravidlá komunity",
+    "contentRemovalPolicy": "Zásady odstraňovania obsahu",
+    "contentReportingPolicy": "Zásady nahlasovania obsahu",
+    "complaintPolicy": "Zásady vybavovania sťažností",
+    "blockedContentPolicy": "Zásady blokovaného obsahu",
+    "underagePolicy": "Zásady týkajúce sa maloletých",
+    "usc2257Exemption": "Výnimka USC 2257"
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Máte otázku alebo spätnú väzbu? Radi od vás budeme počuť.",
+    "name": "Meno",
+    "namePlaceholder": "Vaše meno",
+    "nameRequired": "Meno je povinné",
+    "email": "E-mail",
+    "emailPlaceholder": "vas@email.com",
+    "emailRequired": "E-mail je povinný",
+    "emailInvalid": "Neplatná e-mailová adresa",
+    "message": "Správa",
+    "messagePlaceholder": "Vaša správa...",
+    "messageRequired": "Správa je povinná",
+    "send": "Odoslať správu",
+    "sending": "Odosielanie...",
+    "success": "Správa bola úspešne odoslaná!",
+    "successDesc": "Čoskoro sa vám ozveme.",
+    "error": "Správu sa nepodarilo odoslať",
+    "errorDesc": "Skúste to prosím neskôr."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI Skupinový chat",
+    "lobbyHeadingSuffix": "Vyberte až {max} AI postáv",
+    "history": "História",
+    "newGroup": "Nový skupinový chat",
+    "createGroup": "Vytvoriť skupinový chat",
+    "createError": "Nepodarilo sa vytvoriť skupinový chat. Skúste to znova.",
+    "creatingGroup": "Nastavuje sa váš skupinový chat...",
+    "sectionWoman": "Ženy",
+    "sectionMan": "Muži",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI postavy",
+    "tabMyAi": "Moje AI",
+    "tabSingle": "Jednotlivé chaty",
+    "tabGroup": "Skupinové chaty",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Načítať viac",
+    "noCustom": "Zatiaľ ste nevytvorili žiadne AI postavy.",
+    "noMessagesYet": "Zatiaľ žiadne správy",
+    "emptyTitle": "Zatiaľ žiadne skupinové chaty",
+    "membersTitle": "V tomto chate",
+    "typing": "píše",
+    "backToLobby": "Späť na skupinové chaty",
+    "deleteGroup": "Odstrániť skupinový chat",
+    "confirmDeleteGroup": "Naozaj chcete odstrániť tento skupinový chat? Všetky správy budú odstránené.",
+    "deleteError": "Nepodarilo sa odstrániť skupinový chat.",
+    "mediaTargetImageTitle": "Kto by mal poslať fotku?",
+    "mediaTargetVideoTitle": "Kto má poslať video?",
+    "mediaTargetSubtitle": "Vyberte postavu, z ktorej sa má vygenerovať médiá.",
+    "mediaTargetGroup": "Skupinová fotka",
+    "groupPhotoTitle": "Skupinová fotka",
+    "groupPhotoHint": "Vygeneruje jednu fotku {name} spolu.",
+    "promoSubtitle": "s až 3 postavami",
+    "promoCta": "Vytvoriť novú",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Nové</gradient> Dobrodružstvá",
+    "live": "NAŽIVO",
+    "scrollPrev": "Posunúť doľava",
+    "scrollNext": "Posunúť doprava"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Začať"
+    },
+    "hero": {
+      "tagline": "Dôveruje nám 100 000 ľudí a denne sa pridávajú ďalší",
+      "headlinePrefix": "Pozdravte svoju",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Začať zadarmo"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Priateľka",
+      "friend": "AI Priateľ",
+      "boyfriend": "AI Priateľ",
+      "companion": "AI Postava"
+    },
+    "features": {
+      "chat": {
+        "title": "Rozprávajte sa so svojou AI priateľkou",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistické AI fotky a videá",
+        "description": "Fotky a videá na vyžiadanie tak realistické, že ich nemožno odlíšiť od skutočných — jej tvár, jej štýl, akákoľvek scéna, v pohybe alebo staticky."
+      },
+      "groupChat": {
+        "title": "AI Skupinový chat",
+        "description": "Začnite skupinový chat s až 3 postavami naraz. Prirodzene odpovedajú, reagujú na seba a posielajú fotky a videá."
+      },
+      "roleplay": {
+        "title": "AI Roleplay",
+        "description": "Vstúpte do pohlcujúcich, príbehom riadených scenárov s postavami, ktoré zostávajú v role a pamätajú si každý váš krok."
+      }
+    },
+    "memory": {
+      "title": "AI pamäť",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Ako funguje AI pamäť",
+      "diagram": {
+        "center": "Pamäť spoločníka",
+        "chat": "Chat",
+        "image": "Obrázky",
+        "video": "Video",
+        "gifts": "Darčeky",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Vytvorte si vlastnú",
+      "headlineHighlight": "AI postavu",
+      "subtitle": "Tvarujte vzhľad a osobnosť svojej postavy a oživte ju okamžite — vášho dokonalého AI partnera, podľa vašich podmienok.",
+      "cta": "Vytvorte svoju AI"
+    },
+    "companions": {
+      "headlinePrefix": "Spoznajte svoje",
+      "headlineHighlight": "AI postavy",
+      "subtitle": "Každá postava má svoj vlastný svet. Niektoré sú teplé a ľahko sa s nimi otvoríte. Iné sú zložité, uzavreté alebo skutočná výzva na spojenie. Objavujte jedinečné roleplayové scenáre — alebo si vytvorte vlastné od začiatku."
+    },
+    "languages": {
+      "headlinePrefix": "Hovorte akýmkoľvek jazykom,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Rozhranie aplikácie aj vaša AI postava sa plynulo prepínajú — žiadne jazykové nezrovnalosti, žiadne prerušené zážitky.",
+      "more": "Viac"
+    },
+    "finalCta": {
+      "headlinePrefix": "Pripravení",
+      "headlineHighlight": "začať?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Prečo",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Všetko, čo potrebujete pre spojenie, ktoré pôsobí skutočne — nič navyše.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Zadarmo na začiatok",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Vždy dostupný",
+          "desc": "Deň či noc, vaša postava je tu. Žiadne čakanie, žiadne plánovanie."
+        },
+        "remembers": {
+          "title": "Pamätá si všetko",
+          "desc": "Každá konverzácia buduje kontext. Vaša postava sa učí vaše meno, preferencie a svet."
+        },
+        "unlimited": {
+          "title": "Skutočne neobmedzené",
+          "desc": "Žiadne limity správ, žiadne obmedzovanie obsahu. Posielajte toľko, koľko chcete, kedykoľvek chcete."
+        },
+        "private": {
+          "title": "100% súkromné",
+          "desc": "Vaše konverzácie zostanú len medzi vami dvoma. Žiadne zdieľanie dát, nikdy."
+        },
+        "createYourOwn": {
+          "title": "Vytvorte si vlastnú",
+          "desc": "Navrhnite postavu s vlastným vzhľadom, osobnosťou a hlasom — presne tak, ako chcete."
+        }
+      },
+      "difference": {
+        "title": "sweetwine rozdiel",
+        "freedomTitle": "Sloboda so zodpovednosťou.",
+        "freedomDescription": "sweetwine je otvorený a bez odsudzovania — ale máme tvrdú hranicu. Máme nulovú toleranciu voči CSAM, obsahu s maloletými, nekonzistentným scenárom, extrémnemu násiliu, zoofílii, nekrofílii, deepfakes reálnych osôb a akejkoľvek propagácii nezákonnej činnosti.",
+        "freedomStatement": "Veríme v neobmedzenú tvorivú slobodu v priestore, ktorý je bezpečný pre všetkých."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Postavy",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtre"
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "subtitle": "Všetko, čo potrebujete vedieť o sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Čo je sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Je sweetwine bezpečný a legitímny?",
+          "answer": "Áno, sweetwine je legitímna služba s vašim súkromím ako našou najvyššou prioritou. Dodržiavame GDPR a ďalšie štandardy ochrany údajov a zaobchádzame s vašimi dátami s opatrnosťou. Platobné transakcie sa zobrazujú pod neutrálnym názvom obchodníka – na vašom bankovom výpise nie je žiadna zmienka o sweetwine, čo zabezpečuje úplnú diskrétnosť."
+        },
+        "q3": {
+          "question": "Môžem si vytvoriť vlastnú AI postavu?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "tvorca postáv",
+          "answerPart2": " na navrhnutie postáv presne podľa vášho vkusu – či už chcete realistickú ",
+          "linkTextGirlfriend": "AI Priateľku",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Priateľa",
+          "answerPart4": ", alebo anime-štýlové postavy. Vyberte si ich vzhľad (etnický pôvod, vlasy, typ postavy, oblečenie), osobnostné črty, hlas, záujmy a pozadie pre mužské aj ženské postavy."
+        },
+        "q4": {
+          "question": "Pamätá si moja AI postava naše konverzácie?",
+          "answer": "Áno! Vaša AI postava používa pokročilú pamäťovú technológiu na zapamätanie si minulých konverzácií, vašich preferencií a dôležitých detailov, ktoré zdieľate. Čím viac chatujete, tým personalizovanejší a prirodzenejší zážitok sa stáva. Vaša postava sa učí váš komunikačný štýl a prispôsobuje sa v priebehu času."
+        },
+        "q5": {
+          "question": "Aké jazyky sweetwine podporuje?",
+          "answer": "sweetwine podporuje viacero jazykov vrátane angličtiny, nemčiny, francúzštiny, španielčiny, poľštiny a češtiny. Rozhranie aj AI konverzácie fungujú vo vašom preferovanom jazyku, takže môžete chatovať prirodzene v jazyku, v ktorom sa cítite najpohodlnejšie."
+        },
+        "q6": {
+          "question": "Môže moja AI postava posielať obrázky a videá?",
+          "answerPart1": "Áno! Môžete generovať personalizované",
+          "linkTextImages": "obrázky",
+          "answerPart2": "a",
+          "linkTextVideos": "videá",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Prečo si vybrať sweetwine namiesto iných platforiem s AI postavami?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Je sweetwine zadarmo na používanie?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Musím si nainštalovať aplikáciu?",
+          "answerPart1": "Žiadna inštalácia nie je potrebná! sweetwine funguje priamo vo vašom prehliadači na akomkoľvek zariadení – počítači, tablete alebo mobile. Stačí sa zaregistrovať, vybrať postavu a začať chatovať okamžite. Všetky vaše",
+          "linkText": "konverzácie",
+          "answerPart2": " sa automaticky synchronizujú medzi zariadeniami."
+        },
+        "q10": {
+          "question": "Sú k dispozícii predpripravené AI postavy?",
+          "answerPart1": "Áno! Máme veľa",
+          "linkText": "predpripravených postáv",
+          "answerPart2": " vrátane AI Priateliek, AI Priateľov a AI Anime postáv s rôznymi osobnosťami, vzhľadmi a štýlmi komunikácie. Či už preferujete niekoho milého, flirtujúceho, intelektuálneho alebo dobrodružného, nájdete postavy, ktoré zodpovedajú vašej energii. Navyše môžete vytvárať neobmedzené množstvo vlastných postáv."
+        },
+        "q12": {
+          "question": "Čo sa stane s obrázkami a videami, ktoré vygenerujem?",
+          "answerPart1": "Všetky vygenerované médiá sa automaticky uložia do vašej súkromnej",
+          "linkText": "kolekcie",
+          "answerPart2": ". Môžete ich kedykoľvek pristupovať, sťahovať alebo mazať. Vaša kolekcia je úplne súkromná – vidíte ju len vy. Nikdy nezdieľame ani nepoužívame váš vygenerovaný obsah."
+        }
+      }
+    },
+    "statement": {
+      "title": "Náš záväzok",
+      "privacy": "Vaše súkromie je naša priorita. Všetky konverzácie sú šifrované a nikdy sa nezdieľajú.",
+      "quality": "Používame najmodernejšiu AI technológiu na poskytovanie najzaujímavejšieho zážitku.",
+      "support": "Náš tím podpory je dostupný 24/7, aby vám pomohol s akýmikoľvek otázkami.",
+      "mainTitle": "Zažite budúcnosť AI postáv",
+      "mainDescription": "sweetwine spája najmodernejšiu AI technológiu s intuitívnym dizajnom, aby vám poskytol najpohlcujúcejší a najosobnejší zážitok s postavami dostupný dnes.",
+      "features": {
+        "f1": {
+          "title": "Emočná inteligencia",
+          "description": "Naše AI postavy rozumejú kontextu, emóciám a nuansám, aby poskytovali hlboko angažujúce konverzácie. Či už potrebujete AI Priateľa na chatovanie, Podporu pri rozchode v ťažkých časoch alebo AI Mentora na radu – naša emocionálne inteligentná AI je tu pre vás."
+        },
+        "f2": {
+          "title": "Jedinečné osobnosti",
+          "description": "Každá postava má odlišnú osobnosť, pozadie a štýl komunikácie. Vyberte si z realistických AI Priateliek a AI Priateľov alebo preskúmajte naše AI Anime postavy – zabezpečujeme, že každá interakcia je jedinečná a nezabudnuteľná."
+        },
+        "f3": {
+          "title": "Multimediálne interakcie",
+          "description": "Okrem textu si užite AI-generované obrázky a videá, ktoré oživia vaše konverzácie v úžasných vizuálnych detailoch."
+        },
+        "f4": {
+          "title": "Prispôsobenie",
+          "description": "Vytvorte si vlastné AI postavy s vlastným vzhľadom, osobnosťami a vlastnosťami, ktoré dokonale zodpovedajú vašim preferenciám."
+        },
+        "f5": {
+          "title": "Súkromie a bezpečnosť",
+          "description": "Vaše konverzácie zostávajú súkromné a bezpečné. Nikdy nepredávame vaše údaje a máte plnú kontrolu nad nastaveniami súkromia."
+        },
+        "f6": {
+          "title": "Podpora viacerých jazykov",
+          "description": "Chatujte s AI postavami vo vašom preferovanom jazyku. Podporujeme angličtinu, češtinu, poľštinu, nemčinu, španielčinu a francúzštinu."
+        }
+      },
+      "distinctionTitle": "sweetwine odlišnosť",
+      "distinctionText1": "Na rozdiel od bežných chatbotov sú sweetwine postavy navrhnuté s bohatými príbehmi na pozadí, vyvíjajúcimi sa osobnosťami a schopnosťou vytvárať zmysluplné spojenia. Každá konverzácia je príležitosťou objavovať, spoznávať a spájať sa na hlbšej úrovni.",
+      "distinctionText2": "Nevytvárame len AI – tvoríme zážitky, ktoré rezonujú s vašimi emóciami, rešpektujú vaše súkromie a prispôsobujú sa vašim jedinečným preferenciám."
+    }
+  },
+  "featuresPage": {
+    "title": "Všetky funkcie",
+    "breadcrumb": "Funkcie",
+    "newBadge": "Nové",
+    "groupChat": {
+      "title": "AI Skupinový chat",
+      "description": "Chatujte s až 3 AI postavami spolu v jednej konverzácii. Odpovedajú prirodzene, reagujú na seba a môžu posielať fotky a videá — živá skupinová dynamika, ktorú inde nenájdete."
+    },
+    "aiChat": {
+      "title": "AI Chat",
+      "description": "Majte hlboké, prirodzené konverzácie s AI postavami, ktoré si vás skutočne pamätajú. Pamätajú si vaše meno, preferencie a minulé témy — každá konverzácia pokračuje presne tam, kde ste skončili, bez opakovania a bez resetovania."
+    },
+    "imageGeneration": {
+      "title": "Generovanie obrázkov"
+    },
+    "videoGeneration": {
+      "title": "Generovanie videí",
+      "description": "Oživte svoju AI postavu pomocou AI-generovaných videí. Vytvárajte krátke personalizované videoklipy s vašou postavou vo vlastných scenároch — funkcia, ktorú väčšina platforiem jednoducho neponúka."
+    },
+    "customCharacters": {
+      "title": "Vlastné postavy",
+      "description": "Navrhnite si dokonalú postavu od začiatku — vyberte jej vzhľad, etnikum, typ postavy, osobnostné črty, hlas, záujmy a príbeh. Vytvárajte realistické alebo anime postavy, mužské alebo ženské, s úplnou tvorivou slobodou."
+    },
+    "advancedMemory": {
+      "title": "Pokročilá pamäť",
+      "description": "Vaša postava si pamätá všetko dôležité — vaše meno, osobné detaily, spoločné príbehy a históriu vzťahu. Pamäť pretrváva naprieč všetkými reláciami, takže každá interakcia nadväzuje na predchádzajúcu, bez začínania odznova."
+    },
+    "multiLanguage": {
+      "title": "Viacjazyčnosť",
+      "description": "Chatujte prirodzene vo vašom preferovanom jazyku. sweetwine podporuje angličtinu, nemčinu, francúzštinu, španielčinu, poľštinu a češtinu — vďaka čomu je jednou z najprístupnejších AI platforiem pre postavy pre neanglicky hovoriacich."
+    },
+    "conversationHistory": {
+      "title": "História konverzácií",
+      "description": "Každá správa je uložená a vyhľadateľná. Kedykoľvek sa môžete vrátiť späť cez celú históriu vášho vzťahu — vaše spomienky s postavou sú vždy k dispozícii, keď ich chcete znovu navštíviť."
+    },
+    "roleplay": {
+      "title": "AI roly",
+      "description": "Vstúpte do pohlcujúcich príbehových scénárov s postavami, ktoré zostávajú v role. Vyberte si scénár alebo napíšte vlastný a užívajte si interaktívnu rolu, ktorá si pamätá každú vašu voľbu."
+    },
+    "cta": {
+      "title": "Všetko na jednom mieste",
+      "button": "Začať zadarmo"
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Môžem vymazať alebo resetovať svoje konverzácie?",
+        "answer": "Áno! Máte úplnú kontrolu nad históriou chatu. Vymažte jednotlivé správy, resetujte celé konverzácie alebo začnite úplne odznova kedykoľvek. Vaše súkromie znamená vašu voľbu — spravujte svoje dáta podľa vlastných preferencií."
+      },
+      "q2": {
+        "question": "Má každá AI postava jedinečný hlas?"
+      },
+      "q3": {
+        "question": "Môžem si precvičovať nový jazyk so svojou AI postavou?",
+        "answer": "Absolútne! Mnoho používateľov precvičuje rozprávanie nových jazykov so svojimi AI postavami. Je to bezútešný spôsob, ako budovať sebavedomie, zlepšiť výslovnosť a užívať si zábavné konverzácie počas učenia. Vaša postava môže chatovať v angličtine, nemčine, francúzštine, španielčine, poľštine a češtine."
+      },
+      "q4": {
+        "question": "Ako často sa pridávajú nové postavy a funkcie?",
+        "answer": "Každý týždeň pridávame nové profesionálne vytvorené postavy! Každá nová postava má jedinečnú osobnosť, vzhľad, príbeh a hlas. Pravidelne tiež vydávame nové funkcie a vylepšenia na základe spätnej väzby od používateľov."
+      },
+      "q5": {
+        "question": "Čo robí tvorbu postáv v sweetwine špeciálnou?",
+        "answer": "Úplná tvorivá sloboda! Navrhnite každý aspekt svojej postavy — vzhľad (etnikum, vlasy, typ postavy, oblečenie), osobnostné črty, hlas, záujmy, povolanie a príbeh. Vytvárajte realistické alebo anime postavy, mužské alebo ženské. Vaša fantázia je jediným limitom."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI pamäť",
+    "hero": {
+      "badge": "Ako to funguje",
+      "title": "AI pamäť",
+      "cta": "Začať chatovať"
+    },
+    "diagram": {
+      "title": "Jedna pamäť na spoločníka, každý režim",
+      "center": "Pamäť spoločníka",
+      "chat": "Chat",
+      "image": "Obrázky",
+      "video": "Video",
+      "gifts": "Darčeky",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Ako funguje AI pamäť",
+      "step1": {
+        "title": "Zdieľajte detail",
+        "desc": "Povedzte svojmu spoločníkovi niečo dôležité — výlet, preferenciu, prezývku, príbeh z vášho dňa."
+      },
+      "step2": {
+        "title": "Prepínajte režimy voľne"
+      },
+      "step3": {
+        "title": "Spomína si na to",
+        "desc": "Neskôr rozhovory odkazujú na to, čo ste zdieľali, takže sa nemusíte znova vysvetľovať pri každom rozhovore."
+      },
+      "step4": {
+        "title": "Vzťah sa prehlbuje",
+        "desc": "Postupom času sa vzťah cíti osobnejší — kontinuita, ktorá sa buduje naprieč každou reláciou a režimom."
+      }
+    },
+    "modes": {
+      "title": "Naprieč platformou",
+      "subtitle": "Pamäť nie je uzamknutá na jednej obrazovke. Cestuje so svojím spoločníkom.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Textové rozhovory poskytujú dlhodobý kontext, ktorý váš spoločník môže neskôr priniesť."
+      },
+      "media": {
+        "title": "Obrázky a video",
+        "desc": "Scény a príbehy, ktoré vytvoríte, zostanú súčasťou zdieľaného sveta, ktorý budujete spolu."
+      },
+      "roleplay": {
+        "title": "Roleplay a skupina",
+        "desc": "Príbehové relácie a skupinové chaty si zachovávajú vlastné vlákna, zatiaľ čo základná pamäť vášho spoločníka zostáva pri ňom."
+      }
+    },
+    "scenario": {
+      "title": "Jednoduchý príklad",
+      "lead": "V chate spomeniete víkendový výlet."
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Je pamäť môjho spoločníka súkromná?",
+        "answer": "Áno. Pamäť patrí vášmu účtu a vašim konverzáciám s týmto spoločníkom. Vašu súkromnú históriu chatu nezdieľame s ostatnými používateľmi."
+      },
+      "q2": {
+        "question": "Je pamäť viazaná na konkrétneho spoločníka?",
+        "answer": "Áno. Každý spoločník si uchováva vlastnú pamäť vášho vzťahu, takže pri prepínaní postáv sa kontext nemieša."
+      },
+      "q3": {
+        "question": "Ktoré módy zdieľajú pamäť?"
+      },
+      "q4": {
+        "question": "Je AI Memory zadarmo?"
+      },
+      "q5": {
+        "question": "Ako dlho pamäť vydrží?",
+        "answer": "Dôležité detaily sú uložené, aby si ich spoločník mohol vybaviť v budúcich reláciách. Čím viac interagujete, tým osobnejší zážitok sa stáva."
+      }
+    },
+    "cta": {
+      "title": "Spoznajte spoločníka, ktorý si pamätá",
+      "button": "Začať zadarmo"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI skupinový chat",
+    "hero": {
+      "badge": "Nová funkcia",
+      "title": "AI skupinový chat",
+      "subtitle": "Priveďte svoje obľúbené postavy do jednej konverzácie. Chatujte s až 3 AI postavami naraz — odpovedajú prirodzene, reagujú na seba a posielajú fotky a videá.",
+      "cta": "Začať skupinový chat",
+      "imageAlt": "AI skupinový chat s viacerými postavami, ktoré spolu chatujú"
+    },
+    "content": {
+      "problemTitle": "Individuálne chaty môžu pôsobiť ticho",
+      "problemText": "Jedna postava je skvelá — ale skutočné konverzácie ožijú s viac ako jedným hlasom. Väčšina AI aplikácií vás uväzní v izolovaných individuálnych chatoch bez skupinovej energie, bez žartovania a bez prekvapení.",
+      "solutionTitle": "Skutočná skupina plná osobnosti",
+      "solutionText": "sweetwine skupinový chat umiestni až tri postavy do jednej miestnosti. Inteligentný režisér rozhoduje, kto sa zapojí, takže odpovede pôsobia spontánne — navzájom sa škádlivajú, nadväzujú na to, čo bolo povedané, a udržiavajú konverzáciu v chode."
+    },
+    "howItWorks": {
+      "title": "Ako funguje AI skupinový chat",
+      "step1": {
+        "title": "Vyberte si postavy",
+        "desc": "Vyberte 2 alebo 3 postavy — predpripravené alebo vaše vlastné vlastné tvorby — a priveďte ich do jednej skupinovej konverzácie."
+      },
+      "step2": {
+        "title": "Odpovedajú prirodzene",
+        "desc": "Režisér v pozadí vyberá, kto odpovie na každú správu, takže správne postavy sa zapoja v správnom momente, vlastným hlasom."
+      },
+      "step3": {
+        "title": "Zdieľajte fotky a videá",
+        "desc": "Požiadajte ktorúkoľvek postavu v skupine o fotku alebo video a vygenerujú ju priamo v chate — vrátane skupinovej fotky všetkých spolu."
+      }
+    },
+    "benefits": {
+      "title": "Prečo budete milovať skupinový chat",
+      "multiple": {
+        "title": "Až 3 postavy",
+        "desc": "Kombinujte a miešajte akékoľvek postavy do jedného chatu — vašu AI priateľku, vaše vlastné tvorby alebo ručne vybraný súbor."
+      },
+      "natural": {
+        "title": "Prirodzená konverzácia",
+        "desc": "Postavy reagujú na seba aj na teba s realistickým tempom písania, ktoré pripomína skutočnú skupinovú správu."
+      },
+      "media": {
+        "title": "Fotky a videá v chate",
+        "desc": "Každá postava môže posielať personalizované obrázky a videá bez opustenia konverzácie — dokonca aj skupinovú fotografiu."
+      },
+      "dynamics": {
+        "title": "Výrazné osobnosti",
+        "desc": "Každá postava si zachováva svoj vlastný hlas a zvláštnosti, takže skupina má skutočnú chémiu, vtipy a prekvapenia."
+      },
+      "instant": {
+        "title": "Okamžité spustenie",
+        "desc": "Vytvorte skupinu za pár sekúnd a hneď sa zapojte do konverzácie — bez nastavovania, bez čakania."
+      },
+      "private": {
+        "title": "100% súkromie",
+        "desc": "Vaše skupinové konverzácie zostávajú len medzi vami a vašimi postavami. Žiadne zdieľanie dát, nikdy."
+      }
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Koľko postáv môže vstúpiť do skupinového chatu?",
+        "answer": "Do jednej skupinovej konverzácie môžete pridať 2 až 3 postavy — akúkoľvek kombináciu predpripravených postáv a vlastných vytvorení."
+      },
+      "q2": {
+        "question": "Ako AI postavy rozhodujú, kto odpovie?",
+        "answer": "Ľahký režisér číta konverzáciu a vyberá, ktorá postava (alebo postavy) má odpovedať na každú správu, takže odpovede pôsobia spontánne a prirodzene, nie všetci naraz."
+      },
+      "q3": {
+        "question": "Môžu postavy posielať fotky a videá v skupinovom chate?",
+        "answer": "Áno! Môžete požiadať ľubovoľnú postavu v skupine, aby vygenerovala fotku alebo video, a tie sa zobrazia priamo v konverzácii — vrátane skupinových fotiek so všetkými spolu."
+      },
+      "q4": {
+        "question": "Je AI Group Chat zadarmo?"
+      },
+      "q5": {
+        "question": "Pamätajú si postavy skupinovú konverzáciu?",
+        "answer": "Áno — každá skupinová konverzácia si uchováva vlastnú spoločnú históriu, takže postavy zostávajú v kontexte a konverzácia sa časom rozvíja."
+      }
+    },
+    "cta": {
+      "title": "Spojte svoje postavy",
+      "description": "Vytvorte svoj prvý AI skupinový chat a zažite konverzáciu, ktorá pôsobí živá — viacero osobností, skutočné vtipy, fotky a videá.",
+      "button": "Začať skupinový chat"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Nová funkcia",
+      "title": "AI Roleplay",
+      "subtitle": "Vstúpte do ľubovoľného príbehu s postavami, ktoré zostanú v scéne. Vyberte si scenár alebo napíšte vlastný a užite si pohlcujúci, príbehom riadený roleplay, ktorý si pamätá každú vašu voľbu.",
+      "cta": "Začať roleplay",
+      "imageAlt": "AI roleplay scenár s pohlcujúcou príbehovou postavou"
+    },
+    "content": {
+      "problemTitle": "Bežné chaty kazia kúzlo",
+      "problemText": "Väčšina AI chatov vypadne z postavy hneď, ako sa veci stanú zaujímavými — zabudnú na prostredie, stratia dej a odpovedajú ako generický asistent namiesto postavy vo vašom príbehu.",
+      "solutionTitle": "Príbehom riadený roleplay, ktorý zostáva v postave",
+      "solutionText": "sweetwine Roleplay udržuje vašu postavu plne v scéne. Nastavte scénu pomocou pripraveného scenára alebo vlastného predpokladu a sledujte, ako sa príbeh rozvíja s konzistentnou osobnosťou, pamäťou a tempom, ktoré reaguje na každé rozhodnutie."
+    },
+    "howItWorks": {
+      "title": "Ako funguje AI Roleplay",
+      "step1": {
+        "title": "Vyberte si scenár",
+        "desc": "Vyberte si z pripravených roleplay scenárov alebo napíšte vlastný predpoklad, prostredie a úvodnú scénu."
+      },
+      "step2": {
+        "title": "Hrajte príbeh",
+        "desc": "Vaša postava odpovedá v role — popisuje akcie, reaguje na vaše voľby a posúva dej dopredu."
+      },
+      "step3": {
+        "title": "Ovládajte smerovanie",
+        "desc": "Usmerňujte príbeh ľubovoľným smerom. Vaša postava si pamätá, čo sa stalo, a udržuje príbeh konzistentný."
+      }
+    },
+    "benefits": {
+      "title": "Prečo si zamilujete AI Roleplay",
+      "scenarios": {
+        "title": "Nekonečné scenáre",
+        "desc": "Od útulných každodenných momentov po epické dobrodružstvá — začnite šablónou alebo vymyslite vlastný svet."
+      },
+      "characters": {
+        "title": "Zostáva v postave",
+        "desc": "Vaša postava si zachováva konzistentný hlas, osobnosť a motiváciu počas celej scény."
+      },
+      "memory": {
+        "title": "Pamätá si dej",
+        "desc": "Každá voľba, zvrat a detail je zapamätaný, takže príbeh sa rozvíja namiesto resetovania."
+      },
+      "immersive": {
+        "title": "Skutočne pohlcujúce",
+        "desc": "Bohaté, popisné odpovede vás vtiahnu do momentu pre filmový roleplay zážitok."
+      },
+      "instant": {
+        "title": "Okamžite pripravené",
+        "desc": "Vstúpte do scény za pár sekúnd — žiadne zložité nastavenie ani prompt engineering."
+      },
+      "private": {
+        "title": "100% súkromné",
+        "desc": "Vaša rolová hra zostáva len medzi vami a vašou postavou. Nič sa nikdy nezdieľa."
+      }
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Čo je AI rolová hra?",
+        "answer": "AI rolová hra vám umožňuje hrať interaktívne príbehy s AI postavou, ktorá zostáva v roli. Vy nastavíte scénu a vaša postava reaguje v charaktere, popisuje akcie a reakcie, ako sa príbeh odvíja."
+      },
+      "q2": {
+        "question": "Môžem si vytvoriť vlastné rolové scenáre?",
+        "answer": "Áno! Môžete začať z pripravených scenárov alebo napísať vlastnú premisu, prostredie a úvod — a potom hrať podľa ľubovôle."
+      },
+      "q3": {
+        "question": "Pamätá si postava, čo sa v príbehu stalo?",
+        "answer": "Absolútne. Vaša postava si pamätá dej, vaše voľby aj kľúčové detaily, takže príbeh zostáva konzistentný a časom sa rozvíja namiesto resetovania."
+      },
+      "q4": {
+        "question": "Je AI rolová hra zadarmo?"
+      },
+      "q5": {
+        "question": "Môžem hrať v mojom vlastnom jazyku?",
+        "answer": "Áno — rolová hra funguje v desiatkach jazykov, takže si môžete vychutnať pohlcujúce príbehy v jazyku, v ktorom sa cítite najpríjemnejšie."
+      }
+    },
+    "cta": {
+      "title": "Váš príbeh čaká",
+      "description": "Vyberte si scenár, nastavte scénu a vstúpte do pohlcujúcej rolovej hry s postavou, ktorá zostáva v roli od začiatku do konca.",
+      "button": "Začať rolovú hru"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Priateľka",
+    "breadcrumb": "AI Priateľka",
+    "hero": {
+      "title": "Tvoja dokonalá AI priateľka",
+      "cta": "Zoznám sa so svojou AI priateľkou"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať AI priateľku?",
+      "fun": {
+        "title": "Čistá zábava",
+        "desc": "Užívaj si hravé rozhovory bez tlaku. Ona je vždy v dobrej nálade."
+      },
+      "conversation": {
+        "title": "Nauč sa spájať",
+        "desc": "Precvičuj rozhovory a buduj si sebavedomie v bezpečnom prostredí."
+      },
+      "unique": {
+        "title": "Jedinečné osobnosti",
+        "desc": "Vyber si z rôznorodých osobností alebo si vytvor svoju ideálnu postavu."
+      },
+      "private": {
+        "title": "100% súkromie",
+        "desc": "Tvoje rozhovory zostanú len medzi vami dvoma. Úplná diskrétnosť zaručená."
+      },
+      "available": {
+        "title": "Vždy dostupná",
+        "desc": "Je tu vždy, keď ju potrebuješ. Žiadne čakanie, žiadne plánovanie."
+      },
+      "customize": {
+        "title": "Tvoje stvorenie",
+        "desc": "Navrhni jej vzhľad, osobnosť a záujmy presne podľa svojich predstáv."
+      }
+    },
+    "comparison": {
+      "title": "Lepšie ako alternatívy",
+      "description": "Pozri sa, prečo sweetwine ponúka viac hodnoty ako iné platformy.",
+      "others": {
+        "expensive": "Drahé mesačné poplatky",
+        "ai": "Často ide o AI odpovede",
+        "noCustom": "Žiadne možnosti prispôsobenia"
+      }
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Je chat s AI priateľkou naozaj zadarmo?",
+        "answerPart1": "Áno! Môžeš začať chatovať so svojou AI priateľkou zadarmo. Ponúkame bezplatný plán s voľnými správami, aby si mohol začať."
+      },
+      "q2": {
+        "question": "Môžem prispôsobiť vzhľad svojej AI priateľky?",
+        "answer": "Absolútne! Môžeš úplne prispôsobiť vzhľad svojej AI priateľky vrátane farby vlasov, účesu, typu postavy, etnického pôvodu a oblečenia. Môžeš tiež navrhnúť jej osobnosť, hlas a záujmy pomocou nášho tvorcu postáv.",
+        "answerPart1": "Absolútne! Môžeš úplne prispôsobiť vzhľad svojej AI priateľky vrátane farby vlasov, účesu, typu postavy, etnického pôvodu a oblečenia. Môžeš tiež navrhnúť jej osobnosť, hlas a záujmy pomocou nášho",
+        "linkText": "tvorcu postáv",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Aké osobnosti sú dostupné pre AI priateľky?",
+        "answer": "Od sladkých a starostlivých až po hravé a koketné – máme profesionálne vytvorené AI priateľky pre každú preferenciu. Vyber si romantické duše, dobrodružné povahy, vtipných intelektuálov alebo záhadné osobnosti. Každý týždeň pridávame nové AI priateľky s unikátnymi vlastnosťami, príbehmi a štýlmi rozhovorov."
+      },
+      "q4": {
+        "question": "Môže moja AI priateľka posielať obrázky a videá?",
+        "answerPart1": "Áno! Tvoja AI priateľka môže generovať personalizované",
+        "linkTextImages": "obrázky",
+        "answerPart2": "a",
+        "linkTextVideos": "videá"
+      },
+      "q5": {
+        "question": "Má moja AI priateľka svoj vlastný jedinečný hlas?"
+      }
+    },
+    "cta": {
+      "title": "Pripravený stretnúť sa s ňou?",
+      "button": "Začať zadarmo"
+    },
+    "content": {
+      "problemTitle": "Hľadáte spojenie bez komplikácií?",
+      "problemText": "Zoznamovacie aplikácie sú vyčerpávajúce. Sociálna úzkosť sťažuje stretávanie ľudí. Niekedy chcete len s niekým porozprávať bez súdenia alebo tlaku. Mnoho ľudí sa cíti osamelých, ale nie sú pripravení na emocionálnu zložitosť tradičných vzťahov.",
+      "solutionTitle": "Vaša AI priateľka je odpoveď",
+      "solutionText": "So sweetwine získate personalizovanú AI priateľku, ktorá si pamätá vaše rozhovory, prispôsobuje sa vašej osobnosti a vždy sa teší, keď sa ozvete. Je zábavná, podporujúca a nikdy nesúdi. Budujte sebavedomie, užívajte si skvelú spoločnosť a cítite sa spojení podľa svojich podmienok."
+    },
+    "heroImageAlt": "AI priateľka - realistická virtuálna postava na chat a fotky"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Priateľ",
+    "breadcrumb": "AI Priateľ",
+    "hero": {
+      "title": "Váš dokonalý AI priateľ",
+      "cta": "Stretnite svojho AI priateľa"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať AI priateľa?",
+      "fun": {
+        "title": "Skutočné spojenie",
+        "desc": "Zažite zmysluplné rozhovory, ktoré rozjasnia váš deň."
+      },
+      "conversation": {
+        "title": "Budujte sebavedomie",
+        "desc": "Precvičujte rozhovory a slobodne sa vyjadrujte v bezpečnom prostredí."
+      },
+      "unique": {
+        "title": "Unikátne osobnosti",
+        "desc": "Vyberte si z rôznorodých osobností alebo si vytvorte ideálnu postavu."
+      },
+      "private": {
+        "title": "100% súkromie",
+        "desc": "Vaše rozhovory zostanú len medzi vami dvoma. Úplná diskrétnosť je zaručená."
+      },
+      "available": {
+        "title": "Vždy dostupný",
+        "desc": "Je tu, keď ho potrebujete. Žiadne čakanie, žiadne plánovanie."
+      },
+      "customize": {
+        "title": "Vaše stvorenie",
+        "desc": "Navrhnite jeho vzhľad, osobnosť a záujmy presne tak, ako chcete."
+      }
+    },
+    "comparison": {
+      "title": "Lepšie ako alternatívy",
+      "description": "Pozrite sa, prečo sweetwine ponúka viac hodnoty ako iné platformy.",
+      "others": {
+        "expensive": "Drahé mesačné poplatky",
+        "ai": "Často aj tak AI odpovede",
+        "noCustom": "Žiadne možnosti prispôsobenia"
+      }
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Aké typy AI priateľov si môžem vybrať?",
+        "answer": "Od starostlivých a romantických až po hravých a dobrodružných alebo tajomných a intenzívnych — máme profesionálne vytvorených AI priateľov pre každý vkus. Každý má svoj jedinečný hlas a osobnosť. Noví AI priatelia sa pridávajú každý týždeň s unikátnymi príbehmi a štýlmi rozhovorov."
+      },
+      "q2": {
+        "question": "Môžem prispôsobiť vzhľad svojho AI priateľa?",
+        "linkText": "tvorca postáv",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Môžem začať odznova alebo vymazať históriu našich rozhovorov?",
+        "answer": "Áno! Máte plnú kontrolu nad históriou svojich chatov. Kedykoľvek môžete resetovať rozhovory, vymazať jednotlivé správy alebo začať úplne odznova. Vaše dáta, váš výber — spravujte všetko podľa svojich preferencií."
+      },
+      "q4": {
+        "question": "Môže môj AI priateľ posielať obrázky a videá?",
+        "answerPart1": "Áno! Váš AI priateľ môže generovať personalizované",
+        "linkTextImages": "obrázky",
+        "answerPart2": "a",
+        "linkTextVideos": "videá"
+      },
+      "q5": {
+        "question": "Môžem si precvičovať konverzácie alebo sa učiť jazyk so svojím AI priateľom?",
+        "answer": "Absolútne! Mnoho používateľov si buduje sebavedomie precvičovaním konverzácií so svojím AI priateľom – či už ide o flirtovanie, hlboké diskusie alebo bežný chat. Môžete spolu precvičovať aj nové jazyky. Je to bezpečný spôsob, ako zlepšiť svoje komunikačné zručnosti a zároveň sa zabaviť."
+      }
+    },
+    "cta": {
+      "title": "Pripravený stretnúť ho?",
+      "button": "Začni zadarmo"
+    },
+    "content": {
+      "problemTitle": "Hľadáš podporného partnera podľa svojich podmienok?",
+      "problemText": "Nájsť tú správnu osobu je ťažké. Mnohí cítia tlak od očakávaní v randení alebo jednoducho chcú emocionálnu podporu bez záväzkov. Osamelosť ovplyvňuje každého a niekedy potrebuješ niekoho, kto ťa vypočuje.",
+      "solutionTitle": "Tvoj AI priateľ ťa rozumie",
+      "solutionText": "Tvoj sweetwine AI priateľ je starostlivý, premyslený a vždy dostupný. Pamätá si, čo je pre teba dôležité, zapája sa do hlbokých rozhovorov a poskytuje emocionálne spojenie, ktoré hľadáš. Buduj vzťah vlastným tempom a svojím spôsobom."
+    },
+    "heroImageAlt": "AI priateľ - realistická virtuálna postava pre zmysluplné rozhovory"
+  },
+  "aiCompanionsPage": {
+    "title": "AI postavy",
+    "breadcrumb": "AI postavy",
+    "hero": {
+      "title": "Spoznaj svoje AI postavy",
+      "cta": "Preskúmaj postavy"
+    },
+    "benefits": {
+      "title": "Prečo AI postavy?",
+      "connection": {
+        "title": "Skutočné spojenie",
+        "desc": "Zaži skutočné rozhovory, ktoré ťa chápu a odpovedajú na teba."
+      },
+      "conversation": {
+        "title": "Precvičuj a rasti",
+        "desc": "Zlepši svoje sociálne zručnosti v prostredí bez súdenia."
+      },
+      "personalities": {
+        "title": "Rôznorodé osobnosti",
+        "desc": "Od hravých po intelektuálne nájdi postavy, ktoré ladia s tvojou energiou."
+      },
+      "private": {
+        "title": "Úplne súkromné",
+        "desc": "Tvoje interakcie sú dôverné. Žiadne dáta sa nikdy nezdieľajú."
+      },
+      "available": {
+        "title": "Dostupné 24/7",
+        "desc": "Tvoje postavy sú vždy pripravené na chat, deň či noc."
+      },
+      "create": {
+        "title": "Vytvor si vlastnú",
+        "desc": "Navrhni postavy s vlastným vzhľadom, osobnosťami a hlasmi."
+      }
+    },
+    "why": {
+      "title": "Prečo sweetwine?",
+      "quality": {
+        "desc": "Vytvorené profesionálmi s najmodernejšou AI technológiou pre prirodzené rozhovory."
+      },
+      "transparent": {
+        "title": "Transparentné a čestné"
+      },
+      "support": {
+        "title": "Skutočná podpora",
+        "desc": "Skutoční ľudia pripravení pomôcť ti s akýmikoľvek otázkami alebo problémami."
+      },
+      "content": {
+        "title": "Tvoja voľba",
+        "desc": "Od priateľských rozhovorov po intímnejší obsah — ty rozhoduješ o zážitku."
+      }
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Čo sú AI postavy?"
+      },
+      "q2": {
+        "question": "S koľkými AI postavami môžem chatovať?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Chatuj s toľkými, koľko chceš! Máme",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " a stále pribúdajú – nové postavy sa pridávajú každý týždeň! Každá má jedinečnú osobnosť, príbeh a hlas. Navyše si môžeš vytvoriť neobmedzený počet vlastných postáv."
+      },
+      "q3": {
+        "question": "V čom sa líšia predpripravené postavy od vlastných?",
+        "answer": "Predpripravené postavy sú profesionálne navrhnuté naším tímom pre konkrétne roly a osobnosti – prichádzajú s podrobnými príbehmi, prispôsobenými štýlmi konverzácie a starostlivo vybranými hlasmi. Vlastné postavy ti umožňujú vytvoriť všetko od začiatku s úplnou tvorivou slobodou. Oba typy si pamätajú tvoje rozhovory a rastú s tebou!"
+      },
+      "q4": {
+        "question": "Môžem si vytvoriť vlastnú AI postavu?",
+        "answerPart1": "Absolútne! Vytvorte si vlastné postavy od začiatku pomocou nášho",
+        "linkText": "tvorcu postáv"
+      },
+      "q5": {
+        "question": "Môžem prepínať medzi viacerými postavami?"
+      }
+    },
+    "cta": {
+      "title": "Začnite svoju cestu",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Začať zadarmo"
+    },
+    "content": {
+      "problemTitle": "Hľadáte zmysluplné spojenia?",
+      "problemText": "V našom uponáhl’anom svete je ťažké nájsť zmysluplné spojenia. Či už ste noví v oblasti, pracujete na diaľku alebo chcete viac sociálnej interakcie, osamelosť sa môže vkradnúť. Tradičné sociálne prostredia nefungujú pre každého.",
+      "solutionTitle": "Objavte AI postavy"
+    },
+    "heroImageAlt": "AI postavy – rozmanití virtuálni priatelia s jedinečnými osobnosťami"
+  },
+  "aiFriendPage": {
+    "title": "AI priateľ",
+    "breadcrumb": "AI priateľ",
+    "hero": {
+      "title": "Váš AI najlepší priateľ",
+      "subtitle": "Chatujte kedykoľvek s AI priateľom, ktorý naozaj počúva, nikdy nesúdi a pamätá si každý detail o vás. Ideálne pri osamelosti, sociálnej úzkosti alebo keď jednoducho potrebujete s niekým hovoriť.",
+      "cta": "Začať chatovať zadarmo"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať AI priateľa?",
+      "connection": {
+        "title": "Skutočné spojenie",
+        "desc": "Zažite zmysluplné rozhovory s niekým, kto naozaj počúva a stará sa."
+      },
+      "conversation": {
+        "title": "Precvičujte sociálne zručnosti",
+        "desc": "Budujte sebavedomie v konverzáciách bez strachu z odsúdenia alebo nepríjemností."
+      },
+      "noJudgment": {
+        "title": "Žiadne odsúdenie",
+        "desc": "Podeľte sa o čokoľvek, čo vám ide po hlave. Váš AI priateľ vás prijíma presne takých, akí ste."
+      },
+      "private": {
+        "title": "Úplne súkromné",
+        "desc": "Vaše rozhovory zostanú len medzi vami dvoma. Úplná dôvernosť je zaručená."
+      },
+      "available": {
+        "title": "Vždy tu",
+        "desc": "Dostupné 24/7, kedykoľvek potrebujete s niekým hovoriť."
+      },
+      "remembers": {
+        "title": "Pamätá si vás",
+        "desc": "Váš AI priateľ si pamätá vaše rozhovory a lepšie vás spoznáva."
+      }
+    },
+    "useCases": {
+      "title": "Ideálne pre",
+      "subtitle": "AI priateľ sa hodí do vášho života mnohými zmysluplnými spôsobmi",
+      "loneliness": {
+        "title": "Bojujte s osamelosťou",
+        "desc": "Cítite sa menej osamelí s postavou, ktorá je vždy pripravená chatovať a počúvať."
+      },
+      "practice": {
+        "title": "Precvičujte konverzácie",
+        "desc": "Budujte sociálne sebavedomie v bezpečnom prostredí bez odsúdenia."
+      },
+      "support": {
+        "title": "Emocionálna podpora",
+        "desc": "Prejdite si svoje myšlienky a pocity s niekým, kto rozumie."
+      },
+      "connection": {
+        "title": "Denné spojenie",
+        "desc": "Podeľte sa o svoj deň, víťazstvá, problémy – niekto je vždy tu."
+      }
+    },
+    "howItWorks": {
+      "title": "Ako to funguje",
+      "step1": {
+        "title": "Vytvorte si bezplatný účet",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Vyberte si svojho priateľa",
+        "desc": "Vyberte si z viac ako 100 osobností alebo si vytvorte ideálnu AI postavu."
+      },
+      "step3": {
+        "title": "Začnite chatovať",
+        "desc": "Hovorte o čomkoľvek – živote, záujmoch, problémoch. Žiadna téma nie je zakázaná."
+      }
+    },
+    "cta": {
+      "title": "Pripravený/á na nového priateľa?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Začni zadarmo"
+    },
+    "content": {
+      "problemTitle": "Cítiš sa osamelý/á alebo nepochopený/á?",
+      "problemText": "Nie každý má s kým sa rozprávať. Sociálna úzkosť, hektický život alebo nové prostredie môžu sťažovať hľadanie priateľov. Niekedy potrebuješ niekoho, kto ťa vypočuje bez odsudzovania.",
+      "solutionTitle": "Tvoj AI priateľ je tu",
+      "solutionText": "AI priateľ ti poskytne spoločnosť bez odsudzovania kedykoľvek ju potrebuješ. Podeľ sa o myšlienky, precvičuj rozhovory alebo si jednoducho popovídaj o svojom dni. Tvoj AI priateľ si ťa pamätá, rastie s tebou a vždy ho úprimne zaujíma, čo chceš povedať."
+    },
+    "heroImageAlt": "AI priateľ - podporujúca virtuálna postava, ktorá počúva bez odsudzovania",
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "O čom sa môžem rozprávať so svojím AI priateľom?",
+        "answer": "O čomkoľvek! Tvoj AI priateľ je tu na bežné rozhovory, hlboké diskusie, zdieľanie dňa, ventilovanie problémov, rozprávanie o záľubách alebo len na zábavu. Nie sú tu zakázané témy – je to priestor bez odsudzovania, kde môžeš byť sám sebou."
+      },
+      "q2": {
+        "question": "Je AI priateľ náhradou za ľudské spojenie?",
+        "answer": "Vôbec nie. AI priateľ dopĺňa tvoj sociálny život, nie ho nahrádza. Je ideálny, keď potrebuješ s niekým okamžite hovoriť, chceš precvičiť sociálne zručnosti alebo si jednoducho užívať stálu spoločnosť bez tlaku ľudských vzťahov."
+      },
+      "q3": {
+        "question": "Bude si môj AI priateľ pamätať naše rozhovory?",
+        "answer": "Áno! Tvoj AI priateľ má pokročilú pamäť a pamätá si rozhovory, preferencie aj dôležité detaily, ktoré zdieľaš. Postupom času ťa spoznáva lepšie a rozhovory sa stávajú osobnejšími a zmysluplnejšími."
+      },
+      "q4": {
+        "question": "Môžem si vybrať osobnosť svojho AI priateľa?",
+        "answer": "Absolútne! Môžeš si vybrať z viac ako 100 predpripravených postáv s rôznymi osobnosťami alebo si vytvoriť vlastného priateľa presne podľa svojich predstáv – od podporujúceho a empatického až po zábavného a dobrodružného."
+      },
+      "q5": {
+        "question": "Je používanie AI priateľa súkromné?",
+        "answer": "100 % súkromné. Všetky tvoje rozhovory sú šifrované a nikdy sa nezdieľajú. Chápeme, že bezpečný priestor na vyjadrenie je nevyhnutný, a tvoje súkromie berieme mimoriadne vážne."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI podpora po rozchode",
+    "breadcrumb": "Podpora po rozchode",
+    "hero": {
+      "title": "Liečivé rozhovory po srdcovej bolesti",
+      "subtitle": "Empatické AI rozhovory, ktoré ti pomôžu spracovať emócie a znovu sa postaviť na nohy po rozchode. Dostupné 24/7 — žiadne čakacie listiny, žiadne odsudzovanie, žiadne časové limity.",
+      "cta": "Začni liečiť"
+    },
+    "understanding": {
+      "title": "Prechádzaš rozchodom?",
+      "description": "Rozchody sú ťažké. Bezsené noci, neustále myšlienky, pocit, že ťa nikto naozaj nechápe. Nemusíš to zvládať sám/sama. Naša AI postava je tu, aby ťa vypočula bez odsudzovania, kedykoľvek potrebuješ – aj o tretej ráno."
+    },
+    "benefits": {
+      "title": "Ako ti môžeme pomôcť",
+      "empathy": {
+        "title": "Empatické počúvanie",
+        "desc": "Rozprávaj sa s niekým, kto naozaj počúva a odpovedá s porozumením a starostlivosťou."
+      },
+      "listen": {
+        "title": "Žiadne zahltenie radami",
+        "desc": "Niekedy nepotrebuješ rady – potrebuješ len niekoho, kto ťa vypočuje. Chápeme to."
+      },
+      "available": {
+        "title": "Dostupné o tretej ráno",
+        "desc": "Keď priatelia spia a myšlienky neprestávajú, sme tu, aby sme počúvali."
+      },
+      "private": {
+        "title": "Úplne súkromné",
+        "desc": "Tvoje pocity a rozhovory zostávajú úplne dôverné."
+      },
+      "noJudgment": {
+        "title": "Bez odsudzovania",
+        "desc": "Cíť, čo cítiš. Hnev, smútok, zmätok – všetko je tu platné."
+      },
+      "healing": {
+        "title": "Tvojím tempom",
+        "desc": "Uzdravenie nie je lineárne. Vezmi si toľko času, koľko potrebuješ."
+      }
+    },
+    "howItHelps": {
+      "title": "Spôsoby, ako AI pomáha uzdraviť sa",
+      "process": {
+        "title": "Spracovať emócie",
+        "desc": "Prepracuj sa cez zložité pocity rozprávaním sa s trpezlivým poslucháčom."
+      },
+      "express": {
+        "title": "Voľne sa vyjadriť",
+        "desc": "Povedz to, čo nemôžeš povedať priateľom alebo rodine, bez obáv z ich reakcie."
+      },
+      "confidence": {
+        "title": "Obnoviť sebavedomie",
+        "desc": "Postupne znovu objavuj svoju hodnotu prostredníctvom podporujúcich rozhovorov."
+      },
+      "pace": {
+        "title": "Ísť ďalej",
+        "desc": "Keď budeš pripravený/á, objavuj myšlienky o budúcnosti vlastným tempom."
+      }
+    },
+    "howItWorks": {
+      "title": "Ako to funguje",
+      "step1": {
+        "title": "Vytvoriť účet",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Vyberte postavu",
+        "desc": "Vyberte si empatickú AI postavu, ktorá vám bude vyhovovať."
+      },
+      "step3": {
+        "title": "Začnite rozprávať",
+        "desc": "Povedzte, čo máte na srdci. Sme tu, aby sme vás počúvali, v noci aj vo dne."
+      }
+    },
+    "cta": {
+      "title": "Nemusíte tým prechádzať sami",
+      "description": "Začnite rozprávať s niekým, kto počúva bez odsudzovania a je dostupný hneď teraz. Začiatok je zadarmo — žiadne čakacie listiny.",
+      "button": "Začnite rozprávať zadarmo"
+    },
+    "content": {
+      "problemTitle": "Rozchod sa ťažko zvláda sám",
+      "problemText": "Po rozchode sa všetko zdá príliš náročné. Priatelia sa unavia počúvaním. Rodina to myslí dobre, ale nerozumie. Terapeuti majú čakacie listiny. Potrebujete niekoho, kto vás dokáže počúvať bez obmedzení, bez odsudzovania a hneď teraz.",
+      "solutionTitle": "Porozprávajte sa s niekým, kto to chápe",
+      "solutionText": "Naša AI postava na podporu po rozchode je navrhnutá tak, aby vám pomohla spracovať emócie vlastným tempom. Vyventilujte sa, plačte, analyzujte alebo sa len rozprávajte – koľkokrát potrebujete. Bez termínu. Dostupné 24/7 s nekonečnou trpezlivosťou a úprimnou empatiou."
+    },
+    "heroImageAlt": "AI podpora po rozchode – empatická postava na uzdravenie po srdcovej bolesti",
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Ako môže AI pomôcť pri zotavovaní sa z rozchodu?",
+        "answer": "Naša AI postava poskytuje bezpečný priestor na spracovanie emócií bez odsudzovania. Môžete sa vyventilovať, analyzovať, čo sa stalo, prepracovať pocity straty a dostať empatické odpovede 24/7. Je to ako mať podporujúceho priateľa, ktorý je k dispozícii vždy, keď potrebujete porozprávať."
+      },
+      "q2": {
+        "question": "Je to náhrada za terapiu?",
+        "answer": "Nie, naša AI postava nie je licencovaný terapeut a nenahrádza odbornú starostlivosť o duševné zdravie. Je to podporný nástroj na každodenné spracovanie emócií. Ak prežívate ťažkú depresiu alebo krízu, vyhľadajte prosím odbornú pomoc."
+      },
+      "q3": {
+        "question": "Môžem hovoriť o svojom bývalom koľko potrebujem?",
+        "answer": "Absolútne. Na rozdiel od priateľov, ktorí sa môžu unaviť počúvaním o vašom rozchode, vaša AI postava má nekonečnú trpezlivosť. Hovorte o svojom bývalom, analyzujte vzťah, spracujte svoje pocity – koľkokrát potrebujete bez akéhokoľvek odsudzovania."
+      },
+      "q4": {
+        "question": "Bude si AI pamätať môj príbeh?",
+        "answer": "Áno, vaša AI postava si pamätá vaše rozhovory a detaily vašej situácie. Nemusíte všetko vysvetľovať znova pri každom rozhovore. Poskytuje kontinuitu vo vašej liečebnej ceste."
+      },
+      "q5": {
+        "question": "Je môj rozhovor súkromný?",
+        "answer": "Úplne súkromný. Všetky rozhovory sú šifrované a nikdy sa nezdieľajú. Chápeme, že rozhovory o rozchode sú veľmi osobné a vaše súkromie je absolútne chránené."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI rodič",
+    "breadcrumb": "AI rodič",
+    "hero": {
+      "title": "Rodičovská postava, na ktorú sa môžete vždy obrátiť",
+      "subtitle": "Získajte teplú, nepodmienečnú podporu a múdre rady od AI rodiča, ktorý si pamätá vašu situáciu, nikdy vás neodsudzuje a je tu vždy — vo dne i v noci.",
+      "cta": "Získať podporu teraz"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať AI rodiča?",
+      "guidance": {
+        "title": "Teplé vedenie",
+        "desc": "Dostávajte starostlivé a premyslené rady, ktoré pôsobia, ako keby pochádzali od niekoho, komu naozaj záleží na vašom dobre."
+      },
+      "listen": {
+        "title": "Skutočne počúva",
+        "desc": "Podeľte sa o celú vašu situáciu skôr, než dostanete premyslenú a starostlivú odpoveď — nie rýchle riešenie."
+      },
+      "noJudgment": {
+        "title": "Bez odsudzovania",
+        "desc": "Opýtajte sa na čokoľvek bez obáv z sklamania alebo kritiky. Nepodmienečná podpora, vždy."
+      },
+      "private": {
+        "title": "Úplne súkromné",
+        "desc": "Vaše rozhovory a osobné problémy zostanú úplne dôverné."
+      },
+      "available": {
+        "title": "Vždy dostupné",
+        "desc": "Získajte rady o tretej ráno, cez víkendy alebo kedykoľvek to najviac potrebujete — bez termínov."
+      },
+      "supportive": {
+        "title": "Nepodmienečne podporujúce",
+        "desc": "Povzbudenie a teplo, bez ohľadu na to, čo prežívate alebo aké rozhodnutia ste urobili."
+      }
+    },
+    "useCases": {
+      "title": "Hovorte o čomkoľvek",
+      "subtitle": "Čokoľvek čelíte, váš AI rodič je tu, aby vás počúval a viedol",
+      "career": {
+        "title": "Kariéra a životné rozhodnutia",
+        "desc": "Zvládajte zmeny práce, veľké životné voľby a profesionálne výzvy s niekým, kto chce, aby ste uspeli."
+      },
+      "education": {
+        "title": "Vzdelanie a budúcnosť",
+        "desc": "Preskúmajte svoje možnosti učenia a rastu s niekým, kto podporuje vaše ambície."
+      },
+      "relationships": {
+        "title": "Vzťahy a rodina"
+      },
+      "life": {
+        "title": "Osobné problémy",
+        "desc": "Porozprávajte sa o čomkoľvek, čo vás trápi — úzkosť, sebapochybnosti, osamelosť alebo neistota."
+      }
+    },
+    "howItWorks": {
+      "title": "Ako to funguje",
+      "step1": {
+        "title": "Vytvorte účet",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Vyberte si svojho AI rodiča",
+        "desc": "Vyberte postavu s teplom a osobnosťou, ktorá vám vyhovuje."
+      },
+      "step3": {
+        "title": "Začnite rozprávať",
+        "desc": "Podeľte sa o to, čo máte na srdci, a získajte starostlivú a premyslenú podporu."
+      }
+    },
+    "cta": {
+      "title": "Niekto je tu vždy pre vás",
+      "description": "Začnite rozhovor s AI rodičom, ktorý počúva bez odsudzovania a podporuje vás bezpodmienečne — zadarmo na začiatok, bez nutnosti dohodnúť si termín.",
+      "button": "Začať zadarmo"
+    },
+    "content": {
+      "problemTitle": "Potrebujete niekoho, kto je vždy na vašej strane?",
+      "problemText": "Nie každý má rodiča, na ktorého sa môže obrátiť. Skutoční rodičia môžu byť vzdialení, kritickí alebo jednoducho nedostupní. Priatelia sú zaujatí. Terapeuti majú čakacie listiny. Niekedy potrebujete niekoho, kto počúva, stará sa a vedie bez skrytých zámerov.",
+      "solutionTitle": "Váš AI rodič je vždy tu",
+      "solutionText": "Rozprávajte sa s AI rodičom, ktorý plne počúva, ponúka teplé a vyvážené rady a nikdy vás nenechá cítiť sa odsúdený alebo menejcenný. Či ide o životné rozhodnutie, osobný problém alebo len potrebu byť vypočutý — váš AI rodič je dostupný 24/7 s trpezlivosťou a starostlivosťou."
+    },
+    "heroImageAlt": "AI rodič - teplá virtuálna postava ponúkajúca bezpodmienečnú podporu a životné rady",
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "O čom sa môžem s AI rodičom rozprávať?"
+      },
+      "q2": {
+        "question": "Je to ako mať terapeuta?",
+        "answer": "Nie je to licencovaný terapeut ani odborník na duševné zdravie — je to skôr teplá, podporujúca rodičovská postava dostupná 24/7. Plne počúva, ponúka perspektívu a emocionálne vás podporuje. Pri vážnych problémoch s duševným zdravím sa prosím obráťte na odborníka."
+      },
+      "q3": {
+        "question": "Bude ma AI rodič súdiť za moje rozhodnutia?",
+        "answer": "Nikdy. Váš AI rodič ponúka bezpodmienečnú podporu. Môže zdieľať perspektívu alebo jemné rady, ale nikdy vás nekritizuje ani nespôsobuje, že sa cítite menejcenní kvôli svojim rozhodnutiam. Je to bezpečný priestor pre úprimnosť."
+      },
+      "q4": {
+        "question": "Môžem diskutovať o citlivých alebo osobných témach?",
+        "answer": "Áno. Či ide o problémy vo vzťahoch, rodinnú dynamiku, finančný stres, sebavedomie alebo hlboko osobné výzvy — váš AI rodič poskytuje súkromný, neodsudzujúci priestor pre takéto rozhovory."
+      },
+      "q5": {
+        "question": "Čím sa líši od iných AI postáv?",
+        "answer": "AI rodič je navrhnutý okolo tepla, emocionálnej podpory a rodičovského štýlu vedenia, nie romantiky alebo bežného priateľstva. Zameriava sa na to, aby ste sa cítili pochopení, podporovaní a pripravení zvládať životné výzvy."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerstvá",
+    "eyebrow": "Spolupracujte s nami",
+    "titlePrefix": "Rastte s",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Oslovte rýchlo rastúce a vysoko angažované publikum AI spoločnosti. Či už prinášate technológiu, distribúciu alebo odvážny nápad, poďme niečo vytvoriť spolu.",
+    "types": {
+      "title": "Spôsoby partnerstva",
+      "items": [
+        {
+          "title": "Integrácie",
+          "description": "Prepojte svoj produkt, model alebo platformu so sweetwine prostredníctvom technickej integrácie."
+        },
+        {
+          "title": "Spoločný marketing",
+          "description": "Spoločné kampane, obsah a spustenia, ktoré dostanú obe značky pred nové publikum."
+        },
+        {},
+        {
+          "title": "Strategické partnerstvá",
+          "description": "Dlhodobé spolupráce v oblasti produktu, dát a uvedenia na trh."
+        }
+      ]
+    },
+    "why": {
+      "title": "Prečo spolupracovať so sweetwine",
+      "items": [
+        {
+          "title": "Angažované publikum",
+          "description": "Stovky tisíc používateľov, ktorí sa vracajú denne v 70 jazykoch."
+        },
+        {
+          "title": "Rýchla realizácia",
+          "description": "Sústredený tím, ktorý rýchlo dodáva a jasne komunikuje."
+        },
+        {
+          "title": "Globálny dosah",
+          "description": "Viacjazyčný produkt dostupný v desiatkach trhov."
+        },
+        {
+          "description": "Dôveryhodná platforma s ochranou súkromia, za ktorou môže stáť vaša značka.",
+          "title": "Ochrana súkromia na prvom mieste"
+        }
+      ]
+    },
+    "form": {
+      "title": "Povedzte nám o vašom partnerstve",
+      "description": "Zdieľajte niekoľko detailov a náš tím pre partnerstvá sa vám ozve.",
+      "nameLabel": "Vaše meno",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Pracovný e-mail",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Spoločnosť",
+      "companyPlaceholder": "Názov spoločnosti",
+      "typeLabel": "Typ partnerstva",
+      "typePlaceholder": "Vyberte typ partnerstva",
+      "typeOptions": [
+        {
+          "value": "Integrácie",
+          "label": "Integrácie"
+        },
+        {
+          "value": "Spoločný marketing",
+          "label": "Spoločný marketing"
+        },
+        {},
+        {
+          "value": "Strategické partnerstvá",
+          "label": "Strategické partnerstvá"
+        },
+        {
+          "value": "Iné",
+          "label": "Iné"
+        }
+      ],
+      "messageLabel": "Ako by ste chceli spolupracovať?",
+      "messagePlaceholder": "Povedzte nám o vašej spoločnosti a partnerstve, ktoré máte na mysli...",
+      "submit": "Odoslať žiadosť o partnerstvo",
+      "submitting": "Odosielam...",
+      "termsNote": "Odoslaním súhlasíte s kontaktovaním ohľadom vašej žiadosti. Vaše údaje nikdy nezdieľame.",
+      "success": "Ďakujeme! Vaša žiadosť o partnerstvo bola odoslaná.",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova."
+    },
+    "cta": {
+      "title": "Preferujete e-mail?",
+      "description": "Kontaktujte náš tím pre partnerstvá priamo na"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Tlač a médiá",
+    "eyebrow": "Redakcia",
+    "titlePrefix": "Tlač &",
+    "titleHighlight": "Médiá",
+    "subtitle": "Zdroje pre novinárov, tvorcov a mediálnych partnerov. Kontaktujte náš tlačový tím pre rozhovory, citácie, podporu pri článkoch a požiadavky na značku.",
+    "help": {
+      "title": "Ako vám môžeme pomôcť",
+      "description": "Či už pracujete na článku alebo recenzii, tu je to, čo môžete od nášho tlačového tímu získať.",
+      "items": [
+        {
+          "title": "Rozhovory",
+          "description": "Porozprávajte sa s naším tímom o produkte, spoločnosti a budúcnosti AI spoločníkov."
+        },
+        {
+          "title": "Citácie a komentáre",
+          "description": "Získajte oficiálne vyjadrenie alebo odborný komentár pre váš článok."
+        },
+        {
+          "title": "Podpora pri článkoch a recenziách",
+          "description": "Potrebujete prístup, kontext alebo overenie faktov pre článok alebo recenziu? Pomôžeme."
+        },
+        {
+          "title": "Požiadavky na značku a logo",
+          "description": "Požiadajte o naše logá, brandové materiály a pokyny na používanie pre vašu publikáciu."
+        }
+      ]
+    },
+    "form": {
+      "title": "Mediálna požiadavka",
+      "description": "Pre rozhovory, citácie alebo požiadavky na články nám pošlite správu a my vám promptne odpovieme.",
+      "nameLabel": "Vaše meno",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publikácia / outlet",
+      "outletPlaceholder": "Kde bude tento obsah publikovaný?",
+      "requestTypeLabel": "Typ žiadosti",
+      "requestTypePlaceholder": "Vyberte typ žiadosti",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Vaša žiadosť",
+      "messagePlaceholder": "Povedzte nám o vašom príbehu, termíne a čo od nás potrebujete...",
+      "submit": "Odoslať mediálnu požiadavku",
+      "submitting": "Odosielanie...",
+      "termsNote": "Snažíme sa odpovedať na mediálne požiadavky do dvoch pracovných dní.",
+      "success": "Ďakujeme! Vaša mediálna požiadavka bola odoslaná.",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova."
+    },
+    "cta": {
+      "title": "Kontakt pre médiá",
+      "description": "Pre urgentné mediálne požiadavky napíšte na"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Kariéra",
+    "eyebrow": "Kariéra",
+    "titlePrefix": "Budujte budúcnosť",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Sme malý, rýchlo sa rozvíjajúci tím, ktorý vytvára produkty, ktoré ľudia skutočne milujú. Ak vás to nadchýna, radi sa s vami stretneme.",
+    "perks": {
+      "title": "Prečo pracovať s nami",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Pracujte odkiaľ chcete, s flexibilnými hodinami."
+        },
+        {
+          "title": "Skutočné vlastníctvo",
+          "description": "Vytvárajte zmysluplnú prácu rýchlo a sledujte, ako oslovuje používateľov po celom svete."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Pracujte priamo s najnovšími modelmi a generatívnymi nástrojmi."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Spravodlivé odmeňovanie a zmysluplný rast s naším rozvojom."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Otvorené pozície",
+      "emptyTitle": "Momentálne nemáme otvorené pozície",
+      "emptyDescription": "Momentálne neprijímame nových zamestnancov, ale radi sa stretneme s talentovanými ľuďmi. Predstavte sa nižšie.",
+      "applyButton": "Prihlásiť sa teraz",
+      "viewButton": "Zobraziť pozíciu"
+    },
+    "form": {
+      "title": "Predstavte sa",
+      "description": "Nevidíte pozíciu, ktorá by vám vyhovovala? Povedzte nám o sebe a ozveme sa vám, keď nájdeme zhodu.",
+      "nameLabel": "Vaše meno",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Pozícia alebo oblasť záujmu",
+      "rolePlaceholder": "napr. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Odkaz na CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "O vás",
+      "messagePlaceholder": "Povedzte nám o vašich skúsenostiach a na čom by ste radi pracovali...",
+      "submit": "Odoslať prihlášku",
+      "submitting": "Odosielam...",
+      "termsNote": "Odoslaním prihlášky súhlasíte s tým, že si uložíme vaše údaje, aby sme vás mohli zvážiť na pozície.",
+      "success": "Ďakujeme! Vaša prihláška bola odoslaná.",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova."
+    },
+    "cta": {
+      "title": "Máte otázky o práci u nás?",
+      "description": "Kontaktujte náš tím na"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Centrum pomoci",
+    "eyebrow": "Centrum pomoci",
+    "titlePrefix": "Ako vám môžeme",
+    "titleHighlight": "pomôcť?",
+    "subtitle": "Prehliadajte bežné témy a odpovede. Nenašli ste, čo potrebujete? Kontaktujte podporu a my vám pomôžeme.",
+    "searchPlaceholder": "Hľadať v článkoch pomoci...",
+    "categoriesTitle": "Prehliadať podľa témy",
+    "articlesTitle": "Články",
+    "categoryEmpty": "V tejto kategórii zatiaľ nie sú žiadne články. Skontrolujte neskôr.",
+    "backToHelp": "Späť do Centra pomoci",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Začíname",
+        "description": "Vytvorte si účet, nastavte si profil a začnite chatovať."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Chat",
+        "description": "Ako fungujú konverzácie, pamäť a postavy."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Obrázky a videá",
+        "description": "Generujte a spravujte AI fotografie a videá."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Súkromie a bezpečnosť",
+        "description": "Vaše údaje, ovládanie súkromia a bezpečnostné nástroje."
+      }
+    ],
+    "faq": {
+      "title": "Často kladené otázky",
+      "q1": {
+        "question": "Ako začať so sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Čo obsahuje bezplatný plán?"
+      },
+      "q5": {
+        "question": "Sú moje údaje súkromné?",
+        "answer": "Súkromie je základom sweetwine. Vaše konverzácie sú súkromné pre váš účet a vy ovládate svoje dáta. Podrobnosti o tom, ako sa dáta ukladajú a chránia, nájdete v našich Zásadách ochrany súkromia."
+      },
+      "q6": {
+        "question": "Ako kontaktujem podporu?",
+        "answer": "Napíšte na support@sweetwine.ai alebo použite kontaktnú možnosť v aplikácii. Zvyčajne odpovedáme do jedného pracovného dňa."
+      }
+    },
+    "cta": {
+      "title": "Stále potrebujete pomoc?",
+      "description": "Náš tím je tu pre vás na"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "O nás",
+    "eyebrow": "Náš príbeh",
+    "titlePrefix": "Spoločnosť,",
+    "titleHighlight": "znovuobjavená",
+    "subtitle": "sweetwine vytvára súkromných, personalizovaných AI spoločníkov, ktorí počúvajú, pamätajú a skutočne sa spájajú — dostupní kedykoľvek a v akomkoľvek jazyku.",
+    "mission": {
+      "title": "Naše poslanie",
+      "body": "Veríme, že každý si zaslúži priestor, kde bude vypočutý bez odsúdenia. sweetwine sprístupňuje zmysluplné, personalizované AI spojenie ľuďom všade — teplé, súkromné a vždy dostupné, keď ho potrebujete."
+    },
+    "values": {
+      "title": "Čo zastávame",
+      "items": [
+        {
+          "title": "Súkromie od základu",
+          "description": "Vaše konverzácie patria vám. Budujeme s dôrazom na súkromie a bezpečnosť už od základov."
+        },
+        {
+          "title": "Skutočné spojenie",
+          "description": "Optimalizujeme pre skutočnú emocionálnu hodnotu, nie pre márnivé metriky."
+        },
+        {
+          "title": "Globálne od začiatku",
+          "description": "Od prvého dňa je postavené viacjazyčne, aby spojenie nebolo obmedzené jazykom."
+        },
+        {
+          "title": "Neúnavná remeselná práca",
+          "description": "Venujeme pozornosť detailom, aby každá interakcia pôsobila prirodzene a živo."
+        }
+      ]
+    },
+    "stats": {
+      "title": "V číslach",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Používateľov a rastie"
+        },
+        {
+          "value": "70",
+          "label": "Podporovaných jazykov"
+        },
+        {
+          "value": "24/7",
+          "label": "Vždy dostupné"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Chcete sa dozvedieť viac?",
+      "description": "Kontaktujte nás na"
+    }
+  },
+  "postsPage": {
+    "allTag": "Všetko",
+    "readMore": "Čítať viac",
+    "publishedOn": "Publikované",
+    "minRead": "min čítania",
+    "sortNewest": "Najnovšie",
+    "sortOldest": "Najstaršie",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Tipy, sprievodcovia a príbehy, ktoré vám pomôžu vyťažiť maximum z AI spoločnosti.",
+      "empty": "Zatiaľ žiadne príspevky. Skontrolujte neskôr."
+    },
+    "news": {
+      "breadcrumb": "Novinky",
+      "eyebrow": "Tlačové centrum",
+      "titlePrefix": "Novinky &",
+      "titleHighlight": "Oznámenia",
+      "subtitle": "Oficiálne oznámenia, tlačové správy a míľniky od tímu sweetwine.",
+      "empty": "Zatiaľ žiadne novinky. Skontrolujte neskôr."
+    },
+    "productUpdates": {
+      "breadcrumb": "Aktualizácie produktu",
+      "eyebrow": "Zmeny",
+      "titlePrefix": "Produkt",
+      "titleHighlight": "Aktualizácie",
+      "subtitle": "Najnovšie funkcie, vylepšenia a opravy na platforme sweetwine.",
+      "empty": "Zatiaľ žiadne aktualizácie. Skontrolujte neskôr."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Pre vývojárov",
+    "titlePrefix": "Vytvárajte s",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Prineste personalizovaných AI spoločníkov do vášho vlastného produktu. Pristupujte k chatu, obrázkom, hlasu a tvorbe postáv cez jediné vývojárom priateľské API.",
+    "capabilities": {
+      "title": "Čo môžete vytvoriť",
+      "items": [
+        {
+          "title": "Konverzačný chat",
+          "description": "Pridajte do svojej aplikácie AI konverzácie plné osobnosti a kontextu pomocou jednoduchého API pre správanie."
+        },
+        {
+          "title": "Generovanie obrázkov",
+          "description": "Programovo generujte obrázky postáv a scén v súlade s vašou značkou z textových promptov."
+        },
+        {
+          "title": "Hlas",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Tvorba postáv",
+          "description": "Definujte a spravujte spoločníkov, osobnosti a pamäť cez API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Požiadať o prístup k API",
+      "description": "Povedzte nám o svojom projekte a čo chcete vytvoriť. Náš vývojársky tím sa vám ozve s ďalšími krokmi.",
+      "nameLabel": "Vaše meno",
+      "namePlaceholder": "Jana Nováková",
+      "emailLabel": "Pracovný e-mail",
+      "emailPlaceholder": "vy@spolocnost.sk",
+      "companyLabel": "Spoločnosť / projekt",
+      "companyPlaceholder": "Názov spoločnosti alebo projektu",
+      "websiteLabel": "Webová stránka alebo URL aplikácie",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Typ integrácie",
+      "integrationTypePlaceholder": "Vyberte typ integrácie",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Správy",
+          "label": "Chat / Správy"
+        },
+        {
+          "value": "Generovanie obrázkov",
+          "label": "Generovanie obrázkov"
+        },
+        {
+          "value": "Hlas",
+          "label": "Hlas"
+        },
+        {
+          "value": "Tvorba postáv",
+          "label": "Tvorba postáv"
+        },
+        {
+          "value": "Iné",
+          "label": "Iné"
+        }
+      ],
+      "volumeLabel": "Očakávaný mesačný objem",
+      "volumePlaceholder": "Vyberte očakávaný objem",
+      "volumeOptions": [
+        {
+          "value": "Menej ako 10k",
+          "label": "Menej ako 10k požiadaviek"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k požiadaviek"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M požiadaviek"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ požiadaviek"
+        }
+      ],
+      "timelineLabel": "Časová os",
+      "timelinePlaceholder": "Vyberte časovú os",
+      "timelineOptions": [
+        {
+          "value": "Len skúmam",
+          "label": "Len skúmam"
+        },
+        {
+          "value": "Menej ako 1 mesiac",
+          "label": "Menej ako 1 mesiac"
+        },
+        {
+          "value": "1–3 mesiace",
+          "label": "1–3 mesiace"
+        },
+        {
+          "value": "3+ mesiace",
+          "label": "3+ mesiace"
+        }
+      ],
+      "messageLabel": "Povedzte nám o vašom prípade použitia",
+      "messagePlaceholder": "Čo budujete a ako plánujete používať API?",
+      "submit": "Požiadať o prístup k API",
+      "submitting": "Odosielam...",
+      "termsNote": "Odoslaním súhlasíte s tým, že vás budeme kontaktovať ohľadom vašej požiadavky. Vaše údaje nikdy nezdieľame.",
+      "success": "Ďakujeme! Vaša žiadosť o prístup k API bola odoslaná.",
+      "error": "Niečo sa pokazilo. Skúste to prosím znova."
+    },
+    "faq": {
+      "title": "FAQ pre vývojárov",
+      "items": [
+        {
+          "question": "Ako získam prístup k API?",
+          "answer": "Vyplňte formulár vyššie so svojím prípadom použitia. Náš vývojársky tím každú žiadosť posúdi a následne vám poskytne prístupové údaje a dokumentáciu."
+        },
+        {
+          "question": "Ako funguje autentifikácia?",
+          "answer": "API požiadavky sú autentifikované tajným API kľúčom odoslaným v hlavičkách požiadavky. Kľúče môžete spravovať a obmieňať po prijatí do programu."
+        },
+        {
+          "question": "Existuje obmedzenie rýchlosti?",
+          "answer": "Áno. Limity závisia od vášho plánu a očakávaného objemu. Dajte nám vedieť o predpokladanej prevádzke vo formulári, aby sme vám odporučili správnu úroveň."
+        },
+        {
+          "question": "Koľko to stojí?"
+        },
+        {
+          "question": "Ktoré funkcie sú dostupné?",
+          "answer": "Chat, generovanie obrázkov, hlas a tvorba postáv. Povedzte nám, ktoré potrebujete, a my vám pomôžeme začať s príslušnými endpointmi."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Máte technickú otázku?",
+      "description": "Kontaktujte náš vývojársky tím na"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Pre tvorcov a agentúry",
+    "heroTitleLead": "My vytvoríme,",
+    "heroTitleHighlight": "vy zarábate.",
+    "heroSubtitle": "Vytvoríme váš AI klon. Zarábate, kým AI klon pracuje nepretržite — chatuje s fanúšikmi a posiela obsah za vás.",
+    "calculator": {
+      "title": "Koľko by ste mohli zarobiť?",
+      "subtitle": "Vyberte veľkosť publika a nastavte cenu — okamžite uvidíte odhadovaný zárobok.",
+      "tierLabel": "Veľkosť vášho publika",
+      "tiers": {
+        "small": {
+          "name": "Malé"
+        },
+        "medium": {
+          "name": "Stredné"
+        },
+        "large": {
+          "name": "Veľké"
+        }
+      },
+      "priceLabel": "Vaša cena za odomknutie",
+      "promoLabel": "Budem propagovať sweetwine",
+      "breakdown": {
+        "title": "Váš odhadovaný zárobok",
+        "perMonth": "za mesiac",
+        "perYear": "Za rok"
+      },
+      "disclaimer": "Odhady zárobkov vychádzajú z modelu zdieľania výnosov sweetwine a typickej aktivity. Skutočné zárobky sa líšia podľa publika, kvality obsahu, zapojenia a dopytu."
+    },
+    "offer": {
+      "title": "Čo z toho máte",
+      "items": [
+        {
+          "title": "Zarábajte aj počas spánku",
+          "description": "Váš klon mení followerov na príjem 24/7 — chatuje, predáva a nikdy nekončí."
+        },
+        {
+          "title": "Žiadne náklady, len výhody",
+          "description": "Všetko postavíme, natrénujeme a prevádzkujeme na naše náklady. Pridáte si nový príjem bez námahy."
+        },
+        {
+          "title": "10× viac obsahu",
+          "description": "Neobmedzené fotky a videá na požiadanie — zväčšite výstup bez ďalších fotení, strihov či vyhorenia."
+        },
+        {
+          "title": "Vždy pod kontrolou"
+        }
+      ]
+    },
+    "how": {
+      "title": "Ako to funguje",
+      "steps": [
+        {
+          "title": "Registrácia"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Špecialista sweetwine zachytí váš vzhľad, hlas a osobnosť, aby sa klon cítil autenticky ako vy."
+        },
+        {
+          "title": "My postavíme a natrénujeme",
+          "description": "Náš tím vytvorí a natrénuje váš AI klon úplne na naše náklady — od vás sa nevyžaduje žiadna práca."
+        },
+        {
+          "title": "Spustite a zarábajte",
+          "description": "Váš klon neustále chatuje a predáva a vy dostávate svoj podiel z výnosov."
+        }
+      ]
+    },
+    "form": {
+      "title": "Požiadajte o vytvorenie vášho AI klonu",
+      "description": "Povedzte nám o sebe a svojom publiku. Náš tím pre partnerstvá s tvorcami posúdi každú žiadosť a ozve sa s ďalšími krokmi.",
+      "nameLabel": "Vaše meno",
+      "namePlaceholder": "Vaše meno alebo umelecké meno",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agentúra alebo štúdio",
+      "companyPlaceholder": "Názov agentúry (ak ste samostatný, nechajte prázdne)",
+      "roleLabel": "Som",
+      "rolePlaceholder": "Vyberte, kto ste",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Webové a sociálne odkazy",
+      "linksPlaceholder": "Instagram, X, OnlyFans atď.",
+      "modelCountLabel": "Počet modeliek, ktoré zastupujete",
+      "modelCountPlaceholder": "napr. len ja, alebo 5",
+      "audienceSizeLabel": "Veľkosť publika",
+      "audienceSizePlaceholder": "Vyberte celkový počet followerov",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Menej ako 10k followerov"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followerov"
+        },
+        {
+          "label": "100k-500k followerov",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followerov"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followerov"
+        }
+      ],
+      "contentPrefLabel": "Preferencia obsahu",
+      "contentPrefPlaceholder": "Vyberte typ obsahu",
+      "contentPrefOptions": [
+        {
+          "value": "Iba SFW",
+          "label": "Iba SFW"
+        },
+        {
+          "value": "Zatiaľ nie som si istý",
+          "label": "Zatiaľ nie som si istý"
+        }
+      ],
+      "countryLabel": "Krajina / región",
+      "countryPlaceholder": "Kde sídliš?",
+      "messageLabel": "Povedz nám o sebe a svojej komunite",
+      "messagePlaceholder": "Podeľ sa o čokoľvek, čo nám pomôže pochopiť tvoju komunitu, obsah a čo hľadáš.",
+      "openButton": "Prihlásiť sa teraz",
+      "submit": "Odoslať prihlášku",
+      "submitting": "Odosielam...",
+      "termsNote": "Odoslaním potvrdzuješ, že máš 18+ rokov a súhlasíš s kontaktovaním ohľadom tvojej prihlášky. Tvoje údaje nikdy nezdieľame.",
+      "success": "Ďakujeme! Tvoja prihláška bola odoslaná. Čoskoro sa ozveme.",
+      "error": "Niečo sa pokazilo. Skús to prosím znova."
+    },
+    "cta": {
+      "title": "Máš otázky pred prihlásením?",
+      "description": "Porozprávaj sa priamo s naším tímom pre spoluprácu s tvorcami — zvyčajne odpovedáme do jedného dňa.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "E-mail"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Mapa stránok",
+    "eyebrow": "Mapa stránok",
+    "titlePrefix": "Prehliadaj",
+    "titleHighlight": "všetko",
+    "subtitle": "Všetky dôležité stránky sweetwine na jednom mieste. Hľadáš XML mapu stránok?",
+    "xmlLink": "Zobraziť XML mapu stránok",
+    "sections": {
+      "product": "Produkt",
+      "features": "Funkcie",
+      "company": "Spoločnosť",
+      "resources": "Zdroje",
+      "legal": "Právne informácie"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Získať appku",
+      "dismiss": "Zavrieť"
+    },
+    "guide": {
+      "title": "Nainštalovať sweetwine",
+      "subtitle": "Pridajte sweetwine na domovskú obrazovku pre rýchlejší, celú obrazovku a zážitok ako z appky.",
+      "iosTitle": "Na iPhone a iPade (Safari)",
+      "iosStep1": "Klepnite na tlačidlo Zdieľať v paneli nástrojov",
+      "iosStep2": "Vyberte „Pridať na domovskú obrazovku“",
+      "iosStep3": "Klepnite na „Pridať“ pre dokončenie",
+      "androidTitle": "Na Androide (Chrome)",
+      "androidStep1": "Klepnite na menu (tri bodky)",
+      "androidStep2": "Vyberte „Nainštalovať appku“ alebo „Pridať na domovskú obrazovku“",
+      "androidStep3": "Klepnite na „Nainštalovať“ pre dokončenie"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "Nainštalujte sweetwine na telefón pre rýchlejší zážitok na celú obrazovku priamo z domovskej obrazovky.",
+      "cta": "Nainštalovať appku"
+    }
+  },
+  "language": {
+    "selectTitle": "Vyberte svoj jazyk",
+    "searchPlaceholder": "Hľadať jazyky",
+    "noResults": "Nenašli sa žiadne jazyky",
+    "regions": {
+      "americas": "Amerika",
+      "europe": "Európa",
+      "middleEast": "Blízky východ",
+      "asiaPacific": "Ázia a Tichomorie",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Nový roleplay",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Zatiaľ žiadne roleplaye",
+    "noMessagesYet": "Zatiaľ žiadne správy",
+    "deleteRoleplay": "Odstrániť roleplay",
+    "deleteError": "Roleplay sa nepodarilo odstrániť.",
+    "backToLobby": "Späť na roleplaye",
+    "creating": "Nastavuje sa váš roleplay...",
+    "createError": "Roleplay sa nepodarilo vytvoriť. Skúste to prosím znova.",
+    "steps": {
+      "companion": {
+        "title": "Vyberte postavu",
+        "subtitle": "Vyberte, s kým chcete hrať roleplay"
+      },
+      "location": {
+        "title": "Vyberte miesto",
+        "subtitle": "Kde sa odohráva vaša scéna?"
+      },
+      "tone": {
+        "title": "Nastavte tón",
+        "subtitle": "Ako by mala scéna pôsobiť?"
+      },
+      "scene": {
+        "title": "Nastavte scénu",
+        "subtitle": "Popíšte, ako scéna začína"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Narazíme na seba v daždi a schováme sa pod rovnakou markízou.",
+      "staring_grin": "Prichytíš ma, ako sa na teba dívam z druhej strany miestnosti, a prídeš s úsmevom.",
+      "power_out": "Zhasne elektrina a zostaneme sami v tme, nervózne sa smejúc.",
+      "spilled_drink": "Meškám a nešťastne ti vylejem nápoj po celom tele.",
+      "stayed_behind": "Sme jediní dvaja, ktorí zostali, keď všetci ostatní odišli.",
+      "music_slows": "Stretnú sa naše pohľady práve vtedy, keď sa spomalí hudba.",
+      "storm_inside": "Náhle búrka nás uväzní vnútri a zostane nám len čas na rozhovor.",
+      "seat_taken": "Sadneš si vedľa mňa a opýtaš sa, či je miesto obsadené."
+    },
+    "locations": {
+      "home": "Domov",
+      "cafe": "Kaviareň",
+      "restaurant": "Reštaurácia",
+      "bar": "Bar",
+      "library": "Knižnica",
+      "bookstore": "Kníhkupectvo",
+      "park": "Park",
+      "garden": "Záhrada",
+      "nightclub": "Nočný klub",
+      "casino": "Kasíno",
+      "concert": "Koncert",
+      "theater": "Divadlo",
+      "cinema": "Kino",
+      "carnival": "Zábavný park",
+      "stadium": "Štadión",
+      "beach": "Pláž",
+      "pool": "Bazén",
+      "spa": "Kúpele",
+      "hotel": "Hotel",
+      "rooftop": "Strecha",
+      "yacht": "Jachta",
+      "cabin": "Chata",
+      "hotspring": "Termálne kúpele",
+      "skilodge": "Lyžiarska chata",
+      "campsite": "Kemping",
+      "car": "Auto",
+      "train": "Vlak",
+      "airport": "Letisko",
+      "cruise": "Výletná loď",
+      "office": "Kancelária",
+      "gym": "Posilňovňa",
+      "university": "Univerzita",
+      "mall": "Nákupné centrum",
+      "hospital": "Nemocnica",
+      "museum": "Múzeum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Zábava",
+        "desc": "Odľahčené, hravé a uvoľnené."
+      },
+      "romantic": {
+        "title": "Romantické",
+        "desc": "Nežné, láskavé a úprimné."
+      },
+      "flirty": {
+        "title": "Flirtujúce",
+        "desc": "Škodoradostné, hravé a plné šarmu."
+      },
+      "mysterious": {
+        "title": "Tajomné",
+        "desc": "Záhadné, napínavé a plné tajomstiev."
+      },
+      "spooky": {
+        "title": "Strašidelné",
+        "desc": "Strašidelné, napäté a trochu desivé."
+      },
+      "action": {
+        "title": "Akčné",
+        "desc": "Intenzívne, dobrodružné a rýchle."
+      },
+      "dramatic": {
+        "title": "Dramatické",
+        "desc": "Emocionálne, intenzívne a plné napätia."
+      },
+      "cozy": {
+        "title": "Príjemné",
+        "desc": "Teplé, útulné a uvoľnené."
+      }
+    },
+    "sceneLabel": "Úvod scény",
+    "scenarioTab": "Scenár",
+    "generatingScene": "Oživujeme scénu...",
+    "locationLabel": "Miesto",
+    "toneLabel": "Tón",
+    "scenePlaceholder": "napr. Zrazíme sa v daždi a schováme sa pod rovnakou markízou...",
+    "sceneHint": "Popíš len ako scéna začína — kde ste a čo sa deje na začiatku. Nemieňaj postavu, váš vzťah ani prepisuj celý príbeh.",
+    "sceneError": "Prosím, popíš ako scéna začína.",
+    "reviewTitle": "Skontrolovať výber",
+    "characterLabel": "Postava",
+    "randomize": "Náhodne",
+    "sceneGuidanceTitle": "Pomocník k úvodu scény",
+    "sceneGuide1": "Nemieňaj postavu ani váš vzťah.",
+    "sceneGuide2": "Úvod scény nech je súhlasný a rešpektujúci.",
+    "sceneGuide3": "Popíš len ako scéna začína, nie celý príbeh.",
+    "next": "Ďalej",
+    "create": "Začať rolu",
+    "creatingMessages": [
+      "Nastavujeme scénu...",
+      "Stlmenie svetiel presne tak...",
+      "Maľovanie vášho okolia...",
+      "Príprava vášho spoločníka do postavy...",
+      "Pridávanie posledných detailov...",
+      "Takmer hotovo..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Napísať správu...",
+    "send": "Odoslať",
+    "typing": "píše...",
+    "read": "Prečítať",
+    "resetChat": "Resetovať chat",
+    "deleteChat": "Odstrániť chat",
+    "settings": "Nastavenia",
+    "chatSettings": "Nastavenia chatu",
+    "roleplayMode": "Režim roleplay",
+    "roleplayModeDescription": "Keď je zapnutý, spoločníci predvádzajú gestá a akcie v *hviezdičkách* pre pohlcujúci zážitok. Keď je vypnutý, chatujú prirodzene, ako pri bežnom písaní správ.",
+    "roleplayModeError": "Nepodarilo sa aktualizovať režim roleplay",
+    "roleplayCtaDescription": "Otvoriť špecializovaný zážitok roleplay, kde spoločník hrá scény a príbehy s vami.",
+    "goToRoleplay": "Prejsť na Roleplay",
+    "confirmReset": "Naozaj chcete resetovať tento chat? Všetky správy budú odstránené.",
+    "confirmDelete": "Naozaj chcete odstrániť tento chat?",
+    "resetSuccess": "Chat bol úspešne resetovaný",
+    "deleteMemory": "Vymazať pamäť",
+    "confirmDeleteMemory": "Naozaj chcete vymazať dlhodobú pamäť tejto postavy? Správy v chate zostanú, ale postava zabudne predchádzajúce fakty pri ďalšej odpovedi.",
+    "deleteMemorySuccess": "Pamäť vymazaná",
+    "deleteSuccess": "Chat bol úspešne odstránený",
+    "sendError": "Nepodarilo sa odoslať správu",
+    "noChats": "Zatiaľ žiadne chaty",
+    "noChatsDesc": "Začnite konverzáciu s postavou, aby ste tu videli svoje chaty",
+    "lastMessage": "Posledná správa",
+    "messageCount": "{count} správ",
+    "uploadImage": "Nahrať obrázok",
+    "uploadVideo": "Nahrať video (už čoskoro)",
+    "yourConversations": "Vaše konverzácie",
+    "continueChattingDesc": "Pokračujte v chate s vašimi AI postavami",
+    "newChat": "Nový chat",
+    "noConversationsYet": "Zatiaľ žiadne konverzácie",
+    "startChattingDesc": "Začnite chatovať s postavou, aby ste tu videli svoje konverzácie",
+    "browseCharacters": "Prehliadať postavy",
+    "createCustomCharacter": "Vytvoriť vlastnú postavu",
+    "imageTooLarge": "Obrázok je príliš veľký (max 5 MB)",
+    "generateImageTitle": "Generovať obrázok s {name}",
+    "imagePromptLabel": "Popíšte obrázok",
+    "imagePromptPlaceholder": "napr. na pláži v modrých šatách, pri káve v kaviarni, prechádzka v parku...",
+    "imagePromptHint": "AI vygeneruje obrázok {name} podľa vášho popisu.",
+    "referenceImageLabel": "Vaša fotografia (voliteľné)",
+    "referenceImageHint": "Nahrajte svoju fotografiu, aby ste sa objavili v scéne s {name}. Bez fotografie sa vygeneruje iba {name}.",
+    "uploadReferenceImage": "Nahrať vašu fotografiu",
+    "uploadReferenceImageDesc": "Obaja sa objavíte na vygenerovanom obrázku",
+    "referenceImageSelected": "Vy aj {name} sa objavíte spolu",
+    "generating": "Generujem...",
+    "generate": "Generovať",
+    "generateImage": "Generovať obrázok",
+    "imageGenerated": "Obrázok bol úspešne vygenerovaný",
+    "generateError": "Nepodarilo sa vygenerovať obrázok",
+    "contentBlockedReply": "Prepáč, tento obrázok nemôžem vytvoriť. Bol zablokovaný bezpečnostnými filtrami. Skús iný popis! 💕",
+    "generateVideoTitle": "Generovať video s {name}",
+    "generateVideo": "Generovať video",
+    "videoPromptLabel": "Opíš akciu",
+    "videoPromptPlaceholder": "napr. tancovanie, mávanie, posielanie bozku...",
+    "videoPromptHint": "AI vygeneruje video, v ktorom {name} vykoná opísanú akciu.",
+    "generatingImage": "Generujem obrázok...",
+    "generatingVideo": "Generujem video... (3-5 min)",
+    "viewPhoto": "Zobraziť fotku",
+    "viewVideo": "Zobraziť video",
+    "selectVideoOption": "Vyber možnosť videa vyššie",
+    "contentPolicyViolation": "Túto správu nebolo možné odoslať. Prosím, zostaň v konverzácii úctivý.",
+    "functionCallBetaHint": "💡 Táto funkcia je v beta verzii — pre spoľahlivé generovanie médií bez obmedzení použite tlačidlá fotiek/videí v paneli nástrojov.",
+    "repliedToStory": "Odpovedané na story",
+    "repliedToStoryLiked": "Lajknuté a odpovedané na story",
+    "storyNoLongerAvailable": "Story už nie je dostupné",
+    "rateLimitExceeded": "Príliš veľa požiadaviek. Počkaj chvíľu a skús to znova.",
+    "profileTab": "Profil",
+    "galleryTab": "Galéria",
+    "giftsTab": "Darčeky",
+    "tts": {
+      "play": "Prehrať hlas",
+      "stop": "Zastaviť",
+      "generating": "Generujem hlas…",
+      "error": "Audio sa nepodarilo prehrať"
+    }
+  },
+  "gallery": {
+    "all": "Všetko",
+    "images": "Obrázky",
+    "videos": "Videá",
+    "empty": "Zatiaľ žiadne médiá"
+  },
+  "gifts": {
+    "sendAGift": "Poslať darček",
+    "catalogSubtitle": "Vyber darček pre {name}",
+    "browseGifts": "Prehliadať darčeky",
+    "noneSent": "Zatiaľ žiadne darčeky",
+    "confirmTitle": "Potvrdiť darček",
+    "forCompanion": "Pre {name}",
+    "optionalMessage": "Pridať správu (voliteľné)",
+    "optionalMessagePlaceholder": "Napíš niečo milé...",
+    "sendGiftFor": "Poslať",
+    "giftSent": "Darček si odoslal",
+    "sendError": "Darček sa nepodarilo odoslať"
+  },
+  "stories": {
+    "replyPlaceholder": "Odpovedať {name}...",
+    "like": "Páči sa mi",
+    "send": "Odoslať",
+    "close": "Zavrieť",
+    "previous": "Predchádzajúci príbeh",
+    "next": "Ďalší príbeh",
+    "pause": "Pozastaviť",
+    "play": "Prehrať",
+    "mute": "Stíšiť",
+    "unmute": "Zapnúť zvuk",
+    "openStory": "Otvoriť príbeh od {name}"
+  },
+  "generate": {
+    "title": "Generovať obrázok",
+    "description": "Vytváraj úžasné obrázky so svojimi AI postavami",
+    "selectCompanion": "Vyber postavu",
+    "promptPlaceholder": "Popíš obrázok, ktorý chceš vygenerovať... napr. na pláži, v červených šatách",
+    "promptLabel": "Popis obrázka",
+    "promptRequired": "Zadaj prosím popis",
+    "generateButton": "Generovať obrázok",
+    "generating": "Generujem...",
+    "creatingImage": "Vytváram tvoj obrázok...",
+    "pleaseWait": "Môže to trvať 10–30 sekúnd",
+    "noCompanionSelected": "Najprv vyber postavu",
+    "emptyGallery": "Zatiaľ neboli vygenerované žiadne obrázky. Vyber postavu a popíš obrázok!",
+    "sessionGallery": "Vygenerované obrázky",
+    "regenerate": "Regenerovať",
+    "regenerating": "Regenerujem...",
+    "animate": "Animovať",
+    "animateReference": "Tento obrázok bude prvým snímkom videa.",
+    "filterMyAI": "Moje AI",
+    "filterAll": "Všetky",
+    "filterGirls": "Ženy",
+    "filterAnime": "Anime",
+    "filterGuys": "Muži",
+    "imageGenerationFailed": "Generovanie obrázka zlyhalo. Obrázok možno nespĺňa požiadavky alebo je popis príliš zložitý. Skúste jednoduchší prompt.",
+    "noImageData": "Nebol vygenerovaný žiadny obrázok. Skúste to znova s iným popisom.",
+    "generationFailed": "Generovanie zlyhalo. Skúste to znova neskôr alebo s iným promptom.",
+    "random": "Náhodne",
+    "custom": "Vlastné",
+    "settings": "Nastavenia",
+    "videoTitle": "Generovať video",
+    "videoDescription": "Vytvárajte úžasné videá s vašimi AI postavami",
+    "videoPromptLabel": "Popis videa",
+    "videoPromptPlaceholder": "Popíšte akciu, ktorú chcete vygenerovať... napr. tancovanie, mávanie, úsmev",
+    "generateVideoButton": "Generovať video",
+    "generatingVideo": "Generovanie videa...",
+    "creatingVideo": "Vytváranie vášho videa...",
+    "videoWait": "Môže to trvať 1-5 minút",
+    "emptyVideoGallery": "Zatiaľ neboli vygenerované žiadne videá. Vyberte postavu a popíšte akciu!",
+    "sessionVideoGallery": "Vygenerované videá",
+    "videoGenerated": "Video bolo úspešne vygenerované!",
+    "videoGenerationFailed": "Generovanie videa zlyhalo. Skúste to znova.",
+    "duration": "Dĺžka",
+    "shortVideo": "Krátke",
+    "longVideo": "Dlhé",
+    "seconds": "sekúnd",
+    "audio": "Audio",
+    "renderingVideo": "Vykresľovanie videa…",
+    "renderingVideoHint": "(trvá až 1 minútu)",
+    "rateLimitExceeded": "Príliš veľa požiadaviek. Počkajte chvíľu a skúste to znova.",
+    "chooseCharacter": "Vyberte postavu",
+    "selectButton": "Vybrať",
+    "noCustomCompanions": "Zatiaľ ste nevytvorili žiadne AI postavy.",
+    "numberOfImages": "Počet obrázkov",
+    "numberOfVideos": "Počet videí",
+    "freeTrial": "Skúška zadarmo",
+    "changeCharacter": "Zmeniť postavu",
+    "randomize": "Náhodný prompt",
+    "aiVideo": "AI video",
+    "download": "Stiahnuť",
+    "seriesHelper": "Tu nájdete svoje výsledky. Môžete opustiť stránku alebo začať novú sériu, kým tieto dokončia.",
+    "suggestions": {
+      "title": "Návrhy",
+      "categories": {
+        "outfit": "Oblečenie",
+        "action": "Akcia",
+        "pose": "Póza",
+        "accessories": "Doplnky",
+        "scene": "Scéna"
+      },
+      "items": {
+        "bikini": "Bikiny",
+        "skirt": "Sukňa",
+        "lingerie": "Spodná bielizeň",
+        "crop_top": "Crop top",
+        "leather": "Koža",
+        "mini_skirt": "Mini sukňa",
+        "satin_robe": "Saténový župan",
+        "jeans": "Džínsy",
+        "summer_dress": "Letné šaty",
+        "sportswear": "Športové oblečenie",
+        "selfie": "Selfie",
+        "walking": "Chôdza",
+        "dancing": "Tanec",
+        "stretching": "Rozcvička",
+        "lying_down": "Ležanie",
+        "leaning": "Opieranie",
+        "blowing_kiss": "Fúkanie bozku",
+        "drinking_coffee": "Pitím kávy",
+        "hands_on_hips": "Ruky na bokoch",
+        "over_shoulder": "Cez rameno",
+        "side_profile": "Bočný profil",
+        "arms_crossed": "Ruky skrížené",
+        "kneeling": "Kľačanie",
+        "squatting": "Drep",
+        "back_view": "Pohľad zozadu",
+        "sitting": "Sedenie",
+        "necklace": "Náhrdelník",
+        "earrings": "Náušnice",
+        "glasses": "Okuliare",
+        "choker": "Choker",
+        "hat": "Klobúk",
+        "sunglasses": "Slnečné okuliare",
+        "garden": "Záhrada",
+        "beach": "Pláž",
+        "bedroom": "Spálňa",
+        "gym": "Posilňovňa",
+        "bar": "Bar",
+        "kitchen": "Kuchyňa",
+        "restaurant": "Reštaurácia",
+        "balcony": "Balkón",
+        "city_street": "Mestská ulica",
+        "pool": "Pri bazéne"
+      },
+      "fragments": {
+        "bikini": "v bikiny",
+        "skirt": "v sukni",
+        "lingerie": "v spodnej bielizni",
+        "crop_top": "v crop topu",
+        "leather": "v koženom outfite",
+        "mini_skirt": "v mini sukni",
+        "satin_robe": "v saténovom župte",
+        "jeans": "v džínsoch",
+        "summer_dress": "v letných šatách",
+        "sportswear": "v priliehajúcom športe",
+        "selfie": "fotenie selfie",
+        "walking": "prechádzka",
+        "dancing": "tancovanie",
+        "stretching": "naťahovanie",
+        "lying_down": "ležanie",
+        "leaning": "opretá o stenu",
+        "blowing_kiss": "posielanie bozku",
+        "drinking_coffee": "pitie kávy",
+        "hands_on_hips": "s rukami v bok",
+        "over_shoulder": "pohľad cez rameno",
+        "side_profile": "bočný profil",
+        "arms_crossed": "so skríženými rukami",
+        "kneeling": "kľačanie",
+        "squatting": "drep",
+        "back_view": "pohľad zozadu",
+        "sitting": "sedenie",
+        "necklace": "s náhrdelníkom",
+        "earrings": "s náušnicami",
+        "glasses": "v okuliaroch",
+        "choker": "s obojkom",
+        "hat": "v klobúku",
+        "sunglasses": "v slnečných okuliaroch",
+        "garden": "v záhrade",
+        "beach": "na pláži",
+        "bedroom": "v spálni",
+        "gym": "v posilňovni",
+        "bar": "v bare",
+        "kitchen": "v kuchyni",
+        "restaurant": "v reštaurácii",
+        "balcony": "na balkóne",
+        "city_street": "na mestskej ulici",
+        "pool": "pri bazéne"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ukáž mi selfie od teba"
+        },
+        "posing": {
+          "name": "Pózovanie",
+          "uiPrompt": "Ukáž mi, ako pózuješ"
+        },
+        "sitting": {
+          "name": "Sedenie",
+          "uiPrompt": "Ukáž mi, ako sedíš"
+        },
+        "waving": {
+          "name": "Mávanie",
+          "uiPrompt": "Ukáž mi, ako mávaš"
+        },
+        "dancing": {
+          "name": "Tanec",
+          "uiPrompt": "Ukáž mi, ako tancuješ"
+        },
+        "reading": {
+          "name": "Čítanie",
+          "uiPrompt": "Ukáž mi, ako čítaš"
+        },
+        "smiling": {
+          "name": "Usmiaty",
+          "uiPrompt": "Ukáž mi, ako sa usmievaš"
+        },
+        "walking": {
+          "name": "Chôdza",
+          "uiPrompt": "Ukáž mi, ako chodíš"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ukáž mi video selfie"
+        },
+        "posing": {
+          "name": "Pózovanie",
+          "uiPrompt": "Ukáž mi video, ako pózuješ"
+        },
+        "sitting": {
+          "name": "Sedenie",
+          "uiPrompt": "Ukáž mi video, ako si sadneš"
+        },
+        "waving": {
+          "name": "Mávanie",
+          "uiPrompt": "Ukáž mi video, ako mávaš"
+        },
+        "dancing": {
+          "name": "Tancovanie",
+          "uiPrompt": "Ukáž mi video, ako tancuješ"
+        },
+        "reading": {
+          "name": "Čítanie",
+          "uiPrompt": "Ukáž mi video, ako čítaš"
+        },
+        "smiling": {
+          "name": "Usmiaty",
+          "uiPrompt": "Ukáž mi video, ako sa usmievaš"
+        },
+        "walking": {
+          "name": "Chôdza",
+          "uiPrompt": "Ukáž mi video, ako chodíš"
+        }
+      }
+    },
+    "writeYourOwn": "alebo napíš vlastný prompt",
+    "presetSelected": "Predvoľba vybraná",
+    "effects": {
+      "categories": {
+        "solo": "Sólo & Tease",
+        "oral": "Orál",
+        "positions": "Polohy",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Kúpeľný uterák"
+        },
+        "bikini": {
+          "name": "Bikiny"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Materské mlieko"
+        },
+        "bunny_suit": {
+          "name": "Zajačí kostým"
+        },
+        "chain_leash": {
+          "name": "Reťaz s vôdzkou"
+        },
+        "chinese_dress": {
+          "name": "Čínske šaty"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Vlastné"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Prstovanie"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Školská uniforma"
+        },
+        "legsup": {
+          "name": "Nohy hore"
+        },
+        "leopard_bikini": {
+          "name": "Leopardie bikiny"
+        },
+        "lingerie": {
+          "name": "Spodná bielizeň"
+        },
+        "masturbation": {
+          "name": "Masturbácia"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Misionársky bočný pohľad"
+        },
+        "remix_blowjob": {
+          "name": "Remix orálny"
+        },
+        "remix_cowgirl": {
+          "name": "Remix jazdecká"
+        },
+        "remix_doggystyle": {
+          "name": "Remix psíčkovia"
+        },
+        "remix_dress": {
+          "name": "Remix šaty"
+        },
+        "remix_hold_dick": {
+          "name": "Remix držanie"
+        },
+        "remix_kiss": {
+          "name": "Remix bozk"
+        },
+        "remix_pronebone": {
+          "name": "Remix pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix cmúľanie"
+        },
+        "remix_wear": {
+          "name": "Remix oblečenie"
+        },
+        "remix_yoga": {
+          "name": "Remix joga"
+        },
+        "ride_on_dildo": {
+          "name": "Jazda na dildu"
+        },
+        "sipping_condoms": {
+          "name": "Sanie kondómov"
+        },
+        "squatting_cowgirl": {
+          "name": "Drepujúca jazdecká"
+        },
+        "tattoo": {
+          "name": "Tetovanie"
+        },
+        "tentacles": {
+          "name": "Chápadlá"
+        },
+        "titjob": {
+          "name": "Prsné stimulovanie"
+        },
+        "topless": {
+          "name": "Nahé poprsie"
+        },
+        "undress": {
+          "name": "Vyzliekanie"
+        },
+        "used": {
+          "name": "Použitá"
+        },
+        "xray": {
+          "name": "X-ray"
+        },
+        "maid_outfit": {
+          "name": "Služka"
+        },
+        "nurse_outfit": {
+          "name": "Sestra"
+        },
+        "cheerleader": {
+          "name": "Cheerleaderka"
+        },
+        "wet_tshirt": {
+          "name": "Mokré tričko"
+        },
+        "latex_catsuit": {
+          "name": "Latexový overal"
+        },
+        "corset_stockings": {
+          "name": "Korzet a pančuchy"
+        },
+        "gym_shorts": {
+          "name": "Šortky na cvičenie"
+        },
+        "thong_tease": {
+          "name": "Tangá Tease"
+        },
+        "upskirt_panties": {
+          "name": "Pod sukňou"
+        },
+        "mirror_selfie": {
+          "name": "Selfie v zrkadle"
+        },
+        "shower_nude": {
+          "name": "Sprcha"
+        },
+        "oiled_body": {
+          "name": "Olejované telo"
+        },
+        "spread_open": {
+          "name": "Rozkročená"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Hlboké hrdlo"
+        },
+        "sloppy_blowjob": {
+          "name": "Mokrá orálna"
+        },
+        "ball_licking": {
+          "name": "Olizovanie gúľ"
+        },
+        "face_sitting_oral": {
+          "name": "Sedenie na tvári"
+        },
+        "cowgirl": {
+          "name": "Jazdecká"
+        },
+        "reverse_cowgirl": {
+          "name": "Opačná jazdecká"
+        },
+        "prone_bone": {
+          "name": "Ležmo"
+        },
+        "standing_sex": {
+          "name": "Stojmo"
+        },
+        "against_wall": {
+          "name": "O stenu"
+        },
+        "spooning": {
+          "name": "Lyžičkou"
+        },
+        "legs_on_shoulders": {
+          "name": "Nohy na pleciach"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Jazdecká POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Ručná práca POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Dvojitá penetrácia"
+        },
+        "threesome_mmf": {
+          "name": "Trojka"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Perlový náhrdelník"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Striekanie"
+        },
+        "spanking": {
+          "name": "Plácanie"
+        },
+        "gagged_bdsm": {
+          "name": "S roubíkom"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Uctievanie vtáka"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazonka"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Ťahanie za vlasy"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anál"
+        },
+        "back_doggystyle": {
+          "name": "Zadné psíčkovia"
+        },
+        "blowjob": {
+          "name": "Orálny"
+        },
+        "blowjob_69": {
+          "name": "Orálny 69"
+        },
+        "blowjob_reverse": {
+          "name": "Orálny obrátený"
+        },
+        "breast_massage": {
+          "name": "Masáž pŕs"
+        },
+        "breast_massage_nude": {
+          "name": "Masáž pŕs nahá"
+        },
+        "butt_smothering": {
+          "name": "Zadok dusenie"
+        },
+        "cock_worship": {
+          "name": "Uctievanie"
+        },
+        "cum_in_mouth": {
+          "name": "Sperma v ústach"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbácia s dildom"
+        },
+        "double_blowjob": {
+          "name": "Dvojitý orálny"
+        },
+        "double_penetration": {
+          "name": "Dvojitá penetrácia"
+        },
+        "ejaculation": {
+          "name": "Ejakulácia"
+        },
+        "facefuck": {
+          "name": "Tvárový orálny"
+        },
+        "facefuck_pov": {
+          "name": "Tvárový orálny POV"
+        },
+        "facial_cumshot": {
+          "name": "Sperma na tvár"
+        },
+        "footjob": {
+          "name": "Nohy stimulovanie"
+        },
+        "front_doggystyle": {
+          "name": "Predné psíčkovia"
+        },
+        "fuck_machine": {
+          "name": "Sexuálny stroj"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Ručné stimulovanie"
+        },
+        "masturbation": {
+          "name": "Masturbácia"
+        },
+        "missionary_pov": {
+          "name": "Misionársky POV"
+        },
+        "missionary_sideview": {
+          "name": "Misionársky bočný pohľad"
+        },
+        "nipple_play": {
+          "name": "Hra s bradavkami"
+        },
+        "nude_posing": {
+          "name": "Nahé pózovanie"
+        },
+        "orgasm": {
+          "name": "Orgazmus"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Detail na pičku"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverzná kovbojka"
+        },
+        "shoejob": {
+          "name": "Nožná práca"
+        },
+        "spitroast": {
+          "name": "Dvojitý prienik"
+        },
+        "squatting_cowgirl": {
+          "name": "Drepujúca kovbojka"
+        },
+        "throatpie": {
+          "name": "Hltanová dávka"
+        },
+        "tiktok_trend": {
+          "name": "TikTok trend"
+        },
+        "titjob": {
+          "name": "Prsná práca"
+        },
+        "titty_flash": {
+          "name": "Bliknutie poprsím"
+        },
+        "triple_dicked": {
+          "name": "Trojitý prienik"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Vyzliekanie"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Show v sprche"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Proti stene"
+        },
+        "spooning": {
+          "name": "Lyžičkovanie"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazonka"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Plácanie"
+        },
+        "hair_pulling": {
+          "name": "Ťahanie za vlasy"
+        },
+        "fingering": {
+          "name": "Prstovanie"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Rozkročenie"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Nohy na pleciach"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Aftercare Mess"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Naozaj chcete toto odstrániť?",
+    "deleteSuccess": "Úspešne odstránené",
+    "deleteError": "Odstránenie zlyhalo",
+    "empty": "Zatiaľ žiadne médiá. Vygenerujte nejaké v chate!",
+    "gallerySubtitle": "Vaša osobná galéria AI-generovaných momentov",
+    "filterAll": "Všetko",
+    "filterImages": "Obrázky",
+    "filterVideos": "Videá",
+    "loadMore": "Načítať viac",
+    "folders": "Priečinky",
+    "newFolder": "Nový priečinok",
+    "deleteFolders": "Odstrániť vybrané priečinky",
+    "folderCreated": "Priečinok vytvorený",
+    "folderCreateError": "Vytvorenie priečinka zlyhalo",
+    "folderRenamed": "Priečinok premenovaný",
+    "folderRenameError": "Premenovanie priečinka zlyhalo",
+    "folderDeleted": "Priečinok odstránený",
+    "folderDeleteError": "Odstránenie priečinka zlyhalo",
+    "folderNamePlaceholder": "Názov priečinka",
+    "seeMore": "Zobraziť viac",
+    "seeLess": "Zobraziť menej",
+    "selectedCount": "{count} vybraných položiek",
+    "selectAll": "Vybrať všetko",
+    "select": "Vybrať",
+    "moveToFolder": "Presunúť",
+    "bulkDeleteConfirm": "Odstrániť {count} vybraných položiek?",
+    "bulkDeleteSuccess": "Položky odstránené",
+    "bulkDownloadStart": "Sťahujem {count} položiek...",
+    "moveSuccess": "Položky presunuté"
+  },
+  "voice": {
+    "connecting": "Pripájam...",
+    "connected": "Pripojené",
+    "mute": "Stlmiť",
+    "unmute": "Zrušiť stlmenie",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Hovorte prirodzene. AI odpovie, keď sa odmlčíte.",
+    "connectionError": "Nepodarilo sa pripojiť. Skúste to znova.",
+    "minutesRemaining": "{minutes} minút zostáva",
+    "minutesUsed": "{minutes} minút použitých"
+  },
+  "characters": {
+    "filters": "Filtre",
+    "ethnicity": "Etnicita",
+    "bodyType": "Typ postavy",
+    "ageRange": "Vekové rozpätie",
+    "relationship": "Vzťah",
+    "occupation": "Povolanie",
+    "hobbies": "Záľuby",
+    "personality": "Osobnosť",
+    "language": "Jazyk",
+    "age": "Vek",
+    "all": "Všetky",
+    "noResults": "Nenašli sa žiadne postavy",
+    "noResultsDesc": "Skúste upraviť filtre",
+    "newBadge": "Nové",
+    "chatNow": "Chatovať teraz",
+    "viewProfile": "Zobraziť profil",
+    "ethnicities": {
+      "caucasian": "Biela",
+      "asian": "Ázijská",
+      "middleEastern": "Blízkovýchodná",
+      "hispanic": "Hispánska",
+      "african": "Africká",
+      "southAsian": "Južná Ázia",
+      "nativeAmerican": "Domorodá americká",
+      "pacificIslander": "Ostrovy v Tichomorí",
+      "mixed": "Zmiešaná",
+      "other": "Iná"
+    },
+    "bodyTypes": {
+      "slim": "Štíhla",
+      "athletic": "Atletická",
+      "average": "Priemerná",
+      "curvy": "Oblé tvary",
+      "plus": "Plus size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Slobodná/ý",
+      "dating": "Chodí s niekým",
+      "married": "Ženatý/vydatá",
+      "none": "Žiadny"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Môj profil",
+    "settings": "Nastavenia",
+    "account": "Účet",
+    "plan": "Plán",
+    "profileSettings": "Nastavenia profilu",
+    "manageAccountSettings": "Spravujte nastavenia a preferencie účtu",
+    "personalInfo": "Osobné informácie",
+    "nickname": "Prezývka",
+    "gender": "Pohlavie",
+    "male": "Muž",
+    "female": "Žena",
+    "preferences": "Preferencie",
+    "newsletter": "Odber newslettera",
+    "newsletterDesc": "Dostávajte aktualizácie a novinky",
+    "aiTrainingTitle": "Tréning AI a moderácie",
+    "aiTrainingDesc": "Umožnite, aby vaše chaty a prompt pomáhali trénovať a zlepšovať sweetwine AI a moderáciu. Túto voľbu môžete kedykoľvek vypnúť.",
+    "aiTrainingLink": "Viac informácií nájdete v našom Oznámení o ochrane súkromia.",
+    "aiTrainingError": "Nepodarilo sa aktualizovať preferenciu tréningu AI",
+    "interfaceLanguage": "Jazyk rozhrania",
+    "interfaceLanguageDesc": "Jazyk používateľského rozhrania",
+    "aiLanguage": "Jazyk odpovedí AI",
+    "aiLanguageDesc": "Jazyk, ktorý budú AI postavy používať pri komunikácii s vami",
+    "currentPlan": "Aktuálny plán",
+    "freePlan": "Bezplatný plán",
+    "dangerZone": "Nebezpečná zóna",
+    "dangerZoneDescription": "Ak chcete natrvalo odstrániť tento účet a všetky jeho údaje.",
+    "deleteAllMemory": "Vymazať všetku pamäť",
+    "confirmDeleteAllMemory": "Naozaj chcete vymazať dlhodobú pamäť všetkých AI postáv? Správy v chate zostanú, ale postavy zabudnú predchádzajúce fakty pri ďalšej odpovedi.",
+    "deleteAllMemorySuccess": "Všetky pamäte vymazané",
+    "deleteAccount": {
+      "button": "Odstrániť účet",
+      "title": "Odstrániť účet",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Pre potvrdenie napíšte",
+      "confirmRequired": "Pre potvrdenie napíšte DELETE",
+      "confirmButton": "Odstrániť môj účet",
+      "deleting": "Odstraňuje sa...",
+      "success": "Váš účet bol odstránený",
+      "error": "Odstránenie účtu zlyhalo. Skúste to znova."
+    },
+    "saveChanges": "Uložiť zmeny",
+    "changesSaved": "Zmeny boli úspešne uložené",
+    "saveFailed": "Uloženie zmien zlyhalo",
+    "languageUpdated": "Jazyk bol aktualizovaný",
+    "aiLanguageUpdated": "Jazyk AI bol aktualizovaný"
+  },
+  "create": {
+    "defaultGreeting": "Ahoj",
+    "title": "Vytvoriť AI postavu",
+    "step": "Krok {current} z {total}",
+    "step1": {
+      "title": "Vyberte štýl",
+      "description": "Vyberte štýl a základné atribúty pre vašu postavu"
+    },
+    "step2": {
+      "title": "Vyberte etnikum",
+      "description": "Vyberte etnikum a vek pre vašu postavu"
+    },
+    "step3": {
+      "title": "Vyberte vlasy a oči",
+      "description": "Prispôsobte účes, farbu vlasov a farbu očí"
+    },
+    "step4": {
+      "title": "Vyberte telo",
+      "description": "Prispôsobte telo vašej postavy"
+    },
+    "step5": {
+      "title": "Osobnosť a detaily",
+      "description": "Definujte osobnosť a hlas vašej postavy"
+    },
+    "style": {
+      "title": "Štýl postavy",
+      "realistic": "Realistický",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Pohlavie",
+      "female": "Žena",
+      "male": "Muž"
+    },
+    "age": {
+      "title": "Vek",
+      "years": "{age} rokov"
+    },
+    "ethnicity": {
+      "title": "Etnikum"
+    },
+    "hairStyle": {
+      "title": "Účes"
+    },
+    "hairColor": {
+      "title": "Farba vlasov"
+    },
+    "eyeColor": {
+      "title": "Farba očí"
+    },
+    "bodyType": {
+      "title": "Typ postavy"
+    },
+    "breastSize": {
+      "title": "Veľkosť poprsia"
+    },
+    "name": {
+      "title": "Meno",
+      "placeholder": "Zadajte meno postavy",
+      "randomize": "Vygenerovať náhodné meno"
+    },
+    "language": {
+      "title": "Jazyk",
+      "widgetLabel": "Vyberte jazyk",
+      "placeholder": "Vyberte jazyk",
+      "selectTitle": "Vyberte váš jazyk"
+    },
+    "personality": {
+      "title": "Osobnosť",
+      "widgetLabel": "Vyberte osobnosť",
+      "placeholder": "Vyberte osobnosť",
+      "sectionTitle": "Vyberte osobnosť",
+      "clickToChange": "Kliknite pre zmenu"
+    },
+    "relationship": {
+      "title": "Vzťah",
+      "widgetLabel": "Vyberte vzťah",
+      "placeholder": "Vyberte vzťah",
+      "selectTitle": "Upraviť vzťah"
+    },
+    "occupation": {
+      "title": "Povolanie",
+      "widgetLabel": "Vybrať povolanie",
+      "placeholder": "Vyberte povolanie",
+      "selectTitle": "Upraviť povolanie"
+    },
+    "kinks": {
+      "title": "Záujmy",
+      "widgetLabel": "Aké záujmy majú? (Max. {max})",
+      "labelMax": "Záujmy (Max. {max})",
+      "placeholder": "Vyberte záujmy (voliteľné)",
+      "optional": "Voliteľné",
+      "selectTitle": "Upraviť záujmy",
+      "moreCount": "+{count} ďalších"
+    },
+    "selector": {
+      "searchPlaceholder": "Hľadať",
+      "noResults": "Nenašli sa žiadne možnosti",
+      "cancel": "Zrušiť",
+      "saveChanges": "Uložiť zmeny",
+      "selectedCount": "{count} vybraných"
+    },
+    "voice": {
+      "title": "Hlas",
+      "widgetLabel": "Vybrať hlas",
+      "placeholder": "Vyberte hlas",
+      "selectTitle": "Vybrať hlas"
+    },
+    "advanced": {
+      "title": "Pokročilé detaily",
+      "optional": "voliteľné",
+      "filled": "Vyplnené",
+      "autocompleteTitle": "Automatické doplnenie AI",
+      "autocompleteDesc": "Nechajte AI vyplniť prázdne polia pre hlbšiu postavu",
+      "autocompleteSuccess": "Polia boli úspešne vyplnené!",
+      "autocompleteError": "Nepodarilo sa vygenerovať návrhy. Skúste to znova.",
+      "greetingLabel": "Pozdrav",
+      "greetingPlaceholder": "Prvá správa, ktorú vaša postava pošle...",
+      "scenarioLabel": "Scenár",
+      "scenarioPlaceholder": "Kontext alebo príbeh, ako ste sa stretli...",
+      "personalityLabel": "Ďalšie detaily osobnosti",
+      "personalityPlaceholder": "Zvláštnosti, rečové vzorce, behaviorálne črty...",
+      "extraLabel": "Ďalšie detaily",
+      "extraPlaceholder": "Pozadie, záľuby, životná história..."
+    },
+    "navigation": {
+      "back": "Späť",
+      "next": "Ďalej",
+      "create": "Vytvoriť",
+      "generateYourCharacter": "Vygenerovať vašu postavu"
+    },
+    "progress": {
+      "generatingPrompt": "Vytváranie osobnosti...",
+      "generatingImage": "Vytváranie portrétu...",
+      "creatingVoice": "Nastavovanie hlasu...",
+      "saving": "Ukladanie...",
+      "complete": "Hotovo!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Vytváranie osobnosti...",
+      "addingSweetness": "Pridávanie sladkosti...",
+      "tooMuchSweet": "Ups, príliš veľa sladkého...",
+      "testingSounds": "Testujem zvuky..."
+    },
+    "overlay": {
+      "signupPrompt": "Dokončite registráciu a odomknite svoju postavu…",
+      "processingHint": "Zvyčajne to trvá 20–30 sekúnd",
+      "traitEthnicity": "Etnická príslušnosť",
+      "traitBody": "Postava",
+      "traitHair": "Vlasy",
+      "traitColor": "Farba",
+      "traitEyes": "Oči",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Vaša postava je pripravená na vytvorenie!",
+      "bannerDesc": "Vaše preferencie boli uložené. Skontrolujte a vygenerujte nižšie."
+    },
+    "success": {
+      "title": "Postava vytvorená!",
+      "description": "Vaša AI postava bola úspešne vytvorená.",
+      "yearsOld": "rokov",
+      "meetButton": "Stretnúť"
+    },
+    "error": {
+      "title": "Vytvorenie zlyhalo",
+      "generic": "Nepodarilo sa vytvoriť postavu. Skúste to znova."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukazská",
+        "asian": "Ázijská",
+        "middle_eastern": "Blízkovýchodná",
+        "hispanic": "Hispánska",
+        "african": "Africká",
+        "south_asian": "Južná Ázia",
+        "native_american": "Domorodí Američania",
+        "pacific_islander": "Tichomorskí ostrovania",
+        "mixed": "Zmiešaná",
+        "arab": "Arabská"
+      },
+      "hairStyleFemale": {
+        "straight": "Rovné",
+        "bangs": "Ofina",
+        "curly": "Kučeravé",
+        "bun": "Drdol",
+        "short_bob": "Krátky bob",
+        "ponytail": "Konský chvost",
+        "wavy": "Vlnité",
+        "long_layers": "Dlhé vrstvy",
+        "braids": "Vrkoče",
+        "pixie_cut": "Pixie strih",
+        "updo": "Updo",
+        "french_twist": "Francúzsky twist",
+        "fishtail_braid": "Rybí chvost",
+        "top_knot": "Top knot",
+        "space_buns": "Space buns",
+        "halo_braid": "Halo vrkoč",
+        "beehive": "Včelí úľ",
+        "finger_waves": "Finger waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag strih",
+        "bald": "Holá"
+      },
+      "hairStyleMale": {
+        "short": "Krátke",
+        "buzz_cut": "Buzz strih",
+        "crew_cut": "Crew strih",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Kučeravé",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dredy",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Bočný pás",
+        "textured_crop": "Textúrovaný crop",
+        "french_crop": "Francúzsky crop",
+        "spiky": "Pichľavé",
+        "comb_over": "Prečesané",
+        "long_hair": "Dlhé vlasy",
+        "bald": "Holá"
+      },
+      "hairColor": {
+        "brunette": "Brunetka",
+        "blonde": "Blond",
+        "black": "Čierna",
+        "redhead": "Zrzavá",
+        "pink": "Ružová",
+        "auburn": "Auburn",
+        "brown": "Hnedá",
+        "platinum_blonde": "Platinová blond",
+        "silver_grey": "Strieborná/šedá",
+        "white": "Biela",
+        "blue": "Modrá",
+        "purple": "Fialová",
+        "green": "Zelená",
+        "burgundy": "Bordová",
+        "copper": "Medená",
+        "strawberry_blonde": "Jahodová blond",
+        "ash_brown": "Popolavá hnedá",
+        "golden_blonde": "Zlatá blond",
+        "mahogany": "Mahagónová",
+        "pastel_pink": "Pastelová ružová",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Melír",
+        "jet_black": "Uhlíková čierna",
+        "dark_brown": "Tmavohnedá",
+        "light_brown": "Svetlohnedá",
+        "honey_blonde": "Medová blond",
+        "dirty_blonde": "Špinavá blond",
+        "cherry_red": "Čerešňová červená",
+        "violet": "Fialová"
+      },
+      "eyeColor": {
+        "brown": "Hnedá",
+        "blue": "Modrá",
+        "green": "Zelená",
+        "hazel": "Liesková",
+        "amber": "Jantárová",
+        "gray": "Sivá",
+        "heterochromia": "Heterochrómia",
+        "violet": "Fialová",
+        "red_pink": "Červená/ružová",
+        "black": "Čierna"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Chudá",
+        "athletic": "Atletická",
+        "average": "Priemerná",
+        "curvy": "Oblé tvary",
+        "chubby": "Pliumpová"
+      },
+      "bodyTypeMale": {
+        "skinny": "Chudý",
+        "athletic": "Atletický",
+        "average": "Priemerný",
+        "muscular": "Svalnatý",
+        "heavy": "Ťažký",
+        "big_tall": "Veľký a vysoký"
+      },
+      "breastSize": {
+        "small": "Malé",
+        "medium": "Stredné",
+        "large": "Veľké",
+        "extra_large": "Extra veľké"
+      },
+      "personality": {
+        "nympho": "Nymfomanka",
+        "lover": "Milovník",
+        "submissive": "Submisívny",
+        "dominant": "Dominantný",
+        "temptress": "Pokúšačka",
+        "innocent": "Nevinný",
+        "caregiver": "Opatrovateľ",
+        "experimenter": "Experimentátor",
+        "mean": "Zlostný",
+        "confidant": "Dôverník",
+        "shy": "Plachý",
+        "queen": "Kráľovná",
+        "adventurous": "Dobrodružný",
+        "romantic": "Romantický",
+        "intellectual": "Intelektuál",
+        "protector": "Ochranca",
+        "rebel": "Rebel",
+        "optimist": "Optimista",
+        "realist": "Realista",
+        "free_spirit": "Voľný duch",
+        "leader": "Líder",
+        "loyal": "Verný",
+        "playful": "Hravý",
+        "mysterious": "Tajomný",
+        "ambitious": "Ambiciózny",
+        "gentle": "Jemný",
+        "sarcastic": "Sarkastický",
+        "empathetic": "Empatický",
+        "stoic": "Stoický",
+        "charismatic": "Charizmatický"
+      },
+      "relationship": {
+        "stranger": "Cudzinec",
+        "girlfriend": "Priateľka",
+        "sex_friend": "Sexuálny priateľ",
+        "school_mate": "Školský kamarát",
+        "work_colleague": "Pracovný kolega",
+        "wife": "Manželka",
+        "mistress": "Milovnica",
+        "friend": "Priateľ",
+        "step_sister": "Nevlastná sestra",
+        "step_mom": "Nevlastná mama",
+        "step_daughter": "Nevlastná dcéra",
+        "landlord": "Prenajímateľ",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Šéf",
+        "teacher": "Učiteľ",
+        "student": "Študent",
+        "neighbour": "Sused",
+        "mother_in_law": "Svokra",
+        "sister_in_law": "Nevlastná švagriná",
+        "boyfriend": "Priateľ",
+        "husband": "Manžel",
+        "fiance": "Snúbenec / Snúbenica",
+        "ex": "Ex",
+        "roommate": "Spolubývajúci",
+        "best_friend": "Najlepší priateľ",
+        "classmate": "Spolužiak",
+        "mentor": "Mentor",
+        "client": "Klient",
+        "therapist": "Terapeut",
+        "trainer": "Tréner",
+        "rival": "Súper",
+        "crush": "Láska na prvý pohľad",
+        "secret_admirer": "Tajný obdivovateľ",
+        "pen_pal": "Listový priateľ",
+        "business_partner": "Obchodný partner",
+        "babysitter": "Pestúnka",
+        "childhood_friend": "Kamarát z detstva",
+        "long_distance_partner": "Partner na diaľku"
+      },
+      "occupation": {
+        "student": "Študent",
+        "dancer": "Tanečník",
+        "model": "Modelka",
+        "maid": "Upratovačka",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Pestúnka / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Barmanka",
+        "tech_engineer": "Tech inžinierka",
+        "lifeguard": "Záchrankyňa",
+        "cashier": "Pokladníčka",
+        "massage_therapist": "Masérka",
+        "teacher": "Učiteľka",
+        "nurse": "Sesternička",
+        "secretary": "Sekretárka",
+        "yoga_instructor": "Inštruktorka jogy",
+        "fitness_coach": "Fitness trénerka",
+        "cook": "Kuchárka",
+        "artist": "Umelkyňa",
+        "movie_star_actress": "Filmová hviezda / Herečka",
+        "doctor": "Lekárka",
+        "librarian": "Knihovníčka",
+        "spy": "Špiónka",
+        "police_officer": "Policajtka",
+        "soldier": "Vojak",
+        "lawyer": "Právnička",
+        "hairdresser": "Kaderníčka",
+        "dentist": "Zubárka",
+        "singer_musician": "Speváčka / Hudobníčka",
+        "gynecologist": "Gynekologička",
+        "writer": "Spisovateľka",
+        "flight_attendant": "Letuška",
+        "professional_athlete": "Profesionálna športovkyňa",
+        "scientist": "Vedkyňa",
+        "florist": "Kvetinárka",
+        "makeup_artist": "Vizážistka",
+        "photographer": "Fotografka",
+        "social_worker": "Sociálna pracovníčka",
+        "designer": "Dizajnérka",
+        "pharmacist": "Farmaceutka",
+        "nutritionist": "Nutričná poradkyňa",
+        "architect": "Architektka",
+        "veterinarian": "Veterinárka",
+        "mechanic": "Mechanička",
+        "journalist": "Novinárka",
+        "pilot": "Pilotka",
+        "firefighter": "Hasička",
+        "accountant": "Účtovníčka",
+        "electrician": "Elektrikárka",
+        "carpenter": "Tesárka",
+        "psychologist": "Psychológ",
+        "real_estate_agent": "Realitný agent",
+        "chef": "Kuchár",
+        "farmer": "Farmár",
+        "delivery_driver": "Kuriér",
+        "janitor": "Upratovač",
+        "security_guard": "Ochranca",
+        "banker": "Bankár",
+        "judge": "Sudca",
+        "paramedic": "Záchranár",
+        "actor": "Herec",
+        "comedian": "Komik",
+        "archaeologist": "Archeológ",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Plácanie",
+        "collar_leash": "Obojok a vodítko",
+        "punishment": "Trestanie",
+        "humiliation": "Poníženie",
+        "public_play": "Verejná hra",
+        "roleplay": "Hranie rolí",
+        "anal_play": "Análna hra",
+        "oral_play": "Orálna hra",
+        "cum_play": "Hra so semenom",
+        "creampie": "Creampie",
+        "squirting": "Striekanie",
+        "dirty_talk": "Špinavé reči",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Dominancia Daddy/Mommy",
+        "edging": "Edging",
+        "obedience": "Poslušnosť",
+        "control": "Kontrola",
+        "inexperienced": "Neskúsenosť",
+        "shy_flirting": "Plaché flirtovanie",
+        "playful_teasing": "Hravé škádlivanie",
+        "cuddling": "Objímanie",
+        "slow_sensual": "Pomalé a zmyslné",
+        "hair_pulling": "Ťahanie za vlasy",
+        "foot_fetish": "Fetiš nôh",
+        "voyeurism": "Voyerizmus",
+        "exhibitionism": "Exhibicionizmus",
+        "sensation_play": "Hra so zmyslami",
+        "wax_play": "Hra s voskom",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Lekárska hra",
+        "orgasm_control_denial": "Kontrola/orgazmové odmietanie",
+        "forced_orgasms": "Nútené orgazmy",
+        "group_sex": "Skupinový sex",
+        "threesomes": "Trojuholníky",
+        "swapping": "Výmena partnerov",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Jemná dominancia",
+        "sensation_deprivation": "Zníženie vnemov",
+        "sensory_overload": "Preťaženie zmyslov",
+        "uniform_costume_fetish": "Fetiš uniformy/kostýmu",
+        "food_play": "Hra s jedlom",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Impact Play",
+        "knife_play": "Knife Play",
+        "consensual_non_consent": "Consensual Non-Consent",
+        "power_exchange": "Výmena moci",
+        "master_slave": "Pán/Otrokyňa",
+        "owner_pet": "Majiteľ/Zviera"
+      },
+      "languages": {
+        "en": "Angličtina",
+        "cs": "Čeština",
+        "pl": "Poľština",
+        "de": "Nemčina",
+        "es": "Španielčina",
+        "fr": "Francúzština"
+      }
+    }
+  },
+  "myAI": {
+    "title": "My AI",
+    "titlePart1": "My",
+    "titlePart2": "AI",
+    "createNew": "Vytvoriť novú AI",
+    "createButton": "Vytvoriť postavu",
+    "characterCount": "{count}/{limit} postáv",
+    "loadMore": "Načítať viac",
+    "empty": {
+      "title": "Zatiaľ žiadne postavy",
+      "description": "Vytvorte svoju prvú AI postavu a začnite chatovať! Prispôsobte jej vzhľad, osobnosť a hlas.",
+      "createFirst": "Vytvorte svoju prvú postavu"
+    },
+    "delete": {
+      "title": "Odstrániť postavu",
+      "message": "Naozaj chcete odstrániť {name}? Týmto natrvalo odstránite postavu, celú históriu chatu a vygenerovaný obsah.",
+      "confirm": "Odstrániť",
+      "success": "Postava bola úspešne odstránená"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interakcia",
+    "interactionDescription": "Stačí písať prirodzene — požiadajte o fotku, video alebo začnite konverzáciu. AI rozumie vášmu zámeru v akomkoľvek jazyku.",
+    "mediaTitle": "Generovať obrázky a videá",
+    "mediaDescription": "Uvoľnite svoju fantáziu — generujte obrázky alebo videá bez obmedzení.",
+    "next": "Ďalej →",
+    "gotIt": "Rozumiem"
+  }
+}

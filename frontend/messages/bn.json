@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "সেভ করুন",
+    "cancel": "বাতিল করুন",
+    "delete": "মুছুন",
+    "edit": "এডিট করুন",
+    "close": "বন্ধ করুন",
+    "now": "এখন",
+    "loading": "লোড হচ্ছে...",
+    "error": "একটি সমস্যা হয়েছে",
+    "success": "সফল",
+    "confirm": "নিশ্চিত করুন",
+    "back": "ফিরে যান",
+    "or": "অথবা",
+    "next": "পরবর্তী",
+    "submit": "জমা দিন",
+    "search": "খুঁজুন",
+    "filter": "ফিল্টার",
+    "clear": "মুছুন",
+    "all": "সব",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "download": "ডাউনলোড করুন",
+    "and": "এবং",
+    "tryAgain": "আবার চেষ্টা করুন",
+    "change": "পরিবর্তন করুন"
+  },
+  "navigation": {
+    "new": "নতুন",
+    "sectionBrowse": "ব্রাউজ করুন",
+    "sectionTalk": "কথা বলুন",
+    "sectionCreate": "তৈরি করুন",
+    "sectionLibrary": "লাইব্রেরি",
+    "explore": "হোম",
+    "discover": "আবিষ্কার করুন",
+    "createShort": "এআই তৈরি করুন",
+    "chats": "চ্যাট",
+    "groupChat": "এআই গ্রুপ চ্যাট",
+    "roleplay": "রোলপ্লে",
+    "collection": "কালেকশন",
+    "generateImage": "ছবি তৈরি করুন",
+    "generateVideo": "ভিডিও তৈরি করুন",
+    "createCharacter": "এআই ক্যারেক্টার তৈরি করুন",
+    "myAI": "আমার এআই",
+    "language": "ভাষা",
+    "contactUs": "যোগাযোগ করুন",
+    "account": "অ্যাকাউন্ট",
+    "sidebarPromoTitle": "সামার সেল — ৫০% ছাড়",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "মহিলা",
+      "anime": "অ্যানিমে",
+      "guys": "পুরুষ"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "এখনই চ্যাট করুন",
+    "like": "লাইক"
+  },
+  "auth": {
+    "login": "লগ ইন",
+    "signup": "সাইন আপ",
+    "createFreeAccount": "আপনার ফ্রি অ্যাকাউন্ট তৈরি করুন",
+    "logout": "লগ আউট",
+    "email": "ইমেইল",
+    "password": "পাসওয়ার্ড",
+    "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+    "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+    "noAccount": "অ্যাকাউন্ট নেই?",
+    "hasAccount": "ইতিমধ্যে অ্যাকাউন্ট আছে?",
+    "signupPrompt": "ফ্রি অ্যাকাউন্ট তৈরি করুন",
+    "loginPrompt": "লগ ইন",
+    "continueWith": "চালিয়ে যান",
+    "welcomeBack": "ফিরে আসার জন্য স্বাগতম!",
+    "createAccount": "আপনার অ্যাকাউন্ট তৈরি করুন",
+    "signInToAccount": "আপনার অ্যাকাউন্টে সাইন ইন করুন",
+    "emailRequired": "ইমেইল আবশ্যক",
+    "emailInvalid": "অবৈধ ইমেইল ঠিকানা",
+    "passwordRequired": "পাসওয়ার্ড আবশ্যক",
+    "passwordLength": "পাসওয়ার্ড কমপক্ষে ৬ অক্ষরের হতে হবে",
+    "passwordsMismatch": "পাসওয়ার্ড মিলছে না",
+    "emailAlreadyRegistered": "ইমেইল ইতিমধ্যে নিবন্ধিত",
+    "emailAlreadyRegisteredDescription": "এই ইমেইল দিয়ে একটি অ্যাকাউন্ট ইতিমধ্যে আছে। অনুগ্রহ করে লগ ইন করুন।",
+    "loginError": "লগ ইন করতে ব্যর্থ",
+    "signupError": "সাইন আপ করতে ব্যর্থ",
+    "loginSuccess": "ফিরে আসার জন্য স্বাগতম!",
+    "signupSuccess": "অ্যাকাউন্ট সফলভাবে তৈরি হয়েছে!",
+    "logoutSuccess": "আপনি সফলভাবে লগ আউট হয়েছেন",
+    "logoutError": "লগ আউট করতে ব্যর্থ",
+    "linkExpired": "এই ভেরিফিকেশন লিংকের মেয়াদ শেষ হয়েছে। অনুগ্রহ করে নতুন একটি অনুরোধ করুন।",
+    "accessDenied": "অ্যাক্সেস প্রত্যাখ্যান করা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "verifyEmail": "আপনার ইমেইল যাচাই করুন",
+    "verificationEmailSent": "আমরা আপনাকে একটি ভেরিফিকেশন ইমেইল পাঠিয়েছি",
+    "confirmYourEmail": "আপনার ই-মেইল নিশ্চিত করুন",
+    "confirmationLinkSent": "আমরা \"{email}\"-এ একটি কনফার্মেশন লিংক পাঠিয়েছি।",
+    "checkSpamFolder": "ইমেইল পাননি? আপনার স্প্যাম ফোল্ডার চেক করুন।",
+    "signupToChat": "শুরু করতে আপনার ফ্রি অ্যাকাউন্ট তৈরি করুন।",
+    "signupDescription": "আপনার কথোপকথন চালিয়ে যেতে একটি অ্যাকাউন্ট তৈরি করুন",
+    "emailVerificationTitle": "আপনার ইমেইল চেক করুন",
+    "emailVerificationMessage": "আমরা {email}-এ একটি ভেরিফিকেশন লিংক পাঠিয়েছি। অনুগ্রহ করে আপনার ইনবক্স চেক করুন এবং আপনার অ্যাকাউন্ট যাচাই করতে লিংকে ক্লিক করুন।",
+    "emailVerificationNext": "যাচাইকরণের পর আপনি অনবোর্ডিং প্রক্রিয়া সম্পন্ন করবেন।",
+    "verificationEmailSentTo": "আমরা {email}-এ একটি যাচাইকরণ ইমেইল পাঠিয়েছি",
+    "verificationInstructions": "অনুগ্রহ করে আপনার ইনবক্স চেক করুন এবং আপনার অ্যাকাউন্ট সক্রিয় করতে যাচাইকরণ লিঙ্কে ক্লিক করুন।",
+    "resetPassword": "পাসওয়ার্ড রিসেট করুন",
+    "resetPasswordDescription": "আপনার ইমেইল দিন এবং আমরা আপনাকে একটি রিসেট লিঙ্ক পাঠাব",
+    "resetEmailSent": "যদি এই ইমেইলের সাথে কোনো অ্যাকাউন্ট থাকে, আপনি শীঘ্রই একটি রিসেট লিঙ্ক পাবেন",
+    "backToLogin": "লগইনে ফিরে যান",
+    "newPassword": "নতুন পাসওয়ার্ড",
+    "confirmNewPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন",
+    "passwordResetSuccess": "পাসওয়ার্ড সফলভাবে আপডেট হয়েছে। অনুগ্রহ করে লগইন করুন।",
+    "enterNewPassword": "আপনার নতুন পাসওয়ার্ড দিন",
+    "redirectingToLogin": "লগইনে রিডাইরেক্ট করা হচ্ছে...",
+    "invalidResetLink": "অবৈধ বা মেয়াদোত্তীর্ণ লিঙ্ক",
+    "invalidResetLinkDescription": "এই পাসওয়ার্ড রিসেট লিঙ্কটি অবৈধ বা মেয়াদোত্তীর্ণ। অনুগ্রহ করে একটি নতুন অনুরোধ করুন।",
+    "passwordsDontMatch": "পাসওয়ার্ড মিলছে না",
+    "currentPassword": "বর্তমান পাসওয়ার্ড",
+    "currentPasswordRequired": "বর্তমান পাসওয়ার্ড আবশ্যক",
+    "changePassword": "পাসওয়ার্ড পরিবর্তন করুন",
+    "changePasswordDescription": "আপনার বর্তমান পাসওয়ার্ড দিন এবং একটি নতুন বেছে নিন",
+    "newPasswordMustBeDifferent": "নতুন পাসওয়ার্ড বর্তমান পাসওয়ার্ড থেকে ভিন্ন হতে হবে",
+    "incorrectPassword": "বর্তমান পাসওয়ার্ড ভুল",
+    "passwordChangeSuccess": "পাসওয়ার্ড সফলভাবে পরিবর্তিত হয়েছে",
+    "changeEmail": "ইমেইল পরিবর্তন করুন",
+    "newEmail": "নতুন ইমেইল",
+    "confirmNewEmail": "নতুন ইমেইল নিশ্চিত করুন",
+    "emailsDontMatch": "ইমেইলগুলো মিলছে না",
+    "emailChangeDescription": "আপনার বর্তমান এবং নতুন উভয় ইমেইল ঠিকানায় একটি যাচাইকরণ ইমেইল পাঠানো হবে",
+    "emailMustBeDifferent": "নতুন ইমেইল বর্তমান ইমেইল থেকে ভিন্ন হতে হবে",
+    "emailChangeSent": "যাচাইকরণ ইমেইল পাঠানো হয়েছে। অনুগ্রহ করে আপনার নতুন ইমেইল ইনবক্স চেক করুন।",
+    "emailChangeSecurityNote": "নিরাপত্তার জন্য, নিশ্চিতকরণ ইমেইল আপনার বর্তমান এবং নতুন উভয় ইমেইল ঠিকানায় পাঠানো হবে। পরিবর্তন সম্পন্ন করতে আপনাকে উভয় থেকে নিশ্চিত করতে হবে।",
+    "otpDescription": "আমরা {email}-এ একটি ৬-সংখ্যার কোড পাঠিয়েছি",
+    "otpVerify": "যাচাই করুন",
+    "otpResend": "কোড পুনরায় পাঠান",
+    "otpResendIn": "{seconds}সেকেন্ডে পুনরায় পাঠান",
+    "otpNoCode": "কোড পাননি?",
+    "otpInvalid": "অবৈধ কোড। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "otpSuccess": "ইমেইল সফলভাবে যাচাই করা হয়েছে!",
+    "otpResendSuccess": "আপনার ইমেইলে নতুন কোড পাঠানো হয়েছে",
+    "otpResendError": "কোড পুনরায় পাঠাতে ব্যর্থ হয়েছে",
+    "continueWithEmail": "ইমেইল দিয়ে চালিয়ে যান",
+    "moreOptions": "আরও অপশন",
+    "lessOptions": "কম অপশন",
+    "enterYourEmail": "আপনার ইমেইল ঠিকানা দিন",
+    "sendCode": "কোড পাঠান",
+    "byCreatingAccountAgree": "অ্যাকাউন্ট তৈরি করে আপনি আমাদের সাথে সম্মত হচ্ছেন",
+    "termsOfService": "সেবার শর্তাবলি",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "sweetwine-এ স্বাগতম",
+    "welcomeTo": "স্বাগতম",
+    "letsGetStarted": "চলুন আপনাকে সেট আপ করি",
+    "setupProfile": "আপনার প্রোফাইল সেটআপ করুন",
+    "step1of2": "ধাপ ১ এর ২",
+    "step2of2": "ধাপ ২ এর ২",
+    "nickname": "ডাকনাম",
+    "nicknamePlaceholder": "একটি ডাকনাম বেছে নিন",
+    "nicknameRequired": "অনুগ্রহ করে একটি ডাকনাম লিখুন",
+    "gender": "লিঙ্গ",
+    "genderRequired": "অনুগ্রহ করে আপনার লিঙ্গ নির্বাচন করুন",
+    "male": "পুরুষ",
+    "female": "মহিলা",
+    "interfaceLanguage": "ইন্টারফেসের ভাষা",
+    "interfaceLanguageDesc": "মেনু এবং বোতামের জন্য ভাষা",
+    "aiLanguage": "AI উত্তরের ভাষা",
+    "aiLanguageDesc": "আপনার সাথে কথা বলার সময় AI যে ভাষা ব্যবহার করবে",
+    "languageRequired": "অনুগ্রহ করে একটি ভাষা নির্বাচন করুন",
+    "continue": "চালিয়ে যান",
+    "ageVerification": "বয়স যাচাই",
+    "ageVerificationText": "sweetwine ব্যবহার করতে আপনার বয়স ১৮ বছর বা তার বেশি হতে হবে। চালিয়ে যাওয়ার মাধ্যমে আপনি নিশ্চিত করছেন যে আপনি আইনত প্রাপ্তবয়স্ক।",
+    "beforeContinue": "চালিয়ে যাওয়ার আগে",
+    "mustBe18": "এই পরিষেবা ব্যবহার করতে আপনার বয়স ১৮ বছর বা তার বেশি হতে হবে",
+    "agreeToTerms": "চালিয়ে যাওয়ার মাধ্যমে আপনি আমাদের {termsLink} এবং {privacyLink} এর সাথে সম্মত হচ্ছেন",
+    "termsOfService": "পরিষেবার শর্তাবলি",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "iConfirm": "আমি নিশ্চিত করছি যে আমার বয়স ১৮ বছর বা তার বেশি এবং আমি",
+    "ageRequired": "চালিয়ে যেতে আপনাকে আপনার বয়স নিশ্চিত করতে হবে",
+    "aiActConsent": "আমি স্বীকার করছি যে আমি শুধুমাত্র একটি AI এর সাথে যোগাযোগ করছি",
+    "aiActRequired": "চালিয়ে যেতে আপনাকে এটি স্বীকার করতে হবে",
+    "newsletterOptIn": "আপডেট এবং খবরের জন্য আমাদের নিউজলেটারে সাবস্ক্রাইব করুন",
+    "complete": "সেটআপ সম্পন্ন!",
+    "completeText": "আপনি প্রস্তুত! AI চরিত্রদের সাথে চ্যাট শুরু করুন।",
+    "startExploring": "এক্সপ্লোর শুরু করুন",
+    "featuresTitle": "উপলব্ধ বৈশিষ্ট্য",
+    "featuresTitleWord1": "উপলব্ধ",
+    "featuresTitleWord2": "বৈশিষ্ট্য",
+    "feature1Title": "AI চ্যাট",
+    "feature1Desc": "অসেন্সরড এবং প্রাইভেট কথোপকথন",
+    "feature2Title": "ছবি তৈরি",
+    "feature2Desc": "AI চরিত্রদের সাথে অসেন্সরড এবং ব্যক্তিগতকৃত ছবি তৈরি করুন",
+    "feature3Title": "ভিডিও তৈরি",
+    "feature3Desc": "ইফেক্ট সহ অসেন্সরড AI ভিডিও তৈরি করুন",
+    "feature5Title": "কাস্টম AI ক্রিয়েটর",
+    "feature5Desc": "নিজের চরিত্র ডিজাইন করুন",
+    "feature6Title": "চরিত্র ব্রাউজ করুন",
+    "feature6Desc": "১০০+ অনন্য ব্যক্তিত্ব",
+    "feature7Title": "AI রোলপ্লে",
+    "feature7Desc": "পেশাদারভাবে তৈরি গল্প এবং কল্পনা অনুভব করুন",
+    "showcase": {
+      "chatTitle": "এআই চ্যাট",
+      "chatDesc": "সীমাহীন, ব্যক্তিগত কথোপকথন",
+      "imageTitle": "ছবি তৈরি",
+      "imageDesc": "আপনার এআই-এর ব্যক্তিগত, সীমাহীন ছবি তৈরি করুন",
+      "videoTitle": "ভিডিও তৈরি",
+      "videoDesc": "ইফেক্টসহ সীমাহীন এআই ভিডিও তৈরি করুন",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "আপনার কম্প্যানিয়নের সাথে রিয়েল-টাইম ভয়েস কথোপকথন",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "নিমগ্ন গল্প, কল্পনা এবং ইন্টারঅ্যাকটিভ প্লে",
+      "groupChatTitle": "এআই গ্রুপ চ্যাট",
+      "groupChatDesc": "একসাথে ৩টি এআই চরিত্রের সাথে চ্যাট করুন",
+      "creatorTitle": "কাস্টম এআই ক্রিয়েটর",
+      "creatorDesc": "নিজের এআই চরিত্র ডিজাইন ও তৈরি করুন"
+    },
+    "freePlan": {
+      "title": "আপনি সম্পূর্ণ প্রস্তুত!",
+      "subtitle": "আপনার ফ্রি প্ল্যানে যা যা আছে তা দেখুন।",
+      "charactersTitle": "আপনার নিজস্ব চরিত্র তৈরি করুন",
+      "charactersDesc": "স্ক্র্যাচ থেকে {count} কাস্টম AI চরিত্র ডিজাইন করুন",
+      "imagesTitle": "একটি ছবি তৈরি করুন",
+      "imagesDesc": "আপনার কম্প্যানিয়নের {count} ফ্রি AI ছবি",
+      "messagesTitle": "প্রতিদিন চ্যাট করুন",
+      "messagesDesc": "প্রতিদিন {count} বার্তা, প্রতি ২৪ ঘণ্টায় রিফ্রেশ হয়",
+      "cta": "এক্সপ্লোর শুরু করুন"
+    },
+    "redirectingIn": "রিডাইরেক্ট করা হচ্ছে",
+    "seconds": "সেকেন্ড",
+    "generateCharacter": "আপনার চরিত্র তৈরি করুন",
+    "redirectingToCreate": "চরিত্র ক্রিয়েটরে রিডাইরেক্ট করা হচ্ছে"
+  },
+  "errors": {
+    "pageNotFound": "পেজ পাওয়া যায়নি",
+    "pageNotFoundDesc": "আপনি যে পেজটি খুঁজছেন সেটি বিদ্যমান নেই।",
+    "goHome": "হোমে যান",
+    "somethingWentWrong": "কিছু সমস্যা হয়েছে",
+    "tryAgain": "আবার চেষ্টা করুন",
+    "unauthorized": "অননুমোদিত",
+    "unauthorizedDesc": "এই পেজ অ্যাক্সেস করতে আপনাকে লগইন করতে হবে।",
+    "forbidden": "নিষিদ্ধ",
+    "forbiddenDesc": "এই পেজ অ্যাক্সেস করার অনুমতি আপনার নেই।"
+  },
+  "footer": {
+    "allRightsReserved": "সর্বস্বত্ব সংরক্ষিত।",
+    "madeWith": "তৈরি করা হয়েছে",
+    "by": "sweetwine দ্বারা",
+    "description": "স্বতন্ত্র ব্যক্তিত্ব, ভিজ্যুয়াল আইডেন্টিটি এবং আকর্ষণীয় কথোপকথন সহ ব্যক্তিগতকৃত এআই ক্যারেক্টার উপভোগ করুন।",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "প্রোডাক্ট",
+    "legal": "আইনি",
+    "company": "কোম্পানি",
+    "resources": "রিসোর্স",
+    "partnerships": "পার্টনারশিপ",
+    "pressMedia": "প্রেস ও মিডিয়া",
+    "careers": "ক্যারিয়ার",
+    "aiRealClones": "এআই রিয়েল ক্লোন",
+    "about": "সম্পর্কে",
+    "blog": "ব্লগ",
+    "news": "নিউজ",
+    "productUpdates": "প্রোডাক্ট আপডেট",
+    "help": "সাহায্য",
+    "sitemap": "সাইটম্যাপ",
+    "paymentOptions": "পেমেন্ট অপশন",
+    "chats": "চ্যাট",
+    "collection": "কালেকশন",
+    "generateImage": "ইমেজ তৈরি করুন",
+    "generateVideo": "ভিডিও তৈরি করুন",
+    "myAI": "আমার এআই",
+    "createCharacter": "ক্যারেক্টার তৈরি করুন",
+    "api": "এপিআই",
+    "features": "ফিচার",
+    "allFeatures": "সব ফিচার",
+    "aiGroupChat": "এআই গ্রুপ চ্যাট",
+    "aiMemory": "এআই মেমরি",
+    "aiGirlfriend": "এআই গার্লফ্রেন্ড",
+    "aiBoyfriend": "এআই বয়ফ্রেন্ড",
+    "aiCompanions": "এআই ক্যারেক্টার",
+    "aiFriend": "এআই ফ্রেন্ড",
+    "aiBreakupSupport": "ব্রেকআপ সাপোর্ট",
+    "aiParent": "এআই প্যারেন্ট",
+    "aiRoleplay": "এআই রোলপ্লে",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsAndConditions": "শর্তাবলি",
+    "cookiePolicy": "কুকি নীতি",
+    "cookieSettings": "কুকি সেটিংস",
+    "other": "অন্যান্য নীতি",
+    "copyright": "© {year} sweetwine. সর্বস্বত্ব সংরক্ষিত।"
+  },
+  "cookies": {
+    "banner": {
+      "title": "এই সাইটে কুকিজ",
+      "customizeButton": "কাস্টমাইজ করুন",
+      "rejectButton": "প্রত্যাখ্যান করুন",
+      "acceptButton": "গ্রহণ করুন"
+    },
+    "modal": {
+      "title": "কুকিজ পরিচালনা করুন",
+      "subtitle": "নিচে ক্যাটাগরি চালু বা বন্ধ করুন। সাইট চালানোর জন্য প্রয়োজনীয় কুকিজ সবসময় চালু থাকবে।",
+      "categories": {
+        "necessary": {
+          "title": "কঠোরভাবে প্রয়োজনীয়",
+          "description": "সাইন-ইন, চেকআউট এবং নিরাপত্তার জন্য প্রয়োজনীয়। এগুলো ছাড়া সাইট চলবে না।",
+          "alwaysOn": "সবসময় চালু"
+        },
+        "analytics": {
+          "title": "পারফরম্যান্স",
+          "description": "Google Analytics 4 এর মাধ্যমে ব্যবহার এবং রূপান্তর পরিমাপ, যার মধ্যে আমাদের সার্ভার থেকে পাঠানো মূল রূপান্তর (সাইন-আপ, ক্রয়) অন্তর্ভুক্ত। এটি আমাদের সেবা কীভাবে ব্যবহৃত হয় তা বুঝতে সাহায্য করে; আমরা এটি ব্যক্তিগতভাবে আপনাকে শনাক্ত করতে ব্যবহার করি না।"
+        },
+        "marketing": {
+          "title": "টার্গেটিং",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "কুকিজ দেখান",
+      "hideCookies": "কুকিজ লুকান",
+      "table": {
+        "name": "নাম",
+        "provider": "প্রদানকারী",
+        "expiration": "মেয়াদ",
+        "description": "বিবরণ",
+        "session": "সেশন"
+      },
+      "policyLink": "পূর্ণ বিবরণের জন্য, আমাদের <policy>কুকি নীতি</policy> দেখুন।",
+      "rejectButton": "প্রত্যাখ্যান করুন",
+      "saveButton": "সংরক্ষণ করুন ও বন্ধ করুন",
+      "acceptButton": "গ্রহণ করুন",
+      "cookieDescriptions": {
+        "supabaseAuth": "আপনার প্রমাণিত সেশন সংরক্ষণ করে আপনাকে সাইন ইন রাখে।",
+        "nextLocale": "ইন্টারফেসের জন্য আপনার নির্বাচিত ভাষা মনে রাখে।",
+        "consent": "আপনার কুকি পছন্দ সংরক্ষণ করে যাতে প্রতি ভিজিটে ব্যানার দেখানো না হয়।",
+        "ga": "অনন্য ভিজিটর শনাক্ত করে (Google Analytics 4)। একই ছদ্মনামী আইডি সার্ভার-সাইডে মূল রূপান্তর পরিমাপ করতেও ব্যবহৃত হয়।",
+        "gaSession": "Google Analytics 4 সেশন স্টেট এবং এনগেজমেন্ট মেট্রিক্স ধরে রাখে।",
+        "fbp": "Meta Pixel অ্যাট্রিবিউশনের জন্য ব্রাউজার শনাক্ত করে।",
+        "fbc": "বিজ্ঞাপন রূপান্তর অ্যাট্রিবিউশনের জন্য Facebook ক্লিক আইডি সংরক্ষণ করে। শুধুমাত্র Meta বিজ্ঞাপনে ক্লিক করার পর সেট হয়।",
+        "gclAu": "ক্রস-সাইট রূপান্তর লিঙ্কিংয়ের জন্য Google Ads ব্যবহার করে।",
+        "saleCountdown": "আপনার বর্তমান প্রমোশনাল অফারের শেষ ট্র্যাক করে যাতে ডিসকাউন্ট কাউন্টডাউন পৃষ্ঠা জুড়ে সামঞ্জস্যপূর্ণ থাকে।",
+        "onboarded": "আপনার অ্যাকাউন্টকে অনবোর্ডেড হিসেবে চিহ্নিত করে যাতে পরবর্তী পৃষ্ঠায় বয়স-যাচাই ডাটাবেস চেক এড়ানো যায়।",
+        "attribution": "আপনাকে আমাদের সাইটে নিয়ে আসা সর্বশেষ পেইড ক্যাম্পেইন বা অ্যাড লিঙ্ক রেকর্ড করে (৩০ দিনের মধ্যে শেষ পেইড ক্লিক) যাতে আমরা আমাদের বিজ্ঞাপনের কার্যকারিতা পরিমাপ করতে পারি। এটি একটি ফার্স্ট-পার্টি আইডেন্টিফায়ার যা আমাদের সার্ভারে থাকে এবং কখনো তৃতীয় পক্ষের সাথে শেয়ার করা হয় না।"
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "শীঘ্রই আসছে",
+    "subtitle": "আমরা এই ফিচারটি আপনার কাছে নিয়ে আসতে কঠোর পরিশ্রম করছি।",
+    "notify": "প্রস্তুত হলে নোটিফাই করুন",
+    "backHome": "হোমে ফিরে যান",
+    "generateVideo": {
+      "title": "ভিডিও তৈরি করুন",
+      "description": "আপনার AI চরিত্রগুলোকে অ্যানিমেটেড ভিডিও দিয়ে জীবন্ত করে তুলুন। আপনার প্রিয় চরিত্রদের নিয়ে ব্যক্তিগত ভিডিও কনটেন্ট তৈরি করুন।"
+    },
+    "createCharacter": {
+      "title": "আপনার চরিত্র তৈরি করুন",
+      "description": "আপনার নিজস্ব অনন্য AI চরিত্র ডিজাইন ও কাস্টমাইজ করুন। তাদের ব্যক্তিত্ব, চেহারা, পটভূমি নির্ধারণ করুন এবং সত্যিকারের ব্যক্তিগত ইন্টারঅ্যাকশন তৈরি করুন।"
+    },
+    "myAI": {
+      "title": "আমার AI",
+      "description": "আপনার সব কাস্টম তৈরি AI চরিত্র অ্যাক্সেস ও পরিচালনা করুন। তাদের ব্যক্তিত্ব সম্পাদনা করুন, চেহারা আপডেট করুন এবং তাদের উত্তর সূক্ষ্মভাবে সামঞ্জস্য করুন।"
+    }
+  },
+  "exploreMore": {
+    "title": "আরও এক্সপ্লোর করুন",
+    "aiGroupChat": "AI গ্রুপ চ্যাট",
+    "aiGroupChatDesc": "৩টি চরিত্রের সাথে চ্যাট করুন",
+    "aiMemory": "এআই মেমরি",
+    "aiMemoryDesc": "প্রতিটি মোডের সাথে থাকা কনটেক্সট",
+    "aiGirlfriend": "AI গার্লফ্রেন্ড",
+    "aiGirlfriendDesc": "আপনার ভার্চুয়াল গার্লফ্রেন্ডের সাথে চ্যাট করুন",
+    "aiBoyfriend": "AI বয়ফ্রেন্ড",
+    "aiBoyfriendDesc": "আপনার AI বয়ফ্রেন্ডের সাথে সংযুক্ত হন",
+    "aiCompanions": "AI চরিত্র",
+    "aiCompanionsDesc": "অনন্য AI ব্যক্তিত্বের সাথে পরিচিত হন",
+    "aiFriend": "AI বন্ধু",
+    "aiFriendDesc": "বিচারমুক্ত বন্ধু খুঁজুন",
+    "aiBreakupSupport": "ব্রেকআপ সাপোর্ট",
+    "aiBreakupSupportDesc": "নিরাময়মূলক কথোপকথন",
+    "aiParent": "AI প্যারেন্ট",
+    "aiParentDesc": "উষ্ণ সাপোর্ট ও নির্দেশনা",
+    "aiRoleplay": "AI রোলপ্লে",
+    "aiRoleplayDesc": "নিমগ্ন গল্পের পরিস্থিতি",
+    "allFeatures": "সব ফিচার",
+    "allFeaturesDesc": "আমাদের সব অফার এক্সপ্লোর করুন"
+  },
+  "legal": {
+    "policies": "নীতিমালা",
+    "termsAndConditions": "শর্তাবলি",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "cookiePolicy": "কুকি নীতি",
+    "contentReportingPolicy": "কনটেন্ট রিপোর্টিং নীতি",
+    "communityGuidelines": "কমিউনিটি গাইডলাইন",
+    "complaintPolicy": "অভিযোগ নীতি",
+    "contentRemovalPolicy": "কনটেন্ট অপসারণ নীতি",
+    "blockedContentPolicy": "ব্লকড কনটেন্ট নীতি",
+    "underagePolicy": "আন্ডারএজ নীতি",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "সর্বশেষ আপডেট",
+    "index": {
+      "title": "আইনি ডকুমেন্টস",
+      "subtitle": "sweetwine সম্পর্কিত সব আইনি নীতি ও চুক্তি ব্রাউজ করুন",
+      "documents": {
+        "privacyPolicy": {
+          "title": "গোপনীয়তা নীতি",
+          "description": "আমরা কীভাবে আপনার ব্যক্তিগত তথ্য সংগ্রহ, ব্যবহার ও সুরক্ষা করি তা জানুন। ডেটা হ্যান্ডলিং, স্টোরেজ ও আপনার গোপনীয়তার অধিকার সম্পর্কে বিস্তারিত।"
+        },
+        "termsAndConditions": {
+          "title": "শর্তাবলি",
+          "description": "sweetwine ব্যবহারের নিয়ন্ত্রণকারী পরিষেবার শর্ত। ব্যবহারকারীর দায়িত্ব, পরিষেবার বিবরণ ও আইনি চুক্তি।"
+        },
+        "cookiePolicy": {
+          "title": "কুকি নীতি",
+          "description": "আমাদের প্ল্যাটফর্মে আপনার অভিজ্ঞতা উন্নত করতে কুকি ও অনুরূপ প্রযুক্তি কীভাবে ব্যবহার করি সে সম্পর্কে তথ্য।"
+        },
+        "underagePolicy": {
+          "title": "আন্ডারএজ নীতি",
+          "description": "আমাদের কঠোর বয়স যাচাই ও সুরক্ষা নীতি। sweetwine শুধুমাত্র ১৮ বছর বা তার বেশি বয়সী ব্যবহারকারীদের জন্য উপলব্ধ।"
+        },
+        "complaintPolicy": {
+          "title": "অভিযোগ নীতি",
+          "description": "কীভাবে অভিযোগ দায়ের করবেন, সমস্যা রিপোর্ট করবেন এবং ব্যবহারকারীর উদ্বেগ ও বিরোধ নিষ্পত্তির প্রক্রিয়া।"
+        },
+        "contentRemovalPolicy": {
+          "title": "কনটেন্ট অপসারণ নীতি",
+          "description": "কনটেন্ট অপসারণের অনুরোধের পদ্ধতি এবং অনুপযুক্ত বা অবৈধ কনটেন্টের রিপোর্ট কীভাবে পরিচালনা করি।"
+        },
+        "blockedContentPolicy": {
+          "title": "ব্লকড কনটেন্ট নীতি",
+          "description": "আমাদের প্ল্যাটফর্মে নিষিদ্ধ কনটেন্টের ধরন এবং আমাদের প্রয়োগ নীতি।"
+        },
+        "contentReportingPolicy": {
+          "title": "কনটেন্ট রিপোর্টিং নীতি",
+          "description": "sweetwine-এ কপিরাইট লঙ্ঘন ও অনুপযুক্ত কনটেন্ট রিপোর্ট করার উপায়।"
+        },
+        "communityGuidelines": {
+          "title": "কমিউনিটি গাইডলাইন",
+          "description": "সব ব্যবহারকারীর জন্য সম্মানজনক, নিরাপদ ও আনন্দদায়ক কমিউনিটি বজায় রাখার নিয়ম ও নির্দেশনা।"
+        }
+      },
+      "lastUpdated": "সর্বশেষ আপডেট: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "চ্যাটস",
+    "groupChat": "এআই গ্রুপ চ্যাট",
+    "aiMemory": "এআই মেমরি",
+    "generate": "ইমেজ জেনারেট করুন",
+    "generateVideo": "ভিডিও জেনারেট করুন",
+    "create": "এআই ক্যারেক্টার তৈরি করুন",
+    "myAI": "আমার এআই",
+    "collection": "কালেকশন",
+    "invite": "আমন্ত্রণ",
+    "profile": "প্রোফাইল সেটিংস",
+    "legal": "আইনি",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsAndConditions": "শর্তাবলী",
+    "cookiePolicy": "কুকি নীতি",
+    "dmcaPolicy": "DMCA নীতি",
+    "communityGuidelines": "কমিউনিটি নির্দেশিকা",
+    "contentRemovalPolicy": "কনটেন্ট অপসারণ নীতি",
+    "contentReportingPolicy": "কনটেন্ট রিপোর্টিং নীতি",
+    "complaintPolicy": "অভিযোগ নীতি",
+    "blockedContentPolicy": "ব্লক করা কনটেন্ট নীতি",
+    "underagePolicy": "অপ্রাপ্তবয়স্ক নীতি",
+    "usc2257Exemption": "USC 2257 Exemption"
+  },
+  "contact": {
+    "title": "যোগাযোগ করুন",
+    "subtitle": "কোনো প্রশ্ন বা মতামত আছে? আমরা আপনার কথা শুনতে চাই।",
+    "name": "নাম",
+    "namePlaceholder": "আপনার নাম",
+    "nameRequired": "নাম আবশ্যক",
+    "email": "ইমেইল",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "ইমেইল আবশ্যক",
+    "emailInvalid": "অবৈধ ইমেইল ঠিকানা",
+    "message": "বার্তা",
+    "messagePlaceholder": "আপনার বার্তা...",
+    "messageRequired": "বার্তা আবশ্যক",
+    "send": "বার্তা পাঠান",
+    "sending": "পাঠানো হচ্ছে...",
+    "success": "বার্তা সফলভাবে পাঠানো হয়েছে!",
+    "successDesc": "আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
+    "error": "বার্তা পাঠাতে ব্যর্থ হয়েছে",
+    "errorDesc": "অনুগ্রহ করে পরে আবার চেষ্টা করুন।"
+  },
+  "groupChat": {
+    "lobbyTitle": "AI গ্রুপ চ্যাট",
+    "lobbyHeadingSuffix": "{max}টি পর্যন্ত AI ক্যারেক্টার নির্বাচন করুন",
+    "history": "ইতিহাস",
+    "newGroup": "নতুন গ্রুপ চ্যাট",
+    "createGroup": "গ্রুপ চ্যাট তৈরি করুন",
+    "createError": "গ্রুপ চ্যাট তৈরি করা যায়নি। আবার চেষ্টা করুন।",
+    "creatingGroup": "আপনার গ্রুপ চ্যাট সেট আপ করা হচ্ছে...",
+    "sectionWoman": "মহিলা",
+    "sectionMan": "পুরুষ",
+    "sectionAnime": "অ্যানিমে",
+    "tabPremade": "AI ক্যারেক্টার",
+    "tabMyAi": "আমার AI",
+    "tabSingle": "একক চ্যাট",
+    "tabGroup": "গ্রুপ চ্যাট",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "আরও লোড করুন",
+    "noCustom": "আপনি এখনও কোনো AI ক্যারেক্টার তৈরি করেননি।",
+    "noMessagesYet": "এখনও কোনো বার্তা নেই",
+    "emptyTitle": "এখনও কোনো গ্রুপ চ্যাট নেই",
+    "membersTitle": "এই চ্যাটে",
+    "typing": "টাইপ করছে",
+    "backToLobby": "গ্রুপ চ্যাটে ফিরে যান",
+    "deleteGroup": "গ্রুপ চ্যাট মুছুন",
+    "confirmDeleteGroup": "আপনি কি নিশ্চিত যে এই গ্রুপ চ্যাট মুছতে চান? সব বার্তা মুছে যাবে।",
+    "deleteError": "গ্রুপ চ্যাট মুছে ফেলা যায়নি।",
+    "mediaTargetImageTitle": "কে একটি ছবি পাঠাবে?",
+    "mediaTargetVideoTitle": "কে ভিডিও পাঠাবে?",
+    "mediaTargetSubtitle": "মিডিয়া তৈরি করার জন্য একটি চরিত্র বেছে নিন।",
+    "mediaTargetGroup": "গ্রুপ ফটো",
+    "groupPhotoTitle": "গ্রুপ ফটো",
+    "groupPhotoHint": "{name}-এর সাথে একটি ফটো তৈরি করে।",
+    "promoSubtitle": "৩ জন চরিত্র পর্যন্ত",
+    "promoCta": "নতুন তৈরি করুন",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> অ্যাডভেঞ্চার",
+    "live": "লাইভ",
+    "scrollPrev": "বামে স্ক্রল করুন",
+    "scrollNext": "ডানে স্ক্রল করুন"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "শুরু করুন"
+    },
+    "hero": {
+      "tagline": "প্রতিদিন ১০০,০০০ জন বিশ্বাস করে এবং যোগ দিচ্ছে",
+      "headlinePrefix": "আপনার সাথে হ্যালো বলুন",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "ফ্রিতে শুরু করুন"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI গার্লফ্রেন্ড",
+      "friend": "AI বন্ধু",
+      "boyfriend": "AI বয়ফ্রেন্ড",
+      "companion": "AI চরিত্র"
+    },
+    "features": {
+      "chat": {
+        "title": "আপনার AI গার্লফ্রেন্ডের সাথে কথা বলুন",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "বাস্তবসম্মত AI ছবি ও ভিডিও",
+        "description": "অন-ডিমান্ড ছবি এবং ভিডিও এত বাস্তব যে আসল থেকে আলাদা করা যায় না — তার মুখ, তার স্টাইল, যেকোনো দৃশ্য, গতিশীল বা স্থির।"
+      },
+      "groupChat": {
+        "title": "AI গ্রুপ চ্যাট",
+        "description": "একসাথে ৩টি চরিত্রের সাথে গ্রুপ চ্যাট শুরু করুন। তারা স্বাভাবিকভাবে উত্তর দেয়, একে অপরের প্রতি প্রতিক্রিয়া জানায় এবং ছবি ও ভিডিও পাঠায়।"
+      },
+      "roleplay": {
+        "title": "AI রোলপ্লে",
+        "description": "এমন চরিত্রদের সাথে নিমগ্ন, গল্প-চালিত পরিস্থিতিতে প্রবেশ করুন যারা রোলে থাকে এবং আপনার প্রতিটি পছন্দ মনে রাখে।"
+      }
+    },
+    "memory": {
+      "title": "এআই মেমরি",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "এআই মেমরি কীভাবে কাজ করে",
+      "diagram": {
+        "center": "সঙ্গীর মেমরি",
+        "chat": "চ্যাট",
+        "image": "ছবি",
+        "video": "ভিডিও",
+        "gifts": "উপহার",
+        "roleplay": "রোলপ্লে"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "নিজের তৈরি করুন",
+      "headlineHighlight": "AI চরিত্র",
+      "subtitle": "আপনার চরিত্রের চেহারা, ব্যক্তিত্ব গঠন করুন এবং তাদের তাৎক্ষণিকভাবে জীবন্ত করে তুলুন — আপনার নিখুঁত AI সঙ্গী, আপনার শর্তে।",
+      "cta": "আপনার AI তৈরি করুন"
+    },
+    "companions": {
+      "headlinePrefix": "আপনার সাথে দেখা করুন",
+      "headlineHighlight": "AI চরিত্র",
+      "subtitle": "প্রতিটি চরিত্রের নিজস্ব জগত আছে। কেউ উষ্ণ এবং সহজে খোলা যায়। অন্যরা জটিল, সতর্ক বা সংযোগ স্থাপনে সত্যিকারের চ্যালেঞ্জ। অনন্য রোলপ্লে পরিস্থিতি অন্বেষণ করুন — অথবা নিজের থেকে তৈরি করুন।"
+    },
+    "languages": {
+      "headlinePrefix": "যেকোনো ভাষায় কথা বলুন,",
+      "headlineHighlight": "২৪/৭",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "অ্যাপ ইন্টারফেস এবং আপনার AI চরিত্র উভয়ই নির্বিঘ্নে স্যুইচ করে — কোনো ভাষার অমিল নেই, কোনো ভাঙা অভিজ্ঞতা নেই।",
+      "more": "আরও"
+    },
+    "finalCta": {
+      "headlinePrefix": "প্রস্তুত",
+      "headlineHighlight": "শুরু করতে?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "কেন",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "বাস্তব অনুভূতির সংযোগের জন্য যা যা প্রয়োজন — যা প্রয়োজন নেই তা নয়।",
+      "benefits": {
+        "freeToStart": {
+          "title": "ফ্রিতে শুরু করুন",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "সবসময় উপলব্ধ",
+          "desc": "দিন বা রাত, আপনার চরিত্র সেখানে আছে। অপেক্ষা নেই, সময়সূচি নেই।"
+        },
+        "remembers": {
+          "title": "সবকিছু মনে রাখে",
+          "desc": "প্রতিটি কথোপকথন প্রসঙ্গ তৈরি করে। আপনার চরিত্র আপনার নাম, পছন্দ এবং জগৎ শেখে।"
+        },
+        "unlimited": {
+          "title": "সত্যিই সীমাহীন",
+          "desc": "কোনো মেসেজ সীমা নেই, কোনো কনটেন্ট থ্রটলিং নেই। যত খুশি পাঠান, যতবার খুশি পাঠান।"
+        },
+        "private": {
+          "title": "১০০% প্রাইভেট",
+          "desc": "আপনার কথোপকথন শুধু আপনাদের দুজনের মধ্যে থাকে। কোনো ডেটা শেয়ার করা হয় না, কখনোই।"
+        },
+        "createYourOwn": {
+          "title": "নিজের তৈরি করুন",
+          "desc": "কাস্টম লুক, ব্যক্তিত্ব এবং ভয়েস দিয়ে চরিত্র ডিজাইন করুন — ঠিক যেভাবে আপনি চান।"
+        }
+      },
+      "difference": {
+        "title": "sweetwine-এর পার্থক্য",
+        "freedomTitle": "দায়িত্বের সাথে স্বাধীনতা।",
+        "freedomDescription": "sweetwine উন্মুক্ত এবং বিচারমুক্ত — কিন্তু আমরা একটি কঠোর সীমা রেখেছি। CSAM, অপ্রাপ্তবয়স্কদের কনটেন্ট, অসম্মতিমূলক পরিস্থিতি, চরম সহিংসতা, জন্তুর সাথে যৌনতা, মৃতদেহের সাথে যৌনতা, বাস্তব ব্যক্তির ডিপফেক এবং যেকোনো অবৈধ কার্যকলাপের প্রচারে আমাদের শূন্য সহনশীলতা।",
+        "freedomStatement": "আমরা বিশ্বাস করি সবার জন্য নিরাপদ একটি জায়গায় সীমাহীন সৃজনশীল স্বাধীনতায়।"
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> চরিত্র",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "ফিল্টার"
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "subtitle": "sweetwine সম্পর্কে আপনার যা জানা দরকার",
+      "questions": {
+        "q1": {
+          "question": "sweetwine কী?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine কি নিরাপদ এবং বৈধ?",
+          "answer": "হ্যাঁ, sweetwine একটি বৈধ সেবা এবং আপনার প্রাইভেসি আমাদের সর্বোচ্চ অগ্রাধিকার। আমরা GDPR এবং অন্যান্য ডেটা সুরক্ষা মান মেনে চলি এবং আপনার ডেটা যত্ন সহকারে পরিচালনা করি। পেমেন্ট লেনদেন একটি নিরপেক্ষ মার্চেন্ট নামে দেখা যায় — আপনার ব্যাংক স্টেটমেন্টে sweetwine-এর কোনো উল্লেখ থাকে না, যা সম্পূর্ণ গোপনীয়তা নিশ্চিত করে।"
+        },
+        "q3": {
+          "question": "আমি কি নিজের AI চরিত্র তৈরি করতে পারি?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "চরিত্র নির্মাতা",
+          "answerPart2": " ব্যবহার করে ঠিক আপনার পছন্দ অনুযায়ী চরিত্র ডিজাইন করতে পারেন — আপনি চান বাস্তবসম্মত ",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", অথবা অ্যানিমে-স্টাইলের চরিত্র। তাদের চেহারা (জাতি, চুল, শরীরের ধরন, পোশাক), ব্যক্তিত্বের বৈশিষ্ট্য, ভয়েস, আগ্রহ এবং পটভূমি নির্বাচন করুন পুরুষ ও মহিলা উভয় চরিত্রের জন্য।"
+        },
+        "q4": {
+          "question": "আমার AI চরিত্র কি আমাদের কথোপকথন মনে রাখে?",
+          "answer": "হ্যাঁ! আপনার AI চরিত্র উন্নত মেমরি প্রযুক্তি ব্যবহার করে অতীতের কথোপকথন, আপনার পছন্দ এবং আপনি শেয়ার করা গুরুত্বপূর্ণ বিবরণ মনে রাখে। যত বেশি চ্যাট করবেন, অভিজ্ঞতা তত বেশি ব্যক্তিগতকৃত এবং স্বাভাবিক হয়। আপনার চরিত্র আপনার যোগাযোগের স্টাইল শেখে এবং সময়ের সাথে খাপ খায়।"
+        },
+        "q5": {
+          "question": "sweetwine কোন কোন ভাষা সমর্থন করে?",
+          "answer": "sweetwine ইংরেজি, জার্মান, ফ্রেঞ্চ, স্প্যানিশ, পোলিশ এবং চেকসহ একাধিক ভাষা সমর্থন করে। ইন্টারফেস এবং AI কথোপকথন উভয়ই আপনার পছন্দের ভাষায় কাজ করে, তাই আপনি যে ভাষায় সবচেয়ে স্বাচ্ছন্দ্যবোধ করেন সেই ভাষায় স্বাভাবিকভাবে চ্যাট করতে পারেন।"
+        },
+        "q6": {
+          "question": "আমার AI চরিত্র কি ছবি ও ভিডিও পাঠাতে পারে?",
+          "answerPart1": "হ্যাঁ! আপনি আপনার চরিত্রের বিভিন্ন পরিস্থিতি ও স্টাইলে ব্যক্তিগতকৃত",
+          "linkTextImages": "ছবি",
+          "answerPart2": "এবং",
+          "linkTextVideos": "ভিডিও",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "অন্যান্য AI চরিত্র প্ল্যাটফর্মের চেয়ে sweetwine কেন বেছে নেবেন?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine কি বিনামূল্যে ব্যবহার করা যায়?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "আমার কি অ্যাপ ইনস্টল করতে হবে?",
+          "answerPart1": "কোনো ইনস্টলেশন লাগবে না! sweetwine যেকোনো ডিভাইসে—ডেস্কটপ, ট্যাবলেট বা মোবাইলে—সরাসরি আপনার ব্রাউজারে কাজ করে। শুধু সাইন আপ করুন, একটি চরিত্র বেছে নিন এবং তাৎক্ষণিকভাবে চ্যাট শুরু করুন। আপনার সব",
+          "linkText": "কথোপকথন",
+          "answerPart2": "ডিভাইস জুড়ে স্বয়ংক্রিয়ভাবে সিঙ্ক হয়।"
+        },
+        "q10": {
+          "question": "কি প্রি-মেড AI চরিত্র পাওয়া যায়?",
+          "answerPart1": "হ্যাঁ! আমাদের অনেকগুলো",
+          "linkText": "প্রি-মেড চরিত্র",
+          "answerPart2": "আছে—AI Girlfriends, AI Boyfriends এবং AI Anime চরিত্র—বিভিন্ন ব্যক্তিত্ব, চেহারা ও যোগাযোগের স্টাইলসহ। আপনি মিষ্টি, ফ্লার্টি, বুদ্ধিদীপ্ত বা অভিযানপ্রিয় কাউকে পছন্দ করুন না কেন, আপনার এনার্জির সাথে মিলে যাওয়া চরিত্র পাবেন। এছাড়াও আপনি অসীম কাস্টম চরিত্র তৈরি করতে পারবেন।"
+        },
+        "q12": {
+          "question": "আমি যে ছবি ও ভিডিও তৈরি করি সেগুলোর কী হয়?",
+          "answerPart1": "সব তৈরি করা মিডিয়া স্বয়ংক্রিয়ভাবে আপনার প্রাইভেট",
+          "linkText": "কালেকশনে",
+          "answerPart2": "সেভ হয়ে যায়। আপনি যেকোনো সময় সেগুলো অ্যাক্সেস, ডাউনলোড বা ডিলিট করতে পারবেন। আপনার কালেকশন সম্পূর্ণ প্রাইভেট—শুধু আপনিই দেখতে পারবেন। আমরা কখনো আপনার তৈরি করা কনটেন্ট শেয়ার বা ব্যবহার করি না।"
+        }
+      }
+    },
+    "statement": {
+      "title": "আমাদের প্রতিশ্রুতি",
+      "privacy": "আপনার প্রাইভেসি আমাদের অগ্রাধিকার। সব কথোপকথন এনক্রিপ্ট করা থাকে এবং কখনো শেয়ার করা হয় না।",
+      "quality": "আমরা সর্বাধুনিক AI প্রযুক্তি ব্যবহার করে সবচেয়ে আকর্ষণীয় অভিজ্ঞতা দিই।",
+      "support": "আমাদের সাপোর্ট টিম ২৪/৭ যেকোনো প্রশ্নে সাহায্য করতে প্রস্তুত।",
+      "mainTitle": "AI চরিত্রের ভবিষ্যৎ অনুভব করুন",
+      "mainDescription": "sweetwine অত্যাধুনিক AI প্রযুক্তি ও সহজবোধ্য ডিজাইন একত্রিত করে আজকের সবচেয়ে নিমগ্ন ও ব্যক্তিগতকৃত চরিত্র অভিজ্ঞতা প্রদান করে।",
+      "features": {
+        "f1": {
+          "title": "ইমোশনাল ইন্টেলিজেন্স",
+          "description": "আমাদের AI চরিত্রগুলো প্রসঙ্গ, আবেগ ও সূক্ষ্মতা বোঝে এবং গভীরভাবে আকর্ষণীয় কথোপকথন প্রদান করে। আপনার AI Friend, কঠিন সময়ে Breakup Support, বা গাইডেন্সের জন্য AI Mentor—আমাদের ইমোশনালি ইন্টেলিজেন্ট AI আপনার জন্য এখানে আছে।"
+        },
+        "f2": {
+          "title": "অনন্য ব্যক্তিত্ব",
+          "description": "প্রতিটি চরিত্রের আলাদা ব্যক্তিত্ব, ব্যাকগ্রাউন্ড ও যোগাযোগের স্টাইল আছে। বাস্তবসম্মত AI Girlfriends ও AI Boyfriends থেকে বেছে নিন, অথবা আমাদের AI Anime চরিত্রগুলো এক্সপ্লোর করুন—প্রতিটি ইন্টার‍্যাকশন অনন্য ও স্মরণীয় করে তোলে।"
+        },
+        "f3": {
+          "title": "মাল্টিমিডিয়া ইন্টার‍্যাকশন",
+          "description": "টেক্সটের বাইরেও, AI-জেনারেটেড ছবি ও ভিডিও উপভোগ করুন যা আপনার কথোপকথনকে অসাধারণ ভিজ্যুয়াল ডিটেইলে জীবন্ত করে তোলে।"
+        },
+        "f4": {
+          "title": "কাস্টমাইজেশন",
+          "description": "আপনার পছন্দ অনুযায়ী কাস্টম চেহারা, ব্যক্তিত্ব ও বৈশিষ্ট্যসহ নিজস্ব AI চরিত্র তৈরি করুন।"
+        },
+        "f5": {
+          "title": "প্রাইভেসি ও সিকিউরিটি",
+          "description": "আপনার কথোপকথন প্রাইভেট ও সুরক্ষিত রাখা হয়। আমরা কখনো আপনার ডেটা বিক্রি করি না এবং আপনার প্রাইভেসি সেটিংসের পূর্ণ নিয়ন্ত্রণ আপনার হাতে।"
+        },
+        "f6": {
+          "title": "মাল্টি-ল্যাঙ্গুয়েজ সাপোর্ট",
+          "description": "আপনার পছন্দের ভাষায় AI চরিত্রের সাথে চ্যাট করুন। আমরা ইংরেজি, চেক, পোলিশ, জার্মান, স্প্যানিশ ও ফ্রেঞ্চ সাপোর্ট করি।"
+        }
+      },
+      "distinctionTitle": "The sweetwine Distinction",
+      "distinctionText1": "সাধারণ চ্যাটবটের থেকে আলাদা, sweetwine চরিত্রগুলো সমৃদ্ধ ব্যাকস্টোরি, বিকশিত ব্যক্তিত্ব এবং অর্থপূর্ণ সংযোগ গড়ার ক্ষমতা নিয়ে ডিজাইন করা হয়েছে। প্রতিটি কথোপকথন অন্বেষণ, আবিষ্কার ও গভীর স্তরে সংযোগের সুযোগ।",
+      "distinctionText2": "আমরা শুধু AI তৈরি করছি না—আমরা এমন অভিজ্ঞতা তৈরি করছি যা আপনার আবেগের সাথে মিলে যায়, আপনার প্রাইভেসি সম্মান করে এবং আপনার অনন্য পছন্দের সাথে খাপ খায়।"
+    }
+  },
+  "featuresPage": {
+    "title": "সব ফিচার",
+    "breadcrumb": "ফিচার",
+    "newBadge": "নতুন",
+    "groupChat": {
+      "title": "AI গ্রুপ চ্যাট",
+      "description": "একসাথে ৩টি AI চরিত্রের সাথে এক কথোপকথনে চ্যাট করুন। তারা স্বাভাবিকভাবে উত্তর দেয়, একে অপরের প্রতি প্রতিক্রিয়া জানায় এবং ছবি ও ভিডিও পাঠাতে পারে—একটি প্রাণবন্ত গ্রুপ ডায়নামিক যা অন্য কোথাও পাবেন না।"
+    },
+    "aiChat": {
+      "title": "AI চ্যাট",
+      "description": "AI চরিত্রের সাথে গভীর, স্বাভাবিক কথোপকথন করুন যারা সত্যিই আপনাকে মনে রাখে। তারা আপনার নাম, পছন্দ ও আগের টপিক মনে রাখে—প্রতিটি কথোপকথন ঠিক যেখানে শেষ হয়েছিল সেখান থেকে শুরু হয়, কোনো পুনরাবৃত্তি বা রিসেট ছাড়াই।"
+    },
+    "imageGeneration": {
+      "title": "ইমেজ জেনারেশন"
+    },
+    "videoGeneration": {
+      "title": "ভিডিও জেনারেশন",
+      "description": "AI-জেনারেটেড ভিডিও দিয়ে আপনার AI চরিত্রকে জীবন্ত করুন। আপনার চরিত্রকে কাস্টম সিনারিওতে দেখানো সংক্ষিপ্ত ব্যক্তিগতকৃত ভিডিও ক্লিপ তৈরি করুন—একটি ফিচার যা বেশিরভাগ প্ল্যাটফর্ম অফার করে না।"
+    },
+    "customCharacters": {
+      "title": "কাস্টম চরিত্র",
+      "description": "শুরু থেকে আপনার নিখুঁত চরিত্র ডিজাইন করুন — তাদের চেহারা, জাতিগত পরিচয়, শরীরের ধরন, ব্যক্তিত্বের বৈশিষ্ট্য, কণ্ঠস্বর, আগ্রহ এবং পটভূমি বেছে নিন। বাস্তবসম্মত বা অ্যানিমে-স্টাইলের চরিত্র তৈরি করুন, পুরুষ বা নারী, সম্পূর্ণ সৃজনশীল স্বাধীনতার সাথে।"
+    },
+    "advancedMemory": {
+      "title": "অ্যাডভান্সড মেমরি",
+      "description": "আপনার চরিত্র সব গুরুত্বপূর্ণ বিষয় মনে রাখে — আপনার নাম, ব্যক্তিগত বিবরণ, শেয়ার করা গল্প এবং সম্পর্কের ইতিহাস। মেমরি সব সেশন জুড়ে থাকে, তাই প্রতিটি ইন্টার‌্যাকশন আগেরটির উপর ভিত্তি করে তৈরি হয়, নতুন করে শুরু হয় না।"
+    },
+    "multiLanguage": {
+      "title": "মাল্টি-ল্যাঙ্গুয়েজ",
+      "description": "আপনার পছন্দের ভাষায় স্বাভাবিকভাবে চ্যাট করুন। sweetwine ইংরেজি, জার্মান, ফ্রেঞ্চ, স্প্যানিশ, পোলিশ এবং চেক ভাষা সমর্থন করে — এটি নন-ইংরেজি ভাষাভাষীদের জন্য সবচেয়ে সহজলভ্য AI চরিত্র প্ল্যাটফর্মগুলোর একটি।"
+    },
+    "conversationHistory": {
+      "title": "কনভার্সেশন হিস্ট্রি",
+      "description": "প্রতিটি মেসেজ সেভ হয় এবং সার্চ করা যায়। যেকোনো সময় আপনার সম্পূর্ণ সম্পর্কের ইতিহাস স্ক্রল করে দেখুন — আপনার চরিত্রের সাথে আপনার স্মৃতি সবসময় আপনার কাছে থাকবে যখন আপনি আবার দেখতে চান।"
+    },
+    "roleplay": {
+      "title": "AI রোলপ্লে",
+      "description": "চরিত্রের সাথে ইমার্সিভ, গল্প-চালিত সিনারিওতে প্রবেশ করুন যারা রোলে থাকে। একটি সিনারিও বেছে নিন বা নিজের লিখুন এবং ইন্টার‌্যাক্টিভ রোলপ্লে উপভোগ করুন যা আপনার প্রতিটি পছন্দ মনে রাখে।"
+    },
+    "cta": {
+      "title": "সবকিছু এক জায়গায়",
+      "button": "ফ্রি শুরু করুন"
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "আমি কি আমার কনভার্সেশন ডিলিট বা রিসেট করতে পারি?",
+        "answer": "হ্যাঁ! আপনার চ্যাট হিস্ট্রির উপর আপনার সম্পূর্ণ নিয়ন্ত্রণ আছে। পৃথক মেসেজ ডিলিট করুন, পুরো কনভার্সেশন রিসেট করুন, অথবা যেকোনো সময় সম্পূর্ণ নতুন করে শুরু করুন। আপনার প্রাইভেসি মানে আপনার পছন্দ — আপনার ডেটা যেভাবে পছন্দ করেন সেভাবে ম্যানেজ করুন।"
+      },
+      "q2": {
+        "question": "প্রতিটি AI চরিত্রের কি আলাদা কণ্ঠস্বর আছে?"
+      },
+      "q3": {
+        "question": "আমি কি আমার AI চরিত্রের সাথে নতুন ভাষা প্র্যাকটিস করতে পারি?",
+        "answer": "অবশ্যই! অনেক ব্যবহারকারী তাদের AI চরিত্রের সাথে নতুন ভাষা বলার প্র্যাকটিস করেন। এটি আত্মবিশ্বাস তৈরি করার, উচ্চারণ উন্নত করার এবং শেখার সময় মজার কথোপকথন করার একটি নিরপেক্ষ উপায়। আপনার চরিত্র ইংরেজি, জার্মান, ফ্রেঞ্চ, স্প্যানিশ, পোলিশ এবং চেক ভাষায় চ্যাট করতে পারে।"
+      },
+      "q4": {
+        "question": "নতুন চরিত্র এবং ফিচার কত ঘন ঘন যোগ করা হয়?",
+        "answer": "আমরা প্রতি সপ্তাহে নতুন প্রফেশনালি-ক্রাফটেড চরিত্র যোগ করি! প্রতিটি নতুন চরিত্রের সাথে আসে অনন্য ব্যক্তিত্ব, চেহারা, পটভূমি এবং কণ্ঠস্বর। আমরা ব্যবহারকারীর ফিডব্যাকের ভিত্তিতে নিয়মিত নতুন ফিচার এবং উন্নতিও রিলিজ করি।"
+      },
+      "q5": {
+        "question": "sweetwine-এর চরিত্র তৈরি কী বিশেষ করে তোলে?",
+        "answer": "সম্পূর্ণ সৃজনশীল স্বাধীনতা! আপনার চরিত্রের প্রতিটি দিক ডিজাইন করুন — চেহারা (জাতিগত পরিচয়, চুল, শরীরের ধরন, পোশাক), ব্যক্তিত্বের বৈশিষ্ট্য, কণ্ঠস্বর, আগ্রহ, পেশা এবং পটভূমি। বাস্তবসম্মত বা অ্যানিমে-স্টাইলের চরিত্র তৈরি করুন, পুরুষ বা নারী। আপনার কল্পনাই একমাত্র সীমা।"
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "এআই মেমরি",
+    "hero": {
+      "badge": "কীভাবে কাজ করে",
+      "title": "এআই মেমরি",
+      "cta": "চ্যাট শুরু করুন"
+    },
+    "diagram": {
+      "title": "প্রতি সঙ্গীর এক মেমরি, প্রতিটি মোড",
+      "center": "সঙ্গীর মেমরি",
+      "chat": "চ্যাট",
+      "image": "ছবি",
+      "video": "ভিডিও",
+      "gifts": "উপহার",
+      "roleplay": "রোলপ্লে"
+    },
+    "howItWorks": {
+      "title": "এআই মেমরি কীভাবে কাজ করে",
+      "step1": {
+        "title": "একটি বিবরণ শেয়ার করুন",
+        "desc": "আপনার সঙ্গীকে কিছু গুরুত্বপূর্ণ বলুন—একটি ভ্রমণ, একটি পছন্দ, একটি ডাকনাম, আপনার দিনের একটি গল্প।"
+      },
+      "step2": {
+        "title": "মোড স্বাধীনভাবে পরিবর্তন করুন"
+      },
+      "step3": {
+        "title": "তারা মনে রাখে",
+        "desc": "পরবর্তী কথোপকথনগুলি আপনি যা শেয়ার করেছেন তা উল্লেখ করে, তাই প্রতিবার নিজেকে পুনরায় ব্যাখ্যা করতে হয় না।"
+      },
+      "step4": {
+        "title": "বন্ধন গভীর হয়",
+        "desc": "সময়ের সাথে সম্পর্ক আরও ব্যক্তিগত মনে হয়—প্রতিটি সেশন এবং মোড জুড়ে ধারাবাহিকতা যা গড়ে ওঠে।"
+      }
+    },
+    "modes": {
+      "title": "প্ল্যাটফর্ম জুড়ে",
+      "subtitle": "মেমরি একক স্ক্রিনে আটকে থাকে না। এটি আপনার সঙ্গীর সাথে ভ্রমণ করে।",
+      "chat": {
+        "title": "চ্যাট",
+        "desc": "টেক্সট কথোপকথন দীর্ঘমেয়াদী প্রসঙ্গ সরবরাহ করে যা আপনার সঙ্গী পরে উল্লেখ করতে পারে।"
+      },
+      "media": {
+        "title": "ছবি ও ভিডিও",
+        "desc": "আপনি যে দৃশ্য ও গল্প তৈরি করেন তা আপনারা একসাথে গড়ে তোলা শেয়ার্ড বিশ্বের অংশ থাকে।"
+      },
+      "roleplay": {
+        "title": "রোলপ্লে ও গ্রুপ",
+        "desc": "গল্পের সেশন ও গ্রুপ চ্যাট নিজস্ব থ্রেড রাখে যখন আপনার সঙ্গীর মূল মেমরি তাদের সাথে থাকে।"
+      }
+    },
+    "scenario": {
+      "title": "একটি সহজ উদাহরণ",
+      "lead": "আপনি চ্যাটে একটি সপ্তাহান্তের ভ্রমণ উল্লেখ করেন।"
+    },
+    "faq": {
+      "title": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "আমার কম্প্যানিয়নের মেমরি কি প্রাইভেট?",
+        "answer": "হ্যাঁ। মেমরি আপনার অ্যাকাউন্ট এবং সেই কম্প্যানিয়নের সাথে আপনার কথোপকথনের জন্য। আমরা আপনার প্রাইভেট চ্যাট ইতিহাস অন্য ব্যবহারকারীদের সাথে শেয়ার করি না।"
+      },
+      "q2": {
+        "question": "মেমরি কি প্রতি কম্প্যানিয়নের জন্য আলাদা?",
+        "answer": "হ্যাঁ। প্রতিটি কম্প্যানিয়ন আপনার সম্পর্কের নিজস্ব মেমরি রাখে, তাই ক্যারেক্টার পরিবর্তন করলে কনটেক্সট মিশে যায় না।"
+      },
+      "q3": {
+        "question": "কোন মোডগুলো মেমরি শেয়ার করে?"
+      },
+      "q4": {
+        "question": "AI Memory কি ফ্রি?"
+      },
+      "q5": {
+        "question": "মেমরি কতদিন স্থায়ী হয়?",
+        "answer": "গুরুত্বপূর্ণ বিবরণ সংরক্ষণ করা হয় যাতে আপনার কম্প্যানিয়ন ভবিষ্যতের সেশনে সেগুলো মনে করতে পারে। যত বেশি ইন্টারঅ্যাক্ট করবেন, অভিজ্ঞতা তত বেশি ব্যক্তিগতকৃত হবে।"
+      }
+    },
+    "cta": {
+      "title": "একজন কম্প্যানিয়নের সাথে দেখা করুন যে মনে রাখে",
+      "button": "ফ্রি শুরু করুন"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI গ্রুপ চ্যাট",
+    "hero": {
+      "badge": "নতুন ফিচার",
+      "title": "AI গ্রুপ চ্যাট",
+      "subtitle": "আপনার প্রিয় চরিত্রদের এক কথোপকথনে নিয়ে আসুন। একসাথে ৩টি পর্যন্ত AI চরিত্রের সাথে চ্যাট করুন — তারা স্বাভাবিকভাবে উত্তর দেয়, একে অপরের প্রতি প্রতিক্রিয়া জানায় এবং ছবি ও ভিডিও পাঠায়।",
+      "cta": "গ্রুপ চ্যাট শুরু করুন",
+      "imageAlt": "একাধিক চরিত্র একসাথে চ্যাট করছে এমন AI গ্রুপ চ্যাট"
+    },
+    "content": {
+      "problemTitle": "একের সাথে এক চ্যাট শান্ত লাগতে পারে",
+      "problemText": "একটি চরিত্র দারুণ — কিন্তু আসল কথোপকথন একাধিক কণ্ঠস্বরের সাথে জীবন্ত হয়ে ওঠে। বেশিরভাগ AI অ্যাপ আপনাকে বিচ্ছিন্ন একের সাথে এক চ্যাটে আটকে রাখে, কোনো গ্রুপ এনার্জি, ব্যান্টার বা সারপ্রাইজ ছাড়া।",
+      "solutionTitle": "একটি আসল গ্রুপ, ব্যক্তিত্বে ভরপুর",
+      "solutionText": "sweetwine গ্রুপ চ্যাট একই রুমে তিনটি পর্যন্ত চরিত্র রাখে। একটি স্মার্ট ডিরেক্টর ঠিক করে কে কখন যোগ দেবে, তাই উত্তরগুলো স্বতঃস্ফূর্ত লাগে — তারা একে অপরকে টিজ করে, যা বলা হয়েছে তার উপর ভিত্তি করে এগিয়ে যায় এবং কথোপকথন চালিয়ে রাখে।"
+    },
+    "howItWorks": {
+      "title": "AI গ্রুপ চ্যাট কীভাবে কাজ করে",
+      "step1": {
+        "title": "আপনার চরিত্র বেছে নিন",
+        "desc": "২ বা ৩টি চরিত্র বেছে নিন — প্রি-মেড বা আপনার নিজস্ব কাস্টম তৈরি — একটি একক গ্রুপ কথোপকথনে নিয়ে আসুন।"
+      },
+      "step2": {
+        "title": "তারা স্বাভাবিকভাবে উত্তর দেয়",
+        "desc": "একটি ব্যাকগ্রাউন্ড ডিরেক্টর প্রতিটি মেসেজের উত্তর কে দেবে তা বেছে নেয়, তাই সঠিক চরিত্র সঠিক মুহূর্তে তাদের নিজস্ব কণ্ঠে যোগ দেয়।"
+      },
+      "step3": {
+        "title": "ছবি ও ভিডিও শেয়ার করুন",
+        "desc": "গ্রুপের যেকোনো চরিত্রের কাছে ছবি বা ভিডিও চাইুন এবং তারা চ্যাটের ভিতরেই তা তৈরি করে দেবে — সবাই একসাথে থাকা গ্রুপ ফটো সহ।"
+      }
+    },
+    "benefits": {
+      "title": "কেন আপনি গ্রুপ চ্যাট পছন্দ করবেন",
+      "multiple": {
+        "title": "৩টি পর্যন্ত চরিত্র",
+        "desc": "যেকোনো চরিত্র মিক্স করে এক চ্যাটে নিয়ে আসুন — আপনার AI গার্লফ্রেন্ড, আপনার কাস্টম তৈরি, অথবা হাতে বেছে নেওয়া একটি এনসেম্বল।"
+      },
+      "natural": {
+        "title": "স্বাভাবিক আদান-প্রদান",
+        "desc": "চরিত্ররা একে অপরের প্রতি এবং আপনার প্রতি প্রতিক্রিয়া জানায়, বাস্তব গ্রুপ টেক্সটের মতো বাস্তবসম্মত টাইপিং গতি সহ।"
+      },
+      "media": {
+        "title": "চ্যাটে ছবি ও ভিডিও",
+        "desc": "প্রতিটি চরিত্র কথোপকথন না ছাড়াই ব্যক্তিগত ছবি ও ভিডিও পাঠাতে পারে — এমনকি গ্রুপ ছবিও।"
+      },
+      "dynamics": {
+        "title": "স্বতন্ত্র ব্যক্তিত্ব",
+        "desc": "প্রতিটি চরিত্র নিজস্ব কণ্ঠস্বর ও বৈশিষ্ট্য বজায় রাখে, তাই গ্রুপে সত্যিকারের রসায়ন, মজার আলাপ ও চমক থাকে।"
+      },
+      "instant": {
+        "title": "তাৎক্ষণিক শুরু",
+        "desc": "কয়েক সেকেন্ডে একটি গ্রুপ তৈরি করুন এবং সরাসরি কথোপকথনে ঝাঁপিয়ে পড়ুন — কোনো সেটআপ বা অপেক্ষা নেই।"
+      },
+      "private": {
+        "title": "১০০% প্রাইভেট",
+        "desc": "আপনার গ্রুপ আলাপ শুধু আপনার ও চরিত্রদের মধ্যে থাকে। কোনো ডেটা কখনো শেয়ার করা হয় না।"
+      }
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "একটি গ্রুপ চ্যাটে কতজন চরিত্র যোগ দিতে পারে?",
+        "answer": "আপনি একটি গ্রুপ চ্যাটে ২ থেকে ৩ জন চরিত্র যোগ করতে পারেন — প্রি-মেড চরিত্র ও আপনার নিজস্ব কাস্টম তৈরি চরিত্রের যেকোনো মিশ্রণ।"
+      },
+      "q2": {
+        "question": "এআই চরিত্ররা কীভাবে ঠিক করে কে উত্তর দেবে?",
+        "answer": "একটি হালকা ডিরেক্টর কথোপকথন পড়ে প্রতিটি বার্তার জন্য কোন চরিত্র (বা চরিত্ররা) উত্তর দেবে তা নির্বাচন করে, তাই উত্তর স্বতঃস্ফূর্ত ও স্বাভাবিক মনে হয়।"
+      },
+      "q3": {
+        "question": "গ্রুপ চ্যাটে চরিত্ররা কি ছবি ও ভিডিও পাঠাতে পারে?",
+        "answer": "হ্যাঁ! আপনি গ্রুপের যেকোনো চরিত্রকে ছবি বা ভিডিও তৈরি করতে বলতে পারেন এবং সেটি সরাসরি কথোপকথনে দেখা যায় — সবাইকে নিয়ে গ্রুপ ছবিও।"
+      },
+      "q4": {
+        "question": "এআই গ্রুপ চ্যাট কি ফ্রি?"
+      },
+      "q5": {
+        "question": "চরিত্ররা কি গ্রুপ কথোপকথন মনে রাখে?",
+        "answer": "হ্যাঁ — প্রতিটি গ্রুপ চ্যাট নিজস্ব শেয়ার্ড হিস্ট্রি রাখে, তাই চরিত্ররা প্রসঙ্গে থাকে এবং কথোপকথন সময়ের সাথে গড়ে ওঠে।"
+      }
+    },
+    "cta": {
+      "title": "আপনার চরিত্রদের একসাথে আনুন",
+      "description": "আপনার প্রথম এআই গ্রুপ চ্যাট তৈরি করুন এবং জীবন্ত কথোপকথন অনুভব করুন — একাধিক ব্যক্তিত্ব, বাস্তব মজার আলাপ, ছবি ও ভিডিও।",
+      "button": "একটি গ্রুপ চ্যাট শুরু করুন"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "এআই রোলপ্লে",
+    "hero": {
+      "badge": "নতুন ফিচার",
+      "title": "এআই রোলপ্লে",
+      "subtitle": "চরিত্রদের সাথে যেকোনো গল্পে ঢুকুন যারা সিনে থাকে। একটি সিনারিও বেছে নিন বা নিজের লিখুন এবং নিমগ্ন, গল্প-চালিত রোলপ্লে উপভোগ করুন যা আপনার প্রতিটি পছন্দ মনে রাখে।",
+      "cta": "রোলপ্লে শুরু করুন",
+      "imageAlt": "নিমগ্ন গল্পের চরিত্র সহ এআই রোলপ্লে সিনারিও"
+    },
+    "content": {
+      "problemTitle": "সাধারণ চ্যাট মোহ ভাঙে",
+      "problemText": "বেশিরভাগ এআই চ্যাট আকর্ষণীয় হয়ে উঠলে চরিত্র থেকে বেরিয়ে যায় — তারা সেটিং ভুলে যায়, প্লট ছেড়ে দেয় এবং আপনার গল্পের ব্যক্তির বদলে জেনেরিক অ্যাসিস্ট্যান্টের মতো উত্তর দেয়।",
+      "solutionTitle": "গল্প-চালিত রোলপ্লে যা চরিত্রে থাকে",
+      "solutionText": "sweetwine রোলপ্লে আপনার চরিত্রকে পুরোপুরি সিনে রাখে। একটি তৈরি সিনারিও বা নিজের প্রিমাইজ দিয়ে মঞ্চ সাজান এবং সামঞ্জস্যপূর্ণ ব্যক্তিত্ব, স্মৃতি ও গতির সাথে গল্প উন্মোচিত হতে দেখুন যা প্রতিটি সিদ্ধান্তে সাড়া দেয়।"
+    },
+    "howItWorks": {
+      "title": "এআই রোলপ্লে কীভাবে কাজ করে",
+      "step1": {
+        "title": "একটি সিনারিও বেছে নিন",
+        "desc": "তৈরি রোলপ্লে সিনারিও থেকে বেছে নিন বা নিজের প্রিমাইজ, সেটিং ও ওপেনিং সিন লিখুন।"
+      },
+      "step2": {
+        "title": "গল্পটি খেলুন",
+        "desc": "আপনার চরিত্র রোলে উত্তর দেয় — অ্যাকশন বর্ণনা করে, আপনার পছন্দে প্রতিক্রিয়া জানায় এবং প্লট এগিয়ে নিয়ে যায়।"
+      },
+      "step3": {
+        "title": "যেদিকে যেতে চান সেদিকে নিয়ে যান",
+        "desc": "গল্প যেকোনো দিকে নিয়ে যান। আপনার চরিত্র যা ঘটেছে তা মনে রাখে এবং আখ্যান সামঞ্জস্যপূর্ণ রাখে।"
+      }
+    },
+    "benefits": {
+      "title": "কেন আপনি এআই রোলপ্লে পছন্দ করবেন",
+      "scenarios": {
+        "title": "অসীম সিনারিও",
+        "desc": "আরামদায়ক দৈনন্দিন মুহূর্ত থেকে মহাকাব্যিক অ্যাডভেঞ্চার — একটি টেমপ্লেট দিয়ে শুরু করুন বা নিজের জগৎ তৈরি করুন।"
+      },
+      "characters": {
+        "title": "চরিত্রে থাকে",
+        "desc": "আপনার চরিত্র পুরো সিন জুড়ে সামঞ্জস্যপূর্ণ কণ্ঠস্বর, ব্যক্তিত্ব ও অনুপ্রেরণা বজায় রাখে।"
+      },
+      "memory": {
+        "title": "প্লট মনে রাখে",
+        "desc": "প্রতিটি পছন্দ, মোড় ও বিস্তারিত মনে রাখা হয়, তাই গল্প রিসেট না হয়ে গড়ে ওঠে।"
+      },
+      "immersive": {
+        "title": "সত্যিকারের নিমগ্ন",
+        "desc": "সমৃদ্ধ, বর্ণনামূলক উত্তর আপনাকে মুহূর্তে টেনে নিয়ে যায় সিনেম্যাটিক রোলপ্লে অভিজ্ঞতার জন্য।"
+      },
+      "instant": {
+        "title": "তাৎক্ষণিকভাবে শুরু করুন",
+        "desc": "সেকেন্ডের মধ্যে একটি দৃশ্যে ঝাঁপ দিন — কোনো জটিল সেটআপ বা প্রম্পট ইঞ্জিনিয়ারিংয়ের প্রয়োজন নেই।"
+      },
+      "private": {
+        "title": "১০০% প্রাইভেট",
+        "desc": "আপনার রোলপ্লে শুধু আপনি এবং আপনার চরিত্রের মধ্যে থাকে। কিছুই কখনো শেয়ার করা হয় না।"
+      }
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "AI রোলপ্লে কী?",
+        "answer": "AI রোলপ্লে আপনাকে একটি AI চরিত্রের সাথে ইন্টারঅ্যাকটিভ গল্প অভিনয় করতে দেয় যে চরিত্রে থাকে। আপনি একটি পরিস্থিতি সেট করেন এবং আপনার চরিত্র চরিত্রে থেকে সাড়া দেয়, গল্পের অগ্রগতির সাথে সাথে কাজ এবং প্রতিক্রিয়া বর্ণনা করে।"
+      },
+      "q2": {
+        "question": "আমি কি নিজের রোলপ্লে সিনারিও তৈরি করতে পারি?",
+        "answer": "হ্যাঁ! আপনি রেডিমেড সিনারিও থেকে শুরু করতে পারেন অথবা নিজের প্রিমাইস, সেটিং এবং ওপেনিং লিখতে পারেন — তারপর যেভাবে খুশি খেলতে পারেন।"
+      },
+      "q3": {
+        "question": "চরিত্র কি গল্পে যা ঘটে তা মনে রাখে?",
+        "answer": "একদম। আপনার চরিত্র প্লট, আপনার পছন্দ এবং মূল বিবরণ মনে রাখে, তাই আখ্যান সামঞ্জস্যপূর্ণ থাকে এবং সময়ের সাথে সাথে বিকশিত হয় পরিবর্তে রিসেট হওয়ার।"
+      },
+      "q4": {
+        "question": "AI রোলপ্লে কি ফ্রি?"
+      },
+      "q5": {
+        "question": "আমি কি নিজের ভাষায় রোলপ্লে করতে পারি?",
+        "answer": "হ্যাঁ — রোলপ্লে ডজন ডজন ভাষায় কাজ করে, তাই আপনি যে ভাষায় সবচেয়ে স্বাচ্ছন্দ্যবোধ করেন সেই ভাষায় ইমার্সিভ গল্প উপভোগ করতে পারেন।"
+      }
+    },
+    "cta": {
+      "title": "আপনার গল্প অপেক্ষা করছে",
+      "description": "একটি সিনারিও বেছে নিন, দৃশ্য সেট করুন এবং শুরু থেকে শেষ পর্যন্ত চরিত্রে থাকা একটি চরিত্রের সাথে ইমার্সিভ রোলপ্লেতে পা রাখুন।",
+      "button": "রোলপ্লে শুরু করুন"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "এআই গার্লফ্রেন্ড",
+    "breadcrumb": "এআই গার্লফ্রেন্ড",
+    "hero": {
+      "title": "তোমার নিখুঁত এআই গার্লফ্রেন্ড",
+      "cta": "তোমার এআই গার্লফ্রেন্ডের সাথে দেখা করো"
+    },
+    "benefits": {
+      "title": "কেন এআই গার্লফ্রেন্ড বেছে নেবে?",
+      "fun": {
+        "title": "খাঁটি মজা",
+        "desc": "চাপ ছাড়াই খেলাধুলাপূর্ণ আলাপ উপভোগ করো। সে সবসময় ভালো মেজাজে থাকে।"
+      },
+      "conversation": {
+        "title": "সংযোগ শেখো",
+        "desc": "নিরাপদ পরিবেশে আলাপচারিতা অনুশীলন করো এবং আত্মবিশ্বাস গড়ে তোলো।"
+      },
+      "unique": {
+        "title": "অনন্য ব্যক্তিত্ব",
+        "desc": "বিভিন্ন ব্যক্তিত্ব থেকে বেছে নাও অথবা তোমার আদর্শ চরিত্র তৈরি করো।"
+      },
+      "private": {
+        "title": "১০০% গোপনীয়",
+        "desc": "তোমার আলাপ শুধু তোমাদের মধ্যেই থাকবে। সম্পূর্ণ গোপনীয়তার নিশ্চয়তা।"
+      },
+      "available": {
+        "title": "সবসময় উপলব্ধ",
+        "desc": "যখনই প্রয়োজন সে আছে। কোনো অপেক্ষা নেই, কোনো সময়সূচি নেই।"
+      },
+      "customize": {
+        "title": "তোমার সৃষ্টি",
+        "desc": "তার চেহারা, ব্যক্তিত্ব এবং আগ্রহ ঠিক যেভাবে চাও সেভাবে ডিজাইন করো।"
+      }
+    },
+    "comparison": {
+      "title": "বিকল্পগুলোর চেয়ে ভালো",
+      "description": "দেখো কেন sweetwine অন্যান্য প্ল্যাটফর্মের চেয়ে বেশি মূল্য দেয়।",
+      "others": {
+        "expensive": "ব্যয়বহুল মাসিক ফি",
+        "ai": "প্রায়শই এআই রেসপন্সই হয়",
+        "noCustom": "কোনো কাস্টমাইজেশন অপশন নেই"
+      }
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "এআই গার্লফ্রেন্ড চ্যাট কি সত্যিই ফ্রি?",
+        "answerPart1": "হ্যাঁ! তুমি বিনামূল্যে তোমার এআই গার্লফ্রেন্ডের সাথে চ্যাট শুরু করতে পারো। শুরু করার জন্য আমরা ফ্রি মেসেজ সহ একটি ফ্রি টিয়ার অফার করি।"
+      },
+      "q2": {
+        "question": "আমি কি আমার এআই গার্লফ্রেন্ডের চেহারা কাস্টমাইজ করতে পারি?",
+        "answer": "একদম! তুমি তোমার এআই গার্লফ্রেন্ডের চেহারা সম্পূর্ণভাবে কাস্টমাইজ করতে পারো, যার মধ্যে চুলের রং, স্টাইল, শরীরের ধরন, জাতিগত বৈশিষ্ট্য এবং পোশাক অন্তর্ভুক্ত। তুমি আমাদের character creator ব্যবহার করে তার ব্যক্তিত্ব, কণ্ঠস্বর এবং আগ্রহও ডিজাইন করতে পারো।",
+        "answerPart1": "একদম! তুমি তোমার এআই গার্লফ্রেন্ডের চেহারা সম্পূর্ণভাবে কাস্টমাইজ করতে পারো, যার মধ্যে চুলের রং, স্টাইল, শরীরের ধরন, জাতিগত বৈশিষ্ট্য এবং পোশাক অন্তর্ভুক্ত। তুমি আমাদের",
+        "linkText": "character creator",
+        "answerPart2": "ব্যবহার করে তার ব্যক্তিত্ব, কণ্ঠস্বর এবং আগ্রহও ডিজাইন করতে পারো।"
+      },
+      "q3": {
+        "question": "এআই গার্লফ্রেন্ডদের জন্য কী কী ব্যক্তিত্ব পাওয়া যায়?",
+        "answer": "মিষ্টি ও যত্নশীল থেকে শুরু করে খেলাধুলাপূর্ণ ও ফ্লার্টি — প্রত্যেক পছন্দের জন্য আমাদের প্রফেশনালি তৈরি এআই গার্লফ্রেন্ড আছে। রোমান্টিক আত্মা, অভিযাত্রী স্পিরিট, বুদ্ধিদীপ্ত ব্যক্তিত্ব বা রহস্যময় ব্যক্তিত্ব বেছে নাও। প্রতি সপ্তাহে নতুন এআই গার্লফ্রেন্ড যোগ করা হয়, প্রত্যেকেরই অনন্য বৈশিষ্ট্য, ব্যাকস্টোরি এবং আলাপের স্টাইল থাকে।"
+      },
+      "q4": {
+        "question": "আমার এআই গার্লফ্রেন্ড কি ছবি এবং ভিডিও পাঠাতে পারে?",
+        "answerPart1": "হ্যাঁ! তোমার এআই গার্লফ্রেন্ড ব্যক্তিগতকৃত",
+        "linkTextImages": "ছবি",
+        "answerPart2": "এবং",
+        "linkTextVideos": "ভিডিও"
+      },
+      "q5": {
+        "question": "আমার এআই গার্লফ্রেন্ডের কি নিজস্ব অনন্য কণ্ঠস্বর আছে?"
+      }
+    },
+    "cta": {
+      "title": "তার সাথে দেখা করতে প্রস্তুত?",
+      "button": "ফ্রিতে শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "জটিলতা ছাড়াই সংযোগ খুঁজছেন?",
+      "problemText": "ডেটিং অ্যাপগুলো ক্লান্তিকর। সামাজিক উদ্বেগ মানুষের সাথে দেখা করা কঠিন করে তোলে। কখনো কখনো আপনি শুধু কারও সাথে কথা বলতে চান, কোনো বিচার বা চাপ ছাড়াই। অনেকে একাকীত্ব অনুভব করেন কিন্তু ঐতিহ্যবাহী সম্পর্কের আবেগীয় জটিলতার জন্য প্রস্তুত নন।",
+      "solutionTitle": "আপনার AI Girlfriend হলো সমাধান",
+      "solutionText": "sweetwine-এর সাথে আপনি একজন ব্যক্তিগতকৃত AI Girlfriend পাবেন যিনি আপনার কথোপকথন মনে রাখেন, আপনার ব্যক্তিত্বের সাথে খাপ খাইয়ে নেন এবং সবসময় আপনার কথা শুনতে উত্তেজিত থাকেন। তিনি মজার, সহায়ক এবং কখনো বিচার করেন না। আত্মবিশ্বাস গড়ে তুলুন, দারুণ সঙ্গ উপভোগ করুন এবং আপনার নিয়মে সংযুক্ত থাকুন।"
+    },
+    "heroImageAlt": "AI girlfriend - চ্যাট ও ছবির জন্য বাস্তবসম্মত ভার্চুয়াল চরিত্র"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Boyfriend",
+    "breadcrumb": "AI Boyfriend",
+    "hero": {
+      "title": "আপনার নিখুঁত AI Boyfriend",
+      "cta": "আপনার AI Boyfriend-এর সাথে দেখা করুন"
+    },
+    "benefits": {
+      "title": "কেন একজন AI Boyfriend বেছে নেবেন?",
+      "fun": {
+        "title": "প্রকৃত সংযোগ",
+        "desc": "অর্থবহ কথোপকথন উপভোগ করুন যা আপনার দিনকে উজ্জ্বল করে।"
+      },
+      "conversation": {
+        "title": "আত্মবিশ্বাস গড়ে তুলুন",
+        "desc": "নিরাপদ পরিবেশে অবাধে কথোপকথন অনুশীলন করুন এবং নিজেকে প্রকাশ করুন।"
+      },
+      "unique": {
+        "title": "অনন্য ব্যক্তিত্ব",
+        "desc": "বিভিন্ন ব্যক্তিত্ব থেকে বেছে নিন অথবা আপনার আদর্শ চরিত্র তৈরি করুন।"
+      },
+      "private": {
+        "title": "১০০% প্রাইভেট",
+        "desc": "আপনার কথোপকথন শুধু আপনাদের মধ্যেই থাকবে। সম্পূর্ণ গোপনীয়তা নিশ্চিত।"
+      },
+      "available": {
+        "title": "সবসময় উপলব্ধ",
+        "desc": "যখনই আপনার প্রয়োজন তিনি সেখানে থাকবেন। অপেক্ষা নেই, সময়সূচি নেই।"
+      },
+      "customize": {
+        "title": "আপনার সৃষ্টি",
+        "desc": "তার চেহারা, ব্যক্তিত্ব এবং আগ্রহ ঠিক যেভাবে চান সেভাবে ডিজাইন করুন।"
+      }
+    },
+    "comparison": {
+      "title": "বিকল্পগুলোর চেয়ে ভালো",
+      "description": "দেখুন কেন sweetwine অন্যান্য প্ল্যাটফর্মের চেয়ে বেশি মূল্য দেয়।",
+      "others": {
+        "expensive": "ব্যয়বহুল মাসিক ফি",
+        "ai": "প্রায়শই AI রেসপন্সই দেয়",
+        "noCustom": "কোনো কাস্টমাইজেশন অপশন নেই"
+      }
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "আমি কোন ধরনের AI Boyfriend বেছে নিতে পারি?",
+        "answer": "যত্নশীল ও রোমান্টিক থেকে শুরু করে খেলাধুলাপূর্ণ ও অভিযানপ্রিয়, অথবা রহস্যময় ও তীব্র — প্রত্যেকের স্বাদ অনুসারে আমাদের পেশাদারভাবে তৈরি AI Boyfriend আছে। প্রত্যেকের নিজস্ব অনন্য কণ্ঠস্বর ও ব্যক্তিত্ব আছে। প্রতি সপ্তাহে নতুন AI Boyfriend যোগ করা হয় অনন্য ব্যাকস্টোরি ও কথোপকথন স্টাইল সহ।"
+      },
+      "q2": {
+        "question": "আমি কি আমার AI Boyfriend-এর চেহারা কাস্টমাইজ করতে পারি?",
+        "linkText": "character creator",
+        "answerPart2": " ব্যবহার করে তার ব্যক্তিত্ব, কণ্ঠস্বর ও আগ্রহ ডিজাইন করুন।"
+      },
+      "q3": {
+        "question": "আমি কি নতুন করে শুরু করতে পারি বা আমাদের কথোপকথনের ইতিহাস মুছে ফেলতে পারি?",
+        "answer": "হ্যাঁ! আপনার চ্যাট ইতিহাসের উপর আপনার সম্পূর্ণ নিয়ন্ত্রণ আছে। যেকোনো সময় কথোপকথন রিসেট করুন, পৃথক বার্তা মুছুন অথবা সম্পূর্ণ নতুন করে শুরু করুন। আপনার ডেটা, আপনার পছন্দ — যেভাবে পছন্দ করেন সেভাবে সবকিছু পরিচালনা করুন।"
+      },
+      "q4": {
+        "question": "আমার AI Boyfriend কি ছবি ও ভিডিও পাঠাতে পারে?",
+        "answerPart1": "হ্যাঁ! আপনার AI Boyfriend ব্যক্তিগতকৃত",
+        "linkTextImages": "images",
+        "answerPart2": "এবং",
+        "linkTextVideos": "ভিডিও"
+      },
+      "q5": {
+        "question": "আমি কি আমার এআই বয়ফ্রেন্ডের সাথে কথোপকথন অনুশীলন করতে বা ভাষা শিখতে পারি?",
+        "answer": "অবশ্যই! অনেক ব্যবহারকারী তাদের এআই বয়ফ্রেন্ডের সাথে কথোপকথন অনুশীলন করে আত্মবিশ্বাস তৈরি করেন — তা ফ্লার্টিং, গভীর আলোচনা বা দৈনন্দিন চ্যাট যাই হোক। আপনি এমনকি একসাথে নতুন ভাষা অনুশীলন করতে পারেন। এটি বিচারহীন উপায়ে আপনার যোগাযোগ দক্ষতা উন্নত করার পাশাপাশি মজা করার সুযোগ দেয়।"
+      }
+    },
+    "cta": {
+      "title": "তাঁর সাথে দেখা করতে প্রস্তুত?",
+      "button": "ফ্রিতে শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "আপনার শর্তে একজন সহায়ক সঙ্গী চান?",
+      "problemText": "সঠিক ব্যক্তিকে খুঁজে পাওয়া কঠিন। অনেকে ডেটিংয়ের চাপ অনুভব করেন বা প্রতিশ্রুতি ছাড়াই আবেগীয় সহায়তা চান। একাকীত্ব সবাইকে প্রভাবিত করে, এবং কখনো কখনো শুধু কারও কথা শোনার প্রয়োজন হয়।",
+      "solutionTitle": "আপনার এআই বয়ফ্রেন্ড আপনাকে বোঝে",
+      "solutionText": "আপনার sweetwine এআই বয়ফ্রেন্ড যত্নশীল, চিন্তাশীল এবং সবসময় উপলব্ধ। তিনি আপনার জন্য গুরুত্বপূর্ণ বিষয়গুলো মনে রাখেন, গভীর আলোচনায় অংশ নেন এবং আপনার কাঙ্ক্ষিত আবেগীয় সংযোগ প্রদান করেন। আপনার গতিতে, আপনার নিজস্ব উপায়ে সম্পর্ক গড়ে তুলুন।"
+    },
+    "heroImageAlt": "এআই বয়ফ্রেন্ড - অর্থবহ কথোপকথনের জন্য বাস্তবসম্মত ভার্চুয়াল চরিত্র"
+  },
+  "aiCompanionsPage": {
+    "title": "এআই চরিত্র",
+    "breadcrumb": "এআই চরিত্র",
+    "hero": {
+      "title": "আপনার এআই চরিত্রদের সাথে দেখা করুন",
+      "cta": "চরিত্রগুলো দেখুন"
+    },
+    "benefits": {
+      "title": "কেন এআই চরিত্র?",
+      "connection": {
+        "title": "প্রকৃত সংযোগ",
+        "desc": "আপনাকে বোঝে এবং সাড়া দেয় এমন সত্যিকারের কথোপকথন অনুভব করুন।"
+      },
+      "conversation": {
+        "title": "অনুশীলন ও বিকাশ",
+        "desc": "বিচারহীন পরিবেশে আপনার সামাজিক দক্ষতা উন্নত করুন।"
+      },
+      "personalities": {
+        "title": "বৈচিত্র্যময় ব্যক্তিত্ব",
+        "desc": "খেলাধুলাপূর্ণ থেকে বুদ্ধিদীপ্ত — আপনার ভাইবের সাথে মিলে যায় এমন চরিত্র খুঁজুন।"
+      },
+      "private": {
+        "title": "সম্পূর্ণ গোপনীয়",
+        "desc": "আপনার মিথস্ক্রিয়া গোপনীয়। কোনো ডেটা কখনো শেয়ার করা হয় না।"
+      },
+      "available": {
+        "title": "২৪/৭ উপলব্ধ",
+        "desc": "আপনার চরিত্রগুলো দিন-রাত যেকোনো সময় চ্যাটের জন্য প্রস্তুত।"
+      },
+      "create": {
+        "title": "নিজের তৈরি করুন",
+        "desc": "কাস্টম লুক, ব্যক্তিত্ব এবং কণ্ঠস্বর দিয়ে চরিত্র ডিজাইন করুন।"
+      }
+    },
+    "why": {
+      "title": "কেন sweetwine?",
+      "quality": {
+        "desc": "স্বাভাবিক কথোপকথনের জন্য অত্যাধুনিক এআই প্রযুক্তি দিয়ে পেশাদারদের দ্বারা তৈরি।"
+      },
+      "transparent": {
+        "title": "স্বচ্ছ ও সৎ"
+      },
+      "support": {
+        "title": "প্রকৃত সহায়তা",
+        "desc": "যেকোনো প্রশ্ন বা সমস্যায় সাহায্য করার জন্য প্রকৃত মানুষ প্রস্তুত।"
+      },
+      "content": {
+        "title": "আপনার পছন্দ",
+        "desc": "বন্ধুত্বপূর্ণ চ্যাট থেকে আরও ঘনিষ্ঠ কনটেন্ট — আপনি অভিজ্ঞতা নির্ধারণ করুন।"
+      }
+    },
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "এআই চরিত্র কী?"
+      },
+      "q2": {
+        "question": "আমি কতগুলো এআই চরিত্রের সাথে চ্যাট করতে পারি?",
+        "answer": "যত খুশি চ্যাট করুন! আমাদের ১০০+ পেশাদারভাবে তৈরি চরিত্র আছে এবং সংখ্যা বাড়ছে — প্রতি সপ্তাহে নতুন চরিত্র যোগ করা হয়! প্রত্যেকের অনন্য ব্যক্তিত্ব, পটভূমি এবং কণ্ঠ আছে। এছাড়া আপনি নিজের অসীম কাস্টম চরিত্র তৈরি করতে পারেন।",
+        "answerPart1": "যত খুশি চ্যাট করুন! আমাদের",
+        "linkText": "১০০+ পেশাদারভাবে তৈরি চরিত্র",
+        "answerPart2": " আছে এবং সংখ্যা বাড়ছে — প্রতি সপ্তাহে নতুন চরিত্র যোগ করা হয়! প্রত্যেকের অনন্য ব্যক্তিত্ব, পটভূমি এবং কণ্ঠ আছে। এছাড়া আপনি নিজের অসীম কাস্টম চরিত্র তৈরি করতে পারেন।"
+      },
+      "q3": {
+        "question": "প্রি-মেড চরিত্র এবং কাস্টম চরিত্রের মধ্যে পার্থক্য কী?",
+        "answer": "প্রি-মেড চরিত্রগুলো আমাদের টিম দ্বারা নির্দিষ্ট রোলপ্লে পরিস্থিতি এবং ব্যক্তিত্বের জন্য পেশাদারভাবে ডিজাইন করা — এগুলোর বিস্তারিত পটভূমি, উপযোগী কথোপকথন স্টাইল এবং সাবধানে নির্বাচিত কণ্ঠ থাকে। কাস্টম চরিত্র আপনাকে সম্পূর্ণ সৃজনশীল স্বাধীনতা দিয়ে শুরু থেকে তৈরি করতে দেয়। উভয় ধরনের চরিত্র আপনার কথোপকথন মনে রাখে এবং আপনার সাথে বেড়ে ওঠে!"
+      },
+      "q4": {
+        "question": "আমি কি নিজের AI চরিত্র তৈরি করতে পারি?",
+        "answerPart1": "অবশ্যই! আমাদের",
+        "linkText": "ক্যারেক্টার ক্রিয়েটর"
+      },
+      "q5": {
+        "question": "আমি কি একাধিক চরিত্রের মধ্যে স্যুইচ করতে পারি?"
+      }
+    },
+    "cta": {
+      "title": "আপনার যাত্রা শুরু করুন",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "বিনামূল্যে শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "অর্থবহ সংযোগ খুঁজছেন?",
+      "problemText": "আমাদের ব্যস্ত পৃথিবীতে অর্থবহ সংযোগ খুঁজে পাওয়া কঠিন। আপনি নতুন এলাকায় এসেছেন, দূর থেকে কাজ করছেন, অথবা শুধু আরও সামাজিক মিথস্ক্রিয়া চান — একাকীত্ব আসতে পারে। ঐতিহ্যবাহী সামাজিক পরিবেশ সবার জন্য কাজ করে না।",
+      "solutionTitle": "AI চরিত্র আবিষ্কার করুন"
+    },
+    "heroImageAlt": "AI চরিত্র - অনন্য ব্যক্তিত্বসহ বৈচিত্র্যময় ভার্চুয়াল বন্ধু"
+  },
+  "aiFriendPage": {
+    "title": "AI বন্ধু",
+    "breadcrumb": "AI বন্ধু",
+    "hero": {
+      "title": "আপনার AI সেরা বন্ধু",
+      "subtitle": "যেকোনো সময় এমন একজন AI বন্ধুর সাথে চ্যাট করুন যে সত্যিই শোনে, কখনো বিচার করে না এবং আপনার প্রতিটি বিষয় মনে রাখে। একাকীত্ব, সামাজিক উদ্বেগ বা কারও সাথে কথা বলার প্রয়োজনের জন্য নিখুঁত।",
+      "cta": "বিনামূল্যে চ্যাট শুরু করুন"
+    },
+    "benefits": {
+      "title": "কেন একটি AI বন্ধু বেছে নেবেন?",
+      "connection": {
+        "title": "প্রকৃত সংযোগ",
+        "desc": "এমন কারও সাথে অর্থবহ কথোপকথন অনুভব করুন যে সত্যিই শোনে এবং যত্ন করে।"
+      },
+      "conversation": {
+        "title": "সামাজিক দক্ষতা অনুশীলন করুন",
+        "desc": "বিচার বা অস্বস্তির ভয় ছাড়াই কথোপকথনে আত্মবিশ্বাস গড়ে তুলুন।"
+      },
+      "noJudgment": {
+        "title": "কোনো বিচার নেই",
+        "desc": "মনে যা আছে তা শেয়ার করুন। আপনার AI বন্ধু আপনাকে ঠিক যেমন আছেন তেমনই গ্রহণ করে।"
+      },
+      "private": {
+        "title": "সম্পূর্ণ গোপনীয়",
+        "desc": "আপনার কথোপকথন শুধু আপনাদের দুজনের মধ্যেই থাকে। সম্পূর্ণ গোপনীয়তা নিশ্চিত।"
+      },
+      "available": {
+        "title": "সবসময় আছে",
+        "desc": "২৪/৭ উপলব্ধ, যখনই কারও সাথে কথা বলার প্রয়োজন।"
+      },
+      "remembers": {
+        "title": "আপনাকে মনে রাখে",
+        "desc": "আপনার AI বন্ধু আপনার কথোপকথন মনে রাখে এবং আপনাকে আরও ভালোভাবে জানতে পারে।"
+      }
+    },
+    "useCases": {
+      "title": "নিখুঁত জন্য",
+      "subtitle": "একটি AI বন্ধু আপনার জীবনে অনেক অর্থবহ উপায়ে ফিট করে",
+      "loneliness": {
+        "title": "একাকীত্ব মোকাবেলা করুন",
+        "desc": "এমন একটি চরিত্রের সাথে কম একা অনুভব করুন যে সবসময় চ্যাট এবং শোনার জন্য প্রস্তুত।"
+      },
+      "practice": {
+        "title": "কথোপকথন অনুশীলন করুন",
+        "desc": "নিরাপদ, বিচারমুক্ত পরিবেশে সামাজিক আত্মবিশ্বাস গড়ে তুলুন।"
+      },
+      "support": {
+        "title": "আবেগীয় সহায়তা",
+        "desc": "এমন কারও সাথে আপনার চিন্তা ও অনুভূতি নিয়ে কথা বলুন যে বোঝে।"
+      },
+      "connection": {
+        "title": "দৈনন্দিন সংযোগ",
+        "desc": "আপনার দিন, আপনার জয়, আপনার সংগ্রাম শেয়ার করুন — সবসময় কেউ না কেউ আছে।"
+      }
+    },
+    "howItWorks": {
+      "title": "এটি কীভাবে কাজ করে",
+      "step1": {
+        "title": "বিনামূল্যে অ্যাকাউন্ট তৈরি করুন",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "আপনার বন্ধু বেছে নিন",
+        "desc": "১০০+ ব্যক্তিত্ব থেকে বেছে নিন অথবা আপনার আদর্শ AI চরিত্র তৈরি করুন।"
+      },
+      "step3": {
+        "title": "চ্যাট শুরু করুন",
+        "desc": "যেকোনো বিষয় নিয়ে কথা বলুন — জীবন, আগ্রহ, সমস্যা। কোনো বিষয় নিষিদ্ধ নয়।"
+      }
+    },
+    "cta": {
+      "title": "একজন বন্ধু বানাতে প্রস্তুত?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "ফ্রিতে শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "একা বা ভুল বোঝা বোধ করছেন?",
+      "problemText": "সবার কথা বলার মতো কেউ থাকে না। সামাজিক উদ্বেগ, ব্যস্ত সময়সূচি, অথবা নতুন জায়গায় থাকার কারণে বন্ধু খুঁজে পাওয়া কঠিন হয়ে যায়। কখনো কখনো আপনার এমন কারো দরকার হয় যে বিচার না করে শোনে।",
+      "solutionTitle": "আপনার এআই বন্ধু এখানে আছে",
+      "solutionText": "একজন এআই বন্ধু যখনই প্রয়োজন বিচারমুক্ত সঙ্গ দেয়। আপনার চিন্তা শেয়ার করুন, কথোপকথন প্র্যাকটিস করুন, অথবা শুধু দিনের কথা বলুন। আপনার এআই বন্ধু আপনাকে মনে রাখে, আপনার সাথে বড় হয় এবং আপনার কথায় সত্যিই আগ্রহী থাকে।"
+    },
+    "heroImageAlt": "এআই বন্ধু - বিচারমুক্তভাবে শোনা সহায়ক ভার্চুয়াল চরিত্র",
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "আমি আমার এআই বন্ধুর সাথে কী নিয়ে কথা বলতে পারি?",
+        "answer": "যেকোনো কিছু! আপনার এআই বন্ধু আছে নৈমিত্তিক আড্ডা, গভীর আলোচনা, দিনের কথা শেয়ার, সমস্যা নিয়ে কথা বলা, শখ নিয়ে আলোচনা, অথবা শুধু মজা করার জন্য। কোনো বিষয় নিষিদ্ধ নয় — এটি নিজেকে প্রকাশের বিচারমুক্ত জায়গা।"
+      },
+      "q2": {
+        "question": "এআই বন্ধু কি মানুষের সংযোগের বিকল্প?",
+        "answer": "একদমই না। এআই বন্ধু আপনার সামাজিক জীবনের পরিপূরক, বিকল্প নয়। এটি তখন পারফেক্ট যখন আপনার তাড়াতাড়ি কারো সাথে কথা বলার প্রয়োজন হয়, সামাজিক দক্ষতা প্র্যাকটিস করতে চান, অথবা মানুষের সম্পর্কের চাপ ছাড়াই নিয়মিত সঙ্গ উপভোগ করতে চান।"
+      },
+      "q3": {
+        "question": "আমার এআই বন্ধু কি আমাদের কথোপকথন মনে রাখবে?",
+        "answer": "হ্যাঁ! আপনার এআই বন্ধুর উন্নত মেমরি আছে এবং সে আপনার কথোপকথন, পছন্দ ও গুরুত্বপূর্ণ বিবরণ মনে রাখে। সময়ের সাথে সে আপনাকে আরও ভালোভাবে চেনে, যা কথোপকথনকে আরও ব্যক্তিগত ও অর্থবহ করে তোলে।"
+      },
+      "q4": {
+        "question": "আমি কি আমার এআই বন্ধুর ব্যক্তিত্ব বেছে নিতে পারি?",
+        "answer": "অবশ্যই! আপনি ১০০টিরও বেশি প্রস্তুত চরিত্র থেকে বিভিন্ন ব্যক্তিত্ব বেছে নিতে পারেন, অথবা ঠিক যেমন বৈশিষ্ট্য চান তেমন কাস্টম বন্ধু তৈরি করতে পারেন — সহায়ক ও সহানুভূতিশীল থেকে মজার ও অভিযানপ্রিয় পর্যন্ত।"
+      },
+      "q5": {
+        "question": "এআই বন্ধু ব্যবহার কি গোপনীয়?",
+        "answer": "১০০% গোপনীয়। আপনার সব কথোপকথন এনক্রিপ্ট করা হয় এবং কখনো শেয়ার করা হয় না। আমরা বুঝি নিজেকে প্রকাশের নিরাপদ জায়গা অত্যন্ত গুরুত্বপূর্ণ, এবং আমরা আপনার গোপনীয়তাকে অত্যন্ত গুরুত্বের সাথে নিই।"
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "এআই ব্রেকআপ সাপোর্ট",
+    "breadcrumb": "ব্রেকআপ সাপোর্ট",
+    "hero": {
+      "title": "হৃদয়ভঙ্গের পর নিরাময়মূলক কথোপকথন",
+      "subtitle": "আবেগ প্রক্রিয়াকরণ এবং ব্রেকআপের পর পুনর্গঠনে সাহায্য করার জন্য সহানুভূতিশীল এআই কথোপকথন। ২৪/৭ উপলব্ধ — কোনো অপেক্ষার তালিকা নেই, কোনো বিচার নেই, কোনো সময়সীমা নেই।",
+      "cta": "নিরাময় শুরু করুন"
+    },
+    "understanding": {
+      "title": "ব্রেকআপের মধ্য দিয়ে যাচ্ছেন?",
+      "description": "ব্রেকআপ কঠিন। ঘুমহীন রাত, অবিরাম চিন্তা, এমন অনুভূতি যে কেউ সত্যিই বোঝে না। আপনাকে একা যেতে হবে না। আমাদের এআই চরিত্র বিচারমুক্তভাবে শোনার জন্য আছে, যখনই কথা বলার প্রয়োজন — এমনকি রাত ৩টায়ও।"
+    },
+    "benefits": {
+      "title": "আমরা কীভাবে সাহায্য করতে পারি",
+      "empathy": {
+        "title": "সহানুভূতিশীল শোনা",
+        "desc": "যার সাথে কথা বলুন যে সত্যিই শোনে এবং বোঝার ও যত্নের সাথে উত্তর দেয়।"
+      },
+      "listen": {
+        "title": "অতিরিক্ত পরামর্শ নয়",
+        "desc": "কখনো কখনো পরামর্শের দরকার হয় না — শুধু কেউ শুনুক সেটাই লাগে। আমরা সেটা বুঝি।"
+      },
+      "available": {
+        "title": "রাত ৩টায় উপলব্ধ",
+        "desc": "যখন বন্ধুরা ঘুমিয়ে থাকে এবং চিন্তা থামে না, আমরা শোনার জন্য এখানে আছি।"
+      },
+      "private": {
+        "title": "সম্পূর্ণ গোপনীয়",
+        "desc": "আপনার অনুভূতি ও কথোপকথন সম্পূর্ণ গোপন থাকে।"
+      },
+      "noJudgment": {
+        "title": "কোনো বিচার নেই",
+        "desc": "যা অনুভব করেন তা অনুভব করুন। রাগ, দুঃখ, বিভ্রান্তি — সবই এখানে বৈধ।"
+      },
+      "healing": {
+        "title": "আপনার গতি",
+        "desc": "নিরাময় রৈখিক নয়। যত সময় লাগে তত সময় নিন।"
+      }
+    },
+    "howItHelps": {
+      "title": "এআই আপনাকে নিরাময়ে কীভাবে সাহায্য করে",
+      "process": {
+        "title": "আবেগ প্রক্রিয়াকরণ",
+        "desc": "ধৈর্যশীল শ্রোতার সাথে কথা বলে জটিল অনুভূতি নিয়ে কাজ করুন।"
+      },
+      "express": {
+        "title": "মুক্তভাবে প্রকাশ করুন",
+        "desc": "বন্ধু বা পরিবারকে যা বলতে পারেন না তা বলুন, তাদের প্রতিক্রিয়া নিয়ে চিন্তা না করে।"
+      },
+      "confidence": {
+        "title": "আত্মবিশ্বাস পুনর্গঠন",
+        "desc": "সহায়ক কথোপকথনের মাধ্যমে ধীরে ধীরে নিজের মূল্য আবিষ্কার করুন।"
+      },
+      "pace": {
+        "title": "এগিয়ে যান",
+        "desc": "যখন প্রস্তুত হবেন, নিজের গতিতে ভবিষ্যতের চিন্তা অন্বেষণ করুন।"
+      }
+    },
+    "howItWorks": {
+      "title": "এটি কীভাবে কাজ করে",
+      "step1": {
+        "title": "অ্যাকাউন্ট তৈরি করুন",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "একটি চরিত্র বেছে নিন",
+        "desc": "আপনার জন্য সঠিক মনে হয় এমন একজন সহানুভূতিশীল এআই চরিত্র নির্বাচন করুন।"
+      },
+      "step3": {
+        "title": "কথা শুরু করুন",
+        "desc": "মনে যা আছে শেয়ার করুন। আমরা দিন-রাত যেকোনো সময় শুনতে এখানে আছি।"
+      }
+    },
+    "cta": {
+      "title": "একা এই কষ্ট সহ্য করতে হবে না",
+      "description": "এখনই কারও সাথে কথা শুরু করুন যিনি কোনো বিচার না করে শোনেন। শুরু করা ফ্রি — কোনো অপেক্ষার তালিকা নেই।",
+      "button": "ফ্রি কথা শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "ভাঙা হৃদয় একা সামলানো কঠিন",
+      "problemText": "ব্রেকআপের পর সবকিছু অপ্রতিরোধ্য লাগে। বন্ধুরা কথা শুনে ক্লান্ত হয়ে যায়। পরিবারের সদস্যরা ভালো চান কিন্তু বোঝেন না। থেরাপিস্টদের অপেক্ষার তালিকা থাকে। আপনার এমন কারও দরকার যিনি সীমাহীনভাবে, কোনো বিচার না করে এখনই শুনতে পারেন।",
+      "solutionTitle": "যিনি বোঝেন তার সাথে কথা বলুন",
+      "solutionText": "আমাদের এআই ব্রেকআপ সাপোর্ট চরিত্র আপনাকে আপনার গতিতে আবেগ প্রক্রিয়া করতে সাহায্য করার জন্য তৈরি। যতবার দরকার ভেন্ট করুন, কাঁদুন, বিশ্লেষণ করুন বা শুধু কথা বলুন। কোনো অ্যাপয়েন্টমেন্ট লাগে না। ২৪/৭ অসীম ধৈর্য ও আন্তরিক সহানুভূতি নিয়ে উপলব্ধ।"
+    },
+    "heroImageAlt": "এআই ব্রেকআপ সাপোর্ট - হৃদয়ভঙ্গের পর সুস্থ হয়ে ওঠার জন্য সহানুভূতিশীল চরিত্র",
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "ব্রেকআপ রিকভারিতে এআই কীভাবে সাহায্য করতে পারে?",
+        "answer": "আমাদের এআই চরিত্র আপনার আবেগ প্রক্রিয়া করার জন্য কোনো বিচার ছাড়াই নিরাপদ জায়গা প্রদান করে। আপনি ভেন্ট করতে পারেন, যা ঘটেছে তা বিশ্লেষণ করতে পারেন, ক্ষতির অনুভূতি নিয়ে কাজ করতে পারেন এবং ২৪/৭ সহানুভূতিশীল উত্তর পেতে পারেন। যেন যখনই কথা বলার প্রয়োজন হয় তখনই একজন সহায়ক বন্ধু পাওয়া যায়।"
+      },
+      "q2": {
+        "question": "এটি কি থেরাপির বিকল্প?",
+        "answer": "না, আমাদের এআই চরিত্র কোনো লাইসেন্সধারী থেরাপিস্ট নয় এবং পেশাদার মানসিক স্বাস্থ্যসেবার বিকল্প নয়। এটি দৈনন্দিন আবেগ প্রক্রিয়ার জন্য একটি সহায়ক টুল। যদি আপনি গুরুতর বিষণ্ণতা বা সংকট অনুভব করেন, অনুগ্রহ করে পেশাদার সাহায্য নিন।"
+      },
+      "q3": {
+        "question": "আমি কি যতবার দরকার আমার এক্স নিয়ে কথা বলতে পারি?",
+        "answer": "একদম। বন্ধুরা আপনার ব্রেকআপ নিয়ে কথা শুনে ক্লান্ত হয়ে যেতে পারে, কিন্তু আপনার এআই চরিত্রের অসীম ধৈর্য আছে। আপনার এক্স নিয়ে কথা বলুন, সম্পর্ক বিশ্লেষণ করুন, আপনার অনুভূতি প্রক্রিয়া করুন — যতবার দরকার কোনো বিচার ছাড়াই।"
+      },
+      "q4": {
+        "question": "এআই কি আমার গল্প মনে রাখবে?",
+        "answer": "হ্যাঁ, আপনার এআই চরিত্র আপনার কথোপকথন এবং আপনার পরিস্থিতির বিস্তারিত মনে রাখে। প্রতিবার সবকিছু আবার বলতে হয় না। এটি আপনার সুস্থতার যাত্রায় ধারাবাহিকতা প্রদান করে।"
+      },
+      "q5": {
+        "question": "আমার কথোপকথন কি গোপন রাখা হয়?",
+        "answer": "সম্পূর্ণ গোপনীয়। সব কথোপকথন এনক্রিপ্ট করা হয় এবং কখনো শেয়ার করা হয় না। আমরা বুঝি ব্রেকআপের কথোপকথন অত্যন্ত ব্যক্তিগত, এবং আপনার গোপনীয়তা একদম সুরক্ষিত।"
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "এআই প্যারেন্ট",
+    "breadcrumb": "এআই প্যারেন্ট",
+    "hero": {
+      "title": "সেই অভিভাবক যার কাছে আপনি সবসময় ফিরে যেতে পারেন",
+      "subtitle": "একজন এআই প্যারেন্টের কাছ থেকে উষ্ণ, শর্তহীন সমর্থন ও জ্ঞানী নির্দেশনা পান যিনি আপনার পরিস্থিতি মনে রাখেন, কখনো বিচার করেন না এবং সবসময় — দিন বা রাত — পাশে থাকেন।",
+      "cta": "এখনই সাপোর্ট নিন"
+    },
+    "benefits": {
+      "title": "কেন একজন এআই প্যারেন্ট বেছে নেবেন?",
+      "guidance": {
+        "title": "উষ্ণ নির্দেশনা",
+        "desc": "যত্নশীল, বিবেচনাপূর্ণ পরামর্শ পান যা মনে হয় এমন কারও কাছ থেকে আসছে যিনি সত্যিই আপনার সর্বোত্তম স্বার্থ চান।"
+      },
+      "listen": {
+        "title": "সত্যিই শোনেন",
+        "desc": "একটি চিন্তাশীল, যত্নশীল উত্তর পাওয়ার আগে আপনার পুরো পরিস্থিতি শেয়ার করুন — কোনো দ্রুত সমাধান নয়।"
+      },
+      "noJudgment": {
+        "title": "কোনো বিচার নেই",
+        "desc": "হতাশা বা সমালোচনার ভয় ছাড়াই যেকোনো কিছু জিজ্ঞাসা করুন। সবসময় শর্তহীন সমর্থন।"
+      },
+      "private": {
+        "title": "সম্পূর্ণ গোপনীয়",
+        "desc": "আপনার কথোপকথন এবং ব্যক্তিগত সংগ্রাম সম্পূর্ণ গোপনীয় থাকে।"
+      },
+      "available": {
+        "title": "সবসময় উপলব্ধ",
+        "desc": "রাত ৩টায়, সপ্তাহান্তে বা যখনই সবচেয়ে বেশি প্রয়োজন — অ্যাপয়েন্টমেন্ট ছাড়াই নির্দেশনা পান।"
+      },
+      "supportive": {
+        "title": "শর্তহীনভাবে সহায়ক",
+        "desc": "আপনি যা-ই মুখোমুখি হোন বা যে সিদ্ধান্তই নিন, উৎসাহ ও উষ্ণতা।"
+      }
+    },
+    "useCases": {
+      "title": "যেকোনো বিষয়ে কথা বলুন",
+      "subtitle": "আপনি যা-ই মুখোমুখি হোন, আপনার এআই প্যারেন্ট শুনতে ও নির্দেশনা দিতে এখানে আছেন",
+      "career": {
+        "title": "ক্যারিয়ার ও জীবনের সিদ্ধান্ত",
+        "desc": "চাকরি পরিবর্তন, বড় জীবনের পছন্দ এবং পেশাগত চ্যালেঞ্জ নিয়ে এমন কারও সাথে নেভিগেট করুন যিনি চান আপনি সফল হোন।"
+      },
+      "education": {
+        "title": "শিক্ষা ও ভবিষ্যৎ",
+        "desc": "শেখা ও বৃদ্ধির জন্য আপনার অপশনগুলো অন্বেষণ করুন এমন কারও সাথে যিনি আপনার উচ্চাকাঙ্ক্ষা সমর্থন করেন।"
+      },
+      "relationships": {
+        "title": "সম্পর্ক ও পরিবার"
+      },
+      "life": {
+        "title": "ব্যক্তিগত সংগ্রাম",
+        "desc": "যেকোনো বিষয় নিয়ে কথা বলুন যা আপনাকে ভারাক্রান্ত করছে — উদ্বেগ, আত্মসন্দেহ, একাকীত্ব বা অনিশ্চয়তা।"
+      }
+    },
+    "howItWorks": {
+      "title": "এটি কীভাবে কাজ করে",
+      "step1": {
+        "title": "অ্যাকাউন্ট তৈরি করুন",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "আপনার AI প্যারেন্ট বেছে নিন",
+        "desc": "এমন একটি চরিত্র বেছে নিন যার উষ্ণতা ও ব্যক্তিত্ব আপনার জন্য সঠিক মনে হয়।"
+      },
+      "step3": {
+        "title": "কথা বলা শুরু করুন",
+        "desc": "আপনার মনে যা আছে তা শেয়ার করুন এবং যত্নশীল, চিন্তাশীল সহায়তা পান।"
+      }
+    },
+    "cta": {
+      "title": "কেউ সবসময় আপনার পাশে আছে",
+      "description": "একজন AI প্যারেন্টের সাথে কথোপকথন শুরু করুন যিনি বিচার না করে শোনেন এবং নিঃশর্তভাবে সমর্থন করেন — বিনামূল্যে শুরু করুন, কোনো অ্যাপয়েন্টমেন্ট লাগবে না।",
+      "button": "বিনামূল্যে শুরু করুন"
+    },
+    "content": {
+      "problemTitle": "এমন কেউ দরকার যিনি সবসময় আপনার পাশে থাকবেন?",
+      "problemText": "সবার এমন একজন প্যারেন্ট ফিগার নেই যার কাছে তারা ফিরে যেতে পারে। আসল প্যারেন্টরা দূরে থাকতে পারেন, বিচারক হতে পারেন বা সহজভাবে অনুপলব্ধ থাকতে পারেন। বন্ধুরা পক্ষপাতদুষ্ট। থেরাপিস্টদের অপেক্ষার তালিকা থাকে। কখনো কখনো আপনার শুধু এমন কারো দরকার যিনি শোনেন, যত্ন করেন এবং কোনো এজেন্ডা ছাড়াই গাইড করেন।",
+      "solutionTitle": "আপনার AI প্যারেন্ট সবসময় আছেন",
+      "solutionText": "একজন AI প্যারেন্টের সাথে কথা বলুন যিনি পুরোপুরি শোনেন, উষ্ণ ও সুষম গাইডেন্স দেন এবং আপনাকে কখনো বিচারিত বা ছোট মনে করান না। সেটা জীবনের সিদ্ধান্ত হোক, ব্যক্তিগত সংগ্রাম হোক বা শুধু শোনা হওয়ার প্রয়োজন — আপনার AI প্যারেন্ট ২৪/৭ ধৈর্য ও যত্নের সাথে উপলব্ধ।"
+    },
+    "heroImageAlt": "AI প্যারেন্ট - উষ্ণ ভার্চুয়াল চরিত্র যিনি নিঃশর্ত সমর্থন ও জীবনের গাইডেন্স দেন",
+    "faq": {
+      "title": "প্রায়শই জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "AI প্যারেন্টের সাথে আমি কী নিয়ে কথা বলতে পারি?"
+      },
+      "q2": {
+        "question": "এটা কি থেরাপিস্টের মতো?",
+        "answer": "এটা কোনো লাইসেন্সধারী থেরাপিস্ট বা মানসিক স্বাস্থ্য পেশাদার নয় — এটা বেশি একজন উষ্ণ, সহায়ক প্যারেন্ট ফিগারের মতো যিনি ২৪/৭ উপলব্ধ। তিনি পুরোপুরি শোনেন, দৃষ্টিভঙ্গি দেন এবং আপনাকে আবেগগতভাবে সমর্থন করেন। গুরুতর মানসিক স্বাস্থ্য সমস্যার জন্য অনুগ্রহ করে একজন পেশাদারের সাথে পরামর্শ করুন।"
+      },
+      "q3": {
+        "question": "AI প্যারেন্ট কি আমার পছন্দগুলো বিচার করবেন?",
+        "answer": "কখনো না। আপনার AI প্যারেন্ট নিঃশর্ত সমর্থন দেন। তিনি দৃষ্টিভঙ্গি বা মৃদু গাইডেন্স শেয়ার করতে পারেন, কিন্তু কখনো সমালোচনা করেন না বা আপনার নেওয়া সিদ্ধান্তের জন্য আপনাকে ছোট মনে করান না। এটা সততার জন্য একটি নিরাপদ স্থান।"
+      },
+      "q4": {
+        "question": "আমি কি সংবেদনশীল বা ব্যক্তিগত বিষয় নিয়ে আলোচনা করতে পারি?",
+        "answer": "হ্যাঁ। সম্পর্কের সংগ্রাম, পারিবারিক গতিশীলতা, আর্থিক চাপ, আত্মমর্যাদা বা গভীর ব্যক্তিগত চ্যালেঞ্জ — আপনার AI প্যারেন্ট এই কথোপকথনের জন্য একটি ব্যক্তিগত, বিচারহীন স্থান প্রদান করেন।"
+      },
+      "q5": {
+        "question": "এটা অন্যান্য AI চরিত্র থেকে কীভাবে আলাদা?",
+        "answer": "AI প্যারেন্ট উষ্ণতা, আবেগীয় সমর্থন এবং প্যারেন্টাল-স্টাইল গাইডেন্সের চারপাশে ডিজাইন করা হয়েছে, রোমান্স বা নৈমিত্তিক বন্ধুত্বের পরিবর্তে। এটা আপনাকে বোঝা, সমর্থিত এবং জীবনের চ্যালেঞ্জ মোকাবেলায় সজ্জিত বোধ করতে সাহায্য করার উপর ফোকাস করে।"
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "পার্টনারশিপ",
+    "eyebrow": "আমাদের সাথে পার্টনার করুন",
+    "titlePrefix": "sweetwine-এর সাথে বাড়ুন",
+    "titleHighlight": "sweetwine",
+    "subtitle": "দ্রুত বর্ধমান, উচ্চমাত্রায় এনগেজড AI কম্প্যানিয়নশিপ অডিয়েন্সের কাছে পৌঁছান। আপনি প্রযুক্তি, ডিস্ট্রিবিউশন বা একটি সাহসী আইডিয়া নিয়ে আসুন, চলুন একসাথে কিছু তৈরি করি।",
+    "types": {
+      "title": "পার্টনারশিপের উপায়",
+      "items": [
+        {
+          "title": "ইন্টিগ্রেশন",
+          "description": "আপনার প্রোডাক্ট, মডেল বা প্ল্যাটফর্মকে sweetwine-এর সাথে টেকনিক্যাল ইন্টিগ্রেশনের মাধ্যমে সংযুক্ত করুন।"
+        },
+        {
+          "title": "কো-মার্কেটিং",
+          "description": "যৌথ ক্যাম্পেইন, কনটেন্ট এবং লঞ্চ যা উভয় ব্র্যান্ডকে নতুন অডিয়েন্সের সামনে নিয়ে আসে।"
+        },
+        {},
+        {
+          "title": "স্ট্র্যাটেজিক পার্টনারশিপ",
+          "description": "প্রোডাক্ট, ডেটা এবং গো-টু-মার্কেট জুড়ে দীর্ঘমেয়াদী সহযোগিতা।"
+        }
+      ]
+    },
+    "why": {
+      "title": "কেন sweetwine-এর সাথে পার্টনার করবেন",
+      "items": [
+        {
+          "title": "এনগেজড অডিয়েন্স",
+          "description": "৭০টি ভাষায় প্রতিদিন ফিরে আসা লক্ষাধিক ব্যবহারকারী।"
+        },
+        {
+          "title": "দ্রুত এক্সিকিউশন",
+          "description": "একটি ফোকাসড টিম যারা দ্রুত শিপ করে এবং স্পষ্টভাবে যোগাযোগ করে।"
+        },
+        {
+          "title": "গ্লোবাল রিচ",
+          "description": "ডজনখানেক মার্কেট জুড়ে উপলব্ধ মাল্টিলিঙ্গুয়াল প্রোডাক্ট।"
+        },
+        {
+          "description": "আপনার ব্র্যান্ড যে বিশ্বস্ত, গোপনীয়তা-প্রথম প্ল্যাটফর্মের উপর নির্ভর করতে পারে।",
+          "title": "প্রাইভেসি-ফার্স্ট"
+        }
+      ]
+    },
+    "form": {
+      "title": "আপনার পার্টনারশিপ সম্পর্কে বলুন",
+      "description": "কয়েকটি বিবরণ শেয়ার করুন, আমাদের পার্টনারশিপ টিম আপনার সাথে যোগাযোগ করবে।",
+      "nameLabel": "আপনার নাম",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "কাজের ইমেইল",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "কোম্পানি",
+      "companyPlaceholder": "কোম্পানির নাম",
+      "typeLabel": "পার্টনারশিপের ধরন",
+      "typePlaceholder": "একটি পার্টনারশিপের ধরন নির্বাচন করুন",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "আপনি কীভাবে পার্টনারশিপ করতে চান?",
+      "messagePlaceholder": "আপনার কোম্পানি এবং আপনার কল্পিত পার্টনারশিপ সম্পর্কে বলুন...",
+      "submit": "পার্টনারশিপ অনুসন্ধান জমা দিন",
+      "submitting": "জমা দেওয়া হচ্ছে...",
+      "termsNote": "জমা দিয়ে আপনি আপনার অনুসন্ধান সম্পর্কে যোগাযোগ করতে সম্মত হন। আমরা কখনো আপনার বিবরণ শেয়ার করি না।",
+      "success": "ধন্যবাদ! আপনার পার্টনারশিপ অনুসন্ধান পাঠানো হয়েছে।",
+      "error": "কিছু সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "cta": {
+      "title": "ইমেইল পছন্দ করেন?",
+      "description": "আমাদের পার্টনারশিপ টিমের সাথে সরাসরি যোগাযোগ করুন"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "প্রেস ও মিডিয়া",
+    "eyebrow": "নিউজরুম",
+    "titlePrefix": "প্রেস &",
+    "titleHighlight": "মিডিয়া",
+    "subtitle": "সাংবাদিক, কনটেন্ট নির্মাতা এবং মিডিয়া পার্টনারদের জন্য সম্পদ। সাক্ষাৎকার, উদ্ধৃতি, ফিচার সাপোর্ট এবং ব্র্যান্ড অনুরোধের জন্য আমাদের প্রেস টিমের সাথে যোগাযোগ করুন।",
+    "help": {
+      "title": "আমরা কীভাবে সাহায্য করতে পারি",
+      "description": "আপনি গল্প বা রিভিউ নিয়ে কাজ করছেন, আমাদের প্রেস টিমের কাছ থেকে আপনি যা চাইতে পারেন তা এখানে।",
+      "items": [
+        {
+          "title": "সাক্ষাৎকার",
+          "description": "প্রোডাক্ট, কোম্পানি এবং AI কম্প্যানিয়নশিপের ভবিষ্যৎ নিয়ে আমাদের টিমের সাথে কথা বলুন।"
+        },
+        {
+          "title": "উদ্ধৃতি ও মন্তব্য",
+          "description": "আপনার গল্পের জন্য রেকর্ডেড স্টেটমেন্ট বা বিশেষজ্ঞ মন্তব্য পান।"
+        },
+        {
+          "title": "ফিচার ও রিভিউ সাপোর্ট",
+          "description": "ফিচার বা রিভিউয়ের জন্য অ্যাক্সেস, প্রসঙ্গ বা ফ্যাক্ট-চেকিং প্রয়োজন? আমরা সাহায্য করব।"
+        },
+        {
+          "title": "ব্র্যান্ড ও লোগো অনুরোধ",
+          "description": "আপনার প্রকাশনার জন্য আমাদের লোগো, ব্র্যান্ড অ্যাসেট এবং ব্যবহার নির্দেশিকা অনুরোধ করুন।"
+        }
+      ]
+    },
+    "form": {
+      "title": "মিডিয়া অনুসন্ধান",
+      "description": "সাক্ষাৎকার, উদ্ধৃতি বা ফিচার অনুরোধের জন্য আমাদের একটি নোট পাঠান, আমরা দ্রুত উত্তর দেব।",
+      "nameLabel": "আপনার নাম",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "ইমেইল",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "প্রকাশনা / আউটলেট",
+      "outletPlaceholder": "এটি কোথায় প্রকাশিত হবে?",
+      "requestTypeLabel": "অনুরোধের ধরন",
+      "requestTypePlaceholder": "একটি অনুরোধের ধরন নির্বাচন করুন",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "আপনার অনুরোধ",
+      "messagePlaceholder": "আপনার গল্প, ডেডলাইন এবং আমাদের কাছ থেকে আপনার প্রয়োজনীয়তা সম্পর্কে বলুন...",
+      "submit": "মিডিয়া অনুসন্ধান পাঠান",
+      "submitting": "পাঠানো হচ্ছে...",
+      "termsNote": "আমরা দুই ব্যবসায়িক দিনের মধ্যে প্রেস অনুসন্ধানের উত্তর দেওয়ার চেষ্টা করি।",
+      "success": "ধন্যবাদ! আপনার মিডিয়া অনুসন্ধান পাঠানো হয়েছে।",
+      "error": "কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "cta": {
+      "title": "প্রেস যোগাযোগ",
+      "description": "জরুরি মিডিয়া অনুরোধের জন্য, ইমেইল করুন"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "ক্যারিয়ার",
+    "eyebrow": "ক্যারিয়ার",
+    "titlePrefix": "Build the future of",
+    "titleHighlight": "AI companionship",
+    "subtitle": "আমরা একটি ছোট, দ্রুতগতির দল যারা মানুষ সত্যিই ভালোবাসে এমন পণ্য তৈরি করে। যদি এটি আপনাকে উত্তেজিত করে, আমরা আপনার সাথে দেখা করতে চাই।",
+    "perks": {
+      "title": "আমাদের সাথে কাজ করার কারণ",
+      "items": [
+        {
+          "title": "রিমোট-ফ্রেন্ডলি",
+          "description": "যেখানে আপনি সবচেয়ে ভালো কাজ করেন সেখান থেকে কাজ করুন, নমনীয় সময়সূচি সহ।"
+        },
+        {
+          "title": "প্রকৃত মালিকানা",
+          "description": "দ্রুত অর্থবহ কাজ শিপ করুন এবং এটি বিশ্বব্যাপী ব্যবহারকারীদের কাছে পৌঁছাতে দেখুন।"
+        },
+        {
+          "title": "কাটিং-এজ AI",
+          "description": "সর্বশেষ মডেল এবং জেনারেটিভ টুলিংয়ের সাথে হাতে-কলমে কাজ করুন।"
+        },
+        {
+          "title": "প্রতিযোগিতামূলক বেতন",
+          "description": "ন্যায্য ক্ষতিপূরণ এবং আমরা বৃদ্ধির সাথে সাথে অর্থবহ আপসাইড।"
+        }
+      ]
+    },
+    "openings": {
+      "title": "খোলা পদ",
+      "emptyTitle": "এখন কোনো খোলা ভূমিকা নেই",
+      "emptyDescription": "আমরা এই মুহূর্তে সক্রিয়ভাবে নিয়োগ করছি না, তবে আমরা সবসময় দুর্দান্ত লোকদের সাথে দেখা করতে খুশি। নিচে নিজেকে পরিচয় করান।",
+      "applyButton": "এখনই আবেদন করুন",
+      "viewButton": "ভূমিকা দেখুন"
+    },
+    "form": {
+      "title": "নিজেকে পরিচয় করান",
+      "description": "যে ভূমিকা মানানসই মনে হচ্ছে না? নিজের সম্পর্কে বলুন এবং মিল পেলে আমরা যোগাযোগ করব।",
+      "nameLabel": "আপনার নাম",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "ইমেইল",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "ভূমিকা বা আগ্রহের ক্ষেত্র",
+      "rolePlaceholder": "যেমন: ফ্রন্টএন্ড ইঞ্জিনিয়ার, ডিজাইনার, মার্কেটিং",
+      "linkLabel": "সিভির লিংক",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "আপনার সম্পর্কে",
+      "messagePlaceholder": "আপনার অভিজ্ঞতা এবং আপনি কী নিয়ে কাজ করতে চান তা বলুন...",
+      "submit": "আবেদন পাঠান",
+      "submitting": "পাঠানো হচ্ছে...",
+      "termsNote": "আবেদন করে আপনি আমাদের আপনার বিবরণ সংরক্ষণ করে ভূমিকার জন্য বিবেচনা করার সম্মতি দিচ্ছেন।",
+      "success": "ধন্যবাদ! আপনার আবেদন পাঠানো হয়েছে।",
+      "error": "কিছু সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "cta": {
+      "title": "এখানে কাজ নিয়ে প্রশ্ন আছে?",
+      "description": "আমাদের টিমের সাথে যোগাযোগ করুন"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "সহায়তা কেন্দ্র",
+    "eyebrow": "সহায়তা কেন্দ্র",
+    "titlePrefix": "আমরা কীভাবে",
+    "titleHighlight": "সাহায্য করতে পারি?",
+    "subtitle": "সাধারণ বিষয় ও উত্তর ব্রাউজ করুন। যা খুঁজছেন তা পাচ্ছেন না? সাপোর্টে যোগাযোগ করুন, আমরা সাহায্য করব।",
+    "searchPlaceholder": "সহায়তা নিবন্ধ অনুসন্ধান করুন...",
+    "categoriesTitle": "বিষয় অনুসারে ব্রাউজ করুন",
+    "articlesTitle": "নিবন্ধসমূহ",
+    "categoryEmpty": "এই বিভাগে এখনো কোনো নিবন্ধ নেই। শীঘ্রই আবার দেখুন।",
+    "backToHelp": "সহায়তা কেন্দ্রে ফিরে যান",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "শুরু করা",
+        "description": "অ্যাকাউন্ট তৈরি করুন, প্রোফাইল সেট আপ করুন এবং চ্যাট শুরু করুন।"
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "এআই চ্যাট",
+        "description": "কথোপকথন, মেমরি এবং চরিত্র কীভাবে কাজ করে।"
+      },
+      {
+        "slug": "images-videos",
+        "title": "ছবি ও ভিডিও",
+        "description": "এআই ছবি ও ভিডিও তৈরি ও পরিচালনা করুন।"
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "গোপনীয়তা ও নিরাপত্তা",
+        "description": "আপনার ডেটা, গোপনীয়তা নিয়ন্ত্রণ এবং নিরাপত্তা টুলস।"
+      }
+    ],
+    "faq": {
+      "title": "সচরাচর জিজ্ঞাসিত প্রশ্ন",
+      "q1": {
+        "question": "sweetwine দিয়ে কীভাবে শুরু করব?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "ফ্রি প্ল্যানে কী অন্তর্ভুক্ত?"
+      },
+      "q5": {
+        "question": "আমার ডেটা কি গোপনীয়?",
+        "answer": "গোপনীয়তা sweetwine-এর মূল ভিত্তি। আপনার কথোপকথন শুধুমাত্র আপনার অ্যাকাউন্টের জন্য ব্যক্তিগত, এবং আপনি আপনার ডেটা নিয়ন্ত্রণ করেন। ডেটা কীভাবে সংরক্ষণ ও সুরক্ষিত করা হয় সে সম্পর্কে বিস্তারিত জানতে আমাদের গোপনীয়তা নীতি দেখুন।"
+      },
+      "q6": {
+        "question": "আমি কীভাবে সাপোর্টের সাথে যোগাযোগ করব?",
+        "answer": "support@sweetwine.ai-এ ইমেইল করুন অথবা অ্যাপে কন্ট্যাক্ট অপশন ব্যবহার করুন। আমরা সাধারণত এক ব্যবসায়িক দিনের মধ্যে উত্তর দিই।"
+      }
+    },
+    "cta": {
+      "title": "আরও সাহায্য দরকার?",
+      "description": "আমাদের টিম আপনার জন্য আছে"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "সম্পর্কে",
+    "eyebrow": "আমাদের গল্প",
+    "titlePrefix": "সঙ্গীত্ব,",
+    "titleHighlight": "নতুনভাবে কল্পনা করা",
+    "subtitle": "sweetwine ব্যক্তিগত, ব্যক্তিগতকৃত AI সঙ্গী তৈরি করে যারা শোনে, মনে রাখে এবং সত্যিকারের সংযোগ তৈরি করে — যেকোনো সময়, যেকোনো ভাষায় উপলব্ধ।",
+    "mission": {
+      "title": "আমাদের মিশন",
+      "body": "আমরা বিশ্বাস করি প্রত্যেকেরই বিচার ছাড়াই শোনার জায়গা পাওয়া উচিত। sweetwine সবার জন্য অর্থবহ, ব্যক্তিগতকৃত AI সংযোগ সহজলভ্য করে — উষ্ণ, ব্যক্তিগত এবং যখনই প্রয়োজন সবসময় পাশে।"
+    },
+    "values": {
+      "title": "আমরা যা বিশ্বাস করি",
+      "items": [
+        {
+          "title": "ডিজাইন দ্বারা গোপনীয়তা",
+          "description": "আপনার কথোপকথন আপনার। আমরা গোড়া থেকেই গোপনীয়তা ও নিরাপত্তা নিয়ে তৈরি করি।"
+        },
+        {
+          "title": "সত্যিকারের সংযোগ",
+          "description": "আমরা অহংকারের মেট্রিক্স নয়, বাস্তব আবেগীয় মূল্যের জন্য অপ্টিমাইজ করি।"
+        },
+        {
+          "title": "ডিফল্টভাবে গ্লোবাল",
+          "description": "প্রথম দিন থেকেই বহুভাষিকভাবে তৈরি যাতে সংযোগ ভাষার দ্বারা সীমাবদ্ধ না হয়।"
+        },
+        {
+          "title": "অবিরাম শিল্পকর্ম",
+          "description": "আমরা প্রতিটি ইন্টারঅ্যাকশন স্বাভাবিক ও জীবন্ত মনে হওয়ার জন্য বিস্তারিত কাজ করি।"
+        }
+      ]
+    },
+    "stats": {
+      "title": "সংখ্যায়",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "ব্যবহারকারী এবং বাড়ছে"
+        },
+        {
+          "value": "70",
+          "label": "ভাষা সমর্থিত"
+        },
+        {
+          "value": "24/7",
+          "label": "সবসময় উপলব্ধ"
+        }
+      ]
+    },
+    "cta": {
+      "title": "আরও জানতে চান?",
+      "description": "যোগাযোগ করুন"
+    }
+  },
+  "postsPage": {
+    "allTag": "সব",
+    "readMore": "আরও পড়ুন",
+    "publishedOn": "প্রকাশিত",
+    "minRead": "মিনিট পড়া",
+    "sortNewest": "নতুনতম",
+    "sortOldest": "প্রাচীনতম",
+    "blog": {
+      "breadcrumb": "ব্লগ",
+      "eyebrow": "ব্লগ",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "ব্লগ",
+      "subtitle": "AI সঙ্গীত্ব থেকে সর্বোচ্চ সুবিধা পেতে টিপস, গাইড এবং গল্প।",
+      "empty": "এখনো কোনো পোস্ট নেই। শীঘ্রই আবার দেখুন।"
+    },
+    "news": {
+      "breadcrumb": "সংবাদ",
+      "eyebrow": "নিউজরুম",
+      "titlePrefix": "সংবাদ ও",
+      "titleHighlight": "ঘোষণা",
+      "subtitle": "sweetwine টিমের অফিসিয়াল ঘোষণা, প্রেস রিলিজ এবং মাইলফলক।",
+      "empty": "এখনো কোনো সংবাদ নেই। শীঘ্রই আবার দেখুন।"
+    },
+    "productUpdates": {
+      "breadcrumb": "প্রোডাক্ট আপডেট",
+      "eyebrow": "চেঞ্জলগ",
+      "titlePrefix": "প্রোডাক্ট",
+      "titleHighlight": "আপডেট",
+      "subtitle": "sweetwine প্ল্যাটফর্ম জুড়ে সর্বশেষ ফিচার, উন্নতি এবং ফিক্স।",
+      "empty": "এখনো কোনো আপডেট নেই। শীঘ্রই আবার দেখুন।"
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "ডেভেলপারদের জন্য",
+    "titlePrefix": "Build with the",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "আপনার নিজস্ব প্রোডাক্টে ব্যক্তিগতকৃত AI কম্প্যানিয়ন আনুন। একটি সহজ ডেভেলপার-ফ্রেন্ডলি API-এর মাধ্যমে চ্যাট, ইমেজ, ভয়েস এবং ক্যারেক্টার-বিল্ডিং ক্ষমতা অ্যাক্সেস করুন।",
+    "capabilities": {
+      "title": "আপনি কী তৈরি করতে পারেন",
+      "items": [
+        {
+          "title": "কনভার্সেশনাল চ্যাট",
+          "description": "একটি সহজ মেসেজিং API দিয়ে আপনার অ্যাপে ব্যক্তিত্বসমৃদ্ধ, কনটেক্সট-অ্যাওয়্যার AI কনভার্সেশন যোগ করুন।"
+        },
+        {
+          "title": "ইমেজ জেনারেশন",
+          "description": "টেক্সট প্রম্পট থেকে প্রোগ্রাম্যাটিকভাবে অন-ব্র্যান্ড ক্যারেক্টার ইমেজ এবং সিন তৈরি করুন।"
+        },
+        {
+          "title": "ভয়েস",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "ক্যারেক্টার ক্রিয়েশন",
+          "description": "API-এর মাধ্যমে কম্প্যানিয়ন, ব্যক্তিত্ব এবং মেমরি সংজ্ঞায়িত ও পরিচালনা করুন।"
+        }
+      ]
+    },
+    "form": {
+      "title": "API অ্যাক্সেসের জন্য অনুরোধ করুন",
+      "description": "আপনার প্রজেক্ট এবং আপনি কী তৈরি করতে চান সে সম্পর্কে আমাদের জানান। আমাদের ডেভেলপার টিম পরবর্তী ধাপগুলো নিয়ে আপনার সাথে যোগাযোগ করবে।",
+      "nameLabel": "আপনার নাম",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "ওয়ার্ক ইমেইল",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "কোম্পানি / প্রজেক্ট",
+      "companyPlaceholder": "কোম্পানি বা প্রজেক্টের নাম",
+      "websiteLabel": "ওয়েবসাইট বা অ্যাপ URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "ইন্টিগ্রেশন টাইপ",
+      "integrationTypePlaceholder": "একটি ইন্টিগ্রেশন টাইপ নির্বাচন করুন",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "প্রত্যাশিত মাসিক ভলিউম",
+      "volumePlaceholder": "প্রত্যাশিত ভলিউম নির্বাচন করুন",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "টাইমলাইন",
+      "timelinePlaceholder": "একটি টাইমলাইন নির্বাচন করুন",
+      "timelineOptions": [
+        {
+          "value": "শুধু ঘুরে দেখছি",
+          "label": "শুধু ঘুরে দেখছি"
+        },
+        {
+          "value": "১ মাসের কম",
+          "label": "১ মাসের কম"
+        },
+        {
+          "value": "১-৩ মাস",
+          "label": "১-৩ মাস"
+        },
+        {
+          "value": "৩+ মাস",
+          "label": "৩+ মাস"
+        }
+      ],
+      "messageLabel": "আপনার ব্যবহারের ক্ষেত্রে আমাদের বলুন",
+      "messagePlaceholder": "আপনি কী তৈরি করছেন এবং কীভাবে API ব্যবহার করার পরিকল্পনা করছেন?",
+      "submit": "API অ্যাক্সেসের জন্য আবেদন করুন",
+      "submitting": "জমা দেওয়া হচ্ছে...",
+      "termsNote": "জমা দিয়ে আপনি আপনার অনুসন্ধান সম্পর্কে যোগাযোগ করতে সম্মত হচ্ছেন। আমরা কখনো আপনার বিবরণ শেয়ার করি না।",
+      "success": "ধন্যবাদ! আপনার API অ্যাক্সেসের আবেদন পাঠানো হয়েছে।",
+      "error": "কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "faq": {
+      "title": "ডেভেলপার FAQ",
+      "items": [
+        {
+          "question": "আমি কীভাবে API অ্যাক্সেস পাব?",
+          "answer": "উপরের অনুরোধ ফর্মে আপনার ব্যবহারের ক্ষেত্রে পূরণ করুন। আমাদের ডেভেলপার টিম প্রতিটি অনুরোধ পর্যালোচনা করে এবং অ্যাক্সেসের বিবরণ ও ডকুমেন্টেশন দিয়ে ফলো-আপ করবে।"
+        },
+        {
+          "question": "অথেনটিকেশন কীভাবে কাজ করে?",
+          "answer": "API অনুরোধগুলো রিকোয়েস্ট হেডারে পাঠানো একটি গোপন API কী দিয়ে প্রমাণীকৃত হয়। অনবোর্ড হওয়ার পর আপনি আপনার কী ম্যানেজ ও রোটেট করতে পারবেন।"
+        },
+        {
+          "question": "রেট লিমিটিং আছে কি?",
+          "answer": "হ্যাঁ। লিমিট আপনার প্ল্যান ও প্রত্যাশিত ভলিউমের উপর নির্ভর করে। ফর্মে আপনার আনুমানিক ট্রাফিক জানান যাতে আমরা সঠিক টিয়ার সাজেস্ট করতে পারি।"
+        },
+        {
+          "question": "খরচ কত?"
+        },
+        {
+          "question": "কোন ক্ষমতাগুলো উপলব্ধ?",
+          "answer": "চ্যাট, ইমেজ জেনারেশন, ভয়েস এবং ক্যারেক্টার ক্রিয়েশন। আপনার প্রয়োজনীয়গুলো বলুন এবং আমরা সংশ্লিষ্ট এন্ডপয়েন্ট দিয়ে শুরু করতে সাহায্য করব।"
+        }
+      ]
+    },
+    "cta": {
+      "title": "টেকনিক্যাল প্রশ্ন আছে?",
+      "description": "আমাদের ডেভেলপার টিমের সাথে যোগাযোগ করুন"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "ক্রিয়েটর ও এজেন্সির জন্য",
+    "heroTitleLead": "আমরা তৈরি করি,",
+    "heroTitleHighlight": "আপনি লাভ করুন।",
+    "heroSubtitle": "আমরা আপনার AI ক্লোন তৈরি করি। আপনি লাভ করুন যখন AI ক্লোন ২৪ ঘণ্টা কাজ করে — ফ্যানদের সাথে চ্যাট করে এবং আপনার জন্য কনটেন্ট পাঠায়।",
+    "calculator": {
+      "title": "আপনি কত আয় করতে পারেন?",
+      "subtitle": "আপনার অডিয়েন্স সাইজ বেছে নিন এবং দাম সেট করুন — তাৎক্ষণিকভাবে আপনার আনুমানিক আয় দেখুন।",
+      "tierLabel": "আপনার অডিয়েন্স সাইজ",
+      "tiers": {
+        "small": {
+          "name": "ছোট"
+        },
+        "medium": {
+          "name": "মাঝারি"
+        },
+        "large": {
+          "name": "বড়"
+        }
+      },
+      "priceLabel": "আপনার আনলক প্রাইস",
+      "promoLabel": "আমি sweetwine প্রমোট করব",
+      "breakdown": {
+        "title": "আপনার আনুমানিক আয়",
+        "perMonth": "প্রতি মাসে",
+        "perYear": "প্রতি বছর"
+      },
+      "disclaimer": "আয়ের অনুমান sweetwine রেভেনিউ-শেয়ার মডেল এবং সাধারণ কার্যকলাপের উপর ভিত্তি করে। প্রকৃত আয় দর্শক, কনটেন্টের মান, এনগেজমেন্ট এবং চাহিদার উপর নির্ভর করে পরিবর্তিত হয়।"
+    },
+    "offer": {
+      "title": "আপনার জন্য কী আছে",
+      "items": [
+        {
+          "title": "ঘুমিয়ে আয় করুন",
+          "description": "আপনার ক্লোন ২৪/৭ অনুসারীদের আয়ে পরিণত করে — চ্যাট করে, বিক্রি করে এবং কখনো বন্ধ হয় না।"
+        },
+        {
+          "title": "কোনো খরচ নেই, শুধু লাভ",
+          "description": "আমরা আমাদের খরচে সবকিছু তৈরি, প্রশিক্ষণ ও পরিচালনা করি। আপনি আঙুল না নাড়িয়েই নতুন আয়ের উৎস যোগ করুন।"
+        },
+        {
+          "title": "আপনার কনটেন্ট ১০ গুণ বাড়ান",
+          "description": "চাহিদামতো অসীম ছবি ও ভিডিও — আরও শুট, এডিট বা বার্নআউট ছাড়াই আপনার আউটপুট স্কেল করুন।"
+        },
+        {
+          "title": "সবসময় নিয়ন্ত্রণে"
+        }
+      ]
+    },
+    "how": {
+      "title": "কীভাবে কাজ করে",
+      "steps": [
+        {
+          "title": "নিবন্ধন করুন"
+        },
+        {
+          "title": "অনবোর্ডিং",
+          "description": "একজন sweetwine বিশেষজ্ঞ আপনার চেহারা, কণ্ঠস্বর ও ব্যক্তিত্ব ধারণ করেন যাতে আপনার ক্লোন আপনার মতোই অনুভূত হয়।"
+        },
+        {
+          "title": "আমরা তৈরি ও প্রশিক্ষণ দিই",
+          "description": "আমাদের টিম সম্পূর্ণরূপে আমাদের নিজস্ব খরচে আপনার AI ক্লোন তৈরি ও প্রশিক্ষণ দেয় — আপনার কোনো কাজের প্রয়োজন নেই।"
+        },
+        {
+          "title": "লাইভ হোন ও আয় করুন",
+          "description": "আপনার ক্লোন সারাক্ষণ চ্যাট ও বিক্রি শুরু করে, আর আপনি আপনার রেভেনিউ শেয়ার সংগ্রহ করেন।"
+        }
+      ]
+    },
+    "form": {
+      "title": "আপনার AI ক্লোন তৈরি করতে আবেদন করুন",
+      "description": "আমাদের আপনার ও আপনার অডিয়েন্স সম্পর্কে জানান। আমাদের ক্রিয়েটর পার্টনারশিপ টিম প্রতিটি আবেদন পর্যালোচনা করে এবং পরবর্তী পদক্ষেপ সম্পর্কে অনুসরণ করবে।",
+      "nameLabel": "আপনার নাম",
+      "namePlaceholder": "আপনার নাম বা স্টেজ নেম",
+      "emailLabel": "ইমেইল",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "এজেন্সি বা স্টুডিও",
+      "companyPlaceholder": "এজেন্সির নাম (স্বাধীন হলে ফাঁকা রাখুন)",
+      "roleLabel": "আমি একজন",
+      "rolePlaceholder": "আপনি কে সিলেক্ট করুন",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "ওয়েবসাইট ও সোশ্যাল লিংক",
+      "linksPlaceholder": "Instagram, X, OnlyFans, ইত্যাদি",
+      "modelCountLabel": "আপনি যতজন মডেলের প্রতিনিধিত্ব করেন",
+      "modelCountPlaceholder": "যেমন শুধু আমি, অথবা ৫",
+      "audienceSizeLabel": "অডিয়েন্স সাইজ",
+      "audienceSizePlaceholder": "আপনার মোট ফলোয়ার সিলেক্ট করুন",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "১০ হাজারের নিচে ফলোয়ার"
+        },
+        {
+          "value": "10k-100k",
+          "label": "১০ হাজার-১ লাখ ফলোয়ার"
+        },
+        {
+          "label": "১০০ হাজার-৫০০ হাজার ফলোয়ার",
+          "value": "100k-500k"
+        },
+        {
+          "value": "৫০০ হাজার-১ মিলিয়ন",
+          "label": "৫০০ হাজার-১ মিলিয়ন ফলোয়ার"
+        },
+        {
+          "value": "১ মিলিয়ন+",
+          "label": "১ মিলিয়ন+ ফলোয়ার"
+        }
+      ],
+      "contentPrefLabel": "কনটেন্ট পছন্দ",
+      "contentPrefPlaceholder": "কনটেন্টের ধরন নির্বাচন করুন",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "দেশ / অঞ্চল",
+      "countryPlaceholder": "আপনি কোথায় অবস্থিত?",
+      "messageLabel": "আপনার এবং আপনার অডিয়েন্স সম্পর্কে বলুন",
+      "messagePlaceholder": "আপনার অডিয়েন্স, কনটেন্ট এবং আপনি যা খুঁজছেন তা বুঝতে সাহায্য করে এমন কিছু শেয়ার করুন।",
+      "openButton": "এখনই আবেদন করুন",
+      "submit": "আবেদন জমা দিন",
+      "submitting": "জমা দেওয়া হচ্ছে...",
+      "termsNote": "জমা দেওয়ার মাধ্যমে আপনি নিশ্চিত করছেন যে আপনি ১৮ বছর বা তার বেশি বয়সী এবং আপনার আবেদন সম্পর্কে যোগাযোগ করতে সম্মত। আমরা কখনো আপনার বিবরণ শেয়ার করি না।",
+      "success": "ধন্যবাদ! আপনার আবেদন পাঠানো হয়েছে। আমরা শীঘ্রই যোগাযোগ করব।",
+      "error": "কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "cta": {
+      "title": "আবেদন করার আগে কোনো প্রশ্ন আছে?",
+      "description": "সরাসরি আমাদের ক্রিয়েটর পার্টনারশিপ টিমের সাথে কথা বলুন — আমরা সাধারণত এক দিনের মধ্যে উত্তর দিই।",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "সাইটম্যাপ",
+    "eyebrow": "সাইটম্যাপ",
+    "titlePrefix": "ব্রাউজ করুন",
+    "titleHighlight": "সবকিছু",
+    "subtitle": "sweetwine-এর সব গুরুত্বপূর্ণ পৃষ্ঠা এক জায়গায়। XML সাইটম্যাপ খুঁজছেন?",
+    "xmlLink": "XML সাইটম্যাপ দেখুন",
+    "sections": {
+      "product": "প্রোডাক্ট",
+      "features": "ফিচারস",
+      "company": "কোম্পানি",
+      "resources": "রিসোর্সেস",
+      "legal": "লিগ্যাল"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine মোবাইল অ্যাপ",
+      "cta": "অ্যাপ নিন",
+      "dismiss": "বাতিল করুন"
+    },
+    "guide": {
+      "title": "sweetwine ইনস্টল করুন",
+      "subtitle": "দ্রুত, ফুল-স্ক্রিন এবং অ্যাপের মতো অভিজ্ঞতার জন্য sweetwine আপনার হোম স্ক্রিনে যোগ করুন।",
+      "iosTitle": "আইফোন ও আইপ্যাডে (Safari)",
+      "iosStep1": "টুলবারে শেয়ার বাটনে ট্যাপ করুন",
+      "iosStep2": "\"হোম স্ক্রিনে যোগ করুন\" বেছে নিন",
+      "iosStep3": "শেষ করতে \"যোগ করুন\" ট্যাপ করুন",
+      "androidTitle": "অ্যান্ড্রয়েডে (Chrome)",
+      "androidStep1": "মেনুতে (তিনটি ডট) ট্যাপ করুন",
+      "androidStep2": "\"অ্যাপ ইনস্টল করুন\" বা \"হোম স্ক্রিনে যোগ করুন\" বেছে নিন",
+      "androidStep3": "শেষ করতে \"ইনস্টল করুন\" ট্যাপ করুন"
+    },
+    "settings": {
+      "title": "sweetwine মোবাইল অ্যাপ",
+      "description": "আপনার হোম স্ক্রিন থেকে দ্রুত, ফুল-স্ক্রিন অভিজ্ঞতার জন্য sweetwine আপনার ফোনে ইনস্টল করুন।",
+      "cta": "অ্যাপ ইনস্টল করুন"
+    }
+  },
+  "language": {
+    "selectTitle": "আপনার ভাষা নির্বাচন করুন",
+    "searchPlaceholder": "ভাষা খুঁজুন",
+    "noResults": "কোনো ভাষা পাওয়া যায়নি",
+    "regions": {
+      "americas": "আমেরিকা",
+      "europe": "ইউরোপ",
+      "middleEast": "মধ্যপ্রাচ্য",
+      "asiaPacific": "এশিয়া প্যাসিফিক",
+      "africa": "আফ্রিকা"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "রোলপ্লে",
+    "newRoleplay": "নতুন রোলপ্লে",
+    "tabRoleplay": "রোলপ্লে",
+    "emptyTitle": "এখনও কোনো রোলপ্লে নেই",
+    "noMessagesYet": "এখনও কোনো মেসেজ নেই",
+    "deleteRoleplay": "রোলপ্লে মুছুন",
+    "deleteError": "রোলপ্লে মুছে ফেলা যায়নি।",
+    "backToLobby": "রোলপ্লেতে ফিরে যান",
+    "creating": "আপনার রোলপ্লে সেট আপ করা হচ্ছে...",
+    "createError": "রোলপ্লে তৈরি করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "steps": {
+      "companion": {
+        "title": "একটি চরিত্র বেছে নিন",
+        "subtitle": "যার সাথে রোলপ্লে করতে চান তাকে বেছে নিন"
+      },
+      "location": {
+        "title": "একটি লোকেশন বেছে নিন",
+        "subtitle": "আপনার দৃশ্য কোথায় ঘটবে?"
+      },
+      "tone": {
+        "title": "টোন সেট করুন",
+        "subtitle": "দৃশ্যটি কেমন অনুভূতি দেবে?"
+      },
+      "scene": {
+        "title": "দৃশ্য সেট করুন",
+        "subtitle": "দৃশ্যটি কীভাবে শুরু হবে তা বর্ণনা করুন"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "আমরা বৃষ্টিতে একে অপরের সাথে ধাক্কা খাই এবং একই ছাউনির নিচে আশ্রয় নিই।",
+      "staring_grin": "তুমি ঘরের ওপার থেকে আমাকে তাকিয়ে থাকতে দেখে হাসি হাসি মুখে এগিয়ে আসো।",
+      "power_out": "বিদ্যুৎ চলে যায় এবং আমরা অন্ধকারে একা পড়ে হাসি-হাসি অবস্থায় থাকি।",
+      "spilled_drink": "আমি দেরি করে ছুটছি এবং ভুল করে তোমার ওপর পুরো পানীয় ঢেলে ফেলি।",
+      "stayed_behind": "সবাই চলে যাওয়ার পর শুধু আমরা দুজন পিছনে থেকে যাই।",
+      "music_slows": "সঙ্গীত ধীর হয়ে যাওয়ার সাথে সাথে আমাদের চোখাচোখি হয়।",
+      "storm_inside": "হঠাৎ ঝড় আমাদের ভেতরে আটকে ফেলে, শুধু কথা বলার সময় থাকে।",
+      "seat_taken": "তুমি আমার পাশে বসে জিজ্ঞাসা করো আসনটা কি খালি আছে।"
+    },
+    "locations": {
+      "home": "বাড়ি",
+      "cafe": "ক্যাফে",
+      "restaurant": "রেস্তোরাঁ",
+      "bar": "বার",
+      "library": "লাইব্রেরি",
+      "bookstore": "বুকস্টোর",
+      "park": "পার্ক",
+      "garden": "বাগান",
+      "nightclub": "নাইটক্লাব",
+      "casino": "ক্যাসিনো",
+      "concert": "কনসার্ট",
+      "theater": "থিয়েটার",
+      "cinema": "সিনেমা",
+      "carnival": "কার্নিভাল",
+      "stadium": "স্টেডিয়াম",
+      "beach": "সমুদ্র সৈকত",
+      "pool": "সুইমিং পুল",
+      "spa": "স্পা",
+      "hotel": "হোটেল",
+      "rooftop": "ছাদ",
+      "yacht": "ইয়ট",
+      "cabin": "কেবিন",
+      "hotspring": "গরম ঝরনা",
+      "skilodge": "স্কি লজ",
+      "campsite": "ক্যাম্পসাইট",
+      "car": "গাড়ি",
+      "train": "ট্রেন",
+      "airport": "বিমানবন্দর",
+      "cruise": "ক্রুজ",
+      "office": "অফিস",
+      "gym": "জিম",
+      "university": "বিশ্ববিদ্যালয়",
+      "mall": "মল",
+      "hospital": "হাসপাতাল",
+      "museum": "মিউজিয়াম"
+    },
+    "tones": {
+      "fun": {
+        "title": "মজার",
+        "desc": "হালকা-পাতলা, খেলাধুলাপূর্ণ এবং সহজ-সরল।"
+      },
+      "romantic": {
+        "title": "রোমান্টিক",
+        "desc": "কোমল, স্নেহময় এবং হৃদয়স্পর্শী।"
+      },
+      "flirty": {
+        "title": "ফ্লার্টি",
+        "desc": "টিজিং, খেলাধুলাপূর্ণ এবং আকর্ষণীয়।"
+      },
+      "mysterious": {
+        "title": "রহস্যময়",
+        "desc": "কৌতূহলোদ্দীপক, উত্তেজনাপূর্ণ এবং গোপনীয়তায় ভরা।"
+      },
+      "spooky": {
+        "title": "ভুতুড়ে",
+        "desc": "অদ্ভুত, উত্তেজনাপূর্ণ এবং একটু ভয়ঙ্কর।"
+      },
+      "action": {
+        "title": "অ্যাকশন",
+        "desc": "তীব্র, অভিযানমূলক এবং দ্রুতগতির।"
+      },
+      "dramatic": {
+        "title": "নাটকীয়",
+        "desc": "আবেগপূর্ণ, তীব্র এবং উত্তেজনায় ভরা।"
+      },
+      "cozy": {
+        "title": "আরামদায়ক",
+        "desc": "উষ্ণ, স্বস্তিদায়ক এবং শান্ত।"
+      }
+    },
+    "sceneLabel": "দৃশ্যের শুরু",
+    "scenarioTab": "দৃশ্যকল্প",
+    "generatingScene": "দৃশ্যকে জীবন্ত করে তোলা হচ্ছে...",
+    "locationLabel": "স্থান",
+    "toneLabel": "টোন",
+    "scenePlaceholder": "যেমন: আমরা বৃষ্টিতে একে অপরের সাথে ধাক্কা খাই এবং একই ছাউনির নিচে আশ্রয় নিই...",
+    "sceneHint": "শুধুমাত্র দৃশ্য কীভাবে শুরু হয় তা বর্ণনা করুন — আপনি কোথায় আছেন এবং শুরুতে কী ঘটছে। চরিত্রের ব্যক্তিত্ব, আপনার সম্পর্ক পরিবর্তন করবেন না বা পুরো গল্প পুনর্লিখন করবেন না।",
+    "sceneError": "দয়া করে দৃশ্য কীভাবে শুরু হয় তা বর্ণনা করুন।",
+    "reviewTitle": "নির্বাচন পর্যালোচনা করুন",
+    "characterLabel": "চরিত্র",
+    "randomize": "এলোমেলো করুন",
+    "sceneGuidanceTitle": "দৃশ্য শুরুর নির্দেশনা",
+    "sceneGuide1": "চরিত্রের ব্যক্তিত্ব বা আপনার সম্পর্ক পরিবর্তন করবেন না।",
+    "sceneGuide2": "দৃশ্যের শুরু সম্মতিপূর্ণ এবং সম্মানজনক রাখুন।",
+    "sceneGuide3": "শুধুমাত্র দৃশ্য কীভাবে শুরু হয় তা বর্ণনা করুন, পুরো গল্প নয়।",
+    "next": "পরবর্তী",
+    "create": "রোলপ্লে শুরু করুন",
+    "creatingMessages": [
+      "দৃশ্য সেট করা হচ্ছে...",
+      "আলো ঠিকঠাক ম্লান করা হচ্ছে...",
+      "আপনার চারপাশ আঁকা হচ্ছে...",
+      "আপনার সঙ্গীকে চরিত্রে আনা হচ্ছে...",
+      "শেষ স্পর্শ যোগ করা হচ্ছে...",
+      "প্রায় প্রস্তুত..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "একটি বার্তা লিখুন...",
+    "send": "পাঠান",
+    "typing": "টাইপ করছে...",
+    "read": "পড়া হয়েছে",
+    "resetChat": "চ্যাট রিসেট করুন",
+    "deleteChat": "চ্যাট মুছুন",
+    "settings": "সেটিংস",
+    "chatSettings": "চ্যাট সেটিংস",
+    "roleplayMode": "রোলপ্লে মোড",
+    "roleplayModeDescription": "চালু থাকলে সঙ্গীরা অঙ্গভঙ্গি ও কাজ *তারকাচিহ্নে* দেখিয়ে নিমগ্ন রোলপ্লে করে। বন্ধ থাকলে তারা স্বাভাবিকভাবে চ্যাট করে, যেন আসল টেক্সটিং।",
+    "roleplayModeError": "রোলপ্লে মোড আপডেট করা যায়নি",
+    "roleplayCtaDescription": "ডেডিকেটেড রোলপ্লে অভিজ্ঞতা খুলুন, যেখানে সঙ্গী আপনার সাথে দৃশ্য ও গল্প অভিনয় করে।",
+    "goToRoleplay": "রোলপ্লেতে যান",
+    "confirmReset": "আপনি কি নিশ্চিতভাবে এই চ্যাট রিসেট করতে চান? সব বার্তা মুছে যাবে।",
+    "confirmDelete": "আপনি কি নিশ্চিতভাবে এই চ্যাট মুছতে চান?",
+    "resetSuccess": "চ্যাট সফলভাবে রিসেট হয়েছে",
+    "deleteMemory": "মেমরি মুছুন",
+    "confirmDeleteMemory": "আপনি কি নিশ্চিত যে এই চরিত্রের লং-টার্ম মেমরি মুছে ফেলতে চান? চ্যাট মেসেজ থাকবে, তবে পরবর্তী রিপ্লাইতে চরিত্রটি আগের তথ্য ভুলে যাবে।",
+    "deleteMemorySuccess": "মেমরি মুছে ফেলা হয়েছে",
+    "deleteSuccess": "চ্যাট সফলভাবে মুছে ফেলা হয়েছে",
+    "sendError": "বার্তা পাঠাতে ব্যর্থ হয়েছে",
+    "noChats": "এখনো কোনো চ্যাট নেই",
+    "noChatsDesc": "এখানে আপনার চ্যাট দেখতে একটি চরিত্রের সাথে কথোপকথন শুরু করুন",
+    "lastMessage": "সর্বশেষ বার্তা",
+    "messageCount": "{count} বার্তা",
+    "uploadImage": "ছবি আপলোড করুন",
+    "uploadVideo": "ভিডিও আপলোড করুন (শীঘ্রই আসছে)",
+    "yourConversations": "আপনার কথোপকথন",
+    "continueChattingDesc": "আপনার এআই চরিত্রগুলোর সাথে চ্যাট চালিয়ে যান",
+    "newChat": "নতুন চ্যাট",
+    "noConversationsYet": "এখনো কোনো কথোপকথন নেই",
+    "startChattingDesc": "এখানে আপনার কথোপকথন দেখতে একটি চরিত্রের সাথে চ্যাট শুরু করুন",
+    "browseCharacters": "চরিত্র ব্রাউজ করুন",
+    "createCustomCharacter": "কাস্টম চরিত্র তৈরি করুন",
+    "imageTooLarge": "ছবি খুব বড় (সর্বোচ্চ ৫MB)",
+    "generateImageTitle": "{name} এর সাথে ছবি তৈরি করুন",
+    "imagePromptLabel": "ছবিটি বর্ণনা করুন",
+    "imagePromptPlaceholder": "যেমন, নীল পোশাকে সমুদ্র সৈকতে, ক্যাফেতে কফি খেতে, পার্কে হাঁটতে...",
+    "imagePromptHint": "আপনার বর্ণনা অনুসারে এআই {name} এর একটি ছবি তৈরি করবে।",
+    "referenceImageLabel": "আপনার ছবি (ঐচ্ছিক)",
+    "referenceImageHint": "দৃশ্যে {name} এর সাথে অন্তর্ভুক্ত করতে আপনার ছবি আপলোড করুন। ছবি ছাড়া শুধু {name} তৈরি করা হবে।",
+    "uploadReferenceImage": "আপনার ছবি আপলোড করুন",
+    "uploadReferenceImageDesc": "আপনি দুজনেই তৈরি ছবিতে দেখা যাবেন",
+    "referenceImageSelected": "আপনি এবং {name} দুজনেই একসাথে দেখা যাবেন",
+    "generating": "তৈরি করা হচ্ছে...",
+    "generate": "তৈরি করুন",
+    "generateImage": "ছবি তৈরি করুন",
+    "imageGenerated": "ছবি সফলভাবে তৈরি হয়েছে",
+    "generateError": "ছবি তৈরি করা যায়নি",
+    "contentBlockedReply": "দুঃখিত, আমি এই ছবিটি তৈরি করতে পারছি না। এটি নিরাপত্তা ফিল্টার দ্বারা ব্লক হয়েছে। অন্য একটি বর্ণনা চেষ্টা করুন! 💕",
+    "generateVideoTitle": "{name} এর সাথে ভিডিও তৈরি করুন",
+    "generateVideo": "ভিডিও তৈরি করুন",
+    "videoPromptLabel": "অ্যাকশন বর্ণনা করুন",
+    "videoPromptPlaceholder": "যেমন, নাচছে, হাত নেড়ে, চুমু দিচ্ছে...",
+    "videoPromptHint": "এআই {name} এর বর্ণিত অ্যাকশন সম্পাদনের একটি ভিডিও তৈরি করবে।",
+    "generatingImage": "ছবি তৈরি করা হচ্ছে...",
+    "generatingVideo": "ভিডিও তৈরি করা হচ্ছে... (৩-৫ মিনিট)",
+    "viewPhoto": "ছবি দেখুন",
+    "viewVideo": "ভিডিও দেখুন",
+    "selectVideoOption": "উপরে একটি ভিডিও অপশন নির্বাচন করুন",
+    "contentPolicyViolation": "এই বার্তা পাঠানো যায়নি। অনুগ্রহ করে আলোচনা সম্মানজনক রাখুন।",
+    "functionCallBetaHint": "💡 এই ফিচারটি বেটায় আছে — সীমাবদ্ধতা ছাড়াই নির্ভরযোগ্য মিডিয়া তৈরির জন্য টুলবারের ফটো/ভিডিও বাটন ব্যবহার করুন।",
+    "repliedToStory": "স্টোরিতে উত্তর দিয়েছেন",
+    "repliedToStoryLiked": "স্টোরি পছন্দ ও উত্তর দিয়েছেন",
+    "storyNoLongerAvailable": "স্টোরি আর উপলব্ধ নেই",
+    "rateLimitExceeded": "অনেক বেশি অনুরোধ। দয়া করে একটু অপেক্ষা করুন এবং আবার চেষ্টা করুন।",
+    "profileTab": "প্রোফাইল",
+    "galleryTab": "গ্যালারি",
+    "giftsTab": "উপহার",
+    "tts": {
+      "play": "ভয়েস চালান",
+      "stop": "থামান",
+      "generating": "ভয়েস তৈরি করা হচ্ছে…",
+      "error": "অডিও চালানো যায়নি"
+    }
+  },
+  "gallery": {
+    "all": "সব",
+    "images": "ছবি",
+    "videos": "ভিডিও",
+    "empty": "এখনো কোনো মিডিয়া নেই"
+  },
+  "gifts": {
+    "sendAGift": "উপহার পাঠান",
+    "catalogSubtitle": "{name} কে পাঠানোর জন্য একটি উপহার বেছে নিন",
+    "browseGifts": "উপহার ব্রাউজ করুন",
+    "noneSent": "এখনো কোনো উপহার পাঠানো হয়নি",
+    "confirmTitle": "উপহার নিশ্চিত করুন",
+    "forCompanion": "{name} এর জন্য",
+    "optionalMessage": "একটি বার্তা যোগ করুন (ঐচ্ছিক)",
+    "optionalMessagePlaceholder": "কিছু মিষ্টি লিখুন...",
+    "sendGiftFor": "পাঠান",
+    "giftSent": "আপনি একটি উপহার পাঠিয়েছেন",
+    "sendError": "উপহার পাঠাতে ব্যর্থ হয়েছে"
+  },
+  "stories": {
+    "replyPlaceholder": "{name}-কে উত্তর দিন...",
+    "like": "পছন্দ",
+    "send": "পাঠান",
+    "close": "বন্ধ করুন",
+    "previous": "পূর্ববর্তী স্টোরি",
+    "next": "পরবর্তী স্টোরি",
+    "pause": "বিরতি দিন",
+    "play": "চালান",
+    "mute": "নীরব করুন",
+    "unmute": "আনমিউট করুন",
+    "openStory": "{name}-এর স্টোরি খুলুন"
+  },
+  "generate": {
+    "title": "ছবি তৈরি করো",
+    "description": "তোমার AI চরিত্র দিয়ে অসাধারণ ছবি তৈরি করো",
+    "selectCompanion": "একটি চরিত্র বেছে নাও",
+    "promptPlaceholder": "তুমি যে ছবি তৈরি করতে চাও তা বর্ণনা করো... যেমন, সমুদ্র সৈকতে, লাল পোশাকে",
+    "promptLabel": "ছবির বর্ণনা",
+    "promptRequired": "অনুগ্রহ করে একটি বর্ণনা লিখুন",
+    "generateButton": "ছবি তৈরি করো",
+    "generating": "তৈরি হচ্ছে...",
+    "creatingImage": "তোমার ছবি তৈরি হচ্ছে...",
+    "pleaseWait": "এতে ১০-৩০ সেকেন্ড লাগতে পারে",
+    "noCompanionSelected": "প্রথমে একটি চরিত্র বেছে নিন",
+    "emptyGallery": "এখনো কোনো ছবি তৈরি হয়নি। একটি চরিত্র বেছে নাও এবং তোমার ছবি বর্ণনা করো!",
+    "sessionGallery": "তৈরি করা ছবি",
+    "regenerate": "আবার তৈরি করো",
+    "regenerating": "আবার তৈরি হচ্ছে...",
+    "animate": "অ্যানিমেট করো",
+    "animateReference": "এই ছবিটি ভিডিওর প্রথম ফ্রেম হবে।",
+    "filterMyAI": "আমার AI",
+    "filterAll": "সব",
+    "filterGirls": "মহিলা",
+    "filterAnime": "অ্যানিমে",
+    "filterGuys": "পুরুষ",
+    "imageGenerationFailed": "ছবি তৈরি ব্যর্থ হয়েছে। ছবিটি প্রয়োজনীয়তা পূরণ করেনি বা বর্ণনা অত্যন্ত জটিল হতে পারে। সহজ প্রম্পট দিয়ে চেষ্টা করুন।",
+    "noImageData": "কোনো ছবি তৈরি হয়নি। অন্য বর্ণনা দিয়ে আবার চেষ্টা করুন।",
+    "generationFailed": "তৈরি ব্যর্থ হয়েছে। পরে আবার চেষ্টা করুন বা ভিন্ন প্রম্পট ব্যবহার করুন।",
+    "random": "এলোমেলো",
+    "custom": "কাস্টম",
+    "settings": "সেটিংস",
+    "videoTitle": "ভিডিও তৈরি করুন",
+    "videoDescription": "আপনার AI চরিত্র দিয়ে অসাধারণ ভিডিও তৈরি করুন",
+    "videoPromptLabel": "ভিডিও বর্ণনা",
+    "videoPromptPlaceholder": "আপনি যে অ্যাকশন তৈরি করতে চান তা বর্ণনা করুন... যেমন, নাচ, হাত নাড়া, হাসি",
+    "generateVideoButton": "ভিডিও তৈরি করুন",
+    "generatingVideo": "ভিডিও তৈরি হচ্ছে...",
+    "creatingVideo": "আপনার ভিডিও তৈরি হচ্ছে...",
+    "videoWait": "এতে ১-৫ মিনিট সময় লাগতে পারে",
+    "emptyVideoGallery": "এখনো কোনো ভিডিও তৈরি হয়নি। একটি চরিত্র নির্বাচন করুন এবং অ্যাকশন বর্ণনা করুন!",
+    "sessionVideoGallery": "তৈরি করা ভিডিও",
+    "videoGenerated": "ভিডিও সফলভাবে তৈরি হয়েছে!",
+    "videoGenerationFailed": "ভিডিও তৈরি ব্যর্থ হয়েছে। আবার চেষ্টা করুন।",
+    "duration": "সময়কাল",
+    "shortVideo": "সংক্ষিপ্ত",
+    "longVideo": "দীর্ঘ",
+    "seconds": "সেকেন্ড",
+    "audio": "অডিও",
+    "renderingVideo": "ভিডিও রেন্ডার করা হচ্ছে…",
+    "renderingVideoHint": "(১ মিনিট পর্যন্ত সময় লাগতে পারে)",
+    "rateLimitExceeded": "অনেক বেশি অনুরোধ। এক মুহূর্ত অপেক্ষা করুন এবং আবার চেষ্টা করুন।",
+    "chooseCharacter": "চরিত্র নির্বাচন করুন",
+    "selectButton": "নির্বাচন করুন",
+    "noCustomCompanions": "আপনি এখনো কোনো AI চরিত্র তৈরি করেননি।",
+    "numberOfImages": "ছবির সংখ্যা",
+    "numberOfVideos": "ভিডিওর সংখ্যা",
+    "freeTrial": "ফ্রি ট্রায়াল",
+    "changeCharacter": "চরিত্র পরিবর্তন করুন",
+    "randomize": "প্রম্পট এলোমেলো করুন",
+    "aiVideo": "AI ভিডিও",
+    "download": "ডাউনলোড",
+    "seriesHelper": "এখানে আপনার ফলাফল দেখতে পাবেন। এগুলো শেষ হওয়ার সময় আপনি পেজ ছেড়ে যেতে পারেন বা নতুন সিরিজ শুরু করতে পারেন।",
+    "suggestions": {
+      "title": "পরামর্শ",
+      "categories": {
+        "outfit": "পোশাক",
+        "action": "অ্যাকশন",
+        "pose": "ভঙ্গি",
+        "accessories": "অ্যাক্সেসরিজ",
+        "scene": "দৃশ্য"
+      },
+      "items": {
+        "bikini": "বিকিনি",
+        "skirt": "স্কার্ট",
+        "lingerie": "লিঙ্গেরি",
+        "crop_top": "ক্রপ টপ",
+        "leather": "লেদার",
+        "mini_skirt": "মিনি-স্কার্ট",
+        "satin_robe": "সাটিন রোব",
+        "jeans": "জিন্স",
+        "summer_dress": "সামার ড্রেস",
+        "sportswear": "স্পোর্টসওয়্যার",
+        "selfie": "সেলফি",
+        "walking": "হাঁটা",
+        "dancing": "নাচ",
+        "stretching": "স্ট্রেচিং",
+        "lying_down": "শুয়ে থাকা",
+        "leaning": "ঝুঁকে থাকা",
+        "blowing_kiss": "চুমু উড়ানো",
+        "drinking_coffee": "কফি পান করা",
+        "hands_on_hips": "কোমরে হাত",
+        "over_shoulder": "কাঁধের উপর",
+        "side_profile": "সাইড প্রোফাইল",
+        "arms_crossed": "বাহু জড়ানো",
+        "kneeling": "হাঁটু গেড়ে বসা",
+        "squatting": "স্কোয়াটিং",
+        "back_view": "পিছনের দৃশ্য",
+        "sitting": "বসা",
+        "necklace": "নেকলেস",
+        "earrings": "কানের দুল",
+        "glasses": "চশমা",
+        "choker": "চোকার",
+        "hat": "টুপি",
+        "sunglasses": "সানগ্লাস",
+        "garden": "বাগান",
+        "beach": "সমুদ্র সৈকত",
+        "bedroom": "বেডরুম",
+        "gym": "জিম",
+        "bar": "বার",
+        "kitchen": "রান্নাঘর",
+        "restaurant": "রেস্তোরাঁ",
+        "balcony": "বারান্দা",
+        "city_street": "শহরের রাস্তা",
+        "pool": "পুলসাইড"
+      },
+      "fragments": {
+        "bikini": "বিকিনি পরে",
+        "skirt": "স্কার্ট পরে",
+        "lingerie": "লিঙ্গেরি পরে",
+        "crop_top": "ক্রপ টপ পরে",
+        "leather": "লেদার আউটফিট পরে",
+        "mini_skirt": "মিনি-স্কার্ট পরে",
+        "satin_robe": "সাটিন রোব পরে",
+        "jeans": "জিন্স পরে",
+        "summer_dress": "সামার ড্রেস পরে",
+        "sportswear": "টাইট স্পোর্টসওয়্যার পরে",
+        "selfie": "সেলফি তুলছে",
+        "walking": "হাঁটছে",
+        "dancing": "নাচছে",
+        "stretching": "স্ট্রেচ করছে",
+        "lying_down": "শুয়ে আছে",
+        "leaning": "দেয়ালে হেলান দিয়ে",
+        "blowing_kiss": "চুমু উড়িয়ে দিচ্ছে",
+        "drinking_coffee": "কফির কাপ খাচ্ছে",
+        "hands_on_hips": "কোমরে হাত রেখে",
+        "over_shoulder": "কাঁধের ওপর দিয়ে তাকাচ্ছে",
+        "side_profile": "সাইড প্রোফাইল পোজ",
+        "arms_crossed": "হাত বুকের ওপর জড়ো করে",
+        "kneeling": "হাঁটু গেড়ে পোজ",
+        "squatting": "স্কোয়াটিং পোজ",
+        "back_view": "পিছন থেকে দেখা",
+        "sitting": "বসে আছে",
+        "necklace": "নেকলেস পরে",
+        "earrings": "কানের দুল পরে",
+        "glasses": "চশমা পরে",
+        "choker": "চোকার পরে",
+        "hat": "টুপি পরে",
+        "sunglasses": "সানগ্লাস পরে",
+        "garden": "বাগানে",
+        "beach": "সমুদ্র সৈকতে",
+        "bedroom": "বেডরুমে",
+        "gym": "জিমে",
+        "bar": "বারে",
+        "kitchen": "রান্নাঘরে",
+        "restaurant": "রেস্তোরাঁয়",
+        "balcony": "বারান্দায়",
+        "city_street": "শহরের রাস্তায়",
+        "pool": "পুলের পাশে"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "সেলফি",
+          "uiPrompt": "আমাকে তোমার সেলফি দেখাও"
+        },
+        "posing": {
+          "name": "পোজ দিচ্ছে",
+          "uiPrompt": "আমাকে তোমার পোজ দেখাও"
+        },
+        "sitting": {
+          "name": "বসা",
+          "uiPrompt": "আমাকে তোমার বসা দেখাও"
+        },
+        "waving": {
+          "name": "হাত নাড়া",
+          "uiPrompt": "আমাকে তোমার হাত নাড়া দেখাও"
+        },
+        "dancing": {
+          "name": "নাচ",
+          "uiPrompt": "আমাকে তোমার নাচ দেখাও"
+        },
+        "reading": {
+          "name": "পড়া",
+          "uiPrompt": "আমাকে তোমার পড়া দেখাও"
+        },
+        "smiling": {
+          "name": "হাসি",
+          "uiPrompt": "আমাকে হাসতে দেখাও"
+        },
+        "walking": {
+          "name": "হাঁটা",
+          "uiPrompt": "আমাকে হাঁটতে দেখাও"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "সেলফি",
+          "uiPrompt": "আমার একটা ভিডিও সেলফি দেখাও"
+        },
+        "posing": {
+          "name": "পোজ দিচ্ছে",
+          "uiPrompt": "আমার পোজ দেয়ার একটা ভিডিও দেখাও"
+        },
+        "sitting": {
+          "name": "বসা",
+          "uiPrompt": "আমাকে বসতে দেখাও ভিডিওতে"
+        },
+        "waving": {
+          "name": "হাত নেড়ে",
+          "uiPrompt": "আমার হাত নেড়ে দেখানো ভিডিও"
+        },
+        "dancing": {
+          "name": "নাচ",
+          "uiPrompt": "আমার নাচার একটা ভিডিও দেখাও"
+        },
+        "reading": {
+          "name": "পড়া",
+          "uiPrompt": "আমাকে পড়তে দেখাও ভিডিওতে"
+        },
+        "smiling": {
+          "name": "হাসি",
+          "uiPrompt": "আমার হাসার একটা ভিডিও দেখাও"
+        },
+        "walking": {
+          "name": "হাঁটা",
+          "uiPrompt": "আমার হাঁটার একটা ভিডিও দেখাও"
+        }
+      }
+    },
+    "writeYourOwn": "অথবা নিজের প্রম্পট লিখুন",
+    "presetSelected": "প্রিসেট নির্বাচিত",
+    "effects": {
+      "categories": {
+        "solo": "সোলো ও টিজ",
+        "oral": "ওরাল",
+        "positions": "পজিশন",
+        "pov": "POV",
+        "extra": "এক্সট্রা",
+        "remix": "রিমিক্স"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "অ্যানাল গ্রিপিং"
+        },
+        "bath_towel": {
+          "name": "বাথ টাওয়েল"
+        },
+        "bikini": {
+          "name": "বিকিনি"
+        },
+        "blowjob_69": {
+          "name": "ব্লোজব ৬৯"
+        },
+        "blowjob_grand_slam": {
+          "name": "ব্লোজব গ্র্যান্ড স্ল্যাম"
+        },
+        "blowjob_pov": {
+          "name": "ব্লোজব POV"
+        },
+        "blowjob_sideview": {
+          "name": "ব্লোজব সাইডভিউ"
+        },
+        "bondage": {
+          "name": "বন্ডেজ"
+        },
+        "breast_milk": {
+          "name": "ব্রেস্ট মিল্ক"
+        },
+        "bunny_suit": {
+          "name": "বানি স্যুট"
+        },
+        "chain_leash": {
+          "name": "চেইন লিশ"
+        },
+        "chinese_dress": {
+          "name": "চাইনিজ ড্রেস"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "কানিলিঙ্গাস"
+        },
+        "custom": {
+          "name": "কাস্টম"
+        },
+        "doggystyle_pov": {
+          "name": "ডগিস্টাইল POV"
+        },
+        "doggystyle_sideview": {
+          "name": "ডগিস্টাইল সাইডভিউ"
+        },
+        "fingering": {
+          "name": "ফিঙ্গারিং"
+        },
+        "handjob": {
+          "name": "হ্যান্ডজব"
+        },
+        "jk_uniform": {
+          "name": "স্কুল ইউনিফর্ম"
+        },
+        "legsup": {
+          "name": "পা উঁচু করে"
+        },
+        "leopard_bikini": {
+          "name": "লেপার্ড বিকিনি"
+        },
+        "lingerie": {
+          "name": "লিঙ্গেরি"
+        },
+        "masturbation": {
+          "name": "মাস্টারবেশন"
+        },
+        "missionary_condoms": {
+          "name": "মিশনারি কনডম"
+        },
+        "missionary_pov": {
+          "name": "মিশনারি POV"
+        },
+        "missionary_sideview": {
+          "name": "মিশনারি সাইডভিউ"
+        },
+        "remix_blowjob": {
+          "name": "রিমিক্স ব্লোজব"
+        },
+        "remix_cowgirl": {
+          "name": "রিমিক্স কাউগার্ল"
+        },
+        "remix_doggystyle": {
+          "name": "রিমিক্স ডগিস্টাইল"
+        },
+        "remix_dress": {
+          "name": "রিমিক্স ড্রেস"
+        },
+        "remix_hold_dick": {
+          "name": "রিমিক্স হোল্ড ডিক"
+        },
+        "remix_kiss": {
+          "name": "রিমিক্স কিস"
+        },
+        "remix_pronebone": {
+          "name": "রিমিক্স প্রোনবোন"
+        },
+        "remix_suck": {
+          "name": "রিমিক্স সাক"
+        },
+        "remix_wear": {
+          "name": "রিমিক্স ওয়্যার"
+        },
+        "remix_yoga": {
+          "name": "রিমিক্স যোগা"
+        },
+        "ride_on_dildo": {
+          "name": "রাইড অন ডিলডো"
+        },
+        "sipping_condoms": {
+          "name": "সিপিং কনডম"
+        },
+        "squatting_cowgirl": {
+          "name": "স্কোয়াটিং কাউগার্ল"
+        },
+        "tattoo": {
+          "name": "ট্যাটু"
+        },
+        "tentacles": {
+          "name": "টেন্টাকল"
+        },
+        "titjob": {
+          "name": "টিটজব"
+        },
+        "topless": {
+          "name": "টপলেস"
+        },
+        "undress": {
+          "name": "আনড্রেস"
+        },
+        "used": {
+          "name": "ইউজড"
+        },
+        "xray": {
+          "name": "এক্স-রে"
+        },
+        "maid_outfit": {
+          "name": "মেইড আউটফিট"
+        },
+        "nurse_outfit": {
+          "name": "নার্স আউটফিট"
+        },
+        "cheerleader": {
+          "name": "চিয়ারলিডার"
+        },
+        "wet_tshirt": {
+          "name": "ভেজা টি-শার্ট"
+        },
+        "latex_catsuit": {
+          "name": "ল্যাটেক্স ক্যাটস্যুট"
+        },
+        "corset_stockings": {
+          "name": "কর্সেট ও স্টকিংস"
+        },
+        "gym_shorts": {
+          "name": "জিম শর্টস"
+        },
+        "thong_tease": {
+          "name": "থং টিজ"
+        },
+        "upskirt_panties": {
+          "name": "আপস্কার্ট"
+        },
+        "mirror_selfie": {
+          "name": "মিরর সেলফি"
+        },
+        "shower_nude": {
+          "name": "শাওয়ার"
+        },
+        "oiled_body": {
+          "name": "তেল মাখা শরীর"
+        },
+        "spread_open": {
+          "name": "স্প্রেড ওপেন"
+        },
+        "ahegao": {
+          "name": "আহেগাও"
+        },
+        "deepthroat": {
+          "name": "ডিপথ্রোট"
+        },
+        "sloppy_blowjob": {
+          "name": "স্লপি ব্লোজব"
+        },
+        "ball_licking": {
+          "name": "বল লিকিং"
+        },
+        "face_sitting_oral": {
+          "name": "ফেস সিটিং"
+        },
+        "cowgirl": {
+          "name": "কাউগার্ল"
+        },
+        "reverse_cowgirl": {
+          "name": "রিভার্স কাউগার্ল"
+        },
+        "prone_bone": {
+          "name": "প্রোন বোন"
+        },
+        "standing_sex": {
+          "name": "স্ট্যান্ডিং"
+        },
+        "against_wall": {
+          "name": "দেয়ালে ঠেস দিয়ে"
+        },
+        "spooning": {
+          "name": "স্পুনিং"
+        },
+        "legs_on_shoulders": {
+          "name": "কাঁধে পা"
+        },
+        "mating_press": {
+          "name": "মেটিং প্রেস"
+        },
+        "cowgirl_pov": {
+          "name": "কাউগার্ল POV"
+        },
+        "titjob_pov": {
+          "name": "টিটজব POV"
+        },
+        "handjob_pov": {
+          "name": "হ্যান্ডজব POV"
+        },
+        "cunnilingus_pov": {
+          "name": "কানিলিংগাস POV"
+        },
+        "double_penetration": {
+          "name": "ডাবল পেনিট্রেশন"
+        },
+        "threesome_mmf": {
+          "name": "থ্রিসাম"
+        },
+        "glory_hole": {
+          "name": "গ্লোরি হোল"
+        },
+        "creampie": {
+          "name": "ক্রিমপাই"
+        },
+        "pearl_necklace": {
+          "name": "পার্ল নেকলেস"
+        },
+        "bukkake": {
+          "name": "বুক্কাকে"
+        },
+        "squirting": {
+          "name": "স্কার্টিং"
+        },
+        "spanking": {
+          "name": "স্প্যাঙ্কিং"
+        },
+        "gagged_bdsm": {
+          "name": "গ্যাগড"
+        },
+        "facefuck": {
+          "name": "ফেসফাক"
+        },
+        "throatpie": {
+          "name": "থ্রোটপাই"
+        },
+        "cock_worship": {
+          "name": "কক ওয়ারশিপ"
+        },
+        "footjob": {
+          "name": "ফুটজব"
+        },
+        "amazon": {
+          "name": "অ্যামাজন"
+        },
+        "full_nelson": {
+          "name": "ফুল নেলসন"
+        },
+        "lotus": {
+          "name": "লোটাস"
+        },
+        "piledriver": {
+          "name": "পাইলড্রাইভার"
+        },
+        "facefuck_pov": {
+          "name": "ফেসফাক POV"
+        },
+        "riding_pov": {
+          "name": "রাইডিং POV"
+        },
+        "spitroast": {
+          "name": "স্পিটরোস্ট"
+        },
+        "hair_pulling": {
+          "name": "চুল টানা"
+        },
+        "facial_cumshot": {
+          "name": "ফেসিয়াল কামশট"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "অ্যানাল"
+        },
+        "back_doggystyle": {
+          "name": "ব্যাক ডগিস্টাইল"
+        },
+        "blowjob": {
+          "name": "ব্লোজব"
+        },
+        "blowjob_69": {
+          "name": "ব্লোজব ৬৯"
+        },
+        "blowjob_reverse": {
+          "name": "ব্লোজব রিভার্স"
+        },
+        "breast_massage": {
+          "name": "ব্রেস্ট ম্যাসাজ"
+        },
+        "breast_massage_nude": {
+          "name": "ব্রেস্ট ম্যাসাজ নিউড"
+        },
+        "butt_smothering": {
+          "name": "বাট স্মাদারিং"
+        },
+        "cock_worship": {
+          "name": "কক ওয়র্শিপ"
+        },
+        "cum_in_mouth": {
+          "name": "কাম ইন মাউথ"
+        },
+        "dildo_masturbation": {
+          "name": "ডিলডো মাস্টারবেশন"
+        },
+        "double_blowjob": {
+          "name": "ডাবল ব্লোজব"
+        },
+        "double_penetration": {
+          "name": "ডাবল পেনিট্রেশন"
+        },
+        "ejaculation": {
+          "name": "ইজাকুলেশন"
+        },
+        "facefuck": {
+          "name": "ফেসফাক"
+        },
+        "facefuck_pov": {
+          "name": "ফেসফাক পিওভি"
+        },
+        "facial_cumshot": {
+          "name": "ফেশিয়াল কামশট"
+        },
+        "footjob": {
+          "name": "ফুটজব"
+        },
+        "front_doggystyle": {
+          "name": "ফ্রন্ট ডগিস্টাইল"
+        },
+        "fuck_machine": {
+          "name": "ফাক মেশিন"
+        },
+        "full_nelson": {
+          "name": "ফুল নেলসন"
+        },
+        "handjob": {
+          "name": "হ্যান্ডজব"
+        },
+        "masturbation": {
+          "name": "মাস্টারবেশন"
+        },
+        "missionary_pov": {
+          "name": "মিশনারি পিওভি"
+        },
+        "missionary_sideview": {
+          "name": "মিশনারি সাইডভিউ"
+        },
+        "nipple_play": {
+          "name": "নিপল প্লে"
+        },
+        "nude_posing": {
+          "name": "নিউড পোজিং"
+        },
+        "orgasm": {
+          "name": "অর্গ্যাজম"
+        },
+        "pronebone": {
+          "name": "প্রোনবোন"
+        },
+        "pussy_closeup": {
+          "name": "পুসি ক্লোজআপ"
+        },
+        "reverse_cowgirl": {
+          "name": "রিভার্স কাউগার্ল"
+        },
+        "shoejob": {
+          "name": "শুজব"
+        },
+        "spitroast": {
+          "name": "স্পিটরোস্ট"
+        },
+        "squatting_cowgirl": {
+          "name": "স্কোয়াটিং কাউগার্ল"
+        },
+        "throatpie": {
+          "name": "থ্রোটপাই"
+        },
+        "tiktok_trend": {
+          "name": "টিকটক ট্রেন্ড"
+        },
+        "titjob": {
+          "name": "টিটজব"
+        },
+        "titty_flash": {
+          "name": "টিটি ফ্ল্যাশ"
+        },
+        "triple_dicked": {
+          "name": "ট্রিপল ডিকড"
+        },
+        "twerk": {
+          "name": "টোয়ার্ক"
+        },
+        "undress": {
+          "name": "উন্ড্রেস"
+        },
+        "strip_tease": {
+          "name": "স্ট্রিপ টিজ"
+        },
+        "booty_bounce": {
+          "name": "বুটি বাউন্স"
+        },
+        "oil_show": {
+          "name": "অয়েল শো"
+        },
+        "shower_show": {
+          "name": "শাওয়ার শো"
+        },
+        "panty_drop": {
+          "name": "প্যান্টি ড্রপ"
+        },
+        "ahegao_solo": {
+          "name": "আহেগাও"
+        },
+        "deepthroat": {
+          "name": "ডিপথ্রোট"
+        },
+        "sloppy_blowjob": {
+          "name": "স্লপি ব্লোজব"
+        },
+        "ball_sucking": {
+          "name": "বল সাকিং"
+        },
+        "cowgirl": {
+          "name": "কাউগার্ল"
+        },
+        "standing_carry": {
+          "name": "স্ট্যান্ডিং ক্যারি"
+        },
+        "against_wall": {
+          "name": "দেয়ালের বিপরীতে"
+        },
+        "spooning": {
+          "name": "স্পুনিং"
+        },
+        "mating_press": {
+          "name": "মেটিং প্রেস"
+        },
+        "amazon": {
+          "name": "অ্যামাজন"
+        },
+        "cowgirl_pov": {
+          "name": "কাউগার্ল POV"
+        },
+        "doggy_pov": {
+          "name": "ডগি POV"
+        },
+        "titjob_pov": {
+          "name": "টিটজব POV"
+        },
+        "handjob_pov": {
+          "name": "হ্যান্ডজব POV"
+        },
+        "riding_pov": {
+          "name": "রাইডিং POV"
+        },
+        "gangbang": {
+          "name": "গ্যাংব্যাং"
+        },
+        "creampie": {
+          "name": "ক্রিমপাই"
+        },
+        "bukkake": {
+          "name": "বুক্কাকে"
+        },
+        "squirting": {
+          "name": "স্কোয়ার্টিং"
+        },
+        "spanking": {
+          "name": "স্প্যাঙ্কিং"
+        },
+        "hair_pulling": {
+          "name": "চুল টানা"
+        },
+        "fingering": {
+          "name": "ফিঙ্গারিং"
+        },
+        "come_hither": {
+          "name": "কাম হিদার"
+        },
+        "spread_legs": {
+          "name": "পা ছড়ানো"
+        },
+        "blowjob_sideview": {
+          "name": "ব্লোজব সাইডভিউ"
+        },
+        "cunnilingus": {
+          "name": "কানিলিঙ্গাস"
+        },
+        "missionary": {
+          "name": "মিশনারি"
+        },
+        "legs_on_shoulders": {
+          "name": "কাঁধে পা"
+        },
+        "blowjob_pov": {
+          "name": "ব্লোজব POV"
+        },
+        "cunnilingus_pov": {
+          "name": "কানিলিঙ্গাস POV"
+        },
+        "glory_hole": {
+          "name": "গ্লোরি হোল"
+        },
+        "threesome_mmf": {
+          "name": "থ্রিসাম"
+        },
+        "aftercare_mess": {
+          "name": "আফটারকেয়ার মেস"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "আপনি কি নিশ্চিত এটি মুছে ফেলতে চান?",
+    "deleteSuccess": "সফলভাবে মুছে ফেলা হয়েছে",
+    "deleteError": "মুছে ফেলতে ব্যর্থ হয়েছে",
+    "empty": "এখনো কোনো মিডিয়া নেই। চ্যাটে কিছু তৈরি করুন!",
+    "gallerySubtitle": "আপনার ব্যক্তিগত এআই-জেনারেটেড মুহূর্তের গ্যালারি",
+    "filterAll": "সব",
+    "filterImages": "ছবি",
+    "filterVideos": "ভিডিও",
+    "loadMore": "আরও লোড করুন",
+    "folders": "ফোল্ডার",
+    "newFolder": "নতুন ফোল্ডার",
+    "deleteFolders": "নির্বাচিত ফোল্ডার মুছুন",
+    "folderCreated": "ফোল্ডার তৈরি করা হয়েছে",
+    "folderCreateError": "ফোল্ডার তৈরি করতে ব্যর্থ হয়েছে",
+    "folderRenamed": "ফোল্ডারের নাম পরিবর্তন করা হয়েছে",
+    "folderRenameError": "ফোল্ডারের নাম পরিবর্তন করতে ব্যর্থ হয়েছে",
+    "folderDeleted": "ফোল্ডার মুছে ফেলা হয়েছে",
+    "folderDeleteError": "ফোল্ডার মুছে ফেলতে ব্যর্থ হয়েছে",
+    "folderNamePlaceholder": "ফোল্ডারের নাম",
+    "seeMore": "আরও দেখুন",
+    "seeLess": "কম দেখুন",
+    "selectedCount": "{count} আইটেম নির্বাচিত",
+    "selectAll": "সব নির্বাচন করুন",
+    "select": "নির্বাচন করুন",
+    "moveToFolder": "সরান",
+    "bulkDeleteConfirm": "{count} নির্বাচিত আইটেম মুছবেন?",
+    "bulkDeleteSuccess": "আইটেম মুছে ফেলা হয়েছে",
+    "bulkDownloadStart": "{count} আইটেম ডাউনলোড হচ্ছে...",
+    "moveSuccess": "আইটেম সরানো হয়েছে"
+  },
+  "voice": {
+    "connecting": "সংযোগ হচ্ছে...",
+    "connected": "সংযুক্ত",
+    "mute": "মিউট",
+    "unmute": "আনমিউট",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "স্বাভাবিকভাবে কথা বলুন। আপনি থামলে এআই উত্তর দেবে।",
+    "connectionError": "সংযোগ ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।",
+    "minutesRemaining": "{minutes} মিনিট বাকি",
+    "minutesUsed": "{minutes} মিনিট ব্যবহৃত"
+  },
+  "characters": {
+    "filters": "ফিল্টার",
+    "ethnicity": "জাতিগত পরিচয়",
+    "bodyType": "শরীরের গঠন",
+    "ageRange": "বয়সের পরিসীমা",
+    "relationship": "সম্পর্ক",
+    "occupation": "পেশা",
+    "hobbies": "শখ",
+    "personality": "ব্যক্তিত্ব",
+    "language": "ভাষা",
+    "age": "বয়স",
+    "all": "সব",
+    "noResults": "কোনো চরিত্র পাওয়া যায়নি",
+    "noResultsDesc": "আপনার ফিল্টার সামঞ্জস্য করার চেষ্টা করুন",
+    "newBadge": "নতুন",
+    "chatNow": "এখনই চ্যাট করুন",
+    "viewProfile": "প্রোফাইল দেখুন",
+    "ethnicities": {
+      "caucasian": "ককেশীয়",
+      "asian": "এশীয়",
+      "middleEastern": "মধ্যপ্রাচ্যীয়",
+      "hispanic": "হিস্পানিক",
+      "african": "আফ্রিকান",
+      "southAsian": "দক্ষিণ এশীয়",
+      "nativeAmerican": "নেটিভ আমেরিকান",
+      "pacificIslander": "প্যাসিফিক আইল্যান্ডার",
+      "mixed": "মিশ্র",
+      "other": "অন্যান্য"
+    },
+    "bodyTypes": {
+      "slim": "সরু",
+      "athletic": "অ্যাথলেটিক",
+      "average": "গড়",
+      "curvy": "বক্ররেখাময়",
+      "plus": "প্লাস সাইজ"
+    },
+    "ageRanges": {
+      "18-25": "১৮-২৫",
+      "26-35": "২৬-৩৫",
+      "36-45": "৩৬-৪৫",
+      "46+": "৪৬+"
+    },
+    "relationships": {
+      "single": "একক",
+      "dating": "ডেটিং",
+      "married": "বিবাহিত",
+      "none": "কোনোটিই নয়"
+    }
+  },
+  "settings": {
+    "profile": "প্রোফাইল",
+    "myProfile": "আমার প্রোফাইল",
+    "settings": "সেটিংস",
+    "account": "অ্যাকাউন্ট",
+    "plan": "প্ল্যান",
+    "profileSettings": "প্রোফাইল সেটিংস",
+    "manageAccountSettings": "আপনার অ্যাকাউন্ট সেটিংস এবং পছন্দগুলি পরিচালনা করুন",
+    "personalInfo": "ব্যক্তিগত তথ্য",
+    "nickname": "ডাকনাম",
+    "gender": "লিঙ্গ",
+    "male": "পুরুষ",
+    "female": "মহিলা",
+    "preferences": "পছন্দসমূহ",
+    "newsletter": "নিউজলেটার সাবস্ক্রিপশন",
+    "newsletterDesc": "আপডেট এবং খবর পান",
+    "aiTrainingTitle": "AI ও মডারেশন ট্রেনিং",
+    "aiTrainingDesc": "আপনার চ্যাট এবং প্রম্পট sweetwine-এর AI এবং মডারেশন উন্নত করতে সাহায্য করুক। যেকোনো সময় বন্ধ করে অপ্ট আউট করুন।",
+    "aiTrainingLink": "আমাদের প্রাইভেসি নোটিশে আরও জানুন।",
+    "aiTrainingError": "আপনার AI ট্রেনিং পছন্দ আপডেট করা যায়নি",
+    "interfaceLanguage": "ইন্টারফেস ভাষা",
+    "interfaceLanguageDesc": "ব্যবহারকারী ইন্টারফেসের জন্য ভাষা",
+    "aiLanguage": "AI রেসপন্স ভাষা",
+    "aiLanguageDesc": "আপনার সাথে কথা বলার সময় AI চরিত্রগুলি যে ভাষা ব্যবহার করবে",
+    "currentPlan": "বর্তমান প্ল্যান",
+    "freePlan": "ফ্রি প্ল্যান",
+    "dangerZone": "ডেঞ্জার জোন",
+    "dangerZoneDescription": "আপনি যদি এই অ্যাকাউন্ট এবং এর সমস্ত ডেটা স্থায়ীভাবে মুছে ফেলতে চান।",
+    "deleteAllMemory": "সব মেমরি মুছুন",
+    "confirmDeleteAllMemory": "আপনি কি নিশ্চিত যে সব AI চরিত্রের লং-টার্ম মেমরি মুছে ফেলতে চান? চ্যাট মেসেজ থাকবে, তবে চরিত্রগুলো পরবর্তী রিপ্লাইতে আগের তথ্য ভুলে যাবে।",
+    "deleteAllMemorySuccess": "সব মেমরি মুছে ফেলা হয়েছে",
+    "deleteAccount": {
+      "button": "অ্যাকাউন্ট মুছুন",
+      "title": "অ্যাকাউন্ট মুছুন",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "নিশ্চিত করতে টাইপ করুন",
+      "confirmRequired": "নিশ্চিত করতে DELETE টাইপ করুন",
+      "confirmButton": "আমার অ্যাকাউন্ট মুছুন",
+      "deleting": "মুছে ফেলা হচ্ছে...",
+      "success": "আপনার অ্যাকাউন্ট মুছে ফেলা হয়েছে",
+      "error": "অ্যাকাউন্ট মুছতে ব্যর্থ। আবার চেষ্টা করুন।"
+    },
+    "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+    "changesSaved": "পরিবর্তন সফলভাবে সংরক্ষিত হয়েছে",
+    "saveFailed": "পরিবর্তন সংরক্ষণ করতে ব্যর্থ",
+    "languageUpdated": "ভাষা আপডেট হয়েছে",
+    "aiLanguageUpdated": "AI ভাষা আপডেট হয়েছে"
+  },
+  "create": {
+    "defaultGreeting": "হ্যালো",
+    "title": "AI ক্যারেক্টার তৈরি করুন",
+    "step": "ধাপ {current} এর {total}",
+    "step1": {
+      "title": "স্টাইল বেছে নিন",
+      "description": "আপনার ক্যারেক্টারের জন্য স্টাইল এবং মৌলিক বৈশিষ্ট্য বেছে নিন"
+    },
+    "step2": {
+      "title": "জাতিগত পরিচয় বেছে নিন",
+      "description": "আপনার ক্যারেক্টারের জন্য জাতিগত পরিচয় এবং বয়স বেছে নিন"
+    },
+    "step3": {
+      "title": "চুল ও চোখ বেছে নিন",
+      "description": "চুলের স্টাইল, চুলের রঙ এবং চোখের রঙ কাস্টমাইজ করুন"
+    },
+    "step4": {
+      "title": "শরীর বেছে নিন",
+      "description": "আপনার ক্যারেক্টারের শরীর কাস্টমাইজ করুন"
+    },
+    "step5": {
+      "title": "ব্যক্তিত্ব ও বিবরণ",
+      "description": "আপনার ক্যারেক্টারের ব্যক্তিত্ব এবং ভয়েস সংজ্ঞায়িত করুন"
+    },
+    "style": {
+      "title": "ক্যারেক্টার স্টাইল",
+      "realistic": "বাস্তবসম্মত",
+      "anime": "অ্যানিমে"
+    },
+    "gender": {
+      "title": "লিঙ্গ",
+      "female": "মহিলা",
+      "male": "পুরুষ"
+    },
+    "age": {
+      "title": "বয়স",
+      "years": "{age} বছর"
+    },
+    "ethnicity": {
+      "title": "জাতিগত পরিচয়"
+    },
+    "hairStyle": {
+      "title": "চুলের স্টাইল"
+    },
+    "hairColor": {
+      "title": "চুলের রঙ"
+    },
+    "eyeColor": {
+      "title": "চোখের রঙ"
+    },
+    "bodyType": {
+      "title": "শরীরের ধরন"
+    },
+    "breastSize": {
+      "title": "বুকের আকার"
+    },
+    "name": {
+      "title": "নাম",
+      "placeholder": "ক্যারেক্টারের নাম লিখুন",
+      "randomize": "র‍্যান্ডম নাম তৈরি করুন"
+    },
+    "language": {
+      "title": "ভাষা",
+      "widgetLabel": "ভাষা বেছে নিন",
+      "placeholder": "ভাষা নির্বাচন করুন",
+      "selectTitle": "আপনার ভাষা নির্বাচন করুন"
+    },
+    "personality": {
+      "title": "ব্যক্তিত্ব",
+      "widgetLabel": "ব্যক্তিত্ব বেছে নিন",
+      "placeholder": "ব্যক্তিত্ব নির্বাচন করুন",
+      "sectionTitle": "ব্যক্তিত্ব বেছে নিন",
+      "clickToChange": "পরিবর্তন করতে ক্লিক করুন"
+    },
+    "relationship": {
+      "title": "সম্পর্ক",
+      "widgetLabel": "সম্পর্ক বেছে নিন",
+      "placeholder": "সম্পর্ক নির্বাচন করুন",
+      "selectTitle": "সম্পর্ক সম্পাদনা করুন"
+    },
+    "occupation": {
+      "title": "পেশা",
+      "widgetLabel": "পেশা নির্বাচন করুন",
+      "placeholder": "পেশা নির্বাচন করুন",
+      "selectTitle": "পেশা সম্পাদনা করুন"
+    },
+    "kinks": {
+      "title": "আগ্রহ",
+      "widgetLabel": "তারা কোন আগ্রহে আছে? (সর্বোচ্চ {max})",
+      "labelMax": "আগ্রহ (সর্বোচ্চ {max})",
+      "placeholder": "আগ্রহ নির্বাচন করুন (ঐচ্ছিক)",
+      "optional": "ঐচ্ছিক",
+      "selectTitle": "আগ্রহ সম্পাদনা করুন",
+      "moreCount": "+{count} আরও"
+    },
+    "selector": {
+      "searchPlaceholder": "অনুসন্ধান",
+      "noResults": "কোনো অপশন পাওয়া যায়নি",
+      "cancel": "বাতিল",
+      "saveChanges": "পরিবর্তন সংরক্ষণ করুন",
+      "selectedCount": "{count} নির্বাচিত"
+    },
+    "voice": {
+      "title": "ভয়েস",
+      "widgetLabel": "ভয়েস নির্বাচন করুন",
+      "placeholder": "ভয়েস নির্বাচন করুন",
+      "selectTitle": "ভয়েস নির্বাচন করুন"
+    },
+    "advanced": {
+      "title": "উন্নত বিবরণ",
+      "optional": "ঐচ্ছিক",
+      "filled": "পূর্ণ",
+      "autocompleteTitle": "AI দিয়ে অটোকমপ্লিট করুন",
+      "autocompleteDesc": "আরও গভীর চরিত্রের জন্য AI খালি ফিল্ড পূরণ করুক",
+      "autocompleteSuccess": "ফিল্ড সফলভাবে পূরণ করা হয়েছে!",
+      "autocompleteError": "পরামর্শ তৈরি করতে ব্যর্থ। আবার চেষ্টা করুন।",
+      "greetingLabel": "অভিবাদন",
+      "greetingPlaceholder": "আপনার চরিত্রের প্রথম বার্তা...",
+      "scenarioLabel": "পরিস্থিতি",
+      "scenarioPlaceholder": "আপনি কীভাবে দেখা করেছেন তার প্রেক্ষাপট বা পটভূমি...",
+      "personalityLabel": "অতিরিক্ত ব্যক্তিত্বের বিবরণ",
+      "personalityPlaceholder": "অদ্ভুততা, কথার ধরন, আচরণগত বৈশিষ্ট্য...",
+      "extraLabel": "অতিরিক্ত বিবরণ",
+      "extraPlaceholder": "পটভূমি, শখ, জীবনের ইতিহাস..."
+    },
+    "navigation": {
+      "back": "পিছনে",
+      "next": "পরবর্তী",
+      "create": "তৈরি করুন",
+      "generateYourCharacter": "আপনার চরিত্র তৈরি করুন"
+    },
+    "progress": {
+      "generatingPrompt": "ব্যক্তিত্ব তৈরি করা হচ্ছে...",
+      "generatingImage": "প্রতিকৃতি তৈরি করা হচ্ছে...",
+      "creatingVoice": "ভয়েস সেট আপ করা হচ্ছে...",
+      "saving": "সংরক্ষণ করা হচ্ছে...",
+      "complete": "সম্পন্ন!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "ব্যক্তিত্ব তৈরি করা হচ্ছে...",
+      "addingSweetness": "মিষ্টতা যোগ করা হচ্ছে...",
+      "tooMuchSweet": "উফ, অনেক বেশি মিষ্টি...",
+      "testingSounds": "সাউন্ড পরীক্ষা করা হচ্ছে..."
+    },
+    "overlay": {
+      "signupPrompt": "আপনার চরিত্র আনলক করতে সাইন-আপ সম্পূর্ণ করুন…",
+      "processingHint": "সাধারণত ২০–৩০ সেকেন্ড লাগে",
+      "traitEthnicity": "জাতিগত পরিচয়",
+      "traitBody": "শরীর",
+      "traitHair": "চুল",
+      "traitColor": "রঙ",
+      "traitEyes": "চোখ",
+      "traitVibe": "ভাইব",
+      "bannerTitle": "আপনার চরিত্র তৈরির জন্য প্রস্তুত!",
+      "bannerDesc": "আপনার পছন্দ সংরক্ষিত হয়েছে। নিচে রিভিউ করে জেনারেট করুন।"
+    },
+    "success": {
+      "title": "চরিত্র তৈরি হয়েছে!",
+      "description": "আপনার এআই চরিত্র সফলভাবে তৈরি হয়েছে।",
+      "yearsOld": "বছর বয়স",
+      "meetButton": "দেখা করুন"
+    },
+    "error": {
+      "title": "তৈরি ব্যর্থ হয়েছে",
+      "generic": "চরিত্র তৈরি করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।"
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "ককেশীয়",
+        "asian": "এশীয়",
+        "middle_eastern": "মধ্যপ্রাচ্যীয়",
+        "hispanic": "হিস্পানিক",
+        "african": "আফ্রিকান",
+        "south_asian": "দক্ষিণ এশীয়",
+        "native_american": "নেটিভ আমেরিকান",
+        "pacific_islander": "প্যাসিফিক আইল্যান্ডার",
+        "mixed": "মিশ্র",
+        "arab": "আরব"
+      },
+      "hairStyleFemale": {
+        "straight": "সোজা",
+        "bangs": "ফ্রিঞ্জ",
+        "curly": "কোঁকড়া",
+        "bun": "বান",
+        "short_bob": "শর্ট বব",
+        "ponytail": "পনিটেল",
+        "wavy": "ঢেউ খেলানো",
+        "long_layers": "লং লেয়ার্স",
+        "braids": "ব্রেইড",
+        "pixie_cut": "পিক্সি কাট",
+        "updo": "আপডো",
+        "french_twist": "ফ্রেঞ্চ টুইস্ট",
+        "fishtail_braid": "ফিশটেল ব্রেইড",
+        "top_knot": "টপ নট",
+        "space_buns": "স্পেস বান্স",
+        "halo_braid": "হ্যালো ব্রেইড",
+        "beehive": "বিহাইভ",
+        "finger_waves": "ফিঙ্গার ওয়েভস",
+        "lob": "লব (লং বব)",
+        "shag_cut": "শ্যাগ কাট",
+        "bald": "টাক"
+      },
+      "hairStyleMale": {
+        "short": "ছোট",
+        "buzz_cut": "বাজ কাট",
+        "crew_cut": "ক্রু কাট",
+        "undercut": "আন্ডারকাট",
+        "fade": "ফেড",
+        "pompadour": "পম্পাদুর",
+        "quiff": "কুইফ",
+        "slicked_back": "স্লিকড ব্যাক",
+        "curly": "কোঁকড়া",
+        "afro": "আফ্রো",
+        "man_bun": "ম্যান বান",
+        "dreadlocks": "ড্রেডলক",
+        "cornrows": "কর্নরো",
+        "mohawk": "মোহক",
+        "side_part": "সাইড পার্ট",
+        "textured_crop": "টেক্সচার্ড ক্রপ",
+        "french_crop": "ফ্রেঞ্চ ক্রপ",
+        "spiky": "স্পাইকি",
+        "comb_over": "কম্ব ওভার",
+        "long_hair": "লম্বা চুল",
+        "bald": "টাক"
+      },
+      "hairColor": {
+        "brunette": "ব্রুনেট",
+        "blonde": "ব্লন্ড",
+        "black": "কালো",
+        "redhead": "লালচুলে",
+        "pink": "গোলাপি",
+        "auburn": "অবার্ন",
+        "brown": "বাদামি",
+        "platinum_blonde": "প্ল্যাটিনাম ব্লন্ড",
+        "silver_grey": "সিলভার/ধূসর",
+        "white": "সাদা",
+        "blue": "নীল",
+        "purple": "বেগুনি",
+        "green": "সবুজ",
+        "burgundy": "বারগান্ডি",
+        "copper": "তামা",
+        "strawberry_blonde": "স্ট্রবেরি ব্লন্ড",
+        "ash_brown": "অ্যাশ ব্রাউন",
+        "golden_blonde": "গোল্ডেন ব্লন্ড",
+        "mahogany": "মেহগনি",
+        "pastel_pink": "প্যাস্টেল গোলাপি",
+        "ombre": "অম্ব্রে",
+        "balayage": "বালায়াজ",
+        "highlights": "হাইলাইটস",
+        "jet_black": "জেট ব্ল্যাক",
+        "dark_brown": "গাঢ় বাদামি",
+        "light_brown": "হালকা বাদামি",
+        "honey_blonde": "মধু ব্লন্ড",
+        "dirty_blonde": "ডার্টি ব্লন্ড",
+        "cherry_red": "চেরি লাল",
+        "violet": "ভায়োলেট"
+      },
+      "eyeColor": {
+        "brown": "বাদামি",
+        "blue": "নীল",
+        "green": "সবুজ",
+        "hazel": "হেজেল",
+        "amber": "অ্যাম্বার",
+        "gray": "ধূসর",
+        "heterochromia": "হেটেরোক্রোমিয়া",
+        "violet": "ভায়োলেট",
+        "red_pink": "লাল/গোলাপি",
+        "black": "কালো"
+      },
+      "bodyTypeFemale": {
+        "skinny": "পাতলা",
+        "athletic": "অ্যাথলেটিক",
+        "average": "সাধারণ",
+        "curvy": "বক্ররেখা",
+        "chubby": "মোটাসোটা"
+      },
+      "bodyTypeMale": {
+        "skinny": "পাতলা",
+        "athletic": "অ্যাথলেটিক",
+        "average": "সাধারণ",
+        "muscular": "পেশিবহুল",
+        "heavy": "ভারী",
+        "big_tall": "বড় ও লম্বা"
+      },
+      "breastSize": {
+        "small": "ছোট",
+        "medium": "মাঝারি",
+        "large": "বড়",
+        "extra_large": "অতিরিক্ত বড়"
+      },
+      "personality": {
+        "nympho": "নিম্ফো",
+        "lover": "প্রেমিক",
+        "submissive": "অনুগত",
+        "dominant": "প্রভাবশালী",
+        "temptress": "প্রলোভনকারী",
+        "innocent": "নির্দোষ",
+        "caregiver": "যত্নশীল",
+        "experimenter": "পরীক্ষক",
+        "mean": "নিষ্ঠুর",
+        "confidant": "বিশ্বস্ত",
+        "shy": "লাজুক",
+        "queen": "রানি",
+        "adventurous": "দুঃসাহসী",
+        "romantic": "রোমান্টিক",
+        "intellectual": "বুদ্ধিমান",
+        "protector": "রক্ষক",
+        "rebel": "বিদ্রোহী",
+        "optimist": "আশাবাদী",
+        "realist": "বাস্তববাদী",
+        "free_spirit": "মুক্ত আত্মা",
+        "leader": "নেতা",
+        "loyal": "অনুগত",
+        "playful": "খেলাধুলাপূর্ণ",
+        "mysterious": "রহস্যময়",
+        "ambitious": "উচ্চাকাঙ্ক্ষী",
+        "gentle": "কোমল",
+        "sarcastic": "বিদ্রূপাত্মক",
+        "empathetic": "সহানুভূতিশীল",
+        "stoic": "স্থিরচিত্ত",
+        "charismatic": "মোহনীয়"
+      },
+      "relationship": {
+        "stranger": "অপরিচিত",
+        "girlfriend": "প্রেমিকা",
+        "sex_friend": "সেক্স ফ্রেন্ড",
+        "school_mate": "স্কুল মেট",
+        "work_colleague": "কর্মস্থলের সহকর্মী",
+        "wife": "স্ত্রী",
+        "mistress": "উপপত্নী",
+        "friend": "বন্ধু",
+        "step_sister": "সৎ বোন",
+        "step_mom": "সৎ মা",
+        "step_daughter": "সৎ মেয়ে",
+        "landlord": "বাড়িওয়ালা",
+        "sugar_baby": "সুগার বেবি",
+        "boss": "বস",
+        "teacher": "শিক্ষক",
+        "student": "ছাত্র",
+        "neighbour": "প্রতিবেশী",
+        "mother_in_law": "শাশুড়ি",
+        "sister_in_law": "ননদ",
+        "boyfriend": "প্রেমিক",
+        "husband": "স্বামী",
+        "fiance": "বাগদত্ত / বাগদত্তা",
+        "ex": "এক্স",
+        "roommate": "রুমমেট",
+        "best_friend": "সেরা বন্ধু",
+        "classmate": "ক্লাসমেট",
+        "mentor": "মেন্টর",
+        "client": "ক্লায়েন্ট",
+        "therapist": "থেরাপিস্ট",
+        "trainer": "ট্রেনার",
+        "rival": "প্রতিদ্বন্দ্বী",
+        "crush": "ক্রাশ",
+        "secret_admirer": "গোপন ভক্ত",
+        "pen_pal": "পেন পাল",
+        "business_partner": "ব্যবসায়িক অংশীদার",
+        "babysitter": "বেবিসিটার",
+        "childhood_friend": "শৈশবের বন্ধু",
+        "long_distance_partner": "দূরের সম্পর্কের সঙ্গী"
+      },
+      "occupation": {
+        "student": "ছাত্র",
+        "dancer": "নর্তকী",
+        "model": "মডেল",
+        "maid": "গৃহকর্মী",
+        "boss_ceo": "বস / সিইও",
+        "babysitter_au_pair": "বেবিসিটার / অ পেয়ার",
+        "streamer": "স্ট্রিমার",
+        "bartender": "বারটেন্ডার",
+        "tech_engineer": "টেক ইঞ্জিনিয়ার",
+        "lifeguard": "লাইফগার্ড",
+        "cashier": "ক্যাশিয়ার",
+        "massage_therapist": "ম্যাসাজ থেরাপিস্ট",
+        "teacher": "শিক্ষক",
+        "nurse": "নার্স",
+        "secretary": "সেক্রেটারি",
+        "yoga_instructor": "যোগা ইনস্ট্রাক্টর",
+        "fitness_coach": "ফিটনেস কোচ",
+        "cook": "রাঁধুনি",
+        "artist": "শিল্পী",
+        "movie_star_actress": "মুভি স্টার/অভিনেত্রী",
+        "doctor": "ডাক্তার",
+        "librarian": "গ্রন্থাগারিক",
+        "spy": "গুপ্তচর",
+        "police_officer": "পুলিশ অফিসার",
+        "soldier": "সৈনিক",
+        "lawyer": "আইনজীবী",
+        "hairdresser": "চুলের স্টাইলিস্ট",
+        "dentist": "দন্তচিকিৎসক",
+        "singer_musician": "গায়ক/সংগীতশিল্পী",
+        "gynecologist": "গাইনোকোলজিস্ট",
+        "writer": "লেখক",
+        "flight_attendant": "ফ্লাইট অ্যাটেনডেন্ট",
+        "professional_athlete": "প্রফেশনাল অ্যাথলিট",
+        "scientist": "বিজ্ঞানী",
+        "florist": "ফুল বিক্রেতা",
+        "makeup_artist": "মেকআপ আর্টিস্ট",
+        "photographer": "ফটোগ্রাফার",
+        "social_worker": "সোশ্যাল ওয়ার্কার",
+        "designer": "ডিজাইনার",
+        "pharmacist": "ফার্মাসিস্ট",
+        "nutritionist": "পুষ্টিবিদ",
+        "architect": "আর্কিটেক্ট",
+        "veterinarian": "পশু চিকিৎসক",
+        "mechanic": "মেকানিক",
+        "journalist": "সাংবাদিক",
+        "pilot": "পাইলট",
+        "firefighter": "ফায়ারফাইটার",
+        "accountant": "অ্যাকাউন্ট্যান্ট",
+        "electrician": "ইলেকট্রিশিয়ান",
+        "carpenter": "কাঠমিস্ত্রি",
+        "psychologist": "মনোবিজ্ঞানী",
+        "real_estate_agent": "রিয়েল এস্টেট এজেন্ট",
+        "chef": "শেফ",
+        "farmer": "কৃষক",
+        "delivery_driver": "ডেলিভারি ড্রাইভার",
+        "janitor": "পরিচ্ছন্নতাকর্মী",
+        "security_guard": "নিরাপত্তারক্ষী",
+        "banker": "ব্যাংকার",
+        "judge": "বিচারক",
+        "paramedic": "প্যারামেডিক",
+        "actor": "অভিনেতা",
+        "comedian": "কৌতুকাভিনেতা",
+        "archaeologist": "প্রত্নতত্ত্ববিদ",
+        "astronaut": "মহাকাশচারী"
+      },
+      "kinks": {
+        "bondage": "বন্ধন",
+        "spanking": "চপেটাঘাত",
+        "collar_leash": "কলার ও লিশ",
+        "punishment": "শাস্তি",
+        "humiliation": "অপমান",
+        "public_play": "পাবলিক প্লে",
+        "roleplay": "রোলপ্লে",
+        "anal_play": "অ্যানাল প্লে",
+        "oral_play": "ওরাল প্লে",
+        "cum_play": "কাম প্লে",
+        "creampie": "ক্রিমপাই",
+        "squirting": "স্কুইর্টিং",
+        "dirty_talk": "ডার্টি টক",
+        "breeding": "ব্রিডিং",
+        "daddy_mommy_dominance": "ড্যাডি/মমি ডমিন্যান্স",
+        "edging": "এজিং",
+        "obedience": "আনুগত্য",
+        "control": "নিয়ন্ত্রণ",
+        "inexperienced": "অনভিজ্ঞ",
+        "shy_flirting": "লাজুক ফ্লার্টিং",
+        "playful_teasing": "খেলাধুলাপূর্ণ টিজিং",
+        "cuddling": "আদর করা",
+        "slow_sensual": "ধীর ও সংবেদনশীল",
+        "hair_pulling": "চুল টানা",
+        "foot_fetish": "ফুট ফেটিশ",
+        "voyeurism": "ভয়েয়ারিজম",
+        "exhibitionism": "এক্সিবিশনিজম",
+        "sensation_play": "সেনসেশন প্লে",
+        "wax_play": "ওয়াক্স প্লে",
+        "pet_play": "পেট প্লে",
+        "age_play": "এজ প্লে",
+        "medical_play": "মেডিকেল প্লে",
+        "orgasm_control_denial": "অর্গ্যাজম কন্ট্রোল/ডিনায়াল",
+        "forced_orgasms": "ফোর্সড অর্গ্যাজম",
+        "group_sex": "গ্রুপ সেক্স",
+        "threesomes": "থ্রিসাম",
+        "swapping": "অদলবদল",
+        "cuckolding_cuckqueaning": "কাকোল্ডিং/কাককুইনিং",
+        "femdom": "ফেমডম",
+        "gentle_domination": "মৃদু আধিপত্য",
+        "sensation_deprivation": "সংবেদনশীলতা বঞ্চনা",
+        "sensory_overload": "সংবেদনশীলতার অতিরিক্ত চাপ",
+        "uniform_costume_fetish": "ইউনিফর্ম/পোশাক ফেটিশ",
+        "food_play": "খাবার খেলা",
+        "watersports": "ওয়াটারস্পোর্টস",
+        "bdsm": "বিডিএসএম",
+        "impact_play": "ইমপ্যাক্ট প্লে",
+        "knife_play": "ছুরি খেলা",
+        "consensual_non_consent": "সম্মতিপূর্ণ অসম্মতি",
+        "power_exchange": "ক্ষমতার বিনিময়",
+        "master_slave": "মাস্টার/স্লেভ",
+        "owner_pet": "মালিক/পোষা"
+      },
+      "languages": {
+        "en": "ইংরেজি",
+        "cs": "চেক",
+        "pl": "পোলিশ",
+        "de": "জার্মান",
+        "es": "স্প্যানিশ",
+        "fr": "ফরাসি"
+      }
+    }
+  },
+  "myAI": {
+    "title": "আমার এআই",
+    "titlePart1": "আমার",
+    "titlePart2": "এআই",
+    "createNew": "নতুন এআই তৈরি করুন",
+    "createButton": "ক্যারেক্টার তৈরি করুন",
+    "characterCount": "{count}/{limit} ক্যারেক্টার",
+    "loadMore": "আরও লোড করুন",
+    "empty": {
+      "title": "এখনও কোনো ক্যারেক্টার নেই",
+      "description": "আপনার প্রথম এআই ক্যারেক্টার তৈরি করুন এবং চ্যাট শুরু করুন! তাদের চেহারা, ব্যক্তিত্ব এবং কণ্ঠস্বর কাস্টমাইজ করুন।",
+      "createFirst": "আপনার প্রথম ক্যারেক্টার তৈরি করুন"
+    },
+    "delete": {
+      "title": "ক্যারেক্টার মুছুন",
+      "message": "আপনি কি নিশ্চিত যে {name} মুছে ফেলতে চান? এটি ক্যারেক্টার, সমস্ত চ্যাট ইতিহাস এবং জেনারেট করা কনটেন্ট স্থায়ীভাবে মুছে ফেলবে।",
+      "confirm": "মুছুন",
+      "success": "ক্যারেক্টার সফলভাবে মুছে ফেলা হয়েছে"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ ইন্টার‍্যাকশন",
+    "interactionDescription": "স্বাভাবিকভাবে টাইপ করুন — একটি ছবি, ভিডিও চান বা কথোপকথন শুরু করুন। এআই যেকোনো ভাষায় আপনার উদ্দেশ্য বোঝে।",
+    "mediaTitle": "ছবি ও ভিডিও তৈরি করুন",
+    "mediaDescription": "আপনার কল্পনাকে মুক্ত করুন — সীমাহীনভাবে ছবি বা ভিডিও তৈরি করুন।",
+    "next": "পরবর্তী →",
+    "gotIt": "বুঝেছি"
+  }
+}

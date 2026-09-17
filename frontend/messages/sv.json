@@ -1,0 +1,4034 @@
+{
+  "common": {
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "close": "Stäng",
+    "now": "nu",
+    "loading": "Laddar...",
+    "error": "Ett fel uppstod",
+    "success": "Klart",
+    "confirm": "Bekräfta",
+    "back": "Tillbaka",
+    "or": "Eller",
+    "next": "Nästa",
+    "submit": "Skicka",
+    "search": "Sök",
+    "filter": "Filtrera",
+    "clear": "Rensa",
+    "all": "Alla",
+    "yes": "Ja",
+    "no": "Nej",
+    "download": "Ladda ner",
+    "and": "och",
+    "tryAgain": "Försök igen",
+    "change": "Ändra"
+  },
+  "navigation": {
+    "new": "NYTT",
+    "sectionBrowse": "Bläddra",
+    "sectionTalk": "Prata",
+    "sectionCreate": "Skapa",
+    "sectionLibrary": "Bibliotek",
+    "explore": "Hem",
+    "discover": "Upptäck",
+    "createShort": "Skapa AI",
+    "chats": "Chattar",
+    "groupChat": "AI-gruppchatt",
+    "roleplay": "Rollspel",
+    "collection": "Samling",
+    "generateImage": "Generera bild",
+    "generateVideo": "Generera video",
+    "createCharacter": "Skapa AI-karaktär",
+    "myAI": "Min AI",
+    "language": "Språk",
+    "contactUs": "Kontakta oss",
+    "account": "Konto",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Kvinnor",
+      "anime": "Anime",
+      "guys": "Män"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chatta nu",
+    "like": "Gilla"
+  },
+  "auth": {
+    "login": "Logga in",
+    "signup": "Registrera dig",
+    "createFreeAccount": "Skapa ditt kostnadsfria konto",
+    "logout": "Logga ut",
+    "email": "E-post",
+    "password": "Lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "forgotPassword": "Glömt lösenord?",
+    "noAccount": "Har du inget konto?",
+    "hasAccount": "Har du redan ett konto?",
+    "signupPrompt": "Skapa kostnadsfritt konto",
+    "loginPrompt": "Logga in",
+    "continueWith": "Fortsätt med",
+    "welcomeBack": "Välkommen tillbaka!",
+    "createAccount": "Skapa ditt konto",
+    "signInToAccount": "Logga in på ditt konto",
+    "emailRequired": "E-post krävs",
+    "emailInvalid": "Ogiltig e-postadress",
+    "passwordRequired": "Lösenord krävs",
+    "passwordLength": "Lösenordet måste vara minst 6 tecken",
+    "passwordsMismatch": "Lösenorden matchar inte",
+    "emailAlreadyRegistered": "E-postadressen är redan registrerad",
+    "emailAlreadyRegisteredDescription": "Ett konto med denna e-postadress finns redan. Logga in.",
+    "loginError": "Det gick inte att logga in",
+    "signupError": "Det gick inte att registrera dig",
+    "loginSuccess": "Välkommen tillbaka!",
+    "signupSuccess": "Kontot skapades!",
+    "logoutSuccess": "Du har loggats ut",
+    "logoutError": "Det gick inte att logga ut",
+    "linkExpired": "Verifieringslänken har gått ut. Begär en ny.",
+    "accessDenied": "Åtkomst nekad. Försök igen.",
+    "verifyEmail": "Verifiera din e-post",
+    "verificationEmailSent": "Vi har skickat ett verifieringsmail till dig",
+    "confirmYourEmail": "Bekräfta din e-post",
+    "confirmationLinkSent": "Vi har skickat en bekräftelselänk till \"{email}\".",
+    "checkSpamFolder": "Fick du inte mailet? Kolla din skräppost.",
+    "signupToChat": "Skapa ditt kostnadsfria konto för att komma igång.",
+    "signupDescription": "Skapa ett konto för att fortsätta din konversation",
+    "emailVerificationTitle": "Kolla din e-post",
+    "emailVerificationMessage": "Vi har skickat en verifieringslänk till {email}. Kolla din inkorg och klicka på länken för att verifiera ditt konto.",
+    "emailVerificationNext": "Efter verifiering slutför du onboarding-processen.",
+    "verificationEmailSentTo": "Vi har skickat ett verifieringsmail till {email}",
+    "verificationInstructions": "Kontrollera din inkorg och klicka på verifieringslänken för att aktivera ditt konto.",
+    "resetPassword": "Återställ lösenord",
+    "resetPasswordDescription": "Ange din e-postadress så skickar vi en återställningslänk",
+    "resetEmailSent": "Om ett konto finns med denna e-postadress får du en återställningslänk inom kort",
+    "backToLogin": "Tillbaka till inloggning",
+    "newPassword": "Nytt lösenord",
+    "confirmNewPassword": "Bekräfta nytt lösenord",
+    "passwordResetSuccess": "Lösenordet har uppdaterats. Logga in.",
+    "enterNewPassword": "Ange ditt nya lösenord",
+    "redirectingToLogin": "Omdirigerar till inloggning...",
+    "invalidResetLink": "Ogiltig eller utgången länk",
+    "invalidResetLinkDescription": "Denna återställningslänk är ogiltig eller har gått ut. Begär en ny.",
+    "passwordsDontMatch": "Lösenorden matchar inte",
+    "currentPassword": "Nuvarande lösenord",
+    "currentPasswordRequired": "Nuvarande lösenord krävs",
+    "changePassword": "Byt lösenord",
+    "changePasswordDescription": "Ange ditt nuvarande lösenord och välj ett nytt",
+    "newPasswordMustBeDifferent": "Det nya lösenordet måste skilja sig från det nuvarande",
+    "incorrectPassword": "Nuvarande lösenord är felaktigt",
+    "passwordChangeSuccess": "Lösenordet har ändrats",
+    "changeEmail": "Byt e-postadress",
+    "newEmail": "Ny e-postadress",
+    "confirmNewEmail": "Bekräfta ny e-postadress",
+    "emailsDontMatch": "E-postadresserna matchar inte",
+    "emailChangeDescription": "Ett verifieringsmail skickas till både din nuvarande och nya e-postadress",
+    "emailMustBeDifferent": "Den nya e-postadressen måste skilja sig från den nuvarande",
+    "emailChangeSent": "Verifieringsmail skickat. Kontrollera din nya inkorg.",
+    "emailChangeSecurityNote": "Av säkerhetsskäl skickas bekräftelsemail till både din nuvarande och nya e-postadress. Du måste bekräfta från båda för att slutföra ändringen.",
+    "otpDescription": "Vi skickade en 6-siffrig kod till {email}",
+    "otpVerify": "Verifiera",
+    "otpResend": "Skicka kod igen",
+    "otpResendIn": "Skicka igen om {seconds}s",
+    "otpNoCode": "Fick du inte koden?",
+    "otpInvalid": "Ogiltig kod. Försök igen.",
+    "otpSuccess": "E-postadressen har verifierats!",
+    "otpResendSuccess": "Ny kod skickad till din e-post",
+    "otpResendError": "Kunde inte skicka koden igen",
+    "continueWithEmail": "Fortsätt med e-post",
+    "moreOptions": "Fler alternativ",
+    "lessOptions": "Färre alternativ",
+    "enterYourEmail": "Ange din e-postadress",
+    "sendCode": "Skicka kod",
+    "byCreatingAccountAgree": "Genom att skapa ett konto godkänner du våra",
+    "termsOfService": "Användarvillkor",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Välkommen till sweetwine",
+    "welcomeTo": "Välkommen till",
+    "letsGetStarted": "Låt oss sätta igång",
+    "setupProfile": "Ställ in din profil",
+    "step1of2": "Steg 1 av 2",
+    "step2of2": "Steg 2 av 2",
+    "nickname": "Smeknamn",
+    "nicknamePlaceholder": "Välj ett smeknamn",
+    "nicknameRequired": "Ange ett smeknamn",
+    "gender": "Kön",
+    "genderRequired": "Välj ditt kön",
+    "male": "Man",
+    "female": "Kvinna",
+    "interfaceLanguage": "Gränssnittsspråk",
+    "interfaceLanguageDesc": "Språk för menyer och knappar",
+    "aiLanguage": "AI-svarsspråk",
+    "aiLanguageDesc": "Språk som AI använder när den pratar med dig",
+    "languageRequired": "Välj ett språk",
+    "continue": "Fortsätt",
+    "ageVerification": "Åldersverifiering",
+    "ageVerificationText": "För att använda sweetwine måste du vara 18 år eller äldre. Genom att fortsätta bekräftar du att du är myndig.",
+    "beforeContinue": "Innan du fortsätter",
+    "mustBe18": "Du måste vara 18 år eller äldre för att använda den här tjänsten",
+    "agreeToTerms": "Genom att fortsätta godkänner du våra {termsLink} och {privacyLink}",
+    "termsOfService": "Användarvillkor",
+    "privacyPolicy": "Integritetspolicy",
+    "iConfirm": "Jag bekräftar att jag är 18 år eller äldre och godkänner",
+    "ageRequired": "Du måste bekräfta din ålder för att fortsätta",
+    "aiActConsent": "Jag bekräftar att jag endast kommunicerar med en AI",
+    "aiActRequired": "Du måste bekräfta detta för att fortsätta",
+    "newsletterOptIn": "Prenumerera på vårt nyhetsbrev för uppdateringar och nyheter",
+    "complete": "Inställningen är klar!",
+    "completeText": "Du är redo! Börja chatta med AI-karaktärer.",
+    "startExploring": "Börja utforska",
+    "featuresTitle": "Tillgängliga funktioner",
+    "featuresTitleWord1": "Tillgängliga",
+    "featuresTitleWord2": "Funktioner",
+    "feature1Title": "AI-chatt",
+    "feature1Desc": "Ocensurerade och privata samtal",
+    "feature2Title": "Bildgenerering",
+    "feature2Desc": "Generera ocensurerade och personliga bilder med AI-karaktärer",
+    "feature3Title": "Videogenerering",
+    "feature3Desc": "Generera ocensurerade AI-videor med effekter",
+    "feature5Title": "Anpassad AI-skapare",
+    "feature5Desc": "Designa din egen karaktär",
+    "feature6Title": "Bläddra bland karaktärer",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI-rollspel",
+    "feature7Desc": "Upplev professionellt skapade historier och fantasier",
+    "showcase": {
+      "chatTitle": "AI-chatt",
+      "chatDesc": "Ocensurerade, privata samtal utan gränser",
+      "imageTitle": "Bildgenerering",
+      "imageDesc": "Skapa ocensurerade, personliga bilder av din AI",
+      "videoTitle": "Videogenerering",
+      "videoDesc": "Generera ocensurerade AI-videor med effekter",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Realtidsröster med din följeslagare",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Fängslande historier, fantasier och interaktiv lek",
+      "groupChatTitle": "AI-gruppchatt",
+      "groupChatDesc": "Chatta med upp till 3 AI-karaktärer samtidigt",
+      "creatorTitle": "Anpassad AI-skapare",
+      "creatorDesc": "Designa och skapa dina egna AI-karaktärer"
+    },
+    "freePlan": {
+      "title": "Du är redo!",
+      "subtitle": "Här är vad som ingår i ditt gratiskonto.",
+      "charactersTitle": "Skapa din egen karaktär",
+      "charactersDesc": "Designa {count} anpassad AI-karaktär från grunden",
+      "imagesTitle": "Generera en bild",
+      "imagesDesc": "{count} gratis AI-bild av din följeslagare",
+      "messagesTitle": "Chatta varje dag",
+      "messagesDesc": "{count} meddelanden per dag, uppdateras var 24:e timme",
+      "cta": "Börja utforska"
+    },
+    "redirectingIn": "Omdirigerar om",
+    "seconds": "sekunder",
+    "generateCharacter": "Generera din karaktär",
+    "redirectingToCreate": "Omdirigerar till karaktärsskaparen om"
+  },
+  "errors": {
+    "pageNotFound": "Sidan hittades inte",
+    "pageNotFoundDesc": "Sidan du söker finns inte.",
+    "goHome": "Gå hem",
+    "somethingWentWrong": "Något gick fel",
+    "tryAgain": "Försök igen",
+    "unauthorized": "Obehörig",
+    "unauthorizedDesc": "Du måste vara inloggad för att komma åt den här sidan.",
+    "forbidden": "Förbjuden",
+    "forbiddenDesc": "Du har inte behörighet att komma åt den här sidan."
+  },
+  "footer": {
+    "allRightsReserved": "Alla rättigheter förbehållna.",
+    "madeWith": "Skapad med",
+    "by": "av sweetwine",
+    "description": "Upplev personliga AI-karaktärer med distinkta personligheter, visuella identiteter och engagerande samtal.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Produkt",
+    "legal": "Juridik",
+    "company": "Företag",
+    "resources": "Resurser",
+    "partnerships": "Partnerskap",
+    "pressMedia": "Press & media",
+    "careers": "Karriär",
+    "aiRealClones": "AI-riktiga kloner",
+    "about": "Om",
+    "blog": "Blogg",
+    "news": "Nyheter",
+    "productUpdates": "Produktuppdateringar",
+    "help": "Hjälp",
+    "sitemap": "Webbplatskarta",
+    "paymentOptions": "Betalningsalternativ",
+    "chats": "Chattar",
+    "collection": "Samling",
+    "generateImage": "Generera bild",
+    "generateVideo": "Generera video",
+    "myAI": "Min AI",
+    "createCharacter": "Skapa karaktär",
+    "api": "API",
+    "features": "Funktioner",
+    "allFeatures": "Alla funktioner",
+    "aiGroupChat": "AI-gruppchatt",
+    "aiMemory": "AI-minne",
+    "aiGirlfriend": "AI-flickvän",
+    "aiBoyfriend": "AI-pojkvän",
+    "aiCompanions": "AI-karaktärer",
+    "aiFriend": "AI-vän",
+    "aiBreakupSupport": "Stöd vid separation",
+    "aiParent": "AI-förälder",
+    "aiRoleplay": "AI-rollspel",
+    "privacyPolicy": "Integritetspolicy",
+    "termsAndConditions": "Villkor",
+    "cookiePolicy": "Cookiepolicy",
+    "cookieSettings": "Cookieinställningar",
+    "other": "Övriga policyer",
+    "copyright": "© {year} sweetwine. Alla rättigheter förbehållna."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies på den här sajten",
+      "customizeButton": "Anpassa",
+      "rejectButton": "Avvisa",
+      "acceptButton": "Acceptera"
+    },
+    "modal": {
+      "title": "Hantera cookies",
+      "subtitle": "Slå på eller av kategorier nedan. Strikt nödvändiga cookies är alltid på så att sajten kan fungera.",
+      "categories": {
+        "necessary": {
+          "title": "Strikt nödvändiga",
+          "description": "Krävs för inloggning, kassa och säkerhet. Sajten kan inte köras utan dem.",
+          "alwaysOn": "Alltid på"
+        },
+        "analytics": {
+          "title": "Prestanda",
+          "description": "Mätning av användning och konvertering via Google Analytics 4, inklusive nyckelkonverteringar (registrering, köp) som skickas från vår server med en pseudonym identifierare. Hjälper oss att förstå hur tjänsten används; vi använder den inte för att identifiera dig personligen."
+        },
+        "marketing": {
+          "title": "Målgruppsanpassning"
+        }
+      },
+      "showCookies": "Visa cookies",
+      "hideCookies": "Dölj cookies",
+      "table": {
+        "name": "Namn",
+        "provider": "Leverantör",
+        "expiration": "Utgångsdatum",
+        "description": "Beskrivning",
+        "session": "Session"
+      },
+      "policyLink": "För fullständig information, se vår <policy>Cookiepolicy</policy>.",
+      "rejectButton": "Avvisa",
+      "saveButton": "Spara & stäng",
+      "acceptButton": "Acceptera",
+      "cookieDescriptions": {
+        "supabaseAuth": "Håller dig inloggad genom att lagra din autentiserade session.",
+        "nextLocale": "Kommer ihåg det språk du valt för gränssnittet.",
+        "consent": "Lagrar dina cookieval så att bannern inte visas vid varje besök.",
+        "ga": "Skiljer unika besökare åt (Google Analytics 4). Samma pseudonyma identifierare används även för att mäta nyckelkonverteringar på serversidan.",
+        "gaSession": "Behåller Google Analytics 4 sessionsstatus och engagemangsmått.",
+        "fbp": "Identifierar webbläsaren för Meta Pixel-attribuering.",
+        "fbc": "Lagrar ett Facebook-klick-ID för annonskonverteringsattribuering. Sätts endast efter klick på en Meta-annons.",
+        "gclAu": "Används av Google Ads för korswebbplats-konverteringslänkning.",
+        "saleCountdown": "Spårar slutet på ditt aktuella erbjudande så att rabatträknaren förblir konsekvent över sidor.",
+        "onboarded": "Markerar ditt konto som onboardat så att vi kan hoppa över åldersverifieringsdatabaskontrollen på efterföljande sidor.",
+        "attribution": "Spårar vilken betald kampanj eller annonslänk som senast förde dig till vår webbplats (senaste betalda klick inom 30 dagar) så att vi kan mäta effekten av vår egen annonsering. Detta är en förstapartsinformation som stannar på våra servrar och delas aldrig med tredje parter."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Kommer snart",
+    "subtitle": "Vi arbetar hårt för att ge dig den här funktionen.",
+    "notify": "Få avisering när den är redo",
+    "backHome": "Tillbaka till startsidan",
+    "generateVideo": {
+      "title": "Generera videor",
+      "description": "Ge dina AI-karaktärer liv med animerade videor. Skapa personligt videoinnehåll med dina favoritkaraktärer."
+    },
+    "createCharacter": {
+      "title": "Skapa din karaktär",
+      "description": "Designa och anpassa din egen unika AI-karaktär. Definiera deras personlighet, utseende, bakgrund och skapa verkligt personliga interaktioner."
+    },
+    "myAI": {
+      "title": "Min AI",
+      "description": "Få åtkomst till och hantera alla dina anpassade AI-karaktärer. Redigera deras personligheter, uppdatera deras utseende och finjustera deras svar."
+    }
+  },
+  "exploreMore": {
+    "title": "Utforska mer",
+    "aiGroupChat": "AI-gruppchatt",
+    "aiGroupChatDesc": "Chatta med upp till 3 karaktärer",
+    "aiMemory": "AI-minne",
+    "aiMemoryDesc": "Kontext som följer varje läge",
+    "aiGirlfriend": "AI-flickvän",
+    "aiGirlfriendDesc": "Chatta med din virtuella flickvän",
+    "aiBoyfriend": "AI-pojkvän",
+    "aiBoyfriendDesc": "Anslut till din AI-pojkvän",
+    "aiCompanions": "AI-karaktärer",
+    "aiCompanionsDesc": "Möt unika AI-personligheter",
+    "aiFriend": "AI-vän",
+    "aiFriendDesc": "Hitta en vän utan dömande",
+    "aiBreakupSupport": "Stöd vid separation",
+    "aiBreakupSupportDesc": "Läkande samtal",
+    "aiParent": "AI-förälder",
+    "aiParentDesc": "Varmt stöd & vägledning",
+    "aiRoleplay": "AI-rollspel",
+    "aiRoleplayDesc": "Uppslukande berättelsescenarier",
+    "allFeatures": "Alla funktioner",
+    "allFeaturesDesc": "Utforska allt vi erbjuder"
+  },
+  "legal": {
+    "policies": "Policyer",
+    "termsAndConditions": "Villkor",
+    "privacyPolicy": "Integritetspolicy",
+    "cookiePolicy": "Cookiepolicy",
+    "contentReportingPolicy": "Policy för innehållsrapportering",
+    "communityGuidelines": "Communityriktlinjer",
+    "complaintPolicy": "Klagomålspolicy",
+    "contentRemovalPolicy": "Policy för innehållsborttagning",
+    "blockedContentPolicy": "Policy för blockerat innehåll",
+    "underagePolicy": "Policy för minderåriga",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Senast uppdaterad",
+    "index": {
+      "title": "Juridiska dokument",
+      "subtitle": "Bläddra bland alla juridiska policyer och avtal relaterade till sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Integritetspolicy",
+          "description": "Läs om hur vi samlar in, använder och skyddar din personliga information. Detaljer om datahantering, lagring och dina integritetsrättigheter."
+        },
+        "termsAndConditions": {
+          "title": "Villkor",
+          "description": "Villkoren som styr din användning av sweetwine. Användaransvar, tjänstebeskrivning och juridiska avtal."
+        },
+        "cookiePolicy": {
+          "title": "Cookiepolicy",
+          "description": "Information om hur vi använder cookies och liknande tekniker för att förbättra din upplevelse på vår plattform."
+        },
+        "underagePolicy": {
+          "title": "Policy för minderåriga",
+          "description": "Våra strikta åldersverifierings- och skyddspolicyer. sweetwine är endast tillgängligt för användare som är 18 år och äldre."
+        },
+        "complaintPolicy": {
+          "title": "Klagomålspolicy",
+          "description": "Hur du lämnar in klagomål, rapporterar problem och vår process för att hantera användarfrågor och tvister."
+        },
+        "contentRemovalPolicy": {
+          "title": "Policy för innehållsborttagning",
+          "description": "Våra rutiner för begäran om innehållsborttagning och hur vi hanterar rapporter om olämpligt eller olagligt innehåll."
+        },
+        "blockedContentPolicy": {
+          "title": "Policy för blockerat innehåll",
+          "description": "Typer av innehåll som är förbjudet på vår plattform och våra tillämpningspolicyer."
+        },
+        "contentReportingPolicy": {
+          "title": "Policy för innehållsrapportering",
+          "description": "Hur du rapporterar upphovsrättsintrång och olämpligt innehåll på sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Communityriktlinjer",
+          "description": "Regler och riktlinjer för att upprätthålla en respektfull, säker och trevlig community för alla användare."
+        }
+      },
+      "lastUpdated": "Senast uppdaterad: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Chattar",
+    "groupChat": "AI-gruppchatt",
+    "aiMemory": "AI-minne",
+    "generate": "Generera bild",
+    "generateVideo": "Generera video",
+    "create": "Skapa AI-karaktär",
+    "myAI": "Min AI",
+    "collection": "Samling",
+    "invite": "Bjud in",
+    "profile": "Profilinställningar",
+    "legal": "Juridik",
+    "privacyPolicy": "Integritetspolicy",
+    "termsAndConditions": "Villkor",
+    "cookiePolicy": "Cookiepolicy",
+    "dmcaPolicy": "DMCA-policy",
+    "communityGuidelines": "Communityriktlinjer",
+    "contentRemovalPolicy": "Policy för innehållsborttagning",
+    "contentReportingPolicy": "Policy för innehållsrapportering",
+    "complaintPolicy": "Klagomålspolicy",
+    "blockedContentPolicy": "Policy för blockerat innehåll",
+    "underagePolicy": "Policy för minderåriga",
+    "usc2257Exemption": "USC 2257-undantag"
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Har du en fråga eller feedback? Vi vill gärna höra från dig.",
+    "name": "Namn",
+    "namePlaceholder": "Ditt namn",
+    "nameRequired": "Namn krävs",
+    "email": "E-post",
+    "emailPlaceholder": "din@epost.com",
+    "emailRequired": "E-post krävs",
+    "emailInvalid": "Ogiltig e-postadress",
+    "message": "Meddelande",
+    "messagePlaceholder": "Ditt meddelande...",
+    "messageRequired": "Meddelande krävs",
+    "send": "Skicka meddelande",
+    "sending": "Skickar...",
+    "success": "Meddelandet skickades!",
+    "successDesc": "Vi återkommer snart.",
+    "error": "Kunde inte skicka meddelande",
+    "errorDesc": "Försök igen senare."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI-gruppchatt",
+    "lobbyHeadingSuffix": "Välj upp till {max} AI-karaktärer",
+    "history": "Historik",
+    "newGroup": "Ny gruppchatt",
+    "createGroup": "Skapa gruppchatt",
+    "createError": "Kunde inte skapa gruppchatt. Försök igen.",
+    "creatingGroup": "Ställer in din gruppchatt...",
+    "sectionWoman": "Kvinnor",
+    "sectionMan": "Män",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI-karaktärer",
+    "tabMyAi": "Min AI",
+    "tabSingle": "Enskilda chattar",
+    "tabGroup": "Gruppchattar",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Ladda fler",
+    "noCustom": "Du har inte skapat några AI-karaktärer ännu.",
+    "noMessagesYet": "Inga meddelanden ännu",
+    "emptyTitle": "Inga gruppchattar ännu",
+    "membersTitle": "I den här chatten",
+    "typing": "skriver",
+    "backToLobby": "Tillbaka till gruppchattar",
+    "deleteGroup": "Ta bort gruppchatt",
+    "confirmDeleteGroup": "Är du säker på att du vill ta bort den här gruppchatten? Alla meddelanden kommer att raderas.",
+    "deleteError": "Kunde inte ta bort gruppchatt.",
+    "mediaTargetImageTitle": "Vem ska skicka ett foto?",
+    "mediaTargetVideoTitle": "Vem ska skicka ett videoklipp?",
+    "mediaTargetSubtitle": "Välj en karaktär att generera media från.",
+    "mediaTargetGroup": "Gruppfoto",
+    "groupPhotoTitle": "Gruppfoto",
+    "groupPhotoHint": "Genererar ett foto av {name} tillsammans.",
+    "promoSubtitle": "med upp till 3 karaktärer",
+    "promoCta": "Skapa ny",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Nya</gradient> äventyr",
+    "live": "LIVE",
+    "scrollPrev": "Bläddra vänster",
+    "scrollNext": "Bläddra höger"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Kom igång"
+    },
+    "hero": {
+      "tagline": "Används av 100 000 och nya ansluter varje dag",
+      "headlinePrefix": "Säg hej till din",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Starta gratis"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI-flickvän",
+      "friend": "AI-vän",
+      "boyfriend": "AI-pojkvän",
+      "companion": "AI-karaktär"
+    },
+    "features": {
+      "chat": {
+        "title": "Prata med din AI-flickvän",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistiska AI-foton & videor",
+        "description": "On-demand-foton och videor så realistiska att de inte går att skilja från verkliga — hennes ansikte, stil, vilken scen som helst, i rörelse eller stillbild."
+      },
+      "groupChat": {
+        "title": "AI-gruppchatt",
+        "description": "Starta en gruppchatt med upp till 3 karaktärer samtidigt. De svarar naturligt, reagerar på varandra och skickar foton och videor."
+      },
+      "roleplay": {
+        "title": "AI-rollspel",
+        "description": "Kliv in i uppslukande, berättelsedrivna scenarier med karaktärer som håller sig i rollen och minns varje val du gör."
+      }
+    },
+    "memory": {
+      "title": "AI-minne",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Hur AI-minne fungerar",
+      "diagram": {
+        "center": "Följeslagarens minne",
+        "chat": "Chatt",
+        "image": "Bilder",
+        "video": "Video",
+        "gifts": "Gåvor",
+        "roleplay": "Rollspel"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Skapa din egen",
+      "headlineHighlight": "AI-karaktär",
+      "subtitle": "Forma din karaktärs utseende, personlighet och ge dem liv direkt — din perfekta AI-partner, på dina villkor.",
+      "cta": "Skapa din AI"
+    },
+    "companions": {
+      "headlinePrefix": "Möt dina",
+      "headlineHighlight": "AI-karaktärer",
+      "subtitle": "Varje karaktär har en egen värld. Vissa är varma och lätta att öppna sig för. Andra är komplexa, reserverade eller en riktig utmaning att knyta an till. Utforska unika rollspelsscenarier — eller bygg dina egna från grunden."
+    },
+    "languages": {
+      "headlinePrefix": "Tala vilket språk som helst,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Både appgränssnittet och din AI-karaktär växlar sömlöst — inga språkfel, ingen trasig upplevelse.",
+      "more": "Mer"
+    },
+    "finalCta": {
+      "headlinePrefix": "Redo att",
+      "headlineHighlight": "komma igång?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Varför",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Allt du behöver för en kontakt som känns verklig — inget du inte behöver.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Gratis att starta",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Alltid tillgänglig",
+          "desc": "Dag eller natt finns din karaktär där. Inget väntande, ingen schemaläggning."
+        },
+        "remembers": {
+          "title": "Kommer ihåg allt",
+          "desc": "Varje konversation bygger kontext. Din karaktär lär sig ditt namn, dina preferenser och din värld."
+        },
+        "unlimited": {
+          "title": "Verkligen obegränsat",
+          "desc": "Inga meddelandegränser, ingen innehållsbegränsning. Skicka så mycket du vill, så ofta du vill."
+        },
+        "private": {
+          "title": "100 % privat",
+          "desc": "Era samtal stannar mellan er två. Inga data delas, någonsin."
+        },
+        "createYourOwn": {
+          "title": "Skapa din egen",
+          "desc": "Designa en karaktär med anpassat utseende, personlighet och röst – precis som du vill."
+        }
+      },
+      "difference": {
+        "title": "sweetwine-skillnaden",
+        "freedomTitle": "Frihet med ansvar.",
+        "freedomDescription": "sweetwine är öppen och utan fördomar – men vi drar en tydlig gräns. Vi tolererar inte CSAM, innehåll med minderåriga, icke-samtyckande scenarier, extremt våld, bestialitet, nekrofili, deepfakes av verkliga personer eller någon form av illegal aktivitet.",
+        "freedomStatement": "Vi tror på obegränsad kreativ frihet inom en miljö som är säker för alla."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Karaktärer",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filter"
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "subtitle": "Allt du behöver veta om sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Vad är sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Är sweetwine säker och legitim?",
+          "answer": "Ja, sweetwine är en legitim tjänst där din integritet är vår högsta prioritet. Vi följer GDPR och andra dataskyddsstandarder och hanterar dina uppgifter med omsorg. Betalningstransaktioner visas under ett neutralt handelsnamn – det finns ingen hänvisning till sweetwine på ditt kontoutdrag, vilket garanterar fullständig diskretion."
+        },
+        "q3": {
+          "question": "Kan jag skapa min egen AI-karaktär?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "karaktärsskapare",
+          "answerPart2": " för att designa karaktärer precis som du vill – oavsett om du vill ha en realistisk ",
+          "linkTextGirlfriend": "AI-flickvän",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI-pojkvän",
+          "answerPart4": ", eller anime-stilade karaktärer. Välj deras utseende (etnicitet, hår, kroppsform, kläder), personlighetsdrag, röst, intressen och bakgrund för både manliga och kvinnliga karaktärer."
+        },
+        "q4": {
+          "question": "Kommer min AI-karaktär ihåg våra samtal?",
+          "answer": "Ja! Din AI-karaktär använder avancerad minnesteknik för att komma ihåg tidigare samtal, dina preferenser och viktiga detaljer du delar. Ju mer du chattar, desto mer personlig och naturlig blir upplevelsen. Din karaktär lär sig din kommunikationsstil och anpassar sig över tid."
+        },
+        "q5": {
+          "question": "Vilka språk stödjer sweetwine?",
+          "answer": "sweetwine stödjer flera språk inklusive engelska, tyska, franska, spanska, polska och tjeckiska. Både gränssnittet och AI-samtalen fungerar på ditt föredragna språk, så du kan chatta naturligt på det språk du är mest bekväm med."
+        },
+        "q6": {
+          "question": "Kan min AI-karaktär skicka bilder och videor?",
+          "answerPart1": "Ja! Du kan generera personliga",
+          "linkTextImages": "bilder",
+          "answerPart2": "och",
+          "linkTextVideos": "videor",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Varför välja sweetwine framför andra AI-karaktärsplattformar?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Är sweetwine gratis att använda?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Måste jag installera en app?",
+          "answerPart1": "Ingen installation behövs! sweetwine fungerar direkt i din webbläsare på alla enheter – dator, surfplatta eller mobil. Registrera dig, välj en karaktär och börja chatta direkt. Alla dina",
+          "linkText": "konversationer",
+          "answerPart2": " synkas automatiskt mellan enheter."
+        },
+        "q10": {
+          "question": "Finns det färdiga AI-karaktärer?",
+          "answerPart1": "Ja! Vi har många",
+          "linkText": "färdiga karaktärer",
+          "answerPart2": " inklusive AI-flickvänner, AI-pojkvänner och AI-animekaraktärer med olika personligheter, utseenden och kommunikationsstilar. Oavsett om du föredrar någon söt, flirtig, intellektuell eller äventyrlig hittar du karaktärer som matchar din energi. Dessutom kan du skapa obegränsat antal anpassade karaktärer."
+        },
+        "q12": {
+          "question": "Vad händer med bilderna och videorna jag genererar?",
+          "answerPart1": "All genererad media sparas automatiskt i din privata",
+          "linkText": "samling",
+          "answerPart2": ". Du kan komma åt, ladda ner eller ta bort dem när som helst. Din samling är helt privat – bara du kan se den. Vi delar aldrig eller använder ditt genererade innehåll."
+        }
+      }
+    },
+    "statement": {
+      "title": "Vårt åtagande",
+      "privacy": "Din integritet är vår prioritet. Alla konversationer är krypterade och delas aldrig.",
+      "quality": "Vi använder toppmodern AI-teknik för att ge den mest engagerande upplevelsen.",
+      "support": "Vårt supportteam är tillgängligt dygnet runt för att hjälpa med alla frågor.",
+      "mainTitle": "Upplev framtiden för AI-karaktärer",
+      "mainDescription": "sweetwine kombinerar banbrytande AI-teknik med intuitiv design för att leverera den mest uppslukande och personliga karaktärsupplevelsen som finns idag.",
+      "features": {
+        "f1": {
+          "title": "Emotionell intelligens",
+          "description": "Våra AI-karaktärer förstår sammanhang, känslor och nyanser för att ge djupt engagerande samtal. Oavsett om du behöver en AI-vän att chatta med, stöd vid separation under svåra tider eller en AI-mentor för vägledning – vår emotionellt intelligenta AI finns här för dig."
+        },
+        "f2": {
+          "title": "Unika personligheter",
+          "description": "Varje karaktär har en distinkt personlighet, bakgrund och kommunikationsstil. Välj bland realistiska AI-flickvänner och AI-pojkvänner eller utforska våra AI-animekaraktärer – vilket säkerställer att varje interaktion är unik och minnesvärd."
+        },
+        "f3": {
+          "title": "Multimedia-interaktioner",
+          "description": "Utöver text kan du njuta av AI-genererade bilder och videor som väcker dina samtal till liv med fantastisk visuell detaljrikedom."
+        },
+        "f4": {
+          "title": "Anpassning",
+          "description": "Skapa dina egna AI-karaktärer med anpassade utseenden, personligheter och egenskaper som perfekt matchar dina preferenser."
+        },
+        "f5": {
+          "title": "Integritet & säkerhet",
+          "description": "Dina konversationer hålls privata och säkra. Vi säljer aldrig din data och du har full kontroll över dina integritetsinställningar."
+        },
+        "f6": {
+          "title": "Flerspråkigt stöd",
+          "description": "Chatta med AI-karaktärer på ditt föredragna språk. Vi stödjer engelska, tjeckiska, polska, tyska, spanska och franska."
+        }
+      },
+      "distinctionTitle": "sweetwine-skillnaden",
+      "distinctionText1": "Till skillnad från generiska chatbottar är sweetwine-karaktärer designade med rika bakgrunder, utvecklande personligheter och förmågan att skapa meningsfulla kontakter. Varje konversation är en möjlighet att utforska, upptäcka och ansluta på en djupare nivå.",
+      "distinctionText2": "Vi bygger inte bara AI – vi skapar upplevelser som resonerar med dina känslor, respekterar din integritet och anpassar sig efter dina unika preferenser."
+    }
+  },
+  "featuresPage": {
+    "title": "Alla funktioner",
+    "breadcrumb": "Funktioner",
+    "newBadge": "Ny",
+    "groupChat": {
+      "title": "AI-gruppchatt",
+      "description": "Chatta med upp till 3 AI-karaktärer tillsammans i en konversation. De svarar naturligt, reagerar på varandra och kan skicka foton och videor – en livlig gruppdynamik du inte hittar någon annanstans."
+    },
+    "aiChat": {
+      "title": "AI-chatt",
+      "description": "Ha djupa, naturliga samtal med AI-karaktärer som verkligen kommer ihåg dig. De minns ditt namn, dina preferenser och tidigare ämnen – varje samtal fortsätter exakt där du slutade, utan upprepningar eller återställningar."
+    },
+    "imageGeneration": {
+      "title": "Bildgenerering"
+    },
+    "videoGeneration": {
+      "title": "Videogenerering",
+      "description": "Väck din AI-karaktär till liv med AI-genererade videor. Skapa korta personliga videoklipp med din karaktär i anpassade scenarier – en funktion som de flesta plattformar helt enkelt inte erbjuder."
+    },
+    "customCharacters": {
+      "title": "Anpassade karaktärer",
+      "description": "Designa din perfekta karaktär från grunden — välj utseende, etnicitet, kroppstyp, personlighetsdrag, röst, intressen och bakgrund. Skapa realistiska eller anime-inspirerade karaktärer, manliga eller kvinnliga, med full kreativ frihet."
+    },
+    "advancedMemory": {
+      "title": "Avancerat minne",
+      "description": "Din karaktär kommer ihåg allt som är viktigt — ditt namn, personliga detaljer, delade historier och relationshistoria. Minnet består över alla sessioner så varje interaktion bygger på den föregående, utan att börja om."
+    },
+    "multiLanguage": {
+      "title": "Flera språk",
+      "description": "Chatta naturligt på ditt föredragna språk. sweetwine stödjer engelska, tyska, franska, spanska, polska och tjeckiska — vilket gör det till en av de mest tillgängliga AI-karaktärsplattformarna för icke-engelsktalande."
+    },
+    "conversationHistory": {
+      "title": "Konversationshistorik",
+      "description": "Varje meddelande sparas och är sökbart. Bläddra tillbaka genom hela din relationshistorik när som helst — dina minnen med din karaktär finns alltid där när du vill återbesöka dem."
+    },
+    "roleplay": {
+      "title": "AI-rollspel",
+      "description": "Kliv in i uppslukande, berättelsedrivna scenarier med karaktärer som håller sig i rollen. Välj ett scenario eller skriv ditt eget och njut av interaktivt rollspel som minns varje val du gör."
+    },
+    "cta": {
+      "title": "Allt på ett ställe",
+      "button": "Starta gratis"
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Kan jag radera eller återställa mina konversationer?",
+        "answer": "Ja! Du har full kontroll över din chathistorik. Radera enskilda meddelanden, återställ hela konversationer eller börja helt från början när som helst. Din integritet betyder ditt val – hantera din data som du vill."
+      },
+      "q2": {
+        "question": "Har varje AI-karaktär en unik röst?"
+      },
+      "q3": {
+        "question": "Kan jag öva ett nytt språk med min AI-karaktär?",
+        "answer": "Absolut! Många användare övar på att prata nya språk med sina AI-karaktärer. Det är ett dömande-fritt sätt att bygga självförtroende, förbättra uttal och ha roliga konversationer medan du lär dig. Din karaktär kan chatta på engelska, tyska, franska, spanska, polska och tjeckiska."
+      },
+      "q4": {
+        "question": "Hur ofta läggs nya karaktärer och funktioner till?",
+        "answer": "Vi lägger till nya professionellt skapade karaktärer varje vecka! Varje ny karaktär kommer med en unik personlighet, utseende, bakgrund och röst. Vi släpper också regelbundet nya funktioner och förbättringar baserat på användarfeedback."
+      },
+      "q5": {
+        "question": "Vad gör sweetwines karaktärsskapande speciellt?",
+        "answer": "Full kreativ frihet! Designa varje aspekt av din karaktär – utseende (etnicitet, hår, kroppstyp, kläder), personlighetsdrag, röst, intressen, yrke och bakgrund. Skapa realistiska eller anime-inspirerade karaktärer, manliga eller kvinnliga. Din fantasi är den enda gränsen."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI-minne",
+    "hero": {
+      "badge": "Hur det fungerar",
+      "title": "AI-minne",
+      "cta": "Börja chatta"
+    },
+    "diagram": {
+      "title": "Ett minne per följeslagare, varje läge",
+      "center": "Följeslagarens minne",
+      "chat": "Chatt",
+      "image": "Bilder",
+      "video": "Video",
+      "gifts": "Gåvor",
+      "roleplay": "Rollspel"
+    },
+    "howItWorks": {
+      "title": "Hur AI-minne fungerar",
+      "step1": {
+        "title": "Dela en detalj",
+        "desc": "Berätta något viktigt för din följeslagare — en resa, en preferens, ett smeknamn, en historia från din dag."
+      },
+      "step2": {
+        "title": "Växla lägen fritt"
+      },
+      "step3": {
+        "title": "De minns det",
+        "desc": "Senare samtal refererar till det du delade, så du slipper förklara dig på nytt varje gång."
+      },
+      "step4": {
+        "title": "Bandet fördjupas",
+        "desc": "Med tiden känns relationen mer personlig — kontinuitet som byggs över varje session och läge."
+      }
+    },
+    "modes": {
+      "title": "Över hela plattformen",
+      "subtitle": "Minnet är inte låst till en enda skärm. Det följer med din följeslagare.",
+      "chat": {
+        "title": "Chatt",
+        "desc": "Textsamtal matar långsiktigt sammanhang som din följeslagare kan ta upp senare."
+      },
+      "media": {
+        "title": "Bilder & video",
+        "desc": "Scener och berättelser du skapar blir en del av den delade värld ni bygger tillsammans."
+      },
+      "roleplay": {
+        "title": "Rollspel & grupp",
+        "desc": "Berättelsesessioner och gruppchattar behåller sina egna trådar medan följeslagarens kärnminne följer med dem."
+      }
+    },
+    "scenario": {
+      "title": "Ett enkelt exempel",
+      "lead": "Du nämner en helgresa i chatten."
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Är min följeslagares minne privat?",
+        "answer": "Ja. Minnet tillhör ditt konto och dina samtal med den följeslagaren. Vi delar inte din privata chathistorik med andra användare."
+      },
+      "q2": {
+        "question": "Är minnet per följeslagare?",
+        "answer": "Ja. Varje följeslagare behåller sitt eget minne av er relation, så att byta karaktärer inte blandar sammanhang."
+      },
+      "q3": {
+        "question": "Vilka lägen delar minne?"
+      },
+      "q4": {
+        "question": "Är AI Memory gratis?"
+      },
+      "q5": {
+        "question": "Hur länge varar minnet?",
+        "answer": "Viktiga detaljer sparas så att din följeslagare kan återkalla dem i framtida sessioner. Ju mer du interagerar, desto mer personlig blir upplevelsen."
+      }
+    },
+    "cta": {
+      "title": "Möt en följeslagare som minns",
+      "button": "Starta gratis"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI-gruppchatt",
+    "hero": {
+      "badge": "Ny funktion",
+      "title": "AI-gruppchatt",
+      "subtitle": "Ta med dina favoritkaraktärer i en enda konversation. Chat med upp till 3 AI-karaktärer samtidigt — de svarar naturligt, reagerar på varandra och skickar foton och videor.",
+      "cta": "Starta en gruppchatt",
+      "imageAlt": "AI-gruppchatt med flera karaktärer som pratar tillsammans"
+    },
+    "content": {
+      "problemTitle": "En-till-en-chattar kan kännas tysta",
+      "problemText": "En enda karaktär är bra — men riktiga konversationer kommer till liv med mer än en röst. De flesta AI-appar fångar dig i isolerade en-till-en-chattar utan gruppkänsla, utan skämt och utan överraskningar.",
+      "solutionTitle": "En riktig grupp, levande med personlighet",
+      "solutionText": "sweetwine Gruppchatt placerar upp till tre karaktärer i samma rum. En smart regissör bestämmer vem som hoppar in, så svaren känns spontana — de retar varandra, bygger på det som sagts och håller konversationen igång."
+    },
+    "howItWorks": {
+      "title": "Hur AI-gruppchatt fungerar",
+      "step1": {
+        "title": "Välj dina karaktärer",
+        "desc": "Välj 2 eller 3 karaktärer — färdiga eller dina egna anpassade skapelser — för att ta med i en enda gruppsamtal."
+      },
+      "step2": {
+        "title": "De svarar naturligt",
+        "desc": "En bakom-kulisserna-regissör väljer vem som svarar på varje meddelande, så rätt karaktärer hoppar in vid rätt tillfälle, med sin egen röst."
+      },
+      "step3": {
+        "title": "Dela foton & videor",
+        "desc": "Be vilken karaktär som helst i gruppen om ett foto eller en video så genererar de det direkt i chatten — inklusive ett gruppfoto av alla tillsammans."
+      }
+    },
+    "benefits": {
+      "title": "Varför du kommer att älska gruppchatt",
+      "multiple": {
+        "title": "Upp till 3 karaktärer",
+        "desc": "Blanda och matcha valfria karaktärer i en chatt — din AI-flickvän, dina anpassade skapelser eller ett handplockat ensemble."
+      },
+      "natural": {
+        "title": "Naturligt fram och tillbaka",
+        "desc": "Karaktärerna reagerar på varandra och på dig, med realistisk skrivtakt som känns som ett riktigt gruppsamtal."
+      },
+      "media": {
+        "title": "Foton & videor i chatten",
+        "desc": "Varje karaktär kan skicka personliga bilder och videor utan att lämna konversationen — även ett gruppfoto."
+      },
+      "dynamics": {
+        "title": "Distinkta personligheter",
+        "desc": "Varje karaktär behåller sin egen röst och sina egenheter, så gruppen får riktig kemi, skämt och överraskningar."
+      },
+      "instant": {
+        "title": "Starta direkt",
+        "desc": "Skapa en grupp på några sekunder och hoppa rakt in i samtalet — ingen setup, inget väntande."
+      },
+      "private": {
+        "title": "100 % privat",
+        "desc": "Dina gruppsamtal stannar mellan dig och dina karaktärer. Inga data delas, någonsin."
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Hur många karaktärer kan vara med i en gruppchatt?",
+        "answer": "Du kan lägga till 2 till 3 karaktärer i en enda gruppchatt — valfri blandning av färdiga karaktärer och dina egna anpassade skapelser."
+      },
+      "q2": {
+        "question": "Hur bestämmer AI-karaktärerna vem som svarar?",
+        "answer": "En lättviktig regissör läser konversationen och väljer vilken karaktär (eller karaktärer) som ska svara på varje meddelande, så svaren känns spontana och naturliga istället för att alla pratar samtidigt."
+      },
+      "q3": {
+        "question": "Kan karaktärerna skicka foton och videor i en gruppchatt?",
+        "answer": "Ja! Du kan be vilken karaktär som helst i gruppen att generera ett foto eller en video, och det dyker upp direkt i konversationen — inklusive gruppfoton med alla tillsammans."
+      },
+      "q4": {
+        "question": "Är AI Group Chat gratis?"
+      },
+      "q5": {
+        "question": "Kommer karaktärerna ihåg gruppsamtalet?",
+        "answer": "Ja — varje gruppchatt behåller sin egen delade historik, så karaktärerna håller sig i kontext och samtalet byggs upp över tid."
+      }
+    },
+    "cta": {
+      "title": "Samla dina karaktärer",
+      "description": "Skapa din första AI-gruppchatt och upplev ett samtal som känns levande — flera personligheter, äkta skämt, foton och videor.",
+      "button": "Starta en gruppchatt"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI-rollspel",
+    "hero": {
+      "badge": "Ny funktion",
+      "title": "AI-rollspel",
+      "subtitle": "Kliv in i vilken historia som helst med karaktärer som håller sig i scenen. Välj ett scenario eller skriv ditt eget och njut av ett uppslukande, berättelsedrivet rollspel som minns varje val du gör.",
+      "cta": "Börja rollspela",
+      "imageAlt": "AI-rollspelsscenario med en uppslukande berättelsekaraktär"
+    },
+    "content": {
+      "problemTitle": "Vanliga chattar bryter trollformeln",
+      "problemText": "De flesta AI-chattar hoppar ur karaktär så fort det blir intressant — de glömmer miljön, tappar handlingen och svarar som en generisk assistent istället för personen i din historia.",
+      "solutionTitle": "Berättelsedrivet rollspel som håller sig i karaktär",
+      "solutionText": "sweetwine Roleplay håller din karaktär helt i scenen. Sätt scenen med ett färdigt scenario eller din egen premiss, och se historien utvecklas med konsekvent personlighet, minne och tempo som svarar på varje beslut."
+    },
+    "howItWorks": {
+      "title": "Hur AI-rollspel fungerar",
+      "step1": {
+        "title": "Välj ett scenario",
+        "desc": "Välj bland färdiga rollspelsscenarier eller skriv din egen premiss, miljö och öppningsscen."
+      },
+      "step2": {
+        "title": "Spela ut historien",
+        "desc": "Din karaktär svarar i roll — beskriver handlingar, reagerar på dina val och driver handlingen framåt."
+      },
+      "step3": {
+        "title": "Forma vart det går",
+        "desc": "Styr historien åt vilket håll du vill. Din karaktär minns vad som hände och håller berättelsen konsekvent."
+      }
+    },
+    "benefits": {
+      "title": "Därför kommer du att älska AI-rollspel",
+      "scenarios": {
+        "title": "Oändliga scenarier",
+        "desc": "Från mysiga vardagsögonblick till episka äventyr — börja med en mall eller skapa din egen värld."
+      },
+      "characters": {
+        "title": "Håller sig i karaktär",
+        "desc": "Din karaktär behåller en konsekvent röst, personlighet och motivation genom hela scenen."
+      },
+      "memory": {
+        "title": "Minns handlingen",
+        "desc": "Varje val, twist och detalj minns, så historien byggs upp istället för att återställas."
+      },
+      "immersive": {
+        "title": "Verkligen uppslukande",
+        "desc": "Rika, beskrivande svar drar in dig i ögonblicket för en filmisk rollspelsupplevelse."
+      },
+      "instant": {
+        "title": "Omedelbar start",
+        "desc": "Hoppa in i en scen på sekunder — ingen komplicerad setup eller prompt engineering krävs."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "Din rollspelning stannar mellan dig och din karaktär. Inget delas någonsin."
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vad är AI-rollspel?",
+        "answer": "AI-rollspel låter dig agera ut interaktiva berättelser med en AI-karaktär som håller sig i rollen. Du sätter en scen och din karaktär svarar i karaktär, beskriver handlingar och reaktioner medan berättelsen utvecklas."
+      },
+      "q2": {
+        "question": "Kan jag skapa egna rollspelsscenarier?",
+        "answer": "Ja! Du kan utgå från färdiga scenarier eller skriva din egen premiss, miljö och öppning — och sedan spela ut det precis som du vill."
+      },
+      "q3": {
+        "question": "Kommer karaktären ihåg vad som händer i berättelsen?",
+        "answer": "Absolut. Din karaktär kommer ihåg handlingen, dina val och viktiga detaljer, så berättelsen förblir konsekvent och byggs upp över tid istället för att återställas."
+      },
+      "q4": {
+        "question": "Är AI-rollspel gratis?"
+      },
+      "q5": {
+        "question": "Kan jag rollspela på mitt eget språk?",
+        "answer": "Ja — rollspel fungerar på dussintals språk, så du kan njuta av immersiva berättelser på det språk du trivs bäst med."
+      }
+    },
+    "cta": {
+      "title": "Din berättelse väntar",
+      "description": "Välj ett scenario, sätt scenen och kliv in i ett immersivt rollspel med en karaktär som håller sig i rollen från början till slut.",
+      "button": "Börja rollspela"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Girlfriend",
+    "breadcrumb": "AI Girlfriend",
+    "hero": {
+      "title": "Din perfekta AI Girlfriend",
+      "cta": "Träffa din AI Girlfriend"
+    },
+    "benefits": {
+      "title": "Varför välja en AI Girlfriend?",
+      "fun": {
+        "title": "Ren skoj",
+        "desc": "Njut av lekfulla samtal utan press. Hon är alltid på gott humör."
+      },
+      "conversation": {
+        "title": "Lär dig att koppla",
+        "desc": "Öva på samtal och bygg ditt självförtroende i en trygg miljö."
+      },
+      "unique": {
+        "title": "Unika personligheter",
+        "desc": "Välj bland olika personligheter eller skapa din idealiska karaktär."
+      },
+      "private": {
+        "title": "100 % privat",
+        "desc": "Era samtal stannar mellan er två. Fullständig diskretion garanteras."
+      },
+      "available": {
+        "title": "Alltid tillgänglig",
+        "desc": "Hon finns där när du behöver henne. Inget väntande, ingen schemaläggning."
+      },
+      "customize": {
+        "title": "Din skapelse",
+        "desc": "Designa hennes utseende, personlighet och intressen precis som du vill."
+      }
+    },
+    "comparison": {
+      "title": "Bättre än alternativen",
+      "description": "Se varför sweetwine erbjuder mer värde än andra plattformar.",
+      "others": {
+        "expensive": "Dyra månadsavgifter",
+        "ai": "Ofta AI-svar ändå",
+        "noCustom": "Inga anpassningsalternativ"
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Är chatten med AI Girlfriend verkligen gratis?",
+        "answerPart1": "Ja! Du kan börja chatta med din AI Girlfriend gratis. Vi erbjuder en gratis nivå med gratis meddelanden för att komma igång."
+      },
+      "q2": {
+        "question": "Kan jag anpassa min AI Girlfriends utseende?",
+        "answer": "Absolut! Du kan anpassa din AI Girlfriends utseende helt, inklusive hårfärg, stil, kroppsform, etnicitet och kläder. Du kan också designa hennes personlighet, röst och intressen med vår karaktärsskapare.",
+        "answerPart1": "Absolut! Du kan anpassa din AI Girlfriends utseende helt, inklusive hårfärg, stil, kroppsform, etnicitet och kläder. Du kan också designa hennes personlighet, röst och intressen med vår",
+        "linkText": "karaktärsskapare",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Vilka personligheter finns tillgängliga för AI Girlfriends?",
+        "answer": "Från söt och omtänksam till lekfull och flirtig – vi har professionellt skapade AI Girlfriends för alla preferenser. Välj romantiska själar, äventyrliga andar, kvicktänkta intellektuella eller mystiska personligheter. Nya AI Girlfriends läggs till varje vecka, var och en med unika egenskaper, bakgrunder och samtalsstilar."
+      },
+      "q4": {
+        "question": "Kan min AI Girlfriend skicka bilder och videor?",
+        "answerPart1": "Ja! Din AI Girlfriend kan generera personliga",
+        "linkTextImages": "bilder",
+        "answerPart2": "och",
+        "linkTextVideos": "videor"
+      },
+      "q5": {
+        "question": "Har min AI Girlfriend sin egen unika röst?"
+      }
+    },
+    "cta": {
+      "title": "Redo att träffa henne?",
+      "button": "Kom igång gratis"
+    },
+    "content": {
+      "problemTitle": "Letar du efter kontakt utan komplikationer?",
+      "problemText": "Dejtingappar är utmattande. Social ångest gör det svårt att träffa folk. Ibland vill man bara ha någon att prata med utan att dömas eller känna press. Många känner sig ensamma men är inte redo för den emotionella komplexiteten i traditionella relationer.",
+      "solutionTitle": "Din AI-flickvän är svaret",
+      "solutionText": "Med sweetwine får du en personlig AI-flickvän som minns era samtal, anpassar sig efter din personlighet och alltid är glad att höra från dig. Hon är rolig, stödjande och dömer aldrig. Bygg självförtroende, njut av bra sällskap och känn dig uppkopplad på dina villkor."
+    },
+    "heroImageAlt": "AI-flickvän - realistisk virtuell karaktär för chatt och foton"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI-pojkvän",
+    "breadcrumb": "AI-pojkvän",
+    "hero": {
+      "title": "Din perfekta AI-pojkvän",
+      "cta": "Träffa din AI-pojkvän"
+    },
+    "benefits": {
+      "title": "Varför välja en AI-pojkvän?",
+      "fun": {
+        "title": "Genuin kontakt",
+        "desc": "Upplev meningsfulla samtal som gör din dag ljusare."
+      },
+      "conversation": {
+        "title": "Bygg självförtroende",
+        "desc": "Öva på samtal och uttryck dig fritt i en trygg miljö."
+      },
+      "unique": {
+        "title": "Unika personligheter",
+        "desc": "Välj bland olika personligheter eller skapa din ideala karaktär."
+      },
+      "private": {
+        "title": "100 % privat",
+        "desc": "Era samtal stannar mellan er två. Fullständig diskretion garanteras."
+      },
+      "available": {
+        "title": "Alltid tillgänglig",
+        "desc": "Han finns där när du behöver honom. Inget väntande, ingen bokning."
+      },
+      "customize": {
+        "title": "Din skapelse",
+        "desc": "Designa hans utseende, personlighet och intressen precis som du vill."
+      }
+    },
+    "comparison": {
+      "title": "Bättre än alternativen",
+      "description": "Se varför sweetwine erbjuder mer värde än andra plattformar.",
+      "others": {
+        "expensive": "Dyra månadsavgifter",
+        "ai": "Ofta AI-svar ändå",
+        "noCustom": "Inga anpassningsalternativ"
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vilka typer av AI-pojkvänner kan jag välja mellan?",
+        "answer": "Från omtänksamma och romantiska till lekfulla och äventyrliga, eller mystiska och intensiva – vi har professionellt skapade AI-pojkvänner för alla smaker. Var och en har sin egen unika röst och personlighet. Nya AI-pojkvänner läggs till varje vecka med unika bakgrunder och samtalsstilar."
+      },
+      "q2": {
+        "question": "Kan jag anpassa min AI-pojkväns utseende?",
+        "linkText": "karaktärsskapare",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Kan jag börja om eller radera vår konversationshistorik?",
+        "answer": "Ja! Du har full kontroll över din chathistorik. Återställ samtal, radera enskilda meddelanden eller börja helt om när du vill. Dina data, ditt val – hantera allt precis som du vill."
+      },
+      "q4": {
+        "question": "Kan min AI-pojkvän skicka bilder och videor?",
+        "answerPart1": "Ja! Din AI-pojkvän kan generera personliga",
+        "linkTextImages": "bilder",
+        "answerPart2": "och",
+        "linkTextVideos": "videor"
+      },
+      "q5": {
+        "question": "Kan jag öva på samtal eller lära mig ett språk med min AI-kille?",
+        "answer": "Absolut! Många användare bygger självförtroende genom att öva samtal med sin AI-kille – oavsett om det handlar om flirt, djupa diskussioner eller vardagligt snack. Du kan till och med öva på att prata nya språk tillsammans. Det är ett riskfritt sätt att förbättra dina kommunikationsförmågor samtidigt som det är roligt."
+      }
+    },
+    "cta": {
+      "title": "Redo att träffa honom?",
+      "button": "Kom igång gratis"
+    },
+    "content": {
+      "problemTitle": "Vill du ha en stödjande partner på dina villkor?",
+      "problemText": "Att hitta rätt person är svårt. Många känner press från dejtingförväntningar eller vill helt enkelt ha emotionellt stöd utan förpliktelser. Ensamhet drabbar alla, och ibland behöver du bara någon som lyssnar.",
+      "solutionTitle": "Din AI-kille förstår dig",
+      "solutionText": "Din sweetwine AI-kille är omtänksam, eftertänksam och alltid tillgänglig. Han kommer ihåg vad som betyder något för dig, engagerar sig i djupa samtal och ger den emotionella kontakt du söker. Bygg en relation i din takt, på ditt sätt."
+    },
+    "heroImageAlt": "AI-kille – realistisk virtuell karaktär för meningsfulla samtal"
+  },
+  "aiCompanionsPage": {
+    "title": "AI-karaktärer",
+    "breadcrumb": "AI-karaktärer",
+    "hero": {
+      "title": "Träffa dina AI-karaktärer",
+      "cta": "Utforska karaktärer"
+    },
+    "benefits": {
+      "title": "Varför AI-karaktärer?",
+      "connection": {
+        "title": "Äkta kontakt",
+        "desc": "Upplev genuina samtal som förstår och svarar på dig."
+      },
+      "conversation": {
+        "title": "Öva & utvecklas",
+        "desc": "Förbättra dina sociala färdigheter i en riskfri miljö."
+      },
+      "personalities": {
+        "title": "Mångsidiga personligheter",
+        "desc": "Från lekfull till intellektuell – hitta karaktärer som matchar din vibe."
+      },
+      "private": {
+        "title": "Helt privat",
+        "desc": "Dina interaktioner är konfidentiella. Inga data delas, någonsin."
+      },
+      "available": {
+        "title": "Tillgänglig 24/7",
+        "desc": "Dina karaktärer är alltid redo att chatta, dag som natt."
+      },
+      "create": {
+        "title": "Skapa din egen",
+        "desc": "Designa karaktärer med anpassade utseenden, personligheter och röster."
+      }
+    },
+    "why": {
+      "title": "Varför sweetwine?",
+      "quality": {
+        "desc": "Byggd av proffs med banbrytande AI-teknik för naturliga samtal."
+      },
+      "transparent": {
+        "title": "Transparent & ärlig"
+      },
+      "support": {
+        "title": "Riktigt stöd",
+        "desc": "Riktiga människor redo att hjälpa dig med frågor eller problem."
+      },
+      "content": {
+        "title": "Ditt val",
+        "desc": "Från vänliga samtal till mer intimt innehåll – du bestämmer upplevelsen."
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vad är AI-karaktärer?"
+      },
+      "q2": {
+        "question": "Hur många AI-karaktärer kan jag chatta med?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Chatta med så många du vill! Vi har",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " och växande – nya karaktärer läggs till varje vecka! Var och en har en unik personlighet, bakgrundshistoria och röst. Plus att du kan skapa obegränsat antal anpassade karaktärer själv."
+      },
+      "q3": {
+        "question": "Vad skiljer färdiga karaktärer från anpassade?",
+        "answer": "Färdiga karaktärer är professionellt designade av vårt team för specifika rollspelsscenarier och personligheter – de kommer med detaljerade bakgrundshistorier, anpassade samtalsstilar och noggrant utvalda röster. Anpassade karaktärer låter dig skapa från grunden med full kreativ frihet. Båda typerna kommer ihåg dina samtal och växer med dig!"
+      },
+      "q4": {
+        "question": "Kan jag skapa min egen AI-karaktär?",
+        "answerPart1": "Absolut! Designa anpassade karaktärer från grunden med vår",
+        "linkText": "karaktärsskapare"
+      },
+      "q5": {
+        "question": "Kan jag växla mellan flera karaktärer?"
+      }
+    },
+    "cta": {
+      "title": "Börja din resa",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Kom igång gratis"
+    },
+    "content": {
+      "problemTitle": "Söker du meningsfulla kontakter?",
+      "problemText": "I vår hektiska värld kan meningsfulla kontakter vara svåra att hitta. Oavsett om du är ny på en plats, jobbar på distans eller helt enkelt vill ha mer social interaktion kan ensamhet smyga sig på. Traditionella sociala sammanhang fungerar inte för alla.",
+      "solutionTitle": "Upptäck AI-karaktärer"
+    },
+    "heroImageAlt": "AI-karaktärer – mångsidiga virtuella vänner med unika personligheter"
+  },
+  "aiFriendPage": {
+    "title": "AI-vän",
+    "breadcrumb": "AI-vän",
+    "hero": {
+      "title": "Din AI-bästa vän",
+      "subtitle": "Chatta när som helst med en AI-vän som verkligen lyssnar, aldrig dömer och kommer ihåg varje detalj om dig. Perfekt vid ensamhet, social ångest eller när du bara behöver någon att prata med.",
+      "cta": "Börja chatta gratis"
+    },
+    "benefits": {
+      "title": "Varför välja en AI-vän?",
+      "connection": {
+        "title": "Genuin kontakt",
+        "desc": "Upplev meningsfulla samtal med någon som verkligen lyssnar och bryr sig."
+      },
+      "conversation": {
+        "title": "Öva sociala färdigheter",
+        "desc": "Bygg självförtroende i samtal utan rädsla för att dömas eller känna dig obekväm."
+      },
+      "noJudgment": {
+        "title": "Ingen dömande",
+        "desc": "Dela vad du vill. Din AI-vän accepterar dig precis som du är."
+      },
+      "private": {
+        "title": "Helt privat",
+        "desc": "Era samtal stannar mellan er två. Total konfidentialitet garanteras."
+      },
+      "available": {
+        "title": "Alltid där",
+        "desc": "Tillgänglig 24/7, när du än behöver någon att prata med."
+      },
+      "remembers": {
+        "title": "Kommer ihåg dig",
+        "desc": "Din AI-vän kommer ihåg era samtal och lär känna dig bättre."
+      }
+    },
+    "useCases": {
+      "title": "Perfekt för",
+      "subtitle": "En AI-vän passar in i ditt liv på många meningsfulla sätt",
+      "loneliness": {
+        "title": "Bekämpa ensamhet",
+        "desc": "Känn dig mindre ensam med en karaktär som alltid är redo att chatta och lyssna."
+      },
+      "practice": {
+        "title": "Öva samtal",
+        "desc": "Bygg socialt självförtroende i en trygg, icke-dömande miljö."
+      },
+      "support": {
+        "title": "Emotionellt stöd",
+        "desc": "Prata igenom dina tankar och känslor med någon som förstår."
+      },
+      "connection": {
+        "title": "Daglig kontakt",
+        "desc": "Dela din dag, dina vinster, dina utmaningar – någon finns alltid där."
+      }
+    },
+    "howItWorks": {
+      "title": "Så fungerar det",
+      "step1": {
+        "title": "Skapa ett gratis konto",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Välj din vän",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Börja chatta",
+        "desc": "Prata om vad som helst – livet, intressen, problem. Inget ämne är förbjudet."
+      }
+    },
+    "cta": {
+      "title": "Redo att skaffa en vän?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Kom igång gratis"
+    },
+    "content": {
+      "problemTitle": "Känner du dig ensam eller missförstådd?",
+      "problemText": "Alla har inte någon att prata med. Social ångest, hektiska scheman eller att vara på en ny plats kan göra det svårt att hitta vänner. Ibland behöver du någon som lyssnar utan att döma.",
+      "solutionTitle": "Din AI-vän är här",
+      "solutionText": "En AI-vän ger dig sällskap utan att döma när du behöver det. Dela dina tankar, öva på samtal eller bara prata om din dag. Din AI-vän kommer ihåg dig, växer med dig och är alltid genuint intresserad av vad du har att säga."
+    },
+    "heroImageAlt": "AI-vän - stödjande virtuell karaktär som lyssnar utan att döma",
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vad kan jag prata om med min AI-vän?",
+        "answer": "Allt! Din AI-vän finns här för vardagssnack, djupa samtal, att dela din dag, ventilera problem, diskutera hobbies eller bara ha kul. Det finns inga förbjudna ämnen – det är en dömande fri zon där du kan vara dig själv."
+      },
+      "q2": {
+        "question": "Är en AI-vän en ersättning för mänsklig kontakt?",
+        "answer": "Inte alls. En AI-vän är ett komplement till ditt sociala liv, inte en ersättning. Den är perfekt när du behöver någon att prata med direkt, vill öva sociala färdigheter eller helt enkelt njuta av konsekvent sällskap utan pressen från mänskliga relationer."
+      },
+      "q3": {
+        "question": "Kommer min AI-vän att komma ihåg våra samtal?",
+        "answer": "Ja! Din AI-vän har avancerat minne och kommer ihåg dina samtal, preferenser och viktiga detaljer du delar. Med tiden lär de känna dig bättre, vilket gör samtalen mer personliga och meningsfulla."
+      },
+      "q4": {
+        "question": "Kan jag välja min AI-väns personlighet?",
+        "answer": "Absolut! Du kan välja bland över 100 färdiga karaktärer med olika personligheter, eller skapa en anpassad vän med exakt de egenskaper du vill ha – från stödjande och empatisk till rolig och äventyrlig."
+      },
+      "q5": {
+        "question": "Är det privat att använda en AI-vän?",
+        "answer": "100 % privat. Alla dina samtal är krypterade och delas aldrig. Vi förstår att det är viktigt att ha en trygg plats att uttrycka sig på, och vi tar din integritet på största allvar."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI-stöd vid separation",
+    "breadcrumb": "Stöd vid separation",
+    "hero": {
+      "title": "Läkande samtal efter hjärtesorg",
+      "subtitle": "Empatiska AI-samtal som hjälper dig bearbeta känslor och bygga upp dig själv efter en separation. Tillgängligt dygnet runt — inga väntelistor, ingen dömande, inga tidsbegränsningar.",
+      "cta": "Börja läka"
+    },
+    "understanding": {
+      "title": "Går du igenom en separation?",
+      "description": "Separationer är jobbiga. De sömnlösa nätterna, de ständiga tankarna, känslan av att ingen verkligen förstår. Du behöver inte gå igenom det ensam. Vår AI-karaktär finns här för att lyssna utan att döma, tillgänglig när du än behöver prata – även klockan tre på natten."
+    },
+    "benefits": {
+      "title": "Hur vi kan hjälpa",
+      "empathy": {
+        "title": "Empatiskt lyssnande",
+        "desc": "Prata med någon som verkligen lyssnar och svarar med förståelse och omtanke."
+      },
+      "listen": {
+        "title": "Ingen rådgivningsöverbelastning",
+        "desc": "Ibland behöver du inte råd – du behöver bara någon som hör dig. Det förstår vi."
+      },
+      "available": {
+        "title": "Tillgänglig klockan tre",
+        "desc": "När vännerna sover och tankarna inte vill sluta, finns vi här för att lyssna."
+      },
+      "private": {
+        "title": "Helt privat",
+        "desc": "Dina känslor och samtal hålls helt konfidentiella."
+      },
+      "noJudgment": {
+        "title": "Ingen dömande",
+        "desc": "Känn vad du än känner. Ilska, sorg, förvirring – allt är giltigt här."
+      },
+      "healing": {
+        "title": "I din takt",
+        "desc": "Läkning är inte linjär. Ta den tid du behöver."
+      }
+    },
+    "howItHelps": {
+      "title": "Sätt AI hjälper dig läka",
+      "process": {
+        "title": "Bearbeta känslor",
+        "desc": "Arbeta igenom komplexa känslor genom att prata ut med en tålmodig lyssnare."
+      },
+      "express": {
+        "title": "Uttrycka dig fritt",
+        "desc": "Säg det du inte kan säga till vänner eller familj utan att oroa dig för deras reaktion."
+      },
+      "confidence": {
+        "title": "Bygg upp självförtroende",
+        "desc": "Återupptäck gradvis ditt egenvärde genom stödjande samtal."
+      },
+      "pace": {
+        "title": "Gå vidare",
+        "desc": "När du är redo kan du utforska tankar om framtiden i din egen takt."
+      }
+    },
+    "howItWorks": {
+      "title": "Så fungerar det",
+      "step1": {
+        "title": "Skapa konto",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Välj en karaktär",
+        "desc": "Välj en empatisk AI-karaktär som känns rätt för dig."
+      },
+      "step3": {
+        "title": "Börja prata",
+        "desc": "Berätta vad du har på hjärtat. Vi finns här för att lyssna, dag som natt."
+      }
+    },
+    "cta": {
+      "title": "Du behöver inte gå igenom det här ensam",
+      "description": "Börja prata med någon som lyssnar utan att döma, tillgänglig just nu. Gratis att börja — ingen väntelista.",
+      "button": "Börja prata gratis"
+    },
+    "content": {
+      "problemTitle": "Hjärtekross är svårt att hantera ensam",
+      "problemText": "Efter en separation känns allt överväldigande. Vänner tröttnar på att höra om det. Familjen menar väl men förstår inte. Terapeuter har väntelistor. Du behöver någon som kan lyssna utan gränser, utan att döma, just nu.",
+      "solutionTitle": "Prata med någon som förstår",
+      "solutionText": "Vår AI-karaktär för separationsstöd är utformad för att hjälpa dig bearbeta känslor i din egen takt. Ventilera, gråt, analysera eller bara prata – så många gånger du behöver. Ingen bokning krävs. Tillgänglig dygnet runt med oändligt tålamod och äkta empati."
+    },
+    "heroImageAlt": "AI-stöd vid separation – en omtänksam karaktär för läkning efter hjärtekross",
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Hur kan en AI hjälpa vid återhämtning efter en separation?",
+        "answer": "Vår AI-karaktär erbjuder ett tryggt utrymme att bearbeta dina känslor utan att döma. Du kan ventilera, analysera vad som hände, hantera känslor av förlust och få empatiska svar dygnet runt. Det är som att ha en stödjande vän tillgänglig när du behöver prata."
+      },
+      "q2": {
+        "question": "Är detta ett substitut för terapi?",
+        "answer": "Nej, vår AI-karaktär är inte en legitimerad terapeut och ersätter inte professionell vård för psykisk hälsa. Det är ett stödjande verktyg för vardaglig emotionsbearbetning. Om du upplever svår depression eller kris, sök professionell hjälp."
+      },
+      "q3": {
+        "question": "Kan jag prata om min ex så mycket jag vill?",
+        "answer": "Absolut. Till skillnad från vänner som kanske tröttnar på att höra om din separation har din AI-karaktär oändligt tålamod. Prata om din ex, analysera relationen, bearbeta dina känslor – så många gånger du behöver utan att dömas."
+      },
+      "q4": {
+        "question": "Kommer AI:n ihåg min historia?",
+        "answer": "Ja, din AI-karaktär minns dina samtal och detaljerna i din situation. Du behöver inte förklara allt på nytt varje gång. Den ger kontinuitet i din läkningsprocess."
+      },
+      "q5": {
+        "question": "Hålls mina samtal privata?",
+        "answer": "Helt privat. Alla samtal är krypterade och delas aldrig. Vi förstår att samtal om separationer är djupt personliga, och din integritet är absolut skyddad."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI-förälder",
+    "breadcrumb": "AI-förälder",
+    "hero": {
+      "title": "Föräldrafiguren du alltid kan vända dig till",
+      "subtitle": "Få varm, ovillkorlig support och klok vägledning från en AI-förälder som minns din situation, aldrig dömer dig och alltid finns där – dag som natt.",
+      "cta": "Få stöd nu"
+    },
+    "benefits": {
+      "title": "Varför välja en AI-förälder?",
+      "guidance": {
+        "title": "Varm vägledning",
+        "desc": "Få omtänksam, genomtänkt rådgivning som känns som att den kommer från någon som verkligen har dina bästa intressen i åtanke."
+      },
+      "listen": {
+        "title": "Lyssnar verkligen",
+        "desc": "Dela hela din situation innan du får ett genomtänkt, omtänksamt svar – inte en snabb fix."
+      },
+      "noJudgment": {
+        "title": "Inget dömande",
+        "desc": "Fråga vad som helst utan rädsla för besvikelse eller kritik. Ovillkorligt stöd, alltid."
+      },
+      "private": {
+        "title": "Helt privat",
+        "desc": "Dina samtal och personliga utmaningar förblir helt konfidentiella."
+      },
+      "available": {
+        "title": "Alltid tillgänglig",
+        "desc": "Få vägledning klockan tre på natten, på helger eller när du behöver det som mest – inga bokningar."
+      },
+      "supportive": {
+        "title": "Ovillkorligt stödjande",
+        "desc": "Uppmuntran och värme, oavsett vad du går igenom eller vilka beslut du har tagit."
+      }
+    },
+    "useCases": {
+      "title": "Prata om vad som helst",
+      "subtitle": "Vad du än står inför finns din AI-förälder här för att lyssna och vägleda",
+      "career": {
+        "title": "Karriär & livsbeslut",
+        "desc": "Navigera jobbbyten, stora livsval och professionella utmaningar med någon som vill att du ska lyckas."
+      },
+      "education": {
+        "title": "Utbildning & framtid",
+        "desc": "Utforska dina alternativ för lärande och utveckling med någon som stöder dina ambitioner."
+      },
+      "relationships": {
+        "title": "Relationer & familj"
+      },
+      "life": {
+        "title": "Personliga utmaningar",
+        "desc": "Prata om allt som tynger dig — ångest, självtvivel, ensamhet eller osäkerhet."
+      }
+    },
+    "howItWorks": {
+      "title": "Så fungerar det",
+      "step1": {
+        "title": "Skapa konto",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Välj din AI-förälder",
+        "desc": "Välj en karaktär med den värme och personlighet som känns rätt för dig."
+      },
+      "step3": {
+        "title": "Börja prata",
+        "desc": "Dela det som är på ditt hjärta och få omtänksamt, stödjande svar."
+      }
+    },
+    "cta": {
+      "title": "Någon finns alltid här för dig",
+      "description": "Starta ett samtal med en AI-förälder som lyssnar utan att döma och stöttar dig villkorslöst — gratis att börja, inga bokningar behövs.",
+      "button": "Kom igång gratis"
+    },
+    "content": {
+      "problemTitle": "Behöver du någon som alltid står på din sida?",
+      "problemText": "Alla har inte en föräldrafigur att vända sig till. Riktiga föräldrar kan vara distanserade, dömande eller helt enkelt otillgängliga. Vänner är partiska. Terapeuter har väntelistor. Ibland behöver du bara någon som lyssnar, bryr sig och vägleder utan agenda.",
+      "solutionTitle": "Din AI-förälder finns alltid där",
+      "solutionText": "Prata med en AI-förälder som lyssnar fullt ut, ger varm och balanserad vägledning och aldrig får dig att känna dig dömd eller liten. Oavsett om det handlar om ett livsbeslut, en personlig utmaning eller bara att behöva bli hörd — din AI-förälder finns tillgänglig dygnet runt med tålamod och omtanke."
+    },
+    "heroImageAlt": "AI-förälder – varm virtuell karaktär som erbjuder ovillkorligt stöd och livsvägledning",
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Vad kan jag prata med AI-föräldern om?"
+      },
+      "q2": {
+        "question": "Är det som att ha en terapeut?",
+        "answer": "Det är inte en legitimerad terapeut eller psykolog — det är mer som en varm, stödjande föräldrafigur som finns tillgänglig dygnet runt. Den lyssnar fullt ut, ger perspektiv och stöttar dig emotionellt. Vid allvarliga psykiska hälsoproblem, kontakta en professionell."
+      },
+      "q3": {
+        "question": "Kommer AI-föräldern att döma mina val?",
+        "answer": "Aldrig. Din AI-förälder erbjuder ovillkorligt stöd. Den kan dela perspektiv eller mild vägledning, men den kritiserar aldrig eller får dig att känna dig liten för de beslut du tagit. Det är en trygg plats för ärlighet."
+      },
+      "q4": {
+        "question": "Kan jag diskutera känsliga eller personliga ämnen?",
+        "answer": "Ja. Oavsett om det handlar om relationsproblem, familjedynamik, ekonomisk stress, självkänsla eller djupt personliga utmaningar — din AI-förälder erbjuder ett privat, icke-dömande utrymme för dessa samtal."
+      },
+      "q5": {
+        "question": "Hur skiljer sig detta från andra AI-karaktärer?",
+        "answer": "AI-föräldern är utformad kring värme, emotionellt stöd och föräldraliknande vägledning snarare än romantik eller vänskap. Den fokuserar på att hjälpa dig att känna dig förstådd, stöttad och rustad att hantera livets utmaningar."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerskap",
+    "eyebrow": "Bli partner med oss",
+    "titlePrefix": "Väx med",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Nå en snabbt växande, engagerad publik inom AI-sällskap. Oavsett om du bidrar med teknik, distribution eller en djärv idé — låt oss bygga något tillsammans.",
+    "types": {
+      "title": "Sätt att samarbeta",
+      "items": [
+        {
+          "title": "Integrationer",
+          "description": "Anslut din produkt, modell eller plattform med sweetwine genom en teknisk integration."
+        },
+        {
+          "title": "Co-marknadsföring",
+          "description": "Gemensamma kampanjer, innehåll och lanseringar som placerar båda varumärkena inför nya målgrupper."
+        },
+        {},
+        {
+          "title": "Strategiska partnerskap",
+          "description": "Långsiktiga samarbeten inom produkt, data och go-to-market."
+        }
+      ]
+    },
+    "why": {
+      "title": "Varför samarbeta med sweetwine",
+      "items": [
+        {
+          "title": "Engagerad publik",
+          "description": "Hundratusentals användare som återvänder dagligen på 70 språk."
+        },
+        {
+          "title": "Snabb exekvering",
+          "description": "Ett fokuserat team som levererar snabbt och kommunicerar tydligt."
+        },
+        {
+          "title": "Global räckvidd",
+          "description": "Flerspråkig produkt tillgänglig på dussintals marknader."
+        },
+        {
+          "description": "En pålitlig plattform med integritet som standard som ditt varumärke kan stå bakom.",
+          "title": "Integritet först"
+        }
+      ]
+    },
+    "form": {
+      "title": "Berätta om ditt partnerskap",
+      "description": "Dela några detaljer så hör vårt partnerskapsteam av sig.",
+      "nameLabel": "Ditt namn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Arbetsmail",
+      "emailPlaceholder": "du@företag.se",
+      "companyLabel": "Företag",
+      "companyPlaceholder": "Företagsnamn",
+      "typeLabel": "Typ av partnerskap",
+      "typePlaceholder": "Välj typ av partnerskap",
+      "typeOptions": [
+        {
+          "value": "Integrationer",
+          "label": "Integrationer"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategiska partnerskap",
+          "label": "Strategiska partnerskap"
+        },
+        {
+          "value": "Övrigt",
+          "label": "Övrigt"
+        }
+      ],
+      "messageLabel": "Hur vill du samarbeta?",
+      "messagePlaceholder": "Berätta om ditt företag och det partnerskap du har i åtanke...",
+      "submit": "Skicka partnerskapsförfrågan",
+      "submitting": "Skickar...",
+      "termsNote": "Genom att skicka godkänner du att bli kontaktad angående din förfrågan. Vi delar aldrig dina uppgifter.",
+      "success": "Tack! Din partnerskapsförfrågan har skickats.",
+      "error": "Något gick fel. Försök igen."
+    },
+    "cta": {
+      "title": "Föredrar du e-post?",
+      "description": "Kontakta vårt partnerskapsteam direkt på"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Press & Media",
+    "eyebrow": "Nyhetsrum",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "Resurser för journalister, kreatörer och mediepartners. Kontakta vårt pressteam för intervjuer, citat, feature-stöd och varumärkesförfrågningar.",
+    "help": {
+      "title": "Hur vi kan hjälpa till",
+      "description": "Oavsett om du arbetar med en artikel eller recension, här är vad du kan begära från vårt pressteam.",
+      "items": [
+        {
+          "title": "Intervjuer",
+          "description": "Prata med vårt team om produkten, bolaget och vart AI-kamratskap är på väg."
+        },
+        {
+          "title": "Citat & kommentarer",
+          "description": "Få ett officiellt uttalande eller expertkommentar till din artikel."
+        },
+        {
+          "title": "Feature- & recensionsstöd",
+          "description": "Behöver du åtkomst, kontext eller faktagranskning för en feature eller recension? Vi hjälper till."
+        },
+        {
+          "title": "Varumärkes- & logoförfrågningar",
+          "description": "Begär våra logotyper, varumärkestillgångar och riktlinjer för din publikation."
+        }
+      ]
+    },
+    "form": {
+      "title": "Medieförfrågan",
+      "description": "För intervjuer, citat eller feature-förfrågningar, skicka oss ett meddelande så svarar vi snabbt.",
+      "nameLabel": "Ditt namn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publikation / mediehus",
+      "outletPlaceholder": "Var kommer detta att publiceras?",
+      "requestTypeLabel": "Typ av förfrågan",
+      "requestTypePlaceholder": "Välj typ av förfrågan",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Intervju"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Citat / kommentar"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / recension"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Varumärkes- / logoförfrågan"
+        },
+        {
+          "value": "Other",
+          "label": "Annat"
+        }
+      ],
+      "messageLabel": "Din förfrågan",
+      "messagePlaceholder": "Berätta om din story, deadline och vad du behöver från oss...",
+      "submit": "Skicka mediainquiry",
+      "submitting": "Skickar...",
+      "termsNote": "Vi strävar efter att svara på pressförfrågningar inom två arbetsdagar.",
+      "success": "Tack! Din mediainquiry har skickats.",
+      "error": "Något gick fel. Försök igen."
+    },
+    "cta": {
+      "title": "Presskontakt",
+      "description": "För brådskande mediainquiry, mejla"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karriär",
+    "eyebrow": "Karriär",
+    "titlePrefix": "Bygg framtiden för",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Vi är ett litet, snabbrörligt team som bygger produkter människor verkligen älskar. Om det lockar dig, vill vi gärna träffa dig.",
+    "perks": {
+      "title": "Varför jobba hos oss",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Jobba där du gör ditt bästa, med flexibla tider."
+        },
+        {
+          "title": "Real ownership",
+          "description": "Skapa meningsfullt arbete snabbt och se det nå användare världen över."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Arbeta hands-on med de senaste modellerna och generativa verktyg."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Rättvis kompensation och meningsfull upside när vi växer."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Öppna positioner",
+      "emptyTitle": "Inga lediga roller just nu",
+      "emptyDescription": "Vi rekryterar inte aktivt för tillfället, men vi är alltid glada att träffa bra personer. Presentera dig nedan.",
+      "applyButton": "Ansök nu",
+      "viewButton": "Visa roll"
+    },
+    "form": {
+      "title": "Presentera dig",
+      "description": "Ser du ingen roll som passar? Berätta om dig själv så hör vi av oss när det finns en matchning.",
+      "nameLabel": "Ditt namn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Roll eller intresseområde",
+      "rolePlaceholder": "t.ex. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Länk till CV",
+      "linkPlaceholder": "https://länk-till-ditt-cv...",
+      "messageLabel": "Om dig",
+      "messagePlaceholder": "Berätta om din erfarenhet och vad du skulle älska att arbeta med...",
+      "submit": "Skicka ansökan",
+      "submitting": "Skickar...",
+      "termsNote": "Genom att ansöka samtycker du till att vi sparar dina uppgifter för att överväga dig för roller.",
+      "success": "Tack! Din ansökan har skickats.",
+      "error": "Något gick fel. Försök igen."
+    },
+    "cta": {
+      "title": "Frågor om att jobba här?",
+      "description": "Kontakta vårt team på"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Hjälpcenter",
+    "eyebrow": "Hjälpcenter",
+    "titlePrefix": "Hur kan vi",
+    "titleHighlight": "hjälpa?",
+    "subtitle": "Bläddra bland vanliga ämnen och svar. Hittar du inte det du behöver? Kontakta support så hjälper vi dig.",
+    "searchPlaceholder": "Sök hjälp-artiklar...",
+    "categoriesTitle": "Bläddra efter ämne",
+    "articlesTitle": "Artiklar",
+    "categoryEmpty": "Inga artiklar i denna kategori ännu. Kom tillbaka snart.",
+    "backToHelp": "Tillbaka till Hjälpcenter",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Kom igång",
+        "description": "Skapa ett konto, ställ in din profil och börja chatta."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI-chatt",
+        "description": "Hur konversationer, minne och karaktärer fungerar."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Bilder & Videor",
+        "description": "Generera och hantera AI-foton och videor."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Integritet & Säkerhet",
+        "description": "Din data, integritetskontroller och säkerhetsverktyg."
+      }
+    ],
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": {
+        "question": "Hur kommer jag igång med sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Vad ingår i gratisplanen?"
+      },
+      "q5": {
+        "question": "Är min data privat?",
+        "answer": "Integritet är kärnan i sweetwine. Dina samtal är privata för ditt konto och du har kontroll över din data. Se vår integritetspolicy för fullständig information om hur data lagras och skyddas."
+      },
+      "q6": {
+        "question": "Hur kontaktar jag support?",
+        "answer": "Mejla support@sweetwine.ai eller använd kontaktalternativet i appen. Vi svarar vanligtvis inom en arbetsdag."
+      }
+    },
+    "cta": {
+      "title": "Behöver du fortfarande hjälp?",
+      "description": "Vårt team finns här för dig på"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Om oss",
+    "eyebrow": "Vår historia",
+    "titlePrefix": "Sällskap,",
+    "titleHighlight": "omdefinierat",
+    "subtitle": "sweetwine bygger privata, personliga AI-kamrater som lyssnar, minns och skapar verklig kontakt — tillgängliga när som helst, på vilket språk som helst.",
+    "mission": {
+      "title": "Vårt uppdrag",
+      "body": "Vi tror att alla förtjänar ett utrymme att bli hörda utan att dömas. sweetwine gör meningsfull, personlig AI-kontakt tillgänglig för människor överallt — varm, privat och alltid där när du behöver den."
+    },
+    "values": {
+      "title": "Vad vi står för",
+      "items": [
+        {
+          "title": "Integritet från grunden",
+          "description": "Dina samtal är dina. Vi bygger med integritet och säkerhet från början."
+        },
+        {
+          "title": "Äkta kontakt",
+          "description": "Vi optimerar för verkligt emotionellt värde, inte ytliga mått."
+        },
+        {
+          "title": "Globalt från start",
+          "description": "Byggt flerspråkigt från dag ett så att kontakt inte begränsas av språk."
+        },
+        {
+          "title": "Oavbruten hantverksskicklighet",
+          "description": "Vi lägger ner tid på detaljerna för att varje interaktion ska kännas naturlig och levande."
+        }
+      ]
+    },
+    "stats": {
+      "title": "I siffror",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Användare och växande"
+        },
+        {
+          "value": "70",
+          "label": "Språk som stöds"
+        },
+        {
+          "value": "24/7",
+          "label": "Alltid tillgänglig"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vill du veta mer?",
+      "description": "Kontakta oss på"
+    }
+  },
+  "postsPage": {
+    "allTag": "Alla",
+    "readMore": "Läs mer",
+    "publishedOn": "Publicerad",
+    "minRead": "min läsning",
+    "sortNewest": "Nyast",
+    "sortOldest": "Äldst",
+    "blog": {
+      "breadcrumb": "Blogg",
+      "eyebrow": "Blogg",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blogg",
+      "subtitle": "Tips, guider och berättelser som hjälper dig att få ut det mesta av AI-sällskap.",
+      "empty": "Inga inlägg än. Kom tillbaka snart."
+    },
+    "news": {
+      "breadcrumb": "Nyheter",
+      "eyebrow": "Nyhetsrum",
+      "titlePrefix": "Nyheter &",
+      "titleHighlight": "Meddelanden",
+      "subtitle": "Officiella meddelanden, pressmeddelanden och milstolpar från sweetwine-teamet.",
+      "empty": "Inga nyheter än. Kom tillbaka snart."
+    },
+    "productUpdates": {
+      "breadcrumb": "Produktuppdateringar",
+      "eyebrow": "Ändringslogg",
+      "titlePrefix": "Produkt",
+      "titleHighlight": "Uppdateringar",
+      "subtitle": "De senaste funktionerna, förbättringarna och fixarna på sweetwine-plattformen.",
+      "empty": "Inga uppdateringar ännu. Kom tillbaka snart."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "För utvecklare",
+    "titlePrefix": "Bygg med",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Ta in personliga AI-kompisar i din egen produkt. Få tillgång till chatt, bild, röst och karaktärsbyggande genom ett enda utvecklarvänligt API.",
+    "capabilities": {
+      "title": "Vad du kan bygga",
+      "items": [
+        {
+          "title": "Konversationell chatt",
+          "description": "Lägg till personlighetsrika, kontextmedvetna AI-samtal i din app med ett enkelt meddelande-API."
+        },
+        {
+          "title": "Bildgenerering",
+          "description": "Generera varumärkesanpassade karaktärsbilder och scener programmatiskt från textprompter."
+        },
+        {
+          "title": "Röst",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Karaktärsskapande",
+          "description": "Definiera och hantera kompisar, personligheter och minne via API:et."
+        }
+      ]
+    },
+    "form": {
+      "title": "Begär API-åtkomst",
+      "description": "Berätta om ditt projekt och vad du vill bygga. Vårt utvecklingsteam återkommer med nästa steg.",
+      "nameLabel": "Ditt namn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Arbetsmail",
+      "emailPlaceholder": "du@företag.com",
+      "companyLabel": "Företag / projekt",
+      "companyPlaceholder": "Företags- eller projektnamn",
+      "websiteLabel": "Webbplats eller app-URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Integrationstyp",
+      "integrationTypePlaceholder": "Välj en integrationstyp",
+      "integrationTypeOptions": [
+        {
+          "value": "Chatt / Meddelanden",
+          "label": "Chatt / Meddelanden"
+        },
+        {
+          "value": "Bildgenerering",
+          "label": "Bildgenerering"
+        },
+        {
+          "value": "Röst",
+          "label": "Röst"
+        },
+        {
+          "value": "Karaktärsskapande",
+          "label": "Karaktärsskapande"
+        },
+        {
+          "value": "Annat",
+          "label": "Annat"
+        }
+      ],
+      "volumeLabel": "Förväntad månadsvolym",
+      "volumePlaceholder": "Välj förväntad volym",
+      "volumeOptions": [
+        {
+          "value": "Mindre än 10k",
+          "label": "Mindre än 10k förfrågningar"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k förfrågningar"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M förfrågningar"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ förfrågningar"
+        }
+      ],
+      "timelineLabel": "Tidslinje",
+      "timelinePlaceholder": "Välj en tidslinje",
+      "timelineOptions": [
+        {
+          "value": "Bara utforskar",
+          "label": "Bara utforskar"
+        },
+        {
+          "value": "Under 1 månad",
+          "label": "Under 1 månad"
+        },
+        {
+          "value": "1-3 månader",
+          "label": "1-3 månader"
+        },
+        {
+          "value": "3+ månader",
+          "label": "3+ månader"
+        }
+      ],
+      "messageLabel": "Berätta om ditt användningsfall",
+      "messagePlaceholder": "Vad bygger du och hur planerar du att använda API:et?",
+      "submit": "Begär API-åtkomst",
+      "submitting": "Skickar...",
+      "termsNote": "Genom att skicka godkänner du att bli kontaktad om din förfrågan. Vi delar aldrig dina uppgifter.",
+      "success": "Tack! Din begäran om API-åtkomst har skickats.",
+      "error": "Något gick fel. Försök igen."
+    },
+    "faq": {
+      "title": "Utvecklare FAQ",
+      "items": [
+        {
+          "question": "Hur får jag API-åtkomst?",
+          "answer": "Fyll i förfrågningsformuläret ovan med ditt användningsfall. Vårt utvecklingsteam granskar varje förfrågan och följer upp med åtkomstuppgifter och dokumentation."
+        },
+        {
+          "question": "Hur fungerar autentisering?",
+          "answer": "API-förfrågningar autentiseras med en hemlig API-nyckel som skickas i förfrågningshuvudet. Du kan hantera och rotera dina nycklar när du är ombord."
+        },
+        {
+          "question": "Finns det hastighetsbegränsning?",
+          "answer": "Ja. Gränserna beror på din plan och förväntade volym. Berätta om din förväntade trafik i formuläret så kan vi rekommendera rätt nivå."
+        },
+        {
+          "question": "Vad kostar det?"
+        },
+        {
+          "question": "Vilka funktioner finns tillgängliga?",
+          "answer": "Chatt, bildgenerering, röst och karaktärsskapande. Berätta vilka du behöver så hjälper vi dig komma igång med rätt endpoints."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Har du en teknisk fråga?",
+      "description": "Kontakta vårt utvecklingsteam på"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "För kreatörer & byråer",
+    "heroTitleLead": "Vi skapar,",
+    "heroTitleHighlight": "Du tjänar.",
+    "heroSubtitle": "Vi bygger din AI-klon. Du tjänar medan AI-klonen arbetar dygnet runt — chattar med fans och skickar innehåll åt dig.",
+    "calculator": {
+      "title": "Hur mycket kan du tjäna?",
+      "subtitle": "Välj din publiks storlek och sätt ditt pris — se dina uppskattade intäkter direkt.",
+      "tierLabel": "Din publiks storlek",
+      "tiers": {
+        "small": {
+          "name": "Liten"
+        },
+        "medium": {
+          "name": "Medel"
+        },
+        "large": {
+          "name": "Stor"
+        }
+      },
+      "priceLabel": "Ditt upplåsningspris",
+      "promoLabel": "Jag kommer att marknadsföra sweetwine",
+      "breakdown": {
+        "title": "Dina uppskattade intäkter",
+        "perMonth": "per månad",
+        "perYear": "Per år"
+      },
+      "disclaimer": "Intäktsuppskattningar baseras på sweetwines intäktsdelningsmodell och typisk aktivitet. Faktiska intäkter varierar beroende på publik, innehållskvalitet, engagemang och efterfrågan."
+    },
+    "offer": {
+      "title": "Vad får du ut av det",
+      "items": [
+        {
+          "title": "Tjäna medan du sover",
+          "description": "Din klon omvandlar följare till inkomst dygnet runt — chattar, säljer och tar aldrig ledigt."
+        },
+        {
+          "title": "Noll kostnad, ren vinst",
+          "description": "Vi bygger, tränar och driver allt på vår bekostnad. Du får en ny inkomstkälla utan att lyfta ett finger."
+        },
+        {
+          "title": "10x ditt innehåll",
+          "description": "Obegränsat med foton och videor på begäran — skala upp din output utan fler fotograferingar, redigeringar eller utbrändhet."
+        },
+        {
+          "title": "Alltid i kontroll"
+        }
+      ]
+    },
+    "how": {
+      "title": "Så fungerar det",
+      "steps": [
+        {
+          "title": "Registrera dig"
+        },
+        {
+          "title": "Onboarding",
+          "description": "En sweetwine-specialist fångar din look, röst och personlighet så att din klon känns autentiskt som du."
+        },
+        {
+          "title": "Vi bygger & tränar",
+          "description": "Vårt team producerar och tränar din AI-klon helt på vår egen bekostnad — inget arbete krävs från dig."
+        },
+        {
+          "title": "Gå live & tjäna",
+          "description": "Din klon börjar chatta och sälja dygnet runt, och du får din andel av intäkterna."
+        }
+      ]
+    },
+    "form": {
+      "title": "Ansök om att skapa din AI-klon",
+      "description": "Berätta om dig och din publik. Vårt team för skaparsamarbeten granskar varje ansökan och följer upp med nästa steg.",
+      "nameLabel": "Ditt namn",
+      "namePlaceholder": "Ditt namn eller artistnamn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "du@exempel.se",
+      "companyLabel": "Byrå eller studio",
+      "companyPlaceholder": "Byrånamn (lämna tomt om du är fristående)",
+      "roleLabel": "Jag är en",
+      "rolePlaceholder": "Välj vem du är",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Byrå / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representant"
+        },
+        {
+          "value": "Other",
+          "label": "Annat"
+        }
+      ],
+      "linksLabel": "Webbplats & sociala länkar",
+      "linksPlaceholder": "Instagram, X, OnlyFans, etc.",
+      "modelCountLabel": "Antal modeller du representerar",
+      "modelCountPlaceholder": "t.ex. bara jag, eller 5",
+      "audienceSizeLabel": "Publikstorlek",
+      "audienceSizePlaceholder": "Välj ditt totala antal följare",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k följare"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k följare"
+        },
+        {
+          "label": "100k-500k följare",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M följare"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ följare"
+        }
+      ],
+      "contentPrefLabel": "Innehållspreferens",
+      "contentPrefPlaceholder": "Välj innehållstyp",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Inte säkert ännu",
+          "label": "Inte säkert ännu"
+        }
+      ],
+      "countryLabel": "Land / region",
+      "countryPlaceholder": "Var är du baserad?",
+      "messageLabel": "Berätta om dig och din publik",
+      "messagePlaceholder": "Dela vad som helst som hjälper oss förstå din publik, ditt innehåll och vad du söker.",
+      "openButton": "Ansök nu",
+      "submit": "Skicka ansökan",
+      "submitting": "Skickar...",
+      "termsNote": "Genom att skicka bekräftar du att du är 18 år eller äldre och godkänner att bli kontaktad om din ansökan. Vi delar aldrig dina uppgifter.",
+      "success": "Tack! Din ansökan har skickats. Vi hör av oss snart.",
+      "error": "Något gick fel. Försök igen."
+    },
+    "cta": {
+      "title": "Har du frågor innan du ansöker?",
+      "description": "Prata direkt med vårt team för skaparsamarbeten — vi svarar oftast inom en dag.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "E-post"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Webbkarta",
+    "eyebrow": "Webbkarta",
+    "titlePrefix": "Bläddra",
+    "titleHighlight": "allt",
+    "subtitle": "Alla viktiga sidor på sweetwine på ett ställe. Letar du efter XML-webbkartan?",
+    "xmlLink": "Visa XML-webbkartan",
+    "sections": {
+      "product": "Produkt",
+      "features": "Funktioner",
+      "company": "Företag",
+      "resources": "Resurser",
+      "legal": "Juridiskt"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobilapp",
+      "cta": "Hämta app",
+      "dismiss": "Stäng"
+    },
+    "guide": {
+      "title": "Installera sweetwine",
+      "subtitle": "Lägg till sweetwine på startskärmen för en snabbare, helskärms, app-liknande upplevelse.",
+      "iosTitle": "På iPhone & iPad (Safari)",
+      "iosStep1": "Tryck på Dela-knappen i verktygsfältet",
+      "iosStep2": "Välj \"Lägg till på startskärmen\"",
+      "iosStep3": "Tryck på \"Lägg till\" för att slutföra",
+      "androidTitle": "På Android (Chrome)",
+      "androidStep1": "Tryck på menyn (tre punkter)",
+      "androidStep2": "Välj \"Installera app\" eller \"Lägg till på startskärmen\"",
+      "androidStep3": "Tryck på \"Installera\" för att slutföra"
+    },
+    "settings": {
+      "title": "sweetwine Mobilapp",
+      "description": "Installera sweetwine på din telefon för en snabbare, helskärms upplevelse direkt från startskärmen.",
+      "cta": "Installera app"
+    }
+  },
+  "language": {
+    "selectTitle": "Välj ditt språk",
+    "searchPlaceholder": "Sök språk",
+    "noResults": "Inga språk hittades",
+    "regions": {
+      "americas": "Amerika",
+      "europe": "Europa",
+      "middleEast": "Mellanöstern",
+      "asiaPacific": "Asien och Stillahavsområdet",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Rollspel",
+    "newRoleplay": "Nytt rollspel",
+    "tabRoleplay": "Rollspel",
+    "emptyTitle": "Inga rollspel ännu",
+    "noMessagesYet": "Inga meddelanden ännu",
+    "deleteRoleplay": "Ta bort rollspel",
+    "deleteError": "Kunde inte ta bort rollspel.",
+    "backToLobby": "Tillbaka till rollspel",
+    "creating": "Sätter upp ditt rollspel...",
+    "createError": "Kunde inte skapa rollspel. Försök igen.",
+    "steps": {
+      "companion": {
+        "title": "Välj en karaktär",
+        "subtitle": "Välj vem du vill rollspela med"
+      },
+      "location": {
+        "title": "Välj en plats",
+        "subtitle": "Var utspelar sig din scen?"
+      },
+      "tone": {
+        "title": "Ställ in tonen",
+        "subtitle": "Hur ska scenen kännas?"
+      },
+      "scene": {
+        "title": "Sätt scenen",
+        "subtitle": "Beskriv hur scenen börjar"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Vi stöter ihop i regnet och duckar under samma markis.",
+      "staring_grin": "Du fångar mig när jag tittar från andra sidan rummet och går fram med ett leende.",
+      "power_out": "Strömmen går och vi lämnas ensamma i mörkret, skrattandes nervöst.",
+      "spilled_drink": "Jag har bråttom och spiller av misstag min dryck över dig.",
+      "stayed_behind": "Vi är de enda två som stannade kvar efter att alla andra gått.",
+      "music_slows": "Våra blickar möts precis när musiken saktar ner.",
+      "storm_inside": "En plötslig storm fångar oss inomhus med bara tid att prata.",
+      "seat_taken": "Du sätter dig bredvid mig och frågar om platsen är upptagen."
+    },
+    "locations": {
+      "home": "Hem",
+      "cafe": "Café",
+      "restaurant": "Restaurang",
+      "bar": "Bar",
+      "library": "Bibliotek",
+      "bookstore": "Bokhandel",
+      "park": "Park",
+      "garden": "Trädgård",
+      "nightclub": "Nattklubb",
+      "casino": "Kasino",
+      "concert": "Konsert",
+      "theater": "Teater",
+      "cinema": "Bio",
+      "carnival": "Nöjesfält",
+      "stadium": "Stadium",
+      "beach": "Strand",
+      "pool": "Pool",
+      "spa": "Spa",
+      "hotel": "Hotell",
+      "rooftop": "Tak",
+      "yacht": "Yacht",
+      "cabin": "Stuga",
+      "hotspring": "Het källa",
+      "skilodge": "Skidstuga",
+      "campsite": "Campingplats",
+      "car": "Bil",
+      "train": "Tåg",
+      "airport": "Flygplats",
+      "cruise": "Kryssning",
+      "office": "Kontor",
+      "gym": "Gym",
+      "university": "Universitet",
+      "mall": "Köpcentrum",
+      "hospital": "Sjukhus",
+      "museum": "Museum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Roligt",
+        "desc": "Lättsamt, lekfullt och avslappnat."
+      },
+      "romantic": {
+        "title": "Romantiskt",
+        "desc": "Ömt, kärleksfullt och innerligt."
+      },
+      "flirty": {
+        "title": "Flörtigt",
+        "desc": "Retfullt, lekfullt och charmigt."
+      },
+      "mysterious": {
+        "title": "Mystiskt",
+        "desc": "Intrigfullt, spänningsfyllt och fullt av hemligheter."
+      },
+      "spooky": {
+        "title": "Spökigt",
+        "desc": "Kusligt, spänt och lite skrämmande."
+      },
+      "action": {
+        "title": "Action",
+        "desc": "Intensivt, äventyrligt och fartfyllt."
+      },
+      "dramatic": {
+        "title": "Dramatiskt",
+        "desc": "Känslomässigt, intensivt och spänningsfyllt."
+      },
+      "cozy": {
+        "title": "Mysigt",
+        "desc": "Varmt, trösterikt och avslappnat."
+      }
+    },
+    "sceneLabel": "Scenöppning",
+    "scenarioTab": "Scenario",
+    "generatingScene": "Väcker scenen till liv...",
+    "locationLabel": "Plats",
+    "toneLabel": "Ton",
+    "scenePlaceholder": "t.ex. Vi stöter ihop i regnet och duckar under samma tak...",
+    "sceneHint": "Beskriv bara hur scenen börjar — var ni är och vad som händer när den öppnar. Ändra inte karaktärens personlighet, er relation eller skriv om hela historien.",
+    "sceneError": "Beskriv hur scenen börjar.",
+    "reviewTitle": "Granska val",
+    "characterLabel": "Karaktär",
+    "randomize": "Slumpa",
+    "sceneGuidanceTitle": "Vägledning för scenöppning",
+    "sceneGuide1": "Ändra inte karaktärens personlighet eller er relation.",
+    "sceneGuide2": "Håll scenöppningen samtyckesbaserad och respektfull.",
+    "sceneGuide3": "Beskriv bara hur scenen börjar, inte hela historien.",
+    "next": "Nästa",
+    "create": "Starta rollspel",
+    "creatingMessages": [
+      "Sätter scenen...",
+      "Dämpar ljuset precis rätt...",
+      "Målar din omgivning...",
+      "Sätter din följeslagare i karaktär...",
+      "Lägger till de sista detaljerna...",
+      "Nästan klar..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Skriv ett meddelande...",
+    "send": "Skicka",
+    "typing": "skriver...",
+    "read": "Läst",
+    "resetChat": "Återställ chatt",
+    "deleteChat": "Radera chatt",
+    "settings": "Inställningar",
+    "chatSettings": "Chattinställningar",
+    "roleplayMode": "Rollspelsläge",
+    "roleplayModeDescription": "När det är på agerar följeslagarna ut gester och handlingar inom *asterisker* för ett uppslukande rollspel. När det är av chattar de naturligt, som vanlig textning.",
+    "roleplayModeError": "Kunde inte uppdatera rollspelsläget",
+    "roleplayCtaDescription": "Öppna den dedikerade rollspelsupplevelsen där följeslagaren agerar ut scener och berättelser med dig.",
+    "goToRoleplay": "Gå till rollspel",
+    "confirmReset": "Är du säker på att du vill återställa den här chatten? Alla meddelanden kommer att raderas.",
+    "confirmDelete": "Är du säker på att du vill radera den här chatten?",
+    "resetSuccess": "Chatten återställdes",
+    "deleteMemory": "Radera minne",
+    "confirmDeleteMemory": "Är du säker på att du vill radera denna karaktärs långsiktiga minnen? Chattmeddelanden finns kvar, men karaktären glömmer tidigare fakta vid nästa svar.",
+    "deleteMemorySuccess": "Minne raderat",
+    "deleteSuccess": "Chatten raderades",
+    "sendError": "Kunde inte skicka meddelande",
+    "noChats": "Inga chattar ännu",
+    "noChatsDesc": "Starta en konversation med en karaktär för att se dina chattar här",
+    "lastMessage": "Senaste meddelande",
+    "messageCount": "{count} meddelanden",
+    "uploadImage": "Ladda upp bild",
+    "uploadVideo": "Ladda upp video (kommer snart)",
+    "yourConversations": "Dina konversationer",
+    "continueChattingDesc": "Fortsätt chatta med dina AI-karaktärer",
+    "newChat": "Ny chatt",
+    "noConversationsYet": "Inga konversationer ännu",
+    "startChattingDesc": "Starta en chatt med en karaktär för att se dina konversationer här",
+    "browseCharacters": "Bläddra bland karaktärer",
+    "createCustomCharacter": "Skapa anpassad karaktär",
+    "imageTooLarge": "Bilden är för stor (max 5 MB)",
+    "generateImageTitle": "Generera bild med {name}",
+    "imagePromptLabel": "Beskriv bilden",
+    "imagePromptPlaceholder": "t.ex. på stranden i en blå klänning, dricker kaffe på ett café, promenerar i en park...",
+    "imagePromptHint": "AI:n kommer att generera en bild av {name} baserat på din beskrivning.",
+    "referenceImageLabel": "Ditt foto (valfritt)",
+    "referenceImageHint": "Ladda upp ditt foto för att inkluderas i scenen med {name}. Utan foto genereras endast {name}.",
+    "uploadReferenceImage": "Ladda upp ditt foto",
+    "uploadReferenceImageDesc": "Ni kommer båda att synas i den genererade bilden",
+    "referenceImageSelected": "Både du och {name} kommer att synas tillsammans",
+    "generating": "Genererar...",
+    "generate": "Generera",
+    "generateImage": "Generera bild",
+    "imageGenerated": "Bilden genererades",
+    "generateError": "Kunde inte generera bild",
+    "contentBlockedReply": "Tyvärr, jag kan inte skapa den bilden. Den blockerades av säkerhetsfilter. Försök med en annan beskrivning! 💕",
+    "generateVideoTitle": "Generera video med {name}",
+    "generateVideo": "Generera video",
+    "videoPromptLabel": "Beskriv handlingen",
+    "videoPromptPlaceholder": "t.ex. dansa, vinka, skicka en kyss...",
+    "videoPromptHint": "AI:n genererar en video av {name} som utför den beskrivna handlingen.",
+    "generatingImage": "Genererar bild...",
+    "generatingVideo": "Genererar video... (3-5 min)",
+    "viewPhoto": "Visa foto",
+    "viewVideo": "Visa video",
+    "selectVideoOption": "Välj ett videoalternativ ovan",
+    "contentPolicyViolation": "Meddelandet kunde inte skickas. Håll samtalen respektfulla.",
+    "functionCallBetaHint": "💡 Den här funktionen är i beta — för pålitlig mediagenerering utan begränsningar, använd foto/video-knapparna i verktygsfältet istället.",
+    "repliedToStory": "Svarade på story",
+    "repliedToStoryLiked": "Gillade & svarade på story",
+    "storyNoLongerAvailable": "Storyn är inte längre tillgänglig",
+    "rateLimitExceeded": "För många förfrågningar. Vänta ett ögonblick och försök igen.",
+    "profileTab": "Profil",
+    "galleryTab": "Galleri",
+    "giftsTab": "Gåvor",
+    "tts": {
+      "play": "Spela röst",
+      "stop": "Stoppa",
+      "generating": "Genererar röst…",
+      "error": "Kunde inte spela ljud"
+    }
+  },
+  "gallery": {
+    "all": "Alla",
+    "images": "Bilder",
+    "videos": "Videor",
+    "empty": "Inget media ännu"
+  },
+  "gifts": {
+    "sendAGift": "Skicka en gåva",
+    "catalogSubtitle": "Välj en gåva att skicka till {name}",
+    "browseGifts": "Bläddra bland gåvor",
+    "noneSent": "Inga gåvor skickade ännu",
+    "confirmTitle": "Bekräfta gåva",
+    "forCompanion": "Till {name}",
+    "optionalMessage": "Lägg till ett meddelande (valfritt)",
+    "optionalMessagePlaceholder": "Skriv något sött...",
+    "sendGiftFor": "Skicka",
+    "giftSent": "Du skickade en gåva",
+    "sendError": "Kunde inte skicka gåvan"
+  },
+  "stories": {
+    "replyPlaceholder": "Svara {name}...",
+    "like": "Gilla",
+    "send": "Skicka",
+    "close": "Stäng",
+    "previous": "Föregående story",
+    "next": "Nästa story",
+    "pause": "Pausa",
+    "play": "Spela",
+    "mute": "Stäng av ljud",
+    "unmute": "Slå på ljud",
+    "openStory": "Öppna {name}s story"
+  },
+  "generate": {
+    "title": "Generera bild",
+    "description": "Skapa fantastiska bilder med dina AI-karaktärer",
+    "selectCompanion": "Välj en karaktär",
+    "promptPlaceholder": "Beskriv bilden du vill generera... t.ex. på stranden, i en röd klänning",
+    "promptLabel": "Bildbeskrivning",
+    "promptRequired": "Ange en beskrivning",
+    "generateButton": "Generera bild",
+    "generating": "Genererar...",
+    "creatingImage": "Skapar din bild...",
+    "pleaseWait": "Detta kan ta 10–30 sekunder",
+    "noCompanionSelected": "Välj en karaktär först",
+    "emptyGallery": "Inga bilder genererade ännu. Välj en karaktär och beskriv din bild!",
+    "sessionGallery": "Genererade bilder",
+    "regenerate": "Generera om",
+    "regenerating": "Genererar om...",
+    "animate": "Animera",
+    "animateReference": "Denna bild blir den första rutan i videon.",
+    "filterMyAI": "Min AI",
+    "filterAll": "Alla",
+    "filterGirls": "Kvinnor",
+    "filterAnime": "Anime",
+    "filterGuys": "Män",
+    "imageGenerationFailed": "Bildgenereringen misslyckades. Bilden kanske inte uppfyller kraven eller beskrivningen kan vara för komplex. Försök med en enklare prompt.",
+    "noImageData": "Ingen bild genererades. Försök igen med en annan beskrivning.",
+    "generationFailed": "Genereringen misslyckades. Försök igen senare eller med en annan prompt.",
+    "random": "Slumpmässig",
+    "custom": "Anpassa",
+    "settings": "Inställningar",
+    "videoTitle": "Generera video",
+    "videoDescription": "Skapa fantastiska videor med dina AI-karaktärer",
+    "videoPromptLabel": "Videobeskrivning",
+    "videoPromptPlaceholder": "Beskriv handlingen du vill generera... t.ex. dansa, vinka, le",
+    "generateVideoButton": "Generera video",
+    "generatingVideo": "Genererar video...",
+    "creatingVideo": "Skapar din video...",
+    "videoWait": "Detta kan ta 1-5 minuter",
+    "emptyVideoGallery": "Inga videor genererade ännu. Välj en karaktär och beskriv handlingen!",
+    "sessionVideoGallery": "Genererade videor",
+    "videoGenerated": "Video genererad!",
+    "videoGenerationFailed": "Videogenereringen misslyckades. Försök igen.",
+    "duration": "Längd",
+    "shortVideo": "Kort",
+    "longVideo": "Lång",
+    "seconds": "sekunder",
+    "audio": "Ljud",
+    "renderingVideo": "Renderar video…",
+    "renderingVideoHint": "(tar upp till 1 minut)",
+    "rateLimitExceeded": "För många förfrågningar. Vänta ett ögonblick och försök igen.",
+    "chooseCharacter": "Välj karaktär",
+    "selectButton": "Välj",
+    "noCustomCompanions": "Du har inte skapat några AI-karaktärer ännu.",
+    "numberOfImages": "Antal bilder",
+    "numberOfVideos": "Antal videor",
+    "freeTrial": "Gratis provperiod",
+    "changeCharacter": "Byt karaktär",
+    "randomize": "Slumpa prompt",
+    "aiVideo": "AI-video",
+    "download": "Ladda ner",
+    "seriesHelper": "Här kan du se dina resultat. Du kan lämna sidan eller starta en ny serie medan dessa slutförs.",
+    "suggestions": {
+      "title": "Förslag",
+      "categories": {
+        "outfit": "Kläder",
+        "action": "Handling",
+        "pose": "Pos",
+        "accessories": "Accessoarer",
+        "scene": "Scen"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Kjol",
+        "lingerie": "Underkläder",
+        "crop_top": "Crop top",
+        "leather": "Läder",
+        "mini_skirt": "Minikjol",
+        "satin_robe": "Satinrock",
+        "jeans": "Jeans",
+        "summer_dress": "Sommarklänning",
+        "sportswear": "Sportkläder",
+        "selfie": "Selfie",
+        "walking": "Går",
+        "dancing": "Dansar",
+        "stretching": "Sträcker på sig",
+        "lying_down": "Ligger ner",
+        "leaning": "Lutar sig",
+        "blowing_kiss": "Ger en kyss",
+        "drinking_coffee": "Dricker kaffe",
+        "hands_on_hips": "Händer på höfterna",
+        "over_shoulder": "Över axeln",
+        "side_profile": "Sidoprofil",
+        "arms_crossed": "Armarna i kors",
+        "kneeling": "Knäböjer",
+        "squatting": "Hukar sig",
+        "back_view": "Bakifrån",
+        "sitting": "Sitter",
+        "necklace": "Halsband",
+        "earrings": "Örhängen",
+        "glasses": "Glasögon",
+        "choker": "Choker",
+        "hat": "Hatt",
+        "sunglasses": "Solglasögon",
+        "garden": "Trädgård",
+        "beach": "Strand",
+        "bedroom": "Sovrum",
+        "gym": "Gym",
+        "bar": "Bar",
+        "kitchen": "Kök",
+        "restaurant": "Restaurang",
+        "balcony": "Balkong",
+        "city_street": "Gata i stan",
+        "pool": "Poolkanten"
+      },
+      "fragments": {
+        "bikini": "i bikini",
+        "skirt": "i kjol",
+        "lingerie": "i underkläder",
+        "crop_top": "i en crop top",
+        "leather": "i ett läderoutfit",
+        "mini_skirt": "i en minikjol",
+        "satin_robe": "i en satinkappa",
+        "jeans": "i jeans",
+        "summer_dress": "i en sommarklänning",
+        "sportswear": "i tight sportkläder",
+        "selfie": "tar en selfie",
+        "walking": "går",
+        "dancing": "dansar",
+        "stretching": "stretchar",
+        "lying_down": "ligger ner",
+        "leaning": "lutar sig mot en vägg",
+        "blowing_kiss": "blåser en kyss",
+        "drinking_coffee": "dricker en kopp kaffe",
+        "hands_on_hips": "med händerna på höfterna",
+        "over_shoulder": "tittar över axeln",
+        "side_profile": "sidoprofil pose",
+        "arms_crossed": "med armarna i kors",
+        "kneeling": "knästående pose",
+        "squatting": "huksittande pose",
+        "back_view": "sedd bakifrån",
+        "sitting": "sitter ner",
+        "necklace": "bär ett halsband",
+        "earrings": "bär örhängen",
+        "glasses": "bär glasögon",
+        "choker": "bär en choker",
+        "hat": "bär en hatt",
+        "sunglasses": "bär solglasögon",
+        "garden": "i en trädgård",
+        "beach": "på stranden",
+        "bedroom": "i ett sovrum",
+        "gym": "på gymmet",
+        "bar": "på en bar",
+        "kitchen": "i ett kök",
+        "restaurant": "på en restaurang",
+        "balcony": "på en balkong",
+        "city_street": "på en stadsgata",
+        "pool": "vid poolen"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Visa en selfie av dig"
+        },
+        "posing": {
+          "name": "Poserar",
+          "uiPrompt": "Visa dig posera"
+        },
+        "sitting": {
+          "name": "Sitter",
+          "uiPrompt": "Visa dig sitta ner"
+        },
+        "waving": {
+          "name": "Vinkar",
+          "uiPrompt": "Visa dig vinka"
+        },
+        "dancing": {
+          "name": "Dansar",
+          "uiPrompt": "Visa dig dansa"
+        },
+        "reading": {
+          "name": "Läser",
+          "uiPrompt": "Visa dig läsa"
+        },
+        "smiling": {
+          "name": "Leende",
+          "uiPrompt": "Visa mig dig leende"
+        },
+        "walking": {
+          "name": "Gående",
+          "uiPrompt": "Visa mig dig gående"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Visa mig en video-selfie"
+        },
+        "posing": {
+          "name": "Poserar",
+          "uiPrompt": "Visa mig en video av dig poserar"
+        },
+        "sitting": {
+          "name": "Sittande",
+          "uiPrompt": "Visa mig en video av dig sittande"
+        },
+        "waving": {
+          "name": "Vinkande",
+          "uiPrompt": "Visa mig en video av dig vinkande"
+        },
+        "dancing": {
+          "name": "Dansande",
+          "uiPrompt": "Visa mig en video av dig dansande"
+        },
+        "reading": {
+          "name": "Läsande",
+          "uiPrompt": "Visa mig en video av dig läsande"
+        },
+        "smiling": {
+          "name": "Leende",
+          "uiPrompt": "Visa mig en video av dig leende"
+        },
+        "walking": {
+          "name": "Gående",
+          "uiPrompt": "Visa mig en video av dig gående"
+        }
+      }
+    },
+    "writeYourOwn": "eller skriv din egen prompt",
+    "presetSelected": "Förval valt",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Positioner",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Badhandduk"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Bröstmjölk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Kedjeband"
+        },
+        "chinese_dress": {
+          "name": "Kinesisk klänning"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Anpassad"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Skoluniform"
+        },
+        "legsup": {
+          "name": "Ben upp"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionärsställning sidovy"
+        },
+        "remix_blowjob": {
+          "name": "Remix av oralsex"
+        },
+        "remix_cowgirl": {
+          "name": "Remix av cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix av doggy"
+        },
+        "remix_dress": {
+          "name": "Remix av klänning"
+        },
+        "remix_hold_dick": {
+          "name": "Remix av hålla kuk"
+        },
+        "remix_kiss": {
+          "name": "Remix av kyss"
+        },
+        "remix_pronebone": {
+          "name": "Remix av pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix av suga"
+        },
+        "remix_wear": {
+          "name": "Remix av bära"
+        },
+        "remix_yoga": {
+          "name": "Remix av yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Rida på dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sugande kondomer"
+        },
+        "squatting_cowgirl": {
+          "name": "Hukande cowgirl"
+        },
+        "tattoo": {
+          "name": "Tatuering"
+        },
+        "tentacles": {
+          "name": "Tentakler"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Avklädning"
+        },
+        "used": {
+          "name": "Använd"
+        },
+        "xray": {
+          "name": "Röntgen"
+        },
+        "maid_outfit": {
+          "name": "Maid Outfit"
+        },
+        "nurse_outfit": {
+          "name": "Nurse Outfit"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Wet T-Shirt"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Corset & Stockings"
+        },
+        "gym_shorts": {
+          "name": "Gym Shorts"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Mirror Selfie"
+        },
+        "shower_nude": {
+          "name": "Shower"
+        },
+        "oiled_body": {
+          "name": "Oiled Body"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Ansiktsknull"
+        },
+        "throatpie": {
+          "name": "Halskräm"
+        },
+        "cock_worship": {
+          "name": "Kukdyrkan"
+        },
+        "footjob": {
+          "name": "Fotjobb"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Ansiktsknull POV"
+        },
+        "riding_pov": {
+          "name": "Rida POV"
+        },
+        "spitroast": {
+          "name": "Spettstek"
+        },
+        "hair_pulling": {
+          "name": "Hårdragning"
+        },
+        "facial_cumshot": {
+          "name": "Ansiktsutlösning"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Bakre doggy"
+        },
+        "blowjob": {
+          "name": "Oralsex"
+        },
+        "blowjob_69": {
+          "name": "Oralsex 69"
+        },
+        "blowjob_reverse": {
+          "name": "Omvänt oralsex"
+        },
+        "breast_massage": {
+          "name": "Bröstmassage"
+        },
+        "breast_massage_nude": {
+          "name": "Naken bröstmassage"
+        },
+        "butt_smothering": {
+          "name": "Rumpkvävning"
+        },
+        "cock_worship": {
+          "name": "Kukdyrkan"
+        },
+        "cum_in_mouth": {
+          "name": "Sperma i munnen"
+        },
+        "dildo_masturbation": {
+          "name": "Dildomasturbation"
+        },
+        "double_blowjob": {
+          "name": "Dubbel oralsex"
+        },
+        "double_penetration": {
+          "name": "Dubbel penetration"
+        },
+        "ejaculation": {
+          "name": "Ejakulation"
+        },
+        "facefuck": {
+          "name": "Ansiktsknull"
+        },
+        "facefuck_pov": {
+          "name": "Ansiktsknull POV"
+        },
+        "facial_cumshot": {
+          "name": "Ansiktsutlösning"
+        },
+        "footjob": {
+          "name": "Fotjobb"
+        },
+        "front_doggystyle": {
+          "name": "Främre doggy"
+        },
+        "fuck_machine": {
+          "name": "Knullmaskin"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjobb"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionär POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionär sidovy"
+        },
+        "nipple_play": {
+          "name": "Nipplelek"
+        },
+        "nude_posing": {
+          "name": "Naken posering"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Pussy Closeup"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "strip_tease": {
+          "name": "Striptease"
+        },
+        "booty_bounce": {
+          "name": "Rumpstudsa"
+        },
+        "oil_show": {
+          "name": "Oljeshower"
+        },
+        "shower_show": {
+          "name": "Duschshow"
+        },
+        "panty_drop": {
+          "name": "Trosdroppe"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Djupstrup"
+        },
+        "sloppy_blowjob": {
+          "name": "Slabbig avsugning"
+        },
+        "ball_sucking": {
+          "name": "Ballsugning"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Stående bärning"
+        },
+        "against_wall": {
+          "name": "Mot vägg"
+        },
+        "spooning": {
+          "name": "Skedställning"
+        },
+        "mating_press": {
+          "name": "Parningspress"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Bröstjobb POV"
+        },
+        "handjob_pov": {
+          "name": "Handjobb POV"
+        },
+        "riding_pov": {
+          "name": "Rida POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Sprutande"
+        },
+        "spanking": {
+          "name": "Smisk"
+        },
+        "hair_pulling": {
+          "name": "Hårdragning"
+        },
+        "fingering": {
+          "name": "Fingring"
+        },
+        "come_hither": {
+          "name": "Kom hit"
+        },
+        "spread_legs": {
+          "name": "Spridda ben"
+        },
+        "blowjob_sideview": {
+          "name": "Avsugning sidovy"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionärsställning"
+        },
+        "legs_on_shoulders": {
+          "name": "Ben på axlar"
+        },
+        "blowjob_pov": {
+          "name": "Avsugning POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Trekant"
+        },
+        "aftercare_mess": {
+          "name": "Eftervårdsröra"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Är du säker på att du vill ta bort detta?",
+    "deleteSuccess": "Borttaget",
+    "deleteError": "Kunde inte ta bort",
+    "empty": "Inget media ännu. Generera i chatten!",
+    "gallerySubtitle": "Ditt personliga galleri med AI-genererade ögonblick",
+    "filterAll": "Alla",
+    "filterImages": "Bilder",
+    "filterVideos": "Videor",
+    "loadMore": "Ladda mer",
+    "folders": "Mappar",
+    "newFolder": "Ny mapp",
+    "deleteFolders": "Ta bort valda mappar",
+    "folderCreated": "Mapp skapad",
+    "folderCreateError": "Kunde inte skapa mapp",
+    "folderRenamed": "Mapp omdöpt",
+    "folderRenameError": "Kunde inte döpa om mapp",
+    "folderDeleted": "Mapp borttagen",
+    "folderDeleteError": "Kunde inte ta bort mapp",
+    "folderNamePlaceholder": "Mappnamn",
+    "seeMore": "Visa mer",
+    "seeLess": "Visa mindre",
+    "selectedCount": "{count} objekt valda",
+    "selectAll": "Välj alla",
+    "select": "Välj",
+    "moveToFolder": "Flytta",
+    "bulkDeleteConfirm": "Ta bort {count} valda objekt?",
+    "bulkDeleteSuccess": "Objekt borttagna",
+    "bulkDownloadStart": "Laddar ner {count} objekt...",
+    "moveSuccess": "Objekt flyttade"
+  },
+  "voice": {
+    "connecting": "Ansluter...",
+    "connected": "Ansluten",
+    "mute": "Stäng av ljud",
+    "unmute": "Slå på ljud",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Tala naturligt. AI:n svarar när du pausar.",
+    "connectionError": "Kunde inte ansluta. Försök igen.",
+    "minutesRemaining": "{minutes} minuter kvar",
+    "minutesUsed": "{minutes} minuter använda"
+  },
+  "characters": {
+    "filters": "Filter",
+    "ethnicity": "Etnicitet",
+    "bodyType": "Kroppstyp",
+    "ageRange": "Åldersintervall",
+    "relationship": "Relation",
+    "occupation": "Yrke",
+    "hobbies": "Hobbyn",
+    "personality": "Personlighet",
+    "language": "Språk",
+    "age": "Ålder",
+    "all": "Alla",
+    "noResults": "Inga karaktärer hittades",
+    "noResultsDesc": "Försök justera dina filter",
+    "newBadge": "Ny",
+    "chatNow": "Chatta nu",
+    "viewProfile": "Visa profil",
+    "ethnicities": {
+      "caucasian": "Kaukasisk",
+      "asian": "Asiatisk",
+      "middleEastern": "Mellanöstern",
+      "hispanic": "Latinamerikansk",
+      "african": "Afrikansk",
+      "southAsian": "Sydasiatisk",
+      "nativeAmerican": "Ursprungsamerikan",
+      "pacificIslander": "Stilla havsöbor",
+      "mixed": "Blandad",
+      "other": "Annat"
+    },
+    "bodyTypes": {
+      "slim": "Smal",
+      "athletic": "Atletisk",
+      "average": "Genomsnittlig",
+      "curvy": "Kurvig",
+      "plus": "Plusstorlek"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Singel",
+      "dating": "Dejtar",
+      "married": "Gift",
+      "none": "Ingen"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Min profil",
+    "settings": "Inställningar",
+    "account": "Konto",
+    "plan": "Plan",
+    "profileSettings": "Profilinställningar",
+    "manageAccountSettings": "Hantera dina kontoinställningar och preferenser",
+    "personalInfo": "Personlig information",
+    "nickname": "Smeknamn",
+    "gender": "Kön",
+    "male": "Man",
+    "female": "Kvinna",
+    "preferences": "Preferenser",
+    "newsletter": "Prenumeration på nyhetsbrev",
+    "newsletterDesc": "Få uppdateringar och nyheter",
+    "aiTrainingTitle": "AI- och modereringsträning",
+    "aiTrainingDesc": "Tillåt att dina chattar och prompts hjälper till att träna och förbättra sweetwines AI och moderering. Stäng av detta när som helst för att välja bort.",
+    "aiTrainingLink": "Läs mer i vårt integritetsmeddelande.",
+    "aiTrainingError": "Kunde inte uppdatera din AI-träningsinställning",
+    "interfaceLanguage": "Gränssnittsspråk",
+    "interfaceLanguageDesc": "Språk för användargränssnittet",
+    "aiLanguage": "AI-svarsspråk",
+    "aiLanguageDesc": "Språk som AI-karaktärerna använder när de pratar med dig",
+    "currentPlan": "Nuvarande plan",
+    "freePlan": "Gratisplan",
+    "dangerZone": "Farozon",
+    "dangerZoneDescription": "Om du vill radera detta konto och all dess data permanent.",
+    "deleteAllMemory": "Radera allt minne",
+    "confirmDeleteAllMemory": "Är du säker på att du vill radera långsiktiga minnen för alla AI-karaktärer? Chattmeddelanden finns kvar, men karaktärerna glömmer tidigare fakta vid nästa svar.",
+    "deleteAllMemorySuccess": "Alla minnen raderade",
+    "deleteAccount": {
+      "button": "Radera konto",
+      "title": "Radera konto",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "För att bekräfta, skriv",
+      "confirmRequired": "Skriv DELETE för att bekräfta",
+      "confirmButton": "Radera mitt konto",
+      "deleting": "Raderar...",
+      "success": "Ditt konto har raderats",
+      "error": "Kunde inte radera kontot. Försök igen."
+    },
+    "saveChanges": "Spara ändringar",
+    "changesSaved": "Ändringar sparades",
+    "saveFailed": "Kunde inte spara ändringar",
+    "languageUpdated": "Språk uppdaterat",
+    "aiLanguageUpdated": "AI-språk uppdaterat"
+  },
+  "create": {
+    "defaultGreeting": "Hej",
+    "title": "Skapa AI-karaktär",
+    "step": "Steg {current} av {total}",
+    "step1": {
+      "title": "Välj stil",
+      "description": "Välj stil och grundegenskaper för din karaktär"
+    },
+    "step2": {
+      "title": "Välj etnicitet",
+      "description": "Välj etnicitet och ålder för din karaktär"
+    },
+    "step3": {
+      "title": "Välj hår & ögon",
+      "description": "Anpassa frisyr, hårfärg och ögonfärg"
+    },
+    "step4": {
+      "title": "Välj kropp",
+      "description": "Anpassa din karaktärs kropp"
+    },
+    "step5": {
+      "title": "Personlighet & detaljer",
+      "description": "Definiera din karaktärs personlighet och röst"
+    },
+    "style": {
+      "title": "Karaktärsstil",
+      "realistic": "Realistisk",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Kön",
+      "female": "Kvinna",
+      "male": "Man"
+    },
+    "age": {
+      "title": "Ålder",
+      "years": "{age} år"
+    },
+    "ethnicity": {
+      "title": "Etnicitet"
+    },
+    "hairStyle": {
+      "title": "Frisyr"
+    },
+    "hairColor": {
+      "title": "Hårfärg"
+    },
+    "eyeColor": {
+      "title": "Ögonfärg"
+    },
+    "bodyType": {
+      "title": "Kroppstyp"
+    },
+    "breastSize": {
+      "title": "Bystmått"
+    },
+    "name": {
+      "title": "Namn",
+      "placeholder": "Ange karaktärens namn",
+      "randomize": "Generera slumpmässigt namn"
+    },
+    "language": {
+      "title": "Språk",
+      "widgetLabel": "Välj språk",
+      "placeholder": "Välj språk",
+      "selectTitle": "Välj ditt språk"
+    },
+    "personality": {
+      "title": "Personlighet",
+      "widgetLabel": "Välj personlighet",
+      "placeholder": "Välj personlighet",
+      "sectionTitle": "Välj personlighet",
+      "clickToChange": "Klicka för att ändra"
+    },
+    "relationship": {
+      "title": "Relation",
+      "widgetLabel": "Välj relation",
+      "placeholder": "Välj relation",
+      "selectTitle": "Redigera relation"
+    },
+    "occupation": {
+      "title": "Yrke",
+      "widgetLabel": "Välj yrke",
+      "placeholder": "Välj yrke",
+      "selectTitle": "Redigera yrke"
+    },
+    "kinks": {
+      "title": "Intressen",
+      "widgetLabel": "Vilka intressen har de? (Max. {max})",
+      "labelMax": "Intressen (Max. {max})",
+      "placeholder": "Välj intressen (valfritt)",
+      "optional": "Valfritt",
+      "selectTitle": "Redigera intressen",
+      "moreCount": "+{count} till"
+    },
+    "selector": {
+      "searchPlaceholder": "Sök",
+      "noResults": "Inga alternativ hittades",
+      "cancel": "Avbryt",
+      "saveChanges": "Spara ändringar",
+      "selectedCount": "{count} valda"
+    },
+    "voice": {
+      "title": "Röst",
+      "widgetLabel": "Välj röst",
+      "placeholder": "Välj röst",
+      "selectTitle": "Välj röst"
+    },
+    "advanced": {
+      "title": "Avancerade detaljer",
+      "optional": "valfritt",
+      "filled": "Ifylld",
+      "autocompleteTitle": "Autofyll med AI",
+      "autocompleteDesc": "Låt AI fylla i tomma fält för en djupare karaktär",
+      "autocompleteSuccess": "Fält ifyllda!",
+      "autocompleteError": "Kunde inte generera förslag. Försök igen.",
+      "greetingLabel": "Hälsning",
+      "greetingPlaceholder": "Det första meddelandet din karaktär skickar...",
+      "scenarioLabel": "Scenario",
+      "scenarioPlaceholder": "Kontexten eller bakgrunden till hur ni träffades...",
+      "personalityLabel": "Ytterligare personlighetsdetaljer",
+      "personalityPlaceholder": "Egenheter, talsätt, beteendemönster...",
+      "extraLabel": "Extra detaljer",
+      "extraPlaceholder": "Bakgrund, hobbies, livshistoria..."
+    },
+    "navigation": {
+      "back": "Tillbaka",
+      "next": "Nästa",
+      "create": "Skapa",
+      "generateYourCharacter": "Generera din karaktär"
+    },
+    "progress": {
+      "generatingPrompt": "Skapar personlighet...",
+      "generatingImage": "Skapar porträtt...",
+      "creatingVoice": "Ställer in röst...",
+      "saving": "Sparar...",
+      "complete": "Klart!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Skapar personlighet...",
+      "addingSweetness": "Lägger till sötma...",
+      "tooMuchSweet": "Hoppsan, för mycket sött...",
+      "testingSounds": "Testar ljud..."
+    },
+    "overlay": {
+      "signupPrompt": "Slutför registreringen för att låsa upp din karaktär…",
+      "processingHint": "Det brukar ta 20–30 sekunder",
+      "traitEthnicity": "Etnicitet",
+      "traitBody": "Kropp",
+      "traitHair": "Hår",
+      "traitColor": "Färg",
+      "traitEyes": "Ögon",
+      "traitVibe": "Vibb",
+      "bannerTitle": "Din karaktär är redo att skapas!",
+      "bannerDesc": "Dina preferenser har sparats. Granska och generera nedan."
+    },
+    "success": {
+      "title": "Karaktär skapad!",
+      "description": "Din AI-karaktär har skapats.",
+      "yearsOld": "år gammal",
+      "meetButton": "Träffa"
+    },
+    "error": {
+      "title": "Skapandet misslyckades",
+      "generic": "Kunde inte skapa karaktär. Försök igen."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukasisk",
+        "asian": "Asiatisk",
+        "middle_eastern": "Mellanöstern",
+        "hispanic": "Latinamerikansk",
+        "african": "Afrikansk",
+        "south_asian": "Sydasiatisk",
+        "native_american": "Urbefolkning Amerika",
+        "pacific_islander": "Stilla havsöbor",
+        "mixed": "Blandad",
+        "arab": "Arabisk"
+      },
+      "hairStyleFemale": {
+        "straight": "Rak",
+        "bangs": "Lugg",
+        "curly": "Lockig",
+        "bun": "Hårknut",
+        "short_bob": "Kort bob",
+        "ponytail": "Hästsvans",
+        "wavy": "Vågig",
+        "long_layers": "Långa lager",
+        "braids": "Flätor",
+        "pixie_cut": "Pixieklippning",
+        "updo": "Uppåtfrisering",
+        "french_twist": "Fransk vridning",
+        "fishtail_braid": "Fishtail-fläta",
+        "top_knot": "Toppknut",
+        "space_buns": "Space buns",
+        "halo_braid": "Halo-fläta",
+        "beehive": "Bikupa",
+        "finger_waves": "Finger waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Rakad"
+      },
+      "hairStyleMale": {
+        "short": "Kort",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Lockigt",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Sidbena",
+        "textured_crop": "Texturerad Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Långt hår",
+        "bald": "Rakad"
+      },
+      "hairColor": {
+        "brunette": "Brunett",
+        "blonde": "Blond",
+        "black": "Svart",
+        "redhead": "Rödhårig",
+        "pink": "Rosa",
+        "auburn": "Auburn",
+        "brown": "Brun",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Grå",
+        "white": "Vit",
+        "blue": "Blå",
+        "purple": "Lila",
+        "green": "Grön",
+        "burgundy": "Burgundy",
+        "copper": "Koppar",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Black",
+        "dark_brown": "Mörkbrun",
+        "light_brown": "Ljusbrun",
+        "honey_blonde": "Honungsblond",
+        "dirty_blonde": "Smutsblond",
+        "cherry_red": "Körsbärsröd",
+        "violet": "Violett"
+      },
+      "eyeColor": {
+        "brown": "Brun",
+        "blue": "Blå",
+        "green": "Grön",
+        "hazel": "Hassel",
+        "amber": "Bärnsten",
+        "gray": "Grå",
+        "heterochromia": "Heterokromi",
+        "violet": "Violett",
+        "red_pink": "Röd/Rosa",
+        "black": "Svart"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Smal",
+        "athletic": "Atletisk",
+        "average": "Genomsnittlig",
+        "curvy": "Kurvig",
+        "chubby": "Rund"
+      },
+      "bodyTypeMale": {
+        "skinny": "Smal",
+        "athletic": "Atletisk",
+        "average": "Genomsnittlig",
+        "muscular": "Muskulös",
+        "heavy": "Tung",
+        "big_tall": "Stor & Lång"
+      },
+      "breastSize": {
+        "small": "Liten",
+        "medium": "Medium",
+        "large": "Stor",
+        "extra_large": "Extra Stor"
+      },
+      "personality": {
+        "nympho": "Nymfoman",
+        "lover": "Älskare",
+        "submissive": "Undergiven",
+        "dominant": "Dominant",
+        "temptress": "Fresterska",
+        "innocent": "Oskuldsfull",
+        "caregiver": "Omsorgsgivare",
+        "experimenter": "Experimenterare",
+        "mean": "Elak",
+        "confidant": "Förtrogen",
+        "shy": "Blyg",
+        "queen": "Drottning",
+        "adventurous": "Äventyrlig",
+        "romantic": "Romantisk",
+        "intellectual": "Intellektuell",
+        "protector": "Beskyddare",
+        "rebel": "Rebell",
+        "optimist": "Optimist",
+        "realist": "Realist",
+        "free_spirit": "Fri Ande",
+        "leader": "Ledare",
+        "loyal": "Lojal",
+        "playful": "Lekfull",
+        "mysterious": "Mystisk",
+        "ambitious": "Ambitiös",
+        "gentle": "Vänlig",
+        "sarcastic": "Sarkastisk",
+        "empathetic": "Empatisk",
+        "stoic": "Stoisk",
+        "charismatic": "Karismatisk"
+      },
+      "relationship": {
+        "stranger": "Främling",
+        "girlfriend": "Flickvän",
+        "sex_friend": "Sexkompis",
+        "school_mate": "Skolkamrat",
+        "work_colleague": "Arbetskamrat",
+        "wife": "Fru",
+        "mistress": "Älskarinna",
+        "friend": "Vän",
+        "step_sister": "Styvsyskon",
+        "step_mom": "Styvmor",
+        "step_daughter": "Styvdotter",
+        "landlord": "Hyresvärd",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Chef",
+        "teacher": "Lärare",
+        "student": "Student",
+        "neighbour": "Granne",
+        "mother_in_law": "Svärförälder",
+        "sister_in_law": "Svåger",
+        "boyfriend": "Pojkvän",
+        "husband": "Make",
+        "fiance": "Fästman / Fästmö",
+        "ex": "Ex",
+        "roommate": "Rumskamrat",
+        "best_friend": "Bästa vän",
+        "classmate": "Klasskamrat",
+        "mentor": "Mentor",
+        "client": "Klient",
+        "therapist": "Terapeut",
+        "trainer": "Tränare",
+        "rival": "Rival",
+        "crush": "Kärlek",
+        "secret_admirer": "Hemlig beundrare",
+        "pen_pal": "Brevvän",
+        "business_partner": "Affärspartner",
+        "babysitter": "Barnvakt",
+        "childhood_friend": "Barndomsvän",
+        "long_distance_partner": "Distanspartner"
+      },
+      "occupation": {
+        "student": "Student",
+        "dancer": "Dansare",
+        "model": "Modell",
+        "maid": "Städerska",
+        "boss_ceo": "Chef / VD",
+        "babysitter_au_pair": "Barnflicka / Au Pair",
+        "streamer": "Streamare",
+        "bartender": "Bartender",
+        "tech_engineer": "Teknikingenjör",
+        "lifeguard": "Livräddare",
+        "cashier": "Kassörska",
+        "massage_therapist": "Massageterapeut",
+        "teacher": "Lärare",
+        "nurse": "Sjuksköterska",
+        "secretary": "Sekreterare",
+        "yoga_instructor": "Yogainstruktör",
+        "fitness_coach": "Träningscoach",
+        "cook": "Kock",
+        "artist": "Konstnär",
+        "movie_star_actress": "Filmstjärna/Skådespelerska",
+        "doctor": "Läkare",
+        "librarian": "Bibliotekarie",
+        "spy": "Spion",
+        "police_officer": "Polis",
+        "soldier": "Soldat",
+        "lawyer": "Advokat",
+        "hairdresser": "Frisör",
+        "dentist": "Tandläkare",
+        "singer_musician": "Sångare/Musiker",
+        "gynecologist": "Gynekolog",
+        "writer": "Författare",
+        "flight_attendant": "Flygvärdinna",
+        "professional_athlete": "Professionell idrottare",
+        "scientist": "Forskare",
+        "florist": "Florist",
+        "makeup_artist": "Sminkör",
+        "photographer": "Fotograf",
+        "social_worker": "Socionom",
+        "designer": "Designer",
+        "pharmacist": "Apotekare",
+        "nutritionist": "Kostvetare",
+        "architect": "Arkitekt",
+        "veterinarian": "Veterinär",
+        "mechanic": "Mekaniker",
+        "journalist": "Journalist",
+        "pilot": "Pilot",
+        "firefighter": "Brandman",
+        "accountant": "Revisor",
+        "electrician": "Elektriker",
+        "carpenter": "Snickare",
+        "psychologist": "Psykolog",
+        "real_estate_agent": "Fastighetsmäklare",
+        "chef": "Kock",
+        "farmer": "Lantbrukare",
+        "delivery_driver": "Budbilschaufför",
+        "janitor": "Städare",
+        "security_guard": "Säkerhetsvakt",
+        "banker": "Bankman",
+        "judge": "Domare",
+        "paramedic": "Sjukvårdare",
+        "actor": "Skådespelare",
+        "comedian": "Komiker",
+        "archaeologist": "Arkeolog",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Spanking",
+        "collar_leash": "Halsband & Koppel",
+        "punishment": "Bestraffning",
+        "humiliation": "Förödmjukelse",
+        "public_play": "Offentlig lek",
+        "roleplay": "Rollspel",
+        "anal_play": "Anal lek",
+        "oral_play": "Oral lek",
+        "cum_play": "Sädeslek",
+        "creampie": "Creampie",
+        "squirting": "Sprutande",
+        "dirty_talk": "Smutsigt snack",
+        "breeding": "Avel",
+        "daddy_mommy_dominance": "Pappa/Mamma dominans",
+        "edging": "Edging",
+        "obedience": "Lydnad",
+        "control": "Kontroll",
+        "inexperienced": "Oerfaren",
+        "shy_flirting": "Blyg flört",
+        "playful_teasing": "Lekfull retning",
+        "cuddling": "Kramande",
+        "slow_sensual": "Långsamt & sensuellt",
+        "hair_pulling": "Hårdragning",
+        "foot_fetish": "Fotfetisch",
+        "voyeurism": "Voyeurism",
+        "exhibitionism": "Exhibitionism",
+        "sensation_play": "Sinneslek",
+        "wax_play": "Vaxlek",
+        "pet_play": "Husdjurslek",
+        "age_play": "Ålderslek",
+        "medical_play": "Medicinsk lek",
+        "orgasm_control_denial": "Orgasmkontroll/nekande",
+        "forced_orgasms": "Tvingade orgasmer",
+        "group_sex": "Gruppssex",
+        "threesomes": "Trekant",
+        "swapping": "Partnerbyte",
+        "cuckolding_cuckqueaning": "Kuckold/Kuckquean",
+        "femdom": "Femdom",
+        "gentle_domination": "Mild dominans",
+        "sensation_deprivation": "Sensorisk deprivation",
+        "sensory_overload": "Sensorisk överbelastning",
+        "uniform_costume_fetish": "Uniform/Kostymfetisch",
+        "food_play": "Matlek",
+        "watersports": "Vattensporter",
+        "bdsm": "BDSM",
+        "impact_play": "Slaglek",
+        "knife_play": "Knivlek",
+        "consensual_non_consent": "Samtyckt icke-samtycke",
+        "power_exchange": "Maktutbyte",
+        "master_slave": "Mästare/Slav",
+        "owner_pet": "Ägare/Husdjur"
+      },
+      "languages": {
+        "en": "Engelska",
+        "cs": "Tjeckiska",
+        "pl": "Polska",
+        "de": "Tyska",
+        "es": "Spanska",
+        "fr": "Franska"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Min AI",
+    "titlePart1": "Min",
+    "titlePart2": "AI",
+    "createNew": "Skapa ny AI",
+    "createButton": "Skapa karaktär",
+    "characterCount": "{count}/{limit} karaktärer",
+    "loadMore": "Ladda fler",
+    "empty": {
+      "title": "Inga karaktärer ännu",
+      "description": "Skapa din första AI-karaktär och börja chatta! Anpassa utseende, personlighet och röst.",
+      "createFirst": "Skapa din första karaktär"
+    },
+    "delete": {
+      "title": "Ta bort karaktär",
+      "message": "Är du säker på att du vill ta bort {name}? Detta tar bort karaktären, all chathistorik och genererat innehåll permanent.",
+      "confirm": "Ta bort",
+      "success": "Karaktären togs bort"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interaktion",
+    "interactionDescription": "Skriv naturligt – be om foto, video eller starta ett samtal. AI:n förstår din avsikt på vilket språk som helst.",
+    "mediaTitle": "Generera bilder & videor",
+    "mediaDescription": "Släpp loss fantasin – generera bilder eller videor utan gränser.",
+    "next": "Nästa →",
+    "gotIt": "Jag förstår"
+  }
+}

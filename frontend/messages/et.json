@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Salvesta",
+    "cancel": "Tühista",
+    "delete": "Kustuta",
+    "edit": "Muuda",
+    "close": "Sulge",
+    "now": "nüüd",
+    "loading": "Laadimine...",
+    "error": "Tekkis viga",
+    "success": "Edukas",
+    "confirm": "Kinnita",
+    "back": "Tagasi",
+    "or": "Või",
+    "next": "Järgmine",
+    "submit": "Saada",
+    "search": "Otsi",
+    "filter": "Filtreeri",
+    "clear": "Tühjenda",
+    "all": "Kõik",
+    "yes": "Jah",
+    "no": "Ei",
+    "download": "Laadi alla",
+    "and": "ja",
+    "tryAgain": "Proovi uuesti",
+    "change": "Muuda"
+  },
+  "navigation": {
+    "new": "UUS",
+    "sectionBrowse": "Sirvi",
+    "sectionTalk": "Vestle",
+    "sectionCreate": "Loo",
+    "sectionLibrary": "Teek",
+    "explore": "Avaleht",
+    "discover": "Avasta",
+    "createShort": "Loo AI",
+    "chats": "Vestlused",
+    "groupChat": "AI grupivestlus",
+    "roleplay": "Rollimäng",
+    "collection": "Kogumik",
+    "generateImage": "Loo pilt",
+    "generateVideo": "Loo video",
+    "createCharacter": "Loo AI tegelane",
+    "myAI": "Minu AI",
+    "language": "Keel",
+    "contactUs": "Võta ühendust",
+    "account": "Konto",
+    "sidebarPromoTitle": "Suvisoodustus — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Naised",
+      "anime": "Anime",
+      "guys": "Mehed"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Vestle nüüd",
+    "like": "Meeldib"
+  },
+  "auth": {
+    "login": "Logi sisse",
+    "signup": "Registreeru",
+    "createFreeAccount": "Loo tasuta konto",
+    "logout": "Logi välja",
+    "email": "E-post",
+    "password": "Parool",
+    "confirmPassword": "Kinnita parool",
+    "forgotPassword": "Unustasid parooli?",
+    "noAccount": "Ei ole kontot?",
+    "hasAccount": "Juba on konto?",
+    "signupPrompt": "Loo tasuta konto",
+    "loginPrompt": "Logi sisse",
+    "continueWith": "Jätka teenusega",
+    "welcomeBack": "Tere tulemast tagasi!",
+    "createAccount": "Loo oma konto",
+    "signInToAccount": "Logi oma kontoga sisse",
+    "emailRequired": "E-post on kohustuslik",
+    "emailInvalid": "Vigane e-posti aadress",
+    "passwordRequired": "Parool on kohustuslik",
+    "passwordLength": "Parool peab olema vähemalt 6 tähemärki",
+    "passwordsMismatch": "Paroolid ei kattu",
+    "emailAlreadyRegistered": "E-post on juba registreeritud",
+    "emailAlreadyRegisteredDescription": "Selle e-posti aadressiga konto on juba olemas. Palun logi sisse.",
+    "loginError": "Sisselogimine ebaõnnestus",
+    "signupError": "Registreerumine ebaõnnestus",
+    "loginSuccess": "Tere tulemast tagasi!",
+    "signupSuccess": "Konto edukalt loodud!",
+    "logoutSuccess": "Oled edukalt välja logitud",
+    "logoutError": "Väljalogimine ebaõnnestus",
+    "linkExpired": "See kinnituslink on aegunud. Palun taotle uut.",
+    "accessDenied": "Juurdepääs keelatud. Palun proovi uuesti.",
+    "verifyEmail": "Kinnita oma e-post",
+    "verificationEmailSent": "Saatsime sulle kinnitusmeili",
+    "confirmYourEmail": "Kinnita oma e-post",
+    "confirmationLinkSent": "Saatsime kinnituslingi aadressile \"{email}\".",
+    "checkSpamFolder": "Ei saanud kirja? Kontrolli rämpsposti kausta.",
+    "signupToChat": "Loo tasuta konto, et alustada.",
+    "signupDescription": "Loo konto vestluse jätkamiseks",
+    "emailVerificationTitle": "Kontrolli oma e-posti",
+    "emailVerificationMessage": "Saatsime kinnituslingi aadressile {email}. Palun kontrolli oma postkasti ja klõpsa lingil konto kinnitamiseks.",
+    "emailVerificationNext": "Pärast kinnitamist lõpetad seadistamise.",
+    "verificationEmailSentTo": "Saatsime kinnituskirja aadressile {email}",
+    "verificationInstructions": "Kontrolli oma postkasti ja klõpsa kinnituslingil, et aktiveerida konto.",
+    "resetPassword": "Lähtesta parool",
+    "resetPasswordDescription": "Sisesta oma e-post ja saadame sulle lähtestamislingi",
+    "resetEmailSent": "Kui selle e-posti aadressiga konto on olemas, saad peagi lähtestamislingi",
+    "backToLogin": "Tagasi sisselogimisse",
+    "newPassword": "Uus parool",
+    "confirmNewPassword": "Kinnita uus parool",
+    "passwordResetSuccess": "Parool uuendati edukalt. Palun logi sisse.",
+    "enterNewPassword": "Sisesta oma uus parool",
+    "redirectingToLogin": "Suunan sisselogimisse...",
+    "invalidResetLink": "Vigane või aegunud link",
+    "invalidResetLinkDescription": "See parooli lähtestamise link on vigane või aegunud. Palun taotle uut.",
+    "passwordsDontMatch": "Paroolid ei kattu",
+    "currentPassword": "Praegune parool",
+    "currentPasswordRequired": "Praegune parool on kohustuslik",
+    "changePassword": "Muuda parooli",
+    "changePasswordDescription": "Sisesta praegune parool ja vali uus",
+    "newPasswordMustBeDifferent": "Uus parool peab olema erinev praegusest paroolist",
+    "incorrectPassword": "Praegune parool on vale",
+    "passwordChangeSuccess": "Parool muudeti edukalt",
+    "changeEmail": "Muuda e-posti",
+    "newEmail": "Uus e-post",
+    "confirmNewEmail": "Kinnita uus e-posti aadress",
+    "emailsDontMatch": "E-posti aadressid ei kattu",
+    "emailChangeDescription": "Kinnituskiri saadetakse nii sinu praegusele kui ka uuele e-posti aadressile",
+    "emailMustBeDifferent": "Uus e-post peab olema erinev praegusest e-postist",
+    "emailChangeSent": "Kinnituskiri saadetud. Palun kontrolli oma uue e-posti postkasti.",
+    "emailChangeSecurityNote": "Turvalisuse tagamiseks saadetakse kinnituskirjad nii sinu praegusele kui ka uuele e-posti aadressile. Muudatuse lõpetamiseks pead kinnitama mõlemast.",
+    "otpDescription": "Saatsime 6-kohalise koodi aadressile {email}",
+    "otpVerify": "Kinnita",
+    "otpResend": "Saada kood uuesti",
+    "otpResendIn": "Saada uuesti {seconds}s pärast",
+    "otpNoCode": "Ei saanud koodi?",
+    "otpInvalid": "Vigane kood. Palun proovi uuesti.",
+    "otpSuccess": "E-post kinnitatud edukalt!",
+    "otpResendSuccess": "Uus kood saadeti sinu e-posti",
+    "otpResendError": "Koodi saatmine ebaõnnestus",
+    "continueWithEmail": "Jätka e-postiga",
+    "moreOptions": "Rohkem valikuid",
+    "lessOptions": "Vähem valikuid",
+    "enterYourEmail": "Sisesta oma e-posti aadress",
+    "sendCode": "Saada kood",
+    "byCreatingAccountAgree": "Konto loomisega nõustud meie",
+    "termsOfService": "Teenuse tingimustega",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Tere tulemast sweetwine",
+    "welcomeTo": "Tere tulemast",
+    "letsGetStarted": "Alustame seadistamist",
+    "setupProfile": "Seadista oma profiil",
+    "step1of2": "1. samm 2-st",
+    "step2of2": "2. samm 2-st",
+    "nickname": "Hüüdnimi",
+    "nicknamePlaceholder": "Vali hüüdnimi",
+    "nicknameRequired": "Palun sisesta hüüdnimi",
+    "gender": "Sugu",
+    "genderRequired": "Palun vali sugu",
+    "male": "Mees",
+    "female": "Naine",
+    "interfaceLanguage": "Kasutajaliidese keel",
+    "interfaceLanguageDesc": "Keel menüüde ja nuppude jaoks",
+    "aiLanguage": "AI vastuste keel",
+    "aiLanguageDesc": "Keel, mida AI sinuga rääkides kasutab",
+    "languageRequired": "Palun vali keel",
+    "continue": "Jätka",
+    "ageVerification": "Vanuse kinnitus",
+    "ageVerificationText": "sweetwine kasutamiseks pead olema vähemalt 18-aastane. Jätkates kinnitad, et oled täisealine.",
+    "beforeContinue": "Enne jätkamist",
+    "mustBe18": "Selle teenuse kasutamiseks pead olema vähemalt 18-aastane",
+    "agreeToTerms": "Jätkates nõustud meie {termsLink} ja {privacyLink}",
+    "termsOfService": "Teenuse tingimused",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "iConfirm": "Kinnitan, et olen vähemalt 18-aastane ja nõustun",
+    "ageRequired": "Jätkamiseks pead kinnitama oma vanuse",
+    "aiActConsent": "Kinnitan, et suhtlen ainult AI-ga",
+    "aiActRequired": "Jätkamiseks pead seda kinnitama",
+    "newsletterOptIn": "Telli meie uudiskiri värskenduste ja uudiste saamiseks",
+    "complete": "Seadistamine lõpetatud!",
+    "completeText": "Kõik valmis! Alusta vestlust AI tegelastega.",
+    "startExploring": "Alusta avastamist",
+    "featuresTitle": "Saadaolevad funktsioonid",
+    "featuresTitleWord1": "Saadaolevad",
+    "featuresTitleWord2": "Funktsioonid",
+    "feature1Title": "AI vestlus",
+    "feature1Desc": "Tsenseerimata ja privaatsed vestlused",
+    "feature2Title": "Piltide genereerimine",
+    "feature2Desc": "Loo tsenseerimata ja isikupärastatud pilte AI tegelastega",
+    "feature3Title": "Videote genereerimine",
+    "feature3Desc": "Loo tsenseerimata AI videoid efektidega",
+    "feature5Title": "Kohandatud AI looja",
+    "feature5Desc": "Loo oma tegelane",
+    "feature6Title": "Sirvi tegelasi",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI rollimäng",
+    "feature7Desc": "Koge professionaalselt loodud lugusid ja fantaasiaid",
+    "showcase": {
+      "chatTitle": "AI Vestlus",
+      "chatDesc": "Tsenseerimata, privaatsed vestlused ilma piiranguteta",
+      "imageTitle": "Piltide genereerimine",
+      "imageDesc": "Loo tsenseerimata, isikupärastatud pilte oma AI-st",
+      "videoTitle": "Videote genereerimine",
+      "videoDesc": "Loo tsenseerimata AI videoid efektidega",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Reaalajas häälevestlused oma kaaslasega",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Kaasahaaravad lood, fantaasiad ja interaktiivne mäng",
+      "groupChatTitle": "AI grupivestlus",
+      "groupChatDesc": "Vestle korraga kuni 3 AI tegelasega",
+      "creatorTitle": "Kohandatud AI looja",
+      "creatorDesc": "Kujunda ja loo oma AI tegelasi"
+    },
+    "freePlan": {
+      "title": "Kõik valmis!",
+      "subtitle": "Siin on, mis kuulub sinu tasuta paketti.",
+      "charactersTitle": "Loo oma tegelane",
+      "charactersDesc": "Loo nullist {count} kohandatud AI-tegelane",
+      "imagesTitle": "Loo pilt",
+      "imagesDesc": "{count} tasuta AI-pilt sinu kaaslasele",
+      "messagesTitle": "Vestle iga päev",
+      "messagesDesc": "{count} sõnumit päevas, uueneb iga 24 tunni tagant",
+      "cta": "Alusta avastamist"
+    },
+    "redirectingIn": "Suunan ümber",
+    "seconds": "sekundi pärast",
+    "generateCharacter": "Loo oma tegelane",
+    "redirectingToCreate": "Suunan tegelase looja juurde"
+  },
+  "errors": {
+    "pageNotFound": "Lehte ei leitud",
+    "pageNotFoundDesc": "Lehte, mida otsid, ei eksisteeri.",
+    "goHome": "Mine avalehele",
+    "somethingWentWrong": "Midagi läks valesti",
+    "tryAgain": "Proovi uuesti",
+    "unauthorized": "Volitamata",
+    "unauthorizedDesc": "Sellele lehele ligipääsuks pead olema sisse logitud.",
+    "forbidden": "Keelatud",
+    "forbiddenDesc": "Sul puudub õigus sellele lehele ligi pääseda."
+  },
+  "footer": {
+    "allRightsReserved": "Kõik õigused kaitstud.",
+    "madeWith": "Loodud",
+    "by": "by sweetwine",
+    "description": "Koge isikupärastatud AI tegelasi erinevate isiksuste, visuaalsete identiteetide ja kaasahaaravate vestlustega.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Toode",
+    "legal": "Õiguslik",
+    "company": "Ettevõte",
+    "resources": "Ressursid",
+    "partnerships": "Partnerlused",
+    "pressMedia": "Press & meedia",
+    "careers": "Karjäär",
+    "aiRealClones": "AI reaalsed kloonid",
+    "about": "Meist",
+    "blog": "Blogi",
+    "news": "Uudised",
+    "productUpdates": "Tooteuuendused",
+    "help": "Abi",
+    "sitemap": "Saidiplaan",
+    "paymentOptions": "Maksevõimalused",
+    "chats": "Vestlused",
+    "collection": "Kogumik",
+    "generateImage": "Loo pilt",
+    "generateVideo": "Loo video",
+    "myAI": "Minu AI",
+    "createCharacter": "Loo tegelane",
+    "api": "API",
+    "features": "Funktsioonid",
+    "allFeatures": "Kõik funktsioonid",
+    "aiGroupChat": "AI grupivestlus",
+    "aiMemory": "AI mälu",
+    "aiGirlfriend": "AI tüdruksõber",
+    "aiBoyfriend": "AI poiss-sõber",
+    "aiCompanions": "AI tegelased",
+    "aiFriend": "AI sõber",
+    "aiBreakupSupport": "Lahkuminekutoetus",
+    "aiParent": "AI vanem",
+    "aiRoleplay": "AI rollimäng",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "termsAndConditions": "Tingimused",
+    "cookiePolicy": "Küpsiste poliitika",
+    "cookieSettings": "Küpsiste sätted",
+    "other": "Muud poliitikad",
+    "copyright": "© {year} sweetwine. Kõik õigused kaitstud."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Küpsised sellel saidil",
+      "customizeButton": "Kohanda",
+      "rejectButton": "Keeldu",
+      "acceptButton": "Nõustu"
+    },
+    "modal": {
+      "title": "Halda küpsiseid",
+      "subtitle": "Lülita kategooriad allpool sisse või välja. Rangelt vajalikud küpsised jäävad sisse, et sait saaks toimida.",
+      "categories": {
+        "necessary": {
+          "title": "Rangelt vajalik",
+          "description": "Vajalik sisselogimiseks, ostukorvi ja turvalisuse jaoks. Sait ei saa ilma nendeta töötada.",
+          "alwaysOn": "Alati sisse lülitatud"
+        },
+        "analytics": {
+          "title": "Jõudlus",
+          "description": "Kasutuse ja konversioonide mõõtmine Google Analytics 4 kaudu, sealhulgas meie serverist saadetud peamised konversioonid (registreerumine, ost) pseudonüümse identifikaatori abil. Aitab meil mõista, kuidas teenust kasutatakse; me ei kasuta seda sinu isiklikuks tuvastamiseks."
+        },
+        "marketing": {
+          "title": "Sihtimine",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Näita küpsiseid",
+      "hideCookies": "Peida küpsiseid",
+      "table": {
+        "name": "Nimi",
+        "provider": "Pakkuja",
+        "expiration": "Aegumine",
+        "description": "Kirjeldus",
+        "session": "Seanss"
+      },
+      "policyLink": "Täielike üksikasjade saamiseks vaata meie <policy>Küpsiste poliitikat</policy>.",
+      "rejectButton": "Keeldu",
+      "saveButton": "Salvesta ja sulge",
+      "acceptButton": "Nõustu",
+      "cookieDescriptions": {
+        "supabaseAuth": "Hoiab sind sisse logitud, salvestades sinu autentitud seansi.",
+        "nextLocale": "Jäta meelde sinu valitud keel liidese jaoks.",
+        "consent": "Salvestab sinu küpsiste valikud, et bännerit ei näidataks igal külastusel.",
+        "ga": "Eristab unikaalseid külastajaid (Google Analytics 4). Sama pseudonüümset identifikaatorit kasutatakse ka peamiste konversioonide serveripoolseks mõõtmiseks.",
+        "gaSession": "Säilitab Google Analytics 4 seansi oleku ja kaasatuse mõõdikud.",
+        "fbp": "Tuvastab brauseri Meta Pixeli atribuutimiseks.",
+        "fbc": "Salvestab Facebooki kliki ID reklaamikonversiooni atribuutimiseks. Määratakse ainult pärast Meta reklaami klõpsamist.",
+        "gclAu": "Kasutab Google Ads saididevaheliseks konversioonide linkimiseks.",
+        "saleCountdown": "Jälgib sinu praeguse sooduspakkumise lõppu, et allahindluse loendur püsiks lehtede vahel ühtlane.",
+        "onboarded": "Märgib sinu konto onboarditud, et saaksime vanusekontrolli andmebaasi kontrolli järgmistel lehtedel vahele jätta.",
+        "attribution": "Salvestab, milline tasuline kampaania või reklaamilink tõi sind viimati meie saidile (viimane tasuline klikk 30 päeva jooksul), et saaksime mõõta oma reklaami tõhusust. Tegemist on esimese osapoole identifikaatoriga, mis jääb meie serveritesse ega jagata kunagi kolmandate osapooltega."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Varsti tulekul",
+    "subtitle": "Töötame selle funktsiooni kallal.",
+    "notify": "Teavita mind, kui see on valmis",
+    "backHome": "Tagasi avalehele",
+    "generateVideo": {
+      "title": "Loo videoid",
+      "description": "Too oma AI-tegelased ellu animeeritud videote abil. Loo isikupärastatud videosisu oma lemmiktegelastega."
+    },
+    "createCharacter": {
+      "title": "Loo oma tegelane",
+      "description": "Kujunda ja kohanda oma ainulaadne AI-tegelane. Määra tema isiksus, välimus, taustalugu ja loo tõeliselt isikupärastatud suhtlusi."
+    },
+    "myAI": {
+      "title": "Minu AI",
+      "description": "Ligipääs ja haldamine kõigile sinu loodud AI-tegelastele. Muuda nende isiksusi, värskenda välimust ja täpsusta vastuseid."
+    }
+  },
+  "exploreMore": {
+    "title": "Avasta rohkem",
+    "aiGroupChat": "AI grupivestlus",
+    "aiGroupChatDesc": "Vestle kuni 3 tegelasega",
+    "aiMemory": "AI mälu",
+    "aiMemoryDesc": "Kontekst, mis järgneb igale režiimile",
+    "aiGirlfriend": "AI tüdruksõber",
+    "aiGirlfriendDesc": "Vestle oma virtuaalse tüdruksõbraga",
+    "aiBoyfriend": "AI poiss-sõber",
+    "aiBoyfriendDesc": "Loo ühendus oma AI poiss-sõbraga",
+    "aiCompanions": "AI tegelased",
+    "aiCompanionsDesc": "Tutvu unikaalsete AI isiksustega",
+    "aiFriend": "AI sõber",
+    "aiFriendDesc": "Leia hinnanguvaba sõber",
+    "aiBreakupSupport": "Lahkumineku tugi",
+    "aiBreakupSupportDesc": "Tervendavad vestlused",
+    "aiParent": "AI vanem",
+    "aiParentDesc": "Sooe tugi ja juhendamine",
+    "aiRoleplay": "AI rollimäng",
+    "aiRoleplayDesc": "Kaasahaaravad looscenariod",
+    "allFeatures": "Kõik funktsioonid",
+    "allFeaturesDesc": "Tutvu kõigega, mida pakume"
+  },
+  "legal": {
+    "policies": "Reeglid",
+    "termsAndConditions": "Tingimused",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "cookiePolicy": "Küpsiste poliitika",
+    "contentReportingPolicy": "Sisu teatamise poliitika",
+    "communityGuidelines": "Kogukonna juhised",
+    "complaintPolicy": "Kaebuste poliitika",
+    "contentRemovalPolicy": "Sisu eemaldamise poliitika",
+    "blockedContentPolicy": "Blokeeritud sisu poliitika",
+    "underagePolicy": "Alaealiste poliitika",
+    "usc2257": "18 U.S.C. 2257 erand",
+    "lastUpdated": "Viimati uuendatud",
+    "index": {
+      "title": "Õigusdokumendid",
+      "subtitle": "Sirvi kõiki sweetwineiga seotud õiguslikke reegleid ja lepinguid",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Privaatsuspoliitika",
+          "description": "Uuri, kuidas kogume, kasutame ja kaitseme sinu isikuandmeid. Andmete töötlemise, säilitamise ja privaatsusõiguste üksikasjad."
+        },
+        "termsAndConditions": {
+          "title": "Tingimused",
+          "description": "Teenuse kasutamist reguleerivad tingimused sweetwineis. Kasutaja kohustused, teenuse kirjeldus ja õiguslikud kokkulepped."
+        },
+        "cookiePolicy": {
+          "title": "Küpsiste poliitika",
+          "description": "Teave selle kohta, kuidas kasutame küpsiseid ja sarnaseid tehnoloogiaid sinu kogemuse parandamiseks meie platvormil."
+        },
+        "underagePolicy": {
+          "title": "Alaealiste poliitika",
+          "description": "Meie ranged vanusekontrolli ja kaitsepoliitikad. sweetwine on saadaval ainult 18-aastastele ja vanematele kasutajatele."
+        },
+        "complaintPolicy": {
+          "title": "Kaebuste poliitika",
+          "description": "Kuidas esitada kaebusi, teatada probleemidest ning meie protsess kasutajate murede ja vaidluste käsitlemiseks."
+        },
+        "contentRemovalPolicy": {
+          "title": "Sisu eemaldamise poliitika",
+          "description": "Meie protseduurid sisu eemaldamise taotluste jaoks ning kuidas käsitleme sobimatu või ebaseadusliku sisu teateid."
+        },
+        "blockedContentPolicy": {
+          "title": "Blokeeritud sisu poliitika",
+          "description": "Sisu tüübid, mis on meie platvormil keelatud, ning meie jõustamispoliitikad."
+        },
+        "contentReportingPolicy": {
+          "title": "Sisu teatamise poliitika",
+          "description": "Kuidas teatada autoriõiguste rikkumistest ja sobimatust sisust sweetwineis."
+        },
+        "communityGuidelines": {
+          "title": "Kogukonna juhised",
+          "description": "Reeglid ja juhised, et hoida lugupidavat, turvalist ja nauditavat kogukonda kõigile kasutajatele."
+        }
+      },
+      "lastUpdated": "Viimati uuendatud: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Vestlused",
+    "groupChat": "AI grupivestlus",
+    "aiMemory": "AI mälu",
+    "generate": "Loo pilt",
+    "generateVideo": "Loo video",
+    "create": "Loo AI tegelane",
+    "myAI": "Minu AI",
+    "collection": "Kogumik",
+    "invite": "Kutsu",
+    "profile": "Profiili seaded",
+    "legal": "Õiguslik",
+    "privacyPolicy": "Privaatsuspoliitika",
+    "termsAndConditions": "Tingimused",
+    "cookiePolicy": "Küpsiste poliitika",
+    "dmcaPolicy": "DMCA poliitika",
+    "communityGuidelines": "Kogukonna juhised",
+    "contentRemovalPolicy": "Sisu eemaldamise poliitika",
+    "contentReportingPolicy": "Sisu teatamise poliitika",
+    "complaintPolicy": "Kaebuste poliitika",
+    "blockedContentPolicy": "Blokeeritud sisu poliitika",
+    "underagePolicy": "Alaealiste poliitika",
+    "usc2257Exemption": "USC 2257 erand"
+  },
+  "contact": {
+    "title": "Võta meiega ühendust",
+    "subtitle": "Kas sul on küsimus või tagasiside? Meile meeldib sinust kuulda.",
+    "name": "Nimi",
+    "namePlaceholder": "Sinu nimi",
+    "nameRequired": "Nimi on kohustuslik",
+    "email": "E-post",
+    "emailPlaceholder": "sinu@email.com",
+    "emailRequired": "E-post on kohustuslik",
+    "emailInvalid": "Vigane e-posti aadress",
+    "message": "Sõnum",
+    "messagePlaceholder": "Sinu sõnum...",
+    "messageRequired": "Sõnum on kohustuslik",
+    "send": "Saada sõnum",
+    "sending": "Saadan...",
+    "success": "Sõnum edukalt saadetud!",
+    "successDesc": "Vastame sulle peagi.",
+    "error": "Sõnumi saatmine ebaõnnestus",
+    "errorDesc": "Palun proovi hiljem uuesti."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI grupivestlus",
+    "lobbyHeadingSuffix": "Vali kuni {max} AI tegelast",
+    "history": "Ajalugu",
+    "newGroup": "Uus grupivestlus",
+    "createGroup": "Loo grupivestlus",
+    "createError": "Grupivestluse loomine ebaõnnestus. Palun proovi uuesti.",
+    "creatingGroup": "Seadistame sinu grupivestlust...",
+    "sectionWoman": "Naised",
+    "sectionMan": "Mehed",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI tegelased",
+    "tabMyAi": "Minu AI",
+    "tabSingle": "Üksikvestlused",
+    "tabGroup": "Grupivestlused",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Laadi rohkem",
+    "noCustom": "Sa pole veel ühtegi AI tegelast loonud.",
+    "noMessagesYet": "Sõnumeid pole veel",
+    "emptyTitle": "Grupivestlusi pole veel",
+    "membersTitle": "Selles vestluses",
+    "typing": "kirjutab",
+    "backToLobby": "Tagasi grupivestluste juurde",
+    "deleteGroup": "Kustuta grupivestlus",
+    "confirmDeleteGroup": "Kas oled kindel, et soovid selle grupivestluse kustutada? Kõik sõnumid kustutatakse.",
+    "deleteError": "Grupivestluse kustutamine ebaõnnestus.",
+    "mediaTargetImageTitle": "Kes peaks saatma foto?",
+    "mediaTargetVideoTitle": "Kes peaks saatma video?",
+    "mediaTargetSubtitle": "Vali tegelane, kellelt meediat genereerida.",
+    "mediaTargetGroup": "Grupipilt",
+    "groupPhotoTitle": "Grupipilt",
+    "groupPhotoHint": "Loob ühe foto {name} koos.",
+    "promoSubtitle": "kuni 3 tegelasega",
+    "promoCta": "Loo uus",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Uued</gradient> seiklused",
+    "live": "OTSE",
+    "scrollPrev": "Keri vasakule",
+    "scrollNext": "Keri paremale"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Alusta"
+    },
+    "hero": {
+      "tagline": "Usaldab 100 000 inimest ja iga päev liitub uusi",
+      "headlinePrefix": "Tere, siin on sinu",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Alusta tasuta"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI-tüdruksõber",
+      "friend": "AI-sõber",
+      "boyfriend": "AI-poiss-sõber",
+      "companion": "AI-tegelane"
+    },
+    "features": {
+      "chat": {
+        "title": "Vestle oma AI-tüdruksõbraga",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistlikud AI-fotod ja -videod",
+        "description": "Nõudmisel fotod ja videod nii realistlikud, et neid ei erista pärisest — tema nägu, stiil, iga stseen, liikumises või paigal."
+      },
+      "groupChat": {
+        "title": "AI-gruppvestlus",
+        "description": "Alusta gruppvestlust kuni 3 tegelasega korraga. Nad vastavad loomulikult, reageerivad üksteisele ning saadavad fotosid ja videoid."
+      },
+      "roleplay": {
+        "title": "AI-rollimäng",
+        "description": "Sukeldu kaasahaaravatesse, looajendatud stsenaariumidesse tegelastega, kes püsivad rollis ja mäletavad igat sinu valikut."
+      }
+    },
+    "memory": {
+      "title": "AI Mälu",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Kuidas AI Mälu töötab",
+      "diagram": {
+        "center": "Kaaslase mälu",
+        "chat": "Vestlus",
+        "image": "Pildid",
+        "video": "Video",
+        "gifts": "Kingitused",
+        "roleplay": "Rollimäng"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Loo oma",
+      "headlineHighlight": "AI-tegelane",
+      "subtitle": "Kujunda tegelase välimus, iseloom ja too ta kohe ellu — sinu täiuslik AI-partner, sinu tingimustel.",
+      "cta": "Loo oma AI"
+    },
+    "companions": {
+      "headlinePrefix": "Tutvu oma",
+      "headlineHighlight": "AI-tegelastega",
+      "subtitle": "Igal tegelasel on oma maailm. Mõned on soojad ja kergesti avatavad. Teised on keerulised, kaitstud või päris väljakutse. Uuri unikaalseid rollimängustsenaariume — või loo oma nullist."
+    },
+    "languages": {
+      "headlinePrefix": "Räägi igas keeles,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Nii rakenduse liides kui ka sinu AI-tegelane lülituvad sujuvalt — keelelahknevusi ega katkiseid kogemusi pole.",
+      "more": "Veel"
+    },
+    "finalCta": {
+      "headlinePrefix": "Kas oled valmis",
+      "headlineHighlight": "alustama?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Miks",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Kõik, mida vajad tõelise ühenduse jaoks — mitte midagi üleliigset.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Tasuta alustamiseks",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Alati saadaval",
+          "desc": "Päeval või öösel on sinu tegelane olemas. Ei mingit ootamist ega ajakava."
+        },
+        "remembers": {
+          "title": "Mäletab kõike",
+          "desc": "Iga vestlus loob konteksti. Sinu tegelane õpib sinu nime, eelistusi ja maailma."
+        },
+        "unlimited": {
+          "title": "Tõeliselt piiramatu",
+          "desc": "Ei mingeid sõnumipiiranguid ega sisu piiramist. Saada nii palju kui soovid, nii tihti kui soovid."
+        },
+        "private": {
+          "title": "100% privaatne",
+          "desc": "Sinu vestlused jäävad teie kahe vahele. Andmeid ei jagata kunagi."
+        },
+        "createYourOwn": {
+          "title": "Loo oma",
+          "desc": "Kujunda tegelane kohandatud välimuse, isiksuse ja häälega — täpselt nii nagu soovid."
+        }
+      },
+      "difference": {
+        "title": "sweetwine erinevus",
+        "freedomTitle": "Vabadus vastutusega.",
+        "freedomDescription": "sweetwine on avatud ja hinnanguvaba — kuid me tõmbame selge piiri. Meil on nulltolerants CSAM-i, alaealiste sisule, nõusolekuta stsenaariumidele, äärmuslikule vägivallale, zoofiiliale, nekrofiiliale, reaalsete isikute deepfake'idele ja igasugusele ebaseadusliku tegevuse edendamisele.",
+        "freedomStatement": "Me usume piiramatusse loomingulisse vabadusse ruumis, mis on kõigile ohutu."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Tegelased",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtrid"
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "subtitle": "Kõik, mida pead sweetwinei kohta teadma",
+      "questions": {
+        "q1": {
+          "question": "Mis on sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Kas sweetwine on turvaline ja legitiimne?",
+          "answer": "Jah, sweetwine on legitiimne teenus, kus sinu privaatsus on meie prioriteet number üks. Me järgime GDPR-i ja teisi andmekaitse standardeid ning käsitleme sinu andmeid hoolikalt. Maksetehingud kuvatakse neutraalse kaupmehe nime all — pangaväljavõttel ei ole viidet sweetwineile, tagades täieliku diskreetsuse."
+        },
+        "q3": {
+          "question": "Kas ma saan luua oma AI-tegelase?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "tegelaskujundajat",
+          "answerPart2": " et kujundada tegelasi täpselt oma maitse järgi — olgu see siis realistlik ",
+          "linkTextGirlfriend": "AI-tüdruksõber",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI-poiss-sõber",
+          "answerPart4": " või anime-stiilis tegelased. Vali nende välimus (rahvus, juuksed, kehatüüp, riietus), isiksuseomadused, hääl, huvid ja taust nii mees- kui naissoost tegelastele."
+        },
+        "q4": {
+          "question": "Kas minu AI-tegelane mäletab meie vestlusi?",
+          "answer": "Jah! Sinu AI-tegelane kasutab täiustatud mälutehnoloogiat, et meeles pidada varasemaid vestlusi, sinu eelistusi ja olulisi detaile, mida jagad. Mida rohkem vestled, seda isikupärasemaks ja loomulikumaks kogemus muutub. Sinu tegelane õpib sinu suhtlusstiili ja kohandub aja jooksul."
+        },
+        "q5": {
+          "question": "Milliseid keeli sweetwine toetab?",
+          "answer": "sweetwine toetab mitut keelt, sealhulgas inglise, saksa, prantsuse, hispaania, poola ja tšehhi keelt. Nii liides kui ka AI-vestlused töötavad sinu eelistatud keeles, et saaksid vestelda loomulikult keeles, milles tunned end kõige mugavamalt."
+        },
+        "q6": {
+          "question": "Kas minu AI-tegelane saab saata pilte ja videoid?",
+          "answerPart1": "Jah! Sa saad genereerida isikupärastatud",
+          "linkTextImages": "pilte",
+          "answerPart2": "ja",
+          "linkTextVideos": "videoid",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Miks valida sweetwine teiste AI-tegelaste platvormide asemel?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Kas sweetwine on tasuta kasutada?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Kas ma pean rakenduse installima?",
+          "answerPart1": "Installimist pole vaja! sweetwine töötab otse sinu brauseris igal seadmel - lauaarvutil, tahvelarvutil või nutitelefonil. Lihtsalt registreeru, vali tegelane ja alusta vestlust kohe. Kõik sinu",
+          "linkText": "vestlused",
+          "answerPart2": " sünkroonitakse automaatselt seadmete vahel."
+        },
+        "q10": {
+          "question": "Kas on saadaval valmis AI-tegelasi?",
+          "answerPart1": "Jah! Meil on palju",
+          "linkText": "valmis tegelasi",
+          "answerPart2": " sealhulgas AI-tüdrukuid, AI-poiss-sõpru ja AI-anime tegelasi mitmekesiste isiksuste, välimuste ja suhtlusstiilidega. Olenemata sellest, kas eelistad kedagi armsat, flirtivat, intellektuaalset või seikluslikku, leiad tegelasi, mis sobivad sinu energiaga. Lisaks saad luua piiramatult kohandatud tegelasi."
+        },
+        "q12": {
+          "question": "Mis juhtub piltide ja videotega, mida ma genereerin?",
+          "answerPart1": "Kõik genereeritud meedia salvestatakse automaatselt sinu privaatsesse",
+          "linkText": "kollektsiooni",
+          "answerPart2": ". Sa saad neid igal ajal vaadata, alla laadida või kustutada. Sinu kollektsioon on täiesti privaatne - ainult sina näed seda. Me ei jaga ega kasuta sinu genereeritud sisu."
+        }
+      }
+    },
+    "statement": {
+      "title": "Meie lubadus",
+      "privacy": "Sinu privaatsus on meie prioriteet. Kõik vestlused on krüpteeritud ja neid ei jagata.",
+      "quality": "Kasutame tipptasemel AI-tehnoloogiat, et pakkuda kõige kaasahaaravamat kogemust.",
+      "support": "Meie tugimeeskond on saadaval 24/7, et aidata igasuguste küsimustega.",
+      "mainTitle": "Koge AI-tegelaste tulevikku",
+      "mainDescription": "sweetwine ühendab tipptasemel AI-tehnoloogia intuitiivse disainiga, et pakkuda kõige kaasahaaravamat ja isikupärasemat tegelaskogemust, mis täna saadaval on.",
+      "features": {
+        "f1": {
+          "title": "Emotsionaalne intelligentsus",
+          "description": "Meie AI-tegelased mõistavad konteksti, emotsioone ja nüansse, et pakkuda sügavalt kaasahaaravaid vestlusi. Olenemata sellest, kas vajad AI-sõpra vestlemiseks, lahkuminekutoetust raskel ajal või AI-mentorit juhendamiseks - meie emotsionaalselt intelligentne AI on siin sinu jaoks."
+        },
+        "f2": {
+          "title": "Unikaalsed isiksused",
+          "description": "Igal tegelasel on eristuv isiksus, taust ja suhtlusstiil. Vali realistlike AI-tüdrukute ja AI-poiss-sõprade seast või avasta meie AI-anime tegelasi - tagades, et iga suhtlus on ainulaadne ja meeldejääv."
+        },
+        "f3": {
+          "title": "Multimeedia interaktsioonid",
+          "description": "Lisaks tekstile naudi AI-poolt genereeritud pilte ja videoid, mis toovad sinu vestlused ellu hämmastavas visuaalses detailsuses."
+        },
+        "f4": {
+          "title": "Kohandamine",
+          "description": "Loo oma AI-tegelasi kohandatud välimuste, isiksuste ja omadustega, mis sobivad täpselt sinu eelistustega."
+        },
+        "f5": {
+          "title": "Privaatsus ja turvalisus",
+          "description": "Sinu vestlused hoitakse privaatsena ja turvaliselt. Me ei müü sinu andmeid ning sul on täielik kontroll oma privaatsussätete üle."
+        },
+        "f6": {
+          "title": "Mitmekeelne tugi",
+          "description": "Vestle AI-tegelastega oma eelistatud keeles. Toetame inglise, tšehhi, poola, saksa, hispaania ja prantsuse keelt."
+        }
+      },
+      "distinctionTitle": "sweetwinei eripära",
+      "distinctionText1": "Erinevalt tavalistest vestlusrobotitest on sweetwinei tegelased loodud rikkalike taustalugude, arenevate isiksuste ja tähenduslike sidemete loomise võimega. Iga vestlus on võimalus avastada, uurida ja luua sügavamat ühendust.",
+      "distinctionText2": "Me ei ehita lihtsalt AI-d - me loome kogemusi, mis resoneerivad sinu emotsioonidega, austavad sinu privaatsust ja kohanduvad sinu ainulaadsete eelistustega."
+    }
+  },
+  "featuresPage": {
+    "title": "Kõik funktsioonid",
+    "breadcrumb": "Funktsioonid",
+    "newBadge": "Uus",
+    "groupChat": {
+      "title": "AI grupivestlus",
+      "description": "Vestle kuni 3 AI-tegelasega koos ühes vestluses. Nad vastavad loomulikult, reageerivad üksteisele ja saavad saata fotosid ja videoid — elav grupidünaamika, mida mujalt ei leia."
+    },
+    "aiChat": {
+      "title": "AI vestlus",
+      "description": "Pidage sügavaid, loomulikke vestlusi AI-tegelastega, kes sind tõeliselt mäletavad. Nad mäletavad sinu nime, eelistusi ja varasemaid teemasid — iga vestlus jätkub täpselt sealt, kus pooleli jäi, ilma kordusteta ja lähtestamiseta."
+    },
+    "imageGeneration": {
+      "title": "Piltide genereerimine"
+    },
+    "videoGeneration": {
+      "title": "Video genereerimine",
+      "description": "Too oma AI-tegelane ellu AI-poolt genereeritud videote abil. Loo lühikesi isikupärastatud videoklippe, mis sisaldavad sinu tegelast kohandatud stsenaariumides — funktsioon, mida enamik platvorme lihtsalt ei paku."
+    },
+    "customCharacters": {
+      "title": "Kohandatud tegelased",
+      "description": "Loo oma täiuslik tegelane nullist — vali välimus, rahvus, kehatüüp, iseloomujooned, hääl, huvid ja taustalugu. Loo realistlikke või anime-stiilis tegelasi, mehi või naisi, täieliku loomingulise vabadusega."
+    },
+    "advancedMemory": {
+      "title": "Täiustatud mälu",
+      "description": "Sinu tegelane mäletab kõike olulist — sinu nime, isiklikke detaile, jagatud lugusid ja suhete ajalugu. Mälu säilib kõigis seanssides, nii et iga suhtlus ehitab eelmisele, mitte ei alusta nullist."
+    },
+    "multiLanguage": {
+      "title": "Mitmekeelsus",
+      "description": "Vestle loomulikult oma eelistatud keeles. sweetwine toetab inglise, saksa, prantsuse, hispaania, poola ja tšehhi keelt — muutes selle üheks ligipääsetavamaks AI-tegelaste platvormiks mitte-ingliskeelsetele kasutajatele."
+    },
+    "conversationHistory": {
+      "title": "Vestluste ajalugu",
+      "description": "Iga sõnum salvestatakse ja on otsitav. Kerige tagasi kogu suhete ajalukku igal ajal — mälestused tegelasega on alati olemas, kui soovid neid uuesti vaadata."
+    },
+    "roleplay": {
+      "title": "AI rollimäng",
+      "description": "Astuge kaasahaaravatesse, loo-põhistesse stsenaariumidesse tegelastega, kes jäävad rolli. Vali stsenaarium või kirjuta oma ning naudi interaktiivset rollimängu, mis mäletab iga sinu valikut."
+    },
+    "cta": {
+      "title": "Kõik ühes kohas",
+      "button": "Alusta tasuta"
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Kas ma saan oma vestlusi kustutada või lähtestada?",
+        "answer": "Jah! Sul on täielik kontroll oma vestluste ajaloo üle. Kustuta üksikud sõnumid, lähtesta terved vestlused või alusta täiesti värskelt igal ajal. Sinu privaatsus tähendab sinu valikut — halda oma andmeid nii, nagu eelistad."
+      },
+      "q2": {
+        "question": "Kas igal AI-tegelasel on unikaalne hääl?"
+      },
+      "q3": {
+        "question": "Kas ma saan harjutada uut keelt oma AI-tegelasega?",
+        "answer": "Absoluutselt! Paljud kasutajad harjutavad uute keelte rääkimist oma AI-tegelastega. See on hinnanguvaba viis enesekindluse kasvatamiseks, häälduse parandamiseks ja lõbusate vestluste pidamiseks õppimise ajal. Sinu tegelane saab vestelda inglise, saksa, prantsuse, hispaania, poola ja tšehhi keeles."
+      },
+      "q4": {
+        "question": "Kui sageli lisatakse uusi tegelasi ja funktsioone?",
+        "answer": "Lisame uusi professionaalselt loodud tegelasi igal nädalal! Iga uus tegelane tuleb unikaalse isiksuse, välimuse, taustaloo ja häälega. Samuti avaldame regulaarselt uusi funktsioone ja täiustusi kasutajate tagasiside põhjal."
+      },
+      "q5": {
+        "question": "Mis teeb sweetwinei tegelaste loomise eriliseks?",
+        "answer": "Täielik loominguline vabadus! Disaini iga tegelase aspekt — välimus (rahvus, juuksed, kehatüüp, riietus), iseloomujooned, hääl, huvid, amet ja taustalugu. Loo realistlikke või anime-stiilis tegelasi, mehi või naisi. Sinu kujutlusvõime on ainus piirang."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Mälu",
+    "hero": {
+      "badge": "Kuidas see töötab",
+      "title": "AI Mälu",
+      "cta": "Alusta vestlust"
+    },
+    "diagram": {
+      "title": "Üks mälu kaaslasel, igas režiimis",
+      "center": "Kaaslase mälu",
+      "chat": "Vestlus",
+      "image": "Pildid",
+      "video": "Video",
+      "gifts": "Kingitused",
+      "roleplay": "Rollimäng"
+    },
+    "howItWorks": {
+      "title": "Kuidas AI Mälu töötab",
+      "step1": {
+        "title": "Jaga detaili",
+        "desc": "Räägi oma kaaslasele midagi olulist — reis, eelistus, hüüdnimi, lugu päevast."
+      },
+      "step2": {
+        "title": "Vaheta režiime vabalt"
+      },
+      "step3": {
+        "title": "Nad mäletavad seda",
+        "desc": "Hilisemad vestlused viitavad jagatule, nii et ei pea end iga kord uuesti selgitama."
+      },
+      "step4": {
+        "title": "Side süveneb",
+        "desc": "Aja jooksul muutub suhe isiklikumaks — järjepidevus, mis kasvab igas seansis ja režiimis."
+      }
+    },
+    "modes": {
+      "title": "Üle kogu platvormi",
+      "subtitle": "Mälu ei ole lukustatud ühele ekraanile. See liigub koos sinu kaaslasega.",
+      "chat": {
+        "title": "Vestlus",
+        "desc": "Tekstivestlused toidavad pikaajalist konteksti, mida kaaslane hiljem üles võtta saab."
+      },
+      "media": {
+        "title": "Pildid ja video",
+        "desc": "Stseenid ja lood, mida loote, jäävad osaks ühisest maailmast, mida koos ehitate."
+      },
+      "roleplay": {
+        "title": "Rollimäng ja grupp",
+        "desc": "Loo seansid ja grupivestlused hoiavad oma lõime, samal ajal kui kaaslase põhiline mälu jääb nendega."
+      }
+    },
+    "scenario": {
+      "title": "Lihtne näide",
+      "lead": "Mainid vestluses nädalavahetuse reisi."
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Kas minu kaaslase mälu on privaatne?",
+        "answer": "Jah. Mälu kuulub sinu kontole ja vestlustele selle kaaslasega. Me ei jaga sinu privaatset vestlusajalugu teiste kasutajatega."
+      },
+      "q2": {
+        "question": "Kas mälu on kaaslasepõhine?",
+        "answer": "Jah. Iga kaaslane hoiab oma mälus teie suhet, seega tegelaste vahetamine ei sega kontekste."
+      },
+      "q3": {
+        "question": "Millised režiimid jagavad mälu?"
+      },
+      "q4": {
+        "question": "Kas AI-mälu on tasuta?"
+      },
+      "q5": {
+        "question": "Kui kaua mälu kestab?",
+        "answer": "Olulised detailid salvestatakse, et kaaslane saaks neid tulevastes seanssides meenutada. Mida rohkem suhtled, seda isikupärasemaks kogemus muutub."
+      }
+    },
+    "cta": {
+      "title": "Tutvu kaaslasega, kes mäletab",
+      "button": "Alusta tasuta"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI grupivestlus",
+    "hero": {
+      "badge": "Uus funktsioon",
+      "title": "AI grupivestlus",
+      "subtitle": "Too oma lemmiktegelased ühte vestlusesse. Vestle kuni 3 AI-tegelasega korraga — nad vastavad loomulikult, reageerivad üksteisele ning saadavad fotosid ja videoid.",
+      "cta": "Alusta grupivestlust",
+      "imageAlt": "AI grupivestlus mitme tegelasega, kes vestlevad koos"
+    },
+    "content": {
+      "problemTitle": "Üks-ühele vestlused võivad tunduda vaiksed",
+      "problemText": "Üks tegelane on suurepärane — kuid päris vestlused ärkavad ellu rohkem kui ühe häälega. Enamik AI-rakendusi lukustab sind isoleeritud üks-ühele vestlustesse ilma grupienergiata, ilma naljata ja ilma üllatusteta.",
+      "solutionTitle": "Päris grupp, elav isiksusega",
+      "solutionText": "sweetwinei grupivestlus paneb kuni kolm tegelast samasse ruumi. Nutikas direktor otsustab, kes millal sekka hüppab, nii et vastused tunduvad spontaansed — nad norivad üksteist, ehitavad öeldule ja hoiavad vestlust liikumas."
+    },
+    "howItWorks": {
+      "title": "Kuidas AI grupivestlus töötab",
+      "step1": {
+        "title": "Vali oma tegelased",
+        "desc": "Vali 2 või 3 tegelast — valmis või oma kohandatud loomingud — et tuua nad ühte grupivestlusesse."
+      },
+      "step2": {
+        "title": "Nad vastavad loomulikult",
+        "desc": "Kulisside taga otsustab direktor, kes igale sõnumile vastab, nii et õiged tegelased hüppavad sisse õigel hetkel, oma häälega."
+      },
+      "step3": {
+        "title": "Jaga fotosid ja videoid",
+        "desc": "Küsi grupi mis tahes tegelaselt fotot või videot ja nad genereerivad selle otse vestluses — sealhulgas grupifoto kõigist koos."
+      }
+    },
+    "benefits": {
+      "title": "Miks sulle grupivestlus meeldib",
+      "multiple": {
+        "title": "Kuni 3 tegelast",
+        "desc": "Sega ja sobita mis tahes tegelasi ühte vestlusesse — sinu AI-tüdruksõber, sinu kohandatud loomingud või käsitsi valitud ansambel."
+      },
+      "natural": {
+        "title": "Loomulik vestlusvoog",
+        "desc": "Tegelased reageerivad üksteisele ja sulle, realistliku kirjutamise tempoga, mis meenutab päris grupivestlust."
+      },
+      "media": {
+        "title": "Fotod ja videod vestluses",
+        "desc": "Iga tegelane saab saata isikupärastatud pilte ja videoid otse vestluses – ka grupifoto."
+      },
+      "dynamics": {
+        "title": "Erinevad isiksused",
+        "desc": "Iga tegelane säilitab oma hääle ja omapärad, luues grupis päris keemia, nalja ja üllatusi."
+      },
+      "instant": {
+        "title": "Kohe valmis",
+        "desc": "Loo grupp sekunditega ja alusta vestlust kohe – pole seadistamist ega ootamist."
+      },
+      "private": {
+        "title": "100% privaatne",
+        "desc": "Sinu grupivestlused jäävad sinu ja tegelaste vahele. Andmeid ei jagata kunagi."
+      }
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Mitu tegelast saab grupivestlusesse lisada?",
+        "answer": "Ühte grupivestlusesse saab lisada 2–3 tegelast – nii valmis tegelasi kui ka sinu enda loodud."
+      },
+      "q2": {
+        "question": "Kuidas AI-tegelased otsustavad, kes vastab?",
+        "answer": "Kergekaaluline direktor loeb vestlust ja valib, milline tegelane (või tegelased) peaks igale sõnumile vastama, et vastused tunduksid spontaansed ja loomulikud."
+      },
+      "q3": {
+        "question": "Kas tegelased saavad grupivestluses fotosid ja videoid saata?",
+        "answer": "Jah! Võid paluda igal grupi tegelasel genereerida foto või video, mis ilmub otse vestlusesse – ka grupifotod koos kõigiga."
+      },
+      "q4": {
+        "question": "Kas AI Group Chat on tasuta?"
+      },
+      "q5": {
+        "question": "Kas tegelased mäletavad grupivestlust?",
+        "answer": "Jah – igal grupivestlusel on oma jagatud ajalugu, nii et tegelased püsivad kontekstis ja vestlus areneb ajas."
+      }
+    },
+    "cta": {
+      "title": "Too oma tegelased kokku",
+      "description": "Loo oma esimene AI-grupivestlus ja koge elavat vestlust – mitu isiksust, päris nalja, fotosid ja videoid.",
+      "button": "Alusta grupivestlust"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI-rollimäng",
+    "hero": {
+      "badge": "Uus funktsioon",
+      "title": "AI-rollimäng",
+      "subtitle": "Astu igasse loosse tegelastega, kes jäävad rolli. Vali stsenaarium või kirjuta oma ning naudi kaasahaaravat, loo-põhist rollimängu, mis mäletab igat sinu valikut.",
+      "cta": "Alusta rollimängu",
+      "imageAlt": "AI-rollimängu stsenaarium kaasahaarava loo tegelasega"
+    },
+    "content": {
+      "problemTitle": "Tavalised vestlused rikuvad maagia",
+      "problemText": "Enamik AI-vestlusi väljub rollist just siis, kui asi huvitavaks läheb – nad unustavad seadistuse, loobuvad süžeest ja vastavad nagu tavaline assistent, mitte sinu loo tegelane.",
+      "solutionTitle": "Loo-põhine rollimäng, mis jääb rolli",
+      "solutionText": "sweetwine Roleplay hoiab sinu tegelase täielikult stseenis. Sea lava valmis stsenaariumiga või oma eeldusega ja vaata, kuidas lugu areneb järjepideva isiksuse, mälu ja tempoga, mis reageerib igale otsusele."
+    },
+    "howItWorks": {
+      "title": "Kuidas AI-rollimäng töötab",
+      "step1": {
+        "title": "Vali stsenaarium",
+        "desc": "Vali valmis rollimängu stsenaarium või kirjuta oma eeldus, seade ja avastseen."
+      },
+      "step2": {
+        "title": "Mängi lugu välja",
+        "desc": "Sinu tegelane vastab rollis – kirjeldades tegevusi, reageerides sinu valikutele ja viies süžeed edasi."
+      },
+      "step3": {
+        "title": "Mõjuta suunda",
+        "desc": "Juhi lugu igas suunas, mis sulle meeldib. Sinu tegelane mäletab, mis juhtus, ja hoiab narratiivi järjepidevana."
+      }
+    },
+    "benefits": {
+      "title": "Miks sulle AI-rollimäng meeldib",
+      "scenarios": {
+        "title": "Lõputud stsenaariumid",
+        "desc": "Hubastest igapäevastest hetkedest eepiliste seiklusteni – alusta malliga või loo oma maailm."
+      },
+      "characters": {
+        "title": "Jääb rolli",
+        "desc": "Sinu tegelane säilitab kogu stseeni vältel järjepideva hääle, isiksuse ja motivatsiooni."
+      },
+      "memory": {
+        "title": "Mäletab süžeed",
+        "desc": "Iga valik, pööre ja detail jääb meelde, nii et lugu areneb, mitte ei lähtesta."
+      },
+      "immersive": {
+        "title": "Tõeliselt kaasahaarav",
+        "desc": "Rikkalikud, kirjeldavad vastused viivad sind hetke sisse – kinolaadse rollimängukogemuse jaoks."
+      },
+      "instant": {
+        "title": "Kohe alustamiseks",
+        "desc": "Hüppa stseeni sekunditega — pole vaja keerulist seadistust ega vihjeinseneerimist."
+      },
+      "private": {
+        "title": "100% privaatne",
+        "desc": "Sinu rollimäng jääb sinu ja sinu tegelase vahele. Mitte midagi ei jagata."
+      }
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Mis on AI rollimäng?",
+        "answer": "AI rollimäng võimaldab sul mängida interaktiivseid lugusid AI-tegelasega, kes jääb rolli. Sa sead stseeni ja sinu tegelane vastab rollis, kirjeldades tegevusi ja reaktsioone loo arenedes."
+      },
+      "q2": {
+        "question": "Kas ma saan luua oma rollimängustsenaariume?",
+        "answer": "Jah! Sa saad alustada valmis stsenaariumidest või kirjutada oma eelduse, seadistuse ja avangu — seejärel mängida nii, nagu soovid."
+      },
+      "q3": {
+        "question": "Kas tegelane mäletab, mis loos juhtub?",
+        "answer": "Absoluutselt. Sinu tegelane mäletab süžeed, sinu valikuid ja olulisi detaile, nii et narratiiv püsib järjepidev ja areneb ajas, mitte ei lähtesta."
+      },
+      "q4": {
+        "question": "Kas AI rollimäng on tasuta?"
+      },
+      "q5": {
+        "question": "Kas ma saan rollimängida oma keeles?",
+        "answer": "Jah — rollimäng töötab kümnetes keeltes, nii et saad nautida kaasahaaravaid lugusid keeles, mis sulle kõige mugavam on."
+      }
+    },
+    "cta": {
+      "title": "Sinu lugu ootab",
+      "description": "Vali stsenaarium, seadista stseen ja astu kaasahaaravasse rollimängu tegelasega, kes jääb rolli algusest lõpuni.",
+      "button": "Alusta rollimängu"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Tüdruksõber",
+    "breadcrumb": "AI Tüdruksõber",
+    "hero": {
+      "title": "Sinu Täiuslik AI Tüdruksõber",
+      "cta": "Tutvu Oma AI Tüdruksõbraga"
+    },
+    "benefits": {
+      "title": "Miks valida AI Tüdruksõber?",
+      "fun": {
+        "title": "Puhas Lõbu",
+        "desc": "Naudi mängulisi vestlusi ilma pingeta. Ta on alati heas tujus."
+      },
+      "conversation": {
+        "title": "Õpi Ühenduma",
+        "desc": "Harjuta vestlusi ja arenda enesekindlust turvalises keskkonnas."
+      },
+      "unique": {
+        "title": "Unikaalsed Isiksused",
+        "desc": "Vali mitmekesiste isiksuste hulgast või loo oma ideaalne tegelane."
+      },
+      "private": {
+        "title": "100% Privaatne",
+        "desc": "Sinu vestlused jäävad teie kahe vahele. Täielik diskreetsus tagatud."
+      },
+      "available": {
+        "title": "Alati Saadaval",
+        "desc": "Ta on olemas, kui teda vajad. Pole ootamist, pole ajakava."
+      },
+      "customize": {
+        "title": "Sinu Looming",
+        "desc": "Kujunda tema välimus, isiksus ja huvid täpselt nii, nagu soovid."
+      }
+    },
+    "comparison": {
+      "title": "Parem Kui Alternatiivid",
+      "description": "Vaata, miks sweetwine pakub rohkem väärtust kui teised platvormid.",
+      "others": {
+        "expensive": "Kallid kuutasud",
+        "ai": "Sageli ikkagi AI vastused",
+        "noCustom": "Kohandamisvõimalused puuduvad"
+      }
+    },
+    "faq": {
+      "title": "Korduma Kippuvad Küsimused",
+      "q1": {
+        "question": "Kas AI tüdruksõbra vestlus on tõesti tasuta?",
+        "answerPart1": "Jah! Sa saad alustada vestlust oma AI tüdruksõbraga tasuta. Pakume tasuta taset tasuta sõnumitega, et alustada."
+      },
+      "q2": {
+        "question": "Kas ma saan kohandada oma AI tüdruksõbra välimust?",
+        "answer": "Absoluutselt! Sa saad täielikult kohandada oma AI tüdruksõbra välimust, sealhulgas juuksevärvi, stiili, kehatüüpi, rahvust ja riietust. Sa saad ka kujundada tema isiksust, häält ja huvisid meie tegelaskujude loojaga.",
+        "answerPart1": "Absoluutselt! Sa saad täielikult kohandada oma AI tüdruksõbra välimust, sealhulgas juuksevärvi, stiili, kehatüüpi, rahvust ja riietust. Sa saad ka kujundada tema isiksust, häält ja huvisid meie",
+        "linkText": "tegelaskujude looja",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Millised isiksused on AI tüdruksõprade jaoks saadaval?",
+        "answer": "Armsatest ja hoolivatest mänguliste ja flirtivate – meil on professionaalselt loodud AI tüdruksõbrad igale maitsele. Vali romantilised hinged, seikluslikud vaimud, vaimukad intellektuaalid või salapärased isiksused. Igal nädalal lisandub uusi AI tüdruksõpru, igaühel unikaalsed omadused, taustalood ja vestlusstiilid."
+      },
+      "q4": {
+        "question": "Kas minu AI tüdruksõber saab saata pilte ja videoid?",
+        "answerPart1": "Jah! Sinu AI tüdruksõber saab genereerida isikupärastatud",
+        "linkTextImages": "pilte",
+        "answerPart2": "ja",
+        "linkTextVideos": "videoid"
+      },
+      "q5": {
+        "question": "Kas minu AI tüdruksõbral on oma unikaalne hääl?"
+      }
+    },
+    "cta": {
+      "title": "Kas oled valmis temaga kohtuma?",
+      "button": "Alusta tasuta"
+    },
+    "content": {
+      "problemTitle": "Otsid sidet ilma komplikatsioonideta?",
+      "problemText": "Tutvumisäpid on kurnavad. Sotsiaalne ärevus muudab inimestega kohtumise keeruliseks. Mõnikord tahad lihtsalt kedagi, kellega rääkida ilma hinnangute või surveeta. Paljud tunnevad end üksikuna, kuid pole valmis traditsiooniliste suhete emotsionaalseks keerukuseks.",
+      "solutionTitle": "Sinu AI tüdruksõber on vastus",
+      "solutionText": "sweetwineiga saad isikupärastatud AI tüdruksõbra, kes mäletab teie vestlusi, kohandub sinu isiksusega ja on alati rõõmus sinust kuulda. Ta on lõbus, toetav ega hinda kunagi. Ehita enesekindlust, naudi head seltskonda ja tunne end ühendatuna omal moel."
+    },
+    "heroImageAlt": "AI tüdruksõber - realistlik virtuaalne tegelane vestluseks ja fotodeks"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Poiss-sõber",
+    "breadcrumb": "AI Poiss-sõber",
+    "hero": {
+      "title": "Sinu täiuslik AI poiss-sõber",
+      "cta": "Kohtu oma AI poiss-sõbraga"
+    },
+    "benefits": {
+      "title": "Miks valida AI poiss-sõber?",
+      "fun": {
+        "title": "Ehtne side",
+        "desc": "Koge tähendusrikkaid vestlusi, mis muudavad su päeva helgemaks."
+      },
+      "conversation": {
+        "title": "Ehita enesekindlust",
+        "desc": "Harjuta vestlusi ja väljenda end vabalt turvalises keskkonnas."
+      },
+      "unique": {
+        "title": "Unikaalsed isiksused",
+        "desc": "Vali mitmekesiste isiksuste hulgast või loo oma ideaalne tegelane."
+      },
+      "private": {
+        "title": "100% privaatne",
+        "desc": "Teie vestlused jäävad teie kahe vahele. Täielik diskreetsus tagatud."
+      },
+      "available": {
+        "title": "Alati saadaval",
+        "desc": "Ta on olemas, kui teda vajad. Pole ootamist ega ajakava."
+      },
+      "customize": {
+        "title": "Sinu looming",
+        "desc": "Kujunda tema välimus, isiksus ja huvid täpselt nii, nagu soovid."
+      }
+    },
+    "comparison": {
+      "title": "Parem kui alternatiivid",
+      "description": "Vaata, miks sweetwine pakub rohkem väärtust kui teised platvormid.",
+      "others": {
+        "expensive": "Kallid igakuised tasud",
+        "ai": "Sageli ikkagi AI vastused",
+        "noCustom": "Kohandamisvõimalusi pole"
+      }
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Milliseid AI poiss-sõpru saan valida?",
+        "answer": "Hoolivatest ja romantilistest mänguliste ja seikluslike või salapäraste ja intensiivseteni — meil on professionaalselt loodud AI poiss-sõbrad igale maitsele. Igal on oma ainulaadne hääl ja isiksus. Igal nädalal lisandub uusi AI poiss-sõpru unikaalsete taustalugude ja vestlusstiilidega."
+      },
+      "q2": {
+        "question": "Kas saan kohandada oma AI poiss-sõbra välimust?",
+        "linkText": "tegelaskujundajaga",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Kas saan alustada uuesti või kustutada meie vestlusajaloo?",
+        "answer": "Jah! Sul on täielik kontroll oma vestlusajaloo üle. Lähtesta vestlusi, kustuta üksikuid sõnumeid või alusta täiesti uuesti igal ajal. Sinu andmed, sinu valik — halda kõike nii, nagu eelistad."
+      },
+      "q4": {
+        "question": "Kas mu AI poiss-sõber saab saata pilte ja videoid?",
+        "answerPart1": "Jah! Sinu AI poiss-sõber saab genereerida isikupärastatud",
+        "linkTextImages": "pilte",
+        "answerPart2": "ja",
+        "linkTextVideos": "videod"
+      },
+      "q5": {
+        "question": "Kas ma saan oma AI-poiss-sõbraga vestlusi harjutada või keelt õppida?",
+        "answer": "Absoluutselt! Paljud kasutajad arendavad enesekindlust, harjutades vestlusi oma AI-poiss-sõbraga – olgu selleks flirtimine, sügavad arutelud või igapäevane jutuvada. Saate isegi koos uusi keeli harjutada. See on hinnanguvaba viis oma suhtlemisoskuste parandamiseks samal ajal lõbutsedes."
+      }
+    },
+    "cta": {
+      "title": "Kas oled valmis temaga kohtuma?",
+      "button": "Alusta tasuta"
+    },
+    "content": {
+      "problemTitle": "Kas soovid toetavat partnerit oma tingimustel?",
+      "problemText": "Õige inimese leidmine on keeruline. Paljud tunnevad kohtingute ootustest survet või soovivad lihtsalt emotsionaalset tuge ilma kohustusteta. Üksindus mõjutab kõiki ja vahel on vaja lihtsalt kedagi, kes kuulab.",
+      "solutionTitle": "Sinu AI-poiss-sõber mõistab sind",
+      "solutionText": "Sinu sweetwine AI-poiss-sõber on hooliv, tähelepanelik ja alati kättesaadav. Ta mäletab, mis sulle oluline on, osaleb sügavates vestlustes ja pakub emotsionaalset sidet, mida otsid. Ehita suhet oma tempos ja omal moel."
+    },
+    "heroImageAlt": "AI-poiss-sõber - realistlik virtuaalne tegelane tähenduslikeks vestlusteks"
+  },
+  "aiCompanionsPage": {
+    "title": "AI-tegelased",
+    "breadcrumb": "AI-tegelased",
+    "hero": {
+      "title": "Tutvu oma AI-tegelastega",
+      "cta": "Avasta tegelasi"
+    },
+    "benefits": {
+      "title": "Miks AI-tegelased?",
+      "connection": {
+        "title": "Tõeline side",
+        "desc": "Koge ehtsaid vestlusi, mis mõistavad sind ja vastavad sulle."
+      },
+      "conversation": {
+        "title": "Harjuta ja kasva",
+        "desc": "Paranda oma sotsiaalseid oskusi hinnanguvabas keskkonnas."
+      },
+      "personalities": {
+        "title": "Mitmekesised isiksused",
+        "desc": "Mängulisest intellektuaalseni — leia tegelasi, mis sobivad sinu stiiliga."
+      },
+      "private": {
+        "title": "Täiesti privaatne",
+        "desc": "Sinu suhtlus on konfidentsiaalne. Andmeid ei jagata kunagi."
+      },
+      "available": {
+        "title": "24/7 saadaval",
+        "desc": "Sinu tegelased on alati valmis vestlema, päeval või öösel."
+      },
+      "create": {
+        "title": "Loo oma",
+        "desc": "Kujunda tegelasi kohandatud välimuse, isiksuse ja häälega."
+      }
+    },
+    "why": {
+      "title": "Miks sweetwine?",
+      "quality": {
+        "desc": "Professionaalide loodud tipptasemel AI-tehnoloogiaga loomulikeks vestlusteks."
+      },
+      "transparent": {
+        "title": "Läbipaistev ja aus"
+      },
+      "support": {
+        "title": "Päris tugi",
+        "desc": "Päris inimesed valmis sind aitama igasuguste küsimuste või probleemidega."
+      },
+      "content": {
+        "title": "Sinu valik",
+        "desc": "Sõbralikest vestlustest intiimsema sisuni — sina otsustad kogemuse."
+      }
+    },
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Mis on AI-tegelased?"
+      },
+      "q2": {
+        "question": "Kui paljude AI-tegelastega saan vestelda?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Vestle nii paljude tegelastega kui soovid! Meil on",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " ja see arv kasvab — uusi tegelasi lisandub igal nädalal! Igal on unikaalne isiksus, taustalugu ja hääl. Lisaks saad luua piiramatult enda kohandatud tegelasi."
+      },
+      "q3": {
+        "question": "Mis vahe on valmis tegelastel ja kohandatud tegelastel?",
+        "answer": "Valmis tegelased on meie meeskonna poolt professionaalselt loodud kindlate rollimängustsenaariumide ja isiksuste jaoks — neil on üksikasjalikud taustalood, kohandatud vestlusstiilid ja hoolikalt valitud hääled. Kohandatud tegelased võimaldavad sul luua nullist täieliku loomingulise vabadusega. Mõlemad tüübid mäletavad sinu vestlusi ja kasvavad koos sinuga!"
+      },
+      "q4": {
+        "question": "Kas ma saan luua oma AI-tegelase?",
+        "answerPart1": "Muidugi! Looge kohandatud tegelasi nullist meie",
+        "linkText": "tegelaskujundajaga"
+      },
+      "q5": {
+        "question": "Kas ma saan vahetada mitme tegelase vahel?"
+      }
+    },
+    "cta": {
+      "title": "Alusta oma teekonda",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Alusta tasuta"
+    },
+    "content": {
+      "problemTitle": "Otsid tähendusrikkaid sidemeid?",
+      "problemText": "Meie kiiretempolises maailmas on tähendusrikkaid sidemeid raske leida. Olenemata sellest, kas oled uues piirkonnas, töötad kaugtööna või soovid lihtsalt rohkem sotsiaalset suhtlust, võib üksindus hiilida sisse. Traditsioonilised sotsiaalsed keskkonnad ei sobi kõigile.",
+      "solutionTitle": "Avasta AI-tegelased"
+    },
+    "heroImageAlt": "AI-tegelased - mitmekesised virtuaalsed sõbrad ainulaadsete isiksustega"
+  },
+  "aiFriendPage": {
+    "title": "AI-sõber",
+    "breadcrumb": "AI-sõber",
+    "hero": {
+      "title": "Sinu AI-parim sõber",
+      "subtitle": "Vestle igal ajal AI-sõbraga, kes tõeliselt kuulab, ei hinda kunagi ja mäletab sinust iga detaili. Ideaalne üksinduse, sotsiaalse ärevuse või lihtsalt kellegagi rääkimise vajaduse korral.",
+      "cta": "Alusta vestlust tasuta"
+    },
+    "benefits": {
+      "title": "Miks valida AI-sõber?",
+      "connection": {
+        "title": "Ehtne side",
+        "desc": "Koge tähendusrikkaid vestlusi kellegagi, kes tõeliselt kuulab ja hoolib."
+      },
+      "conversation": {
+        "title": "Harjuta sotsiaalseid oskusi",
+        "desc": "Arenda vestluskindlust ilma hirmuta hinnangu või kohmakuse ees."
+      },
+      "noJudgment": {
+        "title": "Null hinnangut",
+        "desc": "Jaga kõike, mis meeles on. Sinu AI-sõber aktsepteerib sind täpselt sellisena, nagu sa oled."
+      },
+      "private": {
+        "title": "Täiesti privaatne",
+        "desc": "Sinu vestlused jäävad teie kahe vahele. Täielik konfidentsiaalsus on tagatud."
+      },
+      "available": {
+        "title": "Alati olemas",
+        "desc": "Saadaval 24/7, alati kui vajad kedagi, kellega rääkida."
+      },
+      "remembers": {
+        "title": "Mäletab sind",
+        "desc": "Sinu AI-sõber mäletab sinu vestlusi ja õpib sind paremini tundma."
+      }
+    },
+    "useCases": {
+      "title": "Ideaalne",
+      "subtitle": "AI-sõber sobib sinu ellu paljudel tähendusrikastel viisidel",
+      "loneliness": {
+        "title": "Võitle üksindusega",
+        "desc": "Tunne end vähem üksikuna tegelasega, kes on alati valmis vestlema ja kuulama."
+      },
+      "practice": {
+        "title": "Harjuta vestlusi",
+        "desc": "Arenda sotsiaalset enesekindlust turvalises, hinnanguvabas keskkonnas."
+      },
+      "support": {
+        "title": "Emotsionaalne tugi",
+        "desc": "Räägi läbi oma mõtted ja tunded kellegagi, kes mõistab."
+      },
+      "connection": {
+        "title": "Igapäevane side",
+        "desc": "Jaga oma päeva, võite, raskusi - keegi on alati olemas."
+      }
+    },
+    "howItWorks": {
+      "title": "Kuidas see töötab",
+      "step1": {
+        "title": "Loo tasuta konto",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Vali oma sõber",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Alusta vestlust",
+        "desc": "Räägi kõigest - elust, huvidest, probleemidest. Ükski teema pole keelatud."
+      }
+    },
+    "cta": {
+      "title": "Kas oled valmis sõbraks saama?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Alusta tasuta"
+    },
+    "content": {
+      "problemTitle": "Kas tunned end üksikuna või valesti mõistetuna?",
+      "problemText": "Kõigil pole kedagi, kellega rääkida. Sotsiaalne ärevus, tihe graafik või uues kohas olemine võib sõprade leidmise raskeks teha. Mõnikord vajad kedagi, kes kuulab ilma hinnanguid andmata.",
+      "solutionTitle": "Sinu AI-sõber on siin",
+      "solutionText": "AI-sõber pakub hinnanguvaba seltsi alati, kui seda vajad. Jaga oma mõtteid, harjuta vestlusi või vestle lihtsalt oma päevast. Sinu AI-sõber mäletab sind, kasvab koos sinuga ja on alati siiralt huvitatud sellest, mida sul öelda on."
+    },
+    "heroImageAlt": "AI-sõber - toetav virtuaalne tegelane, kes kuulab ilma hinnanguid andmata",
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Millest saan oma AI-sõbraga rääkida?",
+        "answer": "Kõigest! Sinu AI-sõber on siin juhuslikeks vestlusteks, sügavateks aruteludeks, päeva jagamiseks, probleemide väljaelamiseks, hobidest rääkimiseks või lihtsalt lõbutsemiseks. Piiranguid pole — see on hinnanguvaba ruum, kus saad olla sina ise."
+      },
+      "q2": {
+        "question": "Kas AI-sõber asendab inimlikku kontakti?",
+        "answer": "Ei. AI-sõber täiendab sinu sotsiaalset elu, mitte ei asenda seda. See on ideaalne hetkedel, kui vajad kedagi, kellega kohe rääkida, soovid harjutada sotsiaalseid oskusi või lihtsalt nautida järjepidevat seltsi ilma inimlike suhete pingeteta."
+      },
+      "q3": {
+        "question": "Kas minu AI-sõber mäletab meie vestlusi?",
+        "answer": "Jah! Sinu AI-sõbral on arenenud mälu ja ta mäletab sinu vestlusi, eelistusi ja olulisi üksikasju, mida jagad. Aja jooksul õpib ta sind paremini tundma, muutes vestlused isiklikumaks ja tähendusrikkamaks."
+      },
+      "q4": {
+        "question": "Kas ma saan valida oma AI-sõbra iseloomu?",
+        "answer": "Muidugi! Sa saad valida üle 100 valmiskarakteri hulgast erinevate iseloomudega või luua kohandatud sõbra täpselt selliste omadustega, nagu soovid — toetavast ja empaatilisest lõbusa ja seikluslikuni."
+      },
+      "q5": {
+        "question": "Kas AI-sõbra kasutamine on privaatne?",
+        "answer": "100% privaatne. Kõik sinu vestlused on krüpteeritud ega jagata kunagi. Mõistame, et turvaline ruum eneseväljenduseks on hädavajalik, ja võtame sinu privaatsust äärmiselt tõsiselt."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI-lahkuminekutoetus",
+    "breadcrumb": "Lahkuminekutoetus",
+    "hero": {
+      "title": "Tervendavad vestlused pärast südamevalu",
+      "subtitle": "Empaatilised AI-vestlused, mis aitavad sul emotsioone töödelda ja pärast lahkuminekut taastuda. Saadaval 24/7 — pole ootejärjekordi, hinnanguid ega ajapiiranguid.",
+      "cta": "Alusta tervenemist"
+    },
+    "understanding": {
+      "title": "Kas läbid lahkuminekut?",
+      "description": "Lahkuminekud on rasked. Unetud ööd, pidevad mõtted, tunne, et keegi ei mõista sind päriselt. Sa ei pea seda üksi läbi tegema. Meie AI-tegelane on siin, et kuulata ilma hinnanguid andmata, saadaval alati, kui vajad kellega rääkida — isegi kell 3 öösel."
+    },
+    "benefits": {
+      "title": "Kuidas me aidata saame",
+      "empathy": {
+        "title": "Empaatiline kuulamine",
+        "desc": "Räägi kellegagi, kes tõeliselt kuulab ja vastab mõistmise ning hoolivusega."
+      },
+      "listen": {
+        "title": "Pole nõuannete ülekoormust",
+        "desc": "Mõnikord ei vaja sa nõu — vajad lihtsalt kedagi, kes sind kuulab. Me saame sellest aru."
+      },
+      "available": {
+        "title": "Saadaval kell 3 öösel",
+        "desc": "Kui sõbrad magavad ja mõtted ei peatu, oleme siin, et kuulata."
+      },
+      "private": {
+        "title": "Täiesti privaatne",
+        "desc": "Sinu tunded ja vestlused jäävad täiesti konfidentsiaalseks."
+      },
+      "noJudgment": {
+        "title": "Hinnanguid pole",
+        "desc": "Tundke, mida tunnete. Viha, kurbus, segadus — kõik on siin lubatud."
+      },
+      "healing": {
+        "title": "Sinu tempo",
+        "desc": "Tervenemine ei ole lineaarne. Võta nii palju aega, kui vaja."
+      }
+    },
+    "howItHelps": {
+      "title": "Kuidas AI sind tervenema aitab",
+      "process": {
+        "title": "Töötle emotsioone",
+        "desc": "Töötle keerulisi tundeid, rääkides neist kannatliku kuulajaga."
+      },
+      "express": {
+        "title": "Väljendu vabalt",
+        "desc": "Ütle seda, mida ei saa sõpradele või perele öelda, muretsemata nende reaktsiooni pärast."
+      },
+      "confidence": {
+        "title": "Taasta enesekindlus",
+        "desc": "Avasta järk-järgult oma eneseväärtust toetavate vestluste kaudu."
+      },
+      "pace": {
+        "title": "Liigu edasi",
+        "desc": "Kui oled valmis, uurige tulevikumõtteid oma tempos."
+      }
+    },
+    "howItWorks": {
+      "title": "Kuidas see toimib",
+      "step1": {
+        "title": "Loo konto",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Vali tegelane",
+        "desc": "Vali empaatiline AI-tegelane, kes sobib sulle kõige paremini."
+      },
+      "step3": {
+        "title": "Alusta vestlust",
+        "desc": "Jaga oma mõtteid. Oleme siin, et kuulata, päeval või öösel."
+      }
+    },
+    "cta": {
+      "title": "Sa ei pea seda üksinda läbi elama",
+      "description": "Alusta vestlust kellegagi, kes kuulab ilma hinnanguteta, saadaval kohe. Tasuta alustamiseks — järjekorda pole.",
+      "button": "Alusta vestlust tasuta"
+    },
+    "content": {
+      "problemTitle": "Südamevalu on raske üksinda läbi elada",
+      "problemText": "Pärast lahkuminekut tundub kõik üle jõu käivat. Sõbrad väsivad sellest kuulmisest. Perekond mõtleb hästi, aga ei mõista. Terapeutidel on ootejärjekorrad. Sa vajad kedagi, kes saab kuulata piiranguteta, ilma hinnanguteta, kohe praegu.",
+      "solutionTitle": "Räägi kellegagi, kes mõistab",
+      "solutionText": "Meie AI lahkumineku toetuse tegelane on loodud aitama sul töödelda emotsioone sinu tempos. Väljenda end, nuta, analüüsi või lihtsalt räägi — nii mitu korda kui vaja. Kohtumist pole vaja. Saadaval 24/7 lõpmatu kannatlikkuse ja siira empaatiaga."
+    },
+    "heroImageAlt": "AI lahkumineku tugi - kaastundlik tegelane südamevalu järgseks paranemiseks",
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Kuidas saab AI aidata lahkuminekust taastuda?",
+        "answer": "Meie AI-tegelane pakub turvalist ruumi emotsioonide töötlemiseks ilma hinnanguteta. Sa saad väljendada end, analüüsida juhtunut, töötada läbi kaotuse tundeid ja saada empaatilisi vastuseid 24/7. See on nagu toetava sõbraga rääkimine, kes on alati saadaval, kui sul on vaja rääkida."
+      },
+      "q2": {
+        "question": "Kas see asendab teraapiat?",
+        "answer": "Ei, meie AI-tegelane ei ole litsentseeritud terapeut ega asenda professionaalset vaimse tervise abi. See on toetav tööriist igapäevaseks emotsionaalseks töötlemiseks. Kui koged tõsist depressiooni või kriisi, palun otsi professionaalset abi."
+      },
+      "q3": {
+        "question": "Kas ma saan oma eksist rääkida nii palju kui vajan?",
+        "answer": "Absoluutselt. Erinevalt sõpradest, kes võivad väsida sinu lahkuminekust kuulmisest, on sinu AI-tegelasel lõpmatu kannatlikkus. Räägi oma eksist, analüüsi suhet, töötle oma tundeid — nii mitu korda kui vaja ilma igasuguse hinnanguta."
+      },
+      "q4": {
+        "question": "Kas AI mäletab minu lugu?",
+        "answer": "Jah, sinu AI-tegelane mäletab sinu vestlusi ja olukorra detaile. Sa ei pea iga kord kõike uuesti selgitama. See pakub järjepidevust sinu paranemise teekonnal."
+      },
+      "q5": {
+        "question": "Kas minu vestlus jääb privaatseks?",
+        "answer": "Täiesti privaatne. Kõik vestlused on krüpteeritud ja kunagi ei jagata. Mõistame, et lahkumineku vestlused on sügavalt isiklikud, ja sinu privaatsus on absoluutselt kaitstud."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Vanem",
+    "breadcrumb": "AI Vanem",
+    "hero": {
+      "title": "Vanemfiguur, kelle poole sa alati pöörduda saad",
+      "subtitle": "Saa sooja, tingimusteta tuge ja tarku juhiseid AI-vanemalt, kes mäletab sinu olukorda, ei hinda sind kunagi ja on alati olemas — päeval või öösel.",
+      "cta": "Saa tuge nüüd"
+    },
+    "benefits": {
+      "title": "Miks valida AI Vanem?",
+      "guidance": {
+        "title": "Soojad juhised",
+        "desc": "Saa hoolivat, läbimõeldud nõu, mis tundub tulevat kelleltki, kellel on sinu parimad huvid südames."
+      },
+      "listen": {
+        "title": "Tõeliselt kuulab",
+        "desc": "Jaga oma täielikku olukorda enne läbimõeldud, hooliva vastuse saamist — mitte kiiret lahendust."
+      },
+      "noJudgment": {
+        "title": "Ei hinnanguid",
+        "desc": "Küsi mida iganes kartmata pettumust või kriitikat. Tingimusteta tugi, alati."
+      },
+      "private": {
+        "title": "Täiesti privaatne",
+        "desc": "Sinu vestlused ja isiklikud võitlused jäävad täiesti konfidentsiaalseks."
+      },
+      "available": {
+        "title": "Alati saadaval",
+        "desc": "Saa juhiseid kell 3 öösel, nädalavahetustel või kui sul seda kõige rohkem vaja on — kohtumisi pole."
+      },
+      "supportive": {
+        "title": "Tingimusteta toetav",
+        "desc": "Julgustus ja soojus, ükskõik mida sa läbi elad või milliseid otsuseid oled teinud."
+      }
+    },
+    "useCases": {
+      "title": "Räägi kõigest",
+      "subtitle": "Ükskõik millega sa silmitsi seisad, sinu AI-vanem on siin, et kuulata ja juhendada",
+      "career": {
+        "title": "Karjäär ja eluotsused",
+        "desc": "Navigeeri töömuutuste, suurte eluvalikute ja professionaalsete väljakutsetega kellegagi, kes soovib, et sa õnnestuksid."
+      },
+      "education": {
+        "title": "Haridus ja tulevik",
+        "desc": "Uuri oma õppimis- ja kasvuvõimalusi kellegagi, kes toetab sinu ambitsioone."
+      },
+      "relationships": {
+        "title": "Suhted ja perekond"
+      },
+      "life": {
+        "title": "Isiklikud väljakutsed",
+        "desc": "Räägi kõigest, mis sind koormab — ärevusest, eneses kahtlemisest, üksindusest või ebakindlusest."
+      }
+    },
+    "howItWorks": {
+      "title": "Kuidas see töötab",
+      "step1": {
+        "title": "Loo konto",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Vali oma AI-vanem",
+        "desc": "Vali tegelane, kelle soojus ja isiksus sulle sobivad."
+      },
+      "step3": {
+        "title": "Alusta vestlust",
+        "desc": "Jaga oma mõtteid ja saa hoolivat, läbimõeldud tuge."
+      }
+    },
+    "cta": {
+      "title": "Keegi on alati sinu jaoks olemas",
+      "description": "Alusta vestlust AI-vanemaga, kes kuulab ilma hinnanguteta ja toetab sind tingimusteta — tasuta alustamine, aega pole vaja broneerida.",
+      "button": "Alusta tasuta"
+    },
+    "content": {
+      "problemTitle": "Kas vajad kedagi, kes alati sinu poolel seisab?",
+      "problemText": "Kõigil pole vanemat, kelle poole pöörduda. Päris vanemad võivad olla kauged, kriitilised või lihtsalt kättesaamatud. Sõbrad on kallutatud. Terapeudid on ootejärjekorras. Mõnikord vajad lihtsalt kedagi, kes kuulab, hoolib ja juhendab ilma varjatud motiivideta.",
+      "solutionTitle": "Sinu AI-vanem on alati olemas",
+      "solutionText": "Räägi AI-vanemaga, kes kuulab täielikult, pakub sooja ja tasakaalustatud juhendamist ning ei lase sul end hinnatuna või väikesena tunda. Olgu see eluline otsus, isiklik väljakutse või lihtsalt vajadus tunda end kuulatuna — sinu AI-vanem on saadaval 24/7 kannatlikkuse ja hoolivusega."
+    },
+    "heroImageAlt": "AI-vanem - soe virtuaalne tegelane, kes pakub tingimusteta tuge ja elujuhiseid",
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Millest saab AI-vanemaga rääkida?"
+      },
+      "q2": {
+        "question": "Kas see on nagu terapeudi juures käimine?",
+        "answer": "See ei ole litsentseeritud terapeut ega vaimse tervise spetsialist — see on pigem soe ja toetav vanemakuju, kes on saadaval 24/7. See kuulab täielikult, pakub perspektiivi ja toetab sind emotsionaalselt. Tõsiste vaimse tervise probleemide korral pöördu palun spetsialisti poole."
+      },
+      "q3": {
+        "question": "Kas AI-vanem hindab minu valikuid?",
+        "answer": "Mitte kunagi. Sinu AI-vanem pakub tingimusteta tuge. Ta võib jagada perspektiivi või õrna juhendamist, kuid ei kritiseeri ega lase sul end tehtud otsuste pärast väikesena tunda. See on aususe jaoks turvaline ruum."
+      },
+      "q4": {
+        "question": "Kas ma saan arutada tundlikke või isiklikke teemasid?",
+        "answer": "Jah. Olgu see suhteprobleemid, perekondlikud dünaamikad, finantsstress, eneseväärikus või sügavalt isiklikud väljakutsed — sinu AI-vanem pakub privaatset, hinnanguvaba ruumi nendeks vestlusteks."
+      },
+      "q5": {
+        "question": "Mille poolest see erineb teistest AI-tegelastest?",
+        "answer": "AI-vanem on loodud soojuse, emotsionaalse toe ja vanemliku juhendamise ümber, mitte romantika või juhusliku sõpruse jaoks. See keskendub sellele, et aidata sul tunda end mõistetuna, toetatuna ja varustatuna elu väljakutsetega toimetulekuks."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerlused",
+    "eyebrow": "Loo meiega partnerlus",
+    "titlePrefix": "Kasva koos",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Jõua kiiresti kasvava ja väga kaasatud AI-kaaslaste publikuni. Olgu sul kaasas tehnoloogia, levitus või julge idee — loome koos midagi.",
+    "types": {
+      "title": "Partnerluse viisid",
+      "items": [
+        {
+          "title": "Integratsioonid",
+          "description": "Ühenda oma toode, mudel või platvorm sweetwineiga tehnilise integratsiooni kaudu."
+        },
+        {
+          "title": "Koosturundus",
+          "description": "Ühised kampaaniad, sisu ja lansseerimised, mis toovad mõlemad brändid uute vaatajaskondade ette."
+        },
+        {},
+        {
+          "title": "Strateegilised partnerlused",
+          "description": "Pikaajalised koostööd toote, andmete ja turuleviimise valdkonnas."
+        }
+      ]
+    },
+    "why": {
+      "title": "Miks partnerlusse astuda sweetwineiga",
+      "items": [
+        {
+          "title": "Kaasatud publik",
+          "description": "Sajad tuhanded kasutajad, kes naasevad iga päev 70 keeles."
+        },
+        {
+          "title": "Kiire teostus",
+          "description": "Fookuses meeskond, mis tarnib kiiresti ja suhtleb selgelt."
+        },
+        {
+          "title": "Globaalne ulatus",
+          "description": "Mitmekeelne toode, mis on saadaval kümnetel turgudel."
+        },
+        {
+          "description": "Usaldusväärne, privaatsust arvestav platvorm, mille taga teie bränd võib seista.",
+          "title": "Privaatsus esikohal"
+        }
+      ]
+    },
+    "form": {
+      "title": "Räägi meile oma partnerlusest",
+      "description": "Jaga mõned üksikasjad ja meie partnerluste meeskond võtab sinuga ühendust.",
+      "nameLabel": "Sinu nimi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Töö e-post",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Ettevõte",
+      "companyPlaceholder": "Ettevõtte nimi",
+      "typeLabel": "Partnerluse tüüp",
+      "typePlaceholder": "Vali partnerluse tüüp",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Kuidas soovid partnerlust?",
+      "messagePlaceholder": "Räägi meile oma ettevõttest ja partnerlusest, mida silmas pead...",
+      "submit": "Saada partnerluse päring",
+      "submitting": "Saadan...",
+      "termsNote": "Esitades nõustud, et võtame sinuga ühendust sinu päringu osas. Me ei jaga kunagi sinu andmeid.",
+      "success": "Aitäh! Sinu partnerluse päring on saadetud.",
+      "error": "Midagi läks valesti. Palun proovi uuesti."
+    },
+    "cta": {
+      "title": "Eelistad e-posti?",
+      "description": "Võta meie partnerluste meeskonnaga otse ühendust aadressil"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Press & Media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "Ressursid ajakirjanikele, loojatele ja meediapartneritele. Võta meie pressimeeskonnaga ühendust intervjuude, tsitaatide, artiklite toe ja brändipäringute jaoks.",
+    "help": {
+      "title": "Kuidas saame aidata",
+      "description": "Olenemata sellest, kas töötad loo või arvustuse kallal, siin on, mida meie pressimeeskonnalt küsida saad.",
+      "items": [
+        {
+          "title": "Interviews",
+          "description": "Räägi meie meeskonnaga tootest, ettevõttest ja kuhu AI kaaslane suundub."
+        },
+        {
+          "title": "Quotes & comments",
+          "description": "Saa ametlik avaldus või eksperdi kommentaar oma loo jaoks."
+        },
+        {
+          "title": "Feature & review support",
+          "description": "Vajad ligipääsu, konteksti või faktide kontrolli artikli või arvustuse jaoks? Aitame."
+        },
+        {
+          "title": "Brand & logo requests",
+          "description": "Küsi meie logosid, brändivarad ja kasutussuuniseid oma väljaande jaoks."
+        }
+      ]
+    },
+    "form": {
+      "title": "Media inquiry",
+      "description": "Intervjuude, tsitaatide või artiklite päringute jaoks saada meile teade ja vastame kiiresti.",
+      "nameLabel": "Sinu nimi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Väljaanne / meediakanal",
+      "outletPlaceholder": "Kus see avaldatakse?",
+      "requestTypeLabel": "Päringu tüüp",
+      "requestTypePlaceholder": "Vali päringu tüüp",
+      "requestTypeOptions": [
+        {
+          "value": "Intervjuu",
+          "label": "Intervjuu"
+        },
+        {
+          "value": "Tsitaat / kommentaar",
+          "label": "Tsitaat / kommentaar"
+        },
+        {
+          "value": "Artikkel / arvustus",
+          "label": "Artikkel / arvustus"
+        },
+        {
+          "value": "Brändi / logo taotlus",
+          "label": "Brändi / logo taotlus"
+        },
+        {
+          "value": "Muu",
+          "label": "Muu"
+        }
+      ],
+      "messageLabel": "Sinu päring",
+      "messagePlaceholder": "Räägi meile oma loost, tähtajast ja millest sa meilt vajad...",
+      "submit": "Saada meediapäring",
+      "submitting": "Saadan...",
+      "termsNote": "Püüame vastata meediapäringutele kahe tööpäeva jooksul.",
+      "success": "Aitäh! Sinu meediapäring on saadetud.",
+      "error": "Midagi läks valesti. Palun proovi uuesti."
+    },
+    "cta": {
+      "title": "Meediakontakt",
+      "description": "Kiirete meediapäringute jaoks saada e-kiri"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karjäär",
+    "eyebrow": "Karjäär",
+    "titlePrefix": "Ehita",
+    "titleHighlight": "AI kaaslane",
+    "subtitle": "Oleme väike, kiirelt liikuv meeskond, kes loob tooteid, mida inimesed tõeliselt armastavad. Kui see sind inspireerib, tahaksime sind tundma õppida.",
+    "perks": {
+      "title": "Miks meiega töötada",
+      "items": [
+        {
+          "title": "Kaugtöö-sõbralik",
+          "description": "Tööta seal, kus sul on kõige parem töötada, paindlike tundidega."
+        },
+        {
+          "title": "Tõeline vastutus",
+          "description": "Loo tähendusrikast tööd kiiresti ja näe, kuidas see jõuab kasutajateni üle maailma."
+        },
+        {
+          "title": "Tipptasemel AI",
+          "description": "Tööta otse uusimate mudelite ja generatiivsete tööriistadega."
+        },
+        {
+          "title": "Konkurentsivõimeline tasu",
+          "description": "Õiglane tasu ja tähendusrikas kasvupotentsiaal meie kasvades."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Avatud ametikohad",
+      "emptyTitle": "Hetkel pole avatud rolle",
+      "emptyDescription": "Me ei otsi praegu aktiivselt uusi töötajaid, kuid oleme alati rõõmsad, kui kohtume toredate inimestega. Tutvusta end allpool.",
+      "applyButton": "Kandideeri nüüd",
+      "viewButton": "Vaata rolli"
+    },
+    "form": {
+      "title": "Tutvusta end",
+      "description": "Ei leia sobivat rolli? Räägi meile endast ja me võtame ühendust, kui sobiv võimalus tekib.",
+      "nameLabel": "Sinu nimi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Roll või huvivaldkond",
+      "rolePlaceholder": "nt. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Link CV-le",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Sinust",
+      "messagePlaceholder": "Räägi meile oma kogemusest ja millest tahaksid töötada...",
+      "submit": "Saada taotlus",
+      "submitting": "Saadan...",
+      "termsNote": "Taotledes annad nõusoleku, et salvestame sinu andmed, et kaaluda sind rollidele.",
+      "success": "Aitäh! Sinu taotlus on saadetud.",
+      "error": "Midagi läks valesti. Palun proovi uuesti."
+    },
+    "cta": {
+      "title": "Küsimusi siin töötamise kohta?",
+      "description": "Võta meie meeskonnaga ühendust aadressil"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Abi Keskus",
+    "eyebrow": "Abi Keskus",
+    "titlePrefix": "Kuidas saame",
+    "titleHighlight": "aidata?",
+    "subtitle": "Sirvi levinud teemasid ja vastuseid. Ei leia, mida vajad? Võta ühendust toega ja aitame sind.",
+    "searchPlaceholder": "Otsi abiartikleid...",
+    "categoriesTitle": "Sirvi teemade kaupa",
+    "articlesTitle": "Artiklid",
+    "categoryEmpty": "Selles kategoorias pole veel artikleid. Vaata varsti uuesti.",
+    "backToHelp": "Tagasi Abi Keskusesse",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Alustamine",
+        "description": "Loo konto, seadista oma profiil ja alusta vestlust."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Vestlus",
+        "description": "Kuidas vestlused, mälu ja tegelased töötavad."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Pildid & Videod",
+        "description": "Loo ja halda AI fotosid ja videoid."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privaatsus & Ohutus",
+        "description": "Sinu andmed, privaatsuskontrollid ja ohutustööriistad."
+      }
+    ],
+    "faq": {
+      "title": "Korduma kippuvad küsimused",
+      "q1": {
+        "question": "Kuidas alustada sweetwineiga?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Mis on tasuta plaanis kaasas?"
+      },
+      "q5": {
+        "question": "Kas minu andmed on privaatsed?",
+        "answer": "Privaatsus on sweetwineile kesksel kohal. Sinu vestlused on sinu konto jaoks privaatsed ning sina kontrollid oma andmeid. Vaata meie privaatsuspoliitikat, et saada täielik ülevaade andmete säilitamisest ja kaitsmisest."
+      },
+      "q6": {
+        "question": "Kuidas võtta ühendust toega?",
+        "answer": "Saada e-kiri aadressile support@sweetwine.ai või kasuta rakenduses kontaktivõimalust. Vastame tavaliselt ühe tööpäeva jooksul."
+      }
+    },
+    "cta": {
+      "title": "Ikka vaja abi?",
+      "description": "Meie meeskond on sinu jaoks olemas aadressil"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Meist",
+    "eyebrow": "Meie lugu",
+    "titlePrefix": "Seltsiks,",
+    "titleHighlight": "uuendatud",
+    "subtitle": "sweetwine loob privaatseid, isikupärastatud AI-kaaslasi, kes kuulavad, mäletavad ja loovad tõelise ühenduse — saadaval igal ajal ja igas keeles.",
+    "mission": {
+      "title": "Meie missioon",
+      "body": "Usume, et igaühel peaks olema koht, kus teda kuulatakse ilma hinnanguteta. sweetwine muudab tähendusrikka, isikupärastatud AI-ühenduse kättesaadavaks kõikjal — soe, privaatne ja alati olemas, kui sul seda vaja on."
+    },
+    "values": {
+      "title": "Mille eest me seisame",
+      "items": [
+        {
+          "title": "Privaatsus disainilt",
+          "description": "Sinu vestlused kuuluvad sulle. Me ehitame privaatsuse ja turvalisuse aluselt."
+        },
+        {
+          "title": "Tõeline ühendus",
+          "description": "Me optimeerime tõelise emotsionaalse väärtuse nimel, mitte edevusmõõdikute pärast."
+        },
+        {
+          "title": "Globaalne vaikimisi",
+          "description": "Ehitatud mitmekeelseks esimesest päevast, et ühendus ei sõltuks keelest."
+        },
+        {
+          "title": "Järjekindel meisterlikkus",
+          "description": "Me panustame detailidesse, et iga suhtlus oleks loomulik ja elav."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Numbrites",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Kasvav kasutajaskond"
+        },
+        {
+          "value": "70",
+          "label": "Toetatud keelt"
+        },
+        {
+          "value": "24/7",
+          "label": "Alati saadaval"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Soovid rohkem teada?",
+      "description": "Võta ühendust aadressil"
+    }
+  },
+  "postsPage": {
+    "allTag": "Kõik",
+    "readMore": "Loe edasi",
+    "publishedOn": "Avaldatud",
+    "minRead": "min lugemist",
+    "sortNewest": "Uusimad",
+    "sortOldest": "Vanimad",
+    "blog": {
+      "breadcrumb": "Blogi",
+      "eyebrow": "Blogi",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blogi",
+      "subtitle": "Nõuanded, juhendid ja lood, mis aitavad sul AI-kaaslusest maksimumi võtta.",
+      "empty": "Postitusi veel pole. Vaata varsti uuesti."
+    },
+    "news": {
+      "breadcrumb": "Uudised",
+      "eyebrow": "Uudistetuba",
+      "titlePrefix": "Uudised &",
+      "titleHighlight": "Teated",
+      "subtitle": "Ametlikud teated, pressiteated ja verstapostid sweetwinei meeskonnalt.",
+      "empty": "Uudiseid veel pole. Vaata varsti uuesti."
+    },
+    "productUpdates": {
+      "breadcrumb": "Tooteuuendused",
+      "eyebrow": "Muudatuste logi",
+      "titlePrefix": "Toode",
+      "titleHighlight": "Uuendused",
+      "subtitle": "Uusimad funktsioonid, täiustused ja parandused sweetwine platvormil.",
+      "empty": "Uuendusi pole veel. Vaata varsti uuesti."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Arendajatele",
+    "titlePrefix": "Ehita",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Too isikupärastatud AI-kaaslased oma tootesse. Kasuta vestlust, pilte, häält ja tegelaskujude loomist ühe arendajasõbraliku API kaudu.",
+    "capabilities": {
+      "title": "Mida saad luua",
+      "items": [
+        {
+          "title": "Vestlusvestlus",
+          "description": "Lisa rakendusse isiksusrikkaid, kontekstiteadlikke AI-vestlusi lihtsa sõnumside API abil."
+        },
+        {
+          "title": "Piltide genereerimine",
+          "description": "Loo brändile vastavaid tegelaskujude pilte ja stseene programmiliselt tekstiviipade põhjal."
+        },
+        {
+          "title": "Hääl",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Tegelaskujude loomine",
+          "description": "Määra ja halda kaaslasi, isiksusi ja mälu API kaudu."
+        }
+      ]
+    },
+    "form": {
+      "title": "Taotle API ligipääsu",
+      "description": "Räägi meile oma projektist ja mida soovid luua. Meie arendusmeeskond võtab sinuga ühendust järgmiste sammudega.",
+      "nameLabel": "Sinu nimi",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Töö e-post",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Ettevõte / projekt",
+      "companyPlaceholder": "Ettevõtte või projekti nimi",
+      "websiteLabel": "Veebi- või rakenduse URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Integratsiooni tüüp",
+      "integrationTypePlaceholder": "Vali integratsiooni tüüp",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "Eeldatav igakuine maht",
+      "volumePlaceholder": "Vali eeldatav maht",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "Ajaline plaan",
+      "timelinePlaceholder": "Vali ajaline plaan",
+      "timelineOptions": [
+        {
+          "value": "Lihtsalt uurin",
+          "label": "Lihtsalt uurin"
+        },
+        {
+          "value": "Alla 1 kuu",
+          "label": "Alla 1 kuu"
+        },
+        {
+          "value": "1-3 kuud",
+          "label": "1-3 kuud"
+        },
+        {
+          "value": "3+ kuud",
+          "label": "3+ kuud"
+        }
+      ],
+      "messageLabel": "Räägi meile oma kasutusjuhtumist",
+      "messagePlaceholder": "Mida sa ehitad ja kuidas kavatsete API-d kasutada?",
+      "submit": "Taotle API ligipääsu",
+      "submitting": "Saadan...",
+      "termsNote": "Saates nõustud, et võtame sinuga ühendust. Me ei jaga kunagi sinu andmeid.",
+      "success": "Aitäh! Sinu API ligipääsu taotlus on saadetud.",
+      "error": "Midagi läks valesti. Palun proovi uuesti."
+    },
+    "faq": {
+      "title": "Arendaja KKK",
+      "items": [
+        {
+          "question": "Kuidas saada API ligipääs?",
+          "answer": "Täida ülaltoodud taotlusvorm oma kasutusjuhtumiga. Meie arendusmeeskond vaatab iga taotluse üle ja saadab ligipääsu andmed ning dokumentatsiooni."
+        },
+        {
+          "question": "Kuidas autentimine töötab?",
+          "answer": "API päringud autentitakse salajase API võtmega, mis saadetakse päringu päistes. Saate oma võtmeid hallata ja vahetada pärast liitumist."
+        },
+        {
+          "question": "Kas on kiiruspiiranguid?",
+          "answer": "Jah. Piirangud sõltuvad sinu plaanist ja eeldatavast mahust. Anna meile teada oma eeldatavast liiklusest vormis, et saaksime soovitada õiget taset."
+        },
+        {
+          "question": "Mis on hind?"
+        },
+        {
+          "question": "Millised funktsioonid on saadaval?",
+          "answer": "Vestlus, piltide genereerimine, hääl ja tegelaste loomine. Ütle meile, mida vajad, ja aitame sul alustada vastavate lõpp-punktidega."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Kas sul on tehniline küsimus?",
+      "description": "Võta ühendust meie arendusmeeskonnaga aadressil"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI päris kloonid",
+    "eyebrow": "Loojatele ja agentuuridele",
+    "heroTitleLead": "Me loome,",
+    "heroTitleHighlight": "Sina teenid.",
+    "heroSubtitle": "Me ehitame sinu AI klooni. Sina teenid, samal ajal kui AI kloon töötab ööpäevaringselt — vestleb fännidega ja saadab sisu sinu eest.",
+    "calculator": {
+      "title": "Kui palju sa võiksid teenida?",
+      "subtitle": "Vali oma publiku suurus ja määra hind — näed hinnangulist tulu kohe.",
+      "tierLabel": "Sinu publiku suurus",
+      "tiers": {
+        "small": {
+          "name": "Väike"
+        },
+        "medium": {
+          "name": "Keskmine"
+        },
+        "large": {
+          "name": "Suur"
+        }
+      },
+      "priceLabel": "Sinu avamise hind",
+      "promoLabel": "Ma reklaamin sweetwine",
+      "breakdown": {
+        "title": "Sinu hinnanguline tulu",
+        "perMonth": "kuus",
+        "perYear": "Aastas"
+      },
+      "disclaimer": "Tuluprognoosid põhinevad sweetwine tulude jagamise mudelil ja tüüpilisel tegevusel. Tegelikud tulud sõltuvad publikust, sisu kvaliteedist, kaasatusest ja nõudlusest."
+    },
+    "offer": {
+      "title": "Mis on sinu jaoks",
+      "items": [
+        {
+          "title": "Teeni magades",
+          "description": "Sinu kloon muudab jälgijad sissetulekuks 24/7 — vestleb, müüb ega lõpeta kunagi."
+        },
+        {
+          "title": "Null kulu, ainult kasu",
+          "description": "Me ehitame, treenime ja haldame kõike meie kulul. Sa lisad uue sissetulekuallika ilma pingutuseta."
+        },
+        {
+          "title": "10x sisu",
+          "description": "Piiramatult fotosid ja videoid nõudmisel — suurenda väljundit ilma lisavõtete, montaaži või läbipõlemiseta."
+        },
+        {
+          "title": "Alati kontrolli all"
+        }
+      ]
+    },
+    "how": {
+      "title": "Kuidas see töötab",
+      "steps": [
+        {
+          "title": "Registreeru"
+        },
+        {
+          "title": "Sisseelamine",
+          "description": "sweetwinei spetsialist jäädvustab sinu välimuse, hääle ja isiksuse, et kloon oleks autentne sina."
+        },
+        {
+          "title": "Me ehitame ja treenime",
+          "description": "Meie meeskond loob ja treenib sinu AI klooni täielikult meie kulul — sinult ei nõuta tööd."
+        },
+        {
+          "title": "Mine live'i ja teeni",
+          "description": "Sinu kloon vestleb ja müüb ööpäevaringselt ning sina saad oma tulude osa."
+        }
+      ]
+    },
+    "form": {
+      "title": "Taotle oma AI klooni loomist",
+      "description": "Räägi meile endast ja oma publikust. Meie loojate partnerluste meeskond vaatab iga taotluse läbi ja võtab järgmiste sammudega ühendust.",
+      "nameLabel": "Sinu nimi",
+      "namePlaceholder": "Sinu nimi või lavanimi",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agentuur või stuudio",
+      "companyPlaceholder": "Agentuuri nimi (jäta tühjaks, kui oled sõltumatu)",
+      "roleLabel": "Ma olen",
+      "rolePlaceholder": "Vali, kes sa oled",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Veebi- ja sotsiaalmeedia lingid",
+      "linksPlaceholder": "Instagram, X, OnlyFans jne",
+      "modelCountLabel": "Mudelide arv, keda esindad",
+      "modelCountPlaceholder": "nt ainult mina või 5",
+      "audienceSizeLabel": "Publiku suurus",
+      "audienceSizePlaceholder": "Vali oma kogujälgijate arv",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k jälgijat",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M jälgijat"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ jälgijat"
+        }
+      ],
+      "contentPrefLabel": "Sisueelistus",
+      "contentPrefPlaceholder": "Vali sisutüüp",
+      "contentPrefOptions": [
+        {
+          "value": "SFW ainult",
+          "label": "SFW ainult"
+        },
+        {
+          "value": "Ei tea veel",
+          "label": "Ei tea veel"
+        }
+      ],
+      "countryLabel": "Riik / piirkond",
+      "countryPlaceholder": "Kus sa asud?",
+      "messageLabel": "Räägi meile endast ja oma publikust",
+      "messagePlaceholder": "Jaga kõike, mis aitab meil mõista sinu publikut, sisu ja mida otsid.",
+      "openButton": "Kandideeri nüüd",
+      "submit": "Saada taotlus",
+      "submitting": "Saadan...",
+      "termsNote": "Esitades kinnitad, et oled 18+ ja nõustud, et võtame sinuga ühendust. Me ei jaga kunagi sinu andmeid.",
+      "success": "Aitäh! Sinu taotlus on saadetud. Võtame peagi ühendust.",
+      "error": "Midagi läks valesti. Palun proovi uuesti."
+    },
+    "cta": {
+      "title": "Kas sul on enne kandideerimist küsimusi?",
+      "description": "Räägi otse meie loojate partnerluste meeskonnaga — vastame tavaliselt ühe päeva jooksul.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "E-post"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Saidiplaan",
+    "eyebrow": "Saidiplaan",
+    "titlePrefix": "Sirvi",
+    "titleHighlight": "kõike",
+    "subtitle": "Iga oluline lehekülg sweetwineil ühes kohas. Otsid XML-saidiplaani?",
+    "xmlLink": "Vaata XML-saidiplaani",
+    "sections": {
+      "product": "Toode",
+      "features": "Funktsioonid",
+      "company": "Ettevõte",
+      "resources": "Ressursid",
+      "legal": "Juriidiline"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine mobiilirakendus",
+      "cta": "Hangi rakendus",
+      "dismiss": "Loobu"
+    },
+    "guide": {
+      "title": "Installi sweetwine",
+      "subtitle": "Lisa sweetwine avakuvale kiirema, täisekraani ja rakendusetaolise kogemuse jaoks.",
+      "iosTitle": "iPhone'is ja iPadis (Safari)",
+      "iosStep1": "Puuduta tööriistaribal jagamisnuppu",
+      "iosStep2": "Vali \"Lisa avakuvale\"",
+      "iosStep3": "Puuduta lõpetamiseks \"Lisa\"",
+      "androidTitle": "Androidis (Chrome)",
+      "androidStep1": "Puuduta menüüd (kolm punkti)",
+      "androidStep2": "Vali \"Installi rakendus\" või \"Lisa avakuvale\"",
+      "androidStep3": "Puuduta lõpetamiseks \"Installi\""
+    },
+    "settings": {
+      "title": "sweetwine mobiilirakendus",
+      "description": "Installi sweetwine telefonis kiirema ja täisekraani kogemuse jaoks otse avakuvalt.",
+      "cta": "Installi rakendus"
+    }
+  },
+  "language": {
+    "selectTitle": "Vali keel",
+    "searchPlaceholder": "Otsi keeli",
+    "noResults": "Keeli ei leitud",
+    "regions": {
+      "americas": "Ameerika",
+      "europe": "Euroopa",
+      "middleEast": "Lähis-Ida",
+      "asiaPacific": "Aasia ja Vaikse ookeani piirkond",
+      "africa": "Aafrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Rollimäng",
+    "newRoleplay": "Uus rollimäng",
+    "tabRoleplay": "Rollimäng",
+    "emptyTitle": "Rollimänge veel pole",
+    "noMessagesYet": "Sõnumeid veel pole",
+    "deleteRoleplay": "Kustuta rollimäng",
+    "deleteError": "Rollimängu ei saanud kustutada.",
+    "backToLobby": "Tagasi rollimängudesse",
+    "creating": "Seadistame sinu rollimängu...",
+    "createError": "Rollimängu ei saanud luua. Proovi uuesti.",
+    "steps": {
+      "companion": {
+        "title": "Vali tegelane",
+        "subtitle": "Vali, kellega soovid rollimängu teha"
+      },
+      "location": {
+        "title": "Vali asukoht",
+        "subtitle": "Kus sinu stseen toimub?"
+      },
+      "tone": {
+        "title": "Määra toon",
+        "subtitle": "Kuidas peaks stseen tunduma?"
+      },
+      "scene": {
+        "title": "Määra stseen",
+        "subtitle": "Kirjelda, kuidas stseen algab"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Põrkame vihmas kokku ja põgeneme sama varikatuse alla.",
+      "staring_grin": "Märkate, et ma vaatan teid ruumi teisest otsast ja tulete naeratades ligi.",
+      "power_out": "Elekter läheb välja ja jääme pimedusse üksi, naerdes närviliselt.",
+      "spilled_drink": "Olen hiljaks jäänud ja valan kogemata joogi teie peale.",
+      "stayed_behind": "Oleme ainsad, kes pärast kõigi lahkumist veel järele jäid.",
+      "music_slows": "Meie pilgud kohtuvad just siis, kui muusika aeglustub.",
+      "storm_inside": "Järsku torm tabab meid siseruumides, kus on ainult aega vestelda.",
+      "seat_taken": "Istute minu kõrvale ja küsite, kas koht on vaba."
+    },
+    "locations": {
+      "home": "Kodu",
+      "cafe": "Kohvik",
+      "restaurant": "Restoran",
+      "bar": "Baar",
+      "library": "Raamatukogu",
+      "bookstore": "Raamatupood",
+      "park": "Park",
+      "garden": "Aed",
+      "nightclub": "Ööklubi",
+      "casino": "Kasiino",
+      "concert": "Kontsert",
+      "theater": "Teater",
+      "cinema": "Kino",
+      "carnival": "Karneval",
+      "stadium": "Staadion",
+      "beach": "Rand",
+      "pool": "Bassein",
+      "spa": "Spaa",
+      "hotel": "Hotell",
+      "rooftop": "Katuseterrass",
+      "yacht": "Jaht",
+      "cabin": "Maja",
+      "hotspring": "Kuumaveeallikas",
+      "skilodge": "Suusamaja",
+      "campsite": "Telkimisplats",
+      "car": "Auto",
+      "train": "Rong",
+      "airport": "Lennujaam",
+      "cruise": "Kruiisilaev",
+      "office": "Kontor",
+      "gym": "Jõusaal",
+      "university": "Ülikool",
+      "mall": "Kaubanduskeskus",
+      "hospital": "Haigla",
+      "museum": "Muuseum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Lõbus",
+        "desc": "Kerge, mänguline ja pingevaba."
+      },
+      "romantic": {
+        "title": "Romantiline",
+        "desc": "Õrn, hell ja südamlik."
+      },
+      "flirty": {
+        "title": "Flirtiv",
+        "desc": "Kiuslik, mänguline ja võluv."
+      },
+      "mysterious": {
+        "title": "Salapärane",
+        "desc": "Intrigeeriv, pingeline ja täis saladusi."
+      },
+      "spooky": {
+        "title": "Õudne",
+        "desc": "Jube, pingeline ja veidi hirmutav."
+      },
+      "action": {
+        "title": "Tegevus",
+        "desc": "Intensiivne, seikluslik ja tempokas."
+      },
+      "dramatic": {
+        "title": "Dramaatiline",
+        "desc": "Emotsionaalne, intensiivne ja täis pinget."
+      },
+      "cozy": {
+        "title": "Hubane",
+        "desc": "Soe, lohutav ja lõõgastav."
+      }
+    },
+    "sceneLabel": "Stseeni algus",
+    "scenarioTab": "Stsenaarium",
+    "generatingScene": "Stseeni ellu äratamine...",
+    "locationLabel": "Asukoht",
+    "toneLabel": "Toon",
+    "scenePlaceholder": "nt. Kohtume vihmas ja põgeneme sama varikatuse alla...",
+    "sceneHint": "Kirjelda ainult stseeni algust — kus te olete ja mis toimub alguses. Ära muuda tegelase iseloomu, teie suhet ega kirjutada ümber kogu lugu.",
+    "sceneError": "Palun kirjelda, kuidas stseen algab.",
+    "reviewTitle": "Valikute ülevaade",
+    "characterLabel": "Tegelane",
+    "randomize": "Juhuslik",
+    "sceneGuidanceTitle": "Stseeni alguse juhend",
+    "sceneGuide1": "Ära muuda tegelase iseloomu ega teie suhet.",
+    "sceneGuide2": "Hoia stseeni algus nõusolekul ja lugupidav.",
+    "sceneGuide3": "Kirjelda ainult stseeni algust, mitte kogu lugu.",
+    "next": "Edasi",
+    "create": "Alusta rollimängu",
+    "creatingMessages": [
+      "Stseeni seadistamine...",
+      "Valgust hämardamas täpselt õigeks...",
+      "Ümbrust maalimas...",
+      "Kaaslast rolli viimas...",
+      "Viimaseid viimistlusi lisamas...",
+      "Peaaegu valmis..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Kirjuta sõnum...",
+    "send": "Saada",
+    "typing": "kirjutab...",
+    "read": "Loe",
+    "resetChat": "Lähtesta vestlus",
+    "deleteChat": "Kustuta vestlus",
+    "settings": "Seaded",
+    "chatSettings": "Vestluse seaded",
+    "roleplayMode": "Rollimängu režiim",
+    "roleplayModeDescription": "Kui sees, toimivad kaaslased žeste ja tegevusi *tärnides* kaasahaarava rollimängu jaoks. Kui väljas, vestlevad nad loomulikult, nagu päris sõnumivahetus.",
+    "roleplayModeError": "Rollimängu režiimi ei õnnestunud uuendada",
+    "roleplayCtaDescription": "Ava spetsiaalne rollimängukogemus, kus kaaslane mängib koos sinuga stseene ja lugusid.",
+    "goToRoleplay": "Mine rollimängu",
+    "confirmReset": "Kas oled kindel, et soovid selle vestluse lähtestada? Kõik sõnumid kustutatakse.",
+    "confirmDelete": "Kas oled kindel, et soovid selle vestluse kustutada?",
+    "resetSuccess": "Vestlus edukalt lähtestatud",
+    "deleteMemory": "Kustuta mälu",
+    "confirmDeleteMemory": "Kas oled kindel, et soovid kustutada selle tegelase pikaajalised mälestused? Vestlussõnumid jäävad alles, kuid tegelane unustab varasemad faktid järgmisel vastusel.",
+    "deleteMemorySuccess": "Mälu kustutatud",
+    "deleteSuccess": "Vestlus edukalt kustutatud",
+    "sendError": "Sõnumi saatmine ebaõnnestus",
+    "noChats": "Vestlusi pole veel",
+    "noChatsDesc": "Alusta vestlust tegelasega, et näha siin oma vestlusi",
+    "lastMessage": "Viimane sõnum",
+    "messageCount": "{count} sõnumit",
+    "uploadImage": "Laadi pilt üles",
+    "uploadVideo": "Laadi video üles (tulekul)",
+    "yourConversations": "Sinu vestlused",
+    "continueChattingDesc": "Jätka vestlemist oma AI-tegelastega",
+    "newChat": "Uus vestlus",
+    "noConversationsYet": "Vestlusi pole veel",
+    "startChattingDesc": "Alusta vestlemist tegelasega, et näha siin oma vestlusi",
+    "browseCharacters": "Sirvi tegelasi",
+    "createCustomCharacter": "Loo kohandatud tegelane",
+    "imageTooLarge": "Pilt on liiga suur (max 5MB)",
+    "generateImageTitle": "Loo pilt koos {name}",
+    "imagePromptLabel": "Kirjelda pilti",
+    "imagePromptPlaceholder": "nt. rannas sinises kleidis, kohvikus kohvi juues, pargis jalutades...",
+    "imagePromptHint": "AI loob {name} sinu kirjelduse põhjal.",
+    "referenceImageLabel": "Sinu foto (valikuline)",
+    "referenceImageHint": "Laadi üles oma foto, et sind stseenis koos {name} kuvada. Ilma fotota genereeritakse ainult {name}.",
+    "uploadReferenceImage": "Laadi oma foto üles",
+    "uploadReferenceImageDesc": "Te mõlemad ilmute genereeritud pildil",
+    "referenceImageSelected": "Teie ja {name} ilmute koos",
+    "generating": "Genereerimine...",
+    "generate": "Genereeri",
+    "generateImage": "Genereeri pilt",
+    "imageGenerated": "Pilt genereeritud edukalt",
+    "generateError": "Pildi genereerimine ebaõnnestus",
+    "contentBlockedReply": "Vabandust, aga ma ei saa seda pilti luua. See blokeeriti turvafiltrite poolt. Palun proovi teistsugust kirjeldust! 💕",
+    "generateVideoTitle": "Genereeri video tegelasega {name}",
+    "generateVideo": "Genereeri video",
+    "videoPromptLabel": "Kirjelda tegevust",
+    "videoPromptPlaceholder": "nt tantsimine, lehvitamine, suudluse saatmine...",
+    "videoPromptHint": "AI genereerib video, kus {name} teeb kirjeldatud tegevust.",
+    "generatingImage": "Pildi genereerimine...",
+    "generatingVideo": "Video genereerimine... (3-5 min)",
+    "viewPhoto": "Vaata fotot",
+    "viewVideo": "Vaata videot",
+    "selectVideoOption": "Vali ülalt video valik",
+    "contentPolicyViolation": "Seda sõnumit ei saanud saata. Palun hoia vestlused lugupidavad.",
+    "functionCallBetaHint": "💡 See funktsioon on beetas — usaldusväärse meedia genereerimiseks ilma piiranguteta kasuta tööriistariba foto/video nuppe.",
+    "repliedToStory": "Vastas loole",
+    "repliedToStoryLiked": "Meeldis ja vastas loole",
+    "storyNoLongerAvailable": "Lugu pole enam saadaval",
+    "rateLimitExceeded": "Liiga palju päringuid. Palun oota hetk ja proovi uuesti.",
+    "profileTab": "Profiil",
+    "galleryTab": "Galerii",
+    "giftsTab": "Kingitused",
+    "tts": {
+      "play": "Esita hääl",
+      "stop": "Peata",
+      "generating": "Hääle genereerimine…",
+      "error": "Heli ei saanud esitada"
+    }
+  },
+  "gallery": {
+    "all": "Kõik",
+    "images": "Pildid",
+    "videos": "Videod",
+    "empty": "Meediat veel pole"
+  },
+  "gifts": {
+    "sendAGift": "Saada kingitus",
+    "catalogSubtitle": "Vali kingitus, mida saata tegelasele {name}",
+    "browseGifts": "Sirvi kingitusi",
+    "noneSent": "Kingitusi pole veel saadetud",
+    "confirmTitle": "Kinnita kingitus",
+    "forCompanion": "Tegelasele {name}",
+    "optionalMessage": "Lisa sõnum (valikuline)",
+    "optionalMessagePlaceholder": "Kirjuta midagi armsat...",
+    "sendGiftFor": "Saada",
+    "giftSent": "Saatsid kingituse",
+    "sendError": "Kingituse saatmine ebaõnnestus"
+  },
+  "stories": {
+    "replyPlaceholder": "Vasta kasutajale {name}...",
+    "like": "Meeldib",
+    "send": "Saada",
+    "close": "Sulge",
+    "previous": "Eelmine lugu",
+    "next": "Järgmine lugu",
+    "pause": "Peata",
+    "play": "Esita",
+    "mute": "Vaigista",
+    "unmute": "Lõpeta vaigistus",
+    "openStory": "Ava kasutaja {name} lugu"
+  },
+  "generate": {
+    "title": "Loo pilt",
+    "description": "Loo hämmastavaid pilte oma AI-tegelastega",
+    "selectCompanion": "Vali tegelane",
+    "promptPlaceholder": "Kirjelda pilti, mida soovid luua... nt. rannas, punases kleidis",
+    "promptLabel": "Pildi kirjeldus",
+    "promptRequired": "Palun sisesta kirjeldus",
+    "generateButton": "Loo pilt",
+    "generating": "Loon...",
+    "creatingImage": "Loon sinu pilti...",
+    "pleaseWait": "See võib võtta 10–30 sekundit",
+    "noCompanionSelected": "Palun vali esmalt tegelane",
+    "emptyGallery": "Pilti pole veel loodud. Vali tegelane ja kirjelda oma pilti!",
+    "sessionGallery": "Loodud pildid",
+    "regenerate": "Loo uuesti",
+    "regenerating": "Loon uuesti...",
+    "animate": "Animeeri",
+    "animateReference": "See pilt saab olema video esimene kaader.",
+    "filterMyAI": "Minu AI",
+    "filterAll": "Kõik",
+    "filterGirls": "Naised",
+    "filterAnime": "Anime",
+    "filterGuys": "Mehed",
+    "imageGenerationFailed": "Pildi genereerimine ebaõnnestus. Pilt ei pruugi vastata nõuetele või kirjeldus võib olla liiga keeruline. Proovi lihtsama vihjega.",
+    "noImageData": "Pilti ei genereeritud. Palun proovi uuesti teistsuguse kirjeldusega.",
+    "generationFailed": "Genereerimine ebaõnnestus. Palun proovi hiljem uuesti või teistsuguse vihjega.",
+    "random": "Juhuslik",
+    "custom": "Kohandatud",
+    "settings": "Seaded",
+    "videoTitle": "Loo video",
+    "videoDescription": "Loo hämmastavaid videoid oma AI-tegelastega",
+    "videoPromptLabel": "Video kirjeldus",
+    "videoPromptPlaceholder": "Kirjelda tegevust, mida soovid genereerida... nt tantsimine, lehvitamine, naeratamine",
+    "generateVideoButton": "Loo video",
+    "generatingVideo": "Video genereerimine...",
+    "creatingVideo": "Sinu video loomine...",
+    "videoWait": "See võib võtta 1-5 minutit",
+    "emptyVideoGallery": "Videoid pole veel genereeritud. Vali tegelane ja kirjelda tegevust!",
+    "sessionVideoGallery": "Loodud videod",
+    "videoGenerated": "Video edukalt loodud!",
+    "videoGenerationFailed": "Video genereerimine ebaõnnestus. Palun proovi uuesti.",
+    "duration": "Kestus",
+    "shortVideo": "Lühike",
+    "longVideo": "Pikk",
+    "seconds": "sekundit",
+    "audio": "Heli",
+    "renderingVideo": "Renderdan videot…",
+    "renderingVideoHint": "(võtab kuni 1 minuti)",
+    "rateLimitExceeded": "Liiga palju päringuid. Palun oota hetk ja proovi uuesti.",
+    "chooseCharacter": "Vali tegelane",
+    "selectButton": "Vali",
+    "noCustomCompanions": "Sa pole veel ühtegi AI-tegelast loonud.",
+    "numberOfImages": "Piltide arv",
+    "numberOfVideos": "Videote arv",
+    "freeTrial": "Tasuta prooviversioon",
+    "changeCharacter": "Muuda tegelast",
+    "randomize": "Juhuslik vihje",
+    "aiVideo": "AI-video",
+    "download": "Laadi alla",
+    "seriesHelper": "Siit leiad oma tulemused. Võid lahkuda lehelt või alustada uut seeriat, kuni need valmivad.",
+    "suggestions": {
+      "title": "Soovitused",
+      "categories": {
+        "outfit": "Riietus",
+        "action": "Tegevus",
+        "pose": "Poos",
+        "accessories": "Tarvikud",
+        "scene": "Stseen"
+      },
+      "items": {
+        "bikini": "Bikiinid",
+        "skirt": "Seelik",
+        "lingerie": "Pesu",
+        "crop_top": "Lühike topp",
+        "leather": "Nahk",
+        "mini_skirt": "Miniseelik",
+        "satin_robe": "Satiinist hommikumantel",
+        "jeans": "Tehased",
+        "summer_dress": "Suvekleit",
+        "sportswear": "Sportrõivad",
+        "selfie": "Selfie",
+        "walking": "Kõndimine",
+        "dancing": "Tantsimine",
+        "stretching": "Venitamine",
+        "lying_down": "Lamamine",
+        "leaning": "Kallutamine",
+        "blowing_kiss": "Suudluse saatmine",
+        "drinking_coffee": "Kohvi joomine",
+        "hands_on_hips": "Käed puusadel",
+        "over_shoulder": "Üle õla",
+        "side_profile": "Külgprofiil",
+        "arms_crossed": "Ristitud käed",
+        "kneeling": "Põlvitamine",
+        "squatting": "Kükkimine",
+        "back_view": "Tagantvaade",
+        "sitting": "Istumine",
+        "necklace": "Kaelakee",
+        "earrings": "Kõrvarõngad",
+        "glasses": "Prillid",
+        "choker": "Kaelarihm",
+        "hat": "Müts",
+        "sunglasses": "Päikeseprillid",
+        "garden": "Aed",
+        "beach": "Rand",
+        "bedroom": "Magamistuba",
+        "gym": "Jõusaal",
+        "bar": "Baar",
+        "kitchen": "Köök",
+        "restaurant": "Restoran",
+        "balcony": "Rõdu",
+        "city_street": "Linnatänav",
+        "pool": "Basseini ääres"
+      },
+      "fragments": {
+        "bikini": "bikiinides",
+        "skirt": "seelikus",
+        "lingerie": "pesus",
+        "crop_top": "lühikeses topis",
+        "leather": "nahkriietes",
+        "mini_skirt": "miniseelikus",
+        "satin_robe": "satiinist hommikumantlis",
+        "jeans": "teksapükstes",
+        "summer_dress": "suvekleidis",
+        "sportswear": "tihkes spordiriietes",
+        "selfie": "selfit tehes",
+        "walking": "kõndides",
+        "dancing": "tantsides",
+        "stretching": "venitades",
+        "lying_down": "lamades",
+        "leaning": "seina vastu nõjatudes",
+        "blowing_kiss": "suudlust saates",
+        "drinking_coffee": "kohvitassi juues",
+        "hands_on_hips": "käed puusadel",
+        "over_shoulder": "üle õla vaadates",
+        "side_profile": "külgprofiili poosis",
+        "arms_crossed": "käed risti",
+        "kneeling": "põlvitades",
+        "squatting": "kükis",
+        "back_view": "tagantvaates",
+        "sitting": "istudes",
+        "necklace": "kett kaelas",
+        "earrings": "kõrvarõngad",
+        "glasses": "prillid",
+        "choker": "choker kaelas",
+        "hat": "müts peas",
+        "sunglasses": "päikeseprillid",
+        "garden": "aias",
+        "beach": "rannas",
+        "bedroom": "magamistoas",
+        "gym": "jõusaalis",
+        "bar": "baaris",
+        "kitchen": "köögis",
+        "restaurant": "restoranis",
+        "balcony": "rõdul",
+        "city_street": "linnatänaval",
+        "pool": "basseini ääres"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Näita mulle sinust selfiet"
+        },
+        "posing": {
+          "name": "Poseerimine",
+          "uiPrompt": "Näita mulle sind poseerimas"
+        },
+        "sitting": {
+          "name": "Istumine",
+          "uiPrompt": "Näita mulle sind istumas"
+        },
+        "waving": {
+          "name": "Lehvitamine",
+          "uiPrompt": "Näita mulle sind lehvitamas"
+        },
+        "dancing": {
+          "name": "Tantsimine",
+          "uiPrompt": "Näita mulle sind tantsimas"
+        },
+        "reading": {
+          "name": "Lugemine",
+          "uiPrompt": "Näita mulle sind lugemas"
+        },
+        "smiling": {
+          "name": "Naeratav",
+          "uiPrompt": "Näita, kuidas sa naeratad"
+        },
+        "walking": {
+          "name": "Kõndiv",
+          "uiPrompt": "Näita, kuidas sa kõnnid"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Näita minust videoga selfiet"
+        },
+        "posing": {
+          "name": "Poseeriv",
+          "uiPrompt": "Näita minust videoga poseerimist"
+        },
+        "sitting": {
+          "name": "Istuv",
+          "uiPrompt": "Näita minust videoga istumist"
+        },
+        "waving": {
+          "name": "Lehvitatav",
+          "uiPrompt": "Näita minust videoga lehvitamist"
+        },
+        "dancing": {
+          "name": "Tantsiv",
+          "uiPrompt": "Näita minust videoga tantsimist"
+        },
+        "reading": {
+          "name": "Lugemine",
+          "uiPrompt": "Näita minust videoga lugemist"
+        },
+        "smiling": {
+          "name": "Naeratav",
+          "uiPrompt": "Näita minust videoga naeratamist"
+        },
+        "walking": {
+          "name": "Kõndiv",
+          "uiPrompt": "Näita minust videoga kõndimist"
+        }
+      }
+    },
+    "writeYourOwn": "või kirjuta oma vihje",
+    "presetSelected": "Eelseade valitud",
+    "effects": {
+      "categories": {
+        "solo": "Soolo & Tease",
+        "oral": "Oraalne",
+        "positions": "Positsioonid",
+        "pov": "POV",
+        "extra": "Lisa",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Vannirätik"
+        },
+        "bikini": {
+          "name": "Bikiinid"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Rinnapiim"
+        },
+        "bunny_suit": {
+          "name": "Jänesekostüüm"
+        },
+        "chain_leash": {
+          "name": "Kettrihm"
+        },
+        "chinese_dress": {
+          "name": "Hiina kleit"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Kohandatud"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Sõrmitamine"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Koolivorm"
+        },
+        "legsup": {
+          "name": "Jalad üles"
+        },
+        "leopard_bikini": {
+          "name": "Leopard-bikiinid"
+        },
+        "lingerie": {
+          "name": "Pesu"
+        },
+        "masturbation": {
+          "name": "Masturbatsioon"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Misjonäri külgvaade"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Ratsanik"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Koerastiil"
+        },
+        "remix_dress": {
+          "name": "Remix Kleit"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Kukk käes"
+        },
+        "remix_kiss": {
+          "name": "Remix Suudlus"
+        },
+        "remix_pronebone": {
+          "name": "Remix Lamades"
+        },
+        "remix_suck": {
+          "name": "Remix Imemine"
+        },
+        "remix_wear": {
+          "name": "Remix Seljas"
+        },
+        "remix_yoga": {
+          "name": "Remix Jooga"
+        },
+        "ride_on_dildo": {
+          "name": "Dildoga ratsutamine"
+        },
+        "sipping_condoms": {
+          "name": "Kondoomide imemine"
+        },
+        "squatting_cowgirl": {
+          "name": "Kükis ratsanik"
+        },
+        "tattoo": {
+          "name": "Tätoveering"
+        },
+        "tentacles": {
+          "name": "Tondid"
+        },
+        "titjob": {
+          "name": "Rinnatöö"
+        },
+        "topless": {
+          "name": "Ülapoole paljas"
+        },
+        "undress": {
+          "name": "Riietest lahti"
+        },
+        "used": {
+          "name": "Kasutatud"
+        },
+        "xray": {
+          "name": "Röntgen"
+        },
+        "maid_outfit": {
+          "name": "Neiu ülikond"
+        },
+        "nurse_outfit": {
+          "name": "Õe ülikond"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Märg T-särk"
+        },
+        "latex_catsuit": {
+          "name": "Lateks-kombinesoon"
+        },
+        "corset_stockings": {
+          "name": "Korsett & Sukad"
+        },
+        "gym_shorts": {
+          "name": "Võimlemisshortsid"
+        },
+        "thong_tease": {
+          "name": "Stringitease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Peegliselfie"
+        },
+        "shower_nude": {
+          "name": "Dušš"
+        },
+        "oiled_body": {
+          "name": "Õlitatud keha"
+        },
+        "spread_open": {
+          "name": "Laiali laotatud"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Munade lakkumine"
+        },
+        "face_sitting_oral": {
+          "name": "Näol istumine"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Seistes"
+        },
+        "against_wall": {
+          "name": "Seina vastu"
+        },
+        "spooning": {
+          "name": "Lusikaga"
+        },
+        "legs_on_shoulders": {
+          "name": "Jalad õlgadel"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Topelt tungimine"
+        },
+        "threesome_mmf": {
+          "name": "Kolmik"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pärlikee"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Laksutamine"
+        },
+        "gagged_bdsm": {
+          "name": "Suukorv"
+        },
+        "facefuck": {
+          "name": "Näoporno"
+        },
+        "throatpie": {
+          "name": "Kurgupirukas"
+        },
+        "cock_worship": {
+          "name": "Kukese kummardamine"
+        },
+        "footjob": {
+          "name": "Jalaga töötamine"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Täielik Nelson"
+        },
+        "lotus": {
+          "name": "Lootos"
+        },
+        "piledriver": {
+          "name": "Vaiapuur"
+        },
+        "facefuck_pov": {
+          "name": "Näoporno POV"
+        },
+        "riding_pov": {
+          "name": "Ratsutamine POV"
+        },
+        "spitroast": {
+          "name": "Vardas küpsetamine"
+        },
+        "hair_pulling": {
+          "name": "Juuste tõmbamine"
+        },
+        "facial_cumshot": {
+          "name": "Näole lõpetamine"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anaal"
+        },
+        "back_doggystyle": {
+          "name": "Tagumine koerastiil"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Tagurpidi Blowjob"
+        },
+        "breast_massage": {
+          "name": "Rindade massaaž"
+        },
+        "breast_massage_nude": {
+          "name": "Rindade massaaž paljalt"
+        },
+        "butt_smothering": {
+          "name": "Tagumikuga lämmatamine"
+        },
+        "cock_worship": {
+          "name": "Kukukummardus"
+        },
+        "cum_in_mouth": {
+          "name": "Sperma suhu"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo masturbatsioon"
+        },
+        "double_blowjob": {
+          "name": "Topelt Blowjob"
+        },
+        "double_penetration": {
+          "name": "Topelt tungimine"
+        },
+        "ejaculation": {
+          "name": "Ejakulatsioon"
+        },
+        "facefuck": {
+          "name": "Näo keppimine"
+        },
+        "facefuck_pov": {
+          "name": "Näo keppimine POV"
+        },
+        "facial_cumshot": {
+          "name": "Näole sperma"
+        },
+        "footjob": {
+          "name": "Jalatöö"
+        },
+        "front_doggystyle": {
+          "name": "Eesmine koerastiil"
+        },
+        "fuck_machine": {
+          "name": "Keppmasin"
+        },
+        "full_nelson": {
+          "name": "Täielik Nelson"
+        },
+        "handjob": {
+          "name": "Käsitöö"
+        },
+        "masturbation": {
+          "name": "Masturbatsioon"
+        },
+        "missionary_pov": {
+          "name": "Misjonäri POV"
+        },
+        "missionary_sideview": {
+          "name": "Misjonäri külgvaade"
+        },
+        "nipple_play": {
+          "name": "Nibude mäng"
+        },
+        "nude_posing": {
+          "name": "Paljas poseerimine"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Lamades"
+        },
+        "pussy_closeup": {
+          "name": "Tisside lähivaade"
+        },
+        "reverse_cowgirl": {
+          "name": "Tagurpidi ratsanaine"
+        },
+        "shoejob": {
+          "name": "Jalatsiga"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Kükis ratsanaine"
+        },
+        "throatpie": {
+          "name": "Kurgupirukas"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Rinnatöö"
+        },
+        "titty_flash": {
+          "name": "Rindade välk"
+        },
+        "triple_dicked": {
+          "name": "Kolmekordne"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Riietest lahti"
+        },
+        "strip_tease": {
+          "name": "Stripitees"
+        },
+        "booty_bounce": {
+          "name": "Tagumiku põrgatamine"
+        },
+        "oil_show": {
+          "name": "Õlinäitus"
+        },
+        "shower_show": {
+          "name": "Dušinäitus"
+        },
+        "panty_drop": {
+          "name": "Aluspükste langetamine"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Sügav kurk"
+        },
+        "sloppy_blowjob": {
+          "name": "Lörisev suutöö"
+        },
+        "ball_sucking": {
+          "name": "Munade imemine"
+        },
+        "cowgirl": {
+          "name": "Lehmapiiga"
+        },
+        "standing_carry": {
+          "name": "Seisvas kandmises"
+        },
+        "against_wall": {
+          "name": "Seina vastu"
+        },
+        "spooning": {
+          "name": "Lusikatega"
+        },
+        "mating_press": {
+          "name": "Paaritumispress"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Lehmapiiga POV"
+        },
+        "doggy_pov": {
+          "name": "Koerapoos POV"
+        },
+        "titjob_pov": {
+          "name": "Rinnatöö POV"
+        },
+        "handjob_pov": {
+          "name": "Käetöö POV"
+        },
+        "riding_pov": {
+          "name": "Ratsutamine POV"
+        },
+        "gangbang": {
+          "name": "Grupiseks"
+        },
+        "creampie": {
+          "name": "Kreemipirukas"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Pihustamine"
+        },
+        "spanking": {
+          "name": "Laksutamine"
+        },
+        "hair_pulling": {
+          "name": "Juuste tõmbamine"
+        },
+        "fingering": {
+          "name": "Sõrmedega"
+        },
+        "come_hither": {
+          "name": "Tule siia"
+        },
+        "spread_legs": {
+          "name": "Jalad laiali"
+        },
+        "blowjob_sideview": {
+          "name": "Suutöö külgvaade"
+        },
+        "cunnilingus": {
+          "name": "Kuninglik suutöö"
+        },
+        "missionary": {
+          "name": "Misjonär"
+        },
+        "legs_on_shoulders": {
+          "name": "Jalad õlgadel"
+        },
+        "blowjob_pov": {
+          "name": "Suutöö POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Kuninglik suutöö POV"
+        },
+        "glory_hole": {
+          "name": "Au auk"
+        },
+        "threesome_mmf": {
+          "name": "Kolmik"
+        },
+        "aftercare_mess": {
+          "name": "Pärasthoolduse segadus"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Kas oled kindel, et soovid selle kustutada?",
+    "deleteSuccess": "Kustutatud edukalt",
+    "deleteError": "Kustutamine ebaõnnestus",
+    "empty": "Meediat veel pole. Loo vestluses!",
+    "gallerySubtitle": "Sinu isiklik AI-loodud hetkede galerii",
+    "filterAll": "Kõik",
+    "filterImages": "Pildid",
+    "filterVideos": "Videod",
+    "loadMore": "Laadi rohkem",
+    "folders": "Kaustad",
+    "newFolder": "Uus kaust",
+    "deleteFolders": "Kustuta valitud kaustad",
+    "folderCreated": "Kaust loodud",
+    "folderCreateError": "Kausta loomine ebaõnnestus",
+    "folderRenamed": "Kaust ümbernimetatud",
+    "folderRenameError": "Kausta ümbernimetamine ebaõnnestus",
+    "folderDeleted": "Kaust kustutatud",
+    "folderDeleteError": "Kausta kustutamine ebaõnnestus",
+    "folderNamePlaceholder": "Kausta nimi",
+    "seeMore": "Vaata rohkem",
+    "seeLess": "Vaata vähem",
+    "selectedCount": "{count} üksust valitud",
+    "selectAll": "Vali kõik",
+    "select": "Vali",
+    "moveToFolder": "Teisalda",
+    "bulkDeleteConfirm": "Kustuta {count} valitud üksust?",
+    "bulkDeleteSuccess": "Üksused kustutatud",
+    "bulkDownloadStart": "Allalaadimine {count} üksust...",
+    "moveSuccess": "Üksused teisaldatud"
+  },
+  "voice": {
+    "connecting": "Ühendamine...",
+    "connected": "Ühendatud",
+    "mute": "Vaigista",
+    "unmute": "Tühista vaigistus",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Räägi loomulikult. AI vastab pausi ajal.",
+    "connectionError": "Ühendus ebaõnnestus. Palun proovi uuesti.",
+    "minutesRemaining": "{minutes} minutit jäänud",
+    "minutesUsed": "{minutes} minutit kasutatud"
+  },
+  "characters": {
+    "filters": "Filtrid",
+    "ethnicity": "Rahvus",
+    "bodyType": "Kehatüüp",
+    "ageRange": "Vanusevahemik",
+    "relationship": "Suhe",
+    "occupation": "Amet",
+    "hobbies": "Hobid",
+    "personality": "Isiksus",
+    "language": "Keel",
+    "age": "Vanus",
+    "all": "Kõik",
+    "noResults": "Tegelasi ei leitud",
+    "noResultsDesc": "Proovi filtreid kohandada",
+    "newBadge": "Uus",
+    "chatNow": "Vestle nüüd",
+    "viewProfile": "Vaata profiili",
+    "ethnicities": {
+      "caucasian": "Kaukaasia",
+      "asian": "Aasia",
+      "middleEastern": "Lähis-Ida",
+      "hispanic": "Hispaania",
+      "african": "Aafrika",
+      "southAsian": "Lõuna-Aasia",
+      "nativeAmerican": "Põhja-Ameerika põlisrahvas",
+      "pacificIslander": "Vaikse ookeani saarlane",
+      "mixed": "Segarahvus",
+      "other": "Muu"
+    },
+    "bodyTypes": {
+      "slim": "Sale",
+      "athletic": "Sportlik",
+      "average": "Keskmine",
+      "curvy": "Kumer",
+      "plus": "Pluss-suurus"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Vallaline",
+      "dating": "Kohtamas",
+      "married": "Abielus",
+      "none": "Puudub"
+    }
+  },
+  "settings": {
+    "profile": "Profiil",
+    "myProfile": "Minu profiil",
+    "settings": "Seaded",
+    "account": "Konto",
+    "plan": "Plaan",
+    "profileSettings": "Profiili seaded",
+    "manageAccountSettings": "Halda oma konto seadeid ja eelistusi",
+    "personalInfo": "Isiklik teave",
+    "nickname": "Hüüdnimi",
+    "gender": "Sugu",
+    "male": "Mees",
+    "female": "Naine",
+    "preferences": "Eelistused",
+    "newsletter": "Uudiskirja tellimus",
+    "newsletterDesc": "Saa uuendusi ja uudiseid",
+    "aiTrainingTitle": "AI ja modereerimise treenimine",
+    "aiTrainingDesc": "Luba oma vestlustel ja viipadel aidata treenida ja parandada sweetwinei AI-d ja modereerimist. Lülita see igal ajal välja, et loobuda.",
+    "aiTrainingLink": "Loe rohkem meie privaatsusteatest.",
+    "aiTrainingError": "AI treenimise eelistust ei õnnestunud uuendada",
+    "interfaceLanguage": "Kasutajaliidese keel",
+    "interfaceLanguageDesc": "Kasutajaliidese keel",
+    "aiLanguage": "AI vastuste keel",
+    "aiLanguageDesc": "Keel, mida AI tegelased kasutavad sinuga rääkides",
+    "currentPlan": "Praegune plaan",
+    "freePlan": "Tasuta plaan",
+    "dangerZone": "Ohtlik tsoon",
+    "dangerZoneDescription": "Kui soovid seda kontot ja kõiki selle andmeid jäädavalt kustutada.",
+    "deleteAllMemory": "Kustuta kogu mälu",
+    "confirmDeleteAllMemory": "Kas oled kindel, et soovid kustutada kõigi AI-tegelaste pikaajalised mälestused? Vestlussõnumid jäävad alles, kuid tegelased unustavad varasemad faktid järgmisel vastusel.",
+    "deleteAllMemorySuccess": "Kogu mälu kustutatud",
+    "deleteAccount": {
+      "button": "Kustuta konto",
+      "title": "Kustuta konto",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Kinnitamiseks sisesta",
+      "confirmRequired": "Kinnitamiseks sisesta DELETE",
+      "confirmButton": "Kustuta minu konto",
+      "deleting": "Kustutan...",
+      "success": "Sinu konto on kustutatud",
+      "error": "Konto kustutamine ebaõnnestus. Palun proovi uuesti."
+    },
+    "saveChanges": "Salvesta muudatused",
+    "changesSaved": "Muudatused salvestati edukalt",
+    "saveFailed": "Muudatuste salvestamine ebaõnnestus",
+    "languageUpdated": "Keel uuendatud",
+    "aiLanguageUpdated": "AI keel uuendatud"
+  },
+  "create": {
+    "defaultGreeting": "Tere",
+    "title": "Loo AI tegelane",
+    "step": "Samm {current} / {total}",
+    "step1": {
+      "title": "Vali stiil",
+      "description": "Vali oma tegelase stiil ja põhiomadused"
+    },
+    "step2": {
+      "title": "Vali etniline taust",
+      "description": "Vali tegelase etniline taust ja vanus"
+    },
+    "step3": {
+      "title": "Vali juuksed ja silmad",
+      "description": "Kohanda juukse stiili, juuksevärvi ja silmavärvi"
+    },
+    "step4": {
+      "title": "Vali keha",
+      "description": "Kohanda oma tegelase keha"
+    },
+    "step5": {
+      "title": "Iseloom ja detailid",
+      "description": "Määra oma tegelase iseloom ja hääl"
+    },
+    "style": {
+      "title": "Tegelase stiil",
+      "realistic": "Realistlik",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Sugu",
+      "female": "Naine",
+      "male": "Mees"
+    },
+    "age": {
+      "title": "Vanus",
+      "years": "{age} aastat"
+    },
+    "ethnicity": {
+      "title": "Etniline taust"
+    },
+    "hairStyle": {
+      "title": "Juukse stiil"
+    },
+    "hairColor": {
+      "title": "Juuksevärv"
+    },
+    "eyeColor": {
+      "title": "Silmavärv"
+    },
+    "bodyType": {
+      "title": "Kehatüüp"
+    },
+    "breastSize": {
+      "title": "Rindade suurus"
+    },
+    "name": {
+      "title": "Nimi",
+      "placeholder": "Sisesta tegelase nimi",
+      "randomize": "Loo juhuslik nimi"
+    },
+    "language": {
+      "title": "Keel",
+      "widgetLabel": "Vali keel",
+      "placeholder": "Vali keel",
+      "selectTitle": "Vali oma keel"
+    },
+    "personality": {
+      "title": "Iseloom",
+      "widgetLabel": "Vali iseloom",
+      "placeholder": "Vali iseloom",
+      "sectionTitle": "Vali iseloom",
+      "clickToChange": "Klõpsa muutmiseks"
+    },
+    "relationship": {
+      "title": "Suhe",
+      "widgetLabel": "Vali suhe",
+      "placeholder": "Vali suhe",
+      "selectTitle": "Muuda suhet"
+    },
+    "occupation": {
+      "title": "Amet",
+      "widgetLabel": "Vali amet",
+      "placeholder": "Vali amet",
+      "selectTitle": "Muuda ametit"
+    },
+    "kinks": {
+      "title": "Huvid",
+      "widgetLabel": "Millised huvid neil on? (Maks. {max})",
+      "labelMax": "Huvid (Maks. {max})",
+      "placeholder": "Vali huvid (valikuline)",
+      "optional": "Valikuline",
+      "selectTitle": "Muuda huvisid",
+      "moreCount": "+{count} rohkem"
+    },
+    "selector": {
+      "searchPlaceholder": "Otsi",
+      "noResults": "Valikuid ei leitud",
+      "cancel": "Tühista",
+      "saveChanges": "Salvesta muudatused",
+      "selectedCount": "{count} valitud"
+    },
+    "voice": {
+      "title": "Hääl",
+      "widgetLabel": "Vali hääl",
+      "placeholder": "Vali hääl",
+      "selectTitle": "Vali hääl"
+    },
+    "advanced": {
+      "title": "Täpsemad andmed",
+      "optional": "valikuline",
+      "filled": "Täidetud",
+      "autocompleteTitle": "Täida automaatselt AI-ga",
+      "autocompleteDesc": "Lase AI-l täita tühjad väljad sügavama tegelase jaoks",
+      "autocompleteSuccess": "Väljad täideti edukalt!",
+      "autocompleteError": "Soovituste genereerimine ebaõnnestus. Proovi uuesti.",
+      "greetingLabel": "Tervitus",
+      "greetingPlaceholder": "Esimene sõnum, mille tegelane saadab...",
+      "scenarioLabel": "Stsenaarium",
+      "scenarioPlaceholder": "Kontekst või taust, kuidas te kohtusite...",
+      "personalityLabel": "Lisaks isiksuse üksikasjad",
+      "personalityPlaceholder": "Omapärad, kõnemustrid, käitumisjooned...",
+      "extraLabel": "Lisateave",
+      "extraPlaceholder": "Taust, hobid, elulugu..."
+    },
+    "navigation": {
+      "back": "Tagasi",
+      "next": "Järgmine",
+      "create": "Loo",
+      "generateYourCharacter": "Loo oma tegelane"
+    },
+    "progress": {
+      "generatingPrompt": "Isiksuse loomine...",
+      "generatingImage": "Portree loomine...",
+      "creatingVoice": "Hääle seadistamine...",
+      "saving": "Salvestamine...",
+      "complete": "Valmis!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Isiksuse loomine...",
+      "addingSweetness": "Magususe lisamine...",
+      "tooMuchSweet": "Oih, liiga palju magusat...",
+      "testingSounds": "Helisid testitakse..."
+    },
+    "overlay": {
+      "signupPrompt": "Lõpeta registreerumine, et avada oma tegelane…",
+      "processingHint": "Tavaliselt võtab see 20–30 sekundit",
+      "traitEthnicity": "Rahvus",
+      "traitBody": "Keha",
+      "traitHair": "Juuksed",
+      "traitColor": "Värv",
+      "traitEyes": "Silmad",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Sinu tegelane on valmis loomiseks!",
+      "bannerDesc": "Sinu eelistused on salvestatud. Vaata üle ja genereeri allpool."
+    },
+    "success": {
+      "title": "Tegelane loodud!",
+      "description": "Sinu AI-tegelane on edukalt loodud.",
+      "yearsOld": "aastat vana",
+      "meetButton": "Kohtume"
+    },
+    "error": {
+      "title": "Loomine ebaõnnestus",
+      "generic": "Tegelase loomine ebaõnnestus. Palun proovi uuesti."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukaasia",
+        "asian": "Aasia",
+        "middle_eastern": "Lähis-Ida",
+        "hispanic": "Hispaania",
+        "african": "Aafrika",
+        "south_asian": "Lõuna-Aasia",
+        "native_american": "Põhja-Ameerika põlisrahvas",
+        "pacific_islander": "Vaikse ookeani saarlane",
+        "mixed": "Segatud",
+        "arab": "Araabia"
+      },
+      "hairStyleFemale": {
+        "straight": "Sirge",
+        "bangs": "Paksud tukk",
+        "curly": "Lokid",
+        "bun": "Kukkel",
+        "short_bob": "Lühike bob",
+        "ponytail": "Hobusesaba",
+        "wavy": "Lainelised",
+        "long_layers": "Pikad kihid",
+        "braids": "Patsid",
+        "pixie_cut": "Pixie lõikus",
+        "updo": "Ülespandud soeng",
+        "french_twist": "Prantsuse keeris",
+        "fishtail_braid": "Kalasaba pats",
+        "top_knot": "Ülemine kukkel",
+        "space_buns": "Kosmosepunnid",
+        "halo_braid": "Halo pats",
+        "beehive": "Mesitaru",
+        "finger_waves": "Sõrmelained",
+        "lob": "Lob (pikk bob)",
+        "shag_cut": "Shag lõikus",
+        "bald": "Kiilas"
+      },
+      "hairStyleMale": {
+        "short": "Lühike",
+        "buzz_cut": "Buzz lõikus",
+        "crew_cut": "Crew lõikus",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Taha kammitud",
+        "curly": "Lokkis",
+        "afro": "Afro",
+        "man_bun": "Mehe kukkel",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Küljeosa",
+        "textured_crop": "Tekstuuriga lühilõikus",
+        "french_crop": "Prantsuse lühilõikus",
+        "spiky": "Torkiv",
+        "comb_over": "Ülekammimine",
+        "long_hair": "Pikk juuksed",
+        "bald": "Kiilas"
+      },
+      "hairColor": {
+        "brunette": "Brünett",
+        "blonde": "Blond",
+        "black": "Must",
+        "redhead": "Punapea",
+        "pink": "Roosa",
+        "auburn": "Auburn",
+        "brown": "Pruun",
+        "platinum_blonde": "Plaatina blond",
+        "silver_grey": "Hõbe/hall",
+        "white": "Valge",
+        "blue": "Sinine",
+        "purple": "Lilla",
+        "green": "Roheline",
+        "burgundy": "Burgundia",
+        "copper": "Vask",
+        "strawberry_blonde": "Maasikablond",
+        "ash_brown": "Tuhkpruun",
+        "golden_blonde": "Kuldne blond",
+        "mahogany": "Mahagon",
+        "pastel_pink": "Pastelne roosa",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Esiletõsted",
+        "jet_black": "Süsimust",
+        "dark_brown": "Tumespruun",
+        "light_brown": "Helepruun",
+        "honey_blonde": "Mesiploom",
+        "dirty_blonde": "Tuhkblond",
+        "cherry_red": "Kirsipunane",
+        "violet": "Lilla"
+      },
+      "eyeColor": {
+        "brown": "Pruun",
+        "blue": "Sinine",
+        "green": "Roheline",
+        "hazel": "Sarapuu",
+        "amber": "Merevaik",
+        "gray": "Hall",
+        "heterochromia": "Heterokroomia",
+        "violet": "Lilla",
+        "red_pink": "Punane/Roosa",
+        "black": "Must"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Sale",
+        "athletic": "Sportlik",
+        "average": "Keskmine",
+        "curvy": "Kumer",
+        "chubby": "Täidlane"
+      },
+      "bodyTypeMale": {
+        "skinny": "Sale",
+        "athletic": "Sportlik",
+        "average": "Keskmine",
+        "muscular": "Lihaseline",
+        "heavy": "Raske",
+        "big_tall": "Suur & Pikk"
+      },
+      "breastSize": {
+        "small": "Väike",
+        "medium": "Keskmine",
+        "large": "Suur",
+        "extra_large": "Eriti suur"
+      },
+      "personality": {
+        "nympho": "Nümfo",
+        "lover": "Armastaja",
+        "submissive": "Alistuv",
+        "dominant": "Domineeriv",
+        "temptress": "Kiusaja",
+        "innocent": "Süütu",
+        "caregiver": "Hoolitseja",
+        "experimenter": "Katsetaja",
+        "mean": "Kuri",
+        "confidant": "Usaldusisik",
+        "shy": "Uje",
+        "queen": "Kuninganna",
+        "adventurous": "Seiklushimuline",
+        "romantic": "Romantiline",
+        "intellectual": "Intellektuaal",
+        "protector": "Kaitsja",
+        "rebel": "Mässaja",
+        "optimist": "Optimist",
+        "realist": "Realist",
+        "free_spirit": "Vaba vaim",
+        "leader": "Juht",
+        "loyal": "Loyalne",
+        "playful": "Mänguline",
+        "mysterious": "Salapärane",
+        "ambitious": "Ambitsioonikas",
+        "gentle": "Õrn",
+        "sarcastic": "Sarkastiline",
+        "empathetic": "Empaatiline",
+        "stoic": "Stoiline",
+        "charismatic": "Karismaatiline"
+      },
+      "relationship": {
+        "stranger": "Võõras",
+        "girlfriend": "Kallis",
+        "sex_friend": "Seksikaaslane",
+        "school_mate": "Koolikaaslane",
+        "work_colleague": "Töökaaslane",
+        "wife": "Naine",
+        "mistress": "Armuke",
+        "friend": "Sõber",
+        "step_sister": "Kasuõde",
+        "step_mom": "Kasuema",
+        "step_daughter": "Kasutütar",
+        "landlord": "Üürileandja",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Ülemus",
+        "teacher": "Õpetaja",
+        "student": "Õpilane",
+        "neighbour": "Naaber",
+        "mother_in_law": "Ämm",
+        "sister_in_law": "Käli",
+        "boyfriend": "Kallis",
+        "husband": "Mees",
+        "fiance": "Kihlatu",
+        "ex": "Endine",
+        "roommate": "Korterikaaslane",
+        "best_friend": "Parim sõber",
+        "classmate": "Klassikaaslane",
+        "mentor": "Mentor",
+        "client": "Klient",
+        "therapist": "Terapeut",
+        "trainer": "Treener",
+        "rival": "Võistleja",
+        "crush": "Armumine",
+        "secret_admirer": "Salajane austaja",
+        "pen_pal": "Kirjasõber",
+        "business_partner": "Äripartner",
+        "babysitter": "Lapsehoidja",
+        "childhood_friend": "Lapsepõlvesõber",
+        "long_distance_partner": "Kaugsuhe"
+      },
+      "occupation": {
+        "student": "Õpilane",
+        "dancer": "Tantsija",
+        "model": "Modell",
+        "maid": "Tüdruk",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Lapsehoidja / Au pair",
+        "streamer": "Striimer",
+        "bartender": "Baarmen",
+        "tech_engineer": "Tehnikainsener",
+        "lifeguard": "Vetelpäästja",
+        "cashier": "Kassapidaja",
+        "massage_therapist": "Massaažiterapeut",
+        "teacher": "Õpetaja",
+        "nurse": "Õde",
+        "secretary": "Sekretär",
+        "yoga_instructor": "Joogaõpetaja",
+        "fitness_coach": "Treener",
+        "cook": "Kokk",
+        "artist": "Kunstnik",
+        "movie_star_actress": "Filmitäht / Näitleja",
+        "doctor": "Arst",
+        "librarian": "Raamatukoguhoidja",
+        "spy": "Spioon",
+        "police_officer": "Politseinik",
+        "soldier": "Sõdur",
+        "lawyer": "Advokaat",
+        "hairdresser": "Juuksur",
+        "dentist": "Hambaarst",
+        "singer_musician": "Laulja / Muusik",
+        "gynecologist": "Günekoloog",
+        "writer": "Kirjanik",
+        "flight_attendant": "Lennusaatja",
+        "professional_athlete": "Profisportlane",
+        "scientist": "Teadlane",
+        "florist": "Lillepoodnik",
+        "makeup_artist": "Meigikunstnik",
+        "photographer": "Fotograaf",
+        "social_worker": "Sotsiaaltöötaja",
+        "designer": "Disainer",
+        "pharmacist": "Apteeker",
+        "nutritionist": "Toitumisnõustaja",
+        "architect": "Arhitekt",
+        "veterinarian": "Veterinaar",
+        "mechanic": "Mehaanik",
+        "journalist": "Ajakirjanik",
+        "pilot": "Piloot",
+        "firefighter": "Tuletõrjuja",
+        "accountant": "Raamatupidaja",
+        "electrician": "Elektrik",
+        "carpenter": "Puusepp",
+        "psychologist": "Psühholoog",
+        "real_estate_agent": "Kinnisvaramaakler",
+        "chef": "Peakokk",
+        "farmer": "Põllumees",
+        "delivery_driver": "Kuller",
+        "janitor": "Koristaja",
+        "security_guard": "Turvamees",
+        "banker": "Pankur",
+        "judge": "Kohtunik",
+        "paramedic": "Kiirabitehnik",
+        "actor": "Näitleja",
+        "comedian": "Koomik",
+        "archaeologist": "Arheoloog",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Sidumine",
+        "spanking": "Laksutamine",
+        "collar_leash": "Kaelarihm & Jalutusrihm",
+        "punishment": "Karistamine",
+        "humiliation": "Alandamine",
+        "public_play": "Avalik mäng",
+        "roleplay": "Rollimäng",
+        "anal_play": "Anaalmäng",
+        "oral_play": "Oraalmäng",
+        "cum_play": "Sperma mäng",
+        "creampie": "Creampie",
+        "squirting": "Pritsmed",
+        "dirty_talk": "Räpane jutt",
+        "breeding": "Aretamine",
+        "daddy_mommy_dominance": "Isa/ema domineerimine",
+        "edging": "Edging",
+        "obedience": "Kuulekus",
+        "control": "Kontroll",
+        "inexperienced": "Kogenematu",
+        "shy_flirting": "Uje flirdimine",
+        "playful_teasing": "Mänguline kiusamine",
+        "cuddling": "Kaisutamine",
+        "slow_sensual": "Aeglane & sensuaalne",
+        "hair_pulling": "Juustest tõmbamine",
+        "foot_fetish": "Jalafetiš",
+        "voyeurism": "Vojerism",
+        "exhibitionism": "Ekshibitsionism",
+        "sensation_play": "Aistingumäng",
+        "wax_play": "Vahamäng",
+        "pet_play": "Lemmikloomamäng",
+        "age_play": "Vanusemäng",
+        "medical_play": "Meditsiinimäng",
+        "orgasm_control_denial": "Orgasmi kontroll/keeldumine",
+        "forced_orgasms": "Sunnitud orgasmi",
+        "group_sex": "Grupisex",
+        "threesomes": "Kolmekesi",
+        "swapping": "Vahetus",
+        "cuckolding_cuckqueaning": "Kukoldamine",
+        "femdom": "Femdom",
+        "gentle_domination": "Õrn domineerimine",
+        "sensation_deprivation": "Tundlikkuse puudumine",
+        "sensory_overload": "Meelte ülekoormus",
+        "uniform_costume_fetish": "Vormi/kostüümi fetiš",
+        "food_play": "Toidumäng",
+        "watersports": "Vesimäng",
+        "bdsm": "BDSM",
+        "impact_play": "Löögimäng",
+        "knife_play": "Noamäng",
+        "consensual_non_consent": "Nõusolekuta nõusolek",
+        "power_exchange": "Võimuvahetus",
+        "master_slave": "Peremees/orjus",
+        "owner_pet": "Omanik/loom"
+      },
+      "languages": {
+        "en": "Inglise",
+        "cs": "Tšehhi",
+        "pl": "Poola",
+        "de": "Saksa",
+        "es": "Hispaania",
+        "fr": "Prantsuse"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Minu AI",
+    "titlePart1": "Minu",
+    "titlePart2": "AI",
+    "createNew": "Loo uus AI",
+    "createButton": "Loo tegelane",
+    "characterCount": "{count}/{limit} tegelast",
+    "loadMore": "Laadi rohkem",
+    "empty": {
+      "title": "Tegelasi pole veel",
+      "description": "Loo oma esimene AI-tegelane ja alusta vestlust! Kohanda välimust, iseloomu ja häält.",
+      "createFirst": "Loo oma esimene tegelane"
+    },
+    "delete": {
+      "title": "Kustuta tegelane",
+      "message": "Kas oled kindel, et soovid kustutada {name}? See eemaldab tegelase, kogu vestlusajaloo ja loodud sisu jäädavalt.",
+      "confirm": "Kustuta",
+      "success": "Tegelane edukalt kustutatud"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interaktsioon",
+    "interactionDescription": "Kirjuta loomulikult — küsi fotot, videot või alusta vestlust. AI mõistab sinu kavatsust igas keeles.",
+    "mediaTitle": "Loo pilte ja videoid",
+    "mediaDescription": "Lase fantaasial lennata — loo pilte või videoid piiranguteta.",
+    "next": "Järgmine →",
+    "gotIt": "Selge"
+  }
+}

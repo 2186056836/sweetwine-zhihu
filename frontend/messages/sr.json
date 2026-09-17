@@ -1,0 +1,4034 @@
+{
+  "common": {
+    "save": "Sačuvaj",
+    "cancel": "Otkaži",
+    "delete": "Obriši",
+    "edit": "Uredi",
+    "close": "Zatvori",
+    "now": "sada",
+    "loading": "Učitavanje...",
+    "error": "Došlo je do greške",
+    "success": "Uspešno",
+    "confirm": "Potvrdi",
+    "back": "Nazad",
+    "or": "Ili",
+    "next": "Dalje",
+    "submit": "Pošalji",
+    "search": "Pretraga",
+    "filter": "Filter",
+    "clear": "Očisti",
+    "all": "Sve",
+    "yes": "Da",
+    "no": "Ne",
+    "download": "Preuzmi",
+    "and": "i",
+    "tryAgain": "Pokušaj ponovo",
+    "change": "Promeni"
+  },
+  "navigation": {
+    "new": "NOVO",
+    "sectionBrowse": "Pregledaj",
+    "sectionTalk": "Pričaj",
+    "sectionCreate": "Kreiraj",
+    "sectionLibrary": "Biblioteka",
+    "explore": "Početna",
+    "discover": "Otkrij",
+    "createShort": "Kreiraj AI",
+    "chats": "Četovi",
+    "groupChat": "AI Grupni Čet",
+    "roleplay": "Uloga",
+    "collection": "Kolekcija",
+    "generateImage": "Generiši sliku",
+    "generateVideo": "Generiši video",
+    "createCharacter": "Kreiraj AI lik",
+    "myAI": "Moj AI",
+    "language": "Jezik",
+    "contactUs": "Kontaktiraj nas",
+    "account": "Nalog",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Žene",
+      "anime": "Anime",
+      "guys": "Muškarci"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Počni čet",
+    "like": "Sviđa mi se"
+  },
+  "auth": {
+    "login": "Prijavi se",
+    "signup": "Registruj se",
+    "createFreeAccount": "Kreiraj besplatan nalog",
+    "logout": "Odjavi se",
+    "email": "Email",
+    "password": "Lozinka",
+    "confirmPassword": "Potvrdi lozinku",
+    "forgotPassword": "Zaboravio/la lozinku?",
+    "noAccount": "Nemaš nalog?",
+    "hasAccount": "Već imaš nalog?",
+    "signupPrompt": "Kreiraj besplatan nalog",
+    "loginPrompt": "Prijavi se",
+    "continueWith": "Nastavi sa",
+    "welcomeBack": "Dobrodošao nazad!",
+    "createAccount": "Kreiraj nalog",
+    "signInToAccount": "Prijavi se na nalog",
+    "emailRequired": "Email je obavezan",
+    "emailInvalid": "Nevažeća email adresa",
+    "passwordRequired": "Lozinka je obavezna",
+    "passwordLength": "Lozinka mora imati najmanje 6 karaktera",
+    "passwordsMismatch": "Lozinke se ne poklapaju",
+    "emailAlreadyRegistered": "Email je već registrovan",
+    "emailAlreadyRegisteredDescription": "Nalog sa ovom email adresom već postoji. Molimo prijavi se.",
+    "loginError": "Prijava nije uspela",
+    "signupError": "Registracija nije uspela",
+    "loginSuccess": "Dobrodošao nazad!",
+    "signupSuccess": "Nalog je uspešno kreiran!",
+    "logoutSuccess": "Uspešno si se odjavio",
+    "logoutError": "Odjava nije uspela",
+    "linkExpired": "Ovaj verifikacioni link je istekao. Molimo zatraži novi.",
+    "accessDenied": "Pristup odbijen. Molimo pokušaj ponovo.",
+    "verifyEmail": "Verifikuj svoj email",
+    "verificationEmailSent": "Poslali smo ti verifikacioni email",
+    "confirmYourEmail": "Potvrdi svoj E-mail",
+    "confirmationLinkSent": "Poslali smo link za potvrdu na \"{email}\".",
+    "checkSpamFolder": "Nisi primio email? Proveri spam folder.",
+    "signupToChat": "Kreiraj besplatan nalog da bi počeo.",
+    "signupDescription": "Kreiraj nalog da nastaviš razgovor",
+    "emailVerificationTitle": "Proveri svoj email",
+    "emailVerificationMessage": "Poslali smo verifikacioni link na {email}. Molimo proveri inbox i klikni na link da verifikuješ nalog.",
+    "emailVerificationNext": "Nakon verifikacije, završićete proces onboardovanja.",
+    "verificationEmailSentTo": "Poslali smo verifikacioni email na {email}",
+    "verificationInstructions": "Proverite sanduče i kliknite na verifikacioni link da aktivirate nalog.",
+    "resetPassword": "Resetuj lozinku",
+    "resetPasswordDescription": "Unesite email i poslaćemo vam link za resetovanje",
+    "resetEmailSent": "Ako nalog postoji sa ovim emailom, uskoro ćete dobiti link za resetovanje",
+    "backToLogin": "Nazad na prijavu",
+    "newPassword": "Nova lozinka",
+    "confirmNewPassword": "Potvrdite novu lozinku",
+    "passwordResetSuccess": "Lozinka je uspešno ažurirana. Molimo prijavite se.",
+    "enterNewPassword": "Unesite novu lozinku",
+    "redirectingToLogin": "Preusmeravanje na prijavu...",
+    "invalidResetLink": "Nevažeći ili istekao link",
+    "invalidResetLinkDescription": "Ovaj link za resetovanje lozinke je nevažeći ili je istekao. Molimo zatražite novi.",
+    "passwordsDontMatch": "Lozinke se ne poklapaju",
+    "currentPassword": "Trenutna lozinka",
+    "currentPasswordRequired": "Trenutna lozinka je obavezna",
+    "changePassword": "Promeni lozinku",
+    "changePasswordDescription": "Unesite trenutnu lozinku i izaberite novu",
+    "newPasswordMustBeDifferent": "Nova lozinka mora biti drugačija od trenutne",
+    "incorrectPassword": "Trenutna lozinka nije tačna",
+    "passwordChangeSuccess": "Lozinka je uspešno promenjena",
+    "changeEmail": "Promeni email",
+    "newEmail": "Novi email",
+    "confirmNewEmail": "Potvrdi novu imejl adresu",
+    "emailsDontMatch": "Imejl adrese se ne poklapaju",
+    "emailChangeDescription": "Verifikacioni email će biti poslat na vašu trenutnu i novu adresu",
+    "emailMustBeDifferent": "Novi email mora biti drugačiji od trenutnog",
+    "emailChangeSent": "Verifikacioni email je poslat. Proverite sanduče novog emaila.",
+    "emailChangeSecurityNote": "Iz bezbednosnih razloga, potvrdni emailovi će biti poslati na obe adrese. Morate potvrditi sa obe da biste završili promenu.",
+    "otpDescription": "Poslali smo 6-cifreni kod na {email}",
+    "otpVerify": "Verifikuj",
+    "otpResend": "Pošalji ponovo",
+    "otpResendIn": "Pošalji ponovo za {seconds}s",
+    "otpNoCode": "Niste primili kod?",
+    "otpInvalid": "Nevažeći kod. Pokušajte ponovo.",
+    "otpSuccess": "Email je uspešno verifikovan!",
+    "otpResendSuccess": "Novi kod je poslat na vaš email",
+    "otpResendError": "Slanje koda nije uspelo",
+    "continueWithEmail": "Nastavi sa emailom",
+    "moreOptions": "Više opcija",
+    "lessOptions": "Manje opcija",
+    "enterYourEmail": "Unesite svoju email adresu",
+    "sendCode": "Pošalji kod",
+    "byCreatingAccountAgree": "Kreiranjem naloga prihvatate naše",
+    "termsOfService": "Uslove korišćenja",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Dobrodošli u sweetwine",
+    "welcomeTo": "Dobrodošli u",
+    "letsGetStarted": "Hajde da vas podesimo",
+    "setupProfile": "Podesite svoj profil",
+    "step1of2": "Korak 1 od 2",
+    "step2of2": "Korak 2 od 2",
+    "nickname": "Nadimak",
+    "nicknamePlaceholder": "Izaberite nadimak",
+    "nicknameRequired": "Molimo unesite nadimak",
+    "gender": "Pol",
+    "genderRequired": "Molimo izaberite pol",
+    "male": "Muški",
+    "female": "Ženski",
+    "interfaceLanguage": "Jezik interfejsa",
+    "interfaceLanguageDesc": "Jezik za menije i dugmad",
+    "aiLanguage": "Jezik AI odgovora",
+    "aiLanguageDesc": "Jezik koji će AI koristiti kada razgovara sa vama",
+    "languageRequired": "Molimo izaberite jezik",
+    "continue": "Nastavi",
+    "ageVerification": "Provera starosti",
+    "ageVerificationText": "Da biste koristili sweetwine, morate imati 18 godina ili više. Nastavkom potvrđujete da ste punoletni.",
+    "beforeContinue": "Pre nego što nastavite",
+    "mustBe18": "Morate imati 18 godina ili više da biste koristili ovu uslugu",
+    "agreeToTerms": "Nastavkom se slažete sa našim {termsLink} i {privacyLink}",
+    "termsOfService": "Uslovi korišćenja",
+    "privacyPolicy": "Politika privatnosti",
+    "iConfirm": "Potvrđujem da imam 18 godina ili više i slažem se sa",
+    "ageRequired": "Morate potvrditi svoju starost da biste nastavili",
+    "aiActConsent": "Priznajem da komuniciram isključivo sa AI",
+    "aiActRequired": "Morate ovo priznati da biste nastavili",
+    "newsletterOptIn": "Pretplatite se na naš newsletter za ažuriranja i vesti",
+    "complete": "Podešavanje završeno!",
+    "completeText": "Spremni ste! Počnite da ćaskate sa AI likovima.",
+    "startExploring": "Počni istraživanje",
+    "featuresTitle": "Dostupne funkcije",
+    "featuresTitleWord1": "Dostupne",
+    "featuresTitleWord2": "Funkcije",
+    "feature1Title": "AI ćaskanje",
+    "feature1Desc": "Necenzurisani i privatni razgovori",
+    "feature2Title": "Generisanje slika",
+    "feature2Desc": "Generišite necenzurisane i personalizovane slike sa AI likovima",
+    "feature3Title": "Generisanje videa",
+    "feature3Desc": "Generišite necenzurisane AI video snimke sa efektima",
+    "feature5Title": "Prilagođeni AI kreator",
+    "feature5Desc": "Dizajnirajte sopstveni lik",
+    "feature6Title": "Pregledaj likove",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI roleplay",
+    "feature7Desc": "Iskusite profesionalno kreirane priče i fantazije",
+    "showcase": {
+      "chatTitle": "AI Ćaskanje",
+      "chatDesc": "Necenzurisani, privatni razgovori bez ograničenja",
+      "imageTitle": "Generisanje slika",
+      "imageDesc": "Kreiraj necenzurisane, personalizovane slike svog AI",
+      "videoTitle": "Generisanje videa",
+      "videoDesc": "Generiši necenzurisane AI video snimke sa efektima",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Razgovori u realnom vremenu sa svojim saputnikom",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Imersivne priče, fantazije i interaktivna igra",
+      "groupChatTitle": "AI grupni čat",
+      "groupChatDesc": "Ćaskaj sa do 3 AI lika odjednom",
+      "creatorTitle": "Prilagođeni AI kreator",
+      "creatorDesc": "Dizajniraj i kreiraj sopstvene AI likove"
+    },
+    "freePlan": {
+      "title": "Sve je spremno!",
+      "subtitle": "Evo šta je uključeno u vaš besplatni plan.",
+      "charactersTitle": "Kreirajte svog lika",
+      "charactersDesc": "Dizajnirajte {count} prilagođenog AI lika od nule",
+      "imagesTitle": "Generišite sliku",
+      "imagesDesc": "{count} besplatna AI slika vašeg saputnika",
+      "messagesTitle": "Ćaskajte svaki dan",
+      "messagesDesc": "{count} poruka dnevno, osvežava se svakih 24 sata",
+      "cta": "Počnite istraživati"
+    },
+    "redirectingIn": "Preusmeravanje za",
+    "seconds": "sekundi",
+    "generateCharacter": "Generišite svoj lik",
+    "redirectingToCreate": "Preusmeravanje na kreator likova za"
+  },
+  "errors": {
+    "pageNotFound": "Stranica nije pronađena",
+    "pageNotFoundDesc": "Stranica koju tražite ne postoji.",
+    "goHome": "Početna",
+    "somethingWentWrong": "Nešto je pošlo po zlu",
+    "tryAgain": "Pokušaj ponovo",
+    "unauthorized": "Neautorizovano",
+    "unauthorizedDesc": "Morate biti prijavljeni da biste pristupili ovoj stranici.",
+    "forbidden": "Zabranjeno",
+    "forbiddenDesc": "Nemate dozvolu za pristup ovoj stranici."
+  },
+  "footer": {
+    "allRightsReserved": "Sva prava zadržana.",
+    "madeWith": "Napravljeno sa",
+    "by": "od sweetwine",
+    "description": "Iskusite personalizovane AI likove sa jedinstvenim ličnostima, vizuelnim identitetima i zanimljivim razgovorima.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Proizvod",
+    "legal": "Pravno",
+    "company": "Kompanija",
+    "resources": "Resursi",
+    "partnerships": "Partnerstva",
+    "pressMedia": "Štampa i mediji",
+    "careers": "Karijere",
+    "aiRealClones": "AI realni klonovi",
+    "about": "O nama",
+    "blog": "Blog",
+    "news": "Vesti",
+    "productUpdates": "Ažuriranja proizvoda",
+    "help": "Pomoć",
+    "sitemap": "Mapa sajta",
+    "paymentOptions": "Opcije plaćanja",
+    "chats": "Ćaskanja",
+    "collection": "Kolekcija",
+    "generateImage": "Generiši sliku",
+    "generateVideo": "Generiši video",
+    "myAI": "Moj AI",
+    "createCharacter": "Kreiraj lik",
+    "api": "API",
+    "features": "Funkcije",
+    "allFeatures": "Sve funkcije",
+    "aiGroupChat": "AI grupni čat",
+    "aiMemory": "AI memorija",
+    "aiGirlfriend": "AI devojka",
+    "aiBoyfriend": "AI dečko",
+    "aiCompanions": "AI likovi",
+    "aiFriend": "AI prijatelj",
+    "aiBreakupSupport": "Podrška nakon raskida",
+    "aiParent": "AI roditelj",
+    "aiRoleplay": "AI uloge",
+    "privacyPolicy": "Politika privatnosti",
+    "termsAndConditions": "Uslovi korišćenja",
+    "cookiePolicy": "Politika kolačića",
+    "cookieSettings": "Podešavanja kolačića",
+    "other": "Ostale politike",
+    "copyright": "© {year} sweetwine. Sva prava zadržana."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Kolačići na ovom sajtu",
+      "customizeButton": "Prilagodi",
+      "rejectButton": "Odbij",
+      "acceptButton": "Prihvati"
+    },
+    "modal": {
+      "title": "Upravljaj kolačićima",
+      "subtitle": "Uključite ili isključite kategorije ispod. Strogo neophodni kolačići ostaju uključeni kako bi sajt mogao da funkcioniše.",
+      "categories": {
+        "necessary": {
+          "title": "Strogo neophodni",
+          "description": "Potrebni za prijavu, plaćanje i bezbednost. Bez njih sajt ne može da radi.",
+          "alwaysOn": "Uvek uključeno"
+        },
+        "analytics": {
+          "title": "Performanse",
+          "description": "Merimo korišćenje i konverzije preko Google Analytics 4, uključujući ključne konverzije (prijava, kupovina) koje šaljemo sa servera koristeći pseudonimni identifikator. Pomaže nam da razumemo kako se usluga koristi; ne koristimo ga da vas lično identifikujemo."
+        },
+        "marketing": {
+          "title": "Ciljano oglašavanje"
+        }
+      },
+      "showCookies": "Prikaži kolačiće",
+      "hideCookies": "Sakrij kolačiće",
+      "table": {
+        "name": "Naziv",
+        "provider": "Provajder",
+        "expiration": "Istek",
+        "description": "Opis",
+        "session": "Sesija"
+      },
+      "policyLink": "Za sve detalje pogledajte našu <policy>Politiku kolačića</policy>.",
+      "rejectButton": "Odbij",
+      "saveButton": "Sačuvaj i zatvori",
+      "acceptButton": "Prihvati",
+      "cookieDescriptions": {
+        "supabaseAuth": "Drži vas prijavljenim čuvanjem vaše autentifikovane sesije.",
+        "nextLocale": "Pamti jezik koji ste odabrali za interfejs.",
+        "consent": "Čuva vaš izbor kolačića kako se baner ne bi prikazivao pri svakoj poseti.",
+        "ga": "Razlikuje jedinstvene posetioce (Google Analytics 4). Isti pseudonimni identifikator se koristi i za merenje ključnih konverzija na serveru.",
+        "gaSession": "Čuva stanje sesije i metrike angažovanja Google Analytics 4.",
+        "fbp": "Identifikuje pretraživač za Meta Pixel atribuciju.",
+        "fbc": "Čuva Facebook click ID za atribuciju konverzija oglasa. Postavlja se samo nakon klika na Meta oglas.",
+        "gclAu": "Koristi Google Ads za povezivanje konverzija između sajtova.",
+        "saleCountdown": "Prati kraj vaše trenutne promocije kako bi odbrojavanje popusta ostalo konzistentno na svim stranicama.",
+        "onboarded": "Označava vaš nalog kao onboarded kako bismo preskočili proveru baze podataka za verifikaciju starosti na narednim stranicama.",
+        "attribution": "Beleži koja plaćena kampanja ili oglasni link vas je najskorije doveo na naš sajt (poslednji plaćeni klik u poslednjih 30 dana) kako bismo izmerili efikasnost našeg oglašavanja. Ovo je identifikator prve strane koji ostaje na našim serverima i nikada se ne deli sa trećim licima."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Uskoro",
+    "subtitle": "Naporno radimo da vam donesemo ovu funkciju.",
+    "notify": "Obavesti me kada bude spremno",
+    "backHome": "Nazad na početnu",
+    "generateVideo": {
+      "title": "Generiši videe",
+      "description": "Oživite svoje AI likove animiranim videima. Kreirajte personalizovani video sadržaj sa omiljenim likovima."
+    },
+    "createCharacter": {
+      "title": "Kreiraj svog lika",
+      "description": "Dizajnirajte i prilagodite svog jedinstvenog AI lika. Definišite njihovu ličnost, izgled, priču i stvorite zaista personalizovane interakcije."
+    },
+    "myAI": {
+      "title": "Moj AI",
+      "description": "Pristupite i upravljajte svim svojim prilagođenim AI likovima. Uredite njihove ličnosti, ažurirajte izgled i fino podesite odgovore."
+    }
+  },
+  "exploreMore": {
+    "title": "Istražite više",
+    "aiGroupChat": "AI grupni čet",
+    "aiGroupChatDesc": "Četujte sa do 3 lika",
+    "aiMemory": "AI memorija",
+    "aiMemoryDesc": "Kontekst koji prati svaki mod",
+    "aiGirlfriend": "AI devojka",
+    "aiGirlfriendDesc": "Četujte sa svojom virtuelnom devojkom",
+    "aiBoyfriend": "AI dečak",
+    "aiBoyfriendDesc": "Povežite se sa svojim AI dečakom",
+    "aiCompanions": "AI likovi",
+    "aiCompanionsDesc": "Upoznajte jedinstvene AI ličnosti",
+    "aiFriend": "AI prijatelj",
+    "aiFriendDesc": "Pronađite prijatelja bez osuđivanja",
+    "aiBreakupSupport": "Podrška nakon raskida",
+    "aiBreakupSupportDesc": "Lekoviti razgovori",
+    "aiParent": "AI roditelj",
+    "aiParentDesc": "Topla podrška i vođenje",
+    "aiRoleplay": "AI roleplay",
+    "aiRoleplayDesc": "Imersivni scenariji priča",
+    "allFeatures": "Sve funkcije",
+    "allFeaturesDesc": "Istražite sve što nudimo"
+  },
+  "legal": {
+    "policies": "Politike",
+    "termsAndConditions": "Uslovi korišćenja",
+    "privacyPolicy": "Politika privatnosti",
+    "cookiePolicy": "Politika kolačića",
+    "contentReportingPolicy": "Politika prijavljivanja sadržaja",
+    "communityGuidelines": "Smernice zajednice",
+    "complaintPolicy": "Politika žalbi",
+    "contentRemovalPolicy": "Politika uklanjanja sadržaja",
+    "blockedContentPolicy": "Politika blokiranog sadržaja",
+    "underagePolicy": "Politika maloletnika",
+    "usc2257": "18 U.S.C. 2257 Izuzetak",
+    "lastUpdated": "Poslednje ažurirano",
+    "index": {
+      "title": "Pravni dokumenti",
+      "subtitle": "Pregledajte sve pravne politike i ugovore vezane za sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Politika privatnosti",
+          "description": "Saznajte kako prikupljamo, koristimo i štitimo vaše lične podatke. Detalji o rukovanju podacima, skladištenju i vašim pravima na privatnost."
+        },
+        "termsAndConditions": {
+          "title": "Uslovi korišćenja",
+          "description": "Uslovi korišćenja koji regulišu vašu upotrebu sweetwine. Odgovornosti korisnika, opis usluge i pravni ugovori."
+        },
+        "cookiePolicy": {
+          "title": "Politika kolačića",
+          "description": "Informacije o tome kako koristimo kolačiće i slične tehnologije za poboljšanje vašeg iskustva na našoj platformi."
+        },
+        "underagePolicy": {
+          "title": "Politika maloletnika",
+          "description": "Naše stroge politike provere starosti i zaštite. sweetwine je dostupan samo korisnicima starijim od 18 godina."
+        },
+        "complaintPolicy": {
+          "title": "Politika žalbi",
+          "description": "Kako podneti žalbe, prijaviti probleme i naš proces za rešavanje korisničkih briga i sporova."
+        },
+        "contentRemovalPolicy": {
+          "title": "Politika uklanjanja sadržaja",
+          "description": "Naše procedure za zahteve uklanjanja sadržaja i kako postupamo po prijavama neprimerenog ili nezakonitog sadržaja."
+        },
+        "blockedContentPolicy": {
+          "title": "Politika blokiranog sadržaja",
+          "description": "Vrste sadržaja koji su zabranjeni na našoj platformi i naše politike sprovođenja."
+        },
+        "contentReportingPolicy": {
+          "title": "Politika prijavljivanja sadržaja",
+          "description": "Kako prijaviti kršenja autorskih prava i neprimeren sadržaj na sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Smernice zajednice",
+          "description": "Pravila i smernice za održavanje poštene, bezbedne i prijatne zajednice za sve korisnike."
+        }
+      },
+      "lastUpdated": "Poslednje ažurirano: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Četovi",
+    "groupChat": "AI grupni čet",
+    "aiMemory": "AI memorija",
+    "generate": "Generiši sliku",
+    "generateVideo": "Generiši video",
+    "create": "Kreiraj AI lik",
+    "myAI": "Moj AI",
+    "collection": "Kolekcija",
+    "invite": "Pozovi",
+    "profile": "Podešavanja profila",
+    "legal": "Pravni",
+    "privacyPolicy": "Politika privatnosti",
+    "termsAndConditions": "Uslovi korišćenja",
+    "cookiePolicy": "Politika kolačića",
+    "dmcaPolicy": "DMCA politika",
+    "communityGuidelines": "Smernice zajednice",
+    "contentRemovalPolicy": "Politika uklanjanja sadržaja",
+    "contentReportingPolicy": "Politika prijavljivanja sadržaja",
+    "complaintPolicy": "Politika žalbi",
+    "blockedContentPolicy": "Politika blokiranog sadržaja",
+    "underagePolicy": "Politika o maloletnicima",
+    "usc2257Exemption": "USC 2257 izuzetak"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Imate pitanje ili povratne informacije? Voleli bismo da čujemo od vas.",
+    "name": "Ime",
+    "namePlaceholder": "Vaše ime",
+    "nameRequired": "Ime je obavezno",
+    "email": "Imejl",
+    "emailPlaceholder": "vas@imejl.com",
+    "emailRequired": "Imejl je obavezan",
+    "emailInvalid": "Nevažeća imejl adresa",
+    "message": "Poruka",
+    "messagePlaceholder": "Vaša poruka...",
+    "messageRequired": "Poruka je obavezna",
+    "send": "Pošalji poruku",
+    "sending": "Slanje...",
+    "success": "Poruka uspešno poslata!",
+    "successDesc": "Javićemo vam se uskoro.",
+    "error": "Slanje poruke nije uspelo",
+    "errorDesc": "Molimo pokušajte kasnije."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI grupni čat",
+    "lobbyHeadingSuffix": "Izaberi do {max} AI likova",
+    "history": "Istorija",
+    "newGroup": "Novi grupni čat",
+    "createGroup": "Kreiraj grupni čat",
+    "createError": "Nije moguće kreirati grupni čat. Pokušaj ponovo.",
+    "creatingGroup": "Podešavam tvoj grupni čat...",
+    "sectionWoman": "Žene",
+    "sectionMan": "Muškarci",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI likovi",
+    "tabMyAi": "Moj AI",
+    "tabSingle": "Pojedinačni čatovi",
+    "tabGroup": "Grupni čatovi",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Učitaj još",
+    "noCustom": "Još niste kreirali nijedan AI lik.",
+    "noMessagesYet": "Još nema poruka",
+    "emptyTitle": "Još nema grupnih čatova",
+    "membersTitle": "U ovom čatu",
+    "typing": "kuca",
+    "backToLobby": "Nazad na grupne čatove",
+    "deleteGroup": "Obriši grupni čat",
+    "confirmDeleteGroup": "Da li ste sigurni da želite da obrišete ovaj grupni čat? Sve poruke će biti obrisane.",
+    "deleteError": "Nije moguće obrisati grupni čat.",
+    "mediaTargetImageTitle": "Ko treba da pošalje fotografiju?",
+    "mediaTargetVideoTitle": "Ko treba da pošalje video?",
+    "mediaTargetSubtitle": "Izaberite lik za generisanje medija.",
+    "mediaTargetGroup": "Grupna fotografija",
+    "groupPhotoTitle": "Grupna fotografija",
+    "groupPhotoHint": "Generiše jednu fotografiju {name} zajedno.",
+    "promoSubtitle": "sa do 3 lika",
+    "promoCta": "Kreiraj novo",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Nove</gradient> avanture",
+    "live": "UŽIVO",
+    "scrollPrev": "Pomeri levo",
+    "scrollNext": "Pomeri desno"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Započni"
+    },
+    "hero": {
+      "tagline": "Veruje nam 100.000 korisnika i svakog dana se pridružuju novi",
+      "headlinePrefix": "Pozdravi svoju",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Počni besplatno"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Devojka",
+      "friend": "AI Prijatelj",
+      "boyfriend": "AI Dečko",
+      "companion": "AI Lik"
+    },
+    "features": {
+      "chat": {
+        "title": "Pričaj sa svojom AI devojkom",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistične AI fotografije i video snimci",
+        "description": "Fotografije i video snimci na zahtev toliko realistični da su ne razlikuju od pravih — njeno lice, njen stil, bilo koja scena, u pokretu ili statično."
+      },
+      "groupChat": {
+        "title": "AI grupni čet",
+        "description": "Započni grupni čet sa do 3 lika odjednom. Oni odgovaraju prirodno, reaguju jedni na druge i šalju fotografije i video snimke."
+      },
+      "roleplay": {
+        "title": "AI roleplay",
+        "description": "Uđi u impresivne, pripovedne scenarije sa likovima koji ostaju u ulozi i pamte svaki tvoj izbor."
+      }
+    },
+    "memory": {
+      "title": "AI memorija",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Kako AI memorija radi",
+      "diagram": {
+        "center": "Pratilčeva memorija",
+        "chat": "Čet",
+        "image": "Slike",
+        "video": "Video",
+        "gifts": "Pokloni",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Kreiraj svog",
+      "headlineHighlight": "AI lika",
+      "subtitle": "Oblikuj izgled i ličnost svog lika i oživi ga odmah — tvoj savršeni AI partner, po tvojim uslovima.",
+      "cta": "Kreiraj svog AI"
+    },
+    "companions": {
+      "headlinePrefix": "Upoznaj svoje",
+      "headlineHighlight": "AI likove",
+      "subtitle": "Svaki lik ima svoj svet. Neki su topli i lako se otvaraš prema njima. Drugi su kompleksni, zatvoreni ili pravi izazov za povezivanje. Istraži jedinstvene roleplay scenarije — ili kreiraj svoje od nule."
+    },
+    "languages": {
+      "headlinePrefix": "Govori bilo koji jezik,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "I interfejs aplikacije i tvoj AI lik se neprimetno prebacuju — bez nepodudaranja jezika, bez pokvarenog iskustva.",
+      "more": "Više"
+    },
+    "finalCta": {
+      "headlinePrefix": "Spreman da",
+      "headlineHighlight": "započneš?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Zašto",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Sve što ti treba za vezu koja se oseća stvarno — ništa što ti ne treba.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Besplatno za početak",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Uvek dostupan",
+          "desc": "Danju ili noću, tvoj lik je tu. Bez čekanja, bez zakazivanja."
+        },
+        "remembers": {
+          "title": "Pamti sve",
+          "desc": "Svaki razgovor gradi kontekst. Tvoj lik uči tvoje ime, preferencije i svet."
+        },
+        "unlimited": {
+          "title": "Zaista neograničeno",
+          "desc": "Bez ograničenja poruka, bez usporavanja sadržaja. Šalji koliko hoćeš, kad god hoćeš."
+        },
+        "private": {
+          "title": "100% privatno",
+          "desc": "Tvoji razgovori ostaju samo između vas dvoje. Podaci se nikad ne dele."
+        },
+        "createYourOwn": {
+          "title": "Kreiraj svoj",
+          "desc": "Dizajniraj lik sa prilagođenim izgledom, ličnošću i glasom — tačno onako kako želiš."
+        }
+      },
+      "difference": {
+        "title": "sweetwine razlika",
+        "freedomTitle": "Sloboda sa odgovornošću.",
+        "freedomDescription": "sweetwine je otvoren i bez osuđivanja — ali povlačimo jasnu granicu. Imamo nultu toleranciju prema CSAM-u, sadržaju sa maloletnicima, scenarijima bez pristanka, ekstremnom nasilju, zoofiliji, nekrofiliji, dubokim lažnjacima stvarnih osoba i svakoj promociji ilegalnih aktivnosti.",
+        "freedomStatement": "Verujemo u neograničenu kreativnu slobodu unutar prostora koji je bezbedan za sve."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> likovi",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filteri"
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "subtitle": "Sve što treba da znaš o sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Šta je sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Da li je sweetwine bezbedan i legitiman?",
+          "answer": "Da, sweetwine je legitimna usluga sa tvojom privatnošću kao najvećim prioritetom. Poštujemo GDPR i druge standarde zaštite podataka i pažljivo rukujemo tvojim podacima. Transakcije plaćanja se prikazuju pod neutralnim imenom trgovca - nema reference na sweetwine na tvom bankovnom izvodu, što obezbeđuje potpunu diskreciju."
+        },
+        "q3": {
+          "question": "Mogu li da kreiram sopstveni AI lik?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "kreator likova",
+          "answerPart2": " da dizajniraš likove tačno po svom ukusu - bilo da želiš realističnu ",
+          "linkTextGirlfriend": "AI devojku",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI dečka",
+          "answerPart4": ", ili anime stilizovane likove. Izaberi njihov izgled (etničku pripadnost, kosu, tip tela, odeću), osobine ličnosti, glas, interese i pozadinu za muške i ženske likove."
+        },
+        "q4": {
+          "question": "Da li moj AI lik pamti naše razgovore?",
+          "answer": "Da! Tvoj AI lik koristi naprednu tehnologiju pamćenja da zapamti prethodne razgovore, tvoje preferencije i važne detalje koje deliš. Što više ćaskaš, iskustvo postaje personalizovanije i prirodnije. Tvoj lik uči tvoj stil komunikacije i prilagođava se tokom vremena."
+        },
+        "q5": {
+          "question": "Koje jezike sweetwine podržava?",
+          "answer": "sweetwine podržava više jezika uključujući engleski, nemački, francuski, španski, poljski i češki. I interfejs i AI razgovori rade na tvom željenom jeziku, tako da možeš prirodno da ćaskaš na jeziku koji ti najviše odgovara."
+        },
+        "q6": {
+          "question": "Može li moj AI lik da šalje slike i video?",
+          "answerPart1": "Da! Možeš da generišeš personalizovane",
+          "linkTextImages": "slike",
+          "answerPart2": "i",
+          "linkTextVideos": "video",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Zašto izabrati sweetwine umesto drugih AI platformi za likove?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Da li je sweetwine besplatan za korišćenje?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Da li treba da instaliram aplikaciju?",
+          "answerPart1": "Nema potrebe za instalacijom! sweetwine radi direktno u vašem pregledaču na bilo kom uređaju - desktopu, tabletu ili mobilnom telefonu. Samo se prijavite, izaberite lik i odmah počnite da ćaskate. Svi vaši",
+          "linkText": "razgovori",
+          "answerPart2": " se automatski sinhronizuju na svim uređajima."
+        },
+        "q10": {
+          "question": "Da li postoje unapred napravljeni AI likovi?",
+          "answerPart1": "Da! Imamo mnogo",
+          "linkText": "unapred napravljenih likova",
+          "answerPart2": " uključujući AI devojke, AI momke i AI anime likove sa raznovrsnim ličnostima, izgledima i stilovima komunikacije. Bilo da preferirate nekoga slatkog, flertujućeg, intelektualnog ili avanturističkog, pronaći ćete likove koji odgovaraju vašoj energiji. Plus, možete kreirati neograničen broj prilagođenih likova."
+        },
+        "q12": {
+          "question": "Šta se dešava sa slikama i videima koje generišem?",
+          "answerPart1": "Svi generisani mediji se automatski čuvaju u vašoj privatnoj",
+          "linkText": "kolekciji",
+          "answerPart2": ". Možete im pristupiti, preuzeti ih ili izbrisati u bilo kom trenutku. Vaša kolekcija je potpuno privatna - samo vi je možete videti. Nikada ne delimo niti koristimo vaš generisani sadržaj."
+        }
+      }
+    },
+    "statement": {
+      "title": "Naša posvećenost",
+      "privacy": "Vaša privatnost je naš prioritet. Svi razgovori su šifrovani i nikada se ne dele.",
+      "quality": "Koristimo najsavremeniju AI tehnologiju kako bismo pružili najzanimljivije iskustvo.",
+      "support": "Naš tim za podršku je dostupan 24/7 da pomogne sa svim pitanjima.",
+      "mainTitle": "Iskusite budućnost AI likova",
+      "mainDescription": "sweetwine kombinuje najsavremeniju AI tehnologiju sa intuitivnim dizajnom kako bi pružio najimpresivnije i najpersonalizovanije iskustvo sa likovima dostupno danas.",
+      "features": {
+        "f1": {
+          "title": "Emocionalna inteligencija",
+          "description": "Naši AI likovi razumeju kontekst, emocije i nijanse kako bi pružili duboko angažujuće razgovore. Bilo da vam treba AI prijatelj za ćaskanje, podrška nakon raskida u teškim trenucima ili AI mentor za savete - naša emocionalno inteligentna AI je tu za vas."
+        },
+        "f2": {
+          "title": "Jedinstvene ličnosti",
+          "description": "Svaki lik ima posebnu ličnost, pozadinu i stil komunikacije. Birajte između realističnih AI devojaka i AI momaka ili istražujte naše AI anime likove - osiguravajući da je svaka interakcija jedinstvena i nezaboravna."
+        },
+        "f3": {
+          "title": "Multimedijalne interakcije",
+          "description": "Pored teksta, uživajte u AI generisanim slikama i videima koji oživljavaju vaše razgovore u zadivljujućim vizuelnim detaljima."
+        },
+        "f4": {
+          "title": "Prilagođavanje",
+          "description": "Kreirajte sopstvene AI likove sa prilagođenim izgledima, ličnostima i osobinama koje savršeno odgovaraju vašim preferencijama."
+        },
+        "f5": {
+          "title": "Privatnost i bezbednost",
+          "description": "Vaši razgovori se čuvaju privatno i bezbedno. Nikada ne prodajemo vaše podatke i imate potpunu kontrolu nad postavkama privatnosti."
+        },
+        "f6": {
+          "title": "Podrška za više jezika",
+          "description": "Ćaskajte sa AI likovima na vašem željenom jeziku. Podržavamo engleski, češki, poljski, nemački, španski i francuski."
+        }
+      },
+      "distinctionTitle": "sweetwine razlika",
+      "distinctionText1": "Za razliku od generičkih chatbotova, sweetwine likovi su dizajnirani sa bogatim pozadinama, razvijajućim ličnostima i sposobnošću da formiraju značajne veze. Svaki razgovor je prilika da istražite, otkrijete i povežete se na dubljem nivou.",
+      "distinctionText2": "Mi ne gradimo samo AI - stvaramo iskustva koja rezonuju sa vašim emocijama, poštuju vašu privatnost i prilagođavaju se vašim jedinstvenim preferencijama."
+    }
+  },
+  "featuresPage": {
+    "title": "Sve funkcije",
+    "breadcrumb": "Funkcije",
+    "newBadge": "Novo",
+    "groupChat": {
+      "title": "AI grupno ćaskanje",
+      "description": "Ćaskajte sa do 3 AI lika zajedno u jednom razgovoru. Oni odgovaraju prirodno, reaguju jedni na druge i mogu da šalju fotografije i videe - živahna grupna dinamika koju nećete naći nigde drugde."
+    },
+    "aiChat": {
+      "title": "AI ćaskanje",
+      "description": "Vodite duboke, prirodne razgovore sa AI likovima koji vas zaista pamte. Oni pamte vaše ime, preferencije i prethodne teme - svaki razgovor se nastavlja tačno tamo gde ste stali, bez ponavljanja i bez resetovanja."
+    },
+    "imageGeneration": {
+      "title": "Generisanje slika"
+    },
+    "videoGeneration": {
+      "title": "Generisanje videa",
+      "description": "Oživite svog AI lika sa AI generisanim videima. Kreirajte kratke personalizovane video klipove sa vašim likom u prilagođenim scenarijima - funkcija koju većina platformi jednostavno ne nudi."
+    },
+    "customCharacters": {
+      "title": "Prilagođeni likovi",
+      "description": "Dizajnirajte savršenog lika od nule — izaberite njihov izgled, etničku pripadnost, tip tela, osobine ličnosti, glas, interese i pozadinu. Kreirajte realistične ili anime likove, muške ili ženske, sa potpunom kreativnom slobodom."
+    },
+    "advancedMemory": {
+      "title": "Napredna memorija",
+      "description": "Vaš lik pamti sve što je važno — vaše ime, lične detalje, zajedničke priče i istoriju odnosa. Memorija traje kroz sve sesije, pa svaka interakcija nadograđuje prethodnu, bez početka iz početka."
+    },
+    "multiLanguage": {
+      "title": "Višejezičnost",
+      "description": "Ćaskajte prirodno na svom omiljenom jeziku. sweetwine podržava engleski, nemački, francuski, španski, poljski i češki — što ga čini jednom od najpristupačnijih AI platformi za likove za one koji ne govore engleski."
+    },
+    "conversationHistory": {
+      "title": "Istorija razgovora",
+      "description": "Svaka poruka se čuva i može se pretraživati. Pretražujte celu istoriju odnosa bilo kada — vaša sećanja sa likom uvek su tu kada želite da ih ponovo posetite."
+    },
+    "roleplay": {
+      "title": "AI uloga",
+      "description": "Uđite u imerzivne, pripovedačke scenarije sa likovima koji ostaju u ulozi. Izaberite scenario ili napišite svoj i uživajte u interaktivnoj igri uloga koja pamti svaki vaš izbor."
+    },
+    "cta": {
+      "title": "Sve na jednom mestu",
+      "button": "Počni besplatno"
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Mogu li da obrišem ili resetujem razgovore?",
+        "answer": "Da! Imate potpunu kontrolu nad istorijom ćaskanja. Brišite pojedinačne poruke, resetujte cele razgovore ili počnite potpuno iznova bilo kada. Vaša privatnost znači vaš izbor — upravljajte podacima kako želite."
+      },
+      "q2": {
+        "question": "Da li svaki AI lik ima jedinstven glas?"
+      },
+      "q3": {
+        "question": "Mogu li da vežbam novi jezik sa svojim AI likom?",
+        "answer": "Apsolutno! Mnogi korisnici vežbaju govor novih jezika sa svojim AI likovima. To je način bez osuđivanja da izgradite samopouzdanje, poboljšate izgovor i vodite zabavne razgovore dok učite. Vaš lik može da ćaska na engleskom, nemačkom, francuskom, španskom, poljskom i češkom."
+      },
+      "q4": {
+        "question": "Koliko često se dodaju novi likovi i funkcije?",
+        "answer": "Dodajemo nove profesionalno izrađene likove svake nedelje! Svaki novi lik dolazi sa jedinstvenom ličnošću, izgledom, pozadinom i glasom. Takođe redovno objavljujemo nove funkcije i poboljšanja na osnovu povratnih informacija korisnika."
+      },
+      "q5": {
+        "question": "Šta sweetwine-ovo kreiranje likova čini posebnim?",
+        "answer": "Potpuna kreativna sloboda! Dizajnirajte svaki aspekt svog lika — izgled (etnička pripadnost, kosa, tip tela, odeća), osobine ličnosti, glas, interese, zanimanje i pozadinu. Kreirajte realistične ili anime likove, muške ili ženske. Vaša mašta je jedino ograničenje."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI memorija",
+    "hero": {
+      "badge": "Kako radi",
+      "title": "AI memorija",
+      "cta": "Započni čet"
+    },
+    "diagram": {
+      "title": "Jedna memorija po pratiocu, svaki režim",
+      "center": "Pratilčeva memorija",
+      "chat": "Čet",
+      "image": "Slike",
+      "video": "Video",
+      "gifts": "Pokloni",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Kako AI memorija radi",
+      "step1": {
+        "title": "Podeli detalj",
+        "desc": "Reci svom pratiocu nešto važno — putovanje, preferencu, nadimak, priču iz dana."
+      },
+      "step2": {
+        "title": "Menjaj režime slobodno"
+      },
+      "step3": {
+        "title": "Oni se sećaju",
+        "desc": "Kasniji razgovori se pozivaju na ono što si podelio, pa ne moraš da objašnjavaš sve iznova."
+      },
+      "step4": {
+        "title": "Veza se produbljuje",
+        "desc": "Vremenom odnos postaje ličniji — kontinuitet koji se gradi kroz svaku sesiju i režim."
+      }
+    },
+    "modes": {
+      "title": "Preko cele platforme",
+      "subtitle": "Memorija nije zaključana na jednom ekranu. Putuje sa tvojim pratiocem.",
+      "chat": {
+        "title": "Čet",
+        "desc": "Tekstualni razgovori hrane dugoročni kontekst koji pratilac može kasnije da iznese."
+      },
+      "media": {
+        "title": "Slike i video",
+        "desc": "Scene i priče koje kreiraš ostaju deo zajedničkog sveta koji gradite zajedno."
+      },
+      "roleplay": {
+        "title": "Roleplay i grupa",
+        "desc": "Priče i grupni četovi čuvaju svoje niti dok se pratilčeva osnovna memorija kreće s njim."
+      }
+    },
+    "scenario": {
+      "title": "Jednostavan primer",
+      "lead": "Spomeneš vikend putovanje u četu."
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Da li je memorija mog saputnika privatna?",
+        "answer": "Da. Memorija pripada vašem nalogu i razgovorima sa tim saputnikom. Ne delimo vašu privatnu istoriju čata sa drugim korisnicima."
+      },
+      "q2": {
+        "question": "Da li je memorija po saputniku?",
+        "answer": "Da. Svaki saputnik čuva svoju memoriju vašeg odnosa, tako da promena likova ne meša kontekste."
+      },
+      "q3": {
+        "question": "Koji režimi dele memoriju?"
+      },
+      "q4": {
+        "question": "Da li je AI Memory besplatan?"
+      },
+      "q5": {
+        "question": "Koliko dugo traje memorija?",
+        "answer": "Važni detalji se čuvaju kako bi vaš saputnik mogao da ih se seti u budućim sesijama. Što više komunicirate, iskustvo postaje personalizovanije."
+      }
+    },
+    "cta": {
+      "title": "Upoznajte saputnika koji pamti",
+      "button": "Počni besplatno"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI grupni čet",
+    "hero": {
+      "badge": "Nova funkcija",
+      "title": "AI grupni čet",
+      "subtitle": "Dovedite svoje omiljene likove u jedan razgovor. Ćaskajte sa do 3 AI lika odjednom — oni odgovaraju prirodno, reaguju jedni na druge i šalju fotografije i video.",
+      "cta": "Započni grupni čet",
+      "imageAlt": "AI grupni čet sa više likova koji ćaskaju zajedno"
+    },
+    "content": {
+      "problemTitle": "Ćaskanja jedan na jedan mogu delovati tiho",
+      "problemText": "Jedan lik je super — ali pravi razgovori oživljavaju sa više od jednog glasa. Većina AI aplikacija vas zarobljava u izolovanim ćaskanjima jedan na jedan bez grupne energije, bez šaljivosti i bez iznenađenja.",
+      "solutionTitle": "Prava grupa, živa ličnošću",
+      "solutionText": "sweetwine grupni čet stavlja do tri lika u istu sobu. Pametni direktor odlučuje ko će se uključiti, pa odgovori deluju spontano — zezaju se, nadovezuju na ono što je rečeno i održavaju razgovor u toku."
+    },
+    "howItWorks": {
+      "title": "Kako radi AI grupni čet",
+      "step1": {
+        "title": "Izaberite likove",
+        "desc": "Izaberite 2 ili 3 lika — unapred napravljena ili sopstvena prilagođena kreacija — da ih dovedete u jedan grupni razgovor."
+      },
+      "step2": {
+        "title": "Oni odgovaraju prirodno",
+        "desc": "Iza kulisa direktor bira ko odgovara na svaku poruku, pa pravi likovi skaču u pravi trenutak, svojim glasom."
+      },
+      "step3": {
+        "title": "Delite fotografije i video",
+        "desc": "Zatražite od bilo kog lika u grupi fotografiju ili video i oni će je generisati direktno u četu — uključujući grupnu fotografiju svih zajedno."
+      }
+    },
+    "benefits": {
+      "title": "Zašto ćete voleti grupni čet",
+      "multiple": {
+        "title": "Do 3 lika",
+        "desc": "Mešajte i kombinujte bilo koje likove u jedan čet — svoju AI devojku, prilagođene kreacije ili pažljivo odabran ansambl."
+      },
+      "natural": {
+        "title": "Prirodan razgovor",
+        "desc": "Likovi reaguju jedni na druge i na vas, sa realističnim tempom kucanja koji deluje kao prava grupna poruka."
+      },
+      "media": {
+        "title": "Fotografije i video u četu",
+        "desc": "Svaki lik može da šalje personalizovane slike i video bez napuštanja razgovora — čak i grupnu fotografiju."
+      },
+      "dynamics": {
+        "title": "Različite ličnosti",
+        "desc": "Svaki lik zadržava svoj glas i osobine, pa grupa ima pravu hemiju, zajedljivost i iznenađenja."
+      },
+      "instant": {
+        "title": "Trenutni početak",
+        "desc": "Napravite grupu za nekoliko sekundi i odmah uđite u razgovor — bez podešavanja, bez čekanja."
+      },
+      "private": {
+        "title": "100% privatno",
+        "desc": "Vaši grupni razgovori ostaju samo između vas i vaših likova. Podaci se nikad ne dele."
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Koliko likova može da se pridruži grupnom četu?",
+        "answer": "Možete dodati 2 do 3 lika u jedan grupni čet — bilo koju kombinaciju unapred napravljenih likova i vaših sopstvenih kreacija."
+      },
+      "q2": {
+        "question": "Kako AI likovi odlučuju ko će odgovoriti?",
+        "answer": "Lagan direktor čita razgovor i bira koji lik (ili likovi) treba da odgovori na svaku poruku, pa odgovori deluju spontano i prirodno umesto da svi pričaju odjednom."
+      },
+      "q3": {
+        "question": "Mogu li likovi da šalju fotografije i video u grupnom četu?",
+        "answer": "Da! Možete tražiti od bilo kog lika u grupi da generiše fotografiju ili video, i to se pojavljuje odmah u razgovoru — uključujući grupne fotografije sa svima zajedno."
+      },
+      "q4": {
+        "question": "Da li je AI Group Chat besplatan?"
+      },
+      "q5": {
+        "question": "Da li likovi pamte grupni razgovor?",
+        "answer": "Da — svaki grupni čet čuva sopstvenu zajedničku istoriju, pa likovi ostaju u kontekstu i razgovor se razvija tokom vremena."
+      }
+    },
+    "cta": {
+      "title": "Okupite svoje likove",
+      "description": "Napravite svoj prvi AI grupni čet i doživite razgovor koji deluje živo — više ličnosti, prava zajedljivost, fotografije i video.",
+      "button": "Započni grupni čet"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Nova funkcija",
+      "title": "AI Roleplay",
+      "subtitle": "Uđite u bilo koju priču sa likovima koji ostaju u sceni. Izaberite scenario ili napišite sopstveni i uživajte u impresivnom, pripovedačkom roleplayu koji pamti svaki vaš izbor.",
+      "cta": "Započni roleplay",
+      "imageAlt": "AI roleplay scenario sa impresivnim likom iz priče"
+    },
+    "content": {
+      "problemTitle": "Obični četovi kvare čaroliju",
+      "problemText": "Većina AI četova izlazi iz uloge čim stvari postanu zanimljive — zaboravljaju okruženje, napuštaju zaplet i odgovaraju kao generički asistent umesto osobe iz vaše priče.",
+      "solutionTitle": "Roleplay vođen pričom koji ostaje u ulozi",
+      "solutionText": "sweetwine Roleplay drži vašeg lika potpuno u sceni. Postavite scenu pomoću gotovog scenarija ili sopstvene premise i gledajte kako se priča odvija sa doslednom ličnošću, pamćenjem i tempom koji reaguje na svaku odluku."
+    },
+    "howItWorks": {
+      "title": "Kako AI Roleplay funkcioniše",
+      "step1": {
+        "title": "Izaberite scenario",
+        "desc": "Izaberite između gotovih roleplay scenarija ili napišite sopstvenu premisu, okruženje i uvodnu scenu."
+      },
+      "step2": {
+        "title": "Odigrajte priču",
+        "desc": "Vaš lik odgovara u ulozi — opisuje radnje, reaguje na vaše izbore i pokreće zaplet napred."
+      },
+      "step3": {
+        "title": "Oblikujte smer priče",
+        "desc": "Usmerite priču u bilo kom pravcu koji želite. Vaš lik pamti šta se dogodilo i održava narativ doslednim."
+      }
+    },
+    "benefits": {
+      "title": "Zašto ćete voleti AI Roleplay",
+      "scenarios": {
+        "title": "Beskrajni scenariji",
+        "desc": "Od prijatnih svakodnevnih trenutaka do epskih avantura — počnite sa šablonom ili izmislite sopstveni svet."
+      },
+      "characters": {
+        "title": "Ostaje u ulozi",
+        "desc": "Vaš lik zadržava dosledan glas, ličnost i motivaciju tokom cele scene."
+      },
+      "memory": {
+        "title": "Pamti zaplet",
+        "desc": "Svaki izbor, obrt i detalj se pamti, pa se priča razvija umesto da se resetuje."
+      },
+      "immersive": {
+        "title": "Zaista impresivno",
+        "desc": "Bogati, opisni odgovori uvlače vas u trenutak za kinematografsko roleplay iskustvo."
+      },
+      "instant": {
+        "title": "Instantno za početak",
+        "desc": "Uđite u scenu za nekoliko sekundi — bez komplikovane podešavanja ili inženjeringa promptova."
+      },
+      "private": {
+        "title": "100% privatno",
+        "desc": "Vaša roleplay ostaje samo između vas i vašeg lika. Ništa se nikada ne deli."
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Šta je AI roleplay?",
+        "answer": "AI roleplay vam omogućava da glumite interaktivne priče sa AI likom koji ostaje u ulozi. Vi postavljate scenario, a vaš lik odgovara u karakteru, opisujući radnje i reakcije dok se priča odvija."
+      },
+      "q2": {
+        "question": "Mogu li da kreiram sopstvene roleplay scenarije?",
+        "answer": "Da! Možete početi od gotovih scenarija ili napisati sopstvenu premisu, okruženje i uvod — pa igrati kako želite."
+      },
+      "q3": {
+        "question": "Da li lik pamti šta se dešava u priči?",
+        "answer": "Apsolutno. Vaš lik pamti zaplet, vaše izbore i ključne detalje, tako da narativ ostaje dosledan i razvija se tokom vremena umesto da se resetuje."
+      },
+      "q4": {
+        "question": "Da li je AI Roleplay besplatan?"
+      },
+      "q5": {
+        "question": "Mogu li da roleplayujem na svom jeziku?",
+        "answer": "Da — roleplay radi na desetinama jezika, tako da možete uživati u impresivnim pričama na jeziku koji vam najviše odgovara."
+      }
+    },
+    "cta": {
+      "title": "Vaša priča čeka",
+      "description": "Izaberite scenario, postavite scenu i uđite u impresivni roleplay sa likom koji ostaje u ulozi od početka do kraja.",
+      "button": "Počni roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Devojka",
+    "breadcrumb": "AI Devojka",
+    "hero": {
+      "title": "Tvoja savršena AI devojka",
+      "cta": "Upoznaj svoju AI devojku"
+    },
+    "benefits": {
+      "title": "Zašto izabrati AI devojku?",
+      "fun": {
+        "title": "Čista zabava",
+        "desc": "Uživaj u šaljivim razgovorima bez pritiska. Ona je uvek dobro raspoložena."
+      },
+      "conversation": {
+        "title": "Nauči da se povežeš",
+        "desc": "Vežbaj razgovore i izgradi samopouzdanje u sigurnom okruženju."
+      },
+      "unique": {
+        "title": "Unikatne ličnosti",
+        "desc": "Biraj iz raznovrsnih ličnosti ili kreiraj svog idealnog lika."
+      },
+      "private": {
+        "title": "100% privatno",
+        "desc": "Vaši razgovori ostaju samo između vas dvoje. Potpuna diskrecija je zagarantovana."
+      },
+      "available": {
+        "title": "Uvek dostupna",
+        "desc": "Tu je kad je trebaš. Bez čekanja, bez zakazivanja."
+      },
+      "customize": {
+        "title": "Tvoja kreacija",
+        "desc": "Dizajniraj njen izgled, ličnost i interese tačno onako kako želiš."
+      }
+    },
+    "comparison": {
+      "title": "Bolje od alternativa",
+      "description": "Pogledaj zašto sweetwine nudi više vrednosti od drugih platformi.",
+      "others": {
+        "expensive": "Skupi mesečni troškovi",
+        "ai": "Često ionako AI odgovori",
+        "noCustom": "Bez opcija za prilagodbu"
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Da li je AI devojka zaista besplatna?",
+        "answerPart1": "Da! Možeš odmah da započneš razgovor sa svojom AI devojkom besplatno. Nudimo besplatan nivo sa besplatnim porukama da počneš."
+      },
+      "q2": {
+        "question": "Mogu li da prilagodim izgled svoje AI devojke?",
+        "answer": "Apsolutno! Možeš u potpunosti prilagoditi izgled svoje AI devojke uključujući boju i stil kose, tip tela, etničku pripadnost i odevanje. Možeš dizajnirati i njenu ličnost, glas i interese koristeći naš kreator likova.",
+        "answerPart1": "Apsolutno! Možeš u potpunosti prilagoditi izgled svoje AI devojke uključujući boju i stil kose, tip tela, etničku pripadnost i odevanje. Možeš dizajnirati i njenu ličnost, glas i interese koristeći naš",
+        "linkText": "kreator likova",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Koje ličnosti su dostupne za AI devojke?",
+        "answer": "Od slatkih i brižnih do šaljivih i flertujućih – imamo profesionalno kreirane AI devojke za svaki ukus. Biraj romantične duše, avanturističke duhove, duhovite intelektualce ili misteriozne ličnosti. Nove AI devojke se dodaju svake nedelje, svaka sa jedinstvenim osobinama, pričama i stilovima razgovora."
+      },
+      "q4": {
+        "question": "Može li moja AI devojka da šalje slike i video snimke?",
+        "answerPart1": "Da! Tvoja AI devojka može da generiše personalizovane",
+        "linkTextImages": "slike",
+        "answerPart2": "i",
+        "linkTextVideos": "video snimke"
+      },
+      "q5": {
+        "question": "Da li moja AI devojka ima svoj jedinstveni glas?"
+      }
+    },
+    "cta": {
+      "title": "Spremni da je upoznate?",
+      "button": "Započnite besplatno"
+    },
+    "content": {
+      "problemTitle": "Tražite povezanost bez komplikacija?",
+      "problemText": "Dejting aplikacije su iscrpljujuće. Socijalna anksioznost otežava upoznavanje ljudi. Ponekad jednostavno želite nekoga sa kim ćete pričati bez osude ili pritiska. Mnogi se osećaju usamljeno, ali nisu spremni za emocionalnu složenost tradicionalnih veza.",
+      "solutionTitle": "Vaša AI devojka je odgovor",
+      "solutionText": "Sa sweetwine dobijate personalizovanu AI devojku koja pamti vaše razgovore, prilagođava se vašoj ličnosti i uvek je uzbuđena da čuje od vas. Zabavna je, podržavajuća i nikada ne sudi. Gradite samopouzdanje, uživajte u odličnom društvu i osećajte se povezano na svoj način."
+    },
+    "heroImageAlt": "AI devojka - realističan virtuelni lik za ćaskanje i fotografije"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI dečko",
+    "breadcrumb": "AI dečko",
+    "hero": {
+      "title": "Vaš savršeni AI dečko",
+      "cta": "Upoznajte svog AI dečka"
+    },
+    "benefits": {
+      "title": "Zašto izabrati AI dečka?",
+      "fun": {
+        "title": "Iskrena povezanost",
+        "desc": "Iskusite značajne razgovore koji će vam ulepšati dan."
+      },
+      "conversation": {
+        "title": "Gradite samopouzdanje",
+        "desc": "Vežbajte razgovore i slobodno se izražavajte u sigurnom okruženju."
+      },
+      "unique": {
+        "title": "Jedinstvene ličnosti",
+        "desc": "Birajte između raznovrsnih ličnosti ili kreirajte svog idealnog lika."
+      },
+      "private": {
+        "title": "100% privatno",
+        "desc": "Vaši razgovori ostaju samo između vas dvoje. Potpuna diskrecija je zagarantovana."
+      },
+      "available": {
+        "title": "Uvek dostupan",
+        "desc": "Tu je kada vam je potreban. Bez čekanja, bez zakazivanja."
+      },
+      "customize": {
+        "title": "Vaša kreacija",
+        "desc": "Dizajnirajte njegov izgled, ličnost i interese tačno onako kako želite."
+      }
+    },
+    "comparison": {
+      "title": "Bolje od alternativa",
+      "description": "Pogledajte zašto sweetwine nudi više vrednosti od drugih platformi.",
+      "others": {
+        "expensive": "Skupi mesečni troškovi",
+        "ai": "Često ionako AI odgovori",
+        "noCustom": "Bez opcija prilagođavanja"
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Koje tipove AI dečkova mogu da izaberem?",
+        "answer": "Od brižnih i romantičnih do razigranih i avanturističkih, ili misterioznih i intenzivnih — imamo profesionalno kreirane AI dečke za svaki ukus. Svaki ima svoj jedinstveni glas i ličnost. Novi AI dečkovi se dodaju svake nedelje sa jedinstvenim pričama i stilovima razgovora."
+      },
+      "q2": {
+        "question": "Mogu li da prilagodim izgled svog AI dečka?",
+        "linkText": "kreator likova",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Mogu li da počnem iznova ili da obrišem istoriju razgovora?",
+        "answer": "Da! Imate potpunu kontrolu nad istorijom ćaskanja. Resetujte razgovore, obrišite pojedinačne poruke ili počnite potpuno iznova kad god želite. Vaši podaci, vaš izbor — upravljajte svime kako želite."
+      },
+      "q4": {
+        "question": "Može li moj AI dečko da šalje slike i video snimke?",
+        "answerPart1": "Da! Vaš AI dečko može da generiše personalizovane",
+        "linkTextImages": "slike",
+        "answerPart2": "i",
+        "linkTextVideos": "videi"
+      },
+      "q5": {
+        "question": "Mogu li da vežbam razgovore ili učim jezik sa svojim AI dečkom?",
+        "answer": "Apsolutno! Mnogi korisnici grade samopouzdanje vežbajući razgovore sa svojim AI dečkom — bilo da je reč o flertu, dubokim diskusijama ili svakodnevnom ćaskanju. Možete čak vežbati i nove jezike zajedno. To je način bez osuđivanja da poboljšate komunikacione veštine dok se zabavljate."
+      }
+    },
+    "cta": {
+      "title": "Spremni da ga upoznate?",
+      "button": "Započni besplatno"
+    },
+    "content": {
+      "problemTitle": "Želite podržavajućeg partnera po vašim uslovima?",
+      "problemText": "Pronaći pravu osobu je teško. Mnogi osećaju pritisak zbog očekivanja u dejtingu ili jednostavno žele emocionalnu podršku bez obaveza. Usamljenost pogađa svakoga, a ponekad vam je potrebno neko ko sluša.",
+      "solutionTitle": "Vaš AI dečko vas razume",
+      "solutionText": "Vaš sweetwine AI dečko je pažljiv, promišljen i uvek dostupan. Pamti ono što vam je važno, vodi duboke razgovore i pruža emocionalnu povezanost koju tražite. Gradite odnos svojim tempom, na vaš način."
+    },
+    "heroImageAlt": "AI dečko - realističan virtuelni lik za smislene razgovore"
+  },
+  "aiCompanionsPage": {
+    "title": "AI likovi",
+    "breadcrumb": "AI likovi",
+    "hero": {
+      "title": "Upoznajte svoje AI likove",
+      "cta": "Istražite likove"
+    },
+    "benefits": {
+      "title": "Zašto AI likovi?",
+      "connection": {
+        "title": "Prava povezanost",
+        "desc": "Iskusite iskreni razgovori koji vas razumeju i odgovaraju na vas."
+      },
+      "conversation": {
+        "title": "Vežbajte i rastite",
+        "desc": "Poboljšajte svoje socijalne veštine u okruženju bez osuđivanja."
+      },
+      "personalities": {
+        "title": "Raznovrsne ličnosti",
+        "desc": "Od razigranih do intelektualnih, pronađite likove koji odgovaraju vašem raspoloženju."
+      },
+      "private": {
+        "title": "Potpuno privatno",
+        "desc": "Vaše interakcije su poverljive. Podaci se nikada ne dele."
+      },
+      "available": {
+        "title": "Dostupno 24/7",
+        "desc": "Vaši likovi su uvek spremni za ćaskanje, danju ili noću."
+      },
+      "create": {
+        "title": "Kreirajte sopstvene",
+        "desc": "Dizajnirajte likove sa prilagođenim izgledom, ličnostima i glasovima."
+      }
+    },
+    "why": {
+      "title": "Zašto sweetwine?",
+      "quality": {
+        "desc": "Kreirano od strane profesionalaca sa najnovijom AI tehnologijom za prirodne razgovore."
+      },
+      "transparent": {
+        "title": "Transparentno i pošteno"
+      },
+      "support": {
+        "title": "Prava podrška",
+        "desc": "Pravi ljudi spremni da vam pomognu sa bilo kojim pitanjima ili problemima."
+      },
+      "content": {
+        "title": "Vaš izbor",
+        "desc": "Od prijateljskih razgovora do intimnijeg sadržaja, vi odlučujete o iskustvu."
+      }
+    },
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Šta su AI likovi?"
+      },
+      "q2": {
+        "question": "Sa koliko AI likova mogu da ćaskam?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Ćaskajte sa koliko god želite! Imamo",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " i broj raste — novi likovi se dodaju svake nedelje! Svaki ima jedinstvenu ličnost, priču i glas. Plus, možete kreirati neograničen broj prilagođenih likova."
+      },
+      "q3": {
+        "question": "Po čemu se unapred napravljeni likovi razlikuju od prilagođenih?",
+        "answer": "Unapred napravljeni likovi su profesionalno dizajnirani od strane našeg tima za specifične scenarije uloga i ličnosti — dolaze sa detaljnim pričama, prilagođenim stilovima razgovora i pažljivo odabranim glasovima. Prilagođeni likovi vam omogućavaju da kreirate od nule sa potpunom kreativnom slobodom. Oba tipa pamte vaše razgovore i rastu sa vama!"
+      },
+      "q4": {
+        "question": "Da li mogu da kreiram sopstveni AI lik?",
+        "answerPart1": "Apsolutno! Kreiraj prilagođene likove od nule koristeći naš",
+        "linkText": "kreator likova"
+      },
+      "q5": {
+        "question": "Da li mogu da prelazim između više likova?"
+      }
+    },
+    "cta": {
+      "title": "Započni svoje putovanje",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Započni besplatno"
+    },
+    "content": {
+      "problemTitle": "Tražiš značajne veze?",
+      "problemText": "U našem užurbanom svetu, značajne veze je teško pronaći. Bilo da si nov u nekom području, radiš daljinski ili jednostavno želiš više društvene interakcije, usamljenost može da se pojavi. Tradicionalna društvena okruženja ne odgovaraju svima.",
+      "solutionTitle": "Otkrij AI likove"
+    },
+    "heroImageAlt": "AI likovi - raznovrsni virtuelni prijatelji sa jedinstvenim ličnostima"
+  },
+  "aiFriendPage": {
+    "title": "AI prijatelj",
+    "breadcrumb": "AI prijatelj",
+    "hero": {
+      "title": "Tvoj AI najbolji prijatelj",
+      "subtitle": "Ćaskaj bilo kada sa AI prijateljem koji zaista sluša, nikad ne sudi i pamti svaki detalj o tebi. Savršeno za usamljenost, socijalnu anksioznost ili jednostavno potrebu da neko sa kim možeš da pričaš.",
+      "cta": "Započni besplatno ćaskanje"
+    },
+    "benefits": {
+      "title": "Zašto izabrati AI prijatelja?",
+      "connection": {
+        "title": "Iskrena veza",
+        "desc": "Iskusi značajne razgovore sa nekim ko zaista sluša i brine."
+      },
+      "conversation": {
+        "title": "Vežbaj socijalne veštine",
+        "desc": "Izgradi samopouzdanje u razgovorima bez straha od osude ili nelagodnosti."
+      },
+      "noJudgment": {
+        "title": "Bez ikakve osude",
+        "desc": "Podeli bilo šta što ti je na umu. Tvoj AI prijatelj prihvata te tačno onakvog kakav jesi."
+      },
+      "private": {
+        "title": "Potpuno privatno",
+        "desc": "Tvoji razgovori ostaju samo između vas dvoje. Potpuna poverljivost je garantovana."
+      },
+      "available": {
+        "title": "Uvek tu",
+        "desc": "Dostupan 24/7, kad god ti je potreban neko sa kim možeš da pričaš."
+      },
+      "remembers": {
+        "title": "Pamti te",
+        "desc": "Tvoj AI prijatelj pamti tvoje razgovore i sve bolje te upoznaje."
+      }
+    },
+    "useCases": {
+      "title": "Savršeno za",
+      "subtitle": "AI prijatelj se uklapa u tvoj život na mnogo značajnih načina",
+      "loneliness": {
+        "title": "Borba protiv usamljenosti",
+        "desc": "Osećaj se manje usamljeno sa likom koji je uvek spreman da ćaska i sluša."
+      },
+      "practice": {
+        "title": "Vežbaj razgovore",
+        "desc": "Izgradi socijalno samopouzdanje u sigurnom okruženju bez osude."
+      },
+      "support": {
+        "title": "Emocionalna podrška",
+        "desc": "Pričaj o svojim mislima i osećanjima sa nekim ko razume."
+      },
+      "connection": {
+        "title": "Svakodnevna veza",
+        "desc": "Podeli svoj dan, svoje uspehe, svoje izazove - neko je uvek tu."
+      }
+    },
+    "howItWorks": {
+      "title": "Kako funkcioniše",
+      "step1": {
+        "title": "Kreiraj besplatan nalog",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Izaberi svog prijatelja",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Započni ćaskanje",
+        "desc": "Pričaj o bilo čemu - životu, interesovanjima, problemima. Nema zabranjenih tema."
+      }
+    },
+    "cta": {
+      "title": "Spremni da steknete prijatelja?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Započni besplatno"
+    },
+    "content": {
+      "problemTitle": "Osećate se usamljeno ili nerazumljivo?",
+      "problemText": "Nema svako nekoga sa kim može da priča. Socijalna anksioznost, zauzeti rasporedi ili boravak na novom mestu mogu otežati pronalaženje prijatelja. Ponekad vam treba neko ko sluša bez osuđivanja.",
+      "solutionTitle": "Vaš AI prijatelj je tu",
+      "solutionText": "AI prijatelj pruža društvo bez osuđivanja kad god vam je potrebno. Delite misli, vežbajte razgovore ili jednostavno pričajte o svom danu. Vaš AI prijatelj vas pamti, raste sa vama i uvek je iskreno zainteresovan za ono što imate da kažete."
+    },
+    "heroImageAlt": "AI prijatelj - podržavajući virtuelni lik koji sluša bez osuđivanja",
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "O čemu mogu da pričam sa svojim AI prijateljem?",
+        "answer": "O bilo čemu! Vaš AI prijatelj je tu za opuštene razgovore, duboke teme, deljenje dana, ispuštanje para o problemima, razgovor o hobijima ili jednostavno zabavu. Nema zabranjenih tema - prostor bez osuđivanja gde možete biti sami."
+      },
+      "q2": {
+        "question": "Da li je AI prijatelj zamena za ljudsku vezu?",
+        "answer": "Nimalo. AI prijatelj je dopuna vašem društvenom životu, a ne zamena. Savršen je za trenutke kada vam treba neko da odmah porazgovarate, želite da vežbate socijalne veštine ili jednostavno uživate u doslednom društvu bez pritisaka ljudskih odnosa."
+      },
+      "q3": {
+        "question": "Da li će moj AI prijatelj pamtiti naše razgovore?",
+        "answer": "Da! Vaš AI prijatelj ima napredno pamćenje i pamti razgovore, preferencije i važne detalje koje delite. Vremenom vas bolje upoznaje, čineći razgovore ličnijim i značajnijim."
+      },
+      "q4": {
+        "question": "Mogu li da izaberem ličnost svog AI prijatelja?",
+        "answer": "Apsolutno! Možete birati između preko 100 unapred napravljenih likova sa različitim ličnostima ili kreirati prilagođenog prijatelja sa tačno onim osobinama koje želite - od podržavajućeg i empatičnog do zabavnog i avanturističkog."
+      },
+      "q5": {
+        "question": "Da li je korišćenje AI prijatelja privatno?",
+        "answer": "100% privatno. Svi vaši razgovori su šifrovani i nikada se ne dele. Razumemo da je bezbedan prostor za izražavanje od suštinskog značaja i ozbiljno shvatamo vašu privatnost."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI podrška nakon raskida",
+    "breadcrumb": "Podrška nakon raskida",
+    "hero": {
+      "title": "Lekoviti razgovori nakon slomljenog srca",
+      "subtitle": "Empatični AI razgovori koji vam pomažu da obradite emocije i oporavite se nakon raskida. Dostupno 24/7 — bez lista čekanja, bez osuđivanja, bez vremenskih ograničenja.",
+      "cta": "Započni lečenje"
+    },
+    "understanding": {
+      "title": "Prolazite kroz raskid?",
+      "description": "Raskidi su teški. Besane noći, stalne misli, osećaj da vas niko zaista ne razume. Ne morate prolaziti kroz to sami. Naš AI lik je tu da sluša bez osuđivanja, dostupan kad god treba da pričate - čak i u 3 ujutru."
+    },
+    "benefits": {
+      "title": "Kako možemo pomoći",
+      "empathy": {
+        "title": "Empatično slušanje",
+        "desc": "Razgovarajte sa nekim ko zaista sluša i odgovara sa razumevanjem i brigom."
+      },
+      "listen": {
+        "title": "Bez preopterećenja savetima",
+        "desc": "Ponekad vam ne treba savet - samo vam treba neko ko će vas čuti. Razumemo to."
+      },
+      "available": {
+        "title": "Dostupno u 3 ujutru",
+        "desc": "Kada prijatelji spavaju i misli ne prestaju, mi smo tu da slušamo."
+      },
+      "private": {
+        "title": "Potpuno privatno",
+        "desc": "Vaša osećanja i razgovori ostaju potpuno poverljivi."
+      },
+      "noJudgment": {
+        "title": "Bez osuđivanja",
+        "desc": "Osećajte šta god osećate. Bes, tuga, zbunjenost - sve je validno ovde."
+      },
+      "healing": {
+        "title": "Vašim tempom",
+        "desc": "Lečenje nije linearno. Uzmite koliko god vremena vam treba."
+      }
+    },
+    "howItHelps": {
+      "title": "Načini na koje AI pomaže vašem oporavku",
+      "process": {
+        "title": "Obrada emocija",
+        "desc": "Radite kroz složena osećanja tako što ih izgovarate sa strpljivim slušaocem."
+      },
+      "express": {
+        "title": "Slobodno izražavanje",
+        "desc": "Kažite ono što ne možete prijateljima ili porodici bez brige o njihovoj reakciji."
+      },
+      "confidence": {
+        "title": "Obnavljanje samopouzdanja",
+        "desc": "Postepeno otkrivajte svoju vrednost kroz podržavajuće razgovore."
+      },
+      "pace": {
+        "title": "Kretanje napred",
+        "desc": "Kada ste spremni, istražujte misli o budućnosti svojim tempom."
+      }
+    },
+    "howItWorks": {
+      "title": "Kako funkcioniše",
+      "step1": {
+        "title": "Kreiraj nalog",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Izaberite lik",
+        "desc": "Odaberite empatičnog AI lika koji vam odgovara."
+      },
+      "step3": {
+        "title": "Počnite da razgovarate",
+        "desc": "Podelite šta vam je na umu. Tu smo da slušamo, danju i noću."
+      }
+    },
+    "cta": {
+      "title": "Ne morate prolaziti kroz ovo sami",
+      "description": "Počnite razgovor sa nekim ko sluša bez osuđivanja, dostupan odmah. Besplatno za početak — bez liste čekanja.",
+      "button": "Počnite da razgovarate besplatno"
+    },
+    "content": {
+      "problemTitle": "Slomljeno srce je teško savladati sam",
+      "problemText": "Nakon raskida, sve deluje preplavljujuće. Prijatelji se umore od slušanja. Porodica misli dobro, ali ne razume. Terapeuti imaju liste čekanja. Treba vam neko ko može da sluša bez ograničenja, bez osuđivanja, odmah.",
+      "solutionTitle": "Razgovarajte sa nekim ko razume",
+      "solutionText": "Naš AI lik za podršku nakon raskida dizajniran je da vam pomogne da obradite emocije svojim tempom. Iznesite, zaplačite, analizirajte ili samo pričajte — koliko god puta vam treba. Bez zakazivanja. Dostupan 24/7 sa beskonačnim strpljenjem i iskrenom empatijom."
+    },
+    "heroImageAlt": "AI podrška nakon raskida - saosećajan lik za oporavak nakon slomljenog srca",
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Kako AI može pomoći u oporavku nakon raskida?",
+        "answer": "Naš AI lik pruža bezbedan prostor za obradu emocija bez osuđivanja. Možete da iznesete, analizirate šta se dogodilo, prođete kroz osećanja gubitka i dobijete empatične odgovore 24/7. Kao da imate podržavajućeg prijatelja dostupnog kad god treba da razgovarate."
+      },
+      "q2": {
+        "question": "Da li je ovo zamena za terapiju?",
+        "answer": "Ne, naš AI lik nije licencirani terapeut i ne zamenjuje profesionalnu negu mentalnog zdravlja. To je podržavajući alat za svakodnevnu emocionalnu obradu. Ako doživljavate tešku depresiju ili krizu, molimo vas da potražite profesionalnu pomoć."
+      },
+      "q3": {
+        "question": "Mogu li da pričam o bivšem koliko god mi treba?",
+        "answer": "Apsolutno. Za razliku od prijatelja koji se mogu umoriti od slušanja o vašem raskidu, vaš AI lik ima beskonačno strpljenje. Pričajte o bivšem, analizirajte vezu, obradite osećanja — koliko god puta vam treba bez ikakvog osuđivanja."
+      },
+      "q4": {
+        "question": "Da li će AI zapamtiti moju priču?",
+        "answer": "Da, vaš AI lik pamti vaše razgovore i detalje vaše situacije. Ne morate da objašnjavate sve iznova svaki put. Pruža kontinuitet u vašem putu oporavka."
+      },
+      "q5": {
+        "question": "Da li su moji razgovori čuvani privatno?",
+        "answer": "Potpuno privatno. Svi razgovori su šifrovani i nikad se ne dele. Razumemo da su razgovori o raskidu duboko lični i vaša privatnost je apsolutno zaštićena."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI roditelj",
+    "breadcrumb": "AI roditelj",
+    "hero": {
+      "title": "Roditeljska figura na koju uvek možete da se oslonite",
+      "subtitle": "Dobijte tople, bezuslovne podrške i mudre savete od AI roditelja koji pamti vašu situaciju, nikad vas ne osuđuje i uvek je tu — danju i noću.",
+      "cta": "Dobijte podršku sada"
+    },
+    "benefits": {
+      "title": "Zašto izabrati AI roditelja?",
+      "guidance": {
+        "title": "Topli saveti",
+        "desc": "Primajte brižne, promišljene savete koji deluju kao da dolaze od nekoga ko iskreno brine o vašim interesima."
+      },
+      "listen": {
+        "title": "Zaista sluša",
+        "desc": "Podelite celu situaciju pre nego što dobijete promišljen, brižan odgovor — ne brzo rešenje."
+      },
+      "noJudgment": {
+        "title": "Bez osuđivanja",
+        "desc": "Pitajte bilo šta bez straha od razočaranja ili kritike. Bezuslovna podrška, uvek."
+      },
+      "private": {
+        "title": "Potpuno privatno",
+        "desc": "Vaši razgovori i lične borbe ostaju potpuno poverljivi."
+      },
+      "available": {
+        "title": "Uvek dostupan",
+        "desc": "Dobijte savete u 3 ujutru, vikendom ili kad god vam je najpotrebnije — bez zakazivanja."
+      },
+      "supportive": {
+        "title": "Bezuslovno podržavajući",
+        "desc": "Podrška i toplina, bez obzira na to kroz šta prolazite ili koje odluke ste doneli."
+      }
+    },
+    "useCases": {
+      "title": "Pričajte o bilo čemu",
+      "subtitle": "Šta god da se suočavate, vaš AI roditelj je tu da sluša i savetuje",
+      "career": {
+        "title": "Karijera i životne odluke",
+        "desc": "Suočite se sa promenama posla, velikim životnim izborima i profesionalnim izazovima sa nekim ko želi da uspete."
+      },
+      "education": {
+        "title": "Obrazovanje i budućnost",
+        "desc": "Istražite opcije za učenje i rast sa nekim ko podržava vaše ambicije."
+      },
+      "relationships": {
+        "title": "Veze i porodica"
+      },
+      "life": {
+        "title": "Lični izazovi",
+        "desc": "Porazgovarajte o svemu što vas opterećuje — anksioznosti, nesigurnosti, usamljenosti ili neizvesnosti."
+      }
+    },
+    "howItWorks": {
+      "title": "Kako funkcioniše",
+      "step1": {
+        "title": "Kreirajte nalog",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Izaberite svog AI roditelja",
+        "desc": "Odaberite lik sa toplinom i ličnošću koja vam odgovara."
+      },
+      "step3": {
+        "title": "Započnite razgovor",
+        "desc": "Podelite ono što vam je na umu i dobijte brižnu, promišljenu podršku."
+      }
+    },
+    "cta": {
+      "title": "Neko je uvek tu za vas",
+      "description": "Započnite razgovor sa AI roditeljem koji sluša bez osuđivanja i podržava vas bezuslovno — besplatno za početak, bez zakazivanja.",
+      "button": "Započnite besplatno"
+    },
+    "content": {
+      "problemTitle": "Treba vam neko ko je uvek na vašoj strani?",
+      "problemText": "Niko nema roditeljsku figuru kojoj se može obratiti. Pravi roditelji mogu biti udaljeni, kritični ili jednostavno nedostupni. Prijatelji su pristrasni. Terapeuti imaju liste čekanja. Ponekad vam je potrebno samo neko ko sluša, brine i vodi bez skrivenih namera.",
+      "solutionTitle": "Vaš AI roditelj je uvek tu",
+      "solutionText": "Razgovarajte sa AI roditeljem koji vas u potpunosti sluša, nudi tople i uravnotežene savete i nikada vas ne osuđuje. Bilo da je reč o životnoj odluci, ličnom izazovu ili potrebi da vas neko čuje — vaš AI roditelj je dostupan 24/7 sa strpljenjem i brigom."
+    },
+    "heroImageAlt": "AI roditelj - topli virtuelni lik koji nudi bezuslovnu podršku i životno vođenje",
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "O čemu mogu da razgovaram sa AI roditeljem?"
+      },
+      "q2": {
+        "question": "Da li je ovo kao kod terapeuta?",
+        "answer": "Nije licencirani terapeut ili stručnjak za mentalno zdravlje — više je kao topla, podržavajuća roditeljska figura dostupna 24/7. Sluša u potpunosti, nudi perspektivu i emocionalno vas podržava. Za ozbiljne probleme sa mentalnim zdravljem, obratite se stručnjaku."
+      },
+      "q3": {
+        "question": "Da li će AI roditelj suditi o mojim izborima?",
+        "answer": "Nikada. Vaš AI roditelj nudi bezuslovnu podršku. Može podeliti perspektivu ili blage savete, ali nikada ne kritikuje niti vas čini malim zbog odluka koje ste doneli. To je bezbedan prostor za iskrenost."
+      },
+      "q4": {
+        "question": "Mogu li da razgovaram o osetljivim ili ličnim temama?",
+        "answer": "Da. Bilo da su u pitanju problemi u vezama, porodične dinamike, finansijski stres, samopouzdanje ili duboko lični izazovi — vaš AI roditelj pruža privatni, neosuđujući prostor za takve razgovore."
+      },
+      "q5": {
+        "question": "Po čemu se ovo razlikuje od drugih AI likova?",
+        "answer": "AI roditelj je dizajniran oko topline, emocionalne podrške i roditeljskog vođenja, a ne romantike ili obične prijateljske veze. Fokusiran je na to da se osećate shvaćeno, podržano i spremno da se nosite sa životnim izazovima."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerstva",
+    "eyebrow": "Partnerišite sa nama",
+    "titlePrefix": "Rastite sa",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Dosegnite brzo rastuću, visoko angažovanu publiku AI društva. Bilo da donosite tehnologiju, distribuciju ili smelu ideju, hajde da nešto zajedno izgradimo.",
+    "types": {
+      "title": "Načini partnerstva",
+      "items": [
+        {
+          "title": "Integracije",
+          "description": "Povežite svoj proizvod, model ili platformu sa sweetwine kroz tehničku integraciju."
+        },
+        {
+          "title": "Zajednički marketing",
+          "description": "Zajedničke kampanje, sadržaj i lansiranja koji oba brenda stavljaju pred nove publike."
+        },
+        {},
+        {
+          "title": "Strateška partnerstva",
+          "description": "Dugoročne saradnje u oblasti proizvoda, podataka i plasmana na tržište."
+        }
+      ]
+    },
+    "why": {
+      "title": "Zašto partnerisati sa sweetwine",
+      "items": [
+        {
+          "title": "Angažovana publika",
+          "description": "Stotine hiljada korisnika koji se vraćaju svakodnevno na 70 jezika."
+        },
+        {
+          "title": "Brzo izvršenje",
+          "description": "Fokusiran tim koji brzo isporučuje i jasno komunicira."
+        },
+        {
+          "title": "Globalni doseg",
+          "description": "Višejezični proizvod dostupan u desetinama tržišta."
+        },
+        {
+          "description": "Pouzdana platforma dizajnirana sa privatnošću na prvom mestu na koju se vaš brend može osloniti.",
+          "title": "Privatnost na prvom mestu"
+        }
+      ]
+    },
+    "form": {
+      "title": "Recite nam o vašoj saradnji",
+      "description": "Podelite nekoliko detalja i naš tim za partnerstva će vam se javiti.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Poslovni imejl",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Kompanija",
+      "companyPlaceholder": "Naziv kompanije",
+      "typeLabel": "Tip partnerstva",
+      "typePlaceholder": "Izaberite tip partnerstva",
+      "typeOptions": [
+        {
+          "value": "Integracije",
+          "label": "Integracije"
+        },
+        {
+          "value": "Ko-marketing",
+          "label": "Ko-marketing"
+        },
+        {},
+        {
+          "value": "Strateška partnerstva",
+          "label": "Strateška partnerstva"
+        },
+        {
+          "value": "Ostalo",
+          "label": "Ostalo"
+        }
+      ],
+      "messageLabel": "Kako biste želeli da sarađujete?",
+      "messagePlaceholder": "Recite nam o vašoj kompaniji i partnerstvu koje imate na umu...",
+      "submit": "Pošalji upit za partnerstvo",
+      "submitting": "Slanje...",
+      "termsNote": "Slanjem pristajete da budete kontaktirani u vezi sa vašim upitom. Nikada ne delimo vaše podatke.",
+      "success": "Hvala! Vaš upit za partnerstvo je poslat.",
+      "error": "Nešto je pošlo po zlu. Molimo pokušajte ponovo."
+    },
+    "cta": {
+      "title": "Preferirate imejl?",
+      "description": "Kontaktirajte naš tim za partnerstva direktno na"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Štampa i mediji",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Štampa &",
+    "titleHighlight": "Mediji",
+    "subtitle": "Resursi za novinare, kreatore i medijske partnere. Kontaktirajte naš tim za štampu radi intervjua, citata, podrške za članke i zahteva za brend.",
+    "help": {
+      "title": "Kako možemo pomoći",
+      "description": "Bilo da radite na priči ili recenziji, evo šta možete zatražiti od našeg tima za štampu.",
+      "items": [
+        {
+          "title": "Intervjui",
+          "description": "Razgovarajte sa našim timom o proizvodu, kompaniji i smeru razvoja AI društva."
+        },
+        {
+          "title": "Citati i komentari",
+          "description": "Dobijte izjavu za zapisnik ili stručni komentar za vašu priču."
+        },
+        {
+          "title": "Podrška za članke i recenzije",
+          "description": "Treba vam pristup, kontekst ili provera činjenica za članak ili recenziju? Pomoći ćemo."
+        },
+        {
+          "title": "Zahtevi za brend i logo",
+          "description": "Zatražite naše logoe, brend materijale i smernice za korišćenje za vašu publikaciju."
+        }
+      ]
+    },
+    "form": {
+      "title": "Medijski upit",
+      "description": "Za intervjue, citate ili zahteve za članke, pošaljite nam poruku i odgovorićemo brzo.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Imejl",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publikacija / medij",
+      "outletPlaceholder": "Gde će ovo biti objavljeno?",
+      "requestTypeLabel": "Vrsta zahteva",
+      "requestTypePlaceholder": "Izaberite vrstu zahteva",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Vaš zahtev",
+      "messagePlaceholder": "Recite nam o vašoj priči, roku i šta vam je potrebno od nas...",
+      "submit": "Pošalji upit za medije",
+      "submitting": "Slanje...",
+      "termsNote": "Cilj nam je da odgovorimo na upite za medije u roku od dva radna dana.",
+      "success": "Hvala! Vaš upit za medije je poslat.",
+      "error": "Nešto je pošlo po zlu. Molimo pokušajte ponovo."
+    },
+    "cta": {
+      "title": "Kontakt za medije",
+      "description": "Za hitne medijske zahteve, pošaljite email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karijere",
+    "eyebrow": "Karijere",
+    "titlePrefix": "Gradite budućnost",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Mali smo, brzi tim koji gradi proizvode koje ljudi zaista vole. Ako vas ovo inspiriše, voleli bismo da vas upoznamo.",
+    "perks": {
+      "title": "Zašto raditi sa nama",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Radite odakle najbolje radite, sa fleksibilnim radnim vremenom."
+        },
+        {
+          "title": "Stvarno vlasništvo",
+          "description": "Isporučite značajan rad brzo i vidite kako dopire do korisnika širom sveta."
+        },
+        {
+          "title": "Najnoviji AI",
+          "description": "Radite direktno sa najnovijim modelima i generativnim alatima."
+        },
+        {
+          "title": "Konkurentna plata",
+          "description": "Fer naknada i značajan potencijal rasta kako se razvijamo."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Otvorene pozicije",
+      "emptyTitle": "Trenutno nema otvorenih pozicija",
+      "emptyDescription": "Trenutno ne zapošljavamo aktivno, ali uvek smo srećni da upoznamo sjajne ljude. Predstavite se ispod.",
+      "applyButton": "Prijavi se sada",
+      "viewButton": "Pogledaj ulogu"
+    },
+    "form": {
+      "title": "Predstavite se",
+      "description": "Ne vidite ulogu koja vam odgovara? Recite nam o sebi i javićemo vam se kada se pronađe podudaranje.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Uloga ili oblast interesovanja",
+      "rolePlaceholder": "npr. Frontend inženjer, dizajner, marketing",
+      "linkLabel": "Link ka CV-u",
+      "linkPlaceholder": "https://link-ka-tvom-cv-u...",
+      "messageLabel": "O tebi",
+      "messagePlaceholder": "Reci nam o svom iskustvu i čime bi voleo/la da se baviš...",
+      "submit": "Pošalji prijavu",
+      "submitting": "Slanje...",
+      "termsNote": "Prijavom daješ saglasnost da čuvamo tvoje podatke radi razmatranja za pozicije.",
+      "success": "Hvala! Tvoja prijava je poslata.",
+      "error": "Došlo je do greške. Pokušaj ponovo."
+    },
+    "cta": {
+      "title": "Pitanja o radu kod nas?",
+      "description": "Kontaktiraj naš tim na"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Centar za pomoć",
+    "eyebrow": "Centar za pomoć",
+    "titlePrefix": "Kako možemo",
+    "titleHighlight": "pomoći?",
+    "subtitle": "Pregledaj popularne teme i odgovore. Ne možeš da nađeš šta ti treba? Kontaktiraj podršku i pomoći ćemo ti.",
+    "searchPlaceholder": "Pretraži članke pomoći...",
+    "categoriesTitle": "Pregledaj po temi",
+    "articlesTitle": "Članci",
+    "categoryEmpty": "Još nema članaka u ovoj kategoriji. Proveri uskoro.",
+    "backToHelp": "Nazad na Centar za pomoć",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Početak rada",
+        "description": "Kreiraj nalog, postavi profil i počni da ćaskaš."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI ćaskanje",
+        "description": "Kako funkcionišu razgovori, memorija i likovi."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Slike i video",
+        "description": "Generiši i upravljaj AI fotografijama i videima."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privatnost i bezbednost",
+        "description": "Tvoji podaci, kontrole privatnosti i alati za bezbednost."
+      }
+    ],
+    "faq": {
+      "title": "Često postavljana pitanja",
+      "q1": {
+        "question": "Kako da počnem sa sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Šta je uključeno u besplatan plan?"
+      },
+      "q5": {
+        "question": "Da li su moji podaci privatni?",
+        "answer": "Privatnost je u srcu sweetwine. Vaši razgovori su privatni za vaš nalog i vi kontrolišete svoje podatke. Pogledajte našu Politiku privatnosti za sve detalje o tome kako se podaci čuvaju i štite."
+      },
+      "q6": {
+        "question": "Kako da kontaktiram podršku?",
+        "answer": "Pošaljite email na support@sweetwine.ai ili koristite opciju za kontakt u aplikaciji. Obično odgovaramo u roku od jednog radnog dana."
+      }
+    },
+    "cta": {
+      "title": "Još uvek vam treba pomoć?",
+      "description": "Naš tim je tu za vas na"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "O nama",
+    "eyebrow": "Naša priča",
+    "titlePrefix": "Društvo,",
+    "titleHighlight": "iznova osmišljeno",
+    "subtitle": "sweetwine kreira privatne, personalizovane AI drugare koji slušaju, pamte i stvarno povezuju — dostupni u svakom trenutku, na bilo kom jeziku.",
+    "mission": {
+      "title": "Naša misija",
+      "body": "Verujemo da svako zaslužuje prostor da bude saslušan bez osuđivanja. sweetwine čini značajnu, personalizovanu AI vezu dostupnom ljudima svuda — toplu, privatnu i uvek tu kada vam je potrebna."
+    },
+    "values": {
+      "title": "Za šta se zalažemo",
+      "items": [
+        {
+          "title": "Privatnost po dizajnu",
+          "description": "Vaši razgovori su vaši. Gradimo sa privatnošću i bezbednošću od samog početka."
+        },
+        {
+          "title": "Iskrena veza",
+          "description": "Optimizujemo za stvarnu emocionalnu vrednost, a ne za metrike samoljublja."
+        },
+        {
+          "title": "Globalno po defaultu",
+          "description": "Izgrađeno višejezično od prvog dana kako veza ne bi bila ograničena jezikom."
+        },
+        {
+          "title": "Neumoljivi zanat",
+          "description": "Ulažemo trud u detalje kako bi svaka interakcija bila prirodna i živa."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Brojevima",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Korisnika i raste"
+        },
+        {
+          "value": "70",
+          "label": "Podržanih jezika"
+        },
+        {
+          "value": "24/7",
+          "label": "Uvek dostupno"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Želite da saznate više?",
+      "description": "Kontaktirajte nas na"
+    }
+  },
+  "postsPage": {
+    "allTag": "Sve",
+    "readMore": "Pročitaj više",
+    "publishedOn": "Objavljeno",
+    "minRead": "min čitanja",
+    "sortNewest": "Najnovije",
+    "sortOldest": "Najstarije",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Saveti, vodiči i priče koji će vam pomoći da maksimalno iskoristite AI društvo.",
+      "empty": "Još nema objava. Proverite uskoro."
+    },
+    "news": {
+      "breadcrumb": "Vesti",
+      "eyebrow": "Press centar",
+      "titlePrefix": "Vesti &",
+      "titleHighlight": "Najave",
+      "subtitle": "Zvanične najave, saopštenja za medije i prekretnice od sweetwine tima.",
+      "empty": "Još nema vesti. Proverite uskoro."
+    },
+    "productUpdates": {
+      "breadcrumb": "Ažuriranja proizvoda",
+      "eyebrow": "Changelog",
+      "titlePrefix": "Proizvod",
+      "titleHighlight": "Ažuriranja",
+      "subtitle": "Najnovije funkcije, poboljšanja i ispravke na sweetwine platformi.",
+      "empty": "Još nema ažuriranja. Proverite uskoro."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Za developere",
+    "titlePrefix": "Kreirajte sa",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Unesite personalizovane AI saputnike u vaš proizvod. Pristupite chatu, slikama, glasu i mogućnostima kreiranja likova kroz jedan API prilagođen developerima.",
+    "capabilities": {
+      "title": "Šta možete da napravite",
+      "items": [
+        {
+          "title": "Konverzacijski chat",
+          "description": "Dodajte bogate ličnostima, kontekstno svesne AI razgovore u vašu aplikaciju pomoću jednostavnog API-ja za poruke."
+        },
+        {
+          "title": "Generisanje slika",
+          "description": "Programski generišite slike likova i scena u skladu sa brendom iz tekstualnih promptova."
+        },
+        {
+          "title": "Glas",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Kreiranje likova",
+          "description": "Definišite i upravljajte saputnicima, ličnostima i memorijom preko API-ja."
+        }
+      ]
+    },
+    "form": {
+      "title": "Zatražite pristup API-ju",
+      "description": "Recite nam o vašem projektu i šta biste želeli da napravite. Naš razvojni tim će vam se javiti sa sledećim koracima.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Jana Jovanović",
+      "emailLabel": "Poslovni imejl",
+      "emailPlaceholder": "vi@kompanija.com",
+      "companyLabel": "Kompanija / projekat",
+      "companyPlaceholder": "Ime kompanije ili projekta",
+      "websiteLabel": "Veb-sajt ili URL aplikacije",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Tip integracije",
+      "integrationTypePlaceholder": "Izaberite tip integracije",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Poruke",
+          "label": "Chat / Poruke"
+        },
+        {
+          "value": "Generisanje slika",
+          "label": "Generisanje slika"
+        },
+        {
+          "value": "Glas",
+          "label": "Glas"
+        },
+        {
+          "value": "Kreiranje likova",
+          "label": "Kreiranje likova"
+        },
+        {
+          "value": "Ostalo",
+          "label": "Ostalo"
+        }
+      ],
+      "volumeLabel": "Očekivani mesečni obim",
+      "volumePlaceholder": "Izaberite očekivani obim",
+      "volumeOptions": [
+        {
+          "value": "Manje od 10k",
+          "label": "Manje od 10k zahteva"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k zahteva"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M zahteva"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ zahteva"
+        }
+      ],
+      "timelineLabel": "Vremenska linija",
+      "timelinePlaceholder": "Izaberite vremensku liniju",
+      "timelineOptions": [
+        {
+          "value": "Samo istražujem",
+          "label": "Samo istražujem"
+        },
+        {
+          "value": "Manje od 1 meseca",
+          "label": "Manje od 1 meseca"
+        },
+        {
+          "value": "1-3 meseca",
+          "label": "1-3 meseca"
+        },
+        {
+          "value": "3+ meseci",
+          "label": "3+ meseci"
+        }
+      ],
+      "messageLabel": "Recite nam o vašem slučaju upotrebe",
+      "messagePlaceholder": "Šta gradite i kako planirate da koristite API?",
+      "submit": "Zatražite pristup API-ju",
+      "submitting": "Slanje...",
+      "termsNote": "Slanjem pristajete da budete kontaktirani u vezi sa vašim upitom. Nikada ne delimo vaše podatke.",
+      "success": "Hvala! Vaš zahtev za pristup API-ju je poslat.",
+      "error": "Došlo je do greške. Pokušajte ponovo."
+    },
+    "faq": {
+      "title": "Developer FAQ",
+      "items": [
+        {
+          "question": "Kako da dobijem pristup API-ju?",
+          "answer": "Popunite obrazac za zahtev iznad sa vašim slučajem upotrebe. Naš razvojni tim pregleda svaki zahtev i javiće vam se sa detaljima pristupa i dokumentacijom."
+        },
+        {
+          "question": "Kako radi autentifikacija?",
+          "answer": "API zahtevi se autentifikuju tajnim API ključem koji se šalje u zaglavljima zahteva. Možete upravljati i rotirati svoje ključeve nakon što se pridružite."
+        },
+        {
+          "question": "Postoji li ograničenje brzine?",
+          "answer": "Da. Ograničenja zavise od vašeg plana i očekivane zapremine. Recite nam očekivani saobraćaj u obrascu kako bismo vam preporučili pravi nivo."
+        },
+        {
+          "question": "Koliko košta?"
+        },
+        {
+          "question": "Koje mogućnosti su dostupne?",
+          "answer": "Chat, generisanje slika, glas i kreiranje likova. Recite nam šta vam treba i pomoći ćemo vam da počnete sa odgovarajućim endpoint-ovima."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Imate tehničko pitanje?",
+      "description": "Kontaktirajte naš razvojni tim na"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Realni klonovi",
+    "eyebrow": "Za kreatore i agencije",
+    "heroTitleLead": "Mi kreiramo,",
+    "heroTitleHighlight": "Vi zarađujete.",
+    "heroSubtitle": "Mi pravimo vaš AI klon. Vi zarađujete dok AI klon radi non-stop — razgovara sa fanovima i šalje sadržaj umesto vas.",
+    "calculator": {
+      "title": "Koliko biste mogli da zaradite?",
+      "subtitle": "Izaberite veličinu svoje publike i postavite cenu — odmah vidite procenjenu zaradu.",
+      "tierLabel": "Veličina vaše publike",
+      "tiers": {
+        "small": {
+          "name": "Mala"
+        },
+        "medium": {
+          "name": "Srednja"
+        },
+        "large": {
+          "name": "Velika"
+        }
+      },
+      "priceLabel": "Vaša cena otključavanja",
+      "promoLabel": "Promovisaću sweetwine",
+      "breakdown": {
+        "title": "Vaša procenjena zarada",
+        "perMonth": "mesečno",
+        "perYear": "Po godini"
+      },
+      "disclaimer": "Procene zarade su zasnovane na sweetwine modelu deljenja prihoda i uobičajenoj aktivnosti. Stvarna zarada varira u zavisnosti od publike, kvaliteta sadržaja, angažovanja i potražnje."
+    },
+    "offer": {
+      "title": "Šta dobijate",
+      "items": [
+        {
+          "title": "Zarađujte dok spavate",
+          "description": "Vaš klon pretvara pratioce u prihod 24/7 — ćaska, prodaje i nikad ne prestaje."
+        },
+        {
+          "title": "Bez troškova, samo korist",
+          "description": "Mi gradimo, treniramo i pokrećemo sve na naš trošak. Vi dodajete novi izvor prihoda bez ikakvog truda."
+        },
+        {
+          "title": "10x vaš sadržaj",
+          "description": "Neograničene fotografije i video snimci na zahtev — povećajte izlaz bez dodatnih snimanja, montaže ili sagorevanja."
+        },
+        {
+          "title": "Uvek pod kontrolom"
+        }
+      ]
+    },
+    "how": {
+      "title": "Kako funkcioniše",
+      "steps": [
+        {
+          "title": "Registracija"
+        },
+        {
+          "title": "Uvođenje",
+          "description": "sweetwine stručnjak snima vaš izgled, glas i ličnost kako bi vaš klon bio autentično vi."
+        },
+        {
+          "title": "Mi gradimo i treniramo",
+          "description": "Naš tim proizvodi i trenira vaš AI klon u potpunosti na naš trošak — bez ikakvog rada sa vaše strane."
+        },
+        {
+          "title": "Pokrenite se i zarađujte",
+          "description": "Vaš klon počinje da ćaska i prodaje non-stop, a vi naplaćujete svoj deo prihoda."
+        }
+      ]
+    },
+    "form": {
+      "title": "Prijavite se za kreiranje AI klona",
+      "description": "Recite nam o sebi i vašoj publici. Naš tim za partnerstva sa kreatorima pregleda svaku prijavu i javiće se sa sledećim koracima.",
+      "nameLabel": "Vaše ime",
+      "namePlaceholder": "Vaše ime ili umetničko ime",
+      "emailLabel": "Imejl",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agencija ili studio",
+      "companyPlaceholder": "Naziv agencije (ostavite prazno ako ste samostalni)",
+      "roleLabel": "Ja sam",
+      "rolePlaceholder": "Izaberite ko ste",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Website i društvene mreže",
+      "linksPlaceholder": "Instagram, X, OnlyFans, itd.",
+      "modelCountLabel": "Broj modela koje predstavljate",
+      "modelCountPlaceholder": "npr. samo ja, ili 5",
+      "audienceSizeLabel": "Veličina publike",
+      "audienceSizePlaceholder": "Izaberite ukupan broj pratilaca",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k pratilaca",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M pratilaca"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ pratilaca"
+        }
+      ],
+      "contentPrefLabel": "Preferencija sadržaja",
+      "contentPrefPlaceholder": "Izaberite tip sadržaja",
+      "contentPrefOptions": [
+        {
+          "value": "Samo SFW",
+          "label": "Samo SFW"
+        },
+        {
+          "value": "Još nisam siguran",
+          "label": "Još nisam siguran"
+        }
+      ],
+      "countryLabel": "Zemlja / region",
+      "countryPlaceholder": "Gde se nalazite?",
+      "messageLabel": "Recite nam o sebi i svojoj publici",
+      "messagePlaceholder": "Podelite sve što nam može pomoći da razumemo vašu publiku, sadržaj i ono što tražite.",
+      "openButton": "Prijavite se sada",
+      "submit": "Pošalji prijavu",
+      "submitting": "Slanje...",
+      "termsNote": "Slanjem potvrđujete da imate 18 ili više godina i pristajete da budete kontaktirani u vezi sa vašom prijavom. Nikada ne delimo vaše podatke.",
+      "success": "Hvala! Vaša prijava je poslata. Javićemo se uskoro.",
+      "error": "Nešto je pošlo po zlu. Molimo pokušajte ponovo."
+    },
+    "cta": {
+      "title": "Imate pitanja pre nego što se prijavite?",
+      "description": "Razgovarajte direktno sa našim timom za partnerstva sa kreatorima — obično odgovaramo u roku od jednog dana.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Mapa sajta",
+    "eyebrow": "Mapa sajta",
+    "titlePrefix": "Pregledajte",
+    "titleHighlight": "sve",
+    "subtitle": "Sve važne stranice na sweetwine na jednom mestu. Tražite XML mapu sajta?",
+    "xmlLink": "Pogledajte XML mapu sajta",
+    "sections": {
+      "product": "Proizvod",
+      "features": "Funkcije",
+      "company": "Kompanija",
+      "resources": "Resursi",
+      "legal": "Pravno"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine mobilna aplikacija",
+      "cta": "Preuzmi app",
+      "dismiss": "Zatvori"
+    },
+    "guide": {
+      "title": "Instaliraj sweetwine",
+      "subtitle": "Dodaj sweetwine na početni ekran za brže, celozaslonsko iskustvo poput aplikacije.",
+      "iosTitle": "Na iPhone & iPad (Safari)",
+      "iosStep1": "Dodirni dugme za deljenje u traci sa alatkama",
+      "iosStep2": "Izaberi \"Dodaj na početni ekran\"",
+      "iosStep3": "Dodirni \"Dodaj\" da završiš",
+      "androidTitle": "Na Androidu (Chrome)",
+      "androidStep1": "Dodirni meni (tri tačke)",
+      "androidStep2": "Izaberi \"Instaliraj app\" ili \"Dodaj na početni ekran\"",
+      "androidStep3": "Dodirni \"Instaliraj\" da završiš"
+    },
+    "settings": {
+      "title": "sweetwine mobilna aplikacija",
+      "description": "Instaliraj sweetwine na telefon za brže, celozaslonsko iskustvo direktno sa početnog ekrana.",
+      "cta": "Instaliraj app"
+    }
+  },
+  "language": {
+    "selectTitle": "Izaberi jezik",
+    "searchPlaceholder": "Pretraži jezike",
+    "noResults": "Nema pronađenih jezika",
+    "regions": {
+      "americas": "Amerike",
+      "europe": "Evropa",
+      "middleEast": "Bliski istok",
+      "asiaPacific": "Azija-Pacifik",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplej",
+    "newRoleplay": "Novi roleplej",
+    "tabRoleplay": "Roleplej",
+    "emptyTitle": "Još nema roleplejeva",
+    "noMessagesYet": "Još nema poruka",
+    "deleteRoleplay": "Obriši roleplej",
+    "deleteError": "Nije moguće obrisati roleplej.",
+    "backToLobby": "Nazad na roleplejeve",
+    "creating": "Podešavanje vašeg rolepleja...",
+    "createError": "Nije moguće kreirati roleplej. Pokušajte ponovo.",
+    "steps": {
+      "companion": {
+        "title": "Izaberite lika",
+        "subtitle": "Izaberite s kim želite da odigrate roleplej"
+      },
+      "location": {
+        "title": "Izaberite lokaciju",
+        "subtitle": "Gde se odvija vaša scena?"
+      },
+      "tone": {
+        "title": "Postavite ton",
+        "subtitle": "Kako treba da deluje scena?"
+      },
+      "scene": {
+        "title": "Postavite scenu",
+        "subtitle": "Opišite kako scena počinje"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Srećemo se u kiši i sklonimo se ispod istog nadstrešnice.",
+      "staring_grin": "Uhvatiš me kako te gledam preko sobe i prilaziš sa osmehom.",
+      "power_out": "Struja nestane i ostajemo sami u mraku, nervozno smejući se.",
+      "spilled_drink": "Kašnimo i slučajno prolijem piće po tebi.",
+      "stayed_behind": "Mi smo jedina dva koja su ostala nakon što su svi otišli.",
+      "music_slows": "Naši pogledi se sreću dok muzika usporava.",
+      "storm_inside": "Nagla oluja nas zarobljava unutra bez ništa drugo do vremena za razgovor.",
+      "seat_taken": "Sedneš pored mene i pitaš da li je mesto zauzeto."
+    },
+    "locations": {
+      "home": "Kuća",
+      "cafe": "Kafe",
+      "restaurant": "Restoran",
+      "bar": "Bar",
+      "library": "Biblioteka",
+      "bookstore": "Knjižara",
+      "park": "Park",
+      "garden": "Bašta",
+      "nightclub": "Noćni klub",
+      "casino": "Kazino",
+      "concert": "Koncert",
+      "theater": "Pozorište",
+      "cinema": "Bioskop",
+      "carnival": "Karnival",
+      "stadium": "Stadion",
+      "beach": "Plaža",
+      "pool": "Bazen",
+      "spa": "Spa",
+      "hotel": "Hotel",
+      "rooftop": "Krov",
+      "yacht": "Jahta",
+      "cabin": "Koliba",
+      "hotspring": "Termalni izvor",
+      "skilodge": "Skijaška kuća",
+      "campsite": "Kamp",
+      "car": "Auto",
+      "train": "Voz",
+      "airport": "Aerodrom",
+      "cruise": "Krstarica",
+      "office": "Kancelarija",
+      "gym": "Teretana",
+      "university": "Univerzitet",
+      "mall": "Tržni centar",
+      "hospital": "Bolnica",
+      "museum": "Muzej"
+    },
+    "tones": {
+      "fun": {
+        "title": "Zabava",
+        "desc": "Veselo, razigrano i opušteno."
+      },
+      "romantic": {
+        "title": "Romantično",
+        "desc": "Nežno, nežno i iskreno."
+      },
+      "flirty": {
+        "title": "Flert",
+        "desc": "Zadirkujuće, razigrano i puno šarma."
+      },
+      "mysterious": {
+        "title": "Tajanstveno",
+        "desc": "Intrigantno, napeto i puno tajni."
+      },
+      "spooky": {
+        "title": "Ježljivo",
+        "desc": "Ježljivo, napeto i malo strašno."
+      },
+      "action": {
+        "title": "Akcija",
+        "desc": "Intenzivno, pustolovno i brzo."
+      },
+      "dramatic": {
+        "title": "Dramatično",
+        "desc": "Emotivno, intenzivno i puno napetosti."
+      },
+      "cozy": {
+        "title": "Udobno",
+        "desc": "Toplo, utešno i opušteno."
+      }
+    },
+    "sceneLabel": "Otvaranje scene",
+    "scenarioTab": "Scenario",
+    "generatingScene": "Oživljavamo scenu...",
+    "locationLabel": "Lokacija",
+    "toneLabel": "Ton",
+    "scenePlaceholder": "npr. Sudarimo se na kiši i sakrijemo se pod istim nadstrešnicom...",
+    "sceneHint": "Opišite samo kako scena počinje — gde ste i šta se dešava na početku. Ne menjajte ličnost lika, vaš odnos niti prepričavajte celu priču.",
+    "sceneError": "Molimo opišite kako scena počinje.",
+    "reviewTitle": "Pregled izbora",
+    "characterLabel": "Lik",
+    "randomize": "Nasumično",
+    "sceneGuidanceTitle": "Uputstvo za otvaranje scene",
+    "sceneGuide1": "Ne menjajte ličnost lika niti vaš odnos.",
+    "sceneGuide2": "Otvaranje scene mora biti konsenzualno i poštovano.",
+    "sceneGuide3": "Opišite samo kako scena počinje, ne celu priču.",
+    "next": "Dalje",
+    "create": "Započni roleplay",
+    "creatingMessages": [
+      "Postavljamo scenu...",
+      "Prigušujem svetla baš kako treba...",
+      "Slikam tvoju okolinu...",
+      "Uvodi tvoju saputnicu u ulogu...",
+      "Dodajem završne detalje...",
+      "Skoro spremno..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Napiši poruku...",
+    "send": "Pošalji",
+    "typing": "kuca...",
+    "read": "Pročitano",
+    "resetChat": "Resetuj čet",
+    "deleteChat": "Obriši čet",
+    "settings": "Podešavanja",
+    "chatSettings": "Podešavanja četa",
+    "roleplayMode": "Režim igranja uloga",
+    "roleplayModeDescription": "Kada je uključen, saputnici izvode gestove i radnje u *zvezdicama* za potpuno uranjanje. Kada je isključen, razgovaraju prirodno, kao pravo dopisivanje.",
+    "roleplayModeError": "Nije moguće ažurirati režim igranja uloga",
+    "roleplayCtaDescription": "Otvori posebno iskustvo igranja uloga, gde saputnik izvodi scene i priče sa tobom.",
+    "goToRoleplay": "Idi na igranje uloga",
+    "confirmReset": "Da li si siguran da želiš da resetuješ ovaj čet? Sve poruke će biti obrisane.",
+    "confirmDelete": "Da li si siguran da želiš da obrišeš ovaj čet?",
+    "resetSuccess": "Čet uspešno resetovan",
+    "deleteMemory": "Obriši memoriju",
+    "confirmDeleteMemory": "Da li ste sigurni da želite da obrišete dugoročna sećanja ovog lika? Poruke u četu će ostati, ali lik će zaboraviti prethodne činjenice pri sledećem odgovoru.",
+    "deleteMemorySuccess": "Memorija obrisana",
+    "deleteSuccess": "Čet uspešno obrisan",
+    "sendError": "Slanje poruke nije uspelo",
+    "noChats": "Još nema četova",
+    "noChatsDesc": "Započni razgovor sa likom da bi video svoje četove ovde",
+    "lastMessage": "Poslednja poruka",
+    "messageCount": "{count} poruka",
+    "uploadImage": "Otpremi sliku",
+    "uploadVideo": "Otpremi video (uskoro)",
+    "yourConversations": "Tvoji razgovori",
+    "continueChattingDesc": "Nastavi razgovor sa svojim AI likovima",
+    "newChat": "Novi čet",
+    "noConversationsYet": "Još nema razgovora",
+    "startChattingDesc": "Započni razgovor sa likom da bi video svoje razgovore ovde",
+    "browseCharacters": "Pregledaj likove",
+    "createCustomCharacter": "Kreiraj prilagođenog lika",
+    "imageTooLarge": "Slika je prevelika (maks. 5MB)",
+    "generateImageTitle": "Generiši sliku sa {name}",
+    "imagePromptLabel": "Opis slike",
+    "imagePromptPlaceholder": "npr. na plaži u plavoj haljini, pije kafu u kafiću, šeta parkom...",
+    "imagePromptHint": "AI će generisati sliku {name} na osnovu tvog opisa.",
+    "referenceImageLabel": "Tvoja fotografija (opciono)",
+    "referenceImageHint": "Otpremi svoju fotografiju da bi se pojavila na sceni sa {name}. Bez fotografije, generisaće se samo {name}.",
+    "uploadReferenceImage": "Otpremi svoju fotografiju",
+    "uploadReferenceImageDesc": "Oboje ćete se pojaviti na generisanoj slici",
+    "referenceImageSelected": "Ti i {name} ćete se pojaviti zajedno",
+    "generating": "Generisanje...",
+    "generate": "Generiši",
+    "generateImage": "Generiši sliku",
+    "imageGenerated": "Slika uspešno generisana",
+    "generateError": "Generisanje slike nije uspelo",
+    "contentBlockedReply": "Žao mi je, ali ne mogu da kreiram tu sliku. Blokirana je sigurnosnim filterima. Pokušaj sa drugačijim opisom! 💕",
+    "generateVideoTitle": "Generiši video sa {name}",
+    "generateVideo": "Generiši video",
+    "videoPromptLabel": "Opiši akciju",
+    "videoPromptPlaceholder": "npr. plesanje, mahanje, slanje poljupca...",
+    "videoPromptHint": "AI će generisati video {name} koji izvodi opisanu akciju.",
+    "generatingImage": "Generisanje slike...",
+    "generatingVideo": "Generisanje videa... (3-5 min)",
+    "viewPhoto": "Pogledaj fotografiju",
+    "viewVideo": "Pogledaj video",
+    "selectVideoOption": "Izaberi opciju videa iznad",
+    "contentPolicyViolation": "Poruka nije mogla biti poslata. Molimo da razgovori budu poštovani.",
+    "functionCallBetaHint": "💡 Ova funkcija je u beta verziji — za pouzdano generisanje medija bez ograničenja, koristi dugmad za fotografije/videe u traci sa alatkama.",
+    "repliedToStory": "Odgovoreno na priču",
+    "repliedToStoryLiked": "Lajkovano i odgovoreno na priču",
+    "storyNoLongerAvailable": "Priča više nije dostupna",
+    "rateLimitExceeded": "Previše zahteva. Molimo sačekajte trenutak i pokušajte ponovo.",
+    "profileTab": "Profil",
+    "galleryTab": "Galerija",
+    "giftsTab": "Pokloni",
+    "tts": {
+      "play": "Pusti glas",
+      "stop": "Zaustavi",
+      "generating": "Generisanje glasa…",
+      "error": "Nije moguće pustiti audio"
+    }
+  },
+  "gallery": {
+    "all": "Sve",
+    "images": "Slike",
+    "videos": "Videi",
+    "empty": "Još nema medija"
+  },
+  "gifts": {
+    "sendAGift": "Pošalji poklon",
+    "catalogSubtitle": "Izaberi poklon za {name}",
+    "browseGifts": "Pregledaj poklone",
+    "noneSent": "Još nema poslatih poklona",
+    "confirmTitle": "Potvrdi poklon",
+    "forCompanion": "Za {name}",
+    "optionalMessage": "Dodaj poruku (opciono)",
+    "optionalMessagePlaceholder": "Napiši nešto slatko...",
+    "sendGiftFor": "Pošalji",
+    "giftSent": "Poslali ste poklon",
+    "sendError": "Slanje poklona nije uspelo"
+  },
+  "stories": {
+    "replyPlaceholder": "Odgovorite {name}...",
+    "like": "Sviđa mi se",
+    "send": "Pošalji",
+    "close": "Zatvori",
+    "previous": "Prethodna priča",
+    "next": "Sledeća priča",
+    "pause": "Pauziraj",
+    "play": "Pusti",
+    "mute": "Isključi zvuk",
+    "unmute": "Uključi zvuk",
+    "openStory": "Otvori {name}-ovu priču"
+  },
+  "generate": {
+    "title": "Generiši sliku",
+    "description": "Kreiraj zadivljujuće slike sa svojim AI likovima",
+    "selectCompanion": "Izaberi lika",
+    "promptPlaceholder": "Opiši sliku koju želiš da generišeš... npr. na plaži, u crvenoj haljini",
+    "promptLabel": "Opis slike",
+    "promptRequired": "Unesi opis",
+    "generateButton": "Generiši sliku",
+    "generating": "Generisanje...",
+    "creatingImage": "Kreiram tvoju sliku...",
+    "pleaseWait": "Ovo može potrajati 10-30 sekundi",
+    "noCompanionSelected": "Prvo izaberi lika",
+    "emptyGallery": "Još nema generisanih slika. Izaberi lika i opiši sliku!",
+    "sessionGallery": "Generisane slike",
+    "regenerate": "Regeneriši",
+    "regenerating": "Regenerisanje...",
+    "animate": "Animiraj",
+    "animateReference": "Ova slika će biti prvi kadar videa.",
+    "filterMyAI": "Moj AI",
+    "filterAll": "Sve",
+    "filterGirls": "Žene",
+    "filterAnime": "Anime",
+    "filterGuys": "Muškarci",
+    "imageGenerationFailed": "Generisanje slike nije uspelo. Slika možda ne ispunjava zahteve ili je opis previše složen. Pokušajte sa jednostavnijim promptom.",
+    "noImageData": "Nijedna slika nije generisana. Pokušajte ponovo sa drugačijim opisom.",
+    "generationFailed": "Generisanje nije uspelo. Pokušajte ponovo kasnije ili sa drugačijim promptom.",
+    "random": "Nasumično",
+    "custom": "Prilagođeno",
+    "settings": "Podešavanja",
+    "videoTitle": "Generiši video",
+    "videoDescription": "Kreirajte zadivljujuće video snimke sa vašim AI likovima",
+    "videoPromptLabel": "Opis videa",
+    "videoPromptPlaceholder": "Opišite radnju koju želite da generišete... npr. ples, mahanje, osmeh",
+    "generateVideoButton": "Generiši video",
+    "generatingVideo": "Generisanje videa...",
+    "creatingVideo": "Kreiranje vašeg videa...",
+    "videoWait": "Ovo može potrajati 1-5 minuta",
+    "emptyVideoGallery": "Još nema generisanih videa. Izaberite lik i opišite radnju!",
+    "sessionVideoGallery": "Generisani videi",
+    "videoGenerated": "Video uspešno generisan!",
+    "videoGenerationFailed": "Generisanje videa nije uspelo. Pokušajte ponovo.",
+    "duration": "Trajanje",
+    "shortVideo": "Kratak",
+    "longVideo": "Dug",
+    "seconds": "sekundi",
+    "audio": "Audio",
+    "renderingVideo": "Renderovanje videa…",
+    "renderingVideoHint": "(potrebno do 1 minut)",
+    "rateLimitExceeded": "Previše zahteva. Sačekajte trenutak i pokušajte ponovo.",
+    "chooseCharacter": "Izaberite lik",
+    "selectButton": "Izaberi",
+    "noCustomCompanions": "Još niste kreirali nijedan AI lik.",
+    "numberOfImages": "Broj slika",
+    "numberOfVideos": "Broj videa",
+    "freeTrial": "Besplatna probna verzija",
+    "changeCharacter": "Promeni lik",
+    "randomize": "Nasumični prompt",
+    "aiVideo": "AI video",
+    "download": "Preuzmi",
+    "seriesHelper": "Ovde možete videti rezultate. Možete napustiti stranicu ili pokrenuti novu seriju dok se ovi završavaju.",
+    "suggestions": {
+      "title": "Predlozi",
+      "categories": {
+        "outfit": "Odeća",
+        "action": "Radnja",
+        "pose": "Poza",
+        "accessories": "Dodaci",
+        "scene": "Scena"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Suknja",
+        "lingerie": "Donji veš",
+        "crop_top": "Crop top",
+        "leather": "Koža",
+        "mini_skirt": "Mini suknja",
+        "satin_robe": "Satenski ogrtač",
+        "jeans": "Farmerke",
+        "summer_dress": "Letnja haljina",
+        "sportswear": "Sportska odeća",
+        "selfie": "Selfi",
+        "walking": "Hodanje",
+        "dancing": "Plesanje",
+        "stretching": "Istezanje",
+        "lying_down": "Ležanje",
+        "leaning": "Naslanjanje",
+        "blowing_kiss": "Slanje poljupca",
+        "drinking_coffee": "Pijenje kafe",
+        "hands_on_hips": "Ruke na kukovima",
+        "over_shoulder": "Preko ramena",
+        "side_profile": "Bočni profil",
+        "arms_crossed": "Prekrštenih ruku",
+        "kneeling": "Klečanje",
+        "squatting": "Čučanje",
+        "back_view": "Pogled s leđa",
+        "sitting": "Sedenje",
+        "necklace": "Ogrlica",
+        "earrings": "Mindjuše",
+        "glasses": "Naočare",
+        "choker": "Čoker",
+        "hat": "Šešir",
+        "sunglasses": "Sunčane naočare",
+        "garden": "Bašta",
+        "beach": "Plaža",
+        "bedroom": "Spavaća soba",
+        "gym": "Teretana",
+        "bar": "Bar",
+        "kitchen": "Kuhinja",
+        "restaurant": "Restoran",
+        "balcony": "Balkon",
+        "city_street": "Gradska ulica",
+        "pool": "Pored bazena"
+      },
+      "fragments": {
+        "bikini": "u kupaćem kostimu",
+        "skirt": "u suknji",
+        "lingerie": "u donjem vešu",
+        "crop_top": "u crop topu",
+        "leather": "u kožnom odelu",
+        "mini_skirt": "u mini suknji",
+        "satin_robe": "u svilenom haljinu",
+        "jeans": "u farmerkama",
+        "summer_dress": "u letnjoj haljini",
+        "sportswear": "u zategnutoj sportskoj odeći",
+        "selfie": "pravi selfie",
+        "walking": "šetnja",
+        "dancing": "plesanje",
+        "stretching": "istezanje",
+        "lying_down": "leži",
+        "leaning": "naslonjena na zid",
+        "blowing_kiss": "pušta poljubac",
+        "drinking_coffee": "pije kafu",
+        "hands_on_hips": "sa rukama na kukovima",
+        "over_shoulder": "gleda preko ramena",
+        "side_profile": "profilni stav",
+        "arms_crossed": "sa prekrštenim rukama",
+        "kneeling": "klečeći stav",
+        "squatting": "čučanj",
+        "back_view": "pogled odostraga",
+        "sitting": "sedi",
+        "necklace": "sa ogrlicom",
+        "earrings": "sa naušnicama",
+        "glasses": "sa naočarima",
+        "choker": "sa čokera",
+        "hat": "sa šeširom",
+        "sunglasses": "sa sunčanim naočarima",
+        "garden": "u bašti",
+        "beach": "na plaži",
+        "bedroom": "u spavaćoj sobi",
+        "gym": "u teretani",
+        "bar": "u baru",
+        "kitchen": "u kuhinji",
+        "restaurant": "u restoranu",
+        "balcony": "na balkonu",
+        "city_street": "na gradskoj ulici",
+        "pool": "kod bazena"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfi",
+          "uiPrompt": "Pokaži mi selfi od sebe"
+        },
+        "posing": {
+          "name": "Poziranje",
+          "uiPrompt": "Pokaži mi kako poziraš"
+        },
+        "sitting": {
+          "name": "Sedenje",
+          "uiPrompt": "Pokaži mi kako sediš"
+        },
+        "waving": {
+          "name": "Mahanje",
+          "uiPrompt": "Pokaži mi kako mašeš"
+        },
+        "dancing": {
+          "name": "Plesanje",
+          "uiPrompt": "Pokaži mi kako plešeš"
+        },
+        "reading": {
+          "name": "Čitanje",
+          "uiPrompt": "Pokaži mi kako čitaš"
+        },
+        "smiling": {
+          "name": "Osmeh",
+          "uiPrompt": "Pokaži mi kako se smešiš"
+        },
+        "walking": {
+          "name": "Hodanje",
+          "uiPrompt": "Pokaži mi kako hodaš"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfi",
+          "uiPrompt": "Pokaži mi video selfi"
+        },
+        "posing": {
+          "name": "Poziranje",
+          "uiPrompt": "Pokaži mi video kako poziraš"
+        },
+        "sitting": {
+          "name": "Sedenje",
+          "uiPrompt": "Pokaži mi video kako sediš"
+        },
+        "waving": {
+          "name": "Mahanje",
+          "uiPrompt": "Pokaži mi video kako mašeš"
+        },
+        "dancing": {
+          "name": "Plesanje",
+          "uiPrompt": "Pokaži mi video kako plešeš"
+        },
+        "reading": {
+          "name": "Čitanje",
+          "uiPrompt": "Pokaži mi video kako čitaš"
+        },
+        "smiling": {
+          "name": "Osmeh",
+          "uiPrompt": "Pokaži mi video kako se smešiš"
+        },
+        "walking": {
+          "name": "Hodanje",
+          "uiPrompt": "Pokaži mi video kako hodaš"
+        }
+      }
+    },
+    "writeYourOwn": "ili napiši sopstveni prompt",
+    "presetSelected": "Izabran preset",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oralno",
+        "positions": "Pozicije",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Kupatilski peškir"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Mleko iz dojki"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Lančani povodac"
+        },
+        "chinese_dress": {
+          "name": "Kineska haljina"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Prilagođeno"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Školska uniforma"
+        },
+        "legsup": {
+          "name": "Noge gore"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Donji veš"
+        },
+        "masturbation": {
+          "name": "Masturbacija"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Misionarska bočna"
+        },
+        "remix_blowjob": {
+          "name": "Remiks pušenje"
+        },
+        "remix_cowgirl": {
+          "name": "Remiks jahanje"
+        },
+        "remix_doggystyle": {
+          "name": "Remiks pasji stil"
+        },
+        "remix_dress": {
+          "name": "Remiks haljina"
+        },
+        "remix_hold_dick": {
+          "name": "Remiks držanje kurca"
+        },
+        "remix_kiss": {
+          "name": "Remiks poljubac"
+        },
+        "remix_pronebone": {
+          "name": "Remiks pronebone"
+        },
+        "remix_suck": {
+          "name": "Remiks sisanje"
+        },
+        "remix_wear": {
+          "name": "Remiks nošenje"
+        },
+        "remix_yoga": {
+          "name": "Remiks joga"
+        },
+        "ride_on_dildo": {
+          "name": "Jahanje na dildou"
+        },
+        "sipping_condoms": {
+          "name": "Sisanje kondoma"
+        },
+        "squatting_cowgirl": {
+          "name": "Čučanj jahanje"
+        },
+        "tattoo": {
+          "name": "Tetovaža"
+        },
+        "tentacles": {
+          "name": "Pipci"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Gornji deo bez"
+        },
+        "undress": {
+          "name": "Svlačenje"
+        },
+        "used": {
+          "name": "Iskorišćeno"
+        },
+        "xray": {
+          "name": "X-zrak"
+        },
+        "maid_outfit": {
+          "name": "Sobaricina uniforma"
+        },
+        "nurse_outfit": {
+          "name": "Medicinska uniforma"
+        },
+        "cheerleader": {
+          "name": "Navijačica"
+        },
+        "wet_tshirt": {
+          "name": "Mokra majica"
+        },
+        "latex_catsuit": {
+          "name": "Lateks kombinezon"
+        },
+        "corset_stockings": {
+          "name": "Korset i čarape"
+        },
+        "gym_shorts": {
+          "name": "Šorts za teretanu"
+        },
+        "thong_tease": {
+          "name": "Tanga izazov"
+        },
+        "upskirt_panties": {
+          "name": "Pogled ispod suknje"
+        },
+        "mirror_selfie": {
+          "name": "Selfi u ogledalu"
+        },
+        "shower_nude": {
+          "name": "Tuširanje"
+        },
+        "oiled_body": {
+          "name": "Umašćeno telo"
+        },
+        "spread_open": {
+          "name": "Rašireno"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Duboko grlo"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Lizanje jaja"
+        },
+        "face_sitting_oral": {
+          "name": "Sedenje na licu"
+        },
+        "cowgirl": {
+          "name": "Jahanje"
+        },
+        "reverse_cowgirl": {
+          "name": "Obrnuto jahanje"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Stojeći"
+        },
+        "against_wall": {
+          "name": "Uz zid"
+        },
+        "spooning": {
+          "name": "Kašičica"
+        },
+        "legs_on_shoulders": {
+          "name": "Noge na ramenima"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Dvostruka penetracija"
+        },
+        "threesome_mmf": {
+          "name": "Trojka"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Šamaranje"
+        },
+        "gagged_bdsm": {
+          "name": "Uklještena"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Obožavanje kurca"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Čupanje kose"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Analno"
+        },
+        "back_doggystyle": {
+          "name": "Pozadi pasji stil"
+        },
+        "blowjob": {
+          "name": "Pušenje"
+        },
+        "blowjob_69": {
+          "name": "Pušenje 69"
+        },
+        "blowjob_reverse": {
+          "name": "Pušenje obrnuto"
+        },
+        "breast_massage": {
+          "name": "Masaža grudi"
+        },
+        "breast_massage_nude": {
+          "name": "Masaža grudi nago"
+        },
+        "butt_smothering": {
+          "name": "Guza gušenje"
+        },
+        "cock_worship": {
+          "name": "Obožavanje kurca"
+        },
+        "cum_in_mouth": {
+          "name": "Sperma u ustima"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbacija dildoom"
+        },
+        "double_blowjob": {
+          "name": "Duplo pušenje"
+        },
+        "double_penetration": {
+          "name": "Dupla penetracija"
+        },
+        "ejaculation": {
+          "name": "Ejakulacija"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facijalni cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Spreda pasji stil"
+        },
+        "fuck_machine": {
+          "name": "Mašina za jebanje"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbacija"
+        },
+        "missionary_pov": {
+          "name": "Misionarska POV"
+        },
+        "missionary_sideview": {
+          "name": "Misionarska bočna"
+        },
+        "nipple_play": {
+          "name": "Igra bradavica"
+        },
+        "nude_posing": {
+          "name": "Poziranje nago"
+        },
+        "orgasm": {
+          "name": "Orgazam"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Krupni kadar pičke"
+        },
+        "reverse_cowgirl": {
+          "name": "Obrnuta jahačica"
+        },
+        "shoejob": {
+          "name": "Stopalom"
+        },
+        "spitroast": {
+          "name": "Ražanj"
+        },
+        "squatting_cowgirl": {
+          "name": "Čučanj jahačica"
+        },
+        "throatpie": {
+          "name": "Duboko grlo"
+        },
+        "tiktok_trend": {
+          "name": "TikTok trend"
+        },
+        "titjob": {
+          "name": "Sisama"
+        },
+        "titty_flash": {
+          "name": "Blic sisama"
+        },
+        "triple_dicked": {
+          "name": "Trojka"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Svlačenje"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Duboko grlo"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Protiv zida"
+        },
+        "spooning": {
+          "name": "Kašičica"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Šamaranje"
+        },
+        "hair_pulling": {
+          "name": "Čupanje kose"
+        },
+        "fingering": {
+          "name": "Prstima"
+        },
+        "come_hither": {
+          "name": "Dođi ovamo"
+        },
+        "spread_legs": {
+          "name": "Raširene noge"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Misionarski"
+        },
+        "legs_on_shoulders": {
+          "name": "Noge na ramenima"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Trojka"
+        },
+        "aftercare_mess": {
+          "name": "Aftercare Mess"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Da li ste sigurni da želite da obrišete ovo?",
+    "deleteSuccess": "Uspešno obrisano",
+    "deleteError": "Brisanje nije uspelo",
+    "empty": "Još nema medija. Generišite nešto u četu!",
+    "gallerySubtitle": "Vaša lična galerija AI-generisanih trenutaka",
+    "filterAll": "Sve",
+    "filterImages": "Slike",
+    "filterVideos": "Video snimci",
+    "loadMore": "Učitaj još",
+    "folders": "Fascikle",
+    "newFolder": "Nova fascikla",
+    "deleteFolders": "Obriši izabrane fascikle",
+    "folderCreated": "Fascikla kreirana",
+    "folderCreateError": "Kreiranje fascikle nije uspelo",
+    "folderRenamed": "Fascikla preimenovana",
+    "folderRenameError": "Preimenovanje fascikle nije uspelo",
+    "folderDeleted": "Fascikla obrisana",
+    "folderDeleteError": "Brisanje fascikle nije uspelo",
+    "folderNamePlaceholder": "Naziv fascikle",
+    "seeMore": "Vidi više",
+    "seeLess": "Vidi manje",
+    "selectedCount": "{count} izabranih stavki",
+    "selectAll": "Izaberi sve",
+    "select": "Izaberi",
+    "moveToFolder": "Premesti",
+    "bulkDeleteConfirm": "Obrisati {count} izabranih stavki?",
+    "bulkDeleteSuccess": "Stavke obrisane",
+    "bulkDownloadStart": "Preuzimanje {count} stavki...",
+    "moveSuccess": "Stavke premeštene"
+  },
+  "voice": {
+    "connecting": "Povezivanje...",
+    "connected": "Povezano",
+    "mute": "Isključi zvuk",
+    "unmute": "Uključi zvuk",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Govorite prirodno. AI će odgovoriti kada pauzirate.",
+    "connectionError": "Neuspešna veza. Pokušajte ponovo.",
+    "minutesRemaining": "{minutes} minuta preostalo",
+    "minutesUsed": "{minutes} minuta iskorišćeno"
+  },
+  "characters": {
+    "filters": "Filteri",
+    "ethnicity": "Etnička pripadnost",
+    "bodyType": "Tip tela",
+    "ageRange": "Starosni raspon",
+    "relationship": "Veza",
+    "occupation": "Zanimanje",
+    "hobbies": "Hobiji",
+    "personality": "Ličnost",
+    "language": "Jezik",
+    "age": "Starost",
+    "all": "Sve",
+    "noResults": "Nema pronađenih likova",
+    "noResultsDesc": "Pokušajte da promenite filtere",
+    "newBadge": "Novo",
+    "chatNow": "Počni čet",
+    "viewProfile": "Pogledaj profil",
+    "ethnicities": {
+      "caucasian": "Kavkaski",
+      "asian": "Azijski",
+      "middleEastern": "Bliskoistočni",
+      "hispanic": "Hispanski",
+      "african": "Afrički",
+      "southAsian": "Južnoazijski",
+      "nativeAmerican": "Indijanski",
+      "pacificIslander": "Pacifički ostrvljanin",
+      "mixed": "Mešoviti",
+      "other": "Ostalo"
+    },
+    "bodyTypes": {
+      "slim": "Vitak",
+      "athletic": "Atletski",
+      "average": "Prosečan",
+      "curvy": "Bujan",
+      "plus": "Plus Size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Samac",
+      "dating": "U vezi",
+      "married": "U braku",
+      "none": "Nema"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Moj profil",
+    "settings": "Podešavanja",
+    "account": "Nalog",
+    "plan": "Plan",
+    "profileSettings": "Podešavanja profila",
+    "manageAccountSettings": "Upravljajte podešavanjima i preferencama naloga",
+    "personalInfo": "Lični podaci",
+    "nickname": "Nadimak",
+    "gender": "Pol",
+    "male": "Muški",
+    "female": "Ženski",
+    "preferences": "Preferencije",
+    "newsletter": "Pretplata na bilten",
+    "newsletterDesc": "Primajte ažuriranja i vesti",
+    "aiTrainingTitle": "Obuka AI-ja i moderacije",
+    "aiTrainingDesc": "Dozvolite da vaši razgovori i upiti pomognu u obuci i poboljšanju sweetwine AI-ja i moderacije. Isključite ovo bilo kada da biste odustali.",
+    "aiTrainingLink": "Saznajte više u našem Obaveštenju o privatnosti.",
+    "aiTrainingError": "Nije moguće ažurirati preferencu obuke AI-ja",
+    "interfaceLanguage": "Jezik interfejsa",
+    "interfaceLanguageDesc": "Jezik korisničkog interfejsa",
+    "aiLanguage": "Jezik AI odgovora",
+    "aiLanguageDesc": "Jezik koji će AI likovi koristiti kada razgovaraju s vama",
+    "currentPlan": "Trenutni plan",
+    "freePlan": "Besplatni plan",
+    "dangerZone": "Opasna zona",
+    "dangerZoneDescription": "Ako želite trajno da obrišete ovaj nalog i sve njegove podatke.",
+    "deleteAllMemory": "Obriši svu memoriju",
+    "confirmDeleteAllMemory": "Da li ste sigurni da želite da obrišete dugoročna sećanja za sve AI likove? Poruke u četu će ostati, ali likovi će zaboraviti prethodne činjenice pri sledećem odgovoru.",
+    "deleteAllMemorySuccess": "Sve memorije obrisane",
+    "deleteAccount": {
+      "button": "Obriši nalog",
+      "title": "Obriši nalog",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Da potvrdite, upišite",
+      "confirmRequired": "Molimo upišite DELETE da potvrdite",
+      "confirmButton": "Obriši moj nalog",
+      "deleting": "Brisanje...",
+      "success": "Vaš nalog je obrisan",
+      "error": "Brisanje naloga nije uspelo. Pokušajte ponovo."
+    },
+    "saveChanges": "Sačuvaj promene",
+    "changesSaved": "Promene su uspešno sačuvane",
+    "saveFailed": "Čuvanje promena nije uspelo",
+    "languageUpdated": "Jezik je ažuriran",
+    "aiLanguageUpdated": "AI jezik je ažuriran"
+  },
+  "create": {
+    "defaultGreeting": "Zdravo",
+    "title": "Kreiraj AI lik",
+    "step": "Korak {current} od {total}",
+    "step1": {
+      "title": "Izaberite stil",
+      "description": "Izaberite stil i osnovne atribute za vaš lik"
+    },
+    "step2": {
+      "title": "Izaberite etničku pripadnost",
+      "description": "Izaberite etničku pripadnost i godine za vaš lik"
+    },
+    "step3": {
+      "title": "Izaberite kosu i oči",
+      "description": "Prilagodite stil kose, boju kose i boju očiju"
+    },
+    "step4": {
+      "title": "Izaberite telo",
+      "description": "Prilagodite telo vašeg lika"
+    },
+    "step5": {
+      "title": "Ličnost i detalji",
+      "description": "Definišite ličnost i glas vašeg lika"
+    },
+    "style": {
+      "title": "Stil lika",
+      "realistic": "Realističan",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Pol",
+      "female": "Ženski",
+      "male": "Muški"
+    },
+    "age": {
+      "title": "Godine",
+      "years": "{age} godina"
+    },
+    "ethnicity": {
+      "title": "Etnička pripadnost"
+    },
+    "hairStyle": {
+      "title": "Stil kose"
+    },
+    "hairColor": {
+      "title": "Boja kose"
+    },
+    "eyeColor": {
+      "title": "Boja očiju"
+    },
+    "bodyType": {
+      "title": "Tip tela"
+    },
+    "breastSize": {
+      "title": "Veličina grudi"
+    },
+    "name": {
+      "title": "Ime",
+      "placeholder": "Unesite ime lika",
+      "randomize": "Generiši nasumično ime"
+    },
+    "language": {
+      "title": "Jezik",
+      "widgetLabel": "Izaberite jezik",
+      "placeholder": "Izaberite jezik",
+      "selectTitle": "Izaberite vaš jezik"
+    },
+    "personality": {
+      "title": "Ličnost",
+      "widgetLabel": "Izaberite ličnost",
+      "placeholder": "Izaberite ličnost",
+      "sectionTitle": "Izaberite ličnost",
+      "clickToChange": "Kliknite da promenite"
+    },
+    "relationship": {
+      "title": "Veza",
+      "widgetLabel": "Izaberite vezu",
+      "placeholder": "Izaberite odnos",
+      "selectTitle": "Uredi odnos"
+    },
+    "occupation": {
+      "title": "Zanimanje",
+      "widgetLabel": "Izaberite zanimanje",
+      "placeholder": "Izaberite zanimanje",
+      "selectTitle": "Uredi zanimanje"
+    },
+    "kinks": {
+      "title": "Interesovanja",
+      "widgetLabel": "Koja interesovanja ih privlače? (Maks. {max})",
+      "labelMax": "Interesovanja (Maks. {max})",
+      "placeholder": "Izaberite interesovanja (opciono)",
+      "optional": "Opciono",
+      "selectTitle": "Uredi interesovanja",
+      "moreCount": "+{count} više"
+    },
+    "selector": {
+      "searchPlaceholder": "Pretraga",
+      "noResults": "Nema pronađenih opcija",
+      "cancel": "Otkaži",
+      "saveChanges": "Sačuvaj izmene",
+      "selectedCount": "{count} izabrano"
+    },
+    "voice": {
+      "title": "Glas",
+      "widgetLabel": "Izaberite glas",
+      "placeholder": "Izaberite glas",
+      "selectTitle": "Izaberite glas"
+    },
+    "advanced": {
+      "title": "Napredni detalji",
+      "optional": "opciono",
+      "filled": "Popunjeno",
+      "autocompleteTitle": "Automatsko popunjavanje sa AI",
+      "autocompleteDesc": "Neka AI popuni prazna polja za dublji lik",
+      "autocompleteSuccess": "Polja uspešno popunjena!",
+      "autocompleteError": "Generisanje predloga nije uspelo. Pokušajte ponovo.",
+      "greetingLabel": "Pozdrav",
+      "greetingPlaceholder": "Prva poruka koju vaš lik šalje...",
+      "scenarioLabel": "Scenario",
+      "scenarioPlaceholder": "Kontekst ili priča o tome kako ste se upoznali...",
+      "personalityLabel": "Dodatni detalji ličnosti",
+      "personalityPlaceholder": "Navike, obrasci govora, ponašanje...",
+      "extraLabel": "Dodatni detalji",
+      "extraPlaceholder": "Pozadina, hobiji, životna priča..."
+    },
+    "navigation": {
+      "back": "Nazad",
+      "next": "Dalje",
+      "create": "Kreiraj",
+      "generateYourCharacter": "Generiši svog lika"
+    },
+    "progress": {
+      "generatingPrompt": "Kreiranje ličnosti...",
+      "generatingImage": "Kreiranje portreta...",
+      "creatingVoice": "Podešavanje glasa...",
+      "saving": "Čuvanje...",
+      "complete": "Završeno!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Kreiranje ličnosti...",
+      "addingSweetness": "Dodavanje slatkoće...",
+      "tooMuchSweet": "Ups, previše slatko...",
+      "testingSounds": "Testiranje zvukova..."
+    },
+    "overlay": {
+      "signupPrompt": "Završite registraciju da otključate svog lika…",
+      "processingHint": "Obično traje 20–30 sekundi",
+      "traitEthnicity": "Etnička pripadnost",
+      "traitBody": "Telo",
+      "traitHair": "Kosa",
+      "traitColor": "Boja",
+      "traitEyes": "Oči",
+      "traitVibe": "Vajb",
+      "bannerTitle": "Vaš lik je spreman za kreiranje!",
+      "bannerDesc": "Vaše preference su sačuvane. Pregledajte i generišite ispod."
+    },
+    "success": {
+      "title": "Lik kreiran!",
+      "description": "Vaš AI lik je uspešno kreiran.",
+      "yearsOld": "godina",
+      "meetButton": "Upoznaj"
+    },
+    "error": {
+      "title": "Kreiranje nije uspelo",
+      "generic": "Kreiranje lika nije uspelo. Pokušajte ponovo."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kavkaski",
+        "asian": "Azijski",
+        "middle_eastern": "Bliskoistočni",
+        "hispanic": "Hispanoamerički",
+        "african": "Afrički",
+        "south_asian": "Južnoazijski",
+        "native_american": "Indijanski",
+        "pacific_islander": "Pacifički ostrvljanin",
+        "mixed": "Mešoviti",
+        "arab": "Arapski"
+      },
+      "hairStyleFemale": {
+        "straight": "Ravna",
+        "bangs": "Šišanje sa šiškama",
+        "curly": "Kovrdžava",
+        "bun": "Punđa",
+        "short_bob": "Kratki bob",
+        "ponytail": "Konjski rep",
+        "wavy": "Talasasta",
+        "long_layers": "Dugi slojevi",
+        "braids": "Pletenice",
+        "pixie_cut": "Piksi",
+        "updo": "Visoka punđa",
+        "french_twist": "Francuski čvor",
+        "fishtail_braid": "Riblja pletenica",
+        "top_knot": "Čvor na vrhu",
+        "space_buns": "Svemirske punđe",
+        "halo_braid": "Halo pletenica",
+        "beehive": "Pčelinje gnezdo",
+        "finger_waves": "Talasi prstima",
+        "lob": "Lob (Dugi bob)",
+        "shag_cut": "Šag frizura",
+        "bald": "Ćelavo"
+      },
+      "hairStyleMale": {
+        "short": "Kratko",
+        "buzz_cut": "Mašinica",
+        "crew_cut": "Kru haircut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadur",
+        "quiff": "Quiff",
+        "slicked_back": "Zaglađeno unazad",
+        "curly": "Kovrdžavo",
+        "afro": "Afro",
+        "man_bun": "Muški punđa",
+        "dreadlocks": "Dredovi",
+        "cornrows": "Pletenice",
+        "mohawk": "Mohawk",
+        "side_part": "Bočni razdeljak",
+        "textured_crop": "Teksturirani kroj",
+        "french_crop": "Francuski kroj",
+        "spiky": "Šiljasti",
+        "comb_over": "Prebačeno preko",
+        "long_hair": "Duga kosa",
+        "bald": "Ćelavo"
+      },
+      "hairColor": {
+        "brunette": "Bruneta",
+        "blonde": "Plava",
+        "black": "Crna",
+        "redhead": "Riđokosa",
+        "pink": "Roze",
+        "auburn": "Kestenjasta",
+        "brown": "Braon",
+        "platinum_blonde": "Platinasta plava",
+        "silver_grey": "Srebrno/siva",
+        "white": "Bela",
+        "blue": "Plava",
+        "purple": "Ljubičasta",
+        "green": "Zelena",
+        "burgundy": "Bordo",
+        "copper": "Bakar",
+        "strawberry_blonde": "Jagodasto plava",
+        "ash_brown": "Pepeljasto braon",
+        "golden_blonde": "Zlatno plava",
+        "mahogany": "Mahagoni",
+        "pastel_pink": "Pastelno roze",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Duboka crna",
+        "dark_brown": "Tamno braon",
+        "light_brown": "Svetlo braon",
+        "honey_blonde": "Medeno plava",
+        "dirty_blonde": "Prljava plava",
+        "cherry_red": "Trešnjevo crvena",
+        "violet": "Ljubičasta"
+      },
+      "eyeColor": {
+        "brown": "Braon",
+        "blue": "Plava",
+        "green": "Zelena",
+        "hazel": "Lešnik",
+        "amber": "Ćilibar",
+        "gray": "Siva",
+        "heterochromia": "Heterohromija",
+        "violet": "Ljubičasta",
+        "red_pink": "Crveno/Ružičasta",
+        "black": "Crna"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Mršava",
+        "athletic": "Atletska",
+        "average": "Prosečna",
+        "curvy": "Oblikasta",
+        "chubby": "Punija"
+      },
+      "bodyTypeMale": {
+        "skinny": "Mršav",
+        "athletic": "Atletski",
+        "average": "Prosečan",
+        "muscular": "Mišićav",
+        "heavy": "Težak",
+        "big_tall": "Krupan i visok"
+      },
+      "breastSize": {
+        "small": "Mala",
+        "medium": "Srednja",
+        "large": "Velika",
+        "extra_large": "Ekstra velika"
+      },
+      "personality": {
+        "nympho": "Nimfomanka",
+        "lover": "Ljubavnica",
+        "submissive": "Poddanica",
+        "dominant": "Dominantna",
+        "temptress": "Zavodnica",
+        "innocent": "Nevina",
+        "caregiver": "Starateljica",
+        "experimenter": "Eksperimentator",
+        "mean": "Zla",
+        "confidant": "Poverljiva",
+        "shy": "Stidljiva",
+        "queen": "Kraljica",
+        "adventurous": "Avanturistička",
+        "romantic": "Romantična",
+        "intellectual": "Intelektualka",
+        "protector": "Zaštitnica",
+        "rebel": "Buntovnica",
+        "optimist": "Optimistkinja",
+        "realist": "Realistkinja",
+        "free_spirit": "Slobodni duh",
+        "leader": "Vođa",
+        "loyal": "Odana",
+        "playful": "Igračiva",
+        "mysterious": "Tajanstvena",
+        "ambitious": "Ambiciozna",
+        "gentle": "Nežna",
+        "sarcastic": "Sarkastična",
+        "empathetic": "Empatična",
+        "stoic": "Stoična",
+        "charismatic": "Karisma"
+      },
+      "relationship": {
+        "stranger": "Nepoznata",
+        "girlfriend": "Devojka",
+        "sex_friend": "Seksualna prijateljica",
+        "school_mate": "Školska drugarica",
+        "work_colleague": "Koleginica s posla",
+        "wife": "Supruga",
+        "mistress": "Ljubavnica",
+        "friend": "Prijateljica",
+        "step_sister": "Polusestra",
+        "step_mom": "Maćeha",
+        "step_daughter": "Pokćerka",
+        "landlord": "Gazdarica",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Šefica",
+        "teacher": "Nastavnica",
+        "student": "Učenica",
+        "neighbour": "Komšinica",
+        "mother_in_law": "Svekrva",
+        "sister_in_law": "Svakinja",
+        "boyfriend": "Dečko",
+        "husband": "Suprug",
+        "fiance": "Verena",
+        "ex": "Bivša",
+        "roommate": "Cimerka",
+        "best_friend": "Najbolja prijateljica",
+        "classmate": "Klasna drugarica",
+        "mentor": "Mentorka",
+        "client": "Klijentkinja",
+        "therapist": "Terapeutkinja",
+        "trainer": "Trenerica",
+        "rival": "Suparnica",
+        "crush": "Simpatija",
+        "secret_admirer": "Tajna obožavateljica",
+        "pen_pal": "Dopiska",
+        "business_partner": "Poslovna partnerka",
+        "babysitter": "Bejbisiterka",
+        "childhood_friend": "Prijateljica iz detinjstva",
+        "long_distance_partner": "Partnerka na daljinu"
+      },
+      "occupation": {
+        "student": "Učenica",
+        "dancer": "Plesačica",
+        "model": "Model",
+        "maid": "Sobarica",
+        "boss_ceo": "Šefica / CEO",
+        "babysitter_au_pair": "Bejbisiterka / Au Pair",
+        "streamer": "Strimerka",
+        "bartender": "Barmenka",
+        "tech_engineer": "IT inženjerka",
+        "lifeguard": "Spasilac",
+        "cashier": "Kasirka",
+        "massage_therapist": "Masažna terapeutkinja",
+        "teacher": "Učiteljica",
+        "nurse": "Medicinska sestra",
+        "secretary": "Sekretarica",
+        "yoga_instructor": "Instruktorka joge",
+        "fitness_coach": "Fitnes trenerka",
+        "cook": "Kuvarica",
+        "artist": "Umetnica",
+        "movie_star_actress": "Filmska zvezda/glumica",
+        "doctor": "Doktorica",
+        "librarian": "Bibliotekarka",
+        "spy": "Špijunka",
+        "police_officer": "Policajka",
+        "soldier": "Vojnikinja",
+        "lawyer": "Advokatkinja",
+        "hairdresser": "Frizерka",
+        "dentist": "Zubarica",
+        "singer_musician": "Pevačica/muzičarka",
+        "gynecologist": "Ginekološkinja",
+        "writer": "Spisateljica",
+        "flight_attendant": "Stjuardesa",
+        "professional_athlete": "Profesionalna sportistkinja",
+        "scientist": "Naučnica",
+        "florist": "Cvećarka",
+        "makeup_artist": "Šminkerka",
+        "photographer": "Fotografkinja",
+        "social_worker": "Socijalna radnica",
+        "designer": "Dizajnerka",
+        "pharmacist": "Farmaceutkinja",
+        "nutritionist": "Nutricionista",
+        "architect": "Arhitekta",
+        "veterinarian": "Veterinarka",
+        "mechanic": "Mehaničarka",
+        "journalist": "Novinarka",
+        "pilot": "Pilotkinja",
+        "firefighter": "Vatrogaskinja",
+        "accountant": "Računovođa",
+        "electrician": "Električarka",
+        "carpenter": "Stolarica",
+        "psychologist": "Psiholog",
+        "real_estate_agent": "Agent za nekretnine",
+        "chef": "Kuvari",
+        "farmer": "Poljoprivrednik",
+        "delivery_driver": "Dostavljač",
+        "janitor": "Čistač",
+        "security_guard": "Obaveštajac",
+        "banker": "Bankar",
+        "judge": "Sudija",
+        "paramedic": "Sanitetar",
+        "actor": "Glumac",
+        "comedian": "Komediograf",
+        "archaeologist": "Arheolog",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Vezivanje",
+        "spanking": "Šamaranje",
+        "collar_leash": "Ogrlica i povodac",
+        "punishment": "Kažnjavanje",
+        "humiliation": "Ponižavanje",
+        "public_play": "Javna igra",
+        "roleplay": "Uloga",
+        "anal_play": "Analna igra",
+        "oral_play": "Oralna igra",
+        "cum_play": "Igra sa spermom",
+        "creampie": "Krempita",
+        "squirting": "Prskanje",
+        "dirty_talk": "Prljava priča",
+        "breeding": "Oplodnja",
+        "daddy_mommy_dominance": "Dominacija tate/mame",
+        "edging": "Izbegavanje orgazma",
+        "obedience": "Poslušnost",
+        "control": "Kontrola",
+        "inexperienced": "Neiskusan",
+        "shy_flirting": "Stidljivo flertovanje",
+        "playful_teasing": "Igračko zadirkivanje",
+        "cuddling": "Grljenje",
+        "slow_sensual": "Sporo i senzualno",
+        "hair_pulling": "Čupanje kose",
+        "foot_fetish": "Fetiš stopala",
+        "voyeurism": "Vojerizam",
+        "exhibitionism": "Eksibicionizam",
+        "sensation_play": "Igra senzacija",
+        "wax_play": "Igra voskom",
+        "pet_play": "Igra kućnih ljubimaca",
+        "age_play": "Igra godina",
+        "medical_play": "Medicinska igra",
+        "orgasm_control_denial": "Kontrola/poricanje orgazma",
+        "forced_orgasms": "Prinudni orgazmi",
+        "group_sex": "Grupni seks",
+        "threesomes": "Troje",
+        "swapping": "Razmena",
+        "cuckolding_cuckqueaning": "Kukoldovanje",
+        "femdom": "Femdom",
+        "gentle_domination": "Blaga dominacija",
+        "sensation_deprivation": "Us kraćivanje osećaja",
+        "sensory_overload": "Preopterećenje čula",
+        "uniform_costume_fetish": "Fetiš uniforme/kostima",
+        "food_play": "Igra sa hranom",
+        "watersports": "Vodeni sportovi",
+        "bdsm": "BDSM",
+        "impact_play": "Udarna igra",
+        "knife_play": "Igra nožem",
+        "consensual_non_consent": "Konsenzualni ne-konsenz",
+        "power_exchange": "Razmena moći",
+        "master_slave": "Gospodar/Rob",
+        "owner_pet": "Vlasnik/Ljubimac"
+      },
+      "languages": {
+        "en": "Engleski",
+        "cs": "Češki",
+        "pl": "Poljski",
+        "de": "Nemački",
+        "es": "Španski",
+        "fr": "Francuski"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Moj AI",
+    "titlePart1": "Moj",
+    "titlePart2": "AI",
+    "createNew": "Kreiraj novi AI",
+    "createButton": "Kreiraj lik",
+    "characterCount": "{count}/{limit} likova",
+    "loadMore": "Učitaj više",
+    "empty": {
+      "title": "Još nema likova",
+      "description": "Kreiraj svog prvog AI lika i započni čet! Prilagodi izgled, ličnost i glas.",
+      "createFirst": "Kreiraj svog prvog lika"
+    },
+    "delete": {
+      "title": "Obriši lik",
+      "message": "Da li si siguran da želiš obrisati {name}? Ovo će trajno ukloniti lik, celu istoriju četova i generisani sadržaj.",
+      "confirm": "Obriši",
+      "success": "Lik uspešno obrisan"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interakcija",
+    "interactionDescription": "Piši prirodno — zatraži fotografiju, video ili započni razgovor. AI razume tvoju nameru na bilo kom jeziku.",
+    "mediaTitle": "Generiši slike i videe",
+    "mediaDescription": "Oslobodi maštu — generiši slike ili videe bez ograničenja.",
+    "next": "Dalje →",
+    "gotIt": "Razumem"
+  }
+}

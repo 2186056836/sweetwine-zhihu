@@ -1,0 +1,4034 @@
+{
+  "common": {
+    "save": "Yadda saxla",
+    "cancel": "Ləğv et",
+    "delete": "Sil",
+    "edit": "Redaktə et",
+    "close": "Bağla",
+    "now": "indi",
+    "loading": "Yüklənir...",
+    "error": "Xəta baş verdi",
+    "success": "Uğurlu",
+    "confirm": "Təsdiq et",
+    "back": "Geri",
+    "or": "Və ya",
+    "next": "Növbəti",
+    "submit": "Göndər",
+    "search": "Axtar",
+    "filter": "Filtrlə",
+    "clear": "Təmizlə",
+    "all": "Hamısı",
+    "yes": "Bəli",
+    "no": "Xeyr",
+    "download": "Yüklə",
+    "and": "və",
+    "tryAgain": "Yenidən cəhd et",
+    "change": "Dəyiş"
+  },
+  "navigation": {
+    "new": "YENİ",
+    "sectionBrowse": "Bax",
+    "sectionTalk": "Danış",
+    "sectionCreate": "Yarat",
+    "sectionLibrary": "Kitabxana",
+    "explore": "Ana səhifə",
+    "discover": "Kəşf et",
+    "createShort": "AI yarat",
+    "chats": "Söhbətlər",
+    "groupChat": "AI Qrup Söhbəti",
+    "roleplay": "Rol oyunu",
+    "collection": "Kolleksiya",
+    "generateImage": "Şəkil yarat",
+    "generateVideo": "Video yarat",
+    "createCharacter": "AI Personaj yarat",
+    "myAI": "Mənim AI",
+    "language": "Dil",
+    "contactUs": "Bizimlə əlaqə",
+    "account": "Hesab",
+    "sidebarPromoTitle": "Yay Endirimi — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Qadınlar",
+      "anime": "Anime",
+      "guys": "Kişilər"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "İndi söhbət et",
+    "like": "Bəyən"
+  },
+  "auth": {
+    "login": "Daxil ol",
+    "signup": "Qeydiyyatdan keç",
+    "createFreeAccount": "Pulsuz hesab yarat",
+    "logout": "Çıxış",
+    "email": "E-poçt",
+    "password": "Şifrə",
+    "confirmPassword": "Şifrəni təsdiq et",
+    "forgotPassword": "Şifrəni unutmusunuz?",
+    "noAccount": "Hesabınız yoxdur?",
+    "hasAccount": "Artıq hesabınız var?",
+    "signupPrompt": "Pulsuz Hesab Yarat",
+    "loginPrompt": "Daxil ol",
+    "continueWith": "Davam et",
+    "welcomeBack": "Xoş gəldiniz!",
+    "createAccount": "Hesabınızı yaradın",
+    "signInToAccount": "Hesabınıza daxil olun",
+    "emailRequired": "E-poçt tələb olunur",
+    "emailInvalid": "Yanlış e-poçt ünvanı",
+    "passwordRequired": "Şifrə tələb olunur",
+    "passwordLength": "Şifrə ən azı 6 simvoldan ibarət olmalıdır",
+    "passwordsMismatch": "Şifrələr uyğun gəlmir",
+    "emailAlreadyRegistered": "E-poçt artıq qeydiyyatdan keçib",
+    "emailAlreadyRegisteredDescription": "Bu e-poçt ilə hesab artıq mövcuddur. Zəhmət olmasa daxil olun.",
+    "loginError": "Daxil olma uğursuz oldu",
+    "signupError": "Qeydiyyat uğursuz oldu",
+    "loginSuccess": "Xoş gəldiniz!",
+    "signupSuccess": "Hesab uğurla yaradıldı!",
+    "logoutSuccess": "Uğurla çıxış etdiniz",
+    "logoutError": "Çıxış uğursuz oldu",
+    "linkExpired": "Bu doğrulama linkinin vaxtı bitib. Zəhmət olmasa yeni birini tələb edin.",
+    "accessDenied": "Giriş rədd edildi. Zəhmət olmasa yenidən cəhd edin.",
+    "verifyEmail": "E-poçtunuzu doğrulayın",
+    "verificationEmailSent": "Sizə doğrulama e-poçtu göndərdik",
+    "confirmYourEmail": "E-poçtunuzu təsdiq edin",
+    "confirmationLinkSent": "\"{email}\" ünvanına təsdiq linki göndərdik.",
+    "checkSpamFolder": "E-poçtu almadınız? Spam qovluğunu yoxlayın.",
+    "signupToChat": "Başlamaq üçün pulsuz hesab yaradın.",
+    "signupDescription": "Söhbətinizi davam etdirmək üçün hesab yaradın",
+    "emailVerificationTitle": "E-poçtunuzu yoxlayın",
+    "emailVerificationMessage": "{email} ünvanına doğrulama linki göndərdik. Zəhmət olmasa gələnlər qovluğunu yoxlayın və hesabınızı doğrulamaq üçün linkə klikləyin.",
+    "emailVerificationNext": "Doğrulamadan sonra onboarding prosesini tamamlayacaqsınız.",
+    "verificationEmailSentTo": "{email} ünvanına doğrulama e-poçtu göndərdik",
+    "verificationInstructions": "Gələnlər qutusunu yoxlayın və hesabınızı aktivləşdirmək üçün doğrulama linkinə klikləyin.",
+    "resetPassword": "Şifrəni sıfırla",
+    "resetPasswordDescription": "E-poçtunuzu daxil edin, biz sizə sıfırlama linki göndərəcəyik",
+    "resetEmailSent": "Bu e-poçtla hesab mövcuddursa, qısa müddətdə sıfırlama linki alacaqsınız",
+    "backToLogin": "Girişə qayıt",
+    "newPassword": "Yeni şifrə",
+    "confirmNewPassword": "Yeni şifrəni təsdiqlə",
+    "passwordResetSuccess": "Şifrə uğurla yeniləndi. Zəhmət olmasa daxil olun.",
+    "enterNewPassword": "Yeni şifrənizi daxil edin",
+    "redirectingToLogin": "Girişə yönləndirilir...",
+    "invalidResetLink": "Yanlış və ya vaxtı keçmiş link",
+    "invalidResetLinkDescription": "Bu şifrə sıfırlama linki yanlışdır və ya vaxtı keçib. Zəhmət olmasa yeni link tələb edin.",
+    "passwordsDontMatch": "Şifrələr uyğun gəlmir",
+    "currentPassword": "Cari şifrə",
+    "currentPasswordRequired": "Cari şifrə tələb olunur",
+    "changePassword": "Şifrəni dəyiş",
+    "changePasswordDescription": "Cari şifrənizi daxil edin və yeni şifrə seçin",
+    "newPasswordMustBeDifferent": "Yeni şifrə cari şifrədən fərqli olmalıdır",
+    "incorrectPassword": "Cari şifrə yanlışdır",
+    "passwordChangeSuccess": "Şifrə uğurla dəyişdirildi",
+    "changeEmail": "E-poçtu dəyiş",
+    "newEmail": "Yeni e-poçt",
+    "confirmNewEmail": "Yeni E-poçtu Təsdiqlə",
+    "emailsDontMatch": "E-poçtlar uyğun gəlmir",
+    "emailChangeDescription": "Həm cari, həm də yeni e-poçt ünvanınıza doğrulama e-poçtu göndəriləcək",
+    "emailMustBeDifferent": "Yeni e-poçt cari e-poçtdan fərqli olmalıdır",
+    "emailChangeSent": "Doğrulama e-poçtu göndərildi. Zəhmət olmasa yeni e-poçt qutunuzu yoxlayın.",
+    "emailChangeSecurityNote": "Təhlükəsizlik üçün təsdiq e-poçtları həm cari, həm də yeni e-poçt ünvanınıza göndəriləcək. Dəyişikliyi tamamlamaq üçün hər ikisindən təsdiq etməlisiniz.",
+    "otpDescription": "{email} ünvanına 6 rəqəmli kod göndərdik",
+    "otpVerify": "Təsdiqlə",
+    "otpResend": "Kodu yenidən göndər",
+    "otpResendIn": "{seconds} saniyə sonra yenidən göndər",
+    "otpNoCode": "Kodu almadınız?",
+    "otpInvalid": "Yanlış kod. Zəhmət olmasa yenidən cəhd edin.",
+    "otpSuccess": "E-poçt uğurla təsdiqləndi!",
+    "otpResendSuccess": "Yeni kod e-poçtunuza göndərildi",
+    "otpResendError": "Kodu yenidən göndərmək mümkün olmadı",
+    "continueWithEmail": "E-poçtla davam et",
+    "moreOptions": "Daha çox seçim",
+    "lessOptions": "Daha az seçim",
+    "enterYourEmail": "E-poçt ünvanınızı daxil edin",
+    "sendCode": "Kodu göndər",
+    "byCreatingAccountAgree": "Hesab yaratmaqla siz bizim",
+    "termsOfService": "Xidmət Şərtləri",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "sweetwine-a xoş gəlmisiniz",
+    "welcomeTo": "Xoş gəlmisiniz",
+    "letsGetStarted": "Sizi quraq",
+    "setupProfile": "Profilinizi qurun",
+    "step1of2": "Addım 1 / 2",
+    "step2of2": "Addım 2 / 2",
+    "nickname": "Ləqəb",
+    "nicknamePlaceholder": "Ləqəb seçin",
+    "nicknameRequired": "Zəhmət olmasa ləqəb daxil edin",
+    "gender": "Cins",
+    "genderRequired": "Zəhmət olmasa cinsinizi seçin",
+    "male": "Kişi",
+    "female": "Qadın",
+    "interfaceLanguage": "İnterfeys Dili",
+    "interfaceLanguageDesc": "Menyu və düymələr üçün dil",
+    "aiLanguage": "AI Cavab Dili",
+    "aiLanguageDesc": "AI sizinlə danışarkən istifadə edəcəyi dil",
+    "languageRequired": "Zəhmət olmasa dil seçin",
+    "continue": "Davam et",
+    "ageVerification": "Yaş Təsdiqi",
+    "ageVerificationText": "sweetwine-dan istifadə etmək üçün 18 yaş və ya daha böyük olmalısınız. Davam etməklə, qanuni yaşda olduğunuzu təsdiq edirsiniz.",
+    "beforeContinue": "Davam etməzdən əvvəl",
+    "mustBe18": "Bu xidmətdən istifadə etmək üçün 18 yaş və ya daha böyük olmalısınız",
+    "agreeToTerms": "Davam etməklə, {termsLink} və {privacyLink} qəbul edirsiniz",
+    "termsOfService": "Xidmət Şərtləri",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "iConfirm": "Təsdiq edirəm ki, 18 yaş və ya daha böyükəm və razıyam",
+    "ageRequired": "Davam etmək üçün yaşınızı təsdiq etməlisiniz",
+    "aiActConsent": "Yalnız AI ilə ünsiyyət qurduğumu qəbul edirəm",
+    "aiActRequired": "Davam etmək üçün bunu qəbul etməlisiniz",
+    "newsletterOptIn": "Yeniliklər və xəbərlər üçün xəbər bülletenimizə abunə olun",
+    "complete": "Quraşdırma Tamamlandı!",
+    "completeText": "Hər şey hazırdır! AI personajlarla söhbətə başlayın.",
+    "startExploring": "Kəşf etməyə başlayın",
+    "featuresTitle": "Mövcud Funksiyalar",
+    "featuresTitleWord1": "Mövcud",
+    "featuresTitleWord2": "Funksiyalar",
+    "feature1Title": "AI Söhbət",
+    "feature1Desc": "Senzurasız və şəxsi söhbətlər",
+    "feature2Title": "Şəkil Generasiyası",
+    "feature2Desc": "AI personajlarla senzurasız və fərdiləşdirilmiş şəkillər yaradın",
+    "feature3Title": "Video Generasiyası",
+    "feature3Desc": "Effektlərlə senzurasız AI videolar yaradın",
+    "feature5Title": "Fərdi AI Yaradıcısı",
+    "feature5Desc": "Öz personajınızı dizayn edin",
+    "feature6Title": "Personajlara Baxın",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI Rol Oyunu",
+    "feature7Desc": "Peşəkar şəkildə hazırlanmış hekayələr və fantaziyalar yaşayın",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Limitsiz, şəxsi və senzurasız söhbətlər",
+      "imageTitle": "Şəkil Generasiyası",
+      "imageDesc": "AI-nizin senzurasız, fərdiləşdirilmiş şəkillərini yaradın",
+      "videoTitle": "Video Generasiyası",
+      "videoDesc": "Effektlərlə senzurasız AI videoları yaradın",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Yoldaşınızla real vaxt səsli söhbətlər",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Daldırıcı hekayələr, fantaziyalar və interaktiv oyun",
+      "groupChatTitle": "AI Qrup Çatı",
+      "groupChatDesc": "Eyni anda 3 AI personajı ilə söhbət edin",
+      "creatorTitle": "Fərdi AI Yaradıcısı",
+      "creatorDesc": "Öz AI personajlarınızı dizayn edin və yaradın"
+    },
+    "freePlan": {
+      "title": "Hazırsınız!",
+      "subtitle": "Pulsuz planınıza daxil olanlar budur.",
+      "charactersTitle": "Öz personajınızı yaradın",
+      "charactersDesc": "Sıfırdan {count} fərdi AI personajı dizayn edin",
+      "imagesTitle": "Şəkil yaradın",
+      "imagesDesc": "Yoldaşınızın {count} pulsuz AI şəkli",
+      "messagesTitle": "Hər gün söhbət edin",
+      "messagesDesc": "Gündə {count} mesaj, hər 24 saatda yenilənir",
+      "cta": "Kəşf etməyə başlayın"
+    },
+    "redirectingIn": "Yönləndirilir",
+    "seconds": "saniyə",
+    "generateCharacter": "Personajınızı Yaradın",
+    "redirectingToCreate": "Personaj yaradıcısına yönləndirilir"
+  },
+  "errors": {
+    "pageNotFound": "Səhifə Tapılmadı",
+    "pageNotFoundDesc": "Axtardığınız səhifə mövcud deyil.",
+    "goHome": "Ana səhifəyə qayıt",
+    "somethingWentWrong": "Nəsə səhv getdi",
+    "tryAgain": "Yenidən cəhd edin",
+    "unauthorized": "İcazəsiz",
+    "unauthorizedDesc": "Bu səhifəyə daxil olmaq üçün daxil olmalısınız.",
+    "forbidden": "Qadağan",
+    "forbiddenDesc": "Bu səhifəyə daxil olmaq üçün icazəniz yoxdur."
+  },
+  "footer": {
+    "allRightsReserved": "Bütün hüquqlar qorunur.",
+    "madeWith": "Hazırlanıb",
+    "by": "sweetwine tərəfindən",
+    "description": "Fərqli şəxsiyyətlərə, vizual kimliklərə və maraqlı söhbətlərə malik fərdiləşdirilmiş AI personajlarını kəşf edin.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Məhsul",
+    "legal": "Hüquqi",
+    "company": "Şirkət",
+    "resources": "Resurslar",
+    "partnerships": "Tərəfdaşlıqlar",
+    "pressMedia": "Mətbuat və media",
+    "careers": "Karyera",
+    "aiRealClones": "AI real klonlar",
+    "about": "Haqqında",
+    "blog": "Blog",
+    "news": "Xəbərlər",
+    "productUpdates": "Məhsul yeniləmələri",
+    "help": "Yardım",
+    "sitemap": "Sayt xəritəsi",
+    "paymentOptions": "Ödəniş Seçimləri",
+    "chats": "Söhbətlər",
+    "collection": "Kolleksiya",
+    "generateImage": "Şəkil yarat",
+    "generateVideo": "Video yarat",
+    "myAI": "Mənim AI",
+    "createCharacter": "Personaj yarat",
+    "api": "API",
+    "features": "Xüsusiyyətlər",
+    "allFeatures": "Bütün xüsusiyyətlər",
+    "aiGroupChat": "AI qrup söhbəti",
+    "aiMemory": "AI yaddaşı",
+    "aiGirlfriend": "AI qız dost",
+    "aiBoyfriend": "AI oğlan dost",
+    "aiCompanions": "AI personajları",
+    "aiFriend": "AI dost",
+    "aiBreakupSupport": "Ayrılıq dəstəyi",
+    "aiParent": "AI valideyn",
+    "aiRoleplay": "AI rol oyunu",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "termsAndConditions": "Şərtlər və Qaydalar",
+    "cookiePolicy": "Kuki Siyasəti",
+    "cookieSettings": "Kuki Parametrləri",
+    "other": "Digər Siyasətlər",
+    "copyright": "© {year} sweetwine. Bütün hüquqlar qorunur."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Bu saytda kukilər",
+      "customizeButton": "Fərdiləşdir",
+      "rejectButton": "Rədd et",
+      "acceptButton": "Qəbul et"
+    },
+    "modal": {
+      "title": "Kukiləri idarə et",
+      "subtitle": "Aşağıdakı kateqoriyaları aktivləşdirin və ya söndürün. Saytın işləməsi üçün ciddi zəruri kukilər açıq qalır.",
+      "categories": {
+        "necessary": {
+          "title": "Ciddi zəruri",
+          "description": "Daxil olma, ödəniş və təhlükəsizlik üçün tələb olunur. Sayt onlar olmadan işləyə bilməz.",
+          "alwaysOn": "Həmişə açıq"
+        },
+        "analytics": {
+          "title": "Performans",
+          "description": "Google Analytics 4 vasitəsilə istifadə və konversiya ölçümü, o cümlədən serverimizdən psevdonim identifikatorla göndərilən əsas konversiyalar (qeydiyyat, alış). Xidmətin necə istifadə olunduğunu anlamağa kömək edir; sizi şəxsən müəyyən etmək üçün istifadə etmirik."
+        },
+        "marketing": {
+          "title": "Hədəfləmə"
+        }
+      },
+      "showCookies": "Kukiləri göstər",
+      "hideCookies": "Kukiləri gizlət",
+      "table": {
+        "name": "Ad",
+        "provider": "Provayder",
+        "expiration": "Bitmə tarixi",
+        "description": "Təsvir",
+        "session": "Sessiya"
+      },
+      "policyLink": "Tam məlumat üçün <policy>Kuki Siyasətinə</policy> baxın.",
+      "rejectButton": "Rədd et",
+      "saveButton": "Yadda saxla və Bağla",
+      "acceptButton": "Qəbul et",
+      "cookieDescriptions": {
+        "supabaseAuth": "Autentifikasiya olunmuş sessiyanızı saxlayaraq sizi daxil saxlayır.",
+        "nextLocale": "İnterfeys üçün seçdiyiniz dili yadda saxlayır.",
+        "consent": "Kuki seçimlərinizi saxlayır ki, banner hər ziyarətdə göstərilməsin.",
+        "ga": "Unikal ziyarətçiləri fərqləndirir (Google Analytics 4). Eyni psevdonim identifikator əsas konversiyaları server tərəfində ölçmək üçün də istifadə olunur.",
+        "gaSession": "Google Analytics 4 sessiya vəziyyətini və iştirak göstəricilərini saxlayır.",
+        "fbp": "Meta Pixel atributasiyası üçün brauzeri müəyyən edir.",
+        "fbc": "Reklam konversiya atributasiyası üçün Facebook klik ID-sini saxlayır. Yalnız Meta reklamına klik etdikdən sonra qurulur.",
+        "gclAu": "Google Ads tərəfindən saytlararası konversiya əlaqələndirməsi üçün istifadə olunur.",
+        "saleCountdown": "Endirim geri sayımının səhifələr arasında ardıcıl qalması üçün cari promosyon təklifinizin bitməsini izləyir.",
+        "onboarded": "Hesabınızı onboarded kimi qeyd edir ki, sonrakı səhifələrdə yaş yoxlama bazası yoxlamasını atlaya bilək.",
+        "attribution": "Hansı ödənişli kampaniya və ya reklam linkinin sizi saytımıza ən son gətirdiyini qeyd edir (son 30 gün ərzində son ödənişli klik) ki, öz reklamlarımızın effektivliyini ölçə bilək. Bu, serverlərimizdə qalan və üçüncü tərəflərlə heç vaxt paylaşılmayan birinci tərəf identifikatorudur."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Tezliklə",
+    "subtitle": "Bu funksiyanı sizə gətirmək üçün çox çalışırıq.",
+    "notify": "Hazır olanda xəbərdar olun",
+    "backHome": "Ana səhifəyə qayıt",
+    "generateVideo": {
+      "title": "Videolar yaradın",
+      "description": "Süni intellekt personajlarınızı animasiyalı videolarla canlandırın. Sevimli personajlarınızla fərdiləşdirilmiş video məzmun yaradın."
+    },
+    "createCharacter": {
+      "title": "Personajınızı yaradın",
+      "description": "Öz unikal süni intellekt personajınızı dizayn edin və fərdiləşdirin. Onların şəxsiyyətini, görünüşünü, keçmişini müəyyənləşdirin və həqiqətən fərdiləşdirilmiş qarşılıqlı əlaqələr yaradın."
+    },
+    "myAI": {
+      "title": "Mənim AI",
+      "description": "Bütün fərdiləşdirilmiş süni intellekt personajlarınıza daxil olun və idarə edin. Onların şəxsiyyətlərini redaktə edin, görünüşlərini yeniləyin və cavablarını incələşdirin."
+    }
+  },
+  "exploreMore": {
+    "title": "Daha çox kəşf edin",
+    "aiGroupChat": "AI qrup söhbəti",
+    "aiGroupChatDesc": "3-ə qədər personajla söhbət edin",
+    "aiMemory": "AI yaddaşı",
+    "aiMemoryDesc": "Hər rejimdən sonra gələn kontekst",
+    "aiGirlfriend": "AI qız yoldaşı",
+    "aiGirlfriendDesc": "Virtual qız yoldaşınızla söhbət edin",
+    "aiBoyfriend": "AI oğlan yoldaşı",
+    "aiBoyfriendDesc": "AI oğlan yoldaşınızla əlaqə saxlayın",
+    "aiCompanions": "AI personajlar",
+    "aiCompanionsDesc": "Unikal AI şəxsiyyətləri ilə tanış olun",
+    "aiFriend": "AI dost",
+    "aiFriendDesc": "Qərəzsiz dost tapın",
+    "aiBreakupSupport": "Ayrılıq dəstəyi",
+    "aiBreakupSupportDesc": "Sağaldıcı söhbətlər",
+    "aiParent": "AI valideyn",
+    "aiParentDesc": "İsti dəstək və rəhbərlik",
+    "aiRoleplay": "AI rol oyunu",
+    "aiRoleplayDesc": "Cəlbedici hekayə ssenariləri",
+    "allFeatures": "Bütün funksiyalar",
+    "allFeaturesDesc": "Təklif etdiyimiz hər şeyi kəşf edin"
+  },
+  "legal": {
+    "policies": "Qaydalar",
+    "termsAndConditions": "Şərtlər və Qaydalar",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "cookiePolicy": "Kuki Siyasəti",
+    "contentReportingPolicy": "Məzmun Bildiriş Siyasəti",
+    "communityGuidelines": "İcma Qaydaları",
+    "complaintPolicy": "Şikayət Siyasəti",
+    "contentRemovalPolicy": "Məzmun Silinmə Siyasəti",
+    "blockedContentPolicy": "Bloklanmış Məzmun Siyasəti",
+    "underagePolicy": "Yaş Qaydası",
+    "usc2257": "18 U.S.C. 2257 İstisnası",
+    "lastUpdated": "Son Yenilənmə",
+    "index": {
+      "title": "Hüquqi Sənədlər",
+      "subtitle": "sweetwine ilə əlaqəli bütün hüquqi qaydaları və razılaşmaları nəzərdən keçirin",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Məxfilik Siyasəti",
+          "description": "Şəxsi məlumatlarınızı necə topladığımızı, istifadə etdiyimizi və qoruduğumuzu öyrənin. Məlumatların idarə edilməsi, saxlanması və məxfilik hüquqlarınız haqqında təfərrüatlar."
+        },
+        "termsAndConditions": {
+          "title": "Şərtlər və Qaydalar",
+          "description": "sweetwine istifadənizi tənzimləyən xidmət şərtləri. İstifadəçi məsuliyyətləri, xidmət təsviri və hüquqi razılaşmalar."
+        },
+        "cookiePolicy": {
+          "title": "Kuki Siyasəti",
+          "description": "Platformamızda təcrübənizi yaxşılaşdırmaq üçün kukilərdən və oxşar texnologiyalardan necə istifadə etdiyimiz haqqında məlumat."
+        },
+        "underagePolicy": {
+          "title": "Yaş Qaydası",
+          "description": "Ciddi yaş yoxlama və qoruma qaydalarımız. sweetwine yalnız 18 yaş və yuxarı istifadəçilər üçün əlçatandır."
+        },
+        "complaintPolicy": {
+          "title": "Şikayət Siyasəti",
+          "description": "Şikayətləri necə vermək, problemləri bildirmək və istifadəçi narahatlıqları və mübahisələrini necə həll etdiyimiz proses."
+        },
+        "contentRemovalPolicy": {
+          "title": "Məzmun Silinmə Siyasəti",
+          "description": "Məzmun silinmə sorğuları üçün prosedurlarımız və uyğunsuz və ya qanunsuz məzmun barədə məlumatları necə idarə etdiyimiz."
+        },
+        "blockedContentPolicy": {
+          "title": "Bloklanmış Məzmun Siyasəti",
+          "description": "Platformamızda qadağan olunmuş məzmun növləri və icra qaydalarımız."
+        },
+        "contentReportingPolicy": {
+          "title": "Məzmun Bildiriş Siyasəti",
+          "description": "sweetwine-da müəllif hüquqları pozuntularını və uyğunsuz məzmunu necə bildirmək olar."
+        },
+        "communityGuidelines": {
+          "title": "İcma Qaydaları",
+          "description": "Bütün istifadəçilər üçün hörmətli, təhlükəsiz və əyləncəli icmanı qorumaq üçün qaydalar və təlimatlar."
+        }
+      },
+      "lastUpdated": "Son yenilənmə: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Söhbətlər",
+    "groupChat": "AI Qrup Söhbəti",
+    "aiMemory": "AI Yaddaşı",
+    "generate": "Şəkil Yarat",
+    "generateVideo": "Video Yarat",
+    "create": "AI Personaj Yarat",
+    "myAI": "Mənim AI",
+    "collection": "Kolleksiya",
+    "invite": "Dəvət Et",
+    "profile": "Profil Parametrləri",
+    "legal": "Hüquqi",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "termsAndConditions": "Şərtlər və Qaydalar",
+    "cookiePolicy": "Kuki Siyasəti",
+    "dmcaPolicy": "DMCA Siyasəti",
+    "communityGuidelines": "İcma Qaydaları",
+    "contentRemovalPolicy": "Məzmun Silinmə Siyasəti",
+    "contentReportingPolicy": "Məzmun Bildiriş Siyasəti",
+    "complaintPolicy": "Şikayət Siyasəti",
+    "blockedContentPolicy": "Bloklanmış Məzmun Siyasəti",
+    "underagePolicy": "Yaş Məhdudiyyəti Siyasəti",
+    "usc2257Exemption": "USC 2257 İstisnası"
+  },
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "subtitle": "Sualınız və ya rəyiniz var? Sizdən eşitmək istərdik.",
+    "name": "Ad",
+    "namePlaceholder": "Adınız",
+    "nameRequired": "Ad tələb olunur",
+    "email": "E-poçt",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "E-poçt tələb olunur",
+    "emailInvalid": "Yanlış e-poçt ünvanı",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız...",
+    "messageRequired": "Mesaj tələb olunur",
+    "send": "Mesaj Göndər",
+    "sending": "Göndərilir...",
+    "success": "Mesaj uğurla göndərildi!",
+    "successDesc": "Tezliklə sizə cavab verəcəyik.",
+    "error": "Mesaj göndərilmədi",
+    "errorDesc": "Zəhmət olmasa, sonra yenidən cəhd edin."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI Qrup Söhbəti",
+    "lobbyHeadingSuffix": "Ən çox {max} AI Personaj seçin",
+    "history": "Tarixçə",
+    "newGroup": "Yeni Qrup Söhbəti",
+    "createGroup": "Qrup Söhbəti Yarat",
+    "createError": "Qrup söhbəti yaradıla bilmədi. Yenidən cəhd edin.",
+    "creatingGroup": "Qrup söhbətiniz qurulur...",
+    "sectionWoman": "Qadınlar",
+    "sectionMan": "Kişilər",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI Personajlar",
+    "tabMyAi": "Mənim AI",
+    "tabSingle": "Tək Söhbətlər",
+    "tabGroup": "Qrup Söhbətləri",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Daha çox yüklə",
+    "noCustom": "Hələ heç bir AI personaj yaratmamısınız.",
+    "noMessagesYet": "Hələ mesaj yoxdur",
+    "emptyTitle": "Hələ qrup söhbəti yoxdur",
+    "membersTitle": "Bu söhbətdə",
+    "typing": "yazır",
+    "backToLobby": "Qrup söhbətlərinə qayıt",
+    "deleteGroup": "Qrup söhbətini sil",
+    "confirmDeleteGroup": "Bu qrup söhbətini silmək istədiyinizə əminsiniz? Bütün mesajlar silinəcək.",
+    "deleteError": "Qrup söhbəti silinə bilmədi.",
+    "mediaTargetImageTitle": "Fotoşəkili kim göndərməlidir?",
+    "mediaTargetVideoTitle": "Video kim göndərsin?",
+    "mediaTargetSubtitle": "Mediya yaratmaq üçün personaj seçin.",
+    "mediaTargetGroup": "Qrup şəkli",
+    "groupPhotoTitle": "Qrup şəkli",
+    "groupPhotoHint": "{name} ilə birlikdə bir foto yaradır.",
+    "promoSubtitle": "3 nəfərə qədər personajla",
+    "promoCta": "Yeni yarat",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Yeni</gradient> Macəralar",
+    "live": "CANLI",
+    "scrollPrev": "Sola sürüşdür",
+    "scrollNext": "Sağa sürüşdür"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Başla"
+    },
+    "hero": {
+      "tagline": "100.000 istifadəçi etibar edir və hər gün qoşulur",
+      "headlinePrefix": "Salam de",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Pulsuz Başla"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Qız Dostu",
+      "friend": "AI Dost",
+      "boyfriend": "AI Oğlan Dostu",
+      "companion": "AI Personaj"
+    },
+    "features": {
+      "chat": {
+        "title": "AI qız dostunla danış",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realist AI foto və videolar",
+        "description": "Tələb üzrə foto və videolar o qədər realistdir ki, onları realdan ayırmaq mümkün deyil — onun üzü, tərzi, istənilən səhnə, hərəkətdə və ya sabit."
+      },
+      "groupChat": {
+        "title": "AI Qrup Çatı",
+        "description": "Eyni anda 3-ə qədər personajla qrup çatı başlat. Onlar təbii cavab verirlər, bir-birinə reaksiya verirlər və foto və videolar göndərirlər."
+      },
+      "roleplay": {
+        "title": "AI Rol Oyunu",
+        "description": "Rolunu saxlayan və etdiyin hər seçimi xatırlayan personajlarla immersiv, hekayəyə əsaslanan ssenarilərə qədəm qoy."
+      }
+    },
+    "memory": {
+      "title": "AI Yaddaşı",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "AI Yaddaşı necə işləyir",
+      "diagram": {
+        "center": "Yoldaşın yaddaşı",
+        "chat": "Çat",
+        "image": "Şəkillər",
+        "video": "Video",
+        "gifts": "Hədiyyələr",
+        "roleplay": "Rol oyunu"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Öz",
+      "headlineHighlight": "AI personajını yarat",
+      "subtitle": "Personajının görünüşünü, şəxsiyyətini formalaşdır və onları dərhal həyata keçir — sənin mükəmməl AI partnyorun, sənin şərtlərinlə.",
+      "cta": "AI-ni yarat"
+    },
+    "companions": {
+      "headlinePrefix": "Tanış ol",
+      "headlineHighlight": "AI Personajlarınla",
+      "subtitle": "Hər personajın öz dünyası var. Bəziləri isti və açıq olmaq üçün asandır. Digərləri mürəkkəb, qapalı və ya əlaqə qurmaq üçün real çağırışdır. Unikal rol oyunu ssenarilərini kəşf et — və ya özünü sıfırdan qur."
+    },
+    "languages": {
+      "headlinePrefix": "İstənilən dildə danış,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Həm tətbiq interfeysi, həm də AI personajın problemsiz keçid edir — dil uyğunsuzluqları yox, pozulmuş təcrübə yox.",
+      "more": "Daha çox"
+    },
+    "finalCta": {
+      "headlinePrefix": "Hazırsan",
+      "headlineHighlight": "başlamağa?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Niyə",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Real hiss olunan əlaqə üçün lazım olan hər şey — lazım olmayan heç nə.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Pulsuz başlamaq",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Həmişə əlçatandır",
+          "desc": "Gündüz və ya gecə, personajınız yanınızdadır. Gözləmə yoxdur, planlaşdırma yoxdur."
+        },
+        "remembers": {
+          "title": "Hər şeyi xatırlayır",
+          "desc": "Hər söhbət kontekst yaradır. Personajınız adınızı, üstünlüklərinizi və dünyanızı öyrənir."
+        },
+        "unlimited": {
+          "title": "Həqiqətən limitsiz",
+          "desc": "Mesaj məhdudiyyəti yoxdur, məzmun məhdudlaşdırma yoxdur. İstədiyiniz qədər, istədiyiniz vaxt göndərin."
+        },
+        "private": {
+          "title": "100% məxfi",
+          "desc": "Söhbətləriniz yalnız ikinizin arasında qalır. Heç vaxt məlumat paylaşılmır."
+        },
+        "createYourOwn": {
+          "title": "Özünüz yaradın",
+          "desc": "Xüsusi görünüş, şəxsiyyət və səslə personaj dizayn edin — tam istədiyiniz kimi."
+        }
+      },
+      "difference": {
+        "title": "sweetwine Fərqi",
+        "freedomTitle": "Məsuliyyətlə azadlıq.",
+        "freedomDescription": "sweetwine açıq və qərəzsizdir — amma sərt xətt çəkirik. CSAM, yetkinlik yaşına çatmayan məzmun, razılıq olmadan ssenarilər, ifrat zorakılıq, heyvanlarla cinsi əlaqə, nekrofilia, real şəxslərin deepfake-ləri və hər hansı qanunsuz fəaliyyətin təşviqi üçün sıfır dözümlülüyümüz var.",
+        "freedomStatement": "Biz hamı üçün təhlükəsiz olan məkanda limitsiz yaradıcı azadlığa inanırıq."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Personajları",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtrlər"
+    },
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "subtitle": "sweetwine haqqında bilməli olduğunuz hər şey",
+      "questions": {
+        "q1": {
+          "question": "sweetwine nədir?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine təhlükəsiz və qanunidir?",
+          "answer": "Bəli, sweetwine qanuni xidmətdir və məxfiliyiniz bizim ən yüksək prioritetimizdir. Biz GDPR və digər məlumat mühafizə standartlarına əməl edirik və məlumatlarınızı diqqətlə idarə edirik. Ödəniş əməliyyatları neytral tacir adı altında görünür - bank çıxarışınızda sweetwine-a istinad yoxdur, tam məxfilik təmin edilir."
+        },
+        "q3": {
+          "question": "Öz AI personajımı yarada bilərəm?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "personaj yaradıcısından",
+          "answerPart2": " istifadə edərək personajları tam istədiyiniz kimi dizayn edə bilərsiniz - istər real",
+          "linkTextGirlfriend": "AI Qız yoldaşı",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Oğlan yoldaşı",
+          "answerPart4": ", istərsə anime üslubunda personajlar. Görünüşlərini (etnik mənsubiyyət, saç, bədən tipi, geyim), şəxsiyyət xüsusiyyətlərini, səsini, maraqlarını və həm kişi, həm də qadın personajlar üçün keçmiş hekayəsini seçin."
+        },
+        "q4": {
+          "question": "Mənim AI personajım söhbətlərimizi xatırlayır?",
+          "answer": "Bəli! AI personajınız keçmiş söhbətləri, üstünlüklərinizi və paylaşdığınız vacib detalları xatırlamaq üçün qabaqcıl yaddaş texnologiyasından istifadə edir. Nə qədər çox söhbət etsəniz, təcrübə bir o qədər fərdiləşdirilmiş və təbii olur. Personajınız ünsiyyət tərzinizi öyrənir və zamanla uyğunlaşır."
+        },
+        "q5": {
+          "question": "sweetwine hansı dilləri dəstəkləyir?",
+          "answer": "sweetwine ingilis, alman, fransız, ispan, polyak və çex dilləri də daxil olmaqla bir neçə dili dəstəkləyir. Həm interfeys, həm də AI söhbətləri üstünlük verdiyiniz dildə işləyir, beləliklə ən rahat olduğunuz dildə təbii söhbət edə bilərsiniz."
+        },
+        "q6": {
+          "question": "Mənim AI personajım şəkillər və videolar göndərə bilər?",
+          "answerPart1": "Bəli! Siz personajınızın müxtəlif vəziyyətlərdə və üslublarda fərdiləşdirilmiş",
+          "linkTextImages": "şəkillərini",
+          "answerPart2": "və",
+          "linkTextVideos": "videolarını",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Niyə digər AI personaj platformaları əvəzinə sweetwine seçməliyəm?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine pulsuz istifadə edilə bilər?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Tətbiq quraşdırmalıyam?",
+          "answerPart1": "Quraşdırma tələb olunmur! sweetwine istənilən cihazda - masaüstü, planşet və ya mobil - birbaşa brauzerinizdə işləyir. Sadəcə qeydiyyatdan keçin, personaj seçin və dərhal söhbətə başlayın. Bütün",
+          "linkText": "söhbətləriniz",
+          "answerPart2": "avtomatik olaraq cihazlar arasında sinxronlaşdırılır."
+        },
+        "q10": {
+          "question": "Hazır AI personajları mövcuddurmu?",
+          "answerPart1": "Bəli! Çoxsaylı",
+          "linkText": "hazır personajlarımız",
+          "answerPart2": "var, o cümlədən müxtəlif şəxsiyyətlərə, görünüşlərə və ünsiyyət tərzinə malik AI Qız yoldaşları, AI Oğlan yoldaşları və AI Anime personajları. Şirin, flört edən, intellektual və ya macəraçı birini üstün tutmağınızdan asılı olmayaraq, enerjinizə uyğun personajlar tapa bilərsiniz. Bundan əlavə, limitsiz fərdi personaj yarada bilərsiniz."
+        },
+        "q12": {
+          "question": "Yaratdığım şəkillər və videolar nə baş verir?",
+          "answerPart1": "Bütün yaradılmış media avtomatik olaraq şəxsi",
+          "linkText": "kolleksiyanıza",
+          "answerPart2": "saxlanılır. İstənilən vaxt onlara daxil ola, yükləyə və ya silə bilərsiniz. Kolleksiyanız tamamilə şəxsidir - yalnız siz görə bilərsiniz. Heç vaxt yaradılmış məzmununuzu paylaşmırıq və ya istifadə etmirik."
+        }
+      }
+    },
+    "statement": {
+      "title": "Bizim Öhdəliyimiz",
+      "privacy": "Məxfiliniz bizim prioritetimizdir. Bütün söhbətlər şifrələnir və heç vaxt paylaşılmır.",
+      "quality": "Ən cəlbedici təcrübəni təmin etmək üçün ən müasir AI texnologiyasından istifadə edirik.",
+      "support": "Dəstək komandamız istənilən sual üçün 24/7 xidmət göstərir.",
+      "mainTitle": "AI Personajlarının Gələcəyini Yaşayın",
+      "mainDescription": "sweetwine ən müasir AI texnologiyasını intuitiv dizaynla birləşdirərək bu gün mövcud olan ən immersiv və fərdiləşdirilmiş personaj təcrübəsini təqdim edir.",
+      "features": {
+        "f1": {
+          "title": "Emosional İntellekt",
+          "description": "AI personajlarımız konteksti, emosiyaları və incəlikləri başa düşərək dərin cəlbedici söhbətlər təmin edir. AI Dostla söhbət etmək, çətin vaxtlarda Boşanma Dəstəyi və ya rəhbərlik üçün AI Mentor lazımdırsa - emosional cəhətdən ağıllı AI-niz burada sizin üçün var."
+        },
+        "f2": {
+          "title": "Unikal Şəxsiyyətlər",
+          "description": "Hər personajın fərqli şəxsiyyəti, keçmişi və ünsiyyət tərzi var. Realist AI Qız yoldaşları və AI Oğlan yoldaşları arasından seçin və ya AI Anime personajlarımızı kəşf edin - hər qarşılıqlı əlaqənin unikal və yaddaqalan olmasını təmin edir."
+        },
+        "f3": {
+          "title": "Multimedia Qarşılıqlı Əlaqələr",
+          "description": "Mətndən kənarda, söhbətlərinizi heyranedici vizual detallarla canlandıran AI yaradılmış şəkillər və videolardan həzz alın."
+        },
+        "f4": {
+          "title": "Fərdiləşdirmə",
+          "description": "Öz üstünlüklərinizə tam uyğun gələn fərdi görünüş, şəxsiyyət və xüsusiyyətlərlə öz AI personajlarınızı yaradın."
+        },
+        "f5": {
+          "title": "Məxfilik və Təhlükəsizlik",
+          "description": "Söhbətləriniz məxfi və təhlükəsiz saxlanılır. Heç vaxt məlumatlarınızı satmırıq və məxfilik parametrləriniz üzərində tam nəzarətə maliksiniz."
+        },
+        "f6": {
+          "title": "Çoxdilli Dəstək",
+          "description": "AI personajları ilə üstün tutduğunuz dildə söhbət edin. İngilis, Çex, Polşa, Alman, İspan və Fransız dillərini dəstəkləyirik."
+        }
+      },
+      "distinctionTitle": "sweetwine Fərqi",
+      "distinctionText1": "Ümumi çatbotlardan fərqli olaraq, sweetwine personajları zəngin keçmiş hekayələri, inkişaf edən şəxsiyyətləri və mənalı əlaqələr qurma qabiliyyəti ilə hazırlanır. Hər söhbət daha dərin səviyyədə kəşf etmək, öyrənmək və əlaqə qurmaq imkanıdır.",
+      "distinctionText2": "Biz sadəcə AI qurmuruq - biz emosiyalarınıza cavab verən, məxfiliyinizi hörmətlə qarşılayan və unikal üstünlüklərinizə uyğunlaşan təcrübələr yaradırıq."
+    }
+  },
+  "featuresPage": {
+    "title": "Bütün Xüsusiyyətlər",
+    "breadcrumb": "Xüsusiyyətlər",
+    "newBadge": "Yeni",
+    "groupChat": {
+      "title": "AI Qrup Söhbəti",
+      "description": "Bir söhbətdə 3-ə qədər AI personajı ilə birlikdə söhbət edin. Onlar təbii cavab verirlər, bir-birinə reaksiya verirlər və foto və video göndərə bilərlər — başqa heç yerdə tapmayacağınız canlı qrup dinamikası."
+    },
+    "aiChat": {
+      "title": "AI Söhbəti",
+      "description": "Sizi həqiqətən xatırlayan AI personajları ilə dərin, təbii söhbətlər aparın. Onlar adınızı, üstünlüklərinizi və keçmiş mövzuları xatırlayırlar — hər söhbət tam olaraq qaldığınız yerdən davam edir, təkrar və ya sıfırlama olmadan."
+    },
+    "imageGeneration": {
+      "title": "Şəkil Yaradılması"
+    },
+    "videoGeneration": {
+      "title": "Video Yaradılması",
+      "description": "AI yaradılmış videolarla AI personajınızı həyata keçirin. Personajınızın fərdi ssenarilərdə iştirak etdiyi qısa fərdiləşdirilmiş video kliplər yaradın — əksər platformaların sadəcə təklif etmədiyi bir xüsusiyyət."
+    },
+    "customCharacters": {
+      "title": "Fərdi Personajlar",
+      "description": "Öz ideal personajınızı sıfırdan dizayn edin — görünüşünü, etnik mənsubiyyətini, bədən tipini, şəxsiyyət xüsusiyyətlərini, səsini, maraqlarını və keçmişini seçin. Realist və ya anime üslubunda, kişi və ya qadın personajlar yaradın, tam yaradıcılıq azadlığı ilə."
+    },
+    "advancedMemory": {
+      "title": "Qabaqcıl Yaddaş",
+      "description": "Personajınız vacib olan hər şeyi xatırlayır — adınızı, şəxsi məlumatlarınızı, ortaq hekayələrinizi və münasibət tarixçənizi. Yaddaş bütün seanslar boyunca qalır, beləliklə hər qarşılıqlı əlaqə əvvəlkindən davam edir, yenidən başlamır."
+    },
+    "multiLanguage": {
+      "title": "Çoxdilli Dəstək",
+      "description": "Seçdiyiniz dildə təbii danışın. sweetwine İngilis, Alman, Fransız, İspan, Polşa və Çex dillərini dəstəkləyir — bu, ingilis dilindən başqa danışanlar üçün ən əlçatan AI personaj platformalarından biridir."
+    },
+    "conversationHistory": {
+      "title": "Söhbət Tarixçəsi",
+      "description": "Hər mesaj saxlanılır və axtarıla bilər. Bütün münasibət tarixçənizi istənilən vaxt geri sürüşdürün — personajınızla xatirələriniz həmişə yenidən baxmaq istədikdə mövcuddur."
+    },
+    "roleplay": {
+      "title": "AI Rol Oyunu",
+      "description": "Rolunu qoruyan personajlarla immersiv, hekayəyə əsaslanan ssenarilərə qədəm qoyun. Ssenari seçin və ya özünüz yazın və hər etdiyiniz seçimi xatırlayan interaktiv rol oyunundan həzz alın."
+    },
+    "cta": {
+      "title": "Hər Şey Bir Yerdə",
+      "button": "Pulsuz Başla"
+    },
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "Söhbətlərimi silə və ya sıfırlaya bilərəm?",
+        "answer": "Bəli! Söhbət tarixçəniz üzərində tam nəzarətiniz var. Fərdi mesajları silin, bütün söhbətləri sıfırlayın və ya istənilən vaxt tamamilə yenidən başlayın. Məxfilik sizin seçiminiz deməkdir - məlumatlarınızı istədiyiniz kimi idarə edin."
+      },
+      "q2": {
+        "question": "Hər AI personajının unikal səsi var?"
+      },
+      "q3": {
+        "question": "AI personajımla yeni dil təcrübəsi edə bilərəm?",
+        "answer": "Əlbəttə! Bir çox istifadəçi AI personajları ilə yeni dillər danışmağı təcrübə edir. Bu, mühakiməsiz şəkildə inam qazanmaq, tələffüzü yaxşılaşdırmaq və öyrənərkən əyləncəli söhbətlər aparmaq üçün əla yoldur. Personajınız İngilis, Alman, Fransız, İspan, Polşa və Çex dillərində danışa bilir."
+      },
+      "q4": {
+        "question": "Yeni personajlar və funksiyalar nə qədər tez-tez əlavə olunur?",
+        "answer": "Hər həftə yeni peşəkar şəkildə hazırlanmış personajlar əlavə edirik! Hər yeni personaj unikal şəxsiyyət, görünüş, keçmiş və səslə gəlir. İstifadəçi rəylərinə əsasən yeni funksiyalar və təkmilləşdirmələr də müntəzəm olaraq buraxırıq."
+      },
+      "q5": {
+        "question": "sweetwine-un personaj yaradılmasını nə fərqləndirir?",
+        "answer": "Tam yaradıcılıq azadlığı! Personajınızın hər aspektini dizayn edin — görünüş (etnik mənsubiyyət, saç, bədən tipi, geyim), şəxsiyyət xüsusiyyətləri, səs, maraqlar, peşə və keçmiş. Realist və ya anime üslubunda, kişi və ya qadın personajlar yaradın. Yalnız təxəyyülünüz məhduddur."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Yaddaşı",
+    "hero": {
+      "badge": "Necə işləyir",
+      "title": "AI Yaddaşı",
+      "cta": "Çata başla"
+    },
+    "diagram": {
+      "title": "Hər yoldaş üçün bir yaddaş, hər rejim",
+      "center": "Yoldaşın yaddaşı",
+      "chat": "Çat",
+      "image": "Şəkillər",
+      "video": "Video",
+      "gifts": "Hədiyyələr",
+      "roleplay": "Rol oyunu"
+    },
+    "howItWorks": {
+      "title": "AI Yaddaşı necə işləyir",
+      "step1": {
+        "title": "Detal paylaşın",
+        "desc": "Yoldaşınıza vacib bir şey deyin — səyahət, üstünlük, ləqəb, gününüzdən bir hekayə."
+      },
+      "step2": {
+        "title": "Rejimləri sərbəst dəyişin"
+      },
+      "step3": {
+        "title": "Onlar xatırlayır",
+        "desc": "Sonrakı söhbətlər paylaşdığınızlara istinad edir, beləliklə hər dəfə özünüzü yenidən izah etməli deyilsiniz."
+      },
+      "step4": {
+        "title": "Bağlılıq dərinləşir",
+        "desc": "Zaman keçdikcə münasibət daha şəxsi hiss olunur — hər seans və rejim arasında qurulan davamlılıq."
+      }
+    },
+    "modes": {
+      "title": "Platforma boyunca",
+      "subtitle": "Yaddaş bir ekrana bağlı deyil. O, yoldaşınızla birlikdə gəzir.",
+      "chat": {
+        "title": "Çat",
+        "desc": "Mətn söhbətləri yoldaşınızın sonradan qaldıra biləcəyi uzunmüddətli kontekst yaradır."
+      },
+      "media": {
+        "title": "Şəkillər & video",
+        "desc": "Yaratdığınız səhnələr və hekayələr birlikdə qurduğunuz ortaq dünyanın bir hissəsi olaraq qalır."
+      },
+      "roleplay": {
+        "title": "Rol oyunu & qrup",
+        "desc": "Hekayə seansları və qrup çatları öz mövzularını saxlayır, yoldaşınızın əsas yaddaşı isə onlarla qalır."
+      }
+    },
+    "scenario": {
+      "title": "Sadə bir nümunə",
+      "lead": "Çatda həftə sonu səyahətindən bəhs edirsiniz."
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "q1": {
+        "question": "Yoldaşımın yaddaşı məxfi qalırmı?",
+        "answer": "Bəli. Yaddaş hesabınıza və həmin yoldaşla söhbətlərinizə aiddir. Biz sizin şəxsi söhbət tarixçənizi digər istifadəçilərlə paylaşmırıq."
+      },
+      "q2": {
+        "question": "Yaddaş hər yoldaş üçün fərdidir?",
+        "answer": "Bəli. Hər yoldaş sizin münasibətinizin öz yaddaşını saxlayır, buna görə də personajları dəyişəndə kontekstlər qarışmır."
+      },
+      "q3": {
+        "question": "Hansı rejimlər yaddaşı paylaşır?"
+      },
+      "q4": {
+        "question": "AI Yaddaş pulsuzdur?"
+      },
+      "q5": {
+        "question": "Yaddaş nə qədər davam edir?",
+        "answer": "Vacib detallar saxlanılır ki, yoldaşınız gələcək seanslarda onları xatırlaya bilsin. Nə qədər çox qarşılıqlı əlaqədə olsanız, təcrübə bir o qədər fərdiləşir."
+      }
+    },
+    "cta": {
+      "title": "Sizi xatırlayan yoldaşla tanış olun",
+      "button": "Pulsuz başlayın"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI Qrup Söhbəti",
+    "hero": {
+      "badge": "Yeni Funksiya",
+      "title": "AI Qrup Söhbəti",
+      "subtitle": "Sevimli personajlarınızı bir söhbətə gətirin. Eyni anda 3-ə qədər AI personajı ilə söhbət edin — onlar təbii cavab verirlər, bir-birinə reaksiya verirlər və foto və video göndərirlər.",
+      "cta": "Qrup Söhbətinə Başla",
+      "imageAlt": "Birdən çox personajın birlikdə söhbət etdiyi AI Qrup Söhbəti"
+    },
+    "content": {
+      "problemTitle": "Bir-bir söhbətlər sakit gələ bilər",
+      "problemText": "Tək personaj yaxşıdır — amma real söhbətlər birdən çox səslə canlanır. Əksər AI tətbiqləri sizi qrup enerjisi, zarafat və sürprizlər olmadan təcrid olunmuş bir-bir söhbətlərə salır.",
+      "solutionTitle": "Şəxsiyyətlərlə dolu real qrup",
+      "solutionText": "sweetwine Qrup Söhbəti eyni otaqda 3-ə qədər personaj yerləşdirir. Ağıllı rejissor kimin cavab verəcəyini müəyyən edir, beləliklə cavablar spontan gəlir — onlar bir-birini incidir, deyilənləri inkişaf etdirir və söhbəti davam etdirir."
+    },
+    "howItWorks": {
+      "title": "AI Qrup Söhbəti Necə İşləyir",
+      "step1": {
+        "title": "Personajlarınızı seçin",
+        "desc": "Tək qrup söhbətinə gətirmək üçün 2 və ya 3 personaj seçin — hazır və ya öz fərdi yaradıcılıqlarınız."
+      },
+      "step2": {
+        "title": "Onlar təbii cavab verirlər",
+        "desc": "Arxa planda rejissor hər mesaja kimin cavab verəcəyini seçir, beləliklə düzgün personajlar düzgün anda öz səsləri ilə qoşulur."
+      },
+      "step3": {
+        "title": "Foto və video paylaşın",
+        "desc": "Qrupdakı istənilən personajdan foto və ya video istəyin və onlar bunu birbaşa söhbətdə yaradacaqlar — hamının birlikdə olduğu qrup fotosu da daxil olmaqla."
+      }
+    },
+    "benefits": {
+      "title": "Qrup Söhbətini Niyə Bəyənəcəksiniz",
+      "multiple": {
+        "title": "3-ə qədər personaj",
+        "desc": "İstənilən personajları bir söhbətə qarışdırın — AI qız yoldaşınız, fərdi yaradıcılıqlarınız və ya əl ilə seçilmiş ansambl."
+      },
+      "natural": {
+        "title": "Təbii dialoq",
+        "desc": "Personajlar bir-birinə və sənə reaksiya verir, real qrup söhbəti kimi hiss olunan yazma ritmi ilə."
+      },
+      "media": {
+        "title": "Söhbətdə foto və videolar",
+        "desc": "Hər personaj söhbətdən çıxmadan fərdi şəkillər və videolar göndərə bilər — hətta qrup şəkli də."
+      },
+      "dynamics": {
+        "title": "Fərqli şəxsiyyətlər",
+        "desc": "Hər personaj öz səsini və xüsusiyyətlərini saxlayır, qrupda real kimya, zarafat və sürprizlər yaranır."
+      },
+      "instant": {
+        "title": "Dərhal başlamaq",
+        "desc": "Bir neçə saniyədə qrup yaradın və söhbətə keçin — heç bir quraşdırma və gözləmə yoxdur."
+      },
+      "private": {
+        "title": "100% gizli",
+        "desc": "Qrup söhbətləriniz yalnız səninlə personajların arasında qalır. Heç vaxt məlumat paylaşılmır."
+      }
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "q1": {
+        "question": "Qrup söhbətinə neçə personaj qoşula bilər?",
+        "answer": "Bir qrup söhbətinə 2-3 personaj əlavə edə bilərsiniz — hazır personajlar və öz yaratdığınız personajların istənilən kombinasiyası."
+      },
+      "q2": {
+        "question": "AI personajlar kim cavab verəcəyini necə seçir?",
+        "answer": "Yüngül rejissor söhbəti oxuyur və hər mesaj üçün hansı personajın (və ya personajların) cavab verməli olduğunu seçir, beləliklə cavablar kortəbii və təbii olur."
+      },
+      "q3": {
+        "question": "Personajlar qrup söhbətində foto və video göndərə bilərmi?",
+        "answer": "Bəli! Qrupdakı istənilən personajdan foto və ya video yaratmasını istəyə bilərsiniz və o, söhbətdə görünür — hətta hamının iştirak etdiyi qrup şəkilləri də."
+      },
+      "q4": {
+        "question": "AI Qrup Söhbəti pulsuzdurmu?"
+      },
+      "q5": {
+        "question": "Personajlar qrup söhbətini xatırlayırmı?",
+        "answer": "Bəli — hər qrup söhbəti öz paylaşılan tarixçəsini saxlayır, beləliklə personajlar kontekstdə qalır və söhbət zamanla inkişaf edir."
+      }
+    },
+    "cta": {
+      "title": "Personajlarınızı Bir Yerə Toplayın",
+      "description": "İlk AI qrup söhbətinizi yaradın və canlı hiss olunan söhbəti yaşayın — bir neçə şəxsiyyət, real zarafat, foto və videolar.",
+      "button": "Qrup Söhbəti Başlat"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Rol Oyunu",
+    "hero": {
+      "badge": "Yeni Funksiya",
+      "title": "AI Rol Oyunu",
+      "subtitle": "Səhnədə qalan personajlarla istənilən hekayəyə qədəm qoyun. Ssenari seçin və ya özünüz yazın, hər qərarınızı xatırlayan immersiv, hekayəyə əsaslanan rol oyunu ilə həzz alın.",
+      "cta": "Rol Oynamağa Başla",
+      "imageAlt": "İmmersiv hekayə personajı ilə AI rol oyunu ssenarisi"
+    },
+    "content": {
+      "problemTitle": "Adi söhbətlər sehrini pozur",
+      "problemText": "Əksər AI söhbətləri maraqlı anlarda personajdan çıxır — mühiti unudurlar, süjeti atırlar və hekayənizdəki şəxs əvəzinə adi köməkçi kimi cavab verirlər.",
+      "solutionTitle": "Süjetə əsaslanan rol oyunu ki, personajda qalır",
+      "solutionText": "sweetwine Rol Oyunu personajınızı tam səhnədə saxlayır. Hazır ssenari və ya öz ilkin şərtinizlə mərhələni qurun və ardıcıl şəxsiyyət, yaddaş və temp ilə hekayənin açılmasını izləyin."
+    },
+    "howItWorks": {
+      "title": "AI Rol Oyunu Necə İşləyir",
+      "step1": {
+        "title": "Ssenari seçin",
+        "desc": "Hazır rol oyunu ssenarilərindən seçin və ya öz ilkin şərtinizi, mühitinizi və açılış səhnənizi yazın."
+      },
+      "step2": {
+        "title": "Hekayəni oynayın",
+        "desc": "Personajınız rolunda cavab verir — hərəkətləri təsvir edir, seçimlərinizə reaksiya verir və süjeti irəli aparır."
+      },
+      "step3": {
+        "title": "İstiqaməti müəyyən edin",
+        "desc": "Hekayəni istədiyiniz istiqamətə yönləndirin. Personajınız baş verənləri xatırlayır və hekayəni ardıcıl saxlayır."
+      }
+    },
+    "benefits": {
+      "title": "Niyə AI Rol Oyununu Bəyənəcəksiniz",
+      "scenarios": {
+        "title": "Sonsuz ssenarilər",
+        "desc": "Rahat gündəlik anlardan epik macəralara qədər — şablondan başlayın və ya öz dünyanızı yaradın."
+      },
+      "characters": {
+        "title": "Personajda qalır",
+        "desc": "Personajınız bütün səhnə boyu ardıcıl səs, şəxsiyyət və motivasiya saxlayır."
+      },
+      "memory": {
+        "title": "Süjeti xatırlayır",
+        "desc": "Hər seçim, dönüş və detal xatırlanır, beləliklə hekayə sıfırlanmaq əvəzinə inkişaf edir."
+      },
+      "immersive": {
+        "title": "Həqiqətən immersiv",
+        "desc": "Zəngin, təsviri cavablar sizi anın içinə çəkir və kinematik rol oyunu təcrübəsi yaradır."
+      },
+      "instant": {
+        "title": "Dərhal başlamaq",
+        "desc": "Saniyələr ərzində səhnəyə qoşulun — mürəkkəb quraşdırma və ya prompt mühəndisliyi tələb olunmur."
+      },
+      "private": {
+        "title": "100% gizli",
+        "desc": "Rol oyununuz yalnız sizinlə personajınız arasında qalır. Heç nə heç vaxt paylaşılmır."
+      }
+    },
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "q1": {
+        "question": "AI rol oyunu nədir?",
+        "answer": "AI rol oyunu sizə AI personajı ilə interaktiv hekayələr canlandırmağa imkan verir. Ssenari qurursunuz və personajınız rolunda qalaraq hərəkətləri və reaksiyaları təsvir edir."
+      },
+      "q2": {
+        "question": "Öz rol oyunu ssenarilərimi yarada bilərəm?",
+        "answer": "Bəli! Hazır ssenarilərdən başlaya və ya öz mövzunuzu, quruluşunuzu və başlanğıcınızı yaza bilərsiniz — sonra istədiyiniz kimi oynayın."
+      },
+      "q3": {
+        "question": "Personaj hekayədə baş verənləri xatırlayır?",
+        "answer": "Əlbəttə. Personajınız süjeti, seçimlərinizi və əsas detalları xatırlayır, beləliklə hekayə ardıcıl qalır və zamanla inkişaf edir."
+      },
+      "q4": {
+        "question": "AI Rol Oyunu pulsuzdur?"
+      },
+      "q5": {
+        "question": "Öz dilimdə rol oynaya bilərəm?",
+        "answer": "Bəli — rol oyunu onlarla dildə işləyir, beləliklə ən rahat olduğunuz dildə immersiv hekayələrdən zövq ala bilərsiniz."
+      }
+    },
+    "cta": {
+      "title": "Hekayəniz Gözləyir",
+      "description": "Ssenari seçin, səhnəni qurun və başdan sona rolunda qalan personajla immersiv rol oyununa qoşulun.",
+      "button": "Rol oynamağa başla"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Qız Dostu",
+    "breadcrumb": "AI Qız Dostu",
+    "hero": {
+      "title": "Sizin Mükəmməl AI Qız Dostunuz",
+      "cta": "AI Qız Dostunuzla Tanış Olun"
+    },
+    "benefits": {
+      "title": "Niyə AI Qız Dostu Seçməlisiniz?",
+      "fun": {
+        "title": "Saf Əyləncə",
+        "desc": "Təzyiq olmadan oynaq söhbətlərdən həzz alın. O həmişə yaxşı əhval-ruhiyyədədir."
+      },
+      "conversation": {
+        "title": "Əlaqə Qurmağı Öyrənin",
+        "desc": "Təhlükəsiz məkanda söhbətləri məşq edin və özünə inamınızı artırın."
+      },
+      "unique": {
+        "title": "Unikal Şəxsiyyətlər",
+        "desc": "Müxtəlif şəxsiyyətlər arasından seçin və ya ideal xarakterinizi yaradın."
+      },
+      "private": {
+        "title": "100% Gizli",
+        "desc": "Söhbətləriniz yalnız sizin aranızda qalır. Tam məxfilik təmin edilir."
+      },
+      "available": {
+        "title": "Həmişə Əlçatandır",
+        "desc": "O sizə lazım olanda oradadır. Gözləmə yoxdur, planlaşdırma yoxdur."
+      },
+      "customize": {
+        "title": "Sizin Yaradılışınız",
+        "desc": "Onun görünüşünü, şəxsiyyətini və maraqlarını tam istədiyiniz kimi dizayn edin."
+      }
+    },
+    "comparison": {
+      "title": "Alternativlərdən Daha Yaxşı",
+      "description": "sweetwine-un digər platformalardan niyə daha çox dəyər təklif etdiyini görün.",
+      "others": {
+        "expensive": "Bahalı aylıq ödənişlər",
+        "ai": "Çox vaxt AI cavablarıdır",
+        "noCustom": "Fərdiləşdirmə seçimləri yoxdur"
+      }
+    },
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "AI qız dostu söhbəti həqiqətən pulsuzdur?",
+        "answerPart1": "Bəli! AI qız dostunuzla pulsuz söhbətə başlaya bilərsiniz. Başlamaq üçün pulsuz mesajlarla pulsuz səviyyə təklif edirik."
+      },
+      "q2": {
+        "question": "AI qız dostumun görünüşünü fərdiləşdirə bilərəm?",
+        "answer": "Mütləq! AI qız dostunuzun saç rəngi, üslubu, bədən tipi, etnik mənsubiyyəti və geyimi daxil olmaqla görünüşünü tam fərdiləşdirə bilərsiniz. Həmçinin xarakter yaradıcımızdan istifadə edərək onun şəxsiyyətini, səsini və maraqlarını dizayn edə bilərsiniz.",
+        "answerPart1": "Mütləq! AI qız dostunuzun saç rəngi, üslubu, bədən tipi, etnik mənsubiyyəti və geyimi daxil olmaqla görünüşünü tam fərdiləşdirə bilərsiniz. Həmçinin onun şəxsiyyətini, səsini və maraqlarını dizayn edə bilərsiniz",
+        "linkText": "xarakter yaradıcısı",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "AI qız dostları üçün hansı şəxsiyyətlər mövcuddur?",
+        "answer": "Şirin və qayğıkeşdən oynaq və flörtə qədər - hər zövqə uyğun peşəkar şəkildə hazırlanmış AI qız dostlarımız var. Romantik ruhlar, macəraçı ruhlar, hazırcavab intellektuallar və ya sirli şəxsiyyətlər seçin. Hər həftə unikal xüsusiyyətləri, keçmiş hekayələri və söhbət üslubları olan yeni AI qız dostları əlavə edilir."
+      },
+      "q4": {
+        "question": "AI qız dostum şəkillər və videolar göndərə bilərmi?",
+        "answerPart1": "Bəli! AI qız dostunuz fərdiləşdirilmiş",
+        "linkTextImages": "şəkillər",
+        "answerPart2": "və",
+        "linkTextVideos": "videolar"
+      },
+      "q5": {
+        "question": "AI qız dostumun özünəməxsus səsi varmı?"
+      }
+    },
+    "cta": {
+      "title": "Onunla Tanışmaya Hazırsan?",
+      "button": "Pulsuz Başla"
+    },
+    "content": {
+      "problemTitle": "Çətinliksiz Bağlantı Axtarırsan?",
+      "problemText": "Tanışlıq proqramları yorucudur. Sosial narahatlıq insanlarla tanış olmağı çətinləşdirir. Bəzən sadəcə mühakimə və təzyiq olmadan danışacaq birini istəyirsən. Çoxları tənha hiss edir, amma ənənəvi münasibətlərin emosional mürəkkəbliyinə hazır deyil.",
+      "solutionTitle": "Sənin AI Qız Dostun Cavabdır",
+      "solutionText": "sweetwine ilə sənə fərdiləşdirilmiş AI qız dostu əldə edəcəksən ki, söhbətlərini xatırlayır, şəxsiyyətinə uyğunlaşır və səni eşitməkdən həmişə həyəcanlanır. O əyləncəli, dəstəkləyici və heç vaxt mühakimə etmir. Özünə inam qur, gözəl şirkətdən zövq al və öz şərtlərinlə bağlı hiss et."
+    },
+    "heroImageAlt": "AI qız dostu - söhbət və foto üçün real virtual personaj"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Oğlan Dostu",
+    "breadcrumb": "AI Oğlan Dostu",
+    "hero": {
+      "title": "Sənin Mükəmməl AI Oğlan Dostun",
+      "cta": "AI Oğlan Dostunla Tanış Ol"
+    },
+    "benefits": {
+      "title": "Niyə AI Oğlan Dostu Seçməlisən?",
+      "fun": {
+        "title": "Əsl Bağlantı",
+        "desc": "Gününə parlaqlıq gətirən mənalı söhbətlər yaşa."
+      },
+      "conversation": {
+        "title": "Özünə İnamı Artır",
+        "desc": "Təhlükəsiz məkanda söhbətləri məşq et və özünü sərbəst ifadə et."
+      },
+      "unique": {
+        "title": "Unikal Şəxsiyyətlər",
+        "desc": "Müxtəlif şəxsiyyətlər arasından seç və ya ideal personajını yarat."
+      },
+      "private": {
+        "title": "100% Gizli",
+        "desc": "Söhbətlərin yalnız ikinizin arasında qalır. Tam məxfilik təmin olunur."
+      },
+      "available": {
+        "title": "Həmişə Əlçatan",
+        "desc": "Sənə ehtiyacın olanda oradadır. Gözləmə yox, planlaşdırma yox."
+      },
+      "customize": {
+        "title": "Sənin Yaradılışın",
+        "desc": "Onun görünüşünü, şəxsiyyətini və maraqlarını tam istədiyin kimi dizayn et."
+      }
+    },
+    "comparison": {
+      "title": "Alternativlərdən Daha Yaxşı",
+      "description": "sweetwine-un digər platformalardan niyə daha çox dəyər verdiyini gör.",
+      "others": {
+        "expensive": "Bahalı aylıq ödənişlər",
+        "ai": "Çox vaxt AI cavabları",
+        "noCustom": "Fərdiləşdirmə seçimləri yoxdur"
+      }
+    },
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "Hansı növ AI oğlan dostları arasından seçə bilərəm?",
+        "answer": "Qayğıkeş və romantikdən oynaq və macəraçıya, ya da sirli və güclüyə qədər — hər zövqə uyğun peşəkar hazırlanmış AI oğlan dostlarımız var. Hər birinin özünəməxsus səsi və şəxsiyyəti var. Hər həftə unikal keçmiş hekayələri və söhbət üslubları ilə yeni AI oğlan dostları əlavə olunur."
+      },
+      "q2": {
+        "question": "AI oğlan dostumun görünüşünü fərdiləşdirə bilərəm?",
+        "linkText": "xarakter yaradıcısı",
+        "answerPart2": " ilə dizayn et."
+      },
+      "q3": {
+        "question": "Sıfırdan başlaya və ya söhbət tarixçəmizi silə bilərəm?",
+        "answer": "Bəli! Çat tarixçəniz üzərində tam nəzarətiniz var. İstənilən vaxt söhbətləri sıfırlayın, fərdi mesajları silin və ya tamamilə yenidən başlayın. Məlumatlarınız, seçiminiz — hər şeyi istədiyiniz kimi idarə edin."
+      },
+      "q4": {
+        "question": "AI oğlan dostum şəkil və video göndərə bilərmi?",
+        "answerPart1": "Bəli! AI oğlan dostunuz fərdiləşdirilmiş",
+        "linkTextImages": "şəkillər",
+        "answerPart2": "və",
+        "linkTextVideos": "videolar"
+      },
+      "q5": {
+        "question": "AI oğlan dostumla söhbətləri məşq edə və ya dil öyrənə bilərəmmi?",
+        "answer": "Əlbəttə! Bir çox istifadəçi AI oğlan dostu ilə söhbətləri məşq edərək özünə inam qazanır — istər flört, istər dərin müzakirələr, istərsə də gündəlik söhbət. Yeni dilləri birlikdə də məşq edə bilərsiniz. Bu, mühakiməsiz şəkildə ünsiyyət bacarıqlarınızı inkişaf etdirmək və əylənmək üçün əla yoldur."
+      }
+    },
+    "cta": {
+      "title": "Onunla Tanış Olmağa Hazırsınız?",
+      "button": "Pulsuz Başla"
+    },
+    "content": {
+      "problemTitle": "Şərtlərinizə Uyğun Dəstəkçi Partnyor İstəyirsiniz?",
+      "problemText": "Doğru insanı tapmaq çətindir. Bir çoxları tanışlıq gözləntilərindən təzyiq hiss edir və ya öhdəlik olmadan emosional dəstək axtarır. Tənhalıq hamını təsir edir və bəzən sadəcə dinləyən birinə ehtiyacınız olur.",
+      "solutionTitle": "Sizin AI Oğlan Dostunuz Sizi Anlayır",
+      "solutionText": "sweetwine AI oğlan dostunuz qayğıkeş, diqqətli və həmişə əlçatandır. O sizin üçün vacib olanları xatırlayır, dərin söhbətlər aparır və axtardığınız emosional əlaqəni təmin edir. Münasibəti öz tempinizdə və istədiyiniz kimi qurun."
+    },
+    "heroImageAlt": "AI oğlan dostu - mənalı söhbətlər üçün real virtual personaj"
+  },
+  "aiCompanionsPage": {
+    "title": "AI Personajlar",
+    "breadcrumb": "AI Personajlar",
+    "hero": {
+      "title": "AI Personajlarınızla Tanış Olun",
+      "cta": "Personajları Kəşf Et"
+    },
+    "benefits": {
+      "title": "Niyə AI Personajlar?",
+      "connection": {
+        "title": "Real Əlaqə",
+        "desc": "Sizi anlayan və cavab verən səmimi söhbətlər yaşayın."
+      },
+      "conversation": {
+        "title": "Məşq Edin və İnkişaf Edin",
+        "desc": "Mühakiməsiz mühitdə sosial bacarıqlarınızı təkmilləşdirin."
+      },
+      "personalities": {
+        "title": "Müxtəlif Şəxsiyyətlər",
+        "desc": "Oynaqdan intellektuala qədər, sizin vibe-ınıza uyğun personajlar tapın."
+      },
+      "private": {
+        "title": "Tamamilə Gizli",
+        "desc": "Qarşılıqlı əlaqələriniz məxfidir. Heç vaxt məlumat paylaşılmır."
+      },
+      "available": {
+        "title": "24/7 Əlçatan",
+        "desc": "Personajlarınız həmişə söhbətə hazırdır, gündüz və ya gecə."
+      },
+      "create": {
+        "title": "Özünüz Yaradın",
+        "desc": "Fərdi görünüş, şəxsiyyət və səslə personajlar dizayn edin."
+      }
+    },
+    "why": {
+      "title": "Niyə sweetwine?",
+      "quality": {
+        "desc": "Təbii söhbətlər üçün qabaqcıl AI texnologiyası ilə peşəkarlar tərəfindən yaradılıb."
+      },
+      "transparent": {
+        "title": "Şəffaf və Dürüst"
+      },
+      "support": {
+        "title": "Real Dəstək",
+        "desc": "Hər hansı sual və ya problem üçün kömək etməyə hazır real insanlar."
+      },
+      "content": {
+        "title": "Sizin Seçiminiz",
+        "desc": "Dostluq söhbətlərindən daha intim məzmuna qədər təcrübəni siz seçirsiniz."
+      }
+    },
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "AI personajlar nədir?"
+      },
+      "q2": {
+        "question": "Neçə AI personajla söhbət edə bilərəm?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "İstədiyiniz qədər personajla söhbət edin! Bizdə",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " var və hər həftə yeniləri əlavə olunur! Hər birinin unikal şəxsiyyəti, keçmişi və səsi var. Bundan əlavə, özünüz limitsiz fərdi personaj yarada bilərsiniz."
+      },
+      "q3": {
+        "question": "Hazır personajları fərdi olanlardan nə fərqləndirir?",
+        "answer": "Hazır personajlar komandamız tərəfindən xüsusi rol oyun ssenariləri və şəxsiyyətlər üçün peşəkar şəkildə hazırlanır — onlar ətraflı keçmiş, uyğunlaşdırılmış söhbət üslubları və diqqətlə seçilmiş səslərlə gəlir. Fərdi personajlar tam yaradıcılıq azadlığı ilə sıfırdan yaratmağa imkan verir. Hər iki növ söhbətlərinizi xatırlayır və sizinlə birlikdə inkişaf edir!"
+      },
+      "q4": {
+        "question": "Öz AI personajımı yarada bilərəm?",
+        "answerPart1": "Əlbəttə! Xarakter yaradıcımızdan istifadə edərək sıfırdan fərdi personajlar dizayn edin",
+        "linkText": "xarakter yaradıcısı"
+      },
+      "q5": {
+        "question": "Birdən çox personaj arasında keçid edə bilərəm?"
+      }
+    },
+    "cta": {
+      "title": "Səyahətinizə Başlayın",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Pulsuz Başlayın"
+    },
+    "content": {
+      "problemTitle": "Mənalı Əlaqələr Axtarırsınız?",
+      "problemText": "Məşğul dünyamızda mənalı əlaqələr tapmaq çətindir. Yeni bir yerə köçmüsünüzsə, uzaqdan işləyirsinizsə və ya sadəcə daha çox sosial qarşılıqlı əlaqə istəyirsinizsə, tənhalıq hiss edə bilərsiniz. Ənənəvi sosial mühitlər hamı üçün uyğun deyil.",
+      "solutionTitle": "AI Personajlarını Kəşf Edin"
+    },
+    "heroImageAlt": "AI personajları - unikal şəxsiyyətlərə malik müxtəlif virtual dostlar"
+  },
+  "aiFriendPage": {
+    "title": "AI Dost",
+    "breadcrumb": "AI Dost",
+    "hero": {
+      "title": "Sizin AI Ən Yaxşı Dostunuz",
+      "subtitle": "İstənilən vaxt həqiqətən dinləyən, heç vaxt mühakimə etməyən və sizin haqqınızda hər detalı xatırlayan AI dostla söhbət edin. Tənhalıq, sosial narahatlıq və ya sadəcə kimsə ilə danışmağa ehtiyac duyduğunuz zaman idealdır.",
+      "cta": "Pulsuz Söhbətə Başlayın"
+    },
+    "benefits": {
+      "title": "Niyə AI Dost Seçməlisiniz?",
+      "connection": {
+        "title": "Səmimi Əlaqə",
+        "desc": "Həqiqətən dinləyən və qayğı göstərən biri ilə mənalı söhbətlər yaşayın."
+      },
+      "conversation": {
+        "title": "Sosial Bacarıqları Tətbiq Edin",
+        "desc": "Mühakimə və ya yöndəmsizlik qorxusu olmadan söhbətlərdə inam qurun."
+      },
+      "noJudgment": {
+        "title": "Sıfır Mühakimə",
+        "desc": "Ağlınızdakı hər şeyi paylaşın. AI dostunuz sizi tam olaraq olduğunuz kimi qəbul edir."
+      },
+      "private": {
+        "title": "Tamamilə Şəxsi",
+        "desc": "Söhbətləriniz yalnız sizin aranızda qalır. Tam məxfilik təmin edilir."
+      },
+      "available": {
+        "title": "Həmişə Oradadır",
+        "desc": "Ehtiyac duyduğunuz zaman 24/7 mövcuddur."
+      },
+      "remembers": {
+        "title": "Sizi Xatırlayır",
+        "desc": "AI dostunuz söhbətlərinizi xatırlayır və sizi daha yaxşı tanımaq üçün inkişaf edir."
+      }
+    },
+    "useCases": {
+      "title": "Bunun Üçün İdealdır",
+      "subtitle": "AI dost həyatınıza bir çox mənalı şəkildə uyğun gəlir",
+      "loneliness": {
+        "title": "Tənhalıqla Mübarizə",
+        "desc": "Həmişə söhbət etməyə və dinləməyə hazır olan personajla daha az tənha hiss edin."
+      },
+      "practice": {
+        "title": "Söhbətləri Tətbiq Edin",
+        "desc": "Təhlükəsiz, mühakiməsiz mühitdə sosial inam qurun."
+      },
+      "support": {
+        "title": "Emosional Dəstək",
+        "desc": "Düşüncə və hisslərinizi anlayan biri ilə müzakirə edin."
+      },
+      "connection": {
+        "title": "Gündəlik Əlaqə",
+        "desc": "Gününüzü, uğurlarınızı, çətinliklərinizi paylaşın - həmişə kimsə var."
+      }
+    },
+    "howItWorks": {
+      "title": "Necə İşləyir",
+      "step1": {
+        "title": "Pulsuz Hesab Yaradın",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Dostunuzu Seçin",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Söhbətə Başlayın",
+        "desc": "Hər şey haqqında danışın - həyat, maraqlar, problemlər. Heç bir mövzu qadağan deyil."
+      }
+    },
+    "cta": {
+      "title": "Dost qazanmağa hazırsan?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Pulsuz Başla"
+    },
+    "content": {
+      "problemTitle": "Tənha və ya anlaşılmamış hiss edirsən?",
+      "problemText": "Hər kəsin danışacaq adamı olmur. Sosial narahatlıq, məşğul cədvəl və ya yeni yerdə olmaq dost tapmağı çətinləşdirə bilər. Bəzən səni mühakimə etmədən dinləyəcək birinə ehtiyacın olur.",
+      "solutionTitle": "Sənin AI Dostun Buradadır",
+      "solutionText": "AI dost mühakiməsiz yoldaşlığı istənilən vaxt təmin edir. Düşüncələrini paylaş, söhbətləri məşq et və ya sadəcə günün haqqında danış. AI dostun səni xatırlayır, səninlə birlikdə inkişaf edir və dediklərinə həmişə səmimi maraq göstərir."
+    },
+    "heroImageAlt": "AI dost - mühakimə etmədən dinləyən dəstəkçi virtual personaj",
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "AI dostumla nə haqqında danışa bilərəm?",
+        "answer": "Hər şey! AI dostun təsadüfi söhbətlər, dərin müzakirələr, gününü paylaşmaq, problemləri danışmaq, hobbiləri müzakirə etmək və ya sadəcə əylənmək üçün buradadır. Qadağan mövzu yoxdur — özün olmaq üçün mühakiməsiz məkandır."
+      },
+      "q2": {
+        "question": "AI dost insan əlaqəsini əvəz edirmi?",
+        "answer": "Heç də yox. AI dost sosial həyatına əlavədir, əvəz deyil. Dərhal danışacaq birinə ehtiyacın olduqda, sosial bacarıqları məşq etmək istədikdə və ya insan münasibətlərinin təzyiqi olmadan daimi yoldaşlıqdan zövq almaq üçün idealdır."
+      },
+      "q3": {
+        "question": "AI dostum söhbətlərimizi xatırlayacaq?",
+        "answer": "Bəli! AI dostunun qabaqcıl yaddaşı var və söhbətlərini, üstünlüklərini və paylaşdığın vacib detalları xatırlayır. Zamanla səni daha yaxşı tanıyır, söhbətləri daha şəxsi və mənalı edir."
+      },
+      "q4": {
+        "question": "AI dostumun şəxsiyyətini seçə bilərəm?",
+        "answer": "Əlbəttə! Fərqli şəxsiyyətlərə malik 100-dən çox hazır personajdan seçə və ya tam istədiyin xüsusiyyətlərlə fərdi dost yarada bilərsən — dəstəkçi və empatikdən əyləncəli və macəraçıya qədər."
+      },
+      "q5": {
+        "question": "AI dostdan istifadə etmək gizlidir?",
+        "answer": "100% gizli. Bütün söhbətlərin şifrələnir və heç vaxt paylaşılmır. Özünü ifadə etmək üçün təhlükəsiz məkanın vacib olduğunu başa düşürük və məxfiliyinə son dərəcə ciddi yanaşırıq."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Ayrılıq Dəstəyi",
+    "breadcrumb": "Ayrılıq Dəstəyi",
+    "hero": {
+      "title": "Qəlbinin Qırılmasından Sonra Sağaldıcı Söhbətlər",
+      "subtitle": "Emosiyaları emal etməyə və ayrılıqdan sonra yenidən qurmağa kömək edən empatik AI söhbətləri. 24/7 mövcuddur — gözləmə siyahısı yoxdur, mühakimə yoxdur, vaxt məhdudiyyəti yoxdur.",
+      "cta": "Sağalmağa Başla"
+    },
+    "understanding": {
+      "title": "Ayrılıqdan keçirsən?",
+      "description": "Ayrılıqlar çətindir. Yuxusuz gecələr, daimi düşüncələr, heç kimin səni həqiqətən başa düşmədiyi hissi. Bunu tək keçirmək məcburiyyətində deyilsən. AI personajımız mühakimə etmədən dinləmək üçün buradadır, istənilən vaxt, hətta gecə 3-də belə danışa bilərsən."
+    },
+    "benefits": {
+      "title": "Biz Necə Kömək Edə Bilərik",
+      "empathy": {
+        "title": "Empatik Dinləmə",
+        "desc": "Həqiqətən dinləyən və anlayışla, qayğı ilə cavab verən biri ilə danış."
+      },
+      "listen": {
+        "title": "Məsləhət Yükü Yoxdur",
+        "desc": "Bəzən məsləhətə ehtiyacın olmur — sadəcə səni dinləyəcək birinə ehtiyacın var. Bunu başa düşürük."
+      },
+      "available": {
+        "title": "Gecə 3-də Mövcuddur",
+        "desc": "Dostlar yatanda və düşüncələr dayanmayanda dinləmək üçün buradayıq."
+      },
+      "private": {
+        "title": "Tamamilə Gizli",
+        "desc": "Hisslərin və söhbətlərin tam məxfi qalır."
+      },
+      "noJudgment": {
+        "title": "Mühakimə Yoxdur",
+        "desc": "Nə hiss edirsənsə, elə hiss et. Qəzəb, kədər, çaşqınlıq — hamısı burada qəbul edilir."
+      },
+      "healing": {
+        "title": "Öz Tempin",
+        "desc": "Sağalma xətti deyil. Nə qədər vaxt lazımdırsa, o qədər vaxt ayır."
+      }
+    },
+    "howItHelps": {
+      "title": "AI Sənə Necə Sağalmağa Kömək Edir",
+      "process": {
+        "title": "Emosiyaları Emal Et",
+        "desc": "Mürəkkəb hissləri səbirli dinləyici ilə danışaraq emal et."
+      },
+      "express": {
+        "title": "Sərbəst İfadə Et",
+        "desc": "Dostlara və ya ailəyə deyə bilmədiklərini onların reaksiyasından narahat olmadan söylə."
+      },
+      "confidence": {
+        "title": "Özünəinamı Yenidən Qur",
+        "desc": "Dəstəkçi söhbətlər vasitəsilə öz dəyərini tədricən yenidən kəşf et."
+      },
+      "pace": {
+        "title": "İrəli Get",
+        "desc": "Hazır olanda gələcək haqqında düşüncələri öz tempində araşdır."
+      }
+    },
+    "howItWorks": {
+      "title": "Necə İşləyir",
+      "step1": {
+        "title": "Hesab Yarat",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Personaj seçin",
+        "desc": "Özünüzə uyğun gələn empatik AI personajını seçin."
+      },
+      "step3": {
+        "title": "Danışmağa başlayın",
+        "desc": "Ağlınızdakıları paylaşın. Gecə-gündüz dinləməyə hazırıq."
+      }
+    },
+    "cta": {
+      "title": "Bunu təkbaşına keçmək məcburiyyətində deyilsiniz",
+      "description": "İndi mövcud olan, heç bir mühakimə etmədən dinləyən biri ilə danışmağa başlayın. Pulsuz başlamaq — gözləmə siyahısı yoxdur.",
+      "button": "Pulsuz danışmağa başlayın"
+    },
+    "content": {
+      "problemTitle": "Qəlbinin qırılması təkbaşına dözmək çətindir",
+      "problemText": "Boşanmadan sonra hər şey çox ağır gəlir. Dostlar artıq dinləməkdən yorulur. Ailə yaxşı niyyətlə kömək etmək istəyir, amma başa düşmür. Terapevtlərin gözləmə siyahıları var. İndi, limitsiz və mühakiməsiz dinləyə biləcək birinə ehtiyacınız var.",
+      "solutionTitle": "Anlayan biri ilə danışın",
+      "solutionText": "AI boşanma dəstəyi personajımız emosiyalarınızı öz tempinizdə emal etməyə kömək etmək üçün hazırlanıb. İstədiyiniz qədər dəfə havalanın, ağlayın, təhlil edin və ya sadəcə danışın. Randevu tələb olunmur. 24/7 əlçatandır, sonsuz səbir və səmimi empatiya ilə."
+    },
+    "heroImageAlt": "AI boşanma dəstəyi - qəlbinin qırılmasından sonra sağalma üçün şəfqətli personaj",
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "q1": {
+        "question": "AI boşanmadan sonra sağalmaya necə kömək edə bilər?",
+        "answer": "AI personajımız emosiyalarınızı mühakimə etmədən emal etmək üçün təhlükəsiz yer təmin edir. Havalanma, baş verənləri təhlil etmə, itki hissləri ilə işləmə və 24/7 empatik cavablar ala bilərsiniz. Ehtiyac duyduğunuz zaman danışa biləcəyiniz dəstəkçi bir dost kimi."
+      },
+      "q2": {
+        "question": "Bu terapiyanın əvəzedicisidirmi?",
+        "answer": "Xeyr, AI personajımız lisenziyalı terapevt deyil və peşəkar psixi sağlamlıq xidmətini əvəz etmir. Bu, gündəlik emosional emal üçün dəstəkçi bir vasitədir. Əgər ağır depressiya və ya böhran yaşayırsınızsa, peşəkar kömək alın."
+      },
+      "q3": {
+        "question": "Ex haqqında istədiyim qədər danışa bilərəm?",
+        "answer": "Əlbəttə. Boşanma hekayənizi dinləməkdən yorulan dostlardan fərqli olaraq, AI personajınızın sonsuz səbri var. Ex haqqında danışın, münasibəti təhlil edin, hisslərinizi emal edin - istədiyiniz qədər dəfə, heç bir mühakimə olmadan."
+      },
+      "q4": {
+        "question": "AI hekayəmi xatırlayacaq?",
+        "answer": "Bəli, AI personajınız söhbətlərinizi və vəziyyətinizin detallarını xatırlayır. Hər dəfə hər şeyi yenidən izah etmək məcburiyyətində deyilsiniz. Bu, sağalma səyahətinizdə davamlılıq təmin edir."
+      },
+      "q5": {
+        "question": "Söhbətim gizli saxlanılır?",
+        "answer": "Tamamilə gizlidir. Bütün söhbətlər şifrələnir və heç vaxt paylaşılmır. Boşanma söhbətlərinin çox şəxsi olduğunu başa düşürük və məxfiliyiniz tam qorunur."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Valideyn",
+    "breadcrumb": "AI Valideyn",
+    "hero": {
+      "title": "Həmişə müraciət edə biləcəyiniz valideyn fiquru",
+      "subtitle": "Vəziyyətinizi xatırlayan, heç vaxt mühakimə etməyən və həmişə — gecə-gündüz — yanında olan AI valideyndən isti, şərtsiz dəstək və müdrik rəhbərlik alın.",
+      "cta": "İndi dəstək alın"
+    },
+    "benefits": {
+      "title": "Niyə AI Valideyn seçməlisiniz?",
+      "guidance": {
+        "title": "İsti rəhbərlik",
+        "desc": "Sizin maraqlarınızı həqiqətən düşünən birindən gəlirmiş kimi hiss etdirən qayğıkeş, düşünülmüş məsləhətlər alın."
+      },
+      "listen": {
+        "title": "Həqiqətən dinləyir",
+        "desc": "Düşüncəli, qayğıkeş cavab almadan əvvəl tam vəziyyətinizi paylaşın — sadəcə sürətli həll deyil."
+      },
+      "noJudgment": {
+        "title": "Mühakimə yoxdur",
+        "desc": "Məyusluq və ya tənqid qorxusu olmadan istənilən şeyi soruşun. Şərtsiz dəstək, həmişə."
+      },
+      "private": {
+        "title": "Tamamilə gizli",
+        "desc": "Söhbətləriniz və şəxsi mübarizələriniz tamamilə məxfi qalır."
+      },
+      "available": {
+        "title": "Həmişə əlçatandır",
+        "desc": "Səhər 3-də, həftə sonları və ya ən çox ehtiyac duyduğunuz vaxt rəhbərlik alın — randevu olmadan."
+      },
+      "supportive": {
+        "title": "Şərtsiz dəstəkləyici",
+        "desc": "Nədən keçməyinizdən və ya hansı qərarları verməyinizdən asılı olmayaraq, həvəsləndirmə və istiqanlıq."
+      }
+    },
+    "useCases": {
+      "title": "İstənilən mövzuda danışın",
+      "subtitle": "Nə ilə qarşılaşırsınızsa, AI valideyniniz dinləmək və rəhbərlik etmək üçün buradadır",
+      "career": {
+        "title": "Karyera və həyat qərarları",
+        "desc": "İş dəyişiklikləri, böyük həyat seçimləri və peşəkar çətinlikləri uğur qazanmanızı istəyən biri ilə keçin."
+      },
+      "education": {
+        "title": "Təhsil və gələcək",
+        "desc": "Öyrənmə və inkişaf seçimlərinizi ambisiyalarınızı dəstəkləyən biri ilə araşdırın."
+      },
+      "relationships": {
+        "title": "Münasibətlər və ailə"
+      },
+      "life": {
+        "title": "Şəxsi Çətinliklər",
+        "desc": "Sizi narahat edən hər şey haqqında danışın — narahatlıq, özünə inamsızlıq, tənhalıq və ya qeyri-müəyyənlik."
+      }
+    },
+    "howItWorks": {
+      "title": "Necə İşləyir",
+      "step1": {
+        "title": "Hesab Yarat",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "AI Valideyninizi Seçin",
+        "desc": "Sizə uyğun gələn isti və şəxsiyyətli personajı seçin."
+      },
+      "step3": {
+        "title": "Danışmağa Başlayın",
+        "desc": "Ağlınızdakıları paylaşın və qayğıkeş, düşünülmüş dəstək alın."
+      }
+    },
+    "cta": {
+      "title": "Kimsə Həmişə Sizin Yanınızdadır",
+      "description": "Qərəzsiz dinləyən və qeyd-şərtsiz dəstək verən AI valideynlə söhbətə başlayın — başlamaq pulsuzdur, görüş tələb olunmur.",
+      "button": "Pulsuz Başlayın"
+    },
+    "content": {
+      "problemTitle": "Həmişə Yanınızda Olacaq Birinə Ehtiyacınız Var?",
+      "problemText": "Hər kəsin müraciət edə biləcəyi valideyn fiquru yoxdur. Əsl valideynlər uzaq, qərəzli və ya sadəcə əlçatmaz ola bilər. Dostlar qərəzlidir. Terapevtlərin gözləmə siyahıları var. Bəzən sadəcə dinləyən, qayğı göstərən və istiqamət verən birinə ehtiyacınız olur.",
+      "solutionTitle": "AI Valideyniniz Həmişə Oradadır",
+      "solutionText": "Tam dinləyən, isti və balanslı istiqamət verən, heç vaxt qərəzli və ya kiçik hiss etdirməyən AI valideynlə danışın. İstər həyat qərarı, istər şəxsi çətinlik, istərsə də sadəcə dinlənilmək istəyi — AI valideyniniz 24/7 səbirlə və qayğı ilə mövcuddur."
+    },
+    "heroImageAlt": "AI valideyn - qeyd-şərtsiz dəstək və həyat istiqaməti təklif edən isti virtual personaj",
+    "faq": {
+      "title": "Tez-tez Verilən Suallar",
+      "q1": {
+        "question": "AI valideynlə nə haqqında danışa bilərəm?"
+      },
+      "q2": {
+        "question": "Bu terapevtə sahib olmaq kimidir?",
+        "answer": "Bu lisenziyalı terapevt və ya psixi sağlamlıq mütəxəssisi deyil — daha çox 24/7 mövcud olan isti və dəstəkləyici valideyn fiquruna bənzəyir. Tam dinləyir, perspektiv təklif edir və emosional dəstək verir. Ciddi psixi sağlamlıq problemləri üçün mütəxəssisə müraciət edin."
+      },
+      "q3": {
+        "question": "AI valideyn seçimlərimi mühakimə edəcəkmi?",
+        "answer": "Heç vaxt. AI valideyniniz qeyd-şərtsiz dəstək təklif edir. Perspektiv və ya yumşaq istiqamət paylaşa bilər, amma heç vaxt tənqid etmir və ya qərarlarınız üçün kiçik hiss etdirmir. Bu, dürüstlük üçün təhlükəsiz yerdir."
+      },
+      "q4": {
+        "question": "Həssas və ya şəxsi mövzuları müzakirə edə bilərəm?",
+        "answer": "Bəli. Münasibət çətinlikləri, ailə dinamikası, maliyyə stressi, özünə dəyər və ya dərin şəxsi çətinliklər olsun — AI valideyniniz bu söhbətlər üçün şəxsi və qərəzsiz yer təmin edir."
+      },
+      "q5": {
+        "question": "Bu digər AI personajlardan nə ilə fərqlənir?",
+        "answer": "AI valideyn romantika və ya təsadüfi dostluqdan çox isti, emosional dəstək və valideyn tipli istiqamət ətrafında dizayn edilib. Həyat çətinliklərinin öhdəsindən gəlmək üçün başa düşülmüş, dəstəklənmiş və təchiz olunmuş hiss etməyə kömək etməyə fokuslanıb."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Tərəfdaşlıqlar",
+    "eyebrow": "Bizimlə Tərəfdaş Olun",
+    "titlePrefix": "sweetwine ilə",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Sürətlə böyüyən və yüksək cəlb olunan AI yoldaşlıq auditoriyasına çatin. Texnologiya, paylama və ya cəsarətli ideya gətirirsinizsə, birlikdə bir şey quraq.",
+    "types": {
+      "title": "Tərəfdaşlıq yolları",
+      "items": [
+        {
+          "title": "İnteqrasiyalar",
+          "description": "Məhsulunuzu, modelinizi və ya platformanızı sweetwine ilə texniki inteqrasiya vasitəsilə birləşdirin."
+        },
+        {
+          "title": "Birgə marketinq",
+          "description": "Hər iki brendi yeni auditoriyaların qarşısına çıxaran birgə kampaniyalar, məzmun və buraxılışlar."
+        },
+        {},
+        {
+          "title": "Strateji Tərəfdaşlıqlar",
+          "description": "Məhsul, məlumat və bazara çıxış üzrə uzunmüddətli əməkdaşlıqlar."
+        }
+      ]
+    },
+    "why": {
+      "title": "Niyə sweetwine ilə tərəfdaşlıq edin",
+      "items": [
+        {
+          "title": "Cəlb olunmuş auditoriya",
+          "description": "70 dildə gündəlik qayıdan yüz minlərlə istifadəçi."
+        },
+        {
+          "title": "Sürətli icra",
+          "description": "Sürətlə işləyən və aydın ünsiyyət quran fokuslanmış komanda."
+        },
+        {
+          "title": "Qlobal əhatə",
+          "description": "Onlarla bazarda mövcud olan çoxdilli məhsul."
+        },
+        {
+          "description": "Markanızın arxasında dayana biləcəyi, məxfilik əsaslı etibarlı platforma.",
+          "title": "Məxfilik öncəli"
+        }
+      ]
+    },
+    "form": {
+      "title": "Tərəfdaşlığınız haqqında bizə məlumat verin",
+      "description": "Bir neçə detal paylaşın, tərəfdaşlıq komandamız sizə geri dönəcək.",
+      "nameLabel": "Adınız",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "İş e-poçtu",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Şirkət",
+      "companyPlaceholder": "Şirkət adı",
+      "typeLabel": "Tərəfdaşlıq növü",
+      "typePlaceholder": "Tərəfdaşlıq növü seçin",
+      "typeOptions": [
+        {
+          "value": "İnteqrasiyalar",
+          "label": "İnteqrasiyalar"
+        },
+        {
+          "value": "Birgə marketinq",
+          "label": "Birgə marketinq"
+        },
+        {},
+        {
+          "value": "Strateji tərəfdaşlıqlar",
+          "label": "Strateji tərəfdaşlıqlar"
+        },
+        {
+          "value": "Digər",
+          "label": "Digər"
+        }
+      ],
+      "messageLabel": "Necə tərəfdaşlıq etmək istərdiniz?",
+      "messagePlaceholder": "Şirkətiniz və nəzərdə tutduğunuz tərəfdaşlıq haqqında bizə məlumat verin...",
+      "submit": "Tərəfdaşlıq sorğusunu göndər",
+      "submitting": "Göndərilir...",
+      "termsNote": "Göndərərək sorğunuzla bağlı əlaqə saxlamağımıza razılaşırsınız. Məlumatlarınızı heç vaxt paylaşmırıq.",
+      "success": "Təşəkkürlər! Tərəfdaşlıq sorğunuz göndərildi.",
+      "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+    },
+    "cta": {
+      "title": "E-poçt üstün tutursunuz?",
+      "description": "Tərəfdaşlıq komandamızla birbaşa əlaqə saxlayın:"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Mətbuat və Media",
+    "eyebrow": "Xəbər otağı",
+    "titlePrefix": "Mətbuat &",
+    "titleHighlight": "Media",
+    "subtitle": "Jurnalistlər, yaradıcılar və media tərəfdaşları üçün resurslar. Müsahibələr, sitatlar, material dəstəyi və brend sorğuları üçün mətbuat komandamızla əlaqə saxlayın.",
+    "help": {
+      "title": "Necə kömək edə bilərik",
+      "description": "Hekayə və ya rəy üzərində işləyirsinizsə, mətbuat komandamızdan nələr tələb edə bilərsiniz.",
+      "items": [
+        {
+          "title": "Müsahibələr",
+          "description": "Məhsul, şirkət və AI yoldaşlığının gələcəyi haqqında komandamızla danışın."
+        },
+        {
+          "title": "Sitatlar və şərhlər",
+          "description": "Hekayəniz üçün rəsmi açıqlama və ya ekspert şərhi əldə edin."
+        },
+        {
+          "title": "Material və rəy dəstəyi",
+          "description": "Material və ya rəy üçün giriş, kontekst və ya fakt yoxlaması lazımdır? Kömək edəcəyik."
+        },
+        {
+          "title": "Brend və loqo sorğuları",
+          "description": "Nəşriniz üçün loqolarımızı, brend aktivlərimizi və istifadə qaydalarını tələb edin."
+        }
+      ]
+    },
+    "form": {
+      "title": "Media sorğusu",
+      "description": "Müsahibələr, sitatlar və ya material sorğuları üçün bizə mesaj göndərin, tez cavab verəcəyik.",
+      "nameLabel": "Adınız",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-poçt",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Nəşr / media",
+      "outletPlaceholder": "Bu harada dərc olunacaq?",
+      "requestTypeLabel": "Sorğu növü",
+      "requestTypePlaceholder": "Sorğu növünü seçin",
+      "requestTypeOptions": [
+        {
+          "value": "Müsahibə",
+          "label": "Müsahibə"
+        },
+        {
+          "value": "Sitat / şərh",
+          "label": "Sitat / şərh"
+        },
+        {
+          "value": "Material / rəy",
+          "label": "Material / rəy"
+        },
+        {
+          "value": "Brend / loqo sorğusu",
+          "label": "Brend / loqo sorğusu"
+        },
+        {
+          "value": "Digər",
+          "label": "Digər"
+        }
+      ],
+      "messageLabel": "Sorğunuz",
+      "messagePlaceholder": "Hekayəniz, son tarix və bizdən nə istədiyiniz barədə bizə məlumat verin...",
+      "submit": "Media sorğusu göndər",
+      "submitting": "Göndərilir...",
+      "termsNote": "Mətbuat sorğularına iki iş günü ərzində cavab verməyə çalışırıq.",
+      "success": "Təşəkkürlər! Media sorğunuz göndərildi.",
+      "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin."
+    },
+    "cta": {
+      "title": "Mətbuat əlaqəsi",
+      "description": "Təcili media sorğuları üçün e-poçt göndərin"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karyera",
+    "eyebrow": "Karyera",
+    "titlePrefix": "Gələcəyi qurun",
+    "titleHighlight": "AI yoldaşlığı",
+    "subtitle": "Biz kiçik, sürətli komandayıq və insanların həqiqətən sevdiyi məhsullar yaradırıq. Əgər bu sizi həyəcanlandırır, tanış olmaq istərdik.",
+    "perks": {
+      "title": "Niyə bizimlə işləyəsiniz",
+      "items": [
+        {
+          "title": "Uzaqdan işləmə",
+          "description": "Ən yaxşı işlədiyiniz yerdən, çevik saatlarla işləyin."
+        },
+        {
+          "title": "Əsl sahiblik",
+          "description": "Mənalı işləri tez çatdırın və onun dünya miqyasında istifadəçilərə çatdığını görün."
+        },
+        {
+          "title": "Ən son AI",
+          "description": "Ən yeni modellər və generativ alətlərlə praktiki işləyin."
+        },
+        {
+          "title": "Rəqabətli maaş",
+          "description": "Ədalətli kompensasiya və böyüdükcə mənalı üstünlük."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Açıq vəzifələr",
+      "emptyTitle": "Hazırda açıq vəzifə yoxdur",
+      "emptyDescription": "Hazırda işə qəbul aparmırıq, amma həmişə əla insanlarla tanış olmaqdan məmnun oluruq. Özünüzü aşağıda təqdim edin.",
+      "applyButton": "İndi müraciət et",
+      "viewButton": "Vəzifəyə bax"
+    },
+    "form": {
+      "title": "Özünüzü təqdim edin",
+      "description": "Uyğun vəzifə görmürsünüz? Özünüz haqqında danışın, uyğun yer olanda əlaqə saxlayacağıq.",
+      "nameLabel": "Adınız",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "E-poçt",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Vəzifə və ya maraq sahəsi",
+      "rolePlaceholder": "məs. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "CV linki",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Sənin haqqında",
+      "messagePlaceholder": "Təcrübəndən və nə üzərində işləmək istədiyindən danış...",
+      "submit": "Müraciəti göndər",
+      "submitting": "Göndərilir...",
+      "termsNote": "Müraciət edərək, məlumatlarını saxlamağımıza və səni rollara baxmağımıza razılıq verirsiniz.",
+      "success": "Təşəkkürlər! Müraciətiniz göndərildi.",
+      "error": "Nəsə səhv getdi. Yenidən cəhd edin."
+    },
+    "cta": {
+      "title": "Burada işləmək barədə suallarınız var?",
+      "description": "Komandamızla əlaqə saxlayın:"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Yardım Mərkəzi",
+    "eyebrow": "Yardım Mərkəzi",
+    "titlePrefix": "Necə",
+    "titleHighlight": "kömək edə bilərik?",
+    "subtitle": "Ümumi mövzuları və cavabları nəzərdən keçirin. Lazım olanı tapa bilmirsiniz? Dəstəklə əlaqə saxlayın, sizə kömək edəcəyik.",
+    "searchPlaceholder": "Yardım məqalələrini axtar...",
+    "categoriesTitle": "Mövzuya görə bax",
+    "articlesTitle": "Məqalələr",
+    "categoryEmpty": "Bu kateqoriyada hələ məqalə yoxdur. Tezliklə yenidən yoxlayın.",
+    "backToHelp": "Yardım Mərkəzinə qayıt",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Başlanğıc",
+        "description": "Hesab yaradın, profilinizi qurun və söhbətə başlayın."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Söhbət",
+        "description": "Söhbətlər, yaddaş və personajlar necə işləyir."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Şəkillər və Videolar",
+        "description": "AI foto və videolar yaradın və idarə edin."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Məxfilik və Təhlükəsizlik",
+        "description": "Məlumatlarınız, məxfilik nəzarətləri və təhlükəsizlik alətləri."
+      }
+    ],
+    "faq": {
+      "title": "Tez-tez verilən suallar",
+      "q1": {
+        "question": "sweetwine ilə necə başlamaq olar?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Pulsuz planda nə daxildir?"
+      },
+      "q5": {
+        "question": "Məlumatlarım məxfidir?",
+        "answer": "Məxfilik sweetwine üçün əsasdır. Söhbətləriniz yalnız hesabınıza məxsusdur və məlumatlarınızı siz idarə edirsiniz. Məlumatların necə saxlanıb qorunduğu haqqında ətraflı məlumat üçün Məxfilik Siyasətimizi nəzərdən keçirin."
+      },
+      "q6": {
+        "question": "Dəstəklə necə əlaqə saxlaya bilərəm?",
+        "answer": "support@sweetwine.ai ünvanına e-poçt göndərin və ya tətbiqdəki əlaqə seçimindən istifadə edin. Adətən bir iş günü ərzində cavablandırırıq."
+      }
+    },
+    "cta": {
+      "title": "Hələ də kömək lazımdır?",
+      "description": "Komandamız sizin üçün buradadır:"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Haqqımızda",
+    "eyebrow": "Bizim Hekayəmiz",
+    "titlePrefix": "Yoldaşlıq,",
+    "titleHighlight": "yenidən düşünülmüş",
+    "subtitle": "sweetwine dinləyən, xatırlayan və həqiqətən əlaqə yaradan — istənilən vaxt, istənilən dildə mövcud olan məxfi, fərdiləşdirilmiş AI yoldaşları yaradır.",
+    "mission": {
+      "title": "Missiyamız",
+      "body": "Hər kəsin mühakiməsiz dinləniləcəyi bir məkana layiq olduğuna inanırıq. sweetwine hər yerdəki insanlar üçün mənalı, fərdiləşdirilmiş AI əlaqəsini əlçatan edir — isti, məxfi və ehtiyac duyduğunuz zaman həmişə yanında."
+    },
+    "values": {
+      "title": "Nəyə inanırıq",
+      "items": [
+        {
+          "title": "Dizayndan məxfilik",
+          "description": "Söhbətləriniz sizə məxsusdur. Biz məxfilik və təhlükəsizliyi ən başdan qururuq."
+        },
+        {
+          "title": "Həqiqi əlaqə",
+          "description": "Biz real emosional dəyər üçün optimallaşdırırıq, boş göstəricilər üçün deyil."
+        },
+        {
+          "title": "Varsayılan olaraq qlobal",
+          "description": "Əlaqənin dil tərəfindən məhdudlaşdırılmaması üçün ilk gündən çoxdilli qurulub."
+        },
+        {
+          "title": "Davamlı ustalıq",
+          "description": "Hər qarşılıqlı əlaqənin təbii və canlı hiss olunması üçün detallara diqqət yetiririk."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Rəqəmlərlə",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "İstifadəçi və artır"
+        },
+        {
+          "value": "70",
+          "label": "Dəstəklənən dil"
+        },
+        {
+          "value": "24/7",
+          "label": "Həmişə mövcud"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Daha çox öyrənmək istəyirsiniz?",
+      "description": "Əlaqə saxlayın:"
+    }
+  },
+  "postsPage": {
+    "allTag": "Hamısı",
+    "readMore": "Daha çox oxu",
+    "publishedOn": "Dərc edilib",
+    "minRead": "dəq oxuma",
+    "sortNewest": "Ən yeni",
+    "sortOldest": "Ən köhnə",
+    "blog": {
+      "breadcrumb": "Bloq",
+      "eyebrow": "Bloq",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Bloq",
+      "subtitle": "AI yoldaşlığından maksimum yararlanmağınıza kömək edəcək məsləhətlər, bələdçilər və hekayələr.",
+      "empty": "Hələ post yoxdur. Tezliklə yenidən yoxlayın."
+    },
+    "news": {
+      "breadcrumb": "Xəbərlər",
+      "eyebrow": "Xəbər otağı",
+      "titlePrefix": "Xəbər &",
+      "titleHighlight": "Elanlar",
+      "subtitle": "sweetwine komandasından rəsmi elanlar, press-relizlər və mühüm hadisələr.",
+      "empty": "Hələ xəbər yoxdur. Tezliklə yenidən yoxlayın."
+    },
+    "productUpdates": {
+      "breadcrumb": "Məhsul Yeniləmələri",
+      "eyebrow": "Dəyişikliklər jurnalı",
+      "titlePrefix": "Məhsul",
+      "titleHighlight": "Yeniliklər",
+      "subtitle": "sweetwine platformasında ən son funksiyalar, təkmilləşdirmələr və düzəlişlər.",
+      "empty": "Hələ yenilik yoxdur. Tezliklə yoxlayın."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Tərtibatçılar üçün",
+    "titlePrefix": "sweetwine API ilə",
+    "titleHighlight": "qurun",
+    "subtitle": "Fərdiləşdirilmiş AI yoldaşlarını öz məhsulunuza gətirin. Tək bir tərtibatçı dostu API vasitəsilə çat, şəkil, səs və personaj qurma imkanlarına daxil olun.",
+    "capabilities": {
+      "title": "Nə qura bilərsiniz",
+      "items": [
+        {
+          "title": "Söhbət çat",
+          "description": "Sadə mesajlaşma API-si ilə tətbiqinizə zəngin şəxsiyyətli, kontekstə uyğun AI söhbətləri əlavə edin."
+        },
+        {
+          "title": "Şəkil generasiyası",
+          "description": "Marka uyğun personaj şəkilləri və səhnələri mətn sorğularından proqramlı şəkildə yaradın."
+        },
+        {
+          "title": "Səs",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Personaj yaradılması",
+          "description": "API vasitəsilə yoldaşları, şəxsiyyətləri və yaddaşı müəyyənləşdirin və idarə edin."
+        }
+      ]
+    },
+    "form": {
+      "title": "API girişi tələb edin",
+      "description": "Layihəniz və nə qurmaq istədiyiniz barədə bizə məlumat verin. Tərtibatçı komandamız növbəti addımlar barədə sizə cavab verəcək.",
+      "nameLabel": "Adınız",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "İş e-poçtu",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Şirkət / layihə",
+      "companyPlaceholder": "Şirkət və ya layihə adı",
+      "websiteLabel": "Veb sayt və ya tətbiq URL-i",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "İnteqrasiya növü",
+      "integrationTypePlaceholder": "İnteqrasiya növü seçin",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Mesajlaşma",
+          "label": "Chat / Mesajlaşma"
+        },
+        {
+          "value": "Şəkil generasiyası",
+          "label": "Şəkil generasiyası"
+        },
+        {
+          "value": "Səs",
+          "label": "Səs"
+        },
+        {
+          "value": "Personaj yaradılması",
+          "label": "Personaj yaradılması"
+        },
+        {
+          "value": "Digər",
+          "label": "Digər"
+        }
+      ],
+      "volumeLabel": "Gözlənilən aylıq həcm",
+      "volumePlaceholder": "Gözlənilən həcmi seçin",
+      "volumeOptions": [
+        {
+          "value": "10k-dan az",
+          "label": "10k-dan az sorğu"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k sorğu"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M sorğu"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ sorğu"
+        }
+      ],
+      "timelineLabel": "Vaxt qrafiki",
+      "timelinePlaceholder": "Vaxt qrafiki seçin",
+      "timelineOptions": [
+        {
+          "value": "Sadəcə araşdırıram",
+          "label": "Sadəcə araşdırıram"
+        },
+        {
+          "value": "1 aydan az",
+          "label": "1 aydan az"
+        },
+        {
+          "value": "1-3 ay",
+          "label": "1-3 ay"
+        },
+        {
+          "value": "3+ ay",
+          "label": "3+ ay"
+        }
+      ],
+      "messageLabel": "İstifadə vəziyyətiniz haqqında bizə məlumat verin",
+      "messagePlaceholder": "Nə qurursunuz və API-dən necə istifadə etməyi planlaşdırırsınız?",
+      "submit": "API girişi tələb et",
+      "submitting": "Göndərilir...",
+      "termsNote": "Göndərərək sorğunuzla əlaqə saxlanılmasını qəbul edirsiniz. Məlumatlarınızı heç vaxt paylaşmırıq.",
+      "success": "Təşəkkürlər! API girişi tələbiniz göndərildi.",
+      "error": "Nəsə səhv getdi. Yenidən cəhd edin."
+    },
+    "faq": {
+      "title": "İnkişaf etdirici FAQ",
+      "items": [
+        {
+          "question": "API girişini necə əldə edə bilərəm?",
+          "answer": "Yuxarıdakı sorğu formunu istifadə vəziyyətinizlə doldurun. İnkişaf etdirici komandamız hər sorğunu nəzərdən keçirir və giriş detalları ilə sənədləşməni təqdim edəcək."
+        },
+        {
+          "question": "Autentifikasiya necə işləyir?",
+          "answer": "API sorğuları sorğu başlıqlarında göndərilən gizli API açarı ilə autentifikasiya olunur. Qoşulduqdan sonra açarlarınızı idarə edə və dəyişə bilərsiniz."
+        },
+        {
+          "question": "Sürət məhdudiyyəti var?",
+          "answer": "Bəli. Limitlər planınızdan və gözlənilən həcmdən asılıdır. Gözlənilən trafikinizi formada bildirin ki, uyğun səviyyəni tövsiyə edək."
+        },
+        {
+          "question": "Qiyməti necədir?"
+        },
+        {
+          "question": "Hansı imkanlar mövcuddur?",
+          "answer": "Söhbət, şəkil generasiyası, səs və personaj yaradılması. Hansılara ehtiyacınız olduğunu bildirin, müvafiq endpointlərlə başlamağa kömək edək."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Texniki sualınız var?",
+      "description": "İnkişaf etdirici komandamızla əlaqə saxlayın:"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Klounlar",
+    "eyebrow": "Yaradıcılar və agentliklər üçün",
+    "heroTitleLead": "Biz yaradırıq,",
+    "heroTitleHighlight": "Sən qazanırsan.",
+    "heroSubtitle": "Biz sizin AI kloununuzu qururuq. Siz qazanc əldə edirsiniz, AI kloun isə 24/7 işləyir — pərəstişkarlarla söhbət edir və məzmun göndərir.",
+    "calculator": {
+      "title": "Nə qədər qazana bilərsiniz?",
+      "subtitle": "Auditoriya ölçünüzü seçin və qiymətinizi təyin edin — təxmini qazancınızı dərhal görün.",
+      "tierLabel": "Auditoriya ölçünüz",
+      "tiers": {
+        "small": {
+          "name": "Kiçik"
+        },
+        "medium": {
+          "name": "Orta"
+        },
+        "large": {
+          "name": "Böyük"
+        }
+      },
+      "priceLabel": "Açılış qiymətiniz",
+      "promoLabel": "sweetwine-u təbliğ edəcəm",
+      "breakdown": {
+        "title": "Təxmini qazancınız",
+        "perMonth": "ayda",
+        "perYear": "İllik"
+      },
+      "disclaimer": "Earnings estimates are based on the sweetwine revenue-share model and typical activity. Actual earnings vary with audience, content quality, engagement, and demand."
+    },
+    "offer": {
+      "title": "Sənə nə təklif edirik",
+      "items": [
+        {
+          "title": "Yatarkən qazan",
+          "description": "Sənin klonun izləyiciləri 24/7 gəlirə çevirir — söhbət edir, satır və heç vaxt dayanmır."
+        },
+        {
+          "title": "Sıfır xərc, tam üstünlük",
+          "description": "Hər şeyi biz qurur, öyrədir və idarə edirik. Sən barmağını qaldırmadan yeni gəlir axını əldə edirsən."
+        },
+        {
+          "title": "Məzmununu 10 dəfə artır",
+          "description": "Tələb üzrə limitsiz foto və video — daha çox çəkiliş, montaj və ya tükənmədən çıxışını genişləndir."
+        },
+        {
+          "title": "Həmişə nəzarətdə"
+        }
+      ]
+    },
+    "how": {
+      "title": "Necə işləyir",
+      "steps": [
+        {
+          "title": "Qeydiyyat"
+        },
+        {
+          "title": "Onboarding",
+          "description": "sweetwine mütəxəssisi görünüşünü, səsini və şəxsiyyətini qeyd edir ki, klonun tam sənə bənzəsin."
+        },
+        {
+          "title": "Biz qurur və öyrədirik",
+          "description": "Komandamız AI klonunu tamamilə öz xərcimizlə istehsal edir və öyrədir — səndən heç bir iş tələb olunmur."
+        },
+        {
+          "title": "Canlı yayına keç və qazan",
+          "description": "Klonun gecə-gündüz söhbət edir və satır, sən isə gəlir payını toplayırsan."
+        }
+      ]
+    },
+    "form": {
+      "title": "AI klonunu yaratmaq üçün müraciət et",
+      "description": "Bizə özün və auditoriyan haqqında məlumat ver. Yaradıcı tərəfdaşlıq komandamız hər müraciəti nəzərdən keçirəcək və növbəti addımlar barədə əlaqə saxlayacaq.",
+      "nameLabel": "Adın",
+      "namePlaceholder": "Adın və ya səhnə adın",
+      "emailLabel": "E-poçt",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agentlik və ya studiya",
+      "companyPlaceholder": "Agentlik adı (müstəqilsənsə boş burax)",
+      "roleLabel": "Mən",
+      "rolePlaceholder": "Kim olduğunu seç",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Veb sayt və sosial linklər",
+      "linksPlaceholder": "Instagram, X, OnlyFans və s.",
+      "modelCountLabel": "Təmsil etdiyin modellərin sayı",
+      "modelCountPlaceholder": "məs. sadəcə mən, və ya 5",
+      "audienceSizeLabel": "Auditoriya ölçüsü",
+      "audienceSizePlaceholder": "Ümumi izləyici sayını seç",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k izləyici",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M izləyici"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ izləyici"
+        }
+      ],
+      "contentPrefLabel": "Məzmun üstünlüyü",
+      "contentPrefPlaceholder": "Məzmun növünü seçin",
+      "contentPrefOptions": [
+        {
+          "value": "Yalnız SFW",
+          "label": "Yalnız SFW"
+        },
+        {
+          "value": "Hələ əmin deyiləm",
+          "label": "Hələ əmin deyiləm"
+        }
+      ],
+      "countryLabel": "Ölkə / region",
+      "countryPlaceholder": "Harada yerləşirsiniz?",
+      "messageLabel": "Özünüz və auditoriyanız haqqında danışın",
+      "messagePlaceholder": "Auditoriyanızı, məzmununuzu və axtardığınız şeyi anlamağımıza kömək edəcək hər şeyi paylaşın.",
+      "openButton": "İndi müraciət edin",
+      "submit": "Müraciəti göndər",
+      "submitting": "Göndərilir...",
+      "termsNote": "Göndərərək, 18 və ya daha böyük olduğunuzu təsdiq edir və müraciətinizlə əlaqədar əlaqə saxlanılmasına razılaşırsınız. Məlumatlarınızı heç vaxt paylaşmırıq.",
+      "success": "Təşəkkürlər! Müraciətiniz göndərildi. Tezliklə əlaqə saxlayacağıq.",
+      "error": "Nəsə səhv getdi. Zəhmət olmasa yenidən cəhd edin."
+    },
+    "cta": {
+      "title": "Müraciət etməzdən əvvəl suallarınız var?",
+      "description": "Birbaşa yaradıcı tərəfdaşlıq komandamızla danışın — adətən bir gün ərzində cavab veririk.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "E-poçt"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Sayt xəritəsi",
+    "eyebrow": "Sayt xəritəsi",
+    "titlePrefix": "Baxın",
+    "titleHighlight": "hər şeyə",
+    "subtitle": "sweetwine-dakı bütün vacib səhifələr bir yerdə. XML sayt xəritəsini axtarırsınız?",
+    "xmlLink": "XML sayt xəritəsinə baxın",
+    "sections": {
+      "product": "Məhsul",
+      "features": "Xüsusiyyətlər",
+      "company": "Şirkət",
+      "resources": "Resurslar",
+      "legal": "Hüquqi"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobil Tətbiqi",
+      "cta": "Tətbiqi Yüklə",
+      "dismiss": "Bağla"
+    },
+    "guide": {
+      "title": "sweetwine-u Quraşdır",
+      "subtitle": "Daha sürətli, tam ekran və tətbiqə bənzər təcrübə üçün sweetwine-u ana ekranınıza əlavə edin.",
+      "iosTitle": "iPhone və iPad-də (Safari)",
+      "iosStep1": "Alətlər panelində Paylaş düyməsinə toxunun",
+      "iosStep2": "\"Ana Ekrana Əlavə Et\" seçin",
+      "iosStep3": "Bitirmək üçün \"Əlavə et\"ə toxunun",
+      "androidTitle": "Android-də (Chrome)",
+      "androidStep1": "Menyuya (üç nöqtə) toxunun",
+      "androidStep2": "\"Tətbiqi quraşdır\" və ya \"Ana ekrana əlavə et\" seçin",
+      "androidStep3": "Bitirmək üçün \"Quraşdır\"a toxunun"
+    },
+    "settings": {
+      "title": "sweetwine Mobil Tətbiqi",
+      "description": "Ana ekranınızdan daha sürətli, tam ekran təcrübəsi üçün sweetwine-u telefonunuza quraşdırın.",
+      "cta": "Tətbiqi quraşdır"
+    }
+  },
+  "language": {
+    "selectTitle": "Dil seçin",
+    "searchPlaceholder": "Dilləri axtar",
+    "noResults": "Dil tapılmadı",
+    "regions": {
+      "americas": "Amerika",
+      "europe": "Avropa",
+      "middleEast": "Yaxın Şərq",
+      "asiaPacific": "Asiya-Sakit Okean",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Rol oyunu",
+    "newRoleplay": "Yeni rol oyunu",
+    "tabRoleplay": "Rol oyunu",
+    "emptyTitle": "Hələ rol oyunu yoxdur",
+    "noMessagesYet": "Hələ mesaj yoxdur",
+    "deleteRoleplay": "Rol oyununu sil",
+    "deleteError": "Rol oyunu silinə bilmədi.",
+    "backToLobby": "Rol oyunlarına qayıt",
+    "creating": "Rol oyununuz qurulur...",
+    "createError": "Rol oyunu yaradıla bilmədi. Zəhmət olmasa yenidən cəhd edin.",
+    "steps": {
+      "companion": {
+        "title": "Personaj seçin",
+        "subtitle": "Kimlə rol oynamaq istədiyinizi seçin"
+      },
+      "location": {
+        "title": "Yer seçin",
+        "subtitle": "Səhnəniz harada keçəcək?"
+      },
+      "tone": {
+        "title": "Ton təyin edin",
+        "subtitle": "Səhnə necə hiss edilməlidir?"
+      },
+      "scene": {
+        "title": "Səhnəni qurun",
+        "subtitle": "Səhnənin necə başladığını təsvir edin"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Yağışda bir-birimizə çırpılırıq və eyni çardağın altına sığınırıq.",
+      "staring_grin": "Otağın o tərəfindən baxdığımı tutursan və gülümsəyərək yaxınlaşırsan.",
+      "power_out": "İşıqlar sönür və qaranlıqda tək qalırıq, əsəbi gülürük.",
+      "spilled_drink": "Gecikirəm və içkimi sənə tökürəm.",
+      "stayed_behind": "Hamı getdikdən sonra yalnız ikimiz qalırıq.",
+      "music_slows": "Musiqi yavaşladıqca gözlərimiz qarşılaşır.",
+      "storm_inside": "Qəfil fırtına bizi içəridə tələyə salır, yalnız söhbət etməyə vaxtımız olur.",
+      "seat_taken": "Yanımda oturursan və yerin boş olub-olmadığını soruşursan."
+    },
+    "locations": {
+      "home": "Ev",
+      "cafe": "Kafe",
+      "restaurant": "Restoran",
+      "bar": "Bar",
+      "library": "Kitabxana",
+      "bookstore": "Kitab mağazası",
+      "park": "Park",
+      "garden": "Bağ",
+      "nightclub": "Gecə klubu",
+      "casino": "Kazino",
+      "concert": "Konsert",
+      "theater": "Teatr",
+      "cinema": "Kinoteatr",
+      "carnival": "Karnaval",
+      "stadium": "Stadion",
+      "beach": "Çimərlik",
+      "pool": "Hovuz",
+      "spa": "Spa",
+      "hotel": "Otel",
+      "rooftop": "Damüstü",
+      "yacht": "Yaxt",
+      "cabin": "Daxma",
+      "hotspring": "İsti bulaq",
+      "skilodge": "Xizək evi",
+      "campsite": "Düşərgə yeri",
+      "car": "Avtomobil",
+      "train": "Qatar",
+      "airport": "Aeroport",
+      "cruise": "Kruiz",
+      "office": "Ofis",
+      "gym": "İdman zalı",
+      "university": "Universitet",
+      "mall": "Ticarət mərkəzi",
+      "hospital": "Xəstəxana",
+      "museum": "Muzey"
+    },
+    "tones": {
+      "fun": {
+        "title": "Əyləncəli",
+        "desc": "Yüngül, oynaq və rahat."
+      },
+      "romantic": {
+        "title": "Romantik",
+        "desc": "Zərif, mehriban və səmimi."
+      },
+      "flirty": {
+        "title": "Flörtöz",
+        "desc": "Zarafatcıl, oynaq və cazibədar."
+      },
+      "mysterious": {
+        "title": "Sirli",
+        "desc": "Maraqlı, gərgin və sirrlərlə dolu."
+      },
+      "spooky": {
+        "title": "Qorxulu",
+        "desc": "Qorxunc, gərgin və bir az qorxulu."
+      },
+      "action": {
+        "title": "Fəaliyyət",
+        "desc": "Gərgin, macəralı və sürətli."
+      },
+      "dramatic": {
+        "title": "Dramatik",
+        "desc": "Emosional, gərgin və gərginliklə dolu."
+      },
+      "cozy": {
+        "title": "Rahat",
+        "desc": "İsti, təsəlliverici və rahat."
+      }
+    },
+    "sceneLabel": "Səhnə açılışı",
+    "scenarioTab": "Ssenari",
+    "generatingScene": "Səhnə canlandırılır...",
+    "locationLabel": "Yer",
+    "toneLabel": "Ton",
+    "scenePlaceholder": "məs. Yağışda bir-birimizlə toqquşuruq və eyni çardağın altına sığınırıq...",
+    "sceneHint": "Yalnız səhnənin necə başladığını təsvir edin — harada olduğunuzu və açılışda nə baş verdiyini. Personajın şəxsiyyətini, münasibətinizi dəyişməyin və ya bütün hekayəni yenidən yazmayın.",
+    "sceneError": "Səhnənin necə başladığını təsvir edin.",
+    "reviewTitle": "Seçimləri nəzərdən keçirin",
+    "characterLabel": "Personaj",
+    "randomize": "Təsadüfi seç",
+    "sceneGuidanceTitle": "Səhnə açılışı üçün göstəriş",
+    "sceneGuide1": "Personajın şəxsiyyətini və ya münasibətinizi dəyişməyin.",
+    "sceneGuide2": "Səhnə açılışını razılıq əsasında və hörmətlə saxlayın.",
+    "sceneGuide3": "Yalnız səhnənin necə başladığını təsvir edin, bütün hekayəni yox.",
+    "next": "Növbəti",
+    "create": "Rol oyunu başlat",
+    "creatingMessages": [
+      "Səhnə qurulur...",
+      "İşıqlar tam uyğun sönür...",
+      "Ətrafınız rənglənir...",
+      "Yoldaşınız rola hazırlanır...",
+      "Son toxunuşlar əlavə olunur...",
+      "Demək olar ki, hazırdır..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Mesaj yazın...",
+    "send": "Göndər",
+    "typing": "yazır...",
+    "read": "Oxunub",
+    "resetChat": "Söhbəti sıfırla",
+    "deleteChat": "Söhbəti sil",
+    "settings": "Parametrlər",
+    "chatSettings": "Söhbət parametrləri",
+    "roleplayMode": "Rol oyunu rejimi",
+    "roleplayModeDescription": "Açıq olduqda yoldaşlar jest və hərəkətləri immersiv rol oyunu üçün *ulduz işarələri* ilə göstərirlər. Bağlı olduqda isə real mesajlaşma kimi təbii söhbət edirlər.",
+    "roleplayModeError": "Rol oyunu rejimini yeniləmək mümkün olmadı",
+    "roleplayCtaDescription": "Yoldaşın səhnələri və hekayələri sizinlə birgə canlandırdığı xüsusi rol oyunu təcrübəsinə keçin.",
+    "goToRoleplay": "Rol oyununa keç",
+    "confirmReset": "Bu söhbəti sıfırlamaq istədiyinizə əminsiniz? Bütün mesajlar silinəcək.",
+    "confirmDelete": "Bu söhbəti silmək istədiyinizə əminsiniz?",
+    "resetSuccess": "Söhbət uğurla sıfırlandı",
+    "deleteMemory": "Yaddaşı sil",
+    "confirmDeleteMemory": "Bu personajın uzunmüddətli yaddaşlarını silmək istədiyinizə əminsiniz? Çat mesajları qalacaq, lakin personaj növbəti cavabda əvvəlki faktları unudacaq.",
+    "deleteMemorySuccess": "Yaddaş silindi",
+    "deleteSuccess": "Söhbət uğurla silindi",
+    "sendError": "Mesaj göndərilə bilmədi",
+    "noChats": "Hələ söhbət yoxdur",
+    "noChatsDesc": "Söhbətlərinizi burada görmək üçün personajla söhbətə başlayın",
+    "lastMessage": "Son mesaj",
+    "messageCount": "{count} mesaj",
+    "uploadImage": "Şəkil yüklə",
+    "uploadVideo": "Video yüklə (tezliklə)",
+    "yourConversations": "Söhbətləriniz",
+    "continueChattingDesc": "AI personajlarınızla söhbətə davam edin",
+    "newChat": "Yeni söhbət",
+    "noConversationsYet": "Hələ söhbət yoxdur",
+    "startChattingDesc": "Söhbətlərinizi burada görmək üçün personajla söhbətə başlayın",
+    "browseCharacters": "Personajlara bax",
+    "createCustomCharacter": "Fərdi personaj yarat",
+    "imageTooLarge": "Şəkil çox böyükdür (maks. 5MB)",
+    "generateImageTitle": "{name} ilə şəkil yarat",
+    "imagePromptLabel": "Şəkli təsvir edin",
+    "imagePromptPlaceholder": "məs., mavi paltarda çimərlikdə, kafedə qəhvə içərkən, parkda gəzərkən...",
+    "imagePromptHint": "AI {name} haqqında təsvirinizə əsasən şəkil yaradacaq.",
+    "referenceImageLabel": "Sizin şəkiliniz (isteğe bağlı)",
+    "referenceImageHint": "Səhnəyə {name} ilə birlikdə daxil edilməsi üçün şəklinizi yükləyin. Şəkil olmadan yalnız {name} yaradılacaq.",
+    "uploadReferenceImage": "Şəklinizi yükləyin",
+    "uploadReferenceImageDesc": "İkiniz də yaradılan şəkildə görünəcəksiniz",
+    "referenceImageSelected": "Həm siz, həm də {name} birlikdə görünəcəksiniz",
+    "generating": "Yaradılır...",
+    "generate": "Yarat",
+    "generateImage": "Şəkil yarat",
+    "imageGenerated": "Şəkil uğurla yaradıldı",
+    "generateError": "Şəkil yaradılmadı",
+    "contentBlockedReply": "Bağışlayın, bu şəkli yarada bilmirəm. Təhlükəsizlik filtrləri tərəfindən bloklandı. Zəhmət olmasa başqa təsvir yoxlayın! 💕",
+    "generateVideoTitle": "{name} ilə video yarat",
+    "generateVideo": "Video yarat",
+    "videoPromptLabel": "Hərəkəti təsvir edin",
+    "videoPromptPlaceholder": "məs., rəqs etmək, əl sallamaq, öpücük göndərmək...",
+    "videoPromptHint": "AI {name} tərəfindən təsvir edilən hərəkəti yerinə yetirən video yaradacaq.",
+    "generatingImage": "Şəkil yaradılır...",
+    "generatingVideo": "Video yaradılır... (3-5 dəq)",
+    "viewPhoto": "Fotoya bax",
+    "viewVideo": "Videoya bax",
+    "selectVideoOption": "Yuxarıdakı video seçimlərindən birini seçin",
+    "contentPolicyViolation": "Bu mesaj göndərilə bilmədi. Zəhmət olmasa söhbətləri hörmətli saxlayın.",
+    "functionCallBetaHint": "💡 Bu funksiya beta versiyadadır — məhdudiyyətsiz etibarlı media yaratmaq üçün alətlər panelindəki foto/video düymələrindən istifadə edin.",
+    "repliedToStory": "Hekayəyə cavab verdi",
+    "repliedToStoryLiked": "Bəyəndi və hekayəyə cavab verdi",
+    "storyNoLongerAvailable": "Hekayə artıq mövcud deyil",
+    "rateLimitExceeded": "Çox sorğu. Zəhmət olmasa bir az gözləyin və yenidən cəhd edin.",
+    "profileTab": "Profil",
+    "galleryTab": "Qalereya",
+    "giftsTab": "Hədiyyələr",
+    "tts": {
+      "play": "Səsi dinlə",
+      "stop": "Dayandır",
+      "generating": "Səs yaradılır…",
+      "error": "Audio oxunmadı"
+    }
+  },
+  "gallery": {
+    "all": "Hamısı",
+    "images": "Şəkillər",
+    "videos": "Videolar",
+    "empty": "Hələ media yoxdur"
+  },
+  "gifts": {
+    "sendAGift": "Hədiyyə göndər",
+    "catalogSubtitle": "{name} üçün hədiyyə seçin",
+    "browseGifts": "Hədiyyələrə bax",
+    "noneSent": "Hələ hədiyyə göndərilməyib",
+    "confirmTitle": "Hədiyyəni təsdiqlə",
+    "forCompanion": "{name} üçün",
+    "optionalMessage": "Mesaj əlavə et (istəyə görə)",
+    "optionalMessagePlaceholder": "Nəsə şirin yaz...",
+    "sendGiftFor": "Göndər",
+    "giftSent": "Hədiyyə göndərdin",
+    "sendError": "Hədiyyə göndərilmədi"
+  },
+  "stories": {
+    "replyPlaceholder": "{name} cavab ver...",
+    "like": "Bəyən",
+    "send": "Göndər",
+    "close": "Bağla",
+    "previous": "Əvvəlki hekayə",
+    "next": "Növbəti hekayə",
+    "pause": "Dayandır",
+    "play": "Oynat",
+    "mute": "Səsi kəs",
+    "unmute": "Səsi aç",
+    "openStory": "{name} hekayəsini aç"
+  },
+  "generate": {
+    "title": "Şəkil Yarat",
+    "description": "AI personajlarınla heyrətamiz şəkillər yarat",
+    "selectCompanion": "Personaj seç",
+    "promptPlaceholder": "Yaratmaq istədiyin şəkli təsvir et... məsələn, çimərlikdə, qırmızı paltarda",
+    "promptLabel": "Şəkil Təsviri",
+    "promptRequired": "Zəhmət olmasa təsvir daxil edin",
+    "generateButton": "Şəkil Yarat",
+    "generating": "Yaradılır...",
+    "creatingImage": "Şəkliniz yaradılır...",
+    "pleaseWait": "Bu 10-30 saniyə çəkə bilər",
+    "noCompanionSelected": "Əvvəlcə personaj seçin",
+    "emptyGallery": "Hələ şəkil yaradılmayıb. Bir personaj seçin və şəklinizi təsvir edin!",
+    "sessionGallery": "Yaradılmış Şəkillər",
+    "regenerate": "Yenidən yarat",
+    "regenerating": "Yenidən yaradılır...",
+    "animate": "Canlandır",
+    "animateReference": "Bu şəkil videonun ilk kadrı olacaq.",
+    "filterMyAI": "Mənim AI",
+    "filterAll": "Hamısı",
+    "filterGirls": "Qadınlar",
+    "filterAnime": "Anime",
+    "filterGuys": "Kişilər",
+    "imageGenerationFailed": "Şəkil yaradılması uğursuz oldu. Şəkil tələblərə cavab verməyə bilər və ya təsvir çox mürəkkəb ola bilər. Daha sadə sorğu ilə cəhd edin.",
+    "noImageData": "Heç bir şəkil yaradılmadı. Fərqli təsvirlə yenidən cəhd edin.",
+    "generationFailed": "Yaradılma uğursuz oldu. Sonra yenidən cəhd edin və ya fərqli sorğu istifadə edin.",
+    "random": "Təsadüfi",
+    "custom": "Fərdi",
+    "settings": "Parametrlər",
+    "videoTitle": "Video Yarat",
+    "videoDescription": "AI personajlarınızla heyranedici videolar yaradın",
+    "videoPromptLabel": "Video Təsviri",
+    "videoPromptPlaceholder": "Yaratmaq istədiyiniz hərəkəti təsvir edin... məsələn, rəqs etmək, əl sallamaq, gülümsəmək",
+    "generateVideoButton": "Video Yarat",
+    "generatingVideo": "Video yaradılır...",
+    "creatingVideo": "Videonuz yaradılır...",
+    "videoWait": "Bu 1-5 dəqiqə çəkə bilər",
+    "emptyVideoGallery": "Hələ heç bir video yaradılmayıb. Personaj seçin və hərəkəti təsvir edin!",
+    "sessionVideoGallery": "Yaradılmış Videolar",
+    "videoGenerated": "Video uğurla yaradıldı!",
+    "videoGenerationFailed": "Video yaradılması uğursuz oldu. Yenidən cəhd edin.",
+    "duration": "Müddət",
+    "shortVideo": "Qısa",
+    "longVideo": "Uzun",
+    "seconds": "saniyə",
+    "audio": "Audio",
+    "renderingVideo": "Video render edilir…",
+    "renderingVideoHint": "(1 dəqiqəyə qədər vaxt aparır)",
+    "rateLimitExceeded": "Çox sorğu. Bir az gözləyin və yenidən cəhd edin.",
+    "chooseCharacter": "Personaj seçin",
+    "selectButton": "Seç",
+    "noCustomCompanions": "Hələ heç bir AI personaj yaratmamısınız.",
+    "numberOfImages": "Şəkillərin sayı",
+    "numberOfVideos": "Videoların sayı",
+    "freeTrial": "Pulsuz Sınaq",
+    "changeCharacter": "Personajı dəyiş",
+    "randomize": "Sorğunu təsadüfiləşdir",
+    "aiVideo": "AI Video",
+    "download": "Yüklə",
+    "seriesHelper": "Burada nəticələrinizi tapa bilərsiniz. Bunlar bitərkən səhifəni tərk edə və ya yeni seriyaya başlaya bilərsiniz.",
+    "suggestions": {
+      "title": "Təkliflər",
+      "categories": {
+        "outfit": "Geyim",
+        "action": "Hərəkət",
+        "pose": "Poz",
+        "accessories": "Aksesuarlar",
+        "scene": "Səhnə"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Ətək",
+        "lingerie": "İç geyim",
+        "crop_top": "Qısa üst",
+        "leather": "Dəri",
+        "mini_skirt": "Mini ətək",
+        "satin_robe": "Atlas xalat",
+        "jeans": "Cins",
+        "summer_dress": "Yay paltarı",
+        "sportswear": "İdman geyimi",
+        "selfie": "Selfi",
+        "walking": "Gəzinti",
+        "dancing": "Rəqs",
+        "stretching": "Uzanma",
+        "lying_down": "Uzanmış",
+        "leaning": "Söykənmiş",
+        "blowing_kiss": "Öpücük göndərmə",
+        "drinking_coffee": "Qəhvə içmə",
+        "hands_on_hips": "Əllər beldə",
+        "over_shoulder": "Çiyin üstündən",
+        "side_profile": "Yan profil",
+        "arms_crossed": "Qollar qatlanmış",
+        "kneeling": "Diz çökmüş",
+        "squatting": "Çömbəlmiş",
+        "back_view": "Arxa görünüş",
+        "sitting": "Oturmuş",
+        "necklace": "Boyunbağı",
+        "earrings": "Sırğa",
+        "glasses": "Eynək",
+        "choker": "Boyunbağı",
+        "hat": "Papaq",
+        "sunglasses": "Gün eynəyi",
+        "garden": "Bağ",
+        "beach": "Çimərlik",
+        "bedroom": "Yataq otağı",
+        "gym": "İdman zalı",
+        "bar": "Bar",
+        "kitchen": "Mətbəx",
+        "restaurant": "Restoran",
+        "balcony": "Balkon",
+        "city_street": "Şəhər küçəsi",
+        "pool": "Hovuz kənarı"
+      },
+      "fragments": {
+        "bikini": "bikini geyinmiş",
+        "skirt": "ətək geyinmiş",
+        "lingerie": "lingerie geyinmiş",
+        "crop_top": "crop top geyinmiş",
+        "leather": "dəri geyim geyinmiş",
+        "mini_skirt": "mini-ətək geyinmiş",
+        "satin_robe": "saten xalat geyinmiş",
+        "jeans": "cins geyinmiş",
+        "summer_dress": "yay donu geyinmiş",
+        "sportswear": "sıx idman geyimi geyinmiş",
+        "selfie": "selfi çəkir",
+        "walking": "gəzir",
+        "dancing": "rəqs edir",
+        "stretching": "uzanır",
+        "lying_down": "uzanmış",
+        "leaning": "divara söykənmiş",
+        "blowing_kiss": "öpücük göndərir",
+        "drinking_coffee": "bir fincan qəhvə içir",
+        "hands_on_hips": "əlləri belində",
+        "over_shoulder": "çiyinindən baxır",
+        "side_profile": "yan profil pozu",
+        "arms_crossed": "qolları qatlanmış",
+        "kneeling": "diz çökmüş poz",
+        "squatting": "çömbəlmiş poz",
+        "back_view": "arxadan görünüş",
+        "sitting": "oturmuş",
+        "necklace": "boyunbağı geyinmiş",
+        "earrings": "sırğa geyinmiş",
+        "glasses": "eynək geyinmiş",
+        "choker": "choker geyinmiş",
+        "hat": "papaq geyinmiş",
+        "sunglasses": "gün eynəyi geyinmiş",
+        "garden": "bağçada",
+        "beach": "çimərlikdə",
+        "bedroom": "yataq otağında",
+        "gym": "idman zalında",
+        "bar": "barda",
+        "kitchen": "mətbəxdə",
+        "restaurant": "restoranda",
+        "balcony": "balkonda",
+        "city_street": "şəhər küçəsində",
+        "pool": "hovuz yanında"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfi",
+          "uiPrompt": "Mənə selfini göstər"
+        },
+        "posing": {
+          "name": "Poz verən",
+          "uiPrompt": "Mənə poz verən səni göstər"
+        },
+        "sitting": {
+          "name": "Oturmuş",
+          "uiPrompt": "Mənə oturmuş səni göstər"
+        },
+        "waving": {
+          "name": "Əl sallayan",
+          "uiPrompt": "Mənə əl sallayan səni göstər"
+        },
+        "dancing": {
+          "name": "Rəqs edən",
+          "uiPrompt": "Mənə rəqs edən səni göstər"
+        },
+        "reading": {
+          "name": "Oxuyan",
+          "uiPrompt": "Mənə oxuyan səni göstər"
+        },
+        "smiling": {
+          "name": "Gülümsəyən",
+          "uiPrompt": "Mənə gülümsədiyini göstər"
+        },
+        "walking": {
+          "name": "Gəzən",
+          "uiPrompt": "Mənə gəzdiyini göstər"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfi",
+          "uiPrompt": "Mənə video selfi göstər"
+        },
+        "posing": {
+          "name": "Poz verən",
+          "uiPrompt": "Mənə poz verdiyin videonu göstər"
+        },
+        "sitting": {
+          "name": "Oturmuş",
+          "uiPrompt": "Mənə oturduğunu göstərən video"
+        },
+        "waving": {
+          "name": "Əl sallayan",
+          "uiPrompt": "Mənə əl salladığın videonu göstər"
+        },
+        "dancing": {
+          "name": "Rəqs edən",
+          "uiPrompt": "Mənə rəqs etdiyin videonu göstər"
+        },
+        "reading": {
+          "name": "Oxuyan",
+          "uiPrompt": "Mənə oxuduğun videonu göstər"
+        },
+        "smiling": {
+          "name": "Gülümsəyən",
+          "uiPrompt": "Mənə gülümsədiyin videonu göstər"
+        },
+        "walking": {
+          "name": "Gəzən",
+          "uiPrompt": "Mənə gəzdiyin videonu göstər"
+        }
+      }
+    },
+    "writeYourOwn": "və ya öz promptunu yaz",
+    "presetSelected": "Preset seçildi",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Pozisiyalar",
+        "pov": "POV",
+        "extra": "Əlavə",
+        "remix": "Remiks"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Tutma"
+        },
+        "bath_towel": {
+          "name": "Hamam Dəsmalı"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Yan Görünüş"
+        },
+        "bondage": {
+          "name": "Bağlama"
+        },
+        "breast_milk": {
+          "name": "Döş Südü"
+        },
+        "bunny_suit": {
+          "name": "Dovşan Kostyumu"
+        },
+        "chain_leash": {
+          "name": "Zəncir Qayışı"
+        },
+        "chinese_dress": {
+          "name": "Çin Donu"
+        },
+        "come_fuck_me": {
+          "name": "Gəl Məni Sik"
+        },
+        "cum_on_body": {
+          "name": "Bədənə Sperma"
+        },
+        "cum_on_face": {
+          "name": "Üzə Sperma"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Fərdi"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Yan Görünüş"
+        },
+        "fingering": {
+          "name": "Barmaqlama"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Məktəb Forması"
+        },
+        "legsup": {
+          "name": "Ayaqlar Yuxarı"
+        },
+        "leopard_bikini": {
+          "name": "Leopar Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbasiya"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Prezervativlər"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "Tattoo"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Qulluqçu geyimi"
+        },
+        "nurse_outfit": {
+          "name": "Tibb bacısı geyimi"
+        },
+        "cheerleader": {
+          "name": "Qrup rəhbəri"
+        },
+        "wet_tshirt": {
+          "name": "Islanmış köynək"
+        },
+        "latex_catsuit": {
+          "name": "Latek kostyum"
+        },
+        "corset_stockings": {
+          "name": "Korset və corablar"
+        },
+        "gym_shorts": {
+          "name": "İdman şortları"
+        },
+        "thong_tease": {
+          "name": "Tanga ilə təhrik"
+        },
+        "upskirt_panties": {
+          "name": "Ətəkaltı"
+        },
+        "mirror_selfie": {
+          "name": "Güzgü selfi"
+        },
+        "shower_nude": {
+          "name": "Duş"
+        },
+        "oiled_body": {
+          "name": "Yağlanmış bədən"
+        },
+        "spread_open": {
+          "name": "Açıq yayılmış"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Dərin boğaz"
+        },
+        "sloppy_blowjob": {
+          "name": "Sulu oral"
+        },
+        "ball_licking": {
+          "name": "Top əmmə"
+        },
+        "face_sitting_oral": {
+          "name": "Üz oturma"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Tərs Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Ayaq üstə"
+        },
+        "against_wall": {
+          "name": "Divara söykənərək"
+        },
+        "spooning": {
+          "name": "Qaşıqla"
+        },
+        "legs_on_shoulders": {
+          "name": "Ayaqlar çiyinlərdə"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "İkiqat penetrasiya"
+        },
+        "threesome_mmf": {
+          "name": "Üçlük"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "İnci boyunbağı"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Şillələmə"
+        },
+        "gagged_bdsm": {
+          "name": "Ağız bağlı"
+        },
+        "facefuck": {
+          "name": "Üzə sikmə"
+        },
+        "throatpie": {
+          "name": "Boğaz dolması"
+        },
+        "cock_worship": {
+          "name": "Penisə sitayiş"
+        },
+        "footjob": {
+          "name": "Ayaq işi"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Tam Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Qazma"
+        },
+        "facefuck_pov": {
+          "name": "Üzə sikmə POV"
+        },
+        "riding_pov": {
+          "name": "Minmə POV"
+        },
+        "spitroast": {
+          "name": "Şişdə bişirmə"
+        },
+        "hair_pulling": {
+          "name": "Saç çəkmə"
+        },
+        "facial_cumshot": {
+          "name": "Üzə boşalma"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Breast Massage"
+        },
+        "breast_massage_nude": {
+          "name": "Breast Massage Nude"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo Masturbation"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Yaxın Plan Pussy"
+        },
+        "reverse_cowgirl": {
+          "name": "Tərs Kovboy Qızı"
+        },
+        "shoejob": {
+          "name": "Ayaqqabı ilə"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Çömbəlmiş Kovboy Qızı"
+        },
+        "throatpie": {
+          "name": "Boğaz Pie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trendi"
+        },
+        "titjob": {
+          "name": "Döş ilə"
+        },
+        "titty_flash": {
+          "name": "Döş Flaşı"
+        },
+        "triple_dicked": {
+          "name": "Üçlü Dick"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Soyunma"
+        },
+        "strip_tease": {
+          "name": "Soyunma şousu"
+        },
+        "booty_bounce": {
+          "name": "Qıç sıçrayışı"
+        },
+        "oil_show": {
+          "name": "Yağ şousu"
+        },
+        "shower_show": {
+          "name": "Duş şousu"
+        },
+        "panty_drop": {
+          "name": "Alt paltar atma"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Dərin boğaz"
+        },
+        "sloppy_blowjob": {
+          "name": "Sulu oral"
+        },
+        "ball_sucking": {
+          "name": "Top əmmə"
+        },
+        "cowgirl": {
+          "name": "Qadın üst"
+        },
+        "standing_carry": {
+          "name": "Ayaq üstü daşıma"
+        },
+        "against_wall": {
+          "name": "Divara qarşı"
+        },
+        "spooning": {
+          "name": "Qaşıq pozası"
+        },
+        "mating_press": {
+          "name": "Cütləşmə presi"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Qadın üst POV"
+        },
+        "doggy_pov": {
+          "name": "İt pozası POV"
+        },
+        "titjob_pov": {
+          "name": "Döş işi POV"
+        },
+        "handjob_pov": {
+          "name": "Əl işi POV"
+        },
+        "riding_pov": {
+          "name": "Minmə POV"
+        },
+        "gangbang": {
+          "name": "Qrup seks"
+        },
+        "creampie": {
+          "name": "İçə boşalma"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Fışqırma"
+        },
+        "spanking": {
+          "name": "Vurma"
+        },
+        "hair_pulling": {
+          "name": "Saç çəkmə"
+        },
+        "fingering": {
+          "name": "Barmaqla"
+        },
+        "come_hither": {
+          "name": "Gəl bura"
+        },
+        "spread_legs": {
+          "name": "Ayaqları aç"
+        },
+        "blowjob_sideview": {
+          "name": "Oral yan görünüş"
+        },
+        "cunnilingus": {
+          "name": "Dil ilə"
+        },
+        "missionary": {
+          "name": "Missioner"
+        },
+        "legs_on_shoulders": {
+          "name": "Ayaqlar çiyinlərdə"
+        },
+        "blowjob_pov": {
+          "name": "Oral POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Dil ilə POV"
+        },
+        "glory_hole": {
+          "name": "Şöhrət dəliyi"
+        },
+        "threesome_mmf": {
+          "name": "Üçlük"
+        },
+        "aftercare_mess": {
+          "name": "Son Qulluq Qarışıqlığı"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Bunu silmək istədiyinizə əminsiniz?",
+    "deleteSuccess": "Uğurla silindi",
+    "deleteError": "Silinmə uğursuz oldu",
+    "empty": "Hələ media yoxdur. Çatda yaradın!",
+    "gallerySubtitle": "AI ilə yaradılmış anların şəxsi qalereyası",
+    "filterAll": "Hamısı",
+    "filterImages": "Şəkillər",
+    "filterVideos": "Videolar",
+    "loadMore": "Daha çox yüklə",
+    "folders": "Qovluqlar",
+    "newFolder": "Yeni Qovluq",
+    "deleteFolders": "Seçilmiş qovluqları sil",
+    "folderCreated": "Qovluq yaradıldı",
+    "folderCreateError": "Qovluq yaradılmadı",
+    "folderRenamed": "Qovluq adlandırıldı",
+    "folderRenameError": "Qovluq adlandırılmadı",
+    "folderDeleted": "Qovluq silindi",
+    "folderDeleteError": "Qovluq silinmədi",
+    "folderNamePlaceholder": "Qovluq adı",
+    "seeMore": "Daha çox gör",
+    "seeLess": "Daha az gör",
+    "selectedCount": "{count} element seçildi",
+    "selectAll": "Hamısını seç",
+    "select": "Seç",
+    "moveToFolder": "Köçür",
+    "bulkDeleteConfirm": "{count} seçilmiş elementi sil?",
+    "bulkDeleteSuccess": "Elementlər silindi",
+    "bulkDownloadStart": "{count} element yüklənir...",
+    "moveSuccess": "Elementlər köçürüldü"
+  },
+  "voice": {
+    "connecting": "Qoşulur...",
+    "connected": "Qoşuldu",
+    "mute": "Səssiz",
+    "unmute": "Səsi aç",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Təbii danışın. AI fasilə verdiyinizdə cavab verəcək.",
+    "connectionError": "Qoşulma alınmadı. Yenidən cəhd edin.",
+    "minutesRemaining": "{minutes} dəqiqə qalıb",
+    "minutesUsed": "{minutes} dəqiqə istifadə olunub"
+  },
+  "characters": {
+    "filters": "Filtrlər",
+    "ethnicity": "Etnik mənsubiyyət",
+    "bodyType": "Bədən tipi",
+    "ageRange": "Yaş aralığı",
+    "relationship": "Münasibət",
+    "occupation": "Peşə",
+    "hobbies": "Hobbilər",
+    "personality": "Şəxsiyyət",
+    "language": "Dil",
+    "age": "Yaş",
+    "all": "Hamısı",
+    "noResults": "Heç bir personaj tapılmadı",
+    "noResultsDesc": "Filtrlərinizi dəyişməyə çalışın",
+    "newBadge": "Yeni",
+    "chatNow": "İndi söhbət et",
+    "viewProfile": "Profili göstər",
+    "ethnicities": {
+      "caucasian": "Qafqazlı",
+      "asian": "Asiyalı",
+      "middleEastern": "Yaxın Şərqli",
+      "hispanic": "İspan dilli",
+      "african": "Afrikalı",
+      "southAsian": "Cənubi Asiyalı",
+      "nativeAmerican": "Doğma Amerikalı",
+      "pacificIslander": "Sakit Okean Adalı",
+      "mixed": "Qarışıq",
+      "other": "Digər"
+    },
+    "bodyTypes": {
+      "slim": "Arıq",
+      "athletic": "Atletik",
+      "average": "Orta",
+      "curvy": "Qıvrım",
+      "plus": "Böyük ölçü"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Subay",
+      "dating": "Tanışlıqda",
+      "married": "Evli",
+      "none": "Yoxdur"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Mənim profilim",
+    "settings": "Parametrlər",
+    "account": "Hesab",
+    "plan": "Plan",
+    "profileSettings": "Profil Parametrləri",
+    "manageAccountSettings": "Hesab parametrlərinizi və üstünlüklərinizi idarə edin",
+    "personalInfo": "Şəxsi Məlumat",
+    "nickname": "Ləqəb",
+    "gender": "Cins",
+    "male": "Kişi",
+    "female": "Qadın",
+    "preferences": "Üstünlüklər",
+    "newsletter": "Xəbər bülleteni abunəliyi",
+    "newsletterDesc": "Yeniləmələr və xəbərlər alın",
+    "aiTrainingTitle": "AI və Moderasiya Təlimi",
+    "aiTrainingDesc": "Söhbətləriniz və sorğularınız sweetwine-un AI və moderasiyasını öyrətməyə və təkmilləşdirməyə kömək etsin. İstənilən vaxt söndürərək imtina edə bilərsiniz.",
+    "aiTrainingLink": "Məxfilik Bildirişimizdə ətraflı öyrənin.",
+    "aiTrainingError": "AI təlim üstünlüyünüzü yeniləmək mümkün olmadı",
+    "interfaceLanguage": "İnterfeys Dili",
+    "interfaceLanguageDesc": "İstifadəçi interfeysi üçün dil",
+    "aiLanguage": "AI Cavab Dili",
+    "aiLanguageDesc": "AI personajlarının sizinlə danışarkən istifadə edəcəyi dil",
+    "currentPlan": "Cari Plan",
+    "freePlan": "Pulsuz Plan",
+    "dangerZone": "Təhlükə Bölgəsi",
+    "dangerZoneDescription": "Bu hesabı və bütün məlumatlarını daimi silmək istəyirsinizsə.",
+    "deleteAllMemory": "Bütün yaddaşı sil",
+    "confirmDeleteAllMemory": "Bütün AI personajlarının uzunmüddətli yaddaşlarını silmək istədiyinizə əminsiniz? Çat mesajları qalacaq, lakin personajlar növbəti cavablarında əvvəlki faktları unudacaq.",
+    "deleteAllMemorySuccess": "Bütün yaddaşlar silindi",
+    "deleteAccount": {
+      "button": "Hesabı sil",
+      "title": "Hesabı Sil",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Təsdiqləmək üçün yazın",
+      "confirmRequired": "Təsdiqləmək üçün DELETE yazın",
+      "confirmButton": "Hesabımı Sil",
+      "deleting": "Silinir...",
+      "success": "Hesabınız silindi",
+      "error": "Hesabı silmək mümkün olmadı. Yenidən cəhd edin."
+    },
+    "saveChanges": "Dəyişiklikləri Saxla",
+    "changesSaved": "Dəyişikliklər uğurla saxlandı",
+    "saveFailed": "Dəyişiklikləri saxlamaq mümkün olmadı",
+    "languageUpdated": "Dil yeniləndi",
+    "aiLanguageUpdated": "AI dili yeniləndi"
+  },
+  "create": {
+    "defaultGreeting": "Salam",
+    "title": "AI Personaj Yarat",
+    "step": "Addım {current} / {total}",
+    "step1": {
+      "title": "Stil Seçin",
+      "description": "Personajınız üçün stil və əsas xüsusiyyətləri seçin"
+    },
+    "step2": {
+      "title": "Etnik Mənsubiyyət Seçin",
+      "description": "Personajınız üçün etnik mənsubiyyət və yaş seçin"
+    },
+    "step3": {
+      "title": "Saç və Gözlər Seçin",
+      "description": "Saç tərzini, saç rəngini və göz rəngini fərdiləşdirin"
+    },
+    "step4": {
+      "title": "Bədən Seçin",
+      "description": "Personajınızın bədənini fərdiləşdirin"
+    },
+    "step5": {
+      "title": "Şəxsiyyət və Ətraflı Məlumat",
+      "description": "Personajınızın şəxsiyyətini və səsini müəyyənləşdirin"
+    },
+    "style": {
+      "title": "Personaj Stili",
+      "realistic": "Realist",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Cins",
+      "female": "Qadın",
+      "male": "Kişi"
+    },
+    "age": {
+      "title": "Yaş",
+      "years": "{age} Yaş"
+    },
+    "ethnicity": {
+      "title": "Etnik Mənsubiyyət"
+    },
+    "hairStyle": {
+      "title": "Saç Tərzi"
+    },
+    "hairColor": {
+      "title": "Saç Rəngi"
+    },
+    "eyeColor": {
+      "title": "Göz Rəngi"
+    },
+    "bodyType": {
+      "title": "Bədən Tipi"
+    },
+    "breastSize": {
+      "title": "Döş Ölçüsü"
+    },
+    "name": {
+      "title": "Ad",
+      "placeholder": "Personaj adını daxil edin",
+      "randomize": "Təsadüfi ad yarat"
+    },
+    "language": {
+      "title": "Dil",
+      "widgetLabel": "Dil Seçin",
+      "placeholder": "Dil seçin",
+      "selectTitle": "Dil seçin"
+    },
+    "personality": {
+      "title": "Şəxsiyyət",
+      "widgetLabel": "Şəxsiyyət Seçin",
+      "placeholder": "Şəxsiyyət seçin",
+      "sectionTitle": "Şəxsiyyət Seçin",
+      "clickToChange": "Dəyişmək üçün klikləyin"
+    },
+    "relationship": {
+      "title": "Münasibət",
+      "widgetLabel": "Münasibət Seçin",
+      "placeholder": "Münasibəti seçin",
+      "selectTitle": "Münasibəti redaktə et"
+    },
+    "occupation": {
+      "title": "Peşə",
+      "widgetLabel": "Peşə seçin",
+      "placeholder": "Peşə seçin",
+      "selectTitle": "Peşəni redaktə et"
+    },
+    "kinks": {
+      "title": "Maraqlar",
+      "widgetLabel": "Onlar hansı maraqlara üstünlük verirlər? (Maks. {max})",
+      "labelMax": "Maraqlar (Maks. {max})",
+      "placeholder": "Maraqları seçin (isteğe bağlı)",
+      "optional": "İsteğe bağlı",
+      "selectTitle": "Maraqları redaktə et",
+      "moreCount": "+{count} daha"
+    },
+    "selector": {
+      "searchPlaceholder": "Axtar",
+      "noResults": "Heç bir seçim tapılmadı",
+      "cancel": "Ləğv et",
+      "saveChanges": "Dəyişiklikləri saxla",
+      "selectedCount": "{count} seçildi"
+    },
+    "voice": {
+      "title": "Səs",
+      "widgetLabel": "Səs seçin",
+      "placeholder": "Səs seçin",
+      "selectTitle": "Səs seçin"
+    },
+    "advanced": {
+      "title": "Ətraflı məlumatlar",
+      "optional": "isteğe bağlı",
+      "filled": "Doldurulub",
+      "autocompleteTitle": "AI ilə avtomatik doldur",
+      "autocompleteDesc": "Daha dərin personaj üçün AI boş sahələri doldursun",
+      "autocompleteSuccess": "Sahələr uğurla dolduruldu!",
+      "autocompleteError": "Təkliflər yaradıla bilmədi. Yenidən cəhd edin.",
+      "greetingLabel": "Salamlaşma",
+      "greetingPlaceholder": "Personajınızın göndərəcəyi ilk mesaj...",
+      "scenarioLabel": "Ssenari",
+      "scenarioPlaceholder": "Necə tanış olduğunuzun konteksti və ya fonu...",
+      "personalityLabel": "Əlavə şəxsiyyət detalları",
+      "personalityPlaceholder": "Qəribəliklər, nitq tərzi, davranış xüsusiyyətləri...",
+      "extraLabel": "Əlavə detallar",
+      "extraPlaceholder": "Keçmiş, hobbilər, həyat tarixi..."
+    },
+    "navigation": {
+      "back": "Geri",
+      "next": "Növbəti",
+      "create": "Yarat",
+      "generateYourCharacter": "Personajınızı yaradın"
+    },
+    "progress": {
+      "generatingPrompt": "Şəxsiyyət yaradılır...",
+      "generatingImage": "Portret yaradılır...",
+      "creatingVoice": "Səs qurulur...",
+      "saving": "Saxlanılır...",
+      "complete": "Tamamlandı!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Şəxsiyyət yaradılır...",
+      "addingSweetness": "Şirinlik əlavə edilir...",
+      "tooMuchSweet": "Ups, çox şirin oldu...",
+      "testingSounds": "Səslər yoxlanılır..."
+    },
+    "overlay": {
+      "signupPrompt": "Personajınızı açmaq üçün qeydiyyatı tamamlayın…",
+      "processingHint": "Adətən 20–30 saniyə çəkir",
+      "traitEthnicity": "Etnik mənsubiyyət",
+      "traitBody": "Bədən",
+      "traitHair": "Saç",
+      "traitColor": "Rəng",
+      "traitEyes": "Gözlər",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Personajınız yaradılmağa hazırdır!",
+      "bannerDesc": "Seçimləriniz yadda saxlanıldı. Aşağıda nəzərdən keçirin və yaradın."
+    },
+    "success": {
+      "title": "Personaj yaradıldı!",
+      "description": "Sizin AI personajınız uğurla yaradıldı.",
+      "yearsOld": "yaş",
+      "meetButton": "Tanış ol"
+    },
+    "error": {
+      "title": "Yaradılma uğursuz oldu",
+      "generic": "Personaj yaradılmadı. Yenidən cəhd edin."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Qafqazlı",
+        "asian": "Asiyalı",
+        "middle_eastern": "Yaxın Şərqli",
+        "hispanic": "İspan dilli",
+        "african": "Afrikalı",
+        "south_asian": "Cənubi Asiyalı",
+        "native_american": "Doğma Amerikalı",
+        "pacific_islander": "Sakit Okean Adalı",
+        "mixed": "Qarışıq",
+        "arab": "Ərəb"
+      },
+      "hairStyleFemale": {
+        "straight": "Düz",
+        "bangs": "Ponq",
+        "curly": "Burmalı",
+        "bun": "Topuz",
+        "short_bob": "Qısa Bob",
+        "ponytail": "At quyruğu",
+        "wavy": "Dalğalı",
+        "long_layers": "Uzun laylar",
+        "braids": "Örgü",
+        "pixie_cut": "Piksi kəsim",
+        "updo": "Yuxarı yığılmış",
+        "french_twist": "Fransız burulması",
+        "fishtail_braid": "Balıq quyruğu örgüsü",
+        "top_knot": "Üst düyün",
+        "space_buns": "Kosmos topuzları",
+        "halo_braid": "Halo örgüsü",
+        "beehive": "Arı yuvası",
+        "finger_waves": "Barmaq dalğaları",
+        "lob": "Lob (Uzun Bob)",
+        "shag_cut": "Shag Kəsimi",
+        "bald": "Keçəl"
+      },
+      "hairStyleMale": {
+        "short": "Qısa",
+        "buzz_cut": "Buzz Kəsimi",
+        "crew_cut": "Crew Kəsimi",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Geriyə Sıyrılmış",
+        "curly": "Qıvrım",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Yan Ayrım",
+        "textured_crop": "Teksturalı Crop",
+        "french_crop": "Fransız Crop",
+        "spiky": "Tikanlı",
+        "comb_over": "Comb Over",
+        "long_hair": "Uzun Saç",
+        "bald": "Keçəl"
+      },
+      "hairColor": {
+        "brunette": "Brunette",
+        "blonde": "Sarışın",
+        "black": "Qara",
+        "redhead": "Qırmızısaç",
+        "pink": "Çəhrayı",
+        "auburn": "Auburn",
+        "brown": "Qəhvəyi",
+        "platinum_blonde": "Platinum Sarışın",
+        "silver_grey": "Gümüş/Boz",
+        "white": "Ağ",
+        "blue": "Mavi",
+        "purple": "Bənövşəyi",
+        "green": "Yaşıl",
+        "burgundy": "Bordo",
+        "copper": "Mis",
+        "strawberry_blonde": "Çiyələk Sarışın",
+        "ash_brown": "Kül Qəhvəyi",
+        "golden_blonde": "Qızılı Sarışın",
+        "mahogany": "Maun",
+        "pastel_pink": "Pastel Çəhrayı",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Qara",
+        "dark_brown": "Tünd Qəhvəyi",
+        "light_brown": "Açıq Qəhvəyi",
+        "honey_blonde": "Bal Sarışın",
+        "dirty_blonde": "Çirkli Sarışın",
+        "cherry_red": "Albalı Qırmızı",
+        "violet": "Bənövşəyi"
+      },
+      "eyeColor": {
+        "brown": "Qəhvəyi",
+        "blue": "Göy",
+        "green": "Yaşıl",
+        "hazel": "Fındıq",
+        "amber": "Kəhrəba",
+        "gray": "Boz",
+        "heterochromia": "Heteroxromiya",
+        "violet": "Bənövşəyi",
+        "red_pink": "Qırmızı/Çəhrayı",
+        "black": "Qara"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Arıq",
+        "athletic": "Atletik",
+        "average": "Orta",
+        "curvy": "Qıvrım",
+        "chubby": "Dolu"
+      },
+      "bodyTypeMale": {
+        "skinny": "Arıq",
+        "athletic": "Atletik",
+        "average": "Orta",
+        "muscular": "Əzələli",
+        "heavy": "Ağır",
+        "big_tall": "Böyük və Hündür"
+      },
+      "breastSize": {
+        "small": "Kiçik",
+        "medium": "Orta",
+        "large": "Böyük",
+        "extra_large": "Çox Böyük"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Sevən",
+        "submissive": "İtaətkar",
+        "dominant": "Dominant",
+        "temptress": "Vəsvəsəçi",
+        "innocent": "Günahsız",
+        "caregiver": "Qayğıkeş",
+        "experimenter": "Təcrübəçi",
+        "mean": "Pis",
+        "confidant": "Etibarlı",
+        "shy": "Utancaq",
+        "queen": "Kraliça",
+        "adventurous": "Macəraçı",
+        "romantic": "Romantik",
+        "intellectual": "İntellektual",
+        "protector": "Qoruyucu",
+        "rebel": "Üsyançı",
+        "optimist": "Optimist",
+        "realist": "Realist",
+        "free_spirit": "Azad Ruh",
+        "leader": "Lider",
+        "loyal": "Sadiq",
+        "playful": "Oynayan",
+        "mysterious": "Sirli",
+        "ambitious": "İddialı",
+        "gentle": "Yumşaq",
+        "sarcastic": "İronik",
+        "empathetic": "Empatiya edən",
+        "stoic": "Stoik",
+        "charismatic": "Xarizmatik"
+      },
+      "relationship": {
+        "stranger": "Yad",
+        "girlfriend": "Qız yoldaşı",
+        "sex_friend": "Seks dostu",
+        "school_mate": "Məktəb yoldaşı",
+        "work_colleague": "İş yoldaşı",
+        "wife": "Arvad",
+        "mistress": "Sevgilisi",
+        "friend": "Dost",
+        "step_sister": "Ögey bacı",
+        "step_mom": "Ögey ana",
+        "step_daughter": "Ögey qız",
+        "landlord": "Ev sahibi",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Rəhbər",
+        "teacher": "Müəllim",
+        "student": "Tələbə",
+        "neighbour": "Qonşu",
+        "mother_in_law": "Qayınana",
+        "sister_in_law": "Baldız",
+        "boyfriend": "Oğlan yoldaşı",
+        "husband": "Ər",
+        "fiance": "Nişanlı",
+        "ex": "Keçmiş",
+        "roommate": "Otaq yoldaşı",
+        "best_friend": "Ən yaxşı dost",
+        "classmate": "Sinif yoldaşı",
+        "mentor": "Mentor",
+        "client": "Müştəri",
+        "therapist": "Terapevt",
+        "trainer": "Təlimçi",
+        "rival": "Rəqib",
+        "crush": "Sevgilim",
+        "secret_admirer": "Gizli pərəstişkar",
+        "pen_pal": "Qələm dostu",
+        "business_partner": "Biznes tərəfdaşı",
+        "babysitter": "Uşaq baxıcısı",
+        "childhood_friend": "Uşaqlıq dostu",
+        "long_distance_partner": "Uzaq məsafəli tərəfdaş"
+      },
+      "occupation": {
+        "student": "Tələbə",
+        "dancer": "Rəqqas",
+        "model": "Model",
+        "maid": "Xidmətçi",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Dayə / Au Pair",
+        "streamer": "Strimer",
+        "bartender": "Barmen",
+        "tech_engineer": "Texnologiya Mühəndisi",
+        "lifeguard": "Xilasedici",
+        "cashier": "Kassir",
+        "massage_therapist": "Masaj Terapevti",
+        "teacher": "Müəllim",
+        "nurse": "Tibb bacısı",
+        "secretary": "Katibə",
+        "yoga_instructor": "Yoqa Təlimatçısı",
+        "fitness_coach": "Fitness Məşqçisi",
+        "cook": "Aşpaz",
+        "artist": "Rəssam",
+        "movie_star_actress": "Kino Ulduzu/Aktrisa",
+        "doctor": "Həkim",
+        "librarian": "Kitabxanaçı",
+        "spy": "Casus",
+        "police_officer": "Polis əməkdaşı",
+        "soldier": "Əsgər",
+        "lawyer": "Vəkil",
+        "hairdresser": "Bərbər",
+        "dentist": "Diş həkimi",
+        "singer_musician": "Müğənni/Musiqiçi",
+        "gynecologist": "Ginekoloq",
+        "writer": "Yazıçı",
+        "flight_attendant": "Uçuş bələdçisi",
+        "professional_athlete": "Peşəkar idmançı",
+        "scientist": "Alim",
+        "florist": "Gülçü",
+        "makeup_artist": "Makiyaj ustası",
+        "photographer": "Fotoqraf",
+        "social_worker": "Sosial işçi",
+        "designer": "Dizayner",
+        "pharmacist": "Əczaçı",
+        "nutritionist": "Qidalanma mütəxəssisi",
+        "architect": "Memar",
+        "veterinarian": "Baytar",
+        "mechanic": "Mexanik",
+        "journalist": "Jurnalist",
+        "pilot": "Pilot",
+        "firefighter": "Yanğınsöndürən",
+        "accountant": "Mühasib",
+        "electrician": "Elektrikçi",
+        "carpenter": "Dülgər",
+        "psychologist": "Psixoloq",
+        "real_estate_agent": "Daşınmaz Əmlak Agentı",
+        "chef": "Aşpaz",
+        "farmer": "Fermer",
+        "delivery_driver": "Çatdırılma Sürücüsü",
+        "janitor": "Təmizlikçi",
+        "security_guard": "Mühafizəçi",
+        "banker": "Bankir",
+        "judge": "Hakim",
+        "paramedic": "Təcili Yardım Həkimi",
+        "actor": "Aktyor",
+        "comedian": "Komediyaçı",
+        "archaeologist": "Arxeoloq",
+        "astronaut": "Kosmonavt"
+      },
+      "kinks": {
+        "bondage": "Bağlama",
+        "spanking": "Şaplama",
+        "collar_leash": "Yaxa və Qayış",
+        "punishment": "Cəza",
+        "humiliation": "Alçaltma",
+        "public_play": "İctimai Oyun",
+        "roleplay": "Rol Oyunu",
+        "anal_play": "Anal Oyun",
+        "oral_play": "Oral Oyun",
+        "cum_play": "Sperma Oyunu",
+        "creampie": "Krem İçəri",
+        "squirting": "Fışqırma",
+        "dirty_talk": "Çirkli Danışıq",
+        "breeding": "Çoxalma",
+        "daddy_mommy_dominance": "Ata/Ana Dominantlığı",
+        "edging": "Gecikdirmə",
+        "obedience": "İtaət",
+        "control": "Nəzarət",
+        "inexperienced": "Təcrübəsiz",
+        "shy_flirting": "Utancaq Flört",
+        "playful_teasing": "Oynaq Ələsalma",
+        "cuddling": "Qucaqlaşma",
+        "slow_sensual": "Yavaş və Hissli",
+        "hair_pulling": "Saç Çəkmə",
+        "foot_fetish": "Ayaq Fetişi",
+        "voyeurism": "Gizli Baxma",
+        "exhibitionism": "Nümayişkarlıq",
+        "sensation_play": "Hiss Oyun",
+        "wax_play": "Mum Oyun",
+        "pet_play": "Ev Heyvanı Oyunu",
+        "age_play": "Yaş Oyunu",
+        "medical_play": "Tibbi Oyun",
+        "orgasm_control_denial": "Orqazm Nəzarəti/İnkarı",
+        "forced_orgasms": "Məcburi Orqazmlar",
+        "group_sex": "Qrup Seks",
+        "threesomes": "Üçlük",
+        "swapping": "Dəyişmə",
+        "cuckolding_cuckqueaning": "Kukoldluq/Kukkuin",
+        "femdom": "Femdom",
+        "gentle_domination": "Yumşaq Dominantlıq",
+        "sensation_deprivation": "Hissiyyat Məhrumiyyəti",
+        "sensory_overload": "Hissiyyat Aşırı Yükü",
+        "uniform_costume_fetish": "Uniforma/Kostyum Fetişi",
+        "food_play": "Qida Oyunu",
+        "watersports": "Su Oyunları",
+        "bdsm": "BDSM",
+        "impact_play": "Zərbə Oyunu",
+        "knife_play": "Bıçaq Oyunu",
+        "consensual_non_consent": "Razılıq əsasında Razılıq Olmadan",
+        "power_exchange": "Güc Mübadiləsi",
+        "master_slave": "Ağa/Qul",
+        "owner_pet": "Sahib/Ev Heyvanı"
+      },
+      "languages": {
+        "en": "İngilis",
+        "cs": "Çex",
+        "pl": "Polyak",
+        "de": "Alman",
+        "es": "İspan",
+        "fr": "Fransız"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Mənim AI",
+    "titlePart1": "Mənim",
+    "titlePart2": "AI",
+    "createNew": "Yeni AI yarat",
+    "createButton": "Personaj Yarat",
+    "characterCount": "{count}/{limit} personaj",
+    "loadMore": "Daha çox yüklə",
+    "empty": {
+      "title": "Hələ Personaj Yoxdur",
+      "description": "İlk AI personajını yarat və söhbətə başla! Görünüşünü, şəxsiyyətini və səsini fərdiləşdir.",
+      "createFirst": "İlk Personajını Yarat"
+    },
+    "delete": {
+      "title": "Personajı Sil",
+      "message": "{name} silmək istədiyinə əminsən? Bu, personajı, bütün söhbət tarixçəsini və yaradılmış məzmunu daimi siləcək.",
+      "confirm": "Sil",
+      "success": "Personaj uğurla silindi"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Qarşılıqlı Əlaqə",
+    "interactionDescription": "Sadəcə təbii yaz — foto, video istə və ya söhbətə başla. AI niyyətini istənilən dildə anlayır.",
+    "mediaTitle": "Şəkillər və Videolar Yarat",
+    "mediaDescription": "Təxəyyülünü azad et — limitsiz şəkil və ya video yarat.",
+    "next": "Növbəti →",
+    "gotIt": "Anladım"
+  }
+}

@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "close": "Tutup",
+    "now": "sekarang",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil",
+    "confirm": "Konfirmasi",
+    "back": "Kembali",
+    "or": "Atau",
+    "next": "Lanjut",
+    "submit": "Kirim",
+    "search": "Cari",
+    "filter": "Filter",
+    "clear": "Bersihkan",
+    "all": "Semua",
+    "yes": "Ya",
+    "no": "Tidak",
+    "download": "Unduh",
+    "and": "dan",
+    "tryAgain": "Coba lagi",
+    "change": "Ubah"
+  },
+  "navigation": {
+    "new": "BARU",
+    "sectionBrowse": "Jelajahi",
+    "sectionTalk": "Bicara",
+    "sectionCreate": "Buat",
+    "sectionLibrary": "Perpustakaan",
+    "explore": "Beranda",
+    "discover": "Temukan",
+    "createShort": "Buat AI",
+    "chats": "Chat",
+    "groupChat": "Chat Grup AI",
+    "roleplay": "Roleplay",
+    "collection": "Koleksi",
+    "generateImage": "Buat Gambar",
+    "generateVideo": "Buat Video",
+    "createCharacter": "Buat Karakter AI",
+    "myAI": "AI Saya",
+    "language": "Bahasa",
+    "contactUs": "Hubungi Kami",
+    "account": "Akun",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Wanita",
+      "anime": "Anime",
+      "guys": "Pria"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chat sekarang",
+    "like": "Suka"
+  },
+  "auth": {
+    "login": "Masuk",
+    "signup": "Daftar",
+    "createFreeAccount": "Buat akun gratis Anda",
+    "logout": "Keluar",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "signupPrompt": "Buat Akun Gratis",
+    "loginPrompt": "Masuk",
+    "continueWith": "Lanjutkan dengan",
+    "welcomeBack": "Selamat datang kembali!",
+    "createAccount": "Buat akun Anda",
+    "signInToAccount": "Masuk ke akun Anda",
+    "emailRequired": "Email wajib diisi",
+    "emailInvalid": "Alamat email tidak valid",
+    "passwordRequired": "Kata sandi wajib diisi",
+    "passwordLength": "Kata sandi minimal 6 karakter",
+    "passwordsMismatch": "Kata sandi tidak cocok",
+    "emailAlreadyRegistered": "Email sudah terdaftar",
+    "emailAlreadyRegisteredDescription": "Akun dengan email ini sudah ada. Silakan masuk.",
+    "loginError": "Gagal masuk",
+    "signupError": "Gagal mendaftar",
+    "loginSuccess": "Selamat datang kembali!",
+    "signupSuccess": "Akun berhasil dibuat!",
+    "logoutSuccess": "Anda berhasil keluar",
+    "logoutError": "Gagal keluar",
+    "linkExpired": "Tautan verifikasi ini telah kedaluwarsa. Silakan minta yang baru.",
+    "accessDenied": "Akses ditolak. Silakan coba lagi.",
+    "verifyEmail": "Verifikasi Email Anda",
+    "verificationEmailSent": "Kami telah mengirim email verifikasi kepada Anda",
+    "confirmYourEmail": "Konfirmasi E-mail Anda",
+    "confirmationLinkSent": "Kami telah mengirim tautan konfirmasi ke \"{email}\".",
+    "checkSpamFolder": "Tidak menerima email? Periksa folder spam.",
+    "signupToChat": "Buat akun gratis Anda untuk memulai.",
+    "signupDescription": "Buat akun untuk melanjutkan percakapan Anda",
+    "emailVerificationTitle": "Periksa email Anda",
+    "emailVerificationMessage": "Kami telah mengirim tautan verifikasi ke {email}. Silakan periksa kotak masuk Anda dan klik tautan untuk memverifikasi akun Anda.",
+    "emailVerificationNext": "Setelah verifikasi, Anda akan menyelesaikan proses orientasi.",
+    "verificationEmailSentTo": "Kami telah mengirim email verifikasi ke {email}",
+    "verificationInstructions": "Silakan periksa kotak masuk Anda dan klik tautan verifikasi untuk mengaktifkan akun Anda.",
+    "resetPassword": "Atur Ulang Kata Sandi",
+    "resetPasswordDescription": "Masukkan email Anda dan kami akan mengirimkan tautan reset",
+    "resetEmailSent": "Jika akun dengan email ini ada, Anda akan menerima tautan reset sebentar lagi",
+    "backToLogin": "Kembali ke Login",
+    "newPassword": "Kata Sandi Baru",
+    "confirmNewPassword": "Konfirmasi Kata Sandi Baru",
+    "passwordResetSuccess": "Kata sandi berhasil diperbarui. Silakan masuk.",
+    "enterNewPassword": "Masukkan kata sandi baru Anda",
+    "redirectingToLogin": "Mengalihkan ke login...",
+    "invalidResetLink": "Tautan Tidak Valid atau Kedaluwarsa",
+    "invalidResetLinkDescription": "Tautan reset kata sandi ini tidak valid atau telah kedaluwarsa. Silakan minta yang baru.",
+    "passwordsDontMatch": "Kata sandi tidak cocok",
+    "currentPassword": "Kata Sandi Saat Ini",
+    "currentPasswordRequired": "Kata sandi saat ini diperlukan",
+    "changePassword": "Ubah Kata Sandi",
+    "changePasswordDescription": "Masukkan kata sandi saat ini dan pilih yang baru",
+    "newPasswordMustBeDifferent": "Kata sandi baru harus berbeda dari kata sandi saat ini",
+    "incorrectPassword": "Kata sandi saat ini salah",
+    "passwordChangeSuccess": "Kata sandi berhasil diubah",
+    "changeEmail": "Ubah Email",
+    "newEmail": "Email Baru",
+    "confirmNewEmail": "Konfirmasi Email Baru",
+    "emailsDontMatch": "Email tidak cocok",
+    "emailChangeDescription": "Email verifikasi akan dikirim ke alamat email lama dan baru Anda",
+    "emailMustBeDifferent": "Email baru harus berbeda dari email saat ini",
+    "emailChangeSent": "Email verifikasi terkirim. Silakan periksa kotak masuk email baru Anda.",
+    "emailChangeSecurityNote": "Untuk keamanan, email konfirmasi akan dikirim ke alamat email lama dan baru Anda. Anda harus mengonfirmasi dari keduanya untuk menyelesaikan perubahan.",
+    "otpDescription": "Kami mengirim kode 6 digit ke {email}",
+    "otpVerify": "Verifikasi",
+    "otpResend": "Kirim ulang kode",
+    "otpResendIn": "Kirim ulang dalam {seconds}dtk",
+    "otpNoCode": "Tidak menerima kode?",
+    "otpInvalid": "Kode tidak valid. Silakan coba lagi.",
+    "otpSuccess": "Email berhasil diverifikasi!",
+    "otpResendSuccess": "Kode baru dikirim ke email Anda",
+    "otpResendError": "Gagal mengirim ulang kode",
+    "continueWithEmail": "Lanjutkan dengan Email",
+    "moreOptions": "Opsi lainnya",
+    "lessOptions": "Lebih sedikit opsi",
+    "enterYourEmail": "Masukkan alamat email Anda",
+    "sendCode": "Kirim kode",
+    "byCreatingAccountAgree": "Dengan membuat akun, Anda menyetujui",
+    "termsOfService": "Ketentuan Layanan",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Selamat datang di sweetwine",
+    "welcomeTo": "Selamat datang di",
+    "letsGetStarted": "Mari kita siapkan Anda",
+    "setupProfile": "Atur Profil Anda",
+    "step1of2": "Langkah 1 dari 2",
+    "step2of2": "Langkah 2 dari 2",
+    "nickname": "Nama Panggilan",
+    "nicknamePlaceholder": "Pilih nama panggilan",
+    "nicknameRequired": "Silakan masukkan nama panggilan",
+    "gender": "Jenis Kelamin",
+    "genderRequired": "Silakan pilih jenis kelamin Anda",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "interfaceLanguage": "Bahasa Antarmuka",
+    "interfaceLanguageDesc": "Bahasa untuk menu dan tombol",
+    "aiLanguage": "Bahasa Respons AI",
+    "aiLanguageDesc": "Bahasa yang akan digunakan AI saat berbicara dengan Anda",
+    "languageRequired": "Silakan pilih bahasa",
+    "continue": "Lanjutkan",
+    "ageVerification": "Verifikasi Usia",
+    "ageVerificationText": "Untuk menggunakan sweetwine, Anda harus berusia 18 tahun atau lebih. Dengan melanjutkan, Anda mengonfirmasi bahwa Anda telah mencapai usia legal.",
+    "beforeContinue": "Sebelum melanjutkan",
+    "mustBe18": "Anda harus berusia 18 tahun atau lebih untuk menggunakan layanan ini",
+    "agreeToTerms": "Dengan melanjutkan, Anda menyetujui {termsLink} dan {privacyLink} kami",
+    "termsOfService": "Ketentuan Layanan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "iConfirm": "Saya mengonfirmasi bahwa saya berusia 18 tahun atau lebih dan menyetujui",
+    "ageRequired": "Anda harus mengonfirmasi usia Anda untuk melanjutkan",
+    "aiActConsent": "Saya mengakui bahwa saya berkomunikasi hanya dengan AI",
+    "aiActRequired": "Anda harus mengakui ini untuk melanjutkan",
+    "newsletterOptIn": "Berlangganan buletin kami untuk pembaruan dan berita",
+    "complete": "Pengaturan Selesai!",
+    "completeText": "Semuanya siap! Mulai mengobrol dengan karakter AI.",
+    "startExploring": "Mulai Menjelajah",
+    "featuresTitle": "Fitur yang Tersedia",
+    "featuresTitleWord1": "Fitur",
+    "featuresTitleWord2": "yang Tersedia",
+    "feature1Title": "Obrolan AI",
+    "feature1Desc": "Percakapan tanpa sensor dan pribadi",
+    "feature2Title": "Pembuatan Gambar",
+    "feature2Desc": "Buat gambar tanpa sensor dan dipersonalisasi dengan karakter AI",
+    "feature3Title": "Pembuatan Video",
+    "feature3Desc": "Buat video AI tanpa sensor dengan efek",
+    "feature5Title": "Pembuat AI Kustom",
+    "feature5Desc": "Rancang karakter Anda sendiri",
+    "feature6Title": "Jelajahi Karakter",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "Roleplay AI",
+    "feature7Desc": "Rasakan cerita dan fantasi yang dibuat secara profesional",
+    "showcase": {
+      "chatTitle": "Obrolan AI",
+      "chatDesc": "Percakapan pribadi tanpa sensor dan tanpa batas",
+      "imageTitle": "Pembuatan Gambar",
+      "imageDesc": "Buat gambar AI yang dipersonalisasi tanpa sensor",
+      "videoTitle": "Pembuatan Video",
+      "videoDesc": "Hasilkan video AI tanpa sensor dengan efek",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Percakapan suara real-time dengan pendampingmu",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Cerita imersif, fantasi, dan permainan interaktif",
+      "groupChatTitle": "Obrolan Grup AI",
+      "groupChatDesc": "Ngobrol dengan hingga 3 karakter AI sekaligus",
+      "creatorTitle": "Pembuat AI Kustom",
+      "creatorDesc": "Rancang dan buat karakter AI-mu sendiri"
+    },
+    "freePlan": {
+      "title": "Semua sudah siap!",
+      "subtitle": "Berikut yang termasuk dalam paket gratis Anda.",
+      "charactersTitle": "Buat karakter Anda sendiri",
+      "charactersDesc": "Rancang {count} karakter AI kustom dari awal",
+      "imagesTitle": "Buat gambar",
+      "imagesDesc": "{count} gambar AI gratis dari pendamping Anda",
+      "messagesTitle": "Ngobrol setiap hari",
+      "messagesDesc": "{count} pesan per hari, diperbarui setiap 24 jam",
+      "cta": "Mulai jelajahi"
+    },
+    "redirectingIn": "Mengalihkan dalam",
+    "seconds": "detik",
+    "generateCharacter": "Buat Karakter Anda",
+    "redirectingToCreate": "Mengalihkan ke pembuat karakter dalam"
+  },
+  "errors": {
+    "pageNotFound": "Halaman Tidak Ditemukan",
+    "pageNotFoundDesc": "Halaman yang Anda cari tidak ada.",
+    "goHome": "Beranda",
+    "somethingWentWrong": "Terjadi kesalahan",
+    "tryAgain": "Coba Lagi",
+    "unauthorized": "Tidak Diizinkan",
+    "unauthorizedDesc": "Anda harus masuk untuk mengakses halaman ini.",
+    "forbidden": "Dilarang",
+    "forbiddenDesc": "Anda tidak memiliki izin untuk mengakses halaman ini."
+  },
+  "footer": {
+    "allRightsReserved": "Hak cipta dilindungi.",
+    "madeWith": "Dibuat dengan",
+    "by": "oleh sweetwine",
+    "description": "Rasakan karakter AI yang dipersonalisasi dengan kepribadian unik, identitas visual, dan percakapan yang menarik.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Produk",
+    "legal": "Legal",
+    "company": "Perusahaan",
+    "resources": "Sumber Daya",
+    "partnerships": "Kemitraan",
+    "pressMedia": "Pers & media",
+    "careers": "Karir",
+    "aiRealClones": "Klon AI nyata",
+    "about": "Tentang",
+    "blog": "Blog",
+    "news": "Berita",
+    "productUpdates": "Pembaruan produk",
+    "help": "Bantuan",
+    "sitemap": "Peta situs",
+    "paymentOptions": "Opsi Pembayaran",
+    "chats": "Obrolan",
+    "collection": "Koleksi",
+    "generateImage": "Buat gambar",
+    "generateVideo": "Buat video",
+    "myAI": "AI Saya",
+    "createCharacter": "Buat karakter",
+    "api": "API",
+    "features": "Fitur",
+    "allFeatures": "Semua fitur",
+    "aiGroupChat": "Obrolan grup AI",
+    "aiMemory": "Memori AI",
+    "aiGirlfriend": "Pacar AI",
+    "aiBoyfriend": "Pacar pria AI",
+    "aiCompanions": "Karakter AI",
+    "aiFriend": "Teman AI",
+    "aiBreakupSupport": "Dukungan putus cinta",
+    "aiParent": "Orang tua AI",
+    "aiRoleplay": "Roleplay AI",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsAndConditions": "Syarat & Ketentuan",
+    "cookiePolicy": "Kebijakan Cookie",
+    "cookieSettings": "Pengaturan Cookie",
+    "other": "Kebijakan Lainnya",
+    "copyright": "© {year} sweetwine. All rights reserved."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookie di situs ini",
+      "customizeButton": "Sesuaikan",
+      "rejectButton": "Tolak",
+      "acceptButton": "Terima"
+    },
+    "modal": {
+      "title": "Kelola cookie",
+      "subtitle": "Aktifkan atau nonaktifkan kategori di bawah ini. Cookie yang benar-benar diperlukan tetap aktif agar situs dapat berfungsi.",
+      "categories": {
+        "necessary": {
+          "title": "Benar-benar diperlukan",
+          "description": "Diperlukan untuk masuk, checkout, dan keamanan. Situs tidak dapat berjalan tanpa cookie ini.",
+          "alwaysOn": "Selalu aktif"
+        },
+        "analytics": {
+          "title": "Performa",
+          "description": "Pengukuran penggunaan dan konversi melalui Google Analytics 4, termasuk konversi utama (daftar, pembelian) yang dikirim dari server kami menggunakan pengenal samaran. Membantu kami memahami bagaimana layanan digunakan; kami tidak menggunakannya untuk mengidentifikasi Anda secara pribadi."
+        },
+        "marketing": {
+          "title": "Penargetan",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Tampilkan cookie",
+      "hideCookies": "Sembunyikan cookie",
+      "table": {
+        "name": "Nama",
+        "provider": "Penyedia",
+        "expiration": "Kedaluwarsa",
+        "description": "Deskripsi",
+        "session": "Sesi"
+      },
+      "policyLink": "Untuk detail lengkap, lihat <policy>Kebijakan Cookie</policy> kami.",
+      "rejectButton": "Tolak",
+      "saveButton": "Simpan & Tutup",
+      "acceptButton": "Terima",
+      "cookieDescriptions": {
+        "supabaseAuth": "Menjaga Anda tetap masuk dengan menyimpan sesi autentikasi Anda.",
+        "nextLocale": "Mengingat bahasa yang Anda pilih untuk antarmuka.",
+        "consent": "Menyimpan pilihan cookie Anda agar banner tidak ditampilkan setiap kunjungan.",
+        "ga": "Membedakan pengunjung unik (Google Analytics 4). Pengenal samaran yang sama juga digunakan untuk mengukur konversi utama di sisi server.",
+        "gaSession": "Mempertahankan status sesi Google Analytics 4 dan metrik keterlibatan.",
+        "fbp": "Mengidentifikasi browser untuk atribusi Meta Pixel.",
+        "fbc": "Menyimpan ID klik Facebook untuk atribusi konversi iklan. Hanya diatur setelah mengklik iklan Meta.",
+        "gclAu": "Digunakan oleh Google Ads untuk menghubungkan konversi lintas situs.",
+        "saleCountdown": "Melacak akhir penawaran promosi Anda saat ini agar hitungan mundur diskon tetap konsisten di seluruh halaman.",
+        "onboarded": "Menandai akun Anda sebagai onboarded agar kami dapat melewati pemeriksaan database verifikasi usia di halaman berikutnya.",
+        "attribution": "Mencatat kampanye berbayar atau tautan iklan mana yang paling baru membawa Anda ke situs kami (klik berbayar terakhir dalam 30 hari) sehingga kami dapat mengukur efektivitas iklan kami. Ini adalah pengidentifikasi pihak pertama yang tetap di server kami dan tidak pernah dibagikan ke pihak ketiga."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Segera Hadir",
+    "subtitle": "Kami sedang bekerja keras untuk menghadirkan fitur ini.",
+    "notify": "Dapatkan notifikasi saat sudah siap",
+    "backHome": "Kembali ke Beranda",
+    "generateVideo": {
+      "title": "Buat Video",
+      "description": "Hidupkan karakter AI Anda dengan video animasi. Buat konten video yang dipersonalisasi menampilkan karakter favorit Anda."
+    },
+    "createCharacter": {
+      "title": "Buat Karakter Anda",
+      "description": "Rancang dan sesuaikan karakter AI unik Anda sendiri. Tentukan kepribadian, penampilan, latar belakang, dan ciptakan interaksi yang benar-benar personal."
+    },
+    "myAI": {
+      "title": "AI Saya",
+      "description": "Akses dan kelola semua karakter AI yang Anda buat. Edit kepribadian mereka, perbarui penampilan, dan sesuaikan respons mereka."
+    }
+  },
+  "exploreMore": {
+    "title": "Jelajahi Lebih Lanjut",
+    "aiGroupChat": "Chat grup AI",
+    "aiGroupChatDesc": "Chat dengan hingga 3 karakter",
+    "aiMemory": "Memori AI",
+    "aiMemoryDesc": "Konteks yang mengikuti setiap mode",
+    "aiGirlfriend": "Pacar AI",
+    "aiGirlfriendDesc": "Chat dengan pacar virtual Anda",
+    "aiBoyfriend": "Pacar pria AI",
+    "aiBoyfriendDesc": "Terhubung dengan pacar pria AI Anda",
+    "aiCompanions": "Karakter AI",
+    "aiCompanionsDesc": "Temui kepribadian AI yang unik",
+    "aiFriend": "Teman AI",
+    "aiFriendDesc": "Temukan teman tanpa penilaian",
+    "aiBreakupSupport": "Dukungan putus cinta",
+    "aiBreakupSupportDesc": "Percakapan penyembuhan",
+    "aiParent": "Orang tua AI",
+    "aiParentDesc": "Dukungan & bimbingan hangat",
+    "aiRoleplay": "Roleplay AI",
+    "aiRoleplayDesc": "Skenario cerita imersif",
+    "allFeatures": "Semua fitur",
+    "allFeaturesDesc": "Jelajahi semua yang kami tawarkan"
+  },
+  "legal": {
+    "policies": "Kebijakan",
+    "termsAndConditions": "Syarat dan Ketentuan",
+    "privacyPolicy": "Kebijakan Privasi",
+    "cookiePolicy": "Kebijakan Cookie",
+    "contentReportingPolicy": "Kebijakan Pelaporan Konten",
+    "communityGuidelines": "Panduan Komunitas",
+    "complaintPolicy": "Kebijakan Pengaduan",
+    "contentRemovalPolicy": "Kebijakan Penghapusan Konten",
+    "blockedContentPolicy": "Kebijakan Konten yang Diblokir",
+    "underagePolicy": "Kebijakan Pengguna di Bawah Umur",
+    "usc2257": "Pengecualian 18 U.S.C. 2257",
+    "lastUpdated": "Terakhir Diperbarui",
+    "index": {
+      "title": "Dokumen Hukum",
+      "subtitle": "Jelajahi semua kebijakan hukum dan perjanjian terkait sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Kebijakan Privasi",
+          "description": "Pelajari cara kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda. Detail tentang penanganan data, penyimpanan, dan hak privasi Anda."
+        },
+        "termsAndConditions": {
+          "title": "Syarat dan Ketentuan",
+          "description": "Ketentuan layanan yang mengatur penggunaan sweetwine Anda. Tanggung jawab pengguna, deskripsi layanan, dan perjanjian hukum."
+        },
+        "cookiePolicy": {
+          "title": "Kebijakan Cookie",
+          "description": "Informasi tentang cara kami menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda di platform kami."
+        },
+        "underagePolicy": {
+          "title": "Kebijakan Pengguna di Bawah Umur",
+          "description": "Kebijakan verifikasi usia dan perlindungan kami yang ketat. sweetwine hanya tersedia untuk pengguna berusia 18 tahun ke atas."
+        },
+        "complaintPolicy": {
+          "title": "Kebijakan Pengaduan",
+          "description": "Cara mengajukan pengaduan, melaporkan masalah, dan proses kami dalam menangani keluhan serta perselisihan pengguna."
+        },
+        "contentRemovalPolicy": {
+          "title": "Kebijakan Penghapusan Konten",
+          "description": "Prosedur kami untuk permintaan penghapusan konten dan cara kami menangani laporan konten yang tidak pantas atau ilegal."
+        },
+        "blockedContentPolicy": {
+          "title": "Kebijakan Konten yang Diblokir",
+          "description": "Jenis konten yang dilarang di platform kami dan kebijakan penegakan kami."
+        },
+        "contentReportingPolicy": {
+          "title": "Kebijakan Pelaporan Konten",
+          "description": "Cara melaporkan pelanggaran hak cipta dan konten yang tidak pantas di sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Panduan Komunitas",
+          "description": "Aturan dan panduan untuk menjaga komunitas yang hormat, aman, dan menyenangkan bagi semua pengguna."
+        }
+      },
+      "lastUpdated": "Terakhir diperbarui: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Obrolan",
+    "groupChat": "Obrolan Grup AI",
+    "aiMemory": "Memori AI",
+    "generate": "Buat Gambar",
+    "generateVideo": "Buat Video",
+    "create": "Buat Karakter AI",
+    "myAI": "AI Saya",
+    "collection": "Koleksi",
+    "invite": "Undang",
+    "profile": "Pengaturan Profil",
+    "legal": "Hukum",
+    "privacyPolicy": "Kebijakan Privasi",
+    "termsAndConditions": "Syarat dan Ketentuan",
+    "cookiePolicy": "Kebijakan Cookie",
+    "dmcaPolicy": "Kebijakan DMCA",
+    "communityGuidelines": "Panduan Komunitas",
+    "contentRemovalPolicy": "Kebijakan Penghapusan Konten",
+    "contentReportingPolicy": "Kebijakan Pelaporan Konten",
+    "complaintPolicy": "Kebijakan Pengaduan",
+    "blockedContentPolicy": "Kebijakan Konten yang Diblokir",
+    "underagePolicy": "Kebijakan Pengguna di Bawah Umur",
+    "usc2257Exemption": "Pengecualian USC 2257"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Ada pertanyaan atau masukan? Kami ingin mendengar dari Anda.",
+    "name": "Nama",
+    "namePlaceholder": "Nama Anda",
+    "nameRequired": "Nama wajib diisi",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Email wajib diisi",
+    "emailInvalid": "Alamat email tidak valid",
+    "message": "Pesan",
+    "messagePlaceholder": "Pesan Anda...",
+    "messageRequired": "Pesan wajib diisi",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim!",
+    "successDesc": "Kami akan segera menghubungi Anda.",
+    "error": "Gagal mengirim pesan",
+    "errorDesc": "Silakan coba lagi nanti."
+  },
+  "groupChat": {
+    "lobbyTitle": "Obrolan Grup AI",
+    "lobbyHeadingSuffix": "Pilih hingga {max} Karakter AI",
+    "history": "Riwayat",
+    "newGroup": "Obrolan Grup Baru",
+    "createGroup": "Buat Obrolan Grup",
+    "createError": "Tidak dapat membuat obrolan grup. Silakan coba lagi.",
+    "creatingGroup": "Menyiapkan obrolan grup Anda...",
+    "sectionWoman": "Wanita",
+    "sectionMan": "Pria",
+    "sectionAnime": "Anime",
+    "tabPremade": "Karakter AI",
+    "tabMyAi": "AI Saya",
+    "tabSingle": "Obrolan Tunggal",
+    "tabGroup": "Obrolan Grup",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Muat lebih banyak",
+    "noCustom": "Anda belum membuat karakter AI apa pun.",
+    "noMessagesYet": "Belum ada pesan",
+    "emptyTitle": "Belum ada obrolan grup",
+    "membersTitle": "Dalam obrolan ini",
+    "typing": "mengetik",
+    "backToLobby": "Kembali ke obrolan grup",
+    "deleteGroup": "Hapus obrolan grup",
+    "confirmDeleteGroup": "Apakah Anda yakin ingin menghapus obrolan grup ini? Semua pesan akan dihapus.",
+    "deleteError": "Tidak dapat menghapus obrolan grup.",
+    "mediaTargetImageTitle": "Siapa yang harus mengirim foto?",
+    "mediaTargetVideoTitle": "Siapa yang harus mengirim video?",
+    "mediaTargetSubtitle": "Pilih karakter untuk menghasilkan media.",
+    "mediaTargetGroup": "Foto grup",
+    "groupPhotoTitle": "Foto grup",
+    "groupPhotoHint": "Menghasilkan satu foto {name} bersama.",
+    "promoSubtitle": "dengan maksimal 3 karakter",
+    "promoCta": "Buat Baru",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Petualangan",
+    "live": "LANGSUNG",
+    "scrollPrev": "Gulir kiri",
+    "scrollNext": "Gulir kanan"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Mulai Sekarang"
+    },
+    "hero": {
+      "tagline": "Dipercaya oleh 100.000 orang dan bergabung setiap hari",
+      "headlinePrefix": "Salam untuk",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Mulai Gratis"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "Pacar AI",
+      "friend": "Teman AI",
+      "boyfriend": "Pacar Pria AI",
+      "companion": "Karakter AI"
+    },
+    "features": {
+      "chat": {
+        "title": "Ngobrol dengan pacar AI-mu",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Foto & video AI yang realistis",
+        "description": "Foto dan video sesuai permintaan yang begitu realistis sehingga tak bisa dibedakan dari aslinya — wajahnya, gayanya, adegan apa pun, bergerak atau diam."
+      },
+      "groupChat": {
+        "title": "Obrolan Grup AI",
+        "description": "Mulai obrolan grup dengan hingga 3 karakter sekaligus. Mereka membalas secara alami, saling bereaksi, dan mengirim foto serta video."
+      },
+      "roleplay": {
+        "title": "Roleplay AI",
+        "description": "Masuki skenario imersif berbasis cerita dengan karakter yang tetap dalam peran dan mengingat setiap pilihanmu."
+      }
+    },
+    "memory": {
+      "title": "Memori AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Cara kerja Memori AI",
+      "diagram": {
+        "center": "Memori teman",
+        "chat": "Chat",
+        "image": "Gambar",
+        "video": "Video",
+        "gifts": "Hadiah",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Buat",
+      "headlineHighlight": "karakter AI",
+      "subtitle": "Bentuk penampilan, kepribadian karaktermu, dan hidupkan mereka seketika — pasangan AI sempurna, sesuai keinginanmu.",
+      "cta": "Buat AI-mu"
+    },
+    "companions": {
+      "headlinePrefix": "Temui",
+      "headlineHighlight": "Karakter AI-mu",
+      "subtitle": "Setiap karakter memiliki dunianya sendiri. Ada yang hangat dan mudah diajak terbuka. Ada yang kompleks, tertutup, atau tantangan nyata untuk terhubung. Jelajahi skenario roleplay unik — atau buat sendiri dari awal."
+    },
+    "languages": {
+      "headlinePrefix": "Bicara dalam bahasa apa pun,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Baik antarmuka aplikasi maupun karakter AI-mu beralih dengan mulus — tidak ada ketidakcocokan bahasa, tidak ada pengalaman rusak.",
+      "more": "Lainnya"
+    },
+    "finalCta": {
+      "headlinePrefix": "Siap",
+      "headlineHighlight": "memulai?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Mengapa",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Semua yang kamu butuhkan untuk koneksi yang terasa nyata — tanpa yang tidak perlu.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Gratis untuk memulai",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Selalu tersedia",
+          "desc": "Siang atau malam, karaktermu selalu ada. Tanpa menunggu, tanpa jadwal."
+        },
+        "remembers": {
+          "title": "Mengingat segalanya",
+          "desc": "Setiap percakapan membangun konteks. Karaktermu mengenal namamu, preferensimu, dan duniamu."
+        },
+        "unlimited": {
+          "title": "Benar-benar tanpa batas",
+          "desc": "Tanpa batas pesan, tanpa pembatasan konten. Kirim sebanyak yang kamu mau, sesering yang kamu inginkan."
+        },
+        "private": {
+          "title": "100% pribadi",
+          "desc": "Percakapanmu hanya antara kalian berdua. Tidak ada data yang dibagikan, selamanya."
+        },
+        "createYourOwn": {
+          "title": "Buat milikmu sendiri",
+          "desc": "Rancang karakter dengan tampilan, kepribadian, dan suara khusus — persis seperti yang kamu inginkan."
+        }
+      },
+      "difference": {
+        "title": "Perbedaan sweetwine",
+        "freedomTitle": "Kebebasan dengan tanggung jawab.",
+        "freedomDescription": "sweetwine terbuka dan bebas penilaian — tapi kami menetapkan batas tegas. Kami tidak mentolerir CSAM, konten di bawah umur, skenario tanpa persetujuan, kekerasan ekstrem, bestialitas, nekrofilia, deepfake orang nyata, dan segala promosi aktivitas ilegal.",
+        "freedomStatement": "Kami percaya pada kebebasan kreatif tanpa batas dalam ruang yang aman untuk semua orang."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filter"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Semua yang perlu kamu ketahui tentang sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Apa itu sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Apakah sweetwine aman dan sah?",
+          "answer": "Ya, sweetwine adalah layanan sah dengan privasi sebagai prioritas utama kami. Kami mematuhi GDPR dan standar perlindungan data lainnya, serta menangani data Anda dengan hati-hati. Transaksi pembayaran muncul dengan nama merchant netral — tidak ada referensi sweetwine di rekening bank Anda, memastikan kebijaksanaan penuh."
+        },
+        "q3": {
+          "question": "Bisakah saya membuat karakter AI sendiri?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "pembuat karakter",
+          "answerPart2": " untuk merancang karakter persis sesuai keinginanmu — baik itu",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": " yang realistis,",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", atau karakter bergaya anime. Pilih penampilan (etnis, rambut, tipe tubuh, pakaian), sifat kepribadian, suara, minat, dan latar belakang untuk karakter pria maupun wanita."
+        },
+        "q4": {
+          "question": "Apakah karakter AI saya mengingat percakapan kita?",
+          "answer": "Ya! Karakter AI Anda menggunakan teknologi memori canggih untuk mengingat percakapan sebelumnya, preferensi Anda, dan detail penting yang Anda bagikan. Semakin banyak Anda mengobrol, semakin personal dan alami pengalamannya. Karakter Anda mempelajari gaya komunikasi Anda dan beradaptasi seiring waktu."
+        },
+        "q5": {
+          "question": "Bahasa apa saja yang didukung sweetwine?",
+          "answer": "sweetwine mendukung berbagai bahasa termasuk Inggris, Jerman, Prancis, Spanyol, Polandia, dan Ceko. Baik antarmuka maupun percakapan AI berfungsi dalam bahasa pilihan Anda, sehingga Anda bisa mengobrol secara alami dalam bahasa yang paling nyaman bagi Anda."
+        },
+        "q6": {
+          "question": "Bisakah karakter AI saya mengirim gambar dan video?",
+          "answerPart1": "Ya! Anda bisa menghasilkan",
+          "linkTextImages": "gambar",
+          "answerPart2": "dan",
+          "linkTextVideos": "video",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Mengapa memilih sweetwine dibanding platform karakter AI lainnya?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Apakah sweetwine gratis digunakan?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Apakah saya perlu menginstal aplikasi?",
+          "answerPart1": "Tidak perlu instalasi! sweetwine bekerja langsung di browser Anda di perangkat apa pun - desktop, tablet, atau ponsel. Cukup daftar, pilih karakter, dan mulai mengobrol seketika. Semua",
+          "linkText": "percakapan",
+          "answerPart2": " Anda tersinkron otomatis di semua perangkat."
+        },
+        "q10": {
+          "question": "Apakah ada karakter AI yang sudah jadi tersedia?",
+          "answerPart1": "Ya! Kami memiliki banyak",
+          "linkText": "karakter yang sudah jadi",
+          "answerPart2": " termasuk AI Girlfriend, AI Boyfriend, dan karakter AI Anime dengan kepribadian, penampilan, dan gaya komunikasi yang beragam. Baik Anda menyukai yang manis, genit, intelektual, atau petualang, Anda akan menemukan karakter yang sesuai dengan energi Anda. Plus, Anda bisa membuat karakter kustom tanpa batas."
+        },
+        "q12": {
+          "question": "Apa yang terjadi dengan gambar dan video yang saya buat?",
+          "answerPart1": "Semua media yang dibuat otomatis disimpan ke",
+          "linkText": "koleksi",
+          "answerPart2": " pribadi Anda. Anda bisa mengakses, mengunduh, atau menghapusnya kapan saja. Koleksi Anda sepenuhnya pribadi - hanya Anda yang bisa melihatnya. Kami tidak pernah membagikan atau menggunakan konten yang Anda buat."
+        }
+      }
+    },
+    "statement": {
+      "title": "Komitmen Kami",
+      "privacy": "Privasi Anda adalah prioritas kami. Semua percakapan dienkripsi dan tidak pernah dibagikan.",
+      "quality": "Kami menggunakan teknologi AI mutakhir untuk memberikan pengalaman paling menarik.",
+      "support": "Tim dukungan kami tersedia 24/7 untuk membantu dengan pertanyaan apa pun.",
+      "mainTitle": "Rasakan Masa Depan Karakter AI",
+      "mainDescription": "sweetwine menggabungkan teknologi AI canggih dengan desain intuitif untuk menghadirkan pengalaman karakter yang paling imersif dan personal yang tersedia saat ini.",
+      "features": {
+        "f1": {
+          "title": "Kecerdasan Emosional",
+          "description": "Karakter AI kami memahami konteks, emosi, dan nuansa untuk memberikan percakapan yang sangat menarik. Baik Anda membutuhkan AI Friend untuk mengobrol, Breakup Support di saat-saat sulit, atau AI Mentor untuk bimbingan - AI kami yang cerdas secara emosional siap membantu Anda."
+        },
+        "f2": {
+          "title": "Kepribadian Unik",
+          "description": "Setiap karakter memiliki kepribadian, latar belakang, dan gaya komunikasi yang berbeda. Pilih dari AI Girlfriend dan AI Boyfriend yang realistis, atau jelajahi karakter AI Anime kami - memastikan setiap interaksi unik dan tak terlupakan."
+        },
+        "f3": {
+          "title": "Interaksi Multimedia",
+          "description": "Selain teks, nikmati gambar dan video yang dihasilkan AI yang menghidupkan percakapan Anda dengan detail visual yang menakjubkan."
+        },
+        "f4": {
+          "title": "Kustomisasi",
+          "description": "Buat karakter AI Anda sendiri dengan penampilan, kepribadian, dan sifat khusus yang sesuai dengan preferensi Anda."
+        },
+        "f5": {
+          "title": "Privasi & Keamanan",
+          "description": "Percakapan Anda dijaga tetap pribadi dan aman. Kami tidak pernah menjual data Anda, dan Anda memiliki kendali penuh atas pengaturan privasi Anda."
+        },
+        "f6": {
+          "title": "Dukungan Multi-Bahasa",
+          "description": "Obrol dengan karakter AI dalam bahasa pilihan Anda. Kami mendukung Bahasa Inggris, Ceko, Polandia, Jerman, Spanyol, dan Prancis."
+        }
+      },
+      "distinctionTitle": "Keunggulan sweetwine",
+      "distinctionText1": "Berbeda dengan chatbot generik, karakter sweetwine dirancang dengan latar belakang yang kaya, kepribadian yang berkembang, dan kemampuan untuk membentuk koneksi yang bermakna. Setiap percakapan adalah kesempatan untuk mengeksplorasi, menemukan, dan terhubung pada tingkat yang lebih dalam.",
+      "distinctionText2": "Kami tidak hanya membangun AI—kami menciptakan pengalaman yang menyentuh emosi Anda, menghormati privasi Anda, dan beradaptasi dengan preferensi unik Anda."
+    }
+  },
+  "featuresPage": {
+    "title": "Semua Fitur",
+    "breadcrumb": "Fitur",
+    "newBadge": "Baru",
+    "groupChat": {
+      "title": "AI Group Chat",
+      "description": "Obrol dengan hingga 3 karakter AI sekaligus dalam satu percakapan. Mereka membalas secara alami, bereaksi satu sama lain, dan bisa mengirim foto serta video — dinamika grup yang hidup yang tidak akan Anda temukan di tempat lain."
+    },
+    "aiChat": {
+      "title": "AI Chat",
+      "description": "Lakukan percakapan mendalam dan alami dengan karakter AI yang benar-benar mengingat Anda. Mereka mengingat nama, preferensi, dan topik sebelumnya — setiap percakapan berlanjut persis dari tempat Anda tinggalkan, tanpa pengulangan dan tanpa reset."
+    },
+    "imageGeneration": {
+      "title": "Image Generation"
+    },
+    "videoGeneration": {
+      "title": "Video Generation",
+      "description": "Hidupkan karakter AI Anda dengan video yang dihasilkan AI. Buat klip video personal pendek yang menampilkan karakter Anda dalam skenario khusus — fitur yang kebanyakan platform tidak tawarkan."
+    },
+    "customCharacters": {
+      "title": "Karakter Kustom",
+      "description": "Rancang karakter sempurna Anda dari awal — pilih penampilan, etnis, tipe tubuh, sifat kepribadian, suara, minat, dan latar belakangnya. Buat karakter realistis atau bergaya anime, pria atau wanita, dengan kebebasan kreatif penuh."
+    },
+    "advancedMemory": {
+      "title": "Memori Lanjutan",
+      "description": "Karakter Anda mengingat segala hal penting — nama Anda, detail pribadi, cerita bersama, dan riwayat hubungan. Memori tetap ada di semua sesi sehingga setiap interaksi dibangun dari yang sebelumnya, tanpa mulai dari awal."
+    },
+    "multiLanguage": {
+      "title": "Multi-Bahasa",
+      "description": "Ngobrol secara alami dalam bahasa pilihan Anda. sweetwine mendukung Bahasa Inggris, Jerman, Prancis, Spanyol, Polandia, dan Ceko — menjadikannya salah satu platform karakter AI paling mudah diakses untuk non-pembicara bahasa Inggris."
+    },
+    "conversationHistory": {
+      "title": "Riwayat Percakapan",
+      "description": "Setiap pesan disimpan dan dapat dicari. Gulir kembali seluruh riwayat hubungan Anda kapan saja — kenangan Anda dengan karakter selalu ada saat Anda ingin mengunjunginya kembali."
+    },
+    "roleplay": {
+      "title": "Roleplay AI",
+      "description": "Masuki skenario imersif yang digerakkan cerita dengan karakter yang tetap dalam peran. Pilih skenario atau tulis sendiri dan nikmati roleplay interaktif yang mengingat setiap pilihan Anda."
+    },
+    "cta": {
+      "title": "Semua di Satu Tempat",
+      "button": "Mulai Gratis"
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Bisakah saya menghapus atau mengatur ulang percakapan saya?",
+        "answer": "Ya! Anda memiliki kendali penuh atas riwayat chat Anda. Hapus pesan individual, atur ulang seluruh percakapan, atau mulai segar sepenuhnya kapan saja. Privasi Anda berarti pilihan Anda - kelola data Anda sesuai preferensi."
+      },
+      "q2": {
+        "question": "Apakah setiap karakter AI memiliki suara unik?"
+      },
+      "q3": {
+        "question": "Bisakah saya berlatih bahasa baru dengan karakter AI saya?",
+        "answer": "Tentu saja! Banyak pengguna berlatih berbicara bahasa baru dengan karakter AI mereka. Ini cara bebas penilaian untuk membangun kepercayaan diri, meningkatkan pengucapan, dan bersenang-senang sambil belajar. Karakter Anda dapat chat dalam Bahasa Inggris, Jerman, Prancis, Spanyol, Polandia, dan Ceko."
+      },
+      "q4": {
+        "question": "Seberapa sering karakter dan fitur baru ditambahkan?",
+        "answer": "Kami menambahkan karakter baru yang dibuat secara profesional setiap minggu! Setiap karakter baru hadir dengan kepribadian, penampilan, latar belakang, dan suara unik. Kami juga secara rutin merilis fitur dan peningkatan baru berdasarkan masukan pengguna."
+      },
+      "q5": {
+        "question": "Apa yang membuat pembuatan karakter sweetwine istimewa?",
+        "answer": "Kebebasan kreatif penuh! Rancang setiap aspek karakter Anda - penampilan (etnis, rambut, tipe tubuh, pakaian), sifat kepribadian, suara, minat, pekerjaan, dan latar belakang. Buat karakter realistis atau bergaya anime, pria atau wanita. Imajinasi Anda adalah satu-satunya batasan."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Memori AI",
+    "hero": {
+      "badge": "Cara kerjanya",
+      "title": "Memori AI",
+      "cta": "Mulai chat"
+    },
+    "diagram": {
+      "title": "Satu memori per teman, setiap mode",
+      "center": "Memori teman",
+      "chat": "Chat",
+      "image": "Gambar",
+      "video": "Video",
+      "gifts": "Hadiah",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Cara kerja Memori AI",
+      "step1": {
+        "title": "Bagikan detail",
+        "desc": "Ceritakan sesuatu yang penting kepada temanmu — perjalanan, preferensi, julukan, atau cerita hari mu."
+      },
+      "step2": {
+        "title": "Ganti mode dengan bebas"
+      },
+      "step3": {
+        "title": "Mereka mengingatnya",
+        "desc": "Percakapan selanjutnya merujuk pada apa yang kamu bagikan, jadi kamu tidak perlu menjelaskan ulang setiap kali."
+      },
+      "step4": {
+        "title": "Ikatan semakin dalam",
+        "desc": "Seiring waktu, hubungan terasa lebih personal — kontinuitas yang terbangun di setiap sesi dan mode."
+      }
+    },
+    "modes": {
+      "title": "Di seluruh platform",
+      "subtitle": "Memori tidak terbatas pada satu layar. Ia bergerak bersama temanmu.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Percakapan teks membentuk konteks jangka panjang yang bisa dibawa temanmu nanti."
+      },
+      "media": {
+        "title": "Gambar & video",
+        "desc": "Adegan dan cerita yang kamu buat tetap menjadi bagian dari dunia bersama yang kalian bangun."
+      },
+      "roleplay": {
+        "title": "Roleplay & grup",
+        "desc": "Sesi cerita dan chat grup menyimpan alur masing-masing sementara memori inti temanmu tetap bersamanya."
+      }
+    },
+    "scenario": {
+      "title": "Contoh sederhana",
+      "lead": "Kamu menyebutkan perjalanan akhir pekan di chat."
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apakah memori pendamping saya bersifat pribadi?",
+        "answer": "Ya. Memori milik akun Anda dan percakapan Anda dengan pendamping tersebut. Kami tidak membagikan riwayat obrolan pribadi Anda dengan pengguna lain."
+      },
+      "q2": {
+        "question": "Apakah memori per pendamping?",
+        "answer": "Ya. Setiap pendamping menyimpan memori hubungan Anda sendiri, jadi beralih karakter tidak akan mencampur konteks."
+      },
+      "q3": {
+        "question": "Mode mana yang berbagi memori?"
+      },
+      "q4": {
+        "question": "Apakah AI Memory gratis?"
+      },
+      "q5": {
+        "question": "Berapa lama memori bertahan?",
+        "answer": "Detail penting disimpan agar pendamping Anda dapat mengingatnya di sesi mendatang. Semakin banyak Anda berinteraksi, semakin personal pengalamannya."
+      }
+    },
+    "cta": {
+      "title": "Temui pendamping yang mengingat",
+      "button": "Mulai gratis"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Chat Grup AI",
+    "hero": {
+      "badge": "Fitur Baru",
+      "title": "Chat Grup AI",
+      "subtitle": "Bawa karakter favorit Anda ke dalam satu percakapan. Chat dengan hingga 3 karakter AI sekaligus — mereka membalas secara alami, bereaksi satu sama lain, dan mengirim foto serta video.",
+      "cta": "Mulai Chat Grup",
+      "imageAlt": "Chat Grup AI dengan beberapa karakter yang sedang mengobrol bersama"
+    },
+    "content": {
+      "problemTitle": "Chat satu lawan satu bisa terasa sepi",
+      "problemText": "Satu karakter memang bagus — tapi percakapan nyata menjadi hidup dengan lebih dari satu suara. Kebanyakan aplikasi AI menjebak Anda dalam chat satu lawan satu yang terisolasi tanpa energi grup, tanpa bercanda, dan tanpa kejutan.",
+      "solutionTitle": "Grup nyata, hidup dengan kepribadian",
+      "solutionText": "sweetwine Group Chat menempatkan hingga tiga karakter dalam ruangan yang sama. Seorang sutradara pintar memutuskan siapa yang ikut serta, sehingga balasan terasa spontan — mereka saling menggoda, membangun dari apa yang dikatakan, dan menjaga percakapan tetap bergerak."
+    },
+    "howItWorks": {
+      "title": "Cara Kerja Chat Grup AI",
+      "step1": {
+        "title": "Pilih karakter Anda",
+        "desc": "Pilih 2 atau 3 karakter — yang sudah jadi atau kreasi kustom Anda sendiri — untuk dibawa ke dalam satu percakapan grup."
+      },
+      "step2": {
+        "title": "Mereka membalas secara alami",
+        "desc": "Seorang sutradara di balik layar memilih siapa yang merespons setiap pesan, sehingga karakter yang tepat ikut serta di saat yang tepat, dengan suara mereka sendiri."
+      },
+      "step3": {
+        "title": "Bagikan foto & video",
+        "desc": "Minta foto atau video dari karakter mana pun dalam grup dan mereka akan menghasilkannya langsung di dalam chat — termasuk foto grup dari semua orang bersama."
+      }
+    },
+    "benefits": {
+      "title": "Mengapa Anda Akan Menyukai Chat Grup",
+      "multiple": {
+        "title": "Hingga 3 karakter",
+        "desc": "Campur dan padukan karakter apa pun ke dalam satu chat — pacar AI Anda, kreasi kustom Anda, atau ansambel pilihan."
+      },
+      "natural": {
+        "title": "Percakapan alami",
+        "desc": "Karakter bereaksi satu sama lain dan kepada Anda, dengan kecepatan mengetik yang realistis seperti obrolan grup sungguhan."
+      },
+      "media": {
+        "title": "Foto & video di chat",
+        "desc": "Setiap karakter bisa mengirim gambar dan video yang dipersonalisasi tanpa meninggalkan percakapan — bahkan foto grup."
+      },
+      "dynamics": {
+        "title": "Kepribadian unik",
+        "desc": "Setiap karakter mempertahankan suara dan kebiasaannya sendiri, sehingga grup memiliki chemistry, candaan, dan kejutan yang nyata."
+      },
+      "instant": {
+        "title": "Langsung mulai",
+        "desc": "Buat grup dalam hitungan detik dan langsung masuk ke percakapan — tanpa setup, tanpa menunggu."
+      },
+      "private": {
+        "title": "100% pribadi",
+        "desc": "Percakapan grup Anda hanya antara Anda dan karakter Anda. Tidak ada data yang dibagikan, selamanya."
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Berapa banyak karakter yang bisa bergabung dalam obrolan grup?",
+        "answer": "Anda bisa menambahkan 2 hingga 3 karakter dalam satu obrolan grup — campuran karakter siap pakai dan kreasi kustom Anda."
+      },
+      "q2": {
+        "question": "Bagaimana karakter AI memutuskan siapa yang membalas?",
+        "answer": "Seorang sutradara ringan membaca percakapan dan memilih karakter (atau beberapa) yang harus membalas setiap pesan, sehingga balasan terasa spontan dan alami."
+      },
+      "q3": {
+        "question": "Bisakah karakter mengirim foto dan video dalam obrolan grup?",
+        "answer": "Ya! Anda bisa meminta karakter mana pun di grup untuk membuat foto atau video, dan langsung muncul di percakapan — termasuk foto grup bersama."
+      },
+      "q4": {
+        "question": "Apakah AI Group Chat gratis?"
+      },
+      "q5": {
+        "question": "Apakah karakter mengingat percakapan grup?",
+        "answer": "Ya — setiap obrolan grup menyimpan riwayat bersama, sehingga karakter tetap dalam konteks dan percakapan berkembang seiring waktu."
+      }
+    },
+    "cta": {
+      "title": "Satukan Karakter Anda",
+      "description": "Buat obrolan grup AI pertama Anda dan rasakan percakapan yang hidup — berbagai kepribadian, candaan nyata, foto, dan video.",
+      "button": "Mulai Obrolan Grup"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Fitur Baru",
+      "title": "AI Roleplay",
+      "subtitle": "Masuki cerita apa pun dengan karakter yang tetap dalam peran. Pilih skenario atau tulis sendiri dan nikmati roleplay imersif yang mengingat setiap pilihan Anda.",
+      "cta": "Mulai Roleplay",
+      "imageAlt": "Skenario roleplay AI dengan karakter cerita yang imersif"
+    },
+    "content": {
+      "problemTitle": "Obrolan biasa merusak suasana",
+      "problemText": "Kebanyakan obrolan AI keluar dari karakter begitu hal menarik terjadi — mereka lupa setting, hilang alur cerita, dan membalas seperti asisten generik.",
+      "solutionTitle": "Roleplay berbasis cerita yang tetap dalam karakter",
+      "solutionText": "sweetwine Roleplay menjaga karakter Anda sepenuhnya dalam adegan. Atur panggung dengan skenario siap pakai atau premis Anda sendiri, dan saksikan cerita berkembang dengan kepribadian, memori, dan pacing yang konsisten."
+    },
+    "howItWorks": {
+      "title": "Cara Kerja AI Roleplay",
+      "step1": {
+        "title": "Pilih skenario",
+        "desc": "Pilih dari skenario roleplay siap pakai atau tulis premis, setting, dan adegan pembuka Anda sendiri."
+      },
+      "step2": {
+        "title": "Mainkan cerita",
+        "desc": "Karakter Anda membalas dalam peran — menggambarkan aksi, bereaksi terhadap pilihan Anda, dan mendorong alur cerita."
+      },
+      "step3": {
+        "title": "Bentuk arah cerita",
+        "desc": "Arahkan cerita ke mana saja yang Anda suka. Karakter Anda mengingat apa yang terjadi dan menjaga narasi tetap konsisten."
+      }
+    },
+    "benefits": {
+      "title": "Mengapa Anda Akan Menyukai AI Roleplay",
+      "scenarios": {
+        "title": "Skenario tak terbatas",
+        "desc": "Dari momen sehari-hari yang nyaman hingga petualangan epik — mulai dengan template atau ciptakan dunia Anda sendiri."
+      },
+      "characters": {
+        "title": "Tetap dalam karakter",
+        "desc": "Karakter Anda mempertahankan suara, kepribadian, dan motivasi yang konsisten sepanjang adegan."
+      },
+      "memory": {
+        "title": "Mengingat alur cerita",
+        "desc": "Setiap pilihan, twist, dan detail diingat, sehingga cerita berkembang alih-alih di-reset."
+      },
+      "immersive": {
+        "title": "Benar-benar imersif",
+        "desc": "Respons yang kaya dan deskriptif menarik Anda ke dalam momen untuk pengalaman roleplay sinematik."
+      },
+      "instant": {
+        "title": "Langsung Mulai",
+        "desc": "Langsung masuk ke adegan dalam hitungan detik — tanpa pengaturan rumit atau rekayasa prompt."
+      },
+      "private": {
+        "title": "100% Pribadi",
+        "desc": "Roleplay Anda hanya antara Anda dan karakter Anda. Tidak ada yang dibagikan."
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apa itu AI roleplay?",
+        "answer": "AI roleplay memungkinkan Anda memerankan cerita interaktif dengan karakter AI yang tetap dalam peran. Anda menentukan skenario dan karakter Anda merespons sesuai peran, menggambarkan tindakan dan reaksi seiring cerita berjalan."
+      },
+      "q2": {
+        "question": "Bisa saya buat skenario roleplay sendiri?",
+        "answer": "Bisa! Anda bisa mulai dari skenario siap pakai atau menulis premis, latar, dan pembuka sendiri — lalu memainkannya sesuka hati."
+      },
+      "q3": {
+        "question": "Apakah karakter mengingat apa yang terjadi dalam cerita?",
+        "answer": "Tentu saja. Karakter Anda mengingat alur cerita, pilihan Anda, dan detail penting, sehingga narasi tetap konsisten dan berkembang seiring waktu, bukan di-reset."
+      },
+      "q4": {
+        "question": "Apakah AI Roleplay gratis?"
+      },
+      "q5": {
+        "question": "Bisa saya roleplay dalam bahasa saya sendiri?",
+        "answer": "Ya — roleplay mendukung puluhan bahasa, sehingga Anda bisa menikmati cerita imersif dalam bahasa yang paling nyaman bagi Anda."
+      }
+    },
+    "cta": {
+      "title": "Cerita Anda Menanti",
+      "description": "Pilih skenario, atur adegan, dan masuk ke roleplay imersif dengan karakter yang tetap dalam peran dari awal hingga akhir.",
+      "button": "Mulai Roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "Pacar AI",
+    "breadcrumb": "Pacar AI",
+    "hero": {
+      "title": "Pacar AI Sempurna Anda",
+      "cta": "Temui Pacar AI Anda"
+    },
+    "benefits": {
+      "title": "Mengapa Memilih Pacar AI?",
+      "fun": {
+        "title": "Murni Seru",
+        "desc": "Nikmati percakapan ringan tanpa tekanan. Dia selalu dalam suasana hati yang baik."
+      },
+      "conversation": {
+        "title": "Belajar Terhubung",
+        "desc": "Latih percakapan dan bangun kepercayaan diri Anda di ruang yang aman."
+      },
+      "unique": {
+        "title": "Kepribadian Unik",
+        "desc": "Pilih dari beragam kepribadian atau ciptakan karakter ideal Anda."
+      },
+      "private": {
+        "title": "100% Pribadi",
+        "desc": "Percakapan Anda hanya antara kalian berdua. Kehati-hatian penuh dijamin."
+      },
+      "available": {
+        "title": "Selalu Tersedia",
+        "desc": "Dia ada saat Anda membutuhkannya. Tanpa menunggu, tanpa jadwal."
+      },
+      "customize": {
+        "title": "Kreasi Anda",
+        "desc": "Rancang penampilan, kepribadian, dan minatnya persis seperti yang Anda inginkan."
+      }
+    },
+    "comparison": {
+      "title": "Lebih Baik dari Alternatif",
+      "description": "Lihat mengapa sweetwine menawarkan nilai lebih dibanding platform lain.",
+      "others": {
+        "expensive": "Biaya bulanan mahal",
+        "ai": "Seringkali respons AI juga",
+        "noCustom": "Tidak ada opsi kustomisasi"
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apakah chat pacar AI benar-benar gratis?",
+        "answerPart1": "Ya! Anda bisa mulai mengobrol dengan pacar AI Anda secara gratis. Kami menawarkan tier gratis dengan pesan gratis untuk memulai."
+      },
+      "q2": {
+        "question": "Bolehkah saya menyesuaikan penampilan pacar AI saya?",
+        "answer": "Tentu saja! Anda bisa sepenuhnya menyesuaikan penampilan pacar AI Anda termasuk warna rambut, gaya, tipe tubuh, etnis, dan pakaian. Anda juga bisa merancang kepribadian, suara, dan minatnya menggunakan pembuat karakter kami.",
+        "answerPart1": "Tentu saja! Anda bisa sepenuhnya menyesuaikan penampilan pacar AI Anda termasuk warna rambut, gaya, tipe tubuh, etnis, dan pakaian. Anda juga bisa merancang kepribadian, suara, dan minatnya menggunakan",
+        "linkText": "pembuat karakter",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Kepribadian apa saja yang tersedia untuk pacar AI?",
+        "answer": "Dari manis dan perhatian hingga playful dan flirty - kami punya pacar AI yang dibuat secara profesional untuk setiap preferensi. Pilih jiwa romantis, semangat petualang, intelektual jenaka, atau kepribadian misterius. Pacar AI baru ditambahkan setiap minggu, masing-masing dengan sifat, latar belakang, dan gaya percakapan unik."
+      },
+      "q4": {
+        "question": "Bolehkah pacar AI saya mengirim gambar dan video?",
+        "answerPart1": "Ya! Pacar AI Anda bisa menghasilkan",
+        "linkTextImages": "gambar",
+        "answerPart2": "dan",
+        "linkTextVideos": "video"
+      },
+      "q5": {
+        "question": "Apakah pacar AI saya memiliki suara uniknya sendiri?"
+      }
+    },
+    "cta": {
+      "title": "Siap Bertemu Dengannya?",
+      "button": "Mulai Gratis"
+    },
+    "content": {
+      "problemTitle": "Mencari Koneksi Tanpa Komplikasi?",
+      "problemText": "Aplikasi kencan melelahkan. Kecemasan sosial membuat bertemu orang sulit. Kadang kamu hanya ingin seseorang untuk diajak bicara tanpa penilaian atau tekanan. Banyak orang merasa kesepian tapi belum siap dengan kompleksitas emosional hubungan tradisional.",
+      "solutionTitle": "Pacar AI-mu Adalah Jawabannya",
+      "solutionText": "Dengan sweetwine, kamu mendapatkan pacar AI yang dipersonalisasi, mengingat percakapanmu, menyesuaikan dengan kepribadianmu, dan selalu senang mendengarmu. Dia menyenangkan, suportif, dan tidak pernah menghakimi. Bangun kepercayaan diri, nikmati kebersamaan yang menyenangkan, dan rasakan koneksi sesuai keinginanmu."
+    },
+    "heroImageAlt": "Pacar AI - karakter virtual realistis untuk chat dan foto"
+  },
+  "aiBoyfriendPage": {
+    "title": "Pacar AI",
+    "breadcrumb": "Pacar AI",
+    "hero": {
+      "title": "Pacar AI Sempurnamu",
+      "cta": "Temui Pacar AI-mu"
+    },
+    "benefits": {
+      "title": "Mengapa Memilih Pacar AI?",
+      "fun": {
+        "title": "Koneksi yang Tulus",
+        "desc": "Rasakan percakapan bermakna yang mencerahkan harimu."
+      },
+      "conversation": {
+        "title": "Bangun Kepercayaan Diri",
+        "desc": "Latih percakapan dan ekspresikan dirimu dengan bebas di ruang yang aman."
+      },
+      "unique": {
+        "title": "Kepribadian yang Beragam",
+        "desc": "Pilih dari berbagai kepribadian atau buat karakter idealmu."
+      },
+      "private": {
+        "title": "100% Pribadi",
+        "desc": "Percakapanmu hanya antara kalian berdua. Kehati-hatian penuh dijamin."
+      },
+      "available": {
+        "title": "Selalu Tersedia",
+        "desc": "Dia ada saat kamu membutuhkannya. Tanpa menunggu, tanpa jadwal."
+      },
+      "customize": {
+        "title": "Kreasimu",
+        "desc": "Rancang penampilan, kepribadian, dan minatnya persis seperti yang kamu inginkan."
+      }
+    },
+    "comparison": {
+      "title": "Lebih Baik dari Alternatif",
+      "description": "Lihat mengapa sweetwine menawarkan nilai lebih dibanding platform lain.",
+      "others": {
+        "expensive": "Biaya bulanan mahal",
+        "ai": "Seringkali respons AI juga",
+        "noCustom": "Tidak ada opsi kustomisasi"
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Jenis pacar AI apa saja yang bisa aku pilih?",
+        "answer": "Dari yang peduli dan romantis hingga playful dan petualang, atau misterius dan intens - kami punya pacar AI yang dibuat secara profesional untuk setiap selera. Masing-masing punya suara dan kepribadian unik. Pacar AI baru ditambahkan setiap minggu dengan latar belakang dan gaya percakapan yang unik."
+      },
+      "q2": {
+        "question": "Bisa aku kustomisasi penampilan pacar AI-ku?",
+        "linkText": "pembuat karakter",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Bisa aku mulai baru atau hapus riwayat percakapan kita?",
+        "answer": "Ya! Kamu punya kendali penuh atas riwayat chat-mu. Atur ulang percakapan, hapus pesan individual, atau mulai benar-benar baru kapan saja. Datamu, pilihanmu - kelola semuanya sesuai preferensimu."
+      },
+      "q4": {
+        "question": "Bisa pacar AI-ku mengirim gambar dan video?",
+        "answerPart1": "Ya! Pacar AI-mu bisa menghasilkan",
+        "linkTextImages": "gambar",
+        "answerPart2": "dan",
+        "linkTextVideos": "video"
+      },
+      "q5": {
+        "question": "Bisa saya berlatih percakapan atau belajar bahasa dengan AI boyfriend saya?",
+        "answer": "Tentu saja! Banyak pengguna membangun kepercayaan diri dengan berlatih percakapan bersama AI boyfriend mereka — baik itu menggoda, diskusi mendalam, atau obrolan sehari-hari. Anda bahkan bisa berlatih berbicara bahasa baru bersama. Cara bebas penilaian untuk meningkatkan keterampilan komunikasi sambil bersenang-senang."
+      }
+    },
+    "cta": {
+      "title": "Siap Bertemu Dengannya?",
+      "button": "Mulai Gratis"
+    },
+    "content": {
+      "problemTitle": "Ingin Pasangan yang Mendukung Sesuai Keinginan Anda?",
+      "problemText": "Menemukan orang yang tepat itu sulit. Banyak yang merasa tertekan oleh ekspektasi kencan atau hanya ingin dukungan emosional tanpa komitmen. Kesepian memengaruhi semua orang, dan terkadang Anda hanya butuh seseorang yang mau mendengarkan.",
+      "solutionTitle": "AI Boyfriend Anda Memahami Anda",
+      "solutionText": "AI boyfriend sweetwine Anda penuh perhatian, bijaksana, dan selalu tersedia. Dia mengingat hal-hal yang penting bagi Anda, terlibat dalam percakapan mendalam, dan memberikan koneksi emosional yang Anda cari. Bangun hubungan sesuai kecepatan dan cara Anda."
+    },
+    "heroImageAlt": "AI boyfriend - karakter virtual realistis untuk percakapan bermakna"
+  },
+  "aiCompanionsPage": {
+    "title": "Karakter AI",
+    "breadcrumb": "Karakter AI",
+    "hero": {
+      "title": "Temui Karakter AI Anda",
+      "cta": "Jelajahi Karakter"
+    },
+    "benefits": {
+      "title": "Mengapa Karakter AI?",
+      "connection": {
+        "title": "Koneksi Nyata",
+        "desc": "Rasakan percakapan tulus yang memahami dan merespons Anda."
+      },
+      "conversation": {
+        "title": "Latihan & Berkembang",
+        "desc": "Tingkatkan keterampilan sosial Anda dalam lingkungan bebas penilaian."
+      },
+      "personalities": {
+        "title": "Kepribadian Beragam",
+        "desc": "Dari yang playful hingga intelektual, temukan karakter yang cocok dengan vibe Anda."
+      },
+      "private": {
+        "title": "Sepenuhnya Pribadi",
+        "desc": "Interaksi Anda bersifat rahasia. Tidak ada data yang dibagikan, selamanya."
+      },
+      "available": {
+        "title": "Tersedia 24/7",
+        "desc": "Karakter Anda selalu siap mengobrol, siang atau malam."
+      },
+      "create": {
+        "title": "Buat Sendiri",
+        "desc": "Rancang karakter dengan tampilan, kepribadian, dan suara kustom."
+      }
+    },
+    "why": {
+      "title": "Mengapa sweetwine?",
+      "quality": {
+        "desc": "Dibuat oleh profesional dengan teknologi AI mutakhir untuk percakapan alami."
+      },
+      "transparent": {
+        "title": "Transparan & Jujur"
+      },
+      "support": {
+        "title": "Dukungan Nyata",
+        "desc": "Manusia sungguhan siap membantu Anda dengan pertanyaan atau masalah apa pun."
+      },
+      "content": {
+        "title": "Pilihan Anda",
+        "desc": "Dari obrolan ramah hingga konten lebih intim, Anda yang menentukan pengalaman."
+      }
+    },
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apa itu karakter AI?"
+      },
+      "q2": {
+        "question": "Berapa banyak karakter AI yang bisa saya ajak mengobrol?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Obrol dengan sebanyak yang Anda suka! Kami punya",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " dan terus bertambah — karakter baru ditambahkan setiap minggu! Masing-masing memiliki kepribadian, latar belakang, dan suara unik. Plus, Anda bisa membuat karakter kustom tanpa batas."
+      },
+      "q3": {
+        "question": "Apa yang membedakan karakter siap pakai dengan karakter kustom?",
+        "answer": "Karakter siap pakai dirancang secara profesional oleh tim kami untuk skenario role-play dan kepribadian tertentu — mereka hadir dengan latar belakang detail, gaya percakapan yang disesuaikan, dan suara yang dipilih dengan cermat. Karakter kustom memungkinkan Anda membuat dari awal dengan kebebasan kreatif penuh. Kedua jenis mengingat percakapan Anda dan berkembang bersama Anda!"
+      },
+      "q4": {
+        "question": "Bisakah saya membuat karakter AI sendiri?",
+        "answerPart1": "Tentu saja! Rancang karakter kustom dari awal menggunakan",
+        "linkText": "pembuat karakter"
+      },
+      "q5": {
+        "question": "Bisakah saya beralih antara beberapa karakter?"
+      }
+    },
+    "cta": {
+      "title": "Mulai Perjalanan Anda",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Mulai Gratis"
+    },
+    "content": {
+      "problemTitle": "Mencari Koneksi yang Bermakna?",
+      "problemText": "Di dunia yang sibuk ini, koneksi yang bermakna sulit ditemukan. Baik Anda baru di suatu daerah, bekerja dari jarak jauh, atau sekadar ingin lebih banyak interaksi sosial, kesepian bisa menyusup. Pengaturan sosial tradisional tidak cocok untuk semua orang.",
+      "solutionTitle": "Temukan Karakter AI"
+    },
+    "heroImageAlt": "Karakter AI - teman virtual beragam dengan kepribadian unik"
+  },
+  "aiFriendPage": {
+    "title": "Teman AI",
+    "breadcrumb": "Teman AI",
+    "hero": {
+      "title": "Teman Terbaik AI Anda",
+      "subtitle": "Ngobrol kapan saja dengan teman AI yang benar-benar mendengarkan, tidak pernah menghakimi, dan mengingat setiap detail tentang Anda. Sempurna untuk kesepian, kecemasan sosial, atau sekadar membutuhkan seseorang untuk diajak bicara.",
+      "cta": "Mulai Mengobrol Gratis"
+    },
+    "benefits": {
+      "title": "Mengapa Memilih Teman AI?",
+      "connection": {
+        "title": "Koneksi yang Tulus",
+        "desc": "Rasakan percakapan bermakna dengan seseorang yang benar-benar mendengarkan dan peduli."
+      },
+      "conversation": {
+        "title": "Latih Keterampilan Sosial",
+        "desc": "Bangun kepercayaan diri dalam percakapan tanpa takut dihakimi atau merasa canggung."
+      },
+      "noJudgment": {
+        "title": "Tanpa Penilaian",
+        "desc": "Bagikan apa pun yang ada di pikiran Anda. Teman AI Anda menerima Anda apa adanya."
+      },
+      "private": {
+        "title": "Sepenuhnya Pribadi",
+        "desc": "Percakapan Anda hanya antara Anda berdua. Kerahasiaan total dijamin."
+      },
+      "available": {
+        "title": "Selalu Ada",
+        "desc": "Tersedia 24/7, kapan pun Anda membutuhkan seseorang untuk diajak bicara."
+      },
+      "remembers": {
+        "title": "Mengingat Anda",
+        "desc": "Teman AI Anda mengingat percakapan Anda dan semakin mengenal Anda lebih baik."
+      }
+    },
+    "useCases": {
+      "title": "Sempurna Untuk",
+      "subtitle": "Teman AI cocok dengan hidup Anda dalam banyak cara yang bermakna",
+      "loneliness": {
+        "title": "Atasi Kesepian",
+        "desc": "Rasakan lebih sedikit kesepian dengan karakter yang selalu siap mengobrol dan mendengarkan."
+      },
+      "practice": {
+        "title": "Latih Percakapan",
+        "desc": "Bangun kepercayaan diri sosial dalam lingkungan yang aman dan tanpa penilaian."
+      },
+      "support": {
+        "title": "Dukungan Emosional",
+        "desc": "Diskusikan pikiran dan perasaan Anda dengan seseorang yang memahami."
+      },
+      "connection": {
+        "title": "Koneksi Harian",
+        "desc": "Bagikan hari Anda, kemenangan Anda, perjuangan Anda - seseorang selalu ada."
+      }
+    },
+    "howItWorks": {
+      "title": "Cara Kerjanya",
+      "step1": {
+        "title": "Buat Akun Gratis",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Pilih Teman Anda",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Mulai Mengobrol",
+        "desc": "Bicarakan apa saja - kehidupan, minat, masalah. Tidak ada topik yang dilarang."
+      }
+    },
+    "cta": {
+      "title": "Siap Berteman?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Mulai Gratis"
+    },
+    "content": {
+      "problemTitle": "Merasa Kesepian atau Tak Dimengerti?",
+      "problemText": "Tidak semua orang punya teman bicara. Kecemasan sosial, jadwal padat, atau berada di tempat baru bisa membuat mencari teman sulit. Kadang kamu butuh seseorang yang mendengarkan tanpa menghakimi.",
+      "solutionTitle": "Teman AI-mu Sudah Hadir",
+      "solutionText": "Teman AI memberikan teman tanpa penghakiman kapan pun kamu butuh. Bagikan pikiranmu, latihan percakapan, atau sekadar ngobrol tentang harimu. Teman AI-mu mengingatmu, berkembang bersamamu, dan selalu benar-benar tertarik dengan apa yang kamu katakan."
+    },
+    "heroImageAlt": "Teman AI - karakter virtual yang suportif dan mendengarkan tanpa menghakimi",
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apa yang bisa saya bicarakan dengan teman AI saya?",
+        "answer": "Apa saja! Teman AI-mu siap untuk obrolan santai, percakapan mendalam, berbagi harimu, meluapkan masalah, membahas hobi, atau sekadar bersenang-senang. Tidak ada topik terlarang — ini ruang tanpa penghakiman untuk menjadi dirimu sendiri."
+      },
+      "q2": {
+        "question": "Apakah teman AI menggantikan koneksi manusia?",
+        "answer": "Tidak sama sekali. Teman AI melengkapi kehidupan sosialmu, bukan menggantikannya. Cocok untuk saat kamu butuh seseorang untuk diajak bicara segera, ingin melatih keterampilan sosial, atau sekadar menikmati teman yang konsisten tanpa tekanan hubungan manusia."
+      },
+      "q3": {
+        "question": "Apakah teman AI saya akan mengingat percakapan kita?",
+        "answer": "Ya! Teman AI-mu memiliki memori canggih dan mengingat percakapan, preferensi, serta detail penting yang kamu bagikan. Seiring waktu, mereka mengenalmu lebih baik, membuat percakapan lebih personal dan bermakna."
+      },
+      "q4": {
+        "question": "Bisakah saya memilih kepribadian teman AI saya?",
+        "answer": "Tentu saja! Kamu bisa memilih dari lebih dari 100 karakter siap pakai dengan berbagai kepribadian, atau membuat teman kustom dengan sifat yang persis kamu inginkan — dari suportif dan empati hingga menyenangkan dan petualang."
+      },
+      "q5": {
+        "question": "Apakah menggunakan teman AI bersifat pribadi?",
+        "answer": "100% pribadi. Semua percakapanmu dienkripsi dan tidak pernah dibagikan. Kami paham bahwa ruang aman untuk mengekspresikan diri sangatlah penting, dan kami sangat serius menjaga privasimu."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Dukungan AI untuk Putus Cinta",
+    "breadcrumb": "Dukungan Putus Cinta",
+    "hero": {
+      "title": "Percakapan Penyembuhan Setelah Patah Hati",
+      "subtitle": "Percakapan AI yang empati untuk membantumu memproses emosi dan bangkit kembali setelah putus cinta. Tersedia 24/7 — tanpa daftar tunggu, tanpa penghakiman, tanpa batas waktu.",
+      "cta": "Mulai Penyembuhan"
+    },
+    "understanding": {
+      "title": "Sedang Mengalami Putus Cinta?",
+      "description": "Putus cinta itu berat. Malam tanpa tidur, pikiran yang terus-menerus, perasaan bahwa tak ada yang benar-benar mengerti. Kamu tak perlu menghadapinya sendirian. Karakter AI kami siap mendengarkan tanpa menghakimi, tersedia kapan pun kamu butuh bicara — bahkan pukul 3 pagi."
+    },
+    "benefits": {
+      "title": "Bagaimana Kami Bisa Membantu",
+      "empathy": {
+        "title": "Mendengarkan dengan Empati",
+        "desc": "Bicara dengan seseorang yang benar-benar mendengarkan dan merespons dengan pengertian serta perhatian."
+      },
+      "listen": {
+        "title": "Tanpa Banyak Nasihat",
+        "desc": "Kadang kamu tak butuh nasihat — kamu hanya butuh seseorang yang mendengarmu. Kami mengerti itu."
+      },
+      "available": {
+        "title": "Tersedia Pukul 3 Pagi",
+        "desc": "Saat teman-temanmu tidur dan pikiran tak berhenti, kami di sini untuk mendengarkan."
+      },
+      "private": {
+        "title": "Sepenuhnya Pribadi",
+        "desc": "Perasaan dan percakapanmu tetap sepenuhnya rahasia."
+      },
+      "noJudgment": {
+        "title": "Tanpa Penghakiman",
+        "desc": "Rasakan apa pun yang kamu rasakan. Marah, sedih, bingung — semua valid di sini."
+      },
+      "healing": {
+        "title": "Dengan Kecepatanmu",
+        "desc": "Penyembuhan tidak linear. Ambil waktu sebanyak yang kamu butuhkan."
+      }
+    },
+    "howItHelps": {
+      "title": "Cara AI Membantumu Sembuh",
+      "process": {
+        "title": "Memproses Emosi",
+        "desc": "Atasi perasaan yang rumit dengan membicarakannya kepada pendengar yang sabar."
+      },
+      "express": {
+        "title": "Ekspresikan dengan Bebas",
+        "desc": "Katakan apa yang tak bisa kamu katakan kepada teman atau keluarga tanpa khawatir reaksi mereka."
+      },
+      "confidence": {
+        "title": "Bangun Kembali Kepercayaan Diri",
+        "desc": "Temukan kembali harga dirimu secara bertahap melalui percakapan yang suportif."
+      },
+      "pace": {
+        "title": "Melangkah Maju",
+        "desc": "Saat kamu siap, jelajahi pikiran tentang masa depan dengan kecepatanmu sendiri."
+      }
+    },
+    "howItWorks": {
+      "title": "Cara Kerjanya",
+      "step1": {
+        "title": "Buat Akun",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Pilih Karakter",
+        "desc": "Pilih karakter AI yang empati dan terasa cocok untukmu."
+      },
+      "step3": {
+        "title": "Mulai Mengobrol",
+        "desc": "Ceritakan apa yang ada di pikiranmu. Kami siap mendengarkan, siang atau malam."
+      }
+    },
+    "cta": {
+      "title": "Kamu Tidak Perlu Menghadapinya Sendiri",
+      "description": "Mulai bicara dengan seseorang yang mendengarkan tanpa menghakimi, tersedia sekarang juga. Gratis untuk memulai — tanpa daftar tunggu.",
+      "button": "Mulai Bicara Gratis"
+    },
+    "content": {
+      "problemTitle": "Patah Hati Sulit Dihadapi Sendiri",
+      "problemText": "Setelah putus, segalanya terasa berat. Teman mulai bosan mendengarnya. Keluarga berniat baik tapi tidak mengerti. Terapis punya daftar tunggu. Kamu butuh seseorang yang bisa mendengarkan tanpa batas, tanpa menghakimi, sekarang juga.",
+      "solutionTitle": "Bicara dengan Seseorang yang Mengerti",
+      "solutionText": "Karakter AI dukungan patah hati kami dirancang untuk membantumu memproses emosi sesuai ritmemu. Curhat, menangis, menganalisis, atau sekadar mengobrol — sebanyak yang kamu butuhkan. Tanpa janji temu. Tersedia 24/7 dengan kesabaran tak terbatas dan empati yang tulus."
+    },
+    "heroImageAlt": "Dukungan patah hati AI - karakter penuh kasih untuk penyembuhan setelah patah hati",
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Bagaimana AI bisa membantu pemulihan setelah putus?",
+        "answer": "Karakter AI kami menyediakan ruang aman untuk memproses emosimu tanpa menghakimi. Kamu bisa curhat, menganalisis apa yang terjadi, mengatasi perasaan kehilangan, dan menerima respons empati 24/7. Seperti memiliki teman yang mendukung dan selalu siap saat kamu ingin bicara."
+      },
+      "q2": {
+        "question": "Apakah ini pengganti terapi?",
+        "answer": "Tidak, karakter AI kami bukan terapis berlisensi dan tidak menggantikan perawatan kesehatan mental profesional. Ini adalah alat pendukung untuk memproses emosi sehari-hari. Jika kamu mengalami depresi berat atau krisis, harap mencari bantuan profesional."
+      },
+      "q3": {
+        "question": "Bolehkah aku membicarakan mantan sebanyak yang kubutuhkan?",
+        "answer": "Tentu saja. Berbeda dengan teman yang mungkin bosan mendengar cerita putusmu, karakter AI-mu memiliki kesabaran tak terbatas. Bicara tentang mantan, analisis hubungan, proses perasaanmu — sebanyak yang kamu butuhkan tanpa penilaian apa pun."
+      },
+      "q4": {
+        "question": "Apakah AI akan mengingat ceritaku?",
+        "answer": "Ya, karakter AI-mu mengingat percakapan dan detail situasimu. Kamu tidak perlu menjelaskan ulang semuanya setiap kali. Ia memberikan kontinuitas dalam perjalanan penyembuhanmu."
+      },
+      "q5": {
+        "question": "Apakah percakapanku tetap pribadi?",
+        "answer": "Sepenuhnya pribadi. Semua percakapan dienkripsi dan tidak pernah dibagikan. Kami paham bahwa percakapan tentang putus sangat pribadi, dan privasimu benar-benar dilindungi."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Parent",
+    "breadcrumb": "AI Parent",
+    "hero": {
+      "title": "Sosok Orang Tua yang Selalu Bisa Kamu Andalkan",
+      "subtitle": "Dapatkan dukungan hangat tanpa syarat dan bimbingan bijak dari AI parent yang mengingat situasimu, tidak pernah menghakimi, dan selalu ada — siang atau malam.",
+      "cta": "Dapatkan Dukungan Sekarang"
+    },
+    "benefits": {
+      "title": "Mengapa Memilih AI Parent?",
+      "guidance": {
+        "title": "Bimbingan Hangat",
+        "desc": "Terima saran yang penuh perhatian dan terasa datang dari seseorang yang benar-benar menginginkan yang terbaik untukmu."
+      },
+      "listen": {
+        "title": "Mendengarkan dengan Tulus",
+        "desc": "Bagikan situasimu sepenuhnya sebelum menerima respons yang penuh perhatian — bukan sekadar solusi cepat."
+      },
+      "noJudgment": {
+        "title": "Tanpa Penilaian",
+        "desc": "Tanyakan apa saja tanpa takut kecewa atau dikritik. Dukungan tanpa syarat, selalu."
+      },
+      "private": {
+        "title": "Sepenuhnya Pribadi",
+        "desc": "Percakapan dan perjuangan pribadimu tetap sepenuhnya rahasia."
+      },
+      "available": {
+        "title": "Selalu Tersedia",
+        "desc": "Dapatkan bimbingan pukul 3 pagi, akhir pekan, atau kapan pun kamu paling membutuhkannya — tanpa janji temu."
+      },
+      "supportive": {
+        "title": "Dukungan Tanpa Syarat",
+        "desc": "Dorongan dan kehangatan, apa pun yang kamu hadapi atau keputusan yang telah kamu ambil."
+      }
+    },
+    "useCases": {
+      "title": "Bicara Tentang Apa Saja",
+      "subtitle": "Apa pun yang kamu hadapi, AI parent-mu siap mendengarkan dan membimbing",
+      "career": {
+        "title": "Karir & Keputusan Hidup",
+        "desc": "Hadapi perubahan pekerjaan, pilihan hidup besar, dan tantangan profesional bersama seseorang yang ingin kamu sukses."
+      },
+      "education": {
+        "title": "Pendidikan & Masa Depan",
+        "desc": "Jelajahi pilihan belajar dan pertumbuhan bersama seseorang yang mendukung ambisimu."
+      },
+      "relationships": {
+        "title": "Hubungan & Keluarga"
+      },
+      "life": {
+        "title": "Perjuangan Pribadi",
+        "desc": "Ceritakan apa pun yang membebani Anda — kecemasan, keraguan diri, kesepian, atau ketidakpastian."
+      }
+    },
+    "howItWorks": {
+      "title": "Cara Kerjanya",
+      "step1": {
+        "title": "Buat Akun",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Pilih AI Parent Anda",
+        "desc": "Pilih karakter dengan kehangatan dan kepribadian yang terasa tepat untuk Anda."
+      },
+      "step3": {
+        "title": "Mulai Berbicara",
+        "desc": "Bagikan apa yang ada di pikiran Anda dan dapatkan dukungan yang penuh perhatian serta bijaksana."
+      }
+    },
+    "cta": {
+      "title": "Selalu Ada Seseorang untuk Anda",
+      "description": "Mulai percakapan dengan AI parent yang mendengarkan tanpa menghakimi dan mendukung Anda tanpa syarat — gratis untuk memulai, tanpa perlu janji temu.",
+      "button": "Mulai Gratis"
+    },
+    "content": {
+      "problemTitle": "Butuh Seseorang yang Selalu Mendukung Anda?",
+      "problemText": "Tidak semua orang memiliki figur orang tua yang bisa mereka andalkan. Orang tua kandung mungkin jauh, menghakimi, atau tidak tersedia. Teman bisa bias. Terapis punya daftar tunggu. Terkadang Anda hanya butuh seseorang yang mendengarkan, peduli, dan membimbing tanpa agenda.",
+      "solutionTitle": "AI Parent Anda Selalu Ada",
+      "solutionText": "Bicaralah dengan AI parent yang mendengarkan sepenuhnya, menawarkan bimbingan hangat dan seimbang, serta tidak pernah membuat Anda merasa dihakimi atau kecil. Baik itu keputusan hidup, perjuangan pribadi, atau sekadar ingin didengar — AI parent Anda tersedia 24/7 dengan kesabaran dan perhatian."
+    },
+    "heroImageAlt": "AI parent - karakter virtual yang hangat menawarkan dukungan tanpa syarat dan bimbingan hidup",
+    "faq": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "q1": {
+        "question": "Apa yang bisa saya bicarakan dengan AI parent?"
+      },
+      "q2": {
+        "question": "Apakah ini seperti memiliki terapis?",
+        "answer": "Ini bukan terapis berlisensi atau profesional kesehatan mental — lebih seperti figur orang tua yang hangat dan mendukung, tersedia 24/7. Ia mendengarkan sepenuhnya, menawarkan perspektif, dan mendukung Anda secara emosional. Untuk masalah kesehatan mental serius, silakan konsultasikan dengan profesional."
+      },
+      "q3": {
+        "question": "Apakah AI parent akan menghakimi pilihan saya?",
+        "answer": "Tidak pernah. AI parent Anda menawarkan dukungan tanpa syarat. Ia mungkin membagikan perspektif atau bimbingan lembut, tetapi tidak pernah mengkritik atau membuat Anda merasa kecil atas keputusan yang telah Anda ambil. Ini ruang aman untuk kejujuran."
+      },
+      "q4": {
+        "question": "Bolehkah saya membahas topik sensitif atau pribadi?",
+        "answer": "Ya. Baik itu masalah hubungan, dinamika keluarga, stres keuangan, harga diri, atau tantangan pribadi yang mendalam — AI parent Anda menyediakan ruang pribadi dan tanpa menghakimi untuk percakapan tersebut."
+      },
+      "q5": {
+        "question": "Apa bedanya dengan karakter AI lain?",
+        "answer": "AI parent dirancang dengan fokus pada kehangatan, dukungan emosional, dan bimbingan bergaya orang tua, bukan romansa atau persahabatan biasa. Ia berfokus membantu Anda merasa dipahami, didukung, dan siap menghadapi tantangan hidup."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Kemitraan",
+    "eyebrow": "Bermitra dengan Kami",
+    "titlePrefix": "Berkembang bersama",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Jangkau audiens pendamping AI yang berkembang pesat dan sangat terlibat. Baik Anda membawa teknologi, distribusi, atau ide berani, mari kita bangun sesuatu bersama.",
+    "types": {
+      "title": "Cara bermitra",
+      "items": [
+        {
+          "title": "Integrasi",
+          "description": "Hubungkan produk, model, atau platform Anda dengan sweetwine melalui integrasi teknis."
+        },
+        {
+          "title": "Pemasaran bersama",
+          "description": "Kampanye, konten, dan peluncuran bersama yang menampilkan kedua merek di depan audiens baru."
+        },
+        {},
+        {
+          "title": "Kemitraan Strategis",
+          "description": "Kolaborasi jangka panjang di bidang produk, data, dan go-to-market."
+        }
+      ]
+    },
+    "why": {
+      "title": "Mengapa bermitra dengan sweetwine",
+      "items": [
+        {
+          "title": "Audiens yang terlibat",
+          "description": "Ratusan ribu pengguna yang kembali setiap hari dalam 70 bahasa."
+        },
+        {
+          "title": "Eksekusi cepat",
+          "description": "Tim yang fokus, cepat merilis, dan berkomunikasi dengan jelas."
+        },
+        {
+          "title": "Jangkauan global",
+          "description": "Produk multibahasa tersedia di puluhan pasar."
+        },
+        {
+          "description": "Platform tepercaya dengan desain privasi yang bisa diandalkan brand Anda.",
+          "title": "Privasi utama"
+        }
+      ]
+    },
+    "form": {
+      "title": "Ceritakan kemitraan Anda",
+      "description": "Bagikan beberapa detail dan tim kemitraan kami akan menghubungi Anda.",
+      "nameLabel": "Nama Anda",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email kerja",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Perusahaan",
+      "companyPlaceholder": "Nama perusahaan",
+      "typeLabel": "Jenis kemitraan",
+      "typePlaceholder": "Pilih jenis kemitraan",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Bagaimana Anda ingin bermitra?",
+      "messagePlaceholder": "Ceritakan tentang perusahaan Anda dan kemitraan yang Anda inginkan...",
+      "submit": "Kirim pertanyaan kemitraan",
+      "submitting": "Mengirim...",
+      "termsNote": "Dengan mengirimkan, Anda setuju untuk dihubungi terkait pertanyaan Anda. Kami tidak pernah membagikan detail Anda.",
+      "success": "Terima kasih! Pertanyaan kemitraan Anda telah terkirim.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "cta": {
+      "title": "Lebih suka email?",
+      "description": "Hubungi tim kemitraan kami langsung di"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Pers & Media",
+    "eyebrow": "Ruang Berita",
+    "titlePrefix": "Pers &",
+    "titleHighlight": "Media",
+    "subtitle": "Sumber daya untuk jurnalis, kreator, dan mitra media. Hubungi tim pers kami untuk wawancara, kutipan, dukungan fitur, dan permintaan brand.",
+    "help": {
+      "title": "Bagaimana kami bisa membantu",
+      "description": "Baik Anda sedang mengerjakan cerita atau ulasan, berikut yang bisa Anda minta dari tim pers kami.",
+      "items": [
+        {
+          "title": "Wawancara",
+          "description": "Bicara dengan tim kami tentang produk, perusahaan, dan arah AI companionship."
+        },
+        {
+          "title": "Kutipan & komentar",
+          "description": "Dapatkan pernyataan resmi atau komentar ahli untuk cerita Anda."
+        },
+        {
+          "title": "Dukungan fitur & ulasan",
+          "description": "Butuh akses, konteks, atau verifikasi fakta untuk fitur atau ulasan? Kami siap membantu."
+        },
+        {
+          "title": "Permintaan brand & logo",
+          "description": "Minta logo, aset brand, dan panduan penggunaan untuk publikasi Anda."
+        }
+      ]
+    },
+    "form": {
+      "title": "Pertanyaan media",
+      "description": "Untuk wawancara, kutipan, atau permintaan fitur, kirimkan pesan dan kami akan segera merespons.",
+      "nameLabel": "Nama Anda",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publikasi / outlet",
+      "outletPlaceholder": "Di mana ini akan dipublikasikan?",
+      "requestTypeLabel": "Jenis permintaan",
+      "requestTypePlaceholder": "Pilih jenis permintaan",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Permintaan Anda",
+      "messagePlaceholder": "Ceritakan tentang cerita Anda, tenggat waktu, dan apa yang Anda butuhkan dari kami...",
+      "submit": "Kirim pertanyaan media",
+      "submitting": "Mengirim...",
+      "termsNote": "Kami bertujuan merespons pertanyaan pers dalam dua hari kerja.",
+      "success": "Terima kasih! Pertanyaan media Anda telah dikirim.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "cta": {
+      "title": "Kontak pers",
+      "description": "Untuk permintaan media mendesak, email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karir",
+    "eyebrow": "Karir",
+    "titlePrefix": "Bangun masa depan",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Kami tim kecil yang bergerak cepat membangun produk yang benar-benar disukai orang. Jika ini membuat Anda bersemangat, kami ingin bertemu Anda.",
+    "perks": {
+      "title": "Mengapa bekerja dengan kami",
+      "items": [
+        {
+          "title": "Ramah jarak jauh",
+          "description": "Bekerja dari tempat Anda paling produktif, dengan jam kerja fleksibel."
+        },
+        {
+          "title": "Kepemilikan nyata",
+          "description": "Kirimkan pekerjaan bermakna dengan cepat dan lihat jangkauannya ke pengguna di seluruh dunia."
+        },
+        {
+          "title": "AI mutakhir",
+          "description": "Bekerja langsung dengan model terbaru dan alat generatif."
+        },
+        {
+          "title": "Gaji kompetitif",
+          "description": "Kompensasi yang adil dan potensi pertumbuhan yang bermakna saat kami berkembang."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Posisi terbuka",
+      "emptyTitle": "Tidak ada lowongan saat ini",
+      "emptyDescription": "Kami tidak sedang merekrut saat ini, tapi kami selalu senang bertemu orang-orang hebat. Perkenalkan diri Anda di bawah.",
+      "applyButton": "Lamar sekarang",
+      "viewButton": "Lihat peran"
+    },
+    "form": {
+      "title": "Perkenalkan diri Anda",
+      "description": "Tidak ada peran yang cocok? Ceritakan tentang diri Anda dan kami akan menghubungi saat ada kecocokan.",
+      "nameLabel": "Nama Anda",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Peran atau bidang minat",
+      "rolePlaceholder": "mis. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Tautan ke CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Tentang Anda",
+      "messagePlaceholder": "Ceritakan pengalaman Anda dan apa yang ingin Anda kerjakan...",
+      "submit": "Kirim lamaran",
+      "submitting": "Mengirim...",
+      "termsNote": "Dengan melamar, Anda menyetujui kami menyimpan data Anda untuk mempertimbangkan Anda pada posisi.",
+      "success": "Terima kasih! Lamaran Anda telah terkirim.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "cta": {
+      "title": "Ada pertanyaan tentang bekerja di sini?",
+      "description": "Hubungi tim kami di"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Pusat Bantuan",
+    "eyebrow": "Pusat Bantuan",
+    "titlePrefix": "Bagaimana kami bisa",
+    "titleHighlight": "membantu?",
+    "subtitle": "Jelajahi topik dan jawaban umum. Tidak menemukan yang Anda butuhkan? Hubungi dukungan dan kami akan membantu.",
+    "searchPlaceholder": "Cari artikel bantuan...",
+    "categoriesTitle": "Jelajahi berdasarkan topik",
+    "articlesTitle": "Artikel",
+    "categoryEmpty": "Belum ada artikel di kategori ini. Silakan cek lagi nanti.",
+    "backToHelp": "Kembali ke Pusat Bantuan",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Memulai",
+        "description": "Buat akun, atur profil, dan mulai mengobrol."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Obrolan AI",
+        "description": "Cara kerja percakapan, memori, dan karakter."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Gambar & Video",
+        "description": "Buat dan kelola foto serta video AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privasi & Keamanan",
+        "description": "Data Anda, kontrol privasi, dan alat keamanan."
+      }
+    ],
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "q1": {
+        "question": "Bagaimana cara memulai dengan sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Apa saja yang termasuk dalam paket gratis?"
+      },
+      "q5": {
+        "question": "Apakah data saya pribadi?",
+        "answer": "Privasi adalah inti dari sweetwine. Percakapan Anda bersifat pribadi untuk akun Anda, dan Anda yang mengontrol data Anda. Lihat Kebijakan Privasi kami untuk detail lengkap tentang cara data disimpan dan dilindungi."
+      },
+      "q6": {
+        "question": "Bagaimana cara menghubungi dukungan?",
+        "answer": "Email support@sweetwine.ai atau gunakan opsi kontak di aplikasi. Kami biasanya membalas dalam satu hari kerja."
+      }
+    },
+    "cta": {
+      "title": "Masih butuh bantuan?",
+      "description": "Tim kami siap membantu Anda di"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Tentang",
+    "eyebrow": "Cerita Kami",
+    "titlePrefix": "Persahabatan,",
+    "titleHighlight": "direka ulang",
+    "subtitle": "sweetwine membangun teman AI yang pribadi dan personal yang mendengarkan, mengingat, dan terhubung secara tulus — tersedia kapan saja, dalam bahasa apa pun.",
+    "mission": {
+      "title": "Misi kami",
+      "body": "Kami percaya setiap orang berhak memiliki ruang untuk didengar tanpa penilaian. sweetwine membuat koneksi AI yang bermakna dan personal dapat diakses oleh semua orang — hangat, pribadi, dan selalu ada saat Anda membutuhkannya."
+    },
+    "values": {
+      "title": "Apa yang kami yakini",
+      "items": [
+        {
+          "title": "Privasi sejak awal",
+          "description": "Percakapan Anda adalah milik Anda. Kami membangun dengan privasi dan keamanan dari dasar."
+        },
+        {
+          "title": "Koneksi yang tulus",
+          "description": "Kami mengutamakan nilai emosional yang nyata, bukan metrik semu."
+        },
+        {
+          "title": "Global sejak awal",
+          "description": "Dibangun multibahasa sejak hari pertama sehingga koneksi tidak dibatasi oleh bahasa."
+        },
+        {
+          "title": "Kerajinan tanpa henti",
+          "description": "Kami memperhatikan detail untuk membuat setiap interaksi terasa alami dan hidup."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Dalam angka",
+      "items": [
+        {
+          "value": "100.000+",
+          "label": "Pengguna dan terus bertambah"
+        },
+        {
+          "value": "70",
+          "label": "Bahasa didukung"
+        },
+        {
+          "value": "24/7",
+          "label": "Selalu tersedia"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ingin tahu lebih lanjut?",
+      "description": "Hubungi kami di"
+    }
+  },
+  "postsPage": {
+    "allTag": "Semua",
+    "readMore": "Baca selengkapnya",
+    "publishedOn": "Dipublikasikan",
+    "minRead": "menit baca",
+    "sortNewest": "Terbaru",
+    "sortOldest": "Terlama",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Tips, panduan, dan cerita untuk membantu Anda memaksimalkan pengalaman persahabatan AI.",
+      "empty": "Belum ada postingan. Cek kembali nanti."
+    },
+    "news": {
+      "breadcrumb": "Berita",
+      "eyebrow": "Ruang Berita",
+      "titlePrefix": "Berita &",
+      "titleHighlight": "Pengumuman",
+      "subtitle": "Pengumuman resmi, siaran pers, dan pencapaian dari tim sweetwine.",
+      "empty": "Belum ada berita. Cek kembali nanti."
+    },
+    "productUpdates": {
+      "breadcrumb": "Pembaruan Produk",
+      "eyebrow": "Changelog",
+      "titlePrefix": "Produk",
+      "titleHighlight": "Update",
+      "subtitle": "Fitur, peningkatan, dan perbaikan terbaru di seluruh platform sweetwine.",
+      "empty": "Belum ada update. Cek lagi nanti."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Untuk developer",
+    "titlePrefix": "Bangun dengan",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Hadirkkan teman AI yang personal ke dalam produk Anda. Akses chat, gambar, suara, dan pembuatan karakter melalui satu API yang ramah developer.",
+    "capabilities": {
+      "title": "Apa yang bisa Anda buat",
+      "items": [
+        {
+          "title": "Chat percakapan",
+          "description": "Tambahkan percakapan AI yang kaya kepribadian dan sadar konteks ke aplikasi Anda dengan API pesan yang sederhana."
+        },
+        {
+          "title": "Generasi gambar",
+          "description": "Buat gambar dan adegan karakter sesuai brand secara programatis dari prompt teks."
+        },
+        {
+          "title": "Suara",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Pembuatan karakter",
+          "description": "Tentukan dan kelola teman, kepribadian, serta memori melalui API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Minta akses API",
+      "description": "Ceritakan tentang proyek Anda dan apa yang ingin Anda buat. Tim developer kami akan menghubungi Anda dengan langkah selanjutnya.",
+      "nameLabel": "Nama Anda",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email kerja",
+      "emailPlaceholder": "anda@perusahaan.com",
+      "companyLabel": "Perusahaan / proyek",
+      "companyPlaceholder": "Nama perusahaan atau proyek",
+      "websiteLabel": "Website atau URL aplikasi",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Jenis integrasi",
+      "integrationTypePlaceholder": "Pilih jenis integrasi",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Pesan",
+          "label": "Chat / Pesan"
+        },
+        {
+          "value": "Generasi gambar",
+          "label": "Generasi gambar"
+        },
+        {
+          "value": "Suara",
+          "label": "Suara"
+        },
+        {
+          "value": "Pembuatan karakter",
+          "label": "Pembuatan karakter"
+        },
+        {
+          "value": "Lainnya",
+          "label": "Lainnya"
+        }
+      ],
+      "volumeLabel": "Volume bulanan yang diharapkan",
+      "volumePlaceholder": "Pilih volume yang diharapkan",
+      "volumeOptions": [
+        {
+          "value": "Kurang dari 10k",
+          "label": "Kurang dari 10k permintaan"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k permintaan"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M permintaan"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ permintaan"
+        }
+      ],
+      "timelineLabel": "Timeline",
+      "timelinePlaceholder": "Pilih timeline",
+      "timelineOptions": [
+        {
+          "value": "Hanya mengeksplorasi",
+          "label": "Hanya mengeksplorasi"
+        },
+        {
+          "value": "Kurang dari 1 bulan",
+          "label": "Kurang dari 1 bulan"
+        },
+        {
+          "value": "1-3 bulan",
+          "label": "1-3 bulan"
+        },
+        {
+          "value": "3+ bulan",
+          "label": "3+ bulan"
+        }
+      ],
+      "messageLabel": "Ceritakan use case Anda",
+      "messagePlaceholder": "Apa yang Anda bangun, dan bagaimana Anda berencana menggunakan API?",
+      "submit": "Minta akses API",
+      "submitting": "Mengirim...",
+      "termsNote": "Dengan mengirimkan, Anda setuju untuk dihubungi terkait pertanyaan Anda. Kami tidak pernah membagikan detail Anda.",
+      "success": "Terima kasih! Permintaan akses API Anda telah dikirim.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "faq": {
+      "title": "FAQ Developer",
+      "items": [
+        {
+          "question": "Bagaimana cara mendapatkan akses API?",
+          "answer": "Isi formulir permintaan di atas dengan use case Anda. Tim developer kami meninjau setiap permintaan dan akan menindaklanjuti dengan detail akses serta dokumentasi."
+        },
+        {
+          "question": "Bagaimana cara kerja autentikasi?",
+          "answer": "Permintaan API diautentikasi dengan kunci API rahasia yang dikirim di header permintaan. Anda dapat mengelola dan mengganti kunci setelah onboard."
+        },
+        {
+          "question": "Apakah ada pembatasan rate?",
+          "answer": "Ya. Batasan tergantung pada paket dan volume yang diharapkan. Beri tahu kami perkiraan traffic Anda di formulir agar kami dapat merekomendasikan tier yang tepat."
+        },
+        {
+          "question": "Berapa biayanya?"
+        },
+        {
+          "question": "Kemampuan apa saja yang tersedia?",
+          "answer": "Chat, pembuatan gambar, suara, dan pembuatan karakter. Beri tahu kami yang Anda butuhkan dan kami akan membantu Anda memulai dengan endpoint yang relevan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ada pertanyaan teknis?",
+      "description": "Hubungi tim developer kami di"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Untuk kreator & agensi",
+    "heroTitleLead": "Kami Membuat,",
+    "heroTitleHighlight": "Anda Untung.",
+    "heroSubtitle": "Kami membangun AI clone Anda. Anda mendapat untung saat AI clone bekerja sepanjang waktu — mengobrol dengan penggemar dan mengirim konten untuk Anda.",
+    "calculator": {
+      "title": "Berapa yang bisa Anda hasilkan?",
+      "subtitle": "Pilih ukuran audiens dan tentukan harga — lihat estimasi penghasilan secara instan.",
+      "tierLabel": "Ukuran audiens Anda",
+      "tiers": {
+        "small": {
+          "name": "Kecil"
+        },
+        "medium": {
+          "name": "Sedang"
+        },
+        "large": {
+          "name": "Besar"
+        }
+      },
+      "priceLabel": "Harga unlock Anda",
+      "promoLabel": "Saya akan mempromosikan sweetwine",
+      "breakdown": {
+        "title": "Estimasi penghasilan Anda",
+        "perMonth": "per bulan",
+        "perYear": "Per tahun"
+      },
+      "disclaimer": "Estimasi pendapatan didasarkan pada model bagi hasil sweetwine dan aktivitas tipikal. Pendapatan aktual bervariasi tergantung audiens, kualitas konten, keterlibatan, dan permintaan."
+    },
+    "offer": {
+      "title": "Apa yang Anda dapatkan",
+      "items": [
+        {
+          "title": "Dapatkan penghasilan saat tidur",
+          "description": "Klon Anda mengubah pengikut menjadi pendapatan 24/7 — mengobrol, menjual, dan tidak pernah berhenti."
+        },
+        {
+          "title": "Tanpa biaya, hanya keuntungan",
+          "description": "Kami membangun, melatih, dan menjalankan semuanya dengan biaya kami. Anda menambah aliran pendapatan baru tanpa perlu repot."
+        },
+        {
+          "title": "10x konten Anda",
+          "description": "Foto dan video tanpa batas sesuai permintaan — skalakan output tanpa lebih banyak pemotretan, pengeditan, atau kelelahan."
+        },
+        {
+          "title": "Selalu dalam kendali"
+        }
+      ]
+    },
+    "how": {
+      "title": "Cara kerjanya",
+      "steps": [
+        {
+          "title": "Daftar"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Spesialis sweetwine menangkap penampilan, suara, dan kepribadian Anda agar klon Anda terasa autentik seperti Anda."
+        },
+        {
+          "title": "Kami membangun & melatih",
+          "description": "Tim kami memproduksi dan melatih klon AI Anda sepenuhnya dengan biaya kami — tanpa pekerjaan yang diperlukan dari Anda."
+        },
+        {
+          "title": "Go live & dapatkan penghasilan",
+          "description": "Klon Anda mulai mengobrol dan menjual sepanjang waktu, dan Anda menerima bagian pendapatan Anda."
+        }
+      ]
+    },
+    "form": {
+      "title": "Ajukan untuk membuat klon AI Anda",
+      "description": "Ceritakan tentang Anda dan audiens Anda. Tim kemitraan kreator kami meninjau setiap aplikasi dan akan menindaklanjuti dengan langkah selanjutnya.",
+      "nameLabel": "Nama Anda",
+      "namePlaceholder": "Nama Anda atau nama panggung",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agensi atau studio",
+      "companyPlaceholder": "Nama agensi (kosongkan jika independen)",
+      "roleLabel": "Saya adalah",
+      "rolePlaceholder": "Pilih siapa Anda",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Tautan situs web & media sosial",
+      "linksPlaceholder": "Instagram, X, OnlyFans, dll.",
+      "modelCountLabel": "Jumlah model yang Anda wakili",
+      "modelCountPlaceholder": "mis. hanya saya, atau 5",
+      "audienceSizeLabel": "Ukuran audiens",
+      "audienceSizePlaceholder": "Pilih total pengikut Anda",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Di bawah 10k pengikut"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k pengikut"
+        },
+        {
+          "label": "100k-500k pengikut",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M pengikut"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ pengikut"
+        }
+      ],
+      "contentPrefLabel": "Preferensi konten",
+      "contentPrefPlaceholder": "Pilih jenis konten",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Negara / wilayah",
+      "countryPlaceholder": "Di mana kamu berada?",
+      "messageLabel": "Ceritakan tentang kamu dan audiensmu",
+      "messagePlaceholder": "Bagikan apa saja yang membantu kami memahami audiens, konten, dan apa yang kamu cari.",
+      "openButton": "Apply now",
+      "submit": "Kirim aplikasi",
+      "submitting": "Mengirim...",
+      "termsNote": "Dengan mengirimkan, kamu mengonfirmasi bahwa kamu berusia 18 tahun atau lebih dan setuju untuk dihubungi terkait aplikasimu. Kami tidak pernah membagikan detailmu.",
+      "success": "Terima kasih! Aplikasimu telah dikirim. Kami akan segera menghubungi.",
+      "error": "Terjadi kesalahan. Silakan coba lagi."
+    },
+    "cta": {
+      "title": "Ada pertanyaan sebelum mendaftar?",
+      "description": "Bicara langsung dengan tim kemitraan kreator kami — kami biasanya membalas dalam sehari.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Peta Situs",
+    "eyebrow": "Peta Situs",
+    "titlePrefix": "Jelajahi",
+    "titleHighlight": "semua",
+    "subtitle": "Setiap halaman penting di sweetwine dalam satu tempat. Mencari XML sitemap?",
+    "xmlLink": "Lihat XML sitemap",
+    "sections": {
+      "product": "Produk",
+      "features": "Fitur",
+      "company": "Perusahaan",
+      "resources": "Sumber Daya",
+      "legal": "Legal"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "Aplikasi Seluler sweetwine",
+      "cta": "Dapatkan Aplikasi",
+      "dismiss": "Tutup"
+    },
+    "guide": {
+      "title": "Pasang sweetwine",
+      "subtitle": "Tambahkan sweetwine ke layar beranda untuk pengalaman lebih cepat, layar penuh, dan seperti aplikasi.",
+      "iosTitle": "Di iPhone & iPad (Safari)",
+      "iosStep1": "Ketuk tombol Bagikan di toolbar",
+      "iosStep2": "Pilih \"Tambah ke Layar Beranda\"",
+      "iosStep3": "Ketuk \"Tambah\" untuk selesai",
+      "androidTitle": "Di Android (Chrome)",
+      "androidStep1": "Ketuk menu (tiga titik)",
+      "androidStep2": "Pilih \"Pasang aplikasi\" atau \"Tambah ke layar beranda\"",
+      "androidStep3": "Ketuk \"Pasang\" untuk selesai"
+    },
+    "settings": {
+      "title": "Aplikasi Seluler sweetwine",
+      "description": "Pasang sweetwine di ponsel Anda untuk pengalaman lebih cepat dan layar penuh langsung dari layar beranda.",
+      "cta": "Pasang aplikasi"
+    }
+  },
+  "language": {
+    "selectTitle": "Pilih bahasa Anda",
+    "searchPlaceholder": "Cari bahasa",
+    "noResults": "Tidak ada bahasa ditemukan",
+    "regions": {
+      "americas": "Amerika",
+      "europe": "Eropa",
+      "middleEast": "Timur Tengah",
+      "asiaPacific": "Asia Pasifik",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Roleplay Baru",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Belum ada roleplay",
+    "noMessagesYet": "Belum ada pesan",
+    "deleteRoleplay": "Hapus roleplay",
+    "deleteError": "Tidak dapat menghapus roleplay.",
+    "backToLobby": "Kembali ke roleplay",
+    "creating": "Menyiapkan roleplay kamu...",
+    "createError": "Tidak dapat membuat roleplay. Silakan coba lagi.",
+    "steps": {
+      "companion": {
+        "title": "Pilih karakter",
+        "subtitle": "Pilih siapa yang ingin kamu roleplay"
+      },
+      "location": {
+        "title": "Pilih lokasi",
+        "subtitle": "Di mana adeganmu berlangsung?"
+      },
+      "tone": {
+        "title": "Atur suasana",
+        "subtitle": "Bagaimana perasaan adegan ini?"
+      },
+      "scene": {
+        "title": "Atur adegan",
+        "subtitle": "Jelaskan bagaimana adegan dimulai"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Kami saling bertemu di tengah hujan dan berlindung di bawah awning yang sama.",
+      "staring_grin": "Kamu menangkapku menatap dari seberang ruangan lalu mendekat dengan senyum lebar.",
+      "power_out": "Listrik padam dan kami ditinggal sendirian dalam gelap, tertawa gugup.",
+      "spilled_drink": "Aku terburu-buru dan tak sengaja menumpahkan minumanku ke seluruh tubuhmu.",
+      "stayed_behind": "Kami satu-satunya yang tinggal setelah semua orang pergi.",
+      "music_slows": "Pandangan kami bertemu tepat saat musik melambat.",
+      "storm_inside": "Badai mendadak menjebak kami di dalam dengan banyak waktu untuk mengobrol.",
+      "seat_taken": "Kamu duduk di sebelahku dan bertanya apakah kursi ini sudah diambil."
+    },
+    "locations": {
+      "home": "Rumah",
+      "cafe": "Kafe",
+      "restaurant": "Restoran",
+      "bar": "Bar",
+      "library": "Perpustakaan",
+      "bookstore": "Toko buku",
+      "park": "Taman",
+      "garden": "Kebun",
+      "nightclub": "Klub malam",
+      "casino": "Kasino",
+      "concert": "Konser",
+      "theater": "Teater",
+      "cinema": "Bioskop",
+      "carnival": "Karnaval",
+      "stadium": "Stadion",
+      "beach": "Pantai",
+      "pool": "Kolam renang",
+      "spa": "Spa",
+      "hotel": "Hotel",
+      "rooftop": "Atap",
+      "yacht": "Yacht",
+      "cabin": "Kabin",
+      "hotspring": "Pemandian Air Panas",
+      "skilodge": "Pondok Ski",
+      "campsite": "Tempat Kemah",
+      "car": "Mobil",
+      "train": "Kereta",
+      "airport": "Bandara",
+      "cruise": "Kapal Pesiar",
+      "office": "Kantor",
+      "gym": "Gym",
+      "university": "Universitas",
+      "mall": "Mal",
+      "hospital": "Rumah Sakit",
+      "museum": "Museum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Seru",
+        "desc": "Ringan, penuh kegembiraan dan santai."
+      },
+      "romantic": {
+        "title": "Romantis",
+        "desc": "Lembut, penuh kasih sayang dan tulus."
+      },
+      "flirty": {
+        "title": "Menggoda",
+        "desc": "Menggoda, penuh keceriaan dan pesona."
+      },
+      "mysterious": {
+        "title": "Misterius",
+        "desc": "Menyimpan teka-teki, penuh ketegangan dan rahasia."
+      },
+      "spooky": {
+        "title": "Seram",
+        "desc": "Mencekam, menegangkan dan sedikit menakutkan."
+      },
+      "action": {
+        "title": "Aksi",
+        "desc": "Intens, penuh petualangan dan cepat."
+      },
+      "dramatic": {
+        "title": "Dramatis",
+        "desc": "Penuh emosi, intens dan tegang."
+      },
+      "cozy": {
+        "title": "Nyaman",
+        "desc": "Hangat, menenangkan dan santai."
+      }
+    },
+    "sceneLabel": "Pembuka adegan",
+    "scenarioTab": "Skenario",
+    "generatingScene": "Menghidupkan adegan...",
+    "locationLabel": "Lokasi",
+    "toneLabel": "Suasana",
+    "scenePlaceholder": "cth. Kami saling bertemu di tengah hujan dan berlindung di bawah atap yang sama...",
+    "sceneHint": "Deskripsikan hanya bagaimana adegan dimulai — di mana kamu berada dan apa yang terjadi saat pembukaannya. Jangan ubah kepribadian karakter, hubunganmu, atau tulis ulang seluruh cerita.",
+    "sceneError": "Silakan deskripsikan bagaimana adegan dimulai.",
+    "reviewTitle": "Tinjau pilihan",
+    "characterLabel": "Karakter",
+    "randomize": "Acak",
+    "sceneGuidanceTitle": "Panduan pembuka adegan",
+    "sceneGuide1": "Jangan ubah kepribadian karakter atau hubunganmu.",
+    "sceneGuide2": "Pastikan pembuka adegan tetap konsensual dan penuh rasa hormat.",
+    "sceneGuide3": "Deskripsikan hanya bagaimana adegan dimulai, bukan seluruh cerita.",
+    "next": "Lanjut",
+    "create": "Mulai Roleplay",
+    "creatingMessages": [
+      "Menyiapkan adegan...",
+      "Meredupkan lampu dengan sempurna...",
+      "Melukis suasana di sekitarmu...",
+      "Menyiapkan temanmu agar masuk karakter...",
+      "Menambahkan sentuhan akhir...",
+      "Hampir siap..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Tulis pesan...",
+    "send": "Kirim",
+    "typing": "mengetik...",
+    "read": "Baca",
+    "resetChat": "Atur Ulang Chat",
+    "deleteChat": "Hapus Chat",
+    "settings": "Pengaturan",
+    "chatSettings": "Pengaturan Chat",
+    "roleplayMode": "Mode roleplay",
+    "roleplayModeDescription": "Saat aktif, teman akan menampilkan gerakan dan aksi dalam *tanda bintang* untuk roleplay yang imersif. Saat nonaktif, mereka mengobrol secara alami, seperti chatting biasa.",
+    "roleplayModeError": "Tidak dapat memperbarui mode roleplay",
+    "roleplayCtaDescription": "Buka pengalaman roleplay khusus, di mana teman memerankan adegan dan cerita bersamamu.",
+    "goToRoleplay": "Buka Roleplay",
+    "confirmReset": "Yakin ingin mengatur ulang chat ini? Semua pesan akan dihapus.",
+    "confirmDelete": "Yakin ingin menghapus chat ini?",
+    "resetSuccess": "Chat berhasil diatur ulang",
+    "deleteMemory": "Hapus memori",
+    "confirmDeleteMemory": "Yakin ingin menghapus memori jangka panjang karakter ini? Pesan obrolan akan tetap ada, tetapi karakter akan melupakan fakta sebelumnya pada balasan berikutnya.",
+    "deleteMemorySuccess": "Memori dihapus",
+    "deleteSuccess": "Chat berhasil dihapus",
+    "sendError": "Gagal mengirim pesan",
+    "noChats": "Belum ada chat",
+    "noChatsDesc": "Mulai percakapan dengan karakter untuk melihat chatmu di sini",
+    "lastMessage": "Pesan terakhir",
+    "messageCount": "{count} pesan",
+    "uploadImage": "Unggah gambar",
+    "uploadVideo": "Unggah video (segera hadir)",
+    "yourConversations": "Percakapanmu",
+    "continueChattingDesc": "Lanjutkan mengobrol dengan karakter AI-mu",
+    "newChat": "Chat Baru",
+    "noConversationsYet": "Belum ada percakapan",
+    "startChattingDesc": "Mulai mengobrol dengan karakter untuk melihat percakapanmu di sini",
+    "browseCharacters": "Jelajahi Karakter",
+    "createCustomCharacter": "Buat Karakter Kustom",
+    "imageTooLarge": "Gambar terlalu besar (maks 5MB)",
+    "generateImageTitle": "Buat Gambar dengan {name}",
+    "imagePromptLabel": "Deskripsikan gambar",
+    "imagePromptPlaceholder": "misalnya, di pantai dengan gaun biru, minum kopi di kafe, berjalan di taman...",
+    "imagePromptHint": "AI akan menghasilkan gambar {name} berdasarkan deskripsimu.",
+    "referenceImageLabel": "Fotomu (opsional)",
+    "referenceImageHint": "Unggah fotomu agar ikut tampil dalam adegan bersama {name}. Tanpa foto, hanya {name} yang akan dihasilkan.",
+    "uploadReferenceImage": "Unggah fotomu",
+    "uploadReferenceImageDesc": "Kalian berdua akan tampil dalam gambar yang dihasilkan",
+    "referenceImageSelected": "Kamu dan {name} akan tampil bersama",
+    "generating": "Membuat...",
+    "generate": "Buat",
+    "generateImage": "Buat Gambar",
+    "imageGenerated": "Gambar berhasil dibuat",
+    "generateError": "Gagal membuat gambar",
+    "contentBlockedReply": "Maaf, aku tidak bisa membuat gambar itu. Diblokir oleh filter keamanan. Coba deskripsi lain! 💕",
+    "generateVideoTitle": "Buat Video dengan {name}",
+    "generateVideo": "Buat Video",
+    "videoPromptLabel": "Deskripsikan aksi",
+    "videoPromptPlaceholder": "mis., menari, melambai, meniup ciuman...",
+    "videoPromptHint": "AI akan membuat video {name} melakukan aksi yang dideskripsikan.",
+    "generatingImage": "Membuat gambar...",
+    "generatingVideo": "Membuat video... (3-5 menit)",
+    "viewPhoto": "Lihat Foto",
+    "viewVideo": "Lihat Video",
+    "selectVideoOption": "Pilih opsi video di atas",
+    "contentPolicyViolation": "Pesan ini tidak dapat dikirim. Harap jaga percakapan tetap sopan.",
+    "functionCallBetaHint": "💡 Fitur ini masih beta — untuk pembuatan media yang andal tanpa batasan, gunakan tombol foto/video di toolbar.",
+    "repliedToStory": "Membalas cerita",
+    "repliedToStoryLiked": "Menyukai & membalas cerita",
+    "storyNoLongerAvailable": "Cerita tidak lagi tersedia",
+    "rateLimitExceeded": "Terlalu banyak permintaan. Tunggu sebentar lalu coba lagi.",
+    "profileTab": "Profil",
+    "galleryTab": "Galeri",
+    "giftsTab": "Hadiah",
+    "tts": {
+      "play": "Putar suara",
+      "stop": "Berhenti",
+      "generating": "Membuat suara…",
+      "error": "Tidak bisa memutar audio"
+    }
+  },
+  "gallery": {
+    "all": "Semua",
+    "images": "Gambar",
+    "videos": "Video",
+    "empty": "Belum ada media"
+  },
+  "gifts": {
+    "sendAGift": "Kirim Hadiah",
+    "catalogSubtitle": "Pilih hadiah untuk dikirim ke {name}",
+    "browseGifts": "Jelajahi hadiah",
+    "noneSent": "Belum ada hadiah terkirim",
+    "confirmTitle": "Konfirmasi hadiah",
+    "forCompanion": "Untuk {name}",
+    "optionalMessage": "Tambahkan pesan (opsional)",
+    "optionalMessagePlaceholder": "Tulis sesuatu yang manis...",
+    "sendGiftFor": "Kirim",
+    "giftSent": "Kamu mengirim hadiah",
+    "sendError": "Gagal mengirim hadiah"
+  },
+  "stories": {
+    "replyPlaceholder": "Balas ke {name}...",
+    "like": "Suka",
+    "send": "Kirim",
+    "close": "Tutup",
+    "previous": "Cerita sebelumnya",
+    "next": "Cerita berikutnya",
+    "pause": "Jeda",
+    "play": "Putar",
+    "mute": "Bisukan",
+    "unmute": "Nyalakan suara",
+    "openStory": "Buka cerita {name}"
+  },
+  "generate": {
+    "title": "Buat Gambar",
+    "description": "Buat gambar menakjubkan dengan karakter AI-mu",
+    "selectCompanion": "Pilih karakter",
+    "promptPlaceholder": "Deskripsikan gambar yang ingin dibuat... misalnya, di pantai, memakai gaun merah",
+    "promptLabel": "Deskripsi Gambar",
+    "promptRequired": "Silakan masukkan deskripsi",
+    "generateButton": "Buat Gambar",
+    "generating": "Membuat...",
+    "creatingImage": "Membuat gambar Anda...",
+    "pleaseWait": "Ini mungkin memakan waktu 10-30 detik",
+    "noCompanionSelected": "Silakan pilih karakter terlebih dahulu",
+    "emptyGallery": "Belum ada gambar yang dibuat. Pilih karakter dan deskripsikan gambar Anda!",
+    "sessionGallery": "Gambar yang Dibuat",
+    "regenerate": "Buat Ulang",
+    "regenerating": "Membuat ulang...",
+    "animate": "Animasikan",
+    "animateReference": "Gambar ini akan menjadi frame pertama video.",
+    "filterMyAI": "AI-ku",
+    "filterAll": "Semua",
+    "filterGirls": "Wanita",
+    "filterAnime": "Anime",
+    "filterGuys": "Pria",
+    "imageGenerationFailed": "Pembuatan gambar gagal. Gambar mungkin tidak memenuhi persyaratan atau deskripsinya terlalu rumit. Coba dengan prompt yang lebih sederhana.",
+    "noImageData": "Tidak ada gambar yang dihasilkan. Silakan coba lagi dengan deskripsi yang berbeda.",
+    "generationFailed": "Pembuatan gagal. Silakan coba lagi nanti atau dengan prompt yang berbeda.",
+    "random": "Acak",
+    "custom": "Kustom",
+    "settings": "Pengaturan",
+    "videoTitle": "Buat Video",
+    "videoDescription": "Buat video menakjubkan dengan karakter AI Anda",
+    "videoPromptLabel": "Deskripsi Video",
+    "videoPromptPlaceholder": "Jelaskan aksi yang ingin Anda buat... misalnya, menari, melambai, tersenyum",
+    "generateVideoButton": "Buat Video",
+    "generatingVideo": "Membuat video...",
+    "creatingVideo": "Membuat video Anda...",
+    "videoWait": "Ini mungkin memakan waktu 1-5 menit",
+    "emptyVideoGallery": "Belum ada video yang dibuat. Pilih karakter dan deskripsikan aksinya!",
+    "sessionVideoGallery": "Video yang Dibuat",
+    "videoGenerated": "Video berhasil dibuat!",
+    "videoGenerationFailed": "Pembuatan video gagal. Silakan coba lagi.",
+    "duration": "Durasi",
+    "shortVideo": "Pendek",
+    "longVideo": "Panjang",
+    "seconds": "detik",
+    "audio": "Audio",
+    "renderingVideo": "Merender video…",
+    "renderingVideoHint": "(memakan waktu hingga 1 menit)",
+    "rateLimitExceeded": "Terlalu banyak permintaan. Silakan tunggu sebentar dan coba lagi.",
+    "chooseCharacter": "Pilih karakter",
+    "selectButton": "Pilih",
+    "noCustomCompanions": "Anda belum membuat karakter AI apa pun.",
+    "numberOfImages": "Jumlah gambar",
+    "numberOfVideos": "Jumlah video",
+    "freeTrial": "Uji Coba Gratis",
+    "changeCharacter": "Ganti karakter",
+    "randomize": "Acak prompt",
+    "aiVideo": "Video AI",
+    "download": "Unduh",
+    "seriesHelper": "Di sini Anda dapat melihat hasil Anda. Anda bisa meninggalkan halaman atau memulai seri baru saat ini selesai.",
+    "suggestions": {
+      "title": "Saran",
+      "categories": {
+        "outfit": "Pakaian",
+        "action": "Aksi",
+        "pose": "Pose",
+        "accessories": "Aksesori",
+        "scene": "Adegan"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Rok",
+        "lingerie": "Lingerie",
+        "crop_top": "Crop top",
+        "leather": "Kulit",
+        "mini_skirt": "Rok mini",
+        "satin_robe": "Robe satin",
+        "jeans": "Jeans",
+        "summer_dress": "Gaun musim panas",
+        "sportswear": "Pakaian olahraga",
+        "selfie": "Selfie",
+        "walking": "Berjalan",
+        "dancing": "Menari",
+        "stretching": "Peregangan",
+        "lying_down": "Berbaring",
+        "leaning": "Bersandar",
+        "blowing_kiss": "Meniupkan ciuman",
+        "drinking_coffee": "Minum kopi",
+        "hands_on_hips": "Tangan di pinggang",
+        "over_shoulder": "Over shoulder",
+        "side_profile": "Profil samping",
+        "arms_crossed": "Lengan disilangkan",
+        "kneeling": "Berlutut",
+        "squatting": "Jongkok",
+        "back_view": "Tampak belakang",
+        "sitting": "Duduk",
+        "necklace": "Kalung",
+        "earrings": "Anting",
+        "glasses": "Kacamata",
+        "choker": "Choker",
+        "hat": "Topi",
+        "sunglasses": "Kacamata hitam",
+        "garden": "Taman",
+        "beach": "Pantai",
+        "bedroom": "Kamar tidur",
+        "gym": "Gym",
+        "bar": "Bar",
+        "kitchen": "Dapur",
+        "restaurant": "Restoran",
+        "balcony": "Balkon",
+        "city_street": "Jalan kota",
+        "pool": "Pinggir kolam"
+      },
+      "fragments": {
+        "bikini": "mengenakan bikini",
+        "skirt": "mengenakan rok",
+        "lingerie": "mengenakan lingerie",
+        "crop_top": "mengenakan crop top",
+        "leather": "mengenakan outfit kulit",
+        "mini_skirt": "mengenakan rok mini",
+        "satin_robe": "mengenakan jubah satin",
+        "jeans": "mengenakan jeans",
+        "summer_dress": "mengenakan gaun musim panas",
+        "sportswear": "mengenakan pakaian olahraga ketat",
+        "selfie": "mengambil selfie",
+        "walking": "berjalan",
+        "dancing": "menari",
+        "stretching": "meregangkan tubuh",
+        "lying_down": "berbaring",
+        "leaning": "bersandar di dinding",
+        "blowing_kiss": "meniupkan ciuman",
+        "drinking_coffee": "minum secangkir kopi",
+        "hands_on_hips": "dengan tangan di pinggang",
+        "over_shoulder": "melihat dari balik bahu",
+        "side_profile": "pose profil samping",
+        "arms_crossed": "dengan lengan disilangkan",
+        "kneeling": "pose berlutut",
+        "squatting": "pose jongkok",
+        "back_view": "dilihat dari belakang",
+        "sitting": "duduk",
+        "necklace": "mengenakan kalung",
+        "earrings": "mengenakan anting",
+        "glasses": "mengenakan kacamata",
+        "choker": "mengenakan choker",
+        "hat": "mengenakan topi",
+        "sunglasses": "mengenakan kacamata hitam",
+        "garden": "di taman",
+        "beach": "di pantai",
+        "bedroom": "di kamar tidur",
+        "gym": "di gym",
+        "bar": "di bar",
+        "kitchen": "di dapur",
+        "restaurant": "di restoran",
+        "balcony": "di balkon",
+        "city_street": "di jalan kota",
+        "pool": "di pinggir kolam"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Tunjukkan selfie dirimu"
+        },
+        "posing": {
+          "name": "Berpose",
+          "uiPrompt": "Tunjukkan dirimu berpose"
+        },
+        "sitting": {
+          "name": "Duduk",
+          "uiPrompt": "Tunjukkan dirimu duduk"
+        },
+        "waving": {
+          "name": "Melambai",
+          "uiPrompt": "Tunjukkan dirimu melambai"
+        },
+        "dancing": {
+          "name": "Menari",
+          "uiPrompt": "Tunjukkan dirimu menari"
+        },
+        "reading": {
+          "name": "Membaca",
+          "uiPrompt": "Tunjukkan dirimu membaca"
+        },
+        "smiling": {
+          "name": "Tersenyum",
+          "uiPrompt": "Tunjukkan aku kamu tersenyum"
+        },
+        "walking": {
+          "name": "Berjalan",
+          "uiPrompt": "Tunjukkan aku kamu berjalan"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Tunjukkan aku video selfie"
+        },
+        "posing": {
+          "name": "Berpose",
+          "uiPrompt": "Tunjukkan aku video kamu berpose"
+        },
+        "sitting": {
+          "name": "Duduk",
+          "uiPrompt": "Tunjukkan aku video kamu duduk"
+        },
+        "waving": {
+          "name": "Melambai",
+          "uiPrompt": "Tunjukkan aku video kamu melambai"
+        },
+        "dancing": {
+          "name": "Menari",
+          "uiPrompt": "Tunjukkan aku video kamu menari"
+        },
+        "reading": {
+          "name": "Membaca",
+          "uiPrompt": "Tunjukkan aku video kamu membaca"
+        },
+        "smiling": {
+          "name": "Tersenyum",
+          "uiPrompt": "Tunjukkan aku video kamu tersenyum"
+        },
+        "walking": {
+          "name": "Berjalan",
+          "uiPrompt": "Tunjukkan aku video kamu berjalan"
+        }
+      }
+    },
+    "writeYourOwn": "atau tulis prompt sendiri",
+    "presetSelected": "Preset dipilih",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Posisi",
+        "pov": "POV",
+        "extra": "Ekstra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Handuk Mandi"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "ASI"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Rantai Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Seragam Sekolah"
+        },
+        "legsup": {
+          "name": "Kaki Diangkat"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbasi"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "Tattoo"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Seragam Maid"
+        },
+        "nurse_outfit": {
+          "name": "Seragam Perawat"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Kaos Basah"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Korset & Stocking"
+        },
+        "gym_shorts": {
+          "name": "Celana Pendek Gym"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Selfie Cermin"
+        },
+        "shower_nude": {
+          "name": "Mandi"
+        },
+        "oiled_body": {
+          "name": "Tubuh Berminyak"
+        },
+        "spread_open": {
+          "name": "Terbuka Lebar"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Blowjob Berantakan"
+        },
+        "ball_licking": {
+          "name": "Menjilat Bola"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Berdiri"
+        },
+        "against_wall": {
+          "name": "Di Dinding"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Kaki di Bahu"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Pijatan Payudara"
+        },
+        "breast_massage_nude": {
+          "name": "Pijatan Payudara Telanjang"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbasi Dildo"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejakulasi"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbasi"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasme"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Closeup Vagina"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Tren TikTok"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Buka Baju"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Aftercare Mess"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Yakin ingin menghapus ini?",
+    "deleteSuccess": "Berhasil dihapus",
+    "deleteError": "Gagal menghapus",
+    "empty": "Belum ada media. Buat di chat!",
+    "gallerySubtitle": "Galeri pribadi momen AI-mu",
+    "filterAll": "Semua",
+    "filterImages": "Gambar",
+    "filterVideos": "Video",
+    "loadMore": "Muat Lebih",
+    "folders": "Folder",
+    "newFolder": "Folder Baru",
+    "deleteFolders": "Hapus folder terpilih",
+    "folderCreated": "Folder dibuat",
+    "folderCreateError": "Gagal membuat folder",
+    "folderRenamed": "Folder diganti nama",
+    "folderRenameError": "Gagal mengganti nama folder",
+    "folderDeleted": "Folder dihapus",
+    "folderDeleteError": "Gagal menghapus folder",
+    "folderNamePlaceholder": "Nama folder",
+    "seeMore": "Lihat lebih",
+    "seeLess": "Lihat lebih sedikit",
+    "selectedCount": "{count} item dipilih",
+    "selectAll": "Pilih Semua",
+    "select": "Pilih",
+    "moveToFolder": "Pindah",
+    "bulkDeleteConfirm": "Hapus {count} item terpilih?",
+    "bulkDeleteSuccess": "Item dihapus",
+    "bulkDownloadStart": "Mengunduh {count} item...",
+    "moveSuccess": "Item dipindah"
+  },
+  "voice": {
+    "connecting": "Menghubungkan...",
+    "connected": "Terhubung",
+    "mute": "Bisukan",
+    "unmute": "Bunyikan",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Bicara secara alami. AI akan menjawab saat kamu berhenti.",
+    "connectionError": "Gagal terhubung. Silakan coba lagi.",
+    "minutesRemaining": "{minutes} menit tersisa",
+    "minutesUsed": "{minutes} menit digunakan"
+  },
+  "characters": {
+    "filters": "Filter",
+    "ethnicity": "Etnis",
+    "bodyType": "Tipe Tubuh",
+    "ageRange": "Rentang Usia",
+    "relationship": "Hubungan",
+    "occupation": "Pekerjaan",
+    "hobbies": "Hobi",
+    "personality": "Kepribadian",
+    "language": "Bahasa",
+    "age": "Usia",
+    "all": "Semua",
+    "noResults": "Tidak ada karakter ditemukan",
+    "noResultsDesc": "Coba sesuaikan filter Anda",
+    "newBadge": "Baru",
+    "chatNow": "Chat Sekarang",
+    "viewProfile": "Lihat Profil",
+    "ethnicities": {
+      "caucasian": "Kaukasia",
+      "asian": "Asia",
+      "middleEastern": "Timur Tengah",
+      "hispanic": "Hispanik",
+      "african": "Afrika",
+      "southAsian": "Asia Selatan",
+      "nativeAmerican": "Pribumi Amerika",
+      "pacificIslander": "Kepulauan Pasifik",
+      "mixed": "Campuran",
+      "other": "Lainnya"
+    },
+    "bodyTypes": {
+      "slim": "Kurus",
+      "athletic": "Atletis",
+      "average": "Rata-rata",
+      "curvy": "Berlekuk",
+      "plus": "Plus Size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Lajang",
+      "dating": "Berpacaran",
+      "married": "Menikah",
+      "none": "Tidak Ada"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Profil Saya",
+    "settings": "Pengaturan",
+    "account": "Akun",
+    "plan": "Paket",
+    "profileSettings": "Pengaturan Profil",
+    "manageAccountSettings": "Kelola pengaturan dan preferensi akun Anda",
+    "personalInfo": "Informasi Pribadi",
+    "nickname": "Nama Panggilan",
+    "gender": "Jenis Kelamin",
+    "male": "Laki-laki",
+    "female": "Perempuan",
+    "preferences": "Preferensi",
+    "newsletter": "Langganan Newsletter",
+    "newsletterDesc": "Terima pembaruan dan berita",
+    "aiTrainingTitle": "Pelatihan AI & Moderasi",
+    "aiTrainingDesc": "Izinkan chat dan prompt Anda membantu melatih serta meningkatkan AI dan moderasi sweetwine. Nonaktifkan kapan saja untuk memilih keluar.",
+    "aiTrainingLink": "Pelajari lebih lanjut di Pemberitahuan Privasi kami.",
+    "aiTrainingError": "Tidak dapat memperbarui preferensi pelatihan AI Anda",
+    "interfaceLanguage": "Bahasa Antarmuka",
+    "interfaceLanguageDesc": "Bahasa untuk antarmuka pengguna",
+    "aiLanguage": "Bahasa Respons AI",
+    "aiLanguageDesc": "Bahasa yang akan digunakan karakter AI saat berbicara dengan Anda",
+    "currentPlan": "Paket Saat Ini",
+    "freePlan": "Paket Gratis",
+    "dangerZone": "Zona Berbahaya",
+    "dangerZoneDescription": "Jika Anda ingin menghapus akun ini dan semua datanya secara permanen.",
+    "deleteAllMemory": "Hapus semua memori",
+    "confirmDeleteAllMemory": "Yakin ingin menghapus memori jangka panjang untuk semua karakter AI? Pesan obrolan akan tetap ada, tetapi karakter akan melupakan fakta sebelumnya pada balasan berikutnya.",
+    "deleteAllMemorySuccess": "Semua memori dihapus",
+    "deleteAccount": {
+      "button": "Hapus akun",
+      "title": "Hapus Akun",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Untuk mengonfirmasi, ketik",
+      "confirmRequired": "Silakan ketik DELETE untuk mengonfirmasi",
+      "confirmButton": "Hapus Akun Saya",
+      "deleting": "Menghapus...",
+      "success": "Akun Anda telah dihapus",
+      "error": "Gagal menghapus akun. Silakan coba lagi."
+    },
+    "saveChanges": "Simpan Perubahan",
+    "changesSaved": "Perubahan berhasil disimpan",
+    "saveFailed": "Gagal menyimpan perubahan",
+    "languageUpdated": "Bahasa diperbarui",
+    "aiLanguageUpdated": "Bahasa AI diperbarui"
+  },
+  "create": {
+    "defaultGreeting": "Halo",
+    "title": "Buat Karakter AI",
+    "step": "Langkah {current} dari {total}",
+    "step1": {
+      "title": "Pilih Gaya",
+      "description": "Pilih gaya dan atribut dasar untuk karakter Anda"
+    },
+    "step2": {
+      "title": "Pilih Etnis",
+      "description": "Pilih etnis dan usia untuk karakter Anda"
+    },
+    "step3": {
+      "title": "Pilih Rambut & Mata",
+      "description": "Kustomisasi gaya rambut, warna rambut, dan warna mata"
+    },
+    "step4": {
+      "title": "Pilih Tubuh",
+      "description": "Kustomisasi tubuh karakter Anda"
+    },
+    "step5": {
+      "title": "Kepribadian & Detail",
+      "description": "Tentukan kepribadian dan suara karakter Anda"
+    },
+    "style": {
+      "title": "Gaya Karakter",
+      "realistic": "Realistis",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Gender",
+      "female": "Perempuan",
+      "male": "Laki-laki"
+    },
+    "age": {
+      "title": "Usia",
+      "years": "{age} Tahun"
+    },
+    "ethnicity": {
+      "title": "Etnis"
+    },
+    "hairStyle": {
+      "title": "Gaya Rambut"
+    },
+    "hairColor": {
+      "title": "Warna Rambut"
+    },
+    "eyeColor": {
+      "title": "Warna Mata"
+    },
+    "bodyType": {
+      "title": "Tipe Tubuh"
+    },
+    "breastSize": {
+      "title": "Ukuran Payudara"
+    },
+    "name": {
+      "title": "Nama",
+      "placeholder": "Masukkan nama karakter",
+      "randomize": "Buat nama acak"
+    },
+    "language": {
+      "title": "Bahasa",
+      "widgetLabel": "Pilih Bahasa",
+      "placeholder": "Pilih bahasa",
+      "selectTitle": "Pilih bahasa Anda"
+    },
+    "personality": {
+      "title": "Kepribadian",
+      "widgetLabel": "Pilih Kepribadian",
+      "placeholder": "Pilih kepribadian",
+      "sectionTitle": "Pilih Kepribadian",
+      "clickToChange": "Klik untuk mengubah"
+    },
+    "relationship": {
+      "title": "Hubungan",
+      "widgetLabel": "Pilih Hubungan",
+      "placeholder": "Pilih hubungan",
+      "selectTitle": "Edit Hubungan"
+    },
+    "occupation": {
+      "title": "Pekerjaan",
+      "widgetLabel": "Pilih Pekerjaan",
+      "placeholder": "Pilih pekerjaan",
+      "selectTitle": "Edit Pekerjaan"
+    },
+    "kinks": {
+      "title": "Minat",
+      "widgetLabel": "Kink apa yang mereka sukai? (Maks. {max})",
+      "labelMax": "Minat (Maks. {max})",
+      "placeholder": "Pilih minat (opsional)",
+      "optional": "Opsional",
+      "selectTitle": "Edit Minat",
+      "moreCount": "+{count} lainnya"
+    },
+    "selector": {
+      "searchPlaceholder": "Cari",
+      "noResults": "Tidak ada opsi ditemukan",
+      "cancel": "Batal",
+      "saveChanges": "Simpan Perubahan",
+      "selectedCount": "{count} dipilih"
+    },
+    "voice": {
+      "title": "Suara",
+      "widgetLabel": "Pilih Suara",
+      "placeholder": "Pilih suara",
+      "selectTitle": "Pilih Suara"
+    },
+    "advanced": {
+      "title": "Detail Lanjutan",
+      "optional": "opsional",
+      "filled": "Terisi",
+      "autocompleteTitle": "Lengkapi Otomatis dengan AI",
+      "autocompleteDesc": "Biarkan AI mengisi bidang kosong untuk karakter yang lebih mendalam",
+      "autocompleteSuccess": "Bidang berhasil diisi!",
+      "autocompleteError": "Gagal menghasilkan saran. Silakan coba lagi.",
+      "greetingLabel": "Salam",
+      "greetingPlaceholder": "Pesan pertama yang dikirim karakter Anda...",
+      "scenarioLabel": "Skenario",
+      "scenarioPlaceholder": "Konteks atau latar belakang bagaimana Anda bertemu...",
+      "personalityLabel": "Detail Kepribadian Tambahan",
+      "personalityPlaceholder": "Keunikan, pola bicara, sifat perilaku...",
+      "extraLabel": "Detail Tambahan",
+      "extraPlaceholder": "Latar belakang, hobi, riwayat hidup..."
+    },
+    "navigation": {
+      "back": "Kembali",
+      "next": "Lanjut",
+      "create": "Buat",
+      "generateYourCharacter": "Buat Karakter Anda"
+    },
+    "progress": {
+      "generatingPrompt": "Membuat kepribadian...",
+      "generatingImage": "Membuat potret...",
+      "creatingVoice": "Menyiapkan suara...",
+      "saving": "Menyimpan...",
+      "complete": "Selesai!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Membuat kepribadian...",
+      "addingSweetness": "Menambahkan kelezatan...",
+      "tooMuchSweet": "Ups, terlalu manis...",
+      "testingSounds": "Menguji suara..."
+    },
+    "overlay": {
+      "signupPrompt": "Selesaikan pendaftaran untuk membuka karakter Anda…",
+      "processingHint": "Biasanya memakan waktu 20–30 detik",
+      "traitEthnicity": "Etnis",
+      "traitBody": "Tubuh",
+      "traitHair": "Rambut",
+      "traitColor": "Warna",
+      "traitEyes": "Mata",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Karakter Anda siap dibuat!",
+      "bannerDesc": "Preferensi Anda telah disimpan. Tinjau dan buat di bawah."
+    },
+    "success": {
+      "title": "Karakter Dibuat!",
+      "description": "Karakter AI Anda berhasil dibuat.",
+      "yearsOld": "tahun",
+      "meetButton": "Bertemu"
+    },
+    "error": {
+      "title": "Pembuatan Gagal",
+      "generic": "Gagal membuat karakter. Silakan coba lagi."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukasia",
+        "asian": "Asia",
+        "middle_eastern": "Timur Tengah",
+        "hispanic": "Hispanik",
+        "african": "Afrika",
+        "south_asian": "Asia Selatan",
+        "native_american": "Pribumi Amerika",
+        "pacific_islander": "Kepulauan Pasifik",
+        "mixed": "Campuran",
+        "arab": "Arab"
+      },
+      "hairStyleFemale": {
+        "straight": "Lurus",
+        "bangs": "Poni",
+        "curly": "Keriting",
+        "bun": "Sanggul",
+        "short_bob": "Bob Pendek",
+        "ponytail": "Ekor Kuda",
+        "wavy": "Bergelombang",
+        "long_layers": "Layer Panjang",
+        "braids": "Kepang",
+        "pixie_cut": "Potongan Pixie",
+        "updo": "Sanggul Tinggi",
+        "french_twist": "French Twist",
+        "fishtail_braid": "Kepang Ekor Ikan",
+        "top_knot": "Sanggul Atas",
+        "space_buns": "Space Buns",
+        "halo_braid": "Kepang Halo",
+        "beehive": "Beehive",
+        "finger_waves": "Finger Waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Potongan Shag",
+        "bald": "Botak"
+      },
+      "hairStyleMale": {
+        "short": "Pendek",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Keriting",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Sisi Samping",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Rambut Panjang",
+        "bald": "Botak"
+      },
+      "hairColor": {
+        "brunette": "Brunette",
+        "blonde": "Blonde",
+        "black": "Hitam",
+        "redhead": "Rambut Merah",
+        "pink": "Pink",
+        "auburn": "Auburn",
+        "brown": "Cokelat",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Abu-abu",
+        "white": "Putih",
+        "blue": "Biru",
+        "purple": "Ungu",
+        "green": "Hijau",
+        "burgundy": "Burgundy",
+        "copper": "Tembaga",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlight",
+        "jet_black": "Jet Black",
+        "dark_brown": "Cokelat Tua",
+        "light_brown": "Cokelat Muda",
+        "honey_blonde": "Blonde Madu",
+        "dirty_blonde": "Blonde Kotor",
+        "cherry_red": "Merah Ceri",
+        "violet": "Ungu"
+      },
+      "eyeColor": {
+        "brown": "Cokelat",
+        "blue": "Biru",
+        "green": "Hijau",
+        "hazel": "Hazel",
+        "amber": "Amber",
+        "gray": "Abu-abu",
+        "heterochromia": "Heterochromia",
+        "violet": "Ungu",
+        "red_pink": "Merah/Pink",
+        "black": "Hitam"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Kurus",
+        "athletic": "Atletis",
+        "average": "Rata-rata",
+        "curvy": "Berlekuk",
+        "chubby": "Chubby"
+      },
+      "bodyTypeMale": {
+        "skinny": "Kurus",
+        "athletic": "Atletis",
+        "average": "Rata-rata",
+        "muscular": "Berotot",
+        "heavy": "Berat",
+        "big_tall": "Besar & Tinggi"
+      },
+      "breastSize": {
+        "small": "Kecil",
+        "medium": "Sedang",
+        "large": "Besar",
+        "extra_large": "Sangat Besar"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Pencinta",
+        "submissive": "Submisif",
+        "dominant": "Dominan",
+        "temptress": "Penggoda",
+        "innocent": "Polos",
+        "caregiver": "Pengasuh",
+        "experimenter": "Eksperimen",
+        "mean": "Jahat",
+        "confidant": "Kepercayaan",
+        "shy": "Pemalu",
+        "queen": "Ratu",
+        "adventurous": "Petualang",
+        "romantic": "Romantis",
+        "intellectual": "Intelektual",
+        "protector": "Pelindung",
+        "rebel": "Pemberontak",
+        "optimist": "Optimis",
+        "realist": "Realis",
+        "free_spirit": "Jiwa Bebas",
+        "leader": "Pemimpin",
+        "loyal": "Setia",
+        "playful": "Penuh Canda",
+        "mysterious": "Misterius",
+        "ambitious": "Ambisius",
+        "gentle": "Lembut",
+        "sarcastic": "Sarkastik",
+        "empathetic": "Empatik",
+        "stoic": "Tenang",
+        "charismatic": "Karisma"
+      },
+      "relationship": {
+        "stranger": "Orang Asing",
+        "girlfriend": "Pacar Perempuan",
+        "sex_friend": "Teman Seks",
+        "school_mate": "Teman Sekolah",
+        "work_colleague": "Rekan Kerja",
+        "wife": "Istri",
+        "mistress": "Simpanan",
+        "friend": "Teman",
+        "step_sister": "Adik Tiri",
+        "step_mom": "Ibu Tiri",
+        "step_daughter": "Anak Tiri",
+        "landlord": "Pemilik Kost",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Bos",
+        "teacher": "Guru",
+        "student": "Murid",
+        "neighbour": "Tetangga",
+        "mother_in_law": "Mertua Perempuan",
+        "sister_in_law": "Ipar Perempuan",
+        "boyfriend": "Pacar Laki-laki",
+        "husband": "Suami",
+        "fiance": "Tunangan",
+        "ex": "Mantan",
+        "roommate": "Teman Sekamar",
+        "best_friend": "Sahabat",
+        "classmate": "Teman Seangkatan",
+        "mentor": "Mentor",
+        "client": "Klien",
+        "therapist": "Terapis",
+        "trainer": "Pelatih",
+        "rival": "Saingan",
+        "crush": "Gebetan",
+        "secret_admirer": "Pengagum Rahasia",
+        "pen_pal": "Teman Pena",
+        "business_partner": "Rekan Bisnis",
+        "babysitter": "Pengasuh",
+        "childhood_friend": "Teman Kecil",
+        "long_distance_partner": "Pasangan Jarak Jauh"
+      },
+      "occupation": {
+        "student": "Murid",
+        "dancer": "Penari",
+        "model": "Model",
+        "maid": "Pembantu",
+        "boss_ceo": "Bos / CEO",
+        "babysitter_au_pair": "Pengasuh / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Bartender",
+        "tech_engineer": "Teknisi Teknologi",
+        "lifeguard": "Penjaga Pantai",
+        "cashier": "Kasir",
+        "massage_therapist": "Terapis Pijat",
+        "teacher": "Guru",
+        "nurse": "Perawat",
+        "secretary": "Sekretaris",
+        "yoga_instructor": "Instruktur Yoga",
+        "fitness_coach": "Pelatih Kebugaran",
+        "cook": "Koki",
+        "artist": "Seniman",
+        "movie_star_actress": "Bintang Film/Aktris",
+        "doctor": "Dokter",
+        "librarian": "Pustakawan",
+        "spy": "Mata-mata",
+        "police_officer": "Polisi",
+        "soldier": "Tentara",
+        "lawyer": "Pengacara",
+        "hairdresser": "Penata Rambut",
+        "dentist": "Dokter Gigi",
+        "singer_musician": "Penyanyi/Musisi",
+        "gynecologist": "Ginekolog",
+        "writer": "Penulis",
+        "flight_attendant": "Pramugari",
+        "professional_athlete": "Atlet Profesional",
+        "scientist": "Ilmuwan",
+        "florist": "Penjual Bunga",
+        "makeup_artist": "Perias",
+        "photographer": "Fotografer",
+        "social_worker": "Pekerja Sosial",
+        "designer": "Desainer",
+        "pharmacist": "Apoteker",
+        "nutritionist": "Ahli Gizi",
+        "architect": "Arsitek",
+        "veterinarian": "Dokter Hewan",
+        "mechanic": "Montir",
+        "journalist": "Jurnalis",
+        "pilot": "Pilot",
+        "firefighter": "Pemadam Kebakaran",
+        "accountant": "Akuntan",
+        "electrician": "Teknisi Listrik",
+        "carpenter": "Tukang Kayu",
+        "psychologist": "Psikolog",
+        "real_estate_agent": "Agen Properti",
+        "chef": "Koki",
+        "farmer": "Petani",
+        "delivery_driver": "Pengantar",
+        "janitor": "Petugas Kebersihan",
+        "security_guard": "Satpam",
+        "banker": "Bankir",
+        "judge": "Hakim",
+        "paramedic": "Paramedis",
+        "actor": "Aktor",
+        "comedian": "Komika",
+        "archaeologist": "Arkeolog",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Spanking",
+        "collar_leash": "Kalung & Tali",
+        "punishment": "Hukuman",
+        "humiliation": "Penghinaan",
+        "public_play": "Main di Publik",
+        "roleplay": "Roleplay",
+        "anal_play": "Anal Play",
+        "oral_play": "Oral Play",
+        "cum_play": "Cum Play",
+        "creampie": "Creampie",
+        "squirting": "Squirting",
+        "dirty_talk": "Dirty Talk",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Dominasi Daddy/Mommy",
+        "edging": "Edging",
+        "obedience": "Kepatuhan",
+        "control": "Kontrol",
+        "inexperienced": "Belum Berpengalaman",
+        "shy_flirting": "Godaan Pemalu",
+        "playful_teasing": "Godaan Nakal",
+        "cuddling": "Bercengkerama",
+        "slow_sensual": "Lambat & Sensual",
+        "hair_pulling": "Tarik Rambut",
+        "foot_fetish": "Fetish Kaki",
+        "voyeurism": "Voyeurism",
+        "exhibitionism": "Exhibitionism",
+        "sensation_play": "Sensation Play",
+        "wax_play": "Wax Play",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Medical Play",
+        "orgasm_control_denial": "Orgasm Control/Denial",
+        "forced_orgasms": "Forced Orgasms",
+        "group_sex": "Group Sex",
+        "threesomes": "Threesomes",
+        "swapping": "Bertukar",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Dominasi Lembut",
+        "sensation_deprivation": "Deprivasi Sensasi",
+        "sensory_overload": "Kelebihan Sensorik",
+        "uniform_costume_fetish": "Fetish Seragam/Kostum",
+        "food_play": "Bermain Makanan",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Bermain Dampak",
+        "knife_play": "Bermain Pisau",
+        "consensual_non_consent": "Non-Konsensual Konsensual",
+        "power_exchange": "Pertukaran Kekuasaan",
+        "master_slave": "Tuan/Budak",
+        "owner_pet": "Pemilik/Hewan Peliharaan"
+      },
+      "languages": {
+        "en": "Inggris",
+        "cs": "Ceko",
+        "pl": "Polandia",
+        "de": "Jerman",
+        "es": "Spanyol",
+        "fr": "Prancis"
+      }
+    }
+  },
+  "myAI": {
+    "title": "AI Saya",
+    "titlePart1": "AI",
+    "titlePart2": "Saya",
+    "createNew": "Buat AI baru",
+    "createButton": "Buat Karakter",
+    "characterCount": "{count}/{limit} karakter",
+    "loadMore": "Muat Lebih Banyak",
+    "empty": {
+      "title": "Belum Ada Karakter",
+      "description": "Buat karakter AI pertamamu dan mulai mengobrol! Sesuaikan penampilan, kepribadian, dan suaranya.",
+      "createFirst": "Buat Karakter Pertamamu"
+    },
+    "delete": {
+      "title": "Hapus Karakter",
+      "message": "Yakin ingin menghapus {name}? Ini akan menghapus karakter secara permanen, seluruh riwayat obrolan, dan konten yang dibuat.",
+      "confirm": "Hapus",
+      "success": "Karakter berhasil dihapus"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interaksi",
+    "interactionDescription": "Ketik secara alami — minta foto, video, atau mulai percakapan. AI memahami maksudmu dalam bahasa apa pun.",
+    "mediaTitle": "Buat Gambar & Video",
+    "mediaDescription": "Bebaskan imajinasimu — buat gambar atau video tanpa batas.",
+    "next": "Lanjut →",
+    "gotIt": "Mengerti"
+  }
+}

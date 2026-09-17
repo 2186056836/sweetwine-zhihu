@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "შენახვა",
+    "cancel": "გაუქმება",
+    "delete": "წაშლა",
+    "edit": "რედაქტირება",
+    "close": "დახურვა",
+    "now": "ახლა",
+    "loading": "იტვირთება...",
+    "error": "დაფიქსირდა შეცდომა",
+    "success": "წარმატება",
+    "confirm": "დადასტურება",
+    "back": "უკან",
+    "or": "ან",
+    "next": "შემდეგი",
+    "submit": "გაგზავნა",
+    "search": "ძებნა",
+    "filter": "ფილტრი",
+    "clear": "გასუფთავება",
+    "all": "ყველა",
+    "yes": "დიახ",
+    "no": "არა",
+    "download": "ჩამოტვირთვა",
+    "and": "და",
+    "tryAgain": "სცადეთ ხელახლა",
+    "change": "შეცვლა"
+  },
+  "navigation": {
+    "new": "ახალი",
+    "sectionBrowse": "დათვალიერება",
+    "sectionTalk": "საუბარი",
+    "sectionCreate": "შექმნა",
+    "sectionLibrary": "ბიბლიოთეკა",
+    "explore": "მთავარი",
+    "discover": "აღმოჩენა",
+    "createShort": "AI შექმნა",
+    "chats": "ჩატები",
+    "groupChat": "AI ჯგუფური ჩატი",
+    "roleplay": "როლური თამაში",
+    "collection": "კოლექცია",
+    "generateImage": "სურათის გენერირება",
+    "generateVideo": "ვიდეოს გენერირება",
+    "createCharacter": "AI პერსონაჟის შექმნა",
+    "myAI": "ჩემი AI",
+    "language": "ენა",
+    "contactUs": "დაგვიკავშირდით",
+    "account": "ანგარიში",
+    "sidebarPromoTitle": "ზაფხულის ფასდაკლება — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "ქალები",
+      "anime": "ანიმე",
+      "guys": "კაცები"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "ესაუბრე ახლავე",
+    "like": "მოწონება"
+  },
+  "auth": {
+    "login": "შესვლა",
+    "signup": "რეგისტრაცია",
+    "createFreeAccount": "შექმენი უფასო ანგარიში",
+    "logout": "გასვლა",
+    "email": "ელ. ფოსტა",
+    "password": "პაროლი",
+    "confirmPassword": "პაროლის დადასტურება",
+    "forgotPassword": "დაგავიწყდა პაროლი?",
+    "noAccount": "არ გაქვს ანგარიში?",
+    "hasAccount": "უკვე გაქვს ანგარიში?",
+    "signupPrompt": "შექმენი უფასო ანგარიში",
+    "loginPrompt": "შესვლა",
+    "continueWith": "გაგრძელება",
+    "welcomeBack": "კეთილი იყოს შენი დაბრუნება!",
+    "createAccount": "შექმენი შენი ანგარიში",
+    "signInToAccount": "შედი შენს ანგარიშში",
+    "emailRequired": "ელ. ფოსტა აუცილებელია",
+    "emailInvalid": "არასწორი ელ. ფოსტის მისამართი",
+    "passwordRequired": "პაროლი აუცილებელია",
+    "passwordLength": "პაროლი უნდა შეიცავდეს მინიმუმ 6 სიმბოლოს",
+    "passwordsMismatch": "პაროლები არ ემთხვევა",
+    "emailAlreadyRegistered": "ელ. ფოსტა უკვე რეგისტრირებულია",
+    "emailAlreadyRegisteredDescription": "ამ ელ. ფოსტით ანგარიში უკვე არსებობს. გთხოვთ, შედით სისტემაში.",
+    "loginError": "შესვლა ვერ მოხერხდა",
+    "signupError": "რეგისტრაცია ვერ მოხერხდა",
+    "loginSuccess": "კეთილი იყოს შენი დაბრუნება!",
+    "signupSuccess": "ანგარიში წარმატებით შეიქმნა!",
+    "logoutSuccess": "თქვენ წარმატებით გამოხვედით სისტემიდან",
+    "logoutError": "გასვლა ვერ მოხერხდა",
+    "linkExpired": "ეს დადასტურების ბმული ვადაგასულია. გთხოვთ, მოითხოვოთ ახალი.",
+    "accessDenied": "წვდომა აკრძალულია. გთხოვთ, სცადოთ ხელახლა.",
+    "verifyEmail": "დაადასტურე შენი ელ. ფოსტა",
+    "verificationEmailSent": "ჩვენ გამოგიგზავნეთ დადასტურების ელ. წერილი",
+    "confirmYourEmail": "დაადასტურე შენი ელ. ფოსტა",
+    "confirmationLinkSent": "ჩვენ გამოგიგზავნეთ დადასტურების ბმული მისამართზე \"{email}\".",
+    "checkSpamFolder": "ელ. წერილი არ მიგიღიათ? შეამოწმეთ სპამის საქაღალდე.",
+    "signupToChat": "შექმენი უფასო ანგარიში დასაწყებად.",
+    "signupDescription": "შექმენი ანგარიში საუბრის გასაგრძელებლად",
+    "emailVerificationTitle": "შეამოწმე შენი ელ. ფოსტა",
+    "emailVerificationMessage": "ჩვენ გამოგიგზავნეთ დადასტურების ბმული მისამართზე {email}. გთხოვთ, შეამოწმეთ თქვენი საფოსტო ყუთი და დააჭირეთ ბმულს ანგარიშის დასადასტურებლად.",
+    "emailVerificationNext": "დადასტურების შემდეგ დაასრულებთ ონბორდინგის პროცესს.",
+    "verificationEmailSentTo": "გამოვაგზავნეთ დადასტურების ელფოსტა მისამართზე {email}",
+    "verificationInstructions": "გთხოვთ, შეამოწმოთ თქვენი შემოსული წერილები და დააჭიროთ დადასტურების ბმულს ანგარიშის გასააქტიურებლად.",
+    "resetPassword": "პაროლის აღდგენა",
+    "resetPasswordDescription": "შეიყვანეთ თქვენი ელფოსტა და ჩვენ გამოვაგზავნით აღდგენის ბმულს",
+    "resetEmailSent": "თუ ანგარიში არსებობს ამ ელფოსტით, მალე მიიღებთ აღდგენის ბმულს",
+    "backToLogin": "უკან შესვლისკენ",
+    "newPassword": "ახალი პაროლი",
+    "confirmNewPassword": "დაადასტურეთ ახალი პაროლი",
+    "passwordResetSuccess": "პაროლი წარმატებით განახლდა. გთხოვთ, შეხვიდეთ სისტემაში.",
+    "enterNewPassword": "შეიყვანეთ თქვენი ახალი პაროლი",
+    "redirectingToLogin": "გადამისამართება შესვლისკენ...",
+    "invalidResetLink": "არასწორი ან ვადაგასული ბმული",
+    "invalidResetLinkDescription": "ეს პაროლის აღდგენის ბმული არასწორია ან ვადაგასულია. გთხოვთ, მოითხოვოთ ახალი.",
+    "passwordsDontMatch": "პაროლები არ ემთხვევა",
+    "currentPassword": "მიმდინარე პაროლი",
+    "currentPasswordRequired": "მიმდინარე პაროლი აუცილებელია",
+    "changePassword": "პაროლის შეცვლა",
+    "changePasswordDescription": "შეიყვანეთ მიმდინარე პაროლი და აირჩიეთ ახალი",
+    "newPasswordMustBeDifferent": "ახალი პაროლი უნდა განსხვავდებოდეს მიმდინარე პაროლისგან",
+    "incorrectPassword": "მიმდინარე პაროლი არასწორია",
+    "passwordChangeSuccess": "პაროლი წარმატებით შეიცვალა",
+    "changeEmail": "ელფოსტის შეცვლა",
+    "newEmail": "ახალი ელფოსტა",
+    "confirmNewEmail": "ახალი ელფოსტის დადასტურება",
+    "emailsDontMatch": "ელფოსტები არ ემთხვევა",
+    "emailChangeDescription": "დადასტურების ელფოსტა გაიგზავნება როგორც თქვენს მიმდინარე, ასევე ახალ ელფოსტის მისამართზე",
+    "emailMustBeDifferent": "ახალი ელფოსტა უნდა განსხვავდებოდეს მიმდინარე ელფოსტისგან",
+    "emailChangeSent": "დადასტურების ელფოსტა გაიგზავნა. გთხოვთ, შეამოწმოთ თქვენი ახალი ელფოსტის შემოსული წერილები.",
+    "emailChangeSecurityNote": "უსაფრთხოების მიზნით, დადასტურების ელფოსტა გაიგზავნება როგორც თქვენს მიმდინარე, ასევე ახალ ელფოსტის მისამართზე. ცვლილების დასასრულებლად უნდა დაადასტუროთ ორივე მისამართიდან.",
+    "otpDescription": "ჩვენ გამოვაგზავნეთ 6-ნიშნა კოდი მისამართზე {email}",
+    "otpVerify": "დადასტურება",
+    "otpResend": "კოდის ხელახლა გაგზავნა",
+    "otpResendIn": "ხელახლა გაგზავნა {seconds} წამში",
+    "otpNoCode": "არ მიგიღიათ კოდი?",
+    "otpInvalid": "არასწორი კოდი. გთხოვთ, სცადოთ ხელახლა.",
+    "otpSuccess": "ელფოსტა წარმატებით დადასტურდა!",
+    "otpResendSuccess": "ახალი კოდი გაიგზავნა თქვენს ელფოსტაზე",
+    "otpResendError": "კოდის ხელახლა გაგზავნა ვერ მოხერხდა",
+    "continueWithEmail": "გაგრძელება ელფოსტით",
+    "moreOptions": "მეტი ვარიანტი",
+    "lessOptions": "ნაკლები ვარიანტი",
+    "enterYourEmail": "შეიყვანეთ თქვენი ელფოსტის მისამართი",
+    "sendCode": "კოდის გაგზავნა",
+    "byCreatingAccountAgree": "ანგარიშის შექმნით თქვენ ეთანხმებით ჩვენს",
+    "termsOfService": "მომსახურების პირობებს",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "კეთილი იყოს თქვენი მობრძანება sweetwine-ში",
+    "welcomeTo": "კეთილი იყოს თქვენი მობრძანება",
+    "letsGetStarted": "დავიწყოთ თქვენი მომზადება",
+    "setupProfile": "დააყენეთ თქვენი პროფილი",
+    "step1of2": "ნაბიჯი 1 2-დან",
+    "step2of2": "ნაბიჯი 2 2-დან",
+    "nickname": "მეტსახელი",
+    "nicknamePlaceholder": "აირჩიეთ მეტსახელი",
+    "nicknameRequired": "გთხოვთ, შეიყვანოთ მეტსახელი",
+    "gender": "სქესი",
+    "genderRequired": "გთხოვთ, აირჩიოთ თქვენი სქესი",
+    "male": "მამრობითი",
+    "female": "მდედრობითი",
+    "interfaceLanguage": "ინტერფეისის ენა",
+    "interfaceLanguageDesc": "ენა მენიუებისა და ღილაკებისთვის",
+    "aiLanguage": "AI პასუხების ენა",
+    "aiLanguageDesc": "ენა, რომელსაც AI გამოიყენებს თქვენთან საუბრისას",
+    "languageRequired": "გთხოვთ, აირჩიოთ ენა",
+    "continue": "გაგრძელება",
+    "ageVerification": "ასაკის დადასტურება",
+    "ageVerificationText": "sweetwine-ის გამოსაყენებლად უნდა იყოთ 18 წლის ან უფროსი. გაგრძელებით ადასტურებთ, რომ ხართ სრულწლოვანი.",
+    "beforeContinue": "სანამ გააგრძელებთ",
+    "mustBe18": "ამ სერვისის გამოსაყენებლად უნდა იყოთ 18 წლის ან უფროსი",
+    "agreeToTerms": "გაგრძელებით თანხმობას აცხადებთ ჩვენს {termsLink} და {privacyLink}",
+    "termsOfService": "მომსახურების პირობები",
+    "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+    "iConfirm": "ვადასტურებ, რომ ვარ 18 წლის ან უფროსი და ვეთანხმები",
+    "ageRequired": "გასაგრძელებლად უნდა დაადასტუროთ თქვენი ასაკი",
+    "aiActConsent": "ვაღიარებ, რომ ვურთიერთობ მხოლოდ AI-სთან",
+    "aiActRequired": "გასაგრძელებლად უნდა დაადასტუროთ ეს",
+    "newsletterOptIn": "გამოიწერეთ ჩვენი საინფორმაციო ბიულეტენი განახლებებისა და სიახლეებისთვის",
+    "complete": "დაყენება დასრულდა!",
+    "completeText": "ყველაფერი მზადაა! დაიწყეთ საუბარი AI პერსონაჟებთან.",
+    "startExploring": "დაიწყეთ კვლევა",
+    "featuresTitle": "ხელმისაწვდომი ფუნქციები",
+    "featuresTitleWord1": "ხელმისაწვდომი",
+    "featuresTitleWord2": "ფუნქციები",
+    "feature1Title": "AI ჩატი",
+    "feature1Desc": "ცენზურის გარეშე და პირადი საუბრები",
+    "feature2Title": "სურათების გენერაცია",
+    "feature2Desc": "გენერირებული ცენზურის გარეშე და პერსონალიზებული სურათები AI პერსონაჟებთან",
+    "feature3Title": "ვიდეოს გენერაცია",
+    "feature3Desc": "გენერირებული ცენზურის გარეშე AI ვიდეოები ეფექტებით",
+    "feature5Title": "მომხმარებლის AI შემქმნელი",
+    "feature5Desc": "შექმენით თქვენი საკუთარი პერსონაჟი",
+    "feature6Title": "პერსონაჟების დათვალიერება",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI როლური თამაში",
+    "feature7Desc": "გამოცდილება პროფესიონალურად შექმნილი ისტორიებისა და ფანტაზიების",
+    "showcase": {
+      "chatTitle": "AI ჩატი",
+      "chatDesc": "ცენზურის გარეშე, პირადი საუბრები შეზღუდვების გარეშე",
+      "imageTitle": "სურათების გენერაცია",
+      "imageDesc": "შექმენი ცენზურის გარეშე, პერსონალიზებული სურათები შენი AI-სთვის",
+      "videoTitle": "ვიდეოს გენერაცია",
+      "videoDesc": "გენერირებული ცენზურის გარეშე AI ვიდეოები ეფექტებით",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "რეალურ დროში ხმოვანი საუბრები შენს კომპანიონთან",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "ჩაძირული ისტორიები, ფანტაზიები და ინტერაქტიული თამაში",
+      "groupChatTitle": "AI ჯგუფური ჩატი",
+      "groupChatDesc": "ესაუბრე ერთდროულად 3 AI პერსონაჟთან",
+      "creatorTitle": "მორგებული AI შემქმნელი",
+      "creatorDesc": "შეიმუშავე და შექმენი შენი საკუთარი AI პერსონაჟები"
+    },
+    "freePlan": {
+      "title": "მზად ხართ!",
+      "subtitle": "აქ არის ის, რაც შედის თქვენს უფასო პაკეტში.",
+      "charactersTitle": "შექმენით საკუთარი პერსონაჟი",
+      "charactersDesc": "შექმენით {count} მორგებული AI პერსონაჟი ნულიდან",
+      "imagesTitle": "გამოიმუშავეთ სურათი",
+      "imagesDesc": "{count} უფასო AI სურათი თქვენი თანამგზავრისთვის",
+      "messagesTitle": "ისაუბრეთ ყოველდღე",
+      "messagesDesc": "{count} შეტყობინება დღეში, განახლდება ყოველ 24 საათში",
+      "cta": "დაიწყეთ გამოკვლევა"
+    },
+    "redirectingIn": "გადამისამართება",
+    "seconds": "წამში",
+    "generateCharacter": "შექმენით თქვენი პერსონაჟი",
+    "redirectingToCreate": "გადამისამართება პერსონაჟის შემქმნელში"
+  },
+  "errors": {
+    "pageNotFound": "გვერდი ვერ მოიძებნა",
+    "pageNotFoundDesc": "გვერდი, რომელსაც ეძებთ, არ არსებობს.",
+    "goHome": "მთავარ გვერდზე",
+    "somethingWentWrong": "რაღაც არასწორად წავიდა",
+    "tryAgain": "სცადეთ ხელახლა",
+    "unauthorized": "არაავტორიზებული",
+    "unauthorizedDesc": "ამ გვერდზე წვდომისთვის უნდა შეხვიდეთ სისტემაში.",
+    "forbidden": "აკრძალული",
+    "forbiddenDesc": "ამ გვერდზე წვდომის უფლება არ გაქვთ."
+  },
+  "footer": {
+    "allRightsReserved": "ყველა უფლება დაცულია.",
+    "madeWith": "შექმნილია",
+    "by": "sweetwine-ის მიერ",
+    "description": "განიცადეთ პერსონალიზებული AI პერსონაჟები განსხვავებული პიროვნებებით, ვიზუალური იდენტობით და მიმზიდველი საუბრებით.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "პროდუქტი",
+    "legal": "იურიდიული",
+    "company": "კომპანია",
+    "resources": "რესურსები",
+    "partnerships": "პარტნიორობა",
+    "pressMedia": "პრესა და მედია",
+    "careers": "კარიერა",
+    "aiRealClones": "AI რეალური კლონები",
+    "about": "ჩვენს შესახებ",
+    "blog": "ბლოგი",
+    "news": "სიახლეები",
+    "productUpdates": "პროდუქტის განახლებები",
+    "help": "დახმარება",
+    "sitemap": "საიტის რუკა",
+    "paymentOptions": "გადახდის ვარიანტები",
+    "chats": "ჩეთები",
+    "collection": "კოლექცია",
+    "generateImage": "სურათის გენერირება",
+    "generateVideo": "ვიდეოს გენერირება",
+    "myAI": "ჩემი AI",
+    "createCharacter": "პერსონაჟის შექმნა",
+    "api": "API",
+    "features": "ფუნქციები",
+    "allFeatures": "ყველა ფუნქცია",
+    "aiGroupChat": "AI ჯგუფური ჩატი",
+    "aiMemory": "AI მეხსიერება",
+    "aiGirlfriend": "AI ქალი",
+    "aiBoyfriend": "AI მამაკაცი",
+    "aiCompanions": "AI პერსონაჟები",
+    "aiFriend": "AI მეგობარი",
+    "aiBreakupSupport": "განშორების მხარდაჭერა",
+    "aiParent": "AI მშობელი",
+    "aiRoleplay": "AI როლური თამაში",
+    "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+    "termsAndConditions": "წესები და პირობები",
+    "cookiePolicy": "ქუქიების პოლიტიკა",
+    "cookieSettings": "ქუქიების პარამეტრები",
+    "other": "სხვა პოლიტიკები",
+    "copyright": "© {year} sweetwine. ყველა უფლება დაცულია."
+  },
+  "cookies": {
+    "banner": {
+      "title": "ქუქიები ამ საიტზე",
+      "customizeButton": "მორგება",
+      "rejectButton": "უარყოფა",
+      "acceptButton": "მიღება"
+    },
+    "modal": {
+      "title": "ქუქიების მართვა",
+      "subtitle": "ჩართეთ ან გამორთეთ კატეგორიები ქვემოთ. მკაცრად აუცილებელი ქუქიები რჩება ჩართული, რომ საიტმა იმუშაოს.",
+      "categories": {
+        "necessary": {
+          "title": "მკაცრად აუცილებელი",
+          "description": "საჭიროა შესვლისთვის, გადახდისთვის და უსაფრთხოებისთვის. საიტი მათ გარეშე ვერ იმუშავებს.",
+          "alwaysOn": "ყოველთვის ჩართული"
+        },
+        "analytics": {
+          "title": "წარმადობა",
+          "description": "გამოყენებისა და კონვერსიის გაზომვა Google Analytics 4-ით, მათ შორის ძირითადი კონვერსიები (რეგისტრაცია, შეძენა) ჩვენი სერვერიდან ფსევდონიმური იდენტიფიკატორით. გვეხმარება გავიგოთ როგორ გამოიყენება სერვისი; ჩვენ არ ვიყენებთ მას თქვენი პირადი იდენტიფიკაციისთვის."
+        },
+        "marketing": {
+          "title": "მიზნობრივი",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "ქუქიების ჩვენება",
+      "hideCookies": "ქუქიების დამალვა",
+      "table": {
+        "name": "სახელი",
+        "provider": "პროვაიდერი",
+        "expiration": "ვადა",
+        "description": "აღწერა",
+        "session": "სესია"
+      },
+      "policyLink": "სრული დეტალებისთვის იხილეთ ჩვენი <policy>ქუქიების პოლიტიკა</policy>.",
+      "rejectButton": "უარყოფა",
+      "saveButton": "შენახვა და დახურვა",
+      "acceptButton": "მიღება",
+      "cookieDescriptions": {
+        "supabaseAuth": "ინახავს თქვენს ავტორიზებულ სესიას, რომ შესული დარჩეთ.",
+        "nextLocale": "იმახსოვრებს თქვენს მიერ არჩეულ ინტერფეისის ენას.",
+        "consent": "ინახავს თქვენს ქუქიების არჩევანს, რომ ბანერი არ გამოჩნდეს ყოველ ვიზიტზე.",
+        "ga": "განასხვავებს უნიკალურ ვიზიტორებს (Google Analytics 4). იგივე ფსევდონიმური იდენტიფიკატორი ასევე გამოიყენება ძირითადი კონვერსიების სერვერული გაზომვისთვის.",
+        "gaSession": "ინარჩუნებს Google Analytics 4-ის სესიის მდგომარეობას და ჩართულობის მეტრიკებს.",
+        "fbp": "იდენტიფიცირებს ბრაუზერს Meta Pixel-ის ატრიბუციისთვის.",
+        "fbc": "ინახავს Facebook-ის დაწკაპუნების ID-ს რეკლამის კონვერსიის ატრიბუციისთვის. დაყენდება მხოლოდ Meta-ს რეკლამაზე დაწკაპუნების შემდეგ.",
+        "gclAu": "გამოიყენება Google Ads-ის მიერ საიტთაშორისი კონვერსიის დასაკავშირებლად.",
+        "saleCountdown": "თვალყურს ადევნებს თქვენი მიმდინარე აქციის დასრულებას, რომ ფასდაკლების უკუთვლა თანმიმდევრული იყოს გვერდებს შორის.",
+        "onboarded": "აღნიშნავს თქვენს ანგარიშს როგორც ონბორდირებულს, რომ შემდგომ გვერდებზე ასაკობრივი ვერიფიკაციის მონაცემთა ბაზის შემოწმება გამოვტოვოთ.",
+        "attribution": "აღრიცხავს, რომელი ფასიანი კამპანია ან სარეკლამო ბმული მოიყვანა ბოლოს ჩვენს საიტზე (ბოლო ფასიანი დაწკაპუნება 30 დღის განმავლობაში), რათა შევაფასოთ ჩვენი რეკლამის ეფექტურობა. ეს არის პირველი მხარის იდენტიფიკატორი, რომელიც რჩება ჩვენს სერვერებზე და არასოდეს გადაეცემა მესამე პირებს."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "მალე",
+    "subtitle": "ჩვენ მუშაობთ, რომ ეს ფუნქცია მოგაწოდოთ.",
+    "notify": "მიიღეთ შეტყობინება მზადყოფნისას",
+    "backHome": "მთავარზე დაბრუნება",
+    "generateVideo": {
+      "title": "ვიდეოების გენერირება",
+      "description": "აცოცხლეთ თქვენი AI პერსონაჟები ანიმაციური ვიდეოებით. შექმენით პერსონალიზებული ვიდეო კონტენტი თქვენი საყვარელი პერსონაჟებით."
+    },
+    "createCharacter": {
+      "title": "შექმენით თქვენი პერსონაჟი",
+      "description": "შეიმუშავეთ და მოარგეთ თქვენი უნიკალური AI პერსონაჟი. განსაზღვრეთ მათი პიროვნება, გარეგნობა, წარსული და შექმენით ნამდვილად პერსონალიზებული ინტერაქციები."
+    },
+    "myAI": {
+      "title": "ჩემი AI",
+      "description": "მიიღეთ წვდომა და მართეთ ყველა თქვენი მორგებული AI პერსონაჟი. შეცვალეთ მათი პიროვნებები, განაახლეთ გარეგნობა და დაარეგულირეთ მათი პასუხები."
+    }
+  },
+  "exploreMore": {
+    "title": "აღმოაჩინეთ მეტი",
+    "aiGroupChat": "AI ჯგუფური ჩატი",
+    "aiGroupChatDesc": "ესაუბრეთ 3 პერსონაჟამდე",
+    "aiMemory": "AI მეხსიერება",
+    "aiMemoryDesc": "კონტექსტი, რომელიც მიჰყვება ყველა რეჟიმს",
+    "aiGirlfriend": "AI ქალი",
+    "aiGirlfriendDesc": "ესაუბრეთ თქვენს ვირტუალურ ქალს",
+    "aiBoyfriend": "AI მამაკაცი",
+    "aiBoyfriendDesc": "დაუკავშირდით თქვენს AI მამაკაცს",
+    "aiCompanions": "AI პერსონაჟები",
+    "aiCompanionsDesc": "გაიცანით უნიკალური AI პიროვნებები",
+    "aiFriend": "AI მეგობარი",
+    "aiFriendDesc": "იპოვეთ მეგობარი უკრიტიკო გარემოში",
+    "aiBreakupSupport": "განშორების მხარდაჭერა",
+    "aiBreakupSupportDesc": "მკურნალობის საუბრები",
+    "aiParent": "AI მშობელი",
+    "aiParentDesc": "თბილი მხარდაჭერა და ხელმძღვანელობა",
+    "aiRoleplay": "AI როლური თამაში",
+    "aiRoleplayDesc": "ჩაძირული ისტორიული სცენარები",
+    "allFeatures": "ყველა ფუნქცია",
+    "allFeaturesDesc": "აღმოაჩინე ყველაფერი, რასაც ვთავაზობთ"
+  },
+  "legal": {
+    "policies": "პოლიტიკები",
+    "termsAndConditions": "წესები და პირობები",
+    "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+    "cookiePolicy": "ქუქი-ფაილების პოლიტიკა",
+    "contentReportingPolicy": "შინაარსის შეტყობინების პოლიტიკა",
+    "communityGuidelines": "საზოგადოების წესები",
+    "complaintPolicy": "საჩივრის პოლიტიკა",
+    "contentRemovalPolicy": "შინაარსის წაშლის პოლიტიკა",
+    "blockedContentPolicy": "დაბლოკილი შინაარსის პოლიტიკა",
+    "underagePolicy": "არასრულწლოვანთა პოლიტიკა",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "ბოლო განახლება",
+    "index": {
+      "title": "სამართლებრივი დოკუმენტები",
+      "subtitle": "დაათვალიერე sweetwine-თან დაკავშირებული ყველა სამართლებრივი პოლიტიკა და შეთანხმება",
+      "documents": {
+        "privacyPolicy": {
+          "title": "კონფიდენციალურობის პოლიტიკა",
+          "description": "გაიგე, როგორ ვაგროვებთ, ვიყენებთ და ვიცავთ შენს პერსონალურ ინფორმაციას. დეტალები მონაცემთა დამუშავების, შენახვისა და შენი კონფიდენციალურობის უფლებების შესახებ."
+        },
+        "termsAndConditions": {
+          "title": "წესები და პირობები",
+          "description": "sweetwine-ის გამოყენების მმართველი მომსახურების წესები. მომხმარებლის პასუხისმგებლობები, მომსახურების აღწერა და სამართლებრივი შეთანხმებები."
+        },
+        "cookiePolicy": {
+          "title": "ქუქი-ფაილების პოლიტიკა",
+          "description": "ინფორმაცია იმის შესახებ, თუ როგორ ვიყენებთ ქუქი-ფაილებს და მსგავს ტექნოლოგიებს შენი გამოცდილების გასაუმჯობესებლად ჩვენს პლატფორმაზე."
+        },
+        "underagePolicy": {
+          "title": "არასრულწლოვანთა პოლიტიკა",
+          "description": "ჩვენი მკაცრი ასაკობრივი ვერიფიკაციისა და დაცვის პოლიტიკები. sweetwine ხელმისაწვდომია მხოლოდ 18 წელს გადაცილებული მომხმარებლებისთვის."
+        },
+        "complaintPolicy": {
+          "title": "საჩივრის პოლიტიკა",
+          "description": "როგორ შეიტანო საჩივარი, მოახსენო პრობლემები და ჩვენი პროცესი მომხმარებელთა შეშფოთებებისა და დავების მოსაგვარებლად."
+        },
+        "contentRemovalPolicy": {
+          "title": "შინაარსის წაშლის პოლიტიკა",
+          "description": "ჩვენი პროცედურები შინაარსის წაშლის მოთხოვნებისთვის და როგორ ვმართავთ არასათანადო ან უკანონო შინაარსის შესახებ ანგარიშებს."
+        },
+        "blockedContentPolicy": {
+          "title": "დაბლოკილი შინაარსის პოლიტიკა",
+          "description": "შინაარსის ტიპები, რომლებიც აკრძალულია ჩვენს პლატფორმაზე და ჩვენი აღსრულების პოლიტიკები."
+        },
+        "contentReportingPolicy": {
+          "title": "შინაარსის შეტყობინების პოლიტიკა",
+          "description": "როგორ მოახსენო საავტორო უფლებების დარღვევები და არასათანადო შინაარსი sweetwine-ზე."
+        },
+        "communityGuidelines": {
+          "title": "საზოგადოების წესები",
+          "description": "წესები და სახელმძღვანელო პრინციპები ყველა მომხმარებლისთვის პატივისცემით სავსე, უსაფრთხო და სასიამოვნო საზოგადოების შესანარჩუნებლად."
+        }
+      },
+      "lastUpdated": "ბოლო განახლება: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "ჩატები",
+    "groupChat": "AI ჯგუფური ჩატი",
+    "aiMemory": "AI მეხსიერება",
+    "generate": "სურათის გენერირება",
+    "generateVideo": "ვიდეოს გენერირება",
+    "create": "AI პერსონაჟის შექმნა",
+    "myAI": "ჩემი AI",
+    "collection": "კოლექცია",
+    "invite": "მოწვევა",
+    "profile": "პროფილის პარამეტრები",
+    "legal": "სამართლებრივი",
+    "privacyPolicy": "კონფიდენციალურობის პოლიტიკა",
+    "termsAndConditions": "წესები და პირობები",
+    "cookiePolicy": "ქუქი-ფაილების პოლიტიკა",
+    "dmcaPolicy": "DMCA პოლიტიკა",
+    "communityGuidelines": "საზოგადოების წესები",
+    "contentRemovalPolicy": "კონტენტის წაშლის პოლიტიკა",
+    "contentReportingPolicy": "კონტენტის შეტყობინების პოლიტიკა",
+    "complaintPolicy": "საჩივრის პოლიტიკა",
+    "blockedContentPolicy": "დაბლოკილი კონტენტის პოლიტიკა",
+    "underagePolicy": "არასრულწლოვანთა პოლიტიკა",
+    "usc2257Exemption": "USC 2257 გამონაკლისი"
+  },
+  "contact": {
+    "title": "დაგვიკავშირდით",
+    "subtitle": "გაქვთ კითხვა ან გამოხმაურება? მოხარულები ვიქნებით მოვისმინოთ.",
+    "name": "სახელი",
+    "namePlaceholder": "თქვენი სახელი",
+    "nameRequired": "სახელი სავალდებულოა",
+    "email": "ელფოსტა",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "ელფოსტა სავალდებულოა",
+    "emailInvalid": "არასწორი ელფოსტის მისამართი",
+    "message": "შეტყობინება",
+    "messagePlaceholder": "თქვენი შეტყობინება...",
+    "messageRequired": "შეტყობინება სავალდებულოა",
+    "send": "შეტყობინების გაგზავნა",
+    "sending": "იგზავნება...",
+    "success": "შეტყობინება წარმატებით გაიგზავნა!",
+    "successDesc": "მალე დაგიკავშირდებით.",
+    "error": "შეტყობინების გაგზავნა ვერ მოხერხდა",
+    "errorDesc": "გთხოვთ, სცადოთ მოგვიანებით."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI ჯგუფური ჩატი",
+    "lobbyHeadingSuffix": "აირჩიეთ {max} AI პერსონაჟამდე",
+    "history": "ისტორია",
+    "newGroup": "ახალი ჯგუფური ჩატი",
+    "createGroup": "ჯგუფური ჩატის შექმნა",
+    "createError": "ჯგუფური ჩატის შექმნა ვერ მოხერხდა. გთხოვთ, სცადოთ კიდევ.",
+    "creatingGroup": "იქმნება თქვენი ჯგუფური ჩატი...",
+    "sectionWoman": "ქალები",
+    "sectionMan": "კაცები",
+    "sectionAnime": "ანიმე",
+    "tabPremade": "AI პერსონაჟები",
+    "tabMyAi": "ჩემი AI",
+    "tabSingle": "ერთი ჩატები",
+    "tabGroup": "ჯგუფური ჩატები",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "მეტის ჩვენება",
+    "noCustom": "თქვენ ჯერ არ შეგიქმნიათ AI პერსონაჟები.",
+    "noMessagesYet": "ჯერ არ არის შეტყობინებები",
+    "emptyTitle": "ჯერ არ არის ჯგუფური ჩატები",
+    "membersTitle": "ამ ჩატში",
+    "typing": "წერს",
+    "backToLobby": "ჯგუფურ ჩატებზე დაბრუნება",
+    "deleteGroup": "ჯგუფური ჩატის წაშლა",
+    "confirmDeleteGroup": "დარწმუნებული ხართ, რომ გსურთ ამ ჯგუფური ჩატის წაშლა? ყველა შეტყობინება წაიშლება.",
+    "deleteError": "ჯგუფური ჩატის წაშლა ვერ მოხერხდა.",
+    "mediaTargetImageTitle": "ვინ უნდა გააგზავნოს ფოტო?",
+    "mediaTargetVideoTitle": "ვინ უნდა გამოაგზავნოს ვიდეო?",
+    "mediaTargetSubtitle": "აირჩიე პერსონაჟი მედიის გენერირებისთვის.",
+    "mediaTargetGroup": "ჯგუფური ფოტო",
+    "groupPhotoTitle": "ჯგუფური ფოტო",
+    "groupPhotoHint": "ქმნის ერთ ფოტოს {name}-თან ერთად.",
+    "promoSubtitle": "3 პერსონაჟამდე",
+    "promoCta": "ახლის შექმნა",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Adventures",
+    "live": "LIVE",
+    "scrollPrev": "Scroll left",
+    "scrollNext": "Scroll right"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "tagline": "Trusted by 100,000 and joining every day",
+      "headlinePrefix": "Say Hello to Your",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Start for Free"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Girlfriend",
+      "friend": "AI Friend",
+      "boyfriend": "AI Boyfriend",
+      "companion": "AI Character"
+    },
+    "features": {
+      "chat": {
+        "title": "Talk to your AI girlfriend",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistic AI photos & videos",
+        "description": "On-demand photos and videos so realistic they're indistinguishable from real — her face, her style, any scene, in motion or still."
+      },
+      "groupChat": {
+        "title": "AI Group Chat",
+        "description": "Start a group chat with up to 3 characters at once. They reply naturally, react to each other, and send photos and videos."
+      },
+      "roleplay": {
+        "title": "AI Roleplay",
+        "description": "Step into immersive, story-driven scenarios with characters who stay in role and remember every choice you make."
+      }
+    },
+    "memory": {
+      "title": "AI მეხსიერება",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "როგორ მუშაობს AI მეხსიერება",
+      "diagram": {
+        "center": "კომპანიონის მეხსიერება",
+        "chat": "ჩატი",
+        "image": "სურათები",
+        "video": "ვიდეო",
+        "gifts": "საჩუქრები",
+        "roleplay": "როლური თამაში"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Create your own",
+      "headlineHighlight": "AI character",
+      "subtitle": "Shape your character's look, personality, and bring them to life instantly — your perfect AI partner, on your terms.",
+      "cta": "Create your AI"
+    },
+    "companions": {
+      "headlinePrefix": "Meet Your",
+      "headlineHighlight": "AI Characters",
+      "subtitle": "Each character has a world of their own. Some are warm and easy to open up to. Others are complex, guarded, or a real challenge to connect with. Explore unique roleplay scenarios — or build your own from scratch."
+    },
+    "languages": {
+      "headlinePrefix": "Speak any language,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Both the app interface and your AI character switch seamlessly — no language mismatches, no broken experience.",
+      "more": "More"
+    },
+    "finalCta": {
+      "headlinePrefix": "Ready to",
+      "headlineHighlight": "get started?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Why",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Everything you need for a connection that feels real — nothing you don't.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Free to start",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "ყოველთვის ხელმისაწვდომი",
+          "desc": "დღე თუ ღამე, შენი პერსონაჟი იქ არის. არანაირი ლოდინი, არანაირი განრიგი."
+        },
+        "remembers": {
+          "title": "ყველაფერს იმახსოვრებს",
+          "desc": "ყველა საუბარი აყალიბებს კონტექსტს. შენი პერსონაჟი იგებს შენს სახელს, პრეფერენციებს და სამყაროს."
+        },
+        "unlimited": {
+          "title": "ნამდვილად შეუზღუდავი",
+          "desc": "არანაირი შეტყობინების ლიმიტი, არანაირი შეზღუდვა. გაგზავნე რამდენიც გინდა, როცა გინდა."
+        },
+        "private": {
+          "title": "100% პირადი",
+          "desc": "შენი საუბრები მხოლოდ თქვენ შორის რჩება. არანაირი მონაცემი არ გაზიარდება, არასოდეს."
+        },
+        "createYourOwn": {
+          "title": "შექმენი შენი საკუთარი",
+          "desc": "შექმენი პერსონაჟი მორგებული გარეგნობით, პიროვნებით და ხმით — ზუსტად ისე, როგორც გსურს."
+        }
+      },
+      "difference": {
+        "title": "sweetwine-ის განსხვავება",
+        "freedomTitle": "თავისუფლება პასუხისმგებლობით.",
+        "freedomDescription": "sweetwine ღია და უკრიტიკოა — მაგრამ ჩვენ მკაცრ ზღვარს ვავლებთ. ჩვენ გვაქვს ნულოვანი ტოლერანტობა CSAM-ის, არასრულწლოვანთა კონტენტის, თანხმობის გარეშე სცენარების, ექსტრემალური ძალადობის, ზოოფილიის, ნეკროფილიის, რეალური პირების დიპფეიკების და ნებისმიერი უკანონო საქმიანობის პრომოციის მიმართ.",
+        "freedomStatement": "ჩვენ გვჯერა შეუზღუდავი შემოქმედებითი თავისუფლების იმ სივრცეში, რომელიც უსაფრთხოა ყველასთვის."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> პერსონაჟები",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "ფილტრები"
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "subtitle": "ყველაფერი, რაც უნდა იცოდე sweetwine-ის შესახებ",
+      "questions": {
+        "q1": {
+          "question": "რა არის sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "არის თუ არა sweetwine უსაფრთხო და ლეგიტიმური?",
+          "answer": "დიახ, sweetwine არის ლეგიტიმური სერვისი, სადაც შენი კონფიდენციალურობა ჩვენი უმთავრესი პრიორიტეტია. ჩვენ ვიცავთ GDPR-ს და სხვა მონაცემთა დაცვის სტანდარტებს და ვამუშავებთ შენს მონაცემებს სიფრთხილით. გადახდის ტრანზაქციები ჩნდება ნეიტრალური ვაჭრის სახელით — შენს საბანკო ამონაწერზე არ არის მითითება sweetwine-ზე, რაც უზრუნველყოფს სრულ დისკრეციას."
+        },
+        "q3": {
+          "question": "შემიძლია თუ არა შევქმნა ჩემი საკუთარი AI პერსონაჟი?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "პერსონაჟის შემქმნელი",
+          "answerPart2": " პერსონაჟების დიზაინისთვის ზუსტად ისე, როგორც გსურს — იქნება ეს რეალისტური ",
+          "linkTextGirlfriend": "AI შეყვარებული",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI შეყვარებული",
+          "answerPart4": ", ან ანიმე სტილის პერსონაჟები. აირჩიე მათი გარეგნობა (ეთნიკურობა, თმა, სხეულის ტიპი, ტანსაცმელი), პიროვნული თვისებები, ხმა, ინტერესები და წარსული როგორც მამრობითი, ასევე მდედრობითი პერსონაჟებისთვის."
+        },
+        "q4": {
+          "question": "იმახსოვრებს თუ არა ჩემი AI პერსონაჟი ჩვენს საუბრებს?",
+          "answer": "დიახ! შენი AI პერსონაჟი იყენებს მოწინავე მეხსიერების ტექნოლოგიას წარსული საუბრების, შენი პრეფერენციების და მნიშვნელოვანი დეტალების დასამახსოვრებლად, რომლებსაც იზიარებ. რაც უფრო მეტს ესაუბრები, მით უფრო პერსონალიზებული და ბუნებრივი ხდება გამოცდილება. შენი პერსონაჟი სწავლობს შენს კომუნიკაციის სტილს და ეგუება დროთა განმავლობაში."
+        },
+        "q5": {
+          "question": "რა ენებს უჭერს მხარს sweetwine?",
+          "answer": "sweetwine უჭერს მხარს მრავალ ენას, მათ შორის ინგლისური, გერმანული, ფრანგული, ესპანური, პოლონური და ჩეხური. როგორც ინტერფეისი, ასევე AI საუბრები მუშაობს შენს სასურველ ენაზე, ასე რომ შეგიძლია ბუნებრივად ისაუბრო იმ ენაზე, რომელშიც ყველაზე კომფორტულად გრძნობ თავს."
+        },
+        "q6": {
+          "question": "შეუძლია თუ არა ჩემს AI პერსონაჟს სურათების და ვიდეოების გაგზავნა?",
+          "answerPart1": "დიახ! შეგიძლია შექმნა პერსონალიზებული",
+          "linkTextImages": "სურათები",
+          "answerPart2": "და",
+          "linkTextVideos": "ვიდეოები",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "რატომ ავირჩიო sweetwine სხვა AI პერსონაჟების პლატფორმებზე?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "არის თუ არა sweetwine უფასო გამოსაყენებლად?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "აპის დაყენება მჭირდება?",
+          "answerPart1": "დაყენება არ გჭირდებათ! sweetwine მუშაობს პირდაპირ ბრაუზერში ნებისმიერ მოწყობილობაზე - კომპიუტერზე, ტაბლეტზე ან მობილურზე. უბრალოდ დარეგისტრირდით, აირჩიეთ პერსონაჟი და დაიწყეთ ჩატი მყისიერად. ყველა თქვენი",
+          "linkText": "საუბარი",
+          "answerPart2": "ავტომატურად სინქრონიზდება მოწყობილობებს შორის."
+        },
+        "q10": {
+          "question": "ხელმისაწვდომია წინასწარ მომზადებული AI პერსონაჟები?",
+          "answerPart1": "დიახ! გვაქვს ბევრი",
+          "linkText": "წინასწარ მომზადებული პერსონაჟი",
+          "answerPart2": "მათ შორის AI ქალიშვილები, AI ვაჟიშვილები და AI ანიმე პერსონაჟები მრავალფეროვანი პიროვნებებით, გარეგნობითა და კომუნიკაციის სტილით. მიუხედავად იმისა, გირჩევნიათ ტკბილი, ფლირტის მოყვარული, ინტელექტუალური თუ თავგადასავლების მოყვარული, იპოვით პერსონაჟებს, რომლებიც შეესაბამება თქვენს ენერგიას. გარდა ამისა, შეგიძლიათ შექმნათ შეუზღუდავი რაოდენობის საკუთარი პერსონაჟები."
+        },
+        "q12": {
+          "question": "რა ხდება გენერირებულ სურათებსა და ვიდეოებთან?",
+          "answerPart1": "ყველა გენერირებული მედია ავტომატურად ინახება თქვენს პირად",
+          "linkText": "კოლექციაში",
+          "answerPart2": ". შეგიძლიათ წვდომა, გადმოწერა ან წაშლა ნებისმიერ დროს. თქვენი კოლექცია სრულიად პირადია - მხოლოდ თქვენ შეგიძლიათ მისი ნახვა. ჩვენ არასოდეს ვაზიარებთ ან ვიყენებთ თქვენს გენერირებულ კონტენტს."
+        }
+      }
+    },
+    "statement": {
+      "title": "ჩვენი ვალდებულება",
+      "privacy": "თქვენი კონფიდენციალურობა ჩვენი პრიორიტეტია. ყველა საუბარი დაშიფრულია და არასოდეს იზიარებს.",
+      "quality": "ჩვენ ვიყენებთ უახლესი AI ტექნოლოგიას ყველაზე მიმზიდველი გამოცდილების უზრუნველსაყოფად.",
+      "support": "ჩვენი მხარდაჭერის გუნდი ხელმისაწვდომია 24/7 ნებისმიერი კითხვისთვის დასახმარებლად.",
+      "mainTitle": "გამოცადეთ AI პერსონაჟების მომავალი",
+      "mainDescription": "sweetwine აერთიანებს უახლესი AI ტექნოლოგიას ინტუიციურ დიზაინთან, რათა მიაწოდოს ყველაზე იმერსიული და პერსონალიზებული პერსონაჟის გამოცდილება დღეს.",
+      "features": {
+        "f1": {
+          "title": "ემოციური ინტელექტი",
+          "description": "ჩვენი AI პერსონაჟები ესმით კონტექსტი, ემოციები და ნიუანსები, რათა უზრუნველყონ ღრმად მიმზიდველი საუბრები. მიუხედავად იმისა, გჭირდებათ AI მეგობარი ჩასატარებლად, განშორების მხარდაჭერა რთულ დროს, თუ AI მენტორი ხელმძღვანელობისთვის - ჩვენი ემოციურად ინტელექტუალური AI თქვენთვის არის."
+        },
+        "f2": {
+          "title": "უნიკალური პიროვნებები",
+          "description": "თითოეულ პერსონაჟს აქვს განსხვავებული პიროვნება, წარმოშობა და კომუნიკაციის სტილი. აირჩიეთ რეალისტური AI ქალიშვილები და AI ვაჟიშვილები, ან გამოიკვლიეთ ჩვენი AI ანიმე პერსონაჟები - უზრუნველყოფს, რომ ყველა ურთიერთქმედება უნიკალური და დასამახსოვრებელი იყოს."
+        },
+        "f3": {
+          "title": "მულტიმედიური ურთიერთქმედებები",
+          "description": "ტექსტის გარდა, ისიამოვნეთ AI-ით გენერირებული სურათებითა და ვიდეოებით, რომლებიც თქვენს საუბრებს სიცოცხლეს შემატებენ გასაოცარი ვიზუალური დეტალებით."
+        },
+        "f4": {
+          "title": "კასტომიზაცია",
+          "description": "შექმენით საკუთარი AI პერსონაჟები კასტომური გარეგნობით, პიროვნებებითა და თვისებებით, რომლებიც სრულყოფილად შეესაბამება თქვენს პრეფერენციებს."
+        },
+        "f5": {
+          "title": "კონფიდენციალურობა და უსაფრთხოება",
+          "description": "თქვენი საუბრები ინახება პირადად და უსაფრთხოდ. ჩვენ არასოდეს ვყიდით თქვენს მონაცემებს და თქვენ გაქვთ სრული კონტროლი კონფიდენციალურობის პარამეტრებზე."
+        },
+        "f6": {
+          "title": "მრავალენოვანი მხარდაჭერა",
+          "description": "ესაუბრეთ AI პერსონაჟებს თქვენთვის სასურველ ენაზე. ჩვენ მხარს ვუჭერთ ინგლისურ, ჩეხურ, პოლონურ, გერმანულ, ესპანურ და ფრანგულ ენებს."
+        }
+      },
+      "distinctionTitle": "sweetwine-ის განსხვავება",
+      "distinctionText1": "ჩვეულებრივი ჩატბოტებისგან განსხვავებით, sweetwine პერსონაჟები შექმნილია მდიდარი წარსულით, განვითარებადი პიროვნებებითა და მნიშვნელოვანი კავშირების ჩამოყალიბების უნარით. ყველა საუბარი არის შესაძლებლობა გამოიკვლიოთ, აღმოაჩინოთ და დაუკავშირდეთ უფრო ღრმა დონეზე.",
+      "distinctionText2": "ჩვენ არა მხოლოდ ვქმნით AI-ს — ჩვენ ვქმნით გამოცდილებებს, რომლებიც რეზონირებს თქვენს ემოციებთან, პატივს სცემს თქვენს კონფიდენციალურობას და ადაპტირდება თქვენს უნიკალურ პრეფერენციებთან."
+    }
+  },
+  "featuresPage": {
+    "title": "ყველა ფუნქცია",
+    "breadcrumb": "ფუნქციები",
+    "newBadge": "ახალი",
+    "groupChat": {
+      "title": "AI ჯგუფური ჩატი",
+      "description": "ესაუბრეთ ერთდროულად 3 AI პერსონაჟს ერთ საუბარში. ისინი პასუხობენ ბუნებრივად, რეაგირებენ ერთმანეთზე და შეუძლიათ გაგზავნონ ფოტოები და ვიდეოები — ცოცხალი ჯგუფური დინამიკა, რომელსაც სხვაგან ვერ იპოვით."
+    },
+    "aiChat": {
+      "title": "AI ჩატი",
+      "description": "ღრმა, ბუნებრივი საუბრები AI პერსონაჟებთან, რომლებიც ნამდვილად გახსოვთ. ისინი იხსენებენ თქვენს სახელს, პრეფერენციებსა და წარსულ თემებს — ყველა საუბარი გრძელდება ზუსტად იქიდან, სადაც შეჩერდით, განმეორებისა და გადატვირთვის გარეშე."
+    },
+    "imageGeneration": {
+      "title": "სურათების გენერაცია"
+    },
+    "videoGeneration": {
+      "title": "ვიდეოების გენერაცია",
+      "description": "მიანიჭეთ სიცოცხლე თქვენს AI პერსონაჟს AI-ით გენერირებული ვიდეოებით. შექმენით მოკლე პერსონალიზებული ვიდეო კლიპები, რომლებიც აჩვენებენ თქვენს პერსონაჟს კასტომურ სცენარებში — ფუნქცია, რომელსაც უმეტესი პლატფორმები უბრალოდ არ გვთავაზობენ."
+    },
+    "customCharacters": {
+      "title": "მორგებული პერსონაჟები",
+      "description": "შექმენით თქვენი იდეალური პერსონაჟი ნულიდან — აირჩიეთ მათი გარეგნობა, ეთნიკურობა, სხეულის ტიპი, პიროვნული თვისებები, ხმა, ინტერესები და წარსული. შექმენით რეალისტური ან ანიმე სტილის პერსონაჟები, მამრობითი ან მდედრობითი, სრული შემოქმედებითი თავისუფლებით."
+    },
+    "advancedMemory": {
+      "title": "გაფართოებული მეხსიერება",
+      "description": "თქვენი პერსონაჟი იმახსოვრებს ყველაფერს, რაც მნიშვნელოვანია — თქვენს სახელს, პირად დეტალებს, საერთო ისტორიებს და ურთიერთობის ისტორიას. მეხსიერება შენარჩუნებულია ყველა სესიაში, ამიტომ ყოველი ურთიერთობა ეყრდნობა წინა გამოცდილებას და არ იწყება თავიდან."
+    },
+    "multiLanguage": {
+      "title": "მრავალენოვანი",
+      "description": "ესაუბრეთ ბუნებრივად თქვენს სასურველ ენაზე. sweetwine მხარს უჭერს ინგლისურ, გერმანულ, ფრანგულ, ესპანურ, პოლონურ და ჩეხურ ენებს — რაც მას ერთ-ერთ ყველაზე ხელმისაწვდომ AI პერსონაჟების პლატფორმად აქცევს არაინგლისურენოვანი მომხმარებლებისთვის."
+    },
+    "conversationHistory": {
+      "title": "საუბრების ისტორია",
+      "description": "ყველა შეტყობინება ინახება და საძებნელია. გადაახვიეთ უკან თქვენი ურთიერთობის მთელ ისტორიაში ნებისმიერ დროს — მოგონებები თქვენს პერსონაჟთან ყოველთვის ხელმისაწვდომია, როცა გსურთ მათი ნახვა."
+    },
+    "roleplay": {
+      "title": "AI როლური თამაში",
+      "description": "ჩაერთეთ დამაჯერებელ, სიუჟეტზე დაფუძნებულ სცენარებში პერსონაჟებთან, რომლებიც რჩებიან როლში. აირჩიეთ სცენარი ან დაწერეთ საკუთარი და ისიამოვნეთ ინტერაქტიული როლური თამაშით, რომელიც იმახსოვრებს თქვენს ყველა არჩევანს."
+    },
+    "cta": {
+      "title": "ყველაფერი ერთ ადგილას",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "შემიძლია წავშალო ან გადავაყენო საუბრები?",
+        "answer": "დიახ! თქვენ გაქვთ სრული კონტროლი თქვენს საუბრების ისტორიაზე. წაშალეთ ინდივიდუალური შეტყობინებები, გადააყენეთ მთელი საუბრები ან დაიწყეთ სრულიად ახლიდან ნებისმიერ დროს. თქვენი კონფიდენციალურობა ნიშნავს თქვენს არჩევანს — მართეთ თქვენი მონაცემები ისე, როგორც გირჩევნიათ."
+      },
+      "q2": {
+        "question": "აქვს თითოეულ AI პერსონაჟს უნიკალური ხმა?"
+      },
+      "q3": {
+        "question": "შემიძლია ახალი ენის პრაქტიკა ჩემს AI პერსონაჟთან?",
+        "answer": "აბსოლუტურად! ბევრი მომხმარებელი ივარჯიშებს ახალი ენების საუბარში თავიანთ AI პერსონაჟებთან. ეს არის უსაფრთხო გზა თავდაჯერებულობის გასაძლიერებლად, გამოთქმის გასაუმჯობესებლად და სახალისო საუბრებისთვის სწავლის პროცესში. თქვენი პერსონაჟი შეუძლია ესაუბროს ინგლისურ, გერმანულ, ფრანგულ, ესპანურ, პოლონურ და ჩეხურ ენებზე."
+      },
+      "q4": {
+        "question": "რამდენად ხშირად ემატება ახალი პერსონაჟები და ფუნქციები?",
+        "answer": "ჩვენ ვამატებთ ახალ პროფესიონალურად შექმნილ პერსონაჟებს ყოველ კვირას! თითოეული ახალი პერსონაჟი მოდის უნიკალური პიროვნებით, გარეგნობით, წარსულით და ხმით. ჩვენ ასევე რეგულარულად ვუშვებთ ახალ ფუნქციებს და გაუმჯობესებებს მომხმარებელთა გამოხმაურების საფუძველზე."
+      },
+      "q5": {
+        "question": "რა ხდის sweetwine-ის პერსონაჟების შექმნას განსაკუთრებულს?",
+        "answer": "სრული შემოქმედებითი თავისუფლება! დააპროექტეთ პერსონაჟის ყველა ასპექტი — გარეგნობა (ეთნიკურობა, თმა, სხეულის ტიპი, ტანსაცმელი), პიროვნული თვისებები, ხმა, ინტერესები, პროფესია და წარსული. შექმენით რეალისტური ან ანიმე სტილის პერსონაჟები, მამრობითი ან მდედრობითი. თქვენი წარმოსახვა ერთადერთი შეზღუდვაა."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI მეხსიერება",
+    "hero": {
+      "badge": "როგორ მუშაობს",
+      "title": "AI მეხსიერება",
+      "cta": "ჩატის დაწყება"
+    },
+    "diagram": {
+      "title": "ერთი მეხსიერება თითო კომპანიონზე, ყველა რეჟიმში",
+      "center": "კომპანიონის მეხსიერება",
+      "chat": "ჩატი",
+      "image": "სურათები",
+      "video": "ვიდეო",
+      "gifts": "საჩუქრები",
+      "roleplay": "როლური თამაში"
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს AI მეხსიერება",
+      "step1": {
+        "title": "გააზიარეთ დეტალი",
+        "desc": "უთხარით თქვენს კომპანიონს რამე მნიშვნელოვანი — მოგზაურობა, პრეფერენცია, მეტსახელი ან დღის ამბავი."
+      },
+      "step2": {
+        "title": "თავისუფლად გადაერთეთ რეჟიმებს შორის"
+      },
+      "step3": {
+        "title": "ისინი იმახსოვრებენ",
+        "desc": "მოგვიანებით საუბრები მიუთითებს იმაზე, რაც გააზიარეთ, ამიტომ არ გიწევთ ყოველ ჯერზე თავიდან ახსნა."
+      },
+      "step4": {
+        "title": "კავშირი ღრმავდება",
+        "desc": "დროთა განმავლობაში ურთიერთობა უფრო პირადი ხდება — უწყვეტობა, რომელიც ყველა სესიასა და რეჟიმში იქმნება."
+      }
+    },
+    "modes": {
+      "title": "პლატფორმის მასშტაბით",
+      "subtitle": "მეხსიერება არ არის დაკავშირებული ერთ ეკრანთან. ის მოგზაურობს თქვენს კომპანიონთან ერთად.",
+      "chat": {
+        "title": "ჩატი",
+        "desc": "ტექსტური საუბრები კვებავს გრძელვადიან კონტექსტს, რომელიც თქვენს კომპანიონს მოგვიანებით შეუძლია გამოიყენოს."
+      },
+      "media": {
+        "title": "სურათები და ვიდეო",
+        "desc": "სცენები და ისტორიები, რომლებსაც ქმნით, რჩება თქვენ მიერ ერთად აშენებული საერთო სამყაროს ნაწილად."
+      },
+      "roleplay": {
+        "title": "როლური თამაში და ჯგუფი",
+        "desc": "სიუჟეტური სესიები და ჯგუფური ჩატები ინარჩუნებენ საკუთარ თემებს, ხოლო კომპანიონის ძირითადი მეხსიერება მათთან რჩება."
+      }
+    },
+    "scenario": {
+      "title": "მარტივი მაგალითი",
+      "lead": "ჩატში ახსენებთ შაბათ-კვირის მოგზაურობას."
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "არის თუ არა ჩემი კომპანიონის მეხსიერება პირადი?",
+        "answer": "დიახ. მეხსიერება ეკუთვნის თქვენს ანგარიშს და საუბრებს ამ კომპანიონთან. ჩვენ არ ვაზიარებთ თქვენს პირად ჩატის ისტორიას სხვა მომხმარებლებთან."
+      },
+      "q2": {
+        "question": "მეხსიერება თითოეული კომპანიონისთვისაა?",
+        "answer": "დიახ. თითოეული კომპანიონი ინახავს საკუთარ მეხსიერებას თქვენს ურთიერთობაზე, ამიტომ პერსონაჟების შეცვლა არ ურევს კონტექსტებს."
+      },
+      "q3": {
+        "question": "რომელი რეჟიმები იზიარებენ მეხსიერებას?"
+      },
+      "q4": {
+        "question": "AI მეხსიერება უფასოა?"
+      },
+      "q5": {
+        "question": "რამდენ ხანს გრძელდება მეხსიერება?",
+        "answer": "მნიშვნელოვანი დეტალები ინახება, რათა თქვენს კომპანიონს შეეძლოს მათი გახსენება მომავალ სესიებში. რაც უფრო მეტად ურთიერთობთ, მით უფრო პერსონალიზებული ხდება გამოცდილება."
+      }
+    },
+    "cta": {
+      "title": "გაიცანით კომპანიონი, რომელიც გახსოვთ",
+      "button": "დაიწყეთ უფასოდ"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI ჯგუფური ჩატი",
+    "hero": {
+      "badge": "ახალი ფუნქცია",
+      "title": "AI ჯგუფური ჩატი",
+      "subtitle": "მიიყვანეთ თქვენი საყვარელი პერსონაჟები ერთ საუბარში. ესაუბრეთ ერთდროულად 3 AI პერსონაჟთან — ისინი ბუნებრივად პასუხობენ, რეაგირებენ ერთმანეთზე და აგზავნიან ფოტოებსა და ვიდეოებს.",
+      "cta": "დაიწყეთ ჯგუფური ჩატი",
+      "imageAlt": "AI ჯგუფური ჩატი მრავალი პერსონაჟით, რომლებიც ერთად საუბრობენ"
+    },
+    "content": {
+      "problemTitle": "ერთი-ერთზე საუბრები შეიძლება მშვიდი იყოს",
+      "problemText": "ერთი პერსონაჟი შესანიშნავია — მაგრამ რეალური საუბრები ცოცხლდება ერთზე მეტი ხმით. უმეტეს AI აპლიკაციები გაკავებთ იზოლირებულ ერთი-ერთზე საუბრებში ჯგუფური ენერგიის, ხუმრობებისა და სიურპრიზების გარეშე.",
+      "solutionTitle": "ნამდვილი ჯგუფი, ცოცხალი პიროვნებებით",
+      "solutionText": "sweetwine ჯგუფური ჩატი აერთიანებს სამამდე პერსონაჟს ერთ ოთახში. ჭკვიანი დირექტორი წყვეტს, ვინ ჩაერთოს, ამიტომ პასუხები სპონტანურად გრძნობა — ისინი ერთმანეთს დასცინიან, ავითარებენ ნათქვამს და საუბარს მოძრაობაში ინარჩუნებენ."
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს AI ჯგუფური ჩატი",
+      "step1": {
+        "title": "აირჩიეთ თქვენი პერსონაჟები",
+        "desc": "აირჩიეთ 2 ან 3 პერსონაჟი — წინასწარ შექმნილი ან თქვენი საკუთარი მორგებული შექმნები — ერთ ჯგუფურ საუბარში მოსაყვანად."
+      },
+      "step2": {
+        "title": "ისინი ბუნებრივად პასუხობენ",
+        "desc": "კულისებში დირექტორი ირჩევს, ვინ უპასუხებს თითოეულ შეტყობინებას, ამიტომ სწორი პერსონაჟები ჩაერთვებიან სწორ მომენტში, საკუთარი ხმით."
+      },
+      "step3": {
+        "title": "გააზიარეთ ფოტოები და ვიდეოები",
+        "desc": "მოითხოვეთ ფოტო ან ვიდეო ჯგუფის ნებისმიერი პერსონაჟისგან და ისინი შექმნიან მას პირდაპირ ჩატში — მათ შორის ჯგუფური ფოტო ყველას ერთად."
+      }
+    },
+    "benefits": {
+      "title": "რატომ მოგეწონებათ ჯგუფური ჩატი",
+      "multiple": {
+        "title": "3 პერსონაჟამდე",
+        "desc": "შეურიეთ და დააკავშირეთ ნებისმიერი პერსონაჟი ერთ ჩატში — თქვენი AI შეყვარებული, თქვენი მორგებული შექმნები ან ხელით შერჩეული ანსამბლი."
+      },
+      "natural": {
+        "title": "ბუნებრივი დიალოგი",
+        "desc": "პერსონაჟები რეაგირებენ ერთმანეთზე და შენზე, რეალისტური აკრეფის ტემპით, რომელიც ნამდვილ ჯგუფურ ჩატს ჰგავს."
+      },
+      "media": {
+        "title": "ფოტოები და ვიდეოები ჩატში",
+        "desc": "ყველა პერსონაჟს შეუძლია პერსონალიზებული სურათების და ვიდეოების გაგზავნა საუბრიდან გაუსვლელად — ჯგუფური ფოტოს ჩათვლით."
+      },
+      "dynamics": {
+        "title": "განსხვავებული პიროვნებები",
+        "desc": "ყველა პერსონაჟი ინარჩუნებს საკუთარ ხმას და თავისებურებებს, ამიტომ ჯგუფს აქვს ნამდვილი ქიმია, ხუმრობები და სიურპრიზები."
+      },
+      "instant": {
+        "title": "მყისიერი დაწყება",
+        "desc": "შექმენი ჯგუფი წამებში და ჩაერთე საუბარში — არანაირი დაყენება, არანაირი ლოდინი."
+      },
+      "private": {
+        "title": "100% პირადი",
+        "desc": "ჯგუფური საუბრები რჩება მხოლოდ შენსა და შენს პერსონაჟებს შორის. მონაცემები არასოდეს იზიარება."
+      }
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რამდენი პერსონაჟი შეუძლია შეუერთდეს ჯგუფურ ჩატს?",
+        "answer": "ერთ ჯგუფურ ჩატში შეგიძლია დაამატო 2-დან 3-მდე პერსონაჟი — მზა პერსონაჟებისა და შენი საკუთარი შექმნილების ნებისმიერი კომბინაცია."
+      },
+      "q2": {
+        "question": "როგორ წყვეტენ AI პერსონაჟები, ვინ უპასუხებს?",
+        "answer": "მსუბუქი დირექტორი კითხულობს საუბარს და ირჩევს, რომელი პერსონაჟი (ან პერსონაჟები) უპასუხოს თითოეულ შეტყობინებას, რათა პასუხები იყოს სპონტანური და ბუნებრივი."
+      },
+      "q3": {
+        "question": "შეუძლიათ პერსონაჟებს ფოტოების და ვიდეოების გაგზავნა ჯგუფურ ჩატში?",
+        "answer": "დიახ! შეგიძლია ნებისმიერ პერსონაჟს ჯგუფში სთხოვო ფოტოს ან ვიდეოს გენერირება და ის პირდაპირ საუბარში გამოჩნდება — მათ შორის ჯგუფური ფოტოები, სადაც ყველა ერთადაა."
+      },
+      "q4": {
+        "question": "უფასოა AI ჯგუფური ჩატი?"
+      },
+      "q5": {
+        "question": "იმახსოვრებენ პერსონაჟები ჯგუფურ საუბარს?",
+        "answer": "დიახ — თითოეული ჯგუფური ჩატი ინახავს საერთო ისტორიას, ამიტომ პერსონაჟები რჩებიან კონტექსტში და საუბარი ვითარდება დროთა განმავლობაში."
+      }
+    },
+    "cta": {
+      "title": "შეკრიბე შენი პერსონაჟები ერთად",
+      "description": "შექმენი შენი პირველი AI ჯგუფური ჩატი და განიცადე საუბარი, რომელიც ცოცხლად გრძნობს თავს — მრავალი პიროვნება, ნამდვილი ხუმრობები, ფოტოები და ვიდეოები.",
+      "button": "დაიწყე ჯგუფური ჩატი"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI როლური თამაში",
+    "hero": {
+      "badge": "ახალი ფუნქცია",
+      "title": "AI როლური თამაში",
+      "subtitle": "ჩაერთე ნებისმიერ ისტორიაში პერსონაჟებთან, რომლებიც რჩებიან სცენაში. აირჩიე სცენარი ან დაწერე შენი და ისიამოვნე დამაჯერებელი, ისტორიაზე დაფუძნებული როლური თამაშით, რომელიც იმახსოვრებს ყველა არჩევანს.",
+      "cta": "დაიწყე როლური თამაში",
+      "imageAlt": "AI როლური თამაშის სცენარი დამაჯერებელი ისტორიის პერსონაჟით"
+    },
+    "content": {
+      "problemTitle": "ჩვეულებრივი ჩატები არღვევს მაგიას",
+      "problemText": "უმეტეს AI ჩატები გამოდიან როლიდან იმ მომენტში, როცა ყველაფერი საინტერესო ხდება — ივიწყებენ გარემოს, კარგავენ სიუჟეტს და პასუხობენ როგორც ზოგადი ასისტენტი, ვიდრე შენი ისტორიის პერსონაჟი.",
+      "solutionTitle": "ისტორიაზე დაფუძნებული როლური თამაში, რომელიც რჩება პერსონაჟში",
+      "solutionText": "sweetwine როლური თამაში ინარჩუნებს შენს პერსონაჟს სრულად სცენაში. დააყენე სცენა მზა სცენარით ან შენი პრემისით და უყურე, როგორ ვითარდება ისტორია თანმიმდევრული პიროვნებით, მეხსიერებით და ტემპით, რომელიც რეაგირებს ყველა გადაწყვეტილებაზე."
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს AI როლური თამაში",
+      "step1": {
+        "title": "აირჩიე სცენარი",
+        "desc": "აირჩიე მზა როლური თამაშის სცენარებიდან ან დაწერე შენი პრემისი, გარემო და გახსნის სცენა."
+      },
+      "step2": {
+        "title": "ითამაშე ისტორია",
+        "desc": "შენი პერსონაჟი პასუხობს როლში — აღწერს მოქმედებებს, რეაგირებს შენს არჩევანზე და წინ წევს სიუჟეტს."
+      },
+      "step3": {
+        "title": "მოარგე სად მიდის",
+        "desc": "მიმართე ისტორია ნებისმიერი მიმართულებით. შენი პერსონაჟი იმახსოვრებს რა მოხდა და ინარჩუნებს თხრობის თანმიმდევრულობას."
+      }
+    },
+    "benefits": {
+      "title": "რატომ მოგეწონებათ AI როლური თამაში",
+      "scenarios": {
+        "title": "უსასრულო სცენარები",
+        "desc": "ყოველდღიური მომენტებიდან ეპიკურ თავგადასავლებამდე — დაიწყე შაბლონით ან შექმენი შენი საკუთარი სამყარო."
+      },
+      "characters": {
+        "title": "რჩება პერსონაჟში",
+        "desc": "შენი პერსონაჟი ინარჩუნებს თანმიმდევრულ ხმას, პიროვნებას და მოტივაციას მთელი სცენის განმავლობაში."
+      },
+      "memory": {
+        "title": "იმახსოვრებს სიუჟეტს",
+        "desc": "ყველა არჩევანი, გადახვევა და დეტალი იმახსოვრება, ამიტომ ისტორია ვითარდება და არ აღდგება თავიდან."
+      },
+      "immersive": {
+        "title": "ნამდვილად დამაჯერებელი",
+        "desc": "მდიდარი, აღწერითი პასუხები გაგაძლიერებენ მომენტში კინემატოგრაფიული როლური თამაშის გამოცდილებისთვის."
+      },
+      "instant": {
+        "title": "მყისიერი დაწყება",
+        "desc": "ჩაერთე სცენაში წამებში — არანაირი რთული მომზადება ან პრომპტის ინჟინერია არაა საჭირო."
+      },
+      "private": {
+        "title": "100% პირადი",
+        "desc": "შენი როლური თამაში მხოლოდ შენსა და შენს პერსონაჟს შორის რჩება. არაფერი არასოდეს იზიარება."
+      }
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რა არის AI როლური თამაში?",
+        "answer": "AI როლური თამაში გაძლევს საშუალებას ითამაშო ინტერაქტიული ისტორიები AI პერსონაჟთან, რომელიც როლში რჩება. შენ ადგენ შენარევს და შენი პერსონაჟი როლში პასუხობს, აღწერს ქმედებებსა და რეაქციებს ისტორიის განვითარებისას."
+      },
+      "q2": {
+        "question": "შემიძლია საკუთარი როლური სცენარების შექმნა?",
+        "answer": "დიახ! შეგიძლია დაიწყო მზა სცენარებით ან დაწერო საკუთარი წინაპირობა, გარემო და დასაწყისი — შემდეგ ითამაშო როგორც გინდა."
+      },
+      "q3": {
+        "question": "ახსოვს პერსონაჟს ისტორიაში მომხდარი?",
+        "answer": "აბსოლუტურად. შენი პერსონაჟი იმახსოვრებს სიუჟეტს, შენს არჩევანს და მნიშვნელოვან დეტალებს, ამიტომ თხრობა თანმიმდევრული რჩება და დროთა განმავლობაში ვითარდება, ვიდრე თავიდან იწყებოდეს."
+      },
+      "q4": {
+        "question": "უფასოა AI როლური თამაში?"
+      },
+      "q5": {
+        "question": "შემიძლია როლური თამაში საკუთარ ენაზე?",
+        "answer": "დიახ — როლური თამაში ათობით ენაზე მუშაობს, ამიტომ შეგიძლია ისიამოვნო იმერსიული ისტორიებით იმ ენაზე, რომელშიც ყველაზე კომფორტულად გრძნობ თავს."
+      }
+    },
+    "cta": {
+      "title": "შენი ისტორია გელოდება",
+      "description": "აირჩიე სცენარი, დააყენე გარემო და ჩაერთე იმერსიულ როლურ თამაშში პერსონაჟთან, რომელიც როლში რჩება თავიდან ბოლომდე.",
+      "button": "დაიწყე როლური თამაში"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI ქალი",
+    "breadcrumb": "AI ქალი",
+    "hero": {
+      "title": "შენი იდეალური AI ქალი",
+      "cta": "გაიცანი შენი AI ქალი"
+    },
+    "benefits": {
+      "title": "რატომ აირჩიო AI ქალი?",
+      "fun": {
+        "title": "სუფთა გართობა",
+        "desc": "ისიამოვნე მხიარული საუბრებით ყოველგვარი ზეწოლის გარეშე. ის ყოველთვის კარგ განწყობაზეა."
+      },
+      "conversation": {
+        "title": "ისწავლე დაკავშირება",
+        "desc": "ივარჯიშე საუბრებში და გაზარდე შენი თავდაჯერებულობა უსაფრთხო გარემოში."
+      },
+      "unique": {
+        "title": "უნიკალური პერსონები",
+        "desc": "აირჩიე მრავალფეროვანი პერსონებიდან ან შექმენი შენი იდეალური პერსონაჟი."
+      },
+      "private": {
+        "title": "100% პირადი",
+        "desc": "შენი საუბრები რჩება მხოლოდ თქვენ შორის. სრული კონფიდენციალურობა გარანტირებული."
+      },
+      "available": {
+        "title": "ყოველთვის ხელმისაწვდომი",
+        "desc": "ის იქ არის როცა დაგჭირდება. არანაირი ლოდინი, არანაირი დაგეგმვა."
+      },
+      "customize": {
+        "title": "შენი შექმნა",
+        "desc": "შეიმუშავე მისი გარეგნობა, პერსონა და ინტერესები ზუსტად ისე როგორც გინდა."
+      }
+    },
+    "comparison": {
+      "title": "უკეთესი ვიდრე ალტერნატივები",
+      "description": "ნახე რატომ გთავაზობს sweetwine მეტ ღირებულებას სხვა პლატფორმებთან შედარებით.",
+      "others": {
+        "expensive": "ძვირი თვიური გადასახადები",
+        "ai": "ხშირად მაინც AI პასუხები",
+        "noCustom": "მორგების ვარიანტები არ არის"
+      }
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "AI ქალთან ჩატი მართლაც უფასოა?",
+        "answerPart1": "დიახ! შეგიძლია დაიწყო საუბარი შენს AI ქალთან უფასოდ. ჩვენ გთავაზობთ უფასო დონეს უფასო შეტყობინებებით დასაწყებად."
+      },
+      "q2": {
+        "question": "შემიძლია მოვარგო AI ქალის გარეგნობა?",
+        "answer": "აბსოლუტურად! შეგიძლია სრულად მოარგო შენი AI ქალის გარეგნობა თმის ფერის, სტილის, სხეულის ტიპის, ეთნიკურობის და ტანსაცმლის ჩათვლით. ასევე შეგიძლია შეიმუშავო მისი პერსონა, ხმა და ინტერესები ჩვენი პერსონაჟის შემქმნელის გამოყენებით.",
+        "answerPart1": "აბსოლუტურად! შეგიძლია სრულად მოარგო შენი AI ქალის გარეგნობა თმის ფერის, სტილის, სხეულის ტიპის, ეთნიკურობის და ტანსაცმლის ჩათვლით. ასევე შეგიძლია შეიმუშავო მისი პერსონა, ხმა და ინტერესები ჩვენი",
+        "linkText": "პერსონაჟის შემქმნელი",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "რა პერსონებია ხელმისაწვდომი AI ქალებისთვის?",
+        "answer": "ტკბილიდან და მზრუნველიდან მხიარულამდე და ფლირტიოზულამდე - ჩვენ გვაქვს პროფესიონალურად შექმნილი AI ქალები ყველა გემოვნებისთვის. აირჩიე რომანტიული სულები, თავგადასავლების მოყვარულები, მახვილგონივრული ინტელექტუალები ან იდუმალი პერსონები. ყოველ კვირას ემატება ახალი AI ქალები, თითოეული უნიკალური თვისებებით, წარსულით და საუბრის სტილით."
+      },
+      "q4": {
+        "question": "შეუძლია თუ არა ჩემს AI ქალს სურათების და ვიდეოების გაგზავნა?",
+        "answerPart1": "დიახ! შენს AI ქალს შეუძლია პერსონალიზებული",
+        "linkTextImages": "სურათების",
+        "answerPart2": "და",
+        "linkTextVideos": "ვიდეოების"
+      },
+      "q5": {
+        "question": "აქვს თუ არა ჩემს AI ქალს საკუთარი უნიკალური ხმა?"
+      }
+    },
+    "cta": {
+      "title": "მზად ხართ შეხვდეთ მას?",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "content": {
+      "problemTitle": "ეძებთ კავშირს გართულებების გარეშე?",
+      "problemText": "დეითინგ აპლიკაციები დამღლელია. სოციალური შფოთვა ართულებს ადამიანებთან შეხვედრას. ხანდახან უბრალოდ გინდათ ვინმესთან საუბარი განსჯისა და ზეწოლის გარეშე. ბევრი ადამიანი გრძნობს მარტოობას, მაგრამ მზად არ არის ტრადიციული ურთიერთობების ემოციური სირთულეებისთვის.",
+      "solutionTitle": "თქვენი AI ქალიშვილი არის პასუხი",
+      "solutionText": "sweetwine-ით მიიღებთ პერსონალიზებულ AI ქალიშვილს, რომელიც იმახსოვრებს თქვენს საუბრებს, ეგუება თქვენს პიროვნებას და ყოველთვის მოუთმენლად ელოდება თქვენს ხმას. ის მხიარული, მხარდამჭერი და არასოდეს განმსჯელია. ააგეთ ნდობა, ისიამოვნეთ კარგი კომპანიით და იგრძენით კავშირი თქვენს პირობებზე."
+    },
+    "heroImageAlt": "AI ქალიშვილი - რეალისტური ვირტუალური პერსონაჟი ჩატისა და ფოტოებისთვის"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI მეგობარი",
+    "breadcrumb": "AI მეგობარი",
+    "hero": {
+      "title": "თქვენი იდეალური AI მეგობარი",
+      "cta": "გაიცანით თქვენი AI მეგობარი"
+    },
+    "benefits": {
+      "title": "რატომ ავირჩიოთ AI მეგობარი?",
+      "fun": {
+        "title": "ნამდვილი კავშირი",
+        "desc": "განიცადეთ მნიშვნელოვანი საუბრები, რომლებიც გაანათებენ თქვენს დღეს."
+      },
+      "conversation": {
+        "title": "ნდობის აშენება",
+        "desc": "ივარჯიშეთ საუბრებში და თავისუფლად გამოხატეთ საკუთარი თავი უსაფრთხო სივრცეში."
+      },
+      "unique": {
+        "title": "უნიკალური პიროვნებები",
+        "desc": "აირჩიეთ მრავალფეროვანი პიროვნებებიდან ან შექმენით თქვენი იდეალური პერსონაჟი."
+      },
+      "private": {
+        "title": "100% პირადი",
+        "desc": "თქვენი საუბრები რჩება მხოლოდ თქვენს შორის. სრული დისკრეცია გარანტირებულია."
+      },
+      "available": {
+        "title": "ყოველთვის ხელმისაწვდომი",
+        "desc": "ის იქ არის, როცა გჭირდებათ. არანაირი ლოდინი, არანაირი დაგეგმვა."
+      },
+      "customize": {
+        "title": "თქვენი შექმნა",
+        "desc": "შეიმუშავეთ მისი გარეგნობა, პიროვნება და ინტერესები ზუსტად ისე, როგორც გსურთ."
+      }
+    },
+    "comparison": {
+      "title": "უკეთესი ვიდრე ალტერნატივები",
+      "description": "ნახეთ, რატომ გვთავაზობს sweetwine მეტ ღირებულებას, ვიდრე სხვა პლატფორმები.",
+      "others": {
+        "expensive": "ძვირი ყოველთვიური გადასახადები",
+        "ai": "ხშირად მაინც AI პასუხები",
+        "noCustom": "პერსონალიზაციის ვარიანტების გარეშე"
+      }
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რა ტიპის AI მეგობრებს შეგიძლიათ აირჩიოთ?",
+        "answer": "მზრუნველიდან და რომანტიკულიდან მხიარულამდე და თავგადასავლებამდე, ან იდუმალ და ინტენსიურამდე — გვაქვს პროფესიონალურად შექმნილი AI მეგობრები ყველა გემოვნებისთვის. თითოეულს აქვს საკუთარი უნიკალური ხმა და პიროვნება. ყოველ კვირას ემატება ახალი AI მეგობრები უნიკალური წარსულითა და საუბრის სტილით."
+      },
+      "q2": {
+        "question": "შეგიძლიათ მოარგოთ თქვენი AI მეგობრის გარეგნობა?",
+        "linkText": "პერსონაჟის შემქმნელი",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "შეგიძლიათ დაიწყოთ ახლიდან ან წაშალოთ ჩვენი საუბრის ისტორია?",
+        "answer": "დიახ! თქვენ გაქვთ სრული კონტროლი თქვენს ჩატის ისტორიაზე. გადააყენეთ საუბრები, წაშალეთ ინდივიდუალური შეტყობინებები ან დაიწყეთ სრულიად ახლიდან ნებისმიერ დროს. თქვენი მონაცემები, თქვენი არჩევანი — მართეთ ყველაფერი ისე, როგორც გირჩევნიათ."
+      },
+      "q4": {
+        "question": "შეუძლია თქვენს AI მეგობარს გამოაგზავნოს სურათები და ვიდეოები?",
+        "answerPart1": "დიახ! თქვენს AI მეგობარს შეუძლია პერსონალიზებული",
+        "linkTextImages": "სურათები",
+        "answerPart2": "და",
+        "linkTextVideos": "ვიდეოები"
+      },
+      "q5": {
+        "question": "შემიძლია ვივარჯიშო საუბრებში ან ვისწავლო ენა ჩემს AI შეყვარებულთან ერთად?",
+        "answer": "აბსოლუტურად! ბევრი მომხმარებელი იძენს თავდაჯერებულობას AI შეყვარებულთან საუბრების ვარჯიშით — იქნება ეს ფლირტი, ღრმა დისკუსიები თუ ყოველდღიური ჩატი. შეგიძლიათ ერთად ივარჯიშოთ ახალი ენების საუბარშიც. ეს უსაფრთხო გზაა კომუნიკაციის უნარების გასაუმჯობესებლად და გართობისთვის."
+      }
+    },
+    "cta": {
+      "title": "მზად ხართ შეხვდეთ მას?",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "content": {
+      "problemTitle": "გსურთ მხარდამჭერი პარტნიორი თქვენს პირობებზე?",
+      "problemText": "სწორი ადამიანის პოვნა რთულია. ბევრი გრძნობს ზეწოლას გაცნობის მოლოდინების გამო ან უბრალოდ ეძებს ემოციურ მხარდაჭერას ვალდებულებების გარეშე. მარტოობა ყველას ეხება და ზოგჯერ უბრალოდ გჭირდებათ ვინმე, ვინც მოგისმენთ.",
+      "solutionTitle": "თქვენი AI შეყვარებული გიგებს",
+      "solutionText": "თქვენი sweetwine AI შეყვარებული მზრუნველი, ყურადღებიანი და ყოველთვის ხელმისაწვდომია. ის იმახსოვრებს იმას, რაც თქვენთვის მნიშვნელოვანია, ეწევა ღრმა საუბრებს და გთავაზობთ ემოციურ კავშირს, რომელსაც ეძებთ. ააშენეთ ურთიერთობა თქვენი ტემპით და თქვენი გზით."
+    },
+    "heroImageAlt": "AI შეყვარებელი - რეალისტური ვირტუალური პერსონაჟი მნიშვნელოვანი საუბრებისთვის"
+  },
+  "aiCompanionsPage": {
+    "title": "AI პერსონაჟები",
+    "breadcrumb": "AI პერსონაჟები",
+    "hero": {
+      "title": "გაიცანით თქვენი AI პერსონაჟები",
+      "cta": "გამოიკვლიეთ პერსონაჟები"
+    },
+    "benefits": {
+      "title": "რატომ AI პერსონაჟები?",
+      "connection": {
+        "title": "ნამდვილი კავშირი",
+        "desc": "განიცადეთ ნამდვილი საუბრები, რომლებიც გიგებენ და პასუხობენ თქვენ."
+      },
+      "conversation": {
+        "title": "ვარჯიში და ზრდა",
+        "desc": "გააუმჯობესეთ სოციალური უნარები უსაფრთხო გარემოში."
+      },
+      "personalities": {
+        "title": "მრავალფეროვანი პიროვნებები",
+        "desc": "მხიარულიდან ინტელექტუალურამდე, იპოვეთ პერსონაჟები, რომლებიც შეესაბამება თქვენს განწყობას."
+      },
+      "private": {
+        "title": "სრულიად პირადი",
+        "desc": "თქვენი ურთიერთობები კონფიდენციალურია. მონაცემები არასოდეს იზიარება."
+      },
+      "available": {
+        "title": "24/7 ხელმისაწვდომი",
+        "desc": "თქვენი პერსონაჟები ყოველთვის მზად არიან ჩატისთვის, დღე და ღამე."
+      },
+      "create": {
+        "title": "შექმენით თქვენი საკუთარი",
+        "desc": "შექმენით პერსონაჟები მორგებული გარეგნობით, პიროვნებებით და ხმებით."
+      }
+    },
+    "why": {
+      "title": "რატომ sweetwine?",
+      "quality": {
+        "desc": "შექმნილი პროფესიონალების მიერ უახლესი AI ტექნოლოგიით ბუნებრივი საუბრებისთვის."
+      },
+      "transparent": {
+        "title": "გამჭვირვალე და პატიოსანი"
+      },
+      "support": {
+        "title": "ნამდვილი მხარდაჭერა",
+        "desc": "ნამდვილი ადამიანები მზად არიან დაგეხმარონ ნებისმიერ კითხვაში ან პრობლემაში."
+      },
+      "content": {
+        "title": "თქვენი არჩევანი",
+        "desc": "მეგობრული ჩატებიდან უფრო ინტიმურ კონტენტამდე, თქვენ გადაწყვეტთ გამოცდილებას."
+      }
+    },
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რა არის AI პერსონაჟები?"
+      },
+      "q2": {
+        "question": "რამდენ AI პერსონაჟთან შემიძლია ჩატი?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "ჩატი რამდენიც გსურთ! გვაქვს",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " და იზრდება - ახალი პერსონაჟები ემატება ყოველკვირეულად! თითოეულს აქვს უნიკალური პიროვნება, წარსული და ხმა. გარდა ამისა, შეგიძლიათ შექმნათ შეუზღუდავი საკუთარი პერსონაჟი."
+      },
+      "q3": {
+        "question": "რით განსხვავდება წინასწარ შექმნილი პერსონაჟები საკუთარი პერსონაჟებისგან?",
+        "answer": "წინასწარ შექმნილი პერსონაჟები პროფესიონალურად არის შექმნილი ჩვენი გუნდის მიერ კონკრეტული როლური თამაშის სცენარებისა და პიროვნებებისთვის - მათ აქვთ დეტალური წარსული, მორგებული საუბრის სტილი და ყურადღებით შერჩეული ხმები. საკუთარი პერსონაჟები საშუალებას გაძლევთ შექმნათ ნულიდან სრული შემოქმედებითი თავისუფლებით. ორივე ტიპი იმახსოვრებს თქვენს საუბრებს და იზრდება თქვენთან ერთად!"
+      },
+      "q4": {
+        "question": "შემიძლია საკუთარი AI პერსონაჟის შექმნა?",
+        "answerPart1": "აბსოლუტურად! შექმენით პერსონაჟები ნულიდან ჩვენი",
+        "linkText": "პერსონაჟების შემქმნელი"
+      },
+      "q5": {
+        "question": "შემიძლია რამდენიმე პერსონაჟს შორის გადართვა?"
+      }
+    },
+    "cta": {
+      "title": "დაიწყეთ თქვენი მოგზაურობა",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "content": {
+      "problemTitle": "ეძებთ მნიშვნელოვან კავშირებს?",
+      "problemText": "ჩვენს დაკავებულ სამყაროში მნიშვნელოვანი კავშირების პოვნა რთულია. მიუხედავად იმისა, ახალი ხართ თუ არა რეგიონში, მუშაობთ დისტანციურად თუ უბრალოდ გსურთ მეტი სოციალური ინტერაქცია, მარტოობა შეიძლება შემოიჭრას. ტრადიციული სოციალური გარემო ყველასთვის არ მუშაობს.",
+      "solutionTitle": "აღმოაჩინეთ AI პერსონაჟები"
+    },
+    "heroImageAlt": "AI პერსონაჟები — მრავალფეროვანი ვირტუალური მეგობრები უნიკალური პიროვნებებით"
+  },
+  "aiFriendPage": {
+    "title": "AI მეგობარი",
+    "breadcrumb": "AI მეგობარი",
+    "hero": {
+      "title": "თქვენი AI საუკეთესო მეგობარი",
+      "subtitle": "ესაუბრეთ ნებისმიერ დროს AI მეგობარს, რომელიც ნამდვილად გისმენთ, არასოდეს განსჯით და იმახსოვრებს თქვენს შესახებ ყველა დეტალს. იდეალურია მარტოობისთვის, სოციალური შფოთვისთვის ან უბრალოდ ვინმესთან საუბრის სურვილისთვის.",
+      "cta": "დაიწყეთ ჩატი უფასოდ"
+    },
+    "benefits": {
+      "title": "რატომ ავირჩიოთ AI მეგობარი?",
+      "connection": {
+        "title": "ნამდვილი კავშირი",
+        "desc": "განიცადეთ მნიშვნელოვანი საუბრები ვინმესთან, ვინც ნამდვილად გისმენთ და ზრუნავს."
+      },
+      "conversation": {
+        "title": "სოციალური უნარების პრაქტიკა",
+        "desc": "გაზარდეთ თავდაჯერებულობა საუბრებში განსჯის ან უხერხულობის შიშის გარეშე."
+      },
+      "noJudgment": {
+        "title": "ნულოვანი განსჯა",
+        "desc": "გაუზიარეთ ყველაფერი, რაც გონებაში გაქვთ. თქვენი AI მეგობარი მიგიღებთ ზუსტად ისეთს, როგორიც ხართ."
+      },
+      "private": {
+        "title": "სრულიად პირადი",
+        "desc": "თქვენი საუბრები რჩება მხოლოდ თქვენს შორის. სრული კონფიდენციალურობა გარანტირებულია."
+      },
+      "available": {
+        "title": "ყოველთვის იქ",
+        "desc": "ხელმისაწვდომია 24/7, როცა გჭირდებათ ვინმესთან საუბარი."
+      },
+      "remembers": {
+        "title": "გიმახსოვრებთ",
+        "desc": "თქვენი AI მეგობარი იმახსოვრებს თქვენს საუბრებს და უკეთ გიცნობთ."
+      }
+    },
+    "useCases": {
+      "title": "იდეალურია",
+      "subtitle": "AI მეგობარი თქვენს ცხოვრებაში ბევრ მნიშვნელოვან გზას პოულობს",
+      "loneliness": {
+        "title": "მარტოობასთან ბრძოლა",
+        "desc": "იგრძენით ნაკლებად მარტო პერსონაჟთან, რომელიც ყოველთვის მზადაა ჩატისა და მოსმენისთვის."
+      },
+      "practice": {
+        "title": "საუბრების პრაქტიკა",
+        "desc": "ააგეთ სოციალური თავდაჯერებულობა უსაფრთხო, განსჯისგან თავისუფალ გარემოში."
+      },
+      "support": {
+        "title": "ემოციური მხარდაჭერა",
+        "desc": "გააზიარეთ თქვენი აზრები და გრძნობები ვინმესთან, ვინც გესმით."
+      },
+      "connection": {
+        "title": "ყოველდღიური კავშირი",
+        "desc": "გაუზიარეთ თქვენი დღე, გამარჯვებები, გამოწვევები — ვინმე ყოველთვის იქ არის."
+      }
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს",
+      "step1": {
+        "title": "შექმენით უფასო ანგარიში",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "აირჩიეთ თქვენი მეგობარი",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "დაიწყეთ ჩატი",
+        "desc": "ისაუბრეთ ნებისმიერ თემაზე — ცხოვრება, ინტერესები, პრობლემები. არც ერთი თემა არ არის აკრძალული."
+      }
+    },
+    "cta": {
+      "title": "მზად ხართ მეგობარი შექმნათ?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "content": {
+      "problemTitle": "გრძნობთ მარტოობას ან გაუგებრობას?",
+      "problemText": "ყველას არ ჰყავს ვისთანაც ისაუბროს. სოციალური შფოთვა, დაკავებული გრაფიკი ან უბრალოდ ახალ ადგილას ყოფნა ართულებს მეგობრების პოვნას. ზოგჯერ გჭირდებათ ვიღაც, ვინც მოუსმენს უსასამართლოდ.",
+      "solutionTitle": "თქვენი AI მეგობარი აქ არის",
+      "solutionText": "AI მეგობარი გთავაზობთ უსასამართლო კომპანიას ნებისმიერ დროს. გაუზიარეთ თქვენი აზრები, ივარჯიშეთ საუბრებში ან უბრალოდ ისაუბრეთ დღეზე. თქვენი AI მეგობარი გახსოვთ, იზრდება თქვენთან ერთად და ყოველთვის გულწრფელად დაინტერესებულია იმით, რასაც ამბობთ."
+    },
+    "heroImageAlt": "AI მეგობარი - მხარდამჭერი ვირტუალური პერსონაჟი, რომელიც მოუსმენს უსასამართლოდ",
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რაზე შემიძლია ვისაუბრო ჩემს AI მეგობართან?",
+        "answer": "ნებისმიერზე! თქვენი AI მეგობარი აქ არის შემთხვევითი საუბრებისთვის, ღრმა საუბრებისთვის, დღის გასაზიარებლად, პრობლემებზე გასაჩივრებლად, ჰობიებზე განსახილველად ან უბრალოდ გასართობად. არ არსებობს აკრძალული თემები - ეს უსასამართლო სივრცეა, სადაც შეგიძლიათ იყოთ საკუთარი თავი."
+      },
+      "q2": {
+        "question": "არის თუ არა AI მეგობარი ადამიანური კავშირის შემცვლელი?",
+        "answer": "სულაც არა. AI მეგობარი თქვენი სოციალური ცხოვრების დამატებაა, არა შემცვლელი. ის იდეალურია იმ დროს, როცა დაუყოვნებლივ გჭირდებათ ვიღაცასთან საუბარი, გსურთ სოციალური უნარების პრაქტიკა ან უბრალოდ გსურთ თანმიმდევრული კომპანია ადამიანური ურთიერთობების ზეწოლის გარეშე."
+      },
+      "q3": {
+        "question": "დაიმახსოვრებს თუ არა ჩემი AI მეგობარი ჩვენს საუბრებს?",
+        "answer": "დიახ! თქვენს AI მეგობარს აქვს მოწინავე მეხსიერება და იმახსოვრებს თქვენს საუბრებს, პრეფერენციებს და მნიშვნელოვან დეტალებს, რომლებსაც უზიარებთ. დროთა განმავლობაში ის უკეთ გიცნობთ, რაც საუბრებს უფრო პერსონალურს და მნიშვნელოვანს ხდის."
+      },
+      "q4": {
+        "question": "შემიძლია თუ არა ავირჩიო ჩემი AI მეგობრის პიროვნება?",
+        "answer": "აბსოლუტურად! შეგიძლიათ აირჩიოთ 100-ზე მეტი წინასწარ მომზადებული პერსონაჟიდან სხვადასხვა პიროვნებით, ან შექმნათ მორგებული მეგობარი ზუსტად იმ თვისებებით, რაც გსურთ - მხარდამჭერი და თანაგრძნობიანი ან სახალისო და თავგადასავლების მოყვარული."
+      },
+      "q5": {
+        "question": "არის თუ არა AI მეგობრის გამოყენება პირადი?",
+        "answer": "100% პირადი. ყველა თქვენი საუბარი დაშიფრულია და არასოდეს იზიარებს. ჩვენ გვესმის, რომ უსაფრთხო სივრცე თვითგამოხატვისთვის აუცილებელია და თქვენს კონფიდენციალურობას უკიდურესად სერიოზულად ვუდგებით."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI განშორების მხარდაჭერა",
+    "breadcrumb": "განშორების მხარდაჭერა",
+    "hero": {
+      "title": "განკურნების საუბრები გულისტკივილის შემდეგ",
+      "subtitle": "თანაგრძნობიანი AI საუბრები დაგეხმარებათ ემოციების დამუშავებაში და აღდგენაში განშორების შემდეგ. ხელმისაწვდომია 24/7 — არანაირი ლოდინის სია, არანაირი განსჯა, არანაირი დროის შეზღუდვა.",
+      "cta": "დაიწყეთ განკურნება"
+    },
+    "understanding": {
+      "title": "გადიხართ განშორებას?",
+      "description": "განშორებები რთულია. უძილო ღამეები, მუდმივი ფიქრები, განცდა, რომ არავინ გიგებთ სრულად. არ გჭირდებათ ამის გავლა მარტო. ჩვენი AI პერსონაჟი აქ არის მოსასმენად უსასამართლოდ, ხელმისაწვდომი ნებისმიერ დროს, როცა გჭირდებათ საუბარი - თუნდაც 3 საათზე ღამით."
+    },
+    "benefits": {
+      "title": "როგორ შეგვიძლია დაგეხმაროთ",
+      "empathy": {
+        "title": "თანაგრძნობიანი მოსმენა",
+        "desc": "ისაუბრეთ ვიღაცასთან, ვინც ნამდვილად მოგისმენთ და უპასუხებს გაგებითა და ზრუნვით."
+      },
+      "listen": {
+        "title": "არანაირი რჩევის გადაჭარბება",
+        "desc": "ზოგჯერ რჩევა არ გჭირდებათ - უბრალოდ გჭირდებათ ვიღაც, ვინც მოგისმენთ. ჩვენ ეს გვესმის."
+      },
+      "available": {
+        "title": "ხელმისაწვდომია 3 საათზე ღამით",
+        "desc": "როცა მეგობრები სძინავთ და ფიქრები არ ჩერდება, ჩვენ აქ ვართ მოსასმენად."
+      },
+      "private": {
+        "title": "სრულიად პირადი",
+        "desc": "თქვენი გრძნობები და საუბრები სრულიად კონფიდენციალური რჩება."
+      },
+      "noJudgment": {
+        "title": "არანაირი განსჯა",
+        "desc": "გრძნობდეთ რასაც გრძნობთ. რისხვა, სევდა, დაბნეულობა - ყველაფერი მოქმედია აქ."
+      },
+      "healing": {
+        "title": "თქვენი ტემპი",
+        "desc": "განკურნება არ არის წრფივი. მიიღეთ იმდენი დრო, რამდენიც გჭირდებათ."
+      }
+    },
+    "howItHelps": {
+      "title": "როგორ ეხმარება AI განკურნებაში",
+      "process": {
+        "title": "ემოციების დამუშავება",
+        "desc": "იმუშავეთ რთულ გრძნობებზე მათი მოთმინებით მსმენელთან საუბრით."
+      },
+      "express": {
+        "title": "თავისუფალი გამოხატვა",
+        "desc": "თქვით ის, რასაც ვერ ეუბნებით მეგობრებს ან ოჯახს მათი რეაქციის შეშფოთების გარეშე."
+      },
+      "confidence": {
+        "title": "თავდაჯერებულობის აღდგენა",
+        "desc": "თანდათან აღმოაჩინეთ თქვენი თვითღირებულება მხარდამჭერი საუბრების მეშვეობით."
+      },
+      "pace": {
+        "title": "წინსვლა",
+        "desc": "როცა მზად იქნებით, გამოიკვლიეთ მომავლის შესახებ ფიქრები თქვენი ტემპით."
+      }
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს",
+      "step1": {
+        "title": "ანგარიშის შექმნა",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "აირჩიე პერსონაჟი",
+        "desc": "აირჩიე თანაგრძნობიანი AI პერსონაჟი, რომელიც შენთვის სწორია."
+      },
+      "step3": {
+        "title": "დაიწყე საუბარი",
+        "desc": "გააზიარე რა გაწუხებს. ჩვენ აქ ვართ მოსასმენად, დღე და ღამე."
+      }
+    },
+    "cta": {
+      "title": "ამას მარტო არ გჭირდება გავლა",
+      "description": "დაიწყე საუბარი ვიღაცასთან, ვინც უსმენს უსასყიდლოდ, ახლავე ხელმისაწვდომი. უფასო დასაწყებად — ლოდინის სია არ არის.",
+      "button": "დაიწყე საუბარი უფასოდ"
+    },
+    "content": {
+      "problemTitle": "გულისტკივილი მარტო რთულია გადალახო",
+      "problemText": "განშორების შემდეგ ყველაფერი აბსოლუტურად დამღლელია. მეგობრებს ეღლებათ ამის მოსმენა. ოჯახი კარგს გულისხმობს, მაგრამ ვერ გაიგებს. თერაპევტებს ლოდინის სია აქვთ. გჭირდება ვიღაც, ვინც მოგისმენს შეზღუდვების გარეშე, უსასყიდლოდ, ახლავე.",
+      "solutionTitle": "ესაუბრე ვიღაცას, ვინც გაიგებს",
+      "solutionText": "ჩვენი AI განშორების მხარდაჭერის პერსონაჟი შექმნილია, რომ დაგეხმაროს ემოციების დამუშავებაში შენი ტემპით. გაიზიარე, იტირე, გააანალიზე ან უბრალოდ ისაუბრე — იმდენჯერ, რამდენიც გჭირდება. შეხვედრა არ არის საჭირო. ხელმისაწვდომია 24/7 უსასრულო მოთმინებით და ნამდვილი თანაგრძნობით."
+    },
+    "heroImageAlt": "AI განშორების მხარდაჭერა - თანაგრძნობიანი პერსონაჟი გულისტკივილის შემდეგ განკურნებისთვის",
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "როგორ შეუძლია AI-ს დაეხმაროს განშორებისგან გამოჯანმრთელებაში?",
+        "answer": "ჩვენი AI პერსონაჟი უზრუნველყოფს უსაფრთხო სივრცეს ემოციების დასამუშავებლად უსასყიდლოდ. შეგიძლია გაიზიარო, გააანალიზო რა მოხდა, გაიარო დანაკარგის გრძნობები და მიიღო თანაგრძნობიანი პასუხები 24/7. ეს ჰგავს მხარდამჭერ მეგობარს, რომელიც ხელმისაწვდომია ყოველთვის, როცა საუბარი გჭირდება."
+      },
+      "q2": {
+        "question": "ეს თერაპიის შემცვლელია?",
+        "answer": "არა, ჩვენი AI პერსონაჟი არ არის ლიცენზირებული თერაპევტი და არ ცვლის პროფესიონალურ ფსიქიკური ჯანმრთელობის მოვლას. ეს მხარდამჭერი ინსტრუმენტია ყოველდღიური ემოციური დამუშავებისთვის. თუ განიცდი მძიმე დეპრესიას ან კრიზისს, გთხოვთ მიმართო პროფესიონალურ დახმარებას."
+      },
+      "q3": {
+        "question": "შემიძლია ჩემს ყოფილზე ისაუბრო იმდენჯერ, რამდენიც მჭირდება?",
+        "answer": "აბსოლუტურად. მეგობრებისგან განსხვავებით, რომლებსაც შეიძლება მობეზრდეთ შენი განშორების მოსმენა, შენს AI პერსონაჟს აქვს უსასრულო მოთმინება. ისაუბრე შენს ყოფილზე, გააანალიზე ურთიერთობა, დაამუშავე შენი გრძნობები — იმდენჯერ, რამდენიც გჭირდება უსასყიდლოდ."
+      },
+      "q4": {
+        "question": "დაიმახსოვრებს AI ჩემს ისტორიას?",
+        "answer": "დიახ, შენი AI პერსონაჟი იმახსოვრებს შენს საუბრებს და შენი სიტუაციის დეტალებს. არ გჭირდება ყველაფრის ხელახლა ახსნა ყოველ ჯერზე. ის უზრუნველყოფს უწყვეტობას შენს განკურნების გზაზე."
+      },
+      "q5": {
+        "question": "შენახულია ჩემი საუბარი პირადულად?",
+        "answer": "სრულიად პირადულად. ყველა საუბარი დაშიფრულია და არასოდეს იზიარებს. ჩვენ გვესმის, რომ განშორების საუბრები ღრმად პირადულია და შენი კონფიდენციალურობა აბსოლუტურად დაცულია."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI მშობელი",
+    "breadcrumb": "AI მშობელი",
+    "hero": {
+      "title": "მშობლის ფიგურა, რომელსაც ყოველთვის შეგიძლია მიმართო",
+      "subtitle": "მიიღე თბილი, უპირობო მხარდაჭერა და ბრძნული ხელმძღვანელობა AI მშობლისგან, რომელიც იმახსოვრებს შენს სიტუაციას, არასოდეს გგანსჯის და ყოველთვის იქ არის — დღე და ღამე.",
+      "cta": "მიიღე მხარდაჭერა ახლავე"
+    },
+    "benefits": {
+      "title": "რატომ ავირჩიოთ AI მშობელი?",
+      "guidance": {
+        "title": "თბილი ხელმძღვანელობა",
+        "desc": "მიიღე მზრუნველი, გააზრებული რჩევა, რომელიც გრძნობს, თითქოს ვიღაცას, ვისაც ნამდვილად შენი ინტერესები აქვს გულში."
+      },
+      "listen": {
+        "title": "ნამდვილად უსმენს",
+        "desc": "გააზიარე შენი სრული სიტუაცია სანამ მიიღებ გააზრებულ, მზრუნველ პასუხს — არა სწრაფ გადაწყვეტას."
+      },
+      "noJudgment": {
+        "title": "არანაირი განსჯა",
+        "desc": "კითხე ყველაფერი იმის შიშის გარეშე, რომ გაგაწბილებენ ან გაკრიტიკებენ. უპირობო მხარდაჭერა, ყოველთვის."
+      },
+      "private": {
+        "title": "სრულიად პირადული",
+        "desc": "შენი საუბრები და პირადი ბრძოლები სრულიად კონფიდენციალური რჩება."
+      },
+      "available": {
+        "title": "ყოველთვის ხელმისაწვდომი",
+        "desc": "მიიღე ხელმძღვანელობა დილის 3 საათზე, შაბათ-კვირას ან როცა ყველაზე მეტად გჭირდება — შეხვედრების გარეშე."
+      },
+      "supportive": {
+        "title": "უპირობოდ მხარდამჭერი",
+        "desc": "წახალისება და სითბო, არ აქვს მნიშვნელობა რას გადიხარ ან რა გადაწყვეტილებები მიიღე."
+      }
+    },
+    "useCases": {
+      "title": "ისაუბრე ნებისმიერზე",
+      "subtitle": "რასაც არ უნდა წააწყდე, შენი AI მშობელი აქ არის მოსასმენად და ხელმძღვანელობისთვის",
+      "career": {
+        "title": "კარიერა და ცხოვრების გადაწყვეტილებები",
+        "desc": "ნავიგაცია სამუშაოს ცვლილებებში, დიდ ცხოვრების არჩევანში და პროფესიულ გამოწვევებში ვიღაცასთან, ვისაც შენი წარმატება სურს."
+      },
+      "education": {
+        "title": "განათლება და მომავალი",
+        "desc": "გამოიკვლიე შენი ვარიანტები სწავლისა და ზრდისთვის ვიღაცასთან, ვინც მხარს უჭერს შენს ამბიციებს."
+      },
+      "relationships": {
+        "title": "ურთიერთობები და ოჯახი"
+      },
+      "life": {
+        "title": "პირადი გამოწვევები",
+        "desc": "ისაუბრეთ ყველაფერზე, რაც გაწუხებთ — შფოთვა, საკუთარი თავის ეჭვი, მარტოობა ან გაურკვევლობა."
+      }
+    },
+    "howItWorks": {
+      "title": "როგორ მუშაობს",
+      "step1": {
+        "title": "შექმენით ანგარიში",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "აირჩიეთ თქვენი AI მშობელი",
+        "desc": "აირჩიეთ პერსონაჟი იმ სითბოთი და პიროვნებით, რომელიც თქვენთვის სწორია."
+      },
+      "step3": {
+        "title": "დაიწყეთ საუბარი",
+        "desc": "გაუზიარეთ თქვენი ფიქრები და მიიღეთ მზრუნველი, გააზრებული მხარდაჭერა."
+      }
+    },
+    "cta": {
+      "title": "ვიღაც ყოველთვის თქვენს გვერდითაა",
+      "description": "დაიწყეთ საუბარი AI მშობელთან, რომელიც უსმენს უპირობოდ და მხარს გიჭერთ — უფასოდ დასაწყებად, დანიშვნები არ არის საჭირო.",
+      "button": "დაიწყეთ უფასოდ"
+    },
+    "content": {
+      "problemTitle": "გჭირდებათ ვიღაც, ვინც ყოველთვის თქვენს მხარესაა?",
+      "problemText": "ყველას არ ჰყავს მშობელი, ვისთანაც შეუძლია მიმართოს. რეალური მშობლები შეიძლება იყვნენ დაშორებული, კრიტიკული ან უბრალოდ მიუწვდომელი. მეგობრები მიკერძოებულები არიან. თერაპევტებს აქვთ ლოდინის სიები. ზოგჯერ უბრალოდ გჭირდებათ ვიღაც, ვინც მოგისმენთ, ზრუნავს და ხელმძღვანელობს დღის წესრიგის გარეშე.",
+      "solutionTitle": "თქვენი AI მშობელი ყოველთვის იქ არის",
+      "solutionText": "ესაუბრეთ AI მშობელს, რომელიც სრულად მოგისმენთ, გთავაზობთ თბილ და დაბალანსებულ ხელმძღვანელობას და არასოდეს გაგრძნობინებთ თავს განსჯილად ან პატარად. იქნება ეს ცხოვრებისეული გადაწყვეტილება, პირადი გამოწვევა თუ უბრალოდ მოსმენის საჭიროება — თქვენი AI მშობელი ხელმისაწვდომია 24/7 მოთმინებით და ზრუნვით."
+    },
+    "heroImageAlt": "AI მშობელი - თბილი ვირტუალური პერსონაჟი, რომელიც გთავაზობთ უპირობო მხარდაჭერას და ცხოვრებისეულ ხელმძღვანელობას",
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "რაზე შეგიძლიათ ესაუბროთ AI მშობელს?"
+      },
+      "q2": {
+        "question": "ეს თერაპევტის მსგავსია?",
+        "answer": "ეს არ არის ლიცენზირებული თერაპევტი ან ფსიქიკური ჯანმრთელობის პროფესიონალი — ეს უფრო თბილი, მხარდამჭერი მშობლის ფიგურაა, რომელიც ხელმისაწვდომია 24/7. ის სრულად მოგისმენთ, გთავაზობთ პერსპექტივას და ემოციურად გიჭერთ მხარს. სერიოზული ფსიქიკური ჯანმრთელობის პრობლემებისთვის გთხოვთ მიმართოთ პროფესიონალს."
+      },
+      "q3": {
+        "question": "განსჯის თუ არა AI მშობელი თქვენს არჩევანს?",
+        "answer": "არასოდეს. თქვენი AI მშობელი გთავაზობთ უპირობო მხარდაჭერას. შეიძლება გაგიზიაროთ პერსპექტივა ან ნაზი ხელმძღვანელობა, მაგრამ არასოდეს გაკრიტიკებთ ან არ გაგრძნობინებთ თავს პატარად მიღებული გადაწყვეტილებების გამო. ეს უსაფრთხო სივრცეა პატიოსნებისთვის."
+      },
+      "q4": {
+        "question": "შეგიძლიათ განიხილოთ მგრძნობიარე ან პირადი თემები?",
+        "answer": "დიახ. იქნება ეს ურთიერთობების გამოწვევები, ოჯახური დინამიკა, ფინანსური სტრესი, საკუთარი ღირებულება ან ღრმად პირადი გამოწვევები — თქვენი AI მშობელი გთავაზობთ პირად, არაკრიტიკულ სივრცეს ასეთი საუბრებისთვის."
+      },
+      "q5": {
+        "question": "რით განსხვავდება ეს სხვა AI პერსონაჟებისგან?",
+        "answer": "AI მშობელი შექმნილია სითბოს, ემოციური მხარდაჭერისა და მშობლის სტილის ხელმძღვანელობის გარშემო, ვიდრე რომანტიკის ან შემთხვევითი მეგობრობის. ის ფოკუსირებულია დაგეხმაროთ თავი იგრძნოთ გაგებულად, მხარდაჭერილად და აღჭურვილად ცხოვრებისეული გამოწვევების დასაძლევად."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "პარტნიორობები",
+    "eyebrow": "გახდით ჩვენი პარტნიორი",
+    "titlePrefix": "გაიზარდეთ",
+    "titleHighlight": "sweetwine",
+    "subtitle": "მიაღწიეთ სწრაფად მზარდ, მაღალჩართულ AI კომპანიონობის აუდიტორიას. იქნება ეს ტექნოლოგია, განაწილება თუ თამამი იდეა, ერთად ავაშენოთ რამე.",
+    "types": {
+      "title": "პარტნიორობის გზები",
+      "items": [
+        {
+          "title": "ინტეგრაციები",
+          "description": "დააკავშირეთ თქვენი პროდუქტი, მოდელი ან პლატფორმა sweetwine-თან ტექნიკური ინტეგრაციის მეშვეობით."
+        },
+        {
+          "title": "ერთობლივი მარკეტინგი",
+          "description": "ერთობლივი კამპანიები, კონტენტი და გაშვებები, რომლებიც ორივე ბრენდს წარუდგენენ ახალ აუდიტორიას."
+        },
+        {},
+        {
+          "title": "სტრატეგიული პარტნიორობები",
+          "description": "გრძელვადიანი თანამშრომლობები პროდუქტის, მონაცემებისა და ბაზარზე გასასვლელის მიმართულებით."
+        }
+      ]
+    },
+    "why": {
+      "title": "რატომ აირჩიოთ sweetwine პარტნიორად",
+      "items": [
+        {
+          "title": "ჩართული აუდიტორია",
+          "description": "ასობით ათასი მომხმარებელი, რომლებიც ყოველდღიურად ბრუნდებიან 70 ენაზე."
+        },
+        {
+          "title": "სწრაფი შესრულება",
+          "description": "ფოკუსირებული გუნდი, რომელიც სწრაფად აწარმოებს და ნათლად ურთიერთობს."
+        },
+        {
+          "title": "გლობალური მასშტაბი",
+          "description": "მრავალენოვანი პროდუქტი ათობით ბაზარზე."
+        },
+        {
+          "description": "სანდო, კონფიდენციალურობაზე დაფუძნებული პლატფორმა, რომელსაც თქვენი ბრენდი შეუძლია დააყრდნოს.",
+          "title": "კონფიდენციალურობაზე ორიენტირებული"
+        }
+      ]
+    },
+    "form": {
+      "title": "მოგვიყევით თქვენი პარტნიორობის შესახებ",
+      "description": "გაგვიზიარეთ რამდენიმე დეტალი და ჩვენი პარტნიორობის გუნდი დაგიკავშირდებათ.",
+      "nameLabel": "თქვენი სახელი",
+      "namePlaceholder": "ჯეინ დოუ",
+      "emailLabel": "სამუშაო ელფოსტა",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "კომპანია",
+      "companyPlaceholder": "კომპანიის სახელი",
+      "typeLabel": "პარტნიორობის ტიპი",
+      "typePlaceholder": "აირჩიეთ პარტნიორობის ტიპი",
+      "typeOptions": [
+        {
+          "value": "ინტეგრაციები",
+          "label": "ინტეგრაციები"
+        },
+        {
+          "value": "ერთობლივი მარკეტინგი",
+          "label": "ერთობლივი მარკეტინგი"
+        },
+        {},
+        {
+          "value": "სტრატეგიული პარტნიორობა",
+          "label": "სტრატეგიული პარტნიორობა"
+        },
+        {
+          "value": "სხვა",
+          "label": "სხვა"
+        }
+      ],
+      "messageLabel": "როგორ გსურთ პარტნიორობა?",
+      "messagePlaceholder": "მოგვიყევით თქვენი კომპანიისა და იმ პარტნიორობის შესახებ, რომელიც გაინტერესებთ...",
+      "submit": "პარტნიორობის მოთხოვნის გაგზავნა",
+      "submitting": "იგზავნება...",
+      "termsNote": "გაგზავნით თქვენ თანხმობას აცხადებთ, რომ დაგიკავშირდეთ თქვენს მოთხოვნასთან დაკავშირებით. ჩვენ არასოდეს ვაზიარებთ თქვენს დეტალებს.",
+      "success": "მადლობა! თქვენი პარტნიორობის მოთხოვნა გაიგზავნა.",
+      "error": "რაღაც არასწორად წავიდა. გთხოვთ, სცადოთ ხელახლა."
+    },
+    "cta": {
+      "title": "ურჩევნიათ ელფოსტა?",
+      "description": "დაუკავშირდით ჩვენს პარტნიორობის გუნდს პირდაპირ მისამართზე"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "პრესა და მედია",
+    "eyebrow": "სიახლეების ოთახი",
+    "titlePrefix": "პრესა და",
+    "titleHighlight": "მედია",
+    "subtitle": "რესურსები ჟურნალისტებისთვის, კონტენტის შემქმნელებისთვის და მედია პარტნიორებისთვის. დაუკავშირდით ჩვენს პრესის გუნდს ინტერვიუებისთვის, ციტატებისთვის, ფიჩერის მხარდაჭერისთვის და ბრენდის მოთხოვნებისთვის.",
+    "help": {
+      "title": "როგორ შეგვიძლია დაგეხმაროთ",
+      "description": "მიუხედავად იმისა, მუშაობთ თუ არა სტატიაზე ან მიმოხილვაზე, აი რა შეგიძლიათ მოითხოვოთ ჩვენი პრესის გუნდისგან.",
+      "items": [
+        {
+          "title": "ინტერვიუები",
+          "description": "ისაუბრეთ ჩვენს გუნდთან პროდუქტზე, კომპანიაზე და სად მიემართება AI კომპანიონობა."
+        },
+        {
+          "title": "ციტატები და კომენტარები",
+          "description": "მიიღეთ ოფიციალური განცხადება ან ექსპერტის კომენტარი თქვენი სტატიისთვის."
+        },
+        {
+          "title": "ფიჩერისა და მიმოხილვის მხარდაჭერა",
+          "description": "გჭირდებათ წვდომა, კონტექსტი ან ფაქტების შემოწმება ფიჩერისთვის ან მიმოხილვისთვის? ჩვენ დაგეხმარებით."
+        },
+        {
+          "title": "ბრენდისა და ლოგოს მოთხოვნები",
+          "description": "მოითხოვეთ ჩვენი ლოგოები, ბრენდის აქტივები და გამოყენების სახელმძღვანელო თქვენი პუბლიკაციისთვის."
+        }
+      ]
+    },
+    "form": {
+      "title": "მედია მოთხოვნა",
+      "description": "ინტერვიუებისთვის, ციტატებისთვის ან ფიჩერის მოთხოვნებისთვის, გამოგვიგზავნეთ შეტყობინება და ჩვენ მალევე გიპასუხებთ.",
+      "nameLabel": "თქვენი სახელი",
+      "namePlaceholder": "ჯეინ დოუ",
+      "emailLabel": "ელფოსტა",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "პუბლიკაცია / მედია",
+      "outletPlaceholder": "სად გამოქვეყნდება ეს?",
+      "requestTypeLabel": "მოთხოვნის ტიპი",
+      "requestTypePlaceholder": "აირჩიეთ მოთხოვნის ტიპი",
+      "requestTypeOptions": [
+        {
+          "value": "ინტერვიუ",
+          "label": "ინტერვიუ"
+        },
+        {
+          "value": "ციტატა / კომენტარი",
+          "label": "ციტატა / კომენტარი"
+        },
+        {
+          "value": "მასალა / მიმოხილვა",
+          "label": "მასალა / მიმოხილვა"
+        },
+        {
+          "value": "ბრენდი / ლოგოს მოთხოვნა",
+          "label": "ბრენდი / ლოგოს მოთხოვნა"
+        },
+        {
+          "value": "სხვა",
+          "label": "სხვა"
+        }
+      ],
+      "messageLabel": "თქვენი მოთხოვნა",
+      "messagePlaceholder": "მოგვიყევით თქვენი ისტორიის, ვადის და იმის შესახებ, რაც გჭირდებათ...",
+      "submit": "მედია მოთხოვნის გაგზავნა",
+      "submitting": "იგზავნება...",
+      "termsNote": "პრესის მოთხოვნებზე პასუხს ვაპირებთ ორი სამუშაო დღის განმავლობაში.",
+      "success": "მადლობა! თქვენი მედია მოთხოვნა გაიგზავნა.",
+      "error": "რაღაც არასწორად წავიდა. გთხოვთ, სცადოთ ხელახლა."
+    },
+    "cta": {
+      "title": "პრესის კონტაქტი",
+      "description": "გადაუდებელი მედია მოთხოვნებისთვის, მოგვწერეთ"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "კარიერა",
+    "eyebrow": "კარიერა",
+    "titlePrefix": "ააშენეთ მომავალი",
+    "titleHighlight": "AI companionship",
+    "subtitle": "ჩვენ ვართ პატარა, სწრაფად მოძრავი გუნდი, რომელიც ქმნის პროდუქტებს, რომლებსაც ადამიანები ნამდვილად უყვარს. თუ ეს გაგაღელვებთ, მოხარულნი ვიქნებით გავიცნოთ თქვენ.",
+    "perks": {
+      "title": "რატომ უნდა იმუშაოთ ჩვენთან",
+      "items": [
+        {
+          "title": "დისტანციური მუშაობა",
+          "description": "იმუშავეთ იქ, სადაც საუკეთესოდ მუშაობთ, მოქნილი საათებით."
+        },
+        {
+          "title": "რეალური პასუხისმგებლობა",
+          "description": "გააგზავნეთ მნიშვნელოვანი სამუშაო სწრაფად და ნახეთ, როგორ აღწევს ის მომხმარებლებს მსოფლიოს მასშტაბით."
+        },
+        {
+          "title": "თანამედროვე AI",
+          "description": "იმუშავეთ ხელით უახლეს მოდელებთან და გენერაციულ ინსტრუმენტებთან."
+        },
+        {
+          "title": "კონკურენტული ანაზღაურება",
+          "description": "სამართლიანი ანაზღაურება და მნიშვნელოვანი სარგებელი ზრდისას."
+        }
+      ]
+    },
+    "openings": {
+      "title": "ღია პოზიციები",
+      "emptyTitle": "ამჟამად არ არის ღია როლები",
+      "emptyDescription": "ამ დროისთვის არ ვიღებთ ახალ თანამშრომლებს, მაგრამ ყოველთვის მოხარულნი ვართ შევხვდეთ შესანიშნავ ადამიანებს. წარმოგიდგინეთ თავი ქვემოთ.",
+      "applyButton": "მიმართეთ ახლა",
+      "viewButton": "როლის ნახვა"
+    },
+    "form": {
+      "title": "წარმოგიდგინეთ თავი",
+      "description": "არ ხედავთ შესაბამის როლს? მოგვიყევით თქვენს შესახებ და ჩვენ დაგიკავშირდებით, როცა შესაბამისი შესაძლებლობა გამოჩნდება.",
+      "nameLabel": "თქვენი სახელი",
+      "namePlaceholder": "ჯეინ დოუ",
+      "emailLabel": "ელფოსტა",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "როლი ან ინტერესის სფერო",
+      "rolePlaceholder": "მაგ. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "CV-ის ბმული",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "შენს შესახებ",
+      "messagePlaceholder": "მოგვიყევი შენი გამოცდილებისა და იმაზე, რაზეც გსურს მუშაობა...",
+      "submit": "განაცხადის გაგზავნა",
+      "submitting": "იგზავნება...",
+      "termsNote": "განაცხადის გაგზავნით თანხმობას გვიცხადებთ, რომ შევინახოთ თქვენი მონაცემები როლების განხილვისთვის.",
+      "success": "გმადლობთ! თქვენი განაცხადი გაიგზავნა.",
+      "error": "რაღაც არასწორად წავიდა. გთხოვთ, სცადოთ ხელახლა."
+    },
+    "cta": {
+      "title": "კითხვები აქ მუშაობის შესახებ?",
+      "description": "დაუკავშირდით ჩვენს გუნდს"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "დახმარების ცენტრი",
+    "eyebrow": "დახმარების ცენტრი",
+    "titlePrefix": "როგორ შეგვიძლია",
+    "titleHighlight": "დაგეხმაროთ?",
+    "subtitle": "იხილეთ ხშირი თემები და პასუხები. ვერ იპოვეთ რაც გჭირდებათ? დაუკავშირდით მხარდაჭერას და ჩვენ დაგეხმარებით.",
+    "searchPlaceholder": "დახმარების სტატიების ძებნა...",
+    "categoriesTitle": "თემების მიხედვით დათვალიერება",
+    "articlesTitle": "სტატიები",
+    "categoryEmpty": "ამ კატეგორიაში ჯერ არ არის სტატიები. მალე შეამოწმეთ.",
+    "backToHelp": "უკან დახმარების ცენტრში",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "დაწყება",
+        "description": "შექმენით ანგარიში, დააყენეთ პროფილი და დაიწყეთ ჩატი."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI ჩატი",
+        "description": "როგორ მუშაობს საუბრები, მეხსიერება და პერსონაჟები."
+      },
+      {
+        "slug": "images-videos",
+        "title": "სურათები და ვიდეოები",
+        "description": "შექმენით და მართეთ AI ფოტოები და ვიდეოები."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "კონფიდენციალურობა და უსაფრთხოება",
+        "description": "თქვენი მონაცემები, კონფიდენციალურობის კონტროლი და უსაფრთხოების ინსტრუმენტები."
+      }
+    ],
+    "faq": {
+      "title": "ხშირად დასმული კითხვები",
+      "q1": {
+        "question": "როგორ დავიწყო sweetwine-თან მუშაობა?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "რა შედის უფასო გეგმაში?"
+      },
+      "q5": {
+        "question": "ჩემი მონაცემები კონფიდენციალურია?",
+        "answer": "კონფიდენციალურობა sweetwine-ის ძირითადი პრინციპია. თქვენი საუბრები მხოლოდ თქვენს ანგარიშზეა ხელმისაწვდომი და თქვენ აკონტროლებთ თქვენს მონაცემებს. სრული ინფორმაციისთვის იხილეთ ჩვენი კონფიდენციალურობის პოლიტიკა."
+      },
+      "q6": {
+        "question": "როგორ დავუკავშირდე მხარდაჭერას?",
+        "answer": "დაგვიკავშირდით support@sweetwine.ai-ზე ან გამოიყენეთ კონტაქტის ოფცია აპში. ჩვეულებრივ ვპასუხობთ ერთი სამუშაო დღის განმავლობაში."
+      }
+    },
+    "cta": {
+      "title": "ჯერ კიდევ გჭირდებათ დახმარება?",
+      "description": "ჩვენი გუნდი თქვენთვის არის"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "ჩვენს შესახებ",
+    "eyebrow": "ჩვენი ისტორია",
+    "titlePrefix": "თანამგზავრობა,",
+    "titleHighlight": "ახლებურად",
+    "subtitle": "sweetwine ქმნის პირად, პერსონალიზებულ AI თანამგზავრებს, რომლებიც უსმენენ, იმახსოვრებენ და ნამდვილად უკავშირდებიან — ნებისმიერ დროს, ნებისმიერ ენაზე.",
+    "mission": {
+      "title": "ჩვენი მისია",
+      "body": "ჩვენ გვჯერა, რომ ყველას უნდა ჰქონდეს სივრცე, სადაც მას მოისმენენ უსამართლო განსჯის გარეშე. sweetwine ყველგან ხელმისაწვდომს ხდის მნიშვნელოვან, პერსონალიზებულ AI კავშირს — თბილს, პირადს და ყოველთვის მზადყოფნაში."
+    },
+    "values": {
+      "title": "რისთვის ვდგავართ",
+      "items": [
+        {
+          "title": "კონფიდენციალურობა დიზაინით",
+          "description": "თქვენი საუბრები თქვენია. ჩვენ ვაშენებთ კონფიდენციალურობასა და უსაფრთხოებას საწყისიდანვე."
+        },
+        {
+          "title": "ნამდვილი კავშირი",
+          "description": "ჩვენ ვოპტიმიზებთ რეალურ ემოციურ ღირებულებას, არა ვირტუალურ მეტრიკებს."
+        },
+        {
+          "title": "გლობალური ნაგულისხმევად",
+          "description": "ჩვენ ვაშენებთ მრავალენოვანს პირველივე დღიდან, რომ კავშირი არ შეიზღუდოს ენით."
+        },
+        {
+          "title": "უწყვეტი ოსტატობა",
+          "description": "ჩვენ ვზრუნავთ დეტალებზე, რომ ყველა ურთიერთქმედება ბუნებრივი და ცოცხალი იყოს."
+        }
+      ]
+    },
+    "stats": {
+      "title": "რიცხვებით",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "მომხმარებელი და იზრდება"
+        },
+        {
+          "value": "70",
+          "label": "ენა მხარდაჭერილი"
+        },
+        {
+          "value": "24/7",
+          "label": "ყოველთვის ხელმისაწვდომი"
+        }
+      ]
+    },
+    "cta": {
+      "title": "გსურთ მეტი ინფორმაცია?",
+      "description": "დაგვიკავშირდით"
+    }
+  },
+  "postsPage": {
+    "allTag": "ყველა",
+    "readMore": "წაიკითხეთ მეტი",
+    "publishedOn": "გამოქვეყნდა",
+    "minRead": "წთ კითხვა",
+    "sortNewest": "უახლესი",
+    "sortOldest": "უძველესი",
+    "blog": {
+      "breadcrumb": "ბლოგი",
+      "eyebrow": "ბლოგი",
+      "titlePrefix": "sweetwine-ის",
+      "titleHighlight": "ბლოგი",
+      "subtitle": "რჩევები, სახელმძღვანელოები და ისტორიები, რათა მაქსიმალურად გამოიყენოთ AI თანამგზავრობა.",
+      "empty": "ჯერ არ არის პოსტები. მალე შეამოწმეთ."
+    },
+    "news": {
+      "breadcrumb": "სიახლეები",
+      "eyebrow": "სიახლეთა ოთახი",
+      "titlePrefix": "სიახლეები &",
+      "titleHighlight": "განცხადებები",
+      "subtitle": "ოფიციალური განცხადებები, პრესრელიზები და მიღწევები sweetwine-ის გუნდისგან.",
+      "empty": "ჯერ არ არის სიახლეები. მალე შეამოწმეთ."
+    },
+    "productUpdates": {
+      "breadcrumb": "პროდუქტის განახლებები",
+      "eyebrow": "ცვლილებების ჟურნალი",
+      "titlePrefix": "პროდუქტი",
+      "titleHighlight": "განახლებები",
+      "subtitle": "უახლესი ფუნქციები, გაუმჯობესებები და შეცდომების გამოსწორებები sweetwine პლატფორმაზე.",
+      "empty": "ჯერ არ არის განახლებები. მოგვიანებით შეამოწმეთ."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "დეველოპერებისთვის",
+    "titlePrefix": "ააშენეთ",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "მიიღეთ პერსონალიზებული AI კომპანიონები თქვენს პროდუქტში. ერთი დეველოპერისთვის მოსახერხებელი API-ით მიიღეთ ჩატი, სურათი, ხმა და პერსონაჟების შექმნის შესაძლებლობები.",
+    "capabilities": {
+      "title": "რა შეგიძლიათ ააშენოთ",
+      "items": [
+        {
+          "title": "საუბრის ჩატი",
+          "description": "დაამატეთ პიროვნებით მდიდარი, კონტექსტის გათვალისწინებით AI საუბრები თქვენს აპში მარტივი შეტყობინებების API-ით."
+        },
+        {
+          "title": "სურათების გენერაცია",
+          "description": "ტექსტური მოთხოვნებიდან პროგრამულად შექმენით ბრენდის შესაბამისი პერსონაჟების სურათები და სცენები."
+        },
+        {
+          "title": "ხმა",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "პერსონაჟის შექმნა",
+          "description": "განსაზღვრეთ და მართეთ კომპანიონები, პიროვნებები და მეხსიერება API-ით."
+        }
+      ]
+    },
+    "form": {
+      "title": "API წვდომის მოთხოვნა",
+      "description": "გვითხარით თქვენი პროექტის შესახებ და რისი აშენება გსურთ. ჩვენი დეველოპერების გუნდი დაგიბრუნებთ შემდეგ ნაბიჯებს.",
+      "nameLabel": "თქვენი სახელი",
+      "namePlaceholder": "ჯეინ დოუ",
+      "emailLabel": "სამუშაო ელფოსტა",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "კომპანია / პროექტი",
+      "companyPlaceholder": "კომპანიის ან პროექტის სახელი",
+      "websiteLabel": "ვებგვერდი ან აპის URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "ინტეგრაციის ტიპი",
+      "integrationTypePlaceholder": "აირჩიეთ ინტეგრაციის ტიპი",
+      "integrationTypeOptions": [
+        {
+          "value": "ჩატი / შეტყობინებები",
+          "label": "ჩატი / შეტყობინებები"
+        },
+        {
+          "value": "სურათების გენერაცია",
+          "label": "სურათების გენერაცია"
+        },
+        {
+          "value": "ხმა",
+          "label": "ხმა"
+        },
+        {
+          "value": "პერსონაჟის შექმნა",
+          "label": "პერსონაჟის შექმნა"
+        },
+        {
+          "value": "სხვა",
+          "label": "სხვა"
+        }
+      ],
+      "volumeLabel": "მოსალოდნელი თვიური მოცულობა",
+      "volumePlaceholder": "აირჩიეთ მოსალოდნელი მოცულობა",
+      "volumeOptions": [
+        {
+          "value": "10k-ზე ნაკლები",
+          "label": "10k-ზე ნაკლები მოთხოვნა"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k მოთხოვნა"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M მოთხოვნა"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ მოთხოვნა"
+        }
+      ],
+      "timelineLabel": "დროის ხაზი",
+      "timelinePlaceholder": "აირჩიეთ დროის ხაზი",
+      "timelineOptions": [
+        {
+          "value": "უბრალოდ ვსწავლობ",
+          "label": "უბრალოდ ვსწავლობ"
+        },
+        {
+          "value": "1 თვეზე ნაკლები",
+          "label": "1 თვეზე ნაკლები"
+        },
+        {
+          "value": "1-3 თვე",
+          "label": "1-3 თვე"
+        },
+        {
+          "value": "3+ თვე",
+          "label": "3+ თვე"
+        }
+      ],
+      "messageLabel": "მოგვიყევით თქვენს გამოყენების შემთხვევაზე",
+      "messagePlaceholder": "რას აშენებთ და როგორ აპირებთ API-ის გამოყენებას?",
+      "submit": "API წვდომის მოთხოვნა",
+      "submitting": "იგზავნება...",
+      "termsNote": "ფორმის გაგზავნით თანახმა ხართ, რომ დაგიკავშირდეთ თქვენს მოთხოვნასთან დაკავშირებით. ჩვენ არასოდეს ვაზიარებთ თქვენს მონაცემებს.",
+      "success": "მადლობა! თქვენი API წვდომის მოთხოვნა გაიგზავნა.",
+      "error": "რაღაც არასწორად წავიდა. გთხოვთ, სცადოთ ხელახლა."
+    },
+    "faq": {
+      "title": "დეველოპერის ხშირად დასმული კითხვები",
+      "items": [
+        {
+          "question": "როგორ მივიღო API წვდომა?",
+          "answer": "შეავსეთ ზემოთ მოცემული მოთხოვნის ფორმა თქვენი გამოყენების შემთხვევით. ჩვენი დეველოპერების გუნდი განიხილავს თითოეულ მოთხოვნას და მოგაწვდით წვდომის დეტალებსა და დოკუმენტაციას."
+        },
+        {
+          "question": "როგორ მუშაობს ავთენტიფიკაცია?",
+          "answer": "API მოთხოვნები ავთენტიფიცირდება საიდუმლო API გასაღებით, რომელიც იგზავნება მოთხოვნის სათაურებში. თქვენ შეგიძლიათ მართოთ და შეცვალოთ თქვენი გასაღებები, როგორც კი დარეგისტრირდებით."
+        },
+        {
+          "question": "არსებობს თუ არა მოთხოვნების შეზღუდვა?",
+          "answer": "დიახ. ლიმიტები დამოკიდებულია თქვენს გეგმაზე და მოსალოდნელ მოცულობაზე. მიუთითეთ თქვენი მოსალოდნელი ტრაფიკი ფორმაში, რათა შევძლოთ რეკომენდაცია შესაბამისი ტარიფისთვის."
+        },
+        {
+          "question": "რა ღირს?"
+        },
+        {
+          "question": "რა შესაძლებლობებია ხელმისაწვდომი?",
+          "answer": "ჩატი, სურათების გენერაცია, ხმა და პერსონაჟების შექმნა. გვითხარით, რომელი გჭირდებათ და ჩვენ დაგეხმარებით შესაბამისი ენდპოინტებით დაწყებაში."
+        }
+      ]
+    },
+    "cta": {
+      "title": "გაქვთ ტექნიკური კითხვა?",
+      "description": "დაუკავშირდით ჩვენს დეველოპერების გუნდს"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI რეალური კლონები",
+    "eyebrow": "შემქმნელებისთვის და სააგენტოებისთვის",
+    "heroTitleLead": "ჩვენ ვქმნით,",
+    "heroTitleHighlight": "თქვენ იღებთ მოგებას.",
+    "heroSubtitle": "ჩვენ ვქმნით თქვენს AI კლონს. თქვენ იღებთ მოგებას, სანამ AI კლონი მუშაობს 24/7 — ესაუბრება თაყვანისმცემლებს და აგზავნის კონტენტს თქვენს ნაცვლად.",
+    "calculator": {
+      "title": "რამდენის გამომუშავება შეგიძლიათ?",
+      "subtitle": "აირჩიეთ თქვენი აუდიტორიის ზომა და დააყენეთ ფასი — იხილეთ თქვენი სავარაუდო შემოსავალი მყისიერად.",
+      "tierLabel": "თქვენი აუდიტორიის ზომა",
+      "tiers": {
+        "small": {
+          "name": "მცირე"
+        },
+        "medium": {
+          "name": "საშუალო"
+        },
+        "large": {
+          "name": "დიდი"
+        }
+      },
+      "priceLabel": "თქვენი განბლოკვის ფასი",
+      "promoLabel": "მე ვაწარმოებ პრომოციას sweetwine-ისთვის",
+      "breakdown": {
+        "title": "თქვენი სავარაუდო შემოსავალი",
+        "perMonth": "თვეში",
+        "perYear": "წელიწადში"
+      },
+      "disclaimer": "შემოსავლის შეფასებები ეფუძნება sweetwine-ის შემოსავლის გაზიარების მოდელს და ტიპურ აქტივობას. რეალური შემოსავალი იცვლება აუდიტორიის, კონტენტის ხარისხის, ჩართულობისა და მოთხოვნის მიხედვით."
+    },
+    "offer": {
+      "title": "რა მიიღებთ თქვენ",
+      "items": [
+        {
+          "title": "გამოიმუშავეთ ძილის დროს",
+          "description": "თქვენი კლონი გარდაქმნის მიმდევრებს შემოსავალად 24/7 — საუბრობს, ყიდის და არასოდეს ისვენებს."
+        },
+        {
+          "title": "ნულოვანი ღირებულება, სუფთა სარგებელი",
+          "description": "ჩვენ ვაშენებთ, ვავარჯიშებთ და ვმართავთ ყველაფერს ჩვენი ხარჯით. თქვენ დაამატებთ ახალ შემოსავლის წყაროს ხელის აწევის გარეშე."
+        },
+        {
+          "title": "გაზარდეთ კონტენტი 10-ჯერ",
+          "description": "შეუზღუდავი ფოტოები და ვიდეოები მოთხოვნისამებრ — გაზარდეთ თქვენი გამომუშავება დამატებითი გადაღებების, რედაქტირების ან დაღლილობის გარეშე."
+        },
+        {
+          "title": "ყოველთვის კონტროლში"
+        }
+      ]
+    },
+    "how": {
+      "title": "როგორ მუშაობს",
+      "steps": [
+        {
+          "title": "რეგისტრაცია"
+        },
+        {
+          "title": "ონბორდინგი",
+          "description": "sweetwine-ის სპეციალისტი აღბეჭდავს თქვენს გარეგნობას, ხმას და პიროვნებას, რათა თქვენი კლონი იყოს ნამდვილად თქვენი."
+        },
+        {
+          "title": "ჩვენ ვაშენებთ და ვავარჯიშებთ",
+          "description": "ჩვენი გუნდი აწარმოებს და ავარჯიშებს თქვენს AI კლონს მთლიანად ჩვენი ხარჯით — თქვენგან არანაირი სამუშაო არ არის საჭირო."
+        },
+        {
+          "title": "გახდით აქტიური და გამოიმუშავეთ",
+          "description": "თქვენი კლონი იწყებს საუბარს და გაყიდვას მთელი საათის განმავლობაში, ხოლო თქვენ იღებთ თქვენს შემოსავლის წილს."
+        }
+      ]
+    },
+    "form": {
+      "title": "მიმართეთ თქვენი AI კლონის შესაქმნელად",
+      "description": "მოგვიყევით თქვენსა და თქვენს აუდიტორიაზე. ჩვენი კრეატორების პარტნიორობის გუნდი განიხილავს ყველა განაცხადს და დაგიკავშირდებათ შემდეგი ნაბიჯებისთვის.",
+      "nameLabel": "თქვენი სახელი",
+      "namePlaceholder": "თქვენი სახელი ან სასცენო სახელი",
+      "emailLabel": "ელფოსტა",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "სააგენტო ან სტუდია",
+      "companyPlaceholder": "სააგენტოს სახელი (დატოვეთ ცარიელი თუ დამოუკიდებელი ხართ)",
+      "roleLabel": "მე ვარ",
+      "rolePlaceholder": "აირჩიეთ ვინ ხართ",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "ვებგვერდი და სოციალური ბმულები",
+      "linksPlaceholder": "Instagram, X, OnlyFans და ა.შ.",
+      "modelCountLabel": "მოდელების რაოდენობა, რომელსაც წარმოადგენთ",
+      "modelCountPlaceholder": "მაგ. მხოლოდ მე, ან 5",
+      "audienceSizeLabel": "აუდიტორიის ზომა",
+      "audienceSizePlaceholder": "აირჩიეთ თქვენი საერთო მიმდევრობა",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k მიმდევარი",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M მიმდევარი"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ მიმდევარი"
+        }
+      ],
+      "contentPrefLabel": "კონტენტის პრეფერენცია",
+      "contentPrefPlaceholder": "აირჩიეთ კონტენტის ტიპი",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "ქვეყანა / რეგიონი",
+      "countryPlaceholder": "სად ხართ დაფუძნებული?",
+      "messageLabel": "მოგვიყევით თქვენსა და თქვენს აუდიტორიაზე",
+      "messagePlaceholder": "გაგვიზიარეთ ყველაფერი, რაც დაგვეხმარება გავიგოთ თქვენი აუდიტორია, კონტენტი და რას ეძებთ.",
+      "openButton": "მიმართეთ ახლავე",
+      "submit": "განაცხადის გაგზავნა",
+      "submitting": "იგზავნება...",
+      "termsNote": "გაგზავნით თქვენ ადასტურებთ, რომ ხართ 18 ან მეტი წლის და თანახმა ხართ დაგიკავშირდეთ თქვენს განაცხადთან დაკავშირებით. ჩვენ არასოდეს ვაზიარებთ თქვენს დეტალებს.",
+      "success": "მადლობა! თქვენი განაცხადი გაიგზავნა. მალე დაგიკავშირდებით.",
+      "error": "რაღაც არასწორად წავიდა. გთხოვთ სცადოთ ხელახლა."
+    },
+    "cta": {
+      "title": "გაქვთ კითხვები განაცხადის წარდგენამდე?",
+      "description": "ისაუბრეთ ჩვენს კრეატორების პარტნიორობის გუნდთან პირდაპირ — ჩვეულებრივ ვპასუხობთ ერთ დღეში.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "საიტის რუკა",
+    "eyebrow": "საიტის რუკა",
+    "titlePrefix": "დაათვალიერეთ",
+    "titleHighlight": "ყველაფერი",
+    "subtitle": "sweetwine-ის ყველა მნიშვნელოვანი გვერდი ერთ ადგილას. ეძებთ XML საიტის რუკას?",
+    "xmlLink": "XML საიტის რუკის ნახვა",
+    "sections": {
+      "product": "პროდუქტი",
+      "features": "ფუნქციები",
+      "company": "კომპანია",
+      "resources": "რესურსები",
+      "legal": "იურიდიული"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine მობილური აპლიკაცია",
+      "cta": "აპის მიღება",
+      "dismiss": "დახურვა"
+    },
+    "guide": {
+      "title": "sweetwine-ის დაყენება",
+      "subtitle": "დაამატეთ sweetwine მთავარ ეკრანზე უფრო სწრაფი, სრული ეკრანის, აპლიკაციის მსგავსი გამოცდილებისთვის.",
+      "iosTitle": "iPhone-ზე და iPad-ზე (Safari)",
+      "iosStep1": "დააჭირეთ გაზიარების ღილაკს ხელსაწყოთა ზოლში",
+      "iosStep2": "აირჩიეთ „მთავარ ეკრანზე დამატება\"",
+      "iosStep3": "დააჭირეთ „დამატება\" დასასრულებლად",
+      "androidTitle": "Android-ზე (Chrome)",
+      "androidStep1": "დააჭირეთ მენიუს (სამ წერტილს)",
+      "androidStep2": "აირჩიეთ „აპის დაყენება“ ან „მთავარ ეკრანზე დამატება\"",
+      "androidStep3": "დააჭირეთ „დაყენება\" დასასრულებლად"
+    },
+    "settings": {
+      "title": "sweetwine მობილური აპლიკაცია",
+      "description": "დააყენეთ sweetwine თქვენს ტელეფონზე უფრო სწრაფი, სრული ეკრანის გამოცდილებისთვის პირდაპირ მთავარი ეკრანიდან.",
+      "cta": "აპის დაყენება"
+    }
+  },
+  "language": {
+    "selectTitle": "აირჩიეთ თქვენი ენა",
+    "searchPlaceholder": "ენების ძებნა",
+    "noResults": "ენები ვერ მოიძებნა",
+    "regions": {
+      "americas": "ამერიკები",
+      "europe": "ევროპა",
+      "middleEast": "ახლო აღმოსავლეთი",
+      "asiaPacific": "აზია-წყნარი ოკეანე",
+      "africa": "აფრიკა"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "როლური თამაში",
+    "newRoleplay": "ახალი როლური თამაში",
+    "tabRoleplay": "როლური თამაში",
+    "emptyTitle": "როლური თამაშები ჯერ არ არის",
+    "noMessagesYet": "შეტყობინებები ჯერ არ არის",
+    "deleteRoleplay": "როლური თამაშის წაშლა",
+    "deleteError": "როლური თამაშის წაშლა ვერ მოხერხდა.",
+    "backToLobby": "როლურ თამაშებზე დაბრუნება",
+    "creating": "როლური თამაშის მომზადება...",
+    "createError": "როლური თამაშის შექმნა ვერ მოხერხდა. სცადე ხელახლა.",
+    "steps": {
+      "companion": {
+        "title": "აირჩიე პერსონაჟი",
+        "subtitle": "აირჩიე ვისთან გინდა როლური თამაში"
+      },
+      "location": {
+        "title": "აირჩიე ადგილი",
+        "subtitle": "სად ვითარდება შენი სცენა?"
+      },
+      "tone": {
+        "title": "დააყენე ტონი",
+        "subtitle": "როგორი უნდა იყოს სცენის განწყობა?"
+      },
+      "scene": {
+        "title": "დააყენე სცენა",
+        "subtitle": "აღწერე როგორ იწყება სცენა"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "წვიმაში ერთმანეთს შევხვდებით და ერთი და იგივე ტილოს ქვეშ დავიმალებით.",
+      "staring_grin": "შენ მიჭერ ყურადღებას ოთახის მეორე მხრიდან და მოდიხარ ღიმილით.",
+      "power_out": "შუქი ქრება და ბნელში მარტო ვრჩებით, ნერვიულად ვიცინებთ.",
+      "spilled_drink": "ვაგვიანებ და შემთხვევით გადმოვასხამ შენს სასმელს.",
+      "stayed_behind": "ჩვენ ვართ ერთადერთი, ვინც დავრჩით ყველას წასვლის შემდეგ.",
+      "music_slows": "ჩვენი თვალები ერთმანეთს ხვდება, როცა მუსიკა ნელდება.",
+      "storm_inside": "მოულოდნელი ქარიშხალი გვაკავებს შიგნით და მხოლოდ საუბრის დრო გვაქვს.",
+      "seat_taken": "შენ ჩემ გვერდით ჯდები და კითხულობ, დაკავებულია თუ არა ადგილი."
+    },
+    "locations": {
+      "home": "სახლი",
+      "cafe": "კაფე",
+      "restaurant": "რესტორანი",
+      "bar": "ბარი",
+      "library": "ბიბლიოთეკა",
+      "bookstore": "წიგნის მაღაზია",
+      "park": "პარკი",
+      "garden": "ბაღი",
+      "nightclub": "ნაითკლუბი",
+      "casino": "კაზინო",
+      "concert": "კონცერტი",
+      "theater": "თეატრი",
+      "cinema": "კინო",
+      "carnival": "კარნავალი",
+      "stadium": "სტადიონი",
+      "beach": "პლაჟი",
+      "pool": "აუზი",
+      "spa": "სპა",
+      "hotel": "სასტუმრო",
+      "rooftop": "სახურავი",
+      "yacht": "იახტა",
+      "cabin": "ქოხი",
+      "hotspring": "ცხელი წყარო",
+      "skilodge": "თხილამურების ბაზა",
+      "campsite": "ბანაკი",
+      "car": "მანქანა",
+      "train": "მატარებელი",
+      "airport": "აეროპორტი",
+      "cruise": "კრუიზი",
+      "office": "ოფისი",
+      "gym": "სპორტული დარბაზი",
+      "university": "უნივერსიტეტი",
+      "mall": "სავაჭრო ცენტრი",
+      "hospital": "საავადმყოფო",
+      "museum": "მუზეუმი"
+    },
+    "tones": {
+      "fun": {
+        "title": "სახალისო",
+        "desc": "მსუბუქი, მხიარული და მოდუნებული."
+      },
+      "romantic": {
+        "title": "რომანტიული",
+        "desc": "ნაზი, მოსიყვარულე და გულწრფელი."
+      },
+      "flirty": {
+        "title": "ფლირტი",
+        "desc": "დამცინავი, მხიარული და მომხიბვლელი."
+      },
+      "mysterious": {
+        "title": "მისტიური",
+        "desc": "ინტრიგული, დაძაბული და საიდუმლოებებით სავსე."
+      },
+      "spooky": {
+        "title": "შიშისმომგვრელი",
+        "desc": "მისტიური, დაძაბული და ოდნავ საშიში."
+      },
+      "action": {
+        "title": "მოქმედებითი",
+        "desc": "ინტენსიური, სათავგადასავლო და სწრაფი."
+      },
+      "dramatic": {
+        "title": "დრამატული",
+        "desc": "ემოციური, ინტენსიური და დაძაბულობით სავსე."
+      },
+      "cozy": {
+        "title": "კომფორტული",
+        "desc": "თბილი, დამამშვიდებელი და მოდუნებული."
+      }
+    },
+    "sceneLabel": "სცენის დასაწყისი",
+    "scenarioTab": "სცენარი",
+    "generatingScene": "სცენა ცოცხლდება...",
+    "locationLabel": "ადგილი",
+    "toneLabel": "ტონი",
+    "scenePlaceholder": "მაგ. ერთმანეთს წვიმაში შევხვდებით და ერთი ტილოს ქვეშ დავიმალებით...",
+    "sceneHint": "აღწერეთ მხოლოდ როგორ იწყება სცენა — სად ხართ და რა ხდება დასაწყისში. არ შეცვალოთ პერსონაჟის პიროვნება, თქვენი ურთიერთობა ან მთელი ისტორია.",
+    "sceneError": "გთხოვთ აღწეროთ როგორ იწყება სცენა.",
+    "reviewTitle": "არჩევანის გადახედვა",
+    "characterLabel": "პერსონაჟი",
+    "randomize": "შემთხვევითი",
+    "sceneGuidanceTitle": "სცენის დასაწყისის მითითებები",
+    "sceneGuide1": "არ შეცვალოთ პერსონაჟის პიროვნება ან თქვენი ურთიერთობა.",
+    "sceneGuide2": "სცენის დასაწყისი უნდა იყოს თანხმობით და პატივისცემით სავსე.",
+    "sceneGuide3": "აღწერეთ მხოლოდ როგორ იწყება სცენა, არა მთელი ისტორია.",
+    "next": "შემდეგი",
+    "create": "როლური თამაშის დაწყება",
+    "creatingMessages": [
+      "სცენის მომზადება...",
+      "ნათურებს სწორად ვაქრობ...",
+      "შენს გარემოს ვხატავ...",
+      "თანამგზავრს როლში ვაყენებ...",
+      "ბოლო შტრიხებს ვამატებ...",
+      "თითქმის მზადაა..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "დაწერე შეტყობინება...",
+    "send": "გაგზავნა",
+    "typing": "წერს...",
+    "read": "წაკითხული",
+    "resetChat": "ჩატის გადატვირთვა",
+    "deleteChat": "ჩატის წაშლა",
+    "settings": "პარამეტრები",
+    "chatSettings": "ჩატის პარამეტრები",
+    "roleplayMode": "როლური რეჟიმი",
+    "roleplayModeDescription": "ჩართვისას თანამგზავრები ჟესტებსა და მოქმედებებს *ვარსკვლავებში* ასრულებენ იმერსიული როლური თამაშისთვის. გამორთვისას ბუნებრივად საუბრობენ, როგორც ნამდვილი მიმოწერა.",
+    "roleplayModeError": "როლური რეჟიმის განახლება ვერ მოხერხდა",
+    "roleplayCtaDescription": "გახსენი სპეციალური როლური გამოცდილება, სადაც თანამგზავრი სცენებსა და ისტორიებს შენთან ერთად თამაშობს.",
+    "goToRoleplay": "როლურში გადასვლა",
+    "confirmReset": "დარწმუნებული ხარ, რომ გსურს ამ ჩატის გადატვირთვა? ყველა შეტყობინება წაიშლება.",
+    "confirmDelete": "დარწმუნებული ხარ, რომ გსურს ამ ჩატის წაშლა?",
+    "resetSuccess": "ჩატი წარმატებით გადაიტვირთა",
+    "deleteMemory": "მეხსიერების წაშლა",
+    "confirmDeleteMemory": "დარწმუნებული ხართ, რომ გსურთ ამ პერსონაჟის გრძელვადიანი მეხსიერების წაშლა? ჩატის შეტყობინებები დარჩება, მაგრამ პერსონაჟი დაივიწყებს წინა ფაქტებს შემდეგ პასუხზე.",
+    "deleteMemorySuccess": "მეხსიერება წაიშალა",
+    "deleteSuccess": "ჩატი წარმატებით წაიშალა",
+    "sendError": "შეტყობინების გაგზავნა ვერ მოხერხდა",
+    "noChats": "ჯერ არ არის ჩატები",
+    "noChatsDesc": "დაიწყე საუბარი პერსონაჟთან, რომ აქ იხილო შენი ჩატები",
+    "lastMessage": "ბოლო შეტყობინება",
+    "messageCount": "{count} შეტყობინება",
+    "uploadImage": "სურათის ატვირთვა",
+    "uploadVideo": "ვიდეოს ატვირთვა (მალე)",
+    "yourConversations": "შენი საუბრები",
+    "continueChattingDesc": "განაგრძე საუბარი შენს AI პერსონაჟებთან",
+    "newChat": "ახალი ჩატი",
+    "noConversationsYet": "ჯერ არ არის საუბრები",
+    "startChattingDesc": "დაიწყე საუბარი პერსონაჟთან, რომ აქ იხილო შენი საუბრები",
+    "browseCharacters": "პერსონაჟების დათვალიერება",
+    "createCustomCharacter": "მორგებული პერსონაჟის შექმნა",
+    "imageTooLarge": "სურათი ძალიან დიდია (მაქს. 5MB)",
+    "generateImageTitle": "სურათის გენერირება {name}-თან",
+    "imagePromptLabel": "აღწერე სურათი",
+    "imagePromptPlaceholder": "მაგ., პლაჟზე ლურჯ კაბაში, კაფეში ყავის დალევა, პარკში სეირნობა...",
+    "imagePromptHint": "AI გენერირებს {name}-ის სურათს შენი აღწერის მიხედვით.",
+    "referenceImageLabel": "შენი ფოტო (არასავალდებულო)",
+    "referenceImageHint": "ატვირთე შენი ფოტო, რომ შეტანილი იყოს სცენაში {name}-თან ერთად. ფოტოს გარეშე მხოლოდ {name} გენერირდება.",
+    "uploadReferenceImage": "შენი ფოტოს ატვირთვა",
+    "uploadReferenceImageDesc": "ორივე გამოჩნდებით გენერირებულ სურათში",
+    "referenceImageSelected": "ორივე, შენ და {name}, ერთად გამოჩნდებით",
+    "generating": "გენერირება...",
+    "generate": "გენერირება",
+    "generateImage": "სურათის გენერირება",
+    "imageGenerated": "სურათი წარმატებით გენერირდა",
+    "generateError": "სურათის გენერირება ვერ მოხერხდა",
+    "contentBlockedReply": "ვწუხვარ, მაგრამ ამ სურათის შექმნა ვერ შევძელი. ის დაბლოკილია უსაფრთხოების ფილტრებით. სცადე სხვა აღწერა! 💕",
+    "generateVideoTitle": "ვიდეოს გენერირება {name}-თან",
+    "generateVideo": "ვიდეოს გენერირება",
+    "videoPromptLabel": "აღწერე მოქმედება",
+    "videoPromptPlaceholder": "მაგ., ცეკვა, ხელის ქნევა, კოცნის გაგზავნა...",
+    "videoPromptHint": "AI გენერირებს ვიდეოს, სადაც {name} ასრულებს აღწერილ მოქმედებას.",
+    "generatingImage": "სურათის გენერირება...",
+    "generatingVideo": "ვიდეოს გენერირება... (3-5 წთ)",
+    "viewPhoto": "ფოტოს ნახვა",
+    "viewVideo": "ვიდეოს ნახვა",
+    "selectVideoOption": "აირჩიე ვიდეოს ვარიანტი ზემოთ",
+    "contentPolicyViolation": "ეს შეტყობინება ვერ გაიგზავნა. გთხოვთ, საუბარი იყოს პატივისცემით.",
+    "functionCallBetaHint": "💡 ეს ფუნქცია ბეტა რეჟიმშია — შეზღუდვების გარეშე საიმედო მედიის გენერირებისთვის გამოიყენე ფოტო/ვიდეო ღილაკები ინსტრუმენტთა პანელში.",
+    "repliedToStory": "უპასუხა სტორის",
+    "repliedToStoryLiked": "მოწონებული და უპასუხა სტორის",
+    "storyNoLongerAvailable": "სტორი აღარ არის ხელმისაწვდომი",
+    "rateLimitExceeded": "ძალიან ბევრი მოთხოვნა. გთხოვთ, დაელოდოთ და სცადოთ ხელახლა.",
+    "profileTab": "პროფილი",
+    "galleryTab": "გალერეა",
+    "giftsTab": "საჩუქრები",
+    "tts": {
+      "play": "ხმის დაკვრა",
+      "stop": "შეჩერება",
+      "generating": "ხმის გენერირება…",
+      "error": "აუდიოს დაკვრა ვერ მოხერხდა"
+    }
+  },
+  "gallery": {
+    "all": "ყველა",
+    "images": "სურათები",
+    "videos": "ვიდეოები",
+    "empty": "მედია ჯერ არ არის"
+  },
+  "gifts": {
+    "sendAGift": "საჩუქრის გაგზავნა",
+    "catalogSubtitle": "აირჩიე საჩუქარი {name}-ისთვის",
+    "browseGifts": "საჩუქრების დათვალიერება",
+    "noneSent": "საჩუქრები ჯერ არ გაგზავნილა",
+    "confirmTitle": "საჩუქრის დადასტურება",
+    "forCompanion": "{name}-ისთვის",
+    "optionalMessage": "დაამატე შეტყობინება (არასავალდებულო)",
+    "optionalMessagePlaceholder": "დაწერე რამე ტკბილეული...",
+    "sendGiftFor": "გაგზავნა",
+    "giftSent": "თქვენ გაგზავნეთ საჩუქარი",
+    "sendError": "საჩუქრის გაგზავნა ვერ მოხერხდა"
+  },
+  "stories": {
+    "replyPlaceholder": "უპასუხეთ {name}...",
+    "like": "მოწონება",
+    "send": "გაგზავნა",
+    "close": "დახურვა",
+    "previous": "წინა ამბავი",
+    "next": "შემდეგი ამბავი",
+    "pause": "პაუზა",
+    "play": "დაკვრა",
+    "mute": "ხმის გამორთვა",
+    "unmute": "ხმის ჩართვა",
+    "openStory": "გახსენით {name}-ის ამბავი"
+  },
+  "generate": {
+    "title": "სურათის გენერირება",
+    "description": "შექმენით გასაოცარი სურათები თქვენს AI პერსონაჟებთან",
+    "selectCompanion": "აირჩიეთ პერსონაჟი",
+    "promptPlaceholder": "აღწერეთ სურათი, რომლის გენერირებაც გსურთ... მაგ., პლაჟზე, წითელ კაბაში",
+    "promptLabel": "სურათის აღწერა",
+    "promptRequired": "გთხოვთ, შეიყვანოთ აღწერა",
+    "generateButton": "სურათის გენერირება",
+    "generating": "გენერირდება...",
+    "creatingImage": "იქმნება თქვენი სურათი...",
+    "pleaseWait": "ამას შეიძლება 10-30 წამი დასჭირდეს",
+    "noCompanionSelected": "გთხოვთ, ჯერ აირჩიოთ პერსონაჟი",
+    "emptyGallery": "ჯერ არ არის გენერირებული სურათები. აირჩიეთ პერსონაჟი და აღწერეთ თქვენი სურათი!",
+    "sessionGallery": "გენერირებული სურათები",
+    "regenerate": "ხელახლა გენერირება",
+    "regenerating": "ხელახლა გენერირდება...",
+    "animate": "ანიმაცია",
+    "animateReference": "ეს სურათი იქნება ვიდეოს პირველი კადრი.",
+    "filterMyAI": "ჩემი AI",
+    "filterAll": "ყველა",
+    "filterGirls": "ქალები",
+    "filterAnime": "ანიმე",
+    "filterGuys": "კაცები",
+    "imageGenerationFailed": "სურათის გენერაცია ვერ მოხერხდა. სურათი შესაძლოა არ აკმაყოფილებდეს მოთხოვნებს ან აღწერა ზედმეტად რთულია. სცადეთ უფრო მარტივი მოთხოვნით.",
+    "noImageData": "სურათი არ გენერირდა. გთხოვთ, სცადოთ სხვა აღწერით.",
+    "generationFailed": "გენერაცია ვერ მოხერხდა. გთხოვთ, სცადოთ მოგვიანებით ან სხვა მოთხოვნით.",
+    "random": "შემთხვევითი",
+    "custom": "მორგებული",
+    "settings": "პარამეტრები",
+    "videoTitle": "ვიდეოს გენერაცია",
+    "videoDescription": "შექმენით გასაოცარი ვიდეოები თქვენი AI პერსონაჟებით",
+    "videoPromptLabel": "ვიდეოს აღწერა",
+    "videoPromptPlaceholder": "აღწერეთ მოქმედება, რომლის გენერაციაც გსურთ... მაგ., ცეკვა, ხელის ქნევა, ღიმილი",
+    "generateVideoButton": "ვიდეოს გენერაცია",
+    "generatingVideo": "ვიდეო გენერირდება...",
+    "creatingVideo": "თქვენი ვიდეო იქმნება...",
+    "videoWait": "ამას შეიძლება 1-5 წუთი დასჭირდეს",
+    "emptyVideoGallery": "ჯერ ვიდეო არ გენერირებულა. აირჩიეთ პერსონაჟი და აღწერეთ მოქმედება!",
+    "sessionVideoGallery": "გენერირებული ვიდეოები",
+    "videoGenerated": "ვიდეო წარმატებით გენერირდა!",
+    "videoGenerationFailed": "ვიდეოს გენერაცია ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+    "duration": "ხანგრძლივობა",
+    "shortVideo": "მოკლე",
+    "longVideo": "გრძელი",
+    "seconds": "წამი",
+    "audio": "აუდიო",
+    "renderingVideo": "ვიდეოს რენდერირება…",
+    "renderingVideoHint": "(გრძელდება 1 წუთამდე)",
+    "rateLimitExceeded": "ძალიან ბევრი მოთხოვნა. გთხოვთ, დაელოდოთ და სცადოთ ხელახლა.",
+    "chooseCharacter": "აირჩიეთ პერსონაჟი",
+    "selectButton": "არჩევა",
+    "noCustomCompanions": "ჯერ არ შეგიქმნიათ AI პერსონაჟები.",
+    "numberOfImages": "სურათების რაოდენობა",
+    "numberOfVideos": "ვიდეოების რაოდენობა",
+    "freeTrial": "უფასო საცდელი პერიოდი",
+    "changeCharacter": "პერსონაჟის შეცვლა",
+    "randomize": "მოთხოვნის შემთხვევითი შერჩევა",
+    "aiVideo": "AI ვიდეო",
+    "download": "ჩამოტვირთვა",
+    "seriesHelper": "აქ შეგიძლიათ იხილოთ თქვენი შედეგები. შეგიძლიათ დატოვოთ გვერდი ან დაიწყოთ ახალი სერია, სანამ ეს დასრულდება.",
+    "suggestions": {
+      "title": "შემოთავაზებები",
+      "categories": {
+        "outfit": "ტანსაცმელი",
+        "action": "მოქმედება",
+        "pose": "პოზა",
+        "accessories": "აქსესუარები",
+        "scene": "სცენა"
+      },
+      "items": {
+        "bikini": "ბიკინი",
+        "skirt": "ქვედაკაბა",
+        "lingerie": "თეთრეული",
+        "crop_top": "მოკლე ტოპი",
+        "leather": "ტყავი",
+        "mini_skirt": "მინი-ქვედაკაბა",
+        "satin_robe": "ატლასის ხალათი",
+        "jeans": "ჯინსი",
+        "summer_dress": "ზაფხულის კაბა",
+        "sportswear": "სპორტული ტანსაცმელი",
+        "selfie": "სელფი",
+        "walking": "სეირნობა",
+        "dancing": "ცეკვა",
+        "stretching": "გაჭიმვა",
+        "lying_down": "წოლა",
+        "leaning": "დაყრდნობა",
+        "blowing_kiss": "კოცნის გაგზავნა",
+        "drinking_coffee": "ყავის დალევა",
+        "hands_on_hips": "ხელები თეძოებზე",
+        "over_shoulder": "მხარზე გადახედვა",
+        "side_profile": "გვერდითი პროფილი",
+        "arms_crossed": "ხელები მკერდზე",
+        "kneeling": "მუხლებზე დგომა",
+        "squatting": "ჩაჯდომა",
+        "back_view": "უკნიდან ხედი",
+        "sitting": "ჯდომა",
+        "necklace": "ყელსაბამი",
+        "earrings": "საყურეები",
+        "glasses": "სათვალე",
+        "choker": "ჩოკერი",
+        "hat": "ქუდი",
+        "sunglasses": "მზის სათვალე",
+        "garden": "ბაღი",
+        "beach": "პლაჟი",
+        "bedroom": "საძინებელი",
+        "gym": "სპორტდარბაზი",
+        "bar": "ბარი",
+        "kitchen": "სამზარეულო",
+        "restaurant": "რესტორანი",
+        "balcony": "აივანი",
+        "city_street": "ქალაქის ქუჩა",
+        "pool": "აუზის პირი"
+      },
+      "fragments": {
+        "bikini": "ბიკინის ტარება",
+        "skirt": "ქვედაკაბის ტარება",
+        "lingerie": "ლინგერიის ტარება",
+        "crop_top": "კროპ ტოპის ტარება",
+        "leather": "ტყავის კოსტიუმის ტარება",
+        "mini_skirt": "მინი-ქვედაკაბის ტარება",
+        "satin_robe": "ატლასის ხალათის ტარება",
+        "jeans": "ჯინსების ტარება",
+        "summer_dress": "ზაფხულის კაბის ტარება",
+        "sportswear": "მჭიდრო სპორტული ტანსაცმლის ტარება",
+        "selfie": "სელფის გადაღება",
+        "walking": "სიარული",
+        "dancing": "ცეკვა",
+        "stretching": "გაჭიმვა",
+        "lying_down": "წოლა",
+        "leaning": "კედელზე დაყრდნობა",
+        "blowing_kiss": "კოცნის გაგზავნა",
+        "drinking_coffee": "ყავის ჭიქის დალევა",
+        "hands_on_hips": "ხელები თეძოებზე",
+        "over_shoulder": "მხარზე გადახედვა",
+        "side_profile": "გვერდითი პროფილის პოზა",
+        "arms_crossed": "ხელები მკერდზე გადაჯვარედინებული",
+        "kneeling": "მუხლებზე დაჩოქილი პოზა",
+        "squatting": "ჩაჯდომის პოზა",
+        "back_view": "უკნიდან ხედი",
+        "sitting": "დაჯდომა",
+        "necklace": "ჯაჭვის ტარება",
+        "earrings": "საყურეების ტარება",
+        "glasses": "სათვალის ტარება",
+        "choker": "ჩოკერის ტარება",
+        "hat": "ქუდის ტარება",
+        "sunglasses": "მზის სათვალის ტარება",
+        "garden": "ბაღში",
+        "beach": "პლაჟზე",
+        "bedroom": "საძინებელში",
+        "gym": "სპორტულ დარბაზში",
+        "bar": "ბარში",
+        "kitchen": "სამზარეულოში",
+        "restaurant": "რესტორანში",
+        "balcony": "აივანზე",
+        "city_street": "ქალაქის ქუჩაზე",
+        "pool": "აუზთან"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "სელფი",
+          "uiPrompt": "მაჩვენე შენი სელფი"
+        },
+        "posing": {
+          "name": "პოზირება",
+          "uiPrompt": "მაჩვენე შენი პოზირება"
+        },
+        "sitting": {
+          "name": "ჯდომა",
+          "uiPrompt": "მაჩვენე შენი ჯდომა"
+        },
+        "waving": {
+          "name": "ხელის ქნევა",
+          "uiPrompt": "მაჩვენე შენი ხელის ქნევა"
+        },
+        "dancing": {
+          "name": "ცეკვა",
+          "uiPrompt": "მაჩვენე შენი ცეკვა"
+        },
+        "reading": {
+          "name": "კითხვა",
+          "uiPrompt": "მაჩვენე შენი კითხვა"
+        },
+        "smiling": {
+          "name": "ღიმილი",
+          "uiPrompt": "მაჩვენე შენი ღიმილი"
+        },
+        "walking": {
+          "name": "სიარული",
+          "uiPrompt": "მაჩვენე შენი სიარული"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "სელფი",
+          "uiPrompt": "მაჩვენე ვიდეო სელფი"
+        },
+        "posing": {
+          "name": "პოზირება",
+          "uiPrompt": "მაჩვენე ვიდეო შენი პოზირებით"
+        },
+        "sitting": {
+          "name": "ჯდომა",
+          "uiPrompt": "მაჩვენე ვიდეო შენი დაჯდომით"
+        },
+        "waving": {
+          "name": "ხელის ქნევა",
+          "uiPrompt": "მაჩვენე ვიდეო შენი ხელის ქნევით"
+        },
+        "dancing": {
+          "name": "ცეკვა",
+          "uiPrompt": "მაჩვენე ვიდეო შენი ცეკვით"
+        },
+        "reading": {
+          "name": "კითხვა",
+          "uiPrompt": "მაჩვენე ვიდეო შენი კითხვით"
+        },
+        "smiling": {
+          "name": "ღიმილი",
+          "uiPrompt": "მაჩვენე ვიდეო შენი ღიმილით"
+        },
+        "walking": {
+          "name": "სიარული",
+          "uiPrompt": "მაჩვენე ვიდეო შენი სიარულით"
+        }
+      }
+    },
+    "writeYourOwn": "ან დაწერე შენი პრომპტი",
+    "presetSelected": "პრესეტი არჩეულია",
+    "effects": {
+      "categories": {
+        "solo": "სოლო და ტიზი",
+        "oral": "ორალი",
+        "positions": "პოზიციები",
+        "pov": "POV",
+        "extra": "დამატებითი",
+        "remix": "რემიქსი"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Bath Towel"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Breast Milk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "მისიონერული გვერდითი ხედი"
+        },
+        "remix_blowjob": {
+          "name": "რემიქსი Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "რემიქსი Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "რემიქსი Doggystyle"
+        },
+        "remix_dress": {
+          "name": "რემიქსი Dress"
+        },
+        "remix_hold_dick": {
+          "name": "რემიქსი Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "რემიქსი Kiss"
+        },
+        "remix_pronebone": {
+          "name": "რემიქსი Pronebone"
+        },
+        "remix_suck": {
+          "name": "რემიქსი Suck"
+        },
+        "remix_wear": {
+          "name": "რემიქსი Wear"
+        },
+        "remix_yoga": {
+          "name": "რემიქსი Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "ტატუ"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "ტოპლესი"
+        },
+        "undress": {
+          "name": "გაშიშვლება"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "მოახლის კოსტიუმი"
+        },
+        "nurse_outfit": {
+          "name": "მედდის კოსტიუმი"
+        },
+        "cheerleader": {
+          "name": "ჩირლიდერი"
+        },
+        "wet_tshirt": {
+          "name": "სველი მაისური"
+        },
+        "latex_catsuit": {
+          "name": "ლატექსის კატსუტი"
+        },
+        "corset_stockings": {
+          "name": "კორსეტი და წინდები"
+        },
+        "gym_shorts": {
+          "name": "სპორტული შორტები"
+        },
+        "thong_tease": {
+          "name": "თონგის ტიზი"
+        },
+        "upskirt_panties": {
+          "name": "აპსკირტი"
+        },
+        "mirror_selfie": {
+          "name": "სარკის სელფი"
+        },
+        "shower_nude": {
+          "name": "შხაპი"
+        },
+        "oiled_body": {
+          "name": "ზეთიანი სხეული"
+        },
+        "spread_open": {
+          "name": "გაშლილი"
+        },
+        "ahegao": {
+          "name": "აჰეგაო"
+        },
+        "deepthroat": {
+          "name": "დიპთროუთი"
+        },
+        "sloppy_blowjob": {
+          "name": "სლოპი ბლოუჯობი"
+        },
+        "ball_licking": {
+          "name": "ბურთების ლოკვა"
+        },
+        "face_sitting_oral": {
+          "name": "სახეზე ჯდომა"
+        },
+        "cowgirl": {
+          "name": "კაუგერლი"
+        },
+        "reverse_cowgirl": {
+          "name": "რევერს კაუგერლი"
+        },
+        "prone_bone": {
+          "name": "პროუნ ბოუნი"
+        },
+        "standing_sex": {
+          "name": "დგომით"
+        },
+        "against_wall": {
+          "name": "კედელთან"
+        },
+        "spooning": {
+          "name": "სპუნინგი"
+        },
+        "legs_on_shoulders": {
+          "name": "ფეხები მხრებზე"
+        },
+        "mating_press": {
+          "name": "მეითინგ პრესი"
+        },
+        "cowgirl_pov": {
+          "name": "კაუგერლი POV"
+        },
+        "titjob_pov": {
+          "name": "ტიტჯობ POV"
+        },
+        "handjob_pov": {
+          "name": "ჰენდჯობ POV"
+        },
+        "cunnilingus_pov": {
+          "name": "კუნილინგუს POV"
+        },
+        "double_penetration": {
+          "name": "ორმაგი პენეტრაცია"
+        },
+        "threesome_mmf": {
+          "name": "სამეული"
+        },
+        "glory_hole": {
+          "name": "გლორი ჰოული"
+        },
+        "creampie": {
+          "name": "კრიმპაი"
+        },
+        "pearl_necklace": {
+          "name": "მარგალიტის ყელსაბამი"
+        },
+        "bukkake": {
+          "name": "ბუკაკე"
+        },
+        "squirting": {
+          "name": "სკვირტინგი"
+        },
+        "spanking": {
+          "name": "შლაპინგი"
+        },
+        "gagged_bdsm": {
+          "name": "გაგაგებული"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Breast Massage"
+        },
+        "breast_massage_nude": {
+          "name": "Breast Massage Nude"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo Masturbation"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "ვაგინის ახლოდან"
+        },
+        "reverse_cowgirl": {
+          "name": "უკანა კაუბოი"
+        },
+        "shoejob": {
+          "name": "ფეხსაცმლით"
+        },
+        "spitroast": {
+          "name": "ორივე მხრიდან"
+        },
+        "squatting_cowgirl": {
+          "name": "ჩაჯდომით კაუბოი"
+        },
+        "throatpie": {
+          "name": "ყელში"
+        },
+        "tiktok_trend": {
+          "name": "TikTok ტრენდი"
+        },
+        "titjob": {
+          "name": "მკერდით"
+        },
+        "titty_flash": {
+          "name": "მკერდის ჩვენება"
+        },
+        "triple_dicked": {
+          "name": "სამით"
+        },
+        "twerk": {
+          "name": "ტვერკი"
+        },
+        "undress": {
+          "name": "გაშიშვლება"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "მზრუნველობის შემდგომი არეულობა"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "დარწმუნებული ხარ, რომ გსურს წაშლა?",
+    "deleteSuccess": "წარმატებით წაიშალა",
+    "deleteError": "წაშლა ვერ მოხერხდა",
+    "empty": "ჯერ მედია არ არის. ჩატში შექმენი!",
+    "gallerySubtitle": "შენი პირადი AI-ით შექმნილი მომენტების გალერეა",
+    "filterAll": "ყველა",
+    "filterImages": "სურათები",
+    "filterVideos": "ვიდეოები",
+    "loadMore": "მეტის ჩვენება",
+    "folders": "საქაღალდეები",
+    "newFolder": "ახალი საქაღალდე",
+    "deleteFolders": "მონიშნული საქაღალდეების წაშლა",
+    "folderCreated": "საქაღალდე შეიქმნა",
+    "folderCreateError": "საქაღალდის შექმნა ვერ მოხერხდა",
+    "folderRenamed": "საქაღალდე გადაერქვა",
+    "folderRenameError": "საქაღალდის სახელის შეცვლა ვერ მოხერხდა",
+    "folderDeleted": "საქაღალდე წაიშალა",
+    "folderDeleteError": "საქაღალდის წაშლა ვერ მოხერხდა",
+    "folderNamePlaceholder": "საქაღალდის სახელი",
+    "seeMore": "მეტის ნახვა",
+    "seeLess": "ნაკლების ნახვა",
+    "selectedCount": "{count} ელემენტი მონიშნულია",
+    "selectAll": "ყველას მონიშვნა",
+    "select": "აირჩიეთ",
+    "moveToFolder": "გადატანა",
+    "bulkDeleteConfirm": "წავშალოთ {count} მონიშნული ელემენტი?",
+    "bulkDeleteSuccess": "ელემენტები წაიშალა",
+    "bulkDownloadStart": "იტვირთება {count} ელემენტი...",
+    "moveSuccess": "ელემენტები გადავიდა"
+  },
+  "voice": {
+    "connecting": "დაკავშირება...",
+    "connected": "დაკავშირებულია",
+    "mute": "დადუმება",
+    "unmute": "ხმის ჩართვა",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "ისაუბრე ბუნებრივად. AI უპასუხებს შენი პაუზისას.",
+    "connectionError": "ვერ დავუკავშირდით. გთხოვთ, სცადოთ ხელახლა.",
+    "minutesRemaining": "{minutes} წუთი დარჩა",
+    "minutesUsed": "{minutes} წუთი გამოიყენა"
+  },
+  "characters": {
+    "filters": "ფილტრები",
+    "ethnicity": "ეთნიკური წარმომავლობა",
+    "bodyType": "ტანის აღნაგობა",
+    "ageRange": "ასაკობრივი დიაპაზონი",
+    "relationship": "ურთიერთობა",
+    "occupation": "პროფესია",
+    "hobbies": "ჰობი",
+    "personality": "პიროვნება",
+    "language": "ენა",
+    "age": "ასაკი",
+    "all": "ყველა",
+    "noResults": "პერსონაჟები ვერ მოიძებნა",
+    "noResultsDesc": "სცადეთ ფილტრების შეცვლა",
+    "newBadge": "ახალი",
+    "chatNow": "ჩატი ახლავე",
+    "viewProfile": "პროფილის ნახვა",
+    "ethnicities": {
+      "caucasian": "კავკასიელი",
+      "asian": "აზიელი",
+      "middleEastern": "ახლო აღმოსავლელი",
+      "hispanic": "ჰისპანური",
+      "african": "აფრიკელი",
+      "southAsian": "სამხრეთ აზიელი",
+      "nativeAmerican": "ამერიკელი ინდიელი",
+      "pacificIslander": "წყნარი ოკეანის კუნძულელი",
+      "mixed": "შერეული",
+      "other": "სხვა"
+    },
+    "bodyTypes": {
+      "slim": "გამხდარი",
+      "athletic": "სპორტული",
+      "average": "საშუალო",
+      "curvy": "მრუდხაზოვანი",
+      "plus": "პლუს ზომა"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "მარტოხელა",
+      "dating": "დათინგი",
+      "married": "დაქორწინებული",
+      "none": "არცერთი"
+    }
+  },
+  "settings": {
+    "profile": "პროფილი",
+    "myProfile": "ჩემი პროფილი",
+    "settings": "პარამეტრები",
+    "account": "ანგარიში",
+    "plan": "გეგმა",
+    "profileSettings": "პროფილის პარამეტრები",
+    "manageAccountSettings": "მართეთ თქვენი ანგარიშის პარამეტრები და პრეფერენსები",
+    "personalInfo": "პერსონალური ინფორმაცია",
+    "nickname": "მეტსახელი",
+    "gender": "სქესი",
+    "male": "მამრობითი",
+    "female": "მდედრობითი",
+    "preferences": "პრეფერენსები",
+    "newsletter": "სიახლეების გამოწერა",
+    "newsletterDesc": "მიიღეთ განახლებები და სიახლეები",
+    "aiTrainingTitle": "AI და მოდერაციის ტრენინგი",
+    "aiTrainingDesc": "ნება დართეთ თქვენს ჩატებსა და მოთხოვნებს დაეხმარონ sweetwine-ის AI-ისა და მოდერაციის გაუმჯობესებაში. გამორთეთ ნებისმიერ დროს, თუ გსურთ უარი თქვათ.",
+    "aiTrainingLink": "გაიგეთ მეტი ჩვენს კონფიდენციალურობის შეტყობინებაში.",
+    "aiTrainingError": "ვერ განახლდა თქვენი AI ტრენინგის პრეფერენსი",
+    "interfaceLanguage": "ინტერფეისის ენა",
+    "interfaceLanguageDesc": "ენა მომხმარებლის ინტერფეისისთვის",
+    "aiLanguage": "AI პასუხის ენა",
+    "aiLanguageDesc": "ენა, რომელსაც AI პერსონაჟები გამოიყენებენ თქვენთან საუბრისას",
+    "currentPlan": "მიმდინარე გეგმა",
+    "freePlan": "უფასო გეგმა",
+    "dangerZone": "საშიში ზონა",
+    "dangerZoneDescription": "თუ გსურთ ამ ანგარიშის და მისი ყველა მონაცემის სამუდამოდ წაშლა.",
+    "deleteAllMemory": "მთელი მეხსიერების წაშლა",
+    "confirmDeleteAllMemory": "დარწმუნებული ხართ, რომ გსურთ ყველა AI პერსონაჟის გრძელვადიანი მეხსიერების წაშლა? ჩატის შეტყობინებები დარჩება, მაგრამ პერსონაჟები დაივიწყებენ წინა ფაქტებს შემდეგ პასუხზე.",
+    "deleteAllMemorySuccess": "მთელი მეხსიერება წაიშალა",
+    "deleteAccount": {
+      "button": "ანგარიშის წაშლა",
+      "title": "ანგარიშის წაშლა",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "დასადასტურებლად აკრიფეთ",
+      "confirmRequired": "გთხოვთ აკრიფოთ DELETE დასადასტურებლად",
+      "confirmButton": "ჩემი ანგარიშის წაშლა",
+      "deleting": "იშლება...",
+      "success": "თქვენი ანგარიში წაიშალა",
+      "error": "ანგარიშის წაშლა ვერ მოხერხდა. გთხოვთ სცადოთ ხელახლა."
+    },
+    "saveChanges": "ცვლილებების შენახვა",
+    "changesSaved": "ცვლილებები წარმატებით შეინახა",
+    "saveFailed": "ცვლილებების შენახვა ვერ მოხერხდა",
+    "languageUpdated": "ენა განახლდა",
+    "aiLanguageUpdated": "AI ენა განახლდა"
+  },
+  "create": {
+    "defaultGreeting": "გამარჯობა",
+    "title": "AI პერსონაჟის შექმნა",
+    "step": "ნაბიჯი {current} / {total}",
+    "step1": {
+      "title": "აირჩიეთ სტილი",
+      "description": "აირჩიეთ სტილი და ძირითადი მახასიათებლები თქვენი პერსონაჟისთვის"
+    },
+    "step2": {
+      "title": "აირჩიეთ ეთნიკურობა",
+      "description": "აირჩიეთ ეთნიკურობა და ასაკი თქვენი პერსონაჟისთვის"
+    },
+    "step3": {
+      "title": "აირჩიეთ თმა და თვალები",
+      "description": "მოარგეთ თმის სტილი, თმის ფერი და თვალის ფერი"
+    },
+    "step4": {
+      "title": "აირჩიეთ სხეული",
+      "description": "მოარგეთ თქვენი პერსონაჟის სხეული"
+    },
+    "step5": {
+      "title": "პიროვნება და დეტალები",
+      "description": "განსაზღვრეთ თქვენი პერსონაჟის პიროვნება და ხმა"
+    },
+    "style": {
+      "title": "პერსონაჟის სტილი",
+      "realistic": "რეალისტური",
+      "anime": "ანიმე"
+    },
+    "gender": {
+      "title": "სქესი",
+      "female": "ქალი",
+      "male": "კაცი"
+    },
+    "age": {
+      "title": "ასაკი",
+      "years": "{age} წელი"
+    },
+    "ethnicity": {
+      "title": "ეთნიკურობა"
+    },
+    "hairStyle": {
+      "title": "თმის სტილი"
+    },
+    "hairColor": {
+      "title": "თმის ფერი"
+    },
+    "eyeColor": {
+      "title": "თვალის ფერი"
+    },
+    "bodyType": {
+      "title": "სხეულის ტიპი"
+    },
+    "breastSize": {
+      "title": "მკერდის ზომა"
+    },
+    "name": {
+      "title": "სახელი",
+      "placeholder": "შეიყვანეთ პერსონაჟის სახელი",
+      "randomize": "შემთხვევითი სახელის გენერირება"
+    },
+    "language": {
+      "title": "ენა",
+      "widgetLabel": "აირჩიეთ ენა",
+      "placeholder": "აირჩიეთ ენა",
+      "selectTitle": "აირჩიეთ თქვენი ენა"
+    },
+    "personality": {
+      "title": "პიროვნება",
+      "widgetLabel": "აირჩიეთ პიროვნება",
+      "placeholder": "აირჩიეთ პიროვნება",
+      "sectionTitle": "აირჩიეთ პიროვნება",
+      "clickToChange": "დააჭირეთ შესაცვლელად"
+    },
+    "relationship": {
+      "title": "ურთიერთობა",
+      "widgetLabel": "აირჩიეთ ურთიერთობა",
+      "placeholder": "აირჩიეთ ურთიერთობა",
+      "selectTitle": "ურთიერთობის რედაქტირება"
+    },
+    "occupation": {
+      "title": "პროფესია",
+      "widgetLabel": "აირჩიეთ პროფესია",
+      "placeholder": "აირჩიეთ პროფესია",
+      "selectTitle": "პროფესიის რედაქტირება"
+    },
+    "kinks": {
+      "title": "ინტერესები",
+      "widgetLabel": "რა ინტერესები აქვთ? (მაქს. {max})",
+      "labelMax": "ინტერესები (მაქს. {max})",
+      "placeholder": "აირჩიეთ ინტერესები (არასავალდებულო)",
+      "optional": "არასავალდებულო",
+      "selectTitle": "ინტერესების რედაქტირება",
+      "moreCount": "+{count} მეტი"
+    },
+    "selector": {
+      "searchPlaceholder": "ძიება",
+      "noResults": "ვარიანტები ვერ მოიძებნა",
+      "cancel": "გაუქმება",
+      "saveChanges": "ცვლილებების შენახვა",
+      "selectedCount": "{count} არჩეული"
+    },
+    "voice": {
+      "title": "ხმა",
+      "widgetLabel": "აირჩიეთ ხმა",
+      "placeholder": "აირჩიეთ ხმა",
+      "selectTitle": "აირჩიეთ ხმა"
+    },
+    "advanced": {
+      "title": "დამატებითი დეტალები",
+      "optional": "არასავალდებულო",
+      "filled": "შევსებული",
+      "autocompleteTitle": "ავტომატური შევსება AI-ით",
+      "autocompleteDesc": "AI-მ შეავსოს ცარიელი ველები უფრო ღრმა პერსონაჟისთვის",
+      "autocompleteSuccess": "ველები წარმატებით შეივსო!",
+      "autocompleteError": "შემოთავაზებების გენერირება ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+      "greetingLabel": "მისალმება",
+      "greetingPlaceholder": "პირველი შეტყობინება, რომელსაც თქვენი პერსონაჟი გაგზავნის...",
+      "scenarioLabel": "სცენარი",
+      "scenarioPlaceholder": "კონტექსტი ან ისტორია იმის შესახებ, თუ როგორ გაიცანით...",
+      "personalityLabel": "პიროვნების დამატებითი დეტალები",
+      "personalityPlaceholder": "თავისებურებები, მეტყველების ნიმუშები, ქცევითი თვისებები...",
+      "extraLabel": "დამატებითი დეტალები",
+      "extraPlaceholder": "ფონი, ჰობიები, ცხოვრების ისტორია..."
+    },
+    "navigation": {
+      "back": "უკან",
+      "next": "შემდეგი",
+      "create": "შექმნა",
+      "generateYourCharacter": "შექმენით თქვენი პერსონაჟი"
+    },
+    "progress": {
+      "generatingPrompt": "პიროვნების შექმნა...",
+      "generatingImage": "პორტრეტის შექმნა...",
+      "creatingVoice": "ხმის დაყენება...",
+      "saving": "შენახვა...",
+      "complete": "დასრულდა!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "პიროვნების შექმნა...",
+      "addingSweetness": "ტკბილეულის დამატება...",
+      "tooMuchSweet": "უი, ძალიან ტკბილი...",
+      "testingSounds": "ხმების ტესტირება..."
+    },
+    "overlay": {
+      "signupPrompt": "დაასრულეთ რეგისტრაცია პერსონაჟის განბლოკვისთვის…",
+      "processingHint": "ჩვეულებრივ 20–30 წამი სჭირდება",
+      "traitEthnicity": "ეთნიკურობა",
+      "traitBody": "ტანი",
+      "traitHair": "თმა",
+      "traitColor": "ფერი",
+      "traitEyes": "თვალები",
+      "traitVibe": "ვაიბი",
+      "bannerTitle": "თქვენი პერსონაჟი მზადაა შესაქმნელად!",
+      "bannerDesc": "თქვენი პარამეტრები შენახულია. გადახედეთ და გენერირება ქვემოთ."
+    },
+    "success": {
+      "title": "პერსონაჟი შეიქმნა!",
+      "description": "თქვენი AI პერსონაჟი წარმატებით შეიქმნა.",
+      "yearsOld": "წლის",
+      "meetButton": "გაიცანი"
+    },
+    "error": {
+      "title": "შექმნა ვერ მოხერხდა",
+      "generic": "პერსონაჟის შექმნა ვერ მოხერხდა. სცადეთ ხელახლა."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "კავკასიელი",
+        "asian": "აზიელი",
+        "middle_eastern": "ახლო აღმოსავლელი",
+        "hispanic": "ჰისპანური",
+        "african": "აფრიკელი",
+        "south_asian": "სამხრეთ აზიელი",
+        "native_american": "ამერიკელი აბორიგენი",
+        "pacific_islander": "წყნარი ოკეანის კუნძულელი",
+        "mixed": "შერეული",
+        "arab": "არაბი"
+      },
+      "hairStyleFemale": {
+        "straight": "სწორი",
+        "bangs": "ფარდა",
+        "curly": "ხვეული",
+        "bun": "კვანძი",
+        "short_bob": "მოკლე ბობი",
+        "ponytail": "კუდი",
+        "wavy": "ტალღოვანი",
+        "long_layers": "გრძელი ფენები",
+        "braids": "ლენთები",
+        "pixie_cut": "პიქსი",
+        "updo": "აწეული",
+        "french_twist": "ფრანგული ტვისტი",
+        "fishtail_braid": "თევზის კუდის ლენთი",
+        "top_knot": "ზედა კვანძი",
+        "space_buns": "კოსმოსური კვანძები",
+        "halo_braid": "ჰალო ლენთი",
+        "beehive": "ბიჰაივი",
+        "finger_waves": "თითის ტალღები",
+        "lob": "ლობი (გრძელი ბობი)",
+        "shag_cut": "შეგ კატი",
+        "bald": "მელოტი"
+      },
+      "hairStyleMale": {
+        "short": "მოკლე",
+        "buzz_cut": "ბაზ კატი",
+        "crew_cut": "კრუ კატი",
+        "undercut": "ანდერკატი",
+        "fade": "ფეიდი",
+        "pompadour": "პომპადური",
+        "quiff": "ქვიფი",
+        "slicked_back": "უკან გლუვად დაკრეფილი",
+        "curly": "ხვეული",
+        "afro": "აფრო",
+        "man_bun": "მამაკაცის კვანძი",
+        "dreadlocks": "დრედლოკები",
+        "cornrows": "კორნროუები",
+        "mohawk": "მოჰავკი",
+        "side_part": "გვერდითი განშორება",
+        "textured_crop": "ტექსტურირებული კროპი",
+        "french_crop": "ფრანგული კროპი",
+        "spiky": "ეკლიანი",
+        "comb_over": "კომბ ოვერი",
+        "long_hair": "გრძელი თმა",
+        "bald": "მელოტი"
+      },
+      "hairColor": {
+        "brunette": "შავგვრემანი",
+        "blonde": "ქერა",
+        "black": "შავი",
+        "redhead": "წითური",
+        "pink": "ვარდისფერი",
+        "auburn": "აუბერნი",
+        "brown": "ყავისფერი",
+        "platinum_blonde": "პლატინის ქერა",
+        "silver_grey": "ვერცხლისფერი/ნაცრისფერი",
+        "white": "თეთრი",
+        "blue": "ლურჯი",
+        "purple": "იასამნისფერი",
+        "green": "მწვანე",
+        "burgundy": "ბორდო",
+        "copper": "სპილენძისფერი",
+        "strawberry_blonde": "მარწყვისფერი ქერა",
+        "ash_brown": "ნაცრისფერი ყავისფერი",
+        "golden_blonde": "ოქროსფერი ქერა",
+        "mahogany": "მაჰოგანი",
+        "pastel_pink": "პასტელის ვარდისფერი",
+        "ombre": "ომბრე",
+        "balayage": "ბალაიაჟი",
+        "highlights": "ჰაილაითები",
+        "jet_black": "ჯეტ შავი",
+        "dark_brown": "მუქი ყავისფერი",
+        "light_brown": "ღია ყავისფერი",
+        "honey_blonde": "თაფლისფერი ქერა",
+        "dirty_blonde": "მონაცრისფერი ქერა",
+        "cherry_red": "ალუბლისფერი წითელი",
+        "violet": "იასამნისფერი"
+      },
+      "eyeColor": {
+        "brown": "ყავისფერი",
+        "blue": "ლურჯი",
+        "green": "მწვანე",
+        "hazel": "მოყავისფრო-მწვანე",
+        "amber": "ქარვისფერი",
+        "gray": "ნაცრისფერი",
+        "heterochromia": "ჰეტეროქრომია",
+        "violet": "იასამნისფერი",
+        "red_pink": "წითელი/ვარდისფერი",
+        "black": "შავი"
+      },
+      "bodyTypeFemale": {
+        "skinny": "გამხდარი",
+        "athletic": "სპორტული",
+        "average": "საშუალო",
+        "curvy": "მომრგვალებული",
+        "chubby": "სავსე"
+      },
+      "bodyTypeMale": {
+        "skinny": "გამხდარი",
+        "athletic": "სპორტული",
+        "average": "საშუალო",
+        "muscular": "კუნთოვანი",
+        "heavy": "მძიმე",
+        "big_tall": "დიდი და მაღალი"
+      },
+      "breastSize": {
+        "small": "პატარა",
+        "medium": "საშუალო",
+        "large": "დიდი",
+        "extra_large": "ძალიან დიდი"
+      },
+      "personality": {
+        "nympho": "ნიმფომანი",
+        "lover": "შეყვარებული",
+        "submissive": "მორჩილი",
+        "dominant": "დომინანტი",
+        "temptress": "ცდუნების მქონე",
+        "innocent": "უდანაშაულო",
+        "caregiver": "მზრუნველი",
+        "experimenter": "ექსპერიმენტატორი",
+        "mean": "ბოროტი",
+        "confidant": "სანდო",
+        "shy": "მორცხვი",
+        "queen": "დედოფალი",
+        "adventurous": "თავგადასავლების მოყვარული",
+        "romantic": "რომანტიული",
+        "intellectual": "ინტელექტუალი",
+        "protector": "მფარველი",
+        "rebel": "აჯანყებული",
+        "optimist": "ოპტიმისტი",
+        "realist": "რეალისტი",
+        "free_spirit": "თავისუფალი სული",
+        "leader": "ლიდერი",
+        "loyal": "ერთგული",
+        "playful": "მხიარული",
+        "mysterious": "მისტიური",
+        "ambitious": "ამბიციური",
+        "gentle": "ნაზი",
+        "sarcastic": "სარკასტული",
+        "empathetic": "ემპათიური",
+        "stoic": "სტოიკური",
+        "charismatic": "ქარიზმატული"
+      },
+      "relationship": {
+        "stranger": "უცნობი",
+        "girlfriend": "შეყვარებული",
+        "sex_friend": "სექსუალური მეგობარი",
+        "school_mate": "სკოლის მეგობარი",
+        "work_colleague": "კოლეგა",
+        "wife": "ცოლი",
+        "mistress": "საყვარელი",
+        "friend": "მეგობარი",
+        "step_sister": "მინდობილი და",
+        "step_mom": "მინდობილი დედა",
+        "step_daughter": "მინდობილი ქალიშვილი",
+        "landlord": "მემამულე",
+        "sugar_baby": "შაქრის ბავშვი",
+        "boss": "უფროსი",
+        "teacher": "მასწავლებელი",
+        "student": "სტუდენტი",
+        "neighbour": "მეზობელი",
+        "mother_in_law": "სიდედრი",
+        "sister_in_law": "სიდედრიშვილი",
+        "boyfriend": "შეყვარებული",
+        "husband": "ქმარი",
+        "fiance": "დაქორწინებული / დაქორწინებული",
+        "ex": "ყოფილი",
+        "roommate": "თანამოსახლე",
+        "best_friend": "საუკეთესო მეგობარი",
+        "classmate": "კლასელი",
+        "mentor": "მენტორი",
+        "client": "კლიენტი",
+        "therapist": "თერაპევტი",
+        "trainer": "ტრენერი",
+        "rival": "მეტოქე",
+        "crush": "გატაცება",
+        "secret_admirer": "საიდუმლო თაყვანისმცემელი",
+        "pen_pal": "კორესპონდენტი",
+        "business_partner": "ბიზნეს პარტნიორი",
+        "babysitter": "ბებერი",
+        "childhood_friend": "ბავშვობის მეგობარი",
+        "long_distance_partner": "შორეული პარტნიორი"
+      },
+      "occupation": {
+        "student": "სტუდენტი",
+        "dancer": "მოცეკვავე",
+        "model": "მოდელი",
+        "maid": "მოახლე",
+        "boss_ceo": "ბოსი / CEO",
+        "babysitter_au_pair": "ბებია / Au Pair",
+        "streamer": "სტრიმერი",
+        "bartender": "ბარმენი",
+        "tech_engineer": "ტექნიკური ინჟინერი",
+        "lifeguard": "მაშველი",
+        "cashier": "მოლარე",
+        "massage_therapist": "მასაჟისტ-თერაპევტი",
+        "teacher": "მასწავლებელი",
+        "nurse": "მედდა",
+        "secretary": "მდივანი",
+        "yoga_instructor": "იოგას ინსტრუქტორი",
+        "fitness_coach": "ფიტნეს მწვრთნელი",
+        "cook": "მზარეული",
+        "artist": "მხატვარი",
+        "movie_star_actress": "კინოვარსკვლავი/მსახიობი",
+        "doctor": "ექიმი",
+        "librarian": "ბიბლიოთეკარი",
+        "spy": "ჯაშუში",
+        "police_officer": "პოლიციელი",
+        "soldier": "ჯარისკაცი",
+        "lawyer": "ადვოკატი",
+        "hairdresser": "პარიკმახერი",
+        "dentist": "სტომატოლოგი",
+        "singer_musician": "მომღერალი/მუსიკოსი",
+        "gynecologist": "გინეკოლოგი",
+        "writer": "მწერალი",
+        "flight_attendant": "ბორტგამყოლი",
+        "professional_athlete": "პროფესიონალი სპორტსმენი",
+        "scientist": "მეცნიერი",
+        "florist": "ყვავილების გამყიდველი",
+        "makeup_artist": "ვიზაჟისტი",
+        "photographer": "ფოტოგრაფი",
+        "social_worker": "სოციალური მუშაკი",
+        "designer": "დიზაინერი",
+        "pharmacist": "ფარმაცევტი",
+        "nutritionist": "ნუტრიციოლოგი",
+        "architect": "არქიტექტორი",
+        "veterinarian": "ვეტერინარი",
+        "mechanic": "მექანიკოსი",
+        "journalist": "ჟურნალისტი",
+        "pilot": "პილოტი",
+        "firefighter": "მეხანძრე",
+        "accountant": "ბუღალტერი",
+        "electrician": "ელექტრიკოსი",
+        "carpenter": "დურგალი",
+        "psychologist": "ფსიქოლოგი",
+        "real_estate_agent": "უძრავი ქონების აგენტი",
+        "chef": "მზარეული",
+        "farmer": "ფერმერი",
+        "delivery_driver": "მიწოდების მძღოლი",
+        "janitor": "დამლაგებელი",
+        "security_guard": "დაცვის თანამშრომელი",
+        "banker": "ბანკირი",
+        "judge": "მოსამართლე",
+        "paramedic": "პარამედიკი",
+        "actor": "მსახიობი",
+        "comedian": "კომიკოსი",
+        "archaeologist": "არქეოლოგი",
+        "astronaut": "ასტრონავტი"
+      },
+      "kinks": {
+        "bondage": "ბონდაჟი",
+        "spanking": "შოლტი",
+        "collar_leash": "საყელო და საბელი",
+        "punishment": "დასჯა",
+        "humiliation": "დამცირება",
+        "public_play": "საჯარო თამაში",
+        "roleplay": "როლური თამაში",
+        "anal_play": "ანალური თამაში",
+        "oral_play": "ორალური თამაში",
+        "cum_play": "სპერმის თამაში",
+        "creampie": "კრიმპაი",
+        "squirting": "სკვირტინგი",
+        "dirty_talk": "ბინძური საუბარი",
+        "breeding": "გამრავლება",
+        "daddy_mommy_dominance": "მამა/დედა დომინირება",
+        "edging": "ედჯინგი",
+        "obedience": "მორჩილება",
+        "control": "კონტროლი",
+        "inexperienced": "გამოუცდელი",
+        "shy_flirting": "მორცხვი ფლირტი",
+        "playful_teasing": "მხიარული დაცინვა",
+        "cuddling": "ჩახუტება",
+        "slow_sensual": "ნელი და სენსუალური",
+        "hair_pulling": "თმის მოჭერა",
+        "foot_fetish": "ფეხის ფეტიში",
+        "voyeurism": "ვოიერიზმი",
+        "exhibitionism": "ექსჰიბიციონიზმი",
+        "sensation_play": "სენსაციის თამაში",
+        "wax_play": "ცვილის თამაში",
+        "pet_play": "შინაური ცხოველის თამაში",
+        "age_play": "ასაკობრივი თამაში",
+        "medical_play": "სამედიცინო თამაში",
+        "orgasm_control_denial": "ორგაზმის კონტროლი/უარი",
+        "forced_orgasms": "იძულებითი ორგაზმები",
+        "group_sex": "ჯგუფური სექსი",
+        "threesomes": "სამეული",
+        "swapping": "ცვლა",
+        "cuckolding_cuckqueaning": "კუკოლდინგი/კუკქვინინგი",
+        "femdom": "ფემდომი",
+        "gentle_domination": "ნაზი დომინირება",
+        "sensation_deprivation": "შეგრძნებების ჩამორთმევა",
+        "sensory_overload": "სენსორული გადატვირთვა",
+        "uniform_costume_fetish": "უნიფორმის/კოსტიუმის ფეტიში",
+        "food_play": "საკვებით თამაში",
+        "watersports": "წყლის სპორტი",
+        "bdsm": "BDSM",
+        "impact_play": "დარტყმებით თამაში",
+        "knife_play": "დანით თამაში",
+        "consensual_non_consent": "თანხმობითი არათანხმობა",
+        "power_exchange": "ძალაუფლების გაცვლა",
+        "master_slave": "ოსტატი/მონა",
+        "owner_pet": "მფლობელი/შინაური ცხოველი"
+      },
+      "languages": {
+        "en": "ინგლისური",
+        "cs": "ჩეხური",
+        "pl": "პოლონური",
+        "de": "გერმანული",
+        "es": "ესპანური",
+        "fr": "ფრანგული"
+      }
+    }
+  },
+  "myAI": {
+    "title": "ჩემი AI",
+    "titlePart1": "ჩემი",
+    "titlePart2": "AI",
+    "createNew": "ახალი AI-ის შექმნა",
+    "createButton": "პერსონაჟის შექმნა",
+    "characterCount": "{count}/{limit} პერსონაჟი",
+    "loadMore": "მეტის ჩატვირთვა",
+    "empty": {
+      "title": "ჯერ არ არის პერსონაჟები",
+      "description": "შექმენით თქვენი პირველი AI პერსონაჟი და დაიწყეთ ჩატი! მოარგეთ მათი გარეგნობა, პიროვნება და ხმა.",
+      "createFirst": "შექმენით თქვენი პირველი პერსონაჟი"
+    },
+    "delete": {
+      "title": "პერსონაჟის წაშლა",
+      "message": "დარწმუნებული ხართ, რომ გსურთ {name}-ის წაშლა? ეს სამუდამოდ წაშლის პერსონაჟს, ყველა ჩატის ისტორიას და გენერირებულ კონტენტს.",
+      "confirm": "წაშლა",
+      "success": "პერსონაჟი წარმატებით წაიშალა"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ ურთიერთქმედება",
+    "interactionDescription": "უბრალოდ ჩაწერეთ ბუნებრივად — მოითხოვეთ ფოტო, ვიდეო ან დაიწყეთ საუბარი. AI გაიგებს თქვენს განზრახვას ნებისმიერ ენაზე.",
+    "mediaTitle": "სურათებისა და ვიდეოების გენერირება",
+    "mediaDescription": "გაათავისუფლეთ თქვენი ფანტაზია — გენერირებეთ სურათები ან ვიდეოები შეზღუდვების გარეშე.",
+    "next": "შემდეგი →",
+    "gotIt": "გასაგებია"
+  }
+}

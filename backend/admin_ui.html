@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SweetWine 管理后台</title>
+<style>
+/* ============ Design tokens (extracted from SweetWine frontend) ============ */
+:root{
+  --bg:#140a10; --bg-glow-1:rgba(236,72,153,.22); --bg-glow-2:rgba(157,23,77,.30);
+  --s1:rgba(255,255,255,.04); --s2:rgba(255,255,255,.08); --s3:rgba(255,255,255,.12);
+  --bd:rgba(255,255,255,.08); --bd2:rgba(255,255,255,.16);
+  --ac:#ec4899; --ac-soft:#f9a8d4; --ac-grad:linear-gradient(90deg,#f9a8d4 0%,#ec4899 100%);
+  --t1:#fff; --t2:rgba(255,255,255,.72); --t3:rgba(255,255,255,.45);
+  --ok:#34d399; --warn:#fbbf24; --bad:#f87171;
+  --r-pill:999px; --r-card:20px; --r-in:12px;
+  --sh-card:0 8px 32px rgba(0,0,0,.35); --sh-glow:0 0 24px rgba(236,72,153,.35);
+  --sp:4px; --font:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);color:var(--t1);background:var(--bg);min-height:100vh;
+  background-image:radial-gradient(600px 400px at 8% 0%,var(--bg-glow-1),transparent 60%),
+                   radial-gradient(800px 600px at 95% 45%,var(--bg-glow-2),transparent 65%);}
+button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit}
+input,textarea,select{font-family:inherit;color:var(--t1);background:var(--s1);
+  border:1px solid var(--bd);border-radius:var(--r-in);padding:10px 14px;font-size:14px;width:100%;outline:none}
+input:focus,textarea:focus,select:focus{border-color:var(--ac);box-shadow:0 0 0 3px rgba(236,72,153,.18)}
+textarea{min-height:96px;resize:vertical}
+::placeholder{color:var(--t3)}
+/* ============ Shell ============ */
+#shell{display:none;min-height:100vh}
+#side{position:fixed;inset:0 auto 0 0;width:250px;padding:20px 14px;display:flex;flex-direction:column;gap:4px;
+  background:linear-gradient(180deg,rgba(236,72,153,.10),rgba(20,10,16,.6) 40%);border-right:1px solid var(--bd);backdrop-filter:blur(18px)}
+#side .logo{font-size:20px;font-weight:800;padding:6px 12px 18px}
+#side .logo b{color:var(--ac)}
+.nav{display:flex;align-items:center;gap:10px;padding:11px 14px;border-radius:14px;color:var(--t2);font-size:14px;width:100%;text-align:left}
+.nav:hover{background:var(--s2);color:var(--t1)}
+.nav.on{background:linear-gradient(90deg,rgba(236,72,153,.28),rgba(236,72,153,.10));color:#fff;box-shadow:inset 0 0 0 1px rgba(236,72,153,.35)}
+.nav .ic{width:18px;text-align:center}
+#main{margin-left:250px;padding:26px 30px 60px}
+#top{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}
+#top h1{font-size:22px;font-weight:700}
+.chip{display:inline-flex;align-items:center;gap:6px;background:var(--s2);border:1px solid var(--bd);
+  border-radius:var(--r-pill);padding:6px 14px;font-size:12px;color:var(--t2)}
+/* ============ Components ============ */
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:var(--r-pill);padding:10px 22px;
+  font-size:14px;font-weight:600;background:var(--ac-grad);color:#fff;box-shadow:var(--sh-glow)}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;border:1px solid var(--bd2);color:var(--t2);box-shadow:none}
+.btn.ghost:hover{color:#fff;background:var(--s2)}
+.btn.danger{background:linear-gradient(90deg,#f87171,#dc2626);box-shadow:none}
+.btn.sm{padding:6px 14px;font-size:12px}
+.card{background:var(--s1);border:1px solid var(--bd);border-radius:var(--r-card);
+  padding:20px;backdrop-filter:blur(14px);box-shadow:var(--sh-card)}
+.grid{display:grid;gap:16px}
+.g4{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.stat .k{font-size:12px;color:var(--t3);margin-bottom:8px}
+.stat .v{font-size:28px;font-weight:800}
+.stat .v small{font-size:13px;color:var(--t2);font-weight:500}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--t3);font-weight:500;padding:10px 12px;border-bottom:1px solid var(--bd)}
+td{padding:11px 12px;border-bottom:1px solid var(--bd);color:var(--t2);vertical-align:middle}
+tr:hover td{background:var(--s1);color:var(--t1)}
+.tag{display:inline-block;background:var(--s2);border-radius:var(--r-pill);padding:3px 10px;font-size:11px;color:var(--t2)}
+.tag.on{background:rgba(52,211,153,.15);color:var(--ok)}
+.tag.off{background:rgba(248,113,113,.15);color:var(--bad)}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.spread{justify-content:space-between}
+.muted{color:var(--t3);font-size:12px}
+/* modal + toast */
+#mask{position:fixed;inset:0;background:rgba(10,5,8,.6);backdrop-filter:blur(6px);display:none;
+  align-items:flex-start;justify-content:center;padding:8vh 16px;z-index:50}
+#modal{width:min(640px,100%);max-height:84vh;overflow:auto}
+#modal h3{margin-bottom:16px;font-size:17px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:12px;color:var(--t2);margin-bottom:6px}
+#toast{position:fixed;right:24px;bottom:24px;display:flex;flex-direction:column;gap:10px;z-index:60}
+.tst{background:var(--s3);border:1px solid var(--bd2);border-radius:14px;padding:12px 18px;font-size:13px;
+  backdrop-filter:blur(12px);box-shadow:var(--sh-card);animation:pop .18s ease}
+.tst.bad{border-color:var(--bad);color:var(--bad)}
+.tst.ok{border-color:var(--ok);color:var(--ok)}
+@keyframes pop{from{transform:translateY(8px);opacity:0}to{transform:none;opacity:1}}
+/* login */
+#login{min-height:100vh;display:flex;align-items:center;justify-content:center}
+#login .card{width:min(380px,92vw);text-align:center}
+#login h2{margin-bottom:6px}
+#login .muted{margin-bottom:20px}
+.empty{padding:40px;text-align:center;color:var(--t3);font-size:13px}
+</style>
+</head>
+<body>
+<div id="login"><div class="card">
+  <h2>Sweet<b style="color:var(--ac)">Wine</b> 管理后台</h2>
+  <div class="muted">SweetWine · 管理控制台</div>
+  <div class="field"><input id="pwd" type="password" placeholder="管理密码" onkeydown="if(event.key==='Enter')doLogin()"/></div>
+  <button class="btn" style="width:100%;justify-content:center" onclick="doLogin()">登 录</button>
+  <div class="muted" style="margin-top:14px">默认密码 sweetwine-admin，登录后请在「经济/系统」中修改</div>
+</div></div>
+
+<div id="shell">
+  <aside id="side">
+    <div class="logo">Sweet<b>Wine</b> <span class="tag">ADMIN</span></div>
+    <button class="nav on" data-v="dash"><span class="ic">◈</span>仪表盘</button>
+    <button class="nav" data-v="llm"><span class="ic">✦</span>LLM 设置</button>
+    <button class="nav" data-v="oauth"><span class="ic">知</span>OAuth 登录</button>
+    <button class="nav" data-v="chars"><span class="ic">♡</span>角色管理</button>
+    <button class="nav" data-v="voices"><span class="ic">♪</span>语音管理</button>
+    <button class="nav" data-v="users"><span class="ic">☺</span>用户管理</button>
+    <button class="nav" data-v="mails"><span class="ic">✉</span>发码邮箱</button>
+    <button class="nav" data-v="msgs"><span class="ic">☰</span>消息日志</button>
+    <button class="nav" data-v="nav"><span class="ic">☰</span>导航开关</button>
+    <button class="nav" data-v="tables"><span class="ic">▤</span>数据表</button>
+    <button class="nav" data-v="econ"><span class="ic">⚙</span>经济/系统</button>
+    <div style="flex:1"></div>
+    <button class="nav" onclick="api('logout',{},{method:'POST'}).then(()=>location.reload())"><span class="ic">⏻</span>退出登录</button>
+  </aside>
+  <main id="main">
+    <div id="top"><h1 id="title">仪表盘</h1><span class="chip" id="llmchip">LLM: …</span></div>
+    <div id="view"></div>
+  </main>
+</div>
+
+<div id="mask" onclick="if(event.target===this)closeModal()"><div class="card" id="modal"></div></div>
+<div id="toast"></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function toast(msg,kind){const d=document.createElement('div');d.className='tst '+(kind||'');d.textContent=msg;
+  $('#toast').appendChild(d);setTimeout(()=>d.remove(),3200);}
+async function api(path,body,opts={}){
+  const r=await fetch('/admin/api/'+path,Object.assign({method:body?'POST':'GET',
+    headers:body?{'Content-Type':'application/json'}:{} ,body:body?JSON.stringify(body):undefined},opts));
+  if(r.status===401){showLogin();throw new Error('unauthorized');}
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok){toast(j.message||j.error||('HTTP '+r.status),'bad');throw new Error(j.error||r.status);}
+  return j;
+}
+function showLogin(){$('#shell').style.display='none';$('#login').style.display='flex';}
+async function doLogin(){try{await api('login',{password:$('#pwd').value},{method:'POST'});boot();}catch(e){}}
+function openModal(html){$('#modal').innerHTML=html;$('#mask').style.display='flex';}
+function closeModal(){$('#mask').style.display='none';}
+
+/* ---------------- views ---------------- */
+const V={};
+V.dash=async()=>{const s=await api('stats');const m=await api('messages?limit=6');
+  $('#llmchip').textContent='LLM: '+s.llm_model+' @ '+(s.llm_base_url||'规则池');
+  return `<div class="grid g4">
+    ${[['角色总数',s.companions,'已发布 '+s.published],['用户',s.users,''],['消息',s.messages,'今日 '+s.messages_today],
+       ['发码邮箱',s.email_accounts,'已发码 '+s.codes_issued]]
+      .map(([k,v,sub])=>`<div class="card stat"><div class="k">${k}</div><div class="v">${v} <small>${sub||''}</small></div></div>`).join('')}
+  </div>
+  <div class="card" style="margin-top:16px"><div class="row spread"><b>最近消息</b>
+    <button class="btn ghost sm" onclick="go('msgs')">查看全部</button></div>
+    <table style="margin-top:10px"><tr><th>角色</th><th>内容</th><th>时间</th></tr>
+    ${m.rows.map(x=>`<tr><td><span class="tag ${x.role==='user'?'':'on'}">${esc(x.role)}</span></td>
+      <td style="max-width:520px">${esc((x.content||'').slice(0,70))}</td>
+      <td class="muted">${esc((x.createdAt||'').slice(5,16))}</td></tr>`).join('')
+      ||'<tr><td colspan=3><div class="empty">暂无消息</div></td></tr>'}</table></div>`;};
+V.llm=async()=>{const s=await api('settings');return `<div class="grid g2">
+  <div class="card"><h3 style="margin-bottom:14px">OpenAI 兼容端点</h3>
+    <div class="field"><label>Base URL（如 https://api.openai.com/v1 或本地 http://127.0.0.1:11434/v1）</label>
+      <input id="l_base" value="${esc(s.llm_base_url||'')}" placeholder="留空 = 使用本地规则池回复"/></div>
+    <div class="field"><label>API Key</label><input id="l_key" type="password" value="${esc(s.llm_api_key||'')}" placeholder="sk-…"/></div>
+    <div class="field"><label>Model</label><input id="l_model" value="${esc(s.llm_model||'')}" placeholder="gpt-4o-mini / qwen2.5:7b …"/></div>
+    <div class="row"><button class="btn" onclick="saveLlm()">保存配置</button>
+      <button class="btn ghost" onclick="testLlm()">测试连接</button></div>
+    <div id="llmres" class="muted" style="margin-top:12px"></div></div>
+  <div class="card"><h3 style="margin-bottom:14px">说明</h3>
+    <p class="muted" style="line-height:1.8">保存后，站点聊天页（/zh-Hans/chat/…）的角色回复将改走该 OpenAI 兼容端点，
+    角色的 systemPrompt 自动作为 system message 注入；留空则回退到本地规则池（角色 welcomeMessage / personality 种子）。
+    测试连接会发送一条 "ping" 验证端点与密钥。</p></div></div>`;};
+async function saveLlm(){await api('settings',{llm_base_url:$('#l_base').value,llm_api_key:$('#l_key').value,llm_model:$('#l_model').value},{method:'PUT'});toast('LLM 配置已保存','ok');}
+async function testLlm(){$('#llmres').textContent='测试中…';try{const r=await api('llm/test',{},{method:'POST'});
+  $('#llmres').innerHTML='<span style="color:var(--ok)">✓ 连通</span> 回复：'+esc(r.reply);}catch(e){$('#llmres').innerHTML='<span style="color:var(--bad)">✗ 失败</span> '+esc(e.message);}}
+V.oauth=async()=>{const s=await api('settings');const st=await api('oauth/zhihu/status');
+  return `<div class="grid g2">
+  <div class="card"><h3 style="margin-bottom:14px">知乎 OAuth <span class="tag ${st.configured?'on':'off'}" style="margin-left:8px">${st.configured?'已配置':'未配置'}</span></h3>
+    <div class="field"><label>App ID（黑客松赛事页面领取；<b>不是</b>开放平台 Access Secret）</label>
+      <input id="z_id" value="${esc(s.zhihu_oauth_app_id||'')}" placeholder="留空 = 知乎登录暂不可用（入口返回 503 配置指引页）"/></div>
+    <div class="field"><label>App Key（仅存服务端 settings 表，用于后端换取 token）</label>
+      <input id="z_key" type="password" value="${esc(s.zhihu_oauth_app_key||'')}" placeholder="App Key"/></div>
+    <div class="field"><label>回调地址 Redirect URI（须与赛事页面登记值逐字符一致）</label>
+      <input id="z_red" value="${esc(s.zhihu_oauth_redirect_uri||'')}" placeholder="默认 http://127.0.0.1:3000/api/auth/zhihu/callback"/></div>
+    <div class="row"><button class="btn" onclick="saveZhihu()">保存配置</button>
+      <button class="btn ghost" onclick="testZhihu()">测试连接</button>
+      <button class="btn ghost" onclick="window.open('/api/auth/zhihu','_blank')">打开授权页试跑</button></div>
+    <div id="zres" class="muted" style="margin-top:12px"></div></div>
+  <div class="card"><h3 style="margin-bottom:14px">说明</h3>
+    <p class="muted" style="line-height:1.9">保存后<b>即时生效，无需重启</b>（settings 表优先于 frontend/.env）。<br><br>
+    登录流程：登录弹窗「使用知乎继续」→ /api/auth/zhihu 302 知乎授权页 → 用户确认 → 回调 /api/auth/zhihu/callback 换 token → 拉取知乎昵称/头像 → 绑定或创建本地账号（zhihu_identities 表）→ 种会话 cookie，与邮箱登录同栈。<br><br>
+    ⚠️ 凭证区分：App ID/App Key 来自<b>赛事页面</b>（OAuth 登录用）；开放平台 Access Secret 是另一凭证（代表用户调创作/关注/收藏 API 用，配在 frontend/.env 的 ZHIHU_ACCESS_SECRET，勿填到这里）。<br><br>
+    「测试连接」向知乎 token 端点发一个假授权码探测：返回"授权码无效"类错误＝凭证已被平台受理；"应用"类错误＝检查 App ID/Key；连不通＝检查网络。真实授权须用户本人在知乎页面完成。</p></div></div>`;};
+async function saveZhihu(){await api('settings',{zhihu_oauth_app_id:$('#z_id').value.trim(),
+  zhihu_oauth_app_key:$('#z_key').value.trim(),zhihu_oauth_redirect_uri:$('#z_red').value.trim()},{method:'PUT'});
+  toast('知乎 OAuth 配置已保存，即时生效','ok');go('oauth');}
+async function testZhihu(){$('#zres').textContent='探测中…';try{const r=await api('oauth/zhihu/test',{},{method:'POST'});
+  $('#zres').innerHTML=(r.ok?'<span style="color:var(--ok)">✓ '+esc(r.reason==='token_issued'?'token 端点签发了令牌':'端点可达，凭证已被平台受理')+'</span> '
+    :'<span style="color:var(--bad)">✗ '+esc(r.reason||'failed')+'</span> ')+esc(r.message||'')
+   +(r.probe_status?'<br>HTTP '+r.probe_status:'')+(r.probe_body?'<br>知乎原始响应：<code>'+esc(r.probe_body)+'</code>':'')
+   +(r.redirect_uri?'<br>当前回调地址：'+esc(r.redirect_uri):'');}catch(e){$('#zres').innerHTML='<span style="color:var(--bad)">✗ 失败</span> '+esc(e.message);}}
+V.chars=async(q='')=>{const d=await api('companions?q='+encodeURIComponent(q)+'&limit=30');
+  return `<div class="card"><div class="row spread" style="margin-bottom:14px">
+    <input style="max-width:260px" placeholder="搜索名字/slug…" value="${esc(q)}" oninput="clearTimeout(this.t);this.t=setTimeout(()=>go('chars',this.value),350)"/>
+    <button class="btn sm" onclick="charForm()">＋ 新建角色</button></div>
+    <table><tr><th>角色</th><th>slug</th><th>年龄</th><th>状态</th><th></th></tr>
+    ${d.rows.map(c=>`<tr><td><b style="color:var(--t1)">${esc(c.name)}</b></td><td class="muted">${esc(c.slug)}</td>
+      <td>${esc(c.age)}</td><td><span class="tag ${c.isPublished?'on':'off'}">${c.isPublished?'已发布':'下架'}</span></td>
+      <td class="row"><button class="btn ghost sm" onclick="charForm('${c.id}')">编辑</button>
+      <button class="btn danger sm" onclick="delRow('companions','${c.id}','${esc(c.name)}')">删除</button></td></tr>`).join('')
+      ||'<tr><td colspan=5><div class="empty">无匹配角色</div></td></tr>'}</table>
+    <div class="muted" style="margin-top:10px">共 ${d.total} 条，显示前 ${d.rows.length}</div></div>`;};
+async function charForm(id){let c={name:'',slug:'',age:'',personality:'',welcomeMessage:'',systemPrompt:'',isPublished:1};
+  if(id)c=await api('companions/'+id);
+  openModal(`<h3>${id?'编辑':'新建'}角色</h3>
+    <div class="grid g2"><div class="field"><label>名字</label><input id="f_name" value="${esc(c.name)}"/></div>
+    <div class="field"><label>slug</label><input id="f_slug" value="${esc(c.slug)}"/></div></div>
+    <div class="grid g2"><div class="field"><label>年龄</label><input id="f_age" value="${esc(c.age)}"/></div>
+    <div class="field"><label>发布</label><select id="f_pub"><option value="1" ${c.isPublished?'selected':''}>已发布</option><option value="0" ${c.isPublished?'':'selected'}>下架</option></select></div></div>
+    <div class="field"><label>性格</label><input id="f_pers" value="${esc(c.personality)}"/></div>
+    <div class="field"><label>欢迎语</label><textarea id="f_wel">${esc(c.welcomeMessage)}</textarea></div>
+    <div class="field"><label>System Prompt</label><textarea id="f_sys" style="min-height:140px">${esc(c.systemPrompt)}</textarea></div>
+    <div class="grid g2"><div class="field"><label>头像/肖像 URL</label><input id="f_img" value="${esc(c.imageUrl||'')}"/></div>
+    <div class="field"><label>视频 URL</label><input id="f_vid" value="${esc(c.videoUrl||'')}"/></div></div>
+    <div class="grid g2"><div class="field"><label>语音 ID（voices 表）</label><input id="f_voice" value="${esc(c.voiceId||'')}"/></div>
+    <div class="field"><label>ElevenLabs Agent ID</label><input id="f_el" value="${esc(c.elevenLabsAgentId||'')}"/></div></div>
+    <div class="row"><button class="btn" onclick="charSave('${id||''}')">保存</button>
+    <button class="btn ghost" onclick="closeModal()">取消</button></div>`);}
+async function charSave(id){const body={name:$('#f_name').value,slug:$('#f_slug').value,age:$('#f_age').value,
+  personality:$('#f_pers').value,welcomeMessage:$('#f_wel').value,systemPrompt:$('#f_sys').value,isPublished:+$('#f_pub').value,
+  imageUrl:$('#f_img').value,videoUrl:$('#f_vid').value,voiceId:$('#f_voice').value,elevenLabsAgentId:$('#f_el').value};
+  if(id){await api('companions/'+id,body,{method:'PUT'});}else{await api('companions',body);}
+  closeModal();toast('角色已保存','ok');go('chars');}
+V.users=async(q='')=>{const d=await api('users?q='+encodeURIComponent(q)+'&limit=30');
+  return `<div class="card"><div class="row spread" style="margin-bottom:14px">
+    <input style="max-width:260px" placeholder="搜索邮箱/昵称…" value="${esc(q)}" oninput="clearTimeout(this.t);this.t=setTimeout(()=>go('users',this.value),350)"/>
+    <span class="chip">共 ${d.total} 用户</span></div>
+    <table><tr><th>邮箱</th><th>昵称</th><th>注册</th><th></th></tr>
+    ${d.rows.map(x=>`<tr><td class="muted">${esc(x.email)}</td><td><b style="color:var(--t1)">${esc(x.nickname||'-')}</b></td>
+      <td class="muted">${esc((x.createdAt||'').slice(0,10))}</td>
+      <td class="row"><button class="btn ghost sm" onclick="userForm('${x.id}')">编辑</button>
+      <button class="btn danger sm" onclick="delRow('users','${x.id}','${esc(x.email||x.id)}')">删除</button></td></tr>`).join('')
+      ||'<tr><td colspan=4><div class="empty">无用户</div></td></tr>'}</table></div>`;};
+async function userForm(id){const x=await api('users/'+id);
+  openModal(`<h3>编辑用户</h3>
+    <div class="grid g2"><div class="field"><label>昵称</label><input id="u_nick" value="${esc(x.nickname||'')}"/></div>
+    <div class="field"><label>性别</label><input id="u_gen" value="${esc(x.gender||'')}"/></div></div>
+    <div class="grid g2"><div class="field"><label>首选语言</label><input id="u_lang" value="${esc(x.preferredLanguage||'')}"/></div>
+    <div class="field"><label>AI 语言</label><input id="u_ailang" value="${esc(x.aiLanguage||'')}"/></div></div>
+    <div class="grid g2"><div class="field"><label>年龄验证</label><select id="u_av"><option value="1" ${x.ageVerified?'selected':''}>已验证</option><option value="0" ${x.ageVerified?'':'selected'}>未验证</option></select></div>
+    <div class="field"><label>订阅邮件</label><select id="u_nl"><option value="1" ${x.newsletter?'selected':''}>订阅</option><option value="0" ${x.newsletter?'':'selected'}>退订</option></select></div></div>
+    <div class="row"><button class="btn" onclick="userSave('${id}')">保存</button><button class="btn ghost" onclick="closeModal()">取消</button></div>`);}
+async function userSave(id){await api('users/'+id,{nickname:$('#u_nick').value,gender:$('#u_gen').value,
+  preferredLanguage:$('#u_lang').value,aiLanguage:$('#u_ailang').value,ageVerified:+$('#u_av').value,newsletter:+$('#u_nl').value},{method:'PUT'});
+  closeModal();toast('用户已保存','ok');go('users');}
+V.mails=async()=>{const a=await api('emails');const c=await api('codes?limit=20');
+  return `<div class="grid g2"><div class="card"><div class="row spread" style="margin-bottom:14px"><b>发码邮箱账号</b>
+    <button class="btn sm" onclick="mailForm()">＋ 新增</button></div>
+    <table><tr><th>地址</th><th>用途</th><th>状态</th><th></th></tr>
+    ${a.rows.map(x=>`<tr><td class="muted">${esc(x.address)}</td><td><span class="tag">${esc(x.purpose)}</span></td>
+      <td><span class="tag ${x.status==='active'?'on':'off'}">${esc(x.status)}</span></td>
+      <td class="row"><button class="btn ghost sm" onclick="issueCode('${x.id}')">发码</button>
+      <button class="btn ghost sm" onclick="mailForm('${x.id}')">编辑</button>
+      <button class="btn danger sm" onclick="delRow('emails','${x.id}','${esc(x.address)}')">删除</button></td></tr>`).join('')
+      ||'<tr><td colspan=4><div class="empty">暂无邮箱账号</div></td></tr>'}</table></div>
+   <div class="card"><b>最近发码记录</b><table style="margin-top:12px"><tr><th>码</th><th>目标</th><th>状态</th><th>时间</th></tr>
+    ${c.rows.map(x=>`<tr><td><b style="color:var(--ac-soft)">${esc(x.code)}</b></td><td class="muted">${esc(x.target_email||'-')}</td>
+      <td><span class="tag">${esc(x.status)}</span></td><td class="muted">${esc((x.created_at||'').slice(5,16))}</td></tr>`).join('')
+      ||'<tr><td colspan=4><div class="empty">暂无发码记录</div></td></tr>'}</table>
+    <div class="muted" style="margin-top:10px">本地发码仅记录到 code_log，未接真实 SMTP；可在账号里填 SMTP 信息备用。</div></div></div>`;};
+async function mailForm(id){let x={address:'',provider:'',smtp_host:'',smtp_port:587,username:'',password:'',purpose:'otp',status:'active'};
+  if(id)x=await api('emails/'+id);
+  openModal(`<h3>${id?'编辑':'新增'}发码邮箱</h3>
+    <div class="field"><label>邮箱地址</label><input id="m_addr" value="${esc(x.address)}"/></div>
+    <div class="grid g2"><div class="field"><label>提供商</label><input id="m_prov" value="${esc(x.provider)}" placeholder="smtp.qq.com 等"/></div>
+    <div class="field"><label>SMTP 端口</label><input id="m_port" value="${esc(x.smtp_port)}"/></div></div>
+    <div class="grid g2"><div class="field"><label>SMTP 用户名</label><input id="m_user" value="${esc(x.username)}"/></div>
+    <div class="field"><label>SMTP 密码/授权码</label><input id="m_pass" type="password" value="${esc(x.password)}"/></div></div>
+    <div class="grid g2"><div class="field"><label>用途</label><select id="m_pur"><option value="otp" ${x.purpose==='otp'?'selected':''}>otp 验证码</option><option value="marketing" ${x.purpose==='marketing'?'selected':''}>营销</option></select></div>
+    <div class="field"><label>状态</label><select id="m_st"><option value="active" ${x.status==='active'?'selected':''}>active</option><option value="disabled" ${x.status==='disabled'?'selected':''}>disabled</option></select></div></div>
+    <div class="row"><button class="btn" onclick="mailSave('${id||''}')">保存</button><button class="btn ghost" onclick="closeModal()">取消</button></div>`);}
+async function mailSave(id){const body={address:$('#m_addr').value,provider:$('#m_prov').value,smtp_host:$('#m_prov').value,
+  smtp_port:+$('#m_port').value,username:$('#m_user').value,password:$('#m_pass').value,purpose:$('#m_pur').value,status:$('#m_st').value};
+  if(id)await api('emails/'+id,body,{method:'PUT'});else await api('emails',body);
+  closeModal();toast('邮箱已保存','ok');go('mails');}
+async function issueCode(id){const r=await api('codes/issue',{email_id:id},{method:'POST'});toast('发码成功：'+r.code,'ok');go('mails');}
+V.voices=async(q='')=>{const d=await api('voices?q='+encodeURIComponent(q)+'&limit=40');
+  return `<div class="card"><div class="row spread" style="margin-bottom:14px">
+    <input style="max-width:260px" placeholder="搜索语音名…" value="${esc(q)}" oninput="clearTimeout(this.t);this.t=setTimeout(()=>go('voices',this.value),350)"/>
+    <span class="chip">共 ${d.total} 条</span></div>
+    <table><tr><th>名称</th><th>性别</th><th>语言</th><th>语音 ID（Edge/ElevenLabs）</th><th>状态</th><th></th></tr>
+    ${d.rows.map(v=>`<tr><td><b style="color:var(--t1)">${esc(v.name)}</b></td><td>${esc(v.gender)}</td><td><span class="tag">${esc(v.language)}</span></td>
+      <td class="muted">${esc((v.elevenLabsVoiceId||'').slice(0,14))}…</td>
+      <td><span class="tag ${v.isActive?'on':'off'}">${v.isActive?'启用':'停用'}</span></td>
+      <td class="row"><button class="btn ghost sm" onclick="voiceForm('${v.id}')">编辑</button>
+      <button class="btn danger sm" onclick="delRow('voices','${v.id}','${esc(v.name)}')">删除</button></td></tr>`).join('')
+      ||'<tr><td colspan=6><div class="empty">无语音</div></td></tr>'}</table></div>`;};
+async function voiceForm(id){let v=await api('voices/'+id);
+  openModal(`<h3>编辑语音</h3>
+    <div class="grid g2"><div class="field"><label>名称</label><input id="v_name" value="${esc(v.name)}"/></div>
+    <div class="field"><label>语言</label><input id="v_lang" value="${esc(v.language)}"/></div></div>
+    <div class="grid g2"><div class="field"><label>性别</label><input id="v_gen" value="${esc(v.gender)}"/></div>
+    <div class="field"><label>启用</label><select id="v_act"><option value="1" ${v.isActive?'selected':''}>启用</option><option value="0" ${v.isActive?'':'selected'}>停用</option></select></div></div>
+    <div class="field"><label>语音 ID（Edge 神经声音名，如 zh-CN-XiaoxiaoNeural / en-US-AriaNeural；旧 ElevenLabs ID 按语言+性别自动映射）</label><input id="v_el" value="${esc(v.elevenLabsVoiceId)}"/></div>
+    <div class="field"><label>预览音频 URL</label><input id="v_url" value="${esc(v.previewUrl)}"/></div>
+    <div class="row"><button class="btn" onclick="voiceSave('${id}')">保存</button><button class="btn ghost" onclick="closeModal()">取消</button></div>`);}
+async function voiceSave(id){await api('voices/'+id,{name:$('#v_name').value,language:$('#v_lang').value,gender:$('#v_gen').value,isActive:+$('#v_act').value,elevenLabsVoiceId:$('#v_el').value,previewUrl:$('#v_url').value},{method:'PUT'});
+  closeModal();toast('语音已保存','ok');go('voices');}
+V.nav=async()=>{const d=await api('nav-features');const f=d.features||{};const cat=d.catalog||[];
+  return `<div class="card"><h3 style="margin-bottom:6px">侧栏导航开关</h3>
+  <p class="muted" style="margin-bottom:14px;line-height:1.7">关闭后，本站（127.0.0.1:3000）左侧导航中对应入口立即隐藏（整组关闭则整组隐藏）；重新开启即恢复。仅影响前端展示，不改动源数据。</p>
+  <div class="grid g2">${cat.map(([href,label])=>`<div class="row spread" style="padding:9px 0;border-bottom:1px solid var(--bd)">
+    <span style="font-size:13px;color:var(--t2)">${esc(label)} <span class="muted" style="font-size:11px">${esc(href)}</span></span>
+    <select data-nav="${esc(href)}" style="width:96px"><option value="1" ${f[href]!==false?'selected':''}>显示</option>
+    <option value="0" ${f[href]===false?'selected':''}>隐藏</option></select></div>`).join('')}</div>
+  <button class="btn" style="margin-top:14px" onclick="saveNav()">保存开关</button>
+  <div id="navres" class="muted" style="margin-top:10px"></div></div>`;};
+async function saveNav(){const payload={};document.querySelectorAll('select[data-nav]').forEach(el=>{if(el.value==='0')payload[el.dataset.nav]=false;});
+  await api('nav-features',payload,{method:'POST'});
+  $('#navres').textContent='已保存 '+(Object.values(payload).filter(v=>v===false).length)+' 个隐藏项，刷新前端页面即可生效';
+  toast('导航开关已保存','ok');}
+V.tables=async(sel='')=>{const t=await api('tables');sel=sel||t.rows[0];
+  const d=await api('table/'+sel+'?limit=30');
+  const cols=d.rows.length?Object.keys(d.rows[0]):[];
+  return `<div class="card"><div class="row" style="margin-bottom:14px"><b>表：</b>
+    <select style="max-width:280px" onchange="go('tables',this.value)">${t.rows.map(x=>`<option ${x===sel?'selected':''}>${x}</option>`).join('')}</select>
+    <span class="chip">${d.total} 行</span><span class="muted">只读浏览 + 行删除</span></div>
+    <div style="overflow:auto;max-height:62vh"><table><tr>${cols.map(c=>`<th>${esc(c)}</th>`).join('')}<th></th></tr>
+    ${d.rows.map(r=>`<tr>${cols.map(c=>`<td style="max-width:220px" class="muted">${esc(String(r[c]??'').slice(0,60))}</td>`).join('')}
+      <td>${r.id?`<button class="btn danger sm" onclick="delRow('table/${sel}','${r.id}','行')">×</button>`:''}</td></tr>`).join('')
+      ||`<tr><td colspan=${cols.length+1}><div class="empty">空表</div></td></tr>'`}</table></div></div>`;};
+V.msgs=async(q='')=>{const d=await api('messages?q='+encodeURIComponent(q)+'&limit=40');
+  return `<div class="card"><div class="row spread" style="margin-bottom:14px">
+    <input style="max-width:260px" placeholder="搜索内容…" value="${esc(q)}" oninput="clearTimeout(this.t);this.t=setTimeout(()=>go('msgs',this.value),350)"/>
+    <span class="chip">共 ${d.total} 条</span></div>
+    <table><tr><th>角色</th><th>角色/用户</th><th>内容</th><th>时间</th><th></th></tr>
+    ${d.rows.map(m=>`<tr><td class="muted">${esc((m.companionId||'').slice(0,8))}</td>
+      <td><span class="tag ${m.role==='user'?'':'on'}">${esc(m.role)}</span></td>
+      <td style="max-width:420px">${esc((m.content||'').slice(0,80))}</td>
+      <td class="muted">${esc((m.createdAt||'').slice(5,16))}</td>
+      <td>${m.id?`<button class="btn danger sm" onclick="delRow('messages','${m.id}','消息')">删除</button>`:''}</td></tr>`).join('')
+      ||'<tr><td colspan=5><div class="empty">暂无消息</div></td></tr>'}</table></div>`;};
+V.econ=async()=>{const s=await api('settings');
+  return `<div class="grid g2">
+   <div class="card"><h3 style="margin-bottom:14px">AGNES 生成（图像/视频）</h3>
+    <div class="row spread" style="padding:9px 0;border-bottom:1px solid var(--bd)">
+      <span style="font-size:13px;color:var(--t2)">启用 AGNES 网关生成（关闭＝回退本地媒体池）</span>
+      <select id="ag_on" style="width:96px"><option value="1" ${(s.agnes_enabled??'1')==='1'?'selected':''}>开启</option>
+      <option value="0" ${s.agnes_enabled==='0'?'selected':''}>关闭</option></select></div>
+    <div class="field" style="margin-top:12px"><label>Base URL</label>
+      <input id="ag_base" value="${esc(s.agnes_base_url||'https://ai.maoming.me')}"/></div>
+    <div class="field"><label>API Key</label><input id="ag_key" type="password" value="${esc(s.agnes_api_key||'')}" placeholder="sk-…（留空用内置默认 key）"/></div>
+    <button class="btn" onclick="saveAgnes()">保存 AGNES 配置</button>
+    <p class="muted" style="margin-top:10px;line-height:1.7">图像：同步出片 ~7s（agnes-image-2.5-flash，URL 模式匿名下载入本地 media/generated/，支持 aspect 1:1/3:4/4:3/16:9/9:16/21:9）；
+    视频生成未接 AGNES（上游生成队列长期停摆），走本地视频池。</p></div>
+   <div class="card"><h3 style="margin-bottom:14px">系统</h3>
+    <div class="field"><label>修改管理密码</label><input id="e_pwd" type="password" placeholder="新密码（留空不改）"/></div>
+    <button class="btn ghost" onclick="savePwd()">更新密码</button>
+    <h3 style="margin:18px 0 12px">数据库备份</h3>
+    <div class="row"><button class="btn" onclick="doBackup()">立即备份</button>
+    <button class="btn ghost" onclick="loadBackups()">刷新列表</button></div>
+    <div id="bklist" class="muted" style="margin-top:10px"></div>
+    <p class="muted" style="margin-top:14px;line-height:1.8">全站已全面免费（无代币/订阅/优惠券）；备份为数据库全量快照，存于 backend/data/backups/。</p></div></div>`;};
+async function doBackup(){const r=await api('backup',{},{method:'POST'});toast('备份完成：'+r.path.split(/[/\\]/).pop(),'ok');loadBackups();}
+async function loadBackups(){const r=await api('backups');$('#bklist').innerHTML=r.rows.length?
+  r.rows.map(b=>`<div class="row spread" style="padding:6px 0;border-bottom:1px solid var(--bd)"><span>${esc(b.name)}</span><span>${(b.size/1048576).toFixed(1)} MB · ${esc(b.at.slice(5,16))}</span></div>`).join('')
+  :'暂无备份';}
+async function saveAgnes(){await api('settings',{agnes_enabled:$('#ag_on').value,
+  agnes_base_url:$('#ag_base').value,agnes_api_key:$('#ag_key').value},{method:'PUT'});
+  toast('AGNES 配置已保存','ok');}
+async function savePwd(){const v=$('#e_pwd').value;if(!v)return;await api('settings',{admin_password:v},{method:'PUT'});toast('密码已更新，下次登录生效','ok');$('#e_pwd').value='';}
+async function delRow(table,id,label){if(!confirm('删除 '+label+' ？'))return;await api(table+'/'+id,null,{method:'DELETE'});toast('已删除','ok');go(cur.v,cur.q);}
+
+/* ---------------- router ---------------- */
+const cur={v:'dash',q:''};
+const TITLES={nav:'导航开关',dash:'仪表盘',llm:'LLM 设置',oauth:'OAuth 登录',chars:'角色管理',voices:'语音管理',users:'用户管理',mails:'发码邮箱',msgs:'消息日志',tables:'数据表',econ:'经济/系统'};
+async function go(v,q=''){cur.v=v;cur.q=q;$('#title').textContent=TITLES[v];
+  document.querySelectorAll('.nav[data-v]').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
+  $('#view').innerHTML='<div class="card"><div class="empty">加载中…</div></div>';
+  try{$('#view').innerHTML=await V[v](q);}catch(e){if(e.message!=='unauthorized')$('#view').innerHTML='<div class="card"><div class="empty">加载失败：'+esc(e.message)+'</div></div>';}}
+document.querySelectorAll('.nav[data-v]').forEach(b=>b.onclick=()=>go(b.dataset.v));
+async function boot(){try{await api('stats');}catch(e){return;}
+  $('#login').style.display='none';$('#shell').style.display='block';go('dash');}
+boot();
+</script>
+</body>
+</html>

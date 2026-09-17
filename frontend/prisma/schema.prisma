@@ -1,0 +1,471 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model users {
+  @@map("users")
+  id String @id
+  email String?
+  nickname String?
+  gender String?
+  preferredLanguage Float?
+  aiLanguage String?
+  ageVerified Boolean?
+  dateOfBirth String?
+  aiActConsent Boolean?
+  aiActConsentAt String?
+  newsletter Boolean?
+  aiTrainingConsent Boolean?
+  billingCardHolder String?
+  billingFirstName String?
+  billingLastName String?
+  billingCity String?
+  billingCountry String?
+  billingPostcode String?
+  billingStreet String?
+  finbyCardId String?
+  finbyCardMask String?
+  finbyCardExpiration String?
+  finbyCardAccountId String?
+  autoTopUpEnabled Boolean?
+  autoTopUpAddonKey String?
+  autoTopUpThreshold String?
+  autoTopUpLastAt String?
+  autoTopUpLastError String?
+  autoTopUpFailCount Float?
+  dognetVisitorId String?
+  referralCode String?
+  referredByUserId String?
+  createdAt String?
+  updatedAt String?
+  lastActiveAt String?
+  contentPurgedAt String?
+  deletedAt String?
+  pass_hash String?
+  salt String?
+  iters Int?
+  password_set Boolean?
+}
+
+model referrals {
+  @@map("referrals")
+  id String @id
+  referrerId String?
+  referredUserId String?
+  status String?
+  tokensAwarded String?
+  createdAt String?
+  rewardedAt String?
+}
+
+model companions {
+  @@map("companions")
+  id String @id
+  slug String?
+  name String?
+  age Float?
+  archetype String?
+  personality String?
+  background String?
+  body String?
+  ethnicity String?
+  relationship String?
+  occupation String?
+  hobbies String?
+  language String?
+  imageUrl String?
+  videoUrl String?
+  bio String?
+  systemPrompt String?
+  conciseSystemPrompt String?
+  isCustom Boolean?
+  isNew Boolean?
+  isPublished Boolean?
+  groupChatFeatured Boolean?
+  userId String?
+  totalTokenSpendings Float?
+  createdAt String?
+  updatedAt String?
+  elevenLabsAgentId String?
+  voiceId String?
+  voiceSystemPrompt String?
+  trulienceAvatarId String?
+  nameTranslations String?
+  bioTranslations String?
+  personalityTranslations String?
+  backgroundTranslations String?
+  occupationTranslations String?
+  hobbiesTranslations String?
+  bodyTranslations String?
+  ethnicityTranslations String?
+  relationshipTranslations String?
+  welcomeMessage String?
+  welcomeMessageTranslations String?
+}
+
+model igStories {
+  @@map("ig_stories")
+  id String @id
+  companionId String?
+  mediaType String?
+  mediaUrl String?
+  firstFrameUrl String?
+  caption String?
+  isPublished Boolean?
+  sortOrder Float?
+  createdAt String?
+  updatedAt String?
+}
+model groupChats {
+  @@map("group_chats")
+  id String @id
+  userId String?
+  name String?
+  thumbnailUrl String?
+  createdAt String?
+  updatedAt String?
+}
+
+model groupChatMembers {
+  @@map("group_chat_members")
+  id String @id
+  groupChatId String?
+  companionId String?
+  position String?
+}
+
+model groupMessages {
+  @@map("group_messages")
+  id String @id
+  groupChatId String?
+  role String?
+  authorCompanionId String?
+  content String?
+  canonicalContent Int?
+  createdAt String?
+}
+
+model roleplaySessions {
+  @@map("roleplay_sessions")
+  id String @id
+  userId String?
+  companionId String?
+  locationId String?
+  tone String?
+  sceneOpening String?
+  scenarioPrompt String?
+  sceneImageUrl String?
+  scLastResponseId String?
+  scSystemHash String?
+  turnCount Float?
+  createdAt String?
+  updatedAt String?
+}
+
+model roleplaySessionMessages {
+  @@map("roleplay_session_messages")
+  id String @id
+  roleplaySessionId String?
+  role String?
+  content String?
+  canonicalContent Int?
+  createdAt String?
+}
+
+model messages {
+  @@map("messages")
+  id String @id
+  userId String?
+  companionId String?
+  content String?
+  canonicalContent Int?
+  role String?
+  storyId String?
+  storyLiked Boolean?
+  createdAt String?
+}
+
+model conversationStates {
+  @@map("conversation_states")
+  id String @id
+  userId String?
+  companionId String?
+  scLastResponseId String?
+  scSystemHash String?
+  turnCount String?
+  roleplayScenario String?
+  // Manual additions (mirror dump lacks these — gen_prisma_from_mirror.py drops
+  // them; re-add alongside zhihuIdentities after any regeneration).
+  // Rolling long-term memory of the 1v1 chat (hermes-style folded summary),
+  // the fold cursor (messages already absorbed) and consecutive-fold-failure
+  // counter (skip the batch after 3 so a dead summarizer never wedges memory).
+  memorySummary String?
+  memoryMsgCount Int? @default(0)
+  memoryFoldFails Int? @default(0)
+  createdAt String?
+  updatedAt String?
+}
+
+model zhihuMaterials {
+  @@map("zhihu_materials")
+  id String @id
+  topic String?
+  questionTitle String?
+  questionUrl String?
+  answerCount Int? @default(0)
+  excerptsJson String?
+  companionId String?
+  createdAt String?
+}
+
+model media {
+  @@map("media")
+  id String @id
+  userId String?
+  companionId String?
+  folderId String?
+  batchId String?
+  type String?
+  url String?
+  prompt String?
+  createdAt String?
+}
+
+model mediaFolders {
+  @@map("media_folders")
+  id String @id
+  userId String?
+  name String?
+  createdAt String?
+  updatedAt String?
+}
+model usageTracking {
+  @@map("usage_tracking")
+  id String @id
+  userId String?
+  textCount Float?
+  allTimeSpending String?
+  imageCount Float?
+  videoCount Float?
+  customCompanionsCount Float?
+  roleplayGenerationsCount Float?
+  dailyMessageCount Float?
+  dailyResetAt String?
+  monthlyTokensRemaining Float?
+  monthlyTokenResetAt String?
+  monthlyCallMinutesUsed String?
+  callMinutesResetAt String?
+  persistentTokensRemaining Float?
+  bonusCallMinutes Float?
+  updatedAt String?
+}
+
+model voices {
+  @@map("voices")
+  id String @id
+  elevenLabsVoiceId String?
+  name String?
+  gender String?
+  language String?
+  previewUrl String?
+  isActive Int?
+  createdAt String?
+}
+
+model ttsClips {
+  @@map("tts_clips")
+  id String @id
+  companionId String?
+  voiceId String?
+  textHash String?
+  url String?
+  createdAt String?
+}model pendingGenerations {
+  @@map("pending_generations")
+  id String @id
+  userId String?
+  companionId String?
+  requestId String?
+  batchId String?
+  prompt String?
+  apiPrompt String?
+  displayPrompt String?
+  type String?
+  isSpicy String?
+  effectId String?
+  duration String?
+  provider String?
+  providerModel String?
+  providerTaskId String?
+  phase String?
+  firstFrameUrl String?
+  audio String?
+  status String?
+  errorCode String?
+  tokenCost String?
+  monthlyDebited String?
+  persistentDebited String?
+  refunded String?
+  createdAt String?
+}
+
+model posts {
+  @@map("posts")
+  id String @id
+  type String?
+  slug String?
+  locale String?
+  translationKey String?
+  title String?
+  excerpt String?
+  body String?
+  coverImage String?
+  tags String?
+  status String?
+  authorName String?
+  metaTitle String?
+  metaDescription String?
+  publishedAt String?
+  createdAt String?
+  updatedAt String?
+}
+
+model helpCategories {
+  @@map("help_categories")
+  id String @id
+  slug String?
+  locale String?
+  translationKey String?
+  title String?
+  description String?
+  icon String?
+  order String?
+  status String?
+  createdAt String?
+  updatedAt String?
+}
+
+model helpArticles {
+  @@map("help_articles")
+  id String @id
+  categoryId String?
+  slug String?
+  locale String?
+  translationKey String?
+  title String?
+  body String?
+  faq String?
+  order String?
+  status String?
+  metaTitle String?
+  metaDescription String?
+  publishedAt String?
+  createdAt String?
+  updatedAt String?
+}
+
+model jobListings {
+  @@map("job_listings")
+  id String @id
+  slug String?
+  locale String?
+  translationKey String?
+  title String?
+  department String?
+  location String?
+  employmentType String?
+  description String?
+  applyUrl String?
+  status String?
+  metaTitle String?
+  metaDescription String?
+  postedAt String?
+  createdAt String?
+  updatedAt String?
+}
+
+model inquiries {
+  @@map("inquiries")
+  id String @id
+  type String?
+  name String?
+  email String?
+  message String?
+  meta String?
+  status String?
+  createdAt String?
+}
+model settings {
+  @@map("settings")
+  key String @id
+  value String?
+  updated_at String?
+}
+
+model emailAccounts {
+  @@map("email_accounts")
+  id String @id
+  address String?
+  provider String?
+  smtp_host String?
+  smtp_port Float?
+  username String?
+  password String?
+  purpose String?
+  status String?
+  last_used_at String?
+  created_at String?
+}
+
+model codeLog {
+  @@map("code_log")
+  id String @id
+  email_id String?
+  code String?
+  target_email String?
+  purpose String?
+  status String?
+  created_at String?
+  used_at String?
+}
+
+model authOtps {
+  @@map("auth_otps")
+  email String @id
+  code String?
+  attempts Int?
+  created_at String?
+  expires_at String?
+}
+
+model agnesTasks {
+  @@map("agnes_tasks")
+  id String @id
+  userId String?
+  companionId String?
+  status String?
+  url String?
+  createdAt String?
+  updatedAt String?
+}
+
+// Zhihu OAuth login binding — manually added (NOT generated from mirror.db;
+// scripts/gen_prisma_from_mirror.py will drop it, re-append after regeneration).
+// zhihu_uid stores the int64 uid as a lossless string (may exceed 2^53).
+model zhihuIdentities {
+  @@map("zhihu_identities")
+  zhihu_uid        String  @id
+  hash_id          String?
+  user_id          String
+  fullname         String?
+  avatar_path      String?
+  access_token     String?
+  token_expires_at Float?
+  created_at       String?
+  updated_at       String?
+}

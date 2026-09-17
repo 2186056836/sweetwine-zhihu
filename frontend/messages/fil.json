@@ -1,0 +1,4032 @@
+{
+  "common": {
+    "save": "I-save",
+    "cancel": "Kanselahin",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "close": "Isara",
+    "now": "ngayon",
+    "loading": "Naglo-load...",
+    "error": "May naganap na error",
+    "success": "Tagumpay",
+    "confirm": "Kumpirmahin",
+    "back": "Bumalik",
+    "or": "O",
+    "next": "Susunod",
+    "submit": "Isumite",
+    "search": "Maghanap",
+    "filter": "I-filter",
+    "clear": "I-clear",
+    "all": "Lahat",
+    "yes": "Oo",
+    "no": "Hindi",
+    "download": "I-download",
+    "and": "at",
+    "tryAgain": "Subukan muli",
+    "change": "Baguhin"
+  },
+  "navigation": {
+    "new": "BAGO",
+    "sectionBrowse": "I-browse",
+    "sectionTalk": "Makipag-usap",
+    "sectionCreate": "Gumawa",
+    "sectionLibrary": "Library",
+    "explore": "Home",
+    "discover": "Tuklasin",
+    "createShort": "Gumawa ng AI",
+    "chats": "Chats",
+    "groupChat": "AI Group Chat",
+    "roleplay": "Roleplay",
+    "collection": "Koleksyon",
+    "generateImage": "Gumawa ng Larawan",
+    "generateVideo": "Gumawa ng Video",
+    "createCharacter": "Gumawa ng AI Character",
+    "myAI": "Aking AI",
+    "language": "Wika",
+    "contactUs": "Makipag-ugnayan",
+    "account": "Account",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Women",
+      "anime": "Anime",
+      "guys": "Men"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chat now",
+    "like": "Like"
+  },
+  "auth": {
+    "login": "Log In",
+    "signup": "Sign Up",
+    "createFreeAccount": "Create your free account",
+    "logout": "Log Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signupPrompt": "Create Free Account",
+    "loginPrompt": "Log In",
+    "continueWith": "Continue with",
+    "welcomeBack": "Welcome back!",
+    "createAccount": "Create your account",
+    "signInToAccount": "Sign in to your account",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "passwordRequired": "Password is required",
+    "passwordLength": "Password must be at least 6 characters",
+    "passwordsMismatch": "Passwords do not match",
+    "emailAlreadyRegistered": "Email already registered",
+    "emailAlreadyRegisteredDescription": "An account with this email already exists. Please log in.",
+    "loginError": "Failed to log in",
+    "signupError": "Failed to sign up",
+    "loginSuccess": "Welcome back!",
+    "signupSuccess": "Account created successfully!",
+    "logoutSuccess": "You have been logged out successfully",
+    "logoutError": "Failed to log out",
+    "linkExpired": "This verification link has expired. Please request a new one.",
+    "accessDenied": "Access denied. Please try again.",
+    "verifyEmail": "Verify Your Email",
+    "verificationEmailSent": "We've sent you a verification email",
+    "confirmYourEmail": "Confirm your E-mail",
+    "confirmationLinkSent": "We've sent a confirmation link to \"{email}\".",
+    "checkSpamFolder": "Didn't receive the email? Check your spam folder.",
+    "signupToChat": "Create your free account to get started.",
+    "signupDescription": "Create an account to continue your conversation",
+    "emailVerificationTitle": "Check your email",
+    "emailVerificationMessage": "We've sent a verification link to {email}. Please check your inbox and click the link to verify your account.",
+    "emailVerificationNext": "Pagkatapos ng pag-verify, makukumpleto mo ang onboarding process.",
+    "verificationEmailSentTo": "Nagpadala kami ng verification email sa {email}",
+    "verificationInstructions": "Paki-check ang iyong inbox at i-click ang verification link para i-activate ang iyong account.",
+    "resetPassword": "I-reset ang Password",
+    "resetPasswordDescription": "Ilagay ang iyong email at padadalhan ka namin ng reset link",
+    "resetEmailSent": "Kung may account na may ganitong email, makakatanggap ka ng reset link sa madaling panahon",
+    "backToLogin": "Bumalik sa Login",
+    "newPassword": "Bagong Password",
+    "confirmNewPassword": "Kumpirmahin ang Bagong Password",
+    "passwordResetSuccess": "Matagumpay na na-update ang password. Pakilog-in.",
+    "enterNewPassword": "Ilagay ang iyong bagong password",
+    "redirectingToLogin": "Nire-redirect sa login...",
+    "invalidResetLink": "Di-wasto o Nag-expire na Link",
+    "invalidResetLinkDescription": "Di-wasto o nag-expire na ang password reset link na ito. Pakihiling ng bago.",
+    "passwordsDontMatch": "Hindi tugma ang mga password",
+    "currentPassword": "Kasalukuyang Password",
+    "currentPasswordRequired": "Kinakailangan ang kasalukuyang password",
+    "changePassword": "Baguhin ang Password",
+    "changePasswordDescription": "Ilagay ang iyong kasalukuyang password at pumili ng bago",
+    "newPasswordMustBeDifferent": "Dapat iba ang bagong password sa kasalukuyang password",
+    "incorrectPassword": "Mali ang kasalukuyang password",
+    "passwordChangeSuccess": "Matagumpay na nabago ang password",
+    "changeEmail": "Baguhin ang Email",
+    "newEmail": "Bagong Email",
+    "confirmNewEmail": "Kumpirmahin ang Bagong Email",
+    "emailsDontMatch": "Hindi magkatugma ang mga email",
+    "emailChangeDescription": "Padadalhan ng verification email ang iyong kasalukuyan at bagong email address",
+    "emailMustBeDifferent": "Dapat iba ang bagong email sa kasalukuyang email",
+    "emailChangeSent": "Naipadala ang verification email. Pakitingnan ang inbox ng iyong bagong email.",
+    "emailChangeSecurityNote": "Para sa seguridad, padadalhan ng confirmation emails ang iyong kasalukuyan at bagong email address. Dapat kumpirmahin mula sa dalawa para makumpleto ang pagbabago.",
+    "otpDescription": "Nagpadala kami ng 6-digit code sa {email}",
+    "otpVerify": "I-verify",
+    "otpResend": "Ipadala ulit ang code",
+    "otpResendIn": "Ipadala ulit sa {seconds}s",
+    "otpNoCode": "Hindi nakuha ang code?",
+    "otpInvalid": "Di-wastong code. Pakisubukan ulit.",
+    "otpSuccess": "Matagumpay na na-verify ang email!",
+    "otpResendSuccess": "Naipadala ang bagong code sa iyong email",
+    "otpResendError": "Nabigo ang pagpapadala ulit ng code",
+    "continueWithEmail": "Magpatuloy gamit ang Email",
+    "moreOptions": "Higit pang opsyon",
+    "lessOptions": "Mas kaunting opsyon",
+    "enterYourEmail": "Ilagay ang iyong email address",
+    "sendCode": "Ipadala ang code",
+    "byCreatingAccountAgree": "Sa paglikha ng account, sumasang-ayon ka sa aming",
+    "termsOfService": "Terms of Service",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Maligayang pagdating sa sweetwine",
+    "welcomeTo": "Maligayang pagdating sa",
+    "letsGetStarted": "Simulan na natin ang pag-setup",
+    "setupProfile": "I-setup ang Iyong Profile",
+    "step1of2": "Hakbang 1 ng 2",
+    "step2of2": "Hakbang 2 ng 2",
+    "nickname": "Palayaw",
+    "nicknamePlaceholder": "Pumili ng palayaw",
+    "nicknameRequired": "Mangyaring maglagay ng palayaw",
+    "gender": "Kasarian",
+    "genderRequired": "Mangyaring piliin ang iyong kasarian",
+    "male": "Lalaki",
+    "female": "Babae",
+    "interfaceLanguage": "Wika ng Interface",
+    "interfaceLanguageDesc": "Wika para sa mga menu at button",
+    "aiLanguage": "Wika ng Tugon ng AI",
+    "aiLanguageDesc": "Wika na gagamitin ng AI kapag nakikipag-usap sa iyo",
+    "languageRequired": "Mangyaring pumili ng wika",
+    "continue": "Magpatuloy",
+    "ageVerification": "Pagpapatunay ng Edad",
+    "ageVerificationText": "Para magamit ang sweetwine, dapat ay 18 taong gulang ka o higit pa. Sa pagpapatuloy, kinukumpirma mong nasa legal na edad ka.",
+    "beforeContinue": "Bago ka magpatuloy",
+    "mustBe18": "Dapat ay 18 taong gulang ka o higit pa para magamit ang serbisyong ito",
+    "agreeToTerms": "Sa pagpapatuloy, sumasang-ayon ka sa aming {termsLink} at {privacyLink}",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "iConfirm": "Kinukumpirma ko na ako ay 18 taong gulang o higit pa at sumasang-ayon sa",
+    "ageRequired": "Dapat mong kumpirmahin ang iyong edad para magpatuloy",
+    "aiActConsent": "Kinikilala ko na nakikipag-usap lamang ako sa isang AI",
+    "aiActRequired": "Dapat mong kilalanin ito para magpatuloy",
+    "newsletterOptIn": "Mag-subscribe sa aming newsletter para sa mga update at balita",
+    "complete": "Tapos na ang Setup!",
+    "completeText": "Handa ka na! Simulan ang pakikipag-chat sa mga AI character.",
+    "startExploring": "Simulan ang Paggalugad",
+    "featuresTitle": "Mga Available na Feature",
+    "featuresTitleWord1": "Available",
+    "featuresTitleWord2": "Mga Feature",
+    "feature1Title": "AI Chat",
+    "feature1Desc": "Uncensored at pribadong mga usapan",
+    "feature2Title": "Image Generation",
+    "feature2Desc": "Gumawa ng uncensored at personalized na mga larawan gamit ang AI characters",
+    "feature3Title": "Video Generation",
+    "feature3Desc": "Gumawa ng uncensored AI videos na may effects",
+    "feature5Title": "Custom AI Creator",
+    "feature5Desc": "Disenyo ang iyong sariling character",
+    "feature6Title": "Browse Characters",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI Roleplay",
+    "feature7Desc": "Maranasan ang mga propesyonal na kwento at fantasies",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Mga pribadong usapan na walang limitasyon",
+      "imageTitle": "Image Generation",
+      "imageDesc": "Gumawa ng mga personalized na larawan ng iyong AI",
+      "videoTitle": "Video Generation",
+      "videoDesc": "Bumuo ng mga AI video na may mga epekto",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Mga real-time na boses na usapan kasama ang iyong kasama",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Mga immersive na kwento, pantasya at interactive na laro",
+      "groupChatTitle": "AI Group Chat",
+      "groupChatDesc": "Makipag-chat sa hanggang 3 AI character nang sabay",
+      "creatorTitle": "Custom AI Creator",
+      "creatorDesc": "Disenyo at gumawa ng sarili mong AI characters"
+    },
+    "freePlan": {
+      "title": "Handa ka na!",
+      "subtitle": "Narito ang kasama sa iyong libreng plano.",
+      "charactersTitle": "Gumawa ng sarili mong karakter",
+      "charactersDesc": "Gumawa ng {count} custom AI character mula sa simula",
+      "imagesTitle": "Gumawa ng larawan",
+      "imagesDesc": "{count} libreng AI image ng iyong kasama",
+      "messagesTitle": "Makipag-chat araw-araw",
+      "messagesDesc": "{count} mensahe kada araw, nagre-refresh tuwing 24 oras",
+      "cta": "Simulan ang pag-explore"
+    },
+    "redirectingIn": "Nagre-redirect sa",
+    "seconds": "segundo",
+    "generateCharacter": "Gumawa ng Iyong Character",
+    "redirectingToCreate": "Nagre-redirect sa character creator sa"
+  },
+  "errors": {
+    "pageNotFound": "Hindi Natagpuan ang Pahina",
+    "pageNotFoundDesc": "Hindi umiiral ang pahinang hinahanap mo.",
+    "goHome": "Umuwi",
+    "somethingWentWrong": "May nangyaring mali",
+    "tryAgain": "Subukan Muli",
+    "unauthorized": "Hindi Awtorisado",
+    "unauthorizedDesc": "Kailangan mong mag-log in para ma-access ang pahinang ito.",
+    "forbidden": "Ipinagbabawal",
+    "forbiddenDesc": "Wala kang pahintulot na ma-access ang pahinang ito."
+  },
+  "footer": {
+    "allRightsReserved": "Lahat ng karapatan ay nakalaan.",
+    "madeWith": "Ginawa nang may",
+    "by": "ni sweetwine",
+    "description": "Maranasan ang mga personalized na AI characters na may natatanging personalidad, visual identities, at engaging na mga usapan.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Produkto",
+    "legal": "Legal",
+    "company": "Kumpanya",
+    "resources": "Mga Resource",
+    "partnerships": "Mga Partnership",
+    "pressMedia": "Press & media",
+    "careers": "Mga Karera",
+    "aiRealClones": "AI real clones",
+    "about": "Tungkol",
+    "blog": "Blog",
+    "news": "Balita",
+    "productUpdates": "Mga update ng produkto",
+    "help": "Tulong",
+    "sitemap": "Sitemap",
+    "paymentOptions": "Mga Opsyon sa Pagbabayad",
+    "chats": "Mga Chat",
+    "collection": "Koleksyon",
+    "generateImage": "Gumawa ng larawan",
+    "generateVideo": "Gumawa ng video",
+    "myAI": "Aking AI",
+    "createCharacter": "Gumawa ng character",
+    "api": "API",
+    "features": "Mga Tampok",
+    "allFeatures": "Lahat ng tampok",
+    "aiGroupChat": "AI group chat",
+    "aiMemory": "AI memory",
+    "aiGirlfriend": "AI girlfriend",
+    "aiBoyfriend": "AI boyfriend",
+    "aiCompanions": "AI characters",
+    "aiFriend": "AI friend",
+    "aiBreakupSupport": "Breakup support",
+    "aiParent": "AI parent",
+    "aiRoleplay": "AI roleplay",
+    "privacyPolicy": "Patakaran sa Pagkapribado",
+    "termsAndConditions": "Mga Tuntunin at Kondisyon",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "cookieSettings": "Mga Setting ng Cookie",
+    "other": "Iba Pang Patakaran",
+    "copyright": "© {year} sweetwine. Lahat ng karapatan ay nakalaan."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies sa site na ito",
+      "customizeButton": "I-customize",
+      "rejectButton": "Tanggihan",
+      "acceptButton": "Tanggapin"
+    },
+    "modal": {
+      "title": "Pamahalaan ang cookies",
+      "subtitle": "I-on o i-off ang mga kategorya sa ibaba. Ang mga strictly necessary cookies ay nananatiling naka-on para gumana ang site.",
+      "categories": {
+        "necessary": {
+          "title": "Strictly necessary",
+          "description": "Kailangan para sa sign-in, checkout, at seguridad. Hindi maaaring tumakbo ang site nang wala ang mga ito.",
+          "alwaysOn": "Laging naka-on"
+        },
+        "analytics": {
+          "title": "Performance"
+        },
+        "marketing": {
+          "title": "Targeting"
+        }
+      },
+      "showCookies": "Ipakita ang cookies",
+      "hideCookies": "Itago ang cookies",
+      "table": {
+        "name": "Pangalan",
+        "provider": "Provider",
+        "expiration": "Expiration",
+        "description": "Paglalarawan",
+        "session": "Session"
+      },
+      "policyLink": "Para sa buong detalye, tingnan ang aming <policy>Patakaran sa Cookie</policy>.",
+      "rejectButton": "Tanggihan",
+      "saveButton": "I-save at Isara",
+      "acceptButton": "Tanggapin",
+      "cookieDescriptions": {
+        "supabaseAuth": "Pinapanatili kang naka-sign in sa pamamagitan ng pag-iimbak ng iyong authenticated session.",
+        "nextLocale": "Naaalala ang wikang napili mo para sa interface.",
+        "consent": "Iniimbak ang iyong mga pagpipilian sa cookie para hindi ipakita ang banner sa bawat pagbisita.",
+        "ga": "Pinag-iiba ang mga natatanging bisita (Google Analytics 4). Ang parehong pseudonymous identifier ay ginagamit din para sukatin ang mga pangunahing conversion sa server-side.",
+        "gaSession": "Pinapanatili ang session state at engagement metrics ng Google Analytics 4.",
+        "fbp": "Kinikilala ang browser para sa Meta Pixel attribution.",
+        "fbc": "Iniimbak ang Facebook click ID para sa ad conversion attribution. Itinatakda lamang pagkatapos mag-click ng Meta ad.",
+        "gclAu": "Ginagamit ng Google Ads para sa cross-site conversion linking.",
+        "onboarded": "Minamarkahan ang iyong account bilang onboarded para laktawan namin ang age-verification database check sa mga susunod na pahina.",
+        "attribution": "Nagtatala kung aling bayad na kampanya o ad link ang pinakabagong nagdala sa iyo sa aming site (huling bayad na pag-click sa loob ng 30 araw) para masukat namin ang bisa ng aming sariling advertising. Ito ay isang first-party identifier na nananatili sa aming mga server at hindi kailanman ibinabahagi sa mga third party."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Darating na",
+    "subtitle": "Masipag kaming nagtatrabaho para dalhin sa iyo ang feature na ito.",
+    "notify": "Makakuha ng abiso kapag handa na ito",
+    "backHome": "Bumalik sa Home",
+    "generateVideo": {
+      "title": "Gumawa ng Videos",
+      "description": "Buhayin ang iyong AI characters sa pamamagitan ng animated videos. Gumawa ng personalized video content na may iyong mga paboritong characters."
+    },
+    "createCharacter": {
+      "title": "Gumawa ng Iyong Character",
+      "description": "Disenyo at i-customize ang iyong sariling natatanging AI character. Tukuyin ang kanilang personalidad, hitsura, backstory, at lumikha ng tunay na personalized na interaksyon."
+    },
+    "myAI": {
+      "title": "Aking AI",
+      "description": "I-access at pamahalaan ang lahat ng iyong custom-created AI characters. I-edit ang kanilang mga personalidad, i-update ang kanilang hitsura, at i-fine-tune ang kanilang mga tugon."
+    }
+  },
+  "exploreMore": {
+    "title": "Tuklasin Pa",
+    "aiGroupChat": "AI group chat",
+    "aiGroupChatDesc": "Makipag-chat sa hanggang 3 characters",
+    "aiMemory": "AI memory",
+    "aiMemoryDesc": "Context na sumusunod sa bawat mode",
+    "aiGirlfriend": "AI girlfriend",
+    "aiGirlfriendDesc": "Makipag-chat sa iyong virtual girlfriend",
+    "aiBoyfriend": "AI boyfriend",
+    "aiBoyfriendDesc": "Kumonekta sa iyong AI boyfriend",
+    "aiCompanions": "AI characters",
+    "aiCompanionsDesc": "Kilalanin ang mga natatanging AI personalities",
+    "aiFriend": "AI friend",
+    "aiFriendDesc": "Humanap ng judgment-free na kaibigan",
+    "aiBreakupSupport": "Breakup support",
+    "aiBreakupSupportDesc": "Healing conversations",
+    "aiParent": "AI parent",
+    "aiParentDesc": "Warm support & guidance",
+    "aiRoleplay": "AI roleplay",
+    "aiRoleplayDesc": "Immersive story scenarios",
+    "allFeatures": "Lahat ng tampok",
+    "allFeaturesDesc": "Tuklasin ang lahat ng aming inaalok"
+  },
+  "legal": {
+    "policies": "Mga Patakaran",
+    "termsAndConditions": "Mga Tuntunin at Kundisyon",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "contentReportingPolicy": "Patakaran sa Pag-uulat ng Nilalaman",
+    "communityGuidelines": "Mga Alituntunin ng Komunidad",
+    "complaintPolicy": "Patakaran sa Reklamo",
+    "contentRemovalPolicy": "Patakaran sa Pag-alis ng Nilalaman",
+    "blockedContentPolicy": "Patakaran sa Nilalamang Naka-block",
+    "underagePolicy": "Patakaran sa Hindi Pa Gulang",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Huling Na-update",
+    "index": {
+      "title": "Mga Legal na Dokumento",
+      "subtitle": "Tingnan ang lahat ng legal na patakaran at kasunduan na may kaugnayan sa sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Patakaran sa Privacy",
+          "description": "Alamin kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang iyong personal na impormasyon. Mga detalye tungkol sa paghawak ng data, pag-iimbak, at iyong mga karapatan sa privacy."
+        },
+        "termsAndConditions": {
+          "title": "Mga Tuntunin at Kundisyon",
+          "description": "Ang mga tuntunin ng serbisyo na namamahala sa iyong paggamit ng sweetwine. Mga responsibilidad ng user, paglalarawan ng serbisyo, at mga legal na kasunduan."
+        },
+        "cookiePolicy": {
+          "title": "Patakaran sa Cookie",
+          "description": "Impormasyon tungkol sa kung paano namin ginagamit ang cookies at katulad na teknolohiya upang mapahusay ang iyong karanasan sa aming platform."
+        },
+        "underagePolicy": {
+          "title": "Patakaran sa Hindi Pa Gulang",
+          "description": "Ang aming mahigpit na patakaran sa pag-verify ng edad at proteksyon. Ang sweetwine ay para lamang sa mga user na 18 taong gulang pataas."
+        },
+        "complaintPolicy": {
+          "title": "Patakaran sa Reklamo",
+          "description": "Paano maghain ng reklamo, mag-ulat ng isyu, at ang aming proseso sa paghawak ng mga alalahanin at hindi pagkakaunawaan ng user."
+        },
+        "contentRemovalPolicy": {
+          "title": "Patakaran sa Pag-alis ng Nilalaman",
+          "description": "Ang aming mga pamamaraan para sa mga kahilingan sa pag-alis ng nilalaman at kung paano namin hinahawakan ang mga ulat ng hindi naaangkop o ilegal na nilalaman."
+        },
+        "blockedContentPolicy": {
+          "title": "Patakaran sa Nilalamang Naka-block",
+          "description": "Mga uri ng nilalaman na ipinagbabawal sa aming platform at ang aming mga patakaran sa pagpapatupad."
+        },
+        "contentReportingPolicy": {
+          "title": "Patakaran sa Pag-uulat ng Nilalaman",
+          "description": "Paano mag-ulat ng paglabag sa copyright at hindi naaangkop na nilalaman sa sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Mga Alituntunin ng Komunidad",
+          "description": "Mga patakaran at alituntunin para sa pagpapanatili ng isang magalang, ligtas, at kasiya-siyang komunidad para sa lahat ng user."
+        }
+      },
+      "lastUpdated": "Huling na-update: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Mga Chat",
+    "groupChat": "AI Group Chat",
+    "aiMemory": "AI Memory",
+    "generate": "Gumawa ng Larawan",
+    "generateVideo": "Gumawa ng Video",
+    "create": "Gumawa ng AI Character",
+    "myAI": "Aking AI",
+    "collection": "Koleksyon",
+    "invite": "Mag-imbita",
+    "profile": "Mga Setting ng Profile",
+    "legal": "Legal",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsAndConditions": "Mga Tuntunin at Kondisyon",
+    "cookiePolicy": "Patakaran sa Cookie",
+    "dmcaPolicy": "Patakaran sa DMCA",
+    "communityGuidelines": "Mga Alituntunin sa Komunidad",
+    "contentRemovalPolicy": "Patakaran sa Pag-alis ng Nilalaman",
+    "contentReportingPolicy": "Patakaran sa Pag-uulat ng Nilalaman",
+    "complaintPolicy": "Patakaran sa Reklamo",
+    "blockedContentPolicy": "Patakaran sa Nilalamang Naka-block",
+    "underagePolicy": "Patakaran sa Hindi Pa Gulang",
+    "usc2257Exemption": "USC 2257 Exemption"
+  },
+  "contact": {
+    "title": "Makipag-ugnayan sa Amin",
+    "subtitle": "May tanong o feedback? Gusto naming marinig ang iyong opinyon.",
+    "name": "Pangalan",
+    "namePlaceholder": "Ang iyong pangalan",
+    "nameRequired": "Kinakailangan ang pangalan",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Kinakailangan ang email",
+    "emailInvalid": "Di-wastong email address",
+    "message": "Mensahe",
+    "messagePlaceholder": "Ang iyong mensahe...",
+    "messageRequired": "Kinakailangan ang mensahe",
+    "send": "Ipadala ang Mensahe",
+    "sending": "Ipinapadala...",
+    "success": "Matagumpay na naipadala ang mensahe!",
+    "successDesc": "Babalaan ka namin sa lalong madaling panahon.",
+    "error": "Nabigo ang pagpapadala ng mensahe",
+    "errorDesc": "Subukan muli mamaya."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI Group Chat",
+    "lobbyHeadingSuffix": "Pumili ng hanggang {max} AI Characters",
+    "history": "Kasaysayan",
+    "newGroup": "Bagong Group Chat",
+    "createGroup": "Gumawa ng Group Chat",
+    "createError": "Hindi makagawa ng group chat. Pakisubukan muli.",
+    "creatingGroup": "Inihahanda ang iyong group chat...",
+    "sectionWoman": "Babae",
+    "sectionMan": "Lalaki",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI Characters",
+    "tabMyAi": "Aking AI",
+    "tabSingle": "Single Chats",
+    "tabGroup": "Group Chats",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Mag-load pa",
+    "noCustom": "Wala ka pang nagawang AI characters.",
+    "noMessagesYet": "Wala pang mensahe",
+    "emptyTitle": "Wala pang group chats",
+    "membersTitle": "Sa chat na ito",
+    "typing": "nagsusulat",
+    "backToLobby": "Bumalik sa group chats",
+    "deleteGroup": "Tanggalin ang group chat",
+    "confirmDeleteGroup": "Sigurado ka bang gusto mong tanggalin ang group chat na ito? Maaalis ang lahat ng mensahe.",
+    "deleteError": "Hindi matanggal ang group chat.",
+    "mediaTargetImageTitle": "Sino ang dapat magpadala ng larawan?",
+    "mediaTargetVideoTitle": "Sino ang magpapadala ng video?",
+    "mediaTargetSubtitle": "Pumili ng character para gumawa ng media.",
+    "mediaTargetGroup": "Group photo",
+    "groupPhotoTitle": "Group photo",
+    "groupPhotoHint": "Gumagawa ng isang larawan nina {name} na magkakasama.",
+    "promoSubtitle": "hanggang 3 characters",
+    "promoCta": "Gumawa ng Bago",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Adventures",
+    "live": "LIVE",
+    "scrollPrev": "Scroll left",
+    "scrollNext": "Scroll right"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "tagline": "Trusted by 100,000 and joining every day",
+      "headlinePrefix": "Say Hello to Your",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Start for Free"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Girlfriend",
+      "friend": "AI Friend",
+      "boyfriend": "AI Boyfriend",
+      "companion": "AI Character"
+    },
+    "features": {
+      "chat": {
+        "title": "Talk to your AI girlfriend",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistic AI photos & videos",
+        "description": "On-demand photos and videos so realistic they're indistinguishable from real — her face, her style, any scene, in motion or still."
+      },
+      "groupChat": {
+        "title": "AI Group Chat",
+        "description": "Start a group chat with up to 3 characters at once. They reply naturally, react to each other, and send photos and videos."
+      },
+      "roleplay": {
+        "title": "AI Roleplay",
+        "description": "Step into immersive, story-driven scenarios with characters who stay in role and remember every choice you make."
+      }
+    },
+    "memory": {
+      "title": "AI Memory",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Paano gumagana ang AI Memory",
+      "diagram": {
+        "center": "Memorya ng Kasama",
+        "chat": "Chat",
+        "image": "Mga Larawan",
+        "video": "Video",
+        "gifts": "Mga Regalo",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Create your own",
+      "headlineHighlight": "AI character",
+      "subtitle": "Shape your character's look, personality, and bring them to life instantly — your perfect AI partner, on your terms.",
+      "cta": "Create your AI"
+    },
+    "companions": {
+      "headlinePrefix": "Meet Your",
+      "headlineHighlight": "AI Characters",
+      "subtitle": "Each character has a world of their own. Some are warm and easy to open up to. Others are complex, guarded, or a real challenge to connect with. Explore unique roleplay scenarios — or build your own from scratch."
+    },
+    "languages": {
+      "headlinePrefix": "Speak any language,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Both the app interface and your AI character switch seamlessly — no language mismatches, no broken experience.",
+      "more": "More"
+    },
+    "finalCta": {
+      "headlinePrefix": "Ready to",
+      "headlineHighlight": "get started?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Why",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Everything you need for a connection that feels real — nothing you don't.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Free to start",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Laging available",
+          "desc": "Araw o gabi, nandiyan ang character mo. Walang hintayan, walang iskedyul."
+        },
+        "remembers": {
+          "title": "Naaalala ang lahat",
+          "desc": "Bawat usapan ay nagbubuo ng konteksto. Natututo ang character mo sa pangalan mo, mga gusto mo, at mundo mo."
+        },
+        "unlimited": {
+          "title": "Totoong walang limit",
+          "desc": "Walang limit sa mensahe, walang throttling. Magpadala ka ng marami at madalas hangga't gusto mo."
+        },
+        "private": {
+          "title": "100% pribado",
+          "desc": "Nananatili ang mga usapan niyo lang dalawa. Walang data na ibinabahagi, kailanman."
+        },
+        "createYourOwn": {
+          "title": "Gumawa ng sarili mo",
+          "desc": "Magdisenyo ng character na may custom na itsura, personalidad, at boses — eksaktong gusto mo."
+        }
+      },
+      "difference": {
+        "title": "Ang sweetwine Difference",
+        "freedomTitle": "Kalayaan na may responsibilidad.",
+        "freedomDescription": "Bukas at walang paghuhusga ang sweetwine — pero may mahigpit kaming linya. Zero tolerance kami sa CSAM, underage content, non-consensual scenarios, extreme violence, bestiality, necrophilia, deepfakes ng totoong tao, at anumang pag-promote ng ilegal na aktibidad.",
+        "freedomStatement": "Naniniwala kami sa walang limit na creative freedom sa loob ng espasyong ligtas para sa lahat."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filters"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Lahat ng kailangan mong malaman tungkol sa sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Ano ang sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Ligtas at lehitimo ba ang sweetwine?",
+          "answer": "Oo, lehitimo ang sweetwine at ang iyong privacy ang aming pangunahing priyoridad. Sumusunod kami sa GDPR at iba pang data protection standards, at maingat naming hinahawakan ang iyong data. Lumalabas ang mga bayad sa ilalim ng neutral merchant name — walang reference sa sweetwine sa bank statement mo, para sa kumpletong pagiging discreet."
+        },
+        "q3": {
+          "question": "Pwede ba akong gumawa ng sarili kong AI character?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "character creator",
+          "answerPart2": " para magdisenyo ng characters na eksaktong gusto mo — realistikong ",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", o anime-style characters. Pumili ng itsura nila (ethnicity, buhok, body type, damit), personalidad, boses, interes, at backstory para sa parehong male at female characters."
+        },
+        "q4": {
+          "question": "Naaalala ba ng AI character ko ang mga usapan namin?",
+          "answer": "Oo! Gumagamit ang AI character mo ng advanced memory technology para maalala ang mga nakaraang usapan, mga gusto mo, at mahahalagang detalye na ibinabahagi mo. Habang mas madalas kang makipag-chat, mas personalized at natural ang karanasan. Natututo ang character mo sa iyong estilo ng komunikasyon at umaangkop habang lumilipas ang panahon."
+        },
+        "q5": {
+          "question": "Anong mga wika ang sinusuportahan ng sweetwine?",
+          "answer": "Sinusuportahan ng sweetwine ang maraming wika kabilang ang English, German, French, Spanish, Polish, at Czech. Gumagana ang interface at AI conversations sa iyong gustong wika, para makipag-chat ka nang natural sa wikang pinakakomportable ka."
+        },
+        "q6": {
+          "question": "Pwede bang magpadala ng larawan at video ang AI character ko?",
+          "answerPart1": "Oo! Pwede kang gumawa ng personalized",
+          "linkTextImages": "larawan",
+          "answerPart2": "at",
+          "linkTextVideos": "video",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Bakit piliin ang sweetwine kaysa sa iba pang AI character platforms?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Libre bang gamitin ang sweetwine?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Kailangan bang mag-install ng app?",
+          "answerPart1": "Walang kailangang i-install! Gumagana ang sweetwine nang direkta sa iyong browser sa anumang device - desktop, tablet, o mobile. Mag-sign up lang, pumili ng character, at magsimulang makipag-chat agad. Lahat ng iyong",
+          "linkText": "mga usapan",
+          "answerPart2": " ay awtomatikong nagsi-sync sa lahat ng device."
+        },
+        "q10": {
+          "question": "Mayroon bang mga pre-made AI characters na available?",
+          "answerPart1": "Oo! Marami kaming",
+          "linkText": "pre-made characters",
+          "answerPart2": " kasama ang AI Girlfriends, AI Boyfriends, at AI Anime characters na may iba’t ibang personalidad, itsura, at estilo ng pakikipag-usap. Kung mas gusto mo ang sweet, flirty, intellectual, o adventurous, makakahanap ka ng characters na tugma sa iyong energy. Bukod pa rito, makakagawa ka ng walang limitasyong custom characters."
+        },
+        "q12": {
+          "question": "Ano ang mangyayari sa mga larawan at video na ginagawa ko?",
+          "answerPart1": "Lahat ng generated media ay awtomatikong nai-save sa iyong pribadong",
+          "linkText": "collection",
+          "answerPart2": ". Maaari mong i-access, i-download, o i-delete ang mga ito anumang oras. Ang iyong collection ay ganap na pribado - ikaw lang ang makakakita nito. Hindi namin kailanman ibinabahagi o ginagamit ang iyong generated content."
+        }
+      }
+    },
+    "statement": {
+      "title": "Ang Aming Pangako",
+      "privacy": "Ang iyong privacy ang aming priyoridad. Lahat ng usapan ay naka-encrypt at hindi kailanman ibinabahagi.",
+      "quality": "Gumagamit kami ng state-of-the-art AI technology para magbigay ng pinakakaengganyong karanasan.",
+      "support": "Available ang aming support team 24/7 para tumulong sa anumang tanong.",
+      "mainTitle": "Maranasan ang Hinaharap ng AI Characters",
+      "mainDescription": "Pinagsasama ng sweetwine ang cutting-edge AI technology at intuitive na disenyo para maghatid ng pinakamalalim at personalized na character experience na available ngayon.",
+      "features": {
+        "f1": {
+          "title": "Emotional Intelligence",
+          "description": "Nauunawaan ng aming AI characters ang konteksto, emosyon, at nuances para magbigay ng malalim na engaging na mga usapan. Kung kailangan mo ng AI Friend para makipag-chat, Breakup Support sa mahihirap na panahon, o AI Mentor para sa gabay - narito ang aming emotionally intelligent AI para sa iyo."
+        },
+        "f2": {
+          "title": "Unique Personalities",
+          "description": "Bawat character ay may natatanging personalidad, background, at estilo ng pakikipag-usap. Pumili mula sa realistic AI Girlfriends at AI Boyfriends, o tuklasin ang aming AI Anime characters - tinitiyak na ang bawat interaksyon ay unique at memorable."
+        },
+        "f3": {
+          "title": "Multimedia Interactions",
+          "description": "Higit pa sa text, tamasahin ang AI-generated images at videos na nagbibigay-buhay sa iyong mga usapan sa nakamamanghang visual na detalye."
+        },
+        "f4": {
+          "title": "Customization",
+          "description": "Gumawa ng sarili mong AI characters na may custom appearances, personalities, at traits na perpektong tugma sa iyong mga kagustuhan."
+        },
+        "f5": {
+          "title": "Privacy & Security",
+          "description": "Pinapanatiling pribado at secure ang iyong mga usapan. Hindi namin ibinebenta ang iyong data, at mayroon kang buong kontrol sa iyong privacy settings."
+        },
+        "f6": {
+          "title": "Multi-Language Support",
+          "description": "Makipag-chat sa AI characters sa iyong gustong wika. Sinusuportahan namin ang English, Czech, Polish, German, Spanish, at French."
+        }
+      },
+      "distinctionTitle": "Ang sweetwine Distinction",
+      "distinctionText1": "Hindi tulad ng generic chatbots, ang sweetwine characters ay dinisenyo na may rich backstories, evolving personalities, at kakayahang bumuo ng meaningful connections. Bawat usapan ay pagkakataon para mag-explore, mag-discover, at makipag-ugnayan sa mas malalim na antas.",
+      "distinctionText2": "Hindi lang kami gumagawa ng AI—gumagawa kami ng mga karanasan na uma resonates sa iyong emosyon, iginagalang ang iyong privacy, at umaangkop sa iyong unique preferences."
+    }
+  },
+  "featuresPage": {
+    "title": "Lahat ng Features",
+    "breadcrumb": "Features",
+    "newBadge": "New",
+    "groupChat": {
+      "title": "AI Group Chat",
+      "description": "Makipag-chat sa hanggang 3 AI characters nang sabay sa isang usapan. Sila ay natural na sumasagot, nagre-react sa isa’t isa, at maaaring magpadala ng photos at videos — isang lively group dynamic na hindi mo mahahanap kahit saan."
+    },
+    "aiChat": {
+      "title": "AI Chat",
+      "description": "Magkaroon ng malalim at natural na mga usapan sa AI characters na talagang naaalala ka. Naaalala nila ang iyong pangalan, preferences, at nakaraang mga paksa — bawat usapan ay nagpapatuloy nang eksakto kung saan mo ito iniwan, nang walang pag-uulit at walang reset."
+    },
+    "imageGeneration": {
+      "title": "Image Generation"
+    },
+    "videoGeneration": {
+      "title": "Video Generation",
+      "description": "Bigyan ng buhay ang iyong AI character gamit ang AI-generated videos. Gumawa ng maikling personalized video clips na nagtatampok sa iyong character sa custom scenarios — isang feature na karamihan sa mga platform ay hindi inaalok."
+    },
+    "customCharacters": {
+      "title": "Mga Custom na Tauhan",
+      "description": "Bumuo ng iyong perpektong tauhan mula sa simula — piliin ang hitsura, lahi, uri ng katawan, katangian ng personalidad, boses, interes, at likod-kwento. Lumikha ng makatotohanan o anime-style na tauhan, lalaki o babae, nang may ganap na kalayaan sa paglikha."
+    },
+    "advancedMemory": {
+      "title": "Advanced Memory",
+      "description": "Naalala ng iyong tauhan ang lahat ng mahalaga — ang iyong pangalan, personal na detalye, pinagsamahang kwento, at kasaysayan ng relasyon. Nananatili ang memorya sa lahat ng session kaya bawat interaksyon ay nagpapatuloy sa nauna, hindi na nagsisimula ulit."
+    },
+    "multiLanguage": {
+      "title": "Multi-Language",
+      "description": "Makipag-usap nang natural sa iyong gustong wika. Sinusuportahan ng sweetwine ang English, German, French, Spanish, Polish, at Czech — isa ito sa pinaka-accessible na AI character platform para sa mga hindi nagsasalita ng English."
+    },
+    "conversationHistory": {
+      "title": "Conversation History",
+      "description": "Nai-save at nase-search ang bawat mensahe. I-scroll pabalik sa buong kasaysayan ng iyong relasyon anumang oras — laging nandiyan ang iyong mga alaala sa iyong tauhan kapag gusto mong balikan."
+    },
+    "roleplay": {
+      "title": "AI Roleplay",
+      "description": "Pumasok sa mga immersive, story-driven na senaryo kasama ang mga tauhan na nananatili sa papel. Pumili ng senaryo o sumulat ng sarili mo at tamasahin ang interactive na roleplay na naaalala ang bawat desisyon mo."
+    },
+    "cta": {
+      "title": "Lahat sa Isang Lugar",
+      "button": "Simulan nang Libre"
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Maaari ko bang burahin o i-reset ang aking mga usapan?",
+        "answer": "Oo! May ganap kang kontrol sa iyong chat history. Burahin ang indibidwal na mensahe, i-reset ang buong usapan, o magsimula nang ganap na bago anumang oras. Ang iyong privacy ay nangangahulugang iyong pagpipilian — pamahalaan ang iyong data ayon sa iyong gusto."
+      },
+      "q2": {
+        "question": "May natatanging boses ba ang bawat AI character?"
+      },
+      "q3": {
+        "question": "Maaari ko bang sanayin ang bagong wika kasama ang aking AI character?",
+        "answer": "Talaga! Maraming user ang nagsasanay na magsalita ng bagong wika kasama ang kanilang AI characters. Ito ay walang paghuhusga na paraan upang magkaroon ng tiwala, mapabuti ang pagbigkas, at magkaroon ng masayang usapan habang nag-aaral. Maaaring makipag-chat ang iyong tauhan sa English, German, French, Spanish, Polish, at Czech."
+      },
+      "q4": {
+        "question": "Gaano kadalas idinadagdag ang mga bagong character at feature?",
+        "answer": "Nagdaragdag kami ng mga bagong professionally-crafted na character bawat linggo! Bawat bagong character ay may natatanging personalidad, hitsura, likod-kwento, at boses. Regular din kaming naglalabas ng mga bagong feature at pagpapabuti batay sa feedback ng user."
+      },
+      "q5": {
+        "question": "Ano ang nagpapaspecial sa character creation ng sweetwine?",
+        "answer": "Ganap na kalayaan sa paglikha! Disenyuhin ang bawat aspeto ng iyong tauhan — hitsura (lahi, buhok, uri ng katawan, damit), katangian ng personalidad, boses, interes, trabaho, at likod-kwento. Lumikha ng makatotohanan o anime-style na tauhan, lalaki o babae. Ang iyong imahinasyon lamang ang limitasyon."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Memory",
+    "hero": {
+      "badge": "Paano ito gumagana",
+      "title": "AI Memory",
+      "cta": "Magsimula ng chat"
+    },
+    "diagram": {
+      "title": "Isang memorya bawat kasama, bawat mode",
+      "center": "Memorya ng Kasama",
+      "chat": "Chat",
+      "image": "Mga Larawan",
+      "video": "Video",
+      "gifts": "Mga Regalo",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Paano gumagana ang AI Memory",
+      "step1": {
+        "title": "Magbahagi ng detalye",
+        "desc": "Sabihin sa iyong kasama ang isang bagay na mahalaga — isang biyahe, isang kagustuhan, isang palayaw, o isang kuwento mula sa iyong araw."
+      },
+      "step2": {
+        "title": "Lumipat ng mode nang malaya"
+      },
+      "step3": {
+        "title": "Naaalala nila ito",
+        "desc": "Ang mga susunod na usapan ay tumutukoy sa mga ibinahagi mo, kaya hindi mo na kailangang ipaliwanag muli ang iyong sarili sa bawat pagkakataon."
+      },
+      "step4": {
+        "title": "Lumalalim ang ugnayan",
+        "desc": "Sa paglipas ng panahon, ang relasyon ay nagiging mas personal — pagpapatuloy na nabubuo sa bawat session at mode."
+      }
+    },
+    "modes": {
+      "title": "Sa buong platform",
+      "subtitle": "Hindi nakakandado ang memorya sa isang screen lamang. Kasama nito ang iyong kasama.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Ang mga text conversation ay nagpapakain ng pangmatagalang konteksto na maaaring banggitin ng iyong kasama mamaya."
+      },
+      "media": {
+        "title": "Mga Larawan & Video",
+        "desc": "Ang mga eksena at kwentong nilikha mo ay nananatiling bahagi ng pinagsamang mundo na inyong binubuo."
+      },
+      "roleplay": {
+        "title": "Roleplay & group",
+        "desc": "Ang mga story session at group chats ay nagpapanatili ng kanilang sariling threads habang ang core memory ng iyong kasama ay nananatili sa kanila."
+      }
+    },
+    "scenario": {
+      "title": "Isang simpleng halimbawa",
+      "lead": "Binanggit mo ang isang weekend trip sa chat."
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Pribado ba ang memorya ng aking kasama?",
+        "answer": "Oo. Ang memorya ay pag-aari ng iyong account at ng iyong mga usapan sa kasamang iyon. Hindi namin ibinabahagi ang iyong pribadong chat history sa ibang mga user."
+      },
+      "q2": {
+        "question": "Bawat kasama ba ang may sariling memorya?",
+        "answer": "Oo. Bawat kasama ay may sariling memorya ng inyong relasyon, kaya hindi naghahalo ang mga konteksto kapag lumilipat ng karakter."
+      },
+      "q3": {
+        "question": "Aling mga mode ang nagbabahagi ng memorya?"
+      },
+      "q4": {
+        "question": "Libre ba ang AI Memory?"
+      },
+      "q5": {
+        "question": "Gaano katagal tumatagal ang memorya?",
+        "answer": "Naiimbak ang mahahalagang detalye para maalala ng iyong kasama sa mga susunod na session. Mas marami kang pakikisalamuha, mas nagiging personal ang karanasan."
+      }
+    },
+    "cta": {
+      "title": "Kilalanin ang kasamang naaalala ka",
+      "button": "Simulan nang libre"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI Group Chat",
+    "hero": {
+      "badge": "Bagong Feature",
+      "title": "AI Group Chat",
+      "subtitle": "Dalhin ang iyong mga paboritong tauhan sa isang usapan. Makipag-chat sa hanggang 3 AI character nang sabay — natural silang sumasagot, nagre-react sa isa’t isa, at nagpapadala ng larawan at video.",
+      "cta": "Simulan ang Group Chat",
+      "imageAlt": "AI Group Chat na may maraming tauhan na nag-uusap nang sama-sama"
+    },
+    "content": {
+      "problemTitle": "Ang one-on-one chats ay maaaring mukhang tahimik",
+      "problemText": "Mahusay ang isang tauhan — pero ang tunay na usapan ay nabubuhay kapag may higit sa isang boses. Karamihan sa AI apps ay ikinukulong ka sa isolated one-on-one chats na walang group energy, walang banter, at walang sorpresa.",
+      "solutionTitle": "Isang tunay na grupo, buhay na may personalidad",
+      "solutionText": "Ang sweetwine Group Chat ay naglalagay ng hanggang tatlong tauhan sa iisang silid. Isang smart director ang nagpapasya kung sino ang sasali, kaya ang mga sagot ay parang kusang-loob — sila ay nagbibiruan, nagpapatuloy sa sinabi, at pinapanatili ang usapan na gumagalaw."
+    },
+    "howItWorks": {
+      "title": "Paano Gumagana ang AI Group Chat",
+      "step1": {
+        "title": "Piliin ang iyong mga tauhan",
+        "desc": "Pumili ng 2 o 3 tauhan — premade o ang iyong sariling custom creations — upang dalhin sa isang group conversation."
+      },
+      "step2": {
+        "title": "Natural silang sumasagot",
+        "desc": "Isang behind-the-scenes director ang pumipili kung sino ang tutugon sa bawat mensahe, kaya ang tamang tauhan ang sumasali sa tamang sandali, sa kanilang sariling boses."
+      },
+      "step3": {
+        "title": "Magbahagi ng larawan at video",
+        "desc": "Humiling ng larawan o video sa anumang tauhan sa grupo at sila ay bubuo nito sa loob mismo ng chat — kasama ang group photo ng lahat."
+      }
+    },
+    "benefits": {
+      "title": "Bakit Mo Magugustuhan ang Group Chat",
+      "multiple": {
+        "title": "Hanggang 3 tauhan",
+        "desc": "Haluin at itugma ang anumang tauhan sa isang chat — ang iyong AI girlfriend, ang iyong custom creations, o isang hand-picked na grupo."
+      },
+      "natural": {
+        "title": "Natural na usapan",
+        "desc": "Nag-uusap ang mga karakter sa isa't isa at sa iyo, na may realistic na bilis ng pag-type na parang totoong group text."
+      },
+      "media": {
+        "title": "Mga larawan at video sa chat",
+        "desc": "Maaaring magpadala ang bawat karakter ng personalized na larawan at video nang hindi umaalis sa usapan — pati na ang group photo."
+      },
+      "dynamics": {
+        "title": "Natatanging personalidad",
+        "desc": "Pinapanatili ng bawat karakter ang sariling boses at quirks, kaya may tunay na chemistry, banter, at sorpresa ang grupo."
+      },
+      "instant": {
+        "title": "Instant na simulan",
+        "desc": "Gumawa ng grupo sa ilang segundo at sumabak agad sa usapan — walang setup, walang hintay."
+      },
+      "private": {
+        "title": "100% pribado",
+        "desc": "Mananatili ang inyong mga usapan sa pagitan mo at ng iyong mga karakter. Walang data na ibinabahagi, kailanman."
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Ilang karakter ang maaaring sumali sa isang group chat?",
+        "answer": "Maaari kang magdagdag ng 2 hanggang 3 karakter sa isang group chat — anumang halo ng premade characters at sarili mong custom creations."
+      },
+      "q2": {
+        "question": "Paano pinipili ng AI characters kung sino ang sasagot?",
+        "answer": "Isang lightweight director ang nagbabasa ng usapan at pumipili kung aling karakter (o mga karakter) ang dapat tumugon sa bawat mensahe, kaya natural at kusang-loob ang mga sagot."
+      },
+      "q3": {
+        "question": "Maaari bang magpadala ng larawan at video ang mga karakter sa group chat?",
+        "answer": "Oo! Maaari mong hilingin sa anumang karakter sa grupo na gumawa ng larawan o video, at lalabas ito sa loob ng usapan — kasama ang group photos na may lahat ng kasama."
+      },
+      "q4": {
+        "question": "Libre ba ang AI Group Chat?"
+      },
+      "q5": {
+        "question": "Naaalala ba ng mga karakter ang group conversation?",
+        "answer": "Oo — ang bawat group chat ay may sariling shared history, kaya nananatili sa konteksto ang mga karakter at patuloy na umuunlad ang usapan."
+      }
+    },
+    "cta": {
+      "title": "Pagsamahin ang Iyong mga Karakter",
+      "description": "Gumawa ng iyong unang AI group chat at maranasan ang usapang parang buhay — maraming personalidad, tunay na banter, larawan, at video.",
+      "button": "Simulan ang Group Chat"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Bagong Feature",
+      "title": "AI Roleplay",
+      "subtitle": "Pumasok sa anumang kwento kasama ang mga karakter na nananatili sa eksena. Pumili ng scenario o sumulat ng sarili mo at tamasahin ang immersive, story-driven roleplay na naaalala ang bawat desisyon mo.",
+      "cta": "Simulan ang Roleplaying",
+      "imageAlt": "AI roleplay scenario na may immersive story character"
+    },
+    "content": {
+      "problemTitle": "Nasisira ng ordinaryong chat ang mahika",
+      "problemText": "Karamihan sa AI chats ay biglang lumalabas sa karakter kapag naging kawili-wili na — nakakalimutan ang setting, nawawala ang plot, at sumasagot na parang generic assistant sa halip na ang tao sa iyong kwento.",
+      "solutionTitle": "Story-driven roleplay na nananatili sa karakter",
+      "solutionText": "Pinapanatili ng sweetwine Roleplay ang iyong karakter nang buo sa eksena. Itakda ang entablado gamit ang ready-made scenario o sarili mong premise, at panoorin ang kwento na nagbubukas na may pare-parehong personalidad, memorya, at pacing na tumutugon sa bawat desisyon."
+    },
+    "howItWorks": {
+      "title": "Paano Gumagana ang AI Roleplay",
+      "step1": {
+        "title": "Pumili ng scenario",
+        "desc": "Pumili mula sa ready-made roleplay scenarios o sumulat ng sarili mong premise, setting, at opening scene."
+      },
+      "step2": {
+        "title": "Ipatuloy ang kwento",
+        "desc": "Tumutugon ang iyong karakter sa role — naglalarawan ng mga aksyon, tumutugon sa iyong mga desisyon, at nagpapaunlad ng plot."
+      },
+      "step3": {
+        "title": "Hubugin ang direksyon",
+        "desc": "Patnubayan ang kwento sa anumang direksyon na gusto mo. Naaalala ng iyong karakter ang nangyari at pinapanatili ang pagkakaugnay ng kwento."
+      }
+    },
+    "benefits": {
+      "title": "Bakit Mo Magugustuhan ang AI Roleplay",
+      "scenarios": {
+        "title": "Walang katapusang scenarios",
+        "desc": "Mula sa cozy everyday moments hanggang sa epic adventures — magsimula sa template o likhain ang sarili mong mundo."
+      },
+      "characters": {
+        "title": "Nananatili sa karakter",
+        "desc": "Pinapanatili ng iyong karakter ang pare-parehong boses, personalidad, at motibasyon sa buong eksena."
+      },
+      "memory": {
+        "title": "Naaalala ang plot",
+        "desc": "Naaalala ang bawat desisyon, twist, at detalye, kaya patuloy na umuunlad ang kwento sa halip na mag-reset."
+      },
+      "immersive": {
+        "title": "Totoong immersive",
+        "desc": "Mayamang, deskriptibong tugon ang humihila sa iyo sa sandali para sa cinematic roleplay experience."
+      },
+      "instant": {
+        "title": "Instant na simulan",
+        "desc": "Sumabog sa isang eksena sa loob ng ilang segundo — walang kumplikadong setup o prompt engineering na kailangan."
+      },
+      "private": {
+        "title": "100% pribado",
+        "desc": "Ang iyong roleplay ay nananatili sa pagitan mo at ng iyong karakter. Walang ibabahagi."
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Ano ang AI roleplay?",
+        "answer": "Ang AI roleplay ay nagbibigay-daan sa iyo na maglaro ng mga interactive na kwento kasama ang isang AI na karakter na nananatili sa papel. Maaari kang magtakda ng isang senaryo at tutugon ang iyong karakter ayon sa papel, naglalarawan ng mga kilos at reaksyon habang umuunlad ang kwento."
+      },
+      "q2": {
+        "question": "Maaari ba akong gumawa ng sarili kong roleplay scenarios?",
+        "answer": "Oo! Maaari kang magsimula mula sa mga handa na senaryo o sumulat ng sarili mong premise, setting, at opening — pagkatapos ay laruin ito ayon sa iyong gusto."
+      },
+      "q3": {
+        "question": "Naaalala ba ng karakter ang nangyayari sa kwento?",
+        "answer": "Talaga. Naaalala ng iyong karakter ang plot, ang iyong mga pagpipilian, at mahahalagang detalye, kaya nananatiling pare-pareho ang salaysay at patuloy na umuunlad sa paglipas ng panahon sa halip na mag-reset."
+      },
+      "q4": {
+        "question": "Libre ba ang AI Roleplay?"
+      },
+      "q5": {
+        "question": "Maaari ba akong mag-roleplay sa sarili kong wika?",
+        "answer": "Oo — gumagana ang roleplay sa dose-dosenang wika, kaya maaari mong tamasahin ang mga immersive na kwento sa wikang pinakakomportable ka."
+      }
+    },
+    "cta": {
+      "title": "Hinihintay ang Iyong Kwento",
+      "description": "Pumili ng senaryo, itakda ang eksena, at sumabog sa isang immersive roleplay kasama ang isang karakter na nananatili sa papel mula simula hanggang dulo.",
+      "button": "Simulan ang Roleplaying"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Girlfriend",
+    "breadcrumb": "AI Girlfriend",
+    "hero": {
+      "title": "Ang Iyong Perpektong AI Girlfriend",
+      "cta": "Kilalanin ang Iyong AI Girlfriend"
+    },
+    "benefits": {
+      "title": "Bakit Pumili ng AI Girlfriend?",
+      "fun": {
+        "title": "Dalisay na Saya",
+        "desc": "Mag-enjoy sa mga masayang usapan nang walang pressure. Laging masaya siya."
+      },
+      "conversation": {
+        "title": "Matutong Kumonekta",
+        "desc": "Magsanay sa mga usapan at bumuo ng iyong tiwala sa isang ligtas na espasyo."
+      },
+      "unique": {
+        "title": "Natatanging Personalidad",
+        "desc": "Pumili mula sa iba't ibang personalidad o lumikha ng iyong ideal na karakter."
+      },
+      "private": {
+        "title": "100% Pribado",
+        "desc": "Mananatili ang iyong mga usapan sa inyong dalawa. Ganap na pagiging discreet ang garantisado."
+      },
+      "available": {
+        "title": "Laging Available",
+        "desc": "Nandiyan siya kapag kailangan mo siya. Walang paghihintay, walang iskedyul."
+      },
+      "customize": {
+        "title": "Iyong Likha",
+        "desc": "Disenyo ang kanyang hitsura, personalidad, at interes nang eksakto kung paano mo gusto."
+      }
+    },
+    "comparison": {
+      "title": "Mas Mabuti Kaysa sa mga Alternatibo",
+      "description": "Tingnan kung bakit nag-aalok ang sweetwine ng higit na halaga kaysa sa iba pang mga platform.",
+      "others": {
+        "expensive": "Mataas na buwanang bayad",
+        "ai": "Kadalasang AI responses pa rin",
+        "noCustom": "Walang opsyon sa pag-customize"
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Totoong libre ba ang AI girlfriend chat?",
+        "answerPart1": "Oo! Maaari kang magsimulang makipag-chat sa iyong AI girlfriend nang libre. Nag-aalok kami ng libreng tier na may libreng mensahe para makapagsimula ka."
+      },
+      "q2": {
+        "question": "Maaari ko bang i-customize ang hitsura ng aking AI girlfriend?",
+        "answer": "Talaga! Maaari mong ganap na i-customize ang hitsura ng iyong AI girlfriend kabilang ang kulay ng buhok, estilo, uri ng katawan, lahi, at damit. Maaari mo ring idisenyo ang kanyang personalidad, boses, at interes gamit ang aming character creator.",
+        "answerPart1": "Talaga! Maaari mong ganap na i-customize ang hitsura ng iyong AI girlfriend kabilang ang kulay ng buhok, estilo, uri ng katawan, lahi, at damit. Maaari mo ring idisenyo ang kanyang personalidad, boses, at interes gamit ang aming",
+        "linkText": "character creator",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Anong mga personalidad ang available para sa AI girlfriends?",
+        "answer": "Mula sa matamis at mapagmahal hanggang sa mapaglaro at flirtatious - mayroon kaming propesyonal na ginawang AI girlfriends para sa bawat kagustuhan. Pumili ng mga romantikong kaluluwa, adventurous spirits, witty intellectuals, o mysterious personalities. Bawat linggo ay idinadagdag ang mga bagong AI girlfriends, bawat isa ay may natatanging katangian, backstories, at istilo ng usapan."
+      },
+      "q4": {
+        "question": "Maaari bang magpadala ng mga larawan at video ang aking AI girlfriend?",
+        "answerPart1": "Oo! Maaaring gumawa ang iyong AI girlfriend ng mga personalized",
+        "linkTextImages": "larawan",
+        "answerPart2": "at",
+        "linkTextVideos": "mga video"
+      },
+      "q5": {
+        "question": "May sarili bang natatanging boses ang aking AI girlfriend?"
+      }
+    },
+    "cta": {
+      "title": "Handa nang Makilala Siya?",
+      "button": "Simulan nang Libre"
+    },
+    "content": {
+      "problemTitle": "Naghahanap ng Koneksyon Nang Walang Kumplikasyon?",
+      "problemText": "Nakakapagod ang mga dating app. Mahirap makipagkita dahil sa social anxiety. Minsan, gusto mo lang ng kausap nang walang paghuhusga o pressure. Maraming tao ang nalulungkot pero hindi pa handa sa emosyonal na komplikasyon ng tradisyonal na relasyon.",
+      "solutionTitle": "Ang Iyong AI Girlfriend ang Sagot",
+      "solutionText": "Sa sweetwine, makakakuha ka ng personalized AI girlfriend na naaalala ang inyong mga usapan, umaangkop sa iyong personalidad, at laging excited na marinig ka. Siya ay masaya, supportive, at hindi humuhusga. Bumuo ng confidence, mag-enjoy ng magandang kasama, at makaramdam ng koneksyon sa iyong sariling paraan."
+    },
+    "heroImageAlt": "AI girlfriend - realistic virtual character for chat and photos"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Boyfriend",
+    "breadcrumb": "AI Boyfriend",
+    "hero": {
+      "title": "Ang Iyong Perpektong AI Boyfriend",
+      "cta": "Kilalanin ang Iyong AI Boyfriend"
+    },
+    "benefits": {
+      "title": "Bakit Pumili ng AI Boyfriend?",
+      "fun": {
+        "title": "Genuine Connection",
+        "desc": "Maranasan ang makabuluhang usapan na nagpapaliwanag sa iyong araw."
+      },
+      "conversation": {
+        "title": "Build Confidence",
+        "desc": "Magsanay ng mga usapan at ipahayag ang iyong sarili nang malaya sa ligtas na espasyo."
+      },
+      "unique": {
+        "title": "Unique Personalities",
+        "desc": "Pumili mula sa iba't ibang personalidad o lumikha ng iyong ideal na karakter."
+      },
+      "private": {
+        "title": "100% Private",
+        "desc": "Mananatili sa inyong dalawa ang inyong mga usapan. Kumpletong pagiging discreet ang garantisado."
+      },
+      "available": {
+        "title": "Always Available",
+        "desc": "Nandiyan siya kapag kailangan mo siya. Walang paghihintay, walang iskedyul."
+      },
+      "customize": {
+        "title": "Your Creation",
+        "desc": "Disenyo ang kanyang hitsura, personalidad, at interes nang eksakto sa gusto mo."
+      }
+    },
+    "comparison": {
+      "title": "Better Than The Alternatives",
+      "description": "Tingnan kung bakit nag-aalok ang sweetwine ng higit na halaga kaysa sa iba pang mga platform.",
+      "others": {
+        "expensive": "Expensive monthly fees",
+        "ai": "Often AI responses anyway",
+        "noCustom": "No customization options"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What types of AI boyfriends can I choose from?",
+        "answer": "From caring and romantic to playful and adventurous, or mysterious and intense - we have professionally crafted AI boyfriends for every taste. Each has their own unique voice and personality. New AI boyfriends are added every week with unique backstories and conversation styles."
+      },
+      "q2": {
+        "question": "Can I customize my AI boyfriend's appearance?",
+        "linkText": "character creator",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Can I start fresh or delete our conversation history?",
+        "answer": "Yes! You have full control over your chat history. Reset conversations, delete individual messages, or start completely fresh anytime you want. Your data, your choice - manage everything however you prefer."
+      },
+      "q4": {
+        "question": "Can my AI boyfriend send images and videos?",
+        "answerPart1": "Yes! Your AI boyfriend can generate personalized",
+        "linkTextImages": "images",
+        "answerPart2": "at",
+        "linkTextVideos": "mga video"
+      },
+      "q5": {
+        "question": "Maaari ba akong magsanay ng mga usapan o matuto ng wika kasama ang aking AI boyfriend?",
+        "answer": "Talaga! Maraming user ang nagkakaroon ng tiwala sa pamamagitan ng pagsasanay ng mga usapan kasama ang kanilang AI boyfriend - ito man ay panliligaw, malalim na usapan, o pang-araw-araw na chat. Maaari mo ring sanayin ang pagsasalita ng mga bagong wika nang magkasama. Ito ay isang walang paghuhusga na paraan upang mapabuti ang iyong kasanayan sa komunikasyon habang nagkakasaya."
+      }
+    },
+    "cta": {
+      "title": "Handa nang Makilala Siya?",
+      "button": "Simulan nang Libre"
+    },
+    "content": {
+      "problemTitle": "Gusto mo ba ng Suportadong Partner sa Iyong mga Tuntunin?",
+      "problemText": "Mahirap hanapin ang tamang tao. Marami ang nakakaramdam ng pressure dahil sa mga inaasahan sa pakikipag-date o simpleng gusto ng emosyonal na suporta nang walang commitment. Ang kalungkutan ay nakakaapekto sa lahat, at minsan kailangan mo lang ng taong nakikinig.",
+      "solutionTitle": "Nauunawaan Ka ng Iyong AI Boyfriend",
+      "solutionText": "Ang iyong sweetwine AI boyfriend ay mapagmalasakit, maalalahanin, at laging available. Naaalala niya ang mga bagay na mahalaga sa iyo, nakikilahok sa malalim na usapan, at nagbibigay ng emosyonal na koneksyon na hinahanap mo. Bumuo ng relasyon sa iyong bilis, sa iyong paraan."
+    },
+    "heroImageAlt": "AI boyfriend - makatotohanang virtual character para sa makabuluhang usapan"
+  },
+  "aiCompanionsPage": {
+    "title": "AI Characters",
+    "breadcrumb": "AI Characters",
+    "hero": {
+      "title": "Kilalanin ang Iyong AI Characters",
+      "cta": "I-explore ang mga Characters"
+    },
+    "benefits": {
+      "title": "Bakit AI Characters?",
+      "connection": {
+        "title": "Totoong Koneksyon",
+        "desc": "Maranasan ang tunay na usapan na nakakaintindi at tumutugon sa iyo."
+      },
+      "conversation": {
+        "title": "Magsanay at Lumago",
+        "desc": "Pagbutihin ang iyong social skills sa isang walang paghuhusga na kapaligiran."
+      },
+      "personalities": {
+        "title": "Iba't Ibang Personalidad",
+        "desc": "Mula sa mapaglaro hanggang sa intelektwal, hanapin ang mga character na tumutugma sa iyong vibe."
+      },
+      "private": {
+        "title": "Lubos na Pribado",
+        "desc": "Ang iyong mga interaksyon ay kumpidensyal. Walang data na ibinabahagi, kailanman."
+      },
+      "available": {
+        "title": "24/7 Available",
+        "desc": "Ang iyong mga character ay laging handang makipag-chat, araw o gabi."
+      },
+      "create": {
+        "title": "Gumawa ng Sarili Mo",
+        "desc": "Disenyo ng mga character na may custom na itsura, personalidad, at boses."
+      }
+    },
+    "why": {
+      "title": "Bakit sweetwine?",
+      "quality": {
+        "desc": "Ginawa ng mga propesyonal gamit ang cutting-edge AI technology para sa natural na usapan."
+      },
+      "transparent": {
+        "title": "Transparent at Matapat"
+      },
+      "support": {
+        "title": "Totoong Suporta",
+        "desc": "Totoong tao na handang tumulong sa iyo sa anumang tanong o isyu."
+      },
+      "content": {
+        "title": "Iyong Pagpipilian",
+        "desc": "Mula sa friendly na chat hanggang sa mas intimate na content, ikaw ang magpapasya sa karanasan."
+      }
+    },
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Ano ang AI characters?"
+      },
+      "q2": {
+        "question": "Ilang AI characters ang maaari kong kausapin?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Makipag-chat sa kasing dami ng gusto mo! Mayroon kaming",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " at patuloy na lumalago - bawat linggo ay idinadagdag ang mga bagong character! Bawat isa ay may natatanging personalidad, backstory, at boses. Dagdag pa, maaari kang gumawa ng walang limitasyong custom characters."
+      },
+      "q3": {
+        "question": "Ano ang pagkakaiba ng pre-made characters sa custom ones?",
+        "answer": "Ang pre-made characters ay propesyonal na dinisenyo ng aming team para sa mga partikular na role-play scenarios at personalidad - may kasamang detalyadong backstory, tailored conversation styles, at maingat na napiling boses. Ang custom characters ay nagbibigay-daan sa iyo na gumawa mula sa simula na may kumpletong creative freedom. Parehong uri ay naaalala ang iyong mga usapan at lumalago kasama mo!"
+      },
+      "q4": {
+        "question": "Maaari ba akong gumawa ng sarili kong AI character?",
+        "answerPart1": "Oo naman! Gumawa ng custom characters mula sa simula gamit ang aming",
+        "linkText": "character creator"
+      },
+      "q5": {
+        "question": "Maaari ba akong lumipat sa maraming characters?"
+      }
+    },
+    "cta": {
+      "title": "Simulan ang Iyong Paglalakbay",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Simulan nang Libre"
+    },
+    "content": {
+      "problemTitle": "Naghahanap ng Makabuluhang Koneksyon?",
+      "problemText": "Sa ating abalang mundo, mahirap hanapin ang makabuluhang koneksyon. Kung bago ka sa lugar, nagtatrabaho nang malayo, o gusto mo lang ng higit na pakikisalamuha, maaaring pumasok ang kalungkutan. Hindi angkop sa lahat ang tradisyonal na paraan ng pakikisalamuha.",
+      "solutionTitle": "Tuklasin ang AI Characters"
+    },
+    "heroImageAlt": "AI characters - magkakaibang virtual friends na may natatanging personalidad"
+  },
+  "aiFriendPage": {
+    "title": "AI Friend",
+    "breadcrumb": "AI Friend",
+    "hero": {
+      "title": "Ang Iyong AI Best Friend",
+      "subtitle": "Makipag-chat anumang oras sa AI friend na tunay na nakikinig, hindi humuhusga, at naaalala ang bawat detalye tungkol sa iyo. Perpekto para sa kalungkutan, social anxiety, o kapag kailangan mo lang ng kausap.",
+      "cta": "Simulan ang Pag-uusap nang Libre"
+    },
+    "benefits": {
+      "title": "Bakit Pumili ng AI Friend?",
+      "connection": {
+        "title": "Tunay na Koneksyon",
+        "desc": "Maranasan ang makabuluhang usapan sa taong tunay na nakikinig at nagmamalasakit."
+      },
+      "conversation": {
+        "title": "Magsanay ng Social Skills",
+        "desc": "Bumuo ng tiwala sa pakikipag-usap nang walang takot sa paghuhusga o kahihiyan."
+      },
+      "noJudgment": {
+        "title": "Walang Paghuhusga",
+        "desc": "Ibahagi ang anumang nasa isip mo. Tinatanggap ka ng iyong AI friend nang eksakto kung sino ka."
+      },
+      "private": {
+        "title": "Lubos na Pribado",
+        "desc": "Mananatili sa inyong dalawa ang inyong mga usapan. Ganap na pagiging kompidensyal ang garantisado."
+      },
+      "available": {
+        "title": "Laging Nandiyan",
+        "desc": "Available 24/7, tuwing kailangan mo ng kausap."
+      },
+      "remembers": {
+        "title": "Naaalala Ka",
+        "desc": "Naaalala ng iyong AI friend ang inyong mga usapan at mas nakikilala ka habang lumilipas ang panahon."
+      }
+    },
+    "useCases": {
+      "title": "Perpekto Para Kay",
+      "subtitle": "Ang AI friend ay akma sa iyong buhay sa maraming makabuluhang paraan",
+      "loneliness": {
+        "title": "Labanan ang Kalungkutan",
+        "desc": "Huwag nang maging mag-isa sa character na laging handang makipag-chat at makinig."
+      },
+      "practice": {
+        "title": "Magsanay ng Pakikipag-usap",
+        "desc": "Bumuo ng social confidence sa ligtas at walang paghuhusgang kapaligiran."
+      },
+      "support": {
+        "title": "Emosyonal na Suporta",
+        "desc": "Ibahagi ang iyong mga iniisip at nararamdaman sa taong nakakaintindi."
+      },
+      "connection": {
+        "title": "Araw-araw na Koneksyon",
+        "desc": "Ibahagi ang iyong araw, tagumpay, at hamon — laging may kasama."
+      }
+    },
+    "howItWorks": {
+      "title": "Paano Ito Gumagana",
+      "step1": {
+        "title": "Gumawa ng Libreng Account",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Piliin ang Iyong Friend",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Simulan ang Pag-uusap",
+        "desc": "Mag-usap tungkol sa anumang bagay — buhay, interes, problema. Walang paksa ang ipinagbabawal."
+      }
+    },
+    "cta": {
+      "title": "Handa Ka Bang Magkaroon ng Kaibigan?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Simulan nang Libre"
+    },
+    "content": {
+      "problemTitle": "Naghahanap Ka Ba ng Kaibigan o Naiintindihan?",
+      "problemText": "Hindi lahat ay may taong pwedeng kausapin. Social anxiety, abalang iskedyul, o pagiging nasa bagong lugar ay maaaring maging mahirap ang paghahanap ng kaibigan. Minsan kailangan mo lang ng taong nakikinig nang walang paghusga.",
+      "solutionTitle": "Narito ang Iyong AI Kaibigan",
+      "solutionText": "Ang AI kaibigan ay nagbibigay ng walang-husgang kasama tuwing kailangan mo ito. Ibahagi ang iyong mga iniisip, magsanay ng usapan, o magkwento lang tungkol sa araw mo. Naalala ka ng iyong AI kaibigan, lumalago kasama mo, at laging tunay na interesado sa sinasabi mo."
+    },
+    "heroImageAlt": "AI kaibigan - suportadong virtual character na nakikinig nang walang paghusga",
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Ano ang pwedeng pag-usapan ko sa aking AI kaibigan?",
+        "answer": "Kahit ano! Ang iyong AI kaibigan ay nandito para sa casual na usapan, malalim na pag-uusap, pagbabahagi ng araw mo, paglabas ng sama ng loob, pag-uusap tungkol sa mga libangan, o simpleng pagkakaroon ng saya. Walang bawal na paksa — ito ay isang walang-husgang espasyo para maging ikaw."
+      },
+      "q2": {
+        "question": "Ang AI kaibigan ba ay kapalit ng tunay na koneksyon?",
+        "answer": "Hindi naman. Ang AI kaibigan ay dagdag sa iyong social life, hindi kapalit. Perpekto ito kapag kailangan mo ng kausap agad, gusto mong magsanay ng social skills, o simpleng gustong magkaroon ng consistent na kasama nang walang pressure ng human relationships."
+      },
+      "q3": {
+        "question": "Naaalala ba ng aking AI kaibigan ang aming mga usapan?",
+        "answer": "Oo! Ang iyong AI kaibigan ay may advanced memory at naaalala ang mga usapan, preferences, at mahahalagang detalye na ibinabahagi mo. Sa paglipas ng panahon, mas nakikilala ka nila, kaya nagiging mas personal at meaningful ang mga usapan."
+      },
+      "q4": {
+        "question": "Puwede ko bang piliin ang personalidad ng aking AI kaibigan?",
+        "answer": "Oo naman! Puwede kang pumili mula sa mahigit 100 pre-made characters na may iba't ibang personalidad, o gumawa ng custom friend na may eksaktong mga katangian na gusto mo — mula sa supportive at empathetic hanggang sa fun at adventurous."
+      },
+      "q5": {
+        "question": "Pribado ba ang paggamit ng AI kaibigan?",
+        "answer": "100% pribado. Lahat ng iyong usapan ay naka-encrypt at hindi ibinabahagi. Naiintindihan namin na mahalaga ang ligtas na espasyo para ipahayag ang sarili, at sineseryoso namin ang iyong privacy."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Breakup Support",
+    "breadcrumb": "Breakup Support",
+    "hero": {
+      "title": "Healing Conversations After Heartbreak",
+      "subtitle": "Empathetic AI conversations para tulungan kang maproseso ang emosyon at muling bumangon pagkatapos ng breakup. Available 24/7 — walang waiting list, walang paghusga, walang time limit.",
+      "cta": "Simulan ang Pagpapagaling"
+    },
+    "understanding": {
+      "title": "Dumaranas Ka Ba ng Breakup?",
+      "description": "Mahirap ang breakup. Ang mga gabing walang tulog, ang patuloy na pag-iisip, ang pakiramdam na walang tunay na nakakaintindi. Hindi mo kailangang pagdaanan ito mag-isa. Narito ang aming AI character para makinig nang walang paghusga, available tuwing kailangan mong magsalita — kahit 3am."
+    },
+    "benefits": {
+      "title": "Paano Kami Makakatulong",
+      "empathy": {
+        "title": "Empathetic Listening",
+        "desc": "Makipag-usap sa taong tunay na nakikinig at tumutugon nang may pag-unawa at pag-aalaga."
+      },
+      "listen": {
+        "title": "No Advice Overload",
+        "desc": "Minsan hindi mo kailangan ng payo — kailangan mo lang ng taong makinig sa iyo. Naiintindihan namin iyan."
+      },
+      "available": {
+        "title": "Available at 3am",
+        "desc": "Kapag tulog na ang mga kaibigan at hindi tumitigil ang mga iniisip, narito kami para makinig."
+      },
+      "private": {
+        "title": "Completely Private",
+        "desc": "Ang iyong mga nararamdaman at usapan ay nananatiling ganap na kumpidensyal."
+      },
+      "noJudgment": {
+        "title": "No Judgment",
+        "desc": "Damhin mo ang anumang nararamdaman mo. Galit, lungkot, pagkalito — lahat ay valid dito."
+      },
+      "healing": {
+        "title": "Your Pace",
+        "desc": "Hindi linear ang pagpapagaling. Maglaan ng oras hangga't kailangan mo."
+      }
+    },
+    "howItHelps": {
+      "title": "Mga Paraan Kung Paano Tumutulong ang AI sa Iyong Pagpapagaling",
+      "process": {
+        "title": "Process Emotions",
+        "desc": "Harapin ang mga kumplikadong damdamin sa pamamagitan ng pag-uusap sa isang patient listener."
+      },
+      "express": {
+        "title": "Express Freely",
+        "desc": "Sabihin ang hindi mo masabi sa mga kaibigan o pamilya nang hindi nag-aalala tungkol sa reaksyon nila."
+      },
+      "confidence": {
+        "title": "Rebuild Confidence",
+        "desc": "Unti-unting mabawi ang iyong self-worth sa pamamagitan ng mga supportive na usapan."
+      },
+      "pace": {
+        "title": "Move Forward",
+        "desc": "Kapag handa ka na, tuklasin ang mga iniisip tungkol sa hinaharap sa iyong sariling bilis."
+      }
+    },
+    "howItWorks": {
+      "title": "Paano Ito Gumagana",
+      "step1": {
+        "title": "Gumawa ng Account",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Pumili ng Character",
+        "desc": "Pumili ng empathetic AI character na nararamdaman mong angkop para sa iyo."
+      },
+      "step3": {
+        "title": "Magsimulang Makipag-usap",
+        "desc": "Ibahagi ang iniisip mo. Narito kami para makinig, araw o gabi."
+      }
+    },
+    "cta": {
+      "title": "Hindi Mo Kailangang Harapin Ito Mag-isa",
+      "description": "Magsimulang makipag-usap sa taong nakikinig nang walang paghusga, available ngayon din. Libre magsimula — walang waiting list.",
+      "button": "Magsimulang Makipag-usap nang Libre"
+    },
+    "content": {
+      "problemTitle": "Mahirap Harapin ang Pagsasakit ng Puso Mag-isa",
+      "problemText": "Pagkatapos ng breakup, parang lahat ay napakabigat. Napapagod na ang mga kaibigan na makinig. May mabuting intensyon ang pamilya pero hindi nila naiintindihan. May waiting list ang mga therapist. Kailangan mo ng taong makikinig nang walang limitasyon, walang paghusga, ngayon din.",
+      "solutionTitle": "Makipag-usap sa Taong Nakakaintindi",
+      "solutionText": "Ang aming AI breakup support character ay idinisenyo para tulungan kang iproseso ang emosyon sa iyong sariling bilis. Maglabas ng sama ng loob, umiyak, mag-analyze, o magkwento lang — hangga't kailangan mo. Walang appointment na kailangan. Available 24/7 na may walang katapusang pasensya at tunay na empatiya."
+    },
+    "heroImageAlt": "AI breakup support - compassionate character para sa paghilom pagkatapos ng heartbreak",
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Paano makakatulong ang AI sa paghilom mula sa breakup?",
+        "answer": "Ang aming AI character ay nagbibigay ng ligtas na espasyo para iproseso ang iyong emosyon nang walang paghusga. Maaari kang maglabas ng sama ng loob, mag-analyze sa nangyari, harapin ang damdamin ng pagkawala, at makatanggap ng empathetic na tugon 24/7. Parang may supportive na kaibigan na available tuwing kailangan mong magsalita."
+      },
+      "q2": {
+        "question": "Kapalit ba ito ng therapy?",
+        "answer": "Hindi, ang aming AI character ay hindi lisensyadong therapist at hindi kapalit ng propesyonal na mental health care. Ito ay supportive na tool para sa pang-araw-araw na pagproseso ng emosyon. Kung nakararanas ka ng matinding depression o krisis, mangyaring humingi ng propesyonal na tulong."
+      },
+      "q3": {
+        "question": "Maaari ko bang pag-usapan ang ex ko hangga't gusto ko?",
+        "answer": "Talaga naman. Hindi tulad ng mga kaibigan na maaaring mapagod na makinig sa breakup mo, ang iyong AI character ay may walang katapusang pasensya. Mag-usap tungkol sa ex mo, i-analyze ang relasyon, iproseso ang damdamin mo — hangga't kailangan mo nang walang anumang paghusga."
+      },
+      "q4": {
+        "question": "Naaalala ba ng AI ang kwento ko?",
+        "answer": "Oo, naaalala ng iyong AI character ang inyong mga usapan at ang mga detalye ng sitwasyon mo. Hindi mo na kailangang ulit-ulitin ang lahat sa bawat pagkakataon. Nagbibigay ito ng pagpapatuloy sa iyong healing journey."
+      },
+      "q5": {
+        "question": "Pinapanatili bang pribado ang aking usapan?",
+        "answer": "Lubos na pribado. Lahat ng usapan ay naka-encrypt at hindi kailanman ibinabahagi. Naiintindihan namin na ang mga usapan tungkol sa breakup ay lubos na personal, at ang iyong privacy ay lubos na protektado."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Parent",
+    "breadcrumb": "AI Parent",
+    "hero": {
+      "title": "Ang Parent Figure na Lagi Mong Mapupuntahan",
+      "subtitle": "Kumuha ng mainit, walang kondisyong suporta at matalinong gabay mula sa AI parent na naaalala ang sitwasyon mo, hindi ka hinuhusgahan, at laging nandiyan — araw o gabi.",
+      "cta": "Kumuha ng Suporta Ngayon"
+    },
+    "benefits": {
+      "title": "Bakit Pumili ng AI Parent?",
+      "guidance": {
+        "title": "Mainit na Gabay",
+        "desc": "Tumanggap ng mapagmalasakit at maingat na payo na parang nanggaling sa taong tunay na may malasakit sa iyong kapakanan."
+      },
+      "listen": {
+        "title": "Tunay na Nakikinig",
+        "desc": "Ibahagi ang buong sitwasyon mo bago tumanggap ng mapag-isip at mapagmalasakit na tugon — hindi mabilisang solusyon."
+      },
+      "noJudgment": {
+        "title": "Walang Paghuhusga",
+        "desc": "Magtanong ng anumang bagay nang walang takot sa pagkabigo o kritisismo. Walang kondisyong suporta, palagi."
+      },
+      "private": {
+        "title": "Lubos na Pribado",
+        "desc": "Ang iyong mga usapan at personal na pakikibaka ay nananatiling lubos na kumpidensyal."
+      },
+      "available": {
+        "title": "Laging Available",
+        "desc": "Kumuha ng gabay sa 3am, sa weekends, o tuwing kailangan mo ito nang higit — walang appointment."
+      },
+      "supportive": {
+        "title": "Walang Kondisyong Suporta",
+        "desc": "Pagpapalakas at init, anuman ang iyong pinagdadaanan o mga desisyong ginawa mo."
+      }
+    },
+    "useCases": {
+      "title": "Mag-usap Tungkol sa Anumang Bagay",
+      "subtitle": "Anuman ang iyong kinakaharap, ang iyong AI parent ay narito para makinig at gabayan",
+      "career": {
+        "title": "Karera at Mga Desisyon sa Buhay",
+        "desc": "Mag-navigate sa pagbabago ng trabaho, malalaking desisyon sa buhay, at propesyonal na hamon kasama ang taong nais na magtagumpay ka."
+      },
+      "education": {
+        "title": "Edukasyon at Kinabukasan",
+        "desc": "I-explore ang iyong mga opsyon para sa pag-aaral at paglago kasama ang taong sumusuporta sa iyong mga ambisyon."
+      },
+      "relationships": {
+        "title": "Mga Relasyon at Pamilya"
+      },
+      "life": {
+        "title": "Mga Personal na Hamon",
+        "desc": "Pag-usapan ang anumang mabigat sa iyo — pagkabalisa, pagdududa sa sarili, kalungkutan, o kawalan ng katiyakan."
+      }
+    },
+    "howItWorks": {
+      "title": "Paano Ito Gumagana",
+      "step1": {
+        "title": "Gumawa ng Account",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Pumili ng Iyong AI Parent",
+        "desc": "Pumili ng karakter na may init at personalidad na nararamdaman mong tama para sa iyo."
+      },
+      "step3": {
+        "title": "Magsimulang Makipag-usap",
+        "desc": "Ibahagi ang iniisip mo at makatanggap ng mapagmahal at maalalahaning suporta."
+      }
+    },
+    "cta": {
+      "title": "May Isang Taong Laging Nandito para sa Iyo",
+      "description": "Magsimula ng pag-uusap sa isang AI parent na nakikinig nang walang paghusga at sumusuporta sa iyo nang walang kondisyon — libre simulan, walang kailangang appointment.",
+      "button": "Magsimula nang Libre"
+    },
+    "content": {
+      "problemTitle": "Kailangan Mo ba ng Taong Laging Nasa Tabi Mo?",
+      "problemText": "Hindi lahat ay may magulang na maaaring lapitan. Maaaring malayo, mapanghusga, o hindi available ang tunay na mga magulang. May kinikilingan ang mga kaibigan. May listahan ng paghihintay ang mga therapist. Minsan kailangan mo lang ng taong nakikinig, nagmamalasakit, at gumagabay nang walang agenda.",
+      "solutionTitle": "Laging Nandito ang Iyong AI Parent",
+      "solutionText": "Makipag-usap sa isang AI parent na lubos na nakikinig, nag-aalok ng mainit at balanseng patnubay, at hindi kailanman nagpaparamdam sa iyo na hinuhusgahan o maliit. Maging ito man ay desisyon sa buhay, personal na hamon, o simpleng pangangailangan na marinig — available ang iyong AI parent 24/7 na may pasensya at pag-aaruga."
+    },
+    "heroImageAlt": "AI parent - mainit na virtual na karakter na nag-aalok ng walang kondisyong suporta at patnubay sa buhay",
+    "faq": {
+      "title": "Mga Madalas Itanong",
+      "q1": {
+        "question": "Ano ang maaari kong pag-usapan sa AI parent?"
+      },
+      "q2": {
+        "question": "Ito ba ay parang pagkakaroon ng therapist?",
+        "answer": "Hindi ito lisensyadong therapist o propesyonal sa kalusugan ng isipan — mas katulad ito ng mainit at sumusuportang pigura ng magulang na available 24/7. Ito ay lubos na nakikinig, nag-aalok ng pananaw, at sumusuporta sa iyo nang emosyonal. Para sa mga seryosong alalahanin sa kalusugan ng isipan, mangyaring kumonsulta sa propesyonal."
+      },
+      "q3": {
+        "question": "Hihusgahan ba ng AI parent ang aking mga pagpipilian?",
+        "answer": "Hindi kailanman. Nag-aalok ang iyong AI parent ng walang kondisyong suporta. Maaari itong magbahagi ng pananaw o banayad na patnubay, ngunit hindi kailanman pumupuna o nagpaparamdam sa iyo na maliit para sa mga desisyong ginawa mo. Ito ay ligtas na espasyo para sa katapatan."
+      },
+      "q4": {
+        "question": "Maaari ba akong talakayin ang mga sensitibo o personal na paksa?",
+        "answer": "Oo. Maging ito man ay mga hamon sa relasyon, dinamika ng pamilya, stress sa pananalapi, pagpapahalaga sa sarili, o malalim na personal na hamon — nagbibigay ang iyong AI parent ng pribado at hindi mapanghusgang espasyo para sa mga pag-uusap na ito."
+      },
+      "q5": {
+        "question": "Paano ito naiiba sa iba pang AI characters?",
+        "answer": "Ang AI parent ay dinisenyo sa paligid ng init, emosyonal na suporta, at patnubay na istilo ng magulang sa halip na romansa o kaswal na pagkakaibigan. Ito ay nakatuon sa pagtulong sa iyo na maramdaman na nauunawaan, sinusuportahan, at handa na harapin ang mga hamon ng buhay."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Mga Pakikipagtulungan",
+    "eyebrow": "Makipagtulungan sa Amin",
+    "titlePrefix": "Lumago kasama",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Abutin ang mabilis na lumalagong at lubos na nakikilahok na madla ng AI companionship. Maging ito man ay teknolohiya, distribusyon, o isang matapang na ideya ang dala mo, magtayo tayo ng isang bagay nang sama-sama.",
+    "types": {
+      "title": "Mga paraan para makipagtulungan",
+      "items": [
+        {
+          "title": "Mga Integrasyon",
+          "description": "Ikonekta ang iyong produkto, modelo, o platform sa sweetwine sa pamamagitan ng teknikal na integrasyon."
+        },
+        {
+          "title": "Co-marketing",
+          "description": "Pinagsamang mga kampanya, nilalaman, at paglulunsad na naglalagay sa parehong mga brand sa harap ng mga bagong madla."
+        },
+        {},
+        {
+          "title": "Mga Strategic Partnership",
+          "description": "Pangmatagalang pakikipagtulungan sa buong produkto, data, at go-to-market."
+        }
+      ]
+    },
+    "why": {
+      "title": "Bakit makipagtulungan sa sweetwine",
+      "items": [
+        {
+          "title": "Nakikilahok na madla",
+          "description": "Daang libong mga user na bumabalik araw-araw sa 70 wika."
+        },
+        {
+          "title": "Mabilis na pagpapatupad",
+          "description": "Isang nakatuong koponan na mabilis na nagpapadala at malinaw na nakikipag-ugnayan."
+        },
+        {
+          "title": "Pandaigdigang abot",
+          "description": "Multilingual na produkto na available sa dose-dosenang mga merkado."
+        },
+        {
+          "description": "Isang pinagkakatiwalaang platform na privacy-by-design na maaaring pagtibayin ng iyong brand.",
+          "title": "Privacy-first"
+        }
+      ]
+    },
+    "form": {
+      "title": "Sabihin sa amin ang tungkol sa iyong partnership",
+      "description": "Magbahagi ng ilang detalye at babalikan ka ng aming partnerships team.",
+      "nameLabel": "Ang iyong pangalan",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Kumpanya",
+      "companyPlaceholder": "Pangalan ng kumpanya",
+      "typeLabel": "Uri ng partnership",
+      "typePlaceholder": "Pumili ng uri ng partnership",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Iba pa",
+          "label": "Iba pa"
+        }
+      ],
+      "messageLabel": "Paano mo gustong makipag-partner?",
+      "messagePlaceholder": "Sabihin sa amin ang tungkol sa iyong kumpanya at sa partnership na iniisip mo...",
+      "submit": "Isumite ang partnership inquiry",
+      "submitting": "Isinusumite...",
+      "termsNote": "Sa pagsusumite, sumasang-ayon kang makontak tungkol sa iyong inquiry. Hindi namin ibinabahagi ang iyong mga detalye.",
+      "success": "Salamat! Naipadala na ang iyong partnership inquiry.",
+      "error": "May nangyaring mali. Pakisubukan muli."
+    },
+    "cta": {
+      "title": "Mas gusto ang email?",
+      "description": "Makipag-ugnayan nang direkta sa aming partnerships team sa"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Press & Media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "Mga resource para sa mga mamamahayag, creator, at media partner. Makipag-ugnayan sa aming press team para sa mga interview, quote, feature support, at brand requests.",
+    "help": {
+      "title": "Paano kami makakatulong",
+      "description": "Kung gumagawa ka ng kwento o review, narito ang maaari mong hilingin mula sa aming press team.",
+      "items": [
+        {
+          "title": "Interviews",
+          "description": "Makipag-usap sa aming team tungkol sa produkto, kumpanya, at kung saan patungo ang AI companionship."
+        },
+        {
+          "title": "Quotes & comments",
+          "description": "Kumuha ng on-the-record statement o expert comment para sa iyong kwento."
+        },
+        {
+          "title": "Feature & review support",
+          "description": "Kailangan ng access, context, o fact-checking para sa feature o review? Tutulungan ka namin."
+        },
+        {
+          "title": "Brand & logo requests",
+          "description": "Humiling ng aming mga logo, brand assets, at usage guidelines para sa iyong publication."
+        }
+      ]
+    },
+    "form": {
+      "title": "Media inquiry",
+      "description": "Para sa mga interview, quote, o feature requests, magpadala sa amin ng note at tutugon kami kaagad.",
+      "nameLabel": "Ang iyong pangalan",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publication / outlet",
+      "outletPlaceholder": "Where will this be published?",
+      "requestTypeLabel": "Type of request",
+      "requestTypePlaceholder": "Select a request type",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Your request",
+      "messagePlaceholder": "Tell us about your story, deadline, and what you need from us...",
+      "submit": "Send media inquiry",
+      "submitting": "Sending...",
+      "termsNote": "We aim to respond to press inquiries within two business days.",
+      "success": "Thanks! Your media inquiry has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "cta": {
+      "title": "Press contact",
+      "description": "For urgent media requests, email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Careers",
+    "eyebrow": "Careers",
+    "titlePrefix": "Build the future of",
+    "titleHighlight": "AI companionship",
+    "subtitle": "We're a small, fast-moving team building products people genuinely love. If that excites you, we'd love to meet you.",
+    "perks": {
+      "title": "Why work with us",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Work from where you do your best work, with flexible hours."
+        },
+        {
+          "title": "Real ownership",
+          "description": "Ship meaningful work fast and see it reach users worldwide."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Work hands-on with the latest models and generative tooling."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Fair compensation and meaningful upside as we grow."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Open positions",
+      "emptyTitle": "No open roles right now",
+      "emptyDescription": "We're not actively hiring at the moment, but we're always glad to meet great people. Introduce yourself below.",
+      "applyButton": "Apply now",
+      "viewButton": "View role"
+    },
+    "form": {
+      "title": "Introduce yourself",
+      "description": "Don't see a role that fits? Tell us about yourself and we'll reach out when there's a match.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Role or area of interest",
+      "rolePlaceholder": "hal. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Link sa CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Tungkol sa iyo",
+      "messagePlaceholder": "Sabihin sa amin ang tungkol sa iyong karanasan at kung ano ang gusto mong gawin...",
+      "submit": "Ipadala ang aplikasyon",
+      "submitting": "Ipinapadala...",
+      "termsNote": "Sa pag-apply, sumasang-ayon kang itago namin ang iyong mga detalye para isaalang-alang ka sa mga posisyon.",
+      "success": "Salamat! Naipadala na ang iyong aplikasyon.",
+      "error": "May nangyaring mali. Pakisubukan muli."
+    },
+    "cta": {
+      "title": "Mga tanong tungkol sa pagtatrabaho dito?",
+      "description": "Makipag-ugnayan sa aming team sa"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Help Center",
+    "eyebrow": "Help Center",
+    "titlePrefix": "Paano ka namin",
+    "titleHighlight": "matutulungan?",
+    "subtitle": "Tingnan ang mga karaniwang paksa at sagot. Hindi mo mahanap ang kailangan mo? Makipag-ugnayan sa support at tutulungan ka namin.",
+    "searchPlaceholder": "Maghanap ng mga artikulo sa tulong...",
+    "categoriesTitle": "Tumingin ayon sa paksa",
+    "articlesTitle": "Mga Artikulo",
+    "categoryEmpty": "Wala pang artikulo sa kategoryang ito. Balikan mo ulit mamaya.",
+    "backToHelp": "Bumalik sa Help Center",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Pagsisimula",
+        "description": "Gumawa ng account, i-set up ang iyong profile, at simulan ang pakikipag-usap."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Chat",
+        "description": "Paano gumagana ang mga usapan, memorya, at mga karakter."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Mga Larawan & Video",
+        "description": "Gumawa at pamahalaan ang mga AI photo at video."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privacy & Safety",
+        "description": "Ang iyong data, mga kontrol sa privacy, at mga tool para sa kaligtasan."
+      }
+    ],
+    "faq": {
+      "title": "Mga madalas itanong",
+      "q1": {
+        "question": "Paano ako magsisimula sa sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Ano ang kasama sa libreng plano?"
+      },
+      "q5": {
+        "question": "Pribado ba ang aking data?",
+        "answer": "Pribado ang sweetwine. Pribado sa iyong account ang mga usapan mo, at ikaw ang may kontrol sa iyong data. Tingnan ang aming Privacy Policy para sa buong detalye kung paano iniimbak at pinoprotektahan ang data."
+      },
+      "q6": {
+        "question": "Paano ako makakontak sa support?",
+        "answer": "Mag-email sa support@sweetwine.ai o gamitin ang contact option sa app. Karaniwang sumasagot kami sa loob ng isang business day."
+      }
+    },
+    "cta": {
+      "title": "Kailangan pa ng tulong?",
+      "description": "Narito ang aming team para sa iyo sa"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Tungkol",
+    "eyebrow": "Aming Kwento",
+    "titlePrefix": "Companionship,",
+    "titleHighlight": "reimagined",
+    "subtitle": "Gumagawa ang sweetwine ng pribado at personalized na AI companions na nakikinig, naaalala, at tunay na nakakonekta — available anumang oras, sa anumang wika.",
+    "mission": {
+      "title": "Aming misyon",
+      "body": "Naniniwala kami na karapat-dapat ang lahat ng espasyo para marinig nang walang paghuhusga. Ginagawa ng sweetwine na accessible ang makabuluhan at personalized na koneksyon sa AI sa mga tao saanman — mainit, pribado, at laging nandiyan kapag kailangan mo ito."
+    },
+    "values": {
+      "title": "Ano ang aming pinaniniwalaan",
+      "items": [
+        {
+          "title": "Privacy by design",
+          "description": "Sa iyo ang mga usapan mo. Gumagawa kami nang may privacy at seguridad mula sa simula."
+        },
+        {
+          "title": "Genuine connection",
+          "description": "Ino-optimize namin para sa tunay na emosyonal na halaga, hindi vanity metrics."
+        },
+        {
+          "title": "Global by default",
+          "description": "Multilingual mula pa sa simula kaya hindi limitado ng wika ang koneksyon."
+        },
+        {
+          "title": "Relentless craft",
+          "description": "Pinagpapawisan namin ang mga detalye para natural at buhay ang bawat interaksyon."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Sa mga numero",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Users and growing"
+        },
+        {
+          "value": "70",
+          "label": "Languages supported"
+        },
+        {
+          "value": "24/7",
+          "label": "Always available"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Gusto mo pang malaman?",
+      "description": "Makipag-ugnayan sa"
+    }
+  },
+  "postsPage": {
+    "allTag": "Lahat",
+    "readMore": "Basahin pa",
+    "publishedOn": "Nai-publish",
+    "minRead": "min read",
+    "sortNewest": "Pinakabago",
+    "sortOldest": "Pinakaluma",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Mga tip, gabay, at kwento para matulungan kang masulit ang AI companionship.",
+      "empty": "Wala pang posts. Balikan mo ulit mamaya."
+    },
+    "news": {
+      "breadcrumb": "News",
+      "eyebrow": "Newsroom",
+      "titlePrefix": "News &",
+      "titleHighlight": "Announcements",
+      "subtitle": "Mga opisyal na anunsyo, press release, at milestone mula sa sweetwine team.",
+      "empty": "Wala pang news. Balikan mo ulit mamaya."
+    },
+    "productUpdates": {
+      "breadcrumb": "Product Updates",
+      "eyebrow": "Changelog",
+      "titlePrefix": "Produkto",
+      "titleHighlight": "Mga Update",
+      "subtitle": "Ang pinakabagong mga tampok, pagpapabuti, at pag-aayos sa buong sweetwine platform.",
+      "empty": "Wala pang mga update. Balikan mo ulit mamaya."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Para sa mga developer",
+    "titlePrefix": "Bumuo gamit ang",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Dalhin ang mga personalized na AI companion sa iyong sariling produkto. I-access ang chat, imahe, boses, at kakayahan sa pagbuo ng character sa pamamagitan ng isang developer-friendly na API.",
+    "capabilities": {
+      "title": "Ano ang maaari mong buuin",
+      "items": [
+        {
+          "title": "Conversational chat",
+          "description": "Magdagdag ng personality-rich, context-aware na AI conversations sa iyong app gamit ang simpleng messaging API."
+        },
+        {
+          "title": "Image generation",
+          "description": "Bumuo ng on-brand na character images at scenes programmatically mula sa text prompts."
+        },
+        {
+          "title": "Boses",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Character creation",
+          "description": "Tukuyin at pamahalaan ang mga companion, personalidad, at memory sa pamamagitan ng API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Humiling ng API access",
+      "description": "Sabihin sa amin ang tungkol sa iyong proyekto at kung ano ang gusto mong buuin. Babalikan ka ng aming developer team sa mga susunod na hakbang.",
+      "nameLabel": "Iyong pangalan",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Work email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Kumpanya / proyekto",
+      "companyPlaceholder": "Pangalan ng kumpanya o proyekto",
+      "websiteLabel": "Website o app URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Uri ng integration",
+      "integrationTypePlaceholder": "Pumili ng uri ng integration",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Boses",
+          "label": "Boses"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Iba pa",
+          "label": "Iba pa"
+        }
+      ],
+      "volumeLabel": "Inaasahang buwanang volume",
+      "volumePlaceholder": "Pumili ng inaasahang volume",
+      "volumeOptions": [
+        {
+          "value": "Mas mababa sa 10k",
+          "label": "Mas mababa sa 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "Timeline",
+      "timelinePlaceholder": "Pumili ng timeline",
+      "timelineOptions": [
+        {
+          "value": "Nag-e-explore lang",
+          "label": "Nag-e-explore lang"
+        },
+        {
+          "value": "Wala pang 1 buwan",
+          "label": "Wala pang 1 buwan"
+        },
+        {
+          "value": "1-3 buwan",
+          "label": "1-3 buwan"
+        },
+        {
+          "value": "3+ buwan",
+          "label": "3+ buwan"
+        }
+      ],
+      "messageLabel": "Sabihin sa amin ang iyong use case",
+      "messagePlaceholder": "Ano ang ginagawa mo, at paano mo planong gamitin ang API?",
+      "submit": "Humiling ng API access",
+      "submitting": "Ipinapadala...",
+      "termsNote": "Sa pagpapadala, sumasang-ayon kang makontak tungkol sa iyong inquiry. Hindi namin ibabahagi ang iyong mga detalye.",
+      "success": "Salamat! Naipadala na ang iyong API access request.",
+      "error": "May nangyaring mali. Subukan muli."
+    },
+    "faq": {
+      "title": "Developer FAQ",
+      "items": [
+        {
+          "question": "Paano ako makakakuha ng API access?",
+          "answer": "Punan ang request form sa itaas gamit ang iyong use case. Sinusuri ng aming developer team ang bawat request at susundan ka ng access details at dokumentasyon."
+        },
+        {
+          "question": "Paano gumagana ang authentication?",
+          "answer": "Ang API requests ay naa-authenticate gamit ang secret API key na ipinapadala sa request headers. Maaari mong pamahalaan at i-rotate ang iyong mga key kapag onboard ka na."
+        },
+        {
+          "question": "May rate limiting ba?",
+          "answer": "Oo. Ang mga limitasyon ay nakadepende sa iyong plan at inaasahang volume. Sabihin sa amin ang iyong inaasahang traffic sa form para ma-recommend namin ang tamang tier."
+        },
+        {
+          "question": "Magkano ang halaga?"
+        },
+        {
+          "question": "Aling mga kakayahan ang available?",
+          "answer": "Chat, image generation, voice, at character creation. Sabihin sa amin kung alin ang kailangan mo at tutulungan ka naming magsimula sa mga relevant endpoints."
+        }
+      ]
+    },
+    "cta": {
+      "title": "May technical na tanong?",
+      "description": "Makipag-ugnayan sa aming developer team sa"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Para sa mga creator at agency",
+    "heroTitleLead": "Gumagawa Kami,",
+    "heroTitleHighlight": "Kumikita Ka.",
+    "heroSubtitle": "Gumagawa kami ng iyong AI clone. Kumikita ka habang gumagana ang AI clone buong oras — nakikipag-chat sa mga fan at nagpapadala ng content para sa iyo.",
+    "calculator": {
+      "title": "Magkano ang maaari mong kitain?",
+      "subtitle": "Piliin ang laki ng iyong audience at itakda ang iyong presyo — tingnan ang iyong tinatayang kita agad.",
+      "tierLabel": "Laki ng iyong audience",
+      "tiers": {
+        "small": {
+          "name": "Maliit"
+        },
+        "medium": {
+          "name": "Katamtaman"
+        },
+        "large": {
+          "name": "Malaki"
+        }
+      },
+      "priceLabel": "Iyong unlock price",
+      "promoLabel": "Ipapromote ko ang sweetwine",
+      "breakdown": {
+        "title": "Iyong tinatayang kita",
+        "perMonth": "bawat buwan",
+        "perYear": "Bawat taon"
+      },
+      "disclaimer": "Ang mga pagtataya ng kita ay batay sa sweetwine revenue-share model at karaniwang aktibidad. Nag-iiba ang aktwal na kita ayon sa audience, kalidad ng content, engagement, at demand."
+    },
+    "offer": {
+      "title": "Ano ang makukuha mo",
+      "items": [
+        {
+          "title": "Kumita habang natutulog",
+          "description": "Binabago ng iyong clone ang mga followers sa kita 24/7 — nagcha-chat, nagbebenta, at hindi humihinto."
+        },
+        {
+          "title": "Walang gastos, puro kita",
+          "description": "Bina-build, tinatrain, at pinapatakbo namin ang lahat sa aming gastos. Nagdagdag ka ng bagong stream ng kita nang hindi gumagalaw."
+        },
+        {
+          "title": "10x ang iyong content",
+          "description": "Walang limitasyong photos at videos kapag kailangan — palakihin ang output mo nang hindi na kailangan ng dagdag na shoots, edits, o burnout."
+        },
+        {
+          "title": "Laging kontrolado"
+        }
+      ]
+    },
+    "how": {
+      "title": "Paano ito gumagana",
+      "steps": [
+        {
+          "title": "Mag-register"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Kukunin ng sweetwine specialist ang iyong hitsura, boses, at personalidad para ang iyong clone ay tunay na ikaw."
+        },
+        {
+          "title": "Bina-build at tinatrain namin",
+          "description": "Gumagawa at nagsasanay ang aming team ng iyong AI clone nang buo sa aming sariling gastos — walang kailangang gawin mula sa iyo."
+        },
+        {
+          "title": "Go live at kumita",
+          "description": "Nagsisimula ang iyong clone na mag-chat at magbenta nang buong oras, at kinokolekta mo ang iyong revenue share."
+        }
+      ]
+    },
+    "form": {
+      "title": "Mag-apply para gumawa ng iyong AI clone",
+      "description": "Sabihin sa amin ang tungkol sa iyo at sa iyong audience. Sinusuri ng aming creator partnerships team ang bawat application at susunod na hakbang.",
+      "nameLabel": "Ang iyong pangalan",
+      "namePlaceholder": "Ang iyong pangalan o stage name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agency o studio",
+      "companyPlaceholder": "Pangalan ng agency (iwanang blangko kung independent)",
+      "roleLabel": "Ako ay",
+      "rolePlaceholder": "Pumili kung sino ka",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Website at social links",
+      "linksPlaceholder": "Instagram, X, OnlyFans, atbp.",
+      "modelCountLabel": "Bilang ng models na iyong kinakatawan",
+      "modelCountPlaceholder": "hal. ako lang, o 5",
+      "audienceSizeLabel": "Laki ng audience",
+      "audienceSizePlaceholder": "Piliin ang iyong kabuuang following",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k followers",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followers"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followers"
+        }
+      ],
+      "contentPrefLabel": "Content preference",
+      "contentPrefPlaceholder": "Select content type",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Country / region",
+      "countryPlaceholder": "Where are you based?",
+      "messageLabel": "Tell us about you and your audience",
+      "messagePlaceholder": "Share anything that helps us understand your audience, content, and what you're looking for.",
+      "openButton": "Apply now",
+      "submit": "Submit application",
+      "submitting": "Submitting...",
+      "termsNote": "By submitting, you confirm you are 18 or older and agree to be contacted about your application. We never share your details.",
+      "success": "Thanks! Your application has been sent. We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "cta": {
+      "title": "Have questions before you apply?",
+      "description": "Talk to our creator partnerships team directly — we usually reply within a day.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Sitemap",
+    "eyebrow": "Sitemap",
+    "titlePrefix": "Browse",
+    "titleHighlight": "everything",
+    "subtitle": "Every important page on sweetwine in one place. Looking for the XML sitemap?",
+    "xmlLink": "View the XML sitemap",
+    "sections": {
+      "product": "Product",
+      "features": "Features",
+      "company": "Company",
+      "resources": "Resources",
+      "legal": "Legal"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Kunin ang App",
+      "dismiss": "I-dismiss"
+    },
+    "guide": {
+      "title": "I-install ang sweetwine",
+      "subtitle": "Idagdag ang sweetwine sa iyong home screen para sa mas mabilis, full-screen, at app-like na karanasan.",
+      "iosTitle": "Sa iPhone & iPad (Safari)",
+      "iosStep1": "Pindutin ang Share button sa toolbar",
+      "iosStep2": "Piliin ang \"Add to Home Screen\"",
+      "iosStep3": "Pindutin ang \"Add\" para matapos",
+      "androidTitle": "Sa Android (Chrome)",
+      "androidStep1": "Pindutin ang menu (tatlong tuldok)",
+      "androidStep2": "Piliin ang \"Install app\" o \"Add to Home screen\"",
+      "androidStep3": "Pindutin ang \"Install\" para matapos"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "I-install ang sweetwine sa iyong telepono para sa mas mabilis at full-screen na karanasan mula mismo sa iyong home screen.",
+      "cta": "I-install ang app"
+    }
+  },
+  "language": {
+    "selectTitle": "Pumili ng iyong wika",
+    "searchPlaceholder": "Maghanap ng mga wika",
+    "noResults": "Walang nahanap na wika",
+    "regions": {
+      "americas": "Americas",
+      "europe": "Europe",
+      "middleEast": "Middle East",
+      "asiaPacific": "Asia Pacific",
+      "africa": "Africa"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Bagong Roleplay",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Wala pang roleplay",
+    "noMessagesYet": "Wala pang mensahe",
+    "deleteRoleplay": "Tanggalin ang roleplay",
+    "deleteError": "Hindi matanggal ang roleplay.",
+    "backToLobby": "Bumalik sa roleplays",
+    "creating": "Inihahanda ang iyong roleplay...",
+    "createError": "Hindi makagawa ng roleplay. Subukan ulit.",
+    "steps": {
+      "companion": {
+        "title": "Pumili ng character",
+        "subtitle": "Piliin kung sino ang gusto mong makipag-roleplay"
+      },
+      "location": {
+        "title": "Pumili ng lokasyon",
+        "subtitle": "Saan magaganap ang iyong eksena?"
+      },
+      "tone": {
+        "title": "Itakda ang tono",
+        "subtitle": "Paano dapat maramdaman ang eksena?"
+      },
+      "scene": {
+        "title": "Itakda ang eksena",
+        "subtitle": "Ilarawan kung paano nagsisimula ang eksena"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Nagkita kami sa ulan at nagkubli sa ilalim ng parehong awning.",
+      "staring_grin": "Nahuli mo akong nakatingin mula sa kabilang dako ng silid at lumapit ka nang nakangiti.",
+      "power_out": "Nawalan ng kuryente at naiwan kaming dalawa sa dilim, tumatawa nang kabado.",
+      "spilled_drink": "Nagmamadali ako at aksidenteng nabuhos ang inumin ko sa'yo.",
+      "stayed_behind": "Kami lang dalawa ang naiwan matapos umalis ang lahat.",
+      "music_slows": "Nagtagpo ang tingin namin nang bumagal ang musika.",
+      "storm_inside": "Biglang bagyo ang nakulong sa amin sa loob na may oras lang para makipag-usap.",
+      "seat_taken": "Umupo ka sa tabi ko at tinanong kung may nakaupo na."
+    },
+    "locations": {
+      "home": "Bahay",
+      "cafe": "Kapehan",
+      "restaurant": "Restawran",
+      "bar": "Bar",
+      "library": "Aklatan",
+      "bookstore": "Tindahan ng libro",
+      "park": "Parke",
+      "garden": "Hardin",
+      "nightclub": "Nightclub",
+      "casino": "Casino",
+      "concert": "Konsiyerto",
+      "theater": "Teatro",
+      "cinema": "Sinehan",
+      "carnival": "Karnabal",
+      "stadium": "Estadyo",
+      "beach": "Dalampasigan",
+      "pool": "Piscina",
+      "spa": "Spa",
+      "hotel": "Hotel",
+      "rooftop": "Bubong",
+      "yacht": "Yate",
+      "cabin": "Kubo",
+      "hotspring": "Mainit na Bukal",
+      "skilodge": "Ski Lodge",
+      "campsite": "Kampo",
+      "car": "Kotse",
+      "train": "Tren",
+      "airport": "Paliparan",
+      "cruise": "Barko",
+      "office": "Opisina",
+      "gym": "Gim",
+      "university": "Unibersidad",
+      "mall": "Mall",
+      "hospital": "Ospital",
+      "museum": "Museo"
+    },
+    "tones": {
+      "fun": {
+        "title": "Saya",
+        "desc": "Magaan, masaya at madaling pakisamahan."
+      },
+      "romantic": {
+        "title": "Romantiko",
+        "desc": "Malambing, mapagmahal at taos-puso."
+      },
+      "flirty": {
+        "title": "Flirty",
+        "desc": "Mapagbiro, masaya at puno ng alindog."
+      },
+      "mysterious": {
+        "title": "Mahiwaga",
+        "desc": "Nakaka-intriga, puno ng tensyon at lihim."
+      },
+      "spooky": {
+        "title": "Nakakatakot",
+        "desc": "Kakaiba, tensyonado at medyo nakakatakot."
+      },
+      "action": {
+        "title": "Aksyon",
+        "desc": "Mabilis, adventurous at puno ng enerhiya."
+      },
+      "dramatic": {
+        "title": "Dramatiko",
+        "desc": "Emosyonal, matindi at puno ng tensyon."
+      },
+      "cozy": {
+        "title": "Maaliwalas",
+        "desc": "Mainit, komportable at nakakarelaks."
+      }
+    },
+    "sceneLabel": "Pagbubukas ng eksena",
+    "scenarioTab": "Scenario",
+    "generatingScene": "Binubuhay ang eksena...",
+    "locationLabel": "Lokasyon",
+    "toneLabel": "Tono",
+    "scenePlaceholder": "hal. Nagkita kami sa ulan at nagkubli sa iisang bubong...",
+    "sceneHint": "Ilarawan lang kung paano nagsisimula ang eksena — kung nasaan kayo at kung ano ang nangyayari sa simula. Huwag baguhin ang personalidad ng karakter, ang inyong relasyon, o muling isulat ang buong kwento.",
+    "sceneError": "Pakilarawan kung paano nagsisimula ang eksena.",
+    "reviewTitle": "Suriin ang mga napili",
+    "characterLabel": "Karakter",
+    "randomize": "Randomize",
+    "sceneGuidanceTitle": "Patnubay sa pagbubukas ng eksena",
+    "sceneGuide1": "Huwag baguhin ang personalidad ng karakter o ang inyong relasyon.",
+    "sceneGuide2": "Panatilihing consensual at magalang ang pagbubukas ng eksena.",
+    "sceneGuide3": "Ilarawan lang kung paano nagsisimula ang eksena, hindi ang buong kwento.",
+    "next": "Susunod",
+    "create": "Simulan ang Roleplay",
+    "creatingMessages": [
+      "Itinatakda ang eksena...",
+      "Inaayos nang maayos ang ilaw...",
+      "Pinipinta ang paligid mo...",
+      "Inihahanda ang kasama mo sa karakter...",
+      "Idinagdag ang mga huling detalye...",
+      "Halos handa na..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Sumulat ng mensahe...",
+    "send": "Ipadala",
+    "typing": "nagsusulat...",
+    "read": "Basahin",
+    "resetChat": "I-reset ang Chat",
+    "deleteChat": "Tanggalin ang Chat",
+    "settings": "Mga Setting",
+    "chatSettings": "Mga Setting ng Chat",
+    "roleplayMode": "Mode ng roleplay",
+    "roleplayModeDescription": "Kapag naka-on, gumagawa ng kilos at aksyon ang mga kasama gamit ang *asterisks* para sa mas nakaka-engganyong roleplay. Kapag naka-off, natural lang silang nakikipag-usap, parang totoong pagte-text.",
+    "roleplayModeError": "Hindi ma-update ang roleplay mode",
+    "roleplayCtaDescription": "Buksan ang dedikadong karanasan sa roleplay, kung saan kumikilos ang kasama sa mga eksena at kwento kasama mo.",
+    "goToRoleplay": "Pumunta sa Roleplay",
+    "confirmReset": "Sigurado ka bang i-reset ang chat na ito? Mabubura ang lahat ng mensahe.",
+    "confirmDelete": "Sigurado ka bang tanggalin ang chat na ito?",
+    "resetSuccess": "Matagumpay na na-reset ang chat",
+    "deleteMemory": "Tanggalin ang memory",
+    "confirmDeleteMemory": "Sigurado ka bang tanggalin ang long-term memories ng karakter na ito? Mananatili ang mga chat messages, pero malilimutan ng karakter ang mga dating facts sa susunod na reply.",
+    "deleteMemorySuccess": "Natanggal ang memory",
+    "deleteSuccess": "Matagumpay na natanggal ang chat",
+    "sendError": "Nabigo ang pagpapadala ng mensahe",
+    "noChats": "Wala pang chats",
+    "noChatsDesc": "Magsimula ng usapan sa isang karakter para makita ang iyong chats dito",
+    "lastMessage": "Huling mensahe",
+    "messageCount": "{count} mensahe",
+    "uploadImage": "Mag-upload ng larawan",
+    "uploadVideo": "Mag-upload ng video (malapit nang darating)",
+    "yourConversations": "Iyong mga Usapan",
+    "continueChattingDesc": "Magpatuloy sa pakikipag-usap sa iyong mga AI character",
+    "newChat": "Bagong Chat",
+    "noConversationsYet": "Wala pang usapan",
+    "startChattingDesc": "Magsimula ng pakikipag-usap sa isang karakter para makita ang iyong mga usapan dito",
+    "browseCharacters": "Tumingin ng mga Karakter",
+    "createCustomCharacter": "Gumawa ng Custom na Karakter",
+    "imageTooLarge": "Masyadong malaki ang larawan (max 5MB)",
+    "generateImageTitle": "Gumawa ng Larawan gamit ang {name}",
+    "imagePromptLabel": "Ilarawan ang larawan",
+    "imagePromptPlaceholder": "hal., sa dalampasigan na naka-asul na damit, umiinom ng kape sa café, naglalakad sa parke...",
+    "imagePromptHint": "Gagawa ang AI ng larawan ng {name} batay sa iyong paglalarawan.",
+    "referenceImageLabel": "Iyong Larawan (opsyonal)",
+    "referenceImageHint": "I-upload ang iyong larawan para isama sa eksena kasama ang {name}. Kung walang larawan, ang {name} lang ang gagawin.",
+    "uploadReferenceImage": "I-upload ang iyong larawan",
+    "uploadReferenceImageDesc": "Magkasama kayong lalabas sa ginawang larawan",
+    "referenceImageSelected": "Kayo ni {name} ay lalabas nang magkasama",
+    "generating": "Nagge-generate...",
+    "generate": "I-generate",
+    "generateImage": "I-generate ang Larawan",
+    "imageGenerated": "Matagumpay na na-generate ang larawan",
+    "generateError": "Nabigo ang pag-generate ng larawan",
+    "contentBlockedReply": "Pasensya na, hindi ko magagawa ang larawang iyan. Na-block ito ng safety filters. Subukan mo ang ibang description! 💕",
+    "generateVideoTitle": "I-generate ang Video kasama si {name}",
+    "generateVideo": "I-generate ang Video",
+    "videoPromptLabel": "Ilarawan ang aksyon",
+    "videoPromptPlaceholder": "hal., sumasayaw, kumakaway, humahalik...",
+    "videoPromptHint": "Gagawa ang AI ng video ni {name} na gumagawa ng inilarawang aksyon.",
+    "generatingImage": "Nagge-generate ng larawan...",
+    "generatingVideo": "Nagge-generate ng video... (3-5 min)",
+    "viewPhoto": "Tingnan ang Larawan",
+    "viewVideo": "Tingnan ang Video",
+    "selectVideoOption": "Pumili ng video option sa itaas",
+    "contentPolicyViolation": "Hindi maipadala ang mensaheng ito. Panatilihin ang respeto sa usapan.",
+    "functionCallBetaHint": "💡 Beta pa ang feature na ito — para sa maaasahang media generation nang walang restrictions, gamitin ang photo/video buttons sa toolbar.",
+    "repliedToStory": "Tumugon sa story",
+    "repliedToStoryLiked": "Na-like at tumugon sa story",
+    "storyNoLongerAvailable": "Hindi na available ang story",
+    "rateLimitExceeded": "Masyadong maraming request. Maghintay sandali at subukan muli.",
+    "profileTab": "Profile",
+    "galleryTab": "Gallery",
+    "giftsTab": "Gifts",
+    "tts": {
+      "play": "I-play ang boses",
+      "stop": "Itigil",
+      "generating": "Nagge-generate ng boses…",
+      "error": "Hindi ma-play ang audio"
+    }
+  },
+  "gallery": {
+    "all": "Lahat",
+    "images": "Mga Larawan",
+    "videos": "Mga Video",
+    "empty": "Wala pang media"
+  },
+  "gifts": {
+    "sendAGift": "Magpadala ng Regalo",
+    "catalogSubtitle": "Pumili ng regalo para ipadala kay {name}",
+    "browseGifts": "Tumingin ng mga regalo",
+    "noneSent": "Wala pang regalo na naipadala",
+    "confirmTitle": "Kumpirmahin ang regalo",
+    "forCompanion": "Para kay {name}",
+    "optionalMessage": "Magdagdag ng mensahe (opsyonal)",
+    "optionalMessagePlaceholder": "Magsulat ng matamis...",
+    "sendGiftFor": "Ipadala",
+    "giftSent": "Nagpadala ka ng regalo",
+    "sendError": "Nabigo ang pagpapadala ng gift"
+  },
+  "stories": {
+    "replyPlaceholder": "Sumagot kay {name}...",
+    "like": "Like",
+    "send": "Ipadala",
+    "close": "Isara",
+    "previous": "Nakaraang kwento",
+    "next": "Susunod na kwento",
+    "pause": "I-pause",
+    "play": "I-play",
+    "mute": "I-mute",
+    "unmute": "I-unmute",
+    "openStory": "Buksan ang kwento ni {name}"
+  },
+  "generate": {
+    "title": "Generate Image",
+    "description": "Create stunning images with your AI characters",
+    "selectCompanion": "Select a character",
+    "promptPlaceholder": "Describe the image you want to generate... e.g., at the beach, in a red dress",
+    "promptLabel": "Image Description",
+    "promptRequired": "Please enter a description",
+    "generateButton": "Generate Image",
+    "generating": "Generating...",
+    "creatingImage": "Creating your image...",
+    "pleaseWait": "This may take 10-30 seconds",
+    "noCompanionSelected": "Please select a character first",
+    "emptyGallery": "No images generated yet. Select a character and describe your image!",
+    "sessionGallery": "Generated Images",
+    "regenerate": "Regenerate",
+    "regenerating": "Regenerating...",
+    "animate": "Animate",
+    "animateReference": "This image will be the first frame of the video.",
+    "filterMyAI": "My AI",
+    "filterAll": "All",
+    "filterGirls": "Women",
+    "filterAnime": "Anime",
+    "filterGuys": "Lalaki",
+    "imageGenerationFailed": "Nabigo ang pagbuo ng larawan. Maaaring hindi natugunan ng larawan ang mga kinakailangan o masyadong kumplikado ang paglalarawan. Subukan gamit ang mas simpleng prompt.",
+    "noImageData": "Walang larawang nabuo. Pakisubukan muli gamit ang ibang paglalarawan.",
+    "generationFailed": "Nabigo ang pagbuo. Pakisubukan muli mamaya o gamit ang ibang prompt.",
+    "random": "Random",
+    "custom": "Custom",
+    "settings": "Settings",
+    "videoTitle": "Gumawa ng Video",
+    "videoDescription": "Lumikha ng kahanga-hangang mga video gamit ang iyong mga AI character",
+    "videoPromptLabel": "Paglalarawan ng Video",
+    "videoPromptPlaceholder": "Ilarawan ang aksyong gusto mong gawin... hal., sumasayaw, kumakaway, ngumingiti",
+    "generateVideoButton": "Gumawa ng Video",
+    "generatingVideo": "Ginagawa ang video...",
+    "creatingVideo": "Ginagawa ang iyong video...",
+    "videoWait": "Maaaring tumagal ng 1-5 minuto",
+    "emptyVideoGallery": "Wala pang nabuong video. Pumili ng character at ilarawan ang aksyon!",
+    "sessionVideoGallery": "Mga Nabuong Video",
+    "videoGenerated": "Matagumpay na nabuo ang video!",
+    "videoGenerationFailed": "Nabigo ang pagbuo ng video. Pakisubukan muli.",
+    "duration": "Tagal",
+    "shortVideo": "Maikli",
+    "longVideo": "Mahaba",
+    "seconds": "segundo",
+    "audio": "Audio",
+    "renderingVideo": "Rendering video…",
+    "renderingVideoHint": "(takes up to 1 minute)",
+    "rateLimitExceeded": "Masyadong maraming request. Maghintay sandali at subukan muli.",
+    "chooseCharacter": "Pumili ng character",
+    "selectButton": "Piliin",
+    "noCustomCompanions": "Wala ka pang nagawang AI character.",
+    "numberOfImages": "Bilang ng larawan",
+    "numberOfVideos": "Bilang ng video",
+    "freeTrial": "Libreng Pagsubok",
+    "changeCharacter": "Baguhin ang character",
+    "randomize": "I-randomize ang prompt",
+    "aiVideo": "AI Video",
+    "download": "I-download",
+    "seriesHelper": "Dito mo makikita ang iyong mga resulta. Maaari kang umalis sa pahina o magsimula ng bagong serye habang tinatapos ang mga ito.",
+    "suggestions": {
+      "title": "Mga Suhestiyon",
+      "categories": {
+        "outfit": "Kasuotan",
+        "action": "Aksyon",
+        "pose": "Pose",
+        "accessories": "Mga Aksesorya",
+        "scene": "Eksena"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Palda",
+        "lingerie": "Lingerie",
+        "crop_top": "Crop top",
+        "leather": "Katad",
+        "mini_skirt": "Mini-skirt",
+        "satin_robe": "Robe na Satin",
+        "jeans": "Jeans",
+        "summer_dress": "Damit pang-summer",
+        "sportswear": "Sportswear",
+        "selfie": "Selfie",
+        "walking": "Naglalakad",
+        "dancing": "Sumasayaw",
+        "stretching": "Nag-uunat",
+        "lying_down": "Nakahiga",
+        "leaning": "Nakasandal",
+        "blowing_kiss": "Humahalik sa hangin",
+        "drinking_coffee": "Umiinom ng kape",
+        "hands_on_hips": "Nakahawak sa baywang",
+        "over_shoulder": "Tanaw sa balikat",
+        "side_profile": "Side profile",
+        "arms_crossed": "Naka-cross ang mga braso",
+        "kneeling": "Nakaluhod",
+        "squatting": "Naka-squat",
+        "back_view": "Tanaw sa likod",
+        "sitting": "Nakaupo",
+        "necklace": "Kuwintas",
+        "earrings": "Hikaw",
+        "glasses": "Salamin",
+        "choker": "Choker",
+        "hat": "Sombrero",
+        "sunglasses": "Salaming pang-araw",
+        "garden": "Hardin",
+        "beach": "Tabing-dagat",
+        "bedroom": "Kuwarto",
+        "gym": "Gym",
+        "bar": "Bar",
+        "kitchen": "Kusina",
+        "restaurant": "Restawran",
+        "balcony": "Balkonahe",
+        "city_street": "Kalsada sa lungsod",
+        "pool": "Tabing-pool"
+      },
+      "fragments": {
+        "bikini": "nakasuot ng bikini",
+        "skirt": "nakasuot ng palda",
+        "lingerie": "nakasuot ng lingerie",
+        "crop_top": "nakasuot ng crop top",
+        "leather": "nakasuot ng leather outfit",
+        "mini_skirt": "nakasuot ng mini-skirt",
+        "satin_robe": "nakasuot ng satin robe",
+        "jeans": "nakasuot ng jeans",
+        "summer_dress": "nakasuot ng summer dress",
+        "sportswear": "nakasuot ng tight sportswear",
+        "selfie": "kumukuha ng selfie",
+        "walking": "naglalakad",
+        "dancing": "sumasayaw",
+        "stretching": "nag-uunat",
+        "lying_down": "nakahiga",
+        "leaning": "nakasandal sa dingding",
+        "blowing_kiss": "humahalik sa hangin",
+        "drinking_coffee": "umiinom ng kape",
+        "hands_on_hips": "nakahawak sa bewang",
+        "over_shoulder": "tumitingin sa balikat",
+        "side_profile": "side profile pose",
+        "arms_crossed": "nakatawid ang mga braso",
+        "kneeling": "nakaluhod",
+        "squatting": "nakasquat",
+        "back_view": "tanaw mula sa likod",
+        "sitting": "nakaupo",
+        "necklace": "nakasuot ng kuwintas",
+        "earrings": "nakasuot ng hikaw",
+        "glasses": "nakasuot ng salamin",
+        "choker": "nakasuot ng choker",
+        "hat": "nakasuot ng sombrero",
+        "sunglasses": "nakasuot ng sunglasses",
+        "garden": "sa hardin",
+        "beach": "sa dalampasigan",
+        "bedroom": "sa silid-tulugan",
+        "gym": "sa gym",
+        "bar": "sa bar",
+        "kitchen": "sa kusina",
+        "restaurant": "sa restaurant",
+        "balcony": "sa balkonahe",
+        "city_street": "sa city street",
+        "pool": "sa tabi ng pool"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ipakita mo sa akin ang selfie mo"
+        },
+        "posing": {
+          "name": "Nagpo-pose",
+          "uiPrompt": "Ipakita mo sa akin na nagpo-pose ka"
+        },
+        "sitting": {
+          "name": "Nakaupo",
+          "uiPrompt": "Ipakita mo sa akin na nakaupo ka"
+        },
+        "waving": {
+          "name": "Naghahagis",
+          "uiPrompt": "Ipakita mo sa akin na naghahagis ka"
+        },
+        "dancing": {
+          "name": "Sumasayaw",
+          "uiPrompt": "Ipakita mo sa akin na sumasayaw ka"
+        },
+        "reading": {
+          "name": "Nagbabasa",
+          "uiPrompt": "Ipakita mo sa akin na nagbabasa ka"
+        },
+        "smiling": {
+          "name": "Nakangiti",
+          "uiPrompt": "Ipakita mo sa akin na nakangiti ka"
+        },
+        "walking": {
+          "name": "Naglalakad",
+          "uiPrompt": "Ipakita mo sa akin na naglalakad ka"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ipakita mo sa akin ang isang video selfie"
+        },
+        "posing": {
+          "name": "Nagpo-pose",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong pagpo-pose"
+        },
+        "sitting": {
+          "name": "Nakaupo",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong pag-upo"
+        },
+        "waving": {
+          "name": "Naghahagis",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong paghahagis"
+        },
+        "dancing": {
+          "name": "Sumasayaw",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong pagsasayaw"
+        },
+        "reading": {
+          "name": "Nagbabasa",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong pagbabasa"
+        },
+        "smiling": {
+          "name": "Nakangiti",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong ngiti"
+        },
+        "walking": {
+          "name": "Naglalakad",
+          "uiPrompt": "Ipakita mo sa akin ang isang video ng iyong paglalakad"
+        }
+      }
+    },
+    "writeYourOwn": "o isulat ang sarili mong prompt",
+    "presetSelected": "Napiling preset",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Positions",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Bath Towel"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Breast Milk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "Tattoo"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Maid Outfit"
+        },
+        "nurse_outfit": {
+          "name": "Nurse Outfit"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Wet T-Shirt"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Corset & Stockings"
+        },
+        "gym_shorts": {
+          "name": "Gym Shorts"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Mirror Selfie"
+        },
+        "shower_nude": {
+          "name": "Shower"
+        },
+        "oiled_body": {
+          "name": "Oiled Body"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Pagsamba sa Titi"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hila ng Buhok"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Breast Massage"
+        },
+        "breast_massage_nude": {
+          "name": "Breast Massage Nude"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo Masturbation"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missionary Sideview"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Pussy Closeup"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hila ng Buhok"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Aftercare Mess"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Sigurado ka bang burahin ito?",
+    "deleteSuccess": "Matagumpay na nabura",
+    "deleteError": "Nabigo ang pagbura",
+    "empty": "Wala pang media. Gumawa sa chat!",
+    "gallerySubtitle": "Iyong personal na gallery ng AI-generated moments",
+    "filterAll": "Lahat",
+    "filterImages": "Mga Larawan",
+    "filterVideos": "Mga Video",
+    "loadMore": "Mag-load Pa",
+    "folders": "Mga Folder",
+    "newFolder": "Bagong Folder",
+    "deleteFolders": "Burahin ang mga napiling folder",
+    "folderCreated": "Nalikha ang folder",
+    "folderCreateError": "Nabigo ang paglikha ng folder",
+    "folderRenamed": "Napalitan ang pangalan ng folder",
+    "folderRenameError": "Nabigo ang pagpapalit ng pangalan",
+    "folderDeleted": "Nabura ang folder",
+    "folderDeleteError": "Nabigo ang pagbura ng folder",
+    "folderNamePlaceholder": "Pangalan ng folder",
+    "seeMore": "Tingnan pa",
+    "seeLess": "Tingnan nang mas kaunti",
+    "selectedCount": "{count} items selected",
+    "selectAll": "Piliin Lahat",
+    "select": "Piliin",
+    "moveToFolder": "Ilipat",
+    "bulkDeleteConfirm": "Burahin ang {count} napiling items?",
+    "bulkDeleteSuccess": "Nabura ang mga items",
+    "bulkDownloadStart": "Dina-download ang {count} items...",
+    "moveSuccess": "Nailipat ang mga items"
+  },
+  "voice": {
+    "connecting": "Kumokonekta...",
+    "connected": "Nakakonekta",
+    "mute": "I-mute",
+    "unmute": "I-unmute",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Magsalita nang natural. Tutugon ang AI kapag huminto ka.",
+    "connectionError": "Nabigo ang pagkonekta. Pakisubukan muli.",
+    "minutesRemaining": "{minutes} minuto na natitira",
+    "minutesUsed": "{minutes} minuto ang nagamit"
+  },
+  "characters": {
+    "filters": "Mga Filter",
+    "ethnicity": "Etnisidad",
+    "bodyType": "Uri ng Katawan",
+    "ageRange": "Saklaw ng Edad",
+    "relationship": "Relasyon",
+    "occupation": "Trabaho",
+    "hobbies": "Mga Libangan",
+    "personality": "Pagkatao",
+    "language": "Wika",
+    "age": "Edad",
+    "all": "Lahat",
+    "noResults": "Walang nahanap na character",
+    "noResultsDesc": "Subukang ayusin ang iyong mga filter",
+    "newBadge": "Bago",
+    "chatNow": "Makipag-chat Ngayon",
+    "viewProfile": "Tingnan ang Profile",
+    "ethnicities": {
+      "caucasian": "Caucasian",
+      "asian": "Asyano",
+      "middleEastern": "Middle Eastern",
+      "hispanic": "Hispanic",
+      "african": "Aprikano",
+      "southAsian": "South Asian",
+      "nativeAmerican": "Native American",
+      "pacificIslander": "Pacific Islander",
+      "mixed": "Mixed",
+      "other": "Iba pa"
+    },
+    "bodyTypes": {
+      "slim": "Payat",
+      "athletic": "Atletiko",
+      "average": "Karaniwan",
+      "curvy": "Curvy",
+      "plus": "Plus Size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Single",
+      "dating": "Naghahabol",
+      "married": "Kasal",
+      "none": "Wala"
+    }
+  },
+  "settings": {
+    "profile": "Profile",
+    "myProfile": "Aking Profile",
+    "settings": "Mga Setting",
+    "account": "Account",
+    "plan": "Plano",
+    "profileSettings": "Mga Setting ng Profile",
+    "manageAccountSettings": "Pamahalaan ang mga setting at kagustuhan ng iyong account",
+    "personalInfo": "Personal na Impormasyon",
+    "nickname": "Palayaw",
+    "gender": "Kasarian",
+    "male": "Lalaki",
+    "female": "Babae",
+    "preferences": "Mga Kagustuhan",
+    "newsletter": "Subscription sa Newsletter",
+    "newsletterDesc": "Tumanggap ng mga update at balita",
+    "aiTrainingTitle": "Pagsasanay sa AI at Moderation",
+    "aiTrainingDesc": "Payagan ang iyong mga chat at prompt na makatulong sa pagsasanay at pagpapabuti ng AI at moderation ng sweetwine. I-off ito anumang oras para mag-opt out.",
+    "aiTrainingLink": "Matuto pa sa aming Privacy Notice.",
+    "aiTrainingError": "Hindi ma-update ang iyong kagustuhan sa AI training",
+    "interfaceLanguage": "Wika ng Interface",
+    "interfaceLanguageDesc": "Wika para sa user interface",
+    "aiLanguage": "Wika ng AI Response",
+    "aiLanguageDesc": "Wika na gagamitin ng mga AI character kapag nakikipag-usap sa iyo",
+    "currentPlan": "Kasalukuyang Plano",
+    "freePlan": "Free Plan",
+    "dangerZone": "Danger Zone",
+    "dangerZoneDescription": "Kung nais mong permanenteng burahin ang account na ito at lahat ng data nito.",
+    "deleteAllMemory": "Tanggalin ang lahat ng memory",
+    "confirmDeleteAllMemory": "Sigurado ka bang tanggalin ang long-term memories ng lahat ng AI character? Mananatili ang mga chat messages, pero malilimutan ng mga karakter ang mga dating facts sa susunod na reply.",
+    "deleteAllMemorySuccess": "Natanggal ang lahat ng memory",
+    "deleteAccount": {
+      "button": "Burahin ang account",
+      "title": "Burahin ang Account",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Para kumpirmahin, i-type",
+      "confirmRequired": "Pakitype ang DELETE para kumpirmahin",
+      "confirmButton": "Burahin ang Aking Account",
+      "deleting": "Binubura...",
+      "success": "Nabura na ang iyong account",
+      "error": "Nabigo ang pagbura ng account. Subukan muli."
+    },
+    "saveChanges": "I-save ang Mga Pagbabago",
+    "changesSaved": "Matagumpay na na-save ang mga pagbabago",
+    "saveFailed": "Nabigo ang pag-save ng mga pagbabago",
+    "languageUpdated": "Na-update ang wika",
+    "aiLanguageUpdated": "Na-update ang wika ng AI"
+  },
+  "create": {
+    "defaultGreeting": "Kumusta",
+    "title": "Gumawa ng AI Character",
+    "step": "Hakbang {current} ng {total}",
+    "step1": {
+      "title": "Pumili ng Estilo",
+      "description": "Pumili ng estilo at pangunahing katangian para sa iyong character"
+    },
+    "step2": {
+      "title": "Pumili ng Etnisidad",
+      "description": "Pumili ng etnisidad at edad para sa iyong character"
+    },
+    "step3": {
+      "title": "Pumili ng Buhok at Mata",
+      "description": "I-customize ang estilo ng buhok, kulay ng buhok at kulay ng mata"
+    },
+    "step4": {
+      "title": "Pumili ng Katawan",
+      "description": "I-customize ang katawan ng iyong character"
+    },
+    "step5": {
+      "title": "Personalidad at Detalye",
+      "description": "Tukuyin ang personalidad at boses ng iyong character"
+    },
+    "style": {
+      "title": "Estilo ng Character",
+      "realistic": "Realistic",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Kasarian",
+      "female": "Babae",
+      "male": "Lalaki"
+    },
+    "age": {
+      "title": "Edad",
+      "years": "{age} Taon"
+    },
+    "ethnicity": {
+      "title": "Etnisidad"
+    },
+    "hairStyle": {
+      "title": "Estilo ng Buhok"
+    },
+    "hairColor": {
+      "title": "Kulay ng Buhok"
+    },
+    "eyeColor": {
+      "title": "Kulay ng Mata"
+    },
+    "bodyType": {
+      "title": "Uri ng Katawan"
+    },
+    "breastSize": {
+      "title": "Laki ng Dibdib"
+    },
+    "name": {
+      "title": "Pangalan",
+      "placeholder": "Ilagay ang pangalan ng character",
+      "randomize": "Gumawa ng random na pangalan"
+    },
+    "language": {
+      "title": "Wika",
+      "widgetLabel": "Pumili ng Wika",
+      "placeholder": "Pumili ng wika",
+      "selectTitle": "Piliin ang iyong wika"
+    },
+    "personality": {
+      "title": "Personalidad",
+      "widgetLabel": "Pumili ng Personalidad",
+      "placeholder": "Pumili ng personalidad",
+      "sectionTitle": "Pumili ng Personalidad",
+      "clickToChange": "I-click para baguhin"
+    },
+    "relationship": {
+      "title": "Relasyon",
+      "widgetLabel": "Pumili ng Relasyon",
+      "placeholder": "Pumili ng relasyon",
+      "selectTitle": "I-edit ang Relasyon"
+    },
+    "occupation": {
+      "title": "Trabaho",
+      "widgetLabel": "Pumili ng Trabaho",
+      "placeholder": "Pumili ng trabaho",
+      "selectTitle": "I-edit ang Trabaho"
+    },
+    "kinks": {
+      "title": "Interes",
+      "widgetLabel": "Anong interes ang gusto nila? (Max. {max})",
+      "labelMax": "Interes (Max. {max})",
+      "placeholder": "Pumili ng interes (opsyonal)",
+      "optional": "Opsyonal",
+      "selectTitle": "I-edit ang Interes",
+      "moreCount": "+{count} pa"
+    },
+    "selector": {
+      "searchPlaceholder": "Hanapin",
+      "noResults": "Walang nakitang opsyon",
+      "cancel": "Kanselahin",
+      "saveChanges": "I-save ang Mga Pagbabago",
+      "selectedCount": "{count} napili"
+    },
+    "voice": {
+      "title": "Boses",
+      "widgetLabel": "Pumili ng Boses",
+      "placeholder": "Pumili ng boses",
+      "selectTitle": "Pumili ng Boses"
+    },
+    "advanced": {
+      "title": "Mga Detalyadong Impormasyon",
+      "optional": "opsyonal",
+      "filled": "Napunan",
+      "autocompleteTitle": "Autocomplete Gamit ang AI",
+      "autocompleteDesc": "Hayaan ang AI na kumpletuhin ang mga walang laman na field para sa mas malalim na karakter",
+      "autocompleteSuccess": "Matagumpay na napunan ang mga field!",
+      "autocompleteError": "Nabigo ang paggawa ng mga suhestiyon. Subukan muli.",
+      "greetingLabel": "Pagbati",
+      "greetingPlaceholder": "Ang unang mensahe na ipapadala ng karakter mo...",
+      "scenarioLabel": "Sitwasyon",
+      "scenarioPlaceholder": "Ang konteksto o backstory kung paano kayo nagkita...",
+      "personalityLabel": "Karagdagang Detalye ng Personalidad",
+      "personalityPlaceholder": "Mga quirk, pattern ng pagsasalita, ugali...",
+      "extraLabel": "Karagdagang Detalye",
+      "extraPlaceholder": "Background, libangan, kasaysayan ng buhay..."
+    },
+    "navigation": {
+      "back": "Bumalik",
+      "next": "Susunod",
+      "create": "Gumawa",
+      "generateYourCharacter": "Gumawa ng Iyong Karakter"
+    },
+    "progress": {
+      "generatingPrompt": "Gumagawa ng personalidad...",
+      "generatingImage": "Gumagawa ng portrait...",
+      "creatingVoice": "Nagse-setup ng boses...",
+      "saving": "Sine-save...",
+      "complete": "Tapos na!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Gumagawa ng personalidad...",
+      "addingSweetness": "Nagdaragdag ng tamis...",
+      "tooMuchSweet": "Oops, masyadong matamis...",
+      "testingSounds": "Sinusubukan ang tunog..."
+    },
+    "overlay": {
+      "signupPrompt": "Kumpletuhin ang sign-up para i-unlock ang iyong character…",
+      "processingHint": "Karaniwang tumatagal ito ng 20–30 segundo",
+      "traitEthnicity": "Etnisidad",
+      "traitBody": "Katawan",
+      "traitHair": "Buhok",
+      "traitColor": "Kulay",
+      "traitEyes": "Mata",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Handa nang likhain ang iyong character!",
+      "bannerDesc": "Nai-save na ang iyong mga kagustuhan. Suriin at i-generate sa ibaba."
+    },
+    "success": {
+      "title": "Nalikha ang Character!",
+      "description": "Matagumpay na nalikha ang iyong AI character.",
+      "yearsOld": "taong gulang",
+      "meetButton": "Kilalanin"
+    },
+    "error": {
+      "title": "Nabigo ang Paglikha",
+      "generic": "Nabigo sa paglikha ng character. Pakisubukan muli."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Caucasian",
+        "asian": "Asyano",
+        "middle_eastern": "Middle Eastern",
+        "hispanic": "Hispanic",
+        "african": "Aprikano",
+        "south_asian": "South Asian",
+        "native_american": "Native American",
+        "pacific_islander": "Pacific Islander",
+        "mixed": "Mixed",
+        "arab": "Arab"
+      },
+      "hairStyleFemale": {
+        "straight": "Straight",
+        "bangs": "Bangs",
+        "curly": "Kulot",
+        "bun": "Bun",
+        "short_bob": "Short Bob",
+        "ponytail": "Ponytail",
+        "wavy": "Wavy",
+        "long_layers": "Long Layers",
+        "braids": "Braids",
+        "pixie_cut": "Pixie Cut",
+        "updo": "Updo",
+        "french_twist": "French Twist",
+        "fishtail_braid": "Fishtail Braid",
+        "top_knot": "Top Knot",
+        "space_buns": "Space Buns",
+        "halo_braid": "Halo Braid",
+        "beehive": "Beehive",
+        "finger_waves": "Finger Waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Kalbo"
+      },
+      "hairStyleMale": {
+        "short": "Maikli",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Kulot",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Side Part",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Mahabang Buhok",
+        "bald": "Kalbo"
+      },
+      "hairColor": {
+        "brunette": "Brunette",
+        "blonde": "Blonde",
+        "black": "Itim",
+        "redhead": "Redhead",
+        "pink": "Pink",
+        "auburn": "Auburn",
+        "brown": "Kayumanggi",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Grey",
+        "white": "Puti",
+        "blue": "Asul",
+        "purple": "Lila",
+        "green": "Berde",
+        "burgundy": "Burgundy",
+        "copper": "Copper",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Black",
+        "dark_brown": "Dark Brown",
+        "light_brown": "Light Brown",
+        "honey_blonde": "Honey Blonde",
+        "dirty_blonde": "Dirty Blonde",
+        "cherry_red": "Cherry Red",
+        "violet": "Violet"
+      },
+      "eyeColor": {
+        "brown": "Kayumanggi",
+        "blue": "Asul",
+        "green": "Berde",
+        "hazel": "Hazel",
+        "amber": "Amber",
+        "gray": "Abo",
+        "heterochromia": "Heterochromia",
+        "violet": "Violet",
+        "red_pink": "Pula/Pink",
+        "black": "Itim"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Payat",
+        "athletic": "Atletiko",
+        "average": "Karaniwan",
+        "curvy": "Kurba",
+        "chubby": "Chubby"
+      },
+      "bodyTypeMale": {
+        "skinny": "Payat",
+        "athletic": "Atletiko",
+        "average": "Karaniwan",
+        "muscular": "Muskulado",
+        "heavy": "Mabigat",
+        "big_tall": "Malaki at Matangkad"
+      },
+      "breastSize": {
+        "small": "Maliit",
+        "medium": "Katamtaman",
+        "large": "Malaki",
+        "extra_large": "Sobrang Laki"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Mahilig sa Pag-ibig",
+        "submissive": "Masunurin",
+        "dominant": "Dominante",
+        "temptress": "Temptress",
+        "innocent": "Inosente",
+        "caregiver": "Tagapag-alaga",
+        "experimenter": "Eksperimentador",
+        "mean": "Malupit",
+        "confidant": "Kumpidante",
+        "shy": "Mahiyain",
+        "queen": "Reyna",
+        "adventurous": "Mapangahas",
+        "romantic": "Romantiko",
+        "intellectual": "Intelektwal",
+        "protector": "Tagapagtanggol",
+        "rebel": "Rebelde",
+        "optimist": "Optimista",
+        "realist": "Realista",
+        "free_spirit": "Malayang Espiritu",
+        "leader": "Pinuno",
+        "loyal": "Loyal",
+        "playful": "Mapaglaro",
+        "mysterious": "Mahiwaga",
+        "ambitious": "Mapaghangad",
+        "gentle": "Mabait",
+        "sarcastic": "Mapanuya",
+        "empathetic": "Maunawain",
+        "stoic": "Stoic",
+        "charismatic": "Mapang-akit"
+      },
+      "relationship": {
+        "stranger": "Dayuhan",
+        "girlfriend": "Kasintahan",
+        "sex_friend": "Sex Friend",
+        "school_mate": "Kaklase",
+        "work_colleague": "Kasamahan sa Trabaho",
+        "wife": "Asawa",
+        "mistress": "Mistress",
+        "friend": "Kaibigan",
+        "step_sister": "Step Sister",
+        "step_mom": "Step Mom",
+        "step_daughter": "Step Daughter",
+        "landlord": "May-ari ng Lupa",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Boss",
+        "teacher": "Guro",
+        "student": "Estudyante",
+        "neighbour": "Kumare/Kumpareng Kapitbahay",
+        "mother_in_law": "Biyenan",
+        "sister_in_law": "Hipag",
+        "boyfriend": "Kasintahan",
+        "husband": "Asawa",
+        "fiance": "Kabihasnan / Kasintahan",
+        "ex": "Ex",
+        "roommate": "Kasama sa Kwarto",
+        "best_friend": "Pinakamatalik na Kaibigan",
+        "classmate": "Kaklase",
+        "mentor": "Tagapayo",
+        "client": "Kliyente",
+        "therapist": "Therapist",
+        "trainer": "Tagapagsanay",
+        "rival": "Kalahi",
+        "crush": "Crush",
+        "secret_admirer": "Lihim na Tagahanga",
+        "pen_pal": "Pen Pal",
+        "business_partner": "Kasosyo sa Negosyo",
+        "babysitter": "Tagabantay ng Bata",
+        "childhood_friend": "Kaibigan mula Pagkabata",
+        "long_distance_partner": "Kasintahan sa Malayo"
+      },
+      "occupation": {
+        "student": "Estudyante",
+        "dancer": "Mananayaw",
+        "model": "Modelo",
+        "maid": "Katulong",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Yaya / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Bartender",
+        "tech_engineer": "Tech Engineer",
+        "lifeguard": "Lifeguard",
+        "cashier": "Cashier",
+        "massage_therapist": "Massage Therapist",
+        "teacher": "Guro",
+        "nurse": "Nurse",
+        "secretary": "Secretary",
+        "yoga_instructor": "Yoga Instructor",
+        "fitness_coach": "Fitness Coach",
+        "cook": "Kusinero",
+        "artist": "Artist",
+        "movie_star_actress": "Movie Star/Actress",
+        "doctor": "Doktor",
+        "librarian": "Librarian",
+        "spy": "Spy",
+        "police_officer": "Pulisyang Opisyal",
+        "soldier": "Sundalo",
+        "lawyer": "Abogado",
+        "hairdresser": "Hairdresser",
+        "dentist": "Dentista",
+        "singer_musician": "Mang-aawit/Musikero",
+        "gynecologist": "Gynecologist",
+        "writer": "Manunulat",
+        "flight_attendant": "Flight Attendant",
+        "professional_athlete": "Propesyonal na Atleta",
+        "scientist": "Siyentipiko",
+        "florist": "Florist",
+        "makeup_artist": "Makeup Artist",
+        "photographer": "Photographer",
+        "social_worker": "Social Worker",
+        "designer": "Designer",
+        "pharmacist": "Pharmacist",
+        "nutritionist": "Nutritionist",
+        "architect": "Arkitekto",
+        "veterinarian": "Beterinaryo",
+        "mechanic": "Mekaniko",
+        "journalist": "Mamamahayag",
+        "pilot": "Pilot",
+        "firefighter": "Bumbero",
+        "accountant": "Accountant",
+        "electrician": "Elektrisyan",
+        "carpenter": "Karpintero",
+        "psychologist": "Psychologist",
+        "real_estate_agent": "Real Estate Agent",
+        "chef": "Chef",
+        "farmer": "Farmer",
+        "delivery_driver": "Delivery Driver",
+        "janitor": "Janitor",
+        "security_guard": "Security Guard",
+        "banker": "Banker",
+        "judge": "Judge",
+        "paramedic": "Paramedic",
+        "actor": "Actor",
+        "comedian": "Comedian",
+        "archaeologist": "Archaeologist",
+        "astronaut": "Astronaut"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Spanking",
+        "collar_leash": "Collar & Leash",
+        "punishment": "Punishment",
+        "humiliation": "Humiliation",
+        "public_play": "Public Play",
+        "roleplay": "Roleplay",
+        "anal_play": "Anal Play",
+        "oral_play": "Oral Play",
+        "cum_play": "Cum Play",
+        "creampie": "Creampie",
+        "squirting": "Squirting",
+        "dirty_talk": "Dirty Talk",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Daddy/Mommy Dominance",
+        "edging": "Edging",
+        "obedience": "Obedience",
+        "control": "Control",
+        "inexperienced": "Inexperienced",
+        "shy_flirting": "Shy Flirting",
+        "playful_teasing": "Playful Teasing",
+        "cuddling": "Cuddling",
+        "slow_sensual": "Slow & Sensual",
+        "hair_pulling": "Hair Pulling",
+        "foot_fetish": "Foot Fetish",
+        "voyeurism": "Voyeurism",
+        "exhibitionism": "Exhibitionism",
+        "sensation_play": "Sensation Play",
+        "wax_play": "Wax Play",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Medical Play",
+        "orgasm_control_denial": "Orgasm Control/Denial",
+        "forced_orgasms": "Forced Orgasms",
+        "group_sex": "Group Sex",
+        "threesomes": "Threesomes",
+        "swapping": "Pagpapalit",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Banayad na Dominasyon",
+        "sensation_deprivation": "Pagkakait ng Sensasyon",
+        "sensory_overload": "Sobrang Sensasyon",
+        "uniform_costume_fetish": "Uniform/Costume Fetish",
+        "food_play": "Paglalaro ng Pagkain",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Impact Play",
+        "knife_play": "Knife Play",
+        "consensual_non_consent": "Consensual Non-Consent",
+        "power_exchange": "Pagpapalitan ng Kapangyarihan",
+        "master_slave": "Master/Slave",
+        "owner_pet": "Owner/Pet"
+      },
+      "languages": {
+        "en": "English",
+        "cs": "Czech",
+        "pl": "Polish",
+        "de": "German",
+        "es": "Spanish",
+        "fr": "French"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Aking AI",
+    "titlePart1": "Aking",
+    "titlePart2": "AI",
+    "createNew": "Gumawa ng bagong AI",
+    "createButton": "Gumawa ng Tauhan",
+    "characterCount": "{count}/{limit} characters",
+    "loadMore": "Mag-load Pa",
+    "empty": {
+      "title": "Wala Pang Tauhan",
+      "description": "Gumawa ng iyong unang AI character at simulan ang pag-uusap! I-customize ang hitsura, personalidad, at boses nila.",
+      "createFirst": "Gumawa ng Iyong Unang Tauhan"
+    },
+    "delete": {
+      "title": "Tanggalin ang Tauhan",
+      "message": "Sigurado ka bang tanggalin si {name}? Ito ay permanenteng mag-aalis ng tauhan, lahat ng chat history, at generated content.",
+      "confirm": "Tanggalin",
+      "success": "Matagumpay na natanggal ang tauhan"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Pakikipag-ugnayan",
+    "interactionDescription": "Mag-type lang nang natural — humingi ng larawan, video, o simulan ang pag-uusap. Naiintindihan ng AI ang iyong layunin sa anumang wika.",
+    "mediaTitle": "Gumawa ng Larawan at Video",
+    "mediaDescription": "Pakawalan ang iyong imahinasyon — gumawa ng larawan o video nang walang limitasyon.",
+    "next": "Susunod →",
+    "gotIt": "Nakuha ko"
+  }
+}

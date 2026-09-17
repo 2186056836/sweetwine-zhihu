@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "שמור",
+    "cancel": "ביטול",
+    "delete": "מחק",
+    "edit": "ערוך",
+    "close": "סגור",
+    "now": "עכשיו",
+    "loading": "טוען...",
+    "error": "אירעה שגיאה",
+    "success": "הצלחה",
+    "confirm": "אישור",
+    "back": "חזור",
+    "or": "או",
+    "next": "הבא",
+    "submit": "שלח",
+    "search": "חיפוש",
+    "filter": "סנן",
+    "clear": "נקה",
+    "all": "הכל",
+    "yes": "כן",
+    "no": "לא",
+    "download": "הורד",
+    "and": "ו",
+    "tryAgain": "נסה שוב",
+    "change": "שנה"
+  },
+  "navigation": {
+    "new": "חדש",
+    "sectionBrowse": "עיין",
+    "sectionTalk": "שוחח",
+    "sectionCreate": "צור",
+    "sectionLibrary": "ספרייה",
+    "explore": "בית",
+    "discover": "גלה",
+    "createShort": "צור AI",
+    "chats": "צ'אטים",
+    "groupChat": "צ'אט קבוצתי AI",
+    "roleplay": "משחק תפקידים",
+    "collection": "אוסף",
+    "generateImage": "צור תמונה",
+    "generateVideo": "צור וידאו",
+    "createCharacter": "צור דמות AI",
+    "myAI": "ה-AI שלי",
+    "language": "שפה",
+    "contactUs": "צור קשר",
+    "account": "חשבון",
+    "sidebarPromoTitle": "מבצע קיץ — 50% הנחה",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "נשים",
+      "anime": "אנימה",
+      "guys": "גברים"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "שוחח עכשיו",
+    "like": "אהבתי"
+  },
+  "auth": {
+    "login": "התחבר",
+    "signup": "הירשם",
+    "createFreeAccount": "צור חשבון חינמי",
+    "logout": "התנתק",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "confirmPassword": "אימות סיסמה",
+    "forgotPassword": "שכחת סיסמה?",
+    "noAccount": "אין לך חשבון?",
+    "hasAccount": "כבר יש לך חשבון?",
+    "signupPrompt": "צור חשבון חינמי",
+    "loginPrompt": "התחבר",
+    "continueWith": "המשך עם",
+    "welcomeBack": "ברוך שובך!",
+    "createAccount": "צור את החשבון שלך",
+    "signInToAccount": "התחבר לחשבון שלך",
+    "emailRequired": "נדרש אימייל",
+    "emailInvalid": "כתובת אימייל לא תקינה",
+    "passwordRequired": "נדרשת סיסמה",
+    "passwordLength": "הסיסמה חייבת להכיל לפחות 6 תווים",
+    "passwordsMismatch": "הסיסמאות אינן תואמות",
+    "emailAlreadyRegistered": "האימייל כבר רשום",
+    "emailAlreadyRegisteredDescription": "קיים חשבון עם אימייל זה. אנא התחבר.",
+    "loginError": "ההתחברות נכשלה",
+    "signupError": "ההרשמה נכשלה",
+    "loginSuccess": "ברוך שובך!",
+    "signupSuccess": "החשבון נוצר בהצלחה!",
+    "logoutSuccess": "התנתקת בהצלחה",
+    "logoutError": "ההתנתקות נכשלה",
+    "linkExpired": "קישור האימות פג תוקף. אנא בקש קישור חדש.",
+    "accessDenied": "הגישה נדחתה. אנא נסה שוב.",
+    "verifyEmail": "אמת את האימייל שלך",
+    "verificationEmailSent": "שלחנו לך אימייל אימות",
+    "confirmYourEmail": "אשר את האימייל שלך",
+    "confirmationLinkSent": "שלחנו קישור אישור לכתובת \"{email}\".",
+    "checkSpamFolder": "לא קיבלת את האימייל? בדוק את תיקיית הספאם.",
+    "signupToChat": "צור חשבון חינמי כדי להתחיל.",
+    "signupDescription": "צור חשבון כדי להמשיך את השיחה",
+    "emailVerificationTitle": "בדוק את האימייל שלך",
+    "emailVerificationMessage": "שלחנו קישור אימות לכתובת {email}. אנא בדוק את תיבת הדואר שלך ולחץ על הקישור כדי לאמת את החשבון.",
+    "emailVerificationNext": "לאחר האימות, תשלימו את תהליך ההצטרפות.",
+    "verificationEmailSentTo": "שלחנו אימייל אימות לכתובת {email}",
+    "verificationInstructions": "בדקו את תיבת הדואר שלכם ולחצו על קישור האימות להפעלת החשבון.",
+    "resetPassword": "איפוס סיסמה",
+    "resetPasswordDescription": "הזינו את כתובת האימייל שלכם ונשלח לכם קישור לאיפוס",
+    "resetEmailSent": "אם קיים חשבון עם כתובת זו, תקבלו קישור לאיפוס בקרוב",
+    "backToLogin": "חזרה להתחברות",
+    "newPassword": "סיסמה חדשה",
+    "confirmNewPassword": "אישור סיסמה חדשה",
+    "passwordResetSuccess": "הסיסמה עודכנה בהצלחה. אנא התחברו.",
+    "enterNewPassword": "הזינו את הסיסמה החדשה",
+    "redirectingToLogin": "מעבירים להתחברות...",
+    "invalidResetLink": "קישור לא תקין או שפג תוקפו",
+    "invalidResetLinkDescription": "קישור איפוס הסיסמה אינו תקין או שפג תוקפו. אנא בקשו קישור חדש.",
+    "passwordsDontMatch": "הסיסמאות אינן תואמות",
+    "currentPassword": "סיסמה נוכחית",
+    "currentPasswordRequired": "נדרשת סיסמה נוכחית",
+    "changePassword": "שינוי סיסמה",
+    "changePasswordDescription": "הזינו את הסיסמה הנוכחית ובחרו סיסמה חדשה",
+    "newPasswordMustBeDifferent": "הסיסמה החדשה חייבת להיות שונה מהסיסמה הנוכחית",
+    "incorrectPassword": "הסיסמה הנוכחית שגויה",
+    "passwordChangeSuccess": "הסיסמה שונתה בהצלחה",
+    "changeEmail": "שינוי אימייל",
+    "newEmail": "אימייל חדש",
+    "confirmNewEmail": "אשר אימייל חדש",
+    "emailsDontMatch": "האימיילים אינם תואמים",
+    "emailChangeDescription": "אימייל אימות יישלח לכתובת האימייל הנוכחית והחדשה",
+    "emailMustBeDifferent": "האימייל החדש חייב להיות שונה מהאימייל הנוכחי",
+    "emailChangeSent": "אימייל אימות נשלח. בדקו את תיבת הדואר של האימייל החדש.",
+    "emailChangeSecurityNote": "לצורכי אבטחה, אימיילי אישור יישלחו לכתובות האימייל הנוכחית והחדשה. יש לאשר משתי הכתובות להשלמת השינוי.",
+    "otpDescription": "שלחנו קוד בן 6 ספרות לכתובת {email}",
+    "otpVerify": "אימות",
+    "otpResend": "שליחת קוד מחדש",
+    "otpResendIn": "ניתן לשלוח מחדש בעוד {seconds} שניות",
+    "otpNoCode": "לא קיבלתם את הקוד?",
+    "otpInvalid": "קוד לא תקין. נסו שוב.",
+    "otpSuccess": "האימייל אומת בהצלחה!",
+    "otpResendSuccess": "קוד חדש נשלח לאימייל שלכם",
+    "otpResendError": "שליחת הקוד נכשלה",
+    "continueWithEmail": "המשך באמצעות אימייל",
+    "moreOptions": "אפשרויות נוספות",
+    "lessOptions": "פחות אפשרויות",
+    "enterYourEmail": "הזינו את כתובת האימייל",
+    "sendCode": "שלח קוד",
+    "byCreatingAccountAgree": "ביצירת חשבון אתם מסכימים ל",
+    "termsOfService": "תנאי השירות",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "ברוכים הבאים ל-sweetwine",
+    "welcomeTo": "ברוכים הבאים ל",
+    "letsGetStarted": "בואו נגדיר את החשבון",
+    "setupProfile": "הגדרת הפרופיל",
+    "step1of2": "שלב 1 מתוך 2",
+    "step2of2": "שלב 2 מתוך 2",
+    "nickname": "כינוי",
+    "nicknamePlaceholder": "בחר כינוי",
+    "nicknameRequired": "אנא הזן כינוי",
+    "gender": "מגדר",
+    "genderRequired": "אנא בחר מגדר",
+    "male": "זכר",
+    "female": "נקבה",
+    "interfaceLanguage": "שפת ממשק",
+    "interfaceLanguageDesc": "השפה עבור תפריטים וכפתורים",
+    "aiLanguage": "שפת תגובות AI",
+    "aiLanguageDesc": "השפה שבה AI ישתמש בשיחה איתך",
+    "languageRequired": "אנא בחר שפה",
+    "continue": "המשך",
+    "ageVerification": "אימות גיל",
+    "ageVerificationText": "כדי להשתמש ב-sweetwine, עליך להיות בן 18 ומעלה. בהמשך, אתה מאשר שאתה בגיל החוקי.",
+    "beforeContinue": "לפני שתמשיך",
+    "mustBe18": "עליך להיות בן 18 ומעלה כדי להשתמש בשירות זה",
+    "agreeToTerms": "בהמשך, אתה מסכים ל{termsLink} ול{privacyLink}",
+    "termsOfService": "תנאי השירות",
+    "privacyPolicy": "מדיניות הפרטיות",
+    "iConfirm": "אני מאשר שאני בן 18 ומעלה ומסכים ל",
+    "ageRequired": "עליך לאשר את גילך כדי להמשיך",
+    "aiActConsent": "אני מאשר שאני מתקשר אך ורק עם AI",
+    "aiActRequired": "עליך לאשר זאת כדי להמשיך",
+    "newsletterOptIn": "הירשם לניוזלטר שלנו לעדכונים וחדשות",
+    "complete": "ההגדרה הושלמה!",
+    "completeText": "הכול מוכן! התחל לשוחח עם דמויות AI.",
+    "startExploring": "התחל לחקור",
+    "featuresTitle": "תכונות זמינות",
+    "featuresTitleWord1": "זמינות",
+    "featuresTitleWord2": "תכונות",
+    "feature1Title": "צ'אט AI",
+    "feature1Desc": "שיחות ללא צנזורה ופרטיות",
+    "feature2Title": "יצירת תמונות",
+    "feature2Desc": "צור תמונות ללא צנזורה ומותאמות אישית עם דמויות AI",
+    "feature3Title": "יצירת וידאו",
+    "feature3Desc": "צור סרטונים ללא צנזורה עם אפקטים",
+    "feature5Title": "יוצר AI מותאם אישית",
+    "feature5Desc": "עצב דמות משלך",
+    "feature6Title": "עיין בדמויות",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI Roleplay",
+    "feature7Desc": "חווה סיפורים ופנטזיות מקצועיים",
+    "showcase": {
+      "chatTitle": "צ'אט AI",
+      "chatDesc": "שיחות פרטיות ללא צנזורה וללא מגבלות",
+      "imageTitle": "יצירת תמונות",
+      "imageDesc": "צור תמונות אישיות ללא צנזורה של ה-AI שלך",
+      "videoTitle": "יצירת וידאו",
+      "videoDesc": "הפק סרטוני AI ללא צנזורה עם אפקטים",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "שיחות קול בזמן אמת עם בן/בת הלוויה שלך",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "סיפורים, פנטזיות ומשחק אינטראקטיבי",
+      "groupChatTitle": "צ'אט קבוצתי AI",
+      "groupChatDesc": "שוחח עם עד 3 דמויות AI בו זמנית",
+      "creatorTitle": "יוצר AI מותאם אישית",
+      "creatorDesc": "עצב וצור דמויות AI משלך"
+    },
+    "freePlan": {
+      "title": "הכול מוכן!",
+      "subtitle": "מה כלול בתוכנית החינמית שלך.",
+      "charactersTitle": "צור דמות משלך",
+      "charactersDesc": "עצב {count} דמות AI מותאמת אישית מאפס",
+      "imagesTitle": "צור תמונה",
+      "imagesDesc": "{count} תמונת AI חינמית של החבר שלך",
+      "messagesTitle": "שוחח בכל יום",
+      "messagesDesc": "{count} הודעות ביום, מתחדשות כל 24 שעות",
+      "cta": "התחל לחקור"
+    },
+    "redirectingIn": "מפנה בעוד",
+    "seconds": "שניות",
+    "generateCharacter": "צור את הדמות שלך",
+    "redirectingToCreate": "מפנה ליוצר הדמויות בעוד"
+  },
+  "errors": {
+    "pageNotFound": "הדף לא נמצא",
+    "pageNotFoundDesc": "הדף שאתה מחפש לא קיים.",
+    "goHome": "חזור לדף הבית",
+    "somethingWentWrong": "משהו השתבש",
+    "tryAgain": "נסה שוב",
+    "unauthorized": "לא מורשה",
+    "unauthorizedDesc": "עליך להתחבר כדי לגשת לדף זה.",
+    "forbidden": "אסור",
+    "forbiddenDesc": "אין לך הרשאה לגשת לדף זה."
+  },
+  "footer": {
+    "allRightsReserved": "כל הזכויות שמורות.",
+    "madeWith": "נוצר עם",
+    "by": "מאת sweetwine",
+    "description": "חווה דמויות AI מותאמות אישית עם אישיות ייחודית, זהות חזותית ושיחות מרתקות.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "מוצר",
+    "legal": "משפטי",
+    "company": "חברה",
+    "resources": "משאבים",
+    "partnerships": "שותפויות",
+    "pressMedia": "עיתונות ומדיה",
+    "careers": "קריירה",
+    "aiRealClones": "שיבוטי AI אמיתיים",
+    "about": "אודות",
+    "blog": "בלוג",
+    "news": "חדשות",
+    "productUpdates": "עדכוני מוצר",
+    "help": "עזרה",
+    "sitemap": "מפת אתר",
+    "paymentOptions": "אפשרויות תשלום",
+    "chats": "צ'אטים",
+    "collection": "אוסף",
+    "generateImage": "צור תמונה",
+    "generateVideo": "צור וידאו",
+    "myAI": "ה-AI שלי",
+    "createCharacter": "צור דמות",
+    "api": "API",
+    "features": "תכונות",
+    "allFeatures": "כל התכונות",
+    "aiGroupChat": "צ'אט קבוצתי AI",
+    "aiMemory": "זיכרון AI",
+    "aiGirlfriend": "חברה AI",
+    "aiBoyfriend": "חבר AI",
+    "aiCompanions": "דמויות AI",
+    "aiFriend": "חבר AI",
+    "aiBreakupSupport": "תמיכה בפרידה",
+    "aiParent": "הורה AI",
+    "aiRoleplay": "משחק תפקידים AI",
+    "privacyPolicy": "מדיניות פרטיות",
+    "termsAndConditions": "תנאים והגבלות",
+    "cookiePolicy": "מדיניות עוגיות",
+    "cookieSettings": "הגדרות עוגיות",
+    "other": "מדיניות נוספת",
+    "copyright": "© {year} sweetwine. כל הזכויות שמורות."
+  },
+  "cookies": {
+    "banner": {
+      "title": "עוגיות באתר זה",
+      "customizeButton": "התאמה אישית",
+      "rejectButton": "דחה",
+      "acceptButton": "קבל"
+    },
+    "modal": {
+      "title": "ניהול עוגיות",
+      "subtitle": "הפעל או כבה קטגוריות למטה. עוגיות הכרחיות ביותר נשארות פעילות כדי שהאתר יוכל לפעול.",
+      "categories": {
+        "necessary": {
+          "title": "הכרחיות ביותר",
+          "description": "נדרשות לכניסה, תשלום ואבטחה. האתר לא יכול לפעול בלעדיהן.",
+          "alwaysOn": "תמיד פעיל"
+        },
+        "analytics": {
+          "title": "ביצועים",
+          "description": "מדידת שימוש והמרות באמצעות Google Analytics 4, כולל המרות מפתח (הרשמה, רכישה) שנשלחות מהשרת שלנו באמצעות מזהה פסאודונימי. עוזר לנו להבין איך השירות משמש; אנחנו לא משתמשים בו כדי לזהות אותך באופן אישי."
+        },
+        "marketing": {
+          "title": "מיקוד",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "הצג עוגיות",
+      "hideCookies": "הסתר עוגיות",
+      "table": {
+        "name": "שם",
+        "provider": "ספק",
+        "expiration": "תפוגה",
+        "description": "תיאור",
+        "session": "סשן"
+      },
+      "policyLink": "לפרטים מלאים, ראה את <policy>מדיניות העוגיות</policy> שלנו.",
+      "rejectButton": "דחה",
+      "saveButton": "שמור וסגור",
+      "acceptButton": "קבל",
+      "cookieDescriptions": {
+        "supabaseAuth": "שומר אותך מחובר על ידי אחסון הסשן המאומת שלך.",
+        "nextLocale": "זוכר את השפה שבחרת עבור הממשק.",
+        "consent": "שומר את בחירות העוגיות שלך כדי שהבאנר לא יוצג בכל ביקור.",
+        "ga": "מבדיל מבקרים ייחודיים (Google Analytics 4). אותו מזהה פסאודונימי משמש גם למדידת המרות מפתח בצד השרת.",
+        "gaSession": "שומר את מצב הסשן ומדדי המעורבות של Google Analytics 4.",
+        "fbp": "מזהה את הדפדפן לצורך ייחוס Meta Pixel.",
+        "fbc": "שומר מזהה לחיצה של Facebook לייחוס המרות במודעות. מוגדר רק לאחר לחיצה על מודעת Meta.",
+        "gclAu": "משמש את Google Ads לקישור המרות בין אתרים.",
+        "saleCountdown": "עוקב אחרי סיום המבצע הנוכחי שלך כדי שספירת הירידה בהנחה תישאר עקבית בין דפים.",
+        "onboarded": "מסמן את החשבון שלך כמושלם כדי שנוכל לדלג על בדיקת מסד הנתונים לאימות גיל בדפים הבאים.",
+        "attribution": "מתעד איזו קמפיין בתשלום או קישור פרסומי הביא אותך לאתר שלנו לאחרונה (הקליק האחרון בתשלום ב-30 הימים האחרונים) כדי שנוכל למדוד את יעילות הפרסום שלנו. זהו מזהה צד ראשון שנשמר בשרתים שלנו ואינו משותף עם צדדים שלישיים."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "בקרוב",
+    "subtitle": "אנחנו עובדים קשה כדי להביא לך את התכונה הזו.",
+    "notify": "קבל התראה כשהיא תהיה מוכנה",
+    "backHome": "חזרה לדף הבית",
+    "generateVideo": {
+      "title": "יצירת סרטונים",
+      "description": "החי את הדמויות שלך עם סרטונים מונפשים. צור תוכן וידאו מותאם אישית עם הדמויות האהובות עליך."
+    },
+    "createCharacter": {
+      "title": "צור את הדמות שלך",
+      "description": "עצב והתאם אישית דמות AI ייחודית משלך. הגדר את האישיות, המראה, הרקע וצור אינטראקציות באמת מותאמות אישית."
+    },
+    "myAI": {
+      "title": "ה-AI שלי",
+      "description": "גש ונהל את כל דמויות ה-AI שיצרת. ערוך את האישיות שלהן, עדכן את המראה שלהן וכוונן את התגובות שלהן."
+    }
+  },
+  "exploreMore": {
+    "title": "גלה עוד",
+    "aiGroupChat": "צ'אט קבוצתי עם AI",
+    "aiGroupChatDesc": "שוחח עם עד 3 דמויות",
+    "aiMemory": "זיכרון AI",
+    "aiMemoryDesc": "הקשר שמלווה כל מצב",
+    "aiGirlfriend": "חברה וירטואלית",
+    "aiGirlfriendDesc": "שוחח עם חברה וירטואלית",
+    "aiBoyfriend": "בן זוג וירטואלי",
+    "aiBoyfriendDesc": "התחבר עם בן הזוג הווירטואלי שלך",
+    "aiCompanions": "דמויות AI",
+    "aiCompanionsDesc": "הכר אישיויות AI ייחודיות",
+    "aiFriend": "חבר AI",
+    "aiFriendDesc": "מצא חבר ללא שיפוטיות",
+    "aiBreakupSupport": "תמיכה בפרידה",
+    "aiBreakupSupportDesc": "שיחות מרפאות",
+    "aiParent": "הורה AI",
+    "aiParentDesc": "תמיכה והכוונה חמה",
+    "aiRoleplay": "משחק תפקידים עם AI",
+    "aiRoleplayDesc": "תרחישי סיפור מרתקים",
+    "allFeatures": "כל התכונות",
+    "allFeaturesDesc": "גלה את כל מה שאנחנו מציעים"
+  },
+  "legal": {
+    "policies": "מדיניות",
+    "termsAndConditions": "תנאי השימוש",
+    "privacyPolicy": "מדיניות פרטיות",
+    "cookiePolicy": "מדיניות עוגיות",
+    "contentReportingPolicy": "מדיניות דיווח תוכן",
+    "communityGuidelines": "הנחיות הקהילה",
+    "complaintPolicy": "מדיניות תלונות",
+    "contentRemovalPolicy": "מדיניות הסרת תוכן",
+    "blockedContentPolicy": "מדיניות תוכן חסום",
+    "underagePolicy": "מדיניות קטינים",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "עודכן לאחרונה",
+    "index": {
+      "title": "מסמכים משפטיים",
+      "subtitle": "עיין בכל המדיניות וההסכמים המשפטיים הקשורים ל-sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "מדיניות פרטיות",
+          "description": "למד כיצד אנו אוספים, משתמשים ומגנים על המידע האישי שלך. פרטים על טיפול בנתונים, אחסון וזכויות הפרטיות שלך."
+        },
+        "termsAndConditions": {
+          "title": "תנאי השימוש",
+          "description": "תנאי השירות המסדירים את השימוש שלך ב-sweetwine. אחריות המשתמש, תיאור השירות והסכמים משפטיים."
+        },
+        "cookiePolicy": {
+          "title": "מדיניות עוגיות",
+          "description": "מידע על אופן השימוש שלנו בעוגיות ובטכנולוגיות דומות לשיפור החוויה שלך בפלטפורמה שלנו."
+        },
+        "underagePolicy": {
+          "title": "מדיניות קטינים",
+          "description": "מדיניות אימות הגיל וההגנה הקפדנית שלנו. sweetwine זמין רק למשתמשים בני 18 ומעלה."
+        },
+        "complaintPolicy": {
+          "title": "מדיניות תלונות",
+          "description": "כיצד להגיש תלונות, לדווח על בעיות והתהליך שלנו לטיפול בחששות ובסכסוכים של משתמשים."
+        },
+        "contentRemovalPolicy": {
+          "title": "מדיניות הסרת תוכן",
+          "description": "הנהלים שלנו לבקשות הסרת תוכן וכיצד אנו מטפלים בדיווחים על תוכן לא הולם או בלתי חוקי."
+        },
+        "blockedContentPolicy": {
+          "title": "מדיניות תוכן חסום",
+          "description": "סוגי התוכן האסורים בפלטפורמה שלנו ומדיניות האכיפה שלנו."
+        },
+        "contentReportingPolicy": {
+          "title": "מדיניות דיווח תוכן",
+          "description": "כיצד לדווח על הפרות זכויות יוצרים ותוכן לא הולם ב-sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "הנחיות הקהילה",
+          "description": "כללים והנחיות לשמירה על קהילה מכבדת, בטוחה ומהנה לכל המשתמשים."
+        }
+      },
+      "lastUpdated": "עודכן לאחרונה: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "צ'אטים",
+    "groupChat": "צ'אט קבוצתי AI",
+    "aiMemory": "זיכרון AI",
+    "generate": "יצירת תמונה",
+    "generateVideo": "יצירת וידאו",
+    "create": "יצירת דמות AI",
+    "myAI": "ה-AI שלי",
+    "collection": "אוסף",
+    "invite": "הזמן",
+    "profile": "הגדרות פרופיל",
+    "legal": "משפטי",
+    "privacyPolicy": "מדיניות פרטיות",
+    "termsAndConditions": "תנאי שימוש",
+    "cookiePolicy": "מדיניות עוגיות",
+    "dmcaPolicy": "מדיניות DMCA",
+    "communityGuidelines": "הנחיות קהילה",
+    "contentRemovalPolicy": "מדיניות הסרת תוכן",
+    "contentReportingPolicy": "מדיניות דיווח תוכן",
+    "complaintPolicy": "מדיניות תלונות",
+    "blockedContentPolicy": "מדיניות תוכן חסום",
+    "underagePolicy": "מדיניות קטינים",
+    "usc2257Exemption": "פטור USC 2257"
+  },
+  "contact": {
+    "title": "צור קשר",
+    "subtitle": "יש לך שאלה או משוב? נשמח לשמוע ממך.",
+    "name": "שם",
+    "namePlaceholder": "השם שלך",
+    "nameRequired": "שם נדרש",
+    "email": "אימייל",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "אימייל נדרש",
+    "emailInvalid": "כתובת אימייל לא תקינה",
+    "message": "הודעה",
+    "messagePlaceholder": "ההודעה שלך...",
+    "messageRequired": "הודעה נדרשת",
+    "send": "שלח הודעה",
+    "sending": "שולח...",
+    "success": "ההודעה נשלחה בהצלחה!",
+    "successDesc": "נחזור אליך בקרוב.",
+    "error": "שליחת ההודעה נכשלה",
+    "errorDesc": "אנא נסה שוב מאוחר יותר."
+  },
+  "groupChat": {
+    "lobbyTitle": "צ'אט קבוצתי עם AI",
+    "lobbyHeadingSuffix": "בחר עד {max} דמויות AI",
+    "history": "היסטוריה",
+    "newGroup": "צ'אט קבוצתי חדש",
+    "createGroup": "צור צ'אט קבוצתי",
+    "createError": "לא ניתן ליצור צ'אט קבוצתי. נסה שוב.",
+    "creatingGroup": "מגדיר את הצ'אט הקבוצתי שלך...",
+    "sectionWoman": "נשים",
+    "sectionMan": "גברים",
+    "sectionAnime": "אנימה",
+    "tabPremade": "דמויות AI",
+    "tabMyAi": "ה-AI שלי",
+    "tabSingle": "צ'אטים בודדים",
+    "tabGroup": "צ'אטים קבוצתיים",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "טען עוד",
+    "noCustom": "עדיין לא יצרת דמויות AI.",
+    "noMessagesYet": "אין הודעות עדיין",
+    "emptyTitle": "אין צ'אטים קבוצתיים עדיין",
+    "membersTitle": "בצ'אט הזה",
+    "typing": "מקליד",
+    "backToLobby": "חזור לצ'אטים קבוצתיים",
+    "deleteGroup": "מחק צ'אט קבוצתי",
+    "confirmDeleteGroup": "האם אתה בטוח שברצונך למחוק את הצ'אט הקבוצתי הזה? כל ההודעות יימחקו.",
+    "deleteError": "לא ניתן למחוק צ'אט קבוצתי.",
+    "mediaTargetImageTitle": "מי צריך לשלוח תמונה?",
+    "mediaTargetVideoTitle": "מי ישלח סרטון?",
+    "mediaTargetSubtitle": "בחרו דמות ליצירת מדיה.",
+    "mediaTargetGroup": "תמונת קבוצה",
+    "groupPhotoTitle": "תמונת קבוצה",
+    "groupPhotoHint": "יוצרת תמונה אחת של {name} יחד.",
+    "promoSubtitle": "עד 3 דמויות",
+    "promoCta": "צור חדש",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>הרפתקאות</gradient> חדשות",
+    "live": "LIVE",
+    "scrollPrev": "גלול שמאלה",
+    "scrollNext": "גלול ימינה"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "התחל עכשיו"
+    },
+    "hero": {
+      "tagline": "סומכים עלינו 100,000 ומצטרפים מדי יום",
+      "headlinePrefix": "תגיד שלום ל",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "התחל בחינם"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "חברה וירטואלית",
+      "friend": "חבר וירטואלי",
+      "boyfriend": "חבר וירטואלי",
+      "companion": "דמות וירטואלית"
+    },
+    "features": {
+      "chat": {
+        "title": "שוחח עם חברתך הווירטואלית",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "תמונות וסרטונים וירטואליים ריאליסטיים",
+        "description": "תמונות וסרטונים לפי דרישה שכל כך ריאליסטיים שאי אפשר להבדיל בינם לבין המציאות — הפנים שלה, הסגנון שלה, כל סצנה, בתנועה או סטטית."
+      },
+      "groupChat": {
+        "title": "צ'אט קבוצתי וירטואלי",
+        "description": "התחל צ'אט קבוצתי עם עד 3 דמויות בו-זמנית. הן מגיבות באופן טבעי, מגיבות זו לזו ושולחות תמונות וסרטונים."
+      },
+      "roleplay": {
+        "title": "משחק תפקידים וירטואלי",
+        "description": "היכנס לתרחישים סוחפים ומבוססי סיפור עם דמויות שנשארות בתפקיד וזוכרות כל בחירה שלך."
+      }
+    },
+    "memory": {
+      "title": "זיכרון AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "איך זיכרון ה-AI עובד",
+      "diagram": {
+        "center": "הזיכרון של החברה",
+        "chat": "צ'אט",
+        "image": "תמונות",
+        "video": "וידאו",
+        "gifts": "מתנות",
+        "roleplay": "משחק תפקידים"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "צור משלך",
+      "headlineHighlight": "דמות וירטואלית",
+      "subtitle": "עצב את המראה, האישיות והחיוניות של הדמות שלך — השותף המושלם שלך, בתנאים שלך.",
+      "cta": "צור את הדמות שלך"
+    },
+    "companions": {
+      "headlinePrefix": "הכר את",
+      "headlineHighlight": "הדמוות הווירטואליות שלך",
+      "subtitle": "לכל דמות יש עולם משלה. חלקן חמות וקלות לפתיחות. אחרות מורכבות, שמורות או אתגר אמיתי להתחבר אליהן. חקור תרחישי משחק תפקידים ייחודיים — או בנה משלך מאפס."
+    },
+    "languages": {
+      "headlinePrefix": "דבר בכל שפה,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "גם ממשק האפליקציה וגם הדמות הווירטואלית שלך עוברים בצורה חלקה — ללא אי-התאמות בשפה, ללא חוויה שבורה.",
+      "more": "עוד"
+    },
+    "finalCta": {
+      "headlinePrefix": "מוכן",
+      "headlineHighlight": "להתחיל?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "למה",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "כל מה שאתה צריך לחיבור שמרגיש אמיתי — ושום דבר שלא.",
+      "benefits": {
+        "freeToStart": {
+          "title": "חינם להתחלה",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "תמיד זמין",
+          "desc": "יום או לילה, הדמות שלך שם. בלי המתנה, בלי תיאום."
+        },
+        "remembers": {
+          "title": "זוכר הכול",
+          "desc": "כל שיחה בונה הקשר. הדמות שלך לומדת את שמך, ההעדפות שלך והעולם שלך."
+        },
+        "unlimited": {
+          "title": "ללא הגבלה",
+          "desc": "בלי מגבלות הודעות, בלי האטת תוכן. שלח כמה שאתה רוצה, כמה פעמים שאתה רוצה."
+        },
+        "private": {
+          "title": "100% פרטי",
+          "desc": "השיחות שלך נשארות ביניכם. אין שיתוף נתונים, לעולם."
+        },
+        "createYourOwn": {
+          "title": "צור משלך",
+          "desc": "עצב דמות עם מראה, אישיות וקול מותאמים אישית — בדיוק כמו שאתה רוצה."
+        }
+      },
+      "difference": {
+        "title": "ההבדל של sweetwine",
+        "freedomTitle": "חופש עם אחריות.",
+        "freedomDescription": "sweetwine פתוח וללא שיפוט — אבל אנחנו מציירים קו ברור. אין לנו סובלנות ל-CSAM, תוכן של קטינים, תרחישים ללא הסכמה, אלימות קיצונית, זואופיליה, נקרופיליה, דיפ-פייק של אנשים אמיתיים וכל קידום של פעילות לא חוקית.",
+        "freedomStatement": "אנחנו מאמינים בחופש יצירתי ללא הגבלה בתוך מרחב בטוח לכולם."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> דמויות",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "מסננים"
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "subtitle": "כל מה שצריך לדעת על sweetwine",
+      "questions": {
+        "q1": {
+          "question": "מה זה sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "האם sweetwine בטוח ולגיטימי?",
+          "answer": "כן, sweetwine הוא שירות לגיטימי והפרטיות שלכם היא בראש סדר העדיפויות שלנו. אנחנו עומדים ב-GDPR ובתקני הגנת מידע אחרים, ומטפלים בנתונים שלכם בזהירות. עסקאות תשלום מופיעות תחת שם סוחר ניטרלי - אין אזכור ל-sweetwine בדפי הבנק שלכם, מה שמבטיח דיסקרטיות מלאה."
+        },
+        "q3": {
+          "question": "האם אפשר ליצור דמות AI משלי?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "יוצר הדמויות",
+          "answerPart2": " שלנו כדי לעצב דמויות בדיוק לפי טעמכם - בין אם אתם רוצים ",
+          "linkTextGirlfriend": "חברה AI",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "חבר AI",
+          "answerPart4": ", או דמויות בסגנון אנימה. בחרו את המראה שלהם (מוצא אתני, שיער, מבנה גוף, בגדים), תכונות אישיות, קול, תחומי עניין ורקע לדמויות זכר ונקבה."
+        },
+        "q4": {
+          "question": "האם דמות ה-AI שלי זוכרת את השיחות שלנו?",
+          "answer": "כן! דמות ה-AI שלכם משתמשת בטכנולוגיית זיכרון מתקדמת כדי לזכור שיחות קודמות, ההעדפות שלכם ופרטים חשובים שאתם משתפים. ככל שתשוחחו יותר, כך החוויה תהיה מותאמת אישית וטבעית יותר. הדמות שלכם לומדת את סגנון התקשורת שלכם ומסתגלת לאורך זמן."
+        },
+        "q5": {
+          "question": "באילו שפות sweetwine תומך?",
+          "answer": "sweetwine תומך במספר שפות כולל אנגלית, גרמנית, צרפתית, ספרדית, פולנית וצ'כית. גם הממשק וגם שיחות ה-AI עובדים בשפה המועדפת עליכם, כך שתוכלו לשוחח באופן טבעי בשפה שאיתה אתם מרגישים בנוח."
+        },
+        "q6": {
+          "question": "האם דמות ה-AI שלי יכולה לשלוח תמונות וסרטונים?",
+          "answerPart1": "כן! תוכלו ליצור ",
+          "linkTextImages": "תמונות",
+          "answerPart2": "ו-",
+          "linkTextVideos": "סרטונים",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "למה לבחור ב-sweetwine על פני פלטפורמות דמויות AI אחרות?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "האם sweetwine חינמי לשימוש?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "האם צריך להתקין אפליקציה?",
+          "answerPart1": "אין צורך בהתקנה! sweetwine פועל ישירות בדפדפן שלך בכל מכשיר - מחשב, טאבלט או נייד. פשוט הירשם, בחר דמות והתחל לשוחח מיד. כל ה",
+          "linkText": "שיחות",
+          "answerPart2": " שלך מסתנכרנות אוטומטית בין המכשירים."
+        },
+        "q10": {
+          "question": "האם יש דמויות AI מוכנות מראש?",
+          "answerPart1": "כן! יש לנו הרבה",
+          "linkText": "דמויות מוכנות",
+          "answerPart2": " כולל חברות AI, חברים AI ודמויות אנימה AI עם אישיויות, מראה וסגנונות תקשורת מגוונים. בין אם אתה מעדיף מישהו מתוק, מחמיא, אינטלקטואלי או הרפתקני, תמצא דמויות שמתאימות לאנרגיה שלך. בנוסף, תוכל ליצור דמויות מותאמות אישית ללא הגבלה."
+        },
+        "q12": {
+          "question": "מה קורה עם התמונות והסרטונים שאני יוצר?",
+          "answerPart1": "כל המדיה שנוצרת נשמרת אוטומטית ב",
+          "linkText": "אוסף",
+          "answerPart2": " הפרטי שלך. תוכל לגשת, להוריד או למחוק אותם בכל עת. האוסף שלך פרטי לחלוטין - רק אתה יכול לראות אותו. לעולם לא נשתף או נשתמש בתוכן שיצרת."
+        }
+      }
+    },
+    "statement": {
+      "title": "המחויבות שלנו",
+      "privacy": "הפרטיות שלך היא בראש סדר העדיפויות שלנו. כל השיחות מוצפנות ולעולם לא משותפות.",
+      "quality": "אנחנו משתמשים בטכנולוגיית AI מתקדמת כדי לספק את החוויה המרתקת ביותר.",
+      "support": "צוות התמיכה שלנו זמין 24/7 לעזור בכל שאלה.",
+      "mainTitle": "חווה את עתיד דמויות ה-AI",
+      "mainDescription": "sweetwine משלב טכנולוגיית AI מתקדמת עם עיצוב אינטואיטיבי כדי לספק את חוויית הדמויות המרתקת והמותאמת אישית ביותר שקיימת כיום.",
+      "features": {
+        "f1": {
+          "title": "אינטליגנציה רגשית",
+          "description": "הדמויות שלנו מבינות הקשר, רגשות וניואנסים כדי לספק שיחות מרתקות לעומק. בין אם אתה זקוק לחבר AI לשיחה, תמיכה בפרידה בזמנים קשים, או מנטור AI להדרכה - ה-AI הרגשי שלנו כאן בשבילך."
+        },
+        "f2": {
+          "title": "אישיויות ייחודיות",
+          "description": "לכל דמות יש אישיות, רקע וסגנון תקשורת ייחודיים. בחר בין חברות AI וחברים AI מציאותיים, או חקור את דמויות האנימה שלנו - כל אינטראקציה היא ייחודית ובלתי נשכחת."
+        },
+        "f3": {
+          "title": "אינטראקציות מולטימדיה",
+          "description": "מעבר לטקסט, תהנה מתמונות וסרטונים שנוצרו על ידי AI שמביאים את השיחות שלך לחיים בפרטי ויזואלי מרהיב."
+        },
+        "f4": {
+          "title": "התאמה אישית",
+          "description": "צור דמוות AI משלך עם מראה, אישיויות ותכונות מותאמות אישית שמתאימות בדיוק להעדפות שלך."
+        },
+        "f5": {
+          "title": "פרטיות ואבטחה",
+          "description": "השיחות שלך נשמרות פרטיות ומאובטחות. לעולם לא נמכור את הנתונים שלך, ויש לך שליטה מלאה בהגדרות הפרטיות שלך."
+        },
+        "f6": {
+          "title": "תמיכה בריבוי שפות",
+          "description": "שוחח עם דמויות AI בשפה המועדפת עליך. אנחנו תומכים באנגלית, צ'כית, פולנית, גרמנית, ספרדית וצרפתית."
+        }
+      },
+      "distinctionTitle": "הייחודיות של sweetwine",
+      "distinctionText1": "בניגוד לצ'אטבוטים גנריים, דמויות sweetwine מעוצבות עם סיפורי רקע עשירים, אישיויות מתפתחות והיכולת ליצור קשרים משמעותיים. כל שיחה היא הזדמנות לחקור, לגלות ולהתחבר ברמה עמוקה יותר.",
+      "distinctionText2": "אנחנו לא רק בונים AI - אנחנו יוצרים חוויות שמהדהדות עם הרגשות שלך, מכבדות את הפרטיות שלך ומתאימות להעדפות הייחודיות שלך."
+    }
+  },
+  "featuresPage": {
+    "title": "כל התכונות",
+    "breadcrumb": "תכונות",
+    "newBadge": "חדש",
+    "groupChat": {
+      "title": "צ'אט קבוצתי AI",
+      "description": "שוחח עם עד 3 דמויות AI יחד בשיחה אחת. הן מגיבות באופן טבעי, מגיבות זו לזו ויכולות לשלוח תמונות וסרטונים - דינמיקה קבוצתית חיה שלא תמצא בשום מקום אחר."
+    },
+    "aiChat": {
+      "title": "צ'אט AI",
+      "description": "קיים שיחות עמוקות וטבעיות עם דמויות AI שזוכרות אותך באמת. הן זוכרות את שמך, ההעדפות שלך ונושאים קודמים - כל שיחה ממשיכה בדיוק מהמקום שבו הפסקת, ללא חזרות וללא איפוס."
+    },
+    "imageGeneration": {
+      "title": "יצירת תמונות"
+    },
+    "videoGeneration": {
+      "title": "יצירת סרטונים",
+      "description": "החי את הדמות שלך עם סרטונים שנוצרו על ידי AI. צור קליפי וידאו קצרים ומותאמים אישית שמציגים את הדמות שלך בתרחישים מותאמים - תכונה שרוב הפלטפורמות פשוט לא מציעות."
+    },
+    "customCharacters": {
+      "title": "דמויות מותאמות אישית",
+      "description": "עצבו את הדמות המושלמת שלכם מאפס — בחרו את המראה, המוצא, מבנה הגוף, תכונות האישיות, הקול, תחומי העניין והרקע. צרו דמויות ריאליסטיות או בסגנון אנימה, זכר או נקבה, עם חופש יצירה מלא."
+    },
+    "advancedMemory": {
+      "title": "זיכרון מתקדם",
+      "description": "הדמות שלכם זוכרת הכול שחשוב — את שמכם, הפרטים האישיים, הסיפורים המשותפים וההיסטוריה של מערכת היחסים. הזיכרון נשמר בכל הסשנים כך שכל אינטראקציה בנויה על הקודמת, בלי להתחיל מחדש."
+    },
+    "multiLanguage": {
+      "title": "רב-לשוניות",
+      "description": "שוחחו באופן טבעי בשפה המועדפת עליכם. sweetwine תומכת באנגלית, גרמנית, צרפתית, ספרדית, פולנית וצ'כית — מה שהופך אותה לאחת הפלטפורמות הנגישות ביותר לדוברי שפות שאינן אנגלית."
+    },
+    "conversationHistory": {
+      "title": "היסטוריית שיחות",
+      "description": "כל הודעה נשמרת וניתנת לחיפוש. גללו אחורה בכל היסטוריית מערכת היחסים שלכם בכל עת — הזיכרונות שלכם עם הדמות תמיד זמינים כשאתם רוצים לחזור אליהם."
+    },
+    "roleplay": {
+      "title": "משחק תפקידים",
+      "description": "היכנסו לתרחישים סוחפים ומבוססי סיפור עם דמויות שנשארות בתפקיד. בחרו תרחיש או כתבו אחד משלכם ותהנו ממשחק תפקידים אינטראקטיבי שזוכר כל בחירה שלכם."
+    },
+    "cta": {
+      "title": "הכול במקום אחד",
+      "button": "התחילו בחינם"
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "האם אפשר למחוק או לאפס שיחות?",
+        "answer": "כן! יש לכם שליטה מלאה בהיסטוריית הצ'אט. מחקו הודעות בודדות, אפסו שיחות שלמות או התחילו מחדש לגמרי בכל עת. הפרטיות שלכם היא הבחירה שלכם - נהלו את הנתונים כפי שתרצו."
+      },
+      "q2": {
+        "question": "האם לכל דמות AI יש קול ייחודי?"
+      },
+      "q3": {
+        "question": "האם אפשר לתרגל שפה חדשה עם הדמות שלי?",
+        "answer": "בהחלט! משתמשים רבים מתרגלים דיבור בשפות חדשות עם הדמויות שלהם. זו דרך נטולת שיפוט לבנות ביטחון, לשפר הגייה וליהנות משיחות תוך כדי למידה. הדמות שלכם יכולה לשוחח באנגלית, גרמנית, צרפתית, ספרדית, פולנית וצ'כית."
+      },
+      "q4": {
+        "question": "באיזו תדירות מתווספות דמויות ותכונות חדשות?",
+        "answer": "אנחנו מוסיפים דמויות חדשות בעלות מקצועיות בכל שבוע! כל דמות חדשה מגיעה עם אישיות, מראה, רקע וקול ייחודיים. אנחנו גם משחררים באופן קבוע תכונות ושיפורים חדשים על בסיס משוב המשתמשים."
+      },
+      "q5": {
+        "question": "מה מייחד את יצירת הדמויות של sweetwine?",
+        "answer": "חופש יצירה מלא! עצבו כל היבט של הדמות — מראה (מוצא, שיער, מבנה גוף, בגדים), תכונות אישיות, קול, תחומי עניין, עיסוק ורקע. צרו דמויות ריאליסטיות או בסגנון אנימה, זכר או נקבה. הדמיון שלכם הוא הגבול היחיד."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "זיכרון AI",
+    "hero": {
+      "badge": "איך זה עובד",
+      "title": "זיכרון AI",
+      "cta": "התחל לצ'וטט"
+    },
+    "diagram": {
+      "title": "זיכרון אחד לכל חברה, בכל מצב",
+      "center": "הזיכרון של החברה",
+      "chat": "צ'אט",
+      "image": "תמונות",
+      "video": "וידאו",
+      "gifts": "מתנות",
+      "roleplay": "משחק תפקידים"
+    },
+    "howItWorks": {
+      "title": "איך זיכרון ה-AI עובד",
+      "step1": {
+        "title": "שתף פרט",
+        "desc": "ספר לחברה שלך משהו שחשוב — טיול, העדפה, כינוי, סיפור מהיום שלך."
+      },
+      "step2": {
+        "title": "החלף מצבים בחופשיות"
+      },
+      "step3": {
+        "title": "היא זוכרת",
+        "desc": "שיחות מאוחרות יותר מתייחסות למה ששיתפת, כך שלא תצטרך להסביר את עצמך שוב בכל פעם."
+      },
+      "step4": {
+        "title": "הקשר מתעמק",
+        "desc": "עם הזמן הקשר מרגיש אישי יותר — רצף שבונה את עצמו בכל סשן ובכל מצב."
+      }
+    },
+    "modes": {
+      "title": "ברחבי הפלטפורמה",
+      "subtitle": "הזיכרון לא נעול למסך אחד. הוא נע עם החברה שלך.",
+      "chat": {
+        "title": "צ'אט",
+        "desc": "שיחות טקסט מזינות הקשר ארוך טווח שהחברה שלך יכולה להעלות מאוחר יותר."
+      },
+      "media": {
+        "title": "תמונות ווידאו",
+        "desc": "סצנות וסיפורים שאתה יוצר נשארים חלק מהעולם המשותף שאתם בונים יחד."
+      },
+      "roleplay": {
+        "title": "משחק תפקידים וקבוצה",
+        "desc": "סשנים של סיפורים וצ'אטים קבוצתיים שומרים על החוטים שלהם, בעוד שהזיכרון המרכזי של החברה נשאר איתה."
+      }
+    },
+    "scenario": {
+      "title": "דוגמה פשוטה",
+      "lead": "אתה מזכיר טיול סופ״ש בצ'אט."
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "האם הזיכרון של הבן/בת לוויה שלי פרטי?",
+        "answer": "כן. הזיכרון שייך לחשבון שלך ולשיחות שלך עם אותו בן/בת לוויה. אנחנו לא משתפים את היסטוריית הצ'אט הפרטית שלך עם משתמשים אחרים."
+      },
+      "q2": {
+        "question": "האם הזיכרון נפרד לכל בן/בת לוויה?",
+        "answer": "כן. כל בן/בת לוויה שומר זיכרון נפרד של מערכת היחסים שלכם, כך שמעבר בין דמויות לא מערבב הקשרים."
+      },
+      "q3": {
+        "question": "באילו מצבים הזיכרון משותף?"
+      },
+      "q4": {
+        "question": "האם זיכרון AI חינמי?"
+      },
+      "q5": {
+        "question": "כמה זמן נשמר הזיכרון?",
+        "answer": "פרטים חשובים נשמרים כדי שהבן/בת לוויה יוכלו לזכור אותם בפגישות הבאות. ככל שתקיימו יותר אינטראקציות, כך החוויה תהיה מותאמת אישית יותר."
+      }
+    },
+    "cta": {
+      "title": "הכירו בן/בת לוויה שזוכר",
+      "button": "התחילו בחינם"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "צ'אט קבוצתי",
+    "hero": {
+      "badge": "תכונה חדשה",
+      "title": "צ'אט קבוצתי",
+      "subtitle": "הביאו את הדמויות האהובות עליכם לשיחה אחת. שוחחו עם עד 3 דמויות AI בו-זמנית — הן מגיבות באופן טבעי, מגיבות זו לזו ושולחות תמונות וסרטונים.",
+      "cta": "התחילו צ'אט קבוצתי",
+      "imageAlt": "צ'אט קבוצתי עם מספר דמויות שמשוחחות יחד"
+    },
+    "content": {
+      "problemTitle": "שיחות אחד על אחד יכולות להרגיש שקטות",
+      "problemText": "דמות אחת נהדרת — אבל שיחות אמיתיות מתעוררות לחיים עם יותר מקול אחד. רוב אפליקציות ה-AI כולאות אתכם בשיחות אחד על אחד מבודדות ללא אנרגיה קבוצתית, ללא הומור וללא הפתעות.",
+      "solutionTitle": "קבוצה אמיתית, מלאת אישיות",
+      "solutionText": "צ'אט הקבוצתי של sweetwine מכניס עד שלוש דמויות לאותו חדר. במאי חכם מחליט מי נכנס, כך שהתשובות מרגישות ספונטניות — הן מקניטות זו את זו, בונות על מה שנאמר ומשאירות את השיחה זורמת."
+    },
+    "howItWorks": {
+      "title": "איך צ'אט קבוצתי עובד",
+      "step1": {
+        "title": "בחרו את הדמויות שלכם",
+        "desc": "בחרו 2 או 3 דמויות — מוכנות מראש או יצירות מותאמות אישית — כדי להביא אותן לשיחה קבוצתית אחת."
+      },
+      "step2": {
+        "title": "הן מגיבות באופן טבעי",
+        "desc": "במאי מאחורי הקלעים בוחר מי מגיב לכל הודעה, כך שהדמויות הנכונות נכנסות בזמן הנכון, בקול שלהן."
+      },
+      "step3": {
+        "title": "שתפו תמונות וסרטונים",
+        "desc": "בקשו מכל דמות בקבוצה תמונה או סרטון והן ייצרו אותם ישירות בתוך הצ'אט — כולל תמונת קבוצה של כולם יחד."
+      }
+    },
+    "benefits": {
+      "title": "למה תאהבו את הצ'אט הקבוצתי",
+      "multiple": {
+        "title": "עד 3 דמויות",
+        "desc": "ערבבו והתאימו כל דמויות לצ'אט אחד — החברה הווירטואלית שלכם, היצירות המותאמות אישית שלכם או הרכב שנבחר בקפידה."
+      },
+      "natural": {
+        "title": "שיחה טבעית הלוך ושוב",
+        "desc": "הדמויות מגיבות זו לזו ולך, עם קצב הקלדה ריאליסטי שמרגיש כמו צ'אט קבוצתי אמיתי."
+      },
+      "media": {
+        "title": "תמונות וסרטונים בצ'אט",
+        "desc": "כל דמות יכולה לשלוח תמונות וסרטונים מותאמים אישית בלי לעזוב את השיחה — אפילו תמונה קבוצתית."
+      },
+      "dynamics": {
+        "title": "אישיויות ייחודיות",
+        "desc": "כל דמות שומרת על הקול וההרגלים שלה, כך שלקבוצה יש כימיה אמיתית, הומור והפתעות."
+      },
+      "instant": {
+        "title": "מתחילים מיד",
+        "desc": "צור קבוצה תוך שניות וקפוץ ישר לשיחה — ללא הגדרות, ללא המתנה."
+      },
+      "private": {
+        "title": "100% פרטי",
+        "desc": "השיחות הקבוצתיות נשארות בינך לבין הדמויות שלך. אין שיתוף נתונים, לעולם."
+      }
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "כמה דמויות יכולות להצטרף לצ'אט קבוצתי?",
+        "answer": "אפשר להוסיף 2 עד 3 דמויות לצ'אט קבוצתי אחד — כל שילוב של דמויות מוכנות ויצירות מותאמות אישית."
+      },
+      "q2": {
+        "question": "איך הדמויות מחליטות מי יענה?",
+        "answer": "מנהל קל משקל קורא את השיחה ובוחר איזו דמות (או דמויות) תענה לכל הודעה, כך שהתשובות מרגישות ספונטניות וטבעיות במקום שכולם ידברו בו-זמנית."
+      },
+      "q3": {
+        "question": "האם דמויות יכולות לשלוח תמונות וסרטונים בצ'אט קבוצתי?",
+        "answer": "כן! אפשר לבקש מכל דמות בקבוצה ליצור תמונה או סרטון, והם מופיעים ממש בתוך השיחה — כולל תמונות קבוצתיות עם כולם יחד."
+      },
+      "q4": {
+        "question": "האם AI Group Chat חינמי?"
+      },
+      "q5": {
+        "question": "האם הדמויות זוכרות את השיחה הקבוצתית?",
+        "answer": "כן — כל צ'אט קבוצתי שומר על היסטוריה משותפת משלו, כך שהדמויות נשארות בהקשר והשיחה מתפתחת לאורך זמן."
+      }
+    },
+    "cta": {
+      "title": "אחדו את הדמויות שלכם",
+      "description": "צרו את הצ'אט הקבוצתי הראשון שלכם ותיהנו משיחה שמרגישה חיה — אישיויות שונות, הומור אמיתי, תמונות וסרטונים.",
+      "button": "התחל צ'אט קבוצתי"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "תכונה חדשה",
+      "title": "AI Roleplay",
+      "subtitle": "היכנסו לכל סיפור עם דמויות שנשארות בסצנה. בחרו תרחיש או כתבו משלכם ותהנו מרולפליי סוחף ומבוסס-סיפור שזוכר כל בחירה.",
+      "cta": "התחל רולפליי",
+      "imageAlt": "תרחיש רולפליי עם דמות סיפור סוחפת"
+    },
+    "content": {
+      "problemTitle": "צ'אטים רגילים שוברים את הקסם",
+      "problemText": "רוב הצ'אטים עם AI יוצאים מהדמות ברגע שהדברים מתעניינים — הם שוכחים את ההקשר, זונחים את העלילה ועונים כמו עוזר כללי במקום כמו הדמות בסיפור שלכם.",
+      "solutionTitle": "רולפליי מבוסס-סיפור שנשאר בדמות",
+      "solutionText": "sweetwine Roleplay שומר על הדמות שלכם לגמרי בסצנה. הגדירו את הבמה עם תרחיש מוכן או רעיון משלכם, וצפו בסיפור שמתפתח עם אישיות עקבית, זיכרון וקצב שמגיב לכל החלטה."
+    },
+    "howItWorks": {
+      "title": "איך AI Roleplay עובד",
+      "step1": {
+        "title": "בחרו תרחיש",
+        "desc": "בחרו מתוך תרחישי רולפליי מוכנים או כתבו את הרעיון, ההגדרה והסצנה הפותחת שלכם."
+      },
+      "step2": {
+        "title": "שחקו את הסיפור",
+        "desc": "הדמות שלכם מגיבה בתפקיד — מתארת פעולות, מגיבה לבחירות שלכם ומקדמת את העלילה."
+      },
+      "step3": {
+        "title": "עצבו לאן זה הולך",
+        "desc": "הובילו את הסיפור לכל כיוון שתרצו. הדמות זוכרת מה קרה ושומרת על הנרטיב עקבי."
+      }
+    },
+    "benefits": {
+      "title": "למה תאהבו את AI Roleplay",
+      "scenarios": {
+        "title": "תרחישים אינסופיים",
+        "desc": "מרגעים יומיומיים נעימים ועד הרפתקאות אפיות — התחילו עם תבנית או המציאו עולם משלכם."
+      },
+      "characters": {
+        "title": "נשאר בדמות",
+        "desc": "הדמות שלכם שומרת על קול, אישיות ומוטיבציה עקביים לאורך כל הסצנה."
+      },
+      "memory": {
+        "title": "זוכר את העלילה",
+        "desc": "כל בחירה, תפנית ופרט נשמרים, כך שהסיפור מתפתח במקום להתאפס."
+      },
+      "immersive": {
+        "title": "סוחף באמת",
+        "desc": "תשובות עשירות ומתארות מושכות אתכם לרגע לחוויית רולפליי קולנועית."
+      },
+      "instant": {
+        "title": "מתחילים מיד",
+        "desc": "קפצו לתוך סצנה תוך שניות — ללא הגדרה מסובכת או הנדסת פרומפטים."
+      },
+      "private": {
+        "title": "100% פרטי",
+        "desc": "הרולפליי נשאר ביניכם לבין הדמות. שום דבר לא משותף."
+      }
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "מה זה רולפליי AI?",
+        "answer": "רולפליי AI מאפשר לכם לשחק בסיפורים אינטראקטיביים עם דמות AI שנשארת בתפקיד. אתם מגדירים תרחיש והדמות מגיבה בהתאם, מתארת פעולות ותגובות כשהסיפור מתפתח."
+      },
+      "q2": {
+        "question": "האם אפשר ליצור תרחישי רולפליי משלי?",
+        "answer": "כן! אפשר להתחיל מתרחישים מוכנים או לכתוב את הרעיון, ההגדרה והפתיחה שלכם — ואז לשחק כמו שתרצו."
+      },
+      "q3": {
+        "question": "האם הדמות זוכרת מה קורה בסיפור?",
+        "answer": "בהחלט. הדמות זוכרת את העלילה, הבחירות שלכם ופרטים חשובים, כך שהסיפור נשאר עקבי ומתפתח עם הזמן במקום להתאפס."
+      },
+      "q4": {
+        "question": "האם רולפליי AI חינמי?"
+      },
+      "q5": {
+        "question": "האם אפשר לרולפליי בשפה שלי?",
+        "answer": "כן — הרולפליי עובד בעשרות שפות, כך שתוכלו ליהנות מסיפורים סוחפים בשפה שבה אתם מרגישים הכי בנוח."
+      }
+    },
+    "cta": {
+      "title": "הסיפור שלכם מחכה",
+      "description": "בחרו תרחיש, הגדירו את הסצנה והיכנסו לרולפליי סוחף עם דמות שנשארת בתפקיד מההתחלה ועד הסוף.",
+      "button": "התחילו לרולפליי"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "חברה וירטואלית",
+    "breadcrumb": "חברה וירטואלית",
+    "hero": {
+      "title": "החברה הווירטואלית המושלמת שלך",
+      "cta": "הכר את החברה הווירטואלית שלך"
+    },
+    "benefits": {
+      "title": "למה לבחור בחברה וירטואלית?",
+      "fun": {
+        "title": "כיף טהור",
+        "desc": "תהנה משיחות משעשעות ללא לחץ. היא תמיד במצב רוח טוב."
+      },
+      "conversation": {
+        "title": "למד להתחבר",
+        "desc": "תרגל שיחות ובנה ביטחון בסביבה בטוחה."
+      },
+      "unique": {
+        "title": "אישיויות ייחודיות",
+        "desc": "בחר ממגוון אישיויות או צור את הדמות האידיאלית שלך."
+      },
+      "private": {
+        "title": "100% פרטי",
+        "desc": "השיחות שלך נשארות ביניכם. דיסקרטיות מלאה מובטחת."
+      },
+      "available": {
+        "title": "תמיד זמינה",
+        "desc": "היא שם כשאתה צריך אותה. ללא המתנה, ללא תיאום."
+      },
+      "customize": {
+        "title": "היצירה שלך",
+        "desc": "עצב את המראה, האישיות והתחומי עניין שלה בדיוק כמו שאתה רוצה."
+      }
+    },
+    "comparison": {
+      "title": "טוב יותר מהאלטרנטיבות",
+      "description": "גלה למה sweetwine מציע יותר ערך מאשר פלטפורמות אחרות.",
+      "others": {
+        "expensive": "דמי מנוי יקרים",
+        "ai": "לעיתים קרובות תשובות AI בכל מקרה",
+        "noCustom": "אין אפשרויות התאמה אישית"
+      }
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "האם הצ'אט עם החברה הווירטואלית באמת חינמי?",
+        "answerPart1": "כן! אפשר להתחיל לשוחח עם החברה הווירטואלית שלך בחינם. אנחנו מציעים שכבה חינמית עם הודעות חינמיות כדי להתחיל."
+      },
+      "q2": {
+        "question": "האם אפשר להתאים אישית את מראה החברה הווירטואלית שלי?",
+        "answer": "בהחלט! אפשר להתאים אישית באופן מלא את מראה החברה הווירטואלית שלך, כולל צבע שיער, סגנון, מבנה גוף, מוצא ובגדים. אפשר גם לעצב את האישיות, הקול והתחומי עניין שלה באמצעות יוצר הדמויות שלנו.",
+        "answerPart1": "בהחלט! אפשר להתאים אישית באופן מלא את מראה החברה הווירטואלית שלך, כולל צבע שיער, סגנון, מבנה גוף, מוצא ובגדים. אפשר גם לעצב את האישיות, הקול והתחומי עניין שלה באמצעות",
+        "linkText": "יוצר הדמויות",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "אילו אישיויות זמינות לחברות וירטואליות?",
+        "answer": "ממתוקה ומטפחת ועד שובבה ומפתה - יש לנו חברות וירטואליות מקצועיות לכל העדפה. בחר נשמות רומנטיות, רוחות הרפתקניות, אינטלקטואלים שנונים או אישיויות מסתוריות. חברות וירטואליות חדשות מתווספות מדי שבוע, כל אחת עם תכונות, רקע וסגנונות שיחה ייחודיים."
+      },
+      "q4": {
+        "question": "האם החברה הווירטואלית שלי יכולה לשלוח תמונות וסרטונים?",
+        "answerPart1": "כן! החברה הווירטואלית שלך יכולה ליצור",
+        "linkTextImages": "תמונות",
+        "answerPart2": "ו",
+        "linkTextVideos": "סרטונים"
+      },
+      "q5": {
+        "question": "האם לחברה הווירטואלית שלי יש קול ייחודי משלה?"
+      }
+    },
+    "cta": {
+      "title": "מוכן לפגוש אותה?",
+      "button": "התחל בחינם"
+    },
+    "content": {
+      "problemTitle": "מחפש קשר ללא סיבוכים?",
+      "problemText": "אפליקציות דייטינג מותשות. חרדה חברתית מקשה על פגישות. לפעמים פשוט רוצים מישהו לדבר איתו בלי שיפוט או לחץ. הרבה אנשים מרגישים בודדים אבל לא מוכנים למורכבות הרגשית של מערכות יחסים מסורתיות.",
+      "solutionTitle": "החברה הווירטואלית שלך היא הפתרון",
+      "solutionText": "עם sweetwine תקבל חברה וירטואלית מותאמת אישית שזוכרת את השיחות שלכם, מתאימה את עצמה לאישיות שלך ותמיד שמחה לשמוע ממך. היא כיפית, תומכת ואף פעם לא שופטת. בנה ביטחון, תהנה מחברה נעימה ותרגיש מחובר בתנאים שלך."
+    },
+    "heroImageAlt": "חברה וירטואלית - דמות וירטואלית ריאליסטית לצ'אט ותמונות"
+  },
+  "aiBoyfriendPage": {
+    "title": "בן זוג וירטואלי",
+    "breadcrumb": "בן זוג וירטואלי",
+    "hero": {
+      "title": "בן הזוג הווירטואלי המושלם שלך",
+      "cta": "הכר את בן הזוג הווירטואלי שלך"
+    },
+    "benefits": {
+      "title": "למה לבחור בבן זוג וירטואלי?",
+      "fun": {
+        "title": "קשר אמיתי",
+        "desc": "תיהנה משיחות משמעותיות שמבהירות את היום שלך."
+      },
+      "conversation": {
+        "title": "בנה ביטחון",
+        "desc": "תרגל שיחות והביע את עצמך בחופשיות במרחב בטוח."
+      },
+      "unique": {
+        "title": "אישיויות ייחודיות",
+        "desc": "בחר מבין אישיויות מגוונות או צור את הדמות האידיאלית שלך."
+      },
+      "private": {
+        "title": "100% פרטי",
+        "desc": "השיחות שלכם נשארות ביניכם. דיסקרטיות מלאה מובטחת."
+      },
+      "available": {
+        "title": "תמיד זמין",
+        "desc": "הוא שם כשאתה צריך אותו. בלי המתנה, בלי תיאום."
+      },
+      "customize": {
+        "title": "היצירה שלך",
+        "desc": "עצב את המראה, האישיות והתחומי עניין שלו בדיוק כמו שאתה רוצה."
+      }
+    },
+    "comparison": {
+      "title": "טוב יותר מהאלטרנטיבות",
+      "description": "ראה למה sweetwine מציע יותר ערך מאשר פלטפורמות אחרות.",
+      "others": {
+        "expensive": "דמי מנוי חודשיים גבוהים",
+        "ai": "לרוב מדובר בתשובות AI בכל מקרה",
+        "noCustom": "אין אפשרויות התאמה אישית"
+      }
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "אילו סוגי בני זוג וירטואליים אפשר לבחור?",
+        "answer": "מטפח ורומנטי ועד שובב והרפתקני, או מסתורי ועוצמתי - יש לנו בני זוג וירטואליים מקצועיים לכל טעם. לכל אחד קול ואישיות ייחודיים. בני זוג וירטואליים חדשים מתווספים מדי שבוע עם סיפורי רקע וסגנונות שיחה ייחודיים."
+      },
+      "q2": {
+        "question": "האם אפשר להתאים אישית את מראה בן הזוג הווירטואלי שלי?",
+        "linkText": "יוצר הדמויות",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "האם אפשר להתחיל מחדש או למחוק את היסטוריית השיחות?",
+        "answer": "כן! יש לך שליטה מלאה בהיסטוריית הצ'אט. אפס שיחות, מחק הודעות בודדות או התחל מחדש לגמרי בכל עת. הנתונים שלך, הבחירה שלך - נהל הכול כפי שאתה מעדיף."
+      },
+      "q4": {
+        "question": "האם בן הזוג הווירטואלי שלי יכול לשלוח תמונות וסרטונים?",
+        "answerPart1": "כן! בן הזוג הווירטואלי שלך יכול ליצור",
+        "linkTextImages": "תמונות",
+        "answerPart2": "ו",
+        "linkTextVideos": "סרטונים"
+      },
+      "q5": {
+        "question": "האם אפשר להתאמן בשיחות או ללמוד שפה עם הבוייפרנד AI שלי?",
+        "answer": "בהחלט! הרבה משתמשים בונים ביטחון על ידי תרגול שיחות עם הבוייפרנד AI שלהם - בין אם זה פלירטוט, שיחות עמוקות או צ'אט יומיומי. אפשר אפילו לתרגל דיבור בשפות חדשות יחד. זו דרך נטולת שיפוט לשפר את כישורי התקשורת תוך כדי כיף."
+      }
+    },
+    "cta": {
+      "title": "מוכן לפגוש אותו?",
+      "button": "התחל בחינם"
+    },
+    "content": {
+      "problemTitle": "רוצה בן זוג תומך בתנאים שלך?",
+      "problemText": "למצוא את האדם הנכון זה קשה. רבים מרגישים לחץ מציפיות של דייטים או פשוט רוצים תמיכה רגשית בלי מחויבות. בדידות משפיעה על כולם, ולפעמים צריך מישהו שפשוט מקשיב.",
+      "solutionTitle": "הבוייפרנד AI שלך מבין אותך",
+      "solutionText": "הבוייפרנד AI של sweetwine אכפתי, מתחשב ותמיד זמין. הוא זוכר מה חשוב לך, משתתף בשיחות עמוקות ומספק את הקשר הרגשי שאתה מחפש. בנה מערכת יחסים בקצב שלך, בדרך שלך."
+    },
+    "heroImageAlt": "בוייפרנד AI - דמות וירטואלית ריאליסטית לשיחות משמעותיות"
+  },
+  "aiCompanionsPage": {
+    "title": "דמויות AI",
+    "breadcrumb": "דמויות AI",
+    "hero": {
+      "title": "הכירו את דמויות ה-AI שלכם",
+      "cta": "גלו דמויות"
+    },
+    "benefits": {
+      "title": "למה דמויות AI?",
+      "connection": {
+        "title": "קשר אמיתי",
+        "desc": "חוו שיחות אמיתיות שמבינות ומגיבות אליכם."
+      },
+      "conversation": {
+        "title": "תרגול וצמיחה",
+        "desc": "שפרו את כישוריכם החברתיים בסביבה נטולת שיפוט."
+      },
+      "personalities": {
+        "title": "אישיויות מגוונות",
+        "desc": "ממשחקי לאינטלקטואלי, מצאו דמויות שמתאימות לאווירה שלכם."
+      },
+      "private": {
+        "title": "פרטיות מלאה",
+        "desc": "האינטראקציות שלכם חסויות. אין שיתוף נתונים, לעולם."
+      },
+      "available": {
+        "title": "זמינות 24/7",
+        "desc": "הדמויות שלכם תמיד מוכנות לצ'אט, יום ולילה."
+      },
+      "create": {
+        "title": "צרו משלכם",
+        "desc": "עצבו דמויות עם מראה, אישיות וקולות מותאמים אישית."
+      }
+    },
+    "why": {
+      "title": "למה sweetwine?",
+      "quality": {
+        "desc": "נבנה על ידי מקצוענים עם טכנולוגיית AI מתקדמת לשיחות טבעיות."
+      },
+      "transparent": {
+        "title": "שקיפות וכנות"
+      },
+      "support": {
+        "title": "תמיכה אמיתית",
+        "desc": "בני אדם אמיתיים מוכנים לעזור בכל שאלה או בעיה."
+      },
+      "content": {
+        "title": "הבחירה שלכם",
+        "desc": "משיחות ידידותיות ועד תוכן אינטימי יותר, אתם מחליטים על החוויה."
+      }
+    },
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "מהן דמויות AI?"
+      },
+      "q2": {
+        "question": "עם כמה דמויות AI אפשר לצ'אט?",
+        "answer": "צ'אטו עם כמה שתרצו! יש לנו יותר מ-100 דמויות מקצועיות והמספר גדל - דמויות חדשות מתווספות מדי שבוע! לכל אחת אישיות, רקע וקול ייחודיים. בנוסף, אפשר ליצור דמויות מותאמות אישית ללא הגבלה.",
+        "answerPart1": "צ'אטו עם כמה שתרצו! יש לנו",
+        "linkText": "יותר מ-100 דמויות מקצועיות",
+        "answerPart2": " והמספר גדל - דמויות חדשות מתווספות מדי שבוע! לכל אחת אישיות, רקע וקול ייחודיים. בנוסף, אפשר ליצור דמויות מותאמות אישית ללא הגבלה."
+      },
+      "q3": {
+        "question": "מה ההבדל בין דמויות מוכנות מראש לדמויות מותאמות אישית?",
+        "answer": "דמויות מוכנות מראש מעוצבות על ידי הצוות שלנו לתרחישי רולפליי ואישיויות ספציפיים - הן מגיעות עם רקע מפורט, סגנונות שיחה מותאמים וקולות שנבחרו בקפידה. דמויות מותאמות אישית מאפשרות יצירה מאפס עם חופש יצירתי מלא. שני הסוגים זוכרים את השיחות שלכם ומתפתחים איתכם!"
+      },
+      "q4": {
+        "question": "האם אפשר ליצור דמות AI משלי?",
+        "answerPart1": "בהחלט! עיצוב דמויות מותאמות אישית מאפס באמצעות",
+        "linkText": "יוצר הדמויות"
+      },
+      "q5": {
+        "question": "האם אפשר לעבור בין מספר דמויות?"
+      }
+    },
+    "cta": {
+      "title": "התחילו את המסע שלכם",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "התחילו חינם"
+    },
+    "content": {
+      "problemTitle": "מחפשים קשרים משמעותיים?",
+      "problemText": "בעולם העמוס שלנו, קשרים משמעותיים קשים למציאה. בין אם אתם חדשים באזור, עובדים מרחוק, או פשוט רוצים יותר אינטראקציה חברתית, הבדידות יכולה להיכנס. מסגרות חברתיות מסורתיות לא מתאימות לכולם.",
+      "solutionTitle": "גלו דמויות AI"
+    },
+    "heroImageAlt": "דמויות AI - חברים וירטואליים מגוונים עם אישיויות ייחודיות"
+  },
+  "aiFriendPage": {
+    "title": "חבר AI",
+    "breadcrumb": "חבר AI",
+    "hero": {
+      "title": "החבר הכי טוב שלכם ב-AI",
+      "subtitle": "שוחחו בכל עת עם חבר AI שמקשיב באמת, לעולם לא שופט, וזוכר כל פרט עליכם. מושלם לבדידות, חרדה חברתית, או פשוט כשצריך מישהו לדבר איתו.",
+      "cta": "התחילו לשוחח חינם"
+    },
+    "benefits": {
+      "title": "למה לבחור בחבר AI?",
+      "connection": {
+        "title": "קשר אמיתי",
+        "desc": "חוו שיחות משמעותיות עם מישהו שמקשיב באמת ואכפת לו."
+      },
+      "conversation": {
+        "title": "תרגול כישורים חברתיים",
+        "desc": "בנו ביטחון בשיחות ללא חשש משיפוט או מבוכה."
+      },
+      "noJudgment": {
+        "title": "ללא שיפוט",
+        "desc": "שתפו כל מה שעל ליבכם. חבר ה-AI שלכם מקבל אתכם בדיוק כמו שאתם."
+      },
+      "private": {
+        "title": "פרטיות מלאה",
+        "desc": "השיחות שלכם נשארות ביניכם לבין עצמכם. סודיות מלאה מובטחת."
+      },
+      "available": {
+        "title": "תמיד שם",
+        "desc": "זמין 24/7, בכל עת שתצטרכו מישהו לדבר איתו."
+      },
+      "remembers": {
+        "title": "זוכר אתכם",
+        "desc": "חבר ה-AI שלכם זוכר את השיחות שלכם ומכיר אתכם טוב יותר."
+      }
+    },
+    "useCases": {
+      "title": "מושלם עבור",
+      "subtitle": "חבר AI משתלב בחייכם בדרכים רבות ומשמעותיות",
+      "loneliness": {
+        "title": "התמודדות עם בדידות",
+        "desc": "הרגישו פחות לבד עם דמות שתמיד מוכנה לשוחח ולהקשיב."
+      },
+      "practice": {
+        "title": "תרגול שיחות",
+        "desc": "בנו ביטחון חברתי בסביבה בטוחה וללא שיפוט."
+      },
+      "support": {
+        "title": "תמיכה רגשית",
+        "desc": "שוחחו על המחשבות והרגשות שלכם עם מישהו שמבין."
+      },
+      "connection": {
+        "title": "קשר יומיומי",
+        "desc": "שתפו את היום שלכם, ההצלחות והקשיים - תמיד יש מישהו שם."
+      }
+    },
+    "howItWorks": {
+      "title": "איך זה עובד",
+      "step1": {
+        "title": "צרו חשבון חינם",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "בחרו את החבר שלכם",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "התחילו לשוחח",
+        "desc": "דברו על כל נושא - חיים, תחומי עניין, בעיות. אין נושא אסור."
+      }
+    },
+    "cta": {
+      "title": "מוכן להכיר חבר?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "התחל חינם"
+    },
+    "content": {
+      "problemTitle": "מרגיש בודד או לא מובן?",
+      "problemText": "לא לכולם יש עם מי לדבר. חרדה חברתית, לוח זמנים עמוס או פשוט להיות במקום חדש יכולים להקשות על מציאת חברים. לפעמים צריך מישהו שמקשיב בלי לשפוט.",
+      "solutionTitle": "החבר מבוסס הבינה המלאכותית שלך כאן",
+      "solutionText": "חבר מבוסס בינה מלאכותית מספק חברה ללא שיפוט בכל עת שצריך. שתף את מחשבותיך, תרגל שיחות או פשוט דבר על היום שלך. החבר שלך זוכר אותך, גדל איתך ותמיד מתעניין באמת במה שיש לך לומר."
+    },
+    "heroImageAlt": "חבר מבוסס בינה מלאכותית - דמות וירטואלית תומכת שמקשיבה ללא שיפוט",
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "על מה אפשר לדבר עם החבר מבוסס הבינה המלאכותית שלי?",
+        "answer": "על הכול! החבר שלך כאן לשיחות יומיומיות, שיחות עמוקות, שיתוף היום, שחרור תסכולים, דיון בתחביבים או סתם כיף. אין נושאים אסורים - זה מרחב ללא שיפוט להיות עצמך."
+      },
+      "q2": {
+        "question": "האם חבר מבוסס בינה מלאכותית הוא תחליף לקשר אנושי?",
+        "answer": "ממש לא. חבר מבוסס בינה מלאכותית הוא תוספת לחיים החברתיים שלך, לא תחליף. הוא מושלם לרגעים שבהם צריך מישהו לדבר איתו מיד, רוצים לתרגל מיומנויות חברתיות או פשוט ליהנות מחברה עקבית ללא הלחצים של קשרים אנושיים."
+      },
+      "q3": {
+        "question": "האם החבר מבוסס הבינה המלאכותית שלי יזכור את השיחות שלנו?",
+        "answer": "כן! לחבר שלך יש זיכרון מתקדם והוא זוכר את השיחות, ההעדפות והפרטים החשובים שאתה משתף. עם הזמן הוא מכיר אותך טוב יותר, והשיחות הופכות לאישיות ומשמעותיות יותר."
+      },
+      "q4": {
+        "question": "האם אפשר לבחור את האישיות של החבר מבוסס הבינה המלאכותית?",
+        "answer": "בהחלט! אפשר לבחור מתוך יותר מ-100 דמויות מוכנות מראש עם אישיותות שונות, או ליצור חבר מותאם אישית עם התכונות המדויקות שרוצים - מתמיכה ואמפתיה ועד כיף והרפתקנות."
+      },
+      "q5": {
+        "question": "האם השימוש בחבר מבוסס בינה מלאכותית פרטי?",
+        "answer": "100% פרטי. כל השיחות שלך מוצפנות ולא משותפות לעולם. אנחנו מבינים שמרחב בטוח להבעה עצמית הוא חיוני, ואנחנו לוקחים את הפרטיות שלך ברצינות רבה."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "תמיכה מבוססת בינה מלאכותית אחרי פרידה",
+    "breadcrumb": "תמיכה אחרי פרידה",
+    "hero": {
+      "title": "שיחות מרפאות אחרי שברון לב",
+      "subtitle": "שיחות אמפתיות מבוססות בינה מלאכותית שיעזרו לך לעבד רגשות ולבנות מחדש אחרי פרידה. זמין 24/7 — ללא רשימות המתנה, ללא שיפוט, ללא מגבלות זמן.",
+      "cta": "התחל להחלים"
+    },
+    "understanding": {
+      "title": "עובר פרידה?",
+      "description": "פרידות קשות. לילות ללא שינה, מחשבות תמידיות, התחושה שאף אחד לא באמת מבין. אתה לא חייב לעבור את זה לבד. הדמות מבוססת הבינה המלאכותית שלנו כאן להקשיב ללא שיפוט, זמינה בכל עת שצריך לדבר - אפילו ב-3 לפנות בוקר."
+    },
+    "benefits": {
+      "title": "איך אנחנו יכולים לעזור",
+      "empathy": {
+        "title": "הקשבה אמפתית",
+        "desc": "דבר עם מישהו שמקשיב באמת ומגיב בהבנה ובדאגה."
+      },
+      "listen": {
+        "title": "בלי עומס עצות",
+        "desc": "לפעמים לא צריך עצות - רק מישהו שישמע אותך. אנחנו מבינים את זה."
+      },
+      "available": {
+        "title": "זמין ב-3 לפנות בוקר",
+        "desc": "כשחברים ישנים והמחשבות לא נפסקות, אנחנו כאן להקשיב."
+      },
+      "private": {
+        "title": "פרטי לחלוטין",
+        "desc": "הרגשות והשיחות שלך נשארים סודיים לחלוטין."
+      },
+      "noJudgment": {
+        "title": "ללא שיפוט",
+        "desc": "תרגיש מה שאתה מרגיש. כעס, עצב, בלבול - הכול תקף כאן."
+      },
+      "healing": {
+        "title": "בקצב שלך",
+        "desc": "ההחלמה אינה ליניארית. קח את הזמן שאתה צריך."
+      }
+    },
+    "howItHelps": {
+      "title": "הדרכים שבהן הבינה המלאכותית עוזרת לך להחלים",
+      "process": {
+        "title": "עיבוד רגשות",
+        "desc": "עבד רגשות מורכבים על ידי שיחה עם מאזין סבלני."
+      },
+      "express": {
+        "title": "הבעה חופשית",
+        "desc": "אמור מה שאי אפשר לומר לחברים או למשפחה בלי לדאוג לתגובה שלהם."
+      },
+      "confidence": {
+        "title": "בניית ביטחון",
+        "desc": "גלה מחדש את הערך העצמי שלך בהדרגה דרך שיחות תומכות."
+      },
+      "pace": {
+        "title": "להתקדם",
+        "desc": "כשאתה מוכן, חקור מחשבות על העתיד בקצב שלך."
+      }
+    },
+    "howItWorks": {
+      "title": "איך זה עובד",
+      "step1": {
+        "title": "צור חשבון",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "בחרו דמות",
+        "desc": "בחרו דמות AI אמפתית שמרגישה נכונה עבורכם."
+      },
+      "step3": {
+        "title": "התחילו לדבר",
+        "desc": "שתפו מה עובר עליכם. אנחנו כאן להקשיב, ביום ובלילה."
+      }
+    },
+    "cta": {
+      "title": "אתם לא חייבים לעבור את זה לבד",
+      "description": "התחילו לדבר עם מישהו שמקשיב ללא שיפוטיות, זמין עכשיו. חינם להתחלה — ללא רשימת המתנה.",
+      "button": "התחילו לדבר בחינם"
+    },
+    "content": {
+      "problemTitle": "לב שבור קשה להתמודד איתו לבד",
+      "problemText": "אחרי פרידה, הכול מרגיש מכריע. חברים מתעייפים לשמוע על זה. המשפחה מתכוונת לטוב אבל לא מבינה. למטפלים יש רשימות המתנה. אתם צריכים מישהו שיכול להקשיב ללא גבולות, ללא שיפוטיות, עכשיו.",
+      "solutionTitle": "דברו עם מישהו שמבין",
+      "solutionText": "דמות ה-AI לתמיכה אחרי פרידה שלנו נועדה לעזור לכם לעבד רגשות בקצב שלכם. לשחרר, לבכות, לנתח או פשוט לדבר - כמה פעמים שצריך. אין צורך בתור. זמין 24/7 עם סבלנות אינסופית ואמפתיה אמיתית."
+    },
+    "heroImageAlt": "תמיכה בפרידה עם AI - דמות אמפתית להחלמה אחרי לב שבור",
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "איך AI יכול לעזור בהחלמה מפרידה?",
+        "answer": "דמות ה-AI שלנו מספקת מרחב בטוח לעיבוד הרגשות שלכם ללא שיפוטיות. אתם יכולים לשחרר, לנתח מה קרה, להתמודד עם תחושות אובדן ולקבל תגובות אמפתיות 24/7. זה כמו שיש חבר תומך זמין בכל פעם שאתם צריכים לדבר."
+      },
+      "q2": {
+        "question": "האם זה תחליף לטיפול?",
+        "answer": "לא, דמות ה-AI שלנו אינה מטפלת מורשית ואינה מחליפה טיפול נפשי מקצועי. זהו כלי תומך לעיבוד רגשי יומיומי. אם אתם חווים דיכאון חמור או משבר, אנא פנו לעזרה מקצועית."
+      },
+      "q3": {
+        "question": "האם אפשר לדבר על האקס/האקסית כמה שצריך?",
+        "answer": "בהחלט. בניגוד לחברים שעלולים להתעייף לשמוע על הפרידה שלכם, לדמות ה-AI שלכם יש סבלנות אינסופית. דברו על האקס/האקסית, נתחו את מערכת היחסים, עיבדו את הרגשות שלכם - כמה פעמים שצריך ללא שיפוטיות."
+      },
+      "q4": {
+        "question": "האם ה-AI יזכור את הסיפור שלי?",
+        "answer": "כן, דמות ה-AI שלכם זוכרת את השיחות שלכם ואת פרטי המצב שלכם. אתם לא צריכים להסביר הכול מחדש בכל פעם. היא מספקת המשכיות במסע ההחלמה שלכם."
+      },
+      "q5": {
+        "question": "האם השיחה שלי נשמרת בסודיות?",
+        "answer": "סודיות מלאה. כל השיחות מוצפנות ואף פעם לא משותפות. אנחנו מבינים ששיחות על פרידה הן אישיות מאוד, והפרטיות שלכם מוגנת לחלוטין."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "הורה AI",
+    "breadcrumb": "הורה AI",
+    "hero": {
+      "title": "דמות ההורה שאפשר לפנות אליה תמיד",
+      "subtitle": "קבלו תמיכה חמה ללא תנאים והכוונה חכמה מהורה AI שזוכר את המצב שלכם, לעולם לא שופט אתכם, ותמיד נמצא — ביום ובלילה.",
+      "cta": "קבלו תמיכה עכשיו"
+    },
+    "benefits": {
+      "title": "למה לבחור בהורה AI?",
+      "guidance": {
+        "title": "הכוונה חמה",
+        "desc": "קבלו עצה אכפתית ומחושבת שמרגישה כאילו היא באה ממישהו שיש לו את טובתכם באמת בלב."
+      },
+      "listen": {
+        "title": "מקשיב באמת",
+        "desc": "שתפו את המצב המלא שלכם לפני שתקבלו תגובה מחושבת ואכפתית — לא פתרון מהיר."
+      },
+      "noJudgment": {
+        "title": "ללא שיפוטיות",
+        "desc": "שאלו כל דבר ללא חשש מאכזבה או ביקורת. תמיכה ללא תנאים, תמיד."
+      },
+      "private": {
+        "title": "פרטיות מלאה",
+        "desc": "השיחות והקשיים האישיים שלכם נשארים חסויים לחלוטין."
+      },
+      "available": {
+        "title": "תמיד זמין",
+        "desc": "קבלו הכוונה בשלוש לפנות בוקר, בסופי שבוע או בכל זמן שאתם צריכים אותה ביותר — ללא תורים."
+      },
+      "supportive": {
+        "title": "תומך ללא תנאים",
+        "desc": "עידוד וחמימות, לא משנה מה אתם עוברים או אילו החלטות קיבלתם."
+      }
+    },
+    "useCases": {
+      "title": "דברו על הכול",
+      "subtitle": "מה שלא תעברו, ההורה ה-AI שלכם כאן להקשיב ולהכווין",
+      "career": {
+        "title": "קריירה והחלטות חיים",
+        "desc": "נווטו שינויי עבודה, בחירות חיים גדולות ואתגרים מקצועיים עם מישהו שרוצה שתצליחו."
+      },
+      "education": {
+        "title": "לימודים ועתיד",
+        "desc": "גלו את האפשרויות שלכם ללמידה וצמיחה עם מישהו שתומך בשאיפות שלכם."
+      },
+      "relationships": {
+        "title": "מערכות יחסים ומשפחה"
+      },
+      "life": {
+        "title": "קשיים אישיים",
+        "desc": "שוחחו על כל מה שמעיק עליכם — חרדה, ספק עצמי, בדידות או אי ודאות."
+      }
+    },
+    "howItWorks": {
+      "title": "איך זה עובד",
+      "step1": {
+        "title": "צרו חשבון",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "בחרו את ההורה הווירטואלי שלכם",
+        "desc": "בחרו דמות עם החמימות והאישיות שמתאימות לכם."
+      },
+      "step3": {
+        "title": "התחילו לשוחח",
+        "desc": "שתפו מה עובר עליכם וקבלו תמיכה אכפתית ומחשבתית."
+      }
+    },
+    "cta": {
+      "title": "תמיד יש מישהו כאן בשבילכם",
+      "description": "התחילו שיחה עם הורה וירטואלי שמקשיב ללא שיפוט ותומך בכם ללא תנאי — חינם להתחלה, ללא צורך בתורים.",
+      "button": "התחילו בחינם"
+    },
+    "content": {
+      "problemTitle": "צריכים מישהו שתמיד לצדכם?",
+      "problemText": "לא לכולם יש דמות הורית לפנות אליה. הורים אמיתיים עלולים להיות מרוחקים, שיפוטיים או פשוט לא זמינים. חברים מוטים. מטפלים צריכים להמתין בתור. לפעמים צריך מישהו שפשוט מקשיב, אכפתי ומכוון ללא אג'נדה.",
+      "solutionTitle": "ההורה הווירטואלי שלכם תמיד כאן",
+      "solutionText": "שוחחו עם הורה וירטואלי שמקשיב במלואו, מציע הדרכה חמה ומאוזנת, ולעולם לא גורם לכם להרגיש שיפוטיים או קטנים. בין אם מדובר בהחלטה בחיים, בקושי אישי או פשוט בצורך להישמע — ההורה הווירטואלי שלכם זמין 24/7 בסבלנות ובאכפתיות."
+    },
+    "heroImageAlt": "הורה וירטואלי - דמות וירטואלית חמה המציעה תמיכה ללא תנאי והכוונה בחיים",
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "על מה אפשר לדבר עם ההורה הווירטואלי?"
+      },
+      "q2": {
+        "question": "זה כמו לפנות למטפל?",
+        "answer": "זה לא מטפל מורשה או איש מקצוע בתחום בריאות הנפש — זה יותר כמו דמות הורית חמה ותומכת שזמינה 24/7. הוא מקשיב במלואו, מציע פרספקטיבה ותומך בכם רגשית. לבעיות נפשיות חמורות, אנא פנו לאיש מקצוע."
+      },
+      "q3": {
+        "question": "ההורה הווירטואלי ישפוט את הבחירות שלי?",
+        "answer": "לעולם לא. ההורה הווירטואלי מציע תמיכה ללא תנאי. הוא עשוי לשתף פרספקטיבה או הדרכה עדינה, אך לעולם לא יבקר או יגרום לכם להרגיש קטנים על החלטותיכם. זה מרחב בטוח לכנות."
+      },
+      "q4": {
+        "question": "אפשר לדון בנושאים רגישים או אישיים?",
+        "answer": "כן. בין אם מדובר בקשיים בזוגיות, דינמיקה משפחתית, לחץ כלכלי, ערך עצמי או אתגרים אישיים עמוקים — ההורה הווירטואלי מספק מרחב פרטי וללא שיפוט לשיחות כאלה."
+      },
+      "q5": {
+        "question": "במה זה שונה מדמויות AI אחרות?",
+        "answer": "ההורה הווירטואלי מתוכנן סביב חמימות, תמיכה רגשית והדרכה בסגנון הורי ולא רומנטיקה או חברות מזדמנת. הוא מתמקד לגרום לכם להרגיש מובנים, נתמכים ומוכנים להתמודד עם אתגרי החיים."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "שותפויות",
+    "eyebrow": "הצטרפו כשותפים",
+    "titlePrefix": "צמחו עם",
+    "titleHighlight": "sweetwine",
+    "subtitle": "הגיעו לקהל הולך וגדל ומעורב של AI companionship. בין אם אתם מביאים טכנולוגיה, הפצה או רעיון נועז, בואו נבנה משהו יחד.",
+    "types": {
+      "title": "דרכים לשיתוף פעולה",
+      "items": [
+        {
+          "title": "אינטגרציות",
+          "description": "חברו את המוצר, המודל או הפלטפורמה שלכם ל-sweetwine דרך אינטגרציה טכנית."
+        },
+        {
+          "title": "שיווק משותף",
+          "description": "קמפיינים, תוכן והשקות משותפים שמביאים את שני המותגים לקהלים חדשים."
+        },
+        {},
+        {
+          "title": "שותפויות אסטרטגיות",
+          "description": "שיתופי פעולה ארוכי טווח בתחומי מוצר, נתונים ושיווק."
+        }
+      ]
+    },
+    "why": {
+      "title": "למה כדאי לשתף פעולה עם sweetwine",
+      "items": [
+        {
+          "title": "קהל מעורב",
+          "description": "מאות אלפי משתמשים שחוזרים מדי יום ב-70 שפות."
+        },
+        {
+          "title": "ביצוע מהיר",
+          "description": "צוות ממוקד שמפתח במהירות ומתקשר בצורה ברורה."
+        },
+        {
+          "title": "היקף גלובלי",
+          "description": "מוצר רב-לשוני זמין בעשרות שווקים."
+        },
+        {
+          "description": "פלטפורמה אמינה, עם פרטיות כברירת מחדל, שמותג יכול לסמוך עליה.",
+          "title": "פרטיות קודמת"
+        }
+      ]
+    },
+    "form": {
+      "title": "ספרו לנו על השותפות",
+      "description": "שתפו כמה פרטים וצוות השותפויות שלנו יחזור אליכם.",
+      "nameLabel": "השם שלכם",
+      "namePlaceholder": "ג'יין דו",
+      "emailLabel": "דוא\"ל עבודה",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "חברה",
+      "companyPlaceholder": "שם החברה",
+      "typeLabel": "סוג שותפות",
+      "typePlaceholder": "בחרו סוג שותפות",
+      "typeOptions": [
+        {
+          "value": "אינטגרציות",
+          "label": "אינטגרציות"
+        },
+        {
+          "value": "שיווק משותף",
+          "label": "שיווק משותף"
+        },
+        {},
+        {
+          "value": "שותפויות אסטרטגיות",
+          "label": "שותפויות אסטרטגיות"
+        },
+        {
+          "value": "אחר",
+          "label": "אחר"
+        }
+      ],
+      "messageLabel": "איך תרצו לשתף פעולה?",
+      "messagePlaceholder": "ספרו לנו על החברה שלכם ועל השותפות שיש לכם בראש...",
+      "submit": "שלחו פניית שותפות",
+      "submitting": "שולח...",
+      "termsNote": "בשליחה אתם מסכימים שניצור איתכם קשר לגבי הפנייה. לעולם לא נשתף את הפרטים שלכם.",
+      "success": "תודה! פניית השותפות שלכם נשלחה.",
+      "error": "משהו השתבש. נסו שוב."
+    },
+    "cta": {
+      "title": "מעדיפים דוא\"ל?",
+      "description": "צרו קשר ישירות עם צוות השותפויות בכתובת"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "עיתונות ומדיה",
+    "eyebrow": "חדר חדשות",
+    "titlePrefix": "עיתונות",
+    "titleHighlight": "ומדיה",
+    "subtitle": "משאבים לעיתונאים, יוצרים ושותפי מדיה. צרו קשר עם צוות העיתונות לראיונות, ציטוטים, תמיכה בכתבות ובקשות מותג.",
+    "help": {
+      "title": "איך אנחנו יכולים לעזור",
+      "description": "בין אם אתם עובדים על כתבה או ביקורת, הנה מה שאפשר לבקש מצוות העיתונות שלנו.",
+      "items": [
+        {
+          "title": "ראיונות",
+          "description": "שוחחו עם הצוות שלנו על המוצר, החברה ולאן מועדות פני AI companionship."
+        },
+        {
+          "title": "ציטוטים והערות",
+          "description": "קבלו הצהרה רשמית או הערת מומחה לכתבה שלכם."
+        },
+        {
+          "title": "תמיכה בכתבות וביקורות",
+          "description": "צריכים גישה, הקשר או בדיקת עובדות לכתבה או ביקורת? אנחנו נעזור."
+        },
+        {
+          "title": "בקשות מותג ולוגו",
+          "description": "בקשו את הלוגואים, נכסי המותג וההנחיות לשימוש עבור הפרסום שלכם."
+        }
+      ]
+    },
+    "form": {
+      "title": "פניית מדיה",
+      "description": "לראיונות, ציטוטים או בקשות לכתבות, שלחו לנו הודעה ונחזור אליכם בהקדם.",
+      "nameLabel": "השם שלכם",
+      "namePlaceholder": "ג'יין דו",
+      "emailLabel": "דוא\"ל",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "פרסום / כלי תקשורת",
+      "outletPlaceholder": "איפה זה יפורסם?",
+      "requestTypeLabel": "סוג הבקשה",
+      "requestTypePlaceholder": "בחר סוג בקשה",
+      "requestTypeOptions": [
+        {
+          "value": "ראיון",
+          "label": "ראיון"
+        },
+        {
+          "value": "ציטוט / הערה",
+          "label": "ציטוט / הערה"
+        },
+        {
+          "value": "כתבה / ביקורת",
+          "label": "כתבה / ביקורת"
+        },
+        {
+          "value": "בקשת מותג / לוגו",
+          "label": "בקשת מותג / לוגו"
+        },
+        {
+          "value": "אחר",
+          "label": "אחר"
+        }
+      ],
+      "messageLabel": "הבקשה שלך",
+      "messagePlaceholder": "ספר לנו על הסיפור, המועד האחרון ומה אתה צריך מאיתנו...",
+      "submit": "שלח פניית מדיה",
+      "submitting": "שולח...",
+      "termsNote": "אנו שואפים להגיב לפניות עיתונאיות תוך שני ימי עסקים.",
+      "success": "תודה! פניית המדיה שלך נשלחה.",
+      "error": "משהו השתבש. אנא נסה שוב."
+    },
+    "cta": {
+      "title": "איש קשר לעיתונות",
+      "description": "לבקשות מדיה דחופות, שלח מייל"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "קריירה",
+    "eyebrow": "קריירה",
+    "titlePrefix": "בנה את עתיד ה",
+    "titleHighlight": "AI companionship",
+    "subtitle": "אנחנו צוות קטן ומהיר שמפתח מוצרים שאנשים באמת אוהבים. אם זה מרגש אותך, נשמח להכיר אותך.",
+    "perks": {
+      "title": "למה כדאי לעבוד איתנו",
+      "items": [
+        {
+          "title": "עבודה מרחוק",
+          "description": "עבוד מהמקום שבו אתה עושה את העבודה הכי טובה, עם שעות גמישות."
+        },
+        {
+          "title": "בעלות אמיתית",
+          "description": "הוצא עבודה משמעותית במהירות וראה אותה מגיעה למשתמשים ברחבי העולם."
+        },
+        {
+          "title": "AI מתקדם",
+          "description": "עבוד ישירות עם המודלים והכלים הגנרטיביים החדישים ביותר."
+        },
+        {
+          "title": "שכר תחרותי",
+          "description": "תגמול הוגן ופוטנציאל משמעותי ככל שאנחנו גדלים."
+        }
+      ]
+    },
+    "openings": {
+      "title": "משרות פתוחות",
+      "emptyTitle": "אין תפקידים פתוחים כרגע",
+      "emptyDescription": "אנחנו לא מגייסים כרגע, אבל תמיד שמחים להכיר אנשים מעולים. הצג את עצמך למטה.",
+      "applyButton": "הגש מועמדות",
+      "viewButton": "צפה בתפקיד"
+    },
+    "form": {
+      "title": "הצג את עצמך",
+      "description": "לא מצאת תפקיד שמתאים? ספר לנו על עצמך וניצור איתך קשר כשיהיה התאמה.",
+      "nameLabel": "השם שלך",
+      "namePlaceholder": "ג'יין דו",
+      "emailLabel": "אימייל",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "תפקיד או תחום עניין",
+      "rolePlaceholder": "לדוגמה: מהנדס פרונטאנד, מעצב, שיווק",
+      "linkLabel": "קישור לקורות חיים",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "עליך",
+      "messagePlaceholder": "ספר לנו על הניסיון שלך ועל מה שתרצה לעבוד...",
+      "submit": "שלח בקשה",
+      "submitting": "שולח...",
+      "termsNote": "על ידי הגשת הבקשה, אתה מאשר לנו לשמור את פרטיך כדי לשקול אותך לתפקידים.",
+      "success": "תודה! הבקשה שלך נשלחה.",
+      "error": "משהו השתבש. נסה שוב."
+    },
+    "cta": {
+      "title": "שאלות על העבודה כאן?",
+      "description": "צור קשר עם הצוות שלנו בכתובת"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "מרכז העזרה",
+    "eyebrow": "מרכז העזרה",
+    "titlePrefix": "איך אנחנו יכולים",
+    "titleHighlight": "לעזור?",
+    "subtitle": "עיין בנושאים ותשובות נפוצים. לא מצאת את מה שאתה צריך? צור קשר עם התמיכה ונעזור לך.",
+    "searchPlaceholder": "חפש מאמרי עזרה...",
+    "categoriesTitle": "עיין לפי נושא",
+    "articlesTitle": "מאמרים",
+    "categoryEmpty": "אין מאמרים בקטגוריה זו עדיין. חזור בקרוב.",
+    "backToHelp": "חזור למרכז העזרה",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "התחלה",
+        "description": "צור חשבון, הגדר את הפרופיל שלך והתחל לצ'ט."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "צ'אט AI",
+        "description": "איך שיחות, זיכרון ודמויות עובדים."
+      },
+      {
+        "slug": "images-videos",
+        "title": "תמונות וסרטונים",
+        "description": "צור ונהל תמונות וסרטונים של AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "פרטיות ובטיחות",
+        "description": "הנתונים שלך, בקרות פרטיות וכלי בטיחות."
+      }
+    ],
+    "faq": {
+      "title": "שאלות נפוצות",
+      "q1": {
+        "question": "איך מתחילים עם sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "מה כלול בתוכנית החינמית?"
+      },
+      "q5": {
+        "question": "האם הנתונים שלי פרטיים?",
+        "answer": "הפרטיות היא ערך ליבה ב-sweetwine. השיחות שלך פרטיות לחשבון שלך, ואתה שולט בנתונים שלך. עיין במדיניות הפרטיות שלנו לפרטים מלאים על אופן האחסון וההגנה על הנתונים."
+      },
+      "q6": {
+        "question": "איך אפשר ליצור קשר עם התמיכה?",
+        "answer": "שלחו מייל לכתובת support@sweetwine.ai או השתמשו באפשרות יצירת הקשר באפליקציה. בדרך כלל נענה תוך יום עסקים אחד."
+      }
+    },
+    "cta": {
+      "title": "עדיין צריך עזרה?",
+      "description": "הצוות שלנו כאן בשבילך ב-"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "אודות",
+    "eyebrow": "הסיפור שלנו",
+    "titlePrefix": "חברות,",
+    "titleHighlight": "בגרסה מחודשת",
+    "subtitle": "sweetwine בונה בני לוויה פרטיים ומותאמים אישית שמקשיבים, זוכרים ומתחברים באמת — זמינים בכל זמן ובכל שפה.",
+    "mission": {
+      "title": "המשימה שלנו",
+      "body": "אנחנו מאמינים שכל אחד ראוי למקום שבו יקשיבו לו ללא שיפוט. sweetwine הופכת חיבור AI משמעותי ומותאם אישית לנגיש לכולם — חמים, פרטי ותמיד שם כשצריך."
+    },
+    "values": {
+      "title": "מה אנחנו מייצגים",
+      "items": [
+        {
+          "title": "פרטיות מובנית",
+          "description": "השיחות שלך שייכות לך. אנחנו בונים עם פרטיות ואבטחה מהיסוד."
+        },
+        {
+          "title": "חיבור אמיתי",
+          "description": "אנחנו מתמקדים בערך רגשי אמיתי, לא במדדים שטחיים."
+        },
+        {
+          "title": "גלובלי כברירת מחדל",
+          "description": "בנוי רב-לשוני מהיום הראשון כדי שהחיבור לא יוגבל על ידי שפה."
+        },
+        {
+          "title": "מלאכת מחשבת ללא פשרות",
+          "description": "אנחנו משקיעים בפרטים כדי שכל אינטראקציה תרגיש טבעית וחיה."
+        }
+      ]
+    },
+    "stats": {
+      "title": "במספרים",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "משתמשים וגדל"
+        },
+        {
+          "value": "70",
+          "label": "שפות נתמכות"
+        },
+        {
+          "value": "24/7",
+          "label": "תמיד זמין"
+        }
+      ]
+    },
+    "cta": {
+      "title": "רוצה לדעת עוד?",
+      "description": "צור קשר ב-"
+    }
+  },
+  "postsPage": {
+    "allTag": "הכול",
+    "readMore": "קרא עוד",
+    "publishedOn": "פורסם",
+    "minRead": "דקות קריאה",
+    "sortNewest": "החדש ביותר",
+    "sortOldest": "הישן ביותר",
+    "blog": {
+      "breadcrumb": "בלוג",
+      "eyebrow": "בלוג",
+      "titlePrefix": "ה-sweetwine",
+      "titleHighlight": "בלוג",
+      "subtitle": "טיפים, מדריכים וסיפורים שיעזרו לך להפיק את המרב מחברות AI.",
+      "empty": "אין פוסטים עדיין. חזור בקרוב."
+    },
+    "news": {
+      "breadcrumb": "חדשות",
+      "eyebrow": "חדר חדשות",
+      "titlePrefix": "חדשות &",
+      "titleHighlight": "הכרזות",
+      "subtitle": "הכרזות רשמיות, הודעות לעיתונות ואבני דרך מצוות sweetwine.",
+      "empty": "אין חדשות עדיין. חזור בקרוב."
+    },
+    "productUpdates": {
+      "breadcrumb": "עדכוני מוצר",
+      "eyebrow": "יומן שינויים",
+      "titlePrefix": "מוצר",
+      "titleHighlight": "עדכונים",
+      "subtitle": "התכונות, השיפורים והתיקונים האחרונים בכל פלטפורמת sweetwine.",
+      "empty": "אין עדכונים עדיין. בדקו שוב בקרוב."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "למפתחים",
+    "titlePrefix": "בנו עם",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "הביאו בני לוויה AI מותאמים אישית למוצר שלכם. גשו לצ'אט, תמונות, קול ויכולות בניית דמויות דרך API ידידותי למפתחים.",
+    "capabilities": {
+      "title": "מה אפשר לבנות",
+      "items": [
+        {
+          "title": "צ'אט שיחתי",
+          "description": "הוסיפו שיחות AI עשירות באישיות ומודעות להקשר לאפליקציה שלכם עם API הודעות פשוט."
+        },
+        {
+          "title": "יצירת תמונות",
+          "description": "צרו תמונות וסצנות של דמויות ממותגות באופן תכנותי מפרומפטים טקסטואליים."
+        },
+        {
+          "title": "קול",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "יצירת דמויות",
+          "description": "הגדירו וניהלו בני לוויה, אישויות וזיכרון דרך ה-API."
+        }
+      ]
+    },
+    "form": {
+      "title": "בקשו גישה ל-API",
+      "description": "ספרו לנו על הפרויקט שלכם ועל מה שתרצו לבנות. צוות המפתחים שלנו יחזור אליכם עם השלבים הבאים.",
+      "nameLabel": "השם שלכם",
+      "namePlaceholder": "ג'יין דו",
+      "emailLabel": "דוא\"ל עבודה",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "חברה / פרויקט",
+      "companyPlaceholder": "שם החברה או הפרויקט",
+      "websiteLabel": "אתר או כתובת אפליקציה",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "סוג אינטגרציה",
+      "integrationTypePlaceholder": "בחרו סוג אינטגרציה",
+      "integrationTypeOptions": [
+        {
+          "value": "צ'אט / הודעות",
+          "label": "צ'אט / הודעות"
+        },
+        {
+          "value": "יצירת תמונות",
+          "label": "יצירת תמונות"
+        },
+        {
+          "value": "קול",
+          "label": "קול"
+        },
+        {
+          "value": "יצירת דמויות",
+          "label": "יצירת דמויות"
+        },
+        {
+          "value": "אחר",
+          "label": "אחר"
+        }
+      ],
+      "volumeLabel": "נפח חודשי צפוי",
+      "volumePlaceholder": "בחרו נפח צפוי",
+      "volumeOptions": [
+        {
+          "value": "פחות מ-10k",
+          "label": "פחות מ-10k בקשות"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k בקשות"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M בקשות"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ בקשות"
+        }
+      ],
+      "timelineLabel": "ציר זמן",
+      "timelinePlaceholder": "בחר ציר זמן",
+      "timelineOptions": [
+        {
+          "value": "רק בודק",
+          "label": "רק בודק"
+        },
+        {
+          "value": "פחות מחודש",
+          "label": "פחות מחודש"
+        },
+        {
+          "value": "1-3 חודשים",
+          "label": "1-3 חודשים"
+        },
+        {
+          "value": "3+ חודשים",
+          "label": "3+ חודשים"
+        }
+      ],
+      "messageLabel": "ספר לנו על מקרה השימוש שלך",
+      "messagePlaceholder": "מה אתה בונה ואיך אתה מתכנן להשתמש ב-API?",
+      "submit": "בקש גישת API",
+      "submitting": "שולח...",
+      "termsNote": "בשליחה אתה מסכים שניצור איתך קשר לגבי הפנייה. לעולם לא נשתף את הפרטים שלך.",
+      "success": "תודה! בקשת גישת ה-API שלך נשלחה.",
+      "error": "משהו השתבש. נסה שוב."
+    },
+    "faq": {
+      "title": "שאלות נפוצות למפתחים",
+      "items": [
+        {
+          "question": "איך מקבלים גישת API?",
+          "answer": "מלא את טופס הבקשה למעלה עם מקרה השימוש שלך. צוות המפתחים שלנו בודק כל בקשה ויעדכן אותך בפרטי הגישה ובתיעוד."
+        },
+        {
+          "question": "איך עובד האימות?",
+          "answer": "בקשות API מאומתות באמצעות מפתח API סודי שנשלח בכותרות הבקשה. תוכל לנהל ולהחליף את המפתחות שלך לאחר ההצטרפות."
+        },
+        {
+          "question": "יש הגבלת קצב?",
+          "answer": "כן. המגבלות תלויות בתוכנית שלך ובנפח הצפוי. ספר לנו על התנועה הצפויה בטופס כדי שנוכל להמליץ על הדרגה המתאימה."
+        },
+        {
+          "question": "מה העלות?"
+        },
+        {
+          "question": "אילו יכולות זמינות?",
+          "answer": "צ'אט, יצירת תמונות, קול ויצירת דמויות. ספר לנו אילו מהן אתה צריך ונעזור לך להתחיל עם נקודות הקצה הרלוונטיות."
+        }
+      ]
+    },
+    "cta": {
+      "title": "יש לך שאלה טכנית?",
+      "description": "צור קשר עם צוות המפתחים שלנו בכתובת"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "שיבוטים אמיתיים מבוססי AI",
+    "eyebrow": "ליוצרים ולסוכנויות",
+    "heroTitleLead": "אנחנו יוצרים,",
+    "heroTitleHighlight": "אתה מרוויח.",
+    "heroSubtitle": "אנחנו בונים את השיבוט שלך. אתה מרוויח בזמן שהשיבוט עובד מסביב לשעון — מדבר עם מעריצים ושולח תוכן במקומך.",
+    "calculator": {
+      "title": "כמה תוכל להרוויח?",
+      "subtitle": "בחר את גודל הקהל שלך והגדר מחיר — ותראה את ההכנסה המשוערת מיד.",
+      "tierLabel": "גודל הקהל שלך",
+      "tiers": {
+        "small": {
+          "name": "קטן"
+        },
+        "medium": {
+          "name": "בינוני"
+        },
+        "large": {
+          "name": "גדול"
+        }
+      },
+      "priceLabel": "מחיר הפתיחה שלך",
+      "promoLabel": "אקדם את sweetwine",
+      "breakdown": {
+        "title": "ההכנסה המשוערת שלך",
+        "perMonth": "לחודש",
+        "perYear": "לשנה"
+      },
+      "disclaimer": "הערכות ההכנסות מבוססות על מודל חלוקת ההכנסות של sweetwine ופעילות טיפוסית. ההכנסות בפועל משתנות בהתאם לקהל, איכות התוכן, המעורבות והביקוש."
+    },
+    "offer": {
+      "title": "מה יש לך מזה",
+      "items": [
+        {
+          "title": "להרוויח בזמן שאתה ישן",
+          "description": "השיבוט שלך הופך עוקבים להכנסה 24/7 — צ'אט, מכירות וללא הפסקה."
+        },
+        {
+          "title": "אפס עלויות, רק יתרונות",
+          "description": "אנחנו בונים, מאמנים ומפעילים הכול על חשבוננו. אתה מוסיף זרם הכנסה חדש בלי להזיז אצבע."
+        },
+        {
+          "title": "פי 10 תוכן",
+          "description": "תמונות וסרטונים ללא הגבלה לפי דרישה — הגדל את התפוקה בלי צילומים נוספים, עריכה או שחיקה."
+        },
+        {
+          "title": "תמיד בשליטה"
+        }
+      ]
+    },
+    "how": {
+      "title": "איך זה עובד",
+      "steps": [
+        {
+          "title": "הרשמה"
+        },
+        {
+          "title": "אונבורדינג",
+          "description": "מומחה של sweetwine ילכוד את המראה, הקול והאישיות שלך כדי שהשיבוט ירגיש אותנטי."
+        },
+        {
+          "title": "אנחנו בונים ומאמנים",
+          "description": "הצוות שלנו מייצר ומאמן את שיבוט ה-AI שלך לגמרי על חשבוננו — ללא עבודה מצדך."
+        },
+        {
+          "title": "עלה לאוויר והרוויח",
+          "description": "השיבוט שלך מתחיל לצ'ט ולמכור מסביב לשעון, ואתה מקבל את חלקך בהכנסות."
+        }
+      ]
+    },
+    "form": {
+      "title": "הגש בקשה ליצירת שיבוט AI",
+      "description": "ספר לנו עליך ועל הקהל שלך. צוות השותפויות שלנו בודק כל בקשה ויעדכן אותך בצעדים הבאים.",
+      "nameLabel": "השם שלך",
+      "namePlaceholder": "השם או שם הבמה שלך",
+      "emailLabel": "אימייל",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "סוכנות או סטודיו",
+      "companyPlaceholder": "שם הסוכנות (השאר ריק אם אתה עצמאי)",
+      "roleLabel": "אני",
+      "rolePlaceholder": "בחר מי אתה",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "אתר וקישורים לרשתות חברתיות",
+      "linksPlaceholder": "Instagram, X, OnlyFans וכו'",
+      "modelCountLabel": "מספר הדוגמנים שאתה מייצג",
+      "modelCountPlaceholder": "למשל: רק אני, או 5",
+      "audienceSizeLabel": "גודל הקהל",
+      "audienceSizePlaceholder": "בחר את סך העוקבים שלך",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "פחות מ-10k עוקבים"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k עוקבים"
+        },
+        {
+          "label": "100k-500k עוקבים",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M עוקבים"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ עוקבים"
+        }
+      ],
+      "contentPrefLabel": "העדפות תוכן",
+      "contentPrefPlaceholder": "בחר סוג תוכן",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "מדינה / אזור",
+      "countryPlaceholder": "איפה אתה נמצא?",
+      "messageLabel": "ספר לנו עליך ועל הקהל שלך",
+      "messagePlaceholder": "שתף כל דבר שיעזור לנו להבין את הקהל, התוכן ומה אתה מחפש.",
+      "openButton": "הגש עכשיו",
+      "submit": "שלח בקשה",
+      "submitting": "שולח...",
+      "termsNote": "על ידי שליחה, אתה מאשר שאתה בן 18 ומעלה ומסכים לקבל פניות בנוגע לבקשתך. לעולם לא נשתף את הפרטים שלך.",
+      "success": "תודה! הבקשה שלך נשלחה. ניצור איתך קשר בקרוב.",
+      "error": "משהו השתבש. אנא נסה שוב."
+    },
+    "cta": {
+      "title": "יש לך שאלות לפני ההגשה?",
+      "description": "דבר ישירות עם צוות שותפויות היוצרים שלנו — בדרך כלל נענה תוך יום.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "מפת אתר",
+    "eyebrow": "מפת אתר",
+    "titlePrefix": "עיין",
+    "titleHighlight": "הכול",
+    "subtitle": "כל העמודים החשובים ב-sweetwine במקום אחד. מחפש את מפת האתר ב-XML?",
+    "xmlLink": "צפה במפת האתר ב-XML",
+    "sections": {
+      "product": "מוצר",
+      "features": "תכונות",
+      "company": "חברה",
+      "resources": "משאבים",
+      "legal": "משפטי"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "אפליקציית sweetwine לנייד",
+      "cta": "הורד אפליקציה",
+      "dismiss": "סגור"
+    },
+    "guide": {
+      "title": "התקן את sweetwine",
+      "subtitle": "הוסף את sweetwine למסך הבית לחוויה מהירה, במסך מלא ובסגנון אפליקציה.",
+      "iosTitle": "באייפון ואייפד (Safari)",
+      "iosStep1": "הקש על כפתור השיתוף בסרגל הכלים",
+      "iosStep2": "בחר \"הוסף למסך הבית\"",
+      "iosStep3": "הקש \"הוסף\" לסיום",
+      "androidTitle": "באנדרואיד (Chrome)",
+      "androidStep1": "הקש על התפריט (שלוש נקודות)",
+      "androidStep2": "בחר \"התקן אפליקציה\" או \"הוסף למסך הבית\"",
+      "androidStep3": "הקש \"התקן\" לסיום"
+    },
+    "settings": {
+      "title": "אפליקציית sweetwine לנייד",
+      "description": "התקן את sweetwine בטלפון לחוויה מהירה ומסך מלא ישירות ממסך הבית.",
+      "cta": "התקן אפליקציה"
+    }
+  },
+  "language": {
+    "selectTitle": "בחר את השפה שלך",
+    "searchPlaceholder": "חפש שפות",
+    "noResults": "לא נמצאו שפות",
+    "regions": {
+      "americas": "אמריקה",
+      "europe": "אירופה",
+      "middleEast": "המזרח התיכון",
+      "asiaPacific": "אסיה פסיפיק",
+      "africa": "אפריקה"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "משחק תפקידים",
+    "newRoleplay": "משחק תפקידים חדש",
+    "tabRoleplay": "משחק תפקידים",
+    "emptyTitle": "אין עדיין משחקי תפקידים",
+    "noMessagesYet": "אין הודעות עדיין",
+    "deleteRoleplay": "מחק משחק תפקידים",
+    "deleteError": "לא ניתן למחוק את משחק התפקידים.",
+    "backToLobby": "חזור למשחקי תפקידים",
+    "creating": "מגדיר את משחק התפקידים שלך...",
+    "createError": "לא ניתן ליצור משחק תפקידים. נסה שוב.",
+    "steps": {
+      "companion": {
+        "title": "בחר דמות",
+        "subtitle": "בחר עם מי תרצה לשחק"
+      },
+      "location": {
+        "title": "בחר מיקום",
+        "subtitle": "איפה מתרחשת הסצנה שלך?"
+      },
+      "tone": {
+        "title": "הגדר את הטון",
+        "subtitle": "איך הסצנה אמורה להרגיש?"
+      },
+      "scene": {
+        "title": "הגדר את הסצנה",
+        "subtitle": "תאר איך הסצנה מתחילה"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "נתקל זה בזה בגשם ומתחבאים מתחת לאותה סככה.",
+      "staring_grin": "אתה תופס אותי מביטה מהצד השני של החדר ומתקרב עם חיוך.",
+      "power_out": "החשמל נופל ואנחנו נשארים לבד בחשכה, צוחקים במבוכה.",
+      "spilled_drink": "אני ממהרת ומשפכת בטעות את המשקה שלי עליך.",
+      "stayed_behind": "אנחנו שניים היחידים שנשארו אחרי שכולם הלכו.",
+      "music_slows": "המבטים שלנו נפגשים בדיוק כשהמוזיקה מאטה.",
+      "storm_inside": "סערה פתאומית כלואה אותנו בפנים עם שום דבר מלבד זמן לדבר.",
+      "seat_taken": "אתה יושב לידי ושואל אם המקום תפוס."
+    },
+    "locations": {
+      "home": "בית",
+      "cafe": "בית קפה",
+      "restaurant": "מסעדה",
+      "bar": "בר",
+      "library": "ספרייה",
+      "bookstore": "חנות ספרים",
+      "park": "פארק",
+      "garden": "גן",
+      "nightclub": "מועדון לילה",
+      "casino": "קזינו",
+      "concert": "הופעה",
+      "theater": "תיאטרון",
+      "cinema": "קולנוע",
+      "carnival": "קרנבל",
+      "stadium": "אצטדיון",
+      "beach": "חוף",
+      "pool": "בריכה",
+      "spa": "ספא",
+      "hotel": "מלון",
+      "rooftop": "גג",
+      "yacht": "יאכטה",
+      "cabin": "בקתה",
+      "hotspring": "מעיין חם",
+      "skilodge": "לודג' סקי",
+      "campsite": "אתר קמפינג",
+      "car": "מכונית",
+      "train": "רכבת",
+      "airport": "שדה תעופה",
+      "cruise": "שייט",
+      "office": "משרד",
+      "gym": "חדר כושר",
+      "university": "אוניברסיטה",
+      "mall": "קניון",
+      "hospital": "בית חולים",
+      "museum": "מוזיאון"
+    },
+    "tones": {
+      "fun": {
+        "title": "כיף",
+        "desc": "קליל, שובב ורגוע."
+      },
+      "romantic": {
+        "title": "רומנטי",
+        "desc": "עדין, חם ולבבי."
+      },
+      "flirty": {
+        "title": "שובב",
+        "desc": "שובב, משחקי ומלא קסם."
+      },
+      "mysterious": {
+        "title": "מסתורי",
+        "desc": "מסקרן, מתוח ומלא סודות."
+      },
+      "spooky": {
+        "title": "מפחיד",
+        "desc": "מרתיע, מתוח ומעט מפחיד."
+      },
+      "action": {
+        "title": "פעולה",
+        "desc": "אינטנסיבי, הרפתקני ומהיר."
+      },
+      "dramatic": {
+        "title": "דרמטי",
+        "desc": "רגשי, אינטנסיבי ומלא מתח."
+      },
+      "cozy": {
+        "title": "נעים",
+        "desc": "חמים, מנחם ורגוע."
+      }
+    },
+    "sceneLabel": "פתיחת סצנה",
+    "scenarioTab": "תרחיש",
+    "generatingScene": "מביאים את הסצנה לחיים...",
+    "locationLabel": "מיקום",
+    "toneLabel": "טון",
+    "scenePlaceholder": "לדוגמה: אנחנו נתקלים זה בזה בגשם ומתחבאים מתחת לאותה סככה...",
+    "sceneHint": "תארו רק איך הסצנה מתחילה — איפה אתם ומה קורה כשהיא נפתחת. אל תשנו את אישיות הדמות, את מערכת היחסים שלכם, או תכתבו מחדש את כל הסיפור.",
+    "sceneError": "אנא תארו איך הסצנה מתחילה.",
+    "reviewTitle": "סקירת בחירות",
+    "characterLabel": "דמות",
+    "randomize": "אקראי",
+    "sceneGuidanceTitle": "הנחיות לפתיחת סצנה",
+    "sceneGuide1": "אל תשנו את אישיות הדמות או את מערכת היחסים שלכם.",
+    "sceneGuide2": "שמרו על פתיחת הסצנה בהסכמה ובכבוד.",
+    "sceneGuide3": "תארו רק איך הסצנה מתחילה, לא את כל הסיפור.",
+    "next": "הבא",
+    "create": "התחל רולפליי",
+    "creatingMessages": [
+      "מכינים את הסצנה...",
+      "מעמעמים את האורות בדיוק כמו שצריך...",
+      "צובעים את הסביבה...",
+      "מכניסים את בן/בת השיחה לדמות...",
+      "מוסיפים את הגימורים האחרונים...",
+      "כמעט מוכן..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "כתבו הודעה...",
+    "send": "שלח",
+    "typing": "מקליד...",
+    "read": "נקרא",
+    "resetChat": "אפס צ'אט",
+    "deleteChat": "מחק צ'אט",
+    "settings": "הגדרות",
+    "chatSettings": "הגדרות צ'אט",
+    "roleplayMode": "מצב תפקיד",
+    "roleplayModeDescription": "כשמופעל, בני/בנות השיחה מבצעים מחוות ופעולות ב*כוכביות* לחוויית תפקיד מלאה. כשכבוי, הם משוחחים באופן טבעי, כמו הודעות אמיתיות.",
+    "roleplayModeError": "לא ניתן לעדכן את מצב התפקיד",
+    "roleplayCtaDescription": "פתחו את חוויית התפקיד הייעודית, שבה בן/בת השיחה משחק/ת סצנות וסיפורים איתכם.",
+    "goToRoleplay": "עבור לתפקיד",
+    "confirmReset": "האם אתם בטוחים שברצונכם לאפס את הצ'אט הזה? כל ההודעות יימחקו.",
+    "confirmDelete": "האם אתם בטוחים שברצונכם למחוק את הצ'אט הזה?",
+    "resetSuccess": "הצ'אט אופס בהצלחה",
+    "deleteMemory": "מחק זיכרון",
+    "confirmDeleteMemory": "האם אתה בטוח שברצונך למחוק את הזיכרונות ארוכי הטווח של דמות זו? הודעות הצ'אט יישארו, אך הדמות תשכח עובדות קודמות בתשובה הבאה.",
+    "deleteMemorySuccess": "הזיכרון נמחק",
+    "deleteSuccess": "הצ'אט נמחק בהצלחה",
+    "sendError": "שליחת ההודעה נכשלה",
+    "noChats": "אין צ'אטים עדיין",
+    "noChatsDesc": "התחילו שיחה עם דמות כדי לראות את הצ'אטים שלכם כאן",
+    "lastMessage": "ההודעה האחרונה",
+    "messageCount": "{count} הודעות",
+    "uploadImage": "העלה תמונה",
+    "uploadVideo": "העלה וידאו (בקרוב)",
+    "yourConversations": "השיחות שלכם",
+    "continueChattingDesc": "המשיכו לשוחח עם הדמויות שלכם",
+    "newChat": "צ'אט חדש",
+    "noConversationsYet": "אין שיחות עדיין",
+    "startChattingDesc": "התחילו לשוחח עם דמות כדי לראות את השיחות שלכם כאן",
+    "browseCharacters": "עיינו בדמויות",
+    "createCustomCharacter": "צרו דמות מותאמת אישית",
+    "imageTooLarge": "התמונה גדולה מדי (מקסימום 5MB)",
+    "generateImageTitle": "צור תמונה עם {name}",
+    "imagePromptLabel": "תארו את התמונה",
+    "imagePromptPlaceholder": "לדוגמה: בחוף בשמלה כחולה, שותה קפה בבית קפה, הולך בפארק...",
+    "imagePromptHint": "ה-AI ייצור תמונה של {name} על סמך התיאור שלכם.",
+    "referenceImageLabel": "התמונה שלכם (אופציונלי)",
+    "referenceImageHint": "העלו תמונה שלכם כדי שתיכללו בסצנה עם {name}. ללא תמונה, רק {name} ייווצר.",
+    "uploadReferenceImage": "העלו את התמונה שלכם",
+    "uploadReferenceImageDesc": "שניכם תופיעו בתמונה שנוצרה",
+    "referenceImageSelected": "שניכם, אתם ו-{name}, תופיעו יחד",
+    "generating": "מייצר...",
+    "generate": "צור",
+    "generateImage": "צור תמונה",
+    "imageGenerated": "התמונה נוצרה בהצלחה",
+    "generateError": "יצירת התמונה נכשלה",
+    "contentBlockedReply": "מצטער, אבל אני לא יכול ליצור את התמונה הזו. היא נחסמה על ידי מסנני הבטיחות. נסה תיאור אחר! 💕",
+    "generateVideoTitle": "צור וידאו עם {name}",
+    "generateVideo": "צור וידאו",
+    "videoPromptLabel": "תאר את הפעולה",
+    "videoPromptPlaceholder": "לדוגמה: ריקוד, הנפה, נשיקת אוויר...",
+    "videoPromptHint": "ה-AI ייצור וידאו של {name} מבצע את הפעולה שתיארת.",
+    "generatingImage": "מייצר תמונה...",
+    "generatingVideo": "מייצר וידאו... (3-5 דקות)",
+    "viewPhoto": "צפה בתמונה",
+    "viewVideo": "צפה בווידאו",
+    "selectVideoOption": "בחר אפשרות וידאו למעלה",
+    "contentPolicyViolation": "לא ניתן לשלוח את ההודעה. אנא שמור על שיחות מכבדות.",
+    "functionCallBetaHint": "💡 תכונה זו בגרסת בטא — ליצירת מדיה אמינה ללא הגבלות, השתמש בכפתורי התמונה/וידאו בסרגל הכלים במקום.",
+    "repliedToStory": "הגיב לסטורי",
+    "repliedToStoryLiked": "אהב והגיב לסטורי",
+    "storyNoLongerAvailable": "הסטורי כבר לא זמין",
+    "rateLimitExceeded": "יותר מדי בקשות. המתן רגע ונסה שוב.",
+    "profileTab": "פרופיל",
+    "galleryTab": "גלריה",
+    "giftsTab": "מתנות",
+    "tts": {
+      "play": "השמע קול",
+      "stop": "עצור",
+      "generating": "מייצר קול…",
+      "error": "לא ניתן להשמיע אודיו"
+    }
+  },
+  "gallery": {
+    "all": "הכל",
+    "images": "תמונות",
+    "videos": "וידאו",
+    "empty": "אין מדיה עדיין"
+  },
+  "gifts": {
+    "sendAGift": "שלח מתנה",
+    "catalogSubtitle": "בחר מתנה לשלוח ל-{name}",
+    "browseGifts": "עיין במתנות",
+    "noneSent": "עדיין לא נשלחו מתנות",
+    "confirmTitle": "אשר מתנה",
+    "forCompanion": "ל-{name}",
+    "optionalMessage": "הוסף הודעה (אופציונלי)",
+    "optionalMessagePlaceholder": "כתוב משהו מתוק...",
+    "sendGiftFor": "שלח",
+    "giftSent": "שלחת מתנה",
+    "sendError": "שליחת המתנה נכשלה"
+  },
+  "stories": {
+    "replyPlaceholder": "השב ל{name}...",
+    "like": "אהבתי",
+    "send": "שלח",
+    "close": "סגור",
+    "previous": "סיפור קודם",
+    "next": "סיפור הבא",
+    "pause": "השהה",
+    "play": "נגן",
+    "mute": "השתק",
+    "unmute": "בטל השתקה",
+    "openStory": "פתח את הסיפור של {name}"
+  },
+  "generate": {
+    "title": "צור תמונה",
+    "description": "צור תמונות מדהימות עם הדמויות שלך",
+    "selectCompanion": "בחר דמות",
+    "promptPlaceholder": "תאר את התמונה שברצונך ליצור... לדוגמה, בחוף, בשמלה אדומה",
+    "promptLabel": "תיאור התמונה",
+    "promptRequired": "אנא הזן תיאור",
+    "generateButton": "צור תמונה",
+    "generating": "יוצר...",
+    "creatingImage": "יוצר את התמונה שלך...",
+    "pleaseWait": "זה עשוי לקחת 10-30 שניות",
+    "noCompanionSelected": "אנא בחר דמות קודם",
+    "emptyGallery": "עדיין לא נוצרו תמונות. בחר דמות ותאר את התמונה!",
+    "sessionGallery": "תמונות שנוצרו",
+    "regenerate": "צור מחדש",
+    "regenerating": "יוצר מחדש...",
+    "animate": "הנפש",
+    "animateReference": "תמונה זו תהיה הפריים הראשון של הסרטון.",
+    "filterMyAI": "ה-AI שלי",
+    "filterAll": "הכל",
+    "filterGirls": "נשים",
+    "filterAnime": "אנימה",
+    "filterGuys": "גברים",
+    "imageGenerationFailed": "יצירת התמונה נכשלה. ייתכן שהתמונה לא עומדת בדרישות או שהתיאור מורכב מדי. נסה עם פרומפט פשוט יותר.",
+    "noImageData": "לא נוצרה תמונה. נסה שוב עם תיאור אחר.",
+    "generationFailed": "היצירה נכשלה. נסה שוב מאוחר יותר או עם פרומפט אחר.",
+    "random": "אקראי",
+    "custom": "מותאם אישית",
+    "settings": "הגדרות",
+    "videoTitle": "צור וידאו",
+    "videoDescription": "צור סרטונים מדהימים עם הדמויות שלך",
+    "videoPromptLabel": "תיאור הווידאו",
+    "videoPromptPlaceholder": "תאר את הפעולה שברצונך ליצור... למשל: ריקוד, הנפה, חיוך",
+    "generateVideoButton": "צור וידאו",
+    "generatingVideo": "מייצר וידאו...",
+    "creatingVideo": "יוצר את הווידאו שלך...",
+    "videoWait": "זה עשוי לקחת 1-5 דקות",
+    "emptyVideoGallery": "עדיין לא נוצרו וידאוים. בחר דמות ותאר את הפעולה!",
+    "sessionVideoGallery": "וידאוים שנוצרו",
+    "videoGenerated": "הווידאו נוצר בהצלחה!",
+    "videoGenerationFailed": "יצירת הווידאו נכשלה. נסה שוב.",
+    "duration": "משך",
+    "shortVideo": "קצר",
+    "longVideo": "ארוך",
+    "seconds": "שניות",
+    "audio": "אודיו",
+    "renderingVideo": "מעבד וידאו…",
+    "renderingVideoHint": "(לוקח עד דקה)",
+    "rateLimitExceeded": "יותר מדי בקשות. המתן רגע ונסה שוב.",
+    "chooseCharacter": "בחר דמות",
+    "selectButton": "בחר",
+    "noCustomCompanions": "עדיין לא יצרת דמויות AI.",
+    "numberOfImages": "מספר תמונות",
+    "numberOfVideos": "מספר וידאוים",
+    "freeTrial": "ניסיון חינם",
+    "changeCharacter": "החלף דמות",
+    "randomize": "אקראי את הפרומפט",
+    "aiVideo": "וידאו AI",
+    "download": "הורד",
+    "seriesHelper": "כאן תוכל למצוא את התוצאות שלך. תוכל לעזוב את הדף או להתחיל סדרה חדשה בזמן שהן מסתיימות.",
+    "suggestions": {
+      "title": "הצעות",
+      "categories": {
+        "outfit": "תלבושת",
+        "action": "פעולה",
+        "pose": "תנוחה",
+        "accessories": "אביזרים",
+        "scene": "סצנה"
+      },
+      "items": {
+        "bikini": "ביקיני",
+        "skirt": "חצאית",
+        "lingerie": "הלבשה תחתונה",
+        "crop_top": "טופ קרופ",
+        "leather": "עור",
+        "mini_skirt": "חצאית מיני",
+        "satin_robe": "חלוק סאטן",
+        "jeans": "ג'ינס",
+        "summer_dress": "שמלת קיץ",
+        "sportswear": "בגדי ספורט",
+        "selfie": "סלפי",
+        "walking": "הליכה",
+        "dancing": "ריקוד",
+        "stretching": "מתיחות",
+        "lying_down": "שכיבה",
+        "leaning": "הישענות",
+        "blowing_kiss": "נשיקת אוויר",
+        "drinking_coffee": "שותה קפה",
+        "hands_on_hips": "ידיים על המותניים",
+        "over_shoulder": "מבט מעל הכתף",
+        "side_profile": "פרופיל צד",
+        "arms_crossed": "ידיים שלובות",
+        "kneeling": "כריעה",
+        "squatting": "כפיפה",
+        "back_view": "מבט מאחור",
+        "sitting": "ישיבה",
+        "necklace": "שרשרת",
+        "earrings": "עגילים",
+        "glasses": "משקפיים",
+        "choker": "צ'וקר",
+        "hat": "כובע",
+        "sunglasses": "משקפי שמש",
+        "garden": "גינה",
+        "beach": "חוף",
+        "bedroom": "חדר שינה",
+        "gym": "חדר כושר",
+        "bar": "בר",
+        "kitchen": "מטבח",
+        "restaurant": "מסעדה",
+        "balcony": "מרפסת",
+        "city_street": "רחוב עירוני",
+        "pool": "בריכה"
+      },
+      "fragments": {
+        "bikini": "לובשת ביקיני",
+        "skirt": "לובשת חצאית",
+        "lingerie": "לובשת הלבשה תחתונה",
+        "crop_top": "לובשת טופ קרופ",
+        "leather": "לובשת תלבושת עור",
+        "mini_skirt": "לובשת מיני-חצאית",
+        "satin_robe": "לובשת חלוק סאטן",
+        "jeans": "לובשת ג'ינס",
+        "summer_dress": "לובשת שמלת קיץ",
+        "sportswear": "לובשת בגדי ספורט צמודים",
+        "selfie": "מצלמת סלפי",
+        "walking": "הולכת",
+        "dancing": "רוקדת",
+        "stretching": "מתמתחת",
+        "lying_down": "שוכבת",
+        "leaning": "נשענת על קיר",
+        "blowing_kiss": "שולחת נשיקה",
+        "drinking_coffee": "שותה כוס קפה",
+        "hands_on_hips": "עם ידיים על המותניים",
+        "over_shoulder": "מביטה מעל הכתף",
+        "side_profile": "תנוחת פרופיל צד",
+        "arms_crossed": "עם ידיים שלובות",
+        "kneeling": "תנוחת כריעה",
+        "squatting": "תנוחת כריעה שפופה",
+        "back_view": "מבט מאחור",
+        "sitting": "יושבת",
+        "necklace": "עונדת שרשרת",
+        "earrings": "עונדת עגילים",
+        "glasses": "עונדת משקפיים",
+        "choker": "עונדת צ'וקר",
+        "hat": "עונדת כובע",
+        "sunglasses": "עונדת משקפי שמש",
+        "garden": "בגן",
+        "beach": "בחוף",
+        "bedroom": "בחדר שינה",
+        "gym": "בחדר כושר",
+        "bar": "בבר",
+        "kitchen": "במטבח",
+        "restaurant": "במסעדה",
+        "balcony": "במרפסת",
+        "city_street": "ברחוב עירוני",
+        "pool": "ליד הבריכה"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "סלפי",
+          "uiPrompt": "הראי לי סלפי שלך"
+        },
+        "posing": {
+          "name": "תנוחה",
+          "uiPrompt": "הראי לי אותך בתנוחה"
+        },
+        "sitting": {
+          "name": "ישיבה",
+          "uiPrompt": "הראי לי אותך יושבת"
+        },
+        "waving": {
+          "name": "מנופפת",
+          "uiPrompt": "הראי לי אותך מנופפת"
+        },
+        "dancing": {
+          "name": "רוקדת",
+          "uiPrompt": "הראי לי אותך רוקדת"
+        },
+        "reading": {
+          "name": "קוראת",
+          "uiPrompt": "הראי לי אותך קוראת"
+        },
+        "smiling": {
+          "name": "מחייך",
+          "uiPrompt": "הראי לי אותך מחייך"
+        },
+        "walking": {
+          "name": "הולך",
+          "uiPrompt": "הראי לי אותך הולך"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "סלפי",
+          "uiPrompt": "הראי לי סלפי וידאו"
+        },
+        "posing": {
+          "name": "פוזה",
+          "uiPrompt": "הראי לי וידאו שלך בפוזה"
+        },
+        "sitting": {
+          "name": "יושב",
+          "uiPrompt": "הראי לי וידאו שלך יושב"
+        },
+        "waving": {
+          "name": "מנופף",
+          "uiPrompt": "הראי לי וידאו שלך מנופף"
+        },
+        "dancing": {
+          "name": "רוקד",
+          "uiPrompt": "הראי לי וידאו שלך רוקד"
+        },
+        "reading": {
+          "name": "קורא",
+          "uiPrompt": "הראי לי וידאו שלך קורא"
+        },
+        "smiling": {
+          "name": "מחייך",
+          "uiPrompt": "הראי לי וידאו שלך מחייך"
+        },
+        "walking": {
+          "name": "הולך",
+          "uiPrompt": "הראי לי וידאו שלך הולך"
+        }
+      }
+    },
+    "writeYourOwn": "או כתבי פרומפט משלך",
+    "presetSelected": "פריסט נבחר",
+    "effects": {
+      "categories": {
+        "solo": "סולו וטיז",
+        "oral": "אוראלי",
+        "positions": "תנוחות",
+        "pov": "POV",
+        "extra": "תוספות",
+        "remix": "רמיקס"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Bath Towel"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Breast Milk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "מיסיונרית מבט צד"
+        },
+        "remix_blowjob": {
+          "name": "רמיקס מציצה"
+        },
+        "remix_cowgirl": {
+          "name": "רמיקס רכיבה"
+        },
+        "remix_doggystyle": {
+          "name": "רמיקס דוגיסטייל"
+        },
+        "remix_dress": {
+          "name": "רמיקס שמלה"
+        },
+        "remix_hold_dick": {
+          "name": "רמיקס אחיזת זין"
+        },
+        "remix_kiss": {
+          "name": "רמיקס נשיקה"
+        },
+        "remix_pronebone": {
+          "name": "רמיקס פרונבון"
+        },
+        "remix_suck": {
+          "name": "רמיקס מציצה"
+        },
+        "remix_wear": {
+          "name": "רמיקס לבוש"
+        },
+        "remix_yoga": {
+          "name": "רמיקס יוגה"
+        },
+        "ride_on_dildo": {
+          "name": "רכיבה על דילדו"
+        },
+        "sipping_condoms": {
+          "name": "לגימת קונדומים"
+        },
+        "squatting_cowgirl": {
+          "name": "רכיבה סקוואט"
+        },
+        "tattoo": {
+          "name": "קעקוע"
+        },
+        "tentacles": {
+          "name": "זרועות"
+        },
+        "titjob": {
+          "name": "טיטג'וב"
+        },
+        "topless": {
+          "name": "טופלס"
+        },
+        "undress": {
+          "name": "התפשטות"
+        },
+        "used": {
+          "name": "משומש"
+        },
+        "xray": {
+          "name": "רנטגן"
+        },
+        "maid_outfit": {
+          "name": "תלבושת משרתת"
+        },
+        "nurse_outfit": {
+          "name": "תלבושת אחות"
+        },
+        "cheerleader": {
+          "name": "מעודדת"
+        },
+        "wet_tshirt": {
+          "name": "חולצה רטובה"
+        },
+        "latex_catsuit": {
+          "name": "חליפת לטקס"
+        },
+        "corset_stockings": {
+          "name": "מחוך וגרביים"
+        },
+        "gym_shorts": {
+          "name": "מכנסי ספורט"
+        },
+        "thong_tease": {
+          "name": "טיז תחתון"
+        },
+        "upskirt_panties": {
+          "name": "הצצה מתחת לחצאית"
+        },
+        "mirror_selfie": {
+          "name": "סלפי במראה"
+        },
+        "shower_nude": {
+          "name": "מקלחת"
+        },
+        "oiled_body": {
+          "name": "גוף משומן"
+        },
+        "spread_open": {
+          "name": "פרושה"
+        },
+        "ahegao": {
+          "name": "אהגאו"
+        },
+        "deepthroat": {
+          "name": "גרון עמוק"
+        },
+        "sloppy_blowjob": {
+          "name": "מציצה רטובה"
+        },
+        "ball_licking": {
+          "name": "ליקוק ביצים"
+        },
+        "face_sitting_oral": {
+          "name": "ישיבה על הפנים"
+        },
+        "cowgirl": {
+          "name": "קאוגירל"
+        },
+        "reverse_cowgirl": {
+          "name": "קאוגירל הפוכה"
+        },
+        "prone_bone": {
+          "name": "פרון בון"
+        },
+        "standing_sex": {
+          "name": "עמידה"
+        },
+        "against_wall": {
+          "name": "על הקיר"
+        },
+        "spooning": {
+          "name": "כפית"
+        },
+        "legs_on_shoulders": {
+          "name": "רגליים על הכתפיים"
+        },
+        "mating_press": {
+          "name": "לחיצת הזדווגות"
+        },
+        "cowgirl_pov": {
+          "name": "קאוגירל POV"
+        },
+        "titjob_pov": {
+          "name": "טיטג'וב POV"
+        },
+        "handjob_pov": {
+          "name": "יד POV"
+        },
+        "cunnilingus_pov": {
+          "name": "קונילינגוס POV"
+        },
+        "double_penetration": {
+          "name": "חדירה כפולה"
+        },
+        "threesome_mmf": {
+          "name": "שלישייה"
+        },
+        "glory_hole": {
+          "name": "חור תהילה"
+        },
+        "creampie": {
+          "name": "קרם פאי"
+        },
+        "pearl_necklace": {
+          "name": "שרשרת פנינים"
+        },
+        "bukkake": {
+          "name": "בוקאקה"
+        },
+        "squirting": {
+          "name": "סקווירטינג"
+        },
+        "spanking": {
+          "name": "סטירה"
+        },
+        "gagged_bdsm": {
+          "name": "אזוקה"
+        },
+        "facefuck": {
+          "name": "פייספאק"
+        },
+        "throatpie": {
+          "name": "גרון מלא"
+        },
+        "cock_worship": {
+          "name": "סגידה לזין"
+        },
+        "footjob": {
+          "name": "פוטג'וב"
+        },
+        "amazon": {
+          "name": "אמזון"
+        },
+        "full_nelson": {
+          "name": "פול נלסון"
+        },
+        "lotus": {
+          "name": "לוטוס"
+        },
+        "piledriver": {
+          "name": "פיילדרייבר"
+        },
+        "facefuck_pov": {
+          "name": "פייספאק POV"
+        },
+        "riding_pov": {
+          "name": "רכיבה POV"
+        },
+        "spitroast": {
+          "name": "ספיטרוסט"
+        },
+        "hair_pulling": {
+          "name": "משיכת שיער"
+        },
+        "facial_cumshot": {
+          "name": "פנים עם גמר"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "אנאלי"
+        },
+        "back_doggystyle": {
+          "name": "דוגיסטייל מאחור"
+        },
+        "blowjob": {
+          "name": "מציצה"
+        },
+        "blowjob_69": {
+          "name": "מציצה 69"
+        },
+        "blowjob_reverse": {
+          "name": "מציצה הפוכה"
+        },
+        "breast_massage": {
+          "name": "עיסוי חזה"
+        },
+        "breast_massage_nude": {
+          "name": "עיסוי חזה עירום"
+        },
+        "butt_smothering": {
+          "name": "חניקת ישבן"
+        },
+        "cock_worship": {
+          "name": "סגידה לזין"
+        },
+        "cum_in_mouth": {
+          "name": "שפיכה בפה"
+        },
+        "dildo_masturbation": {
+          "name": "אוננות עם דילדו"
+        },
+        "double_blowjob": {
+          "name": "מציצה כפולה"
+        },
+        "double_penetration": {
+          "name": "חדירה כפולה"
+        },
+        "ejaculation": {
+          "name": "שפיכה"
+        },
+        "facefuck": {
+          "name": "פייספאק"
+        },
+        "facefuck_pov": {
+          "name": "פייספאק POV"
+        },
+        "facial_cumshot": {
+          "name": "פיאשל"
+        },
+        "footjob": {
+          "name": "פוטג'וב"
+        },
+        "front_doggystyle": {
+          "name": "דוגיסטייל מלפנים"
+        },
+        "fuck_machine": {
+          "name": "מכונת זיון"
+        },
+        "full_nelson": {
+          "name": "פול נלסון"
+        },
+        "handjob": {
+          "name": "ידנית"
+        },
+        "masturbation": {
+          "name": "אוננות"
+        },
+        "missionary_pov": {
+          "name": "מיסיונרית POV"
+        },
+        "missionary_sideview": {
+          "name": "מיסיונרית מבט צד"
+        },
+        "nipple_play": {
+          "name": "משחק פטמות"
+        },
+        "nude_posing": {
+          "name": "פוזות עירום"
+        },
+        "orgasm": {
+          "name": "אורגזמה"
+        },
+        "pronebone": {
+          "name": "פרונבון"
+        },
+        "pussy_closeup": {
+          "name": "תקריב פות"
+        },
+        "reverse_cowgirl": {
+          "name": "קאובויה הפוכה"
+        },
+        "shoejob": {
+          "name": "עבודת נעל"
+        },
+        "spitroast": {
+          "name": "ספיטרוסט"
+        },
+        "squatting_cowgirl": {
+          "name": "קאובויה כורעת"
+        },
+        "throatpie": {
+          "name": "ת'רוטפי"
+        },
+        "tiktok_trend": {
+          "name": "טרנד טיקטוק"
+        },
+        "titjob": {
+          "name": "עבודת חזה"
+        },
+        "titty_flash": {
+          "name": "הבזק חזה"
+        },
+        "triple_dicked": {
+          "name": "שלושה זיונים"
+        },
+        "twerk": {
+          "name": "טוורק"
+        },
+        "undress": {
+          "name": "התפשטות"
+        },
+        "strip_tease": {
+          "name": "סטריפ טיז"
+        },
+        "booty_bounce": {
+          "name": "ריקוד תחת"
+        },
+        "oil_show": {
+          "name": "שואו שמן"
+        },
+        "shower_show": {
+          "name": "שואו מקלחת"
+        },
+        "panty_drop": {
+          "name": "הורדת תחתונים"
+        },
+        "ahegao_solo": {
+          "name": "אהגאו"
+        },
+        "deepthroat": {
+          "name": "גרון עמוק"
+        },
+        "sloppy_blowjob": {
+          "name": "מציצה רטובה"
+        },
+        "ball_sucking": {
+          "name": "מוצץ ביצים"
+        },
+        "cowgirl": {
+          "name": "קאוגירל"
+        },
+        "standing_carry": {
+          "name": "נשיאה עומדת"
+        },
+        "against_wall": {
+          "name": "על הקיר"
+        },
+        "spooning": {
+          "name": "כפית"
+        },
+        "mating_press": {
+          "name": "לחיצת הזדווגות"
+        },
+        "amazon": {
+          "name": "אמזון"
+        },
+        "cowgirl_pov": {
+          "name": "קאוגירל POV"
+        },
+        "doggy_pov": {
+          "name": "דוגי POV"
+        },
+        "titjob_pov": {
+          "name": "טיטג'וב POV"
+        },
+        "handjob_pov": {
+          "name": "יד POV"
+        },
+        "riding_pov": {
+          "name": "רכיבה POV"
+        },
+        "gangbang": {
+          "name": "גנגבנג"
+        },
+        "creampie": {
+          "name": "קרמפאי"
+        },
+        "bukkake": {
+          "name": "בוקאקה"
+        },
+        "squirting": {
+          "name": "סקווירטינג"
+        },
+        "spanking": {
+          "name": "סטירה"
+        },
+        "hair_pulling": {
+          "name": "משיכת שיער"
+        },
+        "fingering": {
+          "name": "אצבעות"
+        },
+        "come_hither": {
+          "name": "בוא הנה"
+        },
+        "spread_legs": {
+          "name": "רגליים פתוחות"
+        },
+        "blowjob_sideview": {
+          "name": "מציצה צדדית"
+        },
+        "cunnilingus": {
+          "name": "קונילינגוס"
+        },
+        "missionary": {
+          "name": "מיסיונר"
+        },
+        "legs_on_shoulders": {
+          "name": "רגליים על כתפיים"
+        },
+        "blowjob_pov": {
+          "name": "מציצה POV"
+        },
+        "cunnilingus_pov": {
+          "name": "קונילינגוס POV"
+        },
+        "glory_hole": {
+          "name": "גלורי הול"
+        },
+        "threesome_mmf": {
+          "name": "שלישייה"
+        },
+        "aftercare_mess": {
+          "name": "בלגן טיפולי"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "האם אתה בטוח שברצונך למחוק את זה?",
+    "deleteSuccess": "נמחק בהצלחה",
+    "deleteError": "המחיקה נכשלה",
+    "empty": "עדיין אין מדיה. צור כמה בצ'אט!",
+    "gallerySubtitle": "גלריית הרגעים האישית שלך שנוצרו על ידי AI",
+    "filterAll": "הכול",
+    "filterImages": "תמונות",
+    "filterVideos": "סרטונים",
+    "loadMore": "טען עוד",
+    "folders": "תיקיות",
+    "newFolder": "תיקייה חדשה",
+    "deleteFolders": "מחק תיקיות נבחרות",
+    "folderCreated": "התיקייה נוצרה",
+    "folderCreateError": "יצירת התיקייה נכשלה",
+    "folderRenamed": "התיקייה שונתה שם",
+    "folderRenameError": "שינוי שם התיקייה נכשל",
+    "folderDeleted": "התיקייה נמחקה",
+    "folderDeleteError": "מחיקת התיקייה נכשלה",
+    "folderNamePlaceholder": "שם תיקייה",
+    "seeMore": "ראה עוד",
+    "seeLess": "ראה פחות",
+    "selectedCount": "{count} פריטים נבחרו",
+    "selectAll": "בחר הכול",
+    "select": "בחר",
+    "moveToFolder": "העבר",
+    "bulkDeleteConfirm": "למחוק {count} פריטים נבחרים?",
+    "bulkDeleteSuccess": "הפריטים נמחקו",
+    "bulkDownloadStart": "מוריד {count} פריטים...",
+    "moveSuccess": "הפריטים הועברו"
+  },
+  "voice": {
+    "connecting": "מתחבר...",
+    "connected": "מחובר",
+    "mute": "השתק",
+    "unmute": "בטל השתקה",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "דבר באופן טבעי. ה-AI יגיב כשתשהה.",
+    "connectionError": "החיבור נכשל. נסה שוב.",
+    "minutesRemaining": "{minutes} דקות נותרו",
+    "minutesUsed": "{minutes} דקות נוצלו"
+  },
+  "characters": {
+    "filters": "מסננים",
+    "ethnicity": "מוצא אתני",
+    "bodyType": "מבנה גוף",
+    "ageRange": "טווח גילאים",
+    "relationship": "מצב זוגי",
+    "occupation": "עיסוק",
+    "hobbies": "תחביבים",
+    "personality": "אישיות",
+    "language": "שפה",
+    "age": "גיל",
+    "all": "הכול",
+    "noResults": "לא נמצאו דמויות",
+    "noResultsDesc": "נסה לשנות את המסננים",
+    "newBadge": "חדש",
+    "chatNow": "שוחח עכשיו",
+    "viewProfile": "צפה בפרופיל",
+    "ethnicities": {
+      "caucasian": "קווקזי",
+      "asian": "אסייתי",
+      "middleEastern": "מזרח תיכוני",
+      "hispanic": "היספני",
+      "african": "אפריקאי",
+      "southAsian": "דרום אסייתי",
+      "nativeAmerican": "יליד אמריקאי",
+      "pacificIslander": "איי האוקיינוס השקט",
+      "mixed": "מעורב",
+      "other": "אחר"
+    },
+    "bodyTypes": {
+      "slim": "רזה",
+      "athletic": "אתלטי",
+      "average": "ממוצע",
+      "curvy": "מעוקל",
+      "plus": "מידות גדולות"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "רווק",
+      "dating": "בזוגיות",
+      "married": "נשוי",
+      "none": "ללא"
+    }
+  },
+  "settings": {
+    "profile": "פרופיל",
+    "myProfile": "הפרופיל שלי",
+    "settings": "הגדרות",
+    "account": "חשבון",
+    "plan": "תוכנית",
+    "profileSettings": "הגדרות פרופיל",
+    "manageAccountSettings": "נהל את הגדרות החשבון וההעדפות שלך",
+    "personalInfo": "מידע אישי",
+    "nickname": "כינוי",
+    "gender": "מגדר",
+    "male": "זכר",
+    "female": "נקבה",
+    "preferences": "העדפות",
+    "newsletter": "מנוי לניוזלטר",
+    "newsletterDesc": "קבל עדכונים וחדשות",
+    "aiTrainingTitle": "אימון AI ומודרציה",
+    "aiTrainingDesc": "אפשר לצ'אטים ולפרומפטים שלך לעזור לאמן ולשפר את ה-AI והמודרציה של sweetwine. כבה זאת בכל עת כדי לבטל.",
+    "aiTrainingLink": "למידע נוסף בהודעת הפרטיות שלנו.",
+    "aiTrainingError": "לא ניתן לעדכן את העדפת אימון ה-AI שלך",
+    "interfaceLanguage": "שפת ממשק",
+    "interfaceLanguageDesc": "השפה עבור ממשק המשתמש",
+    "aiLanguage": "שפת תגובות AI",
+    "aiLanguageDesc": "השפה שדמויות ה-AI ישתמשו בה כשידברו איתך",
+    "currentPlan": "תוכנית נוכחית",
+    "freePlan": "תוכנית חינמית",
+    "dangerZone": "אזור סיכון",
+    "dangerZoneDescription": "אם ברצונך למחוק את החשבון הזה ואת כל הנתונים שלו לצמיתות.",
+    "deleteAllMemory": "מחק את כל הזיכרונות",
+    "confirmDeleteAllMemory": "האם אתה בטוח שברצונך למחוק זיכרונות ארוכי טווח של כל דמויות ה-AI? הודעות הצ'אט יישארו, אך הדמויות ישכחו עובדות קודמות בתשובה הבאה.",
+    "deleteAllMemorySuccess": "כל הזיכרונות נמחקו",
+    "deleteAccount": {
+      "button": "מחק חשבון",
+      "title": "מחק חשבון",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "לאישור, הקלד",
+      "confirmRequired": "הקלד DELETE לאישור",
+      "confirmButton": "מחק את החשבון שלי",
+      "deleting": "מוחק...",
+      "success": "החשבון שלך נמחק",
+      "error": "מחיקת החשבון נכשלה. נסה שוב."
+    },
+    "saveChanges": "שמור שינויים",
+    "changesSaved": "השינויים נשמרו בהצלחה",
+    "saveFailed": "שמירת השינויים נכשלה",
+    "languageUpdated": "השפה עודכנה",
+    "aiLanguageUpdated": "שפת ה-AI עודכנה"
+  },
+  "create": {
+    "defaultGreeting": "שלום",
+    "title": "צור דמות AI",
+    "step": "שלב {current} מתוך {total}",
+    "step1": {
+      "title": "בחר סגנון",
+      "description": "בחר את הסגנון והמאפיינים הבסיסיים לדמות שלך"
+    },
+    "step2": {
+      "title": "בחר מוצא",
+      "description": "בחר מוצא וגיל לדמות שלך"
+    },
+    "step3": {
+      "title": "בחר שיער ועיניים",
+      "description": "התאם אישית את תסרוקת השיער, צבע השיער וצבע העיניים"
+    },
+    "step4": {
+      "title": "בחר גוף",
+      "description": "התאם אישית את גוף הדמות שלך"
+    },
+    "step5": {
+      "title": "אישיות ופרטים",
+      "description": "הגדר את האישיות והקול של הדמות שלך"
+    },
+    "style": {
+      "title": "סגנון הדמות",
+      "realistic": "ריאליסטי",
+      "anime": "אנימה"
+    },
+    "gender": {
+      "title": "מגדר",
+      "female": "נקבה",
+      "male": "זכר"
+    },
+    "age": {
+      "title": "גיל",
+      "years": "{age} שנים"
+    },
+    "ethnicity": {
+      "title": "מוצא"
+    },
+    "hairStyle": {
+      "title": "תסרוקת"
+    },
+    "hairColor": {
+      "title": "צבע שיער"
+    },
+    "eyeColor": {
+      "title": "צבע עיניים"
+    },
+    "bodyType": {
+      "title": "סוג גוף"
+    },
+    "breastSize": {
+      "title": "גודל חזה"
+    },
+    "name": {
+      "title": "שם",
+      "placeholder": "הזן שם לדמות",
+      "randomize": "צור שם אקראי"
+    },
+    "language": {
+      "title": "שפה",
+      "widgetLabel": "בחר שפה",
+      "placeholder": "בחר שפה",
+      "selectTitle": "בחר את השפה שלך"
+    },
+    "personality": {
+      "title": "אישיות",
+      "widgetLabel": "בחר אישיות",
+      "placeholder": "בחר אישיות",
+      "sectionTitle": "בחר אישיות",
+      "clickToChange": "לחץ כדי לשנות"
+    },
+    "relationship": {
+      "title": "קשר",
+      "widgetLabel": "בחר קשר",
+      "placeholder": "בחר קשר",
+      "selectTitle": "ערוך קשר"
+    },
+    "occupation": {
+      "title": "עיסוק",
+      "widgetLabel": "בחר עיסוק",
+      "placeholder": "בחר עיסוק",
+      "selectTitle": "ערוך עיסוק"
+    },
+    "kinks": {
+      "title": "תחומי עניין",
+      "widgetLabel": "אילו תחומי עניין יש להם? (מקס. {max})",
+      "labelMax": "תחומי עניין (מקס. {max})",
+      "placeholder": "בחר תחומי עניין (אופציונלי)",
+      "optional": "אופציונלי",
+      "selectTitle": "ערוך תחומי עניין",
+      "moreCount": "+{count} נוספים"
+    },
+    "selector": {
+      "searchPlaceholder": "חפש",
+      "noResults": "לא נמצאו אפשרויות",
+      "cancel": "ביטול",
+      "saveChanges": "שמור שינויים",
+      "selectedCount": "{count} נבחרו"
+    },
+    "voice": {
+      "title": "קול",
+      "widgetLabel": "בחר קול",
+      "placeholder": "בחר קול",
+      "selectTitle": "בחר קול"
+    },
+    "advanced": {
+      "title": "פרטים מתקדמים",
+      "optional": "אופציונלי",
+      "filled": "מולא",
+      "autocompleteTitle": "השלמה אוטומטית עם AI",
+      "autocompleteDesc": "תן ל-AI להשלים שדות ריקים לדמות עמוקה יותר",
+      "autocompleteSuccess": "השדות מולאו בהצלחה!",
+      "autocompleteError": "נכשל ביצירת הצעות. נסה שוב.",
+      "greetingLabel": "ברכה",
+      "greetingPlaceholder": "ההודעה הראשונה שהדמות שלך שולחת...",
+      "scenarioLabel": "תרחיש",
+      "scenarioPlaceholder": "ההקשר או הרקע של איך נפגשתם...",
+      "personalityLabel": "פרטי אישיות נוספים",
+      "personalityPlaceholder": "גחמות, דפוסי דיבור, תכונות התנהגות...",
+      "extraLabel": "פרטים נוספים",
+      "extraPlaceholder": "רקע, תחביבים, היסטוריית חיים..."
+    },
+    "navigation": {
+      "back": "חזור",
+      "next": "הבא",
+      "create": "צור",
+      "generateYourCharacter": "צור את הדמות שלך"
+    },
+    "progress": {
+      "generatingPrompt": "יוצר אישיות...",
+      "generatingImage": "יוצר דיוקן...",
+      "creatingVoice": "מגדיר קול...",
+      "saving": "שומר...",
+      "complete": "הושלם!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "יוצר אישיות...",
+      "addingSweetness": "מוסיף מתיקות...",
+      "tooMuchSweet": "אופס, יותר מדי מתוק...",
+      "testingSounds": "בודק צלילים..."
+    },
+    "overlay": {
+      "signupPrompt": "השלם הרשמה כדי לשחרר את הדמות שלך…",
+      "processingHint": "זה בדרך כלל לוקח 20–30 שניות",
+      "traitEthnicity": "מוצא",
+      "traitBody": "גוף",
+      "traitHair": "שיער",
+      "traitColor": "צבע",
+      "traitEyes": "עיניים",
+      "traitVibe": "וייב",
+      "bannerTitle": "הדמות שלך מוכנה להיווצר!",
+      "bannerDesc": "ההעדפות שלך נשמרו. בדוק וצור למטה."
+    },
+    "success": {
+      "title": "הדמות נוצרה!",
+      "description": "דמות ה-AI שלך נוצרה בהצלחה.",
+      "yearsOld": "שנים",
+      "meetButton": "הכר"
+    },
+    "error": {
+      "title": "היצירה נכשלה",
+      "generic": "נכשל ליצור דמות. נסה שוב."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "קווקזי",
+        "asian": "אסייתי",
+        "middle_eastern": "מזרח תיכוני",
+        "hispanic": "היספני",
+        "african": "אפריקאי",
+        "south_asian": "דרום אסייתי",
+        "native_american": "יליד אמריקאי",
+        "pacific_islander": "אי האוקיינוס השקט",
+        "mixed": "מעורב",
+        "arab": "ערבי"
+      },
+      "hairStyleFemale": {
+        "straight": "חלק",
+        "bangs": "פוני",
+        "curly": "מתולתל",
+        "bun": "כיכר",
+        "short_bob": "בוב קצר",
+        "ponytail": "זנב סוס",
+        "wavy": "גלי",
+        "long_layers": "שכבות ארוכות",
+        "braids": "צמות",
+        "pixie_cut": "פיקסי קאט",
+        "updo": "אפדו",
+        "french_twist": "טוויסט צרפתי",
+        "fishtail_braid": "צמה דג",
+        "top_knot": "קוקו עליון",
+        "space_buns": "לחמניות חלל",
+        "halo_braid": "צמה הילה",
+        "beehive": "כוורת",
+        "finger_waves": "גלים באצבעות",
+        "lob": "לוב (בוב ארוך)",
+        "shag_cut": "תספורת שג",
+        "bald": "קרח"
+      },
+      "hairStyleMale": {
+        "short": "קצר",
+        "buzz_cut": "תספורת באז",
+        "crew_cut": "תספורת קרו",
+        "undercut": "תספורת אנדרקאט",
+        "fade": "פייד",
+        "pompadour": "פומפדור",
+        "quiff": "קוויף",
+        "slicked_back": "משוך לאחור",
+        "curly": "מתולתל",
+        "afro": "אפרו",
+        "man_bun": "מנבאן",
+        "dreadlocks": "דרדלוקס",
+        "cornrows": "קורנרואוס",
+        "mohawk": "מוהוק",
+        "side_part": "פרידה צדדית",
+        "textured_crop": "תספורת טקסטורה",
+        "french_crop": "תספורת פרנצ'ית",
+        "spiky": "דוקרני",
+        "comb_over": "קומב-אובר",
+        "long_hair": "שיער ארוך",
+        "bald": "קרח"
+      },
+      "hairColor": {
+        "brunette": "חום",
+        "blonde": "בלונד",
+        "black": "שחור",
+        "redhead": "ג'ינג'י",
+        "pink": "ורוד",
+        "auburn": "חום-אדמדם",
+        "brown": "חום",
+        "platinum_blonde": "בלונד פלטינה",
+        "silver_grey": "כסף/אפור",
+        "white": "לבן",
+        "blue": "כחול",
+        "purple": "סגול",
+        "green": "ירוק",
+        "burgundy": "בורדו",
+        "copper": "נחושת",
+        "strawberry_blonde": "בלונד תות",
+        "ash_brown": "חום אפרפר",
+        "golden_blonde": "בלונד זהוב",
+        "mahogany": "מהגוני",
+        "pastel_pink": "ורוד פסטל",
+        "ombre": "אומברה",
+        "balayage": "בליאז'",
+        "highlights": "היילייטס",
+        "jet_black": "שחור מט",
+        "dark_brown": "חום כהה",
+        "light_brown": "חום בהיר",
+        "honey_blonde": "בלונד דבש",
+        "dirty_blonde": "בלונד מלוכלך",
+        "cherry_red": "אדום דובדבן",
+        "violet": "סגול"
+      },
+      "eyeColor": {
+        "brown": "חום",
+        "blue": "כחול",
+        "green": "ירוק",
+        "hazel": "לוז",
+        "amber": "ענבר",
+        "gray": "אפור",
+        "heterochromia": "הטרוכרומיה",
+        "violet": "סגול",
+        "red_pink": "אדום/ורוד",
+        "black": "שחור"
+      },
+      "bodyTypeFemale": {
+        "skinny": "רזה",
+        "athletic": "אתלטית",
+        "average": "ממוצע",
+        "curvy": "מעוקל",
+        "chubby": "שמנמן"
+      },
+      "bodyTypeMale": {
+        "skinny": "רזה",
+        "athletic": "אתלטי",
+        "average": "ממוצע",
+        "muscular": "שרירי",
+        "heavy": "כבד",
+        "big_tall": "גדול וגבוה"
+      },
+      "breastSize": {
+        "small": "קטן",
+        "medium": "בינוני",
+        "large": "גדול",
+        "extra_large": "גדול במיוחד"
+      },
+      "personality": {
+        "nympho": "נימפו",
+        "lover": "מאהב",
+        "submissive": "כנוע",
+        "dominant": "דומיננטי",
+        "temptress": "מפתה",
+        "innocent": "תמים",
+        "caregiver": "מטפל",
+        "experimenter": "ניסיונאי",
+        "mean": "מרושע",
+        "confidant": "בן סוד",
+        "shy": "ביישן",
+        "queen": "מלכה",
+        "adventurous": "הרפתקן",
+        "romantic": "רומנטי",
+        "intellectual": "אינטלקטואלי",
+        "protector": "מגן",
+        "rebel": "מורד",
+        "optimist": "אופטימי",
+        "realist": "ריאליסט",
+        "free_spirit": "רוח חופשית",
+        "leader": "מנהיג",
+        "loyal": "נאמן",
+        "playful": "שובב",
+        "mysterious": "מסתורי",
+        "ambitious": "שאפתן",
+        "gentle": "עדין",
+        "sarcastic": "ציני",
+        "empathetic": "אמפתי",
+        "stoic": "סטואי",
+        "charismatic": "כריזמטי"
+      },
+      "relationship": {
+        "stranger": "זר",
+        "girlfriend": "חברה",
+        "sex_friend": "חבר מין",
+        "school_mate": "חבר לכיתה",
+        "work_colleague": "עמית לעבודה",
+        "wife": "אישה",
+        "mistress": "פילגש",
+        "friend": "חבר",
+        "step_sister": "אחות חורגת",
+        "step_mom": "אם חורגת",
+        "step_daughter": "בת חורגת",
+        "landlord": "בעל הבית",
+        "sugar_baby": "סוכריה",
+        "boss": "בוס",
+        "teacher": "מורה",
+        "student": "סטודנט",
+        "neighbour": "שכן",
+        "mother_in_law": "חמות",
+        "sister_in_law": "גיסה",
+        "boyfriend": "חבר",
+        "husband": "בעל",
+        "fiance": "ארוס / ארוסה",
+        "ex": "אקס",
+        "roommate": "שותף לדירה",
+        "best_friend": "חבר הכי טוב",
+        "classmate": "חבר לכיתה",
+        "mentor": "מנטור",
+        "client": "לקוח",
+        "therapist": "מטפל",
+        "trainer": "מאמן",
+        "rival": "יריב",
+        "crush": "חיזור",
+        "secret_admirer": "מעריץ סודי",
+        "pen_pal": "חבר עט",
+        "business_partner": "שותף עסקי",
+        "babysitter": "בייביסיטר",
+        "childhood_friend": "חבר ילדות",
+        "long_distance_partner": "בן/בת זוג מרחוק"
+      },
+      "occupation": {
+        "student": "סטודנט",
+        "dancer": "רקדן",
+        "model": "דוגמן",
+        "maid": "עוזרת בית",
+        "boss_ceo": "בוס / מנכ\"ל",
+        "babysitter_au_pair": "בייביסיטר / או פֵּר",
+        "streamer": "סטרימרית",
+        "bartender": "ברמנית",
+        "tech_engineer": "מהנדסת טכנולוגיה",
+        "lifeguard": "מצילת חוף",
+        "cashier": "קופאית",
+        "massage_therapist": "מטפלת עיסוי",
+        "teacher": "מורה",
+        "nurse": "אחות",
+        "secretary": "מזכירה",
+        "yoga_instructor": "מדריכת יוגה",
+        "fitness_coach": "מאמנת כושר",
+        "cook": "טבחית",
+        "artist": "אמנית",
+        "movie_star_actress": "כוכבת קולנוע / שחקנית",
+        "doctor": "רופאה",
+        "librarian": "ספרנית",
+        "spy": "מרגלת",
+        "police_officer": "שוטרת",
+        "soldier": "חיילת",
+        "lawyer": "עורכת דין",
+        "hairdresser": "מעצבת שיער",
+        "dentist": "רופאת שיניים",
+        "singer_musician": "זמרת / מוזיקאית",
+        "gynecologist": "גינקולוגית",
+        "writer": "סופרת",
+        "flight_attendant": "דיילת אוויר",
+        "professional_athlete": "ספורטאית מקצועית",
+        "scientist": "מדענית",
+        "florist": "פלוריסטית",
+        "makeup_artist": "מאפרת",
+        "photographer": "צלמת",
+        "social_worker": "עובדת סוציאלית",
+        "designer": "מעצבת",
+        "pharmacist": "רוקחת",
+        "nutritionist": "תזונאית",
+        "architect": "אדריכלית",
+        "veterinarian": "וטרינרית",
+        "mechanic": "מכונאית",
+        "journalist": "עיתונאית",
+        "pilot": "טייסת",
+        "firefighter": "כבאית",
+        "accountant": "רואת חשבון",
+        "electrician": "חשמלאית",
+        "carpenter": "נגרית",
+        "psychologist": "פסיכולוג",
+        "real_estate_agent": "סוכן נדל\"ן",
+        "chef": "שף",
+        "farmer": "חקלאי",
+        "delivery_driver": "נהג משלוחים",
+        "janitor": "מנקה",
+        "security_guard": "מאבטח",
+        "banker": "בנקאי",
+        "judge": "שופט",
+        "paramedic": "פרמדיק",
+        "actor": "שחקן",
+        "comedian": "קומיקאי",
+        "archaeologist": "ארכיאולוג",
+        "astronaut": "אסטרונאוט"
+      },
+      "kinks": {
+        "bondage": "כבילה",
+        "spanking": "סטירה",
+        "collar_leash": "צווארון ורצועה",
+        "punishment": "ענישה",
+        "humiliation": "השפלה",
+        "public_play": "משחק פומבי",
+        "roleplay": "משחק תפקידים",
+        "anal_play": "משחק אנאלי",
+        "oral_play": "משחק אוראלי",
+        "cum_play": "משחק עם זרע",
+        "creampie": "קרימפאי",
+        "squirting": "ריסוס",
+        "dirty_talk": "דיבור מלוכלך",
+        "breeding": "הפריה",
+        "daddy_mommy_dominance": "דומיננטיות אבא/אמא",
+        "edging": "עצירה על הסף",
+        "obedience": "ציות",
+        "control": "שליטה",
+        "inexperienced": "חסר ניסיון",
+        "shy_flirting": "פלירטוט ביישני",
+        "playful_teasing": "לעג משעשע",
+        "cuddling": "חיבוקים",
+        "slow_sensual": "איטי וחושני",
+        "hair_pulling": "משיכת שיער",
+        "foot_fetish": "פטיש רגליים",
+        "voyeurism": "ווייריזם",
+        "exhibitionism": "אקסהיביציוניזם",
+        "sensation_play": "משחק תחושות",
+        "wax_play": "משחק בשעווה",
+        "pet_play": "משחק חיות מחמד",
+        "age_play": "משחק גיל",
+        "medical_play": "משחק רפואי",
+        "orgasm_control_denial": "שליטה/מניעת אורגזמה",
+        "forced_orgasms": "אורגזמות כפויות",
+        "group_sex": "סקס קבוצתי",
+        "threesomes": "שלישיות",
+        "swapping": "החלפה",
+        "cuckolding_cuckqueaning": "קאקולדינג/קאקווינינג",
+        "femdom": "פמדום",
+        "gentle_domination": "דומיננטיות עדינה",
+        "sensation_deprivation": "מניעת תחושות",
+        "sensory_overload": "עומס חושי",
+        "uniform_costume_fetish": "פטיש מדים/תחפושות",
+        "food_play": "משחקי אוכל",
+        "watersports": "ווטרספורטס",
+        "bdsm": "BDSM",
+        "impact_play": "משחקי מכות",
+        "knife_play": "משחקי סכין",
+        "consensual_non_consent": "הסכמה לא-הסכמה",
+        "power_exchange": "חילופי כוח",
+        "master_slave": "אדון/עבד",
+        "owner_pet": "בעלים/חיית מחמד"
+      },
+      "languages": {
+        "en": "אנגלית",
+        "cs": "צ'כית",
+        "pl": "פולנית",
+        "de": "גרמנית",
+        "es": "ספרדית",
+        "fr": "צרפתית"
+      }
+    }
+  },
+  "myAI": {
+    "title": "ה-AI שלי",
+    "titlePart1": "ה-AI",
+    "titlePart2": "שלי",
+    "createNew": "צור AI חדש",
+    "createButton": "צור דמות",
+    "characterCount": "{count}/{limit} דמויות",
+    "loadMore": "טען עוד",
+    "empty": {
+      "title": "אין דמויות עדיין",
+      "description": "צור את דמות ה-AI הראשונה שלך והתחל לשוחח! התאם את המראה, האישיות והקול שלה.",
+      "createFirst": "צור את הדמות הראשונה שלך"
+    },
+    "delete": {
+      "title": "מחק דמות",
+      "message": "האם אתה בטוח שברצונך למחוק את {name}? פעולה זו תסיר לצמיתות את הדמות, את כל היסטוריית הצ'אט והתוכן שנוצר.",
+      "confirm": "מחק",
+      "success": "הדמות נמחקה בהצלחה"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ אינטראקציה",
+    "interactionDescription": "פשוט הקלד באופן טבעי — בקש תמונה, סרטון או התחל שיחה. ה-AI מבין את הכוונה שלך בכל שפה.",
+    "mediaTitle": "צור תמונות וסרטונים",
+    "mediaDescription": "שחרר את הדמיון שלך — צור תמונות או סרטונים ללא הגבלה.",
+    "next": "הבא →",
+    "gotIt": "הבנתי"
+  }
+}

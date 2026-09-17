@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Ikkanċella",
+    "delete": "Ħassar",
+    "edit": "Editja",
+    "close": "Agħlaq",
+    "now": "issa",
+    "loading": "Qed jitgħabba...",
+    "error": "Ġara żball",
+    "success": "Suċċess",
+    "confirm": "Ikkonferma",
+    "back": "Lura",
+    "or": "Jew",
+    "next": "Li jmiss",
+    "submit": "Ibgħat",
+    "search": "Fittex",
+    "filter": "Iffiltra",
+    "clear": "Ħassar",
+    "all": "Kollha",
+    "yes": "Iva",
+    "no": "Le",
+    "download": "Niżżel",
+    "and": "u",
+    "tryAgain": "Erġa' pprova",
+    "change": "Biddel"
+  },
+  "navigation": {
+    "new": "ĠDID",
+    "sectionBrowse": "Esplora",
+    "sectionTalk": "Tkellem",
+    "sectionCreate": "Oħloq",
+    "sectionLibrary": "Librerija",
+    "explore": "Home",
+    "discover": "Skopri",
+    "createShort": "Oħloq AI",
+    "chats": "Chats",
+    "groupChat": "AI Group Chat",
+    "roleplay": "Roleplay",
+    "collection": "Ġabra",
+    "generateImage": "Iġġenera Stampa",
+    "generateVideo": "Iġġenera Vidjow",
+    "createCharacter": "Oħloq Karattru AI",
+    "myAI": "AI Tiegħi",
+    "language": "Lingwa",
+    "contactUs": "Ikkuntattjana",
+    "account": "Account",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Nisa",
+      "anime": "Anime",
+      "guys": "Irġiel"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chat issa",
+    "like": "Bħal"
+  },
+  "auth": {
+    "login": "Idħol",
+    "signup": "Irreġistra",
+    "createFreeAccount": "Oħloq il-kont b'xejn",
+    "logout": "Oħroġ",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Ikkonferma l-Password",
+    "forgotPassword": "Insejt il-Password?",
+    "noAccount": "M'għandekx kont?",
+    "hasAccount": "Diġà għandek kont?",
+    "signupPrompt": "Oħloq Kont B'xejn",
+    "loginPrompt": "Idħol",
+    "continueWith": "Kompli b'",
+    "welcomeBack": "Merħba lura!",
+    "createAccount": "Oħloq il-kont tiegħek",
+    "signInToAccount": "Idħol fil-kont tiegħek",
+    "emailRequired": "L-email huwa meħtieġ",
+    "emailInvalid": "Indirizz email invalidu",
+    "passwordRequired": "Il-password hija meħtieġa",
+    "passwordLength": "Il-password għandu jkun mill-inqas 6 karattri",
+    "passwordsMismatch": "Il-passwords ma jaqblux",
+    "emailAlreadyRegistered": "L-email diġà rreġistrat",
+    "emailAlreadyRegisteredDescription": "Kont b'dan l-email diġà jeżisti. Jekk jogħġbok idħol.",
+    "loginError": "Ma setax jidħol",
+    "signupError": "Ma setax jirreġistra",
+    "loginSuccess": "Merħba lura!",
+    "signupSuccess": "Il-kont inħoloq b'suċċess!",
+    "logoutSuccess": "Inti ħriġt b'suċċess",
+    "logoutError": "Ma setax joħroġ",
+    "linkExpired": "Dan il-link tal-verifika skada. Jekk jogħġbok itlob wieħed ġdid.",
+    "accessDenied": "Aċċess miċħud. Jekk jogħġbok erġa' pprova.",
+    "verifyEmail": "Ivverifika l-Email Tiegħek",
+    "verificationEmailSent": "Bgħatnielek email ta' verifika",
+    "confirmYourEmail": "Ikkonferma l-E-mail tiegħek",
+    "confirmationLinkSent": "Bgħatna link ta' konferma lil \"{email}\".",
+    "checkSpamFolder": "Ma rċevejt l-email? Iċċekkja l-folder spam.",
+    "signupToChat": "Oħloq il-kont b'xejn tiegħek biex tibda.",
+    "signupDescription": "Oħloq kont biex tkompli l-konversazzjoni tiegħek",
+    "emailVerificationTitle": "Iċċekkja l-email tiegħek",
+    "emailVerificationMessage": "Bgħatna link ta' verifika lil {email}. Jekk jogħġbok iċċekkja l-inbox tiegħek u kklikkja l-link biex tivverifika l-kont tiegħek.",
+    "emailVerificationNext": "Wara l-verifika, tlestix il-proċess tal-onboarding.",
+    "verificationEmailSentTo": "Bgħatna email ta' verifika lil {email}",
+    "verificationInstructions": "Iċċekkja l-inbox tiegħek u kklikkja l-link ta' verifika biex tattiva l-kont tiegħek.",
+    "resetPassword": "Irrisettja l-Password",
+    "resetPasswordDescription": "Daħħal l-email tiegħek u aħna nibgħatulek link għar-risettjar",
+    "resetEmailSent": "Jekk hemm kont b'din l-email, tirċievi link għar-risettjar dalwaqt",
+    "backToLogin": "Lura għall-Login",
+    "newPassword": "Password Ġdida",
+    "confirmNewPassword": "Ikkonferma l-Password Ġdida",
+    "passwordResetSuccess": "Il-password ġiet aġġornata b'suċċess. Jekk jogħġbok illoggja.",
+    "enterNewPassword": "Daħħal il-password il-ġdida tiegħek",
+    "redirectingToLogin": "Qed nirridireġġjak għall-login...",
+    "invalidResetLink": "Link Invalidu jew Skadut",
+    "invalidResetLinkDescription": "Dan il-link għar-risettjar tal-password huwa invalidu jew skada. Jekk jogħġbok itlob wieħed ġdid.",
+    "passwordsDontMatch": "Il-passwords ma jaqblux",
+    "currentPassword": "Password Attwali",
+    "currentPasswordRequired": "Il-password attwali hija meħtieġa",
+    "changePassword": "Ibdel il-Password",
+    "changePasswordDescription": "Daħħal il-password attwali tiegħek u agħżel waħda ġdida",
+    "newPasswordMustBeDifferent": "Il-password il-ġdida trid tkun differenti mill-password attwali",
+    "incorrectPassword": "Il-password attwali mhix korretta",
+    "passwordChangeSuccess": "Il-password inbidlet b'suċċess",
+    "changeEmail": "Ibdel l-Email",
+    "newEmail": "Email Ġdida",
+    "confirmNewEmail": "Ikkonferma Email Ġdid",
+    "emailsDontMatch": "L-emails ma jaqblux",
+    "emailChangeDescription": "Email ta' verifika tintbagħat kemm għall-email attwali kif ukoll għall-email il-ġdida",
+    "emailMustBeDifferent": "L-email il-ġdida trid tkun differenti mill-email attwali",
+    "emailChangeSent": "Email ta' verifika mibgħuta. Jekk jogħġbok iċċekkja l-inbox tal-email il-ġdida tiegħek.",
+    "emailChangeSecurityNote": "Għas-sigurtà, emails ta' konferma jintbagħtu kemm għall-email attwali kif ukoll għall-email il-ġdida. Trid tikkonferma minn it-tnejn biex titlesta l-bidla.",
+    "otpDescription": "Bgħatna kodiċi ta' 6 ċifri lil {email}",
+    "otpVerify": "Ivverifika",
+    "otpResend": "Ibgħat il-kodiċi mill-ġdid",
+    "otpResendIn": "Ibgħat mill-ġdid fi {seconds}s",
+    "otpNoCode": "Ma rċevejt il-kodiċi?",
+    "otpInvalid": "Kodiċi invalidu. Jekk jogħġbok erġa' pprova.",
+    "otpSuccess": "L-email ġie vverifikat b'suċċess!",
+    "otpResendSuccess": "Kodiċi ġdid mibgħut lill-email tiegħek",
+    "otpResendError": "Ma rnexxilx nibgħat il-kodiċi mill-ġdid",
+    "continueWithEmail": "Kompli bl-Email",
+    "moreOptions": "Aktar għażliet",
+    "lessOptions": "Inqas għażliet",
+    "enterYourEmail": "Daħħal l-indirizz tal-email tiegħek",
+    "sendCode": "Ibgħat il-kodiċi",
+    "byCreatingAccountAgree": "Billi toħloq kont, taqbel mal-",
+    "termsOfService": "Termini tas-Servizz",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Merħba f'sweetwine",
+    "welcomeTo": "Merħba f'",
+    "letsGetStarted": "Ejjew inwaqqfuk",
+    "setupProfile": "Issettja l-Profil Tiegħek",
+    "step1of2": "Pass 1 minn 2",
+    "step2of2": "Pass 2 minn 2",
+    "nickname": "Nickname",
+    "nicknamePlaceholder": "Agħżel nickname",
+    "nicknameRequired": "Jekk jogħġbok daħħal nickname",
+    "gender": "Sess",
+    "genderRequired": "Jekk jogħġbok agħżel is-sess tiegħek",
+    "male": "Raġel",
+    "female": "Mara",
+    "interfaceLanguage": "Lingwa tal-Interface",
+    "interfaceLanguageDesc": "Lingwa għall-menus u l-buttuni",
+    "aiLanguage": "Lingwa tar-Rispons tal-AI",
+    "aiLanguageDesc": "Lingwa li l-AI se tuża meta titkellem miegħek",
+    "languageRequired": "Jekk jogħġbok agħżel lingwa",
+    "continue": "Kompli",
+    "ageVerification": "Verifika tal-Età",
+    "ageVerificationText": "Biex tuża sweetwine, trid tkun ta' 18-il sena jew aktar. Billi tkompli, tikkonferma li int ta' età legali.",
+    "beforeContinue": "Qabel ma tkompli",
+    "mustBe18": "Trid tkun ta' 18-il sena jew aktar biex tuża dan is-servizz",
+    "agreeToTerms": "Billi tkompli, taqbel mal-{termsLink} u {privacyLink} tagħna",
+    "termsOfService": "Termini tas-Servizz",
+    "privacyPolicy": "Politika tal-Privatezza",
+    "iConfirm": "Nikkonferma li jien ta' 18-il sena jew aktar u naqbel mal-",
+    "ageRequired": "Trid tikkonferma l-età tiegħek biex tkompli",
+    "aiActConsent": "Nirrikonoxxi li nikkomunika biss ma' AI",
+    "aiActRequired": "Trid tirrikonoxxi dan biex tkompli",
+    "newsletterOptIn": "Abbona għan-newsletter tagħna għal aġġornamenti u aħbarijiet",
+    "complete": "Setup Komplet!",
+    "completeText": "Kollha lest! Ibda tchatja mal-karattri tal-AI.",
+    "startExploring": "Ibda Tesplora",
+    "featuresTitle": "Karatteristiċi Disponibbli",
+    "featuresTitleWord1": "Disponibbli",
+    "featuresTitleWord2": "Karatteristiċi",
+    "feature1Title": "Chat tal-AI",
+    "feature1Desc": "Konversazzjonijiet mingħajr ċensura u privati",
+    "feature2Title": "Ġenerazzjoni ta' Stampi",
+    "feature2Desc": "Iġġenera stampi mingħajr ċensura u personalizzati mal-karattri tal-AI",
+    "feature3Title": "Ġenerazzjoni ta' Vidjows",
+    "feature3Desc": "Iġġenera vidjows tal-AI mingħajr ċensura b'effetti",
+    "feature5Title": "Kreatur tal-AI Custom",
+    "feature5Desc": "Iddisinja l-karattru tiegħek stess",
+    "feature6Title": "Esplora Karattri",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "Roleplay tal-AI",
+    "feature7Desc": "Esperjenza stejjer u fantasiji maħduma professjonalment",
+    "showcase": {
+      "chatTitle": "Chat bl-AI",
+      "chatDesc": "Konversazzjonijiet privati u mingħajr ċensura bla limiti",
+      "imageTitle": "Ġenerazzjoni ta' Stampi",
+      "imageDesc": "Oħloq stampi personalizzati u mingħajr ċensura tal-AI tiegħek",
+      "videoTitle": "Ġenerazzjoni ta' Vidjows",
+      "videoDesc": "Iġġenera vidjows tal-AI mingħajr ċensura b'effetti",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Konversazzjonijiet bil-leħen f'ħin reali mal-kumpan tiegħek",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Stejjer immersivi, fantasiji u logħob interattiv",
+      "groupChatTitle": "Chat fi Gruppi bl-AI",
+      "groupChatDesc": "Chat ma' sa 3 karattri tal-AI fl-istess ħin",
+      "creatorTitle": "Kreatur tal-AI Personalizzat",
+      "creatorDesc": "Iddisinja u oħloq il-karattri tal-AI tiegħek stess"
+    },
+    "freePlan": {
+      "title": "Kollha lesti!",
+      "subtitle": "Hawn x'jinkludi l-pjan b'xejn tiegħek.",
+      "charactersTitle": "Oħloq il-karattru tiegħek",
+      "charactersDesc": "Iffassal {count} karattru AI personalizzat mill-bidu",
+      "imagesTitle": "Iġġenera stampa",
+      "imagesDesc": "{count} stampa AI b'xejn tal-kumpan tiegħek",
+      "messagesTitle": "Iċċettja kuljum",
+      "messagesDesc": "{count} messaġġi kuljum, jiġġeddew kull 24 siegħa",
+      "cta": "Ibda tesplora"
+    },
+    "redirectingIn": "Qed jindirizza f'",
+    "seconds": "sekondi",
+    "generateCharacter": "Iġġenera l-Karattru Tiegħek",
+    "redirectingToCreate": "Qed jindirizza lejn il-kreatur tal-karattru f'"
+  },
+  "errors": {
+    "pageNotFound": "Paġna Mhux Misjuba",
+    "pageNotFoundDesc": "Il-paġna li qed tfittex ma teżistix.",
+    "goHome": "Mur Id-Dar",
+    "somethingWentWrong": "Xi ħaġa marret ħażin",
+    "tryAgain": "Erġa' Pprova",
+    "unauthorized": "Mhux Awtoriżżat",
+    "unauthorizedDesc": "Trid tkun illoggjat biex taċċessa din il-paġna.",
+    "forbidden": "Mhux Permess",
+    "forbiddenDesc": "M'għandekx permess biex taċċessa din il-paġna."
+  },
+  "footer": {
+    "allRightsReserved": "Id-drittijiet kollha riżervati.",
+    "madeWith": "Magħmul b'",
+    "by": "minn sweetwine",
+    "description": "Esperjenza karattri AI personalizzati b'personalitajiet distinti, identitajiet viżwali, u konversazzjonijiet interessanti.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Prodott",
+    "legal": "Legali",
+    "company": "Kumpanija",
+    "resources": "Riżorsi",
+    "partnerships": "Sħubiji",
+    "pressMedia": "Stampa u midja",
+    "careers": "Karrieri",
+    "aiRealClones": "Clones reali AI",
+    "about": "Dwar",
+    "blog": "Blog",
+    "news": "Aħbarijiet",
+    "productUpdates": "Aġġornamenti tal-prodott",
+    "help": "Għajnuna",
+    "sitemap": "Mappa tas-sit",
+    "paymentOptions": "Għażliet ta' Ħlas",
+    "chats": "Chats",
+    "collection": "Ġabra",
+    "generateImage": "Iġġenera immaġni",
+    "generateVideo": "Iġġenera vidjow",
+    "myAI": "AI Tiegħi",
+    "createCharacter": "Oħloq karattru",
+    "api": "API",
+    "features": "Karatteristiċi",
+    "allFeatures": "Il-karatteristiċi kollha",
+    "aiGroupChat": "Chat fi grupp AI",
+    "aiMemory": "Memorja tal-AI",
+    "aiGirlfriend": "Ħabiba AI",
+    "aiBoyfriend": "Ħabib AI",
+    "aiCompanions": "Karattri AI",
+    "aiFriend": "Ħabib AI",
+    "aiBreakupSupport": "Appoġġ għat-tifrik",
+    "aiParent": "Ġenitur AI",
+    "aiRoleplay": "Roleplay AI",
+    "privacyPolicy": "Politika tal-Privatezza",
+    "termsAndConditions": "Termini u Kundizzjonijiet",
+    "cookiePolicy": "Politika tal-Cookies",
+    "cookieSettings": "Settings tal-Cookies",
+    "other": "Politiki Oħra",
+    "copyright": "© {year} sweetwine. Id-drittijiet kollha riżervati."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies fuq dan is-sit",
+      "customizeButton": "Ippersonalizza",
+      "rejectButton": "Irrifjuta",
+      "acceptButton": "Aċċetta"
+    },
+    "modal": {
+      "title": "Immaniġġja l-cookies",
+      "subtitle": "Ixgħel jew itfi l-kategoriji hawn taħt. Il-cookies strettament meħtieġa jibqgħu mixgħula sabiex is-sit jaħdem.",
+      "categories": {
+        "necessary": {
+          "title": "Strettament meħtieġa",
+          "description": "Meħtieġa għall-login, checkout u sigurtà. Is-sit ma jistax jaħdem mingħajrhom.",
+          "alwaysOn": "Dejjem mixgħula"
+        },
+        "analytics": {
+          "title": "Prestazzjoni",
+          "description": "Kejs ta' użu u konverżjoni permezz ta' Google Analytics 4, inklużi konverżjonijiet ewlenin (reġistrazzjoni, xiri) mibgħuta mis-server tagħna b'identifikatur psewdonimu. Jgħinna nifhmu kif tintuża s-servizz; ma nużawhiex biex nidentifikawk personalment."
+        },
+        "marketing": {
+          "title": "Mira",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Uri l-cookies",
+      "hideCookies": "Aħbi l-cookies",
+      "table": {
+        "name": "Isem",
+        "provider": "Fornitur",
+        "expiration": "Skadenza",
+        "description": "Deskrizzjoni",
+        "session": "Sessjoni"
+      },
+      "policyLink": "Għal dettalji sħaħ, ara l-<policy>Politika tal-Cookies</policy> tagħna.",
+      "rejectButton": "Irrifjuta",
+      "saveButton": "Ħlief u Agħlaq",
+      "acceptButton": "Aċċetta",
+      "cookieDescriptions": {
+        "supabaseAuth": "Iżommok illoggjat billi jaħżen is-sessjoni awtentikata tiegħek.",
+        "nextLocale": "Jiftakar il-lingwa li għażilt għall-interfaċċja.",
+        "consent": "Jaħżen l-għażliet tal-cookies tiegħek sabiex il-banner ma jintweriex f'kull żjara.",
+        "ga": "Jiddistingwi viżitaturi uniċi (Google Analytics 4). L-istess identifikatur psewdonimu jintuża wkoll biex ikejjel konverżjonijiet ewlenin fuq is-server.",
+        "gaSession": "Iżomm l-istat tas-sessjoni u l-metriċi ta' impenn ta' Google Analytics 4.",
+        "fbp": "Jidentifika l-browser għall-attribuzzjoni ta' Meta Pixel.",
+        "fbc": "Jaħżen Facebook click ID għall-attribuzzjoni tal-konverżjoni tar-reklami. Jintuża biss wara li tikklikkja reklama ta' Meta.",
+        "gclAu": "Użat minn Google Ads għall-konnessjoni tal-konverżjoni bejn siti.",
+        "saleCountdown": "Jsegwi t-tmiem tal-offerta promozzjonali attwali tiegħek sabiex il-countdown tal-iskont jibqa' konsistenti bejn il-paġni.",
+        "onboarded": "Jimmarka l-kont tiegħek bħala onboarded sabiex naqbżu l-verifika tad-database tal-età fuq paġni sussegwenti.",
+        "attribution": "Jirreġistra liema kampanja mħallsa jew link ta’ reklami ġabek l-aktar riċentement fuq is-sit tagħna (l-aħħar klikk imħallsa fi żmien 30 ġurnata) sabiex inkunu nistgħu nkejlu l-effettività tar-reklamar tagħna. Dan huwa identifikatur tal-ewwel parti li jibqa’ fuq is-servers tagħna u qatt ma jinqasam ma’ terzi."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Wasal Dalwaqt",
+    "subtitle": "Qed naħdmu ħafna biex inġibulek din il-karatteristika.",
+    "notify": "Ħu notifika meta tkun lesta",
+    "backHome": "Lura lejn id-Dar",
+    "generateVideo": {
+      "title": "Iġġenera Vidjows",
+      "description": "Ħajja l-karattri tal-AI tiegħek b'vidjows animati. Oħloq kontenut tal-vidjo personalizzat li juri l-karattri favoriti tiegħek."
+    },
+    "createCharacter": {
+      "title": "Oħloq il-Karattru Tiegħek",
+      "description": "Iddisinja u ppersonalizza l-karattru AI uniku tiegħek. Iddefinixxi l-personalità, id-dehra, l-istorja u oħloq interazzjonijiet verament personalizzati."
+    },
+    "myAI": {
+      "title": "L-AI Tiegħi",
+      "description": "Aċċessa u mmaniġġja l-karattri AI kollha li ħloqt apposta. Editja l-personalitajiet, aġġorna d-dehra u aġġusta r-risposti."
+    }
+  },
+  "exploreMore": {
+    "title": "Esplora Aktar",
+    "aiGroupChat": "Chat fi grupp bl-AI",
+    "aiGroupChatDesc": "Chat ma' sa 3 karattri",
+    "aiMemory": "Memorja tal-AI",
+    "aiMemoryDesc": "Kuntest li jsegwi kull modalità",
+    "aiGirlfriend": "Ħabiba AI",
+    "aiGirlfriendDesc": "Chat mal-ħabiba virtwali tiegħek",
+    "aiBoyfriend": "Ħabib AI",
+    "aiBoyfriendDesc": "Ikkonnettja mal-ħabib AI tiegħek",
+    "aiCompanions": "Karattri AI",
+    "aiCompanionsDesc": "Iltaqa' ma' personalitajiet AI uniċi",
+    "aiFriend": "Ħabib AI",
+    "aiFriendDesc": "Sib ħabib li ma jiġġudikax",
+    "aiBreakupSupport": "Appoġġ wara t-tifrik",
+    "aiBreakupSupportDesc": "Konversazzjonijiet ta' fejqan",
+    "aiParent": "Ġenitur AI",
+    "aiParentDesc": "Appoġġ u gwida sħuna",
+    "aiRoleplay": "Roleplay bl-AI",
+    "aiRoleplayDesc": "Xenarji immersivi ta' stejjer",
+    "allFeatures": "Il-karatteristiċi kollha",
+    "allFeaturesDesc": "Esplora dak kollu li noffru"
+  },
+  "legal": {
+    "policies": "Politiki",
+    "termsAndConditions": "Termini u Kundizzjonijiet",
+    "privacyPolicy": "Politika tal-Privatezza",
+    "cookiePolicy": "Politika tal-Cookies",
+    "contentReportingPolicy": "Politika tar-Rappurtar tal-Kontenut",
+    "communityGuidelines": "Linji Gwida tal-Komunità",
+    "complaintPolicy": "Politika tal-Lmenti",
+    "contentRemovalPolicy": "Politika tat-Tneħħija tal-Kontenut",
+    "blockedContentPolicy": "Politika tal-Kontenut Imblukkat",
+    "underagePolicy": "Politika tal-Minuri",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Aġġornat l-aħħar",
+    "index": {
+      "title": "Dokumenti Legali",
+      "subtitle": "Esplora l-politiki u l-ftehimiet legali kollha relatati ma' sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Politika tal-Privatezza",
+          "description": "Skopri kif niġbru, nużaw u nipproteġu l-informazzjoni personali tiegħek. Dettalji dwar l-immaniġġjar tad-data, il-ħażna u d-drittijiet tal-privatezza tiegħek."
+        },
+        "termsAndConditions": {
+          "title": "Termini u Kundizzjonijiet",
+          "description": "It-termini tas-servizz li jirregolaw l-użu tiegħek ta' sweetwine. Responsabbiltajiet tal-utent, deskrizzjoni tas-servizz u ftehimiet legali."
+        },
+        "cookiePolicy": {
+          "title": "Politika tal-Cookies",
+          "description": "Informazzjoni dwar kif nużaw cookies u teknoloġiji simili biex intejbu l-esperjenza tiegħek fuq il-pjattaforma tagħna."
+        },
+        "underagePolicy": {
+          "title": "Politika tal-Minuri",
+          "description": "Il-politiki stretti tagħna dwar il-verifika tal-età u l-protezzjoni. sweetwine huwa disponibbli biss għal utenti ta' 18-il sena u aktar."
+        },
+        "complaintPolicy": {
+          "title": "Politika tal-Lmenti",
+          "description": "Kif tissottometti lmenti, tirrapporta problemi u l-proċess tagħna għall-immaniġġjar ta' tħassib u tilwim tal-utenti."
+        },
+        "contentRemovalPolicy": {
+          "title": "Politika tat-Tneħħija tal-Kontenut",
+          "description": "Il-proċeduri tagħna għat-talbiet tat-tneħħija tal-kontenut u kif nittrattaw rapporti ta' kontenut mhux xieraq jew illegali."
+        },
+        "blockedContentPolicy": {
+          "title": "Politika tal-Kontenut Imblukkat",
+          "description": "Tipi ta' kontenut li huma pprojbiti fuq il-pjattaforma tagħna u l-politiki tal-infurzar tagħna."
+        },
+        "contentReportingPolicy": {
+          "title": "Politika tar-Rappurtar tal-Kontenut",
+          "description": "Kif tirrapporta ksur tad-drittijiet tal-awtur u kontenut mhux xieraq fuq sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Linji Gwida tal-Komunità",
+          "description": "Regoli u linji gwida biex tinżamm komunità rispettiva, sigura u pjaċevoli għall-utenti kollha."
+        }
+      },
+      "lastUpdated": "Aġġornat l-aħħar: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Chats",
+    "groupChat": "AI Group Chat",
+    "aiMemory": "Memorja tal-AI",
+    "generate": "Ġenera Immaġni",
+    "generateVideo": "Ġenera Vidjow",
+    "create": "Oħloq Karattru AI",
+    "myAI": "L-AI Tiegħi",
+    "collection": "Ġabra",
+    "invite": "Stieden",
+    "profile": "Settings tal-Profil",
+    "legal": "Legali",
+    "privacyPolicy": "Politika tal-Privatezza",
+    "termsAndConditions": "Termini u Kundizzjonijiet",
+    "cookiePolicy": "Politika tal-Cookies",
+    "dmcaPolicy": "Politika DMCA",
+    "communityGuidelines": "Linji Gwida tal-Komunità",
+    "contentRemovalPolicy": "Politika dwar it-Tneħħija tal-Kontenut",
+    "contentReportingPolicy": "Politika dwar ir-Rappurtar tal-Kontenut",
+    "complaintPolicy": "Politika dwar l-Ilmenti",
+    "blockedContentPolicy": "Politika dwar il-Kontenut Imblukkat",
+    "underagePolicy": "Politika dwar il-Minorenni",
+    "usc2257Exemption": "Eżenzjoni USC 2257"
+  },
+  "contact": {
+    "title": "Ikkuntattjana",
+    "subtitle": "Għandek mistoqsija jew feedback? Ħa nisma' minnek.",
+    "name": "Isem",
+    "namePlaceholder": "Ismek",
+    "nameRequired": "L-isem huwa obbligatorju",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "L-email huwa obbligatorju",
+    "emailInvalid": "Indirizz email invalidu",
+    "message": "Messaġġ",
+    "messagePlaceholder": "Il-messaġġ tiegħek...",
+    "messageRequired": "Il-messaġġ huwa obbligatorju",
+    "send": "Ibgħat il-Messaġġ",
+    "sending": "Qed jintbagħat...",
+    "success": "Messaġġ mibgħut b'suċċess!",
+    "successDesc": "Nirritornawlek dalwaqt.",
+    "error": "Ma setax jintbagħat il-messaġġ",
+    "errorDesc": "Jekk jogħġbok erġa' pprova aktar tard."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI Group Chat",
+    "lobbyHeadingSuffix": "Agħżel sa {max} AI Characters",
+    "history": "Storja",
+    "newGroup": "New Group Chat",
+    "createGroup": "Oħloq Group Chat",
+    "createError": "Ma setax jinħoloq il-group chat. Erġa' pprova.",
+    "creatingGroup": "Qed inwaqqfu l-group chat tiegħek...",
+    "sectionWoman": "Nisa",
+    "sectionMan": "Irġiel",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI Characters",
+    "tabMyAi": "My AI",
+    "tabSingle": "Single Chats",
+    "tabGroup": "Group Chats",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Ittella' aktar",
+    "noCustom": "Għadek ma ħloqt l-ebda AI characters.",
+    "noMessagesYet": "Għad m'hemmx messaġġi",
+    "emptyTitle": "Għad m'hemmx group chats",
+    "membersTitle": "F'dan iċ-chat",
+    "typing": "qiegħed jikteb",
+    "backToLobby": "Lura għall-group chats",
+    "deleteGroup": "Ħassar il-group chat",
+    "confirmDeleteGroup": "Żgur li trid tħassar dan il-group chat? Il-messaġġi kollha se jitħassru.",
+    "deleteError": "Ma setax jitħassar il-group chat.",
+    "mediaTargetImageTitle": "Min għandu jibgħat ritratt?",
+    "mediaTargetVideoTitle": "Lil min għandu jibgħat vidjow?",
+    "mediaTargetSubtitle": "Agħżel karattru biex tiġġenera midja minnu.",
+    "mediaTargetGroup": "Ritratt tal-grupp",
+    "groupPhotoTitle": "Ritratt tal-grupp",
+    "groupPhotoHint": "Jiġġenera ritratt wieħed ta' {name} flimkien.",
+    "promoSubtitle": "sa 3 karattri",
+    "promoCta": "Oħloq Ġdid",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Avventuri</gradient> Ġodda",
+    "live": "LIVE",
+    "scrollPrev": "Skrollja lejn ix-xellug",
+    "scrollNext": "Skrollja lejn il-lemin"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Ibda Issa"
+    },
+    "hero": {
+      "tagline": "Fdat minn 100,000 u qed jingħaqdu kuljum",
+      "headlinePrefix": "Għid Hello lil",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Ibda Bla Ħlas"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Girlfriend",
+      "friend": "AI Friend",
+      "boyfriend": "AI Boyfriend",
+      "companion": "AI Character"
+    },
+    "features": {
+      "chat": {
+        "title": "Tkellem mal-AI girlfriend tiegħek",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Ritratti u vidjows AI realistiċi",
+        "description": "Ritratti u vidjows fuq talba tant realistiċi li ma jistgħux jiddistingwu minn dawk reali — wiċċha, stil tagħha, kwalunkwe xena, f’moviment jew f’waqfa."
+      },
+      "groupChat": {
+        "title": "AI Group Chat",
+        "description": "Ibda chat fi grupp b’ sa 3 karattri fl-istess ħin. Jirrispondu b’mod naturali, jirreaġixxu għal xulxin, u jibagħtu ritratti u vidjows."
+      },
+      "roleplay": {
+        "title": "AI Roleplay",
+        "description": "Idħol f’xenarji immersivi u mmexxija minn storja ma’ karattri li jibqgħu fir-rwol u jiftakru kull għażla li tagħmel."
+      }
+    },
+    "memory": {
+      "title": "Memorja tal-AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Kif taħdem il-Memorja tal-AI",
+      "diagram": {
+        "center": "Memorja tal-kumpanjon",
+        "chat": "Chat",
+        "image": "Immaġini",
+        "video": "Vidjow",
+        "gifts": "Rigali",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Oħloq tiegħek",
+      "headlineHighlight": "AI character",
+      "subtitle": "Ifforma d-dehra, il-personalità, u ġibhom għall-ħajja istantanjament — il-partner AI perfett tiegħek, skont it-termini tiegħek.",
+      "cta": "Oħloq l-AI tiegħek"
+    },
+    "companions": {
+      "headlinePrefix": "Iltaqa’ mal-",
+      "headlineHighlight": "AI Characters",
+      "subtitle": "Kull karattru għandu dinja tiegħu stess. Xi wħud huma sħan u faċli biex tiftaħ qalbek magħhom. Oħrajn huma kumplessi, riservati, jew sfida vera biex tikkonnettja magħhom. Esplora xenarji uniċi ta’ roleplay — jew ibni tiegħek mill-bidu."
+    },
+    "languages": {
+      "headlinePrefix": "Tkellem kwalunkwe lingwa,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Kemm l-interfaċċja tal-app kif ukoll il-karattru AI tiegħek jaqilbu bla xkiel — l-ebda nuqqas ta’ qbil lingwistiku, l-ebda esperjenza miksura.",
+      "more": "Iktar"
+    },
+    "finalCta": {
+      "headlinePrefix": "Lest biex",
+      "headlineHighlight": "tibda?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Għaliex",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Kollox li għandek bżonn għal konnessjoni li tħoss vera — xejn li m’għandekx bżonn.",
+      "benefits": {
+        "freeToStart": {
+          "title": "B’xejn biex tibda",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Dejjem disponibbli",
+          "desc": "Jum jew lejl, il-karattru tiegħek hemm. L-ebda stennija, l-ebda skedar."
+        },
+        "remembers": {
+          "title": "Jiftakar kollox",
+          "desc": "Kull konversazzjoni tibni kuntest. Il-karattru tiegħek jitgħallem ismek, il-preferenzi tiegħek, u d-dinja tiegħek."
+        },
+        "unlimited": {
+          "title": "Verament illimitat",
+          "desc": "L-ebda limitu ta' messaġġi, l-ebda throttling tal-kontenut. Ibgħat kemm trid, kemm-il darba trid."
+        },
+        "private": {
+          "title": "100% privat",
+          "desc": "Il-konversazzjonijiet tiegħek jibqgħu bejnkom it-tnejn. L-ebda data ma tiġi maqsuma, qatt."
+        },
+        "createYourOwn": {
+          "title": "Oħloq tiegħek",
+          "desc": "Iddisinja karattru b'dehra, personalità u vuċi personalizzati — eżatt kif trid."
+        }
+      },
+      "difference": {
+        "title": "Id-Differenza sweetwine",
+        "freedomTitle": "Libertà b'responsabbiltà.",
+        "freedomDescription": "sweetwine huwa miftuħ u mingħajr ġudizzju — imma nġibu linja iebsa. M'għandna tolleranza xejn għal CSAM, kontenut ta' minuri, xenarji mingħajr kunsens, vjolenza estrema, bestjalità, nekrofilja, deepfakes ta' persuni reali, u kwalunkwe promozzjoni ta' attività illegali.",
+        "freedomStatement": "Nemmu f'libertà kreattiva illimitata fi spazju li huwa sigur għal kulħadd."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtri"
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "subtitle": "Kollox li għandek bżonn tkun taf dwar sweetwine",
+      "questions": {
+        "q1": {
+          "question": "X'inhu sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Is-sweetwine huwa sigur u leġittimu?",
+          "answer": "Iva, sweetwine huwa servizz leġittimu bil-privatezza tiegħek bħala l-prijorità ewlenija tagħna. Aħna nikkonformaw mal-GDPR u standards oħra ta' protezzjoni tad-data, u nittrattaw id-data tiegħek b'attenzjoni. It-tranżazzjonijiet tal-ħlas jidhru taħt isem tan-negozjant newtrali - m'hemm l-ebda referenza għal sweetwine fuq id-dikjarazzjoni tal-bank tiegħek, li tiżgura diskrezzjoni sħiħa."
+        },
+        "q3": {
+          "question": "Nista' noħloq il-karattru AI tiegħi stess?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "kreatur tal-karattri",
+          "answerPart2": " tagħna biex tiddisinja karattri eżatt kif tixtieq - kemm jekk trid ",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": " realistika, ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", jew karattri bl-istil tal-anime. Agħżel id-dehra tagħhom (etniċità, xagħar, tip ta' ġisem, ħwejjeġ), karatteristiċi tal-personalità, vuċi, interessi, u backstory kemm għall-karattri maskili kif ukoll femminili."
+        },
+        "q4": {
+          "question": "Il-karattru AI tiegħi jiftakar il-konversazzjonijiet tagħna?",
+          "answer": "Iva! Il-karattru AI tiegħek juża teknoloġija avvanzata tal-memorja biex jiftakar konversazzjonijiet preċedenti, il-preferenzi tiegħek, u dettalji importanti li taqsam. Aktar ma tikkomunika, aktar l-esperjenza ssir personalizzata u naturali. Il-karattru tiegħek jitgħallem l-istil tal-komunikazzjoni tiegħek u jadatta maż-żmien."
+        },
+        "q5": {
+          "question": "Liema lingwi jappoġġja sweetwine?",
+          "answer": "sweetwine jappoġġja diversi lingwi inklużi l-Ingliż, il-Ġermaniż, il-Franċiż, l-Ispanjol, il-Pollakk, u ċ-Ċek. Kemm l-interfaċċja kif ukoll il-konversazzjonijiet AI jaħdmu bil-lingwa preferuta tiegħek, sabiex tkun tista' tikkomunika b'mod naturali bil-lingwa li tħossok l-aktar komdu magħha."
+        },
+        "q6": {
+          "question": "Il-karattru AI tiegħi jista' jibgħat stampi u vidjows?",
+          "answerPart1": "Iva! Tista' tiġġenera ",
+          "linkTextImages": "stampi",
+          "answerPart2": " u ",
+          "linkTextVideos": "vidjows",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Għaliex tagħżel sweetwine fuq pjattaformi oħra ta' karattri AI?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Is-sweetwine huwa b'xejn biex tużah?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Għandi bżonn ninstalla app?",
+          "answerPart1": "M’hemmx bżonn ta’ installazzjoni! sweetwine jaħdem direttament fil-browser tiegħek fuq kwalunkwe apparat - desktop, tablet, jew mobile. Sempliċement irreġistra, agħżel karattru, u ibda ċċettja minnufih. Il-",
+          "linkText": "konversazzjonijiet",
+          "answerPart2": " tiegħek jissinkronizzaw awtomatikament bejn l-apparati."
+        },
+        "q10": {
+          "question": "Hemm karattri AI lesti disponibbli?",
+          "answerPart1": "Iva! Għandna ħafna",
+          "linkText": "karattri lesti",
+          "answerPart2": " fosthom AI Girlfriends, AI Boyfriends, u karattri AI Anime b’personalitajiet, dehra u stili ta’ komunikazzjoni differenti. Kemm jekk tippreferi xi ħadd ħelu, flirtanti, intellettwali jew avventuruż, issib karattri li jaqblu mal-enerġija tiegħek. Barra minn hekk, tista’ toħloq karattri personalizzati bla limitu."
+        },
+        "q12": {
+          "question": "X’jiġri mill-istampi u l-vidjows li niġġenera?",
+          "answerPart1": "Il-midja kollha ġġenerata tiġi ssejvjata awtomatikament fil-",
+          "linkText": "kollezzjoni",
+          "answerPart2": " privata tiegħek. Tista’ taċċessaha, tniżżilha jew tħassarha fi kwalunkwe ħin. Il-kollezzjoni tiegħek hija kompletament privata – int biss tista’ taraha. Qatt ma naqsmu jew nużaw il-kontenut ġġenerat tiegħek."
+        }
+      }
+    },
+    "statement": {
+      "title": "L-Impenn Tagħna",
+      "privacy": "Il-privatezza tiegħek hija l-prijorità tagħna. Il-konversazzjonijiet kollha huma encrypted u qatt ma jiġu maqsuma.",
+      "quality": "Nużaw teknoloġija AI avvanzata biex nipprovdu l-esperjenza l-aktar attraenti.",
+      "support": "It-tim ta’ appoġġ tagħna huwa disponibbli 24/7 biex jgħin b’kull mistoqsija.",
+      "mainTitle": "Esperjenza l-Futur tal-Karattri AI",
+      "mainDescription": "sweetwine jgħaqqad teknoloġija AI avvanzata ma’ disinn intuwittiv biex jagħti l-esperjenza tal-karattri l-aktar immersiva u personalizzata disponibbli llum.",
+      "features": {
+        "f1": {
+          "title": "Intelliġenza Emozzjonali",
+          "description": "Il-karattri AI tagħna jifhmu l-kuntest, l-emozzjonijiet u n-nuanzi biex jipprovdu konversazzjonijiet profondament attraenti. Kemm jekk għandek bżonn AI Friend biex tċċettja miegħu, Breakup Support f’mumenti diffiċli, jew AI Mentor għal gwida – l-AI emozzjonalment intelliġenti tagħna qiegħda għalik."
+        },
+        "f2": {
+          "title": "Personalitajiet Uniċi",
+          "description": "Kull karattru għandu personalità, sfond u stil ta’ komunikazzjoni distinti. Agħżel minn AI Girlfriends u AI Boyfriends realistiċi, jew esplora l-karattri AI Anime tagħna – biex kull interazzjoni tkun unika u memorabbli."
+        },
+        "f3": {
+          "title": "Interazzjonijiet Multimedjali",
+          "description": "Lil hinn mit-test, igawdi stampi u vidjows ġġenerati bl-AI li jġibu l-konversazzjonijiet tiegħek għall-ħajja b’dettall viżiv mill-isbaħ."
+        },
+        "f4": {
+          "title": "Personalizzazzjoni",
+          "description": "Oħloq il-karattri AI tiegħek stess b’dehra, personalitajiet u karatteristiċi personalizzati li jaqblu perfettament mal-preferenzi tiegħek."
+        },
+        "f5": {
+          "title": "Privatezza u Sigurtà",
+          "description": "Il-konversazzjonijiet tiegħek jinżammu privati u siguri. Qatt ma nbiegħu d-data tiegħek, u għandek kontroll sħiħ fuq is-settings tal-privatezza tiegħek."
+        },
+        "f6": {
+          "title": "Appoġġ għal Lingwi Multipli",
+          "description": "Ċċettja mal-karattri AI bil-lingwa preferuta tiegħek. Aħna nappoġġjaw l-Ingliż, iċ-Ċek, il-Pollakk, il-Ġermaniż, l-Ispanjol u l-Franċiż."
+        }
+      },
+      "distinctionTitle": "Id-Distinzjoni sweetwine",
+      "distinctionText1": "B’differenza minn chatbots ġeneriċi, il-karattri sweetwine huma ddisinjati b’backstories għonja, personalitajiet li jevolvu, u l-abbiltà li jiffurmaw konnessjonijiet sinifikanti. Kull konversazzjoni hija opportunità biex tesplora, tiskopri u tikkonnettja fuq livell aktar profond.",
+      "distinctionText2": "M’aħniex qed nibnu biss AI – qed noħolqu esperjenzi li jirresonaw mal-emozzjonijiet tiegħek, jirrispettaw il-privatezza tiegħek, u jadattaw għall-preferenzi uniċi tiegħek."
+    }
+  },
+  "featuresPage": {
+    "title": "Il-Features Kollha",
+    "breadcrumb": "Features",
+    "newBadge": "Ġdid",
+    "groupChat": {
+      "title": "AI Group Chat",
+      "description": "Ċċettja ma’ sa 3 karattri AI flimkien f’konversazzjoni waħda. Jirrispondu b’mod naturali, jirreaġixxu għal xulxin, u jistgħu jibagħtu ritratti u vidjows — dinamika tal-grupp ħajja li ma ssibha mkien ieħor."
+    },
+    "aiChat": {
+      "title": "AI Chat",
+      "description": "Agħmel konversazzjonijiet profondi u naturali mal-karattri AI li verament jiftakrek. Jiftakru ismek, il-preferenzi tiegħek u s-suġġetti tal-passat — kull konversazzjoni tibda eżatt fejn ħallejtha, mingħajr ripetizzjoni jew reset."
+    },
+    "imageGeneration": {
+      "title": "Image Generation"
+    },
+    "videoGeneration": {
+      "title": "Video Generation",
+      "description": "Ġib il-karattru AI tiegħek għall-ħajja b’vidjows ġġenerati bl-AI. Oħloq klips qosra personalizzati li juru l-karattru tiegħek f’xenarji personalizzati — karatteristika li ħafna pjattaformi sempliċement ma joffrux."
+    },
+    "customCharacters": {
+      "title": "Karattri Personalizzati",
+      "description": "Iddisinja l-karattru perfett tiegħek mill-bidu — agħżel id-dehra, l-etniċità, it-tip tal-ġisem, il-karatteristiċi tal-personalità, il-vuċi, l-interessi u l-istorja ta' wara. Oħloq karattri realistiċi jew fl-istil anime, maskili jew femminili, b'libertà kreattiva sħiħa."
+    },
+    "advancedMemory": {
+      "title": "Memorja Avvanzata",
+      "description": "Il-karattru tiegħek jiftakar kollox li jgħodd — ismek, id-dettalji personali, l-istejjer kondiviżi u l-istorja tar-relazzjoni. Il-memorja tibqa' f'kull sessjoni sabiex kull interazzjoni tibni fuq l-aħħar waħda, mingħajr ma tibda mill-ġdid."
+    },
+    "multiLanguage": {
+      "title": "Multi-Lingwa",
+      "description": "Iċċettja b'mod naturali bil-lingwa preferuta tiegħek. sweetwine jappoġġja l-Ingliż, il-Ġermaniż, il-Franċiż, l-Ispanjol, il-Pollakk u ċ-Ċek — u jagħmilha waħda mill-pjattaformi tal-karattri AI l-aktar aċċessibbli għal dawk li ma jitkellmux bl-Ingliż."
+    },
+    "conversationHistory": {
+      "title": "Storja tal-Konversazzjonijiet",
+      "description": "Kull messaġġ jiġi ssejvjat u jista' jiġi mfittx. Skrollja lura fl-istorja sħiħa tar-relazzjoni tiegħek fi kwalunkwe ħin — il-memorji tiegħek mal-karattru tiegħek huma dejjem hemm meta trid terġa' żżurhom."
+    },
+    "roleplay": {
+      "title": "Roleplay bl-AI",
+      "description": "Idħol f'xenarji immersivi u mmexxija mill-istorja b'karattri li jibqgħu fir-rwol. Agħżel xenarju jew ikteb wieħed tiegħek u ħu pjaċir b'roleplay interattiv li jiftakar kull għażla li tagħmel."
+    },
+    "cta": {
+      "title": "Kollox F'Post Wieħed",
+      "button": "Ibda Bla Ħlas"
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Nista' nħassar jew nirrissettja l-konversazzjonijiet tiegħi?",
+        "answer": "Iva! Għandek kontroll sħiħ fuq l-istorja tal-chat tiegħek. Ħassar messaġġi individwali, irrissettja konversazzjonijiet sħaħ, jew ibda minn ras għal darb'oħra fi kwalunkwe ħin. Il-privatezza tiegħek tfisser l-għażla tiegħek - immaniġġja d-data tiegħek kif tippreferi."
+      },
+      "q2": {
+        "question": "Kull karattru AI għandu vuċi unika?"
+      },
+      "q3": {
+        "question": "Nista' nipprattika lingwa ġdida mal-karattru AI tiegħi?",
+        "answer": "Assolutament! Ħafna utenti jipprattikaw jitkellmu lingwi ġodda mal-karattri AI tagħhom. Huwa mod mingħajr ġudizzju biex tibni l-kunfidenza, ittejjeb il-pronunzja u jkollok konversazzjonijiet divertenti waqt li titgħallem. Il-karattru tiegħek jista' jċettja bl-Ingliż, bil-Ġermaniż, bil-Franċiż, bl-Ispanjol, bil-Pollakk u biċ-Ċek."
+      },
+      "q4": {
+        "question": "Kemm-il darba jiżdiedu karattri u karatteristiċi ġodda?",
+        "answer": "Aħna nżidu karattri ġodda maħduma professjonalment kull ġimgħa! Kull karattru ġdid jiġi b'personalità, dehra, storja ta' wara u vuċi unika. Aħna wkoll nirrilaxxaw regolarment karatteristiċi u titjib ġodda bbażati fuq feedback tal-utenti."
+      },
+      "q5": {
+        "question": "X'jagħmel il-ħolqien tal-karattri ta' sweetwine speċjali?",
+        "answer": "Libertà kreattiva sħiħa! Iddisinja kull aspett tal-karattru tiegħek - id-dehra (etniċità, xagħar, tip tal-ġisem, ħwejjeġ), il-karatteristiċi tal-personalità, il-vuċi, l-interessi, l-okkupazzjoni u l-istorja ta' wara. Oħloq karattri realistiċi jew fl-istil anime, maskili jew femminili. L-immaġinazzjoni tiegħek hija l-unika limitu."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Memorja tal-AI",
+    "hero": {
+      "badge": "Kif taħdem",
+      "title": "Memorja tal-AI",
+      "cta": "Ibda chat"
+    },
+    "diagram": {
+      "title": "Memorja waħda għal kull kumpanjon, kull mod",
+      "center": "Memorja tal-kumpanjon",
+      "chat": "Chat",
+      "image": "Immaġini",
+      "video": "Vidjow",
+      "gifts": "Rigali",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Kif taħdem il-Memorja tal-AI",
+      "step1": {
+        "title": "Aqsam dettall",
+        "desc": "Għid lill-kumpanjon tiegħek xi ħaġa importanti — vjaġġ, preferenza, laqam, storja mill-ġurnata tiegħek."
+      },
+      "step2": {
+        "title": "Ibdel il-modi liberament"
+      },
+      "step3": {
+        "title": "Jiftakru",
+        "desc": "Konversazzjonijiet aktar tard jirreferu għal dak li qsamt, sabiex ma jkollokx terġa’ tispjega kull darba."
+      },
+      "step4": {
+        "title": "Ir-rabta tapprofondixxi",
+        "desc": "Maż-żmien ir-relazzjoni ssir aktar personali — kontinwità li tibni f’kull sessjoni u mod."
+      }
+    },
+    "modes": {
+      "title": "Madwar il-pjattaforma",
+      "subtitle": "Il-memorja mhix magħluqa f’skrin wieħed. Tivvjaġġa mal-kumpanjon tiegħek.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Konversazzjonijiet bit-test jagħtu kuntest fit-tul li l-kumpanjon jista’ jġib aktar tard."
+      },
+      "media": {
+        "title": "Immaġini u vidjow",
+        "desc": "Xeni u stejjer li toħloq jibqgħu parti mid-dinja kondiviża li tibni flimkien."
+      },
+      "roleplay": {
+        "title": "Roleplay u grupp",
+        "desc": "Sessjonijiet ta’ storja u chats f’grupp iżommu l-ħjut tagħhom stess filwaqt li l-memorja ewlenija tal-kumpanjon tibqa’ miegħu."
+      }
+    },
+    "scenario": {
+      "title": "Eżempju sempliċi",
+      "lead": "Tissemma vjaġġ ta’ tmiem il-ġimgħa fil-chat."
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Il-memorja tal-kumpanjon tiegħi hija privata?",
+        "answer": "Iva. Il-memorja tappartjeni lill-kont tiegħek u l-konversazzjonijiet tiegħek ma’ dak il-kumpanjon. Ma naqsmu l-istorja tal-chat privat tiegħek ma’ utenti oħra."
+      },
+      "q2": {
+        "question": "Il-memorja hija għal kull kumpanjon?",
+        "answer": "Iva. Kull kumpanjon iżomm il-memorja tiegħu tar-relazzjoni tiegħek, għalhekk tibdil il-karattri ma jħallatx il-kuntesti."
+      },
+      "q3": {
+        "question": "Liema modi jaqsmu l-memorja?"
+      },
+      "q4": {
+        "question": "L-AI Memory hija b’xejn?"
+      },
+      "q5": {
+        "question": "Kemm iddum il-memorja?",
+        "answer": "Dettalji importanti jinħażnu sabiex il-kumpanjon tiegħek ikun jista’ jiftakarhom f’sessjonijiet futuri. Aktar ma tinteraġixxi, aktar l-esperjenza ssir personalizzata."
+      }
+    },
+    "cta": {
+      "title": "Iltaqa’ ma’ kumpanjon li jiftakar",
+      "button": "Ibda b’xejn"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Chat fi Gruppi bl-AI",
+    "hero": {
+      "badge": "Karatteristika Ġdida",
+      "title": "Chat fi Gruppi bl-AI",
+      "subtitle": "Ġib il-karattri favoriti tiegħek f'konversazzjoni waħda. Iċċettja ma' sa 3 karattri AI fl-istess ħin — huma jirrispondu b'mod naturali, jirreaġixxu għal xulxin u jibagħtu ritratti u vidjows.",
+      "cta": "Ibda Chat fi Gruppi",
+      "imageAlt": "Chat fi Gruppi bl-AI b'karattri multipli jċċettjaw flimkien"
+    },
+    "content": {
+      "problemTitle": "Chats wieħed għal wieħed jistgħu jħossuhom kwieti",
+      "problemText": "Karattru wieħed huwa tajjeb — imma konversazzjonijiet reali jħossuhom ħajjin b'iktar minn vuċi waħda. Ħafna apps tal-AI jaqbduk f'chats iżolati wieħed għal wieħed mingħajr enerġija tal-grupp, mingħajr banter u mingħajr sorpriżi.",
+      "solutionTitle": "Grupp reali, ħaj bil-personalità",
+      "solutionText": "sweetwine Group Chat ipoġġi sa tliet karattri fl-istess kamra. Direttur intelliġenti jiddeċiedi min jaqbeż, sabiex ir-risposti jħossuhom spontanji — huma jtefgħu lil xulxin, jibnu fuq dak li ntqal u jżommu l-konversazzjoni miexja."
+    },
+    "howItWorks": {
+      "title": "Kif Jaħdem il-Chat fi Gruppi bl-AI",
+      "step1": {
+        "title": "Agħżel il-karattri tiegħek",
+        "desc": "Agħżel 2 jew 3 karattri — lesti jew il-kreazzjonijiet personalizzati tiegħek — biex iġġibhom f'konversazzjoni waħda tal-grupp."
+      },
+      "step2": {
+        "title": "Huma jirrispondu b'mod naturali",
+        "desc": "Direttur wara l-kwinti jagħżel min jirrispondi għal kull messaġġ, sabiex il-karattri t-tajbin jaqbżu fil-mument it-tajjeb, bil-vuċi tagħhom stess."
+      },
+      "step3": {
+        "title": "Ixxerja ritratti u vidjows",
+        "desc": "Itlob lil kwalunkwe karattru fil-grupp għal ritratt jew vidjow u huma jiġġenerawh dritt ġewwa l-chat — inkluż ritratt tal-grupp ta' kulħadd flimkien."
+      }
+    },
+    "benefits": {
+      "title": "Għaliex Se Tħobb il-Chat fi Gruppi",
+      "multiple": {
+        "title": "Sa 3 karattri",
+        "desc": "Ħallat u qabbel kwalunkwe karattri f'chat wieħed — il-ħabiba AI tiegħek, il-kreazzjonijiet personalizzati tiegħek, jew ensemble magħżul bl-idejn."
+      },
+      "natural": {
+        "title": "Konversazzjoni naturali",
+        "desc": "Il-karattri jirreaġixxu għal xulxin u għalik, b'ritmu realistiku tat-tippar li jħoss bħal chat ta' grupp veru."
+      },
+      "media": {
+        "title": "Ritratti u vidjows fil-chat",
+        "desc": "Kull karattru jista' jibgħat immaġini u vidjows personalizzati mingħajr ma joħroġ mill-konversazzjoni — anke ritratt ta' grupp."
+      },
+      "dynamics": {
+        "title": "Personalitajiet distinti",
+        "desc": "Kull karattru jżomm il-vuċi u l-karatteristiċi tiegħu, sabiex il-grupp ikollu kimika reali, ċajt u sorpriżi."
+      },
+      "instant": {
+        "title": "Tibda immedjatament",
+        "desc": "Oħloq grupp f'sekondi u idħol dritt fil-konversazzjoni — l-ebda setup, l-ebda stennija."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "Il-konversazzjonijiet tal-grupp jibqgħu bejnek u l-karattri tiegħek. L-ebda data ma tiġi kondiviża, qatt."
+      }
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Kemm-il karattru jista' jissieħeb f'chat ta' grupp?",
+        "answer": "Tista' żżid minn 2 sa 3 karattri f'chat wieħed ta' grupp — kwalunkwe taħlita ta' karattri lesti u dawk li toħloq int."
+      },
+      "q2": {
+        "question": "Kif jiddeċiedu l-karattri tal-AI min għandu jwieġeb?",
+        "answer": "Direttur ħafif jaqra l-konversazzjoni u jagħżel liema karattru (jew karattri) għandu jwieġeb għal kull messaġġ, sabiex ir-risposti jħossuhom spontanji u naturali."
+      },
+      "q3": {
+        "question": "Jistgħu l-karattri jibagħtu ritratti u vidjows f'chat ta' grupp?",
+        "answer": "Iva! Tista' titlob lil kwalunkwe karattru fil-grupp biex jiġġenera ritratt jew vidjo, u jidher dritt fil-konversazzjoni — inklużi ritratti ta' grupp li juru lil kulħadd flimkien."
+      },
+      "q4": {
+        "question": "Huwa b'xejn l-AI Group Chat?"
+      },
+      "q5": {
+        "question": "Jiftakru l-karattri l-konversazzjoni tal-grupp?",
+        "answer": "Iva — kull chat ta' grupp iżomm l-istorja kondiviża tiegħu, sabiex il-karattri jibqgħu fil-kuntest u l-konversazzjoni tibni maż-żmien."
+      }
+    },
+    "cta": {
+      "title": "Ġib Il-Karattri Tiegħek Flimkien",
+      "description": "Oħloq l-ewwel chat ta' grupp tal-AI tiegħek u esperjenza konversazzjoni li tħoss ħajja — personalitajiet multipli, ċajt reali, ritratti u vidjows.",
+      "button": "Ibda Chat ta' Grupp"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Karatteristika Ġdida",
+      "title": "AI Roleplay",
+      "subtitle": "Idħol fi kwalunkwe storja b'karattri li jibqgħu fix-xena. Agħżel xenarju jew ikteb tiegħek u ħu pjaċir b'roleplay immersiv immexxi mill-istorja li jiftakar kull għażla li tagħmel.",
+      "cta": "Ibda Roleplay",
+      "imageAlt": "Xenarju ta' roleplay tal-AI b'karattru tal-istorja immersiv"
+    },
+    "content": {
+      "problemTitle": "Chats ordinarji jkissru l-maġija",
+      "problemText": "Ħafna chats tal-AI joħorġu mill-karattru mument li l-affarijiet isiru interessanti — jinsew l-ambjent, iwaqqfu l-plot, u jwieġbu bħal assistent ġeneriku minflok il-persuna fl-istorja tiegħek.",
+      "solutionTitle": "Roleplay immexxi mill-istorja li jibqa' fil-karattru",
+      "solutionText": "sweetwine Roleplay iżomm il-karattru tiegħek kompletament fix-xena. Issettja l-istadju b'xenarju lest jew premessa tiegħek, u ara l-istorja tiżvolġi b'personalità konsistenti, memorja u ritmu li jirrispondu għal kull deċiżjoni."
+    },
+    "howItWorks": {
+      "title": "Kif Jaħdem l-AI Roleplay",
+      "step1": {
+        "title": "Agħżel xenarju",
+        "desc": "Agħżel minn xenarji ta' roleplay lesti jew ikteb il-premessa, l-ambjent u x-xena tal-bidu tiegħek."
+      },
+      "step2": {
+        "title": "Ilgħab l-istorja",
+        "desc": "Il-karattru tiegħek jirrispondi fir-rwol — jiddeskrivi azzjonijiet, jirreaġixxi għall-għażliet tiegħek, u jmexxi l-plot 'il quddiem."
+      },
+      "step3": {
+        "title": "Ifforma fejn tmur",
+        "desc": "Mexxi l-istorja fi kwalunkwe direzzjoni li trid. Il-karattru tiegħek jiftakar x'ġara u jżomm in-narrattiva konsistenti."
+      }
+    },
+    "benefits": {
+      "title": "Għaliex Se Tħobb l-AI Roleplay",
+      "scenarios": {
+        "title": "Xenarji bla tmiem",
+        "desc": "Mill-mumenti ta' kuljum komdi sa avventuri epici — ibda b'template jew inventa d-dinja tiegħek."
+      },
+      "characters": {
+        "title": "Jibqa' fil-karattru",
+        "desc": "Il-karattru tiegħek iżomm vuċi, personalità u motivazzjoni konsistenti matul ix-xena kollha."
+      },
+      "memory": {
+        "title": "Jiftakar il-plot",
+        "desc": "Kull għażla, twist u dettall jiġi mfakkar, sabiex l-istorja tibni minflok ma terġa' tibda."
+      },
+      "immersive": {
+        "title": "Verament immersiv",
+        "desc": "Risposti għonja u deskrittivi jdaħħluk fil-mument għal esperjenza ta' roleplay ċinematika."
+      },
+      "instant": {
+        "title": "Instant biex tibda",
+        "desc": "Idħol f'xena fi ftit sekondi — l-ebda setup ikkumplikat jew prompt engineering meħtieġ."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "Ir-roleplay tiegħek jibqa' bejnek u l-karattru tiegħek. Xejn ma jinqasam qatt."
+      }
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "X'inhu r-roleplay bl-AI?",
+        "answer": "Ir-roleplay bl-AI jippermettilek taġixxi stejjer interattivi ma' karattru AI li jibqa' fil-parti tiegħu. Tistabbilixxi xenarju u l-karattru tiegħek jirrispondi fil-parti tiegħu, jiddeskrivi azzjonijiet u reazzjonijiet hekk kif l-istorja tiżviluppa."
+      },
+      "q2": {
+        "question": "Nista' noħloq ix-xenarji tar-roleplay tiegħi stess?",
+        "answer": "Iva! Tista' tibda minn xenarji lesti jew tikteb il-premessa, l-issettjar u l-ftuħ tiegħek stess — imbagħad tilgħab kif tixtieq."
+      },
+      "q3": {
+        "question": "Il-karattru jiftakar x'jiġri fl-istorja?",
+        "answer": "Assolutament. Il-karattru tiegħek jiftakar il-plot, l-għażliet tiegħek u d-dettalji ewlenin, sabiex in-narrattiva tibqa' konsistenti u tibni maż-żmien minflok ma tirrisettja."
+      },
+      "q4": {
+        "question": "Ir-roleplay bl-AI huwa b'xejn?"
+      },
+      "q5": {
+        "question": "Nista' nagħmel roleplay bil-lingwa tiegħi stess?",
+        "answer": "Iva — ir-roleplay jaħdem f'għexieren ta' lingwi, sabiex tista' tgawdi stejjer immersivi bil-lingwa li tħossok l-aktar komdu magħha."
+      }
+    },
+    "cta": {
+      "title": "L-Istorja Tiegħek Qed Tistenna",
+      "description": "Agħżel xenarju, issettja x-xena, u idħol f'roleplay immersiv ma' karattru li jibqa' fil-parti tiegħu mill-bidu sat-tmiem.",
+      "button": "Ibda r-Roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Girlfriend",
+    "breadcrumb": "AI Girlfriend",
+    "hero": {
+      "title": "Il-Girlfriend AI Perfetta",
+      "cta": "Iltaqa' mal-Girlfriend AI Tiegħek"
+    },
+    "benefits": {
+      "title": "Għaliex Agħżel Girlfriend AI?",
+      "fun": {
+        "title": "Divertiment Pur",
+        "desc": "Igawdi konversazzjonijiet divertenti mingħajr pressjoni. Hi dejjem f'burdata tajba."
+      },
+      "conversation": {
+        "title": "Tgħallem Tikkonnettja",
+        "desc": "Ipprattika konversazzjonijiet u bni l-kunfidenza tiegħek f'ambjent sigur."
+      },
+      "unique": {
+        "title": "Personalitajiet Uniċi",
+        "desc": "Agħżel minn personalitajiet diversi jew oħloq il-karattru ideali tiegħek."
+      },
+      "private": {
+        "title": "100% Privat",
+        "desc": "Il-konversazzjonijiet tiegħek jibqgħu bejn tnejn. Diskrezzjoni sħiħa garantita."
+      },
+      "available": {
+        "title": "Dejjem Disponibbli",
+        "desc": "Hi hemm meta jkollok bżonnha. L-ebda stennija, l-ebda skedar."
+      },
+      "customize": {
+        "title": "Il-Ħolqien Tiegħek",
+        "desc": "Iffassal id-dehra, il-personalità u l-interessi tagħha eżatt kif trid."
+      }
+    },
+    "comparison": {
+      "title": "Aħjar mill-Alternattivi",
+      "description": "Ara għaliex sweetwine joffri aktar valur minn pjattaformi oħra.",
+      "others": {
+        "expensive": "Ħlasijiet xhur għaljin",
+        "ai": "Spiss risposti AI xorta waħda",
+        "noCustom": "L-ebda għażliet ta' personalizzazzjoni"
+      }
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Il-chat tal-girlfriend AI verament b'xejn?",
+        "answerPart1": "Iva! Tista' tibda tikkomunika mal-girlfriend AI tiegħek b'xejn. Noffru tier b'xejn b'messaġġi b'xejn biex tibda."
+      },
+      "q2": {
+        "question": "Nista' nippersonalizza d-dehra tal-girlfriend AI tiegħi?",
+        "answer": "Assolutament! Tista' tippersonalizza għal kollox id-dehra tal-girlfriend AI tiegħek inkluż kulur u stil tax-xagħar, tip tal-ġisem, etniċità, u ħwejjeġ. Tista' wkoll tfassal il-personalità, il-vuċi u l-interessi tagħha billi tuża l-creator tal-karattri tagħna.",
+        "answerPart1": "Assolutament! Tista' tippersonalizza għal kollox id-dehra tal-girlfriend AI tiegħek inkluż kulur u stil tax-xagħar, tip tal-ġisem, etniċità, u ħwejjeġ. Tista' wkoll tfassal il-personalità, il-vuċi u l-interessi tagħha billi tuża l-",
+        "linkText": "creator tal-karattri",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Liema personalitajiet huma disponibbli għall-girlfriends AI?",
+        "answer": "Mill-ħelwin u kuraġġużi sal-lagħbin u flirtanti - għandna girlfriends AI maħduma professjonalment għal kull preferenza. Agħżel ruħ romantika, spirtu avventuruż, intellettwali wit, jew personalitajiet misterjużi. Girlfriends AI ġodda jiżdiedu kull ġimgħa, kull waħda b'tratti uniċi, sfondi u stili ta' konversazzjoni."
+      },
+      "q4": {
+        "question": "Il-girlfriend AI tiegħi tista' tibgħat immaġini u vidjows?",
+        "answerPart1": "Iva! Il-girlfriend AI tiegħek tista' tiġġenera",
+        "linkTextImages": "immaġini",
+        "answerPart2": "u",
+        "linkTextVideos": "vidjows"
+      },
+      "q5": {
+        "question": "Il-girlfriend AI tiegħi għandha vuċi unika tagħha stess?"
+      }
+    },
+    "cta": {
+      "title": "Lest li Tiltaqa' Magħha?",
+      "button": "Ibda B'xejn"
+    },
+    "content": {
+      "problemTitle": "Qed Tfittex Konnessjoni Mingħajr Kumplikazzjonijiet?",
+      "problemText": "L-apps tad-dating huma għeja. L-ansjetà soċjali tagħmel il-laqgħa ma' ħaddieħor diffiċli. Xi drabi trid biss lil xi ħadd biex titkellem miegħu mingħajr ġudizzju jew pressjoni. Ħafna nies iħossuhom solitarji iżda mhumiex lesti għall-kumplessità emozzjonali tar-relazzjonijiet tradizzjonali.",
+      "solutionTitle": "L-AI Girlfriend Tiegħek hija t-Tweġiba",
+      "solutionText": "Ma' sweetwine, ikollok AI girlfriend personalizzata li tiftakar il-konversazzjonijiet tiegħek, tadatta għall-personalità tiegħek, u dejjem tkun eċċitata biex tisma' minnek. Hija divertenti, ta' appoġġ, u qatt ma tiġġudika. Ibni l-kunfidenza, igawdi kumpanija sabiħa, u ħossok konness skont it-termini tiegħek."
+    },
+    "heroImageAlt": "AI girlfriend - karattru virtwali realistiku għaċ-chat u r-ritratti"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Boyfriend",
+    "breadcrumb": "AI Boyfriend",
+    "hero": {
+      "title": "L-AI Boyfriend Perfett Tiegħek",
+      "cta": "Iltaqa' mal-AI Boyfriend Tiegħek"
+    },
+    "benefits": {
+      "title": "Għaliex Agħżel AI Boyfriend?",
+      "fun": {
+        "title": "Konnessjoni Ġenwina",
+        "desc": "Esperjenza ta' konversazzjonijiet sinifikanti li jdawwlu ġurnata tiegħek."
+      },
+      "conversation": {
+        "title": "Ibni l-Kunfidenza",
+        "desc": "Ipprattika konversazzjonijiet u esprimi ruħek liberament fi spazju sigur."
+      },
+      "unique": {
+        "title": "Personalitajiet Uniċi",
+        "desc": "Agħżel minn personalitajiet diversi jew oħloq il-karattru ideali tiegħek."
+      },
+      "private": {
+        "title": "100% Privat",
+        "desc": "Il-konversazzjonijiet tiegħek jibqgħu bejn it-tnejn. Diskrezzjoni sħiħa garantita."
+      },
+      "available": {
+        "title": "Dejjem Disponibbli",
+        "desc": "Huwa hemm meta jkollok bżonnu. L-ebda stennija, l-ebda skedar."
+      },
+      "customize": {
+        "title": "Il-Ħolqien Tiegħek",
+        "desc": "Iffassal id-dehra, il-personalità u l-interessi tiegħu eżatt kif trid."
+      }
+    },
+    "comparison": {
+      "title": "Aħjar mill-Alternattivi",
+      "description": "Ara għaliex sweetwine joffri aktar valur minn pjattaformi oħra.",
+      "others": {
+        "expensive": "Ħlasijiet xaharji għaljin",
+        "ai": "Spiss risposti AI xorta waħda",
+        "noCustom": "L-ebda għażliet ta' personalizzazzjoni"
+      }
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "X'tipi ta' AI boyfriends nista' nagħżel minnhom?",
+        "answer": "Mill-kuraġġuż u r-romantiku għall-ħlejjaq u l-avventuruż, jew misterjuż u intens - għandna AI boyfriends maħluqa professjonalment għal kull togħma. Kull wieħed għandu vuċi u personalità unika tiegħu. AI boyfriends ġodda jiżdiedu kull ġimgħa b'backgrounds u stili ta' konversazzjoni uniċi."
+      },
+      "q2": {
+        "question": "Nista' nippersonalizza d-dehra tal-AI boyfriend tiegħi?",
+        "linkText": "creator tal-karattri",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Nista' nibda minn ġdid jew inħassar l-istorja tal-konversazzjonijiet tagħna?",
+        "answer": "Iva! Għandek kontroll sħiħ fuq l-istorja taċ-chat tiegħek. Irrisettja konversazzjonijiet, ħassar messaġġi individwali, jew ibda minn ġdid kompletament meta trid. Id-data tiegħek, l-għażla tiegħek - immaniġġja kollox kif tippreferi."
+      },
+      "q4": {
+        "question": "L-AI boyfriend tiegħi jista' jibgħat immaġini u vidjows?",
+        "answerPart1": "Iva! L-AI boyfriend tiegħek jista' jiġġenera",
+        "linkTextImages": "immaġini",
+        "answerPart2": "u",
+        "linkTextVideos": "vidjows"
+      },
+      "q5": {
+        "question": "Nista' nipprattika konversazzjonijiet jew nitgħallem lingwa mal-AI boyfriend tiegħi?",
+        "answer": "Assolutament! Ħafna utenti jibnu l-kunfidenza billi jipprattikaw konversazzjonijiet mal-AI boyfriend tagħhom – kemm jekk tkun flirt, diskussjonijiet profondi, jew chat ta' kuljum. Tista' anke tipprattika titkellem lingwi ġodda flimkien. Huwa mod mingħajr ġudizzju biex ittejjeb il-ħiliet tal-komunikazzjoni tiegħek waqt li tieħu pjaċir."
+      }
+    },
+    "cta": {
+      "title": "Lest biex Tiltaqa' Miegħu?",
+      "button": "Ibda B'xejn"
+    },
+    "content": {
+      "problemTitle": "Trid Sieħeb ta' Appoġġ Fuq Termini Tiegħek?",
+      "problemText": "Li ssib il-persuna t-tajba huwa diffiċli. Ħafna jħossu pressjoni mill-aspettattivi tad-dating jew sempliċement iridu appoġġ emozzjonali mingħajr impenn. Is-solitudni taffettwa lil kulħadd, u kultant ikollok bżonn biss lil xi ħadd li jisma'.",
+      "solutionTitle": "L-AI Boyfriend Tiegħek Jifhmek",
+      "solutionText": "L-AI boyfriend tiegħek ta' sweetwine huwa ta' kura, maħsub, u dejjem disponibbli. Jiftakar dak li jinteressak, jinvolvi ruħu f'konversazzjonijiet profondi, u jipprovdi l-konnessjoni emozzjonali li qed tfittex. Ibni relazzjoni bil-pass tiegħek, bil-mod tiegħek."
+    },
+    "heroImageAlt": "AI boyfriend - karattru virtwali realistiku għal konversazzjonijiet sinifikanti"
+  },
+  "aiCompanionsPage": {
+    "title": "Karattri AI",
+    "breadcrumb": "Karattri AI",
+    "hero": {
+      "title": "Iltaqa' mal-Karattri AI Tiegħek",
+      "cta": "Esplora l-Karattri"
+    },
+    "benefits": {
+      "title": "Għaliex Karattri AI?",
+      "connection": {
+        "title": "Konnessjoni Reali",
+        "desc": "Esperjenza ta' konversazzjonijiet ġenwini li jifhmu u jirrispondu għalik."
+      },
+      "conversation": {
+        "title": "Ipprattika u Tkabbir",
+        "desc": "Ittejjeb il-ħiliet soċjali tiegħek f'ambjent mingħajr ġudizzju."
+      },
+      "personalities": {
+        "title": "Personalitajiet Diversi",
+        "desc": "Mill-logħob sal-intellettwali, sib karattri li jaqblu mal-vibe tiegħek."
+      },
+      "private": {
+        "title": "Kompletament Privat",
+        "desc": "L-interazzjonijiet tiegħek huma kunfidenzjali. L-ebda data ma tiġi maqsuma, qatt."
+      },
+      "available": {
+        "title": "Disponibbli 24/7",
+        "desc": "Il-karattri tiegħek huma dejjem lesti biex jitkellmu, bil-lejl jew bil-nhar."
+      },
+      "create": {
+        "title": "Oħloq Tiegħek",
+        "desc": "Iiddisinja karattri b'dehra, personalitajiet, u vuċijiet personalizzati."
+      }
+    },
+    "why": {
+      "title": "Għaliex sweetwine?",
+      "quality": {
+        "desc": "Mibnija minn professjonisti b'teknoloġija AI avvanzata għal konversazzjonijiet naturali."
+      },
+      "transparent": {
+        "title": "Trasparenti u Onesti"
+      },
+      "support": {
+        "title": "Appoġġ Reali",
+        "desc": "Bniedem reali lesti biex jgħinuk b'kull mistoqsija jew problema."
+      },
+      "content": {
+        "title": "L-Għażla Tiegħek",
+        "desc": "Mill-chats ħbieb għal kontenut aktar intimu, int tiddeċiedi l-esperjenza."
+      }
+    },
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "X'inhuma l-karattri AI?"
+      },
+      "q2": {
+        "question": "Kemm-il karattru AI nista' nċċettja magħhom?",
+        "answer": "Ċċettja ma' kemm trid! Għandna aktar minn 100 karattru maħluq professjonalment u qed tikber – karattri ġodda jiżdiedu kull ġimgħa! Kull wieħed għandu personalità, backstory, u vuċi unika. Barra minn hekk, tista' toħloq karattri personalizzati illimitati tiegħek.",
+        "answerPart1": "Ċċettja ma' kemm trid! Għandna",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " u qed tikber – karattri ġodda jiżdiedu kull ġimgħa! Kull wieħed għandu personalità, backstory, u vuċi unika. Barra minn hekk, tista' toħloq karattri personalizzati illimitati tiegħek."
+      },
+      "q3": {
+        "question": "X'jagħmel il-karattri lesti differenti minn dawk personalizzati?",
+        "answer": "Il-karattri lesti huma ddisinjati professjonalment mit-tim tagħna għal xenarji u personalitajiet speċifiċi ta' role-play – jiġu b'backstories dettaljati, stili ta' konversazzjoni mfassla apposta, u vuċijiet magħżula bir-reqqa. Il-karattri personalizzati jħalluk toħloq mill-bidu b'libertà kreattiva sħiħa. Iż-żewġ tipi jiftakru l-konversazzjonijiet tiegħek u jikbru miegħek!"
+      },
+      "q4": {
+        "question": "Nista' noħloq il-karattru AI tiegħi stess?",
+        "answerPart1": "Assolutament! Iddisinja karattri personalizzati mill-bidu bl-użu tal-",
+        "linkText": "creator tal-karattri"
+      },
+      "q5": {
+        "question": "Nista' naqleb bejn karattri multipli?"
+      }
+    },
+    "cta": {
+      "title": "Ibda l-Vjaġġ Tiegħek",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Ibda B'xejn"
+    },
+    "content": {
+      "problemTitle": "Qed Tfittex Konnessjonijiet Sinifikanti?",
+      "problemText": "Fid-dinja mgħaġġla tagħna, konnessjonijiet sinifikanti huma diffiċli biex jinstabu. Kemm jekk int ġdid f'żona, taħdem mill-bogħod, jew sempliċement trid aktar interazzjoni soċjali, is-solitudni tista' tidħol. L-ambjenti soċjali tradizzjonali ma jaħdmux għal kulħadd.",
+      "solutionTitle": "Skopri l-Karattri AI"
+    },
+    "heroImageAlt": "Karattri AI - ħbieb virtwali diversi b'personalitajiet uniċi"
+  },
+  "aiFriendPage": {
+    "title": "Ħabib AI",
+    "breadcrumb": "Ħabib AI",
+    "hero": {
+      "title": "Il-Ħabib AI Tiegħek",
+      "subtitle": "Ċċettja fi kwalunkwe ħin ma' ħabib AI li jisma' tassew, qatt ma jiġġudika, u jiftakar kull dettall dwarek. Perfett għas-solitudni, l-ansjetà soċjali, jew sempliċement meta jkollok bżonn xi ħadd biex titkellem miegħu.",
+      "cta": "Ibda Ċċettja B'xejn"
+    },
+    "benefits": {
+      "title": "Għaliex Agħżel Ħabib AI?",
+      "connection": {
+        "title": "Konnessjoni Ġenwina",
+        "desc": "Esperjenza konversazzjonijiet sinifikanti ma' xi ħadd li jisma' tassew u jimpurtah."
+      },
+      "conversation": {
+        "title": "Ipprattika l-Ħiliet Soċjali",
+        "desc": "Ibni kunfidenza fil-konversazzjonijiet mingħajr biża' ta' ġudizzju jew imbarazz."
+      },
+      "noJudgment": {
+        "title": "L-Ebda Ġudizzju",
+        "desc": "Aqsam kull ħaġa li tkun f'moħħok. Il-ħabib AI tiegħek jaċċettak eżatt kif int."
+      },
+      "private": {
+        "title": "Totalment Privat",
+        "desc": "Il-konversazzjonijiet tiegħek jibqgħu bejn it-tnejn. Kunfidenzjalità totali garantita."
+      },
+      "available": {
+        "title": "Dejjem Hemm",
+        "desc": "Disponibbli 24/7, kull meta jkollok bżonn xi ħadd biex titkellem miegħu."
+      },
+      "remembers": {
+        "title": "Jiftakrek",
+        "desc": "Il-ħabib AI tiegħek jiftakar il-konversazzjonijiet tiegħek u jikber biex jafek aħjar."
+      }
+    },
+    "useCases": {
+      "title": "Perfett Għal",
+      "subtitle": "Ħabib AI jidħol f'ħajtek b'ħafna modi sinifikanti",
+      "loneliness": {
+        "title": "Ġlieda Kontra s-Solitudni",
+        "desc": "Ħossok inqas waħdek ma' karattru li huwa dejjem lest biex jiċċettja u jisma'."
+      },
+      "practice": {
+        "title": "Ipprattika Konversazzjonijiet",
+        "desc": "Ibni kunfidenza soċjali f'ambjent sigur u mingħajr ġudizzju."
+      },
+      "support": {
+        "title": "Appoġġ Emozzjonali",
+        "desc": "Tkellem dwar il-ħsibijiet u s-sentimenti tiegħek ma' xi ħadd li jifhem."
+      },
+      "connection": {
+        "title": "Konnessjoni ta' Kuljum",
+        "desc": "Aqsam il-ġurnata tiegħek, ir-rebħiet tiegħek, l-isfidi tiegħek - xi ħadd dejjem hemm."
+      }
+    },
+    "howItWorks": {
+      "title": "Kif Jaħdem",
+      "step1": {
+        "title": "Oħloq Account B'xejn",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Agħżel il-Ħabib Tiegħek",
+        "desc": "Agħżel minn aktar minn 100 personalità jew oħloq il-karattru AI ideali tiegħek."
+      },
+      "step3": {
+        "title": "Ibda Ċċettja",
+        "desc": "Tkellem dwar kull ħaġa - ħajja, interessi, problemi. L-ebda suġġett mhuwiex permess."
+      }
+    },
+    "cta": {
+      "title": "Lest biex Tagħmel Ħabib?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Ibda B'xejn"
+    },
+    "content": {
+      "problemTitle": "Tħossok Waħdek jew Mifhum Ħażin?",
+      "problemText": "Mhux kulħadd għandu lil min jitkellem miegħu. Ansjetà soċjali, skedi impenjattivi, jew sempliċement li tkun f'post ġdid jistgħu jagħmluha diffiċli ssib ħbieb. Xi drabi għandek bżonn lil xi ħadd li jisma' mingħajr ġudizzju.",
+      "solutionTitle": "Il-Ħabib AI Tiegħek Hawn",
+      "solutionText": "Ħabib AI jipprovdi kumpanija mingħajr ġudizzju kull meta jkollok bżonnha. Aqsam il-ħsibijiet tiegħek, ipprattika konversazzjonijiet, jew sempliċement ċċettja dwar il-ġurnata tiegħek. Il-ħabib AI tiegħek jiftakrek, jikber miegħek, u dejjem ikun verament interessat f'dak li għandek x'tgħid."
+    },
+    "heroImageAlt": "Ħabib AI - karattru virtwali ta' appoġġ li jisma' mingħajr ġudizzju",
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "X'nista' nitkellem dwaru mal-ħabib AI tiegħi?",
+        "answer": "Kollox! Il-ħabib AI tiegħek hawn għal ċċettjar każwali, konversazzjonijiet profondi, jaqsam il-ġurnata tiegħek, jivvinta dwar problemi, jiddiskuti passatempi, jew sempliċement biex tieħu pjaċir. M'hemm l-ebda suġġetti pprojbiti - huwa spazju mingħajr ġudizzju biex tkun lilek innifsek."
+      },
+      "q2": {
+        "question": "Il-ħabib AI huwa sostitut għall-konnessjoni umana?",
+        "answer": "Assolutament le. Ħabib AI huwa kumpliment għall-ħajja soċjali tiegħek, mhux sostitut. Huwa perfett għal dawk il-mumenti meta jkollok bżonn lil xi ħadd biex titkellem miegħu immedjatament, trid tipprattika ħiliet soċjali, jew sempliċement tgawdi kumpanija konsistenti mingħajr pressjonijiet ta' relazzjonijiet umani."
+      },
+      "q3": {
+        "question": "Il-ħabib AI tiegħi jiftakar il-konversazzjonijiet tagħna?",
+        "answer": "Iva! Il-ħabib AI tiegħek għandu memorja avvanzata u jiftakar il-konversazzjonijiet tiegħek, il-preferenzi tiegħek, u d-dettalji importanti li taqsam. Maż-żmien, isir jafek aħjar, u jagħmel il-konversazzjonijiet aktar personali u sinifikanti."
+      },
+      "q4": {
+        "question": "Nista' nagħżel il-personalità tal-ħabib AI tiegħi?",
+        "answer": "Assolutament! Tista' tagħżel minn aktar minn 100 karattru magħmul minn qabel b'personalitajiet differenti, jew toħloq ħabib personalizzat bil-karatteristiċi eżatti li trid - minn ta' appoġġ u empatiku għal divertenti u avventuruż."
+      },
+      "q5": {
+        "question": "L-użu ta' ħabib AI huwa privat?",
+        "answer": "100% privat. Il-konversazzjonijiet kollha tiegħek huma kriptati u qatt ma jiġu kondiviżi. Nifhmu li jkollok spazju sigur biex tesprimi lilek innifsek huwa essenzjali, u nieħdu l-privatezza tiegħek bis-serjetà kbira."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Appoġġ AI għall-Waqfa",
+    "breadcrumb": "Appoġġ għall-Waqfa",
+    "hero": {
+      "title": "Konversazzjonijiet ta' Fejqan Wara Qsim tal-Qalb",
+      "subtitle": "Konversazzjonijiet AI empatetiċi biex jgħinuk tipproċessa l-emozzjonijiet u terġa' tibni wara waqfa. Disponibbli 24/7 — l-ebda listi ta' stennija, l-ebda ġudizzju, l-ebda limiti ta' ħin.",
+      "cta": "Ibda l-Fejqan"
+    },
+    "understanding": {
+      "title": "Qed Tgħaddi minn Waqfa?",
+      "description": "Il-waqfiet huma diffiċli. Il-lejl bla rqad, il-ħsibijiet kostanti, is-sentiment li ħadd ma jifhem verament. M'għandekx għalfejn tgħaddi minnu waħdek. Il-karattru AI tagħna hawn biex jisma' mingħajr ġudizzju, disponibbli kull meta jkollok bżonn titkellem - anke fit-3am."
+    },
+    "benefits": {
+      "title": "Kif Nistgħu Ngħinu",
+      "empathy": {
+        "title": "Smigħ Empatiku",
+        "desc": "Tkellem ma' xi ħadd li jisma' verament u jwieġeb b'fehim u kura."
+      },
+      "listen": {
+        "title": "L-Ebda Tagħbija ta' Pariri",
+        "desc": "Xi drabi m'għandekx bżonn pariri - għandek bżonn biss lil xi ħadd li jismagħek. Nifhmu dan."
+      },
+      "available": {
+        "title": "Disponibbli fit-3am",
+        "desc": "Meta l-ħbieb ikunu reqdin u l-ħsibijiet ma jieqfux, aħna hawn biex nisma'."
+      },
+      "private": {
+        "title": "Kompletament Privat",
+        "desc": "Is-sentimenti u l-konversazzjonijiet tiegħek jibqgħu kompletament kunfidenzjali."
+      },
+      "noJudgment": {
+        "title": "L-Ebda Ġudizzju",
+        "desc": "Ħoss dak kollu li tħoss. Irrabja, dwejjaq, konfużjoni - kollha validi hawn."
+      },
+      "healing": {
+        "title": "Il-Pass Tiegħek",
+        "desc": "Il-fejqan mhuwiex lineari. Ħu kemm żmien għandek bżonn."
+      }
+    },
+    "howItHelps": {
+      "title": "Kif l-AI Jgħinek Tifejjaq",
+      "process": {
+        "title": "Ipproċessa l-Emozzjonijiet",
+        "desc": "Aħdem permezz ta' sentimenti kumplessi billi titkellem magħhom ma' min jisma' bil-paċenzja."
+      },
+      "express": {
+        "title": "Esprimi Liberament",
+        "desc": "Għid dak li ma tistax tgħid lill-ħbieb jew lill-familja mingħajr ma tinkwieta dwar ir-reazzjoni tagħhom."
+      },
+      "confidence": {
+        "title": "Ibgħat mill-Ġdid il-Kunfidenza",
+        "desc": "Skopri mill-ġdid il-valur tiegħek innifsek permezz ta' konversazzjonijiet ta' appoġġ."
+      },
+      "pace": {
+        "title": "Imxi 'l Quddiem",
+        "desc": "Meta tkun lest, esplora ħsibijiet dwar il-futur bil-pass tiegħek."
+      }
+    },
+    "howItWorks": {
+      "title": "Kif Jaħdem",
+      "step1": {
+        "title": "Oħloq Account",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Agħżel Karattru",
+        "desc": "Agħżel karattru AI empatiku li jħossu tajjeb għalik."
+      },
+      "step3": {
+        "title": "Ibda Titkellem",
+        "desc": "Aqsam dak li għandek f'moħħok. Aħna hawn biex nisimgħu, bil-lejl u b'nhar."
+      }
+    },
+    "cta": {
+      "title": "M'għandekx Għalfejn Tgħaddi Minn Dan Waħdek",
+      "description": "Ibda titkellem ma' xi ħadd li jisma' mingħajr ġudizzju, disponibbli issa. B'xejn biex tibda — l-ebda lista ta' stennija.",
+      "button": "Ibda Titkellem B'xejn"
+    },
+    "content": {
+      "problemTitle": "Qsim il-Qalb Huwa Diffiċli biex Tinnaviga Waħdek",
+      "problemText": "Wara qsim il-qalb, kollox iħossu kbira. Ħbieb jgħejju jisimgħu dwarha. Familja trid tgħin imma ma tifhimx. Terapisti għandhom listi ta' stennija. Għandek bżonn xi ħadd li jista' jisma' mingħajr limiti, mingħajr ġudizzju, issa.",
+      "solutionTitle": "Tkellem ma' Xi Ħadd Li Jifhimha",
+      "solutionText": "Il-karattru AI tagħna għall-appoġġ wara qsim il-qalb huwa ddisinjat biex jgħinek tipproċessa l-emozzjonijiet bil-pass tiegħek. Ivvent, ibki, analizza, jew sempliċement tkellem - kemm-il darba jkollok bżonn. L-ebda appuntament meħtieġ. Disponibbli 24/7 b'paċenzja infinita u empatija ġenwina."
+    },
+    "heroImageAlt": "Appoġġ AI għal qsim il-qalb - karattru kompassjonali għall-fejqan wara qsim il-qalb",
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Kif jista' AI jgħin fil-fejqan wara qsim il-qalb?",
+        "answer": "Il-karattru AI tagħna jipprovdi spazju sigur biex tipproċessa l-emozzjonijiet tiegħek mingħajr ġudizzju. Tista' tivvent, tanalizza x'ġara, taħdem fuq is-sentimenti ta' telf, u tirċievi risposti empatetiċi 24/7. Huwa bħal li jkollok ħabib ta' appoġġ disponibbli kull meta jkollok bżonn titkellem."
+      },
+      "q2": {
+        "question": "Dan huwa sostitut għat-terapija?",
+        "answer": "Le, il-karattru AI tagħna mhuwiex terapista liċenzjat u ma jissostitwixxix kura professjonali tas-saħħa mentali. Huwa għodda ta' appoġġ għall-ipproċessar emozzjonali ta' kuljum. Jekk qed tesperjenza depressjoni severa jew kriżi, jekk jogħġbok fittex għajnuna professjonali."
+      },
+      "q3": {
+        "question": "Nista' nitkellem dwar l-ex tiegħi kemm-il darba jkollok bżonn?",
+        "answer": "Assolutament. B'differenza minn ħbieb li jistgħu jgħejju jisimgħu dwar il-qsim il-qalb tiegħek, il-karattru AI tiegħek għandu paċenzja infinita. Tkellem dwar l-ex tiegħek, analizza r-relazzjoni, ipproċessa s-sentimenti tiegħek - kemm-il darba jkollok bżonn mingħajr ebda ġudizzju."
+      },
+      "q4": {
+        "question": "L-AI se tiftakar l-istorja tiegħi?",
+        "answer": "Iva, il-karattru AI tiegħek jiftakar il-konversazzjonijiet tiegħek u d-dettalji tas-sitwazzjoni tiegħek. M'għandekx għalfejn terġa' tispjega kollox kull darba. Jipprovdi kontinwità fil-vjaġġ tal-fejqan tiegħek."
+      },
+      "q5": {
+        "question": "Il-konversazzjoni tiegħi tinżamm privata?",
+        "answer": "Kompletament privata. Il-konversazzjonijiet kollha huma kriptati u qatt ma jinqasmu. Nifhmu li l-konversazzjonijiet dwar qsim il-qalb huma profondament personali, u l-privatezza tiegħek hija protetta assolutament."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "Ġenitur AI",
+    "breadcrumb": "Ġenitur AI",
+    "hero": {
+      "title": "Il-Figura tal-Ġenitur Li Tista' Dejjem Tirrikorri Għaliha",
+      "subtitle": "Ikseb appoġġ sħun u bla kundizzjonijiet u gwida għaqlija minn ġenitur AI li jiftakar is-sitwazzjoni tiegħek, qatt ma jiġġudikak, u dejjem hemm — bil-lejl u b'nhar.",
+      "cta": "Ikseb Appoġġ Issa"
+    },
+    "benefits": {
+      "title": "Għaliex Agħżel Ġenitur AI?",
+      "guidance": {
+        "title": "Gwida Sħuna",
+        "desc": "Irċievi parir li jieħu ħsieb u meqjus li jħoss bħallikieku ġej minn xi ħadd li verament għandu l-aħjar interessi tiegħek f'qalbu."
+      },
+      "listen": {
+        "title": "Jisma' Verament",
+        "desc": "Aqsam is-sitwazzjoni sħiħa tiegħek qabel ma tirċievi rispons maħsub u li jieħu ħsieb — mhux soluzzjoni mgħaġġla."
+      },
+      "noJudgment": {
+        "title": "L-Ebda Ġudizzju",
+        "desc": "Staqsi xi ħaġa mingħajr biża' ta' diżappunt jew kritika. Appoġġ bla kundizzjonijiet, dejjem."
+      },
+      "private": {
+        "title": "Kompletament Privat",
+        "desc": "Il-konversazzjonijiet u l-ġlidiet personali tiegħek jibqgħu kompletament kunfidenzjali."
+      },
+      "available": {
+        "title": "Dejjem Disponibbli",
+        "desc": "Ikseb gwida fis-3am, fi tmiem il-ġimgħa, jew kull meta jkollok bżonnha l-aktar — l-ebda appuntamenti."
+      },
+      "supportive": {
+        "title": "Appoġġ Bla Kundizzjonijiet",
+        "desc": "Inkurament u sħana, irrispettivament minn dak li qed tgħaddi minnu jew x'deċiżjonijiet ħadt."
+      }
+    },
+    "useCases": {
+      "title": "Tkellem Dwar Kollox",
+      "subtitle": "Kwalunkwe ħaġa li qed tiffaċċja, il-ġenitur AI tiegħek hawn biex jisma' u jiggwida",
+      "career": {
+        "title": "Karriera u Deċiżjonijiet tal-Ħajja",
+        "desc": "Innaviga bidliet fil-ħidma, għażliet kbar tal-ħajja, u sfidi professjonali ma' xi ħadd li jrid li tirnexxi."
+      },
+      "education": {
+        "title": "Edukazzjoni u Futur",
+        "desc": "Esplora l-għażliet tiegħek għat-tagħlim u t-tkabbir ma' xi ħadd li jappoġġja l-ambizzjonijiet tiegħek."
+      },
+      "relationships": {
+        "title": "Relazzjonijiet u Familja"
+      },
+      "life": {
+        "title": "Tbatijiet Personali",
+        "desc": "Tkellem dwar kull ħaġa li qed tagħbik — ansjetà, dubju fuqek innifsek, solitudni, jew inċertezza."
+      }
+    },
+    "howItWorks": {
+      "title": "Kif Jaħdem",
+      "step1": {
+        "title": "Oħloq Account",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Agħżel il-Ġenitur AI Tiegħek",
+        "desc": "Agħżel karattru bil-ħlewwa u l-personalità li tħoss li hija tajba għalik."
+      },
+      "step3": {
+        "title": "Ibda Tkellem",
+        "desc": "Aqsam dak li għandek f'moħħok u irċievi appoġġ attent u maħsub."
+      }
+    },
+    "cta": {
+      "title": "Dejjem Hemm Xi ħadd Għalik",
+      "description": "Ibda konversazzjoni ma' ġenitur AI li jisma' mingħajr ġudizzju u jappoġġjak bla kundizzjonijiet — b'xejn biex tibda, l-ebda appuntament meħtieġ.",
+      "button": "Ibda B'xejn"
+    },
+    "content": {
+      "problemTitle": "Għandek bżonn Xi ħadd Li Dejjem Jkun Fil-Kantuniera Tiegħek?",
+      "problemText": "Mhux kulħadd għandu figura ġenitur li jista' jirrikorri għaliha. Ġenituri reali jistgħu jkunu mbiegħda, ġudizzjarji, jew sempliċement mhux disponibbli. Ħbieb huma preġudikati. Terapisti għandhom listi ta' stennija. Kultant ikollok bżonn biss xi ħadd li jisma', jimpurtah, u jiggwida mingħajr aġenda.",
+      "solutionTitle": "Il-Ġenitur AI Tiegħek Dejjem Hemm",
+      "solutionText": "Tkellem ma' ġenitur AI li jisma' bis-sħiħ, joffri gwida sħuna u bilanċjata, u qatt ma jġiegħlek tħossok ġġudikat jew żgħir. Kemm jekk hija deċiżjoni tal-ħajja, tbatija personali, jew sempliċement bżonn li tħossok mismugħ — il-ġenitur AI tiegħek huwa disponibbli 24/7 b'paċenzja u kura."
+    },
+    "heroImageAlt": "Ġenitur AI - karattru virtwali sħun li joffri appoġġ bla kundizzjonijiet u gwida fil-ħajja",
+    "faq": {
+      "title": "Mistoqsijiet Frekwenti",
+      "q1": {
+        "question": "Dwar xiex nista' nitkellem mal-ġenitur AI?"
+      },
+      "q2": {
+        "question": "Dan huwa bħal li jkollok terapista?",
+        "answer": "Mhuwiex terapista liċenzjat jew professjonist tas-saħħa mentali — huwa aktar bħal figura ġenitur sħuna u ta' appoġġ disponibbli 24/7. Jisma' bis-sħiħ, joffri perspettiva, u jappoġġjak emozzjonalment. Għal tħassib serju dwar is-saħħa mentali, jekk jogħġbok ikkonsulta professjonist."
+      },
+      "q3": {
+        "question": "Il-ġenitur AI se jiġġudika l-għażliet tiegħi?",
+        "answer": "Qatt. Il-ġenitur AI tiegħek joffri appoġġ bla kundizzjonijiet. Jista' jaqsam perspettiva jew gwida ġentili, iżda qatt ma jikkritika jew jagħmlek tħossok żgħir għad-deċiżjonijiet li ħadt. Huwa spazju sigur għall-onestà."
+      },
+      "q4": {
+        "question": "Nista' niddiskuti suġġetti sensittivi jew personali?",
+        "answer": "Iva. Kemm jekk huma tbatijiet fir-relazzjonijiet, dinamika tal-familja, stress finanzjarju, stima personali, jew sfidi personali profondi — il-ġenitur AI tiegħek jipprovdi spazju privat u mhux ġudizzjarju għal dawk il-konversazzjonijiet."
+      },
+      "q5": {
+        "question": "Kif huwa differenti minn karattri AI oħra?",
+        "answer": "Il-ġenitur AI huwa ddisinjat madwar il-ħlewwa, l-appoġġ emozzjonali, u gwida ta' stil ġenitur aktar milli romantiċiżmu jew ħbiberija każwali. Huwa ffukat fuq li jgħinek tħossok mifhum, appoġġjat, u mgħammar biex tittratta l-isfidi tal-ħajja."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Sħubijiet",
+    "eyebrow": "Imsieħeb Magħna",
+    "titlePrefix": "Ikber ma'",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Laħaq udjenza ta' sħubija AI li qed tikber malajr u impenjata ħafna. Kemm jekk iġġib teknoloġija, distribuzzjoni, jew idea kuraġġuża, ejja nibnu xi ħaġa flimkien.",
+    "types": {
+      "title": "Modi kif tikkollabora",
+      "items": [
+        {
+          "title": "Integrazzjonijiet",
+          "description": "Ikkonnettja l-prodott, il-mudell, jew il-pjattaforma tiegħek ma' sweetwine permezz ta' integrazzjoni teknika."
+        },
+        {
+          "title": "Kow-marketing",
+          "description": "Kampanji konġunti, kontenut, u tnedijiet li jpoġġu ż-żewġ marki quddiem udjenzi ġodda."
+        },
+        {},
+        {
+          "title": "Sħubijiet Strateġiċi",
+          "description": "Kollaborazzjonijiet fit-tul madwar il-prodott, id-data, u l-go-to-market."
+        }
+      ]
+    },
+    "why": {
+      "title": "Għaliex tissieħeb ma' sweetwine",
+      "items": [
+        {
+          "title": "Udjenza impenjata",
+          "description": "Mijiet ta' eluf ta' utenti li jirritornaw kuljum f'70 lingwa."
+        },
+        {
+          "title": "Eżekuzzjoni mgħaġġla",
+          "description": "Tim iffukat li jibgħat malajr u jikkomunika b'mod ċar."
+        },
+        {
+          "title": "Reach globali",
+          "description": "Prodott multilingwi disponibbli f'diversi swieq."
+        },
+        {
+          "description": "Pjattaforma fdati, b'privatezza mid-disinn, li l-marka tiegħek tista' tappoġġja.",
+          "title": "Privatezza-ewwel"
+        }
+      ]
+    },
+    "form": {
+      "title": "Għidilna dwar is-sħubija tiegħek",
+      "description": "Iqsmu ftit dettalji u t-tim tas-sħubiji tagħna jikkuntattjak.",
+      "nameLabel": "Ismek",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email tax-xogħol",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Kumpanija",
+      "companyPlaceholder": "Isem il-kumpanija",
+      "typeLabel": "Tip ta' sħubija",
+      "typePlaceholder": "Agħżel tip ta' sħubija",
+      "typeOptions": [
+        {
+          "value": "Integrazzjonijiet",
+          "label": "Integrazzjonijiet"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Sħubiji Strateġiċi",
+          "label": "Sħubiji Strateġiċi"
+        },
+        {
+          "value": "Oħrajn",
+          "label": "Oħrajn"
+        }
+      ],
+      "messageLabel": "Kif tixtieq tissieħeb?",
+      "messagePlaceholder": "Għidilna dwar il-kumpanija tiegħek u s-sħubija li għandek f'moħħok...",
+      "submit": "Ibgħat l-inkjesta tas-sħubija",
+      "submitting": "Qed jintbagħat...",
+      "termsNote": "Billi tissottometti, taqbel li tiġi kkuntattjat dwar l-inkjesta tiegħek. Qatt ma naqsmu d-dettalji tiegħek.",
+      "success": "Grazzi! L-inkjesta tas-sħubija tiegħek intbagħtet.",
+      "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+    },
+    "cta": {
+      "title": "Tippreferi l-email?",
+      "description": "Ikkuntattja lit-tim tas-sħubiji tagħna direttament fuq"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Stampa u Media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Stampa &",
+    "titleHighlight": "Media",
+    "subtitle": "Riżorsi għall-ġurnalisti, kreaturi, u sħab tal-media. Ikkuntattja lit-tim tal-istampa tagħna għal intervisti, kwotazzjonijiet, appoġġ għal karatteristiċi, u talbiet tal-marka.",
+    "help": {
+      "title": "Kif nistgħu ngħinu",
+      "description": "Kemm jekk qed taħdem fuq storja jew reviżjoni, hawn x'tista' titlob mit-tim tal-istampa tagħna.",
+      "items": [
+        {
+          "title": "Intervisti",
+          "description": "Tkellem mat-tim tagħna dwar il-prodott, il-kumpanija, u fejn sejra l-kumpanija tal-AI."
+        },
+        {
+          "title": "Kwotazzjonijiet u kummenti",
+          "description": "Ikseb dikjarazzjoni uffiċjali jew kumment espert għall-istorja tiegħek."
+        },
+        {
+          "title": "Appoġġ għal karatteristiċi u reviżjonijiet",
+          "description": "Għandek bżonn aċċess, kuntest, jew verifika tal-fatti għal karatteristika jew reviżjoni? Aħna ngħinu."
+        },
+        {
+          "title": "Talbiet tal-marka u tal-logos",
+          "description": "Itlob il-logos, l-assi tal-marka, u l-linji gwida tal-użu għall-pubblikazzjoni tiegħek."
+        }
+      ]
+    },
+    "form": {
+      "title": "Inkjesta tal-media",
+      "description": "Għal intervisti, kwotazzjonijiet, jew talbiet għal karatteristiċi, ibgħatilna nota u aħna nwieġbu malajr.",
+      "nameLabel": "Ismek",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Pubblikazzjoni / outlet",
+      "outletPlaceholder": "Fejn se tiġi ppubblikata?",
+      "requestTypeLabel": "Tip ta' talba",
+      "requestTypePlaceholder": "Agħżel tip ta' talba",
+      "requestTypeOptions": [
+        {
+          "value": "Intervista",
+          "label": "Intervista"
+        },
+        {
+          "value": "Kwotazzjoni / kumment",
+          "label": "Kwotazzjoni / kumment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Talba għall-brand / logo",
+          "label": "Talba għall-brand / logo"
+        },
+        {
+          "value": "Oħra",
+          "label": "Oħra"
+        }
+      ],
+      "messageLabel": "It-talba tiegħek",
+      "messagePlaceholder": "Għidilna dwar l-istorja tiegħek, id-deadline, u x'għandek bżonn minnha...",
+      "submit": "Ibgħat inkjesta tal-midja",
+      "submitting": "Qed jintbagħat...",
+      "termsNote": "Nimmiraw li nwieġbu għall-inkjesti tal-istampa fi żmien jumejn tax-xogħol.",
+      "success": "Grazzi! L-inkjesta tal-midja tiegħek intbagħtet.",
+      "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+    },
+    "cta": {
+      "title": "Kuntatt għall-istampa",
+      "description": "Għal talbiet urġenti tal-midja, ibgħat email lil"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karrieri",
+    "eyebrow": "Karrieri",
+    "titlePrefix": "Ibni l-futur ta'",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Aħna tim żgħir u mgħaġġel li jibni prodotti li n-nies verament iħobbu. Jekk dan jinteressak, nixtiequ niltaqgħu miegħek.",
+    "perks": {
+      "title": "Għaliex taħdem magħna",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Aħdem minn fejn tagħmel l-aħjar xogħol tiegħek, b'ħinijiet flessibbli."
+        },
+        {
+          "title": "Real ownership",
+          "description": "Ibgħat xogħol sinifikanti malajr u ara li jilħaq utenti mad-dinja kollha."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Aħdem b'mod prattiku mal-aħħar mudelli u għodod ġenerattivi."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Kumpens ġust u upside sinifikanti hekk kif nikbru."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Pożizzjonijiet miftuħa",
+      "emptyTitle": "M'hemmx rwoli miftuħa bħalissa",
+      "emptyDescription": "M'aħniex qed nimpjegaw b'mod attiv bħalissa, imma dejjem nilqgħu li niltaqgħu ma' nies kbar. Introduċi lilek innifsek hawn taħt.",
+      "applyButton": "Applika issa",
+      "viewButton": "Ara r-rwol"
+    },
+    "form": {
+      "title": "Introduċi lilek innifsek",
+      "description": "Ma tarax rwol li jaqbel? Għidilna dwarek u aħna nikkuntattjawk meta jkun hemm qbil.",
+      "nameLabel": "Ismek",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Rwol jew qasam ta' interess",
+      "rolePlaceholder": "eż. Inġinier Frontend, Disinjatur, Marketing",
+      "linkLabel": "Link għaċ-CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Dwarek",
+      "messagePlaceholder": "Għidilna dwar l-esperjenza tiegħek u x'tixtieq taħdem fuqu...",
+      "submit": "Ibgħat l-applikazzjoni",
+      "submitting": "Qed jintbagħat...",
+      "termsNote": "Billi tapplika, tagħti l-kunsens biex naħżnu d-dettalji tiegħek biex nikkunsidrawk għal rwoli.",
+      "success": "Grazzi! L-applikazzjoni tiegħek intbagħtet.",
+      "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+    },
+    "cta": {
+      "title": "Mistoqsijiet dwar ix-xogħol hawnhekk?",
+      "description": "Ikkuntattja lit-tim tagħna fuq"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Ċentru tal-Għajnuna",
+    "eyebrow": "Ċentru tal-Għajnuna",
+    "titlePrefix": "Kif nistgħu",
+    "titleHighlight": "ngħinuk?",
+    "subtitle": "Ibbrawżja suġġetti u tweġibiet komuni. Ma sibt x'tixtieq? Ikkuntattja s-support u ngħinuk.",
+    "searchPlaceholder": "Fittex artikli tal-għajnuna...",
+    "categoriesTitle": "Ibbrawżja skont is-suġġett",
+    "articlesTitle": "Artikli",
+    "categoryEmpty": "Għad m'hemmx artikli f'din il-kategorija. Iċċekkja dalwaqt.",
+    "backToHelp": "Lura għaċ-Ċentru tal-Għajnuna",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Bidu",
+        "description": "Oħloq kont, issettja l-profil tiegħek, u ibda ċċettja."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Chat bl-AI",
+        "description": "Kif jaħdmu l-konversazzjonijiet, il-memorja, u l-karattri."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Stampi u Vidjows",
+        "description": "Iġġenera u mmaniġġja ritratti u vidjows bl-AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privatezza u Sigurtà",
+        "description": "Id-data tiegħek, kontrolli tal-privatezza, u għodod tas-sigurtà."
+      }
+    ],
+    "faq": {
+      "title": "Mistoqsijiet frekwenti",
+      "q1": {
+        "question": "Kif nibda b'sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "X'jinkludi l-pjan b'xejn?"
+      },
+      "q5": {
+        "question": "Id-data tiegħi hija privata?",
+        "answer": "Il-privatezza hija fil-qalba ta' sweetwine. Il-konversazzjonijiet tiegħek huma privati għall-kont tiegħek, u inti tikkontrolla d-data tiegħek. Ara l-Politika tal-Privatezza tagħna għad-dettalji sħaħ dwar kif id-data tinħażen u tiġi protetta."
+      },
+      "q6": {
+        "question": "Kif nikkuntattja s-support?",
+        "answer": "Ibgħat email lil support@sweetwine.ai jew uża l-għażla tal-kuntatt fl-app. Normalment inwieġbu fi żmien ġurnata tax-xogħol."
+      }
+    },
+    "cta": {
+      "title": "Għadek bżonn għajnuna?",
+      "description": "It-tim tagħna qiegħed hawn għalik fuq"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Dwar",
+    "eyebrow": "L-Istorja Tagħna",
+    "titlePrefix": "Kumpanija,",
+    "titleHighlight": "mill-ġdid",
+    "subtitle": "sweetwine tibni kumpanji AI privati u personalizzati li jisimgħu, jiftakru u jikkonnettjaw b'mod ġenwin — disponibbli f'kull ħin, b'kull lingwa.",
+    "mission": {
+      "title": "Il-missjoni tagħna",
+      "body": "Aħna nemmnu li kulħadd jistħoqqlu spazju biex jinstema' mingħajr ġudizzju. sweetwine tagħmel il-konnessjoni AI sinifikanti u personalizzata aċċessibbli għal kulħadd — sħuna, privata, u dejjem hemm meta jkollok bżonnha."
+    },
+    "values": {
+      "title": "Dak li nirrappreżentaw",
+      "items": [
+        {
+          "title": "Privatezza mid-disinn",
+          "description": "Il-konversazzjonijiet tiegħek huma tiegħek. Nibnu bil-privatezza u s-sigurtà mill-bidu."
+        },
+        {
+          "title": "Konnessjoni ġenwina",
+          "description": "Nottimizzaw għal valur emozzjonali reali, mhux metriċi vojta."
+        },
+        {
+          "title": "Globali b'mod awtomatiku",
+          "description": "Mibnija b'ħafna lingwi mill-ewwel ġurnata sabiex il-konnessjoni ma tkunx limitata mil-lingwa."
+        },
+        {
+          "title": "Ħila bla waqfien",
+          "description": "Nidħlu fid-dettalji biex kull interazzjoni tħoss ruħha naturali u ħajja."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Bin-numri",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Utenti u qed tikber"
+        },
+        {
+          "value": "70",
+          "label": "Lingwi appoġġjati"
+        },
+        {
+          "value": "24/7",
+          "label": "Dejjem disponibbli"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Trid titgħallem aktar?",
+      "description": "Ikkuntattjana fuq"
+    }
+  },
+  "postsPage": {
+    "allTag": "Kollha",
+    "readMore": "Aqra aktar",
+    "publishedOn": "Ippubblikat",
+    "minRead": "min qari",
+    "sortNewest": "L-aktar ġodda",
+    "sortOldest": "L-aktar qodma",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "Is-sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Pariri, gwidi u stejjer biex tgawdi l-aħjar mill-kumpanija AI.",
+      "empty": "Għad m'hemmx posts. Iċċekkja dalwaqt."
+    },
+    "news": {
+      "breadcrumb": "Aħbarijiet",
+      "eyebrow": "Kamra tal-Aħbarijiet",
+      "titlePrefix": "Aħbarijiet &",
+      "titleHighlight": "Avviżi",
+      "subtitle": "Avviżi uffiċjali, stqarrijiet għall-istampa u milestones mit-tim ta' sweetwine.",
+      "empty": "Għad m'hemmx aħbarijiet. Iċċekkja dalwaqt."
+    },
+    "productUpdates": {
+      "breadcrumb": "Aġġornamenti tal-Prodott",
+      "eyebrow": "Changelog",
+      "titlePrefix": "Prodott",
+      "titleHighlight": "Aġġornamenti",
+      "subtitle": "L-aħħar karatteristiċi, titjib u tiswijiet fuq il-pjattaforma sweetwine.",
+      "empty": "Għad m’hemmx aġġornamenti. Iċċekkja dalwaqt."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Għall-iżviluppaturi",
+    "titlePrefix": "Ibni bl-",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Ġib sħab AI personalizzati fil-prodott tiegħek. Aċċessa chat, immaġni, vuċi u kapaċitajiet ta’ ħolqien ta’ karattri permezz ta’ API waħda faċli għall-iżviluppaturi.",
+    "capabilities": {
+      "title": "X’tista’ tibni",
+      "items": [
+        {
+          "title": "Chat konversazzjonali",
+          "description": "Żid konversazzjonijiet AI b’personalità u konxji tal-kuntest fl-app tiegħek b’API sempliċi tal-messaġġi."
+        },
+        {
+          "title": "Ġenerazzjoni ta’ immaġni",
+          "description": "Iġġenera immaġnijiet u xeni ta’ karattri on-brand b’mod programmatiku minn prompts tat-test."
+        },
+        {
+          "title": "Vuċi",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Ħolqien ta’ karattri",
+          "description": "Iddefinixxi u mmaniġġja sħab, personalitajiet u memorja permezz tal-API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Itlob aċċess għall-API",
+      "description": "Għidilna dwar il-proġett tiegħek u x’trid tibni. It-tim tal-iżviluppaturi tagħna jikkuntattjak bil-passi li jmiss.",
+      "nameLabel": "Ismek",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email tax-xogħol",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Kumpanija / proġett",
+      "companyPlaceholder": "Isem tal-kumpanija jew proġett",
+      "websiteLabel": "Sit jew URL tal-app",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Tip ta’ integrazzjoni",
+      "integrationTypePlaceholder": "Agħżel tip ta’ integrazzjoni",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Ġenerazzjoni ta’ immaġni",
+          "label": "Ġenerazzjoni ta’ immaġni"
+        },
+        {
+          "value": "Vuċi",
+          "label": "Vuċi"
+        },
+        {
+          "value": "Ħolqien ta’ karattri",
+          "label": "Ħolqien ta’ karattri"
+        },
+        {
+          "value": "Oħrajn",
+          "label": "Oħrajn"
+        }
+      ],
+      "volumeLabel": "Volum mistenni kull xahar",
+      "volumePlaceholder": "Agħżel il-volum mistenni",
+      "volumeOptions": [
+        {
+          "value": "Inqas minn 10k",
+          "label": "Inqas minn 10k talbiet"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k talbiet"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M talbiet"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ talbiet"
+        }
+      ],
+      "timelineLabel": "Kronoloġija",
+      "timelinePlaceholder": "Agħżel kronoloġija",
+      "timelineOptions": [
+        {
+          "value": "Qed nesplora biss",
+          "label": "Qed nesplora biss"
+        },
+        {
+          "value": "Inqas minn xahar",
+          "label": "Inqas minn xahar"
+        },
+        {
+          "value": "1-3 xhur",
+          "label": "1-3 xhur"
+        },
+        {
+          "value": "3+ xhur",
+          "label": "3+ xhur"
+        }
+      ],
+      "messageLabel": "Għidilna dwar il-każ tal-użu tiegħek",
+      "messagePlaceholder": "X’qed tibni, u kif qed tippjana tuża l-API?",
+      "submit": "Itlob aċċess għall-API",
+      "submitting": "Qed jissottometti...",
+      "termsNote": "Billi tissottometti, taqbel li tiġi kkuntattjat dwar l-inkjesta tiegħek. Qatt ma naqsmu d-dettalji tiegħek.",
+      "success": "Grazzi! It-talba tiegħek għall-aċċess għall-API ġiet mibgħuta.",
+      "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa’ pprova."
+    },
+    "faq": {
+      "title": "FAQ għall-Iżviluppaturi",
+      "items": [
+        {
+          "question": "Kif nikseb aċċess għall-API?",
+          "answer": "Imla l-formola tat-talba hawn fuq bil-każ tal-użu tiegħek. It-tim tal-iżviluppaturi tagħna jirrevedi kull talba u jikkuntattjak bid-dettalji tal-aċċess u d-dokumentazzjoni."
+        },
+        {
+          "question": "Kif taħdem l-awtentikazzjoni?",
+          "answer": "It-talbiet tal-API jiġu awtentikati b’ċavetta sigrieta tal-API mibgħuta fl-headers tat-talba. Tista’ tmexxi u ddawwar iċ-ċwievet tiegħek ladarba tkun onboarded."
+        },
+        {
+          "question": "Hemm limitu ta’ rata?",
+          "answer": "Iva. Il-limiti jiddependu fuq il-pjan tiegħek u l-volum mistenni. Għarrafna t-traffiku antiċipat tiegħek fil-formola sabiex nissuġġerixxu t-tier it-tajjeb."
+        },
+        {
+          "question": "X’jiġi jiswa?"
+        },
+        {
+          "question": "Liema kapaċitajiet huma disponibbli?",
+          "answer": "Chat, ġenerazzjoni ta’ immaġni, vuċi, u ħolqien ta’ karattri. Għidilna liema għandek bżonn u aħna ngħinuk tibda bl-endpoints rilevanti."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Għandek mistoqsija teknika?",
+      "description": "Ikkuntattja lit-tim tal-iżviluppaturi tagħna fuq"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "Clones Reali bl-AI",
+    "eyebrow": "Għall-kreaturi u l-aġenziji",
+    "heroTitleLead": "Aħna noħolqu,",
+    "heroTitleHighlight": "Inti tagħmel profitt.",
+    "heroSubtitle": "Nibnu l-clone tal-AI tiegħek. Inti tagħmel profitt waqt li l-clone tal-AI jaħdem 24/7 — jikkomunika mal-fans u jibgħat kontenut għalik.",
+    "calculator": {
+      "title": "Kemm tista’ taqla’?",
+      "subtitle": "Agħżel id-daqs tal-udjenza tiegħek u ssettja l-prezz — ara l-qligħ stmat immedjatament.",
+      "tierLabel": "Id-daqs tal-udjenza tiegħek",
+      "tiers": {
+        "small": {
+          "name": "Żgħir"
+        },
+        "medium": {
+          "name": "Medju"
+        },
+        "large": {
+          "name": "Kbir"
+        }
+      },
+      "priceLabel": "Il-prezz tal-unlock tiegħek",
+      "promoLabel": "Jien nippromwovi sweetwine",
+      "breakdown": {
+        "title": "Il-qligħ stmat tiegħek",
+        "perMonth": "kull xahar",
+        "perYear": "Kull sena"
+      },
+      "disclaimer": "Stimi tad-dħul huma bbażati fuq il-mudell ta' qsim tad-dħul ta' sweetwine u attività tipika. Id-dħul attwali jvarja skont l-udjenza, il-kwalità tal-kontenut, l-involviment u d-domanda."
+    },
+    "offer": {
+      "title": "X'hemm għalik",
+      "items": [
+        {
+          "title": "Aqla' waqt li torqod",
+          "description": "Il-clone tiegħek jibdel is-segwaċi f'dħul 24/7 — jitkellem, ibigħ, u qatt ma jieqaf."
+        },
+        {
+          "title": "L-ebda spiża, biss vantaġġ",
+          "description": "Nibnu, nitħarrġu u nħaddmu kollox bl-ispejjeż tagħna. Żid fluss ġdid ta' dħul mingħajr ma tħawwad subgħajk."
+        },
+        {
+          "title": "10x il-kontenut tiegħek",
+          "description": "Ritratti u vidjows illimitati fuq talba — skala l-output tiegħek mingħajr aktar sessjonijiet, editjar jew burnout."
+        },
+        {
+          "title": "Dejjem fil-kontroll"
+        }
+      ]
+    },
+    "how": {
+      "title": "Kif taħdem",
+      "steps": [
+        {
+          "title": "Irreġistra"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Speċjalista ta' sweetwine jaqbad id-dehra, il-vuċi u l-personalità tiegħek sabiex il-clone tiegħek iħossu awtentikament int."
+        },
+        {
+          "title": "Nibnu u nitħarrġu",
+          "description": "It-tim tagħna jipproduċi u jħarreġ il-clone AI tiegħek kompletament bl-ispejjeż tagħna — l-ebda xogħol meħtieġ minnek."
+        },
+        {
+          "title": "Ibda ħaj u aqla'",
+          "description": "Il-clone tiegħek jibda jitkellem u jbigħ madwar il-ħin kollu, u int tiġbor is-sehem tad-dħul tiegħek."
+        }
+      ]
+    },
+    "form": {
+      "title": "Applika biex toħloq il-clone AI tiegħek",
+      "description": "Għidilna dwarek u l-udjenza tiegħek. It-tim tal-imsieħba tal-kreaturi tagħna jirrevedi kull applikazzjoni u jsegwi bil-passi li jmiss.",
+      "nameLabel": "Ismek",
+      "namePlaceholder": "Ismek jew l-isem tal-palk tiegħek",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Aġenzija jew studio",
+      "companyPlaceholder": "Isem l-aġenzija (ħalli vojt jekk indipendenti)",
+      "roleLabel": "Jien",
+      "rolePlaceholder": "Agħżel min int",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Websajt u links soċjali",
+      "linksPlaceholder": "Instagram, X, OnlyFans, eċċ.",
+      "modelCountLabel": "Numru ta' mudelli li tirrappreżenta",
+      "modelCountPlaceholder": "eż. biss jien, jew 5",
+      "audienceSizeLabel": "Daqs tal-udjenza",
+      "audienceSizePlaceholder": "Agħżel is-segwitu totali tiegħek",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Inqas minn 10k segwaċi"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k segwaċi"
+        },
+        {
+          "label": "100k-500k followers",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followers"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followers"
+        }
+      ],
+      "contentPrefLabel": "Preferenza tal-kontenut",
+      "contentPrefPlaceholder": "Agħżel it-tip ta' kontenut",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Pajjiż / reġjun",
+      "countryPlaceholder": "Fejn tinsab?",
+      "messageLabel": "Għidilna dwarek u l-udjenza tiegħek",
+      "messagePlaceholder": "Ishare xi ħaġa li tgħinna nifhmu l-udjenza, il-kontenut u dak li qed tfittex.",
+      "openButton": "Applika issa",
+      "submit": "Ibgħat l-applikazzjoni",
+      "submitting": "Qed jintbagħat...",
+      "termsNote": "Billi tissottometti, tikkonferma li għandek 18-il sena jew aktar u taqbel li tiġi kkuntattjat dwar l-applikazzjoni tiegħek. Qatt ma naqsmu d-dettalji tiegħek.",
+      "success": "Grazzi! L-applikazzjoni tiegħek intbagħtet. Nikkuntattjawk dalwaqt.",
+      "error": "Xi ħaġa marret ħażin. Jekk jogħġbok erġa' pprova."
+    },
+    "cta": {
+      "title": "Għandek mistoqsijiet qabel ma tapplika?",
+      "description": "Kellem lit-tim tal-imsieħba tal-kreaturi tagħna direttament — normalment inwieġbu fi ġurnata.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Mappa tas-sit",
+    "eyebrow": "Mappa tas-sit",
+    "titlePrefix": "Esplora",
+    "titleHighlight": "kollox",
+    "subtitle": "Kull paġna importanti fuq sweetwine f'post wieħed. Qed tfittex il-mappa tas-sit XML?",
+    "xmlLink": "Ara l-mappa tas-sit XML",
+    "sections": {
+      "product": "Prodott",
+      "features": "Karatteristiċi",
+      "company": "Kumpanija",
+      "resources": "Riżorsi",
+      "legal": "Legali"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Niżżel l-App",
+      "dismiss": "Agħlaq"
+    },
+    "guide": {
+      "title": "Installa sweetwine",
+      "subtitle": "Żid sweetwine mal-home screen għal esperjenza aktar mgħaġġla, full-screen u simili għal app.",
+      "iosTitle": "Fuq iPhone & iPad (Safari)",
+      "iosStep1": "Agħfas il-buttuna Share fil-toolbar",
+      "iosStep2": "Agħżel \"Żid mal-Home Screen\"",
+      "iosStep3": "Agħfas \"Żid\" biex tlesti",
+      "androidTitle": "Fuq Android (Chrome)",
+      "androidStep1": "Agħfas il-menu (tliet punti)",
+      "androidStep2": "Agħżel \"Install app\" jew \"Żid mal-home screen\"",
+      "androidStep3": "Agħfas \"Install\" biex tlesti"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "Installa sweetwine fuq it-telefon tiegħek għal esperjenza aktar mgħaġġla u full-screen mill-home screen.",
+      "cta": "Installa l-app"
+    }
+  },
+  "language": {
+    "selectTitle": "Agħżel il-lingwa tiegħek",
+    "searchPlaceholder": "Fittex lingwi",
+    "noResults": "Ma nstabu l-ebda lingwi",
+    "regions": {
+      "americas": "Ameriki",
+      "europe": "Ewropa",
+      "middleEast": "Lvant Nofsani",
+      "asiaPacific": "Asja-Paċifiku",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Roleplay Ġdid",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Għad m'hemmx roleplays",
+    "noMessagesYet": "Għad m'hemmx messaġġi",
+    "deleteRoleplay": "Ħassar ir-roleplay",
+    "deleteError": "Ma setax iħassar ir-roleplay.",
+    "backToLobby": "Lura għar-roleplays",
+    "creating": "Qed inwaqqaf ir-roleplay tiegħek...",
+    "createError": "Ma setax joħloq ir-roleplay. Erġa' pprova.",
+    "steps": {
+      "companion": {
+        "title": "Agħżel karattru",
+        "subtitle": "Agħżel lil min trid tirroleplay miegħu"
+      },
+      "location": {
+        "title": "Agħżel post",
+        "subtitle": "Fejn se jseħħ ix-xena tiegħek?"
+      },
+      "tone": {
+        "title": "Issettja t-ton",
+        "subtitle": "Kif għandu jħoss ix-xena?"
+      },
+      "scene": {
+        "title": "Issettja x-xena",
+        "subtitle": "Iddeskrivi kif tibda x-xena"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Niltaqgħu x-xita u nidħlu taħt l-istess saqaf.",
+      "staring_grin": "Taqbadi lili nħares minn naħa oħra tal-kamra u tersaq bi tbissima.",
+      "power_out": "Jintefa d-dawl u nibqgħu waħedna fid-dlam, nidħqu bil-biża'.",
+      "spilled_drink": "Niġri tard u niltaqa' x-xorb tiegħi fuqek.",
+      "stayed_behind": "Aħna t-tnejn li fadal wara li kulħadd telaq.",
+      "music_slows": "Għajnejna jiltaqgħu eżatt meta l-mużika tnaqqas.",
+      "storm_inside": "Tempesta f'daqqa tħallina ġewwa b'xejn ħlief ħin biex nitkellmu.",
+      "seat_taken": "Toqgħod ħdejn u tistaqsi jekk is-siġġu huwiex meħud."
+    },
+    "locations": {
+      "home": "Dar",
+      "cafe": "Kafetterija",
+      "restaurant": "Ristorant",
+      "bar": "Bar",
+      "library": "Librerija",
+      "bookstore": "Ħanut tal-kotba",
+      "park": "Park",
+      "garden": "Ġnien",
+      "nightclub": "Nightclub",
+      "casino": "Każinò",
+      "concert": "Kuncert",
+      "theater": "Teatru",
+      "cinema": "Ċinema",
+      "carnival": "Karnival",
+      "stadium": "Stadju",
+      "beach": "Bajja",
+      "pool": "Pixxina",
+      "spa": "Spa",
+      "hotel": "Lukanda",
+      "rooftop": "Bejt",
+      "yacht": "Jott",
+      "cabin": "Kabina",
+      "hotspring": "Għajn sħuna",
+      "skilodge": "Lodge tal-iskijar",
+      "campsite": "Kamp",
+      "car": "Karozza",
+      "train": "Ferrovija",
+      "airport": "Ajruport",
+      "cruise": "Vjaġġ bil-baħar",
+      "office": "Uffiċċju",
+      "gym": "Gym",
+      "university": "Università",
+      "mall": "Mall",
+      "hospital": "Sptar",
+      "museum": "Mużew"
+    },
+    "tones": {
+      "fun": {
+        "title": "Divertiment",
+        "desc": "Ħafif, tal-logħob u rilassat."
+      },
+      "romantic": {
+        "title": "Romantiku",
+        "desc": "Ħelu, affettuż u mill-qalb."
+      },
+      "flirty": {
+        "title": "Flirty",
+        "desc": "Teasing, tal-logħob u mimli charm."
+      },
+      "mysterious": {
+        "title": "Misterjuż",
+        "desc": "Intriganti, suspens u mimli sigrieti."
+      },
+      "spooky": {
+        "title": "Spooky",
+        "desc": "Eerie, tens u ftit tal-biża'."
+      },
+      "action": {
+        "title": "Azzjoni",
+        "desc": "Intens, avventuruż u mgħaġġel."
+      },
+      "dramatic": {
+        "title": "Drammatiku",
+        "desc": "Emozzjonali, intens u mimli tensjoni."
+      },
+      "cozy": {
+        "title": "Cozy",
+        "desc": "Sħun, komdu u rilassat."
+      }
+    },
+    "sceneLabel": "Bidu tax-xena",
+    "scenarioTab": "Xenarju",
+    "generatingScene": "Inġibu x-xena għall-ħajja...",
+    "locationLabel": "Post",
+    "toneLabel": "Ton",
+    "scenePlaceholder": "eż. Niltaqgħu f'xita u nidħlu taħt l-istess awning...",
+    "sceneHint": "Iddeskrivi biss kif tibda x-xena — fejn int u x'qiegħed jiġri meta tiftaħ. Tbidilx il-personalità tal-karattru, ir-relazzjoni tiegħek, jew tirrifletti l-istorja kollha.",
+    "sceneError": "Jekk jogħġbok iddeskrivi kif tibda x-xena.",
+    "reviewTitle": "Irrevedi l-għażliet",
+    "characterLabel": "Karattru",
+    "randomize": "Randomize",
+    "sceneGuidanceTitle": "Gwida għall-bidu tax-xena",
+    "sceneGuide1": "Tbidilx il-personalità tal-karattru jew ir-relazzjoni tiegħek.",
+    "sceneGuide2": "Żomm il-bidu tax-xena konsenswali u rispettabbli.",
+    "sceneGuide3": "Iddeskrivi biss kif tibda x-xena, mhux l-istorja kollha.",
+    "next": "Li jmiss",
+    "create": "Ibda r-Roleplay",
+    "creatingMessages": [
+      "Inwaqqfu x-xena...",
+      "Niddewwem id-dwal eżatt kif suppost...",
+      "Npinġi l-inħawi tiegħek...",
+      "Inħejji l-kumpanjon tiegħek għar-rwol...",
+      "Inżid it-touch finali...",
+      "Kważi lest..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Ikteb messaġġ...",
+    "send": "Ibgħat",
+    "typing": "qiegħed jikteb...",
+    "read": "Aqra",
+    "resetChat": "Irrisettja ċ-Chat",
+    "deleteChat": "Ħassar iċ-Chat",
+    "settings": "Settings",
+    "chatSettings": "Settings taċ-Chat",
+    "roleplayMode": "Modalità roleplay",
+    "roleplayModeDescription": "Meta mixgħula, il-kumpanji jaġixxu ġesti u azzjonijiet f'*asterisks* għal roleplay immersiv. Meta mitfija, jikkomunikaw b'mod naturali, bħal chat reali.",
+    "roleplayModeError": "Ma setax jaġġorna l-modalità roleplay",
+    "roleplayCtaDescription": "Iftaħ l-esperjenza ddedikata tar-roleplay, fejn il-kumpanjon jaġixxi xeni u stejjer miegħek.",
+    "goToRoleplay": "Mur għar-Roleplay",
+    "confirmReset": "Żgur li trid tirrisettja dan iċ-chat? Il-messaġġi kollha se jitħassru.",
+    "confirmDelete": "Żgur li trid tħassar dan iċ-chat?",
+    "resetSuccess": "Iċ-chat ġie rrisettjat b'suċċess",
+    "deleteMemory": "Ħassar il-memorja",
+    "confirmDeleteMemory": "Żgur li trid tħassar il-memorji fit-tul ta' dan il-karattru? Il-messaġġi tal-chat jibqgħu, iżda l-karattru jinsa l-fatti preċedenti fir-risposta li jmiss.",
+    "deleteMemorySuccess": "Memorja mħassra",
+    "deleteSuccess": "Iċ-chat ġie mħassar b'suċċess",
+    "sendError": "Ma setax jibgħat il-messaġġ",
+    "noChats": "Għadek ma għandekx chats",
+    "noChatsDesc": "Ibda konversazzjoni ma' karattru biex tara ċ-chats tiegħek hawn",
+    "lastMessage": "L-aħħar messaġġ",
+    "messageCount": "{count} messaġġi",
+    "uploadImage": "Tella' stampa",
+    "uploadVideo": "Tella' vidjow (dalwaqt)",
+    "yourConversations": "Il-Konversazzjonijiet Tiegħek",
+    "continueChattingDesc": "Kompli ċċettja mal-karattri AI tiegħek",
+    "newChat": "Chat Ġdid",
+    "noConversationsYet": "Għadek ma għandekx konversazzjonijiet",
+    "startChattingDesc": "Ibda ċċettja ma' karattru biex tara l-konversazzjonijiet tiegħek hawn",
+    "browseCharacters": "Esplora Karattri",
+    "createCustomCharacter": "Oħloq Karattru Personalizzat",
+    "imageTooLarge": "L-istampa hija kbira wisq (massimu 5MB)",
+    "generateImageTitle": "Iġġenera Stampa ma' {name}",
+    "imagePromptLabel": "Iddeskrivi l-istampa",
+    "imagePromptPlaceholder": "eż., fuq ix-xatt b'dress blu, tixrob kafè f'kaffe, miexi f'park...",
+    "imagePromptHint": "L-AI se tiġġenera stampa ta' {name} ibbażata fuq id-deskrizzjoni tiegħek.",
+    "referenceImageLabel": "Ir-Rittratt Tiegħek (opzjonali)",
+    "referenceImageHint": "Tella' r-rittratt tiegħek biex jidher fix-xena ma' {name}. Mingħajr rittratt, se tiġġenera biss {name}.",
+    "uploadReferenceImage": "Tella' r-rittratt tiegħek",
+    "uploadReferenceImageDesc": "It-tnejn tidhru fl-istampa ġenerata",
+    "referenceImageSelected": "It-tnejn int u {name} tidhru flimkien",
+    "generating": "Ġenerazzjoni...",
+    "generate": "Iġġenera",
+    "generateImage": "Iġġenera Stampa",
+    "imageGenerated": "Stampa ġġenerata b'suċċess",
+    "generateError": "Ma rnexxilx iġġenera stampa",
+    "contentBlockedReply": "Jiddispjaċini, imma ma nistax noħloq dik l-istampa. Ġiet imblukkata mill-filtri tas-sigurtà. Jekk jogħġbok ipprova deskrizzjoni differenti! 💕",
+    "generateVideoTitle": "Iġġenera Vidjow ma' {name}",
+    "generateVideo": "Iġġenera Vidjow",
+    "videoPromptLabel": "Iddeskrivi l-azzjoni",
+    "videoPromptPlaceholder": "eż., żfin, tħawwad, ħawwad bewsa...",
+    "videoPromptHint": "L-AI se tiġġenera vidjow ta' {name} jagħmel l-azzjoni deskritta.",
+    "generatingImage": "Ġenerazzjoni ta' stampa...",
+    "generatingVideo": "Ġenerazzjoni ta' vidjow... (3-5 min)",
+    "viewPhoto": "Ara Rittratt",
+    "viewVideo": "Ara Vidjow",
+    "selectVideoOption": "Agħżel għażla ta' vidjow hawn fuq",
+    "contentPolicyViolation": "Dan il-messaġġ ma setax jintbagħat. Jekk jogħġbok żomm il-konversazzjonijiet rispettati.",
+    "functionCallBetaHint": "💡 Din il-karatteristika hija fil-beta — għal ġenerazzjoni affidabbli ta' media mingħajr restrizzjonijiet, uża l-buttuni tar-ritratti/vidjows fil-toolbar minflok.",
+    "repliedToStory": "Risposta għal storja",
+    "repliedToStoryLiked": "Għoġbu u risponda għal storja",
+    "storyNoLongerAvailable": "Storja m'għadhiex disponibbli",
+    "rateLimitExceeded": "Wisq talbiet. Jekk jogħġbok stenna ftit u erġa' pprova.",
+    "profileTab": "Profil",
+    "galleryTab": "Gallerija",
+    "giftsTab": "Rigali",
+    "tts": {
+      "play": "Doqq il-vuċi",
+      "stop": "Waqqaf",
+      "generating": "Ġenerazzjoni tal-vuċi…",
+      "error": "Ma setax idoqq l-awdjo"
+    }
+  },
+  "gallery": {
+    "all": "Kollha",
+    "images": "Stampi",
+    "videos": "Vidjows",
+    "empty": "L-ebda media s'issa"
+  },
+  "gifts": {
+    "sendAGift": "Ibgħat Rigal",
+    "catalogSubtitle": "Agħżel rigal biex tibgħat lil {name}",
+    "browseGifts": "Esplora rigali",
+    "noneSent": "L-ebda rigali mibgħuta s'issa",
+    "confirmTitle": "Ikkonferma r-rigal",
+    "forCompanion": "Għal {name}",
+    "optionalMessage": "Żid messaġġ (opzjonali)",
+    "optionalMessagePlaceholder": "Ikteb xi ħaġa ħelwa...",
+    "sendGiftFor": "Ibgħat",
+    "giftSent": "Bgħatt rigal",
+    "sendError": "Ma rnexxilx tibgħat ir-rigal"
+  },
+  "stories": {
+    "replyPlaceholder": "Irrispondi lil {name}...",
+    "like": "Bħal",
+    "send": "Ibgħat",
+    "close": "Agħlaq",
+    "previous": "Storja preċedenti",
+    "next": "Storja li jmiss",
+    "pause": "Iwaqqaf",
+    "play": "Iġbed",
+    "mute": "Sikket",
+    "unmute": "Ħalli",
+    "openStory": "Iftaħ l-istorja ta' {name}"
+  },
+  "generate": {
+    "title": "Iġġenera Stampa",
+    "description": "Oħloq stampi mill-isbaħ bil-karattri AI tiegħek",
+    "selectCompanion": "Agħżel karattru",
+    "promptPlaceholder": "Iddeskrivi l-istampa li trid tiġġenera... eż., fuq il-bajja, b'libsa ħamra",
+    "promptLabel": "Deskrizzjoni tal-Istampa",
+    "promptRequired": "Jekk jogħġbok daħħal deskrizzjoni",
+    "generateButton": "Iġġenera Stampa",
+    "generating": "Qed jiġġenera...",
+    "creatingImage": "Qed jinħoloq l-istampa tiegħek...",
+    "pleaseWait": "Dan jista' jieħu 10-30 sekondi",
+    "noCompanionSelected": "Jekk jogħġbok agħżel karattru l-ewwel",
+    "emptyGallery": "Għad ma ġġenerawx stampi. Agħżel karattru u iddeskrivi l-istampa tiegħek!",
+    "sessionGallery": "Stampi Ġġenerati",
+    "regenerate": "Iġġenera mill-ġdid",
+    "regenerating": "Qed jiġġenera mill-ġdid...",
+    "animate": "Anima",
+    "animateReference": "Din l-istampa tkun l-ewwel qafas tal-vidjo.",
+    "filterMyAI": "AI Tiegħi",
+    "filterAll": "Kollha",
+    "filterGirls": "Nisa",
+    "filterAnime": "Anime",
+    "filterGuys": "Irġiel",
+    "imageGenerationFailed": "Ġenerazzjoni tal-immaġni falliet. L-immaġni tista' ma tissodisfax ir-rekwiżiti jew id-deskrizzjoni tista' tkun wisq kumplessa. Ipprova b'prompt aktar sempliċi.",
+    "noImageData": "L-ebda immaġni ma ġiet iġġenerata. Jekk jogħġbok erġa' pprova b'deskrizzjoni differenti.",
+    "generationFailed": "Ġenerazzjoni falliet. Jekk jogħġbok erġa' pprova aktar tard jew b'prompt differenti.",
+    "random": "Random",
+    "custom": "Custom",
+    "settings": "Settings",
+    "videoTitle": "Iġġenera Vidjow",
+    "videoDescription": "Oħloq vidjows tal-għaġeb bil-karattri AI tiegħek",
+    "videoPromptLabel": "Deskrizzjoni tal-Vidjow",
+    "videoPromptPlaceholder": "Iddeskrivi l-azzjoni li trid tiġġenera... eż., żfin, tħawwad, tibtasam",
+    "generateVideoButton": "Iġġenera Vidjow",
+    "generatingVideo": "Qed jiġġenera vidjow...",
+    "creatingVideo": "Qed joħloq il-vidjow tiegħek...",
+    "videoWait": "Dan jista' jieħu 1-5 minuti",
+    "emptyVideoGallery": "L-ebda vidjows iġġenerati s'issa. Agħżel karattru u iddeskrivi l-azzjoni!",
+    "sessionVideoGallery": "Vidjows Iġġenerati",
+    "videoGenerated": "Vidjow iġġenerat b'suċċess!",
+    "videoGenerationFailed": "Ġenerazzjoni tal-vidjow falliet. Jekk jogħġbok erġa' pprova.",
+    "duration": "Tul",
+    "shortVideo": "Qasir",
+    "longVideo": "Twil",
+    "seconds": "sekondi",
+    "audio": "Audio",
+    "renderingVideo": "Rendering video…",
+    "renderingVideoHint": "(takes up to 1 minute)",
+    "rateLimitExceeded": "Wisq talbiet. Jekk jogħġbok stenna ftit u erġa' pprova.",
+    "chooseCharacter": "Agħżel karattru",
+    "selectButton": "Agħżel",
+    "noCustomCompanions": "Għadek ma ħloqtx karattri AI.",
+    "numberOfImages": "Numru ta' immaġnijiet",
+    "numberOfVideos": "Numru ta' vidjows",
+    "freeTrial": "Prova B'xejn",
+    "changeCharacter": "Ibdel karattru",
+    "randomize": "Randomizza l-prompt",
+    "aiVideo": "Vidjow AI",
+    "download": "Niżżel",
+    "seriesHelper": "Hawn tista' ssib ir-riżultati tiegħek. Tista' tħalli l-paġna jew tibda serje ġdida waqt li dawn jitlestew.",
+    "suggestions": {
+      "title": "Suġġerimenti",
+      "categories": {
+        "outfit": "Ilbies",
+        "action": "Azzjoni",
+        "pose": "Poża",
+        "accessories": "Aċċessorji",
+        "scene": "Xena"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Dublett",
+        "lingerie": "Lingerie",
+        "crop_top": "Crop top",
+        "leather": "Ġilda",
+        "mini_skirt": "Miniskirt",
+        "satin_robe": "Libsa satin",
+        "jeans": "Jeans",
+        "summer_dress": "Libsa tas-sajf",
+        "sportswear": "Ħwejjeġ sportivi",
+        "selfie": "Selfie",
+        "walking": "Mixi",
+        "dancing": "Żfin",
+        "stretching": "Tiġġebbed",
+        "lying_down": "Imtedd",
+        "leaning": "Imxaqleb",
+        "blowing_kiss": "Tibgħat bewsa",
+        "drinking_coffee": "Tixrob il-kafè",
+        "hands_on_hips": "Idejn fuq il-ġenbejn",
+        "over_shoulder": "Fuq l-ispalla",
+        "side_profile": "Profil laterali",
+        "arms_crossed": "Dirgħajn maqbudin",
+        "kneeling": "Rkoppt",
+        "squatting": "Squatting",
+        "back_view": "Veduta minn wara",
+        "sitting": "Bilqiegħda",
+        "necklace": "Kollana",
+        "earrings": "Oġġetti tal-widnejn",
+        "glasses": "Nuċċalijiet",
+        "choker": "Choker",
+        "hat": "Kappell",
+        "sunglasses": "Nuċċalijiet tax-xemx",
+        "garden": "Ġnien",
+        "beach": "Bajja",
+        "bedroom": "Kamra tas-sodda",
+        "gym": "Gym",
+        "bar": "Bar",
+        "kitchen": "Kċina",
+        "restaurant": "Ristorant",
+        "balcony": "Balcon",
+        "city_street": "Triq tal-belt",
+        "pool": "Ħdejn il-pixxina"
+      },
+      "fragments": {
+        "bikini": "liebes bikini",
+        "skirt": "liebes dublett",
+        "lingerie": "liebes lingerie",
+        "crop_top": "liebes crop top",
+        "leather": "liebes outfit tal-ġilda",
+        "mini_skirt": "liebes miniskirt",
+        "satin_robe": "liebes robe tas-satin",
+        "jeans": "liebes jeans",
+        "summer_dress": "liebes libsa tas-sajf",
+        "sportswear": "liebes sportswear strett",
+        "selfie": "qiegħed tieħu selfie",
+        "walking": "mixi",
+        "dancing": "qiegħed jiżfen",
+        "stretching": "qiegħed jiġġebbed",
+        "lying_down": "qiegħed mimdud",
+        "leaning": "miexja ma' ħajt",
+        "blowing_kiss": "qiegħed jonfoħ bewsa",
+        "drinking_coffee": "qiegħed jixrob tazza kafè",
+        "hands_on_hips": "b'idejh fuq il-ġenbejn",
+        "over_shoulder": "qiegħed iħares minn fuq spalltu",
+        "side_profile": "poża tal-profil",
+        "arms_crossed": "b'idejh maqbudin",
+        "kneeling": "poża bil-ġenbejn",
+        "squatting": "poża bil-qiegħda",
+        "back_view": "mħares minn wara",
+        "sitting": "qiegħed bilqiegħda",
+        "necklace": "liebes necklace",
+        "earrings": "liebes earrings",
+        "glasses": "liebes nuċċalijiet",
+        "choker": "liebes choker",
+        "hat": "liebes kappell",
+        "sunglasses": "liebes nuċċalijiet tax-xemx",
+        "garden": "f'ġnien",
+        "beach": "fil-bajja",
+        "bedroom": "f'kamra tas-sodda",
+        "gym": "fil-gym",
+        "bar": "f'bar",
+        "kitchen": "fil-kċina",
+        "restaurant": "f'restaurant",
+        "balcony": "fuq balcony",
+        "city_street": "f'triq tal-belt",
+        "pool": "ħdejn il-pool"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Uri selfie tiegħek"
+        },
+        "posing": {
+          "name": "Poża",
+          "uiPrompt": "Uri ruħek f'poża"
+        },
+        "sitting": {
+          "name": "Bilqiegħda",
+          "uiPrompt": "Uri ruħek bilqiegħda"
+        },
+        "waving": {
+          "name": "Tħawwad",
+          "uiPrompt": "Uri ruħek tħawwad"
+        },
+        "dancing": {
+          "name": "Żfin",
+          "uiPrompt": "Uri ruħek tiżfen"
+        },
+        "reading": {
+          "name": "Taqra",
+          "uiPrompt": "Uri ruħek taqra"
+        },
+        "smiling": {
+          "name": "Tbissem",
+          "uiPrompt": "Uri li qed tibbissem"
+        },
+        "walking": {
+          "name": "Mixi",
+          "uiPrompt": "Uri li qed timxi"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Uri selfie bil-vidjo"
+        },
+        "posing": {
+          "name": "Poża",
+          "uiPrompt": "Uri vidjo ta’ poża"
+        },
+        "sitting": {
+          "name": "Bilqiegħda",
+          "uiPrompt": "Uri vidjo ta’ bilqiegħda"
+        },
+        "waving": {
+          "name": "Ċawċaw",
+          "uiPrompt": "Uri vidjo ta’ ċawċaw"
+        },
+        "dancing": {
+          "name": "Żfin",
+          "uiPrompt": "Uri vidjo ta’ żfin"
+        },
+        "reading": {
+          "name": "Qari",
+          "uiPrompt": "Uri vidjo ta’ qari"
+        },
+        "smiling": {
+          "name": "Tbissem",
+          "uiPrompt": "Uri vidjo ta’ tbissima"
+        },
+        "walking": {
+          "name": "Mixi",
+          "uiPrompt": "Uri vidjo ta’ mixi"
+        }
+      }
+    },
+    "writeYourOwn": "jew ikteb il-prompt tiegħek",
+    "presetSelected": "Preset magħżul",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Positions",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Xugaman tal-banju"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Ħalib tas-sider"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missjunarja minn naħa"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ride On Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Sipping Condoms"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "tattoo": {
+          "name": "Tattoo"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "used": {
+          "name": "Used"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Maid Outfit"
+        },
+        "nurse_outfit": {
+          "name": "Nurse Outfit"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Wet T-Shirt"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Corset & Stockings"
+        },
+        "gym_shorts": {
+          "name": "Gym Shorts"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Mirror Selfie"
+        },
+        "shower_nude": {
+          "name": "Shower"
+        },
+        "oiled_body": {
+          "name": "Oiled Body"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Back Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Reverse"
+        },
+        "breast_massage": {
+          "name": "Massagg tas-Sider"
+        },
+        "breast_massage_nude": {
+          "name": "Massagg tas-Sider Nude"
+        },
+        "butt_smothering": {
+          "name": "Butt Smothering"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "cum_in_mouth": {
+          "name": "Cum In Mouth"
+        },
+        "dildo_masturbation": {
+          "name": "Dildo Masturbation"
+        },
+        "double_blowjob": {
+          "name": "Double Blowjob"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Front Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Fuck Machine"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Missjunarja minn naħa"
+        },
+        "nipple_play": {
+          "name": "Nipple Play"
+        },
+        "nude_posing": {
+          "name": "Nude Posing"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Pussy Closeup"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Undress"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Mess wara l-kura"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Żgur li trid tħassar dan?",
+    "deleteSuccess": "Imħassar b'suċċess",
+    "deleteError": "Ma rnexxiex tħassar",
+    "empty": "L-ebda media s'issa. Iġġenera ftit fiċ-chat!",
+    "gallerySubtitle": "Il-gallerija personali tiegħek ta' mumenti ġġenerati bl-AI",
+    "filterAll": "Kollha",
+    "filterImages": "Stampi",
+    "filterVideos": "Vidjows",
+    "loadMore": "Ittella' Aktar",
+    "folders": "Folders",
+    "newFolder": "Folder Ġdid",
+    "deleteFolders": "Ħassar il-folders magħżula",
+    "folderCreated": "Folder maħluq",
+    "folderCreateError": "Ma rnexxiex joħloq il-folder",
+    "folderRenamed": "Folder imgħammed",
+    "folderRenameError": "Ma rnexxiex jgħammed il-folder",
+    "folderDeleted": "Folder imħassar",
+    "folderDeleteError": "Ma rnexxiex tħassar il-folder",
+    "folderNamePlaceholder": "Isem tal-folder",
+    "seeMore": "Ara aktar",
+    "seeLess": "Ara inqas",
+    "selectedCount": "{count} oġġetti magħżula",
+    "selectAll": "Agħżel Kollha",
+    "select": "Agħżel",
+    "moveToFolder": "Mexxi",
+    "bulkDeleteConfirm": "Tħassar {count} oġġetti magħżula?",
+    "bulkDeleteSuccess": "Oġġetti mħassra",
+    "bulkDownloadStart": "Qed tniżżel {count} oġġetti...",
+    "moveSuccess": "Oġġetti mċaqalqa"
+  },
+  "voice": {
+    "connecting": "Qed jikkonnettja...",
+    "connected": "Konness",
+    "mute": "Muta",
+    "unmute": "Neħħi l-muta",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Tkellem b'mod naturali. L-AI tirrispondi meta tieqaf.",
+    "connectionError": "Ma setax jikkonnettja. Erġa' pprova.",
+    "minutesRemaining": "{minutes} minuti fadal",
+    "minutesUsed": "{minutes} minuti użati"
+  },
+  "characters": {
+    "filters": "Filtri",
+    "ethnicity": "Etnicità",
+    "bodyType": "Tip ta' Ġisem",
+    "ageRange": "Medda ta' Età",
+    "relationship": "Relazzjoni",
+    "occupation": "Okkupazzjoni",
+    "hobbies": "Passatempi",
+    "personality": "Personalità",
+    "language": "Lingwa",
+    "age": "Età",
+    "all": "Kollha",
+    "noResults": "L-ebda karattru ma nstab",
+    "noResultsDesc": "Ipprova aġġusta l-filtri tiegħek",
+    "newBadge": "Ġdid",
+    "chatNow": "Chat Issa",
+    "viewProfile": "Ara l-Profil",
+    "ethnicities": {
+      "caucasian": "Kawkażjan",
+      "asian": "Asjatiku",
+      "middleEastern": "Lvant Nofsani",
+      "hispanic": "Ispaniku",
+      "african": "Afrikan",
+      "southAsian": "Asjatiku tan-Nofsinhar",
+      "nativeAmerican": "Amerikan Indiġenu",
+      "pacificIslander": "Gżira tal-Paċifiku",
+      "mixed": "Mħallat",
+      "other": "Oħrajn"
+    },
+    "bodyTypes": {
+      "slim": "Rqiq",
+      "athletic": "Atletiku",
+      "average": "Medju",
+      "curvy": "Kurvjuż",
+      "plus": "Daqs Plus"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Single",
+      "dating": "Dating",
+      "married": "Miżżewweġ",
+      "none": "Xejn"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Il-Profil Tiegħi",
+    "settings": "Settings",
+    "account": "Account",
+    "plan": "Pjan",
+    "profileSettings": "Settings tal-Profil",
+    "manageAccountSettings": "Immaniġġja s-settings u l-preferenzi tal-account tiegħek",
+    "personalInfo": "Informazzjoni Personali",
+    "nickname": "Nickname",
+    "gender": "Sess",
+    "male": "Raġel",
+    "female": "Mara",
+    "preferences": "Preferenzi",
+    "newsletter": "Abbonament għan-Newsletter",
+    "newsletterDesc": "Irċievi aġġornamenti u aħbarijiet",
+    "aiTrainingTitle": "Taħriġ tal-AI u Moderazzjoni",
+    "aiTrainingDesc": "Ħalli ċ-chats u l-prompts tiegħek jgħinu fit-taħriġ u t-titjib tal-AI u l-moderazzjoni ta' sweetwine. Itfi dan meta trid biex toħroġ.",
+    "aiTrainingLink": "Tgħallem aktar fin-Notice tal-Privatezza tagħna.",
+    "aiTrainingError": "Ma setax jaġġorna l-preferenza tat-taħriġ tal-AI",
+    "interfaceLanguage": "Lingwa tal-Interface",
+    "interfaceLanguageDesc": "Lingwa għall-interface tal-utent",
+    "aiLanguage": "Lingwa tar-Risposti tal-AI",
+    "aiLanguageDesc": "Lingwa li l-karattri tal-AI se jużaw meta jitkellmu miegħek",
+    "currentPlan": "Pjan Attwali",
+    "freePlan": "Pjan B'xejn",
+    "dangerZone": "Żona Perikoluża",
+    "dangerZoneDescription": "Jekk trid tħassar b'mod permanenti dan l-account u d-data kollha tiegħu.",
+    "deleteAllMemory": "Ħassar il-memorja kollha",
+    "confirmDeleteAllMemory": "Żgur li trid tħassar il-memorji fit-tul għall-karattri AI kollha? Il-messaġġi tal-chat jibqgħu, iżda l-karattri jinsew il-fatti preċedenti fir-risposta li jmiss.",
+    "deleteAllMemorySuccess": "Il-memorji kollha mħassra",
+    "deleteAccount": {
+      "button": "Ħassar l-account",
+      "title": "Ħassar Account",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Biex tikkonferma, ittajpja",
+      "confirmRequired": "Jekk jogħġbok ittajpja DELETE biex tikkonferma",
+      "confirmButton": "Ħassar l-Account Tiegħi",
+      "deleting": "Qed tħassar...",
+      "success": "L-account tiegħek ġie mħassar",
+      "error": "Ma rnexxiex tħassar l-account. Jekk jogħġbok erġa' pprova."
+    },
+    "saveChanges": "Issejvja l-Bidliet",
+    "changesSaved": "Il-bidliet ġew issejvjati b'suċċess",
+    "saveFailed": "Ma rnexxiex issejvja l-bidliet",
+    "languageUpdated": "Il-lingwa ġiet aġġornata",
+    "aiLanguageUpdated": "Il-lingwa tal-AI ġiet aġġornata"
+  },
+  "create": {
+    "defaultGreeting": "Hello",
+    "title": "Oħloq Karattru AI",
+    "step": "Pass {current} minn {total}",
+    "step1": {
+      "title": "Agħżel Stil",
+      "description": "Agħżel l-istil u l-attributi bażiċi għall-karattru tiegħek"
+    },
+    "step2": {
+      "title": "Agħżel Etnicità",
+      "description": "Agħżel etniċità u età għall-karattru tiegħek"
+    },
+    "step3": {
+      "title": "Agħżel Xagħar u Għajnejn",
+      "description": "Ippersonalizza stil tax-xagħar, kulur tax-xagħar u kulur tal-għajnejn"
+    },
+    "step4": {
+      "title": "Agħżel Ġisem",
+      "description": "Ippersonalizza l-ġisem tal-karattru tiegħek"
+    },
+    "step5": {
+      "title": "Personalità u Dettalji",
+      "description": "Iddefinixxi l-personalità u l-vuċi tal-karattru tiegħek"
+    },
+    "style": {
+      "title": "Stil tal-Karattru",
+      "realistic": "Realistiku",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Sess",
+      "female": "Mara",
+      "male": "Raġel"
+    },
+    "age": {
+      "title": "Età",
+      "years": "{age} Snin"
+    },
+    "ethnicity": {
+      "title": "Etnicità"
+    },
+    "hairStyle": {
+      "title": "Stil tax-Xagħar"
+    },
+    "hairColor": {
+      "title": "Kulur tax-Xagħar"
+    },
+    "eyeColor": {
+      "title": "Kulur tal-Għajnejn"
+    },
+    "bodyType": {
+      "title": "Tip ta' Ġisem"
+    },
+    "breastSize": {
+      "title": "Daqs tas-Sider"
+    },
+    "name": {
+      "title": "Isem",
+      "placeholder": "Idħol l-isem tal-karattru",
+      "randomize": "Iġġenera isem każwali"
+    },
+    "language": {
+      "title": "Lingwa",
+      "widgetLabel": "Agħżel Lingwa",
+      "placeholder": "Agħżel lingwa",
+      "selectTitle": "Agħżel il-lingwa tiegħek"
+    },
+    "personality": {
+      "title": "Personalità",
+      "widgetLabel": "Agħżel Personalità",
+      "placeholder": "Agħżel personalità",
+      "sectionTitle": "Agħżel Personalità",
+      "clickToChange": "Ikklikkja biex tibdel"
+    },
+    "relationship": {
+      "title": "Relazzjoni",
+      "widgetLabel": "Agħżel Relazzjoni",
+      "placeholder": "Agħżel relazzjoni",
+      "selectTitle": "Editja r-Relazzjoni"
+    },
+    "occupation": {
+      "title": "Impjieg",
+      "widgetLabel": "Agħżel Impjieg",
+      "placeholder": "Agħżel impjieg",
+      "selectTitle": "Editja l-Impjieg"
+    },
+    "kinks": {
+      "title": "Interessi",
+      "widgetLabel": "X'interessi għandhom? (Max. {max})",
+      "labelMax": "Interessi (Max. {max})",
+      "placeholder": "Agħżel interessi (mhux obbligatorju)",
+      "optional": "Mhux obbligatorju",
+      "selectTitle": "Editja l-Interessi",
+      "moreCount": "+{count} oħra"
+    },
+    "selector": {
+      "searchPlaceholder": "Fittex",
+      "noResults": "L-ebda għażla ma nstabet",
+      "cancel": "Ikkanċella",
+      "saveChanges": "Ħlief il-Bidliet",
+      "selectedCount": "{count} magħżula"
+    },
+    "voice": {
+      "title": "Leħen",
+      "widgetLabel": "Agħżel Leħen",
+      "placeholder": "Agħżel leħen",
+      "selectTitle": "Agħżel Leħen"
+    },
+    "advanced": {
+      "title": "Dettalji Avvanzati",
+      "optional": "mhux obbligatorju",
+      "filled": "Mimlija",
+      "autocompleteTitle": "Imla bl-AI",
+      "autocompleteDesc": "Ħalli l-AI timla l-oqsma vojta għal karattru aktar profond",
+      "autocompleteSuccess": "Oqsma mimlija b'suċċess!",
+      "autocompleteError": "Ma rnexxilx tiġġenera suġġerimenti. Erġa' pprova.",
+      "greetingLabel": "Tislima",
+      "greetingPlaceholder": "L-ewwel messaġġ li jibgħat il-karattru tiegħek...",
+      "scenarioLabel": "Xenarju",
+      "scenarioPlaceholder": "Il-kuntest jew l-istorja ta' kif iltqajtu...",
+      "personalityLabel": "Dettalji Addizzjonali tal-Persuna",
+      "personalityPlaceholder": "Karatteristiċi, mudelli ta' diskors, imġieba...",
+      "extraLabel": "Dettalji Żejda",
+      "extraPlaceholder": "Sfond, passatempi, storja tal-ħajja..."
+    },
+    "navigation": {
+      "back": "Lura",
+      "next": "Li jmiss",
+      "create": "Oħloq",
+      "generateYourCharacter": "Iġġenera l-Karattru Tiegħek"
+    },
+    "progress": {
+      "generatingPrompt": "Qiegħed jinħoloq il-personalità...",
+      "generatingImage": "Qiegħed jinħoloq il-portrett...",
+      "creatingVoice": "Qiegħed jiġi ssettjat il-leħen...",
+      "saving": "Qiegħed jiġi ssejvjat...",
+      "complete": "Lest!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Qiegħed jinħoloq il-personalità...",
+      "addingSweetness": "Qiegħed jiżdied id-dolċi...",
+      "tooMuchSweet": "Oops, wisq ħlewwa...",
+      "testingSounds": "Qed nittestja l-ħsejjes..."
+    },
+    "overlay": {
+      "signupPrompt": "Imlesta r-reġistrazzjoni biex tissblokka l-karattru tiegħek…",
+      "processingHint": "Dan normalment jieħu 20–30 sekondi",
+      "traitEthnicity": "Etnicità",
+      "traitBody": "Ġisem",
+      "traitHair": "Xagħar",
+      "traitColor": "Kulur",
+      "traitEyes": "Għajnejn",
+      "traitVibe": "Vibe",
+      "bannerTitle": "Il-karattru tiegħek lest biex jinħoloq!",
+      "bannerDesc": "Il-preferenzi tiegħek ġew salvati. Irrevedi u ġenera hawn taħt."
+    },
+    "success": {
+      "title": "Karattru Maħluq!",
+      "description": "Il-karattru AI tiegħek ġie maħluq b'suċċess.",
+      "yearsOld": "snin",
+      "meetButton": "Iltaqa'"
+    },
+    "error": {
+      "title": "Il-ħolqien falla",
+      "generic": "Ma rnexxilx noħloq il-karattru. Erġa' pprova."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kawkasjan",
+        "asian": "Asjatiku",
+        "middle_eastern": "Lvant Nofsani",
+        "hispanic": "Ispaniku",
+        "african": "Afrikan",
+        "south_asian": "Asjatiku tan-Nofsinhar",
+        "native_american": "Amerikan Indiġenu",
+        "pacific_islander": "Gżejjer tal-Paċifiku",
+        "mixed": "Mħallat",
+        "arab": "Għarbi"
+      },
+      "hairStyleFemale": {
+        "straight": "Dritt",
+        "bangs": "Fringe",
+        "curly": "Mogħdija",
+        "bun": "Bun",
+        "short_bob": "Bob Qasir",
+        "ponytail": "Ponytail",
+        "wavy": "Mewġi",
+        "long_layers": "Saffi Twal",
+        "braids": "Bradi",
+        "pixie_cut": "Pixie Cut",
+        "updo": "Updo",
+        "french_twist": "French Twist",
+        "fishtail_braid": "Fishtail Braid",
+        "top_knot": "Top Knot",
+        "space_buns": "Space Buns",
+        "halo_braid": "Halo Braid",
+        "beehive": "Beehive",
+        "finger_waves": "Finger Waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Bald"
+      },
+      "hairStyleMale": {
+        "short": "Qasir",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Mogħoż",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Side Part",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Xagħar Twil",
+        "bald": "Bald"
+      },
+      "hairColor": {
+        "brunette": "Brunette",
+        "blonde": "Blonde",
+        "black": "Iswed",
+        "redhead": "Redhead",
+        "pink": "Roża",
+        "auburn": "Auburn",
+        "brown": "Kannella",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Grey",
+        "white": "Abjad",
+        "blue": "Blu",
+        "purple": "Vjola",
+        "green": "Aħdar",
+        "burgundy": "Burgundy",
+        "copper": "Ram",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Black",
+        "dark_brown": "Kannella Skur",
+        "light_brown": "Kannella Ċar",
+        "honey_blonde": "Blond Miel",
+        "dirty_blonde": "Blond Ħamri",
+        "cherry_red": "Aħmar Ċirasa",
+        "violet": "Vjola"
+      },
+      "eyeColor": {
+        "brown": "Kannella",
+        "blue": "Blu",
+        "green": "Aħdar",
+        "hazel": "Ħażel",
+        "amber": "Ambra",
+        "gray": "Griż",
+        "heterochromia": "Eterokromija",
+        "violet": "Vjola",
+        "red_pink": "Aħmar/Roża",
+        "black": "Iswed"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Rqiq",
+        "athletic": "Atletiku",
+        "average": "Medju",
+        "curvy": "Kurvjuż",
+        "chubby": "Mimxut"
+      },
+      "bodyTypeMale": {
+        "skinny": "Rqiq",
+        "athletic": "Atletiku",
+        "average": "Medju",
+        "muscular": "Muskolari",
+        "heavy": "Tqil",
+        "big_tall": "Kbir u Għoli"
+      },
+      "breastSize": {
+        "small": "Żgħir",
+        "medium": "Medju",
+        "large": "Kbir",
+        "extra_large": "Extra Kbir"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Maħbub",
+        "submissive": "Sottomess",
+        "dominant": "Dominanti",
+        "temptress": "Temptress",
+        "innocent": "Innocenti",
+        "caregiver": "Kuraġġ",
+        "experimenter": "Esperimentatur",
+        "mean": "Ħażin",
+        "confidant": "Konfidenti",
+        "shy": "Mistħi",
+        "queen": "Reġina",
+        "adventurous": "Avventuruż",
+        "romantic": "Romantiku",
+        "intellectual": "Intellettwali",
+        "protector": "Protettur",
+        "rebel": "Ribelli",
+        "optimist": "Ottimist",
+        "realist": "Realist",
+        "free_spirit": "Spirtu Ħieles",
+        "leader": "Mexxej",
+        "loyal": "Leali",
+        "playful": "Ġejjieni",
+        "mysterious": "Misterjuż",
+        "ambitious": "Ambizzjuż",
+        "gentle": "Ġentili",
+        "sarcastic": "Sarkastiku",
+        "empathetic": "Empatiku",
+        "stoic": "Stoiku",
+        "charismatic": "Karismatiku"
+      },
+      "relationship": {
+        "stranger": "Barrani",
+        "girlfriend": "Ħabiba",
+        "sex_friend": "Ħabib Sesswali",
+        "school_mate": "Sieħeb tal-Iskola",
+        "work_colleague": "Kollaboratur tax-Xogħol",
+        "wife": "Mara",
+        "mistress": "Mistress",
+        "friend": "Ħabib",
+        "step_sister": "Oħt il-Pass",
+        "step_mom": "Omm il-Pass",
+        "step_daughter": "Bint il-Pass",
+        "landlord": "Sid il-Kera",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Boss",
+        "teacher": "Għalliem",
+        "student": "Student",
+        "neighbour": "Ġar",
+        "mother_in_law": "Omm il-Mara",
+        "sister_in_law": "Oħt il-Mara",
+        "boyfriend": "Ħabib",
+        "husband": "Raġel",
+        "fiance": "Għarus / Għarusa",
+        "ex": "Ex",
+        "roommate": "Sieħeb tal-Kamra",
+        "best_friend": "L-Aqwa Ħabib",
+        "classmate": "Sieħeb tal-Klassi",
+        "mentor": "Mentor",
+        "client": "Klijent",
+        "therapist": "Terapista",
+        "trainer": "Trainer",
+        "rival": "Rival",
+        "crush": "Crush",
+        "secret_admirer": "Ammirat Sigriet",
+        "pen_pal": "Pen Pal",
+        "business_partner": "Sieħeb tan-Negozju",
+        "babysitter": "Babysitter",
+        "childhood_friend": "Ħabib taż-Żgħożija",
+        "long_distance_partner": "Sieħeb mill-Bogħod"
+      },
+      "occupation": {
+        "student": "Student",
+        "dancer": "Żfin",
+        "model": "Mudell",
+        "maid": "Mara tal-ħidma",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Babysitter / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Bartender",
+        "tech_engineer": "Inġinier tat-Teknoloġija",
+        "lifeguard": "Gwardjan tal-Baħar",
+        "cashier": "Kaxxier",
+        "massage_therapist": "Terapista tal-Massaġġ",
+        "teacher": "Għalliem",
+        "nurse": "Infermier",
+        "secretary": "Segretarju",
+        "yoga_instructor": "Għalliem tal-Yoga",
+        "fitness_coach": "Kowċ tal-Fitness",
+        "cook": "Kok",
+        "artist": "Artist",
+        "movie_star_actress": "Stilla tal-Films/Attriċi",
+        "doctor": "Tabib",
+        "librarian": "Librar",
+        "spy": "Spjun",
+        "police_officer": "Uffiċjal tal-Pulizija",
+        "soldier": "Suldat",
+        "lawyer": "Avukat",
+        "hairdresser": "Parrukkier",
+        "dentist": "Dentist",
+        "singer_musician": "Kantant/Mużiċist",
+        "gynecologist": "Ġinekoloġista",
+        "writer": "Kittieb",
+        "flight_attendant": "Attendent tal-Titjira",
+        "professional_athlete": "Atleta Professjonali",
+        "scientist": "Xjenzjat",
+        "florist": "Fjuri",
+        "makeup_artist": "Artist tal-Make-up",
+        "photographer": "Fotografu",
+        "social_worker": "Ħaddiem Soċjali",
+        "designer": "Disinjatur",
+        "pharmacist": "Spiżjar",
+        "nutritionist": "Nutrizzjonista",
+        "architect": "Arkitett",
+        "veterinarian": "Veterinarju",
+        "mechanic": "Mekkanik",
+        "journalist": "Ġurnalist",
+        "pilot": "Pilota",
+        "firefighter": "Pompier",
+        "accountant": "Kontabilist",
+        "electrician": "Elettriċista",
+        "carpenter": "Mastrudaxxin",
+        "psychologist": "Psikologu",
+        "real_estate_agent": "Aġent tal-Proprjetà Immobbli",
+        "chef": "Kok",
+        "farmer": "Bdiewi",
+        "delivery_driver": "Sevviċċier tal-Konsenji",
+        "janitor": "Naddaf",
+        "security_guard": "Gwardjan tas-Sigurtà",
+        "banker": "Bankier",
+        "judge": "Imħallef",
+        "paramedic": "Paramediku",
+        "actor": "Attur",
+        "comedian": "Kummidjant",
+        "archaeologist": "Arkeologu",
+        "astronaut": "Astronawta"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Spanking",
+        "collar_leash": "Collar & Leash",
+        "punishment": "Punishment",
+        "humiliation": "Humiliation",
+        "public_play": "Public Play",
+        "roleplay": "Roleplay",
+        "anal_play": "Anal Play",
+        "oral_play": "Oral Play",
+        "cum_play": "Cum Play",
+        "creampie": "Creampie",
+        "squirting": "Squirting",
+        "dirty_talk": "Dirty Talk",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Daddy/Mommy Dominance",
+        "edging": "Edging",
+        "obedience": "Obedience",
+        "control": "Control",
+        "inexperienced": "Inexperienced",
+        "shy_flirting": "Shy Flirting",
+        "playful_teasing": "Playful Teasing",
+        "cuddling": "Cuddling",
+        "slow_sensual": "Slow & Sensual",
+        "hair_pulling": "Hair Pulling",
+        "foot_fetish": "Foot Fetish",
+        "voyeurism": "Voyeurism",
+        "exhibitionism": "Exhibitionism",
+        "sensation_play": "Sensation Play",
+        "wax_play": "Wax Play",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Medical Play",
+        "orgasm_control_denial": "Orgasm Control/Denial",
+        "forced_orgasms": "Forced Orgasms",
+        "group_sex": "Group Sex",
+        "threesomes": "Threesomes",
+        "swapping": "Skambju",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Dominazzjoni Ġentili",
+        "sensation_deprivation": "Ċaħda tas-Sensazzjoni",
+        "sensory_overload": "Tagħbija żejda Sensorjali",
+        "uniform_costume_fetish": "Fetiċċ tal-Uniformi/Kostum",
+        "food_play": "Logħob bil-Ikel",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Logħob bl-Impatt",
+        "knife_play": "Logħob bis-Sikkina",
+        "consensual_non_consent": "Kunsens mhux Kunsens",
+        "power_exchange": "Skambju ta' Setgħa",
+        "master_slave": "Master/Slave",
+        "owner_pet": "Sid/Pet"
+      },
+      "languages": {
+        "en": "Ingliż",
+        "cs": "Ċek",
+        "pl": "Pollakk",
+        "de": "Ġermaniż",
+        "es": "Spanjol",
+        "fr": "Franċiż"
+      }
+    }
+  },
+  "myAI": {
+    "title": "L-AI Tiegħi",
+    "titlePart1": "L-",
+    "titlePart2": "AI",
+    "createNew": "Oħloq AI ġdid",
+    "createButton": "Oħloq Karattru",
+    "characterCount": "{count}/{limit} karattri",
+    "loadMore": "Ittella' Aktar",
+    "empty": {
+      "title": "L-ebda Karattru s'issa",
+      "description": "Oħloq l-ewwel karattru AI tiegħek u ibda ċ-chat! Ippersonalizza d-dehra, il-personalità u l-vuċi tiegħu.",
+      "createFirst": "Oħloq l-Ewwel Karattru Tiegħek"
+    },
+    "delete": {
+      "title": "Ħassar Karattru",
+      "message": "Żgur li trid tħassar {name}? Dan se jneħħi l-karattru, l-istorja kollha taċ-chat u l-kontenut iġġenerat b'mod permanenti.",
+      "confirm": "Ħassar",
+      "success": "Karattru mħassar b'suċċess"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interazzjoni",
+    "interactionDescription": "Ittajpja b'mod naturali — itlob ritratt, vidjow, jew ibda konversazzjoni. L-AI jifhem l-intenzjoni tiegħek f'kull lingwa.",
+    "mediaTitle": "Iġġenera Stampi u Vidjows",
+    "mediaDescription": "Ħalli l-immaġinazzjoni tiegħek titlesta — iġġenera stampi jew vidjows mingħajr limiti.",
+    "next": "Li jmiss →",
+    "gotIt": "Fhimt"
+  }
+}

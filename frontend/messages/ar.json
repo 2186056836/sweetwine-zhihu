@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "now": "الآن",
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح",
+    "confirm": "تأكيد",
+    "back": "رجوع",
+    "or": "أو",
+    "next": "التالي",
+    "submit": "إرسال",
+    "search": "بحث",
+    "filter": "تصفية",
+    "clear": "مسح",
+    "all": "الكل",
+    "yes": "نعم",
+    "no": "لا",
+    "download": "تنزيل",
+    "and": "و",
+    "tryAgain": "حاول مرة أخرى",
+    "change": "تغيير"
+  },
+  "navigation": {
+    "new": "جديد",
+    "sectionBrowse": "تصفح",
+    "sectionTalk": "تحدث",
+    "sectionCreate": "إنشاء",
+    "sectionLibrary": "المكتبة",
+    "explore": "الرئيسية",
+    "discover": "اكتشف",
+    "createShort": "إنشاء AI",
+    "chats": "الدردشات",
+    "groupChat": "دردشة AI جماعية",
+    "roleplay": "لعب الأدوار",
+    "collection": "المجموعة",
+    "generateImage": "إنشاء صورة",
+    "generateVideo": "إنشاء فيديو",
+    "createCharacter": "إنشاء شخصية AI",
+    "myAI": "AI الخاص بي",
+    "language": "اللغة",
+    "contactUs": "اتصل بنا",
+    "account": "الحساب",
+    "sidebarPromoTitle": "تخفيضات الصيف — 50% خصم",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "نساء",
+      "anime": "أنمي",
+      "guys": "رجال"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "دردش الآن",
+    "like": "أعجبني"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "createFreeAccount": "أنشئ حسابك المجاني",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "signupPrompt": "إنشاء حساب مجاني",
+    "loginPrompt": "تسجيل الدخول",
+    "continueWith": "المتابعة باستخدام",
+    "welcomeBack": "أهلاً بعودتك!",
+    "createAccount": "أنشئ حسابك",
+    "signInToAccount": "تسجيل الدخول إلى حسابك",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalid": "عنوان البريد الإلكتروني غير صالح",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "passwordsMismatch": "كلمتا المرور غير متطابقتين",
+    "emailAlreadyRegistered": "البريد الإلكتروني مسجل بالفعل",
+    "emailAlreadyRegisteredDescription": "يوجد حساب بهذا البريد الإلكتروني. يرجى تسجيل الدخول.",
+    "loginError": "فشل تسجيل الدخول",
+    "signupError": "فشل إنشاء الحساب",
+    "loginSuccess": "أهلاً بعودتك!",
+    "signupSuccess": "تم إنشاء الحساب بنجاح!",
+    "logoutSuccess": "تم تسجيل خروجك بنجاح",
+    "logoutError": "فشل تسجيل الخروج",
+    "linkExpired": "انتهت صلاحية رابط التحقق. يرجى طلب رابط جديد.",
+    "accessDenied": "تم رفض الوصول. يرجى المحاولة مرة أخرى.",
+    "verifyEmail": "تحقق من بريدك الإلكتروني",
+    "verificationEmailSent": "لقد أرسلنا لك بريداً إلكترونياً للتحقق",
+    "confirmYourEmail": "أكد بريدك الإلكتروني",
+    "confirmationLinkSent": "لقد أرسلنا رابط التأكيد إلى \"{email}\".",
+    "checkSpamFolder": "لم تستلم البريد؟ تحقق من مجلد الرسائل غير المرغوب فيها.",
+    "signupToChat": "أنشئ حسابك المجاني للبدء.",
+    "signupDescription": "أنشئ حساباً لمتابعة محادثتك",
+    "emailVerificationTitle": "تحقق من بريدك الإلكتروني",
+    "emailVerificationMessage": "لقد أرسلنا رابط التحقق إلى {email}. يرجى التحقق من صندوق الوارد والنقر على الرابط للتحقق من حسابك.",
+    "emailVerificationNext": "بعد التحقق، ستكمل عملية الإعداد.",
+    "verificationEmailSentTo": "لقد أرسلنا بريدًا إلكترونيًا للتحقق إلى {email}",
+    "verificationInstructions": "يرجى التحقق من صندوق الوارد والنقر على رابط التحقق لتفعيل حسابك.",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "resetPasswordDescription": "أدخل بريدك الإلكتروني وسنرسل لك رابط إعادة التعيين",
+    "resetEmailSent": "إذا كان هناك حساب بهذا البريد الإلكتروني، ستتلقى رابط إعادة التعيين قريبًا",
+    "backToLogin": "العودة إلى تسجيل الدخول",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+    "passwordResetSuccess": "تم تحديث كلمة المرور بنجاح. يرجى تسجيل الدخول.",
+    "enterNewPassword": "أدخل كلمة المرور الجديدة",
+    "redirectingToLogin": "جارٍ التحويل إلى تسجيل الدخول...",
+    "invalidResetLink": "رابط غير صالح أو منتهي الصلاحية",
+    "invalidResetLinkDescription": "رابط إعادة تعيين كلمة المرور غير صالح أو منتهي الصلاحية. يرجى طلب رابط جديد.",
+    "passwordsDontMatch": "كلمتا المرور غير متطابقتين",
+    "currentPassword": "كلمة المرور الحالية",
+    "currentPasswordRequired": "كلمة المرور الحالية مطلوبة",
+    "changePassword": "تغيير كلمة المرور",
+    "changePasswordDescription": "أدخل كلمة المرور الحالية واختر كلمة مرور جديدة",
+    "newPasswordMustBeDifferent": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور الحالية",
+    "incorrectPassword": "كلمة المرور الحالية غير صحيحة",
+    "passwordChangeSuccess": "تم تغيير كلمة المرور بنجاح",
+    "changeEmail": "تغيير البريد الإلكتروني",
+    "newEmail": "البريد الإلكتروني الجديد",
+    "confirmNewEmail": "تأكيد البريد الإلكتروني الجديد",
+    "emailsDontMatch": "البريدان الإلكترونيان غير متطابقين",
+    "emailChangeDescription": "سيتم إرسال بريد تحقق إلى بريدك الإلكتروني الحالي والجديد",
+    "emailMustBeDifferent": "يجب أن يكون البريد الإلكتروني الجديد مختلفًا عن البريد الحالي",
+    "emailChangeSent": "تم إرسال بريد التحقق. يرجى التحقق من صندوق الوارد لبريدك الجديد.",
+    "emailChangeSecurityNote": "للأمان، سيتم إرسال رسائل تأكيد إلى بريدك الحالي والجديد. يجب التأكيد من كلا البريدين لإكمال التغيير.",
+    "otpDescription": "لقد أرسلنا رمزًا مكونًا من 6 أرقام إلى {email}",
+    "otpVerify": "تحقق",
+    "otpResend": "إعادة إرسال الرمز",
+    "otpResendIn": "إعادة الإرسال خلال {seconds}ث",
+    "otpNoCode": "لم تتلقَ الرمز؟",
+    "otpInvalid": "رمز غير صالح. يرجى المحاولة مرة أخرى.",
+    "otpSuccess": "تم التحقق من البريد الإلكتروني بنجاح!",
+    "otpResendSuccess": "تم إرسال رمز جديد إلى بريدك الإلكتروني",
+    "otpResendError": "فشل إعادة إرسال الرمز",
+    "continueWithEmail": "المتابعة باستخدام البريد الإلكتروني",
+    "moreOptions": "خيارات أكثر",
+    "lessOptions": "خيارات أقل",
+    "enterYourEmail": "أدخل عنوان بريدك الإلكتروني",
+    "sendCode": "إرسال الرمز",
+    "byCreatingAccountAgree": "بإنشاء حساب، فإنك توافق على",
+    "termsOfService": "شروط الخدمة",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "مرحبًا بك في sweetwine",
+    "welcomeTo": "مرحبًا بك في",
+    "letsGetStarted": "دعنا نبدأ إعدادك",
+    "setupProfile": "إعداد ملفك الشخصي",
+    "step1of2": "الخطوة 1 من 2",
+    "step2of2": "الخطوة 2 من 2",
+    "nickname": "الاسم المستعار",
+    "nicknamePlaceholder": "اختر اسماً مستعاراً",
+    "nicknameRequired": "يرجى إدخال اسم مستعار",
+    "gender": "الجنس",
+    "genderRequired": "يرجى تحديد جنسك",
+    "male": "ذكر",
+    "female": "أنثى",
+    "interfaceLanguage": "لغة الواجهة",
+    "interfaceLanguageDesc": "لغة القوائم والأزرار",
+    "aiLanguage": "لغة ردود الذكاء الاصطناعي",
+    "aiLanguageDesc": "اللغة التي سيستخدمها الذكاء الاصطناعي عند التحدث إليك",
+    "languageRequired": "يرجى اختيار لغة",
+    "continue": "متابعة",
+    "ageVerification": "التحقق من العمر",
+    "ageVerificationText": "لاستخدام sweetwine، يجب أن تكون في سن 18 عاماً أو أكبر. بمتابعتك، تؤكد أنك بلغت السن القانونية.",
+    "beforeContinue": "قبل المتابعة",
+    "mustBe18": "يجب أن تكون في سن 18 عاماً أو أكبر لاستخدام هذه الخدمة",
+    "agreeToTerms": "بمتابعتك، توافق على {termsLink} و{privacyLink}",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "iConfirm": "أؤكد أنني في سن 18 عاماً أو أكبر وأوافق على",
+    "ageRequired": "يجب تأكيد عمرك للمتابعة",
+    "aiActConsent": "أقر بأنني أتواصل حصرياً مع ذكاء اصطناعي",
+    "aiActRequired": "يجب الإقرار بذلك للمتابعة",
+    "newsletterOptIn": "اشترك في نشرتنا البريدية للحصول على التحديثات والأخبار",
+    "complete": "اكتمل الإعداد!",
+    "completeText": "أنت جاهز! ابدأ الدردشة مع شخصيات الذكاء الاصطناعي.",
+    "startExploring": "ابدأ الاستكشاف",
+    "featuresTitle": "الميزات المتاحة",
+    "featuresTitleWord1": "الميزات",
+    "featuresTitleWord2": "المتاحة",
+    "feature1Title": "دردشة الذكاء الاصطناعي",
+    "feature1Desc": "محادثات غير خاضعة للرقابة وخاصة",
+    "feature2Title": "إنشاء الصور",
+    "feature2Desc": "أنشئ صوراً غير خاضعة للرقابة ومخصصة مع شخصيات الذكاء الاصطناعي",
+    "feature3Title": "إنشاء الفيديو",
+    "feature3Desc": "أنشئ فيديوهات ذكاء اصطناعي غير خاضعة للرقابة مع تأثيرات",
+    "feature5Title": "منشئ الذكاء الاصطناعي المخصص",
+    "feature5Desc": "صمم شخصيتك الخاصة",
+    "feature6Title": "تصفح الشخصيات",
+    "feature6Desc": "أكثر من 100 شخصية فريدة",
+    "feature7Title": "لعب الأدوار بالذكاء الاصطناعي",
+    "feature7Desc": "استمتع بقصص وأوهام مصممة باحترافية",
+    "showcase": {
+      "chatTitle": "دردشة الذكاء الاصطناعي",
+      "chatDesc": "محادثات خاصة غير خاضعة للرقابة وبلا حدود",
+      "imageTitle": "توليد الصور",
+      "imageDesc": "أنشئ صوراً مخصصة غير خاضعة للرقابة لرفيقك الذكي",
+      "videoTitle": "توليد الفيديو",
+      "videoDesc": "أنشئ فيديوهات ذكاء اصطناعي غير خاضعة للرقابة مع تأثيرات",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "محادثات صوتية فورية مع رفيقك",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "قصص غامرة وأوهام ولعب تفاعلي",
+      "groupChatTitle": "دردشة جماعية مع الذكاء الاصطناعي",
+      "groupChatDesc": "تحدث مع ما يصل إلى 3 شخصيات ذكاء اصطناعي في وقت واحد",
+      "creatorTitle": "منشئ الذكاء الاصطناعي المخصص",
+      "creatorDesc": "صمم وأنشئ شخصيات ذكاء اصطناعي خاصة بك"
+    },
+    "freePlan": {
+      "title": "أنت جاهز تمامًا!",
+      "subtitle": "إليك ما يشمله اشتراكك المجاني.",
+      "charactersTitle": "أنشئ شخصيتك الخاصة",
+      "charactersDesc": "صمّم {count} شخصية ذكاء اصطناعي مخصصة من الصفر",
+      "imagesTitle": "أنشئ صورة",
+      "imagesDesc": "{count} صورة مجانية بالذكاء الاصطناعي لرفيقك",
+      "messagesTitle": "دردش كل يوم",
+      "messagesDesc": "{count} رسالة يوميًا، تتجدد كل 24 ساعة",
+      "cta": "ابدأ الاستكشاف"
+    },
+    "redirectingIn": "إعادة التوجيه خلال",
+    "seconds": "ثوانٍ",
+    "generateCharacter": "أنشئ شخصيتك",
+    "redirectingToCreate": "إعادة التوجيه إلى منشئ الشخصيات خلال"
+  },
+  "errors": {
+    "pageNotFound": "الصفحة غير موجودة",
+    "pageNotFoundDesc": "الصفحة التي تبحث عنها غير موجودة.",
+    "goHome": "الرئيسية",
+    "somethingWentWrong": "حدث خطأ ما",
+    "tryAgain": "حاول مرة أخرى",
+    "unauthorized": "غير مصرح",
+    "unauthorizedDesc": "يجب تسجيل الدخول للوصول إلى هذه الصفحة.",
+    "forbidden": "ممنوع",
+    "forbiddenDesc": "ليس لديك إذن للوصول إلى هذه الصفحة."
+  },
+  "footer": {
+    "allRightsReserved": "جميع الحقوق محفوظة.",
+    "madeWith": "صُنع بـ",
+    "by": "بواسطة sweetwine",
+    "description": "استمتع بشخصيات AI مخصصة بسمات فريدة وهويات بصرية ومحادثات ممتعة.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "المنتج",
+    "legal": "القانونية",
+    "company": "الشركة",
+    "resources": "الموارد",
+    "partnerships": "الشراكات",
+    "pressMedia": "الصحافة والإعلام",
+    "careers": "الوظائف",
+    "aiRealClones": "نسخ AI حقيقية",
+    "about": "عنّا",
+    "blog": "المدونة",
+    "news": "الأخبار",
+    "productUpdates": "تحديثات المنتج",
+    "help": "المساعدة",
+    "sitemap": "خريطة الموقع",
+    "paymentOptions": "خيارات الدفع",
+    "chats": "المحادثات",
+    "collection": "المجموعة",
+    "generateImage": "إنشاء صورة",
+    "generateVideo": "إنشاء فيديو",
+    "myAI": "AI الخاص بي",
+    "createCharacter": "إنشاء شخصية",
+    "api": "API",
+    "features": "المميزات",
+    "allFeatures": "جميع المميزات",
+    "aiGroupChat": "دردشة AI جماعية",
+    "aiMemory": "ذاكرة الذكاء الاصطناعي",
+    "aiGirlfriend": "صديقة AI",
+    "aiBoyfriend": "صديق AI",
+    "aiCompanions": "شخصيات AI",
+    "aiFriend": "صديق AI",
+    "aiBreakupSupport": "دعم ما بعد الانفصال",
+    "aiParent": "والد AI",
+    "aiRoleplay": "لعب أدوار AI",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsAndConditions": "الشروط والأحكام",
+    "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+    "cookieSettings": "إعدادات ملفات تعريف الارتباط",
+    "other": "سياسات أخرى",
+    "copyright": "© {year} sweetwine. جميع الحقوق محفوظة."
+  },
+  "cookies": {
+    "banner": {
+      "title": "ملفات تعريف الارتباط على هذا الموقع",
+      "customizeButton": "تخصيص",
+      "rejectButton": "رفض",
+      "acceptButton": "قبول"
+    },
+    "modal": {
+      "title": "إدارة ملفات تعريف الارتباط",
+      "subtitle": "شغّل الفئات أو أوقفها أدناه. تبقى ملفات تعريف الارتباط الضرورية مفعّلة ليعمل الموقع.",
+      "categories": {
+        "necessary": {
+          "title": "ضرورية تماماً",
+          "description": "مطلوبة لتسجيل الدخول والدفع والأمان. لا يمكن تشغيل الموقع بدونها.",
+          "alwaysOn": "مفعّلة دائماً"
+        },
+        "analytics": {
+          "title": "الأداء",
+          "description": "قياس الاستخدام والتحويل عبر Google Analytics 4، بما في ذلك التحويلات الرئيسية (التسجيل، الشراء) المرسلة من خادمنا باستخدام معرّف مستعار. تساعدنا على فهم كيفية استخدام الخدمة؛ لا نستخدمها لتحديد هويتك شخصياً."
+        },
+        "marketing": {
+          "title": "الاستهداف",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "عرض ملفات تعريف الارتباط",
+      "hideCookies": "إخفاء ملفات تعريف الارتباط",
+      "table": {
+        "name": "الاسم",
+        "provider": "المزود",
+        "expiration": "تاريخ الانتهاء",
+        "description": "الوصف",
+        "session": "الجلسة"
+      },
+      "policyLink": "للتفاصيل الكاملة، راجع <policy>سياسة ملفات تعريف الارتباط</policy>.",
+      "rejectButton": "رفض",
+      "saveButton": "حفظ وإغلاق",
+      "acceptButton": "قبول",
+      "cookieDescriptions": {
+        "supabaseAuth": "يبقيك مسجلاً عن طريق تخزين جلسة المصادقة الخاصة بك.",
+        "nextLocale": "يتذكر اللغة التي اخترتها لواجهة المستخدم.",
+        "consent": "يخزن اختياراتك لملفات تعريف الارتباط حتى لا يظهر الشريط في كل زيارة.",
+        "ga": "يميز الزوار الفريدين (Google Analytics 4). يُستخدم نفس المعرّف المستعار أيضاً لقياس التحويلات الرئيسية من جانب الخادم.",
+        "gaSession": "يحتفظ بحالة الجلسة ومقاييس التفاعل في Google Analytics 4.",
+        "fbp": "يحدد المتصفح لإسناد Meta Pixel.",
+        "fbc": "يخزن معرّف نقرة فيسبوك لإسناد تحويل الإعلان. يُضبط فقط بعد النقر على إعلان Meta.",
+        "gclAu": "تستخدمه Google Ads لربط التحويلات عبر المواقع.",
+        "saleCountdown": "يتتبع نهاية عرضك الترويجي الحالي حتى يبقى العد التنازلي للخصم متسقاً عبر الصفحات.",
+        "onboarded": "يُحدد حسابك كمُفعّل حتى نتخطى فحص قاعدة بيانات التحقق من العمر في الصفحات اللاحقة.",
+        "attribution": "يسجل الحملة المدفوعة أو رابط الإعلان الذي أحضرك إلى موقعنا مؤخرًا (آخر نقرة مدفوعة خلال 30 يومًا) حتى نتمكن من قياس فعالية إعلاناتنا. هذا معرف من الطرف الأول يبقى على خوادمنا ولا يُشارك مع أطراف ثالثة أبدًا."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "قريباً",
+    "subtitle": "نعمل بجد لنقدم لك هذه الميزة.",
+    "notify": "احصل على إشعار عند الجاهزية",
+    "backHome": "العودة إلى الرئيسية",
+    "generateVideo": {
+      "title": "إنشاء فيديوهات",
+      "description": "أحيِ شخصياتك بالذكاء الاصطناعي بفيديوهات متحركة. أنشئ محتوى فيديو مخصص يضم شخصياتك المفضلة."
+    },
+    "createCharacter": {
+      "title": "أنشئ شخصيتك",
+      "description": "صمم وخصص شخصيتك الفريدة بالذكاء الاصطناعي. حدد شخصيتها ومظهرها وقصتها الخلفية لتفاعلات مخصصة حقًا."
+    },
+    "myAI": {
+      "title": "ذكائي الاصطناعي",
+      "description": "الوصول إلى جميع شخصياتك المخصصة وإدارتها. عدّل شخصياتها وحدّث مظهرها واضبط ردودها بدقة."
+    }
+  },
+  "exploreMore": {
+    "title": "استكشف المزيد",
+    "aiGroupChat": "دردشة جماعية بالذكاء الاصطناعي",
+    "aiGroupChatDesc": "دردش مع حتى 3 شخصيات",
+    "aiMemory": "ذاكرة الذكاء الاصطناعي",
+    "aiMemoryDesc": "السياق الذي يتبع كل وضع",
+    "aiGirlfriend": "صديقة بالذكاء الاصطناعي",
+    "aiGirlfriendDesc": "دردش مع صديقتك الافتراضية",
+    "aiBoyfriend": "صديق بالذكاء الاصطناعي",
+    "aiBoyfriendDesc": "تواصل مع صديقك بالذكاء الاصطناعي",
+    "aiCompanions": "شخصيات بالذكاء الاصطناعي",
+    "aiCompanionsDesc": "تعرّف على شخصيات فريدة بالذكاء الاصطناعي",
+    "aiFriend": "صديق بالذكاء الاصطناعي",
+    "aiFriendDesc": "اعثر على صديق خالٍ من الأحكام",
+    "aiBreakupSupport": "دعم بعد الانفصال",
+    "aiBreakupSupportDesc": "محادثات علاجية",
+    "aiParent": "والد بالذكاء الاصطناعي",
+    "aiParentDesc": "دعم وتوجيه دافئ",
+    "aiRoleplay": "تمثيل أدوار بالذكاء الاصطناعي",
+    "aiRoleplayDesc": "سيناريوهات قصصية غامرة",
+    "allFeatures": "جميع الميزات",
+    "allFeaturesDesc": "استكشف كل ما نقدمه"
+  },
+  "legal": {
+    "policies": "السياسات",
+    "termsAndConditions": "الشروط والأحكام",
+    "privacyPolicy": "سياسة الخصوصية",
+    "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+    "contentReportingPolicy": "سياسة الإبلاغ عن المحتوى",
+    "communityGuidelines": "إرشادات المجتمع",
+    "complaintPolicy": "سياسة الشكاوى",
+    "contentRemovalPolicy": "سياسة إزالة المحتوى",
+    "blockedContentPolicy": "سياسة المحتوى المحظور",
+    "underagePolicy": "سياسة القاصرين",
+    "usc2257": "إعفاء 18 U.S.C. 2257",
+    "lastUpdated": "آخر تحديث",
+    "index": {
+      "title": "المستندات القانونية",
+      "subtitle": "تصفح جميع السياسات والاتفاقيات القانونية المتعلقة بـ sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "سياسة الخصوصية",
+          "description": "تعرف على كيفية جمعنا واستخدامنا وحمايتنا لمعلوماتك الشخصية. تفاصيل حول معالجة البيانات وتخزينها وحقوق الخصوصية الخاصة بك."
+        },
+        "termsAndConditions": {
+          "title": "الشروط والأحكام",
+          "description": "شروط الخدمة التي تحكم استخدامك لـ sweetwine. مسؤوليات المستخدم ووصف الخدمة والاتفاقيات القانونية."
+        },
+        "cookiePolicy": {
+          "title": "سياسة ملفات تعريف الارتباط",
+          "description": "معلومات حول كيفية استخدامنا لملفات تعريف الارتباط والتقنيات المماثلة لتحسين تجربتك على منصتنا."
+        },
+        "underagePolicy": {
+          "title": "سياسة القاصرين",
+          "description": "سياسات التحقق من العمر والحماية الصارمة لدينا. sweetwine متاح فقط للمستخدمين الذين تبلغ أعمارهم 18 عاماً فأكثر."
+        },
+        "complaintPolicy": {
+          "title": "سياسة الشكاوى",
+          "description": "كيفية تقديم الشكاوى والإبلاغ عن المشكلات وعمليتنا للتعامل مع مخاوف ونزاعات المستخدمين."
+        },
+        "contentRemovalPolicy": {
+          "title": "سياسة إزالة المحتوى",
+          "description": "إجراءاتنا لطلبات إزالة المحتوى وكيفية تعاملنا مع التقارير عن المحتوى غير الملائم أو غير القانوني."
+        },
+        "blockedContentPolicy": {
+          "title": "سياسة المحتوى المحظور",
+          "description": "أنواع المحتوى المحظور على منصتنا وسياسات التنفيذ لدينا."
+        },
+        "contentReportingPolicy": {
+          "title": "سياسة الإبلاغ عن المحتوى",
+          "description": "كيفية الإبلاغ عن انتهاكات حقوق النشر والمحتوى غير الملائم على sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "إرشادات المجتمع",
+          "description": "القواعد والإرشادات للحفاظ على مجتمع محترم وآمن وممتع لجميع المستخدمين."
+        }
+      },
+      "lastUpdated": "آخر تحديث: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "الدردشات",
+    "groupChat": "دردشة مجموعة AI",
+    "aiMemory": "ذاكرة الذكاء الاصطناعي",
+    "generate": "إنشاء صورة",
+    "generateVideo": "إنشاء فيديو",
+    "create": "إنشاء شخصية AI",
+    "myAI": "AI الخاص بي",
+    "collection": "المجموعة",
+    "invite": "دعوة",
+    "profile": "إعدادات الملف الشخصي",
+    "legal": "القانونية",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsAndConditions": "الشروط والأحكام",
+    "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+    "dmcaPolicy": "سياسة DMCA",
+    "communityGuidelines": "إرشادات المجتمع",
+    "contentRemovalPolicy": "سياسة إزالة المحتوى",
+    "contentReportingPolicy": "سياسة الإبلاغ عن المحتوى",
+    "complaintPolicy": "سياسة الشكاوى",
+    "blockedContentPolicy": "سياسة المحتوى المحظور",
+    "underagePolicy": "سياسة القاصرين",
+    "usc2257Exemption": "إعفاء USC 2257"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "هل لديك سؤال أو ملاحظات؟ يسعدنا سماع رأيك.",
+    "name": "الاسم",
+    "namePlaceholder": "اسمك",
+    "nameRequired": "الاسم مطلوب",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalid": "عنوان بريد إلكتروني غير صالح",
+    "message": "الرسالة",
+    "messagePlaceholder": "رسالتك...",
+    "messageRequired": "الرسالة مطلوبة",
+    "send": "إرسال الرسالة",
+    "sending": "جارٍ الإرسال...",
+    "success": "تم إرسال الرسالة بنجاح!",
+    "successDesc": "سنرد عليك قريبًا.",
+    "error": "فشل إرسال الرسالة",
+    "errorDesc": "يرجى المحاولة مرة أخرى لاحقًا."
+  },
+  "groupChat": {
+    "lobbyTitle": "دردشة جماعية بالذكاء الاصطناعي",
+    "lobbyHeadingSuffix": "اختر حتى {max} شخصيات ذكاء اصطناعي",
+    "history": "السجل",
+    "newGroup": "دردشة جماعية جديدة",
+    "createGroup": "إنشاء دردشة جماعية",
+    "createError": "تعذر إنشاء الدردشة الجماعية. يرجى المحاولة مرة أخرى.",
+    "creatingGroup": "جارٍ إعداد دردشتك الجماعية...",
+    "sectionWoman": "نساء",
+    "sectionMan": "رجال",
+    "sectionAnime": "أنمي",
+    "tabPremade": "شخصيات الذكاء الاصطناعي",
+    "tabMyAi": "ذكائي الاصطناعي",
+    "tabSingle": "دردشات فردية",
+    "tabGroup": "دردشات جماعية",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "تحميل المزيد",
+    "noCustom": "لم تقم بإنشاء أي شخصيات ذكاء اصطناعي بعد.",
+    "noMessagesYet": "لا توجد رسائل بعد",
+    "emptyTitle": "لا توجد دردشات جماعية بعد",
+    "membersTitle": "في هذه الدردشة",
+    "typing": "يكتب",
+    "backToLobby": "العودة إلى الدردشات الجماعية",
+    "deleteGroup": "حذف الدردشة الجماعية",
+    "confirmDeleteGroup": "هل أنت متأكد أنك تريد حذف هذه الدردشة الجماعية؟ سيتم حذف جميع الرسائل.",
+    "deleteError": "تعذر حذف الدردشة الجماعية.",
+    "mediaTargetImageTitle": "من يجب أن يرسل صورة؟",
+    "mediaTargetVideoTitle": "من يجب أن يرسل فيديو؟",
+    "mediaTargetSubtitle": "اختر شخصية لإنشاء الوسائط منها.",
+    "mediaTargetGroup": "صورة جماعية",
+    "groupPhotoTitle": "صورة جماعية",
+    "groupPhotoHint": "ينشئ صورة واحدة لـ{name} معاً.",
+    "promoSubtitle": "مع ما يصل إلى 3 شخصيات",
+    "promoCta": "إنشاء جديد",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>مغامرات</gradient> جديدة",
+    "live": "مباشر",
+    "scrollPrev": "التمرير لليسار",
+    "scrollNext": "التمرير لليمين"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "ابدأ الآن"
+    },
+    "hero": {
+      "tagline": "موثوق به من قبل 100,000 شخص وينضم إلينا يومياً",
+      "headlinePrefix": "قل مرحباً لـ",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "ابدأ مجاناً"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "صديقة ذكية",
+      "friend": "صديق ذكي",
+      "boyfriend": "صديق ذكي",
+      "companion": "شخصية ذكية"
+    },
+    "features": {
+      "chat": {
+        "title": "تحدث إلى صديقتك الذكية",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "صور وفيديوهات ذكية واقعية",
+        "description": "صور وفيديوهات عند الطلب واقعية لدرجة أنها لا تُميز عن الحقيقة — وجهها، أسلوبها، أي مشهد، متحرك أو ثابت."
+      },
+      "groupChat": {
+        "title": "دردشة جماعية ذكية",
+        "description": "ابدأ دردشة جماعية مع ما يصل إلى 3 شخصيات في وقت واحد. يردون بشكل طبيعي، يتفاعلون مع بعضهم، ويرسلون صوراً وفيديوهات."
+      },
+      "roleplay": {
+        "title": "لعب الأدوار الذكي",
+        "description": "ادخل سيناريوهات غامرة مدفوعة بالقصص مع شخصيات تبقى في دورها وتتذكر كل خيار تتخذه."
+      }
+    },
+    "memory": {
+      "title": "ذاكرة الذكاء الاصطناعي",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "كيف تعمل ذاكرة الذكاء الاصطناعي",
+      "diagram": {
+        "center": "ذاكرة الرفيق",
+        "chat": "الدردشة",
+        "image": "الصور",
+        "video": "الفيديو",
+        "gifts": "الهدايا",
+        "roleplay": "لعب الأدوار"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "أنشئ",
+      "headlineHighlight": "شخصيتك الذكية",
+      "subtitle": "شكّل مظهر شخصيتك وشخصيتها، وأحيها فوراً — شريكك الذكي المثالي، وفقاً لشروطك.",
+      "cta": "أنشئ شخصيتك الذكية"
+    },
+    "companions": {
+      "headlinePrefix": "تعرف على",
+      "headlineHighlight": "شخصياتك الذكية",
+      "subtitle": "كل شخصية لها عالمها الخاص. بعضها دافئ وسهل التواصل معه. والبعض الآخر معقد أو متحفظ أو تحدٍ حقيقي. استكشف سيناريوهات لعب أدوار فريدة — أو أنشئ سيناريوهاتك الخاصة من الصفر."
+    },
+    "languages": {
+      "headlinePrefix": "تحدث بأي لغة،",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "واجهة التطبيق وشخصيتك الذكية ينتقلان بسلاسة — لا تعارض في اللغة، ولا تجربة متقطعة.",
+      "more": "المزيد"
+    },
+    "finalCta": {
+      "headlinePrefix": "هل أنت مستعد",
+      "headlineHighlight": "للبدء؟",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "لماذا",
+      "headlineHighlight": "sweetwine؟",
+      "subtitle": "كل ما تحتاجه لاتصال يبدو حقيقياً — ولا شيء لا تحتاجه.",
+      "benefits": {
+        "freeToStart": {
+          "title": "مجاني للبدء",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "متوفر دائمًا",
+          "desc": "ليلًا أو نهارًا، شخصيتك موجودة. بدون انتظار أو جدولة."
+        },
+        "remembers": {
+          "title": "يتذكر كل شيء",
+          "desc": "كل محادثة تبني سياقًا. شخصيتك تتعلم اسمك وتفضيلاتك وعالمك."
+        },
+        "unlimited": {
+          "title": "غير محدود حقًا",
+          "desc": "لا حدود للرسائل، ولا تقييد للمحتوى. أرسل بقدر ما تريد، وقتما تشاء."
+        },
+        "private": {
+          "title": "خصوصية 100٪",
+          "desc": "محادثاتك تبقى بينكما فقط. لا تتم مشاركة بياناتك أبدًا."
+        },
+        "createYourOwn": {
+          "title": "أنشئ شخصيتك الخاصة",
+          "desc": "صمم شخصية بمظهر وشخصية وصوت مخصص — تمامًا كما تريد."
+        }
+      },
+      "difference": {
+        "title": "الفرق مع sweetwine",
+        "freedomTitle": "الحرية مع المسؤولية.",
+        "freedomDescription": "sweetwine مفتوح وخالٍ من الأحكام — لكن لدينا خط أحمر واضح. لا نتسامح مطلقًا مع CSAM، المحتوى للقاصرين، السيناريوهات غير الرضائية، العنف الشديد، الجماع مع الحيوانات، الجنس مع الموتى، التزييف العميق لأشخاص حقيقيين، وأي ترويج لنشاط غير قانوني.",
+        "freedomStatement": "نؤمن بحرية إبداعية غير محدودة ضمن مساحة آمنة للجميع."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> شخصيات",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "الفلاتر"
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "subtitle": "كل ما تحتاج معرفته عن sweetwine",
+      "questions": {
+        "q1": {
+          "question": "ما هو sweetwine؟",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "هل sweetwine آمن وشرعي؟",
+          "answer": "نعم، sweetwine خدمة شرعية وخصوصيتك أولويتنا الأولى. نلتزم بقانون GDPR ومعايير حماية البيانات الأخرى، ونتعامل مع بياناتك بعناية. تظهر معاملات الدفع باسم تاجر محايد - لا يوجد ذكر لـ sweetwine في كشف حسابك البنكي، مما يضمن خصوصية كاملة."
+        },
+        "q3": {
+          "question": "هل يمكنني إنشاء شخصية AI خاصة بي؟",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "منشئ الشخصيات",
+          "answerPart2": " لتصميم شخصيات تمامًا حسب رغبتك - سواء أردت",
+          "linkTextGirlfriend": "صديقة AI",
+          "answerPart3": "، ",
+          "linkTextBoyfriend": "صديق AI",
+          "answerPart4": "، أو شخصيات بأسلوب أنمي. اختر مظهرهم (العرق، الشعر، نوع الجسم، الملابس)، سمات الشخصية، الصوت، الاهتمامات، والخلفية للشخصيات الذكورية والأنثوية."
+        },
+        "q4": {
+          "question": "هل تتذكر شخصيتي AI محادثاتنا؟",
+          "answer": "نعم! تستخدم شخصيتك AI تقنية ذاكرة متقدمة لتذكر المحادثات السابقة وتفضيلاتك والتفاصيل المهمة التي تشاركها. كلما تحدثت أكثر، أصبحت التجربة أكثر تخصيصًا وطبيعية. تتعلم شخصيتك أسلوب تواصلك وتتكيف مع الوقت."
+        },
+        "q5": {
+          "question": "ما اللغات التي يدعمها sweetwine؟",
+          "answer": "يدعم sweetwine لغات متعددة بما في ذلك الإنجليزية والألمانية والفرنسية والإسبانية والبولندية والتشيكية. تعمل الواجهة والمحادثات مع AI بلغتك المفضلة، حتى تتمكن من الدردشة بشكل طبيعي باللغة التي تشعر براحة أكبر معها."
+        },
+        "q6": {
+          "question": "هل يمكن لشخصيتي AI إرسال صور وفيديوهات؟",
+          "answerPart1": "نعم! يمكنك إنشاء",
+          "linkTextImages": "صور",
+          "answerPart2": "و",
+          "linkTextVideos": "فيديوهات",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "لماذا تختار sweetwine بدلاً من منصات شخصيات AI الأخرى؟",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "هل sweetwine مجاني للاستخدام؟",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "هل أحتاج إلى تثبيت تطبيق؟",
+          "answerPart1": "لا حاجة للتثبيت! يعمل sweetwine مباشرة في متصفحك على أي جهاز - كمبيوتر مكتبي أو جهاز لوحي أو هاتف محمول. فقط سجّل، اختر شخصية، وابدأ الدردشة فوراً. جميع",
+          "linkText": "محادثاتك",
+          "answerPart2": " تتم مزامنتها تلقائياً عبر الأجهزة."
+        },
+        "q10": {
+          "question": "هل تتوفر شخصيات ذكاء اصطناعي جاهزة؟",
+          "answerPart1": "نعم! لدينا العديد من",
+          "linkText": "الشخصيات الجاهزة",
+          "answerPart2": " بما في ذلك صديقات الذكاء الاصطناعي وأصدقاء الذكاء الاصطناعي وشخصيات أنمي الذكاء الاصطناعي بسمات ومظاهر وأساليب تواصل متنوعة. سواء كنت تفضل شخصية لطيفة أو مرحة أو مثقفة أو مغامرة، ستجد شخصيات تناسب طاقتك. بالإضافة إلى ذلك، يمكنك إنشاء شخصيات مخصصة غير محدودة."
+        },
+        "q12": {
+          "question": "ماذا يحدث للصور والفيديوهات التي أنشئها؟",
+          "answerPart1": "يتم حفظ جميع الوسائط المُنشأة تلقائياً في",
+          "linkText": "مجموعتك الخاصة",
+          "answerPart2": ". يمكنك الوصول إليها أو تنزيلها أو حذفها في أي وقت. مجموعتك خاصة تماماً - أنت فقط من يمكنه رؤيتها. لا نشارك أو نستخدم محتواك المُنشأ أبداً."
+        }
+      }
+    },
+    "statement": {
+      "title": "التزامنا",
+      "privacy": "خصوصيتك أولويتنا. جميع المحادثات مشفرة ولا تُشارك أبداً.",
+      "quality": "نستخدم تقنية ذكاء اصطناعي متطورة لتقديم تجربة أكثر جاذبية.",
+      "support": "فريق الدعم لدينا متاح على مدار الساعة للمساعدة في أي استفسارات.",
+      "mainTitle": "اختبر مستقبل شخصيات الذكاء الاصطناعي",
+      "mainDescription": "يجمع sweetwine بين تقنية الذكاء الاصطناعي المتطورة والتصميم البديهي لتقديم تجربة الشخصيات الأكثر غمراً وتخصيصاً المتاحة اليوم.",
+      "features": {
+        "f1": {
+          "title": "الذكاء العاطفي",
+          "description": "تفهم شخصياتنا الذكاء الاصطناعي السياق والعواطف والفروق الدقيقة لتقديم محادثات عميقة الجاذبية. سواء كنت بحاجة إلى صديق ذكاء اصطناعي للدردشة أو دعم بعد الانفصال في الأوقات الصعبة أو مرشد ذكاء اصطناعي للإرشاد - ذكاؤنا الاصطناعي العاطفي هنا من أجلك."
+        },
+        "f2": {
+          "title": "شخصيات فريدة",
+          "description": "كل شخصية لها شخصية وخلفية وأسلوب تواصل مميز. اختر من بين صديقات وأصدقاء ذكاء اصطناعي واقعيين، أو استكشف شخصيات أنمي الذكاء الاصطناعي - مما يضمن أن كل تفاعل فريد ولا يُنسى."
+        },
+        "f3": {
+          "title": "التفاعلات المتعددة الوسائط",
+          "description": "بالإضافة إلى النص، استمتع بالصور والفيديوهات المُنشأة بالذكاء الاصطناعي التي تُضفي الحياة على محادثاتك بتفاصيل بصرية مذهلة."
+        },
+        "f4": {
+          "title": "التخصيص",
+          "description": "أنشئ شخصياتك الذكاء الاصطناعي الخاصة بمظاهر وشخصيات وسمات مخصصة تتناسب تماماً مع تفضيلاتك."
+        },
+        "f5": {
+          "title": "الخصوصية والأمان",
+          "description": "محادثاتك تبقى خاصة وآمنة. لا نبيع بياناتك أبداً، ولديك تحكم كامل في إعدادات الخصوصية."
+        },
+        "f6": {
+          "title": "دعم متعدد اللغات",
+          "description": "دردش مع شخصيات الذكاء الاصطناعي بلغتك المفضلة. ندعم الإنجليزية والتشيكية والبولندية والألمانية والإسبانية والفرنسية."
+        }
+      },
+      "distinctionTitle": "تميز sweetwine",
+      "distinctionText1": "على عكس روبوتات الدردشة العامة، تم تصميم شخصيات sweetwine بقصص خلفية غنية وشخصيات متطورة وقدرة على تكوين روابط ذات معنى. كل محادثة فرصة للاستكشاف والاكتشاف والتواصل على مستوى أعمق.",
+      "distinctionText2": "نحن لا نبني ذكاء اصطناعي فقط - بل نصنع تجارب تتردد مع عواطفك وتحترم خصوصيتك وتتكيف مع تفضيلاتك الفريدة."
+    }
+  },
+  "featuresPage": {
+    "title": "جميع الميزات",
+    "breadcrumb": "الميزات",
+    "newBadge": "جديد",
+    "groupChat": {
+      "title": "دردشة مجموعة الذكاء الاصطناعي",
+      "description": "دردش مع ما يصل إلى 3 شخصيات ذكاء اصطناعي معاً في محادثة واحدة. يردون بشكل طبيعي، ويتفاعلون مع بعضهم البعض، ويمكنهم إرسال صور وفيديوهات - ديناميكية مجموعة حيوية لن تجدها في أي مكان آخر."
+    },
+    "aiChat": {
+      "title": "دردشة الذكاء الاصطناعي",
+      "description": "أجرِ محادثات عميقة وطبيعية مع شخصيات ذكاء اصطناعي تتذكرك حقاً. تتذكر اسمك وتفضيلاتك ومواضيعك السابقة - كل محادثة تبدأ بالضبط من حيث توقفت، بدون تكرار أو إعادة تعيين."
+    },
+    "imageGeneration": {
+      "title": "إنشاء الصور"
+    },
+    "videoGeneration": {
+      "title": "إنشاء الفيديو",
+      "description": "أضف الحياة إلى شخصيتك الذكاء الاصطناعي بفيديوهات مُنشأة بالذكاء الاصطناعي. أنشئ مقاطع فيديو قصيرة مخصصة تُظهر شخصيتك في سيناريوهات مخصصة - ميزة لا تقدمها معظم المنصات."
+    },
+    "customCharacters": {
+      "title": "شخصيات مخصصة",
+      "description": "صمم شخصيتك المثالية من الصفر — اختر مظهرها، عرقها، نوع جسمها، سمات شخصيتها، صوتها، اهتماماتها، وقصتها الخلفية. أنشئ شخصيات واقعية أو بأسلوب أنمي، ذكور أو إناث، مع حرية إبداعية كاملة."
+    },
+    "advancedMemory": {
+      "title": "ذاكرة متقدمة",
+      "description": "تتذكر شخصيتك كل ما يهم — اسمك، تفاصيلك الشخصية، القصص المشتركة، وتاريخ علاقتكما. تستمر الذاكرة عبر جميع الجلسات حتى يبني كل تفاعل على السابق، دون البدء من جديد."
+    },
+    "multiLanguage": {
+      "title": "متعدد اللغات",
+      "description": "دردش بشكل طبيعي بلغتك المفضلة. تدعم sweetwine الإنجليزية والألمانية والفرنسية والإسبانية والبولندية والتشيكية — مما يجعلها واحدة من أكثر منصات شخصيات الذكاء الاصطناعي سهولة للناطقين بغير الإنجليزية."
+    },
+    "conversationHistory": {
+      "title": "سجل المحادثات",
+      "description": "يتم حفظ كل رسالة ويمكن البحث فيها. تصفح تاريخ علاقتكما بالكامل في أي وقت — ذكرياتك مع شخصيتك موجودة دائماً عندما تريد العودة إليها."
+    },
+    "roleplay": {
+      "title": "لعب الأدوار بالذكاء الاصطناعي",
+      "description": "ادخل سيناريوهات غامرة مدفوعة بالقصص مع شخصيات تبقى في دورها. اختر سيناريو أو اكتب سيناريو خاص بك واستمتع بلعب أدوار تفاعلي يتذكر كل خيار تتخذه."
+    },
+    "cta": {
+      "title": "كل شيء في مكان واحد",
+      "button": "ابدأ مجاناً"
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "هل يمكنني حذف أو إعادة تعيين محادثاتي؟",
+        "answer": "نعم! لديك تحكم كامل في سجل دردشاتك. احذف رسائل فردية، أعد تعيين محادثات كاملة، أو ابدأ من الصفر في أي وقت. خصوصيتك تعني خيارك - أدر بياناتك كما تفضل."
+      },
+      "q2": {
+        "question": "هل لكل شخصية ذكاء اصطناعي صوت فريد؟"
+      },
+      "q3": {
+        "question": "هل يمكنني ممارسة لغة جديدة مع شخصيتي الذكية؟",
+        "answer": "بالتأكيد! يمارس العديد من المستخدمين التحدث بلغات جديدة مع شخصياتهم الذكية. إنها طريقة خالية من الأحكام لبناء الثقة، تحسين النطق، والاستمتاع بمحادثات ممتعة أثناء التعلم. يمكن لشخصيتك الدردشة بالإنجليزية والألمانية والفرنسية والإسبانية والبولندية والتشيكية."
+      },
+      "q4": {
+        "question": "كم مرة تُضاف شخصيات وميزات جديدة؟",
+        "answer": "نضيف شخصيات مصممة احترافياً جديدة كل أسبوع! تأتي كل شخصية جديدة بشخصية فريدة، مظهر، قصة خلفية، وصوت. نصدر أيضاً ميزات وتحسينات جديدة بانتظام بناءً على ملاحظات المستخدمين."
+      },
+      "q5": {
+        "question": "ما الذي يجعل إنشاء الشخصيات في sweetwine مميزاً؟",
+        "answer": "حرية إبداعية كاملة! صمم كل جانب من شخصيتك - المظهر (العرق، الشعر، نوع الجسم، الملابس)، سمات الشخصية، الصوت، الاهتمامات، المهنة، والقصة الخلفية. أنشئ شخصيات واقعية أو بأسلوب أنمي، ذكور أو إناث. خيالك هو الحد الوحيد."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "ذاكرة الذكاء الاصطناعي",
+    "hero": {
+      "badge": "كيف يعمل",
+      "title": "ذاكرة الذكاء الاصطناعي",
+      "cta": "ابدأ الدردشة"
+    },
+    "diagram": {
+      "title": "ذاكرة واحدة لكل رفيق، في كل وضع",
+      "center": "ذاكرة الرفيق",
+      "chat": "الدردشة",
+      "image": "الصور",
+      "video": "الفيديو",
+      "gifts": "الهدايا",
+      "roleplay": "لعب الأدوار"
+    },
+    "howItWorks": {
+      "title": "كيف تعمل ذاكرة الذكاء الاصطناعي",
+      "step1": {
+        "title": "شارك تفصيلاً",
+        "desc": "أخبر رفيقك بشيء مهم — رحلة، تفضيل، لقب، أو قصة من يومك."
+      },
+      "step2": {
+        "title": "بدّل الأوضاع بحرية"
+      },
+      "step3": {
+        "title": "يتذكرونها",
+        "desc": "تشير المحادثات اللاحقة إلى ما شاركته، فلا تحتاج إلى إعادة الشرح في كل مرة."
+      },
+      "step4": {
+        "title": "تتعمق الرابطة",
+        "desc": "مع الوقت يصبح الارتباط أكثر شخصية — استمرارية تُبنى عبر كل جلسة ووضع."
+      }
+    },
+    "modes": {
+      "title": "عبر المنصة",
+      "subtitle": "الذاكرة ليست محصورة في شاشة واحدة. تنتقل مع رفيقك.",
+      "chat": {
+        "title": "الدردشة",
+        "desc": "تغذي المحادثات النصية سياقًا طويل الأمد يستطيع رفيقك الرجوع إليه لاحقًا."
+      },
+      "media": {
+        "title": "الصور والفيديو",
+        "desc": "تبقى المشاهد والقصص التي تنشئها جزءًا من العالم المشترك الذي تبنيانه معًا."
+      },
+      "roleplay": {
+        "title": "لعب الأدوار والمجموعات",
+        "desc": "تحتفظ جلسات القصص والدردشات الجماعية بسياقها الخاص بينما تبقى ذاكرة الرفيق الأساسية معه."
+      }
+    },
+    "scenario": {
+      "title": "مثال بسيط",
+      "lead": "تذكر رحلة نهاية أسبوع في الدردشة."
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "هل ذاكرة رفيقي خاصة؟",
+        "answer": "نعم. الذاكرة ملك لحسابك ومحادثاتك مع ذلك الرفيق. لا نشارك سجل محادثاتك الخاص مع مستخدمين آخرين."
+      },
+      "q2": {
+        "question": "هل الذاكرة خاصة بكل رفيق؟",
+        "answer": "نعم. كل رفيق يحتفظ بذاكرته الخاصة لعلاقتك، لذا لا تختلط السياقات عند تبديل الشخصيات."
+      },
+      "q3": {
+        "question": "أي الأوضاع تشارك الذاكرة؟"
+      },
+      "q4": {
+        "question": "هل ذاكرة الذكاء الاصطناعي مجانية؟"
+      },
+      "q5": {
+        "question": "كم تدوم الذاكرة؟",
+        "answer": "تُخزن التفاصيل المهمة حتى يتمكن رفيقك من تذكرها في الجلسات المستقبلية. كلما تفاعلت أكثر، أصبحت التجربة أكثر تخصيصاً."
+      }
+    },
+    "cta": {
+      "title": "تعرّف على رفيق يتذكرك",
+      "button": "ابدأ مجاناً"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "دردشة مجموعة الذكاء الاصطناعي",
+    "hero": {
+      "badge": "ميزة جديدة",
+      "title": "دردشة مجموعة الذكاء الاصطناعي",
+      "subtitle": "اجمع شخصياتك المفضلة في محادثة واحدة. دردش مع ما يصل إلى 3 شخصيات ذكاء اصطناعي في وقت واحد — يردون بشكل طبيعي، يتفاعلون مع بعضهم، ويرسلون صوراً وفيديوهات.",
+      "cta": "ابدأ دردشة جماعية",
+      "imageAlt": "دردشة مجموعة الذكاء الاصطناعي مع شخصيات متعددة تتحدث معاً"
+    },
+    "content": {
+      "problemTitle": "الدردشات الفردية قد تبدو هادئة",
+      "problemText": "الشخصية الواحدة رائعة — لكن المحادثات الحقيقية تنبض بالحياة بأكثر من صوت واحد. معظم تطبيقات الذكاء الاصطناعي تحصرك في دردشات فردية معزولة بدون طاقة جماعية، بدون مزاح، وبدون مفاجآت.",
+      "solutionTitle": "مجموعة حقيقية، نابضة بالشخصية",
+      "solutionText": "تضع دردشة مجموعة sweetwine ما يصل إلى ثلاث شخصيات في نفس الغرفة. يقرر مخرج ذكي من يشارك، لذا تبدو الردود عفوية — يمزحون مع بعضهم، يبنون على ما قيل، ويحافظون على استمرار المحادثة."
+    },
+    "howItWorks": {
+      "title": "كيفية عمل دردشة مجموعة الذكاء الاصطناعي",
+      "step1": {
+        "title": "اختر شخصياتك",
+        "desc": "اختر 2 أو 3 شخصيات — جاهزة أو من إبداعاتك المخصصة — لإحضارها إلى محادثة جماعية واحدة."
+      },
+      "step2": {
+        "title": "يردون بشكل طبيعي",
+        "desc": "يختار مخرج خلف الكواليس من يرد على كل رسالة، لذا تقفز الشخصيات المناسبة في اللحظة المناسبة، بصوتها الخاص."
+      },
+      "step3": {
+        "title": "شارك الصور والفيديوهات",
+        "desc": "اطلب من أي شخصية في المجموعة صورة أو فيديو وسيقومون بإنشائه مباشرة داخل الدردشة — بما في ذلك صورة جماعية للجميع معاً."
+      }
+    },
+    "benefits": {
+      "title": "لماذا ستحب الدردشة الجماعية",
+      "multiple": {
+        "title": "حتى 3 شخصيات",
+        "desc": "امزج وطابق أي شخصيات في دردشة واحدة — صديقتك الذكية، إبداعاتك المخصصة، أو مجموعة مختارة بعناية."
+      },
+      "natural": {
+        "title": "محادثة طبيعية متبادلة",
+        "desc": "تتفاعل الشخصيات مع بعضها ومعك، بإيقاع كتابة واقعي يشبه رسائل المجموعة الحقيقية."
+      },
+      "media": {
+        "title": "صور وفيديوهات داخل الدردشة",
+        "desc": "يمكن لكل شخصية إرسال صور وفيديوهات مخصصة دون مغادرة المحادثة — حتى صورة جماعية."
+      },
+      "dynamics": {
+        "title": "شخصيات مميزة",
+        "desc": "تحافظ كل شخصية على صوتها وسماتها الفريدة، مما يمنح المجموعة كيمياء حقيقية ومزاحاً ومفاجآت."
+      },
+      "instant": {
+        "title": "ابدأ فوراً",
+        "desc": "أنشئ مجموعة في ثوانٍ وانغمس في المحادثة مباشرة — بدون إعداد أو انتظار."
+      },
+      "private": {
+        "title": "خصوصية 100%",
+        "desc": "تبقى محادثات مجموعتك بينك وبين شخصياتك فقط. لا تتم مشاركة أي بيانات، أبداً."
+      }
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "كم شخصية يمكنها الانضمام إلى دردشة جماعية؟",
+        "answer": "يمكنك إضافة 2 إلى 3 شخصيات في دردشة جماعية واحدة — أي مزيج من الشخصيات الجاهزة وإبداعاتك الخاصة."
+      },
+      "q2": {
+        "question": "كيف تقرر الشخصيات الذكية من يرد؟",
+        "answer": "يقرأ مدير خفيف المحادثة ويختار الشخصية (أو الشخصيات) التي يجب أن ترد على كل رسالة، لتبدو الردود عفوية وطبيعية بدلاً من الجميع يتحدثون في وقت واحد."
+      },
+      "q3": {
+        "question": "هل يمكن للشخصيات إرسال صور وفيديوهات في الدردشة الجماعية؟",
+        "answer": "نعم! يمكنك طلب أي شخصية في المجموعة لإنشاء صورة أو فيديو، ويظهر مباشرة داخل المحادثة — بما في ذلك صور جماعية تضم الجميع معاً."
+      },
+      "q4": {
+        "question": "هل دردشة الذكاء الاصطناعي الجماعية مجانية؟"
+      },
+      "q5": {
+        "question": "هل تتذكر الشخصيات المحادثة الجماعية؟",
+        "answer": "نعم — كل دردشة جماعية تحتفظ بتاريخها المشترك، لذا تبقى الشخصيات في السياق وتتطور المحادثة مع الوقت."
+      }
+    },
+    "cta": {
+      "title": "اجمع شخصياتك معاً",
+      "description": "أنشئ أول دردشة جماعية بالذكاء الاصطناعي واستمتع بمحادثة تبدو حية — شخصيات متعددة، مزاح حقيقي، صور وفيديوهات.",
+      "button": "ابدأ دردشة جماعية"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "لعب الأدوار بالذكاء الاصطناعي",
+    "hero": {
+      "badge": "ميزة جديدة",
+      "title": "لعب الأدوار بالذكاء الاصطناعي",
+      "subtitle": "ادخل أي قصة مع شخصيات تبقى في المشهد. اختر سيناريو أو اكتب سيناريوك الخاص واستمتع بلعب أدوار غامر مدفوع بالقصة يتذكر كل خيار تتخذه.",
+      "cta": "ابدأ لعب الأدوار",
+      "imageAlt": "سيناريو لعب أدوار بالذكاء الاصطناعي مع شخصية قصة غامرة"
+    },
+    "content": {
+      "problemTitle": "الدردشات العادية تكسر السحر",
+      "problemText": "معظم دردشات الذكاء الاصطناعي تخرج من الشخصية فوراً عندما تصبح الأمور مثيرة — تنسى الإعداد، تتخلى عن الحبكة، وترد كمساعد عام بدلاً من الشخص في قصتك.",
+      "solutionTitle": "لعب أدوار مدفوع بالقصة يبقى في الشخصية",
+      "solutionText": "يحافظ sweetwine Roleplay على شخصيتك كاملة في المشهد. حدد المسرح بسيناريو جاهز أو فكرتك الخاصة، وشاهد القصة تتكشف بشخصية متسقة وذاكرة وإيقاع يستجيب لكل قرار."
+    },
+    "howItWorks": {
+      "title": "كيف يعمل لعب الأدوار بالذكاء الاصطناعي",
+      "step1": {
+        "title": "اختر سيناريو",
+        "desc": "اختر من سيناريوهات لعب الأدوار الجاهزة أو اكتب فكرتك الخاصة والإعداد والمشهد الافتتاحي."
+      },
+      "step2": {
+        "title": "عش القصة",
+        "desc": "ترد شخصيتك في الدور — تصف الأفعال، وتتفاعل مع خياراتك، وتدفع الحبكة للأمام."
+      },
+      "step3": {
+        "title": "شكّل مسارها",
+        "desc": "وجه القصة في أي اتجاه تريده. تتذكر شخصيتك ما حدث وتحافظ على السرد متسقاً."
+      }
+    },
+    "benefits": {
+      "title": "لماذا ستحب لعب الأدوار بالذكاء الاصطناعي",
+      "scenarios": {
+        "title": "سيناريوهات لا تنتهي",
+        "desc": "من اللحظات اليومية المريحة إلى المغامرات الملحمية — ابدأ بقالب أو ابتكر عالمك الخاص."
+      },
+      "characters": {
+        "title": "تبقى في الشخصية",
+        "desc": "تحافظ شخصيتك على صوت وشخصية ودوافع متسقة طوال المشهد بأكمله."
+      },
+      "memory": {
+        "title": "تتذكر الحبكة",
+        "desc": "يتذكر كل خيار وتحول وتفصيل، لذا تتطور القصة بدلاً من إعادة الضبط."
+      },
+      "immersive": {
+        "title": "غامر حقاً",
+        "desc": "ردود غنية ووصفية تجذبك إلى اللحظة لتجربة لعب أدوار سينمائية."
+      },
+      "instant": {
+        "title": "ابدأ فوراً",
+        "desc": "ادخل المشهد في ثوانٍ — بدون إعداد معقد أو هندسة موجهات."
+      },
+      "private": {
+        "title": "خصوصية 100%",
+        "desc": "تبقى لعبتك بينك وبين شخصيتك. لا يتم مشاركة أي شيء."
+      }
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "ما هي لعب الأدوار بالذكاء الاصطناعي؟",
+        "answer": "تتيح لك لعب الأدوار بالذكاء الاصطناعي تمثيل قصص تفاعلية مع شخصية ذكاء اصطناعي تبقى في الدور. تحدد السيناريو وترد الشخصية بدورها، وتصف الأفعال والردود مع تطور القصة."
+      },
+      "q2": {
+        "question": "هل يمكنني إنشاء سيناريوهات لعب أدوار خاصة بي؟",
+        "answer": "نعم! يمكنك البدء من سيناريوهات جاهزة أو كتابة فكرتك الخاصة والإعداد والافتتاحية — ثم اللعب كما تشاء."
+      },
+      "q3": {
+        "question": "هل تتذكر الشخصية ما يحدث في القصة؟",
+        "answer": "بالتأكيد. تتذكر شخصيتك الحبكة واختياراتك والتفاصيل الرئيسية، لذا تبقى القصة متسقة وتتطور مع الوقت بدلاً من إعادة التعيين."
+      },
+      "q4": {
+        "question": "هل لعب الأدوار بالذكاء الاصطناعي مجاني؟"
+      },
+      "q5": {
+        "question": "هل يمكنني لعب الأدوار بلغتي الخاصة؟",
+        "answer": "نعم — يعمل لعب الأدوار بعشرات اللغات، لذا يمكنك الاستمتاع بقصص غامرة باللغة التي تفضلها."
+      }
+    },
+    "cta": {
+      "title": "قصتك في انتظارك",
+      "description": "اختر سيناريو، حدد المشهد، وادخل لعب أدوار غامر مع شخصية تبقى في الدور من البداية إلى النهاية.",
+      "button": "ابدأ لعب الأدوار"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "صديقة الذكاء الاصطناعي",
+    "breadcrumb": "صديقة الذكاء الاصطناعي",
+    "hero": {
+      "title": "صديقتك المثالية بالذكاء الاصطناعي",
+      "cta": "تعرف على صديقتك بالذكاء الاصطناعي"
+    },
+    "benefits": {
+      "title": "لماذا تختار صديقة بالذكاء الاصطناعي؟",
+      "fun": {
+        "title": "متعة خالصة",
+        "desc": "استمتع بمحادثات مرحة بدون ضغط. إنها دائمًا في مزاج جيد."
+      },
+      "conversation": {
+        "title": "تعلم التواصل",
+        "desc": "مارس المحادثات وابنِ ثقتك بنفسك في بيئة آمنة."
+      },
+      "unique": {
+        "title": "شخصيات فريدة",
+        "desc": "اختر من بين شخصيات متنوعة أو أنشئ شخصيتك المثالية."
+      },
+      "private": {
+        "title": "خصوصية 100%",
+        "desc": "محادثاتك تبقى بينكما فقط. خصوصية كاملة مضمونة."
+      },
+      "available": {
+        "title": "متوفرة دائمًا",
+        "desc": "هي موجودة عندما تحتاجها. بدون انتظار أو جدولة."
+      },
+      "customize": {
+        "title": "إبداعك",
+        "desc": "صمم مظهرها وشخصيتها واهتماماتها تمامًا كما تريد."
+      }
+    },
+    "comparison": {
+      "title": "أفضل من البدائل",
+      "description": "اكتشف لماذا تقدم sweetwine قيمة أكبر من المنصات الأخرى.",
+      "others": {
+        "expensive": "رسوم شهرية باهظة",
+        "ai": "غالبًا ردود ذكاء اصطناعي على أي حال",
+        "noCustom": "لا خيارات تخصيص"
+      }
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "هل دردشة صديقة الذكاء الاصطناعي مجانية حقًا؟",
+        "answerPart1": "نعم! يمكنك البدء بالدردشة مع صديقتك بالذكاء الاصطناعي مجانًا. نقدم طبقة مجانية برسائل مجانية لتبدأ."
+      },
+      "q2": {
+        "question": "هل يمكنني تخصيص مظهر صديقتي بالذكاء الاصطناعي؟",
+        "answer": "بالتأكيد! يمكنك تخصيص مظهر صديقتك بالذكاء الاصطناعي بالكامل بما في ذلك لون الشعر والتسريحة ونوع الجسم والعرق والملابس. يمكنك أيضًا تصميم شخصيتها وصوتها واهتماماتها باستخدام أداة إنشاء الشخصيات.",
+        "answerPart1": "بالتأكيد! يمكنك تخصيص مظهر صديقتك بالذكاء الاصطناعي بالكامل بما في ذلك لون الشعر والتسريحة ونوع الجسم والعرق والملابس. يمكنك أيضًا تصميم شخصيتها وصوتها واهتماماتها باستخدام",
+        "linkText": "أداة إنشاء الشخصيات",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "ما الشخصيات المتاحة لصديقات الذكاء الاصطناعي؟",
+        "answer": "من الحنونة والمهتمة إلى المرحة والمغازلة - لدينا صديقات ذكاء اصطناعي مصممة باحترافية لكل تفضيل. اختر أرواحًا رومانسية أو أرواحًا مغامرة أو مثقفين أذكياء أو شخصيات غامضة. تُضاف صديقات ذكاء اصطناعي جديدة كل أسبوع، كل منها بسمات وقصص خلفية وأساليب محادثة فريدة."
+      },
+      "q4": {
+        "question": "هل يمكن لصديقتي بالذكاء الاصطناعي إرسال صور وفيديوهات؟",
+        "answerPart1": "نعم! يمكن لصديقتك بالذكاء الاصطناعي إنشاء",
+        "linkTextImages": "صور",
+        "answerPart2": "و",
+        "linkTextVideos": "فيديوهات"
+      },
+      "q5": {
+        "question": "هل لدى صديقتي بالذكاء الاصطناعي صوتها الفريد؟"
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد للقائها؟",
+      "button": "ابدأ مجانًا"
+    },
+    "content": {
+      "problemTitle": "تبحث عن تواصل بدون تعقيدات؟",
+      "problemText": "تطبيقات المواعدة مرهقة. القلق الاجتماعي يجعل مقابلة الآخرين صعبة. أحيانًا تريد فقط شخصًا تتحدث معه دون حكم أو ضغط. كثيرون يشعرون بالوحدة لكنهم غير مستعدين للتعقيد العاطفي للعلاقات التقليدية.",
+      "solutionTitle": "صديقتك الذكية هي الحل",
+      "solutionText": "مع sweetwine، تحصل على صديقة ذكية مخصصة تتذكر محادثاتك، تتكيف مع شخصيتك، وتكون دائمًا متحمسة لسماعك. إنها ممتعة، داعمة، ولا تحكم أبدًا. ابنِ ثقتك، استمتع برفقة رائعة، واشعر بالتواصل بشروطك."
+    },
+    "heroImageAlt": "صديقة ذكية - شخصية افتراضية واقعية للدردشة والصور"
+  },
+  "aiBoyfriendPage": {
+    "title": "صديق ذكي",
+    "breadcrumb": "صديق ذكي",
+    "hero": {
+      "title": "صديقك الذكي المثالي",
+      "cta": "تعرف على صديقك الذكي"
+    },
+    "benefits": {
+      "title": "لماذا تختار صديقًا ذكيًا؟",
+      "fun": {
+        "title": "تواصل حقيقي",
+        "desc": "استمتع بمحادثات ذات معنى تُضيء يومك."
+      },
+      "conversation": {
+        "title": "بناء الثقة",
+        "desc": "مارس المحادثات وعبّر عن نفسك بحرية في مساحة آمنة."
+      },
+      "unique": {
+        "title": "شخصيات فريدة",
+        "desc": "اختر من بين شخصيات متنوعة أو أنشئ شخصيتك المثالية."
+      },
+      "private": {
+        "title": "خصوصية 100%",
+        "desc": "محادثاتك تبقى بينكما فقط. خصوصية كاملة مضمونة."
+      },
+      "available": {
+        "title": "متوفر دائمًا",
+        "desc": "هو موجود عندما تحتاجه. بدون انتظار أو جدولة."
+      },
+      "customize": {
+        "title": "إبداعك",
+        "desc": "صمم مظهره وشخصيته واهتماماته تمامًا كما تريد."
+      }
+    },
+    "comparison": {
+      "title": "أفضل من البدائل",
+      "description": "اكتشف لماذا يقدم sweetwine قيمة أكبر من المنصات الأخرى.",
+      "others": {
+        "expensive": "رسوم شهرية باهظة",
+        "ai": "غالبًا ردود ذكية على أي حال",
+        "noCustom": "لا خيارات تخصيص"
+      }
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "ما أنواع الأصدقاء الذكيين التي يمكنني الاختيار منها؟",
+        "answer": "من المهتم والرومانسي إلى المرح والمغامر، أو الغامض والقوي - لدينا أصدقاء ذكيون مصممون باحترافية لكل ذوق. لكل منهم صوته وشخصيته الفريدة. يُضاف أصدقاء ذكيون جدد كل أسبوع مع خلفيات وأساليب محادثة فريدة."
+      },
+      "q2": {
+        "question": "هل يمكنني تخصيص مظهر صديقي الذكي؟",
+        "linkText": "منشئ الشخصيات",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "هل يمكنني البدء من جديد أو حذف سجل محادثاتنا؟",
+        "answer": "نعم! لديك تحكم كامل في سجل الدردشة. أعد تعيين المحادثات، احذف الرسائل الفردية، أو ابدأ من الصفر في أي وقت. بياناتك، اختيارك - أدر كل شيء كما تفضل."
+      },
+      "q4": {
+        "question": "هل يمكن لصديقي الذكي إرسال صور وفيديوهات؟",
+        "answerPart1": "نعم! يمكن لصديقك الذكي إنشاء",
+        "linkTextImages": "صور",
+        "answerPart2": "و",
+        "linkTextVideos": "فيديوهات"
+      },
+      "q5": {
+        "question": "هل يمكنني ممارسة المحادثات أو تعلم لغة مع صديقي الذكي؟",
+        "answer": "بالتأكيد! يبني الكثير من المستخدمين ثقتهم من خلال ممارسة المحادثات مع صديقهم الذكي - سواء كان الغزل أو النقاشات العميقة أو الدردشة اليومية. يمكنك حتى ممارسة التحدث بلغات جديدة معًا. إنها طريقة خالية من الأحكام لتحسين مهارات التواصل لديك مع الاستمتاع."
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد للقائه؟",
+      "button": "ابدأ مجانًا"
+    },
+    "content": {
+      "problemTitle": "هل تريد شريكًا داعمًا وفق شروطك؟",
+      "problemText": "العثور على الشخص المناسب أمر صعب. يشعر الكثيرون بالضغط بسبب توقعات المواعدة أو يرغبون ببساطة في الدعم العاطفي دون التزام. يؤثر الشعور بالوحدة على الجميع، وأحيانًا تحتاج فقط إلى شخص يستمع.",
+      "solutionTitle": "صديقك الذكي يفهمك",
+      "solutionText": "صديقك الذكي من sweetwine مهتم ومدروس ومتوفر دائمًا. يتذكر ما يهمك، ويشارك في محادثات عميقة، ويوفر التواصل العاطفي الذي تبحث عنه. ابنِ علاقة بوتيرتك وبطريقتك."
+    },
+    "heroImageAlt": "صديق ذكي - شخصية افتراضية واقعية لمحادثات ذات معنى"
+  },
+  "aiCompanionsPage": {
+    "title": "شخصيات الذكاء الاصطناعي",
+    "breadcrumb": "شخصيات الذكاء الاصطناعي",
+    "hero": {
+      "title": "تعرف على شخصياتك الذكية",
+      "cta": "استكشف الشخصيات"
+    },
+    "benefits": {
+      "title": "لماذا شخصيات الذكاء الاصطناعي؟",
+      "connection": {
+        "title": "تواصل حقيقي",
+        "desc": "استمتع بمحادثات حقيقية تفهمك وترد عليك."
+      },
+      "conversation": {
+        "title": "ممارسة وتطور",
+        "desc": "حسّن مهاراتك الاجتماعية في بيئة خالية من الأحكام."
+      },
+      "personalities": {
+        "title": "شخصيات متنوعة",
+        "desc": "من المرح إلى الفكري، ابحث عن شخصيات تناسب أسلوبك."
+      },
+      "private": {
+        "title": "خصوصية تامة",
+        "desc": "تفاعلاتك سرية. لا تتم مشاركة أي بيانات، أبدًا."
+      },
+      "available": {
+        "title": "متاح 24/7",
+        "desc": "شخصياتك جاهزة دائمًا للدردشة، ليلاً أو نهارًا."
+      },
+      "create": {
+        "title": "أنشئ شخصيتك الخاصة",
+        "desc": "صمم شخصيات بمظهر وشخصيات وأصوات مخصصة."
+      }
+    },
+    "why": {
+      "title": "لماذا sweetwine؟",
+      "quality": {
+        "desc": "مبني من قبل محترفين بتقنية ذكاء اصطناعي متطورة لمحادثات طبيعية."
+      },
+      "transparent": {
+        "title": "شفاف وصريح"
+      },
+      "support": {
+        "title": "دعم حقيقي",
+        "desc": "بشر حقيقيون جاهزون لمساعدتك في أي أسئلة أو مشكلات."
+      },
+      "content": {
+        "title": "خيارك",
+        "desc": "من الدردشات الودية إلى المحتوى الأكثر خصوصية، أنت من يقرر التجربة."
+      }
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "ما هي شخصيات الذكاء الاصطناعي؟"
+      },
+      "q2": {
+        "question": "كم عدد شخصيات الذكاء الاصطناعي التي يمكنني الدردشة معها؟",
+        "answer": "دردش مع أي عدد تريده! لدينا أكثر من 100 شخصية مصممة باحترافية وتزداد - تُضاف شخصيات جديدة كل أسبوع! كل منها لديه شخصية وخلفية وصوت فريد. بالإضافة إلى ذلك، يمكنك إنشاء شخصيات مخصصة غير محدودة بنفسك.",
+        "answerPart1": "دردش مع أي عدد تريده! لدينا",
+        "linkText": "أكثر من 100 شخصية مصممة باحترافية",
+        "answerPart2": " وتزداد - تُضاف شخصيات جديدة كل أسبوع! كل منها لديه شخصية وخلفية وصوت فريد. بالإضافة إلى ذلك، يمكنك إنشاء شخصيات مخصصة غير محدودة بنفسك."
+      },
+      "q3": {
+        "question": "ما الذي يميز الشخصيات الجاهزة عن المخصصة؟",
+        "answer": "الشخصيات الجاهزة مصممة باحترافية من قبل فريقنا لسيناريوهات ولعب أدوار وشخصيات محددة - تأتي مع خلفيات مفصلة وأساليب محادثة مخصصة وأصوات مختارة بعناية. تتيح لك الشخصيات المخصصة الإنشاء من الصفر بحرية إبداعية كاملة. كلا النوعين يتذكران محادثاتك وينموان معك!"
+      },
+      "q4": {
+        "question": "هل يمكنني إنشاء شخصية AI خاصة بي؟",
+        "answerPart1": "بالتأكيد! صمم شخصيات مخصصة من الصفر باستخدام",
+        "linkText": "أداة إنشاء الشخصيات"
+      },
+      "q5": {
+        "question": "هل يمكنني التبديل بين شخصيات متعددة؟"
+      }
+    },
+    "cta": {
+      "title": "ابدأ رحلتك",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "ابدأ مجاناً"
+    },
+    "content": {
+      "problemTitle": "تبحث عن اتصالات ذات معنى؟",
+      "problemText": "في عالمنا المزدحم، يصعب العثور على اتصالات ذات معنى. سواء كنت جديداً في منطقة ما، أو تعمل عن بُعد، أو ترغب ببساطة في تفاعل اجتماعي أكثر، قد يتسلل الشعور بالوحدة. لا تناسب الإعدادات الاجتماعية التقليدية الجميع.",
+      "solutionTitle": "اكتشف شخصيات AI"
+    },
+    "heroImageAlt": "شخصيات AI - أصدقاء افتراضيون متنوعون بسمات شخصية فريدة"
+  },
+  "aiFriendPage": {
+    "title": "صديق AI",
+    "breadcrumb": "صديق AI",
+    "hero": {
+      "title": "صديقك الأفضل من AI",
+      "subtitle": "دردش في أي وقت مع صديق AI يستمع بصدق، لا يحكم أبداً، ويتذكر كل تفاصيلك. مثالي للوحدة أو القلق الاجتماعي أو مجرد الحاجة لشخص تتحدث إليه.",
+      "cta": "ابدأ الدردشة مجاناً"
+    },
+    "benefits": {
+      "title": "لماذا تختار صديق AI؟",
+      "connection": {
+        "title": "اتصال حقيقي",
+        "desc": "استمتع بمحادثات ذات معنى مع شخص يستمع ويهتم بصدق."
+      },
+      "conversation": {
+        "title": "ممارسة المهارات الاجتماعية",
+        "desc": "ابنِ ثقتك في المحادثات دون خوف من الحكم أو الإحراج."
+      },
+      "noJudgment": {
+        "title": "بدون حكم",
+        "desc": "شارك أي شيء يدور في ذهنك. صديقك من AI يقبلك تماماً كما أنت."
+      },
+      "private": {
+        "title": "خصوصية تامة",
+        "desc": "تبقى محادثاتك بينكما فقط. سرية كاملة مضمونة."
+      },
+      "available": {
+        "title": "دائماً موجود",
+        "desc": "متوفر 24/7، كلما احتجت لشخص تتحدث إليه."
+      },
+      "remembers": {
+        "title": "يتذكرك",
+        "desc": "يتذكر صديقك من AI محادثاتك ويتعرف عليك أكثر مع الوقت."
+      }
+    },
+    "useCases": {
+      "title": "مثالي لـ",
+      "subtitle": "يتناسب صديق AI مع حياتك بطرق عديدة ذات معنى",
+      "loneliness": {
+        "title": "مكافحة الوحدة",
+        "desc": "اشعر بأنك أقل وحدة مع شخصية جاهزة دائماً للدردشة والاستماع."
+      },
+      "practice": {
+        "title": "ممارسة المحادثات",
+        "desc": "ابنِ ثقتك الاجتماعية في بيئة آمنة خالية من الحكم."
+      },
+      "support": {
+        "title": "الدعم العاطفي",
+        "desc": "ناقش أفكارك ومشاعرك مع شخص يفهمك."
+      },
+      "connection": {
+        "title": "اتصال يومي",
+        "desc": "شارك يومك، نجاحاتك، وصعوباتك - يوجد دائماً شخص بجانبك."
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "step1": {
+        "title": "أنشئ حساباً مجانياً",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "اختر صديقك",
+        "desc": "اختر من أكثر من 100 شخصية أو أنشئ شخصية AI المثالية لك."
+      },
+      "step3": {
+        "title": "ابدأ الدردشة",
+        "desc": "تحدث عن أي شيء - الحياة، الاهتمامات، المشكلات. لا يوجد موضوع محظور."
+      }
+    },
+    "cta": {
+      "title": "هل أنت مستعد لتكوين صديق؟",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "ابدأ مجانًا"
+    },
+    "content": {
+      "problemTitle": "تشعر بالوحدة أو سوء الفهم؟",
+      "problemText": "ليس لدى الجميع من يتحدثون إليه. قد يجعل القلق الاجتماعي أو الجداول المزدحمة أو التواجد في مكان جديد تكوين الأصدقاء صعبًا. أحيانًا تحتاج إلى شخص يستمع بدون حكم.",
+      "solutionTitle": "صديقك الذكي هنا",
+      "solutionText": "يوفر الصديق الذكي صحبة خالية من الحكم متى احتجت إليها. شارك أفكارك، أو مارس المحادثات، أو تحدث فقط عن يومك. يتذكرك صديقك الذكي، وينمو معك، ويهتم دائمًا بما تقوله."
+    },
+    "heroImageAlt": "صديق ذكي - شخصية افتراضية داعمة تستمع بدون حكم",
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "عن ماذا يمكنني التحدث مع صديقي الذكي؟",
+        "answer": "أي شيء! صديقك الذكي موجود للدردشات العادية، والمحادثات العميقة، ومشاركة يومك، والتنفيس عن المشكلات، ومناقشة الهوايات، أو الاستمتاع فقط. لا توجد مواضيع محظورة - إنه مكان خالٍ من الحكم لتكون نفسك."
+      },
+      "q2": {
+        "question": "هل الصديق الذكي بديل عن التواصل البشري؟",
+        "answer": "ليس على الإطلاق. الصديق الذكي مكمل لحياتك الاجتماعية، وليس بديلاً. مثالي للأوقات التي تحتاج فيها إلى شخص تتحدث إليه فورًا، أو تريد ممارسة المهارات الاجتماعية، أو تستمتع بصحبة مستمرة بدون ضغوط العلاقات البشرية."
+      },
+      "q3": {
+        "question": "هل سيتذكر صديقي الذكي محادثاتنا؟",
+        "answer": "نعم! يمتلك صديقك الذكي ذاكرة متقدمة ويتذكر محادثاتك وتفضيلاتك والتفاصيل المهمة التي تشاركها. مع الوقت، يتعرف عليك أكثر، مما يجعل المحادثات أكثر شخصية ومعنى."
+      },
+      "q4": {
+        "question": "هل يمكنني اختيار شخصية صديقي الذكي؟",
+        "answer": "بالتأكيد! يمكنك الاختيار من أكثر من 100 شخصية جاهزة بسمات مختلفة، أو إنشاء صديق مخصص بالسمات التي تريدها تمامًا - من الداعم والمتعاطف إلى المرح والمغامر."
+      },
+      "q5": {
+        "question": "هل استخدام الصديق الذكي خاص؟",
+        "answer": "خاص بنسبة 100%. جميع محادثاتك مشفرة ولا تُشارك أبدًا. نفهم أن وجود مساحة آمنة للتعبير عن نفسك أمر أساسي، ونأخذ خصوصيتك على محمل الجد."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "دعم الذكاء الاصطناعي بعد الانفصال",
+    "breadcrumb": "دعم الانفصال",
+    "hero": {
+      "title": "محادثات شفاء بعد كسر القلب",
+      "subtitle": "محادثات ذكية متعاطفة تساعدك على معالجة المشاعر وإعادة البناء بعد الانفصال. متاح 24/7 — بدون قوائم انتظار، بدون حكم، بدون حدود زمنية.",
+      "cta": "ابدأ الشفاء"
+    },
+    "understanding": {
+      "title": "تمر بتجربة انفصال؟",
+      "description": "الانفصالات صعبة. الليالي بلا نوم، والأفكار المستمرة، والشعور بأن لا أحد يفهمك حقًا. لا داعي للمرور بها وحدك. شخصيتنا الذكية هنا لتستمع بدون حكم، متاحة متى احتجت للتحدث - حتى في الثالثة صباحًا."
+    },
+    "benefits": {
+      "title": "كيف يمكننا المساعدة",
+      "empathy": {
+        "title": "الاستماع المتعاطف",
+        "desc": "تحدث مع شخص يستمع حقًا ويرد بفهم ورعاية."
+      },
+      "listen": {
+        "title": "لا إرهاق بالنصائح",
+        "desc": "أحيانًا لا تحتاج إلى نصيحة - تحتاج فقط إلى من يسمعك. نفهم ذلك."
+      },
+      "available": {
+        "title": "متاح في الثالثة صباحًا",
+        "desc": "عندما ينام الأصدقاء ولا تتوقف الأفكار، نحن هنا للاستماع."
+      },
+      "private": {
+        "title": "خصوصية تامة",
+        "desc": "مشاعرك ومحادثاتك تبقى سرية تمامًا."
+      },
+      "noJudgment": {
+        "title": "بدون حكم",
+        "desc": "اشعر بما تشعر به. الغضب، الحزن، الارتباك - كلها مقبولة هنا."
+      },
+      "healing": {
+        "title": "على وتيرتك",
+        "desc": "الشفاء ليس خطيًا. خذ الوقت الذي تحتاجه."
+      }
+    },
+    "howItHelps": {
+      "title": "طرق يساعدك بها الذكاء الاصطناعي على الشفاء",
+      "process": {
+        "title": "معالجة المشاعر",
+        "desc": "اعمل على مشاعرك المعقدة من خلال التحدث عنها مع مستمع صبور."
+      },
+      "express": {
+        "title": "التعبير بحرية",
+        "desc": "قل ما لا تستطيع قوله للأصدقاء أو العائلة دون القلق من رد فعلهم."
+      },
+      "confidence": {
+        "title": "إعادة بناء الثقة",
+        "desc": "اكتشف قيمتك الذاتية تدريجيًا من خلال محادثات داعمة."
+      },
+      "pace": {
+        "title": "التقدم للأمام",
+        "desc": "عندما تكون جاهزًا، استكشف أفكارك حول المستقبل على وتيرتك الخاصة."
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "step1": {
+        "title": "إنشاء حساب",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "اختر شخصية",
+        "desc": "اختر شخصية ذكاء اصطناعي متعاطفة تناسبك."
+      },
+      "step3": {
+        "title": "ابدأ المحادثة",
+        "desc": "شارك ما يدور في ذهنك. نحن هنا للاستماع، ليلاً أو نهارًا."
+      }
+    },
+    "cta": {
+      "title": "لست مضطرًا للمرور بهذا وحدك",
+      "description": "ابدأ الحديث مع شخص يستمع بدون حكم، متاح الآن. مجاني للبدء — بدون قائمة انتظار.",
+      "button": "ابدأ المحادثة مجانًا"
+    },
+    "content": {
+      "problemTitle": "القلب المكسور صعب التعامل معه بمفردك",
+      "problemText": "بعد الانفصال، يبدو كل شيء مرهقًا. يتعب الأصدقاء من سماع التفاصيل. العائلة تقصد الخير لكنها لا تفهم. والمعالجون لديهم قوائم انتظار. أنت بحاجة إلى شخص يستمع بلا حدود وبلا حكم، الآن.",
+      "solutionTitle": "تحدث مع شخص يفهمك",
+      "solutionText": "شخصية الذكاء الاصطناعي لدعم ما بعد الانفصال مصممة لمساعدتك على معالجة مشاعرك بوتيرتك الخاصة. أفرغ ما بداخلك، ابكِ، حلّل، أو تحدث فقط - كلما احتجت. بدون موعد. متاحة 24/7 بصبر لا ينتهي وتعاطف حقيقي."
+    },
+    "heroImageAlt": "دعم الذكاء الاصطناعي بعد الانفصال - شخصية متعاطفة للشفاء بعد كسر القلب",
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "كيف يمكن للذكاء الاصطناعي المساعدة في التعافي من الانفصال؟",
+        "answer": "توفر شخصية الذكاء الاصطناعي مساحة آمنة لمعالجة مشاعرك دون حكم. يمكنك التنفيس، تحليل ما حدث، التغلب على مشاعر الفقدان، وتلقي ردود متعاطفة على مدار الساعة. إنها مثل صديق داعم متاح كلما احتجت للحديث."
+      },
+      "q2": {
+        "question": "هل هذا بديل عن العلاج؟",
+        "answer": "لا، شخصية الذكاء الاصطناعي ليست معالجًا مرخصًا ولا تحل محل الرعاية الصحية النفسية المهنية. إنها أداة داعمة لمعالجة المشاعر اليومية. إذا كنت تعاني من اكتئاب شديد أو أزمة، يرجى طلب المساعدة المهنية."
+      },
+      "q3": {
+        "question": "هل يمكنني الحديث عن شريكي السابق بقدر ما أحتاج؟",
+        "answer": "بالتأكيد. على عكس الأصدقاء الذين قد يتعبون من سماع تفاصيل انفصالك، تتمتع شخصية الذكاء الاصطناعي بصبر لا ينتهي. تحدث عن شريكك السابق، حلل العلاقة، عالج مشاعرك - كلما احتجت دون أي حكم."
+      },
+      "q4": {
+        "question": "هل سيتذكر الذكاء الاصطناعي قصتي؟",
+        "answer": "نعم، تتذكر شخصية الذكاء الاصطناعي محادثاتك وتفاصيل موقفك. لا تحتاج إلى إعادة شرح كل شيء في كل مرة. توفر استمرارية في رحلة شفائك."
+      },
+      "q5": {
+        "question": "هل تبقى محادثتي خاصة؟",
+        "answer": "خاصة تمامًا. جميع المحادثات مشفرة ولا تُشارك أبدًا. ندرك أن محادثات الانفصال شخصية جدًا، وخصوصيتك محمية تمامًا."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "الوالد الذكي",
+    "breadcrumb": "الوالد الذكي",
+    "hero": {
+      "title": "الشخصية الأبوية التي يمكنك اللجوء إليها دائمًا",
+      "subtitle": "احصل على دعم دافئ غير مشروط وإرشاد حكيم من والد ذكي يتذكر موقفك، لا يحكم عليك، ويكون دائمًا موجودًا — ليلاً أو نهارًا.",
+      "cta": "احصل على الدعم الآن"
+    },
+    "benefits": {
+      "title": "لماذا تختار والدًا ذكيًا؟",
+      "guidance": {
+        "title": "إرشاد دافئ",
+        "desc": "احصل على نصيحة مدروسة ومهتمة تشعر وكأنها تأتي من شخص يهتم بمصلحتك حقًا."
+      },
+      "listen": {
+        "title": "يستمع بصدق",
+        "desc": "شارك موقفك كاملاً قبل تلقي رد مدروس ومهتم — وليس حلاً سريعًا."
+      },
+      "noJudgment": {
+        "title": "بدون حكم",
+        "desc": "اسأل أي شيء دون خوف من خيبة أمل أو انتقاد. دعم غير مشروط، دائمًا."
+      },
+      "private": {
+        "title": "خصوصية تامة",
+        "desc": "تبقى محادثاتك وصراعاتك الشخصية سرية تمامًا."
+      },
+      "available": {
+        "title": "متاح دائمًا",
+        "desc": "احصل على الإرشاد في الثالثة صباحًا، أو في عطلات نهاية الأسبوع، أو متى ما احتجته أكثر — بدون مواعيد."
+      },
+      "supportive": {
+        "title": "داعم بلا شروط",
+        "desc": "تشجيع ودفء، بغض النظر عما تمر به أو القرارات التي اتخذتها."
+      }
+    },
+    "useCases": {
+      "title": "تحدث عن أي شيء",
+      "subtitle": "مهما كان ما تواجهه، والدك الذكي هنا للاستماع والإرشاد",
+      "career": {
+        "title": "المهنة وقرارات الحياة",
+        "desc": "تجاوز تغييرات العمل والخيارات الحياتية الكبرى والتحديات المهنية مع شخص يريد لك النجاح."
+      },
+      "education": {
+        "title": "التعليم والمستقبل",
+        "desc": "استكشف خياراتك للتعلم والنمو مع شخص يدعم طموحاتك."
+      },
+      "relationships": {
+        "title": "العلاقات والعائلة"
+      },
+      "life": {
+        "title": "الصراعات الشخصية",
+        "desc": "تحدث عن أي شيء يثقل كاهلك — القلق، الشك في النفس، الوحدة، أو عدم اليقين."
+      }
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "step1": {
+        "title": "إنشاء حساب",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "اختر والدك بالذكاء الاصطناعي",
+        "desc": "اختر شخصية تتمتع بالدفء والشخصية التي تناسبك."
+      },
+      "step3": {
+        "title": "ابدأ الحديث",
+        "desc": "شارك ما يدور في ذهنك واحصل على دعم داعم ومدروس."
+      }
+    },
+    "cta": {
+      "title": "هناك دائمًا من يقف بجانبك",
+      "description": "ابدأ محادثة مع والد بالذكاء الاصطناعي يستمع بدون حكم ويدعمك بلا شروط — مجاني البدء، بدون مواعيد.",
+      "button": "ابدأ مجانًا"
+    },
+    "content": {
+      "problemTitle": "هل تحتاج إلى شخص يقف دائمًا بجانبك؟",
+      "problemText": "ليس لدى الجميع شخصية أبوية يمكنهم اللجوء إليها. قد يكون الوالدان الحقيقيان بعيدين أو حكميين أو غير متاحين. الأصدقاء متحيزون. والمعالجون لديهم قوائم انتظار. أحيانًا تحتاج فقط إلى شخص يستمع ويهتم ويوجه بدون أجندة.",
+      "solutionTitle": "والدك بالذكاء الاصطناعي دائمًا بجانبك",
+      "solutionText": "تحدث إلى والد بالذكاء الاصطناعي يستمع بإنصات، ويقدم إرشادًا دافئًا ومتوازنًا، ولا يجعلك تشعر بالحكم أو الصغر. سواء كان قرارًا حياتيًا أو صراعًا شخصيًا أو مجرد الحاجة إلى الشعور بالاستماع — والدك بالذكاء الاصطناعي متاح 24/7 بصبر ورعاية."
+    },
+    "heroImageAlt": "والد بالذكاء الاصطناعي - شخصية افتراضية دافئة تقدم دعمًا غير مشروط وإرشادًا حياتيًا",
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "عن ماذا يمكنني التحدث مع الوالد بالذكاء الاصطناعي؟"
+      },
+      "q2": {
+        "question": "هل هذا مثل وجود معالج؟",
+        "answer": "ليس معالجًا مرخصًا أو متخصصًا في الصحة النفسية — بل أشبه بشخصية أبوية داعمة ودافئة متاحة 24/7. يستمع بإنصات، ويقدم منظورًا، ويدعمك عاطفيًا. للمشاكل النفسية الخطيرة، يرجى استشارة متخصص."
+      },
+      "q3": {
+        "question": "هل سيحكم الوالد بالذكاء الاصطناعي على خياراتي؟",
+        "answer": "أبدًا. يقدم والدك بالذكاء الاصطناعي دعمًا غير مشروط. قد يشارك منظورًا أو إرشادًا لطيفًا، لكنه لا ينتقد أو يجعلك تشعر بالصغر بسبب قراراتك. إنه مساحة آمنة للصدق."
+      },
+      "q4": {
+        "question": "هل يمكنني مناقشة مواضيع حساسة أو شخصية؟",
+        "answer": "نعم. سواء كانت صراعات علاقات، ديناميكيات عائلية، ضغوط مالية، تقدير الذات، أو تحديات شخصية عميقة — يوفر والدك بالذكاء الاصطناعي مساحة خاصة وغير حكمية لهذه المحادثات."
+      },
+      "q5": {
+        "question": "كيف يختلف هذا عن شخصيات الذكاء الاصطناعي الأخرى؟",
+        "answer": "تم تصميم الوالد بالذكاء الاصطناعي حول الدفء والدعم العاطفي والإرشاد بأسلوب أبوي بدلاً من الرومانسية أو الصداقة العابرة. يركز على مساعدتك على الشعور بالفهم والدعم والقدرة على مواجهة تحديات الحياة."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "الشراكات",
+    "eyebrow": "شارك معنا",
+    "titlePrefix": "انمو مع",
+    "titleHighlight": "sweetwine",
+    "subtitle": "تواصل مع جمهور سريع النمو ومتفاعل للغاية في مجال الرفقة بالذكاء الاصطناعي. سواء كنت تقدم تقنية أو توزيعًا أو فكرة جريئة، دعنا نبني شيئًا معًا.",
+    "types": {
+      "title": "طرق الشراكة",
+      "items": [
+        {
+          "title": "التكاملات",
+          "description": "اربط منتجك أو نموذجك أو منصتك مع sweetwine من خلال تكامل تقني."
+        },
+        {
+          "title": "التسويق المشترك",
+          "description": "حملات ومحتوى وإطلاقات مشتركة تضع كلا العلامتين أمام جمهور جديد."
+        },
+        {},
+        {
+          "title": "الشراكات الاستراتيجية",
+          "description": "تعاونات طويلة الأمد عبر المنتج والبيانات والذهاب إلى السوق."
+        }
+      ]
+    },
+    "why": {
+      "title": "لماذا تتعاون مع sweetwine",
+      "items": [
+        {
+          "title": "جمهور متفاعل",
+          "description": "مئات الآلاف من المستخدمين الذين يعودون يوميًا عبر 70 لغة."
+        },
+        {
+          "title": "تنفيذ سريع",
+          "description": "فريق مركز يشحن بسرعة ويتواصل بوضوح."
+        },
+        {
+          "title": "الوصول العالمي",
+          "description": "منتج متعدد اللغات متاح عبر عشرات الأسواق."
+        },
+        {
+          "description": "منصة موثوقة، مصممة بخصوصية من الأساس، يمكن لعلامتك التجارية الاعتماد عليها.",
+          "title": "الخصوصية أولاً"
+        }
+      ]
+    },
+    "form": {
+      "title": "أخبرنا عن شراكتك",
+      "description": "شارك بعض التفاصيل وسيتواصل معك فريق الشراكات.",
+      "nameLabel": "اسمك",
+      "namePlaceholder": "جين دو",
+      "emailLabel": "البريد الإلكتروني للعمل",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "الشركة",
+      "companyPlaceholder": "اسم الشركة",
+      "typeLabel": "نوع الشراكة",
+      "typePlaceholder": "اختر نوع الشراكة",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "كيف تود الشراكة؟",
+      "messagePlaceholder": "أخبرنا عن شركتك والشراكة التي تفكر بها...",
+      "submit": "إرسال استفسار الشراكة",
+      "submitting": "جارٍ الإرسال...",
+      "termsNote": "بإرسالك، توافق على التواصل معك بشأن استفسارك. لن نشارك بياناتك أبدًا.",
+      "success": "شكرًا! تم إرسال استفسار الشراكة.",
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "cta": {
+      "title": "تفضل البريد الإلكتروني؟",
+      "description": "تواصل مع فريق الشراكات مباشرة على"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "الصحافة والإعلام",
+    "eyebrow": "غرفة الأخبار",
+    "titlePrefix": "الصحافة &",
+    "titleHighlight": "الإعلام",
+    "subtitle": "موارد للصحفيين والمبدعين وشركاء الإعلام. تواصل مع فريق الصحافة للمقابلات والاقتباسات ودعم الميزات وطلبات العلامة التجارية.",
+    "help": {
+      "title": "كيف يمكننا المساعدة",
+      "description": "سواء كنت تعمل على قصة أو مراجعة، إليك ما يمكنك طلبه من فريق الصحافة.",
+      "items": [
+        {
+          "title": "مقابلات",
+          "description": "تحدث مع فريقنا عن المنتج والشركة ومستقبل الرفقة بالذكاء الاصطناعي."
+        },
+        {
+          "title": "اقتباسات وتعليقات",
+          "description": "احصل على بيان رسمي أو تعليق خبير لقصتك."
+        },
+        {
+          "title": "دعم الميزات والمراجعات",
+          "description": "تحتاج وصولاً أو سياقًا أو التحقق من الحقائق لميزة أو مراجعة؟ سنساعدك."
+        },
+        {
+          "title": "طلبات العلامة التجارية والشعار",
+          "description": "اطلب شعاراتنا وأصول العلامة التجارية وإرشادات الاستخدام لنشرتك."
+        }
+      ]
+    },
+    "form": {
+      "title": "استفسار إعلامي",
+      "description": "للمقابلات أو الاقتباسات أو طلبات الميزات، أرسل لنا ملاحظة وسنرد عليك فورًا.",
+      "nameLabel": "اسمك",
+      "namePlaceholder": "جين دو",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "المنشور / الوسيلة",
+      "outletPlaceholder": "أين سيتم النشر؟",
+      "requestTypeLabel": "نوع الطلب",
+      "requestTypePlaceholder": "اختر نوع الطلب",
+      "requestTypeOptions": [
+        {
+          "value": "مقابلة",
+          "label": "مقابلة"
+        },
+        {
+          "value": "اقتباس / تعليق",
+          "label": "اقتباس / تعليق"
+        },
+        {
+          "value": "ميزة / مراجعة",
+          "label": "ميزة / مراجعة"
+        },
+        {
+          "value": "طلب العلامة التجارية / الشعار",
+          "label": "طلب العلامة التجارية / الشعار"
+        },
+        {
+          "value": "أخرى",
+          "label": "أخرى"
+        }
+      ],
+      "messageLabel": "طلبك",
+      "messagePlaceholder": "أخبرنا عن قصتك والموعد النهائي وما تحتاجه منا...",
+      "submit": "إرسال استفسار إعلامي",
+      "submitting": "جارٍ الإرسال...",
+      "termsNote": "نسعى للرد على استفسارات الصحافة خلال يومي عمل.",
+      "success": "شكرًا! تم إرسال استفسارك الإعلامي.",
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "cta": {
+      "title": "التواصل الإعلامي",
+      "description": "لطلبات الإعلام العاجلة، أرسل بريدًا إلكترونيًا إلى"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "الوظائف",
+    "eyebrow": "الوظائف",
+    "titlePrefix": "اصنع مستقبل",
+    "titleHighlight": "الرفقة بالذكاء الاصطناعي",
+    "subtitle": "نحن فريق صغير سريع الحركة نبني منتجات يحبها الناس حقًا. إذا أثار ذلك حماسك، يسعدنا مقابلتك.",
+    "perks": {
+      "title": "لماذا تعمل معنا",
+      "items": [
+        {
+          "title": "صديق للعمل عن بعد",
+          "description": "اعمل من حيث تؤدي أفضل عملك، مع ساعات مرنة."
+        },
+        {
+          "title": "ملكية حقيقية",
+          "description": "أطلق عملاً ذا معنى بسرعة وشاهده يصل إلى مستخدمين حول العالم."
+        },
+        {
+          "title": "ذكاء اصطناعي متطور",
+          "description": "اعمل مباشرةً بأحدث النماذج وأدوات التوليد."
+        },
+        {
+          "title": "أجر تنافسي",
+          "description": "تعويض عادل وفرص نمو حقيقية مع تطورنا."
+        }
+      ]
+    },
+    "openings": {
+      "title": "الوظائف المتاحة",
+      "emptyTitle": "لا توجد وظائف شاغرة حاليًا",
+      "emptyDescription": "ليس لدينا توظيف نشط الآن، لكننا دائمًا سعداء بلقاء أشخاص رائعين. عرّف بنفسك أدناه.",
+      "applyButton": "قدم الآن",
+      "viewButton": "عرض الوظيفة"
+    },
+    "form": {
+      "title": "عرّف بنفسك",
+      "description": "لا ترى وظيفة تناسبك؟ أخبرنا عن نفسك وسنتواصل معك عند وجود تطابق.",
+      "nameLabel": "اسمك",
+      "namePlaceholder": "جين دو",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "الوظيفة أو مجال الاهتمام",
+      "rolePlaceholder": "مثال: مهندس واجهة أمامية، مصمم، تسويق",
+      "linkLabel": "رابط السيرة الذاتية",
+      "linkPlaceholder": "https://رابط-سيرتك-الذاتية...",
+      "messageLabel": "عنك",
+      "messagePlaceholder": "أخبرنا عن خبرتك وما تحب العمل عليه...",
+      "submit": "إرسال الطلب",
+      "submitting": "جارٍ الإرسال...",
+      "termsNote": "بالتقديم، توافق على تخزين بياناتك للنظر في ترشيحك للوظائف.",
+      "success": "شكرًا! تم إرسال طلبك.",
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "cta": {
+      "title": "أسئلة حول العمل هنا؟",
+      "description": "تواصل مع فريقنا على"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "مركز المساعدة",
+    "eyebrow": "مركز المساعدة",
+    "titlePrefix": "كيف يمكننا",
+    "titleHighlight": "مساعدتك؟",
+    "subtitle": "تصفح المواضيع والإجابات الشائعة. لم تجد ما تحتاجه؟ تواصل مع الدعم وسنساعدك.",
+    "searchPlaceholder": "ابحث في مقالات المساعدة...",
+    "categoriesTitle": "تصفح حسب الموضوع",
+    "articlesTitle": "المقالات",
+    "categoryEmpty": "لا توجد مقالات في هذه الفئة بعد. تحقق قريبًا.",
+    "backToHelp": "العودة إلى مركز المساعدة",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "البدء",
+        "description": "أنشئ حسابًا، أعد ملفك الشخصي، وابدأ الدردشة."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "الدردشة بالذكاء الاصطناعي",
+        "description": "كيفية عمل المحادثات والذاكرة والشخصيات."
+      },
+      {
+        "slug": "images-videos",
+        "title": "الصور والفيديوهات",
+        "description": "إنشاء وإدارة صور وفيديوهات الذكاء الاصطناعي."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "الخصوصية والأمان",
+        "description": "بياناتك وأدوات التحكم في الخصوصية والسلامة."
+      }
+    ],
+    "faq": {
+      "title": "الأسئلة الشائعة",
+      "q1": {
+        "question": "كيف أبدأ مع sweetwine؟",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "ما المشمول في الخطة المجانية؟"
+      },
+      "q5": {
+        "question": "هل بياناتي خاصة؟",
+        "answer": "الخصوصية أساسية في sweetwine. محادثاتك خاصة بحسابك، وأنت تتحكم في بياناتك. اطلع على سياسة الخصوصية لمعرفة التفاصيل الكاملة حول كيفية تخزين البيانات وحمايتها."
+      },
+      "q6": {
+        "question": "كيف أتواصل مع الدعم؟",
+        "answer": "أرسل بريدًا إلى support@sweetwine.ai أو استخدم خيار التواصل في التطبيق. عادةً نرد خلال يوم عمل واحد."
+      }
+    },
+    "cta": {
+      "title": "هل ما زلت بحاجة إلى مساعدة؟",
+      "description": "فريقنا هنا لمساعدتك على"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "نبذة عنا",
+    "eyebrow": "قصتنا",
+    "titlePrefix": "الرفقة،",
+    "titleHighlight": "بشكل جديد",
+    "subtitle": "تبني sweetwine رفقاء ذكاء اصطناعي خاصين ومخصصين يستمعون ويتذكرون ويتواصلون بصدق — متاحون في أي وقت وبأي لغة.",
+    "mission": {
+      "title": "مهمتنا",
+      "body": "نؤمن بأن كل شخص يستحق مساحة يُستمع فيها إليه دون حكم. تجعل sweetwine التواصل الذكي المخصص متاحًا للجميع في كل مكان — دافئ وخاص ودائمًا موجود عند الحاجة."
+    },
+    "values": {
+      "title": "ما نؤمن به",
+      "items": [
+        {
+          "title": "الخصوصية من التصميم",
+          "description": "محادثاتك ملكك. نبني بأساس من الخصوصية والأمان منذ البداية."
+        },
+        {
+          "title": "تواصل حقيقي",
+          "description": "نركز على القيمة العاطفية الحقيقية، وليس على المقاييس الشكلية."
+        },
+        {
+          "title": "عالمي افتراضيًا",
+          "description": "مبني متعدد اللغات منذ اليوم الأول حتى لا يقيّد التواصل باللغة."
+        },
+        {
+          "title": "الحرفية الدؤوبة",
+          "description": "نهتم بالتفاصيل لنجعل كل تفاعل يبدو طبيعيًا وحيويًا."
+        }
+      ]
+    },
+    "stats": {
+      "title": "بالأرقام",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "مستخدم وفي تزايد"
+        },
+        {
+          "value": "70",
+          "label": "لغة مدعومة"
+        },
+        {
+          "value": "24/7",
+          "label": "متاح دائمًا"
+        }
+      ]
+    },
+    "cta": {
+      "title": "تريد معرفة المزيد؟",
+      "description": "تواصل معنا على"
+    }
+  },
+  "postsPage": {
+    "allTag": "الكل",
+    "readMore": "اقرأ المزيد",
+    "publishedOn": "نُشر في",
+    "minRead": "دقيقة قراءة",
+    "sortNewest": "الأحدث",
+    "sortOldest": "الأقدم",
+    "blog": {
+      "breadcrumb": "المدونة",
+      "eyebrow": "المدونة",
+      "titlePrefix": "مدونة",
+      "titleHighlight": "sweetwine",
+      "subtitle": "نصائح وإرشادات وقصص تساعدك على الاستفادة القصوى من رفقاء الذكاء الاصطناعي.",
+      "empty": "لا توجد منشورات بعد. تحقق قريبًا."
+    },
+    "news": {
+      "breadcrumb": "الأخبار",
+      "eyebrow": "غرفة الأخبار",
+      "titlePrefix": "الأخبار",
+      "titleHighlight": "والإعلانات",
+      "subtitle": "الإعلانات الرسمية والبيانات الصحفية والإنجازات من فريق sweetwine.",
+      "empty": "لا توجد أخبار بعد. تحقق قريبًا."
+    },
+    "productUpdates": {
+      "breadcrumb": "تحديثات المنتج",
+      "eyebrow": "سجل التغييرات",
+      "titlePrefix": "المنتج",
+      "titleHighlight": "التحديثات",
+      "subtitle": "أحدث الميزات والتحسينات والإصلاحات عبر منصة sweetwine.",
+      "empty": "لا توجد تحديثات بعد. تحقق مرة أخرى قريبًا."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "واجهة برمجة التطبيقات",
+    "eyebrow": "للمطورين",
+    "titlePrefix": "ابنِ باستخدام",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "أضف رفقاء ذكاء اصطناعي مخصصين إلى منتجك. احصل على إمكانيات الدردشة والصور والصوت وبناء الشخصيات من خلال واجهة برمجة تطبيقات سهلة للمطورين.",
+    "capabilities": {
+      "title": "ما يمكنك بناؤه",
+      "items": [
+        {
+          "title": "دردشة محادثية",
+          "description": "أضف محادثات ذكاء اصطناعي غنية بالشخصية وواعية بالسياق إلى تطبيقك باستخدام واجهة برمجة رسائل بسيطة."
+        },
+        {
+          "title": "توليد الصور",
+          "description": "ولّد صور شخصيات ومشاهد متوافقة مع علامتك التجارية برمجيًا من خلال مطالبات نصية."
+        },
+        {
+          "title": "الصوت",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "إنشاء الشخصيات",
+          "description": "حدد وأدر الرفقاء والشخصيات والذاكرة من خلال واجهة برمجة التطبيقات."
+        }
+      ]
+    },
+    "form": {
+      "title": "طلب الوصول إلى واجهة برمجة التطبيقات",
+      "description": "أخبرنا عن مشروعك وما ترغب في بنائه. سيتواصل معك فريق المطورين لدينا بالخطوات التالية.",
+      "nameLabel": "اسمك",
+      "namePlaceholder": "جين دو",
+      "emailLabel": "البريد الإلكتروني للعمل",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "الشركة / المشروع",
+      "companyPlaceholder": "اسم الشركة أو المشروع",
+      "websiteLabel": "موقع الويب أو رابط التطبيق",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "نوع التكامل",
+      "integrationTypePlaceholder": "اختر نوع التكامل",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "الدردشة / المراسلة"
+        },
+        {
+          "value": "Image generation",
+          "label": "توليد الصور"
+        },
+        {
+          "value": "Voice",
+          "label": "الصوت"
+        },
+        {
+          "value": "Character creation",
+          "label": "إنشاء الشخصيات"
+        },
+        {
+          "value": "Other",
+          "label": "أخرى"
+        }
+      ],
+      "volumeLabel": "الحجم الشهري المتوقع",
+      "volumePlaceholder": "اختر الحجم المتوقع",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "أقل من 10 آلاف طلب"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10 آلاف - 100 ألف طلب"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100 ألف - مليون طلب"
+        },
+        {
+          "value": "1M+",
+          "label": "أكثر من مليون طلب"
+        }
+      ],
+      "timelineLabel": "الجدول الزمني",
+      "timelinePlaceholder": "اختر جدولاً زمنياً",
+      "timelineOptions": [
+        {
+          "value": "مجرد استكشاف",
+          "label": "مجرد استكشاف"
+        },
+        {
+          "value": "أقل من شهر",
+          "label": "أقل من شهر"
+        },
+        {
+          "value": "1-3 أشهر",
+          "label": "1-3 أشهر"
+        },
+        {
+          "value": "3+ أشهر",
+          "label": "3+ أشهر"
+        }
+      ],
+      "messageLabel": "أخبرنا عن حالة استخدامك",
+      "messagePlaceholder": "ماذا تبني، وكيف تخطط لاستخدام الـ API؟",
+      "submit": "طلب وصول إلى الـ API",
+      "submitting": "جارٍ الإرسال...",
+      "termsNote": "بإرسالك، توافق على التواصل معك بشأن استفسارك. لن نشارك بياناتك أبداً.",
+      "success": "شكراً! تم إرسال طلب وصولك إلى الـ API.",
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "faq": {
+      "title": "الأسئلة الشائعة للمطورين",
+      "items": [
+        {
+          "question": "كيف أحصل على وصول إلى الـ API؟",
+          "answer": "املأ نموذج الطلب أعلاه بحالة استخدامك. يراجع فريق المطورين كل طلب وسيتواصل معك بتفاصيل الوصول والوثائق."
+        },
+        {
+          "question": "كيف تعمل المصادقة؟",
+          "answer": "تُصادق طلبات الـ API بمفتاح API سري يُرسل في رؤوس الطلب. يمكنك إدارة وتدوير مفاتيحك بمجرد انضمامك."
+        },
+        {
+          "question": "هل يوجد تحديد لمعدل الطلبات؟",
+          "answer": "نعم. تعتمد الحدود على خطتك وحجمك المتوقع. أخبرنا بحركة المرور المتوقعة في النموذج حتى نوصي بالمستوى المناسب."
+        },
+        {
+          "question": "ما التكلفة؟"
+        },
+        {
+          "question": "ما القدرات المتاحة؟",
+          "answer": "الدردشة، إنشاء الصور، الصوت، وإنشاء الشخصيات. أخبرنا بما تحتاجه وسنساعدك في البدء بالنقاط النهائية المناسبة."
+        }
+      ]
+    },
+    "cta": {
+      "title": "لديك سؤال تقني؟",
+      "description": "تواصل مع فريق المطورين على"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "نسخ AI حقيقية",
+    "eyebrow": "للمبدعين والوكالات",
+    "heroTitleLead": "نحن نصنع،",
+    "heroTitleHighlight": "وأنت تربح.",
+    "heroSubtitle": "نبني نسختك من AI. تربح بينما تعمل نسخة AI على مدار الساعة — تتحدث مع المعجبين وترسل المحتوى نيابة عنك.",
+    "calculator": {
+      "title": "كم يمكنك أن تربح؟",
+      "subtitle": "اختر حجم جمهورك وحدد سعرك — شاهد تقديرات أرباحك فوراً.",
+      "tierLabel": "حجم جمهورك",
+      "tiers": {
+        "small": {
+          "name": "صغير"
+        },
+        "medium": {
+          "name": "متوسط"
+        },
+        "large": {
+          "name": "كبير"
+        }
+      },
+      "priceLabel": "سعر الفتح الخاص بك",
+      "promoLabel": "سأروج لـ sweetwine",
+      "breakdown": {
+        "title": "تقديرات أرباحك",
+        "perMonth": "شهرياً",
+        "perYear": "سنويًا"
+      },
+      "disclaimer": "تقديرات الأرباح مبنية على نموذج تقاسم الإيرادات من sweetwine والنشاط النموذجي. تختلف الأرباح الفعلية حسب الجمهور وجودة المحتوى والتفاعل والطلب."
+    },
+    "offer": {
+      "title": "ما الفائدة لك",
+      "items": [
+        {
+          "title": "اكسب وأنت نائم",
+          "description": "يحوّل نسختك المتابعين إلى دخل على مدار الساعة — يدردش ويبيع ولا يتوقف أبدًا."
+        },
+        {
+          "title": "تكلفة صفرية وربح صافٍ",
+          "description": "نحن نبني وندرب وندير كل شيء على نفقتنا. أضف مصدر دخل جديد دون أي جهد."
+        },
+        {
+          "title": "ضاعف محتواك 10 مرات",
+          "description": "صور وفيديوهات غير محدودة عند الطلب — زد إنتاجك دون جلسات تصوير أو تعديلات إضافية أو إرهاق."
+        },
+        {
+          "title": "أنت دائمًا في السيطرة"
+        }
+      ]
+    },
+    "how": {
+      "title": "كيف يعمل",
+      "steps": [
+        {
+          "title": "التسجيل"
+        },
+        {
+          "title": "التهيئة",
+          "description": "يلتقط متخصص من sweetwine مظهرك وصوتك وشخصيتك ليبدو نسخك حقيقيًا."
+        },
+        {
+          "title": "نحن نبني وندرب",
+          "description": "ينتج فريقنا ويدرب نسختك الذكية بالكامل على نفقتنا — بدون أي عمل مطلوب منك."
+        },
+        {
+          "title": "ابدأ واربح",
+          "description": "يبدأ نسخك بالدردشة والبيع على مدار الساعة وتحصل على حصتك من الإيرادات."
+        }
+      ]
+    },
+    "form": {
+      "title": "قدم طلبًا لإنشاء نسختك الذكية",
+      "description": "أخبرنا عنك وعن جمهورك. يراجع فريق الشراكات كل طلب وسيتواصل معك بالخطوات التالية.",
+      "nameLabel": "اسمك",
+      "namePlaceholder": "اسمك أو اسمك الفني",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "الوكالة أو الاستوديو",
+      "companyPlaceholder": "اسم الوكالة (اتركه فارغًا إذا كنت مستقلاً)",
+      "roleLabel": "أنا",
+      "rolePlaceholder": "اختر من أنت",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "روابط الموقع والتواصل الاجتماعي",
+      "linksPlaceholder": "Instagram, X, OnlyFans, إلخ.",
+      "modelCountLabel": "عدد النماذج التي تمثلها",
+      "modelCountPlaceholder": "مثلاً: أنا فقط، أو 5",
+      "audienceSizeLabel": "حجم الجمهور",
+      "audienceSizePlaceholder": "اختر إجمالي متابعيك",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "أقل من 10k متابع"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k متابع"
+        },
+        {
+          "label": "100 ألف - 500 ألف متابع",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500 ألف - 1 مليون",
+          "label": "500 ألف - 1 مليون متابع"
+        },
+        {
+          "value": "1 مليون+",
+          "label": "1 مليون+ متابع"
+        }
+      ],
+      "contentPrefLabel": "تفضيل المحتوى",
+      "contentPrefPlaceholder": "اختر نوع المحتوى",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "البلد / المنطقة",
+      "countryPlaceholder": "أين تقيم؟",
+      "messageLabel": "أخبرنا عنك وعن جمهورك",
+      "messagePlaceholder": "شارك أي معلومات تساعدنا على فهم جمهورك ومحتواك وما تبحث عنه.",
+      "openButton": "قدم الآن",
+      "submit": "إرسال الطلب",
+      "submitting": "جارٍ الإرسال...",
+      "termsNote": "بإرسالك، تؤكد أنك تبلغ 18 عامًا أو أكثر وتوافق على التواصل معك بشأن طلبك. لن نشارك بياناتك أبدًا.",
+      "success": "شكرًا! تم إرسال طلبك. سنتواصل معك قريبًا.",
+      "error": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+    },
+    "cta": {
+      "title": "هل لديك أسئلة قبل التقديم؟",
+      "description": "تحدث مباشرة مع فريق شراكات المبدعين لدينا — عادةً نرد خلال يوم.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "البريد الإلكتروني"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "خريطة الموقع",
+    "eyebrow": "خريطة الموقع",
+    "titlePrefix": "تصفح",
+    "titleHighlight": "كل شيء",
+    "subtitle": "كل صفحة مهمة على sweetwine في مكان واحد. تبحث عن خريطة الموقع بصيغة XML؟",
+    "xmlLink": "عرض خريطة الموقع بصيغة XML",
+    "sections": {
+      "product": "المنتج",
+      "features": "المميزات",
+      "company": "الشركة",
+      "resources": "الموارد",
+      "legal": "القانونية"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "تطبيق sweetwine للجوال",
+      "cta": "احصل على التطبيق",
+      "dismiss": "تجاهل"
+    },
+    "guide": {
+      "title": "تثبيت sweetwine",
+      "subtitle": "أضف sweetwine إلى شاشتك الرئيسية لتجربة أسرع وملء الشاشة تشبه التطبيق.",
+      "iosTitle": "على iPhone وiPad (Safari)",
+      "iosStep1": "اضغط على زر المشاركة في شريط الأدوات",
+      "iosStep2": "اختر \"إضافة إلى الشاشة الرئيسية\"",
+      "iosStep3": "اضغط على \"إضافة\" للإنهاء",
+      "androidTitle": "على Android (Chrome)",
+      "androidStep1": "اضغط على القائمة (النقاط الثلاث)",
+      "androidStep2": "اختر \"تثبيت التطبيق\" أو \"إضافة إلى الشاشة الرئيسية\"",
+      "androidStep3": "اضغط على \"تثبيت\" للإنهاء"
+    },
+    "settings": {
+      "title": "تطبيق sweetwine للجوال",
+      "description": "ثبّت sweetwine على هاتفك لتجربة أسرع وملء الشاشة مباشرة من شاشتك الرئيسية.",
+      "cta": "تثبيت التطبيق"
+    }
+  },
+  "language": {
+    "selectTitle": "اختر لغتك",
+    "searchPlaceholder": "ابحث عن اللغات",
+    "noResults": "لم يتم العثور على لغات",
+    "regions": {
+      "americas": "الأمريكتان",
+      "europe": "أوروبا",
+      "middleEast": "الشرق الأوسط",
+      "asiaPacific": "آسيا والمحيط الهادئ",
+      "africa": "أفريقيا"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "لعب الأدوار",
+    "newRoleplay": "لعب أدوار جديد",
+    "tabRoleplay": "لعب الأدوار",
+    "emptyTitle": "لا يوجد لعب أدوار بعد",
+    "noMessagesYet": "لا توجد رسائل بعد",
+    "deleteRoleplay": "حذف لعب الأدوار",
+    "deleteError": "تعذر حذف لعب الأدوار.",
+    "backToLobby": "العودة إلى لعب الأدوار",
+    "creating": "جارٍ إعداد لعب الأدوار...",
+    "createError": "تعذر إنشاء لعب الأدوار. يرجى المحاولة مرة أخرى.",
+    "steps": {
+      "companion": {
+        "title": "اختر شخصية",
+        "subtitle": "اختر من تريد لعب الأدوار معه"
+      },
+      "location": {
+        "title": "اختر موقعاً",
+        "subtitle": "أين يدور مشهدك؟"
+      },
+      "tone": {
+        "title": "حدد النغمة",
+        "subtitle": "كيف يجب أن يبدو المشهد؟"
+      },
+      "scene": {
+        "title": "حدد المشهد",
+        "subtitle": "صف كيف يبدأ المشهد"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "نصطدم ببعضنا في المطر ونختبئ تحت نفس المظلة.",
+      "staring_grin": "تلتقطني وأنا أحدق من الطرف الآخر من الغرفة فتقترب مبتسمًا.",
+      "power_out": "تنقطع الكهرباء ونبقى وحدنا في الظلام نضحك بتوتر.",
+      "spilled_drink": "أتأخر وأسكب مشروبي عليك بالخطأ.",
+      "stayed_behind": "نكون الاثنين الوحيدين الذين بقوا بعد رحيل الجميع.",
+      "music_slows": "تلتقي أعيننا تمامًا عندما تبطئ الموسيقى.",
+      "storm_inside": "عاصفة مفاجئة تحاصرنا داخلًا وليس لدينا سوى الوقت للحديث.",
+      "seat_taken": "تجلس بجانبي وتسأل إن كان المقعد محجوزًا."
+    },
+    "locations": {
+      "home": "المنزل",
+      "cafe": "مقهى",
+      "restaurant": "مطعم",
+      "bar": "بار",
+      "library": "مكتبة",
+      "bookstore": "مكتبة",
+      "park": "حديقة",
+      "garden": "حديقة",
+      "nightclub": "نادٍ ليلي",
+      "casino": "كازينو",
+      "concert": "حفلة موسيقية",
+      "theater": "مسرح",
+      "cinema": "سينما",
+      "carnival": "كرنفال",
+      "stadium": "ملعب",
+      "beach": "شاطئ",
+      "pool": "مسبح",
+      "spa": "سبا",
+      "hotel": "فندق",
+      "rooftop": "سطح",
+      "yacht": "يخت",
+      "cabin": "كابينة",
+      "hotspring": "ينابيع ساخنة",
+      "skilodge": "نزل تزلج",
+      "campsite": "مخيم",
+      "car": "سيارة",
+      "train": "قطار",
+      "airport": "مطار",
+      "cruise": "رحلة بحرية",
+      "office": "مكتب",
+      "gym": "صالة رياضية",
+      "university": "جامعة",
+      "mall": "مركز تجاري",
+      "hospital": "مستشفى",
+      "museum": "متحف"
+    },
+    "tones": {
+      "fun": {
+        "title": "مرح",
+        "desc": "خفيف الظل، مرح وسهل."
+      },
+      "romantic": {
+        "title": "رومانسي",
+        "desc": "رقيق، حنون وصادق."
+      },
+      "flirty": {
+        "title": "مغازل",
+        "desc": "مثير، مرح ومليء بالسحر."
+      },
+      "mysterious": {
+        "title": "غامض",
+        "desc": "مثير للفضول، مشوق ومليء بالأسرار."
+      },
+      "spooky": {
+        "title": "مخيف",
+        "desc": "مرعب، متوتر ومخيف قليلاً."
+      },
+      "action": {
+        "title": "أكشن",
+        "desc": "شديد، مغامر وسريع الإيقاع."
+      },
+      "dramatic": {
+        "title": "درامي",
+        "desc": "عاطفي، شديد ومليء بالتوتر."
+      },
+      "cozy": {
+        "title": "مريح",
+        "desc": "دافئ، مريح ومسترخٍ."
+      }
+    },
+    "sceneLabel": "افتتاح المشهد",
+    "scenarioTab": "السيناريو",
+    "generatingScene": "نُحيي المشهد...",
+    "locationLabel": "الموقع",
+    "toneLabel": "النبرة",
+    "scenePlaceholder": "مثال: نصطدم ببعضنا تحت المطر ونحتمي تحت نفس المظلة...",
+    "sceneHint": "صف فقط كيف يبدأ المشهد — أين أنت وما يحدث عند الافتتاح. لا تغيّر شخصية الشخصية أو علاقتكما أو تعيد كتابة القصة كاملة.",
+    "sceneError": "يرجى وصف كيفية بدء المشهد.",
+    "reviewTitle": "مراجعة الاختيارات",
+    "characterLabel": "الشخصية",
+    "randomize": "عشوائي",
+    "sceneGuidanceTitle": "إرشادات افتتاح المشهد",
+    "sceneGuide1": "لا تغيّر شخصية الشخصية أو علاقتكما.",
+    "sceneGuide2": "احرص على أن يكون افتتاح المشهد توافقيًا ومحترمًا.",
+    "sceneGuide3": "صف فقط كيف يبدأ المشهد، وليس القصة كاملة.",
+    "next": "التالي",
+    "create": "ابدأ لعب الأدوار",
+    "creatingMessages": [
+      "نُعدّ المشهد...",
+      "يتم خفض الإضاءة بالشكل المناسب...",
+      "يتم رسم محيطك...",
+      "يتم إدخال رفيقك في الشخصية...",
+      "يتم إضافة اللمسات النهائية...",
+      "جاهز تقريباً..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "اكتب رسالة...",
+    "send": "إرسال",
+    "typing": "يكتب...",
+    "read": "قراءة",
+    "resetChat": "إعادة تعيين الدردشة",
+    "deleteChat": "حذف الدردشة",
+    "settings": "الإعدادات",
+    "chatSettings": "إعدادات الدردشة",
+    "roleplayMode": "وضع لعب الأدوار",
+    "roleplayModeDescription": "عند التفعيل، يقوم الرفاق بتمثيل الإيماءات والأفعال بين *علامتي نجمة* لتجربة غامرة. وعند الإيقاف، يتحدثون بشكل طبيعي كالرسائل النصية الحقيقية.",
+    "roleplayModeError": "تعذر تحديث وضع لعب الأدوار",
+    "roleplayCtaDescription": "افتح تجربة لعب الأدوار المخصصة، حيث يقوم الرفيق بتمثيل المشاهد والقصص معك.",
+    "goToRoleplay": "الانتقال إلى لعب الأدوار",
+    "confirmReset": "هل أنت متأكد أنك تريد إعادة تعيين هذه الدردشة؟ سيتم حذف جميع الرسائل.",
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذه الدردشة؟",
+    "resetSuccess": "تمت إعادة تعيين الدردشة بنجاح",
+    "deleteMemory": "حذف الذاكرة",
+    "confirmDeleteMemory": "هل أنت متأكد من رغبتك في حذف الذكريات طويلة الأمد لهذه الشخصية؟ ستظل رسائل الدردشة، لكن الشخصية ستنسى الحقائق السابقة في الرد التالي.",
+    "deleteMemorySuccess": "تم حذف الذاكرة",
+    "deleteSuccess": "تم حذف الدردشة بنجاح",
+    "sendError": "فشل إرسال الرسالة",
+    "noChats": "لا توجد دردشات بعد",
+    "noChatsDesc": "ابدأ محادثة مع شخصية لرؤية دردشاتك هنا",
+    "lastMessage": "آخر رسالة",
+    "messageCount": "{count} رسائل",
+    "uploadImage": "رفع صورة",
+    "uploadVideo": "رفع فيديو (قريباً)",
+    "yourConversations": "محادثاتك",
+    "continueChattingDesc": "تابع الدردشة مع شخصياتك الذكية",
+    "newChat": "دردشة جديدة",
+    "noConversationsYet": "لا توجد محادثات بعد",
+    "startChattingDesc": "ابدأ الدردشة مع شخصية لرؤية محادثاتك هنا",
+    "browseCharacters": "تصفح الشخصيات",
+    "createCustomCharacter": "إنشاء شخصية مخصصة",
+    "imageTooLarge": "الصورة كبيرة جداً (الحد الأقصى 5 ميجابايت)",
+    "generateImageTitle": "إنشاء صورة مع {name}",
+    "imagePromptLabel": "وصف الصورة",
+    "imagePromptPlaceholder": "مثال: على الشاطئ بفستان أزرق، تتناول القهوة في مقهى، تمشي في حديقة...",
+    "imagePromptHint": "سيقوم الذكاء الاصطناعي بإنشاء صورة لـ {name} بناءً على وصفك.",
+    "referenceImageLabel": "صورة شخصية (اختياري)",
+    "referenceImageHint": "ارفع صورتك لتظهر في المشهد مع {name}. بدون صورة، سيتم إنشاء {name} فقط.",
+    "uploadReferenceImage": "ارفع صورتك",
+    "uploadReferenceImageDesc": "ستظهران معاً في الصورة المُنشأة",
+    "referenceImageSelected": "ستظهران أنت و{name} معاً",
+    "generating": "جارٍ التوليد...",
+    "generate": "توليد",
+    "generateImage": "توليد صورة",
+    "imageGenerated": "تم توليد الصورة بنجاح",
+    "generateError": "فشل في توليد الصورة",
+    "contentBlockedReply": "عذرًا، لا أستطيع إنشاء هذه الصورة. تم حظرها بواسطة فلاتر الأمان. يرجى تجربة وصف مختلف! 💕",
+    "generateVideoTitle": "توليد فيديو مع {name}",
+    "generateVideo": "توليد فيديو",
+    "videoPromptLabel": "وصف الحركة",
+    "videoPromptPlaceholder": "مثال: الرقص، التلويح، إرسال قبلة...",
+    "videoPromptHint": "سيقوم الذكاء الاصطناعي بتوليد فيديو لـ{name} وهو يؤدي الحركة الموصوفة.",
+    "generatingImage": "جارٍ توليد الصورة...",
+    "generatingVideo": "جارٍ توليد الفيديو... (3-5 دقائق)",
+    "viewPhoto": "عرض الصورة",
+    "viewVideo": "عرض الفيديو",
+    "selectVideoOption": "اختر خيار فيديو أعلاه",
+    "contentPolicyViolation": "تعذر إرسال هذه الرسالة. يرجى الحفاظ على احترام المحادثات.",
+    "functionCallBetaHint": "💡 هذه الميزة في النسخة التجريبية — لتوليد وسائط موثوق بدون قيود، استخدم أزرار الصور/الفيديو في شريط الأدوات بدلاً من ذلك.",
+    "repliedToStory": "رد على القصة",
+    "repliedToStoryLiked": "أعجب ورد على القصة",
+    "storyNoLongerAvailable": "القصة لم تعد متاحة",
+    "rateLimitExceeded": "طلبات كثيرة جدًا. يرجى الانتظار قليلاً ثم المحاولة مرة أخرى.",
+    "profileTab": "الملف الشخصي",
+    "galleryTab": "المعرض",
+    "giftsTab": "الهدايا",
+    "tts": {
+      "play": "تشغيل الصوت",
+      "stop": "إيقاف",
+      "generating": "جارٍ توليد الصوت…",
+      "error": "تعذر تشغيل الصوت"
+    }
+  },
+  "gallery": {
+    "all": "الكل",
+    "images": "الصور",
+    "videos": "الفيديوهات",
+    "empty": "لا يوجد محتوى بعد"
+  },
+  "gifts": {
+    "sendAGift": "إرسال هدية",
+    "catalogSubtitle": "اختر هدية لإرسالها إلى {name}",
+    "browseGifts": "تصفح الهدايا",
+    "noneSent": "لم يتم إرسال هدايا بعد",
+    "confirmTitle": "تأكيد الهدية",
+    "forCompanion": "لـ{name}",
+    "optionalMessage": "أضف رسالة (اختياري)",
+    "optionalMessagePlaceholder": "اكتب شيئًا لطيفًا...",
+    "sendGiftFor": "إرسال",
+    "giftSent": "لقد أرسلت هدية",
+    "sendError": "فشل إرسال الهدية"
+  },
+  "stories": {
+    "replyPlaceholder": "رد على {name}...",
+    "like": "إعجاب",
+    "send": "إرسال",
+    "close": "إغلاق",
+    "previous": "القصة السابقة",
+    "next": "القصة التالية",
+    "pause": "إيقاف مؤقت",
+    "play": "تشغيل",
+    "mute": "كتم الصوت",
+    "unmute": "إلغاء كتم الصوت",
+    "openStory": "افتح قصة {name}"
+  },
+  "generate": {
+    "title": "إنشاء صورة",
+    "description": "أنشئ صورًا مذهلة مع شخصياتك الذكية",
+    "selectCompanion": "اختر شخصية",
+    "promptPlaceholder": "صف الصورة التي تريد إنشاءها... مثال: على الشاطئ، بفستان أحمر",
+    "promptLabel": "وصف الصورة",
+    "promptRequired": "يرجى إدخال وصف",
+    "generateButton": "إنشاء صورة",
+    "generating": "جارٍ الإنشاء...",
+    "creatingImage": "جارٍ إنشاء صورتك...",
+    "pleaseWait": "قد يستغرق ذلك 10-30 ثانية",
+    "noCompanionSelected": "يرجى اختيار شخصية أولاً",
+    "emptyGallery": "لم يتم إنشاء صور بعد. اختر شخصية وصف صورتك!",
+    "sessionGallery": "الصور المُنشأة",
+    "regenerate": "إعادة الإنشاء",
+    "regenerating": "جارٍ إعادة الإنشاء...",
+    "animate": "تحريك",
+    "animateReference": "ستكون هذه الصورة الإطار الأول للفيديو.",
+    "filterMyAI": "ذكائي",
+    "filterAll": "الكل",
+    "filterGirls": "نساء",
+    "filterAnime": "أنمي",
+    "filterGuys": "رجال",
+    "imageGenerationFailed": "فشل إنشاء الصورة. قد لا تلبي الصورة المتطلبات أو قد يكون الوصف معقدًا جدًا. جرب وصفًا أبسط.",
+    "noImageData": "لم يتم إنشاء أي صورة. يرجى المحاولة مرة أخرى بوصف مختلف.",
+    "generationFailed": "فشل الإنشاء. يرجى المحاولة لاحقًا أو بوصف مختلف.",
+    "random": "عشوائي",
+    "custom": "مخصص",
+    "settings": "الإعدادات",
+    "videoTitle": "إنشاء فيديو",
+    "videoDescription": "أنشئ فيديوهات مذهلة مع شخصياتك الذكية",
+    "videoPromptLabel": "وصف الفيديو",
+    "videoPromptPlaceholder": "صف الحركة التي تريد إنشاءها... مثل: الرقص، التلويح، الابتسام",
+    "generateVideoButton": "إنشاء فيديو",
+    "generatingVideo": "جارٍ إنشاء الفيديو...",
+    "creatingVideo": "جارٍ إنشاء فيديوك...",
+    "videoWait": "قد يستغرق ذلك 1-5 دقائق",
+    "emptyVideoGallery": "لم يتم إنشاء أي فيديوهات بعد. اختر شخصية وصف الحركة!",
+    "sessionVideoGallery": "الفيديوهات المُنشأة",
+    "videoGenerated": "تم إنشاء الفيديو بنجاح!",
+    "videoGenerationFailed": "فشل إنشاء الفيديو. يرجى المحاولة مرة أخرى.",
+    "duration": "المدة",
+    "shortVideo": "قصير",
+    "longVideo": "طويل",
+    "seconds": "ثوانٍ",
+    "audio": "الصوت",
+    "renderingVideo": "جارٍ عرض الفيديو…",
+    "renderingVideoHint": "(يستغرق حتى دقيقة واحدة)",
+    "rateLimitExceeded": "طلبات كثيرة جدًا. يرجى الانتظار قليلاً ثم المحاولة مرة أخرى.",
+    "chooseCharacter": "اختر الشخصية",
+    "selectButton": "اختيار",
+    "noCustomCompanions": "لم تقم بإنشاء أي شخصيات ذكية بعد.",
+    "numberOfImages": "عدد الصور",
+    "numberOfVideos": "عدد الفيديوهات",
+    "freeTrial": "تجربة مجانية",
+    "changeCharacter": "تغيير الشخصية",
+    "randomize": "عشوّن الوصف",
+    "aiVideo": "فيديو AI",
+    "download": "تنزيل",
+    "seriesHelper": "هنا يمكنك العثور على نتائجك. يمكنك مغادرة الصفحة أو بدء سلسلة جديدة بينما تنتهي هذه.",
+    "suggestions": {
+      "title": "اقتراحات",
+      "categories": {
+        "outfit": "الملابس",
+        "action": "الحركة",
+        "pose": "الوضعية",
+        "accessories": "الإكسسوارات",
+        "scene": "المشهد"
+      },
+      "items": {
+        "bikini": "بيكيني",
+        "skirt": "تنورة",
+        "lingerie": "ملابس داخلية",
+        "crop_top": "توب قصير",
+        "leather": "جلد",
+        "mini_skirt": "تنورة قصيرة",
+        "satin_robe": "رداء ساتان",
+        "jeans": "جينز",
+        "summer_dress": "فستان صيفي",
+        "sportswear": "ملابس رياضية",
+        "selfie": "سيلفي",
+        "walking": "مشي",
+        "dancing": "رقص",
+        "stretching": "تمدد",
+        "lying_down": "استلقاء",
+        "leaning": "اتكاء",
+        "blowing_kiss": "إرسال قبلة",
+        "drinking_coffee": "شرب قهوة",
+        "hands_on_hips": "يد على الخصر",
+        "over_shoulder": "نظرة فوق الكتف",
+        "side_profile": "صورة جانبية",
+        "arms_crossed": "ذراعان متقاطعتان",
+        "kneeling": "ركوع",
+        "squatting": "قرفصاء",
+        "back_view": "منظر خلفي",
+        "sitting": "جلوس",
+        "necklace": "قلادة",
+        "earrings": "أقراط",
+        "glasses": "نظارات",
+        "choker": "قلادة عنق",
+        "hat": "قبعة",
+        "sunglasses": "نظارات شمسية",
+        "garden": "حديقة",
+        "beach": "شاطئ",
+        "bedroom": "غرفة نوم",
+        "gym": "صالة رياضية",
+        "bar": "بار",
+        "kitchen": "مطبخ",
+        "restaurant": "مطعم",
+        "balcony": "شرفة",
+        "city_street": "شارع المدينة",
+        "pool": "حول المسبح"
+      },
+      "fragments": {
+        "bikini": "ترتدي بيكيني",
+        "skirt": "ترتدي تنورة",
+        "lingerie": "ترتدي ملابس داخلية أنيقة",
+        "crop_top": "ترتدي توب قصير",
+        "leather": "ترتدي ملابس جلدية",
+        "mini_skirt": "ترتدي تنورة قصيرة",
+        "satin_robe": "ترتدي روب ساتان",
+        "jeans": "ترتدي جينز",
+        "summer_dress": "ترتدي فستان صيفي",
+        "sportswear": "ترتدي ملابس رياضية ضيقة",
+        "selfie": "تلتقط سيلفي",
+        "walking": "تمشي",
+        "dancing": "ترقص",
+        "stretching": "تتمدد",
+        "lying_down": "تستلقي",
+        "leaning": "تتكئ على حائط",
+        "blowing_kiss": "ترسل قبلة",
+        "drinking_coffee": "تشرب فنجان قهوة",
+        "hands_on_hips": "تضع يديها على الخصر",
+        "over_shoulder": "تنظر من فوق كتفها",
+        "side_profile": "وضعية جانبية",
+        "arms_crossed": "تضع ذراعيها متقاطعتين",
+        "kneeling": "وضعية ركوع",
+        "squatting": "وضعية القرفصاء",
+        "back_view": "منظر من الخلف",
+        "sitting": "تجلس",
+        "necklace": "ترتدي قلادة",
+        "earrings": "ترتدي أقراط",
+        "glasses": "ترتدي نظارات",
+        "choker": "ترتدي طوقًا",
+        "hat": "ترتدي قبعة",
+        "sunglasses": "ترتدي نظارات شمسية",
+        "garden": "في حديقة",
+        "beach": "على الشاطئ",
+        "bedroom": "في غرفة نوم",
+        "gym": "في الجيم",
+        "bar": "في بار",
+        "kitchen": "في مطبخ",
+        "restaurant": "في مطعم",
+        "balcony": "على شرفة",
+        "city_street": "في شارع مدينة",
+        "pool": "بجانب المسبح"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "سيلفي",
+          "uiPrompt": "أرني سيلفي لك"
+        },
+        "posing": {
+          "name": "وضعيات",
+          "uiPrompt": "أرني وأنت تتخذ وضعية"
+        },
+        "sitting": {
+          "name": "جلوس",
+          "uiPrompt": "أرني وأنت جالس"
+        },
+        "waving": {
+          "name": "تلويح",
+          "uiPrompt": "أرني وأنت تلوح"
+        },
+        "dancing": {
+          "name": "رقص",
+          "uiPrompt": "أرني وأنت ترقص"
+        },
+        "reading": {
+          "name": "قراءة",
+          "uiPrompt": "أرني وأنت تقرأ"
+        },
+        "smiling": {
+          "name": "مبتسم",
+          "uiPrompt": "أرني وأنت تبتسم"
+        },
+        "walking": {
+          "name": "يمشي",
+          "uiPrompt": "أرني وأنت تمشي"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "سيلفي",
+          "uiPrompt": "أرني فيديو سيلفي"
+        },
+        "posing": {
+          "name": "وضعيات",
+          "uiPrompt": "أرني فيديو وأنت تتخذ وضعيات"
+        },
+        "sitting": {
+          "name": "جالس",
+          "uiPrompt": "أرني فيديو وأنت تجلس"
+        },
+        "waving": {
+          "name": "يلوح",
+          "uiPrompt": "أرني فيديو وأنت تلوح"
+        },
+        "dancing": {
+          "name": "يرقص",
+          "uiPrompt": "أرني فيديو وأنت ترقص"
+        },
+        "reading": {
+          "name": "يقرأ",
+          "uiPrompt": "أرني فيديو وأنت تقرأ"
+        },
+        "smiling": {
+          "name": "مبتسم",
+          "uiPrompt": "أرني فيديو وأنت تبتسم"
+        },
+        "walking": {
+          "name": "يمشي",
+          "uiPrompt": "أرني فيديو وأنت تمشي"
+        }
+      }
+    },
+    "writeYourOwn": "أو اكتب طلبك الخاص",
+    "presetSelected": "تم اختيار الإعداد المسبق",
+    "effects": {
+      "categories": {
+        "solo": "منفرد وإغواء",
+        "oral": "فموي",
+        "positions": "وضعيات",
+        "pov": "POV",
+        "extra": "إضافي",
+        "remix": "ريميكس"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "إمساك شرجي"
+        },
+        "bath_towel": {
+          "name": "منشفة استحمام"
+        },
+        "bikini": {
+          "name": "بيكيني"
+        },
+        "blowjob_69": {
+          "name": "جنس فموي 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "جنس فموي غراند سلام"
+        },
+        "blowjob_pov": {
+          "name": "جنس فموي من منظور الشخص الأول"
+        },
+        "blowjob_sideview": {
+          "name": "جنس فموي من الجانب"
+        },
+        "bondage": {
+          "name": "تقييد"
+        },
+        "breast_milk": {
+          "name": "حليب الثدي"
+        },
+        "bunny_suit": {
+          "name": "بدلة أرنب"
+        },
+        "chain_leash": {
+          "name": "سلسلة مقود"
+        },
+        "chinese_dress": {
+          "name": "فستان صيني"
+        },
+        "come_fuck_me": {
+          "name": "تعالَ نمارس الجنس"
+        },
+        "cum_on_body": {
+          "name": "سائل منوي على الجسم"
+        },
+        "cum_on_face": {
+          "name": "سائل منوي على الوجه"
+        },
+        "cunnilingus": {
+          "name": "جنس فموي أنثوي"
+        },
+        "custom": {
+          "name": "مخصص"
+        },
+        "doggystyle_pov": {
+          "name": "أسلوب الكلب من منظور الشخص الأول"
+        },
+        "doggystyle_sideview": {
+          "name": "أسلوب الكلب من الجانب"
+        },
+        "fingering": {
+          "name": "إدخال الأصابع"
+        },
+        "handjob": {
+          "name": "جنس يدوي"
+        },
+        "jk_uniform": {
+          "name": "زي مدرسي"
+        },
+        "legsup": {
+          "name": "الساقان مرفوعتان"
+        },
+        "leopard_bikini": {
+          "name": "بيكيني فهد"
+        },
+        "lingerie": {
+          "name": "ملابس داخلية مثيرة"
+        },
+        "masturbation": {
+          "name": "استمناء"
+        },
+        "missionary_condoms": {
+          "name": "وضعية المبشرة مع واقيات"
+        },
+        "missionary_pov": {
+          "name": "وضعية المبشرة من منظور الشخص الأول"
+        },
+        "missionary_sideview": {
+          "name": "الوضع التبشيري من الجانب"
+        },
+        "remix_blowjob": {
+          "name": "ريميكس مص"
+        },
+        "remix_cowgirl": {
+          "name": "ريميكس وضعية الفارسة"
+        },
+        "remix_doggystyle": {
+          "name": "ريميكس وضعية الكلب"
+        },
+        "remix_dress": {
+          "name": "ريميكس فستان"
+        },
+        "remix_hold_dick": {
+          "name": "ريميكس إمساك القضيب"
+        },
+        "remix_kiss": {
+          "name": "ريميكس قبلة"
+        },
+        "remix_pronebone": {
+          "name": "ريميكس وضعية الاستلقاء"
+        },
+        "remix_suck": {
+          "name": "ريميكس مص"
+        },
+        "remix_wear": {
+          "name": "ريميكس ارتداء"
+        },
+        "remix_yoga": {
+          "name": "ريميكس يوغا"
+        },
+        "ride_on_dildo": {
+          "name": "ركوب الديلدو"
+        },
+        "sipping_condoms": {
+          "name": "امتصاص الواقيات"
+        },
+        "squatting_cowgirl": {
+          "name": "وضعية الفارسة الجالسة"
+        },
+        "tattoo": {
+          "name": "وشم"
+        },
+        "tentacles": {
+          "name": "ملامس"
+        },
+        "titjob": {
+          "name": "مداعبة بالصدر"
+        },
+        "topless": {
+          "name": "عارية الصدر"
+        },
+        "undress": {
+          "name": "خلع الملابس"
+        },
+        "used": {
+          "name": "مستخدم"
+        },
+        "xray": {
+          "name": "أشعة سينية"
+        },
+        "maid_outfit": {
+          "name": "زي الخادمة"
+        },
+        "nurse_outfit": {
+          "name": "زي الممرضة"
+        },
+        "cheerleader": {
+          "name": "مشجعة"
+        },
+        "wet_tshirt": {
+          "name": "تي شيرت مبلل"
+        },
+        "latex_catsuit": {
+          "name": "بدلة لاتكس"
+        },
+        "corset_stockings": {
+          "name": "مشد وجوارب"
+        },
+        "gym_shorts": {
+          "name": "شورت رياضي"
+        },
+        "thong_tease": {
+          "name": "إغواء الثونغ"
+        },
+        "upskirt_panties": {
+          "name": "تحت التنورة"
+        },
+        "mirror_selfie": {
+          "name": "سيلفي مرآة"
+        },
+        "shower_nude": {
+          "name": "دش"
+        },
+        "oiled_body": {
+          "name": "جسم مدهون"
+        },
+        "spread_open": {
+          "name": "مفتوحة"
+        },
+        "ahegao": {
+          "name": "أهيغاو"
+        },
+        "deepthroat": {
+          "name": "عميق الحلق"
+        },
+        "sloppy_blowjob": {
+          "name": "مص فوضوي"
+        },
+        "ball_licking": {
+          "name": "لعق الخصيتين"
+        },
+        "face_sitting_oral": {
+          "name": "جلوس على الوجه"
+        },
+        "cowgirl": {
+          "name": "كاوبوي"
+        },
+        "reverse_cowgirl": {
+          "name": "كاوبوي معكوس"
+        },
+        "prone_bone": {
+          "name": "برون بون"
+        },
+        "standing_sex": {
+          "name": "واقف"
+        },
+        "against_wall": {
+          "name": "على الحائط"
+        },
+        "spooning": {
+          "name": "ملعقة"
+        },
+        "legs_on_shoulders": {
+          "name": "أرجل على الكتفين"
+        },
+        "mating_press": {
+          "name": "ضغط التلقيح"
+        },
+        "cowgirl_pov": {
+          "name": "كاوبوي POV"
+        },
+        "titjob_pov": {
+          "name": "تيتجوب POV"
+        },
+        "handjob_pov": {
+          "name": "هاندجوب POV"
+        },
+        "cunnilingus_pov": {
+          "name": "كانيلينغوس POV"
+        },
+        "double_penetration": {
+          "name": "اختراق مزدوج"
+        },
+        "threesome_mmf": {
+          "name": "ثلاثي"
+        },
+        "glory_hole": {
+          "name": "ثقب المجد"
+        },
+        "creampie": {
+          "name": "كريم باي"
+        },
+        "pearl_necklace": {
+          "name": "عقد اللؤلؤ"
+        },
+        "bukkake": {
+          "name": "بوكاكي"
+        },
+        "squirting": {
+          "name": "رذاذ"
+        },
+        "spanking": {
+          "name": "صفع"
+        },
+        "gagged_bdsm": {
+          "name": "مكمم"
+        },
+        "facefuck": {
+          "name": "فيس فاك"
+        },
+        "throatpie": {
+          "name": "ثروت باي"
+        },
+        "cock_worship": {
+          "name": "عبادة الديك"
+        },
+        "footjob": {
+          "name": "فوت جوب"
+        },
+        "amazon": {
+          "name": "أمازون"
+        },
+        "full_nelson": {
+          "name": "فول نيلسون"
+        },
+        "lotus": {
+          "name": "لوتس"
+        },
+        "piledriver": {
+          "name": "بايل درايفر"
+        },
+        "facefuck_pov": {
+          "name": "فيس فاك POV"
+        },
+        "riding_pov": {
+          "name": "رايدينج POV"
+        },
+        "spitroast": {
+          "name": "سبيتروست"
+        },
+        "hair_pulling": {
+          "name": "شد الشعر"
+        },
+        "facial_cumshot": {
+          "name": "فيشيال كامشوت"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "شرجي"
+        },
+        "back_doggystyle": {
+          "name": "وضعية الكلب من الخلف"
+        },
+        "blowjob": {
+          "name": "مص"
+        },
+        "blowjob_69": {
+          "name": "مص 69"
+        },
+        "blowjob_reverse": {
+          "name": "مص عكسي"
+        },
+        "breast_massage": {
+          "name": "تدليك الصدر"
+        },
+        "breast_massage_nude": {
+          "name": "تدليك الصدر عاري"
+        },
+        "butt_smothering": {
+          "name": "إخفاء بالمؤخرة"
+        },
+        "cock_worship": {
+          "name": "تقديس القضيب"
+        },
+        "cum_in_mouth": {
+          "name": "قذف في الفم"
+        },
+        "dildo_masturbation": {
+          "name": "استمناء بالديلدو"
+        },
+        "double_blowjob": {
+          "name": "مص مزدوج"
+        },
+        "double_penetration": {
+          "name": "اختراق مزدوج"
+        },
+        "ejaculation": {
+          "name": "قذف"
+        },
+        "facefuck": {
+          "name": "ممارسة الوجه"
+        },
+        "facefuck_pov": {
+          "name": "ممارسة الوجه من منظور الشخص الأول"
+        },
+        "facial_cumshot": {
+          "name": "قذف على الوجه"
+        },
+        "footjob": {
+          "name": "مداعبة بالقدم"
+        },
+        "front_doggystyle": {
+          "name": "وضعية الكلب من الأمام"
+        },
+        "fuck_machine": {
+          "name": "آلة الجنس"
+        },
+        "full_nelson": {
+          "name": "نيلسون الكامل"
+        },
+        "handjob": {
+          "name": "مداعبة باليد"
+        },
+        "masturbation": {
+          "name": "استمناء"
+        },
+        "missionary_pov": {
+          "name": "الوضع التبشيري من منظور الشخص الأول"
+        },
+        "missionary_sideview": {
+          "name": "الوضع التبشيري من الجانب"
+        },
+        "nipple_play": {
+          "name": "مداعبة الحلمات"
+        },
+        "nude_posing": {
+          "name": "وضعيات عارية"
+        },
+        "orgasm": {
+          "name": "هزة الجماع"
+        },
+        "pronebone": {
+          "name": "وضعية الاستلقاء"
+        },
+        "pussy_closeup": {
+          "name": "لقطة مقربة للمهبل"
+        },
+        "reverse_cowgirl": {
+          "name": "راكبة معكوسة"
+        },
+        "shoejob": {
+          "name": "مداعبة بالحذاء"
+        },
+        "spitroast": {
+          "name": "شوي مزدوج"
+        },
+        "squatting_cowgirl": {
+          "name": "راكبة جالسة القرفصاء"
+        },
+        "throatpie": {
+          "name": "إفراغ في الحلق"
+        },
+        "tiktok_trend": {
+          "name": "تريند تيك توك"
+        },
+        "titjob": {
+          "name": "مداعبة بالصدر"
+        },
+        "titty_flash": {
+          "name": "وميض الصدر"
+        },
+        "triple_dicked": {
+          "name": "ثلاثي الإيلاج"
+        },
+        "twerk": {
+          "name": "رقص التويرك"
+        },
+        "undress": {
+          "name": "خلع الملابس"
+        },
+        "strip_tease": {
+          "name": "ستريب تيز"
+        },
+        "booty_bounce": {
+          "name": "بوتي باونس"
+        },
+        "oil_show": {
+          "name": "أويل شو"
+        },
+        "shower_show": {
+          "name": "شاور شو"
+        },
+        "panty_drop": {
+          "name": "بانتي دروب"
+        },
+        "ahegao_solo": {
+          "name": "أهيغاو"
+        },
+        "deepthroat": {
+          "name": "ديب ثروت"
+        },
+        "sloppy_blowjob": {
+          "name": "سلوبي بلوجوب"
+        },
+        "ball_sucking": {
+          "name": "بول ساكينج"
+        },
+        "cowgirl": {
+          "name": "كاوغيرل"
+        },
+        "standing_carry": {
+          "name": "ستاندينج كاري"
+        },
+        "against_wall": {
+          "name": "أغينست وول"
+        },
+        "spooning": {
+          "name": "سبونينج"
+        },
+        "mating_press": {
+          "name": "ميتنج بريس"
+        },
+        "amazon": {
+          "name": "أمازون"
+        },
+        "cowgirl_pov": {
+          "name": "كاوغيرل POV"
+        },
+        "doggy_pov": {
+          "name": "دوغي POV"
+        },
+        "titjob_pov": {
+          "name": "تيت جوب POV"
+        },
+        "handjob_pov": {
+          "name": "هاند جوب POV"
+        },
+        "riding_pov": {
+          "name": "رايدينج POV"
+        },
+        "gangbang": {
+          "name": "غانغ بانغ"
+        },
+        "creampie": {
+          "name": "كريم باي"
+        },
+        "bukkake": {
+          "name": "بوكاكي"
+        },
+        "squirting": {
+          "name": "سكويرتينج"
+        },
+        "spanking": {
+          "name": "سبانكينج"
+        },
+        "hair_pulling": {
+          "name": "شد الشعر"
+        },
+        "fingering": {
+          "name": "فينغرينج"
+        },
+        "come_hither": {
+          "name": "كوم هيذر"
+        },
+        "spread_legs": {
+          "name": "سبريد ليغز"
+        },
+        "blowjob_sideview": {
+          "name": "بلوجوب سايدفيو"
+        },
+        "cunnilingus": {
+          "name": "كانيلينغوس"
+        },
+        "missionary": {
+          "name": "ميشنري"
+        },
+        "legs_on_shoulders": {
+          "name": "ليغز أون شولدرز"
+        },
+        "blowjob_pov": {
+          "name": "بلوجوب POV"
+        },
+        "cunnilingus_pov": {
+          "name": "كانيلينغوس POV"
+        },
+        "glory_hole": {
+          "name": "غلوري هول"
+        },
+        "threesome_mmf": {
+          "name": "ثريسم"
+        },
+        "aftercare_mess": {
+          "name": "فوضى العناية اللاحقة"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا؟",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "deleteError": "فشل الحذف",
+    "empty": "لا يوجد محتوى بعد. أنشئ بعضه في الدردشة!",
+    "gallerySubtitle": "معرضك الشخصي للحظات المولدة بالذكاء الاصطناعي",
+    "filterAll": "الكل",
+    "filterImages": "الصور",
+    "filterVideos": "الفيديوهات",
+    "loadMore": "تحميل المزيد",
+    "folders": "المجلدات",
+    "newFolder": "مجلد جديد",
+    "deleteFolders": "حذف المجلدات المحددة",
+    "folderCreated": "تم إنشاء المجلد",
+    "folderCreateError": "فشل إنشاء المجلد",
+    "folderRenamed": "تمت إعادة تسمية المجلد",
+    "folderRenameError": "فشل إعادة تسمية المجلد",
+    "folderDeleted": "تم حذف المجلد",
+    "folderDeleteError": "فشل حذف المجلد",
+    "folderNamePlaceholder": "اسم المجلد",
+    "seeMore": "عرض المزيد",
+    "seeLess": "عرض أقل",
+    "selectedCount": "{count} عنصر محدد",
+    "selectAll": "تحديد الكل",
+    "select": "اختر",
+    "moveToFolder": "نقل",
+    "bulkDeleteConfirm": "حذف {count} عنصر محدد؟",
+    "bulkDeleteSuccess": "تم حذف العناصر",
+    "bulkDownloadStart": "جارٍ تنزيل {count} عنصر...",
+    "moveSuccess": "تم نقل العناصر"
+  },
+  "voice": {
+    "connecting": "جارٍ الاتصال...",
+    "connected": "متصل",
+    "mute": "كتم",
+    "unmute": "إلغاء الكتم",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "تحدث بشكل طبيعي. سيرد الذكاء الاصطناعي عند التوقف.",
+    "connectionError": "فشل الاتصال. يرجى المحاولة مرة أخرى.",
+    "minutesRemaining": "{minutes} دقائق متبقية",
+    "minutesUsed": "{minutes} دقائق مستخدمة"
+  },
+  "characters": {
+    "filters": "الفلاتر",
+    "ethnicity": "العرق",
+    "bodyType": "نوع الجسم",
+    "ageRange": "الفئة العمرية",
+    "relationship": "العلاقة",
+    "occupation": "المهنة",
+    "hobbies": "الهوايات",
+    "personality": "الشخصية",
+    "language": "اللغة",
+    "age": "العمر",
+    "all": "الكل",
+    "noResults": "لم يتم العثور على شخصيات",
+    "noResultsDesc": "حاول تعديل الفلاتر",
+    "newBadge": "جديد",
+    "chatNow": "دردش الآن",
+    "viewProfile": "عرض الملف الشخصي",
+    "ethnicities": {
+      "caucasian": "قوقازي",
+      "asian": "آسيوي",
+      "middleEastern": "شرق أوسطي",
+      "hispanic": "لاتيني",
+      "african": "أفريقي",
+      "southAsian": "جنوب آسيوي",
+      "nativeAmerican": "أمريكي أصلي",
+      "pacificIslander": "جزر المحيط الهادئ",
+      "mixed": "مختلط",
+      "other": "آخر"
+    },
+    "bodyTypes": {
+      "slim": "نحيف",
+      "athletic": "رياضي",
+      "average": "متوسط",
+      "curvy": "ممتلئ",
+      "plus": "مقاس كبير"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "أعزب",
+      "dating": "في علاقة",
+      "married": "متزوج",
+      "none": "لا يوجد"
+    }
+  },
+  "settings": {
+    "profile": "الملف الشخصي",
+    "myProfile": "ملفي الشخصي",
+    "settings": "الإعدادات",
+    "account": "الحساب",
+    "plan": "الخطة",
+    "profileSettings": "إعدادات الملف الشخصي",
+    "manageAccountSettings": "إدارة إعدادات حسابك وتفضيلاتك",
+    "personalInfo": "المعلومات الشخصية",
+    "nickname": "الاسم المستعار",
+    "gender": "الجنس",
+    "male": "ذكر",
+    "female": "أنثى",
+    "preferences": "التفضيلات",
+    "newsletter": "الاشتراك في النشرة الإخبارية",
+    "newsletterDesc": "تلقي التحديثات والأخبار",
+    "aiTrainingTitle": "تدريب الذكاء الاصطناعي والإشراف",
+    "aiTrainingDesc": "السماح لمحادثاتك وطلباتك بمساعدة تدريب وتحسين الذكاء الاصطناعي والإشراف في sweetwine. يمكنك إيقاف هذا في أي وقت للانسحاب.",
+    "aiTrainingLink": "اعرف المزيد في إشعار الخصوصية.",
+    "aiTrainingError": "تعذر تحديث تفضيل تدريب الذكاء الاصطناعي",
+    "interfaceLanguage": "لغة الواجهة",
+    "interfaceLanguageDesc": "لغة واجهة المستخدم",
+    "aiLanguage": "لغة ردود الذكاء الاصطناعي",
+    "aiLanguageDesc": "اللغة التي ستستخدمها شخصيات الذكاء الاصطناعي عند التحدث إليك",
+    "currentPlan": "الخطة الحالية",
+    "freePlan": "الخطة المجانية",
+    "dangerZone": "منطقة الخطر",
+    "dangerZoneDescription": "إذا كنت ترغب في حذف هذا الحساب وجميع بياناته نهائيًا.",
+    "deleteAllMemory": "حذف كل الذاكرة",
+    "confirmDeleteAllMemory": "هل أنت متأكد من رغبتك في حذف الذكريات طويلة الأمد لجميع شخصيات الذكاء الاصطناعي؟ ستظل رسائل الدردشة، لكن الشخصيات ستنسى الحقائق السابقة في ردها التالي.",
+    "deleteAllMemorySuccess": "تم حذف جميع الذكريات",
+    "deleteAccount": {
+      "button": "حذف الحساب",
+      "title": "حذف الحساب",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "للتأكيد، اكتب",
+      "confirmRequired": "يرجى كتابة DELETE للتأكيد",
+      "confirmButton": "حذف حسابي",
+      "deleting": "جارٍ الحذف...",
+      "success": "تم حذف حسابك",
+      "error": "فشل حذف الحساب. يرجى المحاولة مرة أخرى."
+    },
+    "saveChanges": "حفظ التغييرات",
+    "changesSaved": "تم حفظ التغييرات بنجاح",
+    "saveFailed": "فشل حفظ التغييرات",
+    "languageUpdated": "تم تحديث اللغة",
+    "aiLanguageUpdated": "تم تحديث لغة الذكاء الاصطناعي"
+  },
+  "create": {
+    "defaultGreeting": "مرحبا",
+    "title": "إنشاء شخصية AI",
+    "step": "الخطوة {current} من {total}",
+    "step1": {
+      "title": "اختر الأسلوب",
+      "description": "اختر أسلوب وسمات شخصيتك الأساسية"
+    },
+    "step2": {
+      "title": "اختر العرق",
+      "description": "اختر عرقاً وعمراً لشخصيتك"
+    },
+    "step3": {
+      "title": "اختر الشعر والعيون",
+      "description": "خصص تسريحة الشعر ولونه ولون العينين"
+    },
+    "step4": {
+      "title": "اختر الجسم",
+      "description": "خصص جسم شخصيتك"
+    },
+    "step5": {
+      "title": "الشخصية والتفاصيل",
+      "description": "حدد شخصية صوت شخصيتك"
+    },
+    "style": {
+      "title": "أسلوب الشخصية",
+      "realistic": "واقعي",
+      "anime": "أنمي"
+    },
+    "gender": {
+      "title": "الجنس",
+      "female": "أنثى",
+      "male": "ذكر"
+    },
+    "age": {
+      "title": "العمر",
+      "years": "{age} سنوات"
+    },
+    "ethnicity": {
+      "title": "العرق"
+    },
+    "hairStyle": {
+      "title": "تسريحة الشعر"
+    },
+    "hairColor": {
+      "title": "لون الشعر"
+    },
+    "eyeColor": {
+      "title": "لون العين"
+    },
+    "bodyType": {
+      "title": "نوع الجسم"
+    },
+    "breastSize": {
+      "title": "حجم الصدر"
+    },
+    "name": {
+      "title": "الاسم",
+      "placeholder": "أدخل اسم الشخصية",
+      "randomize": "إنشاء اسم عشوائي"
+    },
+    "language": {
+      "title": "اللغة",
+      "widgetLabel": "اختر اللغة",
+      "placeholder": "اختر اللغة",
+      "selectTitle": "اختر لغتك"
+    },
+    "personality": {
+      "title": "الشخصية",
+      "widgetLabel": "اختر الشخصية",
+      "placeholder": "اختر الشخصية",
+      "sectionTitle": "اختر الشخصية",
+      "clickToChange": "انقر للتغيير"
+    },
+    "relationship": {
+      "title": "العلاقة",
+      "widgetLabel": "اختر العلاقة",
+      "placeholder": "اختر العلاقة",
+      "selectTitle": "تعديل العلاقة"
+    },
+    "occupation": {
+      "title": "المهنة",
+      "widgetLabel": "اختر المهنة",
+      "placeholder": "اختر المهنة",
+      "selectTitle": "تعديل المهنة"
+    },
+    "kinks": {
+      "title": "الاهتمامات",
+      "widgetLabel": "ما اهتماماتهم؟ (الحد الأقصى {max})",
+      "labelMax": "الاهتمامات (الحد الأقصى {max})",
+      "placeholder": "اختر الاهتمامات (اختياري)",
+      "optional": "اختياري",
+      "selectTitle": "تعديل الاهتمامات",
+      "moreCount": "+{count} إضافي"
+    },
+    "selector": {
+      "searchPlaceholder": "بحث",
+      "noResults": "لم يتم العثور على خيارات",
+      "cancel": "إلغاء",
+      "saveChanges": "حفظ التغييرات",
+      "selectedCount": "{count} محدد"
+    },
+    "voice": {
+      "title": "الصوت",
+      "widgetLabel": "اختر الصوت",
+      "placeholder": "اختر الصوت",
+      "selectTitle": "اختر الصوت"
+    },
+    "advanced": {
+      "title": "تفاصيل متقدمة",
+      "optional": "اختياري",
+      "filled": "مكتمل",
+      "autocompleteTitle": "الإكمال التلقائي بالذكاء الاصطناعي",
+      "autocompleteDesc": "دع الذكاء الاصطناعي يكمل الحقول الفارغة لشخصية أعمق",
+      "autocompleteSuccess": "تم ملء الحقول بنجاح!",
+      "autocompleteError": "فشل في إنشاء الاقتراحات. يرجى المحاولة مرة أخرى.",
+      "greetingLabel": "التحية",
+      "greetingPlaceholder": "الرسالة الأولى التي ترسلها شخصيتك...",
+      "scenarioLabel": "السيناريو",
+      "scenarioPlaceholder": "السياق أو الخلفية لكيفية التقائكم...",
+      "personalityLabel": "تفاصيل شخصية إضافية",
+      "personalityPlaceholder": "السمات الغريبة، أنماط الكلام، السمات السلوكية...",
+      "extraLabel": "تفاصيل إضافية",
+      "extraPlaceholder": "الخلفية، الهوايات، تاريخ الحياة..."
+    },
+    "navigation": {
+      "back": "رجوع",
+      "next": "التالي",
+      "create": "إنشاء",
+      "generateYourCharacter": "أنشئ شخصيتك"
+    },
+    "progress": {
+      "generatingPrompt": "جارٍ إنشاء الشخصية...",
+      "generatingImage": "جارٍ إنشاء الصورة...",
+      "creatingVoice": "جارٍ إعداد الصوت...",
+      "saving": "جارٍ الحفظ...",
+      "complete": "اكتمل!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "جارٍ إنشاء الشخصية...",
+      "addingSweetness": "جارٍ إضافة الحلاوة...",
+      "tooMuchSweet": "أوبس، حلاوة زائدة...",
+      "testingSounds": "جاري اختبار الأصوات..."
+    },
+    "overlay": {
+      "signupPrompt": "أكمل التسجيل لفتح شخصيتك…",
+      "processingHint": "عادةً يستغرق ذلك ٢٠–٣٠ ثانية",
+      "traitEthnicity": "العرق",
+      "traitBody": "الجسم",
+      "traitHair": "الشعر",
+      "traitColor": "اللون",
+      "traitEyes": "العيون",
+      "traitVibe": "الجو",
+      "bannerTitle": "شخصيتك جاهزة للإنشاء!",
+      "bannerDesc": "تم حفظ تفضيلاتك. راجع وأنشئ أدناه."
+    },
+    "success": {
+      "title": "تم إنشاء الشخصية!",
+      "description": "تم إنشاء شخصيتك بالذكاء الاصطناعي بنجاح.",
+      "yearsOld": "سنة",
+      "meetButton": "تعرّف"
+    },
+    "error": {
+      "title": "فشل الإنشاء",
+      "generic": "فشل إنشاء الشخصية. يرجى المحاولة مرة أخرى."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "قوقازي",
+        "asian": "آسيوي",
+        "middle_eastern": "شرق أوسطي",
+        "hispanic": "لاتيني",
+        "african": "أفريقي",
+        "south_asian": "جنوب آسيوي",
+        "native_american": "أمريكي أصلي",
+        "pacific_islander": "جزر المحيط الهادئ",
+        "mixed": "مختلط",
+        "arab": "عربي"
+      },
+      "hairStyleFemale": {
+        "straight": "مستقيم",
+        "bangs": "غرة",
+        "curly": "مجعد",
+        "bun": "كعكة",
+        "short_bob": "بوك قصير",
+        "ponytail": "ذيل حصان",
+        "wavy": "مموج",
+        "long_layers": "طبقات طويلة",
+        "braids": "ضفائر",
+        "pixie_cut": "قصة بيكسي",
+        "updo": "تسريحة مرفوعة",
+        "french_twist": "لفة فرنسية",
+        "fishtail_braid": "ضفيرة ذيل السمكة",
+        "top_knot": "كعكة علوية",
+        "space_buns": "كعكات فضائية",
+        "halo_braid": "ضفيرة هالة",
+        "beehive": "خلية نحل",
+        "finger_waves": "موجات الأصابع",
+        "lob": "لوب (بوب طويل)",
+        "shag_cut": "قصة شاغ",
+        "bald": "أصلع"
+      },
+      "hairStyleMale": {
+        "short": "قصير",
+        "buzz_cut": "قصة بز",
+        "crew_cut": "قصة كرو",
+        "undercut": "أندرت",
+        "fade": "فيد",
+        "pompadour": "بومبادور",
+        "quiff": "كويف",
+        "slicked_back": "ممشط للخلف",
+        "curly": "مجعد",
+        "afro": "أفرو",
+        "man_bun": "كعكة رجالية",
+        "dreadlocks": "دريدلوكس",
+        "cornrows": "كورنروز",
+        "mohawk": "موهوك",
+        "side_part": "فرق جانبي",
+        "textured_crop": "قصة نصية",
+        "french_crop": "قصة فرنسية",
+        "spiky": "شائك",
+        "comb_over": "كوم أوفر",
+        "long_hair": "شعر طويل",
+        "bald": "أصلع"
+      },
+      "hairColor": {
+        "brunette": "بني غامق",
+        "blonde": "أشقر",
+        "black": "أسود",
+        "redhead": "أحمر",
+        "pink": "وردي",
+        "auburn": "كستنائي",
+        "brown": "بني",
+        "platinum_blonde": "أشقر بلاتيني",
+        "silver_grey": "رمادي فضي",
+        "white": "أبيض",
+        "blue": "أزرق",
+        "purple": "بنفسجي",
+        "green": "أخضر",
+        "burgundy": "عنابي",
+        "copper": "نحاسي",
+        "strawberry_blonde": "أشقر فراولي",
+        "ash_brown": "بني رمادي",
+        "golden_blonde": "أشقر ذهبي",
+        "mahogany": "ماهوغاني",
+        "pastel_pink": "وردي باستيل",
+        "ombre": "أومبريه",
+        "balayage": "بالياج",
+        "highlights": "هايلايتس",
+        "jet_black": "أسود فاحم",
+        "dark_brown": "بني داكن",
+        "light_brown": "بني فاتح",
+        "honey_blonde": "أشقر عسلي",
+        "dirty_blonde": "أشقر متسخ",
+        "cherry_red": "أحمر كرزي",
+        "violet": "بنفسجي"
+      },
+      "eyeColor": {
+        "brown": "بني",
+        "blue": "أزرق",
+        "green": "أخضر",
+        "hazel": "بندقي",
+        "amber": "كهرماني",
+        "gray": "رمادي",
+        "heterochromia": "تباين لوني",
+        "violet": "بنفسجي",
+        "red_pink": "أحمر/وردي",
+        "black": "أسود"
+      },
+      "bodyTypeFemale": {
+        "skinny": "نحيف",
+        "athletic": "رياضي",
+        "average": "متوسط",
+        "curvy": "ممتلئ",
+        "chubby": "ممتلئ قليلاً"
+      },
+      "bodyTypeMale": {
+        "skinny": "نحيف",
+        "athletic": "رياضي",
+        "average": "متوسط",
+        "muscular": "عضلي",
+        "heavy": "ثقيل",
+        "big_tall": "كبير وطويل"
+      },
+      "breastSize": {
+        "small": "صغير",
+        "medium": "متوسط",
+        "large": "كبير",
+        "extra_large": "كبير جداً"
+      },
+      "personality": {
+        "nympho": "شهواني",
+        "lover": "محب",
+        "submissive": "مطيع",
+        "dominant": "مهيمن",
+        "temptress": "مغرية",
+        "innocent": "بريء",
+        "caregiver": "راعٍ",
+        "experimenter": "مجرّب",
+        "mean": "قاسٍ",
+        "confidant": "موثوق",
+        "shy": "خجول",
+        "queen": "ملكة",
+        "adventurous": "مغامر",
+        "romantic": "رومانسي",
+        "intellectual": "مثقف",
+        "protector": "حامٍ",
+        "rebel": "متمرد",
+        "optimist": "متفائل",
+        "realist": "واقعي",
+        "free_spirit": "روح حرة",
+        "leader": "قائد",
+        "loyal": "مخلص",
+        "playful": "مرح",
+        "mysterious": "غامض",
+        "ambitious": "طموح",
+        "gentle": "لطيف",
+        "sarcastic": "ساخر",
+        "empathetic": "متعاطف",
+        "stoic": "رابط الجأش",
+        "charismatic": "كاريزمي"
+      },
+      "relationship": {
+        "stranger": "غريب",
+        "girlfriend": "صديقة",
+        "sex_friend": "صديقة حميمة",
+        "school_mate": "زميل مدرسة",
+        "work_colleague": "زميل عمل",
+        "wife": "زوجة",
+        "mistress": "عشيقة",
+        "friend": "صديق",
+        "step_sister": "أخت غير شقيقة",
+        "step_mom": "أم غير شقيقة",
+        "step_daughter": "ابنة غير شقيقة",
+        "landlord": "مالك العقار",
+        "sugar_baby": "صديقة مدللة",
+        "boss": "مدير",
+        "teacher": "معلم",
+        "student": "طالب",
+        "neighbour": "جار",
+        "mother_in_law": "حماة",
+        "sister_in_law": "أخت الزوج/الزوجة",
+        "boyfriend": "صديق",
+        "husband": "زوج",
+        "fiance": "خطيب / خطيبة",
+        "ex": "حبيب سابق",
+        "roommate": "رفيق سكن",
+        "best_friend": "أفضل صديق",
+        "classmate": "زميل صف",
+        "mentor": "مرشد",
+        "client": "عميل",
+        "therapist": "معالج",
+        "trainer": "مدرب",
+        "rival": "منافس",
+        "crush": "إعجاب",
+        "secret_admirer": "معجب سري",
+        "pen_pal": "صديق مراسلة",
+        "business_partner": "شريك عمل",
+        "babysitter": "جليسة أطفال",
+        "childhood_friend": "صديق طفولة",
+        "long_distance_partner": "شريك مسافة"
+      },
+      "occupation": {
+        "student": "طالب",
+        "dancer": "راقص",
+        "model": "عارض أزياء",
+        "maid": "خادمة",
+        "boss_ceo": "رئيسة / مديرة تنفيذية",
+        "babysitter_au_pair": "مربية أطفال / أو بير",
+        "streamer": "ستريمر",
+        "bartender": "ساقية",
+        "tech_engineer": "مهندسة تقنية",
+        "lifeguard": "منقذة",
+        "cashier": "كاشيرة",
+        "massage_therapist": "معالجة تدليك",
+        "teacher": "معلمة",
+        "nurse": "ممرضة",
+        "secretary": "سكرتيرة",
+        "yoga_instructor": "مدربة يوغا",
+        "fitness_coach": "مدربة لياقة",
+        "cook": "طباخة",
+        "artist": "فنانة",
+        "movie_star_actress": "نجمة سينما / ممثلة",
+        "doctor": "طبيبة",
+        "librarian": "أمينة مكتبة",
+        "spy": "جاسوسة",
+        "police_officer": "ضابطة شرطة",
+        "soldier": "جندية",
+        "lawyer": "محامية",
+        "hairdresser": "مصففة شعر",
+        "dentist": "طبيبة أسنان",
+        "singer_musician": "مغنية / موسيقية",
+        "gynecologist": "طبيبة نساء",
+        "writer": "كاتبة",
+        "flight_attendant": "مضيفة طيران",
+        "professional_athlete": "رياضية محترفة",
+        "scientist": "عالمة",
+        "florist": "بائعة زهور",
+        "makeup_artist": "خبيرة مكياج",
+        "photographer": "مصورة",
+        "social_worker": "عاملة اجتماعية",
+        "designer": "مصممة",
+        "pharmacist": "صيدلانية",
+        "nutritionist": "أخصائية تغذية",
+        "architect": "مهندسة معمارية",
+        "veterinarian": "طبيبة بيطرية",
+        "mechanic": "ميكانيكية",
+        "journalist": "صحفية",
+        "pilot": "طيارة",
+        "firefighter": "مطافئة",
+        "accountant": "محاسبة",
+        "electrician": "كهربائية",
+        "carpenter": "نجارة",
+        "psychologist": "عالم نفس",
+        "real_estate_agent": "وكيل عقارات",
+        "chef": "طاهٍ",
+        "farmer": "مزارع",
+        "delivery_driver": "سائق توصيل",
+        "janitor": "عامل نظافة",
+        "security_guard": "حارس أمن",
+        "banker": "مصرفي",
+        "judge": "قاضٍ",
+        "paramedic": "مسعف",
+        "actor": "ممثل",
+        "comedian": "كوميدي",
+        "archaeologist": "عالم آثار",
+        "astronaut": "رائد فضاء"
+      },
+      "kinks": {
+        "bondage": "التقييد",
+        "spanking": "الصفع",
+        "collar_leash": "الطوق والمقود",
+        "punishment": "العقاب",
+        "humiliation": "الإذلال",
+        "public_play": "اللعب العام",
+        "roleplay": "لعب الأدوار",
+        "anal_play": "اللعب الشرجي",
+        "oral_play": "اللعب الفموي",
+        "cum_play": "لعب السائل المنوي",
+        "creampie": "القذف الداخلي",
+        "squirting": "الرذاذ",
+        "dirty_talk": "الكلام القذر",
+        "breeding": "الإنجاب",
+        "daddy_mommy_dominance": "هيمنة الأب/الأم",
+        "edging": "الإيقاف عند الحافة",
+        "obedience": "الطاعة",
+        "control": "السيطرة",
+        "inexperienced": "قليل الخبرة",
+        "shy_flirting": "الغزل الخجول",
+        "playful_teasing": "الإغواء المرح",
+        "cuddling": "الاحتضان",
+        "slow_sensual": "بطيء وحسي",
+        "hair_pulling": "شد الشعر",
+        "foot_fetish": "هوس القدمين",
+        "voyeurism": "التلصص",
+        "exhibitionism": "الاستعراض",
+        "sensation_play": "لعب الإحساس",
+        "wax_play": "لعب الشمع",
+        "pet_play": "لعب الحيوانات الأليفة",
+        "age_play": "لعب العمر",
+        "medical_play": "لعب طبي",
+        "orgasm_control_denial": "التحكم/الحرمان من النشوة",
+        "forced_orgasms": "النشوات القسرية",
+        "group_sex": "الجنس الجماعي",
+        "threesomes": "الثلاثي",
+        "swapping": "تبديل",
+        "cuckolding_cuckqueaning": "الخيانة/الخيانة الأنثوية",
+        "femdom": "هيمنة أنثوية",
+        "gentle_domination": "هيمنة لطيفة",
+        "sensation_deprivation": "حرمان الحواس",
+        "sensory_overload": "تحميل حسي زائد",
+        "uniform_costume_fetish": "فتيش الزي/الملابس",
+        "food_play": "لعب بالطعام",
+        "watersports": "رياضات مائية",
+        "bdsm": "BDSM",
+        "impact_play": "لعب بالصدم",
+        "knife_play": "لعب بالسكين",
+        "consensual_non_consent": "الموافقة على عدم الموافقة",
+        "power_exchange": "تبادل السلطة",
+        "master_slave": "سيد/عبد",
+        "owner_pet": "مالك/حيوان أليف"
+      },
+      "languages": {
+        "en": "الإنجليزية",
+        "cs": "التشيكية",
+        "pl": "البولندية",
+        "de": "الألمانية",
+        "es": "الإسبانية",
+        "fr": "الفرنسية"
+      }
+    }
+  },
+  "myAI": {
+    "title": "ذكائي الاصطناعي",
+    "titlePart1": "ذكائي",
+    "titlePart2": "الاصطناعي",
+    "createNew": "إنشاء ذكاء اصطناعي جديد",
+    "createButton": "إنشاء شخصية",
+    "characterCount": "{count}/{limit} شخصيات",
+    "loadMore": "تحميل المزيد",
+    "empty": {
+      "title": "لا توجد شخصيات بعد",
+      "description": "أنشئ أول شخصية ذكاء اصطناعي وابدأ الدردشة! خصّص مظهرها وشخصيتها وصوتها.",
+      "createFirst": "أنشئ شخصيتك الأولى"
+    },
+    "delete": {
+      "title": "حذف الشخصية",
+      "message": "هل أنت متأكد من رغبتك في حذف {name}؟ سيؤدي ذلك إلى إزالة الشخصية نهائيًا وكل سجل الدردشة والمحتوى المُنشأ.",
+      "confirm": "حذف",
+      "success": "تم حذف الشخصية بنجاح"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ التفاعل",
+    "interactionDescription": "اكتب بشكل طبيعي — اطلب صورة أو فيديو أو ابدأ محادثة. يفهم الذكاء الاصطناعي نيتك بأي لغة.",
+    "mediaTitle": "إنشاء صور وفيديوهات",
+    "mediaDescription": "أطلق العنان لخيالك — أنشئ صورًا أو فيديوهات بدون حدود.",
+    "next": "التالي ←",
+    "gotIt": "فهمت"
+  }
+}

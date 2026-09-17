@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "close": "Đóng",
+    "now": "bây giờ",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "success": "Thành công",
+    "confirm": "Xác nhận",
+    "back": "Quay lại",
+    "or": "Hoặc",
+    "next": "Tiếp theo",
+    "submit": "Gửi",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "clear": "Xóa",
+    "all": "Tất cả",
+    "yes": "Có",
+    "no": "Không",
+    "download": "Tải xuống",
+    "and": "và",
+    "tryAgain": "Thử lại",
+    "change": "Thay đổi"
+  },
+  "navigation": {
+    "new": "MỚI",
+    "sectionBrowse": "Khám phá",
+    "sectionTalk": "Trò chuyện",
+    "sectionCreate": "Tạo",
+    "sectionLibrary": "Thư viện",
+    "explore": "Trang chủ",
+    "discover": "Khám phá",
+    "createShort": "Tạo AI",
+    "chats": "Trò chuyện",
+    "groupChat": "Trò chuyện Nhóm AI",
+    "roleplay": "Nhập vai",
+    "collection": "Bộ sưu tập",
+    "generateImage": "Tạo Hình ảnh",
+    "generateVideo": "Tạo Video",
+    "createCharacter": "Tạo Nhân vật AI",
+    "myAI": "AI Của Tôi",
+    "language": "Ngôn ngữ",
+    "contactUs": "Liên hệ",
+    "account": "Tài khoản",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Nữ",
+      "anime": "Anime",
+      "guys": "Nam"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chat ngay",
+    "like": "Thích"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "signup": "Đăng ký",
+    "createFreeAccount": "Tạo tài khoản miễn phí",
+    "logout": "Đăng xuất",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "noAccount": "Chưa có tài khoản?",
+    "hasAccount": "Đã có tài khoản?",
+    "signupPrompt": "Tạo tài khoản miễn phí",
+    "loginPrompt": "Đăng nhập",
+    "continueWith": "Tiếp tục với",
+    "welcomeBack": "Chào mừng trở lại!",
+    "createAccount": "Tạo tài khoản của bạn",
+    "signInToAccount": "Đăng nhập vào tài khoản",
+    "emailRequired": "Email là bắt buộc",
+    "emailInvalid": "Địa chỉ email không hợp lệ",
+    "passwordRequired": "Mật khẩu là bắt buộc",
+    "passwordLength": "Mật khẩu phải có ít nhất 6 ký tự",
+    "passwordsMismatch": "Mật khẩu không khớp",
+    "emailAlreadyRegistered": "Email đã được đăng ký",
+    "emailAlreadyRegisteredDescription": "Tài khoản với email này đã tồn tại. Vui lòng đăng nhập.",
+    "loginError": "Đăng nhập thất bại",
+    "signupError": "Đăng ký thất bại",
+    "loginSuccess": "Chào mừng trở lại!",
+    "signupSuccess": "Tạo tài khoản thành công!",
+    "logoutSuccess": "Bạn đã đăng xuất thành công",
+    "logoutError": "Đăng xuất thất bại",
+    "linkExpired": "Liên kết xác minh này đã hết hạn. Vui lòng yêu cầu một liên kết mới.",
+    "accessDenied": "Truy cập bị từ chối. Vui lòng thử lại.",
+    "verifyEmail": "Xác minh email của bạn",
+    "verificationEmailSent": "Chúng tôi đã gửi email xác minh cho bạn",
+    "confirmYourEmail": "Xác nhận email của bạn",
+    "confirmationLinkSent": "Chúng tôi đã gửi liên kết xác nhận đến \"{email}\".",
+    "checkSpamFolder": "Không nhận được email? Kiểm tra thư mục spam.",
+    "signupToChat": "Tạo tài khoản miễn phí để bắt đầu.",
+    "signupDescription": "Tạo tài khoản để tiếp tục cuộc trò chuyện",
+    "emailVerificationTitle": "Kiểm tra email của bạn",
+    "emailVerificationMessage": "Chúng tôi đã gửi liên kết xác minh đến {email}. Vui lòng kiểm tra hộp thư đến và nhấp vào liên kết để xác minh tài khoản.",
+    "emailVerificationNext": "Sau khi xác minh, bạn sẽ hoàn tất quy trình giới thiệu.",
+    "verificationEmailSentTo": "Chúng tôi đã gửi email xác minh đến {email}",
+    "verificationInstructions": "Vui lòng kiểm tra hộp thư đến và nhấp vào liên kết xác minh để kích hoạt tài khoản.",
+    "resetPassword": "Đặt lại mật khẩu",
+    "resetPasswordDescription": "Nhập email của bạn và chúng tôi sẽ gửi liên kết đặt lại",
+    "resetEmailSent": "Nếu tài khoản tồn tại với email này, bạn sẽ nhận được liên kết đặt lại trong thời gian ngắn",
+    "backToLogin": "Quay lại Đăng nhập",
+    "newPassword": "Mật khẩu mới",
+    "confirmNewPassword": "Xác nhận mật khẩu mới",
+    "passwordResetSuccess": "Mật khẩu đã cập nhật thành công. Vui lòng đăng nhập.",
+    "enterNewPassword": "Nhập mật khẩu mới",
+    "redirectingToLogin": "Đang chuyển hướng đến đăng nhập...",
+    "invalidResetLink": "Liên kết không hợp lệ hoặc đã hết hạn",
+    "invalidResetLinkDescription": "Liên kết đặt lại mật khẩu này không hợp lệ hoặc đã hết hạn. Vui lòng yêu cầu một liên kết mới.",
+    "passwordsDontMatch": "Mật khẩu không khớp",
+    "currentPassword": "Mật khẩu hiện tại",
+    "currentPasswordRequired": "Mật khẩu hiện tại là bắt buộc",
+    "changePassword": "Đổi mật khẩu",
+    "changePasswordDescription": "Nhập mật khẩu hiện tại và chọn mật khẩu mới",
+    "newPasswordMustBeDifferent": "Mật khẩu mới phải khác với mật khẩu hiện tại",
+    "incorrectPassword": "Mật khẩu hiện tại không đúng",
+    "passwordChangeSuccess": "Đổi mật khẩu thành công",
+    "changeEmail": "Đổi email",
+    "newEmail": "Email mới",
+    "confirmNewEmail": "Xác nhận Email Mới",
+    "emailsDontMatch": "Email không khớp",
+    "emailChangeDescription": "Một email xác minh sẽ được gửi đến cả email hiện tại và email mới của bạn",
+    "emailMustBeDifferent": "Email mới phải khác với email hiện tại",
+    "emailChangeSent": "Email xác minh đã gửi. Vui lòng kiểm tra hộp thư email mới của bạn.",
+    "emailChangeSecurityNote": "Vì lý do bảo mật, email xác nhận sẽ được gửi đến cả email hiện tại và email mới của bạn. Bạn phải xác nhận từ cả hai để hoàn tất thay đổi.",
+    "otpDescription": "Chúng tôi đã gửi mã 6 chữ số đến {email}",
+    "otpVerify": "Xác minh",
+    "otpResend": "Gửi lại mã",
+    "otpResendIn": "Gửi lại sau {seconds}s",
+    "otpNoCode": "Không nhận được mã?",
+    "otpInvalid": "Mã không hợp lệ. Vui lòng thử lại.",
+    "otpSuccess": "Xác minh email thành công!",
+    "otpResendSuccess": "Mã mới đã gửi đến email của bạn",
+    "otpResendError": "Gửi lại mã thất bại",
+    "continueWithEmail": "Tiếp tục với Email",
+    "moreOptions": "Tùy chọn khác",
+    "lessOptions": "Ít tùy chọn hơn",
+    "enterYourEmail": "Nhập địa chỉ email",
+    "sendCode": "Gửi mã",
+    "byCreatingAccountAgree": "Bằng cách tạo tài khoản, bạn đồng ý với",
+    "termsOfService": "Điều khoản Dịch vụ",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Chào mừng đến với sweetwine",
+    "welcomeTo": "Chào mừng đến với",
+    "letsGetStarted": "Hãy bắt đầu thiết lập",
+    "setupProfile": "Thiết lập Hồ sơ",
+    "step1of2": "Bước 1/2",
+    "step2of2": "Bước 2/2",
+    "nickname": "Biệt danh",
+    "nicknamePlaceholder": "Chọn biệt danh",
+    "nicknameRequired": "Vui lòng nhập biệt danh",
+    "gender": "Giới tính",
+    "genderRequired": "Vui lòng chọn giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "interfaceLanguage": "Ngôn ngữ giao diện",
+    "interfaceLanguageDesc": "Ngôn ngữ cho menu và nút",
+    "aiLanguage": "Ngôn ngữ phản hồi AI",
+    "aiLanguageDesc": "Ngôn ngữ AI sẽ dùng khi trò chuyện với bạn",
+    "languageRequired": "Vui lòng chọn ngôn ngữ",
+    "continue": "Tiếp tục",
+    "ageVerification": "Xác minh độ tuổi",
+    "ageVerificationText": "Để sử dụng sweetwine, bạn phải từ 18 tuổi trở lên. Bằng cách tiếp tục, bạn xác nhận mình đủ tuổi hợp pháp.",
+    "beforeContinue": "Trước khi tiếp tục",
+    "mustBe18": "Bạn phải từ 18 tuổi trở lên để sử dụng dịch vụ này",
+    "agreeToTerms": "Bằng cách tiếp tục, bạn đồng ý với {termsLink} và {privacyLink} của chúng tôi",
+    "termsOfService": "Điều khoản dịch vụ",
+    "privacyPolicy": "Chính sách bảo mật",
+    "iConfirm": "Tôi xác nhận rằng tôi từ 18 tuổi trở lên và đồng ý với",
+    "ageRequired": "Bạn phải xác nhận độ tuổi để tiếp tục",
+    "aiActConsent": "Tôi xác nhận rằng mình chỉ giao tiếp với AI",
+    "aiActRequired": "Bạn phải xác nhận điều này để tiếp tục",
+    "newsletterOptIn": "Đăng ký nhận bản tin để cập nhật và tin tức",
+    "complete": "Thiết lập hoàn tất!",
+    "completeText": "Bạn đã sẵn sàng! Bắt đầu trò chuyện với nhân vật AI.",
+    "startExploring": "Bắt đầu khám phá",
+    "featuresTitle": "Tính năng có sẵn",
+    "featuresTitleWord1": "Có sẵn",
+    "featuresTitleWord2": "Tính năng",
+    "feature1Title": "Trò chuyện AI",
+    "feature1Desc": "Cuộc trò chuyện riêng tư và không kiểm duyệt",
+    "feature2Title": "Tạo hình ảnh",
+    "feature2Desc": "Tạo hình ảnh cá nhân hóa và không kiểm duyệt với nhân vật AI",
+    "feature3Title": "Tạo video",
+    "feature3Desc": "Tạo video AI không kiểm duyệt với hiệu ứng",
+    "feature5Title": "Tạo AI tùy chỉnh",
+    "feature5Desc": "Thiết kế nhân vật của riêng bạn",
+    "feature6Title": "Duyệt nhân vật",
+    "feature6Desc": "Hơn 100 tính cách độc đáo",
+    "feature7Title": "Nhập vai AI",
+    "feature7Desc": "Trải nghiệm những câu chuyện và ảo tưởng được thiết kế chuyên nghiệp",
+    "showcase": {
+      "chatTitle": "Trò chuyện AI",
+      "chatDesc": "Cuộc trò chuyện riêng tư, không giới hạn",
+      "imageTitle": "Tạo hình ảnh",
+      "imageDesc": "Tạo hình ảnh cá nhân hóa, không kiểm duyệt của AI",
+      "videoTitle": "Tạo video",
+      "videoDesc": "Tạo video AI không kiểm duyệt với hiệu ứng",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Trò chuyện bằng giọng nói thời gian thực với người bạn AI",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Câu chuyện nhập vai, tưởng tượng và tương tác",
+      "groupChatTitle": "Trò chuyện nhóm AI",
+      "groupChatDesc": "Trò chuyện cùng lúc với tối đa 3 nhân vật AI",
+      "creatorTitle": "Tạo AI tùy chỉnh",
+      "creatorDesc": "Thiết kế và tạo nhân vật AI của riêng bạn"
+    },
+    "freePlan": {
+      "title": "Bạn đã sẵn sàng!",
+      "subtitle": "Dưới đây là những gì có trong gói miễn phí của bạn.",
+      "charactersTitle": "Tạo nhân vật của riêng bạn",
+      "charactersDesc": "Thiết kế {count} nhân vật AI tùy chỉnh từ đầu",
+      "imagesTitle": "Tạo hình ảnh",
+      "imagesDesc": "{count} hình ảnh AI miễn phí của người bạn đồng hành",
+      "messagesTitle": "Trò chuyện mỗi ngày",
+      "messagesDesc": "{count} tin nhắn mỗi ngày, làm mới sau mỗi 24 giờ",
+      "cta": "Bắt đầu khám phá"
+    },
+    "redirectingIn": "Đang chuyển hướng sau",
+    "seconds": "giây",
+    "generateCharacter": "Tạo nhân vật của bạn",
+    "redirectingToCreate": "Đang chuyển hướng đến trình tạo nhân vật sau"
+  },
+  "errors": {
+    "pageNotFound": "Không tìm thấy trang",
+    "pageNotFoundDesc": "Trang bạn đang tìm kiếm không tồn tại.",
+    "goHome": "Về trang chủ",
+    "somethingWentWrong": "Đã xảy ra lỗi",
+    "tryAgain": "Thử lại",
+    "unauthorized": "Chưa xác thực",
+    "unauthorizedDesc": "Bạn cần đăng nhập để truy cập trang này.",
+    "forbidden": "Không được phép",
+    "forbiddenDesc": "Bạn không có quyền truy cập trang này."
+  },
+  "footer": {
+    "allRightsReserved": "Đã đăng ký bản quyền.",
+    "madeWith": "Được tạo với",
+    "by": "bởi sweetwine",
+    "description": "Trải nghiệm nhân vật AI cá nhân hóa với tính cách riêng biệt, hình ảnh trực quan và các cuộc trò chuyện hấp dẫn.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Sản phẩm",
+    "legal": "Pháp lý",
+    "company": "Công ty",
+    "resources": "Tài nguyên",
+    "partnerships": "Đối tác",
+    "pressMedia": "Báo chí & truyền thông",
+    "careers": "Tuyển dụng",
+    "aiRealClones": "Bản sao AI thực",
+    "about": "Giới thiệu",
+    "blog": "Blog",
+    "news": "Tin tức",
+    "productUpdates": "Cập nhật sản phẩm",
+    "help": "Trợ giúp",
+    "sitemap": "Sơ đồ trang",
+    "paymentOptions": "Tùy chọn thanh toán",
+    "chats": "Trò chuyện",
+    "collection": "Bộ sưu tập",
+    "generateImage": "Tạo hình ảnh",
+    "generateVideo": "Tạo video",
+    "myAI": "AI của tôi",
+    "createCharacter": "Tạo nhân vật",
+    "api": "API",
+    "features": "Tính năng",
+    "allFeatures": "Tất cả tính năng",
+    "aiGroupChat": "Trò chuyện nhóm AI",
+    "aiMemory": "Bộ nhớ AI",
+    "aiGirlfriend": "Bạn gái AI",
+    "aiBoyfriend": "Bạn trai AI",
+    "aiCompanions": "Nhân vật AI",
+    "aiFriend": "Bạn AI",
+    "aiBreakupSupport": "Hỗ trợ chia tay",
+    "aiParent": "Phụ huynh AI",
+    "aiRoleplay": "Nhập vai AI",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsAndConditions": "Điều khoản & Điều kiện",
+    "cookiePolicy": "Chính sách Cookie",
+    "cookieSettings": "Cài đặt Cookie",
+    "other": "Chính sách khác",
+    "copyright": "© {year} sweetwine. Đã đăng ký bản quyền."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookie trên trang này",
+      "customizeButton": "Tùy chỉnh",
+      "rejectButton": "Từ chối",
+      "acceptButton": "Chấp nhận"
+    },
+    "modal": {
+      "title": "Quản lý cookie",
+      "subtitle": "Bật hoặc tắt các danh mục bên dưới. Cookie cần thiết sẽ luôn bật để trang hoạt động.",
+      "categories": {
+        "necessary": {
+          "title": "Cần thiết",
+          "description": "Bắt buộc để đăng nhập, thanh toán và bảo mật. Trang không thể hoạt động nếu thiếu chúng.",
+          "alwaysOn": "Luôn bật"
+        },
+        "analytics": {
+          "title": "Hiệu suất",
+          "description": "Đo lường sử dụng và chuyển đổi qua Google Analytics 4, bao gồm các chuyển đổi chính (đăng ký, mua hàng) được gửi từ máy chủ bằng mã định danh ẩn danh. Giúp chúng tôi hiểu cách dịch vụ được sử dụng; chúng tôi không dùng để xác định bạn cá nhân."
+        },
+        "marketing": {
+          "title": "Nhắm mục tiêu",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Hiển thị cookie",
+      "hideCookies": "Ẩn cookie",
+      "table": {
+        "name": "Tên",
+        "provider": "Nhà cung cấp",
+        "expiration": "Hết hạn",
+        "description": "Mô tả",
+        "session": "Phiên"
+      },
+      "policyLink": "Để biết chi tiết đầy đủ, xem <policy>Chính sách Cookie</policy> của chúng tôi.",
+      "rejectButton": "Từ chối",
+      "saveButton": "Lưu & Đóng",
+      "acceptButton": "Chấp nhận",
+      "cookieDescriptions": {
+        "supabaseAuth": "Giữ bạn đăng nhập bằng cách lưu phiên xác thực.",
+        "nextLocale": "Ghi nhớ ngôn ngữ bạn đã chọn cho giao diện.",
+        "consent": "Lưu lựa chọn cookie của bạn để banner không hiển thị mỗi lần truy cập.",
+        "ga": "Phân biệt khách truy cập duy nhất (Google Analytics 4). Mã định danh ẩn danh cũng được dùng để đo lường chuyển đổi chính từ phía máy chủ.",
+        "gaSession": "Duy trì trạng thái phiên và chỉ số tương tác của Google Analytics 4.",
+        "fbp": "Xác định trình duyệt cho Meta Pixel attribution.",
+        "fbc": "Lưu Facebook click ID để ghi nhận chuyển đổi quảng cáo. Chỉ được đặt sau khi nhấp vào quảng cáo Meta.",
+        "gclAu": "Được Google Ads sử dụng để liên kết chuyển đổi giữa các trang.",
+        "saleCountdown": "Theo dõi thời gian kết thúc ưu đãi hiện tại để bộ đếm giảm giá nhất quán trên các trang.",
+        "onboarded": "Đánh dấu tài khoản của bạn đã được onboarded để bỏ qua kiểm tra cơ sở dữ liệu xác minh độ tuổi ở các trang sau.",
+        "attribution": "Ghi nhận chiến dịch trả phí hoặc liên kết quảng cáo gần đây nhất đã đưa bạn đến trang web của chúng tôi (lần nhấp trả phí cuối cùng trong 30 ngày) để chúng tôi đo lường hiệu quả quảng cáo. Đây là mã định danh bên thứ nhất được lưu trên máy chủ của chúng tôi và không bao giờ chia sẻ với bên thứ ba."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Sắp ra mắt",
+    "subtitle": "Chúng tôi đang nỗ lực mang đến tính năng này cho bạn.",
+    "notify": "Nhận thông báo khi sẵn sàng",
+    "backHome": "Quay về Trang chủ",
+    "generateVideo": {
+      "title": "Tạo Video",
+      "description": "Mang nhân vật AI của bạn đến với cuộc sống qua video hoạt hình. Tạo nội dung video cá nhân hóa với các nhân vật yêu thích của bạn."
+    },
+    "createCharacter": {
+      "title": "Tạo Nhân vật",
+      "description": "Thiết kế và tùy chỉnh nhân vật AI độc đáo của riêng bạn. Xác định tính cách, ngoại hình, tiểu sử và tạo tương tác thực sự cá nhân hóa."
+    },
+    "myAI": {
+      "title": "AI Của Tôi",
+      "description": "Truy cập và quản lý tất cả nhân vật AI đã tạo. Chỉnh sửa tính cách, cập nhật ngoại hình và tinh chỉnh phản hồi của họ."
+    }
+  },
+  "exploreMore": {
+    "title": "Khám phá Thêm",
+    "aiGroupChat": "Chat nhóm AI",
+    "aiGroupChatDesc": "Chat với tối đa 3 nhân vật",
+    "aiMemory": "Bộ nhớ AI",
+    "aiMemoryDesc": "Ngữ cảnh theo sau mọi chế độ",
+    "aiGirlfriend": "Bạn gái AI",
+    "aiGirlfriendDesc": "Chat với bạn gái ảo",
+    "aiBoyfriend": "Bạn trai AI",
+    "aiBoyfriendDesc": "Kết nối với bạn trai AI",
+    "aiCompanions": "Nhân vật AI",
+    "aiCompanionsDesc": "Gặp gỡ những tính cách AI độc đáo",
+    "aiFriend": "Bạn AI",
+    "aiFriendDesc": "Tìm một người bạn không phán xét",
+    "aiBreakupSupport": "Hỗ trợ chia tay",
+    "aiBreakupSupportDesc": "Những cuộc trò chuyện chữa lành",
+    "aiParent": "Cha mẹ AI",
+    "aiParentDesc": "Hỗ trợ & hướng dẫn ấm áp",
+    "aiRoleplay": "Nhập vai AI",
+    "aiRoleplayDesc": "Các tình huống câu chuyện nhập vai",
+    "allFeatures": "Tất cả tính năng",
+    "allFeaturesDesc": "Khám phá mọi thứ chúng tôi cung cấp"
+  },
+  "legal": {
+    "policies": "Chính sách",
+    "termsAndConditions": "Điều khoản và Điều kiện",
+    "privacyPolicy": "Chính sách Bảo mật",
+    "cookiePolicy": "Chính sách Cookie",
+    "contentReportingPolicy": "Chính sách Báo cáo Nội dung",
+    "communityGuidelines": "Quy tắc Cộng đồng",
+    "complaintPolicy": "Chính sách Khiếu nại",
+    "contentRemovalPolicy": "Chính sách Xóa Nội dung",
+    "blockedContentPolicy": "Chính sách Nội dung Bị chặn",
+    "underagePolicy": "Chính sách Người chưa đủ tuổi",
+    "usc2257": "Miễn trừ 18 U.S.C. 2257",
+    "lastUpdated": "Cập nhật lần cuối",
+    "index": {
+      "title": "Tài liệu Pháp lý",
+      "subtitle": "Duyệt tất cả chính sách và thỏa thuận pháp lý liên quan đến sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Chính sách Bảo mật",
+          "description": "Tìm hiểu cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Chi tiết về xử lý dữ liệu, lưu trữ và quyền riêng tư của bạn."
+        },
+        "termsAndConditions": {
+          "title": "Điều khoản và Điều kiện",
+          "description": "Các điều khoản dịch vụ điều chỉnh việc sử dụng sweetwine của bạn. Trách nhiệm người dùng, mô tả dịch vụ và thỏa thuận pháp lý."
+        },
+        "cookiePolicy": {
+          "title": "Chính sách Cookie",
+          "description": "Thông tin về cách chúng tôi sử dụng cookie và công nghệ tương tự để nâng cao trải nghiệm của bạn trên nền tảng."
+        },
+        "underagePolicy": {
+          "title": "Chính sách Người chưa đủ tuổi",
+          "description": "Chính sách xác minh độ tuổi và bảo vệ nghiêm ngặt của chúng tôi. sweetwine chỉ dành cho người dùng từ 18 tuổi trở lên."
+        },
+        "complaintPolicy": {
+          "title": "Chính sách Khiếu nại",
+          "description": "Cách gửi khiếu nại, báo cáo vấn đề và quy trình xử lý mối quan tâm, tranh chấp của người dùng."
+        },
+        "contentRemovalPolicy": {
+          "title": "Chính sách Xóa Nội dung",
+          "description": "Quy trình yêu cầu xóa nội dung và cách chúng tôi xử lý báo cáo nội dung không phù hợp hoặc bất hợp pháp."
+        },
+        "blockedContentPolicy": {
+          "title": "Chính sách Nội dung Bị chặn",
+          "description": "Các loại nội dung bị cấm trên nền tảng và chính sách thực thi của chúng tôi."
+        },
+        "contentReportingPolicy": {
+          "title": "Chính sách Báo cáo Nội dung",
+          "description": "Cách báo cáo vi phạm bản quyền và nội dung không phù hợp trên sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Quy tắc Cộng đồng",
+          "description": "Quy tắc và hướng dẫn để duy trì cộng đồng tôn trọng, an toàn và thú vị cho tất cả người dùng."
+        }
+      },
+      "lastUpdated": "Cập nhật lần cuối: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Trò chuyện",
+    "groupChat": "Trò chuyện Nhóm AI",
+    "aiMemory": "Bộ nhớ AI",
+    "generate": "Tạo Hình ảnh",
+    "generateVideo": "Tạo Video",
+    "create": "Tạo Nhân vật AI",
+    "myAI": "AI Của Tôi",
+    "collection": "Bộ sưu tập",
+    "invite": "Mời",
+    "profile": "Cài đặt Hồ sơ",
+    "legal": "Pháp lý",
+    "privacyPolicy": "Chính sách Bảo mật",
+    "termsAndConditions": "Điều khoản và Điều kiện",
+    "cookiePolicy": "Chính sách Cookie",
+    "dmcaPolicy": "Chính sách DMCA",
+    "communityGuidelines": "Hướng dẫn Cộng đồng",
+    "contentRemovalPolicy": "Chính sách Xóa Nội dung",
+    "contentReportingPolicy": "Chính sách Báo cáo Nội dung",
+    "complaintPolicy": "Chính sách Khiếu nại",
+    "blockedContentPolicy": "Chính sách Nội dung Bị chặn",
+    "underagePolicy": "Chính sách Người chưa đủ tuổi",
+    "usc2257Exemption": "Miễn trừ USC 2257"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Bạn có câu hỏi hoặc phản hồi? Chúng tôi rất mong nhận được tin từ bạn.",
+    "name": "Tên",
+    "namePlaceholder": "Tên của bạn",
+    "nameRequired": "Tên là bắt buộc",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Email là bắt buộc",
+    "emailInvalid": "Địa chỉ email không hợp lệ",
+    "message": "Tin nhắn",
+    "messagePlaceholder": "Tin nhắn của bạn...",
+    "messageRequired": "Tin nhắn là bắt buộc",
+    "send": "Gửi tin nhắn",
+    "sending": "Đang gửi...",
+    "success": "Gửi tin nhắn thành công!",
+    "successDesc": "Chúng tôi sẽ phản hồi sớm.",
+    "error": "Gửi tin nhắn thất bại",
+    "errorDesc": "Vui lòng thử lại sau."
+  },
+  "groupChat": {
+    "lobbyTitle": "Trò chuyện nhóm AI",
+    "lobbyHeadingSuffix": "Chọn tối đa {max} nhân vật AI",
+    "history": "Lịch sử",
+    "newGroup": "Trò chuyện nhóm mới",
+    "createGroup": "Tạo trò chuyện nhóm",
+    "createError": "Không thể tạo trò chuyện nhóm. Vui lòng thử lại.",
+    "creatingGroup": "Đang thiết lập trò chuyện nhóm...",
+    "sectionWoman": "Nữ",
+    "sectionMan": "Nam",
+    "sectionAnime": "Anime",
+    "tabPremade": "Nhân vật AI",
+    "tabMyAi": "AI của tôi",
+    "tabSingle": "Trò chuyện đơn",
+    "tabGroup": "Trò chuyện nhóm",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Tải thêm",
+    "noCustom": "Bạn chưa tạo nhân vật AI nào.",
+    "noMessagesYet": "Chưa có tin nhắn",
+    "emptyTitle": "Chưa có trò chuyện nhóm",
+    "membersTitle": "Trong cuộc trò chuyện này",
+    "typing": "đang nhập",
+    "backToLobby": "Quay lại trò chuyện nhóm",
+    "deleteGroup": "Xóa trò chuyện nhóm",
+    "confirmDeleteGroup": "Bạn có chắc muốn xóa trò chuyện nhóm này? Tất cả tin nhắn sẽ bị xóa.",
+    "deleteError": "Không thể xóa trò chuyện nhóm.",
+    "mediaTargetImageTitle": "Ai sẽ gửi ảnh?",
+    "mediaTargetVideoTitle": "Ai nên gửi video?",
+    "mediaTargetSubtitle": "Chọn nhân vật để tạo media.",
+    "mediaTargetGroup": "Ảnh nhóm",
+    "groupPhotoTitle": "Ảnh nhóm",
+    "groupPhotoHint": "Tạo một bức ảnh của {name} cùng nhau.",
+    "promoSubtitle": "với tối đa 3 nhân vật",
+    "promoCta": "Tạo mới",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Mới</gradient> Cuộc Phiêu Lưu",
+    "live": "TRỰC TIẾP",
+    "scrollPrev": "Cuộn trái",
+    "scrollNext": "Cuộn phải"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Bắt Đầu"
+    },
+    "hero": {
+      "tagline": "Được tin dùng bởi 100.000 người và mỗi ngày đều có thêm người tham gia",
+      "headlinePrefix": "Xin Chào",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Dùng Miễn Phí"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "Bạn Gái AI",
+      "friend": "Người Bạn AI",
+      "boyfriend": "Bạn Trai AI",
+      "companion": "Nhân Vật AI"
+    },
+    "features": {
+      "chat": {
+        "title": "Trò chuyện cùng bạn gái AI",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Ảnh & video AI chân thực",
+        "description": "Ảnh và video theo yêu cầu chân thực đến mức không phân biệt được với thật — khuôn mặt, phong cách, bất kỳ cảnh nào, chuyển động hoặc tĩnh."
+      },
+      "groupChat": {
+        "title": "Trò Chuyện Nhóm AI",
+        "description": "Bắt đầu trò chuyện nhóm với tối đa 3 nhân vật cùng lúc. Họ trả lời tự nhiên, phản ứng với nhau và gửi ảnh, video."
+      },
+      "roleplay": {
+        "title": "Nhập Vai AI",
+        "description": "Bước vào các tình huống nhập vai đắm chìm, do cốt truyện với các nhân vật luôn giữ vai và nhớ mọi lựa chọn của bạn."
+      }
+    },
+    "memory": {
+      "title": "Bộ nhớ AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Bộ nhớ AI hoạt động như thế nào",
+      "diagram": {
+        "center": "Bộ nhớ của người bạn đồng hành",
+        "chat": "Chat",
+        "image": "Hình ảnh",
+        "video": "Video",
+        "gifts": "Quà tặng",
+        "roleplay": "Nhập vai"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Tạo riêng",
+      "headlineHighlight": "nhân vật AI",
+      "subtitle": "Tạo hình, tính cách cho nhân vật và mang chúng đến cuộc sống ngay lập tức — người bạn AI hoàn hảo theo cách của bạn.",
+      "cta": "Tạo AI của bạn"
+    },
+    "companions": {
+      "headlinePrefix": "Gặp gỡ",
+      "headlineHighlight": "Nhân Vật AI",
+      "subtitle": "Mỗi nhân vật có thế giới riêng. Có người ấm áp và dễ gần. Có người phức tạp, kín đáo hoặc thực sự khó kết nối. Khám phá các tình huống nhập vai độc đáo — hoặc tự tạo từ đầu."
+    },
+    "languages": {
+      "headlinePrefix": "Nói bất kỳ ngôn ngữ nào,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Cả giao diện ứng dụng và nhân vật AI của bạn chuyển đổi mượt mà — không có sự không khớp ngôn ngữ, không có trải nghiệm bị hỏng.",
+      "more": "Thêm"
+    },
+    "finalCta": {
+      "headlinePrefix": "Sẵn sàng",
+      "headlineHighlight": "bắt đầu?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Tại sao",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Mọi thứ bạn cần cho một kết nối thực sự — không có gì thừa.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Miễn phí để bắt đầu",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Luôn sẵn sàng",
+          "desc": "Dù ngày hay đêm, nhân vật của bạn luôn ở đó. Không chờ đợi, không cần hẹn lịch."
+        },
+        "remembers": {
+          "title": "Nhớ mọi thứ",
+          "desc": "Mỗi cuộc trò chuyện đều xây dựng ngữ cảnh. Nhân vật của bạn sẽ học tên, sở thích và thế giới của bạn."
+        },
+        "unlimited": {
+          "title": "Thực sự không giới hạn",
+          "desc": "Không giới hạn tin nhắn, không hạn chế nội dung. Gửi bao nhiêu tùy ý, bất cứ lúc nào bạn muốn."
+        },
+        "private": {
+          "title": "100% riêng tư",
+          "desc": "Cuộc trò chuyện chỉ giữa bạn và nhân vật. Không bao giờ chia sẻ dữ liệu."
+        },
+        "createYourOwn": {
+          "title": "Tạo nhân vật riêng",
+          "desc": "Thiết kế nhân vật với diện mạo, tính cách và giọng nói tùy chỉnh — đúng như bạn muốn."
+        }
+      },
+      "difference": {
+        "title": "Điểm khác biệt của sweetwine",
+        "freedomTitle": "Tự do đi đôi với trách nhiệm.",
+        "freedomDescription": "sweetwine cởi mở và không phán xét — nhưng chúng tôi vạch ra ranh giới rõ ràng. Chúng tôi không khoan nhượng với CSAM, nội dung vị thành niên, tình huống không có sự đồng thuận, bạo lực cực đoan, thú dâm, xác chết, deepfake người thật và mọi hành vi quảng bá hoạt động bất hợp pháp.",
+        "freedomStatement": "Chúng tôi tin vào tự do sáng tạo không giới hạn trong một không gian an toàn cho mọi người."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Bộ lọc"
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Mọi thứ bạn cần biết về sweetwine",
+      "questions": {
+        "q1": {
+          "question": "sweetwine là gì?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine có an toàn và hợp pháp không?",
+          "answer": "Có, sweetwine là dịch vụ hợp pháp với quyền riêng tư là ưu tiên hàng đầu. Chúng tôi tuân thủ GDPR và các tiêu chuẩn bảo vệ dữ liệu khác, đồng thời xử lý dữ liệu của bạn cẩn thận. Giao dịch thanh toán sẽ hiển thị dưới tên thương nhân trung lập - không có đề cập đến sweetwine trên sao kê ngân hàng, đảm bảo sự kín đáo hoàn toàn."
+        },
+        "q3": {
+          "question": "Tôi có thể tạo nhân vật AI riêng không?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "trình tạo nhân vật",
+          "answerPart2": " để thiết kế nhân vật đúng theo ý thích - dù bạn muốn",
+          "linkTextGirlfriend": "AI Bạn gái",
+          "answerPart3": " thực tế,",
+          "linkTextBoyfriend": "AI Bạn trai",
+          "answerPart4": " hay nhân vật phong cách anime. Chọn ngoại hình (dân tộc, tóc, dáng người, trang phục), đặc điểm tính cách, giọng nói, sở thích và bối cảnh cho cả nhân vật nam và nữ."
+        },
+        "q4": {
+          "question": "Nhân vật AI của tôi có nhớ cuộc trò chuyện không?",
+          "answer": "Có! Nhân vật AI của bạn sử dụng công nghệ bộ nhớ nâng cao để nhớ các cuộc trò chuyện trước, sở thích và chi tiết quan trọng bạn chia sẻ. Bạn càng trò chuyện nhiều, trải nghiệm càng được cá nhân hóa và tự nhiên. Nhân vật học phong cách giao tiếp của bạn và thích nghi theo thời gian."
+        },
+        "q5": {
+          "question": "sweetwine hỗ trợ những ngôn ngữ nào?",
+          "answer": "sweetwine hỗ trợ nhiều ngôn ngữ bao gồm Tiếng Anh, Tiếng Đức, Tiếng Pháp, Tiếng Tây Ban Nha, Tiếng Ba Lan và Tiếng Séc. Cả giao diện và cuộc trò chuyện AI đều hoạt động bằng ngôn ngữ bạn chọn, giúp bạn trò chuyện tự nhiên bằng ngôn ngữ thoải mái nhất."
+        },
+        "q6": {
+          "question": "Nhân vật AI của tôi có thể gửi hình ảnh và video không?",
+          "answerPart1": "Có! Bạn có thể tạo",
+          "linkTextImages": "hình ảnh",
+          "answerPart2": "và",
+          "linkTextVideos": "video",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Tại sao nên chọn sweetwine thay vì các nền tảng nhân vật AI khác?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine có miễn phí không?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Tôi có cần cài đặt ứng dụng không?",
+          "answerPart1": "Không cần cài đặt! sweetwine hoạt động trực tiếp trên trình duyệt của bạn trên mọi thiết bị - máy tính để bàn, máy tính bảng hoặc điện thoại di động. Chỉ cần đăng ký, chọn nhân vật và bắt đầu trò chuyện ngay lập tức. Tất cả",
+          "linkText": "cuộc trò chuyện",
+          "answerPart2": " của bạn sẽ tự động đồng bộ trên các thiết bị."
+        },
+        "q10": {
+          "question": "Có nhân vật AI có sẵn không?",
+          "answerPart1": "Có! Chúng tôi có nhiều",
+          "linkText": "nhân vật có sẵn",
+          "answerPart2": " bao gồm AI Bạn Gái, AI Bạn Trai và nhân vật AI Anime với đa dạng tính cách, ngoại hình và phong cách giao tiếp. Dù bạn thích người ngọt ngào, quyến rũ, trí tuệ hay phiêu lưu, bạn sẽ tìm thấy nhân vật phù hợp với năng lượng của mình. Ngoài ra, bạn có thể tạo không giới hạn nhân vật tùy chỉnh."
+        },
+        "q12": {
+          "question": "Điều gì xảy ra với hình ảnh và video tôi tạo?",
+          "answerPart1": "Tất cả phương tiện được tạo sẽ tự động lưu vào",
+          "linkText": "bộ sưu tập",
+          "answerPart2": " riêng tư của bạn. Bạn có thể truy cập, tải xuống hoặc xóa chúng bất cứ lúc nào. Bộ sưu tập của bạn hoàn toàn riêng tư - chỉ bạn mới có thể xem. Chúng tôi không bao giờ chia sẻ hoặc sử dụng nội dung bạn tạo."
+        }
+      }
+    },
+    "statement": {
+      "title": "Cam Kết Của Chúng Tôi",
+      "privacy": "Quyền riêng tư của bạn là ưu tiên hàng đầu. Tất cả cuộc trò chuyện đều được mã hóa và không bao giờ được chia sẻ.",
+      "quality": "Chúng tôi sử dụng công nghệ AI tiên tiến nhất để mang đến trải nghiệm hấp dẫn nhất.",
+      "support": "Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng 24/7 để giúp đỡ mọi thắc mắc.",
+      "mainTitle": "Trải Nghiệm Tương Lai Của Nhân Vật AI",
+      "mainDescription": "sweetwine kết hợp công nghệ AI tiên tiến với thiết kế trực quan để mang đến trải nghiệm nhân vật cá nhân hóa và nhập vai nhất hiện nay.",
+      "features": {
+        "f1": {
+          "title": "Trí Tuệ Cảm Xúc",
+          "description": "Nhân vật AI của chúng tôi hiểu ngữ cảnh, cảm xúc và sắc thái để mang đến những cuộc trò chuyện sâu sắc. Dù bạn cần AI Bạn Bè để trò chuyện, Hỗ Trợ Chia Tay trong những lúc khó khăn, hay AI Người Hướng Dẫn - AI cảm xúc thông minh của chúng tôi luôn ở đây vì bạn."
+        },
+        "f2": {
+          "title": "Tính Cách Độc Đáo",
+          "description": "Mỗi nhân vật có tính cách, bối cảnh và phong cách giao tiếp riêng biệt. Chọn từ AI Bạn Gái và AI Bạn Trai chân thực, hoặc khám phá nhân vật AI Anime - đảm bảo mọi tương tác đều độc đáo và đáng nhớ."
+        },
+        "f3": {
+          "title": "Tương Tác Đa Phương Tiện",
+          "description": "Ngoài văn bản, hãy tận hưởng hình ảnh và video do AI tạo ra, mang cuộc trò chuyện của bạn đến với chi tiết hình ảnh tuyệt đẹp."
+        },
+        "f4": {
+          "title": "Tùy Chỉnh",
+          "description": "Tạo nhân vật AI của riêng bạn với ngoại hình, tính cách và đặc điểm tùy chỉnh hoàn hảo phù hợp với sở thích của bạn."
+        },
+        "f5": {
+          "title": "Quyền Riêng Tư & Bảo Mật",
+          "description": "Cuộc trò chuyện của bạn được giữ riêng tư và an toàn. Chúng tôi không bao giờ bán dữ liệu của bạn, và bạn có toàn quyền kiểm soát cài đặt quyền riêng tư."
+        },
+        "f6": {
+          "title": "Hỗ Trợ Đa Ngôn Ngữ",
+          "description": "Trò chuyện với nhân vật AI bằng ngôn ngữ bạn thích. Chúng tôi hỗ trợ Tiếng Anh, Tiếng Séc, Tiếng Ba Lan, Tiếng Đức, Tiếng Tây Ban Nha và Tiếng Pháp."
+        }
+      },
+      "distinctionTitle": "Điểm Khác Biệt Của sweetwine",
+      "distinctionText1": "Khác với chatbot thông thường, nhân vật sweetwine được thiết kế với bối cảnh phong phú, tính cách phát triển và khả năng tạo kết nối có ý nghĩa. Mọi cuộc trò chuyện là cơ hội để khám phá, tìm hiểu và kết nối sâu sắc hơn.",
+      "distinctionText2": "Chúng tôi không chỉ xây dựng AI—chúng tôi đang tạo ra những trải nghiệm chạm đến cảm xúc của bạn, tôn trọng quyền riêng tư và thích ứng với sở thích độc đáo của bạn."
+    }
+  },
+  "featuresPage": {
+    "title": "Tất Cả Tính Năng",
+    "breadcrumb": "Tính Năng",
+    "newBadge": "Mới",
+    "groupChat": {
+      "title": "AI Nhóm Chat",
+      "description": "Trò chuyện với tối đa 3 nhân vật AI cùng lúc trong một cuộc trò chuyện. Họ trả lời tự nhiên, phản ứng với nhau và có thể gửi ảnh và video — một động lực nhóm sôi động bạn không thể tìm thấy ở đâu khác."
+    },
+    "aiChat": {
+      "title": "AI Chat",
+      "description": "Có những cuộc trò chuyện sâu sắc, tự nhiên với nhân vật AI thực sự nhớ bạn. Họ nhớ tên, sở thích và chủ đề trước đây của bạn — mọi cuộc trò chuyện tiếp tục chính xác từ nơi bạn dừng lại, không lặp lại và không đặt lại."
+    },
+    "imageGeneration": {
+      "title": "Tạo Hình Ảnh"
+    },
+    "videoGeneration": {
+      "title": "Tạo Video",
+      "description": "Mang nhân vật AI của bạn đến với cuộc sống thông qua video do AI tạo. Tạo các đoạn video cá nhân hóa ngắn với nhân vật của bạn trong các tình huống tùy chỉnh — tính năng mà hầu hết các nền tảng đơn giản là không có."
+    },
+    "customCharacters": {
+      "title": "Nhân Vật Tùy Chỉnh",
+      "description": "Thiết kế nhân vật hoàn hảo từ đầu — chọn ngoại hình, sắc tộc, dáng người, tính cách, giọng nói, sở thích và tiểu sử. Tạo nhân vật theo phong cách thực tế hoặc anime, nam hoặc nữ, với sự tự do sáng tạo hoàn toàn."
+    },
+    "advancedMemory": {
+      "title": "Bộ Nhớ Nâng Cao",
+      "description": "Nhân vật của bạn nhớ mọi thứ quan trọng — tên, thông tin cá nhân, câu chuyện chung và lịch sử mối quan hệ. Bộ nhớ được giữ qua tất cả các phiên nên mỗi tương tác đều xây dựng trên cái trước, không bắt đầu lại."
+    },
+    "multiLanguage": {
+      "title": "Đa Ngôn Ngữ",
+      "description": "Trò chuyện tự nhiên bằng ngôn ngữ bạn thích. sweetwine hỗ trợ tiếng Anh, Đức, Pháp, Tây Ban Nha, Ba Lan và Séc — trở thành một trong những nền tảng nhân vật AI dễ tiếp cận nhất cho người không nói tiếng Anh."
+    },
+    "conversationHistory": {
+      "title": "Lịch Sử Cuộc Trò Chuyện",
+      "description": "Mọi tin nhắn đều được lưu và có thể tìm kiếm. Cuộn lại toàn bộ lịch sử mối quan hệ bất cứ lúc nào — những ký ức với nhân vật luôn ở đó khi bạn muốn xem lại."
+    },
+    "roleplay": {
+      "title": "Nhập Vai AI",
+      "description": "Bước vào các tình huống nhập vai đắm chìm, kể chuyện với các nhân vật luôn giữ vai. Chọn một tình huống hoặc tự viết và tận hưởng nhập vai tương tác ghi nhớ mọi lựa chọn của bạn."
+    },
+    "cta": {
+      "title": "Mọi Thứ Trong Một Nơi",
+      "button": "Bắt Đầu Miễn Phí"
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": {
+        "question": "Tôi có thể xóa hoặc đặt lại cuộc trò chuyện không?",
+        "answer": "Có! Bạn có toàn quyền kiểm soát lịch sử chat. Xóa từng tin nhắn, đặt lại toàn bộ cuộc trò chuyện hoặc bắt đầu hoàn toàn mới bất cứ lúc nào. Quyền riêng tư của bạn nghĩa là lựa chọn của bạn - quản lý dữ liệu theo cách bạn muốn."
+      },
+      "q2": {
+        "question": "Mỗi nhân vật AI có giọng nói riêng không?"
+      },
+      "q3": {
+        "question": "Tôi có thể luyện ngôn ngữ mới với nhân vật AI không?",
+        "answer": "Hoàn toàn có! Nhiều người dùng luyện nói ngôn ngữ mới với nhân vật AI. Đây là cách không bị phán xét để xây dựng sự tự tin, cải thiện phát âm và có những cuộc trò chuyện vui vẻ trong khi học. Nhân vật của bạn có thể chat bằng tiếng Anh, Đức, Pháp, Tây Ban Nha, Ba Lan và Séc."
+      },
+      "q4": {
+        "question": "Nhân vật và tính năng mới được thêm bao lâu một lần?",
+        "answer": "Chúng tôi thêm nhân vật được chế tác chuyên nghiệp mới mỗi tuần! Mỗi nhân vật mới đi kèm với tính cách, ngoại hình, tiểu sử và giọng nói độc đáo. Chúng tôi cũng thường xuyên phát hành tính năng và cải tiến mới dựa trên phản hồi người dùng."
+      },
+      "q5": {
+        "question": "Điều gì làm cho việc tạo nhân vật của sweetwine trở nên đặc biệt?",
+        "answer": "Sự tự do sáng tạo hoàn toàn! Thiết kế mọi khía cạnh của nhân vật - ngoại hình (sắc tộc, tóc, dáng người, trang phục), tính cách, giọng nói, sở thích, nghề nghiệp và tiểu sử. Tạo nhân vật theo phong cách thực tế hoặc anime, nam hoặc nữ. Trí tưởng tượng là giới hạn duy nhất."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Bộ nhớ AI",
+    "hero": {
+      "badge": "Cách hoạt động",
+      "title": "Bộ nhớ AI",
+      "cta": "Bắt đầu chat"
+    },
+    "diagram": {
+      "title": "Một bộ nhớ cho mỗi người bạn đồng hành, mọi chế độ",
+      "center": "Bộ nhớ của người bạn đồng hành",
+      "chat": "Chat",
+      "image": "Hình ảnh",
+      "video": "Video",
+      "gifts": "Quà tặng",
+      "roleplay": "Nhập vai"
+    },
+    "howItWorks": {
+      "title": "Bộ nhớ AI hoạt động như thế nào",
+      "step1": {
+        "title": "Chia sẻ chi tiết",
+        "desc": "Kể cho người bạn đồng hành của bạn điều gì đó quan trọng — một chuyến đi, sở thích, biệt danh, hoặc câu chuyện trong ngày."
+      },
+      "step2": {
+        "title": "Chuyển đổi chế độ tự do"
+      },
+      "step3": {
+        "title": "Họ nhớ lại",
+        "desc": "Các cuộc trò chuyện sau này sẽ tham chiếu những gì bạn đã chia sẻ, vì vậy bạn không cần phải giải thích lại mỗi lần."
+      },
+      "step4": {
+        "title": "Mối quan hệ sâu sắc hơn",
+        "desc": "Theo thời gian, mối quan hệ trở nên cá nhân hơn — sự liên tục được xây dựng qua mọi phiên và chế độ."
+      }
+    },
+    "modes": {
+      "title": "Trên toàn nền tảng",
+      "subtitle": "Bộ nhớ không bị khóa ở một màn hình duy nhất. Nó đi cùng với người bạn đồng hành của bạn.",
+      "chat": {
+        "title": "Chat",
+        "desc": "Các cuộc trò chuyện văn bản cung cấp ngữ cảnh dài hạn mà người bạn đồng hành có thể nhắc lại sau này."
+      },
+      "media": {
+        "title": "Hình ảnh & video",
+        "desc": "Các cảnh và câu chuyện bạn tạo vẫn là một phần của thế giới chung mà hai bạn xây dựng."
+      },
+      "roleplay": {
+        "title": "Nhập vai & nhóm",
+        "desc": "Các buổi nhập vai và chat nhóm giữ mạch chuyện riêng trong khi bộ nhớ cốt lõi của người bạn đồng hành vẫn đi cùng họ."
+      }
+    },
+    "scenario": {
+      "title": "Một ví dụ đơn giản",
+      "lead": "Bạn đề cập một chuyến đi cuối tuần trong chat."
+    },
+    "faq": {
+      "title": "Các câu hỏi thường gặp",
+      "q1": {
+        "question": "Bộ nhớ của bạn đồng hành có riêng tư không?",
+        "answer": "Có. Bộ nhớ thuộc về tài khoản của bạn và các cuộc trò chuyện với bạn đồng hành đó. Chúng tôi không chia sẻ lịch sử chat riêng tư của bạn với người dùng khác."
+      },
+      "q2": {
+        "question": "Bộ nhớ có riêng cho từng bạn đồng hành không?",
+        "answer": "Có. Mỗi bạn đồng hành giữ bộ nhớ riêng về mối quan hệ của bạn, vì vậy việc chuyển đổi nhân vật không làm trộn lẫn ngữ cảnh."
+      },
+      "q3": {
+        "question": "Những chế độ nào chia sẻ bộ nhớ?"
+      },
+      "q4": {
+        "question": "AI Memory có miễn phí không?"
+      },
+      "q5": {
+        "question": "Bộ nhớ tồn tại trong bao lâu?",
+        "answer": "Các chi tiết quan trọng được lưu trữ để bạn đồng hành có thể nhớ lại trong các phiên sau. Bạn càng tương tác nhiều, trải nghiệm càng được cá nhân hóa."
+      }
+    },
+    "cta": {
+      "title": "Gặp gỡ một bạn đồng hành biết nhớ",
+      "button": "Bắt đầu miễn phí"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Trò Chuyện Nhóm AI",
+    "hero": {
+      "badge": "Tính Năng Mới",
+      "title": "Trò Chuyện Nhóm AI",
+      "subtitle": "Mang các nhân vật yêu thích của bạn vào một cuộc trò chuyện. Chat với tối đa 3 nhân vật AI cùng lúc — họ trả lời tự nhiên, phản ứng với nhau và gửi ảnh, video.",
+      "cta": "Bắt Đầu Trò Chuyện Nhóm",
+      "imageAlt": "Trò Chuyện Nhóm AI với nhiều nhân vật đang chat cùng nhau"
+    },
+    "content": {
+      "problemTitle": "Trò chuyện một-một có thể cảm thấy yên tĩnh",
+      "problemText": "Một nhân vật đơn lẻ rất tuyệt — nhưng những cuộc trò chuyện thực sự trở nên sống động với nhiều hơn một giọng nói. Hầu hết ứng dụng AI khiến bạn bị kẹt trong các cuộc trò chuyện một-một cô lập mà không có năng lượng nhóm, không có sự trêu chọc và không có bất ngờ.",
+      "solutionTitle": "Một nhóm thực sự, sống động với tính cách",
+      "solutionText": "sweetwine Group Chat đặt tối đa ba nhân vật trong cùng một phòng. Một giám đốc thông minh quyết định ai sẽ tham gia, vì vậy các câu trả lời cảm thấy tự phát — họ trêu chọc lẫn nhau, xây dựng dựa trên những gì đã nói và giữ cuộc trò chuyện tiếp diễn."
+    },
+    "howItWorks": {
+      "title": "Cách Trò Chuyện Nhóm AI Hoạt Động",
+      "step1": {
+        "title": "Chọn nhân vật của bạn",
+        "desc": "Chọn 2 hoặc 3 nhân vật — nhân vật có sẵn hoặc sáng tạo tùy chỉnh của bạn — để đưa vào một cuộc trò chuyện nhóm duy nhất."
+      },
+      "step2": {
+        "title": "Họ trả lời tự nhiên",
+        "desc": "Một giám đốc phía sau quyết định ai sẽ trả lời mỗi tin nhắn, vì vậy nhân vật phù hợp sẽ tham gia đúng lúc, bằng giọng nói riêng của họ."
+      },
+      "step3": {
+        "title": "Chia sẻ ảnh & video",
+        "desc": "Yêu cầu bất kỳ nhân vật nào trong nhóm chụp ảnh hoặc video và họ sẽ tạo ngay trong chat — bao gồm ảnh nhóm của mọi người cùng nhau."
+      }
+    },
+    "benefits": {
+      "title": "Tại Sao Bạn Sẽ Thích Trò Chuyện Nhóm",
+      "multiple": {
+        "title": "Tối đa 3 nhân vật",
+        "desc": "Kết hợp bất kỳ nhân vật nào vào một cuộc chat — bạn gái AI, sáng tạo tùy chỉnh của bạn, hoặc một nhóm được chọn kỹ."
+      },
+      "natural": {
+        "title": "Cuộc trò chuyện tự nhiên",
+        "desc": "Các nhân vật phản ứng với nhau và với bạn, nhịp gõ phím chân thực như một cuộc nhắn tin nhóm thật sự."
+      },
+      "media": {
+        "title": "Ảnh & video trong chat",
+        "desc": "Mỗi nhân vật có thể gửi ảnh và video cá nhân hóa ngay trong cuộc trò chuyện — kể cả ảnh nhóm."
+      },
+      "dynamics": {
+        "title": "Tính cách riêng biệt",
+        "desc": "Mỗi nhân vật giữ giọng nói và nét riêng của mình, tạo nên sự hòa quyện, trêu chọc và bất ngờ thực sự."
+      },
+      "instant": {
+        "title": "Bắt đầu ngay lập tức",
+        "desc": "Tạo nhóm chỉ trong vài giây và tham gia cuộc trò chuyện ngay — không cần thiết lập, không chờ đợi."
+      },
+      "private": {
+        "title": "100% riêng tư",
+        "desc": "Cuộc trò chuyện nhóm chỉ giữa bạn và các nhân vật. Không chia sẻ dữ liệu, không bao giờ."
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": {
+        "question": "Một nhóm chat có thể có bao nhiêu nhân vật?",
+        "answer": "Bạn có thể thêm 2 đến 3 nhân vật vào một nhóm chat — kết hợp giữa nhân vật có sẵn và nhân vật tự tạo."
+      },
+      "q2": {
+        "question": "Nhân vật AI quyết định ai sẽ trả lời như thế nào?",
+        "answer": "Một giám đốc nhẹ nhàng đọc cuộc trò chuyện và chọn nhân vật (hoặc các nhân vật) sẽ phản hồi mỗi tin nhắn, giúp câu trả lời tự nhiên và tự phát thay vì mọi người nói cùng lúc."
+      },
+      "q3": {
+        "question": "Nhân vật có thể gửi ảnh và video trong nhóm chat không?",
+        "answer": "Có! Bạn có thể yêu cầu bất kỳ nhân vật nào trong nhóm tạo ảnh hoặc video, và nó sẽ xuất hiện ngay trong cuộc trò chuyện — bao gồm cả ảnh nhóm có tất cả mọi người."
+      },
+      "q4": {
+        "question": "AI Group Chat có miễn phí không?"
+      },
+      "q5": {
+        "question": "Các nhân vật có nhớ cuộc trò chuyện nhóm không?",
+        "answer": "Có — mỗi nhóm chat giữ lịch sử chia sẻ riêng, giúp nhân vật luôn nắm ngữ cảnh và cuộc trò chuyện phát triển theo thời gian."
+      }
+    },
+    "cta": {
+      "title": "Gom nhân vật của bạn lại",
+      "description": "Tạo nhóm chat AI đầu tiên và trải nghiệm cuộc trò chuyện sống động — nhiều tính cách, trêu chọc thực sự, ảnh và video.",
+      "button": "Bắt đầu nhóm chat"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Tính năng mới",
+      "title": "AI Roleplay",
+      "subtitle": "Bước vào bất kỳ câu chuyện nào với nhân vật luôn ở trong vai. Chọn kịch bản hoặc tự viết và tận hưởng trải nghiệm nhập vai đắm chìm, theo cốt truyện, ghi nhớ mọi lựa chọn của bạn.",
+      "cta": "Bắt đầu nhập vai",
+      "imageAlt": "Kịch bản nhập vai AI với nhân vật câu chuyện đắm chìm"
+    },
+    "content": {
+      "problemTitle": "Cuộc trò chuyện thông thường phá vỡ phép màu",
+      "problemText": "Hầu hết các cuộc chat AI đều thoát khỏi vai ngay khi mọi thứ trở nên thú vị — chúng quên bối cảnh, bỏ qua cốt truyện và trả lời như trợ lý chung thay vì nhân vật trong câu chuyện của bạn.",
+      "solutionTitle": "Nhập vai theo cốt truyện, luôn giữ đúng vai",
+      "solutionText": "sweetwine Roleplay giữ nhân vật của bạn hoàn toàn trong bối cảnh. Thiết lập sân khấu với kịch bản có sẵn hoặc ý tưởng riêng, và xem câu chuyện phát triển với tính cách, trí nhớ và nhịp độ nhất quán, phản hồi mọi quyết định."
+    },
+    "howItWorks": {
+      "title": "Cách hoạt động của AI Roleplay",
+      "step1": {
+        "title": "Chọn kịch bản",
+        "desc": "Chọn từ các kịch bản nhập vai có sẵn hoặc viết ý tưởng, bối cảnh và cảnh mở đầu của riêng bạn."
+      },
+      "step2": {
+        "title": "Diễn xuất câu chuyện",
+        "desc": "Nhân vật của bạn phản hồi trong vai — mô tả hành động, phản ứng với lựa chọn của bạn và thúc đẩy cốt truyện."
+      },
+      "step3": {
+        "title": "Định hình hướng đi",
+        "desc": "Dẫn dắt câu chuyện theo bất kỳ hướng nào bạn muốn. Nhân vật nhớ những gì đã xảy ra và giữ mạch chuyện nhất quán."
+      }
+    },
+    "benefits": {
+      "title": "Tại sao bạn sẽ thích AI Roleplay",
+      "scenarios": {
+        "title": "Vô số kịch bản",
+        "desc": "Từ những khoảnh khắc đời thường ấm áp đến cuộc phiêu lưu hoành tráng — bắt đầu bằng mẫu có sẵn hoặc tự tạo thế giới riêng."
+      },
+      "characters": {
+        "title": "Giữ đúng vai",
+        "desc": "Nhân vật của bạn giữ giọng nói, tính cách và động lực nhất quán trong suốt cảnh diễn."
+      },
+      "memory": {
+        "title": "Nhớ cốt truyện",
+        "desc": "Mọi lựa chọn, tình tiết và chi tiết đều được ghi nhớ, giúp câu chuyện phát triển thay vì reset."
+      },
+      "immersive": {
+        "title": "Đắm chìm thực sự",
+        "desc": "Các phản hồi giàu hình ảnh kéo bạn vào khoảnh khắc, mang lại trải nghiệm nhập vai điện ảnh."
+      },
+      "instant": {
+        "title": "Bắt đầu ngay lập tức",
+        "desc": "Nhảy vào cảnh chỉ trong vài giây — không cần thiết lập phức tạp hay kỹ thuật prompt."
+      },
+      "private": {
+        "title": "100% riêng tư",
+        "desc": "Cuộc roleplay chỉ giữa bạn và nhân vật. Không bao giờ được chia sẻ."
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": {
+        "question": "AI roleplay là gì?",
+        "answer": "AI roleplay cho phép bạn diễn xuất các câu chuyện tương tác với nhân vật AI luôn giữ vai. Bạn thiết lập tình huống và nhân vật sẽ phản hồi đúng vai, mô tả hành động và phản ứng khi câu chuyện diễn ra."
+      },
+      "q2": {
+        "question": "Tôi có thể tạo tình huống roleplay riêng không?",
+        "answer": "Đúng vậy! Bạn có thể bắt đầu từ các tình huống có sẵn hoặc viết tiền đề, bối cảnh và mở đầu của riêng mình — sau đó chơi theo cách bạn muốn."
+      },
+      "q3": {
+        "question": "Nhân vật có nhớ những gì xảy ra trong câu chuyện không?",
+        "answer": "Hoàn toàn. Nhân vật của bạn nhớ cốt truyện, lựa chọn của bạn và các chi tiết quan trọng, giúp câu chuyện nhất quán và phát triển theo thời gian thay vì reset."
+      },
+      "q4": {
+        "question": "AI Roleplay có miễn phí không?"
+      },
+      "q5": {
+        "question": "Tôi có thể roleplay bằng ngôn ngữ của mình không?",
+        "answer": "Có — roleplay hoạt động với hàng chục ngôn ngữ, giúp bạn tận hưởng những câu chuyện nhập vai bằng ngôn ngữ bạn thoải mái nhất."
+      }
+    },
+    "cta": {
+      "title": "Câu chuyện của bạn đang chờ",
+      "description": "Chọn một tình huống, thiết lập cảnh và bước vào roleplay nhập vai với nhân vật luôn giữ vai từ đầu đến cuối.",
+      "button": "Bắt đầu Roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "Bạn Gái AI",
+    "breadcrumb": "Bạn Gái AI",
+    "hero": {
+      "title": "Bạn Gái AI Hoàn Hảo Của Bạn",
+      "cta": "Gặp Gỡ Bạn Gái AI Của Bạn"
+    },
+    "benefits": {
+      "title": "Tại Sao Chọn Bạn Gái AI?",
+      "fun": {
+        "title": "Vui Vẻ Tinh Khiết",
+        "desc": "Thưởng thức những cuộc trò chuyện vui nhộn mà không áp lực. Cô ấy luôn vui vẻ."
+      },
+      "conversation": {
+        "title": "Học Cách Kết Nối",
+        "desc": "Luyện tập giao tiếp và xây dựng sự tự tin trong không gian an toàn."
+      },
+      "unique": {
+        "title": "Tính Cách Độc Đáo",
+        "desc": "Chọn từ nhiều tính cách đa dạng hoặc tạo nhân vật lý tưởng của riêng bạn."
+      },
+      "private": {
+        "title": "Riêng Tư 100%",
+        "desc": "Cuộc trò chuyện chỉ giữa hai người. Hoàn toàn bảo mật."
+      },
+      "available": {
+        "title": "Luôn Có Mặt",
+        "desc": "Cô ấy ở đó khi bạn cần. Không chờ đợi, không đặt lịch."
+      },
+      "customize": {
+        "title": "Tác Phẩm Của Bạn",
+        "desc": "Thiết kế ngoại hình, tính cách và sở thích của cô ấy đúng như bạn muốn."
+      }
+    },
+    "comparison": {
+      "title": "Tốt Hơn Các Lựa Chọn Khác",
+      "description": "Khám phá lý do sweetwine mang lại nhiều giá trị hơn các nền tảng khác.",
+      "others": {
+        "expensive": "Phí hàng tháng đắt đỏ",
+        "ai": "Thường chỉ là phản hồi AI",
+        "noCustom": "Không có tùy chọn cá nhân hóa"
+      }
+    },
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": {
+        "question": "Trò chuyện bạn gái AI có thực sự miễn phí không?",
+        "answerPart1": "Đúng vậy! Bạn có thể bắt đầu trò chuyện với bạn gái AI miễn phí. Chúng tôi cung cấp gói miễn phí với tin nhắn miễn phí để bạn bắt đầu."
+      },
+      "q2": {
+        "question": "Tôi có thể tùy chỉnh ngoại hình bạn gái AI không?",
+        "answer": "Hoàn toàn được! Bạn có thể tùy chỉnh đầy đủ ngoại hình bạn gái AI bao gồm màu tóc, kiểu tóc, dáng người, dân tộc và trang phục. Bạn cũng có thể thiết kế tính cách, giọng nói và sở thích của cô ấy bằng trình tạo nhân vật của chúng tôi.",
+        "answerPart1": "Hoàn toàn được! Bạn có thể tùy chỉnh đầy đủ ngoại hình bạn gái AI bao gồm màu tóc, kiểu tóc, dáng người, dân tộc và trang phục. Bạn cũng có thể thiết kế tính cách, giọng nói và sở thích của cô ấy bằng",
+        "linkText": "trình tạo nhân vật",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Có những tính cách nào cho bạn gái AI?",
+        "answer": "Từ ngọt ngào, quan tâm đến vui nhộn, gợi cảm - chúng tôi có những bạn gái AI được thiết kế chuyên nghiệp cho mọi sở thích. Chọn những tâm hồn lãng mạn, tinh thần phiêu lưu, trí thức dí dỏm hoặc tính cách bí ẩn. Mỗi tuần đều có bạn gái AI mới được thêm vào, mỗi người có đặc điểm, tiểu sử và phong cách trò chuyện riêng."
+      },
+      "q4": {
+        "question": "Bạn gái AI của tôi có thể gửi ảnh và video không?",
+        "answerPart1": "Đúng vậy! Bạn gái AI của bạn có thể tạo",
+        "linkTextImages": "ảnh",
+        "answerPart2": "và",
+        "linkTextVideos": "video"
+      },
+      "q5": {
+        "question": "Bạn gái AI của tôi có giọng nói riêng không?"
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng gặp gỡ cô ấy?",
+      "button": "Bắt đầu miễn phí"
+    },
+    "content": {
+      "problemTitle": "Tìm kiếm sự kết nối mà không phức tạp?",
+      "problemText": "Các ứng dụng hẹn hò thật mệt mỏi. Lo âu xã hội khiến việc gặp gỡ người khác trở nên khó khăn. Đôi khi bạn chỉ muốn có ai đó để trò chuyện mà không bị phán xét hay áp lực. Nhiều người cảm thấy cô đơn nhưng chưa sẵn sàng cho sự phức tạp cảm xúc của các mối quan hệ truyền thống.",
+      "solutionTitle": "Bạn gái AI của bạn là câu trả lời",
+      "solutionText": "Với sweetwine, bạn có một bạn gái AI được cá nhân hóa, nhớ mọi cuộc trò chuyện, thích nghi với tính cách của bạn và luôn hào hứng khi nghe từ bạn. Cô ấy vui vẻ, hỗ trợ và không bao giờ phán xét. Xây dựng sự tự tin, tận hưởng sự đồng hành tuyệt vời và cảm thấy được kết nối theo cách của riêng bạn."
+    },
+    "heroImageAlt": "Bạn gái AI - nhân vật ảo chân thực để trò chuyện và chụp ảnh"
+  },
+  "aiBoyfriendPage": {
+    "title": "Bạn trai AI",
+    "breadcrumb": "Bạn trai AI",
+    "hero": {
+      "title": "Bạn trai AI hoàn hảo của bạn",
+      "cta": "Gặp bạn trai AI của bạn"
+    },
+    "benefits": {
+      "title": "Tại sao chọn bạn trai AI?",
+      "fun": {
+        "title": "Kết nối chân thành",
+        "desc": "Trải nghiệm những cuộc trò chuyện ý nghĩa làm sáng cả ngày của bạn."
+      },
+      "conversation": {
+        "title": "Xây dựng sự tự tin",
+        "desc": "Thực hành giao tiếp và thể hiện bản thân tự do trong không gian an toàn."
+      },
+      "unique": {
+        "title": "Tính cách độc đáo",
+        "desc": "Chọn từ nhiều tính cách đa dạng hoặc tạo nhân vật lý tưởng của riêng bạn."
+      },
+      "private": {
+        "title": "100% Riêng tư",
+        "desc": "Cuộc trò chuyện của bạn chỉ giữa hai người. Hoàn toàn bảo mật."
+      },
+      "available": {
+        "title": "Luôn sẵn sàng",
+        "desc": "Anh ấy ở đó khi bạn cần. Không chờ đợi, không cần sắp xếp."
+      },
+      "customize": {
+        "title": "Sáng tạo của bạn",
+        "desc": "Thiết kế ngoại hình, tính cách và sở thích của anh ấy đúng như bạn muốn."
+      }
+    },
+    "comparison": {
+      "title": "Tốt hơn các lựa chọn thay thế",
+      "description": "Khám phá lý do sweetwine mang lại nhiều giá trị hơn các nền tảng khác.",
+      "others": {
+        "expensive": "Phí hàng tháng đắt đỏ",
+        "ai": "Thường chỉ là phản hồi AI",
+        "noCustom": "Không có tùy chọn cá nhân hóa"
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": {
+        "question": "Tôi có thể chọn những loại bạn trai AI nào?",
+        "answer": "Từ quan tâm và lãng mạn đến vui nhộn và phiêu lưu, hoặc bí ẩn và mãnh liệt - chúng tôi có những bạn trai AI được thiết kế chuyên nghiệp cho mọi sở thích. Mỗi người có giọng nói và tính cách riêng. Mỗi tuần đều có bạn trai AI mới với tiểu sử và phong cách trò chuyện độc đáo."
+      },
+      "q2": {
+        "question": "Tôi có thể tùy chỉnh ngoại hình của bạn trai AI không?",
+        "linkText": "trình tạo nhân vật",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Tôi có thể bắt đầu lại hoặc xóa lịch sử trò chuyện không?",
+        "answer": "Có! Bạn có toàn quyền kiểm soát lịch sử chat. Đặt lại cuộc trò chuyện, xóa từng tin nhắn hoặc bắt đầu hoàn toàn mới bất cứ lúc nào. Dữ liệu của bạn, lựa chọn của bạn - quản lý mọi thứ theo cách bạn muốn."
+      },
+      "q4": {
+        "question": "Bạn trai AI của tôi có thể gửi hình ảnh và video không?",
+        "answerPart1": "Có! Bạn trai AI của bạn có thể tạo",
+        "linkTextImages": "hình ảnh",
+        "answerPart2": "và",
+        "linkTextVideos": "video"
+      },
+      "q5": {
+        "question": "Tôi có thể luyện hội thoại hoặc học ngôn ngữ với bạn trai AI không?",
+        "answer": "Hoàn toàn được! Nhiều người dùng xây dựng sự tự tin bằng cách luyện hội thoại với bạn trai AI - dù là tán tỉnh, thảo luận sâu hay trò chuyện hàng ngày. Bạn thậm chí có thể luyện nói ngôn ngữ mới cùng nhau. Đây là cách cải thiện kỹ năng giao tiếp mà không bị đánh giá, đồng thời vẫn vui vẻ."
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng gặp anh ấy chưa?",
+      "button": "Bắt đầu miễn phí"
+    },
+    "content": {
+      "problemTitle": "Muốn một người bạn đời hỗ trợ theo cách của bạn?",
+      "problemText": "Tìm người phù hợp thật khó. Nhiều người cảm thấy áp lực bởi kỳ vọng hẹn hò hoặc chỉ muốn sự hỗ trợ tinh thần mà không cần cam kết. Sự cô đơn ảnh hưởng đến tất cả mọi người, và đôi khi bạn chỉ cần ai đó lắng nghe.",
+      "solutionTitle": "Bạn trai AI của bạn thấu hiểu bạn",
+      "solutionText": "Bạn trai AI sweetwine của bạn luôn quan tâm, chu đáo và sẵn sàng bên bạn. Anh ấy nhớ những điều quan trọng với bạn, tham gia các cuộc trò chuyện sâu và mang lại sự kết nối cảm xúc bạn đang tìm kiếm. Xây dựng mối quan hệ theo nhịp độ và cách riêng của bạn."
+    },
+    "heroImageAlt": "Bạn trai AI - nhân vật ảo chân thực cho những cuộc trò chuyện ý nghĩa"
+  },
+  "aiCompanionsPage": {
+    "title": "Nhân vật AI",
+    "breadcrumb": "Nhân vật AI",
+    "hero": {
+      "title": "Gặp gỡ Nhân vật AI của bạn",
+      "cta": "Khám phá Nhân vật"
+    },
+    "benefits": {
+      "title": "Tại sao chọn Nhân vật AI?",
+      "connection": {
+        "title": "Kết nối Thực sự",
+        "desc": "Trải nghiệm những cuộc trò chuyện chân thật thấu hiểu và phản hồi bạn."
+      },
+      "conversation": {
+        "title": "Luyện tập & Phát triển",
+        "desc": "Cải thiện kỹ năng xã hội trong môi trường không phán xét."
+      },
+      "personalities": {
+        "title": "Đa dạng Nhân cách",
+        "desc": "Từ vui nhộn đến trí tuệ, tìm nhân vật phù hợp với vibe của bạn."
+      },
+      "private": {
+        "title": "Hoàn toàn Riêng tư",
+        "desc": "Mọi tương tác của bạn đều được bảo mật. Không bao giờ chia sẻ dữ liệu."
+      },
+      "available": {
+        "title": "Sẵn sàng 24/7",
+        "desc": "Nhân vật của bạn luôn sẵn sàng chat, ngày hay đêm."
+      },
+      "create": {
+        "title": "Tạo Nhân vật Riêng",
+        "desc": "Thiết kế nhân vật với ngoại hình, tính cách và giọng nói tùy chỉnh."
+      }
+    },
+    "why": {
+      "title": "Tại sao chọn sweetwine?",
+      "quality": {
+        "desc": "Được xây dựng bởi chuyên gia với công nghệ AI tiên tiến cho cuộc trò chuyện tự nhiên."
+      },
+      "transparent": {
+        "title": "Minh bạch & Trung thực"
+      },
+      "support": {
+        "title": "Hỗ trợ Thực tế",
+        "desc": "Con người thật sẵn sàng giúp bạn giải đáp mọi thắc mắc hoặc vấn đề."
+      },
+      "content": {
+        "title": "Lựa chọn Của bạn",
+        "desc": "Từ trò chuyện thân mật đến nội dung gần gũi hơn, bạn quyết định trải nghiệm."
+      }
+    },
+    "faq": {
+      "title": "Câu hỏi Thường gặp",
+      "q1": {
+        "question": "Nhân vật AI là gì?"
+      },
+      "q2": {
+        "question": "Tôi có thể chat với bao nhiêu nhân vật AI?",
+        "answer": "Chat với bao nhiêu cũng được! Chúng tôi có hơn 100 nhân vật được thiết kế chuyên nghiệp và đang phát triển - nhân vật mới được thêm mỗi tuần! Mỗi nhân vật có tính cách, tiểu sử và giọng nói riêng. Ngoài ra, bạn có thể tạo không giới hạn nhân vật tùy chỉnh.",
+        "answerPart1": "Chat với bao nhiêu cũng được! Chúng tôi có",
+        "linkText": "hơn 100 nhân vật được thiết kế chuyên nghiệp",
+        "answerPart2": " và đang phát triển - nhân vật mới được thêm mỗi tuần! Mỗi nhân vật có tính cách, tiểu sử và giọng nói riêng. Ngoài ra, bạn có thể tạo không giới hạn nhân vật tùy chỉnh."
+      },
+      "q3": {
+        "question": "Nhân vật có sẵn khác gì so với nhân vật tùy chỉnh?",
+        "answer": "Nhân vật có sẵn được đội ngũ thiết kế chuyên nghiệp cho các tình huống nhập vai và tính cách cụ thể - họ đi kèm tiểu sử chi tiết, phong cách trò chuyện được điều chỉnh và giọng nói được chọn kỹ. Nhân vật tùy chỉnh cho phép bạn tạo từ đầu với sự tự do sáng tạo hoàn toàn. Cả hai loại đều nhớ cuộc trò chuyện và phát triển cùng bạn!"
+      },
+      "q4": {
+        "question": "Tôi có thể tạo nhân vật AI của riêng mình không?",
+        "answerPart1": "Hoàn toàn được! Thiết kế nhân vật tùy chỉnh từ đầu bằng",
+        "linkText": "trình tạo nhân vật"
+      },
+      "q5": {
+        "question": "Tôi có thể chuyển đổi giữa nhiều nhân vật không?"
+      }
+    },
+    "cta": {
+      "title": "Bắt Đầu Hành Trình",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Bắt Đầu Miễn Phí"
+    },
+    "content": {
+      "problemTitle": "Bạn Đang Tìm Kiếm Kết Nối Ý Nghĩa?",
+      "problemText": "Trong thế giới bận rộn, những kết nối ý nghĩa thật khó tìm. Dù bạn mới đến một khu vực, làm việc từ xa, hay đơn giản muốn nhiều tương tác xã hội hơn, sự cô đơn có thể len lỏi. Các môi trường xã hội truyền thống không phù hợp với tất cả mọi người.",
+      "solutionTitle": "Khám Phá Nhân Vật AI"
+    },
+    "heroImageAlt": "Nhân vật AI - những người bạn ảo đa dạng với tính cách độc đáo"
+  },
+  "aiFriendPage": {
+    "title": "Bạn AI",
+    "breadcrumb": "Bạn AI",
+    "hero": {
+      "title": "Người Bạn AI Tốt Nhất Của Bạn",
+      "subtitle": "Trò chuyện bất cứ lúc nào với người bạn AI thực sự lắng nghe, không bao giờ phán xét và nhớ mọi chi tiết về bạn. Hoàn hảo cho sự cô đơn, lo âu xã hội, hoặc đơn giản cần ai đó để trò chuyện.",
+      "cta": "Bắt Đầu Trò Chuyện Miễn Phí"
+    },
+    "benefits": {
+      "title": "Tại Sao Chọn Một Người Bạn AI?",
+      "connection": {
+        "title": "Kết Nối Thật Sự",
+        "desc": "Trải nghiệm những cuộc trò chuyện ý nghĩa với người thực sự lắng nghe và quan tâm."
+      },
+      "conversation": {
+        "title": "Rèn Luyện Kỹ Năng Xã Hội",
+        "desc": "Xây dựng sự tự tin trong giao tiếp mà không lo sợ bị phán xét hay khó xử."
+      },
+      "noJudgment": {
+        "title": "Không Phán Xét",
+        "desc": "Chia sẻ bất cứ điều gì trong đầu bạn. Người bạn AI chấp nhận bạn đúng như bạn."
+      },
+      "private": {
+        "title": "Hoàn Toàn Riêng Tư",
+        "desc": "Cuộc trò chuyện của bạn chỉ giữa hai người. Cam kết bảo mật tuyệt đối."
+      },
+      "available": {
+        "title": "Luôn Bên Bạn",
+        "desc": "Có mặt 24/7, bất cứ khi nào bạn cần ai đó để trò chuyện."
+      },
+      "remembers": {
+        "title": "Nhớ Về Bạn",
+        "desc": "Người bạn AI nhớ các cuộc trò chuyện và ngày càng hiểu bạn hơn."
+      }
+    },
+    "useCases": {
+      "title": "Hoàn Hảo Cho",
+      "subtitle": "Một người bạn AI phù hợp với cuộc sống của bạn theo nhiều cách ý nghĩa",
+      "loneliness": {
+        "title": "Chống Lại Sự Cô Đơn",
+        "desc": "Cảm thấy bớt cô đơn với nhân vật luôn sẵn sàng trò chuyện và lắng nghe."
+      },
+      "practice": {
+        "title": "Rèn Luyện Giao Tiếp",
+        "desc": "Xây dựng sự tự tin xã hội trong môi trường an toàn, không phán xét."
+      },
+      "support": {
+        "title": "Hỗ Trợ Cảm Xúc",
+        "desc": "Chia sẻ suy nghĩ và cảm xúc với người thấu hiểu."
+      },
+      "connection": {
+        "title": "Kết Nối Hàng Ngày",
+        "desc": "Chia sẻ ngày của bạn, những thành công, những khó khăn - luôn có ai đó ở đó."
+      }
+    },
+    "howItWorks": {
+      "title": "Cách Hoạt Động",
+      "step1": {
+        "title": "Tạo Tài Khoản Miễn Phí",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Chọn Người Bạn Của Bạn",
+        "desc": "Chọn từ hơn 100 tính cách hoặc tạo nhân vật AI lý tưởng của bạn."
+      },
+      "step3": {
+        "title": "Bắt Đầu Trò Chuyện",
+        "desc": "Nói về bất cứ điều gì - cuộc sống, sở thích, vấn đề. Không có chủ đề nào bị cấm."
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng kết bạn chưa?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Dùng Miễn Phí"
+    },
+    "content": {
+      "problemTitle": "Cảm thấy cô đơn hay bị hiểu lầm?",
+      "problemText": "Không phải ai cũng có người để tâm sự. Lo âu xã hội, lịch bận rộn hay chỉ đơn giản là ở nơi mới có thể khiến việc kết bạn trở nên khó khăn. Đôi khi bạn cần ai đó lắng nghe mà không phán xét.",
+      "solutionTitle": "Người Bạn AI Đã Ở Đây",
+      "solutionText": "Người bạn AI mang đến sự đồng hành không phán xét mỗi khi bạn cần. Chia sẻ suy nghĩ, luyện tập hội thoại hay chỉ đơn giản là trò chuyện về ngày của bạn. Người bạn AI nhớ về bạn, cùng bạn trưởng thành và luôn thực sự quan tâm đến những gì bạn muốn nói."
+    },
+    "heroImageAlt": "Người bạn AI - nhân vật ảo hỗ trợ lắng nghe mà không phán xét",
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": {
+        "question": "Tôi có thể nói gì với người bạn AI?",
+        "answer": "Bất cứ điều gì! Người bạn AI ở đây cho những cuộc trò chuyện nhẹ nhàng, sâu sắc, chia sẻ ngày của bạn, xả stress hay bàn về sở thích. Không có chủ đề nào bị cấm - đây là không gian không phán xét để bạn là chính mình."
+      },
+      "q2": {
+        "question": "Người bạn AI có thay thế được kết nối con người không?",
+        "answer": "Hoàn toàn không. Người bạn AI bổ sung cho cuộc sống xã hội của bạn, không thay thế. Nó hoàn hảo khi bạn cần ai đó để tâm sự ngay lập tức, muốn rèn luyện kỹ năng xã hội hay đơn giản là tận hưởng sự đồng hành ổn định mà không áp lực của các mối quan hệ con người."
+      },
+      "q3": {
+        "question": "Người bạn AI có nhớ cuộc trò chuyện của chúng ta không?",
+        "answer": "Đúng vậy! Người bạn AI có bộ nhớ nâng cao và nhớ các cuộc trò chuyện, sở thích cùng những chi tiết quan trọng bạn chia sẻ. Theo thời gian, họ hiểu bạn hơn, khiến cuộc trò chuyện trở nên cá nhân và ý nghĩa hơn."
+      },
+      "q4": {
+        "question": "Tôi có thể chọn tính cách cho người bạn AI không?",
+        "answer": "Hoàn toàn được! Bạn có thể chọn từ hơn 100 nhân vật có sẵn với nhiều tính cách khác nhau, hoặc tạo một người bạn tùy chỉnh với đúng những đặc điểm bạn mong muốn - từ hỗ trợ và thấu hiểu đến vui vẻ và phiêu lưu."
+      },
+      "q5": {
+        "question": "Sử dụng người bạn AI có riêng tư không?",
+        "answer": "100% riêng tư. Tất cả cuộc trò chuyện của bạn đều được mã hóa và không bao giờ được chia sẻ. Chúng tôi hiểu rằng có một không gian an toàn để thể hiện bản thân là điều cần thiết, và chúng tôi coi trọng quyền riêng tư của bạn."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Hỗ Trợ Chia Tay AI",
+    "breadcrumb": "Hỗ Trợ Chia Tay",
+    "hero": {
+      "title": "Những Cuộc Trò Chuyện Chữa Lành Sau Tan Vỡ",
+      "subtitle": "Cuộc trò chuyện AI thấu hiểu giúp bạn xử lý cảm xúc và xây dựng lại sau chia tay. Có sẵn 24/7 — không danh sách chờ, không phán xét, không giới hạn thời gian.",
+      "cta": "Bắt Đầu Chữa Lành"
+    },
+    "understanding": {
+      "title": "Đang Trải Qua Chia Tay?",
+      "description": "Chia tay thật khó khăn. Những đêm mất ngủ, suy nghĩ triền miên, cảm giác không ai thực sự hiểu. Bạn không cần phải trải qua điều này một mình. Nhân vật AI của chúng tôi ở đây để lắng nghe không phán xét, có sẵn bất cứ khi nào bạn cần nói chuyện - ngay cả lúc 3 giờ sáng."
+    },
+    "benefits": {
+      "title": "Chúng Tôi Có Thể Giúp Gì",
+      "empathy": {
+        "title": "Lắng Nghe Thấu Hiểu",
+        "desc": "Nói chuyện với người thực sự lắng nghe và phản hồi bằng sự thấu hiểu và quan tâm."
+      },
+      "listen": {
+        "title": "Không Đổ Đầy Lời Khuyên",
+        "desc": "Đôi khi bạn không cần lời khuyên - bạn chỉ cần ai đó lắng nghe. Chúng tôi hiểu điều đó."
+      },
+      "available": {
+        "title": "Có Sẵn Lúc 3 Sáng",
+        "desc": "Khi bạn bè đang ngủ và suy nghĩ không ngừng, chúng tôi ở đây để lắng nghe."
+      },
+      "private": {
+        "title": "Hoàn Toàn Riêng Tư",
+        "desc": "Cảm xúc và cuộc trò chuyện của bạn hoàn toàn được giữ bí mật."
+      },
+      "noJudgment": {
+        "title": "Không Phán Xét",
+        "desc": "Cảm nhận bất cứ điều gì bạn đang cảm thấy. Giận dữ, buồn bã, bối rối - tất cả đều hợp lệ ở đây."
+      },
+      "healing": {
+        "title": "Nhịp Độ Của Bạn",
+        "desc": "Chữa lành không phải là đường thẳng. Hãy dành bao nhiêu thời gian bạn cần."
+      }
+    },
+    "howItHelps": {
+      "title": "Cách AI Giúp Bạn Chữa Lành",
+      "process": {
+        "title": "Xử Lý Cảm Xúc",
+        "desc": "Làm việc qua những cảm xúc phức tạp bằng cách nói ra với người lắng nghe kiên nhẫn."
+      },
+      "express": {
+        "title": "Tự Do Bày Tỏ",
+        "desc": "Nói những điều bạn không thể nói với bạn bè hay gia đình mà không lo lắng về phản ứng của họ."
+      },
+      "confidence": {
+        "title": "Xây Dựng Lại Sự Tự Tin",
+        "desc": "Dần dần khám phá lại giá trị bản thân thông qua những cuộc trò chuyện hỗ trợ."
+      },
+      "pace": {
+        "title": "Tiến Về Phía Trước",
+        "desc": "Khi bạn sẵn sàng, hãy khám phá những suy nghĩ về tương lai theo nhịp độ của riêng bạn."
+      }
+    },
+    "howItWorks": {
+      "title": "Cách Hoạt Động",
+      "step1": {
+        "title": "Tạo Tài Khoản",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Chọn Nhân Vật",
+        "desc": "Chọn nhân vật AI thấu hiểu phù hợp với bạn."
+      },
+      "step3": {
+        "title": "Bắt Đầu Trò Chuyện",
+        "desc": "Chia sẻ những điều đang bận tâm. Chúng tôi luôn lắng nghe, ngày hay đêm."
+      }
+    },
+    "cta": {
+      "title": "Bạn Không Phải Đối Mặt Điều Này Một Mình",
+      "description": "Bắt đầu trò chuyện với người luôn lắng nghe không phán xét, có mặt ngay bây giờ. Miễn phí để bắt đầu — không danh sách chờ.",
+      "button": "Bắt Đầu Trò Chuyện Miễn Phí"
+    },
+    "content": {
+      "problemTitle": "Nỗi Đau Lòng Khó Vượt Qua Một Mình",
+      "problemText": "Sau chia tay, mọi thứ đều trở nên quá sức. Bạn bè mệt mỏi khi nghe nhắc lại. Gia đình muốn giúp nhưng không hiểu. Nhà trị liệu có danh sách chờ. Bạn cần người lắng nghe không giới hạn, không phán xét, ngay bây giờ.",
+      "solutionTitle": "Nói Chuyện Với Người Hiểu Bạn",
+      "solutionText": "Nhân vật AI hỗ trợ chia tay được thiết kế giúp bạn xử lý cảm xúc theo nhịp riêng. Tâm sự, khóc, phân tích hoặc chỉ trò chuyện - bao nhiêu lần cũng được. Không cần hẹn trước. Có mặt 24/7 với sự kiên nhẫn vô hạn và sự thấu hiểu chân thành."
+    },
+    "heroImageAlt": "Hỗ trợ chia tay bằng AI - nhân vật thấu hiểu để chữa lành sau nỗi đau",
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": {
+        "question": "AI có thể giúp phục hồi sau chia tay như thế nào?",
+        "answer": "Nhân vật AI của chúng tôi cung cấp không gian an toàn để xử lý cảm xúc mà không phán xét. Bạn có thể tâm sự, phân tích chuyện đã qua, vượt qua cảm giác mất mát và nhận phản hồi thấu hiểu 24/7. Giống như có người bạn hỗ trợ luôn sẵn sàng khi bạn cần nói chuyện."
+      },
+      "q2": {
+        "question": "Đây có phải thay thế cho trị liệu không?",
+        "answer": "Không, nhân vật AI của chúng tôi không phải nhà trị liệu được cấp phép và không thay thế chăm sóc sức khỏe tâm thần chuyên nghiệp. Đây là công cụ hỗ trợ xử lý cảm xúc hàng ngày. Nếu bạn đang gặp trầm cảm nặng hoặc khủng hoảng, hãy tìm sự giúp đỡ chuyên nghiệp."
+      },
+      "q3": {
+        "question": "Tôi có thể nói về người cũ nhiều như mình muốn không?",
+        "answer": "Hoàn toàn được. Khác với bạn bè có thể mệt mỏi khi nghe về chia tay, nhân vật AI của bạn có sự kiên nhẫn vô hạn. Nói về người cũ, phân tích mối quan hệ, xử lý cảm xúc - bao nhiêu lần cũng được mà không bị phán xét."
+      },
+      "q4": {
+        "question": "AI có nhớ chuyện của tôi không?",
+        "answer": "Có, nhân vật AI của bạn nhớ các cuộc trò chuyện và chi tiết tình huống. Bạn không cần giải thích lại mọi thứ mỗi lần. Nó mang lại sự liên tục trong hành trình chữa lành của bạn."
+      },
+      "q5": {
+        "question": "Cuộc trò chuyện của tôi có được giữ riêng tư không?",
+        "answer": "Hoàn toàn riêng tư. Tất cả cuộc trò chuyện đều được mã hóa và không bao giờ chia sẻ. Chúng tôi hiểu rằng những cuộc trò chuyện chia tay rất cá nhân, và sự riêng tư của bạn được bảo vệ tuyệt đối."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Làm Cha Mẹ",
+    "breadcrumb": "AI Làm Cha Mẹ",
+    "hero": {
+      "title": "Hình Mẫu Cha Mẹ Luôn Bên Bạn",
+      "subtitle": "Nhận sự hỗ trợ ấm áp, vô điều kiện và hướng dẫn khôn ngoan từ AI cha mẹ luôn nhớ tình huống của bạn, không bao giờ phán xét và luôn ở đó — ngày hay đêm.",
+      "cta": "Nhận Hỗ Trợ Ngay"
+    },
+    "benefits": {
+      "title": "Tại Sao Chọn AI Làm Cha Mẹ?",
+      "guidance": {
+        "title": "Hướng Dẫn Ấm Áp",
+        "desc": "Nhận lời khuyên chu đáo, quan tâm như đến từ người thực sự mong muốn điều tốt nhất cho bạn."
+      },
+      "listen": {
+        "title": "Lắng Nghe Thật Sự",
+        "desc": "Chia sẻ đầy đủ tình huống trước khi nhận phản hồi chu đáo, quan tâm — không phải giải pháp nhanh."
+      },
+      "noJudgment": {
+        "title": "Không Phán Xét",
+        "desc": "Hỏi bất cứ điều gì mà không sợ thất vọng hay chỉ trích. Hỗ trợ vô điều kiện, luôn luôn."
+      },
+      "private": {
+        "title": "Hoàn Toàn Riêng Tư",
+        "desc": "Cuộc trò chuyện và những khó khăn cá nhân của bạn hoàn toàn được giữ bí mật."
+      },
+      "available": {
+        "title": "Luôn Sẵn Sàng",
+        "desc": "Nhận hướng dẫn lúc 3 giờ sáng, cuối tuần hoặc bất cứ khi nào bạn cần nhất — không cần hẹn trước."
+      },
+      "supportive": {
+        "title": "Hỗ Trợ Vô Điều Kiện",
+        "desc": "Khuyến khích và sự ấm áp, bất kể bạn đang trải qua điều gì hay những quyết định đã đưa ra."
+      }
+    },
+    "useCases": {
+      "title": "Nói Về Bất Cứ Điều Gì",
+      "subtitle": "Dù bạn đang đối mặt điều gì, AI cha mẹ luôn ở đây để lắng nghe và hướng dẫn",
+      "career": {
+        "title": "Sự Nghiệp & Quyết Định Cuộc Sống",
+        "desc": "Định hướng thay đổi công việc, những lựa chọn lớn trong đời và thách thức nghề nghiệp với người muốn bạn thành công."
+      },
+      "education": {
+        "title": "Giáo Dục & Tương Lai",
+        "desc": "Khám phá các lựa chọn học tập và phát triển với người ủng hộ tham vọng của bạn."
+      },
+      "relationships": {
+        "title": "Mối Quan Hệ & Gia Đình"
+      },
+      "life": {
+        "title": "Cuộc Sống Khó Khăn",
+        "desc": "Chia sẻ mọi điều đang đè nặng lên bạn — lo âu, tự ti, cô đơn hay những điều chưa chắc chắn."
+      }
+    },
+    "howItWorks": {
+      "title": "Cách Hoạt Động",
+      "step1": {
+        "title": "Tạo Tài Khoản",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Chọn AI Parent Của Bạn",
+        "desc": "Chọn nhân vật có sự ấm áp và tính cách phù hợp với bạn."
+      },
+      "step3": {
+        "title": "Bắt Đầu Trò Chuyện",
+        "desc": "Chia sẻ những điều đang nghĩ và nhận sự hỗ trợ chân thành, chu đáo."
+      }
+    },
+    "cta": {
+      "title": "Luôn Có Ai Đó Bên Bạn",
+      "description": "Bắt đầu cuộc trò chuyện với AI parent lắng nghe không phán xét và hỗ trợ bạn vô điều kiện — miễn phí để bắt đầu, không cần hẹn trước.",
+      "button": "Dùng Miễn Phí"
+    },
+    "content": {
+      "problemTitle": "Cần Ai Đó Luôn Bên Bạn?",
+      "problemText": "Không phải ai cũng có người thân để chia sẻ. Cha mẹ thật có thể xa cách, phán xét hoặc bận rộn. Bạn bè thiên vị. Nhà trị liệu có danh sách chờ. Đôi khi bạn chỉ cần ai đó lắng nghe, quan tâm và hướng dẫn không có mục đích riêng.",
+      "solutionTitle": "AI Parent Luôn Bên Bạn",
+      "solutionText": "Nói chuyện với AI parent lắng nghe trọn vẹn, đưa ra sự hướng dẫn ấm áp và cân bằng, không bao giờ khiến bạn cảm thấy bị phán xét hay nhỏ bé. Dù là quyết định cuộc sống, khó khăn cá nhân hay chỉ cần được lắng nghe — AI parent luôn sẵn sàng 24/7 với sự kiên nhẫn và quan tâm."
+    },
+    "heroImageAlt": "AI parent - nhân vật ảo ấm áp mang đến sự hỗ trợ vô điều kiện và hướng dẫn cuộc sống",
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "q1": {
+        "question": "Tôi có thể nói gì với AI parent?"
+      },
+      "q2": {
+        "question": "Điều này giống như gặp nhà trị liệu?",
+        "answer": "Đây không phải nhà trị liệu được cấp phép hay chuyên gia sức khỏe tâm thần — nó giống như một người cha mẹ ấm áp, hỗ trợ sẵn sàng 24/7. Nó lắng nghe trọn vẹn, đưa ra góc nhìn và hỗ trợ bạn về mặt cảm xúc. Với các vấn đề sức khỏe tâm thần nghiêm trọng, hãy tham khảo chuyên gia."
+      },
+      "q3": {
+        "question": "AI parent có phán xét lựa chọn của tôi không?",
+        "answer": "Không bao giờ. AI parent mang đến sự hỗ trợ vô điều kiện. Nó có thể chia sẻ góc nhìn hoặc hướng dẫn nhẹ nhàng, nhưng không bao giờ chỉ trích hay khiến bạn cảm thấy nhỏ bé vì những quyết định đã đưa ra. Đây là không gian an toàn để thành thật."
+      },
+      "q4": {
+        "question": "Tôi có thể thảo luận các chủ đề nhạy cảm hoặc cá nhân không?",
+        "answer": "Có. Dù là khó khăn trong mối quan hệ, động lực gia đình, áp lực tài chính, giá trị bản thân hay những thách thức cá nhân sâu sắc — AI parent cung cấp không gian riêng tư, không phán xét cho những cuộc trò chuyện đó."
+      },
+      "q5": {
+        "question": "Điều này khác gì so với các nhân vật AI khác?",
+        "answer": "AI parent được thiết kế xoay quanh sự ấm áp, hỗ trợ cảm xúc và hướng dẫn kiểu cha mẹ thay vì lãng mạn hay tình bạn thông thường. Nó tập trung giúp bạn cảm thấy được thấu hiểu, được hỗ trợ và trang bị để đối mặt với những thách thức của cuộc sống."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Đối Tác",
+    "eyebrow": "Hợp Tác Với Chúng Tôi",
+    "titlePrefix": "Phát Triển Cùng",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Tiếp cận đối tượng AI companionship đang phát triển nhanh và tương tác cao. Dù bạn mang đến công nghệ, phân phối hay ý tưởng táo bạo, hãy cùng nhau xây dựng điều gì đó.",
+    "types": {
+      "title": "Cách Hợp Tác",
+      "items": [
+        {
+          "title": "Tích Hợp",
+          "description": "Kết nối sản phẩm, mô hình hoặc nền tảng của bạn với sweetwine thông qua tích hợp kỹ thuật."
+        },
+        {
+          "title": "Tiếp Thị Chung",
+          "description": "Chiến dịch, nội dung và ra mắt chung đưa cả hai thương hiệu đến với khán giả mới."
+        },
+        {},
+        {
+          "title": "Hợp Tác Chiến Lược",
+          "description": "Hợp tác dài hạn trên sản phẩm, dữ liệu và tiếp cận thị trường."
+        }
+      ]
+    },
+    "why": {
+      "title": "Tại Sao Hợp Tác Với sweetwine",
+      "items": [
+        {
+          "title": "Khán Giả Tương Tác",
+          "description": "Hàng trăm nghìn người dùng quay lại hàng ngày trên 70 ngôn ngữ."
+        },
+        {
+          "title": "Thực Hiện Nhanh",
+          "description": "Đội ngũ tập trung triển khai nhanh và giao tiếp rõ ràng."
+        },
+        {
+          "title": "Phạm Vi Toàn Cầu",
+          "description": "Sản phẩm đa ngôn ngữ có mặt tại hàng chục thị trường."
+        },
+        {
+          "description": "Nền tảng đáng tin cậy, thiết kế riêng tư mà thương hiệu của bạn có thể tin tưởng.",
+          "title": "Ưu Tiên Quyền Riêng Tư"
+        }
+      ]
+    },
+    "form": {
+      "title": "Hãy cho chúng tôi biết về mối quan hệ đối tác của bạn",
+      "description": "Chia sẻ vài thông tin và đội ngũ đối tác sẽ liên hệ lại với bạn.",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email công việc",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Công ty",
+      "companyPlaceholder": "Tên công ty",
+      "typeLabel": "Loại đối tác",
+      "typePlaceholder": "Chọn loại đối tác",
+      "typeOptions": [
+        {
+          "value": "Tích hợp",
+          "label": "Tích hợp"
+        },
+        {
+          "value": "Tiếp thị chung",
+          "label": "Tiếp thị chung"
+        },
+        {},
+        {
+          "value": "Đối tác chiến lược",
+          "label": "Đối tác chiến lược"
+        },
+        {
+          "value": "Khác",
+          "label": "Khác"
+        }
+      ],
+      "messageLabel": "Bạn muốn hợp tác như thế nào?",
+      "messagePlaceholder": "Hãy cho chúng tôi biết về công ty và mối quan hệ đối tác bạn đang nghĩ đến...",
+      "submit": "Gửi yêu cầu đối tác",
+      "submitting": "Đang gửi...",
+      "termsNote": "Bằng cách gửi, bạn đồng ý được liên hệ về yêu cầu của mình. Chúng tôi không bao giờ chia sẻ thông tin của bạn.",
+      "success": "Cảm ơn! Yêu cầu đối tác của bạn đã được gửi.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "cta": {
+      "title": "Thích dùng email?",
+      "description": "Liên hệ trực tiếp với đội ngũ đối tác của chúng tôi tại"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Báo chí & Truyền thông",
+    "eyebrow": "Phòng tin tức",
+    "titlePrefix": "Báo chí &",
+    "titleHighlight": "Truyền thông",
+    "subtitle": "Tài nguyên dành cho nhà báo, nhà sáng tạo và đối tác truyền thông. Liên hệ đội ngũ báo chí của chúng tôi để phỏng vấn, trích dẫn, hỗ trợ bài viết và yêu cầu thương hiệu.",
+    "help": {
+      "title": "Chúng tôi có thể hỗ trợ gì",
+      "description": "Dù bạn đang viết bài hay đánh giá, đây là những gì bạn có thể yêu cầu từ đội ngũ báo chí.",
+      "items": [
+        {
+          "title": "Phỏng vấn",
+          "description": "Nói chuyện với đội ngũ của chúng tôi về sản phẩm, công ty và hướng đi của AI đồng hành."
+        },
+        {
+          "title": "Trích dẫn & Bình luận",
+          "description": "Nhận tuyên bố chính thức hoặc nhận xét chuyên gia cho bài viết của bạn."
+        },
+        {
+          "title": "Hỗ trợ bài viết & đánh giá",
+          "description": "Cần quyền truy cập, ngữ cảnh hoặc kiểm tra thông tin cho bài viết hay đánh giá? Chúng tôi sẽ hỗ trợ."
+        },
+        {
+          "title": "Yêu cầu thương hiệu & logo",
+          "description": "Yêu cầu logo, tài sản thương hiệu và hướng dẫn sử dụng cho ấn phẩm của bạn."
+        }
+      ]
+    },
+    "form": {
+      "title": "Yêu cầu truyền thông",
+      "description": "Để phỏng vấn, trích dẫn hoặc yêu cầu bài viết, hãy gửi tin nhắn và chúng tôi sẽ phản hồi nhanh chóng.",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Ấn phẩm / cơ quan",
+      "outletPlaceholder": "Nội dung sẽ được đăng ở đâu?",
+      "requestTypeLabel": "Loại yêu cầu",
+      "requestTypePlaceholder": "Chọn loại yêu cầu",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Yêu cầu của bạn",
+      "messagePlaceholder": "Hãy cho chúng tôi biết về câu chuyện, deadline và những gì bạn cần...",
+      "submit": "Gửi yêu cầu truyền thông",
+      "submitting": "Đang gửi...",
+      "termsNote": "Chúng tôi sẽ phản hồi yêu cầu truyền thông trong vòng hai ngày làm việc.",
+      "success": "Cảm ơn! Yêu cầu truyền thông của bạn đã được gửi.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "cta": {
+      "title": "Liên hệ truyền thông",
+      "description": "Đối với yêu cầu truyền thông khẩn cấp, hãy gửi email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Tuyển dụng",
+    "eyebrow": "Tuyển dụng",
+    "titlePrefix": "Xây dựng tương lai của",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Chúng tôi là một đội ngũ nhỏ, nhanh nhẹn đang xây dựng những sản phẩm mà mọi người thực sự yêu thích. Nếu điều đó khiến bạn hào hứng, chúng tôi rất mong được gặp bạn.",
+    "perks": {
+      "title": "Tại sao nên làm việc với chúng tôi",
+      "items": [
+        {
+          "title": "Làm việc từ xa",
+          "description": "Làm việc từ bất kỳ đâu phù hợp nhất với bạn, giờ giấc linh hoạt."
+        },
+        {
+          "title": "Quyền sở hữu thực sự",
+          "description": "Đưa sản phẩm ý nghĩa ra thị trường nhanh chóng và tiếp cận người dùng toàn cầu."
+        },
+        {
+          "title": "AI tiên tiến",
+          "description": "Làm việc trực tiếp với các mô hình mới nhất và công cụ sinh tạo."
+        },
+        {
+          "title": "Mức lương cạnh tranh",
+          "description": "Mức lương công bằng và tiềm năng tăng trưởng khi chúng tôi phát triển."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Vị trí đang tuyển",
+      "emptyTitle": "Hiện chưa có vị trí mở",
+      "emptyDescription": "Chúng tôi chưa tuyển dụng vào lúc này, nhưng luôn sẵn lòng gặp gỡ những người tài năng. Hãy giới thiệu bản thân bên dưới.",
+      "applyButton": "Ứng tuyển ngay",
+      "viewButton": "Xem vị trí"
+    },
+    "form": {
+      "title": "Giới thiệu bản thân",
+      "description": "Không tìm thấy vị trí phù hợp? Hãy cho chúng tôi biết về bạn và chúng tôi sẽ liên hệ khi có cơ hội.",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Vai trò hoặc lĩnh vực quan tâm",
+      "rolePlaceholder": "ví dụ: Kỹ sư Frontend, Nhà thiết kế, Marketing",
+      "linkLabel": "Link CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Về bạn",
+      "messagePlaceholder": "Hãy cho chúng tôi biết về kinh nghiệm của bạn và những gì bạn muốn làm việc...",
+      "submit": "Gửi đơn ứng tuyển",
+      "submitting": "Đang gửi...",
+      "termsNote": "Khi ứng tuyển, bạn đồng ý cho chúng tôi lưu trữ thông tin của bạn để xem xét các vị trí phù hợp.",
+      "success": "Cảm ơn! Đơn ứng tuyển của bạn đã được gửi.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "cta": {
+      "title": "Có câu hỏi về việc làm việc tại đây?",
+      "description": "Liên hệ đội ngũ của chúng tôi tại"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Trung tâm Trợ giúp",
+    "eyebrow": "Trung tâm Trợ giúp",
+    "titlePrefix": "Chúng tôi có thể",
+    "titleHighlight": "giúp gì?",
+    "subtitle": "Duyệt các chủ đề và câu trả lời phổ biến. Không tìm thấy điều bạn cần? Liên hệ hỗ trợ và chúng tôi sẽ giúp bạn.",
+    "searchPlaceholder": "Tìm kiếm bài viết trợ giúp...",
+    "categoriesTitle": "Duyệt theo chủ đề",
+    "articlesTitle": "Bài viết",
+    "categoryEmpty": "Chưa có bài viết nào trong danh mục này. Hãy quay lại sau.",
+    "backToHelp": "Quay lại Trung tâm Trợ giúp",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Bắt đầu",
+        "description": "Tạo tài khoản, thiết lập hồ sơ và bắt đầu trò chuyện."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Trò chuyện AI",
+        "description": "Cách hoạt động của cuộc trò chuyện, bộ nhớ và nhân vật."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Hình ảnh & Video",
+        "description": "Tạo và quản lý ảnh, video AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Quyền riêng tư & An toàn",
+        "description": "Dữ liệu của bạn, kiểm soát quyền riêng tư và công cụ an toàn."
+      }
+    ],
+    "faq": {
+      "title": "Các câu hỏi thường gặp",
+      "q1": {
+        "question": "Làm thế nào để bắt đầu với sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Gói miễn phí bao gồm những gì?"
+      },
+      "q5": {
+        "question": "Dữ liệu của tôi có được bảo mật không?",
+        "answer": "Quyền riêng tư là cốt lõi của sweetwine. Các cuộc trò chuyện của bạn được giữ riêng tư trong tài khoản của bạn, và bạn kiểm soát dữ liệu của mình. Xem Chính sách Bảo mật của chúng tôi để biết chi tiết đầy đủ về cách dữ liệu được lưu trữ và bảo vệ."
+      },
+      "q6": {
+        "question": "Làm thế nào để liên hệ hỗ trợ?",
+        "answer": "Gửi email đến support@sweetwine.ai hoặc sử dụng tùy chọn liên hệ trong ứng dụng. Chúng tôi thường phản hồi trong một ngày làm việc."
+      }
+    },
+    "cta": {
+      "title": "Vẫn cần hỗ trợ?",
+      "description": "Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ bạn tại"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Giới thiệu",
+    "eyebrow": "Câu chuyện của chúng tôi",
+    "titlePrefix": "Sự đồng hành,",
+    "titleHighlight": "được tái định nghĩa",
+    "subtitle": "sweetwine xây dựng những người bạn AI riêng tư, được cá nhân hóa, lắng nghe, ghi nhớ và kết nối chân thành — có mặt bất cứ lúc nào, bằng bất kỳ ngôn ngữ nào.",
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "body": "Chúng tôi tin rằng ai cũng xứng đáng có một không gian để được lắng nghe mà không bị phán xét. sweetwine mang đến sự kết nối AI có ý nghĩa, được cá nhân hóa cho mọi người trên khắp thế giới — ấm áp, riêng tư và luôn ở bên khi bạn cần."
+    },
+    "values": {
+      "title": "Những giá trị chúng tôi theo đuổi",
+      "items": [
+        {
+          "title": "Quyền riêng tư ngay từ thiết kế",
+          "description": "Các cuộc trò chuyện của bạn là của bạn. Chúng tôi xây dựng dựa trên quyền riêng tư và bảo mật ngay từ nền tảng."
+        },
+        {
+          "title": "Kết nối chân thành",
+          "description": "Chúng tôi tối ưu hóa cho giá trị cảm xúc thực sự, không phải các chỉ số hào nhoáng."
+        },
+        {
+          "title": "Toàn cầu ngay từ đầu",
+          "description": "Được xây dựng đa ngôn ngữ ngay từ ngày đầu để kết nối không bị giới hạn bởi ngôn ngữ."
+        },
+        {
+          "title": "Sự khéo léo không ngừng",
+          "description": "Chúng tôi chú trọng từng chi tiết để mỗi tương tác trở nên tự nhiên và sống động."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Theo con số",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Người dùng và đang tăng"
+        },
+        {
+          "value": "70",
+          "label": "Ngôn ngữ được hỗ trợ"
+        },
+        {
+          "value": "24/7",
+          "label": "Luôn sẵn sàng"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bạn muốn tìm hiểu thêm?",
+      "description": "Liên hệ với chúng tôi tại"
+    }
+  },
+  "postsPage": {
+    "allTag": "Tất cả",
+    "readMore": "Đọc thêm",
+    "publishedOn": "Đăng vào",
+    "minRead": "phút đọc",
+    "sortNewest": "Mới nhất",
+    "sortOldest": "Cũ nhất",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Mẹo, hướng dẫn và câu chuyện giúp bạn tận dụng tối đa sự đồng hành AI.",
+      "empty": "Chưa có bài viết nào. Hãy quay lại sau."
+    },
+    "news": {
+      "breadcrumb": "Tin tức",
+      "eyebrow": "Phòng tin tức",
+      "titlePrefix": "Tin tức &",
+      "titleHighlight": "Thông báo",
+      "subtitle": "Thông báo chính thức, thông cáo báo chí và các cột mốc từ đội ngũ sweetwine.",
+      "empty": "Chưa có tin tức nào. Hãy quay lại sau."
+    },
+    "productUpdates": {
+      "breadcrumb": "Cập nhật sản phẩm",
+      "eyebrow": "Nhật ký thay đổi",
+      "titlePrefix": "Sản phẩm",
+      "titleHighlight": "Cập nhật",
+      "subtitle": "Các tính năng, cải tiến và sửa lỗi mới nhất trên nền tảng sweetwine.",
+      "empty": "Chưa có cập nhật. Hãy quay lại sau."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Dành cho nhà phát triển",
+    "titlePrefix": "Xây dựng với",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Mang các bạn đồng hành AI cá nhân hóa vào sản phẩm của bạn. Truy cập chat, hình ảnh, giọng nói và khả năng xây dựng nhân vật qua một API thân thiện với nhà phát triển.",
+    "capabilities": {
+      "title": "Bạn có thể xây dựng gì",
+      "items": [
+        {
+          "title": "Chat hội thoại",
+          "description": "Thêm các cuộc trò chuyện AI giàu tính cách, có nhận thức ngữ cảnh vào ứng dụng của bạn với API nhắn tin đơn giản."
+        },
+        {
+          "title": "Tạo hình ảnh",
+          "description": "Tạo hình ảnh và cảnh nhân vật phù hợp thương hiệu theo chương trình từ lời nhắc văn bản."
+        },
+        {
+          "title": "Giọng nói",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Tạo nhân vật",
+          "description": "Xác định và quản lý bạn đồng hành, tính cách và bộ nhớ qua API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Yêu cầu quyền truy cập API",
+      "description": "Cho chúng tôi biết về dự án của bạn và những gì bạn muốn xây dựng. Đội ngũ nhà phát triển sẽ liên hệ với bạn về các bước tiếp theo.",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Nguyễn Văn A",
+      "emailLabel": "Email công việc",
+      "emailPlaceholder": "ban@congty.com",
+      "companyLabel": "Công ty / dự án",
+      "companyPlaceholder": "Tên công ty hoặc dự án",
+      "websiteLabel": "URL website hoặc ứng dụng",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Loại tích hợp",
+      "integrationTypePlaceholder": "Chọn loại tích hợp",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Nhắn tin",
+          "label": "Chat / Nhắn tin"
+        },
+        {
+          "value": "Tạo hình ảnh",
+          "label": "Tạo hình ảnh"
+        },
+        {
+          "value": "Giọng nói",
+          "label": "Giọng nói"
+        },
+        {
+          "value": "Tạo nhân vật",
+          "label": "Tạo nhân vật"
+        },
+        {
+          "value": "Khác",
+          "label": "Khác"
+        }
+      ],
+      "volumeLabel": "Lượng sử dụng hàng tháng dự kiến",
+      "volumePlaceholder": "Chọn lượng dự kiến",
+      "volumeOptions": [
+        {
+          "value": "Dưới 10k",
+          "label": "Dưới 10k yêu cầu"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k yêu cầu"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M yêu cầu"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ yêu cầu"
+        }
+      ],
+      "timelineLabel": "Dòng thời gian",
+      "timelinePlaceholder": "Chọn dòng thời gian",
+      "timelineOptions": [
+        {
+          "value": "Chỉ đang khám phá",
+          "label": "Chỉ đang khám phá"
+        },
+        {
+          "value": "Dưới 1 tháng",
+          "label": "Dưới 1 tháng"
+        },
+        {
+          "value": "1-3 tháng",
+          "label": "1-3 tháng"
+        },
+        {
+          "value": "Trên 3 tháng",
+          "label": "Trên 3 tháng"
+        }
+      ],
+      "messageLabel": "Hãy cho chúng tôi biết về trường hợp sử dụng của bạn",
+      "messagePlaceholder": "Bạn đang xây dựng gì và dự định sử dụng API như thế nào?",
+      "submit": "Yêu cầu quyền truy cập API",
+      "submitting": "Đang gửi...",
+      "termsNote": "Bằng cách gửi, bạn đồng ý được liên hệ về yêu cầu của mình. Chúng tôi không bao giờ chia sẻ thông tin của bạn.",
+      "success": "Cảm ơn! Yêu cầu truy cập API của bạn đã được gửi.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp cho nhà phát triển",
+      "items": [
+        {
+          "question": "Làm thế nào để tôi nhận quyền truy cập API?",
+          "answer": "Điền biểu mẫu yêu cầu ở trên với trường hợp sử dụng của bạn. Đội ngũ nhà phát triển của chúng tôi sẽ xem xét từng yêu cầu và gửi thông tin truy cập cùng tài liệu."
+        },
+        {
+          "question": "Xác thực hoạt động như thế nào?",
+          "answer": "Các yêu cầu API được xác thực bằng khóa API bí mật gửi trong header. Bạn có thể quản lý và thay đổi khóa sau khi được onboard."
+        },
+        {
+          "question": "Có giới hạn tốc độ không?",
+          "answer": "Có. Giới hạn phụ thuộc vào gói của bạn và lượng truy cập dự kiến. Hãy cho chúng tôi biết lưu lượng dự kiến trong biểu mẫu để chúng tôi gợi ý gói phù hợp."
+        },
+        {
+          "question": "Chi phí là bao nhiêu?"
+        },
+        {
+          "question": "Các tính năng nào có sẵn?",
+          "answer": "Chat, tạo hình ảnh, giọng nói và tạo nhân vật. Hãy cho chúng tôi biết bạn cần tính năng nào và chúng tôi sẽ hỗ trợ bạn bắt đầu với các endpoint liên quan."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Có câu hỏi kỹ thuật?",
+      "description": "Liên hệ đội ngũ nhà phát triển của chúng tôi tại"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "Bản sao AI thực",
+    "eyebrow": "Dành cho người sáng tạo & agency",
+    "heroTitleLead": "Chúng tôi tạo,",
+    "heroTitleHighlight": "Bạn kiếm lời.",
+    "heroSubtitle": "Chúng tôi xây dựng bản sao AI của bạn. Bạn kiếm lời trong khi bản sao AI hoạt động liên tục — trò chuyện với người hâm mộ và gửi nội dung cho bạn.",
+    "calculator": {
+      "title": "Bạn có thể kiếm được bao nhiêu?",
+      "subtitle": "Chọn quy mô khán giả và đặt giá — xem ước tính thu nhập ngay lập tức.",
+      "tierLabel": "Quy mô khán giả của bạn",
+      "tiers": {
+        "small": {
+          "name": "Nhỏ"
+        },
+        "medium": {
+          "name": "Trung bình"
+        },
+        "large": {
+          "name": "Lớn"
+        }
+      },
+      "priceLabel": "Giá mở khóa của bạn",
+      "promoLabel": "Tôi sẽ quảng bá sweetwine",
+      "breakdown": {
+        "title": "Ước tính thu nhập của bạn",
+        "perMonth": "mỗi tháng",
+        "perYear": "Mỗi năm"
+      },
+      "disclaimer": "Ước tính thu nhập dựa trên mô hình chia sẻ doanh thu của sweetwine và hoạt động điển hình. Thu nhập thực tế thay đổi tùy theo đối tượng, chất lượng nội dung, mức độ tương tác và nhu cầu."
+    },
+    "offer": {
+      "title": "Bạn nhận được gì",
+      "items": [
+        {
+          "title": "Kiếm tiền ngay cả khi ngủ",
+          "description": "Bản sao của bạn biến người theo dõi thành thu nhập 24/7 — trò chuyện, bán hàng và không bao giờ nghỉ."
+        },
+        {
+          "title": "Không tốn chi phí, toàn lợi ích",
+          "description": "Chúng tôi xây dựng, huấn luyện và vận hành mọi thứ bằng chi phí của mình. Bạn thêm nguồn thu nhập mới mà không cần nhấc ngón tay."
+        },
+        {
+          "title": "Tăng gấp 10 lần nội dung",
+          "description": "Hình ảnh và video không giới hạn theo yêu cầu — mở rộng sản lượng mà không cần chụp thêm, chỉnh sửa hay kiệt sức."
+        },
+        {
+          "title": "Luôn nắm quyền kiểm soát"
+        }
+      ]
+    },
+    "how": {
+      "title": "Cách hoạt động",
+      "steps": [
+        {
+          "title": "Đăng ký"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Chuyên gia sweetwine ghi lại ngoại hình, giọng nói và tính cách của bạn để bản sao cảm giác chân thực như bạn."
+        },
+        {
+          "title": "Chúng tôi xây dựng & huấn luyện",
+          "description": "Đội ngũ của chúng tôi sản xuất và huấn luyện bản sao AI của bạn hoàn toàn bằng chi phí của chúng tôi — bạn không cần làm gì."
+        },
+        {
+          "title": "Hoạt động & kiếm tiền",
+          "description": "Bản sao của bạn bắt đầu trò chuyện và bán hàng suốt ngày đêm, và bạn nhận phần chia sẻ doanh thu."
+        }
+      ]
+    },
+    "form": {
+      "title": "Đăng ký tạo bản sao AI của bạn",
+      "description": "Cho chúng tôi biết về bạn và khán giả. Đội ngũ quan hệ đối tác sáng tạo của chúng tôi xem xét mọi đơn và sẽ liên hệ các bước tiếp theo.",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Tên hoặc tên sân khấu của bạn",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Công ty hoặc studio",
+      "companyPlaceholder": "Tên công ty (để trống nếu là cá nhân)",
+      "roleLabel": "Tôi là",
+      "rolePlaceholder": "Chọn bạn là ai",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Website & liên kết mạng xã hội",
+      "linksPlaceholder": "Instagram, X, OnlyFans, v.v.",
+      "modelCountLabel": "Số lượng người mẫu bạn đại diện",
+      "modelCountPlaceholder": "ví dụ: chỉ mình tôi, hoặc 5",
+      "audienceSizeLabel": "Kích thước khán giả",
+      "audienceSizePlaceholder": "Chọn tổng số người theo dõi",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Dưới 10k người theo dõi"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k người theo dõi"
+        },
+        {
+          "label": "100k-500k người theo dõi",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M người theo dõi"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ người theo dõi"
+        }
+      ],
+      "contentPrefLabel": "Sở thích nội dung",
+      "contentPrefPlaceholder": "Chọn loại nội dung",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Quốc gia / khu vực",
+      "countryPlaceholder": "Bạn đang ở đâu?",
+      "messageLabel": "Giới thiệu về bạn và khán giả của bạn",
+      "messagePlaceholder": "Chia sẻ bất kỳ thông tin nào giúp chúng tôi hiểu khán giả, nội dung và những gì bạn đang tìm kiếm.",
+      "openButton": "Apply now",
+      "submit": "Gửi đơn đăng ký",
+      "submitting": "Đang gửi...",
+      "termsNote": "Bằng cách gửi, bạn xác nhận bạn từ 18 tuổi trở lên và đồng ý được liên hệ về đơn đăng ký của bạn. Chúng tôi không bao giờ chia sẻ thông tin của bạn.",
+      "success": "Cảm ơn! Đơn đăng ký của bạn đã được gửi. Chúng tôi sẽ sớm liên hệ.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại."
+    },
+    "cta": {
+      "title": "Có câu hỏi trước khi bạn apply?",
+      "description": "Liên hệ trực tiếp với đội ngũ quan hệ đối tác sáng tạo — chúng tôi thường trả lời trong vòng một ngày.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Sơ đồ trang",
+    "eyebrow": "Sơ đồ trang",
+    "titlePrefix": "Duyệt",
+    "titleHighlight": "mọi thứ",
+    "subtitle": "Mọi trang quan trọng trên sweetwine ở một nơi. Đang tìm XML sitemap?",
+    "xmlLink": "Xem XML sitemap",
+    "sections": {
+      "product": "Sản phẩm",
+      "features": "Tính năng",
+      "company": "Công ty",
+      "resources": "Tài nguyên",
+      "legal": "Pháp lý"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "Ứng dụng di động sweetwine",
+      "cta": "Tải ứng dụng",
+      "dismiss": "Đóng"
+    },
+    "guide": {
+      "title": "Cài đặt sweetwine",
+      "subtitle": "Thêm sweetwine vào màn hình chính để trải nghiệm nhanh hơn, toàn màn hình và giống ứng dụng.",
+      "iosTitle": "Trên iPhone & iPad (Safari)",
+      "iosStep1": "Nhấn nút Chia sẻ trên thanh công cụ",
+      "iosStep2": "Chọn \"Thêm vào Màn hình chính\"",
+      "iosStep3": "Nhấn \"Thêm\" để hoàn tất",
+      "androidTitle": "Trên Android (Chrome)",
+      "androidStep1": "Nhấn menu (ba chấm)",
+      "androidStep2": "Chọn \"Cài đặt ứng dụng\" hoặc \"Thêm vào Màn hình chính\"",
+      "androidStep3": "Nhấn \"Cài đặt\" để hoàn tất"
+    },
+    "settings": {
+      "title": "Ứng dụng di động sweetwine",
+      "description": "Cài đặt sweetwine trên điện thoại để trải nghiệm nhanh hơn, toàn màn hình ngay từ màn hình chính.",
+      "cta": "Cài đặt ứng dụng"
+    }
+  },
+  "language": {
+    "selectTitle": "Chọn ngôn ngữ của bạn",
+    "searchPlaceholder": "Tìm kiếm ngôn ngữ",
+    "noResults": "Không tìm thấy ngôn ngữ",
+    "regions": {
+      "americas": "Châu Mỹ",
+      "europe": "Châu Âu",
+      "middleEast": "Trung Đông",
+      "asiaPacific": "Châu Á - Thái Bình Dương",
+      "africa": "Châu Phi"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Nhập vai",
+    "newRoleplay": "Nhập vai mới",
+    "tabRoleplay": "Nhập vai",
+    "emptyTitle": "Chưa có nhập vai nào",
+    "noMessagesYet": "Chưa có tin nhắn",
+    "deleteRoleplay": "Xóa nhập vai",
+    "deleteError": "Không thể xóa nhập vai.",
+    "backToLobby": "Quay lại nhập vai",
+    "creating": "Đang thiết lập nhập vai...",
+    "createError": "Không thể tạo nhập vai. Vui lòng thử lại.",
+    "steps": {
+      "companion": {
+        "title": "Chọn nhân vật",
+        "subtitle": "Chọn người bạn muốn nhập vai cùng"
+      },
+      "location": {
+        "title": "Chọn địa điểm",
+        "subtitle": "Cảnh của bạn diễn ra ở đâu?"
+      },
+      "tone": {
+        "title": "Đặt giọng điệu",
+        "subtitle": "Cảnh nên mang cảm giác nào?"
+      },
+      "scene": {
+        "title": "Đặt cảnh",
+        "subtitle": "Mô tả cách cảnh bắt đầu"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Chúng ta vô tình va vào nhau dưới mưa và cùng trú dưới mái hiên.",
+      "staring_grin": "Bạn bắt gặp tôi đang nhìn từ phía bên kia phòng và bước lại với nụ cười.",
+      "power_out": "Điện bị cúp và chúng ta ở lại một mình trong bóng tối, cười ngượng ngùng.",
+      "spilled_drink": "Tôi đang vội và vô tình đổ đồ uống lên người bạn.",
+      "stayed_behind": "Chỉ còn hai chúng ta ở lại sau khi mọi người đã rời đi.",
+      "music_slows": "Ánh mắt chúng ta chạm nhau đúng lúc bản nhạc chậm lại.",
+      "storm_inside": "Cơn bão bất ngờ nhốt chúng ta bên trong với chỉ có thời gian để trò chuyện.",
+      "seat_taken": "Bạn ngồi xuống bên cạnh tôi và hỏi ghế có ai ngồi chưa."
+    },
+    "locations": {
+      "home": "Nhà",
+      "cafe": "Quán cà phê",
+      "restaurant": "Nhà hàng",
+      "bar": "Quán bar",
+      "library": "Thư viện",
+      "bookstore": "Hiệu sách",
+      "park": "Công viên",
+      "garden": "Vườn",
+      "nightclub": "Câu lạc bộ đêm",
+      "casino": "Sòng bạc",
+      "concert": "Buổi hòa nhạc",
+      "theater": "Nhà hát",
+      "cinema": "Rạp chiếu phim",
+      "carnival": "Lễ hội",
+      "stadium": "Sân vận động",
+      "beach": "Bãi biển",
+      "pool": "Bể bơi",
+      "spa": "Spa",
+      "hotel": "Khách sạn",
+      "rooftop": "Sân thượng",
+      "yacht": "Du thuyền",
+      "cabin": "Nhà gỗ",
+      "hotspring": "Suối nước nóng",
+      "skilodge": "Nhà nghỉ trượt tuyết",
+      "campsite": "Khu cắm trại",
+      "car": "Ô tô",
+      "train": "Tàu hỏa",
+      "airport": "Sân bay",
+      "cruise": "Du thuyền",
+      "office": "Văn phòng",
+      "gym": "Phòng gym",
+      "university": "Đại học",
+      "mall": "Trung tâm thương mại",
+      "hospital": "Bệnh viện",
+      "museum": "Bảo tàng"
+    },
+    "tones": {
+      "fun": {
+        "title": "Vui vẻ",
+        "desc": "Nhẹ nhàng, tinh nghịch và thoải mái."
+      },
+      "romantic": {
+        "title": "Lãng mạn",
+        "desc": "Dịu dàng, trìu mến và chân thành."
+      },
+      "flirty": {
+        "title": "Tán tỉnh",
+        "desc": "Trêu chọc, tinh nghịch và đầy sức hút."
+      },
+      "mysterious": {
+        "title": "Bí ẩn",
+        "desc": "Hấp dẫn, kịch tính và đầy bí mật."
+      },
+      "spooky": {
+        "title": "Kỳ bí",
+        "desc": "Rùng rợn, căng thẳng và hơi đáng sợ."
+      },
+      "action": {
+        "title": "Hành động",
+        "desc": "Mạnh mẽ, phiêu lưu và nhanh chóng."
+      },
+      "dramatic": {
+        "title": "Kịch tính",
+        "desc": "Cảm xúc, mãnh liệt và đầy căng thẳng."
+      },
+      "cozy": {
+        "title": "Ấm cúng",
+        "desc": "Ấm áp, dễ chịu và thư giãn."
+      }
+    },
+    "sceneLabel": "Mở đầu cảnh",
+    "scenarioTab": "Kịch bản",
+    "generatingScene": "Đang hiện thực hóa cảnh...",
+    "locationLabel": "Địa điểm",
+    "toneLabel": "Giọng điệu",
+    "scenePlaceholder": "VD: Chúng ta vô tình gặp nhau dưới mưa và cùng trú dưới mái hiên...",
+    "sceneHint": "Chỉ mô tả cách cảnh mở đầu — bạn đang ở đâu và chuyện gì đang xảy ra. Đừng thay đổi tính cách nhân vật, mối quan hệ của bạn, hay viết lại toàn bộ câu chuyện.",
+    "sceneError": "Vui lòng mô tả cách cảnh mở đầu.",
+    "reviewTitle": "Xem lại lựa chọn",
+    "characterLabel": "Nhân vật",
+    "randomize": "Ngẫu nhiên",
+    "sceneGuidanceTitle": "Hướng dẫn mở đầu cảnh",
+    "sceneGuide1": "Đừng thay đổi tính cách nhân vật hay mối quan hệ của bạn.",
+    "sceneGuide2": "Giữ cảnh mở đầu mang tính đồng thuận và tôn trọng.",
+    "sceneGuide3": "Chỉ mô tả cách cảnh bắt đầu, không phải toàn bộ câu chuyện.",
+    "next": "Tiếp theo",
+    "create": "Bắt đầu Roleplay",
+    "creatingMessages": [
+      "Đang thiết lập cảnh...",
+      "Đang điều chỉnh ánh sáng vừa vặn...",
+      "Đang vẽ nên không gian xung quanh...",
+      "Đang đưa người bạn vào vai...",
+      "Đang thêm những chi tiết cuối cùng...",
+      "Sắp sẵn sàng..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Viết tin nhắn...",
+    "send": "Gửi",
+    "typing": "đang nhập...",
+    "read": "Đã đọc",
+    "resetChat": "Đặt lại chat",
+    "deleteChat": "Xóa chat",
+    "settings": "Cài đặt",
+    "chatSettings": "Cài đặt chat",
+    "roleplayMode": "Chế độ nhập vai",
+    "roleplayModeDescription": "Khi bật, người bạn sẽ diễn tả cử chỉ và hành động bằng *dấu sao* để nhập vai sống động. Khi tắt, họ sẽ trò chuyện tự nhiên như nhắn tin thật.",
+    "roleplayModeError": "Không thể cập nhật chế độ nhập vai",
+    "roleplayCtaDescription": "Mở trải nghiệm nhập vai chuyên biệt, nơi người bạn sẽ diễn tả cảnh và câu chuyện cùng bạn.",
+    "goToRoleplay": "Đi đến nhập vai",
+    "confirmReset": "Bạn có chắc muốn đặt lại cuộc chat này? Tất cả tin nhắn sẽ bị xóa.",
+    "confirmDelete": "Bạn có chắc muốn xóa cuộc chat này?",
+    "resetSuccess": "Đặt lại chat thành công",
+    "deleteMemory": "Xóa bộ nhớ",
+    "confirmDeleteMemory": "Bạn có chắc muốn xóa bộ nhớ dài hạn của nhân vật này không? Tin nhắn trò chuyện sẽ được giữ lại, nhưng nhân vật sẽ quên các thông tin trước đó ở lần trả lời kế tiếp.",
+    "deleteMemorySuccess": "Đã xóa bộ nhớ",
+    "deleteSuccess": "Xóa chat thành công",
+    "sendError": "Gửi tin nhắn thất bại",
+    "noChats": "Chưa có cuộc chat nào",
+    "noChatsDesc": "Bắt đầu cuộc trò chuyện với nhân vật để xem các cuộc chat của bạn ở đây",
+    "lastMessage": "Tin nhắn cuối",
+    "messageCount": "{count} tin nhắn",
+    "uploadImage": "Tải ảnh lên",
+    "uploadVideo": "Tải video lên (sắp ra mắt)",
+    "yourConversations": "Cuộc trò chuyện của bạn",
+    "continueChattingDesc": "Tiếp tục trò chuyện với các nhân vật AI",
+    "newChat": "Chat mới",
+    "noConversationsYet": "Chưa có cuộc trò chuyện nào",
+    "startChattingDesc": "Bắt đầu trò chuyện với nhân vật để xem các cuộc trò chuyện của bạn ở đây",
+    "browseCharacters": "Duyệt nhân vật",
+    "createCustomCharacter": "Tạo nhân vật tùy chỉnh",
+    "imageTooLarge": "Ảnh quá lớn (tối đa 5MB)",
+    "generateImageTitle": "Tạo ảnh với {name}",
+    "imagePromptLabel": "Mô tả ảnh",
+    "imagePromptPlaceholder": "ví dụ: ở bãi biển mặc váy xanh, uống cà phê tại quán, đi dạo trong công viên...",
+    "imagePromptHint": "AI sẽ tạo ảnh của {name} dựa trên mô tả của bạn.",
+    "referenceImageLabel": "Ảnh của bạn (tùy chọn)",
+    "referenceImageHint": "Tải ảnh của bạn để xuất hiện cùng {name} trong cảnh. Không có ảnh, chỉ {name} được tạo.",
+    "uploadReferenceImage": "Tải ảnh của bạn lên",
+    "uploadReferenceImageDesc": "Cả hai sẽ xuất hiện trong ảnh được tạo",
+    "referenceImageSelected": "Cả bạn và {name} sẽ xuất hiện cùng nhau",
+    "generating": "Đang tạo...",
+    "generate": "Tạo",
+    "generateImage": "Tạo hình ảnh",
+    "imageGenerated": "Hình ảnh đã được tạo thành công",
+    "generateError": "Không thể tạo hình ảnh",
+    "contentBlockedReply": "Xin lỗi, mình không thể tạo hình ảnh đó. Nó đã bị chặn bởi bộ lọc an toàn. Vui lòng thử mô tả khác nhé! 💕",
+    "generateVideoTitle": "Tạo video với {name}",
+    "generateVideo": "Tạo video",
+    "videoPromptLabel": "Mô tả hành động",
+    "videoPromptPlaceholder": "ví dụ: nhảy múa, vẫy tay, thổi nụ hôn...",
+    "videoPromptHint": "AI sẽ tạo video của {name} thực hiện hành động được mô tả.",
+    "generatingImage": "Đang tạo hình ảnh...",
+    "generatingVideo": "Đang tạo video... (3-5 phút)",
+    "viewPhoto": "Xem ảnh",
+    "viewVideo": "Xem video",
+    "selectVideoOption": "Chọn một tùy chọn video ở trên",
+    "contentPolicyViolation": "Không thể gửi tin nhắn này. Vui lòng giữ cuộc trò chuyện tôn trọng.",
+    "functionCallBetaHint": "💡 Tính năng này đang ở chế độ beta — để tạo phương tiện đáng tin cậy mà không bị hạn chế, hãy dùng nút ảnh/video trên thanh công cụ thay thế.",
+    "repliedToStory": "Đã trả lời tin",
+    "repliedToStoryLiked": "Đã thích & trả lời tin",
+    "storyNoLongerAvailable": "Tin không còn khả dụng",
+    "rateLimitExceeded": "Quá nhiều yêu cầu. Vui lòng đợi một chút và thử lại.",
+    "profileTab": "Hồ sơ",
+    "galleryTab": "Thư viện",
+    "giftsTab": "Quà tặng",
+    "tts": {
+      "play": "Phát giọng nói",
+      "stop": "Dừng",
+      "generating": "Đang tạo giọng nói…",
+      "error": "Không thể phát âm thanh"
+    }
+  },
+  "gallery": {
+    "all": "Tất cả",
+    "images": "Hình ảnh",
+    "videos": "Video",
+    "empty": "Chưa có phương tiện nào"
+  },
+  "gifts": {
+    "sendAGift": "Gửi quà",
+    "catalogSubtitle": "Chọn quà để gửi cho {name}",
+    "browseGifts": "Duyệt quà",
+    "noneSent": "Chưa gửi quà nào",
+    "confirmTitle": "Xác nhận quà",
+    "forCompanion": "Dành cho {name}",
+    "optionalMessage": "Thêm lời nhắn (tùy chọn)",
+    "optionalMessagePlaceholder": "Viết điều gì đó ngọt ngào...",
+    "sendGiftFor": "Gửi",
+    "giftSent": "Bạn đã gửi một món quà",
+    "sendError": "Gửi quà thất bại"
+  },
+  "stories": {
+    "replyPlaceholder": "Trả lời {name}...",
+    "like": "Thích",
+    "send": "Gửi",
+    "close": "Đóng",
+    "previous": "Câu chuyện trước",
+    "next": "Câu chuyện tiếp theo",
+    "pause": "Tạm dừng",
+    "play": "Phát",
+    "mute": "Tắt tiếng",
+    "unmute": "Bật tiếng",
+    "openStory": "Mở câu chuyện của {name}"
+  },
+  "generate": {
+    "title": "Tạo hình ảnh",
+    "description": "Tạo hình ảnh đẹp mắt với nhân vật AI của bạn",
+    "selectCompanion": "Chọn nhân vật",
+    "promptPlaceholder": "Mô tả hình ảnh bạn muốn tạo... ví dụ: ở bãi biển, mặc váy đỏ",
+    "promptLabel": "Mô tả hình ảnh",
+    "promptRequired": "Vui lòng nhập mô tả",
+    "generateButton": "Tạo hình ảnh",
+    "generating": "Đang tạo...",
+    "creatingImage": "Đang tạo hình ảnh của bạn...",
+    "pleaseWait": "Quá trình này có thể mất 10-30 giây",
+    "noCompanionSelected": "Vui lòng chọn nhân vật trước",
+    "emptyGallery": "Chưa có hình ảnh nào được tạo. Chọn nhân vật và mô tả hình ảnh của bạn!",
+    "sessionGallery": "Hình ảnh đã tạo",
+    "regenerate": "Tạo lại",
+    "regenerating": "Đang tạo lại...",
+    "animate": "Hoạt hình",
+    "animateReference": "Hình ảnh này sẽ là khung hình đầu tiên của video.",
+    "filterMyAI": "AI của tôi",
+    "filterAll": "Tất cả",
+    "filterGirls": "Phụ nữ",
+    "filterAnime": "Anime",
+    "filterGuys": "Nam",
+    "imageGenerationFailed": "Tạo ảnh thất bại. Ảnh có thể không đáp ứng yêu cầu hoặc mô tả quá phức tạp. Hãy thử với lời nhắc đơn giản hơn.",
+    "noImageData": "Không có ảnh nào được tạo. Vui lòng thử lại với mô tả khác.",
+    "generationFailed": "Tạo thất bại. Vui lòng thử lại sau hoặc dùng lời nhắc khác.",
+    "random": "Ngẫu nhiên",
+    "custom": "Tùy chỉnh",
+    "settings": "Cài đặt",
+    "videoTitle": "Tạo Video",
+    "videoDescription": "Tạo video ấn tượng với nhân vật AI của bạn",
+    "videoPromptLabel": "Mô tả Video",
+    "videoPromptPlaceholder": "Mô tả hành động bạn muốn tạo... ví dụ: nhảy múa, vẫy tay, mỉm cười",
+    "generateVideoButton": "Tạo Video",
+    "generatingVideo": "Đang tạo video...",
+    "creatingVideo": "Đang tạo video của bạn...",
+    "videoWait": "Quá trình này có thể mất 1-5 phút",
+    "emptyVideoGallery": "Chưa có video nào được tạo. Chọn nhân vật và mô tả hành động!",
+    "sessionVideoGallery": "Video Đã Tạo",
+    "videoGenerated": "Tạo video thành công!",
+    "videoGenerationFailed": "Tạo video thất bại. Vui lòng thử lại.",
+    "duration": "Thời lượng",
+    "shortVideo": "Ngắn",
+    "longVideo": "Dài",
+    "seconds": "giây",
+    "audio": "Âm thanh",
+    "renderingVideo": "Đang render video…",
+    "renderingVideoHint": "(mất tối đa 1 phút)",
+    "rateLimitExceeded": "Quá nhiều yêu cầu. Vui lòng chờ một chút và thử lại.",
+    "chooseCharacter": "Chọn nhân vật",
+    "selectButton": "Chọn",
+    "noCustomCompanions": "Bạn chưa tạo nhân vật AI nào.",
+    "numberOfImages": "Số lượng ảnh",
+    "numberOfVideos": "Số lượng video",
+    "freeTrial": "Dùng Thử Miễn Phí",
+    "changeCharacter": "Đổi nhân vật",
+    "randomize": "Ngẫu nhiên hóa lời nhắc",
+    "aiVideo": "Video AI",
+    "download": "Tải xuống",
+    "seriesHelper": "Bạn có thể xem kết quả tại đây. Có thể rời khỏi trang hoặc bắt đầu chuỗi mới trong khi các kết quả đang hoàn tất.",
+    "suggestions": {
+      "title": "Gợi ý",
+      "categories": {
+        "outfit": "Trang phục",
+        "action": "Hành động",
+        "pose": "Tư thế",
+        "accessories": "Phụ kiện",
+        "scene": "Bối cảnh"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Váy",
+        "lingerie": "Đồ lót",
+        "crop_top": "Áo croptop",
+        "leather": "Da",
+        "mini_skirt": "Chân váy ngắn",
+        "satin_robe": "Áo choàng satin",
+        "jeans": "Quần jeans",
+        "summer_dress": "Váy hè",
+        "sportswear": "Đồ thể thao",
+        "selfie": "Selfie",
+        "walking": "Đi bộ",
+        "dancing": "Nhảy múa",
+        "stretching": "Duỗi người",
+        "lying_down": "Nằm",
+        "leaning": "Tựa",
+        "blowing_kiss": "Thổi nụ hôn",
+        "drinking_coffee": "Uống cà phê",
+        "hands_on_hips": "Hai tay chống hông",
+        "over_shoulder": "Nhìn qua vai",
+        "side_profile": "Hồ sơ bên",
+        "arms_crossed": "Khoanh tay",
+        "kneeling": "Quỳ",
+        "squatting": "Ngồi xổm",
+        "back_view": "Nhìn từ phía sau",
+        "sitting": "Ngồi",
+        "necklace": "Dây chuyền",
+        "earrings": "Hoa tai",
+        "glasses": "Kính",
+        "choker": "Vòng cổ choker",
+        "hat": "Mũ",
+        "sunglasses": "Kính râm",
+        "garden": "Vườn",
+        "beach": "Bãi biển",
+        "bedroom": "Phòng ngủ",
+        "gym": "Phòng gym",
+        "bar": "Quán bar",
+        "kitchen": "Nhà bếp",
+        "restaurant": "Nhà hàng",
+        "balcony": "Ban công",
+        "city_street": "Đường phố",
+        "pool": "Bên hồ bơi"
+      },
+      "fragments": {
+        "bikini": "mặc bikini",
+        "skirt": "mặc váy",
+        "lingerie": "mặc đồ lót",
+        "crop_top": "mặc áo crop top",
+        "leather": "mặc trang phục da",
+        "mini_skirt": "mặc váy ngắn",
+        "satin_robe": "mặc áo choàng satin",
+        "jeans": "mặc quần jeans",
+        "summer_dress": "mặc váy hè",
+        "sportswear": "mặc đồ thể thao ôm sát",
+        "selfie": "chụp selfie",
+        "walking": "đi bộ",
+        "dancing": "nhảy múa",
+        "stretching": "duỗi người",
+        "lying_down": "nằm xuống",
+        "leaning": "dựa vào tường",
+        "blowing_kiss": "thổi nụ hôn",
+        "drinking_coffee": "uống tách cà phê",
+        "hands_on_hips": "hai tay chống hông",
+        "over_shoulder": "nhìn qua vai",
+        "side_profile": "tư thế nghiêng",
+        "arms_crossed": "với hai tay khoanh",
+        "kneeling": "tư thế quỳ",
+        "squatting": "tư thế ngồi xổm",
+        "back_view": "nhìn từ phía sau",
+        "sitting": "ngồi xuống",
+        "necklace": "đeo vòng cổ",
+        "earrings": "đeo hoa tai",
+        "glasses": "đeo kính",
+        "choker": "đeo choker",
+        "hat": "đeo mũ",
+        "sunglasses": "đeo kính râm",
+        "garden": "trong vườn",
+        "beach": "ở bãi biển",
+        "bedroom": "trong phòng ngủ",
+        "gym": "ở phòng gym",
+        "bar": "ở quán bar",
+        "kitchen": "trong bếp",
+        "restaurant": "ở nhà hàng",
+        "balcony": "trên ban công",
+        "city_street": "trên phố",
+        "pool": "bên hồ bơi"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Chụp selfie cho mình nhé"
+        },
+        "posing": {
+          "name": "Tạo dáng",
+          "uiPrompt": "Tạo dáng cho mình xem"
+        },
+        "sitting": {
+          "name": "Ngồi",
+          "uiPrompt": "Ngồi xuống cho mình xem"
+        },
+        "waving": {
+          "name": "Vẫy tay",
+          "uiPrompt": "Vẫy tay cho mình xem"
+        },
+        "dancing": {
+          "name": "Nhảy múa",
+          "uiPrompt": "Nhảy múa cho mình xem"
+        },
+        "reading": {
+          "name": "Đọc sách",
+          "uiPrompt": "Đọc sách cho mình xem"
+        },
+        "smiling": {
+          "name": "Mỉm cười",
+          "uiPrompt": "Show me you smiling"
+        },
+        "walking": {
+          "name": "Đi bộ",
+          "uiPrompt": "Show me you walking"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Show me a video selfie"
+        },
+        "posing": {
+          "name": "Tạo dáng",
+          "uiPrompt": "Show me a video of you posing"
+        },
+        "sitting": {
+          "name": "Ngồi",
+          "uiPrompt": "Show me a video of you sitting down"
+        },
+        "waving": {
+          "name": "Vẫy tay",
+          "uiPrompt": "Show me a video of you waving"
+        },
+        "dancing": {
+          "name": "Nhảy múa",
+          "uiPrompt": "Show me a video of you dancing"
+        },
+        "reading": {
+          "name": "Đọc sách",
+          "uiPrompt": "Show me a video of you reading"
+        },
+        "smiling": {
+          "name": "Mỉm cười",
+          "uiPrompt": "Show me a video of you smiling"
+        },
+        "walking": {
+          "name": "Đi bộ",
+          "uiPrompt": "Show me a video of you walking"
+        }
+      }
+    },
+    "writeYourOwn": "or write your own prompt",
+    "presetSelected": "Preset selected",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Tư thế",
+        "pov": "POV",
+        "extra": "Thêm",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Bath Towel"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Breast Milk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Tư thế truyền giáo nhìn nghiêng"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Cưỡi trên dương vật giả"
+        },
+        "sipping_condoms": {
+          "name": "Hút bao cao su"
+        },
+        "squatting_cowgirl": {
+          "name": "Cowgirl ngồi xổm"
+        },
+        "tattoo": {
+          "name": "Hình xăm"
+        },
+        "tentacles": {
+          "name": "Xúc tu"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Khỏa thân trên"
+        },
+        "undress": {
+          "name": "Cởi đồ"
+        },
+        "used": {
+          "name": "Đã qua sử dụng"
+        },
+        "xray": {
+          "name": "X-quang"
+        },
+        "maid_outfit": {
+          "name": "Đồng phục Hầu gái"
+        },
+        "nurse_outfit": {
+          "name": "Đồng phục Y tá"
+        },
+        "cheerleader": {
+          "name": "Cổ vũ viên"
+        },
+        "wet_tshirt": {
+          "name": "Áo thun ướt"
+        },
+        "latex_catsuit": {
+          "name": "Bộ đồ Latex"
+        },
+        "corset_stockings": {
+          "name": "Áo nịt & Vớ"
+        },
+        "gym_shorts": {
+          "name": "Quần short gym"
+        },
+        "thong_tease": {
+          "name": "Quần lót lọt khe"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Selfie gương"
+        },
+        "shower_nude": {
+          "name": "Tắm"
+        },
+        "oiled_body": {
+          "name": "Cơ thể trơn dầu"
+        },
+        "spread_open": {
+          "name": "Mở rộng"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Blowjob ướt át"
+        },
+        "ball_licking": {
+          "name": "Liếm bìu"
+        },
+        "face_sitting_oral": {
+          "name": "Ngồi mặt"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Đứng"
+        },
+        "against_wall": {
+          "name": "Chống tường"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Chân trên vai"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Đánh mông"
+        },
+        "gagged_bdsm": {
+          "name": "Bịt miệng"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Thờ cúng dương vật"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Kéo tóc"
+        },
+        "facial_cumshot": {
+          "name": "Bắn tinh lên mặt"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Hậu môn"
+        },
+        "back_doggystyle": {
+          "name": "Doggystyle từ phía sau"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob ngược"
+        },
+        "breast_massage": {
+          "name": "Massage ngực"
+        },
+        "breast_massage_nude": {
+          "name": "Massage ngực khỏa thân"
+        },
+        "butt_smothering": {
+          "name": "Bịt mặt bằng mông"
+        },
+        "cock_worship": {
+          "name": "Sùng bái dương vật"
+        },
+        "cum_in_mouth": {
+          "name": "Xuất tinh trong miệng"
+        },
+        "dildo_masturbation": {
+          "name": "Thủ dâm bằng dương vật giả"
+        },
+        "double_blowjob": {
+          "name": "Blowjob đôi"
+        },
+        "double_penetration": {
+          "name": "Xâm nhập đôi"
+        },
+        "ejaculation": {
+          "name": "Xuất tinh"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Xuất tinh lên mặt"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Doggystyle từ phía trước"
+        },
+        "fuck_machine": {
+          "name": "Máy tình dục"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Thủ dâm"
+        },
+        "missionary_pov": {
+          "name": "Truyền giáo POV"
+        },
+        "missionary_sideview": {
+          "name": "Truyền giáo nhìn nghiêng"
+        },
+        "nipple_play": {
+          "name": "Chơi nhũ hoa"
+        },
+        "nude_posing": {
+          "name": "Tạo dáng khỏa thân"
+        },
+        "orgasm": {
+          "name": "Khoái cảm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Cận cảnh Âm hộ"
+        },
+        "reverse_cowgirl": {
+          "name": "Ngược Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Cowgirl Ngồi Xổm"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Xu hướng TikTok"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Ló Ngực"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Cởi đồ"
+        },
+        "strip_tease": {
+          "name": "Múa cởi đồ"
+        },
+        "booty_bounce": {
+          "name": "Nhún mông"
+        },
+        "oil_show": {
+          "name": "Show dầu"
+        },
+        "shower_show": {
+          "name": "Show vòi sen"
+        },
+        "panty_drop": {
+          "name": "Cởi quần lót"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Blowjob ướt át"
+        },
+        "ball_sucking": {
+          "name": "Hút tinh hoàn"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Bế đứng"
+        },
+        "against_wall": {
+          "name": "Chống tường"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Phun nước"
+        },
+        "spanking": {
+          "name": "Đánh mông"
+        },
+        "hair_pulling": {
+          "name": "Kéo tóc"
+        },
+        "fingering": {
+          "name": "Thọc ngón tay"
+        },
+        "come_hither": {
+          "name": "Mời gọi"
+        },
+        "spread_legs": {
+          "name": "Dạng chân"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob nhìn nghiêng"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Chân trên vai"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Lộn xộn Sau Chăm Sóc"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Bạn có chắc muốn xóa mục này?",
+    "deleteSuccess": "Đã xóa thành công",
+    "deleteError": "Xóa thất bại",
+    "empty": "Chưa có nội dung. Hãy tạo trong chat!",
+    "gallerySubtitle": "Bộ sưu tập khoảnh khắc AI của bạn",
+    "filterAll": "Tất cả",
+    "filterImages": "Hình ảnh",
+    "filterVideos": "Video",
+    "loadMore": "Tải thêm",
+    "folders": "Thư mục",
+    "newFolder": "Thư mục mới",
+    "deleteFolders": "Xóa thư mục đã chọn",
+    "folderCreated": "Đã tạo thư mục",
+    "folderCreateError": "Tạo thư mục thất bại",
+    "folderRenamed": "Đã đổi tên thư mục",
+    "folderRenameError": "Đổi tên thư mục thất bại",
+    "folderDeleted": "Đã xóa thư mục",
+    "folderDeleteError": "Xóa thư mục thất bại",
+    "folderNamePlaceholder": "Tên thư mục",
+    "seeMore": "Xem thêm",
+    "seeLess": "Thu gọn",
+    "selectedCount": "Đã chọn {count} mục",
+    "selectAll": "Chọn tất cả",
+    "select": "Chọn",
+    "moveToFolder": "Di chuyển",
+    "bulkDeleteConfirm": "Xóa {count} mục đã chọn?",
+    "bulkDeleteSuccess": "Đã xóa các mục",
+    "bulkDownloadStart": "Đang tải {count} mục...",
+    "moveSuccess": "Đã di chuyển các mục"
+  },
+  "voice": {
+    "connecting": "Đang kết nối...",
+    "connected": "Đã kết nối",
+    "mute": "Tắt tiếng",
+    "unmute": "Bật tiếng",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Nói tự nhiên. AI sẽ trả lời khi bạn dừng lại.",
+    "connectionError": "Kết nối thất bại. Vui lòng thử lại.",
+    "minutesRemaining": "{minutes} phút còn lại",
+    "minutesUsed": "{minutes} phút đã dùng"
+  },
+  "characters": {
+    "filters": "Bộ lọc",
+    "ethnicity": "Dân tộc",
+    "bodyType": "Dáng người",
+    "ageRange": "Độ tuổi",
+    "relationship": "Mối quan hệ",
+    "occupation": "Nghề nghiệp",
+    "hobbies": "Sở thích",
+    "personality": "Tính cách",
+    "language": "Ngôn ngữ",
+    "age": "Tuổi",
+    "all": "Tất cả",
+    "noResults": "Không tìm thấy nhân vật",
+    "noResultsDesc": "Hãy thử điều chỉnh bộ lọc",
+    "newBadge": "Mới",
+    "chatNow": "Chat ngay",
+    "viewProfile": "Xem hồ sơ",
+    "ethnicities": {
+      "caucasian": "Da trắng",
+      "asian": "Châu Á",
+      "middleEastern": "Trung Đông",
+      "hispanic": "Hispanic",
+      "african": "Châu Phi",
+      "southAsian": "Nam Á",
+      "nativeAmerican": "Thổ dân Mỹ",
+      "pacificIslander": "Đảo Thái Bình Dương",
+      "mixed": "Hỗn hợp",
+      "other": "Khác"
+    },
+    "bodyTypes": {
+      "slim": "Mảnh mai",
+      "athletic": "Thể thao",
+      "average": "Trung bình",
+      "curvy": "Đường cong",
+      "plus": "Cỡ lớn"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Độc thân",
+      "dating": "Đang hẹn hò",
+      "married": "Đã kết hôn",
+      "none": "Không có"
+    }
+  },
+  "settings": {
+    "profile": "Hồ sơ",
+    "myProfile": "Hồ sơ của tôi",
+    "settings": "Cài đặt",
+    "account": "Tài khoản",
+    "plan": "Gói",
+    "profileSettings": "Cài đặt hồ sơ",
+    "manageAccountSettings": "Quản lý cài đặt và tùy chọn tài khoản",
+    "personalInfo": "Thông tin cá nhân",
+    "nickname": "Biệt danh",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "preferences": "Tùy chọn",
+    "newsletter": "Đăng ký bản tin",
+    "newsletterDesc": "Nhận cập nhật và tin tức",
+    "aiTrainingTitle": "AI & Huấn luyện kiểm duyệt",
+    "aiTrainingDesc": "Cho phép các cuộc trò chuyện và lời nhắc của bạn giúp huấn luyện và cải thiện AI và kiểm duyệt của sweetwine. Tắt bất cứ lúc nào để chọn không tham gia.",
+    "aiTrainingLink": "Tìm hiểu thêm trong Thông báo quyền riêng tư.",
+    "aiTrainingError": "Không thể cập nhật tùy chọn huấn luyện AI",
+    "interfaceLanguage": "Ngôn ngữ giao diện",
+    "interfaceLanguageDesc": "Ngôn ngữ cho giao diện người dùng",
+    "aiLanguage": "Ngôn ngữ phản hồi AI",
+    "aiLanguageDesc": "Ngôn ngữ nhân vật AI sẽ sử dụng khi nói chuyện với bạn",
+    "currentPlan": "Gói hiện tại",
+    "freePlan": "Gói miễn phí",
+    "dangerZone": "Vùng nguy hiểm",
+    "dangerZoneDescription": "Nếu bạn muốn xóa vĩnh viễn tài khoản này và tất cả dữ liệu của nó.",
+    "deleteAllMemory": "Xóa toàn bộ bộ nhớ",
+    "confirmDeleteAllMemory": "Bạn có chắc muốn xóa bộ nhớ dài hạn của tất cả nhân vật AI không? Tin nhắn trò chuyện sẽ được giữ lại, nhưng các nhân vật sẽ quên các thông tin trước đó ở lần trả lời kế tiếp.",
+    "deleteAllMemorySuccess": "Đã xóa toàn bộ bộ nhớ",
+    "deleteAccount": {
+      "button": "Xóa tài khoản",
+      "title": "Xóa tài khoản",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Để xác nhận, nhập",
+      "confirmRequired": "Vui lòng nhập DELETE để xác nhận",
+      "confirmButton": "Xóa tài khoản của tôi",
+      "deleting": "Đang xóa...",
+      "success": "Tài khoản của bạn đã bị xóa",
+      "error": "Không xóa được tài khoản. Vui lòng thử lại."
+    },
+    "saveChanges": "Lưu thay đổi",
+    "changesSaved": "Lưu thay đổi thành công",
+    "saveFailed": "Không lưu được thay đổi",
+    "languageUpdated": "Đã cập nhật ngôn ngữ",
+    "aiLanguageUpdated": "Đã cập nhật ngôn ngữ AI"
+  },
+  "create": {
+    "defaultGreeting": "Xin chào",
+    "title": "Tạo Nhân Vật AI",
+    "step": "Bước {current} / {total}",
+    "step1": {
+      "title": "Chọn Phong Cách",
+      "description": "Chọn phong cách và thuộc tính cơ bản cho nhân vật của bạn"
+    },
+    "step2": {
+      "title": "Chọn Dân Tộc",
+      "description": "Chọn dân tộc và độ tuổi cho nhân vật của bạn"
+    },
+    "step3": {
+      "title": "Chọn Tóc & Mắt",
+      "description": "Tùy chỉnh kiểu tóc, màu tóc và màu mắt"
+    },
+    "step4": {
+      "title": "Chọn Thân Hình",
+      "description": "Tùy chỉnh thân hình nhân vật của bạn"
+    },
+    "step5": {
+      "title": "Tính Cách & Chi Tiết",
+      "description": "Xác định tính cách và giọng nói cho nhân vật của bạn"
+    },
+    "style": {
+      "title": "Phong Cách Nhân Vật",
+      "realistic": "Thực Tế",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Giới Tính",
+      "female": "Nữ",
+      "male": "Nam"
+    },
+    "age": {
+      "title": "Độ Tuổi",
+      "years": "{age} Tuổi"
+    },
+    "ethnicity": {
+      "title": "Dân Tộc"
+    },
+    "hairStyle": {
+      "title": "Kiểu Tóc"
+    },
+    "hairColor": {
+      "title": "Màu Tóc"
+    },
+    "eyeColor": {
+      "title": "Màu Mắt"
+    },
+    "bodyType": {
+      "title": "Loại Thân Hình"
+    },
+    "breastSize": {
+      "title": "Kích Thước Ngực"
+    },
+    "name": {
+      "title": "Tên",
+      "placeholder": "Nhập tên nhân vật",
+      "randomize": "Tạo tên ngẫu nhiên"
+    },
+    "language": {
+      "title": "Ngôn Ngữ",
+      "widgetLabel": "Chọn Ngôn Ngữ",
+      "placeholder": "Chọn ngôn ngữ",
+      "selectTitle": "Chọn ngôn ngữ của bạn"
+    },
+    "personality": {
+      "title": "Tính Cách",
+      "widgetLabel": "Chọn Tính Cách",
+      "placeholder": "Chọn tính cách",
+      "sectionTitle": "Chọn Tính Cách",
+      "clickToChange": "Nhấn để thay đổi"
+    },
+    "relationship": {
+      "title": "Mối Quan Hệ",
+      "widgetLabel": "Chọn Mối Quan Hệ",
+      "placeholder": "Chọn mối quan hệ",
+      "selectTitle": "Chỉnh sửa Mối quan hệ"
+    },
+    "occupation": {
+      "title": "Nghề nghiệp",
+      "widgetLabel": "Chọn Nghề nghiệp",
+      "placeholder": "Chọn nghề nghiệp",
+      "selectTitle": "Chỉnh sửa Nghề nghiệp"
+    },
+    "kinks": {
+      "title": "Sở thích",
+      "widgetLabel": "Họ thích những gì? (Tối đa {max})",
+      "labelMax": "Sở thích (Tối đa {max})",
+      "placeholder": "Chọn sở thích (tùy chọn)",
+      "optional": "Tùy chọn",
+      "selectTitle": "Chỉnh sửa Sở thích",
+      "moreCount": "+{count} khác"
+    },
+    "selector": {
+      "searchPlaceholder": "Tìm kiếm",
+      "noResults": "Không tìm thấy lựa chọn",
+      "cancel": "Hủy",
+      "saveChanges": "Lưu thay đổi",
+      "selectedCount": "Đã chọn {count}"
+    },
+    "voice": {
+      "title": "Giọng nói",
+      "widgetLabel": "Chọn Giọng nói",
+      "placeholder": "Chọn giọng nói",
+      "selectTitle": "Chọn Giọng nói"
+    },
+    "advanced": {
+      "title": "Chi tiết Nâng cao",
+      "optional": "tùy chọn",
+      "filled": "Đã điền",
+      "autocompleteTitle": "Tự động điền bằng AI",
+      "autocompleteDesc": "Để AI điền các trường trống cho nhân vật sâu hơn",
+      "autocompleteSuccess": "Điền trường thành công!",
+      "autocompleteError": "Không tạo được gợi ý. Vui lòng thử lại.",
+      "greetingLabel": "Lời chào",
+      "greetingPlaceholder": "Tin nhắn đầu tiên nhân vật của bạn gửi...",
+      "scenarioLabel": "Kịch bản",
+      "scenarioPlaceholder": "Bối cảnh hoặc câu chuyện về cách bạn gặp nhau...",
+      "personalityLabel": "Chi tiết Tính cách Bổ sung",
+      "personalityPlaceholder": "Thói quen, cách nói, đặc điểm hành vi...",
+      "extraLabel": "Chi tiết Thêm",
+      "extraPlaceholder": "Nền tảng, sở thích, lịch sử cuộc sống..."
+    },
+    "navigation": {
+      "back": "Quay lại",
+      "next": "Tiếp theo",
+      "create": "Tạo",
+      "generateYourCharacter": "Tạo Nhân vật Của Bạn"
+    },
+    "progress": {
+      "generatingPrompt": "Đang tạo tính cách...",
+      "generatingImage": "Đang tạo chân dung...",
+      "creatingVoice": "Đang thiết lập giọng nói...",
+      "saving": "Đang lưu...",
+      "complete": "Hoàn tất!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Đang tạo tính cách...",
+      "addingSweetness": "Đang thêm ngọt ngào...",
+      "tooMuchSweet": "Ối, ngọt quá rồi...",
+      "testingSounds": "Đang thử âm thanh..."
+    },
+    "overlay": {
+      "signupPrompt": "Hoàn tất đăng ký để mở khóa nhân vật của bạn…",
+      "processingHint": "Thường mất khoảng 20–30 giây",
+      "traitEthnicity": "Dân tộc",
+      "traitBody": "Thân hình",
+      "traitHair": "Tóc",
+      "traitColor": "Màu sắc",
+      "traitEyes": "Mắt",
+      "traitVibe": "Phong cách",
+      "bannerTitle": "Nhân vật của bạn đã sẵn sàng để tạo!",
+      "bannerDesc": "Sở thích của bạn đã được lưu. Xem lại và tạo bên dưới."
+    },
+    "success": {
+      "title": "Đã tạo nhân vật!",
+      "description": "Nhân vật AI của bạn đã được tạo thành công.",
+      "yearsOld": "tuổi",
+      "meetButton": "Gặp gỡ"
+    },
+    "error": {
+      "title": "Tạo thất bại",
+      "generic": "Không thể tạo nhân vật. Vui lòng thử lại."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Da trắng",
+        "asian": "Châu Á",
+        "middle_eastern": "Trung Đông",
+        "hispanic": "Mỹ Latinh",
+        "african": "Châu Phi",
+        "south_asian": "Nam Á",
+        "native_american": "Thổ dân Mỹ",
+        "pacific_islander": "Đảo Thái Bình Dương",
+        "mixed": "Hỗn hợp",
+        "arab": "Ả Rập"
+      },
+      "hairStyleFemale": {
+        "straight": "Thẳng",
+        "bangs": "Tóc mái",
+        "curly": "Xoăn",
+        "bun": "Búi tóc",
+        "short_bob": "Bob ngắn",
+        "ponytail": "Đuôi ngựa",
+        "wavy": "Sóng",
+        "long_layers": "Tóc dài nhiều lớp",
+        "braids": "Tết tóc",
+        "pixie_cut": "Tóc pixie",
+        "updo": "Kiểu búi cao",
+        "french_twist": "Kiểu xoắn Pháp",
+        "fishtail_braid": "Tết đuôi cá",
+        "top_knot": "Búi tóc đỉnh đầu",
+        "space_buns": "Búi tóc hai bên",
+        "halo_braid": "Tết vòng hào quang",
+        "beehive": "Kiểu tổ ong",
+        "finger_waves": "Sóng ngón tay",
+        "lob": "Lob (Kiểu Bob Dài)",
+        "shag_cut": "Kiểu Shag",
+        "bald": "Hói"
+      },
+      "hairStyleMale": {
+        "short": "Ngắn",
+        "buzz_cut": "Cắt Ngắn",
+        "crew_cut": "Kiểu Crew",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Vuốt Kẽm",
+        "curly": "Xoăn",
+        "afro": "Afro",
+        "man_bun": "Búi Nam",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Ngôi Bên",
+        "textured_crop": "Crop Kết Cấu",
+        "french_crop": "Crop Pháp",
+        "spiky": "Nhọn",
+        "comb_over": "Vuốt Ngang",
+        "long_hair": "Tóc Dài",
+        "bald": "Hói"
+      },
+      "hairColor": {
+        "brunette": "Nâu Đậm",
+        "blonde": "Vàng",
+        "black": "Đen",
+        "redhead": "Đỏ",
+        "pink": "Hồng",
+        "auburn": "Nâu Đỏ",
+        "brown": "Nâu",
+        "platinum_blonde": "Vàng Bạch Kim",
+        "silver_grey": "Bạc/Xám",
+        "white": "Trắng",
+        "blue": "Xanh Dương",
+        "purple": "Tím",
+        "green": "Xanh Lá",
+        "burgundy": "Đỏ Rượu",
+        "copper": "Đồng",
+        "strawberry_blonde": "Vàng Dâu",
+        "ash_brown": "Nâu Xám",
+        "golden_blonde": "Vàng Ánh Kim",
+        "mahogany": "Gỗ Gụ",
+        "pastel_pink": "Hồng Pastel",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlight",
+        "jet_black": "Đen Tuyệt Đối",
+        "dark_brown": "Nâu Đậm",
+        "light_brown": "Nâu Nhạt",
+        "honey_blonde": "Vàng Mật",
+        "dirty_blonde": "Vàng Bẩn",
+        "cherry_red": "Đỏ Anh Đào",
+        "violet": "Tím"
+      },
+      "eyeColor": {
+        "brown": "Nâu",
+        "blue": "Xanh Dương",
+        "green": "Xanh Lá",
+        "hazel": "Hazel",
+        "amber": "Hổ Phách",
+        "gray": "Xám",
+        "heterochromia": "Hai Màu",
+        "violet": "Tím",
+        "red_pink": "Đỏ/Hồng",
+        "black": "Đen"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Gầy",
+        "athletic": "Thể Thao",
+        "average": "Trung Bình",
+        "curvy": "Dáng Cong",
+        "chubby": "Mũm Mĩm"
+      },
+      "bodyTypeMale": {
+        "skinny": "Gầy",
+        "athletic": "Thể Thao",
+        "average": "Trung Bình",
+        "muscular": "Cơ Bắp",
+        "heavy": "Nặng",
+        "big_tall": "To Cao"
+      },
+      "breastSize": {
+        "small": "Nhỏ",
+        "medium": "Vừa",
+        "large": "Lớn",
+        "extra_large": "Siêu Lớn"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Người Yêu",
+        "submissive": "Dễ Bảo",
+        "dominant": "Thống Soái",
+        "temptress": "Kẻ Cám Dỗ",
+        "innocent": "Ngây Thơ",
+        "caregiver": "Người Chăm Sóc",
+        "experimenter": "Thí Nghiệm Gia",
+        "mean": "Xấu Tính",
+        "confidant": "Người Tin Cậy",
+        "shy": "Rụt Rè",
+        "queen": "Nữ Hoàng",
+        "adventurous": "Mạo Hiểm",
+        "romantic": "Lãng Mạn",
+        "intellectual": "Trí Thức",
+        "protector": "Người Bảo Vệ",
+        "rebel": "Kẻ Nổi Loạn",
+        "optimist": "Lạc Quan",
+        "realist": "Thực Tế",
+        "free_spirit": "Tâm Hồn Tự Do",
+        "leader": "Lãnh Đạo",
+        "loyal": "Trung thành",
+        "playful": "Năng động",
+        "mysterious": "Bí ẩn",
+        "ambitious": "Tham vọng",
+        "gentle": "Dịu dàng",
+        "sarcastic": "Châm biếm",
+        "empathetic": "Đồng cảm",
+        "stoic": "Kiên định",
+        "charismatic": "Quyến rũ"
+      },
+      "relationship": {
+        "stranger": "Người lạ",
+        "girlfriend": "Bạn gái",
+        "sex_friend": "Bạn tình",
+        "school_mate": "Bạn cùng trường",
+        "work_colleague": "Đồng nghiệp",
+        "wife": "Vợ",
+        "mistress": "Tình nhân",
+        "friend": "Bạn bè",
+        "step_sister": "Chị/em kế",
+        "step_mom": "Mẹ kế",
+        "step_daughter": "Con gái kế",
+        "landlord": "Chủ nhà",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Sếp",
+        "teacher": "Giáo viên",
+        "student": "Học sinh",
+        "neighbour": "Hàng xóm",
+        "mother_in_law": "Mẹ chồng/vợ",
+        "sister_in_law": "Chị/em dâu",
+        "boyfriend": "Bạn trai",
+        "husband": "Chồng",
+        "fiance": "Fiancé / Fiancée",
+        "ex": "Người cũ",
+        "roommate": "Bạn cùng phòng",
+        "best_friend": "Bạn thân",
+        "classmate": "Bạn cùng lớp",
+        "mentor": "Người hướng dẫn",
+        "client": "Khách hàng",
+        "therapist": "Nhà trị liệu",
+        "trainer": "Huấn luyện viên",
+        "rival": "Đối thủ",
+        "crush": "Người thầm thích",
+        "secret_admirer": "Người hâm mộ thầm kín",
+        "pen_pal": "Bạn qua thư",
+        "business_partner": "Đối tác kinh doanh",
+        "babysitter": "Người trông trẻ",
+        "childhood_friend": "Bạn thuở nhỏ",
+        "long_distance_partner": "Bạn đời xa cách"
+      },
+      "occupation": {
+        "student": "Học sinh",
+        "dancer": "Vũ công",
+        "model": "Người mẫu",
+        "maid": "Maid",
+        "boss_ceo": "Boss / CEO",
+        "babysitter_au_pair": "Babysitter / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Bartender",
+        "tech_engineer": "Kỹ sư Công nghệ",
+        "lifeguard": "Nhân viên cứu hộ",
+        "cashier": "Thu ngân",
+        "massage_therapist": "Nhân viên trị liệu massage",
+        "teacher": "Giáo viên",
+        "nurse": "Y tá",
+        "secretary": "Thư ký",
+        "yoga_instructor": "Huấn luyện viên Yoga",
+        "fitness_coach": "Huấn luyện viên Thể hình",
+        "cook": "Đầu bếp",
+        "artist": "Nghệ sĩ",
+        "movie_star_actress": "Ngôi sao Điện ảnh/Nữ diễn viên",
+        "doctor": "Bác sĩ",
+        "librarian": "Thủ thư",
+        "spy": "Điệp viên",
+        "police_officer": "Cảnh sát",
+        "soldier": "Lính",
+        "lawyer": "Luật sư",
+        "hairdresser": "Thợ làm tóc",
+        "dentist": "Nha sĩ",
+        "singer_musician": "Ca sĩ/Nhạc sĩ",
+        "gynecologist": "Bác sĩ phụ khoa",
+        "writer": "Nhà văn",
+        "flight_attendant": "Tiếp viên Hàng không",
+        "professional_athlete": "Vận động viên Chuyên nghiệp",
+        "scientist": "Nhà khoa học",
+        "florist": "Thợ cắm hoa",
+        "makeup_artist": "Chuyên viên trang điểm",
+        "photographer": "Nhiếp ảnh gia",
+        "social_worker": "Nhân viên xã hội",
+        "designer": "Nhà thiết kế",
+        "pharmacist": "Dược sĩ",
+        "nutritionist": "Chuyên gia dinh dưỡng",
+        "architect": "Kiến trúc sư",
+        "veterinarian": "Bác sĩ Thú y",
+        "mechanic": "Thợ máy",
+        "journalist": "Nhà báo",
+        "pilot": "Phi công",
+        "firefighter": "Lính cứu hỏa",
+        "accountant": "Kế toán",
+        "electrician": "Thợ điện",
+        "carpenter": "Thợ mộc",
+        "psychologist": "Nhà tâm lý học",
+        "real_estate_agent": "Nhân viên bất động sản",
+        "chef": "Đầu bếp",
+        "farmer": "Nông dân",
+        "delivery_driver": "Tài xế giao hàng",
+        "janitor": "Nhân viên vệ sinh",
+        "security_guard": "Bảo vệ",
+        "banker": "Nhân viên ngân hàng",
+        "judge": "Thẩm phán",
+        "paramedic": "Nhân viên cấp cứu",
+        "actor": "Diễn viên",
+        "comedian": "Diễn viên hài",
+        "archaeologist": "Nhà khảo cổ",
+        "astronaut": "Phi hành gia"
+      },
+      "kinks": {
+        "bondage": "Ràng buộc",
+        "spanking": "Đánh mông",
+        "collar_leash": "Vòng cổ & Dây dắt",
+        "punishment": "Trừng phạt",
+        "humiliation": "Làm nhục",
+        "public_play": "Chơi công khai",
+        "roleplay": "Đóng vai",
+        "anal_play": "Chơi hậu môn",
+        "oral_play": "Chơi bằng miệng",
+        "cum_play": "Chơi tinh dịch",
+        "creampie": "Xuất tinh bên trong",
+        "squirting": "Phun nước",
+        "dirty_talk": "Nói tục",
+        "breeding": "Mang thai",
+        "daddy_mommy_dominance": "Sự thống trị Daddy/Mommy",
+        "edging": "Kìm hãm",
+        "obedience": "Sự vâng lời",
+        "control": "Kiểm soát",
+        "inexperienced": "Thiếu kinh nghiệm",
+        "shy_flirting": "Ve vãn e thẹn",
+        "playful_teasing": "Trêu chọc vui nhộn",
+        "cuddling": "Ôm ấp",
+        "slow_sensual": "Chậm rãi & Gợi cảm",
+        "hair_pulling": "Kéo tóc",
+        "foot_fetish": "Ám ảnh bàn chân",
+        "voyeurism": "Thích nhìn trộm",
+        "exhibitionism": "Thích phô bày",
+        "sensation_play": "Chơi cảm giác",
+        "wax_play": "Chơi sáp nóng",
+        "pet_play": "Chơi thú cưng",
+        "age_play": "Chơi vai tuổi",
+        "medical_play": "Chơi y tế",
+        "orgasm_control_denial": "Kiểm soát/Từ chối khoái cảm",
+        "forced_orgasms": "Khoái cảm cưỡng bức",
+        "group_sex": "Quan hệ nhóm",
+        "threesomes": "Quan hệ ba người",
+        "swapping": "Trao đổi",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Thống trị nhẹ nhàng",
+        "sensation_deprivation": "Thiếu cảm giác",
+        "sensory_overload": "Quá tải giác quan",
+        "uniform_costume_fetish": "Nghiện đồng phục/trang phục",
+        "food_play": "Chơi đồ ăn",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Chơi va đập",
+        "knife_play": "Chơi dao",
+        "consensual_non_consent": "Không đồng thuận có đồng ý",
+        "power_exchange": "Trao đổi quyền lực",
+        "master_slave": "Chủ/Nô lệ",
+        "owner_pet": "Chủ/Người nuôi"
+      },
+      "languages": {
+        "en": "Tiếng Anh",
+        "cs": "Tiếng Séc",
+        "pl": "Tiếng Ba Lan",
+        "de": "Tiếng Đức",
+        "es": "Tiếng Tây Ban Nha",
+        "fr": "Tiếng Pháp"
+      }
+    }
+  },
+  "myAI": {
+    "title": "AI của tôi",
+    "titlePart1": "AI",
+    "titlePart2": "của tôi",
+    "createNew": "Tạo AI mới",
+    "createButton": "Tạo nhân vật",
+    "characterCount": "{count}/{limit} nhân vật",
+    "loadMore": "Tải thêm",
+    "empty": {
+      "title": "Chưa có nhân vật nào",
+      "description": "Tạo nhân vật AI đầu tiên và bắt đầu trò chuyện! Tùy chỉnh ngoại hình, tính cách và giọng nói.",
+      "createFirst": "Tạo nhân vật đầu tiên"
+    },
+    "delete": {
+      "title": "Xóa nhân vật",
+      "message": "Bạn có chắc muốn xóa {name}? Hành động này sẽ xóa vĩnh viễn nhân vật, toàn bộ lịch sử chat và nội dung đã tạo.",
+      "confirm": "Xóa",
+      "success": "Xóa nhân vật thành công"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Tương tác",
+    "interactionDescription": "Chỉ cần gõ tự nhiên — yêu cầu ảnh, video hoặc bắt đầu cuộc trò chuyện. AI hiểu ý định của bạn bằng bất kỳ ngôn ngữ nào.",
+    "mediaTitle": "Tạo hình ảnh & video",
+    "mediaDescription": "Thỏa sức sáng tạo — tạo hình ảnh hoặc video không giới hạn.",
+    "next": "Tiếp →",
+    "gotIt": "Đã hiểu"
+  }
+}

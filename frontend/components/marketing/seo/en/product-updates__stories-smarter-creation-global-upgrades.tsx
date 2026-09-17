@@ -1,0 +1,19 @@
+// Auto-generated static SEO page.
+// Marketing shell: MarketingNav + converted content + Footer.
+import { MarketingNav } from "../../marketing-nav";
+import { Footer } from "../../footer";
+import { MarketingBannerCarousel } from "@/components/home/marketing-banner-carousel";
+
+export const metadata = { title: "Stories, Smarter Creation & Global Upgrades" };
+
+export function SeoProductUpdatesStoriesSmarterCreationGlobalUpgradesPageEn({ authenticated = false }: { authenticated?: boolean }) {
+  return (
+    <div className="min-h-screen flex flex-col text-foreground">
+      <MarketingNav />
+      <div className="flex-1 pt-topbar">
+        <main className="container mx-auto px-4 md:px-6 pb-16 max-w-5xl"><article className="py-10"><header className="mb-8"><p className="text-xs uppercase tracking-widest text-primary/70 font-medium mb-3">Changelog</p><h1 className="text-3xl md:text-5xl font-bold leading-tight mb-4">Stories, Smarter Creation &amp; Global Upgrades</h1><div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground"><span>June 20, 2026</span><span>· SweetWine Team</span><span className="flex flex-wrap gap-2"><span className="rounded-full bg-primary/15 px-3 py-0.5 text-xs text-primary">Stories</span><span className="rounded-full bg-primary/15 px-3 py-0.5 text-xs text-primary">Updates</span><span className="rounded-full bg-primary/15 px-3 py-0.5 text-xs text-primary">Localization</span><span className="rounded-full bg-primary/15 px-3 py-0.5 text-xs text-primary">Creator</span><span className="rounded-full bg-primary/15 px-3 py-0.5 text-xs text-primary">Affiliates</span></span></div></header><div className="prose prose-invert max-w-none"><p className="text-muted-foreground leading-relaxed mb-4">We’ve been busy making SweetWine even more delightful to use. Here are the highlights you’ll notice right away.</p><p className="text-muted-foreground leading-relaxed mb-4"><strong className="font-semibold text-foreground">Enjoy swipeable Stories with your companions</strong></p><p className="text-muted-foreground leading-relaxed mb-4">Share moments and react to AI character stories just like on Instagram. Reply in chat, like segments, see who’s viewed yours, and enjoy smooth playback with instant loading and simple mute controls.</p><p className="text-muted-foreground leading-relaxed mb-4"><strong className="font-semibold text-foreground">Create characters in five easy steps</strong></p><p className="text-muted-foreground leading-relaxed mb-4">Our new guided wizard walks you through building a companion with clearer sections, helpful defaults, and quick modal selectors. You’ll finish faster and with more personalized results.</p><p className="text-muted-foreground leading-relaxed mb-4"><strong className="font-semibold text-foreground">Bring your characters together in Group Chat</strong></p><p className="text-muted-foreground leading-relaxed mb-4">Add up to 3 AI companions to a single conversation and watch them come alive – they reply naturally, react to each other, and keep the banter going. Ask anyone for a photo or video right in the chat, even a group photo of everyone together.</p><p className="text-muted-foreground leading-relaxed mb-4"><strong className="font-semibold text-foreground">Chat comfortably in your language</strong></p><p className="text-muted-foreground leading-relaxed mb-4">We’ve rolled out complete translations across 70 locales, added proper right-to-left support, and improved language picking so the whole experience feels natural no matter where you are.</p><p className="text-muted-foreground leading-relaxed mb-4">Try the new Stories and refreshed creator today, and let us know what you think. We can’t wait to see what you create next! 💕</p></div></article></main>
+      </div>
+      <Footer />
+    </div>
+  );
+}

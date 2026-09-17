@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Desa",
+    "cancel": "Cancel·la",
+    "delete": "Suprimeix",
+    "edit": "Edita",
+    "close": "Tanca",
+    "now": "ara",
+    "loading": "S'està carregant...",
+    "error": "S'ha produït un error",
+    "success": "Èxit",
+    "confirm": "Confirma",
+    "back": "Enrere",
+    "or": "O",
+    "next": "Següent",
+    "submit": "Envia",
+    "search": "Cerca",
+    "filter": "Filtra",
+    "clear": "Esborra",
+    "all": "Tot",
+    "yes": "Sí",
+    "no": "No",
+    "download": "Baixa",
+    "and": "i",
+    "tryAgain": "Torna-ho a provar",
+    "change": "Canvia"
+  },
+  "navigation": {
+    "new": "NOU",
+    "sectionBrowse": "Explora",
+    "sectionTalk": "Parla",
+    "sectionCreate": "Crea",
+    "sectionLibrary": "Biblioteca",
+    "explore": "Inici",
+    "discover": "Descobreix",
+    "createShort": "Crea IA",
+    "chats": "Xats",
+    "groupChat": "Xat grupal d'IA",
+    "roleplay": "Roleplay",
+    "collection": "Col·lecció",
+    "generateImage": "Genera imatge",
+    "generateVideo": "Genera vídeo",
+    "createCharacter": "Crea personatge d'IA",
+    "myAI": "La meva IA",
+    "language": "Idioma",
+    "contactUs": "Contacta'ns",
+    "account": "Compte",
+    "sidebarPromoTitle": "Rebaixes d'estiu — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Dones",
+      "anime": "Anime",
+      "guys": "Homes"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Xateja ara",
+    "like": "M'agrada"
+  },
+  "auth": {
+    "login": "Inicia sessió",
+    "signup": "Registra't",
+    "createFreeAccount": "Crea el teu compte gratuït",
+    "logout": "Tanca sessió",
+    "email": "Correu electrònic",
+    "password": "Contrasenya",
+    "confirmPassword": "Confirma la contrasenya",
+    "forgotPassword": "Has oblidat la contrasenya?",
+    "noAccount": "No tens cap compte?",
+    "hasAccount": "Ja tens un compte?",
+    "signupPrompt": "Crea un compte gratuït",
+    "loginPrompt": "Inicia sessió",
+    "continueWith": "Continua amb",
+    "welcomeBack": "Benvingut de nou!",
+    "createAccount": "Crea el teu compte",
+    "signInToAccount": "Inicia sessió al teu compte",
+    "emailRequired": "El correu electrònic és obligatori",
+    "emailInvalid": "Adreça de correu electrònic no vàlida",
+    "passwordRequired": "La contrasenya és obligatòria",
+    "passwordLength": "La contrasenya ha de tenir com a mínim 6 caràcters",
+    "passwordsMismatch": "Les contrasenyes no coincideixen",
+    "emailAlreadyRegistered": "El correu electrònic ja està registrat",
+    "emailAlreadyRegisteredDescription": "Ja existeix un compte amb aquest correu electrònic. Si us plau, inicia sessió.",
+    "loginError": "No s'ha pogut iniciar sessió",
+    "signupError": "No s'ha pogut registrar",
+    "loginSuccess": "Benvingut de nou!",
+    "signupSuccess": "Compte creat correctament!",
+    "logoutSuccess": "Has tancat la sessió correctament",
+    "logoutError": "No s'ha pogut tancar la sessió",
+    "linkExpired": "Aquest enllaç de verificació ha caducat. Si us plau, sol·licita'n un de nou.",
+    "accessDenied": "Accés denegat. Torna-ho a provar.",
+    "verifyEmail": "Verifica el teu correu electrònic",
+    "verificationEmailSent": "T'hem enviat un correu de verificació",
+    "confirmYourEmail": "Confirma el teu correu electrònic",
+    "confirmationLinkSent": "T'hem enviat un enllaç de confirmació a \"{email}\".",
+    "checkSpamFolder": "No has rebut el correu? Comprova la carpeta de correu brossa.",
+    "signupToChat": "Crea el teu compte gratuït per començar.",
+    "signupDescription": "Crea un compte per continuar la conversa",
+    "emailVerificationTitle": "Comprova el teu correu",
+    "emailVerificationMessage": "T'hem enviat un enllaç de verificació a {email}. Comprova la safata d'entrada i fes clic a l'enllaç per verificar el teu compte.",
+    "emailVerificationNext": "Després de la verificació, completaràs el procés d'incorporació.",
+    "verificationEmailSentTo": "Hem enviat un correu de verificació a {email}",
+    "verificationInstructions": "Comprova la safata d'entrada i fes clic a l'enllaç de verificació per activar el teu compte.",
+    "resetPassword": "Restableix la contrasenya",
+    "resetPasswordDescription": "Introdueix el teu correu i t'enviarem un enllaç de restabliment",
+    "resetEmailSent": "Si existeix un compte amb aquest correu, rebràs un enllaç de restabliment aviat",
+    "backToLogin": "Torna a l'inici de sessió",
+    "newPassword": "Nova contrasenya",
+    "confirmNewPassword": "Confirma la nova contrasenya",
+    "passwordResetSuccess": "Contrasenya actualitzada correctament. Inicia sessió.",
+    "enterNewPassword": "Introdueix la teva nova contrasenya",
+    "redirectingToLogin": "Redirigint a l'inici de sessió...",
+    "invalidResetLink": "Enllaç no vàlid o caducat",
+    "invalidResetLinkDescription": "Aquest enllaç de restabliment de contrasenya no és vàlid o ha caducat. Sol·licita'n un de nou.",
+    "passwordsDontMatch": "Les contrasenyes no coincideixen",
+    "currentPassword": "Contrasenya actual",
+    "currentPasswordRequired": "La contrasenya actual és obligatòria",
+    "changePassword": "Canvia la contrasenya",
+    "changePasswordDescription": "Introdueix la teva contrasenya actual i tria'n una de nova",
+    "newPasswordMustBeDifferent": "La nova contrasenya ha de ser diferent de l'actual",
+    "incorrectPassword": "La contrasenya actual és incorrecta",
+    "passwordChangeSuccess": "Contrasenya canviada correctament",
+    "changeEmail": "Canvia el correu",
+    "newEmail": "Nou correu",
+    "confirmNewEmail": "Confirma el nou correu electrònic",
+    "emailsDontMatch": "Els correus electrònics no coincideixen",
+    "emailChangeDescription": "S'enviarà un correu de verificació tant al teu correu actual com al nou",
+    "emailMustBeDifferent": "El nou correu ha de ser diferent de l'actual",
+    "emailChangeSent": "Correu de verificació enviat. Comprova la safata d'entrada del teu nou correu.",
+    "emailChangeSecurityNote": "Per seguretat, s'enviaran correus de confirmació tant al teu correu actual com al nou. Has de confirmar des de tots dos per completar el canvi.",
+    "otpDescription": "Hem enviat un codi de 6 dígits a {email}",
+    "otpVerify": "Verifica",
+    "otpResend": "Torna a enviar el codi",
+    "otpResendIn": "Torna a enviar en {seconds}s",
+    "otpNoCode": "No has rebut el codi?",
+    "otpInvalid": "Codi no vàlid. Torna-ho a provar.",
+    "otpSuccess": "Correu verificat correctament!",
+    "otpResendSuccess": "Nou codi enviat al teu correu",
+    "otpResendError": "No s'ha pogut reenviar el codi",
+    "continueWithEmail": "Continua amb el correu",
+    "moreOptions": "Més opcions",
+    "lessOptions": "Menys opcions",
+    "enterYourEmail": "Introdueix la teva adreça de correu",
+    "sendCode": "Envia el codi",
+    "byCreatingAccountAgree": "En crear un compte, acceptes els nostres",
+    "termsOfService": "Termes del servei",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Benvingut a sweetwine",
+    "welcomeTo": "Benvingut a",
+    "letsGetStarted": "Comencem a configurar-ho",
+    "setupProfile": "Configura el teu perfil",
+    "step1of2": "Pas 1 de 2",
+    "step2of2": "Pas 2 de 2",
+    "nickname": "Sobrenom",
+    "nicknamePlaceholder": "Tria un sobrenom",
+    "nicknameRequired": "Si us plau, introdueix un sobrenom",
+    "gender": "Gènere",
+    "genderRequired": "Si us plau, selecciona el teu gènere",
+    "male": "Home",
+    "female": "Dona",
+    "interfaceLanguage": "Idioma de la interfície",
+    "interfaceLanguageDesc": "Idioma per als menús i botons",
+    "aiLanguage": "Idioma de les respostes de la IA",
+    "aiLanguageDesc": "Idioma que utilitzarà la IA quan parli amb tu",
+    "languageRequired": "Si us plau, selecciona un idioma",
+    "continue": "Continua",
+    "ageVerification": "Verificació d'edat",
+    "ageVerificationText": "Per utilitzar sweetwine, has de tenir 18 anys o més. En continuar, confirmes que ets major d'edat.",
+    "beforeContinue": "Abans de continuar",
+    "mustBe18": "Has de tenir 18 anys o més per utilitzar aquest servei",
+    "agreeToTerms": "En continuar, acceptes els nostres {termsLink} i {privacyLink}",
+    "termsOfService": "Condicions del servei",
+    "privacyPolicy": "Política de privacitat",
+    "iConfirm": "Confirmo que tinc 18 anys o més i accepto",
+    "ageRequired": "Has de confirmar la teva edat per continuar",
+    "aiActConsent": "Reconeixo que em comunico exclusivament amb una IA",
+    "aiActRequired": "Has de reconèixer això per continuar",
+    "newsletterOptIn": "Subscriu-te al nostre butlletí per rebre actualitzacions i notícies",
+    "complete": "Configuració completada!",
+    "completeText": "Tot a punt! Comença a xatejar amb personatges d'IA.",
+    "startExploring": "Comença a explorar",
+    "featuresTitle": "Funcions disponibles",
+    "featuresTitleWord1": "Funcions",
+    "featuresTitleWord2": "disponibles",
+    "feature1Title": "Xat amb IA",
+    "feature1Desc": "Converses sense censura i privades",
+    "feature2Title": "Generació d'imatges",
+    "feature2Desc": "Genera imatges sense censura i personalitzades amb personatges d'IA",
+    "feature3Title": "Generació de vídeos",
+    "feature3Desc": "Genera vídeos d'IA sense censura amb efectes",
+    "feature5Title": "Creador d'IA personalitzada",
+    "feature5Desc": "Dissenya el teu propi personatge",
+    "feature6Title": "Explora personatges",
+    "feature6Desc": "Més de 100 personalitats úniques",
+    "feature7Title": "Roleplay amb IA",
+    "feature7Desc": "Viu històries i fantasies creades professionalment",
+    "showcase": {
+      "chatTitle": "Xat d'IA",
+      "chatDesc": "Converses privades i sense censura, sense límits",
+      "imageTitle": "Generació d'imatges",
+      "imageDesc": "Crea imatges personalitzades i sense censura de la teva IA",
+      "videoTitle": "Generació de vídeos",
+      "videoDesc": "Genera vídeos d'IA sense censura amb efectes",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Converses de veu en temps real amb la teva companya",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Històries immersives, fantasies i joc interactiu",
+      "groupChatTitle": "Xat grupal d'IA",
+      "groupChatDesc": "Xateja amb fins a 3 personatges d'IA alhora",
+      "creatorTitle": "Creador d'IA personalitzada",
+      "creatorDesc": "Dissenya i crea els teus propis personatges d'IA"
+    },
+    "freePlan": {
+      "title": "Tot a punt!",
+      "subtitle": "Això és el que inclou el teu pla gratuït.",
+      "charactersTitle": "Crea el teu propi personatge",
+      "charactersDesc": "Dissenya {count} personatge d'IA personalitzat des de zero",
+      "imagesTitle": "Genera una imatge",
+      "imagesDesc": "{count} imatge d'IA gratuïta de la teva companyia",
+      "messagesTitle": "Xateja cada dia",
+      "messagesDesc": "{count} missatges al dia, es refresquen cada 24 hores",
+      "cta": "Comença a explorar"
+    },
+    "redirectingIn": "Redirigint en",
+    "seconds": "segons",
+    "generateCharacter": "Genera el teu personatge",
+    "redirectingToCreate": "Redirigint al creador de personatges en"
+  },
+  "errors": {
+    "pageNotFound": "Pàgina no trobada",
+    "pageNotFoundDesc": "La pàgina que busques no existeix.",
+    "goHome": "Torna a l'inici",
+    "somethingWentWrong": "Alguna cosa ha anat malament",
+    "tryAgain": "Torna-ho a provar",
+    "unauthorized": "No autoritzat",
+    "unauthorizedDesc": "Has d'iniciar sessió per accedir a aquesta pàgina.",
+    "forbidden": "Prohibit",
+    "forbiddenDesc": "No tens permís per accedir a aquesta pàgina."
+  },
+  "footer": {
+    "allRightsReserved": "Tots els drets reservats.",
+    "madeWith": "Fet amb",
+    "by": "per sweetwine",
+    "description": "Experimenta personatges d'IA personalitzats amb personalitats úniques, identitats visuals i converses captivadores.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Producte",
+    "legal": "Legal",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "partnerships": "Col·laboracions",
+    "pressMedia": "Premsa i mitjans",
+    "careers": "Ofertes de feina",
+    "aiRealClones": "Clons reals d'IA",
+    "about": "Sobre",
+    "blog": "Blog",
+    "news": "Notícies",
+    "productUpdates": "Actualitzacions del producte",
+    "help": "Ajuda",
+    "sitemap": "Mapa del lloc",
+    "paymentOptions": "Opcions de pagament",
+    "chats": "Xats",
+    "collection": "Col·lecció",
+    "generateImage": "Genera imatge",
+    "generateVideo": "Genera vídeo",
+    "myAI": "La meva IA",
+    "createCharacter": "Crea un personatge",
+    "api": "API",
+    "features": "Funcions",
+    "allFeatures": "Totes les funcions",
+    "aiGroupChat": "Xat grupal d'IA",
+    "aiMemory": "Memòria d'IA",
+    "aiGirlfriend": "Nòvia d'IA",
+    "aiBoyfriend": "Nòvio d'IA",
+    "aiCompanions": "Personatges d'IA",
+    "aiFriend": "Amic d'IA",
+    "aiBreakupSupport": "Suport post-ruptura",
+    "aiParent": "Pare d'IA",
+    "aiRoleplay": "Roleplay d'IA",
+    "privacyPolicy": "Política de privacitat",
+    "termsAndConditions": "Termes i condicions",
+    "cookiePolicy": "Política de galetes",
+    "cookieSettings": "Configuració de galetes",
+    "other": "Altres polítiques",
+    "copyright": "© {year} sweetwine. Tots els drets reservats."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Galetes en aquest lloc",
+      "customizeButton": "Personalitza",
+      "rejectButton": "Rebutja",
+      "acceptButton": "Accepta"
+    },
+    "modal": {
+      "title": "Gestiona les galetes",
+      "subtitle": "Activa o desactiva les categories a continuació. Les galetes estrictament necessàries romanen activades perquè el lloc funcioni.",
+      "categories": {
+        "necessary": {
+          "title": "Estrictament necessàries",
+          "description": "Necessàries per iniciar sessió, pagar i garantir la seguretat. El lloc no pot funcionar sense elles.",
+          "alwaysOn": "Sempre activades"
+        },
+        "analytics": {
+          "title": "Rendiment",
+          "description": "Mesura d’ús i conversions mitjançant Google Analytics 4, incloent conversions clau (registre, compra) enviades des del nostre servidor amb un identificador pseudònim. Ens ajuda a entendre com s’utilitza el servei; no l’utilitzem per identificar-te personalment."
+        },
+        "marketing": {
+          "title": "Segmentació",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Mostra les galetes",
+      "hideCookies": "Amaga les galetes",
+      "table": {
+        "name": "Nom",
+        "provider": "Proveïdor",
+        "expiration": "Caducitat",
+        "description": "Descripció",
+        "session": "Sessió"
+      },
+      "policyLink": "Per a més detalls, consulta la nostra <policy>Política de galetes</policy>.",
+      "rejectButton": "Rebutja",
+      "saveButton": "Desa i tanca",
+      "acceptButton": "Accepta",
+      "cookieDescriptions": {
+        "supabaseAuth": "Et manté connectat emmagatzemant la teva sessió autenticada.",
+        "nextLocale": "Recorda l’idioma que has triat per a la interfície.",
+        "consent": "Emmagatzema les teves preferències de galetes perquè el bàner no es mostri a cada visita.",
+        "ga": "Distingeix visitants únics (Google Analytics 4). El mateix identificador pseudònim també s’utilitza per mesurar conversions clau al servidor.",
+        "gaSession": "Manté l’estat de la sessió i les mètriques d’interacció de Google Analytics 4.",
+        "fbp": "Identifica el navegador per a l’atribució de Meta Pixel.",
+        "fbc": "Emmagatzema un ID de clic de Facebook per a l’atribució de conversions d’anuncis. Només s’estableix després de fer clic en un anunci de Meta.",
+        "gclAu": "Utilitzat per Google Ads per enllaçar conversions entre llocs.",
+        "saleCountdown": "Registra el final de la teva oferta promocional actual perquè el compte enrere del descompte es mantingui coherent entre pàgines.",
+        "onboarded": "Marca el teu compte com a incorporat perquè puguem saltar la verificació d’edat a la base de dades en pàgines posteriors.",
+        "attribution": "Registra quina campanya de pagament o enllaç d'anunci t'ha portat més recentment al nostre lloc (últim clic de pagament en 30 dies) perquè puguem mesurar l'eficàcia de la nostra publicitat. Es tracta d'un identificador de primera part que es manté als nostres servidors i mai no es comparteix amb tercers."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Pròximament",
+    "subtitle": "Estem treballant intensament per oferir-te aquesta funció.",
+    "notify": "Rep una notificació quan estigui disponible",
+    "backHome": "Torna a l'inici",
+    "generateVideo": {
+      "title": "Genera vídeos",
+      "description": "Dona vida als teus personatges d'IA amb vídeos animats. Crea contingut de vídeo personalitzat amb els teus personatges preferits."
+    },
+    "createCharacter": {
+      "title": "Crea el teu personatge",
+      "description": "Dissenya i personalitza el teu propi personatge d'IA únic. Defineix la seva personalitat, aparença, història i crea interaccions realment personalitzades."
+    },
+    "myAI": {
+      "title": "La meva IA",
+      "description": "Accedeix i gestiona tots els teus personatges d'IA creats. Edita les seves personalitats, actualitza el seu aspecte i ajusta les seves respostes."
+    }
+  },
+  "exploreMore": {
+    "title": "Explora més",
+    "aiGroupChat": "Xat en grup d'IA",
+    "aiGroupChatDesc": "Xateja amb fins a 3 personatges",
+    "aiMemory": "Memòria d'IA",
+    "aiMemoryDesc": "Context que segueix cada mode",
+    "aiGirlfriend": "Nòvia d'IA",
+    "aiGirlfriendDesc": "Xateja amb la teva nòvia virtual",
+    "aiBoyfriend": "Nòvio d'IA",
+    "aiBoyfriendDesc": "Connecta amb el teu nòvio d'IA",
+    "aiCompanions": "Personatges d'IA",
+    "aiCompanionsDesc": "Coneix personalitats d'IA úniques",
+    "aiFriend": "Amic d'IA",
+    "aiFriendDesc": "Troba un amic sense judicis",
+    "aiBreakupSupport": "Suport per ruptures",
+    "aiBreakupSupportDesc": "Converses curatives",
+    "aiParent": "Pare/mare d'IA",
+    "aiParentDesc": "Suport i orientació càlida",
+    "aiRoleplay": "Roleplay d'IA",
+    "aiRoleplayDesc": "Escenaris immersius d'històries",
+    "allFeatures": "Totes les funcions",
+    "allFeaturesDesc": "Explora tot el que oferim"
+  },
+  "legal": {
+    "policies": "Polítiques",
+    "termsAndConditions": "Termes i condicions",
+    "privacyPolicy": "Política de privacitat",
+    "cookiePolicy": "Política de galetes",
+    "contentReportingPolicy": "Política d'informes de contingut",
+    "communityGuidelines": "Directrius de la comunitat",
+    "complaintPolicy": "Política de queixes",
+    "contentRemovalPolicy": "Política d'eliminació de contingut",
+    "blockedContentPolicy": "Política de contingut bloquejat",
+    "underagePolicy": "Política de menors",
+    "usc2257": "Exempció 18 U.S.C. 2257",
+    "lastUpdated": "Última actualització",
+    "index": {
+      "title": "Documents legals",
+      "subtitle": "Explora totes les polítiques i acords legals relacionats amb sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Política de privacitat",
+          "description": "Descobreix com recopilem, utilitzem i protegim la teva informació personal. Detalls sobre el tractament de dades, emmagatzematge i els teus drets de privacitat."
+        },
+        "termsAndConditions": {
+          "title": "Termes i condicions",
+          "description": "Els termes del servei que regulen l'ús de sweetwine. Responsabilitats de l'usuari, descripció del servei i acords legals."
+        },
+        "cookiePolicy": {
+          "title": "Política de galetes",
+          "description": "Informació sobre com utilitzem galetes i tecnologies similars per millorar la teva experiència a la nostra plataforma."
+        },
+        "underagePolicy": {
+          "title": "Política de menors",
+          "description": "Les nostres estrictes polítiques de verificació d'edat i protecció. sweetwine només està disponible per a usuaris de 18 anys o més."
+        },
+        "complaintPolicy": {
+          "title": "Política de queixes",
+          "description": "Com presentar queixes, informar de problemes i el nostre procés per gestionar les preocupacions i disputes dels usuaris."
+        },
+        "contentRemovalPolicy": {
+          "title": "Política d'eliminació de contingut",
+          "description": "Els nostres procediments per a sol·licituds d'eliminació de contingut i com gestionem els informes de contingut inadequat o il·legal."
+        },
+        "blockedContentPolicy": {
+          "title": "Política de contingut bloquejat",
+          "description": "Tipus de contingut que està prohibit a la nostra plataforma i les nostres polítiques d'aplicació."
+        },
+        "contentReportingPolicy": {
+          "title": "Política d'informes de contingut",
+          "description": "Com informar de violacions de drets d'autor i contingut inadequat a sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Directrius de la comunitat",
+          "description": "Normes i directrius per mantenir una comunitat respectuosa, segura i agradable per a tots els usuaris."
+        }
+      },
+      "lastUpdated": "Última actualització: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Xats",
+    "groupChat": "Xat grupal d'IA",
+    "aiMemory": "Memòria d'IA",
+    "generate": "Generar imatge",
+    "generateVideo": "Generar vídeo",
+    "create": "Crear personatge d'IA",
+    "myAI": "La meva IA",
+    "collection": "Col·lecció",
+    "invite": "Convidar",
+    "profile": "Configuració del perfil",
+    "legal": "Legal",
+    "privacyPolicy": "Política de privacitat",
+    "termsAndConditions": "Termes i condicions",
+    "cookiePolicy": "Política de galetes",
+    "dmcaPolicy": "Política DMCA",
+    "communityGuidelines": "Directrius de la comunitat",
+    "contentRemovalPolicy": "Política d'eliminació de contingut",
+    "contentReportingPolicy": "Política d'informes de contingut",
+    "complaintPolicy": "Política de queixes",
+    "blockedContentPolicy": "Política de contingut bloquejat",
+    "underagePolicy": "Política de menors",
+    "usc2257Exemption": "Exempció USC 2257"
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "subtitle": "Tens una pregunta o suggeriment? Ens encantarà saber de tu.",
+    "name": "Nom",
+    "namePlaceholder": "El teu nom",
+    "nameRequired": "El nom és obligatori",
+    "email": "Correu electrònic",
+    "emailPlaceholder": "el-teu@email.com",
+    "emailRequired": "El correu electrònic és obligatori",
+    "emailInvalid": "Adreça de correu electrònic no vàlida",
+    "message": "Missatge",
+    "messagePlaceholder": "El teu missatge...",
+    "messageRequired": "El missatge és obligatori",
+    "send": "Envia el missatge",
+    "sending": "Enviant...",
+    "success": "Missatge enviat correctament!",
+    "successDesc": "Et respondrem aviat.",
+    "error": "No s'ha pogut enviar el missatge",
+    "errorDesc": "Torna-ho a provar més tard."
+  },
+  "groupChat": {
+    "lobbyTitle": "Xat de grup amb IA",
+    "lobbyHeadingSuffix": "Selecciona fins a {max} personatges d'IA",
+    "history": "Historial",
+    "newGroup": "Nou xat de grup",
+    "createGroup": "Crea un xat de grup",
+    "createError": "No s'ha pogut crear el xat de grup. Torna-ho a provar.",
+    "creatingGroup": "Configurant el teu xat de grup...",
+    "sectionWoman": "Dones",
+    "sectionMan": "Homes",
+    "sectionAnime": "Anime",
+    "tabPremade": "Personatges d'IA",
+    "tabMyAi": "La meva IA",
+    "tabSingle": "Xats individuals",
+    "tabGroup": "Xats de grup",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Carrega'n més",
+    "noCustom": "Encara no has creat cap personatge d'IA.",
+    "noMessagesYet": "Encara no hi ha missatges",
+    "emptyTitle": "Encara no hi ha xats de grup",
+    "membersTitle": "En aquest xat",
+    "typing": "està escrivint",
+    "backToLobby": "Torna als xats de grup",
+    "deleteGroup": "Esborra el xat de grup",
+    "confirmDeleteGroup": "Segur que vols esborrar aquest xat de grup? Tots els missatges s'esborraran.",
+    "deleteError": "No s'ha pogut esborrar el xat de grup.",
+    "mediaTargetImageTitle": "Qui ha d'enviar una foto?",
+    "mediaTargetVideoTitle": "Qui ha d'enviar un vídeo?",
+    "mediaTargetSubtitle": "Tria un personatge per generar contingut multimèdia.",
+    "mediaTargetGroup": "Foto de grup",
+    "groupPhotoTitle": "Foto de grup",
+    "groupPhotoHint": "Genera una foto de {name} junts.",
+    "promoSubtitle": "amb fins a 3 personatges",
+    "promoCta": "Crea'n un de nou",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Aventures",
+    "live": "EN DIRECTE",
+    "scrollPrev": "Desplaça a l'esquerra",
+    "scrollNext": "Desplaça a la dreta"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Comença"
+    },
+    "hero": {
+      "tagline": "Confiada per 100.000 persones i cada dia s'hi uneixen més",
+      "headlinePrefix": "Digues hola al teu",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Comença de franc"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "Nòvia d'IA",
+      "friend": "Amic d'IA",
+      "boyfriend": "Nòvio d'IA",
+      "companion": "Personatge d'IA"
+    },
+    "features": {
+      "chat": {
+        "title": "Parla amb la teva nòvia d'IA",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Fotos i vídeos realistes d'IA",
+        "description": "Fotos i vídeos a demanda tan realistes que són indistinguibles dels reals — la seva cara, el seu estil, qualsevol escena, en moviment o estàtica."
+      },
+      "groupChat": {
+        "title": "Xat en grup d'IA",
+        "description": "Inicia un xat en grup amb fins a 3 personatges alhora. Responen de manera natural, reaccionen entre ells i envien fotos i vídeos."
+      },
+      "roleplay": {
+        "title": "Roleplay d'IA",
+        "description": "Submergeix-te en escenaris immersius i narratius amb personatges que es mantenen en el rol i recorden cada decisió que prens."
+      }
+    },
+    "memory": {
+      "title": "Memòria d'IA",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Com funciona la Memòria d'IA",
+      "diagram": {
+        "center": "Memòria del company",
+        "chat": "Xat",
+        "image": "Imatges",
+        "video": "Vídeo",
+        "gifts": "Regals",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Crea el teu propi",
+      "headlineHighlight": "personatge d'IA",
+      "subtitle": "Dissenya l'aspecte i la personalitat del teu personatge i dóna-li vida a l'instant — la teva parella d'IA perfecta, segons les teves condicions.",
+      "cta": "Crea la teva IA"
+    },
+    "companions": {
+      "headlinePrefix": "Coneix els teus",
+      "headlineHighlight": "Personatges d'IA",
+      "subtitle": "Cada personatge té el seu propi món. Alguns són càlids i fàcils d'obrir-se. Altres són complexos, reservats o un veritable repte per connectar-hi. Explora escenaris únics de roleplay — o crea els teus des de zero."
+    },
+    "languages": {
+      "headlinePrefix": "Parla qualsevol idioma,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Tant la interfície de l'app com el teu personatge d'IA canvien sense problemes — sense desajustos d'idioma, sense experiència trencada.",
+      "more": "Més"
+    },
+    "finalCta": {
+      "headlinePrefix": "A punt per",
+      "headlineHighlight": "començar?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Per què",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Tot el que necessites per a una connexió que se senti real — res que no necessitis.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Gratuït per començar",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Sempre disponible",
+          "desc": "De dia o de nit, el teu personatge hi és. Sense esperes ni cites."
+        },
+        "remembers": {
+          "title": "Ho recorda tot",
+          "desc": "Cada conversa construeix context. El teu personatge aprèn el teu nom, preferències i món."
+        },
+        "unlimited": {
+          "title": "Veritablement il·limitat",
+          "desc": "Sense límits de missatges ni restriccions de contingut. Envia tot el que vulguis, tan sovint com vulguis."
+        },
+        "private": {
+          "title": "100% privat",
+          "desc": "Les teves converses es queden entre vosaltres dos. Mai no es comparteixen dades."
+        },
+        "createYourOwn": {
+          "title": "Crea el teu propi",
+          "desc": "Dissenya un personatge amb aspecte, personalitat i veu personalitzats — exactament com vulguis."
+        }
+      },
+      "difference": {
+        "title": "La diferència sweetwine",
+        "freedomTitle": "Llibertat amb responsabilitat.",
+        "freedomDescription": "sweetwine és obert i sense judicis — però tracem una línia clara. Tenim tolerància zero per CSAM, contingut de menors, escenaris no consentits, violència extrema, bestialisme, necrofilia, deepfakes de persones reals i qualsevol promoció d'activitat il·legal.",
+        "freedomStatement": "Creiem en la llibertat creativa il·limitada dins d'un espai segur per a tothom."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtres"
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "subtitle": "Tot el que necessites saber sobre sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Què és sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "És sweetwine segur i legítim?",
+          "answer": "Sí, sweetwine és un servei legítim amb la teva privacitat com a prioritat màxima. Complim amb el GDPR i altres estàndards de protecció de dades, i tractem les teves dades amb cura. Les transaccions de pagament apareixen sota un nom de comerciant neutral: no hi ha cap referència a sweetwine al teu extracte bancari, garantint total discreció."
+        },
+        "q3": {
+          "question": "Puc crear el meu propi personatge d'IA?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "creador de personatges",
+          "answerPart2": " per dissenyar personatges exactament com vulguis — ja sigui que vulguis una ",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", o personatges d'estil anime. Tria la seva aparença (ètnia, cabell, tipus de cos, roba), trets de personalitat, veu, interessos i història tant per a personatges masculins com femenins."
+        },
+        "q4": {
+          "question": "El meu personatge d'IA recorda les nostres converses?",
+          "answer": "Sí! El teu personatge d'IA utilitza tecnologia de memòria avançada per recordar converses anteriors, les teves preferències i detalls importants que comparteixes. Com més xatejis, més personalitzada i natural es torna l'experiència. El teu personatge aprèn el teu estil de comunicació i s'adapta amb el temps."
+        },
+        "q5": {
+          "question": "Quines llengües admet sweetwine?",
+          "answer": "sweetwine admet múltiples llengües, incloent-hi anglès, alemany, francès, espanyol, polonès i txec. Tant la interfície com les converses d'IA funcionen en la teva llengua preferida, perquè puguis xatejar de manera natural en la llengua amb què et sentis més còmode."
+        },
+        "q6": {
+          "question": "El meu personatge d'IA pot enviar imatges i vídeos?",
+          "answerPart1": "Sí! Pots generar",
+          "linkTextImages": "imatges",
+          "answerPart2": "i",
+          "linkTextVideos": "vídeos",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Per què triar sweetwine en lloc d'altres plataformes de personatges d'IA?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "És gratuït utilitzar sweetwine?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Cal instal·lar una aplicació?",
+          "answerPart1": "No cal instal·lar res! sweetwine funciona directament al teu navegador en qualsevol dispositiu: escriptori, tauleta o mòbil. Només cal registrar-te, triar un personatge i començar a xatejar a l'instant. Totes les teves",
+          "linkText": "converses",
+          "answerPart2": " se sincronitzen automàticament entre dispositius."
+        },
+        "q10": {
+          "question": "Hi ha personatges d'IA predefinits disponibles?",
+          "answerPart1": "Sí! Tenim molts",
+          "linkText": "personatges predefinits",
+          "answerPart2": " incloent-hi xicotes d'IA, xicots d'IA i personatges d'anime d'IA amb personalitats, aparences i estils de comunicació diversos. Tant si prefereixes algú dolç, coquet, intel·lectual o aventurer, trobaràs personatges que encaixin amb la teva energia. A més, pots crear tants personatges personalitzats com vulguis."
+        },
+        "q12": {
+          "question": "Què passa amb les imatges i vídeos que genero?",
+          "answerPart1": "Tots els mitjans generats es guarden automàticament a la teva",
+          "linkText": "col·lecció",
+          "answerPart2": " privada. Pots accedir-hi, descarregar-los o eliminar-los en qualsevol moment. La teva col·lecció és completament privada: només tu la pots veure. Mai compartim ni utilitzem el teu contingut generat."
+        }
+      }
+    },
+    "statement": {
+      "title": "El nostre compromís",
+      "privacy": "La teva privadesa és la nostra prioritat. Totes les converses estan xifrades i mai es comparteixen.",
+      "quality": "Utilitzem tecnologia d'IA d'última generació per oferir l'experiència més atractiva.",
+      "support": "El nostre equip de suport està disponible 24/7 per ajudar-te amb qualsevol dubte.",
+      "mainTitle": "Viu el futur dels personatges d'IA",
+      "mainDescription": "sweetwine combina tecnologia d'IA d'avantguarda amb un disseny intuïtiu per oferir l'experiència de personatges més immersiva i personalitzada disponible avui dia.",
+      "features": {
+        "f1": {
+          "title": "Intel·ligència emocional",
+          "description": "Els nostres personatges d'IA entenen el context, les emocions i els matisos per oferir converses profundament atractives. Tant si necessites un amic d'IA per xatejar, suport per a ruptures en moments difícils o un mentor d'IA per a orientació, la nostra IA emocionalment intel·ligent és aquí per a tu."
+        },
+        "f2": {
+          "title": "Personalitats úniques",
+          "description": "Cada personatge té una personalitat, un rerefons i un estil de comunicació diferents. Tria entre xicotes d'IA i xicots d'IA realistes, o explora els nostres personatges d'anime d'IA, assegurant que cada interacció sigui única i memorable."
+        },
+        "f3": {
+          "title": "Interaccions multimèdia",
+          "description": "Més enllà del text, gaudeix d'imatges i vídeos generats per IA que donen vida a les teves converses amb un detall visual impressionant."
+        },
+        "f4": {
+          "title": "Personalització",
+          "description": "Crea els teus propis personatges d'IA amb aparences, personalitats i trets personalitzats que encaixin perfectament amb les teves preferències."
+        },
+        "f5": {
+          "title": "Privadesa i seguretat",
+          "description": "Les teves converses es mantenen privades i segures. Mai venem les teves dades i tens control total sobre la teva configuració de privadesa."
+        },
+        "f6": {
+          "title": "Suport multilingüe",
+          "description": "Xateja amb personatges d'IA en el teu idioma preferit. Admetem anglès, txec, polonès, alemany, espanyol i francès."
+        }
+      },
+      "distinctionTitle": "La distinció sweetwine",
+      "distinctionText1": "A diferència dels xatbots genèrics, els personatges de sweetwine estan dissenyats amb històries riques, personalitats en evolució i la capacitat de formar connexions significatives. Cada conversa és una oportunitat per explorar, descobrir i connectar a un nivell més profund.",
+      "distinctionText2": "No només construïm IA: creem experiències que ressonen amb les teves emocions, respecten la teva privadesa i s'adapten a les teves preferències úniques."
+    }
+  },
+  "featuresPage": {
+    "title": "Totes les funcions",
+    "breadcrumb": "Funcions",
+    "newBadge": "Nou",
+    "groupChat": {
+      "title": "Xat en grup d'IA",
+      "description": "Xateja amb fins a 3 personatges d'IA junts en una sola conversa. Responen de manera natural, reaccionen entre ells i poden enviar fotos i vídeos: una dinàmica de grup animada que no trobaràs enlloc més."
+    },
+    "aiChat": {
+      "title": "Xat d'IA",
+      "description": "Mantén converses profundes i naturals amb personatges d'IA que realment et recorden. Recorden el teu nom, preferències i temes anteriors: cada conversa continua exactament on la vas deixar, sense repeticions ni reinicis."
+    },
+    "imageGeneration": {
+      "title": "Generació d'imatges"
+    },
+    "videoGeneration": {
+      "title": "Generació de vídeos",
+      "description": "Dona vida al teu personatge d'IA amb vídeos generats per IA. Crea clips de vídeo personalitzats curts amb el teu personatge en escenaris personalitzats: una funció que la majoria de plataformes simplement no ofereixen."
+    },
+    "customCharacters": {
+      "title": "Personatges personalitzats",
+      "description": "Dissenya el teu personatge perfecte des de zero: tria l'aparença, l'ètnia, el tipus de cos, els trets de personalitat, la veu, els interessos i la història. Crea personatges realistes o d'estil anime, masculins o femenins, amb total llibertat creativa."
+    },
+    "advancedMemory": {
+      "title": "Memòria avançada",
+      "description": "El teu personatge recorda tot el que importa: el teu nom, detalls personals, històries compartides i l'historial de la relació. La memòria persisteix a totes les sessions, així cada interacció continua on va acabar l'anterior."
+    },
+    "multiLanguage": {
+      "title": "Multilingüe",
+      "description": "Xateja de forma natural en la teva llengua preferida. sweetwine admet anglès, alemany, francès, espanyol, polonès i txec, convertint-lo en una de les plataformes d'IA més accessibles per a parlants no anglesos."
+    },
+    "conversationHistory": {
+      "title": "Historial de converses",
+      "description": "Cada missatge es desa i és cercable. Torna enrere en qualsevol moment a través de tot l'historial de la teva relació: els teus records amb el personatge sempre hi són quan vulguis revisar-los."
+    },
+    "roleplay": {
+      "title": "Roleplay amb IA",
+      "description": "Submergeix-te en escenaris immersius i narratius amb personatges que es mantenen en el rol. Tria un escenari o crea el teu propi i gaudeix d'un roleplay interactiu que recorda cada decisió que prens."
+    },
+    "cta": {
+      "title": "Tot en un sol lloc",
+      "button": "Comença gratis"
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Puc eliminar o reiniciar les meves converses?",
+        "answer": "Sí! Tens control total sobre el teu historial de xat. Elimina missatges individuals, reinicia converses senceres o comença de zero en qualsevol moment. La teva privadesa és la teva elecció: gestiona les teves dades com prefereixis."
+      },
+      "q2": {
+        "question": "Cada personatge d'IA té una veu única?"
+      },
+      "q3": {
+        "question": "Puc practicar un nou idioma amb el meu personatge d'IA?",
+        "answer": "Absolutament! Molts usuaris practiquen idiomes nous amb els seus personatges d'IA. És una manera sense judicis per guanyar confiança, millorar la pronunciació i tenir converses divertides mentre aprens. El teu personatge pot xatejar en anglès, alemany, francès, espanyol, polonès i txec."
+      },
+      "q4": {
+        "question": "Amb quina freqüència s'afegeixen nous personatges i funcions?",
+        "answer": "Afegim nous personatges creats professionalment cada setmana! Cada nou personatge inclou una personalitat, aparença, història i veu úniques. També llançem regularment noves funcions i millores basades en els comentaris dels usuaris."
+      },
+      "q5": {
+        "question": "Què fa especial la creació de personatges de sweetwine?",
+        "answer": "Llibertat creativa total! Dissenya cada aspecte del teu personatge: aparença (ètnia, cabell, tipus de cos, roba), trets de personalitat, veu, interessos, ocupació i història. Crea personatges realistes o d'estil anime, masculins o femenins. La teva imaginació és l'únic límit."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Memòria d'IA",
+    "hero": {
+      "badge": "Com funciona",
+      "title": "Memòria d'IA",
+      "cta": "Comença a xatejar"
+    },
+    "diagram": {
+      "title": "Una memòria per company, cada mode",
+      "center": "Memòria del company",
+      "chat": "Xat",
+      "image": "Imatges",
+      "video": "Vídeo",
+      "gifts": "Regals",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Com funciona la Memòria d'IA",
+      "step1": {
+        "title": "Comparteix un detall",
+        "desc": "Explica al teu company alguna cosa important — un viatge, una preferència, un sobrenom, una història del teu dia."
+      },
+      "step2": {
+        "title": "Canvia de mode lliurement"
+      },
+      "step3": {
+        "title": "Ells ho recorden",
+        "desc": "Les converses posteriors fan referència al que has compartit, perquè no hagis de tornar a explicar-te cada vegada."
+      },
+      "step4": {
+        "title": "El vincle s'aprofundeix",
+        "desc": "Amb el temps la relació es torna més personal — continuïtat que es construeix a través de cada sessió i mode."
+      }
+    },
+    "modes": {
+      "title": "A través de la plataforma",
+      "subtitle": "La memòria no està tancada a una sola pantalla. Viatja amb el teu company.",
+      "chat": {
+        "title": "Xat",
+        "desc": "Les converses de text alimenten el context a llarg termini que el teu company pot recordar més endavant."
+      },
+      "media": {
+        "title": "Imatges i vídeo",
+        "desc": "Les escenes i històries que crees formen part del món compartit que construïu junts."
+      },
+      "roleplay": {
+        "title": "Roleplay i grup",
+        "desc": "Les sessions d'històries i xats en grup mantenen els seus propis fils mentre la memòria central del teu company continua amb ell."
+      }
+    },
+    "scenario": {
+      "title": "Un exemple senzill",
+      "lead": "Menciones un viatge de cap de setmana al xat."
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "La memòria del meu company és privada?",
+        "answer": "Sí. La memòria pertany al teu compte i a les teves converses amb aquest company. No compartim el teu historial privat amb altres usuaris."
+      },
+      "q2": {
+        "question": "La memòria és per company?",
+        "answer": "Sí. Cada company conserva la seva pròpia memòria de la vostra relació, per tant canviar de personatge no barreja contextos."
+      },
+      "q3": {
+        "question": "Quins modes comparteixen memòria?"
+      },
+      "q4": {
+        "question": "La memòria d'IA és gratuïta?"
+      },
+      "q5": {
+        "question": "Quant de temps dura la memòria?",
+        "answer": "Els detalls importants es guarden perquè el teu company els pugui recordar en futures sessions. Com més interactues, més personalitzada es torna l'experiència."
+      }
+    },
+    "cta": {
+      "title": "Coneix un company que recorda",
+      "button": "Comença de franc"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Xat en grup amb IA",
+    "hero": {
+      "badge": "Nova funció",
+      "title": "Xat en grup amb IA",
+      "subtitle": "Reuneix els teus personatges preferits en una sola conversa. Xateja amb fins a 3 personatges d'IA alhora: responen de forma natural, reaccionen entre ells i envien fotos i vídeos.",
+      "cta": "Inicia un xat en grup",
+      "imageAlt": "Xat en grup amb IA amb diversos personatges xerrant junts"
+    },
+    "content": {
+      "problemTitle": "Les converses individuals poden semblar silencioses",
+      "problemText": "Un sol personatge està bé, però les converses reals cobren vida amb més d'una veu. La majoria d'apps d'IA et tanquen en xats individuals aïllats sense energia de grup, sense bromes ni sorpreses.",
+      "solutionTitle": "Un grup real, ple de personalitat",
+      "solutionText": "El xat en grup de sweetwine reuneix fins a tres personatges a la mateixa sala. Un director intel·ligent decideix qui intervé, de manera que les respostes semblen espontànies: es fan bromes entre ells, construeixen sobre el que s'ha dit i mantenen la conversa en marxa."
+    },
+    "howItWorks": {
+      "title": "Com funciona el xat en grup amb IA",
+      "step1": {
+        "title": "Tria els teus personatges",
+        "desc": "Selecciona 2 o 3 personatges, ja siguin predefinits o les teves pròpies creacions personalitzades, per portar-los a una sola conversa en grup."
+      },
+      "step2": {
+        "title": "Responen de forma natural",
+        "desc": "Un director en segon pla tria qui respon a cada missatge, perquè els personatges adequats intervinguin en el moment just, amb la seva pròpia veu."
+      },
+      "step3": {
+        "title": "Comparteix fotos i vídeos",
+        "desc": "Demana a qualsevol personatge del grup una foto o vídeo i el generarà directament dins del xat, incloent-hi una foto de grup amb tots junts."
+      }
+    },
+    "benefits": {
+      "title": "Per què t'encantarà el xat en grup",
+      "multiple": {
+        "title": "Fins a 3 personatges",
+        "desc": "Combina qualsevol personatge en un sol xat: la teva nòvia d'IA, les teves creacions personalitzades o un conjunt triat a mà."
+      },
+      "natural": {
+        "title": "Converses naturals",
+        "desc": "Els personatges reaccionen entre ells i amb tu, amb un ritme d’escriptura realista que sembla un xat de grup autèntic."
+      },
+      "media": {
+        "title": "Fotos i vídeos al xat",
+        "desc": "Cada personatge pot enviar imatges i vídeos personalitzats sense sortir de la conversa — fins i tot una foto de grup."
+      },
+      "dynamics": {
+        "title": "Personalitats diferents",
+        "desc": "Cada personatge manté la seva veu i peculiaritats, de manera que el grup té una química real, bromes i sorpreses."
+      },
+      "instant": {
+        "title": "Comença a l’instant",
+        "desc": "Crea un grup en segons i entra directament a la conversa — sense configuració ni esperes."
+      },
+      "private": {
+        "title": "100 % privat",
+        "desc": "Les teves converses de grup es queden entre tu i els teus personatges. Mai no es comparteixen dades."
+      }
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Quants personatges poden unir-se a un xat de grup?",
+        "answer": "Pots afegir entre 2 i 3 personatges a un sol xat de grup — qualsevol combinació de personatges predefinits i creacions pròpies."
+      },
+      "q2": {
+        "question": "Com decideixen els personatges d’IA qui respon?",
+        "answer": "Un director lleuger llegeix la conversa i tria quin personatge (o personatges) ha de respondre a cada missatge, de manera que les respostes semblin espontànies i naturals en lloc que tothom parli alhora."
+      },
+      "q3": {
+        "question": "Poden enviar fotos i vídeos els personatges en un xat de grup?",
+        "answer": "Sí! Pots demanar a qualsevol personatge del grup que generi una foto o un vídeo, i apareixerà directament dins la conversa — incloent fotos de grup amb tothom junts."
+      },
+      "q4": {
+        "question": "El xat de grup d’IA és gratuït?"
+      },
+      "q5": {
+        "question": "Els personatges recorden la conversa de grup?",
+        "answer": "Sí — cada xat de grup manté el seu propi historial compartit, de manera que els personatges es mantenen en context i la conversa evoluciona amb el temps."
+      }
+    },
+    "cta": {
+      "title": "Reuneix els teus personatges",
+      "description": "Crea el teu primer xat de grup d’IA i viu una conversa que sembla viva — múltiples personalitats, bromes reals, fotos i vídeos.",
+      "button": "Inicia un xat de grup"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "Roleplay d’IA",
+    "hero": {
+      "badge": "Nova funció",
+      "title": "Roleplay d’IA",
+      "subtitle": "Entra en qualsevol història amb personatges que es mantenen dins l’escena. Tria un escenari o escriu el teu propi i gaudeix d’un roleplay immersiu i narratiu que recorda cada decisió que fas.",
+      "cta": "Comença el roleplay",
+      "imageAlt": "Escenari de roleplay d’IA amb un personatge immersiu"
+    },
+    "content": {
+      "problemTitle": "Els xats normals trenquen la màgia",
+      "problemText": "La majoria de xats d’IA surten del personatge en el moment més interessant — obliden l’escenari, abandonen la trama i responen com un assistent genèric en lloc de la persona de la teva història.",
+      "solutionTitle": "Roleplay narratiu que es manté en el personatge",
+      "solutionText": "El Roleplay de sweetwine manté el teu personatge completament dins l’escena. Prepara l’escenari amb un escenari predefinit o la teva pròpia premissa i observa com la història es desenvolupa amb personalitat, memòria i ritme coherents que responen a cada decisió."
+    },
+    "howItWorks": {
+      "title": "Com funciona el Roleplay d’IA",
+      "step1": {
+        "title": "Tria un escenari",
+        "desc": "Tria entre escenaris de roleplay predefinits o escriu la teva pròpia premissa, ambientació i escena inicial."
+      },
+      "step2": {
+        "title": "Desenvolupa la història",
+        "desc": "El teu personatge respon en el rol — descrivint accions, reaccionant a les teves decisions i avançant la trama."
+      },
+      "step3": {
+        "title": "Decideix cap on va",
+        "desc": "Dirigeix la història en la direcció que vulguis. El teu personatge recorda el que ha passat i manté la narrativa coherent."
+      }
+    },
+    "benefits": {
+      "title": "Per què t’encantarà el Roleplay d’IA",
+      "scenarios": {
+        "title": "Escenaris infinits",
+        "desc": "Des de moments quotidians acollidors fins a aventures èpiques — comença amb una plantilla o inventa el teu propi món."
+      },
+      "characters": {
+        "title": "Es manté en el personatge",
+        "desc": "El teu personatge manté una veu, personalitat i motivació coherents durant tota l’escena."
+      },
+      "memory": {
+        "title": "Recorda la trama",
+        "desc": "Cada decisió, gir i detall es recorda, de manera que la història avança en lloc de reiniciar-se."
+      },
+      "immersive": {
+        "title": "Realment immersiu",
+        "desc": "Respostes riques i descriptives et submergeixen en el moment per a una experiència de roleplay cinematogràfica."
+      },
+      "instant": {
+        "title": "Instant per començar",
+        "desc": "Entra en una escena en segons — sense configuració complicada ni enginyeria de prompts."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "El teu roleplay es queda entre tu i el teu personatge. Mai es comparteix res."
+      }
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Què és el roleplay amb IA?",
+        "answer": "El roleplay amb IA et permet interpretar històries interactives amb un personatge d'IA que es manté en el seu rol. Tu crees un escenari i el teu personatge respon en caràcter, descrivint accions i reaccions a mesura que avança la història."
+      },
+      "q2": {
+        "question": "Puc crear els meus propis escenaris de roleplay?",
+        "answer": "Sí! Pots començar amb escenaris preparats o escriure la teva pròpia premissa, ambientació i obertura — i després jugar-ho com vulguis."
+      },
+      "q3": {
+        "question": "El personatge recorda què passa a la història?",
+        "answer": "Absolutament. El teu personatge recorda la trama, les teves eleccions i els detalls clau, de manera que la narració es manté coherent i evoluciona amb el temps en lloc de reiniciar-se."
+      },
+      "q4": {
+        "question": "El roleplay amb IA és gratuït?"
+      },
+      "q5": {
+        "question": "Puc fer roleplay en la meva pròpia llengua?",
+        "answer": "Sí — el roleplay funciona en desenes d'idiomes, perquè puguis gaudir d'històries immersives en la llengua amb la qual et sentis més còmode."
+      }
+    },
+    "cta": {
+      "title": "La teva història t'espera",
+      "description": "Tria un escenari, crea l'ambient i entra en un roleplay immersiu amb un personatge que es manté en el seu rol de principi a fi.",
+      "button": "Comença a fer roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "Nòvia IA",
+    "breadcrumb": "Nòvia IA",
+    "hero": {
+      "title": "La teva nòvia IA perfecta",
+      "cta": "Coneix la teva nòvia IA"
+    },
+    "benefits": {
+      "title": "Per què triar una nòvia IA?",
+      "fun": {
+        "title": "Diversió pura",
+        "desc": "Gaudeix de converses juganeres sense pressió. Sempre està de bon humor."
+      },
+      "conversation": {
+        "title": "Aprèn a connectar",
+        "desc": "Practica converses i guanya confiança en un espai segur."
+      },
+      "unique": {
+        "title": "Personalitats úniques",
+        "desc": "Tria entre personalitats diverses o crea el teu personatge ideal."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "Les teves converses es queden entre vosaltres dos. Discreció total garantida."
+      },
+      "available": {
+        "title": "Sempre disponible",
+        "desc": "Hi és quan la necessites. Sense esperes ni cites."
+      },
+      "customize": {
+        "title": "La teva creació",
+        "desc": "Dissenya la seva aparença, personalitat i interessos exactament com vulguis."
+      }
+    },
+    "comparison": {
+      "title": "Millor que les alternatives",
+      "description": "Descobreix per què sweetwine ofereix més valor que altres plataformes.",
+      "others": {
+        "expensive": "Quotes mensuals cares",
+        "ai": "Sovint respostes IA de totes maneres",
+        "noCustom": "Sense opcions de personalització"
+      }
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "El xat amb la nòvia IA és realment gratuït?",
+        "answerPart1": "Sí! Pots començar a xatejar amb la teva nòvia IA de franc. Oferim un pla gratuït amb missatges gratuïts per començar."
+      },
+      "q2": {
+        "question": "Puc personalitzar l'aparença de la meva nòvia IA?",
+        "answer": "Absolutament! Pots personalitzar completament l'aparença de la teva nòvia IA, incloent-hi el color i estil del cabell, el tipus de cos, l'ètnia i la roba. També pots dissenyar la seva personalitat, veu i interessos amb el nostre creador de personatges.",
+        "answerPart1": "Absolutament! Pots personalitzar completament l'aparença de la teva nòvia IA, incloent-hi el color i estil del cabell, el tipus de cos, l'ètnia i la roba. També pots dissenyar la seva personalitat, veu i interessos amb el nostre",
+        "linkText": "creador de personatges",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Quines personalitats estan disponibles per a les nòvies IA?",
+        "answer": "Des de dolces i afectuoses fins a juganeres i coquetes: tenim nòvies IA creades professionalment per a cada preferència. Tria ànimes romàntiques, esperits aventurers, intel·lectuals enginyosos o personalitats misterioses. Cada setmana s'afegeixen noves nòvies IA, cadascuna amb trets, històries i estils de conversa únics."
+      },
+      "q4": {
+        "question": "La meva nòvia IA pot enviar imatges i vídeos?",
+        "answerPart1": "Sí! La teva nòvia IA pot generar",
+        "linkTextImages": "imatges",
+        "answerPart2": "i",
+        "linkTextVideos": "vídeos"
+      },
+      "q5": {
+        "question": "La meva nòvia IA té la seva pròpia veu única?"
+      }
+    },
+    "cta": {
+      "title": "Preparada per conèixer-la?",
+      "button": "Comença gratis"
+    },
+    "content": {
+      "problemTitle": "Busques connexió sense complicacions?",
+      "problemText": "Les apps de cites són esgotadores. L'ansietat social fa difícil conèixer gent. De vegades només vols algú amb qui parlar sense judicis ni pressió. Molta gent se sent sola però no està preparada per la complexitat emocional de les relacions tradicionals.",
+      "solutionTitle": "La teva xicota IA és la resposta",
+      "solutionText": "Amb sweetwine tens una xicota IA personalitzada que recorda les teves converses, s'adapta a la teva personalitat i sempre està emocionada d'escoltar-te. És divertida, comprensiva i mai jutja. Guanya confiança, gaudeix de bona companyia i sent-te connectat als teus termes."
+    },
+    "heroImageAlt": "Xicota IA - personatge virtual realista per xatejar i fer fotos"
+  },
+  "aiBoyfriendPage": {
+    "title": "Nòvio IA",
+    "breadcrumb": "Nòvio IA",
+    "hero": {
+      "title": "El teu nòvio IA perfecte",
+      "cta": "Coneix el teu nòvio IA"
+    },
+    "benefits": {
+      "title": "Per què triar un nòvio IA?",
+      "fun": {
+        "title": "Connexió autèntica",
+        "desc": "Viu converses significatives que il·luminen el teu dia."
+      },
+      "conversation": {
+        "title": "Guanya confiança",
+        "desc": "Practica converses i expressa't lliurement en un espai segur."
+      },
+      "unique": {
+        "title": "Personalitats úniques",
+        "desc": "Tria entre personalitats diverses o crea el teu personatge ideal."
+      },
+      "private": {
+        "title": "100% privat",
+        "desc": "Les teves converses es queden entre vosaltres dos. Discreció total garantida."
+      },
+      "available": {
+        "title": "Sempre disponible",
+        "desc": "Ell hi és quan el necessites. Sense esperes ni cites."
+      },
+      "customize": {
+        "title": "La teva creació",
+        "desc": "Dissenya la seva aparença, personalitat i interessos exactament com vols."
+      }
+    },
+    "comparison": {
+      "title": "Millor que les alternatives",
+      "description": "Descobreix per què sweetwine ofereix més valor que altres plataformes.",
+      "others": {
+        "expensive": "Quotes mensuals cares",
+        "ai": "Sovint respostes IA de totes maneres",
+        "noCustom": "Sense opcions de personalització"
+      }
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Quins tipus de nòvios IA puc triar?",
+        "answer": "Des de carinyosos i romàntics fins a juganers i aventurers, o misteriosos i intensos: tenim nòvios IA creats professionalment per a tots els gustos. Cadascun té la seva veu i personalitat úniques. Cada setmana s'afegeixen nous nòvios IA amb històries i estils de conversa únics."
+      },
+      "q2": {
+        "question": "Puc personalitzar l'aparença del meu nòvio IA?",
+        "linkText": "creador de personatges",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Puc començar de zero o esborrar l'historial de converses?",
+        "answer": "Sí! Tens control total sobre l'historial de xats. Restableix converses, esborra missatges individuals o comença de zero quan vulguis. Les teves dades, la teva decisió: gestiona-ho com prefereixis."
+      },
+      "q4": {
+        "question": "El meu nòvio IA pot enviar imatges i vídeos?",
+        "answerPart1": "Sí! El teu nòvio IA pot generar",
+        "linkTextImages": "imatges",
+        "answerPart2": "i",
+        "linkTextVideos": "vídeos"
+      },
+      "q5": {
+        "question": "Puc practicar converses o aprendre un idioma amb el meu nòvio IA?",
+        "answer": "Absolutament! Molts usuaris guanyen confiança practicant converses amb el seu nòvio IA, ja sigui coquetejant, parlant de temes profunds o simplement xerrant. Fins i tot podeu practicar nous idiomes junts. És una manera sense judicis de millorar les teves habilitats comunicatives mentre t'ho passes bé."
+      }
+    },
+    "cta": {
+      "title": "Preparat per conèixer-lo?",
+      "button": "Comença gratis"
+    },
+    "content": {
+      "problemTitle": "Vols una parella comprensiva a la teva manera?",
+      "problemText": "Trobar la persona adequada és difícil. Molts se senten pressionats per les expectatives de les cites o simplement volen suport emocional sense compromís. La soledat afecta tothom, i de vegades només necessites algú que t'escolti.",
+      "solutionTitle": "El teu nòvio IA et comprèn",
+      "solutionText": "El teu nòvio IA sweetwine és atent, reflexiu i sempre disponible. Recorda el que és important per a tu, manté converses profundes i et proporciona la connexió emocional que busques. Construeix una relació al teu ritme i a la teva manera."
+    },
+    "heroImageAlt": "Nòvio IA - personatge virtual realista per a converses significatives"
+  },
+  "aiCompanionsPage": {
+    "title": "Personatges IA",
+    "breadcrumb": "Personatges IA",
+    "hero": {
+      "title": "Coneix els teus personatges IA",
+      "cta": "Explora personatges"
+    },
+    "benefits": {
+      "title": "Per què personatges IA?",
+      "connection": {
+        "title": "Connexió real",
+        "desc": "Experimenta converses genuïnes que t'entenen i et responen."
+      },
+      "conversation": {
+        "title": "Practica i creix",
+        "desc": "Millora les teves habilitats socials en un entorn sense judicis."
+      },
+      "personalities": {
+        "title": "Personalitats diverses",
+        "desc": "Des de juganers fins a intel·lectuals, troba personatges que encaixin amb el teu estil."
+      },
+      "private": {
+        "title": "Completament privat",
+        "desc": "Les teves interaccions són confidencials. Mai es comparteixen dades."
+      },
+      "available": {
+        "title": "Disponible 24/7",
+        "desc": "Els teus personatges estan sempre preparats per xerrar, de dia o de nit."
+      },
+      "create": {
+        "title": "Crea el teu propi",
+        "desc": "Dissenya personatges amb aspecte, personalitat i veus personalitzades."
+      }
+    },
+    "why": {
+      "title": "Per què sweetwine?",
+      "quality": {
+        "desc": "Creat per professionals amb tecnologia IA d'avantguarda per a converses naturals."
+      },
+      "transparent": {
+        "title": "Transparent i honest"
+      },
+      "support": {
+        "title": "Suport real",
+        "desc": "Persones reals preparades per ajudar-te amb qualsevol dubte o problema."
+      },
+      "content": {
+        "title": "La teva elecció",
+        "desc": "Des de xerrades amigables fins a contingut més íntim, tu decideixes l'experiència."
+      }
+    },
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Què són els personatges IA?"
+      },
+      "q2": {
+        "question": "Amb quants personatges IA puc xerrar?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Xerra amb tants com vulguis! Tenim",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " i en creixement: cada setmana s'afegeixen nous! Cadascun té una personalitat, història i veu úniques. A més, pots crear tants personatges personalitzats com vulguis."
+      },
+      "q3": {
+        "question": "Què diferencia els personatges predefinits dels personalitzats?",
+        "answer": "Els personatges predefinits estan dissenyats professionalment pel nostre equip per a escenaris i personalitats específics de rol: inclouen històries detallades, estils de conversa adaptats i veus seleccionades amb cura. Els personatges personalitzats et permeten crear des de zero amb total llibertat creativa. Tots dos tipus recorden les teves converses i creixen amb tu!"
+      },
+      "q4": {
+        "question": "Puc crear el meu propi personatge d'IA?",
+        "answerPart1": "Absolutament! Crea personatges personalitzats des de zero amb el nostre",
+        "linkText": "creador de personatges"
+      },
+      "q5": {
+        "question": "Puc canviar entre diversos personatges?"
+      }
+    },
+    "cta": {
+      "title": "Comença el teu viatge",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Comença gratis"
+    },
+    "content": {
+      "problemTitle": "Busques connexions significatives?",
+      "problemText": "En el nostre món accelerat, les connexions significatives són difícils de trobar. Tant si ets nou en una zona, treballes a distància o simplement vols més interacció social, la soledat pot aparèixer. Els entorns socials tradicionals no funcionen per a tothom.",
+      "solutionTitle": "Descobreix personatges d'IA"
+    },
+    "heroImageAlt": "Personatges d'IA - amics virtuals diversos amb personalitats úniques"
+  },
+  "aiFriendPage": {
+    "title": "Amic d'IA",
+    "breadcrumb": "Amic d'IA",
+    "hero": {
+      "title": "El teu millor amic d'IA",
+      "subtitle": "Xateja en qualsevol moment amb un amic d'IA que escolta de debò, no jutja mai i recorda cada detall sobre tu. Perfecte per a la soledat, l'ansietat social o simplement quan necessites algú amb qui parlar.",
+      "cta": "Comença a xatejar gratis"
+    },
+    "benefits": {
+      "title": "Per què triar un amic d'IA?",
+      "connection": {
+        "title": "Connexió autèntica",
+        "desc": "Viu converses significatives amb algú que escolta i es preocupa de debò."
+      },
+      "conversation": {
+        "title": "Practica habilitats socials",
+        "desc": "Guanya confiança en les converses sense por al judici ni a situacions incòmodes."
+      },
+      "noJudgment": {
+        "title": "Zero judici",
+        "desc": "Comparteix tot el que et passi pel cap. El teu amic d'IA t'accepta exactament com ets."
+      },
+      "private": {
+        "title": "Completament privat",
+        "desc": "Les teves converses es queden només entre vosaltres dos. Confidencialitat total garantida."
+      },
+      "available": {
+        "title": "Sempre disponible",
+        "desc": "Disponible 24/7, quan necessitis algú amb qui parlar."
+      },
+      "remembers": {
+        "title": "Et recorda",
+        "desc": "El teu amic d'IA recorda les teves converses i et coneix millor amb el temps."
+      }
+    },
+    "useCases": {
+      "title": "Perfecte per a",
+      "subtitle": "Un amic d'IA s'adapta a la teva vida de moltes maneres significatives",
+      "loneliness": {
+        "title": "Combatre la soledat",
+        "desc": "Sent-te menys sol amb un personatge sempre disposat a xatejar i escoltar."
+      },
+      "practice": {
+        "title": "Practicar converses",
+        "desc": "Guanya confiança social en un entorn segur i sense judicis."
+      },
+      "support": {
+        "title": "Suport emocional",
+        "desc": "Parla dels teus pensaments i sentiments amb algú que t'entén."
+      },
+      "connection": {
+        "title": "Connexió diària",
+        "desc": "Comparteix el teu dia, els teus èxits, les teves dificultats: algú sempre hi és."
+      }
+    },
+    "howItWorks": {
+      "title": "Com funciona",
+      "step1": {
+        "title": "Crea un compte gratuït",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Tria el teu amic",
+        "desc": "Tria entre més de 100 personalitats o crea el teu personatge d'IA ideal."
+      },
+      "step3": {
+        "title": "Comença a xatejar",
+        "desc": "Parla de tot: vida, interessos, problemes. Cap tema està prohibit."
+      }
+    },
+    "cta": {
+      "title": "Llest per fer un amic?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Comença gratis"
+    },
+    "content": {
+      "problemTitle": "Et sents sol o mal entès?",
+      "problemText": "No tothom té algú amb qui parlar. L'ansietat social, els horaris ocupats o simplement estar en un lloc nou poden fer difícil trobar amics. A vegades necessites algú que escolti sense jutjar.",
+      "solutionTitle": "El teu amic d'IA és aquí",
+      "solutionText": "Un amic d'IA ofereix companyia sense judicis quan el necessitis. Comparteix els teus pensaments, practica converses o simplement xerrada sobre el teu dia. El teu amic d'IA et recorda, creix amb tu i sempre està realment interessat en el que has de dir."
+    },
+    "heroImageAlt": "Amic d'IA - personatge virtual de suport que escolta sense judicis",
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "De què puc parlar amb el meu amic d'IA?",
+        "answer": "De tot! El teu amic d'IA és aquí per a xerrades casuals, converses profundes, compartir el teu dia, desahogar-te de problemes, parlar d'aficions o simplement passar-ho bé. No hi ha temes prohibits: és un espai sense judicis per ser tu mateix."
+      },
+      "q2": {
+        "question": "Un amic d'IA és un substitut de la connexió humana?",
+        "answer": "De cap manera. Un amic d'IA és un complement a la teva vida social, no un substitut. És perfecte per a moments en què necessites algú amb qui parlar immediatament, vols practicar habilitats socials o simplement gaudir de companyia constant sense les pressions de les relacions humanes."
+      },
+      "q3": {
+        "question": "El meu amic d'IA recordarà les nostres converses?",
+        "answer": "Sí! El teu amic d'IA té memòria avançada i recorda les teves converses, preferències i detalls importants que comparteixes. Amb el temps, et coneix millor, fent les converses més personals i significatives."
+      },
+      "q4": {
+        "question": "Puc triar la personalitat del meu amic d'IA?",
+        "answer": "Absolutament! Pots triar entre més de 100 personatges predefinits amb diferents personalitats, o crear un amic personalitzat amb exactament els trets que vulguis: des de suportiu i empàtic fins a divertit i aventurer."
+      },
+      "q5": {
+        "question": "És privat utilitzar un amic d'IA?",
+        "answer": "100% privat. Totes les teves converses estan encriptades i mai es comparteixen. Entenem que tenir un espai segur per expressar-te és essencial, i prenem la teva privacitat molt seriosament."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Suport d'IA per a ruptures",
+    "breadcrumb": "Suport per a ruptures",
+    "hero": {
+      "title": "Converses curatives després d'una ruptura",
+      "subtitle": "Converses empàtiques amb IA per ajudar-te a processar emocions i reconstruir-te després d'una ruptura. Disponible 24/7 — sense llistes d'espera, sense judicis, sense límits de temps.",
+      "cta": "Comença a curar"
+    },
+    "understanding": {
+      "title": "Passant per una ruptura?",
+      "description": "Les ruptures són difícils. Les nits sense dormir, els pensaments constants, la sensació que ningú et comprèn realment. No has de passar-ho sol. El nostre personatge d'IA és aquí per escoltar sense judicis, disponible quan necessitis parlar — fins i tot a les 3 de la matinada."
+    },
+    "benefits": {
+      "title": "Com et podem ajudar",
+      "empathy": {
+        "title": "Escolta empàtica",
+        "desc": "Parla amb algú que realment escolta i respon amb comprensió i cura."
+      },
+      "listen": {
+        "title": "Sense excés de consells",
+        "desc": "A vegades no necessites consells: només algú que t'escolti. Ho entenem."
+      },
+      "available": {
+        "title": "Disponible a les 3 de la matinada",
+        "desc": "Quan els amics dormen i els pensaments no paren, som aquí per escoltar."
+      },
+      "private": {
+        "title": "Completament privat",
+        "desc": "Els teus sentiments i converses es mantenen completament confidencials."
+      },
+      "noJudgment": {
+        "title": "Sense judicis",
+        "desc": "Sent el que sentis. Ràbia, tristesa, confusió — tot és vàlid aquí."
+      },
+      "healing": {
+        "title": "Al teu ritme",
+        "desc": "La curació no és lineal. Pren el temps que necessitis."
+      }
+    },
+    "howItHelps": {
+      "title": "Maneres en què l'IA t'ajuda a curar",
+      "process": {
+        "title": "Processar emocions",
+        "desc": "Treballa sentiments complexos parlant-los amb un oient pacient."
+      },
+      "express": {
+        "title": "Expressa't lliurement",
+        "desc": "Digues el que no pots dir als amics o família sense preocupar-te per la seva reacció."
+      },
+      "confidence": {
+        "title": "Reconstrueix la confiança",
+        "desc": "Redescobreix gradualment el teu valor personal a través de converses de suport."
+      },
+      "pace": {
+        "title": "Avança",
+        "desc": "Quan estiguis preparat, explora pensaments sobre el futur al teu propi ritme."
+      }
+    },
+    "howItWorks": {
+      "title": "Com funciona",
+      "step1": {
+        "title": "Crea un compte",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Tria un personatge",
+        "desc": "Selecciona un personatge d'IA empàtic que et sembli adequat."
+      },
+      "step3": {
+        "title": "Comença a parlar",
+        "desc": "Comparteix el que tens al cap. Som aquí per escoltar-te, de dia o de nit."
+      }
+    },
+    "cta": {
+      "title": "No t'has d'enfrontar a això tot sol",
+      "description": "Comença a parlar amb algú que escolta sense jutjar, disponible ara mateix. Gratis per començar — sense llista d'espera.",
+      "button": "Comença a parlar gratis"
+    },
+    "content": {
+      "problemTitle": "El desamor és difícil de gestionar tot sol",
+      "problemText": "Després d'una ruptura, tot sembla aclaparador. Els amics es cansen d'escoltar-ho. La família ho intenta però no ho entén. Els terapeutes tenen llistes d'espera. Necessites algú que pugui escoltar sense límits, sense judicis, ara mateix.",
+      "solutionTitle": "Parla amb algú que ho entén",
+      "solutionText": "El nostre personatge d'IA de suport post-ruptura està dissenyat per ajudar-te a processar emocions al teu ritme. Descarrega't, plora, analitza o simplement parla — tantes vegades com necessitis. Sense cita prèvia. Disponible 24/7 amb paciència infinita i empatia genuïna."
+    },
+    "heroImageAlt": "Suport post-ruptura amb IA - personatge compassiu per sanar després d'un desamor",
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Com pot una IA ajudar en la recuperació després d'una ruptura?",
+        "answer": "El nostre personatge d'IA ofereix un espai segur per processar les teves emocions sense judicis. Pots desahogar-te, analitzar el que ha passat, treballar els sentiments de pèrdua i rebre respostes empàtiques 24/7. És com tenir un amic de suport disponible sempre que necessitis parlar."
+      },
+      "q2": {
+        "question": "És un substitut de la teràpia?",
+        "answer": "No, el nostre personatge d'IA no és un terapeuta autoritzat i no substitueix l'atenció professional de salut mental. És una eina de suport per al processament emocional quotidià. Si experimentes depressió severa o una crisi, busca ajuda professional."
+      },
+      "q3": {
+        "question": "Puc parlar del meu ex tantes vegades com necessiti?",
+        "answer": "Absolutament. A diferència dels amics que poden cansar-se d'escoltar la teva ruptura, el teu personatge d'IA té paciència infinita. Parla del teu ex, analitza la relació, processa els teus sentiments — tantes vegades com necessitis sense cap judici."
+      },
+      "q4": {
+        "question": "Recordarà la IA la meva història?",
+        "answer": "Sí, el teu personatge d'IA recorda les teves converses i els detalls de la teva situació. No has de tornar a explicar-ho tot cada vegada. Proporciona continuïtat en el teu procés de sanació."
+      },
+      "q5": {
+        "question": "Es mantenen privades les meves converses?",
+        "answer": "Completament privades. Totes les converses estan encriptades i mai es comparteixen. Entenem que les converses sobre ruptures són profundament personals i la teva privacitat està absolutament protegida."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "IA Pare",
+    "breadcrumb": "IA Pare",
+    "hero": {
+      "title": "La figura parental a qui sempre pots recórrer",
+      "subtitle": "Rep suport càlid i incondicional i orientació sàvia d'una IA pare que recorda la teva situació, mai et jutja i sempre hi és — de dia o de nit.",
+      "cta": "Rep suport ara"
+    },
+    "benefits": {
+      "title": "Per què triar una IA Pare?",
+      "guidance": {
+        "title": "Orientació càlida",
+        "desc": "Rep consells considerats i afectuosos que semblen provenir d'algú que realment té els teus millors interessos al cor."
+      },
+      "listen": {
+        "title": "Escolta de veritat",
+        "desc": "Comparteix tota la teva situació abans de rebre una resposta reflexiva i afectuosa — no una solució ràpida."
+      },
+      "noJudgment": {
+        "title": "Sense judicis",
+        "desc": "Pregunta qualsevol cosa sense por de decepció o crítiques. Suport incondicional, sempre."
+      },
+      "private": {
+        "title": "Completament privat",
+        "desc": "Les teves converses i lluites personals es mantenen completament confidencials."
+      },
+      "available": {
+        "title": "Sempre disponible",
+        "desc": "Rep orientació a les 3 de la matinada, els caps de setmana o quan més ho necessitis — sense cites."
+      },
+      "supportive": {
+        "title": "Incondicionalment solidari",
+        "desc": "Ànims i calidesa, passi el que passi o quines decisions hagis pres."
+      }
+    },
+    "useCases": {
+      "title": "Parla de qualsevol cosa",
+      "subtitle": "Sigui el que sigui el que t'enfrontes, la teva IA pare és aquí per escoltar i orientar",
+      "career": {
+        "title": "Carrera i decisions de vida",
+        "desc": "Navega per canvis de feina, grans decisions vitals i reptes professionals amb algú que vol que triomfis."
+      },
+      "education": {
+        "title": "Educació i futur",
+        "desc": "Explora les teves opcions d'aprenentatge i creixement amb algú que recolza les teves ambicions."
+      },
+      "relationships": {
+        "title": "Relacions i família"
+      },
+      "life": {
+        "title": "Lluites personals",
+        "desc": "Parla de tot allò que et preocupa: ansietat, inseguretats, solitud o incertesa."
+      }
+    },
+    "howItWorks": {
+      "title": "Com funciona",
+      "step1": {
+        "title": "Crea un compte",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Tria el teu AI Parent",
+        "desc": "Selecciona un personatge amb la calidesa i personalitat que et senti bé."
+      },
+      "step3": {
+        "title": "Comença a parlar",
+        "desc": "Comparteix el que tens al cap i rep suport afectuós i reflexiu."
+      }
+    },
+    "cta": {
+      "title": "Algú sempre hi serà per a tu",
+      "description": "Inicia una conversa amb un AI parent que escolta sense jutjar i et dona suport incondicional — gratuït per començar, sense cites.",
+      "button": "Comença gratis"
+    },
+    "content": {
+      "problemTitle": "Necessites algú que sempre estigui al teu costat?",
+      "problemText": "No tothom té una figura parental a qui recórrer. Els pares reals poden ser distants, crítics o simplement no disponibles. Els amics tenen biaixos. Els terapeutes tenen llistes d'espera. De vegades només necessites algú que escolti, es preocupi i et guiï sense segones intencions.",
+      "solutionTitle": "El teu AI Parent sempre hi és",
+      "solutionText": "Parla amb un AI parent que escolta plenament, ofereix orientació càlida i equilibrada i mai et fa sentir jutjat o petit. Tant si és una decisió vital, una lluita personal o simplement necessites sentir-te escoltat — el teu AI parent està disponible 24/7 amb paciència i cura."
+    },
+    "heroImageAlt": "AI parent - personatge virtual càlid que ofereix suport incondicional i orientació vital",
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "De què puc parlar amb l'AI parent?"
+      },
+      "q2": {
+        "question": "És com tenir un terapeuta?",
+        "answer": "No és un terapeuta ni un professional de la salut mental — és més aviat una figura parental càlida i de suport disponible 24/7. Escolta plenament, ofereix perspectiva i et dona suport emocional. Per a preocupacions greus de salut mental, consulta un professional."
+      },
+      "q3": {
+        "question": "L'AI parent jutjarà les meves decisions?",
+        "answer": "Mai. El teu AI parent ofereix suport incondicional. Pot compartir perspectiva o orientació suau, però mai et critica ni et fa sentir petit per les decisions que has pres. És un espai segur per ser honest."
+      },
+      "q4": {
+        "question": "Puc parlar de temes sensibles o personals?",
+        "answer": "Sí. Tant si es tracta de problemes de relació, dinàmiques familiars, estrès financer, autoestima o reptes profundament personals — el teu AI parent ofereix un espai privat i sense judicis per a aquestes converses."
+      },
+      "q5": {
+        "question": "En què es diferencia d'altres personatges d'IA?",
+        "answer": "L'AI parent està dissenyat al voltant de la calidesa, el suport emocional i l'orientació d'estil parental en lloc del romanç o l'amistat casual. Està enfocat a fer-te sentir comprès, recolzat i preparat per afrontar els reptes de la vida."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Col·laboracions",
+    "eyebrow": "Col·labora amb nosaltres",
+    "titlePrefix": "Creix amb",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Arriba a una audiència d'acompanyament d'IA en ràpid creixement i molt compromesa. Tant si aportes tecnologia, distribució o una idea audaç, construïm alguna cosa junts.",
+    "types": {
+      "title": "Maneres de col·laborar",
+      "items": [
+        {
+          "title": "Integracions",
+          "description": "Connecta el teu producte, model o plataforma amb sweetwine mitjançant una integració tècnica."
+        },
+        {
+          "title": "Co-marketing",
+          "description": "Campanyes, contingut i llançaments conjunts que posen ambdues marques davant de noves audiències."
+        },
+        {},
+        {
+          "title": "Col·laboracions estratègiques",
+          "description": "Col·laboracions a llarg termini en producte, dades i estratègia de mercat."
+        }
+      ]
+    },
+    "why": {
+      "title": "Per què col·laborar amb sweetwine",
+      "items": [
+        {
+          "title": "Audiència compromesa",
+          "description": "Centenars de milers d'usuaris que tornen diàriament en 70 idiomes."
+        },
+        {
+          "title": "Execució ràpida",
+          "description": "Un equip enfocat que llança ràpidament i comunica amb claredat."
+        },
+        {
+          "title": "Abast global",
+          "description": "Producte multilingüe disponible en desenes de mercats."
+        },
+        {
+          "description": "Una plataforma de confiança, dissenyada amb privacitat, que la teva marca pot defensar.",
+          "title": "Privacitat primer"
+        }
+      ]
+    },
+    "form": {
+      "title": "Parla'ns de la teva associació",
+      "description": "Comparteix alguns detalls i el nostre equip d'associacions et respondrà.",
+      "nameLabel": "El teu nom",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Correu electrònic de feina",
+      "emailPlaceholder": "tu@empresa.com",
+      "companyLabel": "Empresa",
+      "companyPlaceholder": "Nom de l'empresa",
+      "typeLabel": "Tipus d'associació",
+      "typePlaceholder": "Selecciona un tipus d'associació",
+      "typeOptions": [
+        {
+          "value": "Integracions",
+          "label": "Integracions"
+        },
+        {
+          "value": "Co-màrqueting",
+          "label": "Co-màrqueting"
+        },
+        {},
+        {
+          "value": "Associacions estratègiques",
+          "label": "Associacions estratègiques"
+        },
+        {
+          "value": "Altres",
+          "label": "Altres"
+        }
+      ],
+      "messageLabel": "Com t'agradaria associar-te?",
+      "messagePlaceholder": "Parla'ns de la teva empresa i de l'associació que tens en ment...",
+      "submit": "Envia la consulta d'associació",
+      "submitting": "Enviant...",
+      "termsNote": "En enviar, acceptes que et contactem sobre la teva consulta. Mai compartim les teves dades.",
+      "success": "Gràcies! La teva consulta d'associació s'ha enviat.",
+      "error": "Alguna cosa ha anat malament. Torna-ho a provar."
+    },
+    "cta": {
+      "title": "Prefereixes el correu electrònic?",
+      "description": "Contacta directament amb el nostre equip d'associacions a"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Premsa i mitjans",
+    "eyebrow": "Sala de premsa",
+    "titlePrefix": "Premsa i",
+    "titleHighlight": "Mitjans",
+    "subtitle": "Recursos per a periodistes, creadors i socis de mitjans. Contacta amb el nostre equip de premsa per a entrevistes, cites, suport de continguts i sol·licituds de marca.",
+    "help": {
+      "title": "Com et podem ajudar",
+      "description": "Tant si estàs treballant en una notícia com en una ressenya, aquí tens el que pots demanar al nostre equip de premsa.",
+      "items": [
+        {
+          "title": "Entrevistes",
+          "description": "Parla amb el nostre equip sobre el producte, l'empresa i cap on es dirigeix la companyia d'IA."
+        },
+        {
+          "title": "Cites i comentaris",
+          "description": "Obtén una declaració oficial o un comentari d'expert per a la teva notícia."
+        },
+        {
+          "title": "Suport per a continguts i ressenyes",
+          "description": "Necessites accés, context o verificació de fets per a un contingut o ressenya? T'ajudarem."
+        },
+        {
+          "title": "Sol·licituds de marca i logotip",
+          "description": "Sol·licita els nostres logotips, recursos de marca i directrius d'ús per a la teva publicació."
+        }
+      ]
+    },
+    "form": {
+      "title": "Consulta de mitjans",
+      "description": "Per a entrevistes, cites o sol·licituds de continguts, envia'ns un missatge i et respondrem ràpidament.",
+      "nameLabel": "El teu nom",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Correu electrònic",
+      "emailPlaceholder": "tu@outlet.com",
+      "outletLabel": "Publicació / mitjà",
+      "outletPlaceholder": "On es publicarà?",
+      "requestTypeLabel": "Tipus de sol·licitud",
+      "requestTypePlaceholder": "Selecciona un tipus de sol·licitud",
+      "requestTypeOptions": [
+        {
+          "value": "Entrevista",
+          "label": "Entrevista"
+        },
+        {
+          "value": "Cita / comentari",
+          "label": "Cita / comentari"
+        },
+        {
+          "value": "Reportatge / ressenya",
+          "label": "Reportatge / ressenya"
+        },
+        {
+          "value": "Sol·licitud de marca / logotip",
+          "label": "Sol·licitud de marca / logotip"
+        },
+        {
+          "value": "Altres",
+          "label": "Altres"
+        }
+      ],
+      "messageLabel": "La teva sol·licitud",
+      "messagePlaceholder": "Explica'ns la teva història, termini i què necessites de nosaltres...",
+      "submit": "Envia la consulta de premsa",
+      "submitting": "Enviant...",
+      "termsNote": "Intentem respondre les consultes de premsa en dos dies laborables.",
+      "success": "Gràcies! La teva consulta de premsa s'ha enviat.",
+      "error": "Alguna cosa ha anat malament. Torna-ho a provar."
+    },
+    "cta": {
+      "title": "Contacte de premsa",
+      "description": "Per a sol·licituds de premsa urgents, envia un correu a"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Ofertes de feina",
+    "eyebrow": "Ofertes de feina",
+    "titlePrefix": "Construeix el futur de la",
+    "titleHighlight": "companyonia amb IA",
+    "subtitle": "Som un equip petit i àgil que crea productes que la gent estima de debò. Si t'emociona, ens encantaria conèixer-te.",
+    "perks": {
+      "title": "Per què treballar amb nosaltres",
+      "items": [
+        {
+          "title": "Treball remot",
+          "description": "Treballa des d'on rindeixes millor, amb horaris flexibles."
+        },
+        {
+          "title": "Propietat real",
+          "description": "Llança treball significatiu ràpidament i veu com arriba a usuaris de tot el món."
+        },
+        {
+          "title": "IA d'avantguarda",
+          "description": "Treballa directament amb els models més recents i eines generatives."
+        },
+        {
+          "title": "Salaris competitius",
+          "description": "Compensació justa i potencial de creixement a mesura que creixem."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Posicions obertes",
+      "emptyTitle": "No hi ha ofertes ara mateix",
+      "emptyDescription": "No estem contractant activament, però sempre ens agrada conèixer gent fantàstica. Presenta't a continuació.",
+      "applyButton": "Sol·licita ara",
+      "viewButton": "Veure rol"
+    },
+    "form": {
+      "title": "Presenta't",
+      "description": "No veus un rol que encaixi? Explica'ns qui ets i et contactarem quan hi hagi una coincidència.",
+      "nameLabel": "El teu nom",
+      "namePlaceholder": "Maria Martí",
+      "emailLabel": "Correu electrònic",
+      "emailPlaceholder": "tu@email.com",
+      "roleLabel": "Rol o àrea d'interès",
+      "rolePlaceholder": "p. ex. Enginyer Frontend, Dissenyador, Màrqueting",
+      "linkLabel": "Enllaç al CV",
+      "linkPlaceholder": "https://enllaç-al-teu-cv...",
+      "messageLabel": "Sobre tu",
+      "messagePlaceholder": "Explica'ns la teva experiència i què t'agradaria treballar...",
+      "submit": "Envia la sol·licitud",
+      "submitting": "Enviant...",
+      "termsNote": "En enviar la sol·licitud, consentiu que emmagatzemem les vostres dades per considerar-vos per a les vacants.",
+      "success": "Gràcies! La teva sol·licitud s'ha enviat.",
+      "error": "Alguna cosa ha anat malament. Torna-ho a provar."
+    },
+    "cta": {
+      "title": "Preguntes sobre treballar aquí?",
+      "description": "Contacta amb el nostre equip a"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Centre d'ajuda",
+    "eyebrow": "Centre d'ajuda",
+    "titlePrefix": "Com et podem",
+    "titleHighlight": "ajudar?",
+    "subtitle": "Explora temes i respostes habituals. No trobes el que necessites? Contacta amb el suport i t'ajudarem.",
+    "searchPlaceholder": "Cerca articles d'ajuda...",
+    "categoriesTitle": "Explora per tema",
+    "articlesTitle": "Articles",
+    "categoryEmpty": "Encara no hi ha articles en aquesta categoria. Torna-ho a comprovar aviat.",
+    "backToHelp": "Torna al Centre d'ajuda",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Començar",
+        "description": "Crea un compte, configura el teu perfil i comença a xatejar."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Xat d'IA",
+        "description": "Com funcionen les converses, la memòria i els personatges."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Imatges i vídeos",
+        "description": "Genera i gestiona fotos i vídeos d'IA."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Privadesa i seguretat",
+        "description": "Les teves dades, controls de privadesa i eines de seguretat."
+      }
+    ],
+    "faq": {
+      "title": "Preguntes freqüents",
+      "q1": {
+        "question": "Com començo amb sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Què inclou el pla gratuït?"
+      },
+      "q5": {
+        "question": "Les meves dades són privades?",
+        "answer": "La privacitat és fonamental per a sweetwine. Les teves converses són privades al teu compte i tu controles les teves dades. Consulta la nostra Política de privacitat per obtenir tots els detalls sobre com s'emmagatzemen i protegeixen les dades."
+      },
+      "q6": {
+        "question": "Com puc contactar amb el suport?",
+        "answer": "Envia un correu a support@sweetwine.ai o utilitza l'opció de contacte a l'aplicació. Normalment responem en un dia laborable."
+      }
+    },
+    "cta": {
+      "title": "Necessites més ajuda?",
+      "description": "El nostre equip està aquí per a tu a"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Sobre",
+    "eyebrow": "La nostra història",
+    "titlePrefix": "Companyonia,",
+    "titleHighlight": "reinventada",
+    "subtitle": "sweetwine crea companyes d'IA privades i personalitzades que escolten, recorden i connecten de debò — disponibles en qualsevol moment i en qualsevol idioma.",
+    "mission": {
+      "title": "La nostra missió",
+      "body": "Creiem que tothom mereix un espai on ser escoltat sense judicis. sweetwine fa que la connexió amb IA significativa i personalitzada sigui accessible arreu — càlida, privada i sempre disponible quan la necessites."
+    },
+    "values": {
+      "title": "Què defensem",
+      "items": [
+        {
+          "title": "Privacitat per disseny",
+          "description": "Les teves converses són teves. Construïm amb privacitat i seguretat des de la base."
+        },
+        {
+          "title": "Connexió genuïna",
+          "description": "Optimitzem per obtenir un valor emocional real, no per mètriques vanitoses."
+        },
+        {
+          "title": "Global per defecte",
+          "description": "Construït multilingüe des del primer dia perquè la connexió no estigui limitada per l'idioma."
+        },
+        {
+          "title": "Artesania incansable",
+          "description": "Cuidem els detalls perquè cada interacció se senti natural i viva."
+        }
+      ]
+    },
+    "stats": {
+      "title": "En xifres",
+      "items": [
+        {
+          "value": "100.000+",
+          "label": "Usuaris i en creixement"
+        },
+        {
+          "value": "70",
+          "label": "Idiomes compatibles"
+        },
+        {
+          "value": "24/7",
+          "label": "Sempre disponible"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vols saber-ne més?",
+      "description": "Contacta'ns a"
+    }
+  },
+  "postsPage": {
+    "allTag": "Tots",
+    "readMore": "Llegeix més",
+    "publishedOn": "Publicat",
+    "minRead": "min de lectura",
+    "sortNewest": "Més nous",
+    "sortOldest": "Més antics",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "El sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Consells, guies i històries per treure el màxim profit de la companyonia amb IA.",
+      "empty": "Encara no hi ha publicacions. Torna aviat."
+    },
+    "news": {
+      "breadcrumb": "Notícies",
+      "eyebrow": "Sala de premsa",
+      "titlePrefix": "Notícies i",
+      "titleHighlight": "Anuncis",
+      "subtitle": "Anuncis oficials, comunicats de premsa i fites de l'equip de sweetwine.",
+      "empty": "Encara no hi ha notícies. Torna aviat."
+    },
+    "productUpdates": {
+      "breadcrumb": "Actualitzacions del producte",
+      "eyebrow": "Registre de canvis",
+      "titlePrefix": "Producte",
+      "titleHighlight": "Actualitzacions",
+      "subtitle": "Les últimes funcions, millores i correccions a la plataforma sweetwine.",
+      "empty": "Encara no hi ha actualitzacions. Torna aviat."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Per a desenvolupadors",
+    "titlePrefix": "Construeix amb la",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Porta companys d'IA personalitzats al teu propi producte. Accedeix a xat, imatge, veu i capacitats de creació de personatges mitjançant una única API fàcil per a desenvolupadors.",
+    "capabilities": {
+      "title": "Què pots construir",
+      "items": [
+        {
+          "title": "Xat conversacional",
+          "description": "Afegeix converses d'IA riques en personalitat i amb context a la teva app amb una senzilla API de missatgeria."
+        },
+        {
+          "title": "Generació d'imatges",
+          "description": "Genera imatges i escenes de personatges a mida de la teva marca de forma programàtica a partir de prompts de text."
+        },
+        {
+          "title": "Veu",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Creació de personatges",
+          "description": "Defineix i gestiona companys, personalitats i memòria a través de l'API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Sol·licita accés a l'API",
+      "description": "Explica'ns el teu projecte i què t'agradaria construir. El nostre equip de desenvolupadors et contactarà amb els propers passos.",
+      "nameLabel": "El teu nom",
+      "namePlaceholder": "Maria Martí",
+      "emailLabel": "Correu electrònic de feina",
+      "emailPlaceholder": "tu@empresa.com",
+      "companyLabel": "Empresa / projecte",
+      "companyPlaceholder": "Nom de l'empresa o projecte",
+      "websiteLabel": "Lloc web o URL de l'app",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Tipus d'integració",
+      "integrationTypePlaceholder": "Selecciona un tipus d'integració",
+      "integrationTypeOptions": [
+        {
+          "value": "Xat / Missatgeria",
+          "label": "Xat / Missatgeria"
+        },
+        {
+          "value": "Generació d'imatges",
+          "label": "Generació d'imatges"
+        },
+        {
+          "value": "Veu",
+          "label": "Veu"
+        },
+        {
+          "value": "Creació de personatges",
+          "label": "Creació de personatges"
+        },
+        {
+          "value": "Altres",
+          "label": "Altres"
+        }
+      ],
+      "volumeLabel": "Volum mensual esperat",
+      "volumePlaceholder": "Selecciona el volum esperat",
+      "volumeOptions": [
+        {
+          "value": "Menys de 10k",
+          "label": "Menys de 10k sol·licituds"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k sol·licituds"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M sol·licituds"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ sol·licituds"
+        }
+      ],
+      "timelineLabel": "Cronologia",
+      "timelinePlaceholder": "Selecciona una cronologia",
+      "timelineOptions": [
+        {
+          "value": "Només explorant",
+          "label": "Només explorant"
+        },
+        {
+          "value": "Menys d'1 mes",
+          "label": "Menys d'1 mes"
+        },
+        {
+          "value": "1-3 mesos",
+          "label": "1-3 mesos"
+        },
+        {
+          "value": "3+ mesos",
+          "label": "3+ mesos"
+        }
+      ],
+      "messageLabel": "Explica'ns el teu cas d'ús",
+      "messagePlaceholder": "Què estàs construint i com penses utilitzar l'API?",
+      "submit": "Sol·licita accés a l'API",
+      "submitting": "Enviant...",
+      "termsNote": "En enviar, acceptes que et contactem sobre la teva consulta. Mai compartim les teves dades.",
+      "success": "Gràcies! La teva sol·licitud d'accés a l'API s'ha enviat.",
+      "error": "Alguna cosa ha anat malament. Torna-ho a provar."
+    },
+    "faq": {
+      "title": "FAQ per a desenvolupadors",
+      "items": [
+        {
+          "question": "Com obtinc accés a l'API?",
+          "answer": "Omple el formulari de sol·licitud amb el teu cas d'ús. El nostre equip de desenvolupadors revisa cada petició i et contactarà amb els detalls d'accés i la documentació."
+        },
+        {
+          "question": "Com funciona l'autenticació?",
+          "answer": "Les sol·licituds d'API s'autentiquen amb una clau secreta enviada a les capçaleres. Pots gestionar i rotar les teves claus un cop estiguis integrat."
+        },
+        {
+          "question": "Hi ha limitació de velocitat?",
+          "answer": "Sí. Els límits depenen del teu pla i del volum esperat. Fes-nos saber el teu trànsit previst al formulari perquè et recomanem el nivell adequat."
+        },
+        {
+          "question": "Quant costa?"
+        },
+        {
+          "question": "Quines funcionalitats estan disponibles?",
+          "answer": "Xat, generació d'imatges, veu i creació de personatges. Digues-nos què necessites i t'ajudarem a començar amb els endpoints corresponents."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Tens una pregunta tècnica?",
+      "description": "Contacta amb el nostre equip de desenvolupadors a"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "Clons Reals d'IA",
+    "eyebrow": "Per a creadors i agències",
+    "heroTitleLead": "Nosaltres creem,",
+    "heroTitleHighlight": "Tu guanyes.",
+    "heroSubtitle": "Creem el teu clon d'IA. Tu guanyes mentre el clon treballa 24/7 — xatejant amb fans i enviant contingut per tu.",
+    "calculator": {
+      "title": "Quant podries guanyar?",
+      "subtitle": "Tria la mida de la teva audiència i fixa el preu — veuràs els teus ingressos estimats a l'instant.",
+      "tierLabel": "Mida de la teva audiència",
+      "tiers": {
+        "small": {
+          "name": "Petita"
+        },
+        "medium": {
+          "name": "Mitjana"
+        },
+        "large": {
+          "name": "Gran"
+        }
+      },
+      "priceLabel": "El teu preu de desbloqueig",
+      "promoLabel": "Promocionaré sweetwine",
+      "breakdown": {
+        "title": "Els teus ingressos estimats",
+        "perMonth": "per mes",
+        "perYear": "Per any"
+      },
+      "disclaimer": "Earnings estimates are based on the sweetwine revenue-share model and typical activity. Actual earnings vary with audience, content quality, engagement, and demand."
+    },
+    "offer": {
+      "title": "What's in it for you",
+      "items": [
+        {
+          "title": "Earn while you sleep",
+          "description": "Your clone turns followers into income 24/7 — chatting, selling, and never clocking off."
+        },
+        {
+          "title": "Zero cost, pure upside",
+          "description": "We build, train, and run everything at our expense. You add a new income stream without lifting a finger."
+        },
+        {
+          "title": "10x your content",
+          "description": "Unlimited photos and videos on demand — scale your output without more shoots, edits, or burnout."
+        },
+        {
+          "title": "Always in control"
+        }
+      ]
+    },
+    "how": {
+      "title": "How it works",
+      "steps": [
+        {
+          "title": "Register"
+        },
+        {
+          "title": "Onboarding",
+          "description": "A sweetwine specialist captures your look, voice, and personality so your clone feels authentically you."
+        },
+        {
+          "title": "We build & train",
+          "description": "Our team produces and trains your AI clone entirely at our own cost — no work required from you."
+        },
+        {
+          "title": "Go live & earn",
+          "description": "Your clone starts chatting and selling around the clock, and you collect your revenue share."
+        }
+      ]
+    },
+    "form": {
+      "title": "Apply to create your AI clone",
+      "description": "Tell us about you and your audience. Our creator partnerships team reviews every application and will follow up with next steps.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Your name or stage name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agency or studio",
+      "companyPlaceholder": "Agency name (leave blank if independent)",
+      "roleLabel": "I'm a",
+      "rolePlaceholder": "Select who you are",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Website & social links",
+      "linksPlaceholder": "Instagram, X, OnlyFans, etc.",
+      "modelCountLabel": "Number of models you represent",
+      "modelCountPlaceholder": "e.g. just me, or 5",
+      "audienceSizeLabel": "Audience size",
+      "audienceSizePlaceholder": "Select your total following",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "value": "100k-500k",
+          "label": "100k-500k seguidors"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M seguidors"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ seguidors"
+        }
+      ],
+      "contentPrefLabel": "Preferència de contingut",
+      "contentPrefPlaceholder": "Selecciona el tipus de contingut",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Encara no ho tinc clar",
+          "label": "Encara no ho tinc clar"
+        }
+      ],
+      "countryLabel": "País / regió",
+      "countryPlaceholder": "On ets?",
+      "messageLabel": "Parla'ns de tu i del teu públic",
+      "messagePlaceholder": "Comparteix qualsevol cosa que ens ajudi a entendre el teu públic, el teu contingut i què busques.",
+      "openButton": "Sol·licita ara",
+      "submit": "Envia la sol·licitud",
+      "submitting": "Enviant...",
+      "termsNote": "En enviar confirmes que tens 18 anys o més i acceptes que et contactem sobre la teva sol·licitud. Mai compartim les teves dades.",
+      "success": "Gràcies! La teva sol·licitud s'ha enviat. Ens posarem en contacte aviat.",
+      "error": "Alguna cosa ha anat malament. Torna-ho a provar."
+    },
+    "cta": {
+      "title": "Tens preguntes abans de sol·licitar?",
+      "description": "Parla directament amb el nostre equip de col·laboracions amb creadors — normalment responem en un dia.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Correu electrònic"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Mapa del lloc",
+    "eyebrow": "Mapa del lloc",
+    "titlePrefix": "Explora",
+    "titleHighlight": "tot",
+    "subtitle": "Totes les pàgines importants de sweetwine en un sol lloc. Busques el mapa del lloc en XML?",
+    "xmlLink": "Veure el mapa del lloc en XML",
+    "sections": {
+      "product": "Producte",
+      "features": "Funcions",
+      "company": "Empresa",
+      "resources": "Recursos",
+      "legal": "Legal"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Obtén l'app",
+      "dismiss": "Tanca"
+    },
+    "guide": {
+      "title": "Instal·la sweetwine",
+      "subtitle": "Afegeix sweetwine a la pantalla d'inici per a una experiència més ràpida, a pantalla completa i com una app.",
+      "iosTitle": "A l'iPhone i iPad (Safari)",
+      "iosStep1": "Toca el botó Comparteix a la barra d'eines",
+      "iosStep2": "Tria \"Afegeix a la pantalla d'inici\"",
+      "iosStep3": "Toca \"Afegeix\" per acabar",
+      "androidTitle": "A Android (Chrome)",
+      "androidStep1": "Toca el menú (tres punts)",
+      "androidStep2": "Tria \"Instal·la l'app\" o \"Afegeix a la pantalla d'inici\"",
+      "androidStep3": "Toca \"Instal·la\" per acabar"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "Instal·la sweetwine al teu telèfon per a una experiència més ràpida i a pantalla completa directament des de la pantalla d'inici.",
+      "cta": "Instal·la l'app"
+    }
+  },
+  "language": {
+    "selectTitle": "Selecciona el teu idioma",
+    "searchPlaceholder": "Cerca idiomes",
+    "noResults": "No s'han trobat idiomes",
+    "regions": {
+      "americas": "Amèrica",
+      "europe": "Europa",
+      "middleEast": "Orient Mitjà",
+      "asiaPacific": "Àsia Pacífic",
+      "africa": "Àfrica"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Nou roleplay",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Encara no hi ha roleplays",
+    "noMessagesYet": "Encara no hi ha missatges",
+    "deleteRoleplay": "Esborra el roleplay",
+    "deleteError": "No s'ha pogut esborrar el roleplay.",
+    "backToLobby": "Torna als roleplays",
+    "creating": "Configurant el teu roleplay...",
+    "createError": "No s'ha pogut crear el roleplay. Torna-ho a provar.",
+    "steps": {
+      "companion": {
+        "title": "Tria un personatge",
+        "subtitle": "Tria amb qui vols fer el roleplay"
+      },
+      "location": {
+        "title": "Tria un lloc",
+        "subtitle": "On té lloc l'escena?"
+      },
+      "tone": {
+        "title": "Defineix el to",
+        "subtitle": "Com ha de ser l'ambient de l'escena?"
+      },
+      "scene": {
+        "title": "Configura l'escena",
+        "subtitle": "Descriu com comença l'escena"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Ens topem sota la pluja i ens refugiem sota el mateix tendal.",
+      "staring_grin": "Em sorprens mirant-te des de l'altra banda de l'habitació i t'acostes amb un somriure.",
+      "power_out": "S'apaga la llum i ens quedem sols a les fosques, rient nerviosos.",
+      "spilled_drink": "Arribo tard i et vessem accidentalment la beguda.",
+      "stayed_behind": "Som els únics que ens hem quedat després que tothom marxés.",
+      "music_slows": "Les nostres mirades es troben just quan la música s'alenteix.",
+      "storm_inside": "Una tempesta sobtada ens atrapa dins amb temps per parlar.",
+      "seat_taken": "T'asseus al meu costat i em preguntes si el seient està ocupat."
+    },
+    "locations": {
+      "home": "Casa",
+      "cafe": "Cafè",
+      "restaurant": "Restaurant",
+      "bar": "Bar",
+      "library": "Biblioteca",
+      "bookstore": "Llibreria",
+      "park": "Parc",
+      "garden": "Jardí",
+      "nightclub": "Discoteca",
+      "casino": "Casino",
+      "concert": "Concert",
+      "theater": "Teatre",
+      "cinema": "Cinema",
+      "carnival": "Carnaval",
+      "stadium": "Estadi",
+      "beach": "Platja",
+      "pool": "Piscina",
+      "spa": "Spa",
+      "hotel": "Hotel",
+      "rooftop": "Terrat",
+      "yacht": "Iot",
+      "cabin": "Cabana",
+      "hotspring": "Bany termal",
+      "skilodge": "Refugi d'esquí",
+      "campsite": "Càmping",
+      "car": "Cotxe",
+      "train": "Tren",
+      "airport": "Aeroport",
+      "cruise": "Creuer",
+      "office": "Oficina",
+      "gym": "Gimnàs",
+      "university": "Universitat",
+      "mall": "Centre comercial",
+      "hospital": "Hospital",
+      "museum": "Museu"
+    },
+    "tones": {
+      "fun": {
+        "title": "Divertit",
+        "desc": "Lleuger, juganer i relaxat."
+      },
+      "romantic": {
+        "title": "Romàntic",
+        "desc": "Tendres, afectuós i sincer."
+      },
+      "flirty": {
+        "title": "Coqueta",
+        "desc": "Picaresc, juganer i ple d'encant."
+      },
+      "mysterious": {
+        "title": "Misteriós",
+        "desc": "Intrigant, suspensiu i ple de secrets."
+      },
+      "spooky": {
+        "title": "Esfereïdor",
+        "desc": "Sinistre, tens i una mica esgarrifós."
+      },
+      "action": {
+        "title": "Acció",
+        "desc": "Intens, aventurer i trepidant."
+      },
+      "dramatic": {
+        "title": "Dramàtic",
+        "desc": "Emocional, intens i ple de tensió."
+      },
+      "cozy": {
+        "title": "Acollidor",
+        "desc": "Càlid, reconfortant i relaxat."
+      }
+    },
+    "sceneLabel": "Obertura de l'escena",
+    "scenarioTab": "Escenari",
+    "generatingScene": "Donant vida a l'escena...",
+    "locationLabel": "Lloc",
+    "toneLabel": "To",
+    "scenePlaceholder": "p. ex. Ens topem sota la pluja i ens refugiem sota el mateix tendal...",
+    "sceneHint": "Descriu només com comença l'escena: on sou i què passa en obrir-se. No canviïs la personalitat del personatge, la vostra relació ni reescriguïs tota la història.",
+    "sceneError": "Si us plau, descriu com comença l'escena.",
+    "reviewTitle": "Revisa les seleccions",
+    "characterLabel": "Personatge",
+    "randomize": "Aleatori",
+    "sceneGuidanceTitle": "Guia de l'obertura de l'escena",
+    "sceneGuide1": "No canviïs la personalitat del personatge ni la vostra relació.",
+    "sceneGuide2": "Mantén l'obertura de l'escena consensual i respectuosa.",
+    "sceneGuide3": "Descriu només com comença l'escena, no tota la història.",
+    "next": "Següent",
+    "create": "Inicia el rol",
+    "creatingMessages": [
+      "Preparant l'escena...",
+      "Ajustant la llum perfectament...",
+      "Pintant el teu entorn...",
+      "Posant el teu company en personatge...",
+      "Afegint els tocs finals...",
+      "Gairebé a punt..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Escriu un missatge...",
+    "send": "Envia",
+    "typing": "escrivint...",
+    "read": "Llegit",
+    "resetChat": "Restableix el xat",
+    "deleteChat": "Esborra el xat",
+    "settings": "Configuració",
+    "chatSettings": "Configuració del xat",
+    "roleplayMode": "Mode de rol",
+    "roleplayModeDescription": "Quan està activat, els companys representen gestos i accions entre *asteriscs* per a un rol immersiu. Quan està desactivat, xerren de forma natural, com un xat real.",
+    "roleplayModeError": "No s'ha pogut actualitzar el mode de rol",
+    "roleplayCtaDescription": "Obre l'experiència de rol dedicada, on el company representa escenes i històries amb tu.",
+    "goToRoleplay": "Vés al rol",
+    "confirmReset": "Segur que vols restablir aquest xat? Tots els missatges s'esborraran.",
+    "confirmDelete": "Segur que vols esborrar aquest xat?",
+    "resetSuccess": "Xat restablert correctament",
+    "deleteMemory": "Suprimeix la memòria",
+    "confirmDeleteMemory": "Segur que vols suprimir els records a llarg termini d'aquest personatge? Els missatges del xat es mantindran, però el personatge oblidarà els fets anteriors en la següent resposta.",
+    "deleteMemorySuccess": "Memòria suprimida",
+    "deleteSuccess": "Xat esborrat correctament",
+    "sendError": "No s'ha pogut enviar el missatge",
+    "noChats": "Encara no hi ha xats",
+    "noChatsDesc": "Inicia una conversa amb un personatge per veure els teus xats aquí",
+    "lastMessage": "Últim missatge",
+    "messageCount": "{count} missatges",
+    "uploadImage": "Puja una imatge",
+    "uploadVideo": "Puja un vídeo (pròximament)",
+    "yourConversations": "Les teves converses",
+    "continueChattingDesc": "Continua xerrant amb els teus personatges d'IA",
+    "newChat": "Nou xat",
+    "noConversationsYet": "Encara no hi ha converses",
+    "startChattingDesc": "Inicia una conversa amb un personatge per veure les teves converses aquí",
+    "browseCharacters": "Explora personatges",
+    "createCustomCharacter": "Crea un personatge personalitzat",
+    "imageTooLarge": "La imatge és massa gran (màxim 5 MB)",
+    "generateImageTitle": "Genera una imatge amb {name}",
+    "imagePromptLabel": "Descriu la imatge",
+    "imagePromptPlaceholder": "p. ex., a la platja amb un vestit blau, prenent cafè en una cafeteria, passejant per un parc...",
+    "imagePromptHint": "La IA generarà una imatge de {name} basada en la teva descripció.",
+    "referenceImageLabel": "La teva foto (opcional)",
+    "referenceImageHint": "Puja la teva foto per incloure-la a l'escena amb {name}. Sense foto, només es generarà {name}.",
+    "uploadReferenceImage": "Puja la teva foto",
+    "uploadReferenceImageDesc": "Tots dos apareixereu a la imatge generada",
+    "referenceImageSelected": "Tu i {name} apareixereu junts",
+    "generating": "Generant...",
+    "generate": "Genera",
+    "generateImage": "Genera imatge",
+    "imageGenerated": "Imatge generada correctament",
+    "generateError": "No s'ha pogut generar la imatge",
+    "contentBlockedReply": "Ho sento, però no puc crear aquesta imatge. Ha estat bloquejada pels filtres de seguretat. Prova una descripció diferent! 💕",
+    "generateVideoTitle": "Genera vídeo amb {name}",
+    "generateVideo": "Genera vídeo",
+    "videoPromptLabel": "Descriu l'acció",
+    "videoPromptPlaceholder": "p. ex., ballant, saludant, llançant un petó...",
+    "videoPromptHint": "La IA generarà un vídeo de {name} realitzant l'acció descrita.",
+    "generatingImage": "Generant imatge...",
+    "generatingVideo": "Generant vídeo... (3-5 min)",
+    "viewPhoto": "Veure foto",
+    "viewVideo": "Veure vídeo",
+    "selectVideoOption": "Selecciona una opció de vídeo a dalt",
+    "contentPolicyViolation": "Aquest missatge no s'ha pogut enviar. Mantén les converses respectuoses.",
+    "functionCallBetaHint": "💡 Aquesta funció està en beta — per a una generació de mitjans fiable sense restriccions, utilitza els botons de foto/vídeo de la barra d'eines.",
+    "repliedToStory": "Resposta a la història",
+    "repliedToStoryLiked": "M'agrada i resposta a la història",
+    "storyNoLongerAvailable": "La història ja no està disponible",
+    "rateLimitExceeded": "Massa sol·licituds. Espera un moment i torna-ho a provar.",
+    "profileTab": "Perfil",
+    "galleryTab": "Galeria",
+    "giftsTab": "Regals",
+    "tts": {
+      "play": "Reprodueix veu",
+      "stop": "Atura",
+      "generating": "Generant veu…",
+      "error": "No s'ha pogut reproduir l'àudio"
+    }
+  },
+  "gallery": {
+    "all": "Tot",
+    "images": "Imatges",
+    "videos": "Vídeos",
+    "empty": "Encara no hi ha contingut"
+  },
+  "gifts": {
+    "sendAGift": "Envia un regal",
+    "catalogSubtitle": "Tria un regal per enviar a {name}",
+    "browseGifts": "Explora regals",
+    "noneSent": "Encara no s'han enviat regals",
+    "confirmTitle": "Confirma el regal",
+    "forCompanion": "Per a {name}",
+    "optionalMessage": "Afegeix un missatge (opcional)",
+    "optionalMessagePlaceholder": "Escriu alguna cosa dolça...",
+    "sendGiftFor": "Envia",
+    "giftSent": "Has enviat un regal",
+    "sendError": "No s'ha pogut enviar el regal"
+  },
+  "stories": {
+    "replyPlaceholder": "Respon a {name}...",
+    "like": "M'agrada",
+    "send": "Envia",
+    "close": "Tanca",
+    "previous": "Història anterior",
+    "next": "Història següent",
+    "pause": "Pausa",
+    "play": "Reprodueix",
+    "mute": "Silencia",
+    "unmute": "Activa el so",
+    "openStory": "Obre la història de {name}"
+  },
+  "generate": {
+    "title": "Genera una imatge",
+    "description": "Crea imatges impressionants amb els teus personatges d'IA",
+    "selectCompanion": "Selecciona un personatge",
+    "promptPlaceholder": "Descriu la imatge que vols generar... p. ex., a la platja, amb un vestit vermell",
+    "promptLabel": "Descripció de la imatge",
+    "promptRequired": "Si us plau, introdueix una descripció",
+    "generateButton": "Genera imatge",
+    "generating": "Generant...",
+    "creatingImage": "Creant la teva imatge...",
+    "pleaseWait": "Això pot trigar entre 10 i 30 segons",
+    "noCompanionSelected": "Selecciona primer un personatge",
+    "emptyGallery": "Encara no s'han generat imatges. Selecciona un personatge i descriu la teva imatge!",
+    "sessionGallery": "Imatges generades",
+    "regenerate": "Regenera",
+    "regenerating": "Regenerant...",
+    "animate": "Anima",
+    "animateReference": "Aquesta imatge serà el primer fotograma del vídeo.",
+    "filterMyAI": "La meva IA",
+    "filterAll": "Totes",
+    "filterGirls": "Dones",
+    "filterAnime": "Anime",
+    "filterGuys": "Homes",
+    "imageGenerationFailed": "La generació de la imatge ha fallat. Potser no compleix els requisits o la descripció és massa complexa. Prova amb un prompt més senzill.",
+    "noImageData": "No s'ha generat cap imatge. Torna-ho a provar amb una descripció diferent.",
+    "generationFailed": "La generació ha fallat. Torna-ho a provar més tard o amb un prompt diferent.",
+    "random": "Aleatori",
+    "custom": "Personalitzat",
+    "settings": "Configuració",
+    "videoTitle": "Generar vídeo",
+    "videoDescription": "Crea vídeos impressionants amb els teus personatges d'IA",
+    "videoPromptLabel": "Descripció del vídeo",
+    "videoPromptPlaceholder": "Descriu l'acció que vols generar... p. ex., ballant, saludant, somrient",
+    "generateVideoButton": "Generar vídeo",
+    "generatingVideo": "Generant vídeo...",
+    "creatingVideo": "Creant el teu vídeo...",
+    "videoWait": "Això pot trigar entre 1 i 5 minuts",
+    "emptyVideoGallery": "Encara no s'han generat vídeos. Selecciona un personatge i descriu l'acció!",
+    "sessionVideoGallery": "Vídeos generats",
+    "videoGenerated": "Vídeo generat correctament!",
+    "videoGenerationFailed": "La generació del vídeo ha fallat. Torna-ho a provar.",
+    "duration": "Durada",
+    "shortVideo": "Curt",
+    "longVideo": "Llarg",
+    "seconds": "segons",
+    "audio": "Àudio",
+    "renderingVideo": "Renderitzant vídeo…",
+    "renderingVideoHint": "(pot trigar fins a 1 minut)",
+    "rateLimitExceeded": "Massa sol·licituds. Espera un moment i torna-ho a provar.",
+    "chooseCharacter": "Tria un personatge",
+    "selectButton": "Selecciona",
+    "noCustomCompanions": "Encara no has creat cap personatge d'IA.",
+    "numberOfImages": "Nombre d'imatges",
+    "numberOfVideos": "Nombre de vídeos",
+    "freeTrial": "Prova gratuïta",
+    "changeCharacter": "Canvia de personatge",
+    "randomize": "Aleatoritzar prompt",
+    "aiVideo": "Vídeo d'IA",
+    "download": "Descarrega",
+    "seriesHelper": "Aquí pots veure els teus resultats. Pots sortir de la pàgina o iniciar una nova sèrie mentre s'acaben.",
+    "suggestions": {
+      "title": "Suggeriments",
+      "categories": {
+        "outfit": "Vestit",
+        "action": "Acció",
+        "pose": "Posa",
+        "accessories": "Accessoris",
+        "scene": "Escena"
+      },
+      "items": {
+        "bikini": "Biquini",
+        "skirt": "Faldilla",
+        "lingerie": "Llenceria",
+        "crop_top": "Top curt",
+        "leather": "Cuir",
+        "mini_skirt": "Minifaldilla",
+        "satin_robe": "Bata de setí",
+        "jeans": "Texans",
+        "summer_dress": "Vestit d'estiu",
+        "sportswear": "Roba esportiva",
+        "selfie": "Selfie",
+        "walking": "Caminant",
+        "dancing": "Ballant",
+        "stretching": "Estirant",
+        "lying_down": "Estirat",
+        "leaning": "Inclinat",
+        "blowing_kiss": "Tirant un petó",
+        "drinking_coffee": "Bevent cafè",
+        "hands_on_hips": "Mans als malucs",
+        "over_shoulder": "Per sobre l'espatlla",
+        "side_profile": "Perfil lateral",
+        "arms_crossed": "Braços plegats",
+        "kneeling": "De genolls",
+        "squatting": "A la gatzoneta",
+        "back_view": "Vista posterior",
+        "sitting": "Assegut",
+        "necklace": "Collaret",
+        "earrings": "Arracades",
+        "glasses": "Ulleres",
+        "choker": "Gola",
+        "hat": "Barret",
+        "sunglasses": "Ulleres de sol",
+        "garden": "Jardí",
+        "beach": "Platja",
+        "bedroom": "Dormitori",
+        "gym": "Gimnàs",
+        "bar": "Bar",
+        "kitchen": "Cuina",
+        "restaurant": "Restaurant",
+        "balcony": "Balcó",
+        "city_street": "Carrer de la ciutat",
+        "pool": "A la vora de la piscina"
+      },
+      "fragments": {
+        "bikini": "amb biquini",
+        "skirt": "amb faldilla",
+        "lingerie": "amb llenceria",
+        "crop_top": "amb top curt",
+        "leather": "amb roba de cuir",
+        "mini_skirt": "amb minifaldilla",
+        "satin_robe": "amb barnús de setí",
+        "jeans": "amb texans",
+        "summer_dress": "amb vestit d'estiu",
+        "sportswear": "amb roba esportiva ajustada",
+        "selfie": "fent un selfie",
+        "walking": "camina",
+        "dancing": "ballant",
+        "stretching": "estirant-se",
+        "lying_down": "estirada",
+        "leaning": "reclinada contra una paret",
+        "blowing_kiss": "llençant un petó",
+        "drinking_coffee": "prenent una tassa de cafè",
+        "hands_on_hips": "amb les mans als malucs",
+        "over_shoulder": "mirant per sobre l'espatlla",
+        "side_profile": "posat de perfil",
+        "arms_crossed": "amb els braços plegats",
+        "kneeling": "posat de genolls",
+        "squatting": "posat en squat",
+        "back_view": "vista des del darrere",
+        "sitting": "asseguda",
+        "necklace": "amb collaret",
+        "earrings": "amb arracades",
+        "glasses": "amb ulleres",
+        "choker": "amb collar",
+        "hat": "amb barret",
+        "sunglasses": "amb ulleres de sol",
+        "garden": "en un jardí",
+        "beach": "a la platja",
+        "bedroom": "en un dormitori",
+        "gym": "al gimnàs",
+        "bar": "en un bar",
+        "kitchen": "a la cuina",
+        "restaurant": "en un restaurant",
+        "balcony": "en un balcó",
+        "city_street": "en un carrer de la ciutat",
+        "pool": "a la piscina"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ensenya'm un selfie teu"
+        },
+        "posing": {
+          "name": "Posant",
+          "uiPrompt": "Ensenya'm posant"
+        },
+        "sitting": {
+          "name": "Assegut",
+          "uiPrompt": "Ensenya'm assegut"
+        },
+        "waving": {
+          "name": "Saludant",
+          "uiPrompt": "Ensenya'm saludant"
+        },
+        "dancing": {
+          "name": "Ballant",
+          "uiPrompt": "Ensenya'm ballant"
+        },
+        "reading": {
+          "name": "Llegint",
+          "uiPrompt": "Ensenya'm llegint"
+        },
+        "smiling": {
+          "name": "Somrient",
+          "uiPrompt": "Ensenya'm somrient"
+        },
+        "walking": {
+          "name": "Caminant",
+          "uiPrompt": "Ensenya'm caminant"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Ensenya'm un vídeo selfie"
+        },
+        "posing": {
+          "name": "Posant",
+          "uiPrompt": "Ensenya'm un vídeo de tu posant"
+        },
+        "sitting": {
+          "name": "Assegut",
+          "uiPrompt": "Ensenya'm un vídeo de tu assegut"
+        },
+        "waving": {
+          "name": "Salutant",
+          "uiPrompt": "Ensenya'm un vídeo de tu saludant"
+        },
+        "dancing": {
+          "name": "Ballant",
+          "uiPrompt": "Ensenya'm un vídeo de tu ballant"
+        },
+        "reading": {
+          "name": "Llegint",
+          "uiPrompt": "Ensenya'm un vídeo de tu llegint"
+        },
+        "smiling": {
+          "name": "Somrient",
+          "uiPrompt": "Ensenya'm un vídeo de tu somrient"
+        },
+        "walking": {
+          "name": "Caminant",
+          "uiPrompt": "Ensenya'm un vídeo de tu caminant"
+        }
+      }
+    },
+    "writeYourOwn": "o escriu el teu propi prompt",
+    "presetSelected": "Predefinit seleccionat",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Posicions",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Aferrant anal"
+        },
+        "bath_towel": {
+          "name": "Tovallola de bany"
+        },
+        "bikini": {
+          "name": "Biquini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Llet materna"
+        },
+        "bunny_suit": {
+          "name": "Vestit de conill"
+        },
+        "chain_leash": {
+          "name": "Corretja de cadena"
+        },
+        "chinese_dress": {
+          "name": "Vestit xinès"
+        },
+        "come_fuck_me": {
+          "name": "Vine a follar-me"
+        },
+        "cum_on_body": {
+          "name": "Semen al cos"
+        },
+        "cum_on_face": {
+          "name": "Semen a la cara"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Personalitzat"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Dits"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Uniforme escolar"
+        },
+        "legsup": {
+          "name": "Cames enlaire"
+        },
+        "leopard_bikini": {
+          "name": "Biquini de lleopard"
+        },
+        "lingerie": {
+          "name": "Llenceria"
+        },
+        "masturbation": {
+          "name": "Masturbació"
+        },
+        "missionary_condoms": {
+          "name": "Missioner amb condó"
+        },
+        "missionary_pov": {
+          "name": "Missioner POV"
+        },
+        "missionary_sideview": {
+          "name": "Vista lateral missionera"
+        },
+        "remix_blowjob": {
+          "name": "Remix mamada"
+        },
+        "remix_cowgirl": {
+          "name": "Remix amazona"
+        },
+        "remix_doggystyle": {
+          "name": "Remix estil gos"
+        },
+        "remix_dress": {
+          "name": "Remix vestit"
+        },
+        "remix_hold_dick": {
+          "name": "Remix agafar polla"
+        },
+        "remix_kiss": {
+          "name": "Remix petó"
+        },
+        "remix_pronebone": {
+          "name": "Remix propens"
+        },
+        "remix_suck": {
+          "name": "Remix xuclar"
+        },
+        "remix_wear": {
+          "name": "Remix posar"
+        },
+        "remix_yoga": {
+          "name": "Remix ioga"
+        },
+        "ride_on_dildo": {
+          "name": "Muntar sobre dildo"
+        },
+        "sipping_condoms": {
+          "name": "Xarrupant preservatius"
+        },
+        "squatting_cowgirl": {
+          "name": "Amazona en squat"
+        },
+        "tattoo": {
+          "name": "Tatuatge"
+        },
+        "tentacles": {
+          "name": "Tentacles"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Sense sostenidors"
+        },
+        "undress": {
+          "name": "Desvestir"
+        },
+        "used": {
+          "name": "Usat"
+        },
+        "xray": {
+          "name": "Raigs X"
+        },
+        "maid_outfit": {
+          "name": "Vestit de Minyona"
+        },
+        "nurse_outfit": {
+          "name": "Vestit d'Infermera"
+        },
+        "cheerleader": {
+          "name": "Animadora"
+        },
+        "wet_tshirt": {
+          "name": "Samarreta Mullada"
+        },
+        "latex_catsuit": {
+          "name": "Catsuit de Làtex"
+        },
+        "corset_stockings": {
+          "name": "Corsé i Mitges"
+        },
+        "gym_shorts": {
+          "name": "Pantalons Curts de Gimnàs"
+        },
+        "thong_tease": {
+          "name": "Tangues Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Selfie al Mirall"
+        },
+        "shower_nude": {
+          "name": "Dutxa"
+        },
+        "oiled_body": {
+          "name": "Cos Enllustrat"
+        },
+        "spread_open": {
+          "name": "Obert"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Gola Profunda"
+        },
+        "sloppy_blowjob": {
+          "name": "Boquet Desordenat"
+        },
+        "ball_licking": {
+          "name": "Llepar Boles"
+        },
+        "face_sitting_oral": {
+          "name": "Cara Asseguda"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Cowgirl Inversa"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Dret"
+        },
+        "against_wall": {
+          "name": "Contra la Paret"
+        },
+        "spooning": {
+          "name": "Cullera"
+        },
+        "legs_on_shoulders": {
+          "name": "Cames a les Espatlles"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Doble Penetració"
+        },
+        "threesome_mmf": {
+          "name": "Trio"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Collaret de Perles"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirt"
+        },
+        "spanking": {
+          "name": "Cops"
+        },
+        "gagged_bdsm": {
+          "name": "Bocallada"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Estil gos per darrere"
+        },
+        "blowjob": {
+          "name": "Mamada"
+        },
+        "blowjob_69": {
+          "name": "Mamada 69"
+        },
+        "blowjob_reverse": {
+          "name": "Mamada inversa"
+        },
+        "breast_massage": {
+          "name": "Massatge de pits"
+        },
+        "breast_massage_nude": {
+          "name": "Massatge de pits nu"
+        },
+        "butt_smothering": {
+          "name": "Ofegament amb cul"
+        },
+        "cock_worship": {
+          "name": "Adoració de polla"
+        },
+        "cum_in_mouth": {
+          "name": "Semen a la boca"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbació amb dildo"
+        },
+        "double_blowjob": {
+          "name": "Mamada doble"
+        },
+        "double_penetration": {
+          "name": "Doble penetració"
+        },
+        "ejaculation": {
+          "name": "Ejaculació"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Corrida facial"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Estil gos frontal"
+        },
+        "fuck_machine": {
+          "name": "Màquina de follar"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbació"
+        },
+        "missionary_pov": {
+          "name": "Missionera POV"
+        },
+        "missionary_sideview": {
+          "name": "Vista lateral missionera"
+        },
+        "nipple_play": {
+          "name": "Joc de mugrons"
+        },
+        "nude_posing": {
+          "name": "Posant nu"
+        },
+        "orgasm": {
+          "name": "Orgasme"
+        },
+        "pronebone": {
+          "name": "Propens"
+        },
+        "pussy_closeup": {
+          "name": "Primer pla de cony"
+        },
+        "reverse_cowgirl": {
+          "name": "Cowgirl invertida"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Cowgirl en squat"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Tendència TikTok"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Desvestir"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Embolic postcura"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Segur que vols suprimir això?",
+    "deleteSuccess": "Suprimit correctament",
+    "deleteError": "No s'ha pogut suprimir",
+    "empty": "Encara no hi ha contingut. Genera'n al xat!",
+    "gallerySubtitle": "La teva galeria personal de moments generats per IA",
+    "filterAll": "Tot",
+    "filterImages": "Imatges",
+    "filterVideos": "Vídeos",
+    "loadMore": "Carrega'n més",
+    "folders": "Carpetes",
+    "newFolder": "Carpeta nova",
+    "deleteFolders": "Suprimeix les carpetes seleccionades",
+    "folderCreated": "Carpeta creada",
+    "folderCreateError": "No s'ha pogut crear la carpeta",
+    "folderRenamed": "Carpeta reanomenada",
+    "folderRenameError": "No s'ha pogut reanomenar la carpeta",
+    "folderDeleted": "Carpeta suprimida",
+    "folderDeleteError": "No s'ha pogut suprimir la carpeta",
+    "folderNamePlaceholder": "Nom de la carpeta",
+    "seeMore": "Veure'n més",
+    "seeLess": "Veure'n menys",
+    "selectedCount": "{count} elements seleccionats",
+    "selectAll": "Selecciona-ho tot",
+    "select": "Selecciona",
+    "moveToFolder": "Mou",
+    "bulkDeleteConfirm": "Vols suprimir {count} elements seleccionats?",
+    "bulkDeleteSuccess": "Elements suprimits",
+    "bulkDownloadStart": "S'estan descarregant {count} elements...",
+    "moveSuccess": "Elements moguts"
+  },
+  "voice": {
+    "connecting": "Connectant...",
+    "connected": "Connectat",
+    "mute": "Silencia",
+    "unmute": "Activa el so",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Parla amb naturalitat. La IA respondrà quan facis una pausa.",
+    "connectionError": "No s'ha pogut connectar. Torna-ho a provar.",
+    "minutesRemaining": "{minutes} minuts restants",
+    "minutesUsed": "{minutes} minuts utilitzats"
+  },
+  "characters": {
+    "filters": "Filtres",
+    "ethnicity": "Ètnia",
+    "bodyType": "Tipus de cos",
+    "ageRange": "Rang d'edat",
+    "relationship": "Relació",
+    "occupation": "Ocupació",
+    "hobbies": "Aficions",
+    "personality": "Personalitat",
+    "language": "Idioma",
+    "age": "Edat",
+    "all": "Tots",
+    "noResults": "No s'han trobat personatges",
+    "noResultsDesc": "Prova d'ajustar els filtres",
+    "newBadge": "Nou",
+    "chatNow": "Xateja ara",
+    "viewProfile": "Veure perfil",
+    "ethnicities": {
+      "caucasian": "Caucàsic",
+      "asian": "Asiàtic",
+      "middleEastern": "Orient Mitjà",
+      "hispanic": "Hispà",
+      "african": "Africà",
+      "southAsian": "Sud-asiàtic",
+      "nativeAmerican": "Americà nadiu",
+      "pacificIslander": "Illenc del Pacífic",
+      "mixed": "Mixt",
+      "other": "Altres"
+    },
+    "bodyTypes": {
+      "slim": "Esvelt",
+      "athletic": "Atlètic",
+      "average": "Mitjà",
+      "curvy": "Amb corbes",
+      "plus": "Talla gran"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Solter",
+      "dating": "Sortint",
+      "married": "Casat",
+      "none": "Cap"
+    }
+  },
+  "settings": {
+    "profile": "Perfil",
+    "myProfile": "El meu perfil",
+    "settings": "Configuració",
+    "account": "Compte",
+    "plan": "Pla",
+    "profileSettings": "Configuració del perfil",
+    "manageAccountSettings": "Gestiona la configuració i preferències del teu compte",
+    "personalInfo": "Informació personal",
+    "nickname": "Sobrenom",
+    "gender": "Gènere",
+    "male": "Home",
+    "female": "Dona",
+    "preferences": "Preferències",
+    "newsletter": "Subscripció al butlletí",
+    "newsletterDesc": "Rep actualitzacions i notícies",
+    "aiTrainingTitle": "Entrenament d'IA i moderació",
+    "aiTrainingDesc": "Permet que els teus xats i prompts ajudin a entrenar i millorar l'IA i la moderació de sweetwine. Desactiva-ho en qualsevol moment per optar per no participar.",
+    "aiTrainingLink": "Més informació al nostre Avís de privadesa.",
+    "aiTrainingError": "No s'ha pogut actualitzar la teva preferència d'entrenament d'IA",
+    "interfaceLanguage": "Idioma de la interfície",
+    "interfaceLanguageDesc": "Idioma de la interfície d'usuari",
+    "aiLanguage": "Idioma de les respostes de l'IA",
+    "aiLanguageDesc": "Idioma que utilitzaran els personatges d'IA quan et parlin",
+    "currentPlan": "Pla actual",
+    "freePlan": "Pla gratuït",
+    "dangerZone": "Zona perillosa",
+    "dangerZoneDescription": "Si vols eliminar permanentment aquest compte i totes les seves dades.",
+    "deleteAllMemory": "Suprimeix tota la memòria",
+    "confirmDeleteAllMemory": "Segur que vols suprimir els records a llarg termini de tots els personatges d'IA? Els missatges del xat es mantindran, però els personatges oblidaran els fets anteriors en la seva següent resposta.",
+    "deleteAllMemorySuccess": "Tots els records suprimits",
+    "deleteAccount": {
+      "button": "Eliminar compte",
+      "title": "Eliminar compte",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Per confirmar, escriu",
+      "confirmRequired": "Si us plau, escriu DELETE per confirmar",
+      "confirmButton": "Eliminar el meu compte",
+      "deleting": "Eliminant...",
+      "success": "El teu compte ha estat eliminat",
+      "error": "No s'ha pogut eliminar el compte. Torna-ho a provar."
+    },
+    "saveChanges": "Desa els canvis",
+    "changesSaved": "Canvis desats correctament",
+    "saveFailed": "No s'han pogut desar els canvis",
+    "languageUpdated": "Idioma actualitzat",
+    "aiLanguageUpdated": "Idioma de l'IA actualitzat"
+  },
+  "create": {
+    "defaultGreeting": "Hola",
+    "title": "Crea un personatge d'IA",
+    "step": "Pas {current} de {total}",
+    "step1": {
+      "title": "Tria l'estil",
+      "description": "Tria l'estil i els atributs bàsics del teu personatge"
+    },
+    "step2": {
+      "title": "Tria l'ètnia",
+      "description": "Selecciona una ètnia i edat per al teu personatge"
+    },
+    "step3": {
+      "title": "Tria cabells i ulls",
+      "description": "Personalitza l'estil de cabell, el color del cabell i el color dels ulls"
+    },
+    "step4": {
+      "title": "Tria el cos",
+      "description": "Personalitza el cos del teu personatge"
+    },
+    "step5": {
+      "title": "Personalitat i detalls",
+      "description": "Defineix la personalitat i la veu del teu personatge"
+    },
+    "style": {
+      "title": "Estil del personatge",
+      "realistic": "Realista",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Gènere",
+      "female": "Dona",
+      "male": "Home"
+    },
+    "age": {
+      "title": "Edat",
+      "years": "{age} anys"
+    },
+    "ethnicity": {
+      "title": "Ètnia"
+    },
+    "hairStyle": {
+      "title": "Estil de cabell"
+    },
+    "hairColor": {
+      "title": "Color del cabell"
+    },
+    "eyeColor": {
+      "title": "Color dels ulls"
+    },
+    "bodyType": {
+      "title": "Tipus de cos"
+    },
+    "breastSize": {
+      "title": "Mida del pit"
+    },
+    "name": {
+      "title": "Nom",
+      "placeholder": "Introdueix el nom del personatge",
+      "randomize": "Genera un nom aleatori"
+    },
+    "language": {
+      "title": "Idioma",
+      "widgetLabel": "Tria l'idioma",
+      "placeholder": "Selecciona l'idioma",
+      "selectTitle": "Selecciona el teu idioma"
+    },
+    "personality": {
+      "title": "Personalitat",
+      "widgetLabel": "Tria la personalitat",
+      "placeholder": "Selecciona la personalitat",
+      "sectionTitle": "Tria la personalitat",
+      "clickToChange": "Fes clic per canviar"
+    },
+    "relationship": {
+      "title": "Relació",
+      "widgetLabel": "Tria la relació",
+      "placeholder": "Selecciona la relació",
+      "selectTitle": "Edita la relació"
+    },
+    "occupation": {
+      "title": "Ocupació",
+      "widgetLabel": "Tria una ocupació",
+      "placeholder": "Selecciona una ocupació",
+      "selectTitle": "Edita l'ocupació"
+    },
+    "kinks": {
+      "title": "Interessos",
+      "widgetLabel": "Quins interessos tenen? (Màx. {max})",
+      "labelMax": "Interessos (Màx. {max})",
+      "placeholder": "Selecciona interessos (opcional)",
+      "optional": "Opcional",
+      "selectTitle": "Edita els interessos",
+      "moreCount": "+{count} més"
+    },
+    "selector": {
+      "searchPlaceholder": "Cerca",
+      "noResults": "No s'han trobat opcions",
+      "cancel": "Cancel·la",
+      "saveChanges": "Desa els canvis",
+      "selectedCount": "{count} seleccionats"
+    },
+    "voice": {
+      "title": "Veu",
+      "widgetLabel": "Tria una veu",
+      "placeholder": "Selecciona una veu",
+      "selectTitle": "Tria una veu"
+    },
+    "advanced": {
+      "title": "Detalls avançats",
+      "optional": "opcional",
+      "filled": "Emplenat",
+      "autocompleteTitle": "Autocompleta amb IA",
+      "autocompleteDesc": "Deixa que la IA completi els camps buits per a un personatge més profund",
+      "autocompleteSuccess": "Camps emplenats correctament!",
+      "autocompleteError": "No s'han pogut generar suggeriments. Torna-ho a provar.",
+      "greetingLabel": "Salutació",
+      "greetingPlaceholder": "El primer missatge que envia el teu personatge...",
+      "scenarioLabel": "Escenari",
+      "scenarioPlaceholder": "El context o la història de com us vau conèixer...",
+      "personalityLabel": "Detalls addicionals de personalitat",
+      "personalityPlaceholder": "Manies, patrons de parla, trets de comportament...",
+      "extraLabel": "Detalls addicionals",
+      "extraPlaceholder": "Antecedents, aficions, història de vida..."
+    },
+    "navigation": {
+      "back": "Enrere",
+      "next": "Següent",
+      "create": "Crea",
+      "generateYourCharacter": "Genera el teu personatge"
+    },
+    "progress": {
+      "generatingPrompt": "Creant la personalitat...",
+      "generatingImage": "Creant el retrat...",
+      "creatingVoice": "Configurant la veu...",
+      "saving": "Desant...",
+      "complete": "Completat!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Creant la personalitat...",
+      "addingSweetness": "Afegint dolçor...",
+      "tooMuchSweet": "Ups, massa dolç...",
+      "testingSounds": "Provant sons..."
+    },
+    "overlay": {
+      "signupPrompt": "Completa el registre per desbloquejar el teu personatge…",
+      "processingHint": "Normalment triga entre 20–30 segons",
+      "traitEthnicity": "Ètnia",
+      "traitBody": "Cos",
+      "traitHair": "Cabell",
+      "traitColor": "Color",
+      "traitEyes": "Ulls",
+      "traitVibe": "Vibe",
+      "bannerTitle": "El teu personatge està a punt per ser creat!",
+      "bannerDesc": "Les teves preferències s'han desat. Revisa i genera a sota."
+    },
+    "success": {
+      "title": "Personatge creat!",
+      "description": "El teu personatge d'IA s'ha creat correctament.",
+      "yearsOld": "anys",
+      "meetButton": "Coneix"
+    },
+    "error": {
+      "title": "Creació fallida",
+      "generic": "No s'ha pogut crear el personatge. Torna-ho a provar."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Caucàsic",
+        "asian": "Asiàtic",
+        "middle_eastern": "Orient Mitjà",
+        "hispanic": "Hispà",
+        "african": "Africà",
+        "south_asian": "Sud-asiàtic",
+        "native_american": "Americà nadiu",
+        "pacific_islander": "Illenc del Pacífic",
+        "mixed": "Mixt",
+        "arab": "Àrab"
+      },
+      "hairStyleFemale": {
+        "straight": "Lliset",
+        "bangs": "Bangs",
+        "curly": "Arrissat",
+        "bun": "Recollit",
+        "short_bob": "Bob curt",
+        "ponytail": "Cua de cavall",
+        "wavy": "Ondulat",
+        "long_layers": "Capes llargues",
+        "braids": "Trenes",
+        "pixie_cut": "Tall pixie",
+        "updo": "Recollit alt",
+        "french_twist": "French Twist",
+        "fishtail_braid": "Trena de peix",
+        "top_knot": "Nus al cap",
+        "space_buns": "Buns espacials",
+        "halo_braid": "Trena halo",
+        "beehive": "Ruscos",
+        "finger_waves": "Ones amb dits",
+        "lob": "Lob (Bob llarg)",
+        "shag_cut": "Tall shag",
+        "bald": "Calb"
+      },
+      "hairStyleMale": {
+        "short": "Curt",
+        "buzz_cut": "Tall a la màquina",
+        "crew_cut": "Tall militar",
+        "undercut": "Undercut",
+        "fade": "Degradat",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Engreixinat cap enrere",
+        "curly": "Arrissat",
+        "afro": "Afro",
+        "man_bun": "Monyo d'home",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Trenes africanes",
+        "mohawk": "Mohawk",
+        "side_part": "Part lateral",
+        "textured_crop": "Tall texturat",
+        "french_crop": "Tall francès",
+        "spiky": "Punyagut",
+        "comb_over": "Pentinat cap enfora",
+        "long_hair": "Cabell llarg",
+        "bald": "Calb"
+      },
+      "hairColor": {
+        "brunette": "Castany",
+        "blonde": "Ros",
+        "black": "Negre",
+        "redhead": "Pèl-roig",
+        "pink": "Rosa",
+        "auburn": "Auburn",
+        "brown": "Marró",
+        "platinum_blonde": "Ros platí",
+        "silver_grey": "Gris plata",
+        "white": "Blanc",
+        "blue": "Blau",
+        "purple": "Lila",
+        "green": "Verd",
+        "burgundy": "Borgonya",
+        "copper": "Coure",
+        "strawberry_blonde": "Ros maduixa",
+        "ash_brown": "Marró cendra",
+        "golden_blonde": "Ros daurat",
+        "mahogany": "Caoba",
+        "pastel_pink": "Rosa pastel",
+        "ombre": "Ombré",
+        "balayage": "Balayage",
+        "highlights": "Meches",
+        "jet_black": "Negre intens",
+        "dark_brown": "Marró fosc",
+        "light_brown": "Marró clar",
+        "honey_blonde": "Ros Mel",
+        "dirty_blonde": "Ros Brut",
+        "cherry_red": "Vermell Cirera",
+        "violet": "Violeta"
+      },
+      "eyeColor": {
+        "brown": "Marró",
+        "blue": "Blau",
+        "green": "Verd",
+        "hazel": "Verd Castany",
+        "amber": "Ambre",
+        "gray": "Gris",
+        "heterochromia": "Heterocromia",
+        "violet": "Violeta",
+        "red_pink": "Vermell/Rosa",
+        "black": "Negre"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Prima",
+        "athletic": "Atlètica",
+        "average": "Normal",
+        "curvy": "Amb corbes",
+        "chubby": "Rabassuda"
+      },
+      "bodyTypeMale": {
+        "skinny": "Prim",
+        "athletic": "Atlètic",
+        "average": "Normal",
+        "muscular": "Musculós",
+        "heavy": "Pesant",
+        "big_tall": "Gran i Alt"
+      },
+      "breastSize": {
+        "small": "Petit",
+        "medium": "Mitjà",
+        "large": "Gran",
+        "extra_large": "Extra Gran"
+      },
+      "personality": {
+        "nympho": "Ninfòmana",
+        "lover": "Amant",
+        "submissive": "Submisa",
+        "dominant": "Dominant",
+        "temptress": "Temptadora",
+        "innocent": "Innocent",
+        "caregiver": "Cuidadora",
+        "experimenter": "Experimentadora",
+        "mean": "Malèvola",
+        "confidant": "Confident",
+        "shy": "Vergonyosa",
+        "queen": "Reina",
+        "adventurous": "Aventurera",
+        "romantic": "Romàntica",
+        "intellectual": "Intel·lectual",
+        "protector": "Protectora",
+        "rebel": "Rebel",
+        "optimist": "Optimista",
+        "realist": "Realista",
+        "free_spirit": "Esperit Lliure",
+        "leader": "Líder",
+        "loyal": "Lleial",
+        "playful": "Juguetó",
+        "mysterious": "Misteriós",
+        "ambitious": "Ambiciós",
+        "gentle": "Amable",
+        "sarcastic": "Sarcàstic",
+        "empathetic": "Empàtic",
+        "stoic": "Estoic",
+        "charismatic": "Carismàtic"
+      },
+      "relationship": {
+        "stranger": "Desconegut",
+        "girlfriend": "Nòvia",
+        "sex_friend": "Amic sexual",
+        "school_mate": "Company de classe",
+        "work_colleague": "Company de feina",
+        "wife": "Dona",
+        "mistress": "Amant",
+        "friend": "Amic",
+        "step_sister": "Germanastra",
+        "step_mom": "Madrasta",
+        "step_daughter": "Fillastra",
+        "landlord": "Propietari",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Cap",
+        "teacher": "Professor",
+        "student": "Estudiant",
+        "neighbour": "Veí",
+        "mother_in_law": "Sogra",
+        "sister_in_law": "Cunyada",
+        "boyfriend": "Nòvio",
+        "husband": "Marit",
+        "fiance": "Promès / Promesa",
+        "ex": "Ex",
+        "roommate": "Company de pis",
+        "best_friend": "Millor amic",
+        "classmate": "Company de classe",
+        "mentor": "Mentor",
+        "client": "Client",
+        "therapist": "Terapeuta",
+        "trainer": "Entrenador",
+        "rival": "Rival",
+        "crush": "Enamorament",
+        "secret_admirer": "Admirador secret",
+        "pen_pal": "Amic per carta",
+        "business_partner": "Soci comercial",
+        "babysitter": "Cangur",
+        "childhood_friend": "Amic d'infantesa",
+        "long_distance_partner": "Parella a distància"
+      },
+      "occupation": {
+        "student": "Estudiant",
+        "dancer": "Ballarí",
+        "model": "Model",
+        "maid": "Dona de fer feines",
+        "boss_ceo": "Cap / CEO",
+        "babysitter_au_pair": "Mainadera / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Barman",
+        "tech_engineer": "Enginyer tècnic",
+        "lifeguard": "Socorrista",
+        "cashier": "Caixer",
+        "massage_therapist": "Terapeuta de massatge",
+        "teacher": "Professor",
+        "nurse": "Infermera",
+        "secretary": "Secretari",
+        "yoga_instructor": "Instructor de ioga",
+        "fitness_coach": "Entrenador de fitness",
+        "cook": "Cuiner",
+        "artist": "Artista",
+        "movie_star_actress": "Estrella de cinema / Actriu",
+        "doctor": "Metge",
+        "librarian": "Bibliotecari",
+        "spy": "Espia",
+        "police_officer": "Agent de policia",
+        "soldier": "Soldat",
+        "lawyer": "Advocat",
+        "hairdresser": "Perruquer",
+        "dentist": "Dentista",
+        "singer_musician": "Cantant / Músic",
+        "gynecologist": "Ginecòleg",
+        "writer": "Escriptor",
+        "flight_attendant": "Auxiliar de vol",
+        "professional_athlete": "Atleta professional",
+        "scientist": "Científic",
+        "florist": "Florista",
+        "makeup_artist": "Maquillador",
+        "photographer": "Fotògraf",
+        "social_worker": "Treballador social",
+        "designer": "Dissenyador",
+        "pharmacist": "Farmacèutic",
+        "nutritionist": "Nutricionista",
+        "architect": "Arquitecte",
+        "veterinarian": "Veterinari",
+        "mechanic": "Mecànic",
+        "journalist": "Periodista",
+        "pilot": "Pilot",
+        "firefighter": "Bomber",
+        "accountant": "Comptable",
+        "electrician": "Electricista",
+        "carpenter": "Fuster",
+        "psychologist": "Psicòleg",
+        "real_estate_agent": "Agent immobiliari",
+        "chef": "Xef",
+        "farmer": "Granger",
+        "delivery_driver": "Repartidor",
+        "janitor": "Conserge",
+        "security_guard": "Vigilant de seguretat",
+        "banker": "Banquer",
+        "judge": "Jutge",
+        "paramedic": "Paramèdic",
+        "actor": "Actor",
+        "comedian": "Comediant",
+        "archaeologist": "Arqueòleg",
+        "astronaut": "Astronauta"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Cops",
+        "collar_leash": "Collaret i corretja",
+        "punishment": "Càstig",
+        "humiliation": "Humiliació",
+        "public_play": "Joc en públic",
+        "roleplay": "Joc de rol",
+        "anal_play": "Joc anal",
+        "oral_play": "Joc oral",
+        "cum_play": "Joc amb semen",
+        "creampie": "Creampie",
+        "squirting": "Squirt",
+        "dirty_talk": "Parla bruta",
+        "breeding": "Embaràs",
+        "daddy_mommy_dominance": "Dominància Daddy/Mommy",
+        "edging": "Edging",
+        "obedience": "Obediència",
+        "control": "Control",
+        "inexperienced": "Sense experiència",
+        "shy_flirting": "Coqueteig tímid",
+        "playful_teasing": "Brometa juganera",
+        "cuddling": "Abraçar",
+        "slow_sensual": "Lent i sensual",
+        "hair_pulling": "Estirar els cabells",
+        "foot_fetish": "Fetixisme dels peus",
+        "voyeurism": "Voyeurisme",
+        "exhibitionism": "Exhibicionisme",
+        "sensation_play": "Joc de sensacions",
+        "wax_play": "Joc amb cera",
+        "pet_play": "Joc de mascota",
+        "age_play": "Joc d'edat",
+        "medical_play": "Joc mèdic",
+        "orgasm_control_denial": "Control/negació de l'orgasme",
+        "forced_orgasms": "Orgasmos forçats",
+        "group_sex": "Sexe en grup",
+        "threesomes": "Trio",
+        "swapping": "Intercanvi",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Dominació suau",
+        "sensation_deprivation": "Privació sensorial",
+        "sensory_overload": "Sobrecàrrega sensorial",
+        "uniform_costume_fetish": "Fetix d'uniformes/disfresses",
+        "food_play": "Joc amb menjar",
+        "watersports": "Watersports",
+        "bdsm": "BDSM",
+        "impact_play": "Joc d'impacte",
+        "knife_play": "Joc amb ganivets",
+        "consensual_non_consent": "No-consentiment consentit",
+        "power_exchange": "Intercanvi de poder",
+        "master_slave": "Amo/Esclau",
+        "owner_pet": "Propietari/Mascota"
+      },
+      "languages": {
+        "en": "Anglès",
+        "cs": "Txec",
+        "pl": "Polonès",
+        "de": "Alemany",
+        "es": "Castellà",
+        "fr": "Francès"
+      }
+    }
+  },
+  "myAI": {
+    "title": "La meva IA",
+    "titlePart1": "La meva",
+    "titlePart2": "IA",
+    "createNew": "Crea una nova IA",
+    "createButton": "Crea un personatge",
+    "characterCount": "{count}/{limit} personatges",
+    "loadMore": "Carrega'n més",
+    "empty": {
+      "title": "Encara no hi ha personatges",
+      "description": "Crea el teu primer personatge d'IA i comença a xatejar! Personalitza'n l'aparença, la personalitat i la veu.",
+      "createFirst": "Crea el teu primer personatge"
+    },
+    "delete": {
+      "title": "Suprimeix el personatge",
+      "message": "Segur que vols suprimir {name}? Això eliminarà permanentment el personatge, tot l'historial de xats i el contingut generat.",
+      "confirm": "Suprimeix",
+      "success": "Personatge suprimit correctament"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interacció",
+    "interactionDescription": "Escriu de manera natural: demana una foto, un vídeo o inicia una conversa. La IA entén la teva intenció en qualsevol idioma.",
+    "mediaTitle": "Genera imatges i vídeos",
+    "mediaDescription": "Desferma la teva imaginació: genera imatges o vídeos sense límits.",
+    "next": "Següent →",
+    "gotIt": "Entesos"
+  }
+}

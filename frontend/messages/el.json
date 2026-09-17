@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Αποθήκευση",
+    "cancel": "Ακύρωση",
+    "delete": "Διαγραφή",
+    "edit": "Επεξεργασία",
+    "close": "Κλείσιμο",
+    "now": "τώρα",
+    "loading": "Φόρτωση...",
+    "error": "Παρουσιάστηκε σφάλμα",
+    "success": "Επιτυχία",
+    "confirm": "Επιβεβαίωση",
+    "back": "Πίσω",
+    "or": "Ή",
+    "next": "Επόμενο",
+    "submit": "Υποβολή",
+    "search": "Αναζήτηση",
+    "filter": "Φίλτρο",
+    "clear": "Εκκαθάριση",
+    "all": "Όλα",
+    "yes": "Ναι",
+    "no": "Όχι",
+    "download": "Λήψη",
+    "and": "και",
+    "tryAgain": "Δοκιμάστε ξανά",
+    "change": "Αλλαγή"
+  },
+  "navigation": {
+    "new": "ΝΕΟ",
+    "sectionBrowse": "Περιήγηση",
+    "sectionTalk": "Συζήτηση",
+    "sectionCreate": "Δημιουργία",
+    "sectionLibrary": "Βιβλιοθήκη",
+    "explore": "Αρχική",
+    "discover": "Ανακάλυψη",
+    "createShort": "Δημιουργία AI",
+    "chats": "Συζητήσεις",
+    "groupChat": "Ομαδική Συζήτηση AI",
+    "roleplay": "Roleplay",
+    "collection": "Συλλογή",
+    "generateImage": "Δημιουργία Εικόνας",
+    "generateVideo": "Δημιουργία Βίντεο",
+    "createCharacter": "Δημιουργία AI Χαρακτήρα",
+    "myAI": "Το AI μου",
+    "language": "Γλώσσα",
+    "contactUs": "Επικοινωνία",
+    "account": "Λογαριασμός",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Γυναίκες",
+      "anime": "Anime",
+      "guys": "Άνδρες"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Συνομιλία τώρα",
+    "like": "Μου αρέσει"
+  },
+  "auth": {
+    "login": "Σύνδεση",
+    "signup": "Εγγραφή",
+    "createFreeAccount": "Δημιουργήστε δωρεάν λογαριασμό",
+    "logout": "Αποσύνδεση",
+    "email": "Email",
+    "password": "Κωδικός πρόσβασης",
+    "confirmPassword": "Επιβεβαίωση κωδικού",
+    "forgotPassword": "Ξεχάσατε τον κωδικό;",
+    "noAccount": "Δεν έχετε λογαριασμό;",
+    "hasAccount": "Έχετε ήδη λογαριασμό;",
+    "signupPrompt": "Δημιουργία δωρεάν λογαριασμού",
+    "loginPrompt": "Σύνδεση",
+    "continueWith": "Συνέχεια με",
+    "welcomeBack": "Καλώς ήρθατε ξανά!",
+    "createAccount": "Δημιουργήστε τον λογαριασμό σας",
+    "signInToAccount": "Συνδεθείτε στον λογαριασμό σας",
+    "emailRequired": "Το email είναι υποχρεωτικό",
+    "emailInvalid": "Μη έγκυρη διεύθυνση email",
+    "passwordRequired": "Ο κωδικός είναι υποχρεωτικός",
+    "passwordLength": "Ο κωδικός πρέπει να έχει τουλάχιστον 6 χαρακτήρες",
+    "passwordsMismatch": "Οι κωδικοί δεν ταιριάζουν",
+    "emailAlreadyRegistered": "Το email είναι ήδη καταχωρημένο",
+    "emailAlreadyRegisteredDescription": "Υπάρχει ήδη λογαριασμός με αυτό το email. Παρακαλώ συνδεθείτε.",
+    "loginError": "Αποτυχία σύνδεσης",
+    "signupError": "Αποτυχία εγγραφής",
+    "loginSuccess": "Καλώς ήρθατε ξανά!",
+    "signupSuccess": "Ο λογαριασμός δημιουργήθηκε με επιτυχία!",
+    "logoutSuccess": "Αποσυνδεθήκατε με επιτυχία",
+    "logoutError": "Αποτυχία αποσύνδεσης",
+    "linkExpired": "Αυτός ο σύνδεσμος επαλήθευσης έχει λήξει. Παρακαλώ ζητήστε νέο.",
+    "accessDenied": "Δεν επιτρέπεται η πρόσβαση. Προσπαθήστε ξανά.",
+    "verifyEmail": "Επαληθεύστε το email σας",
+    "verificationEmailSent": "Σας στείλαμε email επαλήθευσης",
+    "confirmYourEmail": "Επιβεβαιώστε το email σας",
+    "confirmationLinkSent": "Στείλαμε σύνδεσμο επιβεβαίωσης στο \"{email}\".",
+    "checkSpamFolder": "Δεν λάβατε το email; Ελέγξτε τον φάκελο spam.",
+    "signupToChat": "Δημιουργήστε δωρεάν λογαριασμό για να ξεκινήσετε.",
+    "signupDescription": "Δημιουργήστε λογαριασμό για να συνεχίσετε τη συνομιλία σας",
+    "emailVerificationTitle": "Ελέγξτε το email σας",
+    "emailVerificationMessage": "Στείλαμε σύνδεσμο επαλήθευσης στο {email}. Ελέγξτε τα εισερχόμενά σας και κάντε κλικ στον σύνδεσμο για να επαληθεύσετε τον λογαριασμό σας.",
+    "emailVerificationNext": "Μετά την επαλήθευση, θα ολοκληρώσετε τη διαδικασία ενεργοποίησης.",
+    "verificationEmailSentTo": "Στείλαμε email επαλήθευσης στο {email}",
+    "verificationInstructions": "Ελέγξτε τα εισερχόμενά σας και κάντε κλικ στον σύνδεσμο επαλήθευσης για να ενεργοποιήσετε τον λογαριασμό σας.",
+    "resetPassword": "Επαναφορά κωδικού",
+    "resetPasswordDescription": "Εισαγάγετε το email σας και θα σας στείλουμε σύνδεσμο επαναφοράς",
+    "resetEmailSent": "Αν υπάρχει λογαριασμός με αυτό το email, θα λάβετε σύνδεσμο επαναφοράς σύντομα",
+    "backToLogin": "Πίσω στη Σύνδεση",
+    "newPassword": "Νέος κωδικός",
+    "confirmNewPassword": "Επιβεβαίωση νέου κωδικού",
+    "passwordResetSuccess": "Ο κωδικός ενημερώθηκε με επιτυχία. Συνδεθείτε.",
+    "enterNewPassword": "Εισαγάγετε τον νέο κωδικό σας",
+    "redirectingToLogin": "Ανακατεύθυνση στη σύνδεση...",
+    "invalidResetLink": "Μη έγκυρος ή ληγμένος σύνδεσμος",
+    "invalidResetLinkDescription": "Αυτός ο σύνδεσμος επαναφοράς κωδικού δεν είναι έγκυρος ή έχει λήξει. Ζητήστε νέο.",
+    "passwordsDontMatch": "Οι κωδικοί δεν ταιριάζουν",
+    "currentPassword": "Τρέχων κωδικός",
+    "currentPasswordRequired": "Ο τρέχων κωδικός είναι υποχρεωτικός",
+    "changePassword": "Αλλαγή κωδικού",
+    "changePasswordDescription": "Εισαγάγετε τον τρέχοντα κωδικό σας και επιλέξτε νέο",
+    "newPasswordMustBeDifferent": "Ο νέος κωδικός πρέπει να διαφέρει από τον τρέχοντα",
+    "incorrectPassword": "Ο τρέχων κωδικός είναι λανθασμένος",
+    "passwordChangeSuccess": "Ο κωδικός άλλαξε με επιτυχία",
+    "changeEmail": "Αλλαγή email",
+    "newEmail": "Νέο email",
+    "confirmNewEmail": "Επιβεβαίωση νέου email",
+    "emailsDontMatch": "Τα email δεν ταιριάζουν",
+    "emailChangeDescription": "Θα σταλεί email επαλήθευσης τόσο στο τρέχον όσο και στο νέο email σας",
+    "emailMustBeDifferent": "Το νέο email πρέπει να διαφέρει από το τρέχον",
+    "emailChangeSent": "Στάλθηκε email επαλήθευσης. Ελέγξτε τα εισερχόμενα του νέου email σας.",
+    "emailChangeSecurityNote": "Για λόγους ασφαλείας, θα σταλούν emails επιβεβαίωσης και στα δύο email σας. Πρέπει να επιβεβαιώσετε και τα δύο για να ολοκληρωθεί η αλλαγή.",
+    "otpDescription": "Στείλαμε έναν 6ψήφιο κωδικό στο {email}",
+    "otpVerify": "Επαλήθευση",
+    "otpResend": "Επαναποστολή κωδικού",
+    "otpResendIn": "Επαναποστολή σε {seconds}δ",
+    "otpNoCode": "Δεν λάβατε τον κωδικό;",
+    "otpInvalid": "Μη έγκυρος κωδικός. Προσπαθήστε ξανά.",
+    "otpSuccess": "Το email επαληθεύτηκε με επιτυχία!",
+    "otpResendSuccess": "Νέος κωδικός στάλθηκε στο email σας",
+    "otpResendError": "Αποτυχία επαναποστολής κωδικού",
+    "continueWithEmail": "Συνέχεια με Email",
+    "moreOptions": "Περισσότερες επιλογές",
+    "lessOptions": "Λιγότερες επιλογές",
+    "enterYourEmail": "Εισαγάγετε το email σας",
+    "sendCode": "Αποστολή κωδικού",
+    "byCreatingAccountAgree": "Δημιουργώντας λογαριασμό, συμφωνείτε με τους",
+    "termsOfService": "Όροι Χρήσης",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Καλώς ήρθατε στο sweetwine",
+    "welcomeTo": "Καλώς ήρθατε στο",
+    "letsGetStarted": "Ας ξεκινήσουμε τη ρύθμιση",
+    "setupProfile": "Ρύθμιση προφίλ",
+    "step1of2": "Βήμα 1 από 2",
+    "step2of2": "Βήμα 2 από 2",
+    "nickname": "Ψευδώνυμο",
+    "nicknamePlaceholder": "Επιλέξτε ψευδώνυμο",
+    "nicknameRequired": "Παρακαλώ εισάγετε ψευδώνυμο",
+    "gender": "Φύλο",
+    "genderRequired": "Παρακαλώ επιλέξτε το φύλο σας",
+    "male": "Άνδρας",
+    "female": "Γυναίκα",
+    "interfaceLanguage": "Γλώσσα διεπαφής",
+    "interfaceLanguageDesc": "Γλώσσα για μενού και κουμπιά",
+    "aiLanguage": "Γλώσσα απαντήσεων AI",
+    "aiLanguageDesc": "Γλώσσα που θα χρησιμοποιεί το AI όταν μιλάει μαζί σας",
+    "languageRequired": "Παρακαλώ επιλέξτε γλώσσα",
+    "continue": "Συνέχεια",
+    "ageVerification": "Επαλήθευση ηλικίας",
+    "ageVerificationText": "Για να χρησιμοποιήσετε το sweetwine, πρέπει να είστε 18 ετών ή μεγαλύτεροι. Συνεχίζοντας, επιβεβαιώνετε ότι είστε σε νόμιμη ηλικία.",
+    "beforeContinue": "Πριν συνεχίσετε",
+    "mustBe18": "Πρέπει να είστε 18 ετών ή μεγαλύτεροι για να χρησιμοποιήσετε αυτήν την υπηρεσία",
+    "agreeToTerms": "Συνεχίζοντας, συμφωνείτε με τους {termsLink} και την {privacyLink}",
+    "termsOfService": "Όροι χρήσης",
+    "privacyPolicy": "Πολιτική απορρήτου",
+    "iConfirm": "Επιβεβαιώνω ότι είμαι 18 ετών ή μεγαλύτερος και συμφωνώ με τους",
+    "ageRequired": "Πρέπει να επιβεβαιώσετε την ηλικία σας για να συνεχίσετε",
+    "aiActConsent": "Αναγνωρίζω ότι επικοινωνώ αποκλειστικά με AI",
+    "aiActRequired": "Πρέπει να το αναγνωρίσετε για να συνεχίσετε",
+    "newsletterOptIn": "Εγγραφείτε στο newsletter μας για ενημερώσεις και νέα",
+    "complete": "Η ρύθμιση ολοκληρώθηκε!",
+    "completeText": "Όλα έτοιμα! Ξεκινήστε συνομιλίες με χαρακτήρες AI.",
+    "startExploring": "Ξεκινήστε την εξερεύνηση",
+    "featuresTitle": "Διαθέσιμες λειτουργίες",
+    "featuresTitleWord1": "Διαθέσιμες",
+    "featuresTitleWord2": "Λειτουργίες",
+    "feature1Title": "Συνομιλία AI",
+    "feature1Desc": "Χωρίς λογοκρισία και ιδιωτικές συνομιλίες",
+    "feature2Title": "Δημιουργία εικόνων",
+    "feature2Desc": "Δημιουργήστε εικόνες χωρίς λογοκρισία και εξατομικευμένες με χαρακτήρες AI",
+    "feature3Title": "Δημιουργία βίντεο",
+    "feature3Desc": "Δημιουργήστε βίντεο AI χωρίς λογοκρισία με εφέ",
+    "feature5Title": "Προσαρμοσμένος δημιουργός AI",
+    "feature5Desc": "Σχεδιάστε τον δικό σας χαρακτήρα",
+    "feature6Title": "Περιήγηση χαρακτήρων",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "Roleplay AI",
+    "feature7Desc": "Ζήστε επαγγελματικά σχεδιασμένες ιστορίες και φαντασιώσεις",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Αποκλειστικές, ιδιωτικές συνομιλίες χωρίς όρια",
+      "imageTitle": "Image Generation",
+      "imageDesc": "Δημιούργησε αποκλειστικές, εξατομικευμένες εικόνες της AI σου",
+      "videoTitle": "Video Generation",
+      "videoDesc": "Παρήγαγε αποκλειστικά βίντεο AI με εφέ",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Συνομιλίες φωνής σε πραγματικό χρόνο με τη συνοδό σου",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Βιωματικές ιστορίες, φαντασιώσεις και διαδραστικό παιχνίδι",
+      "groupChatTitle": "AI Group Chat",
+      "groupChatDesc": "Συνομίλησε με έως 3 χαρακτήρες AI ταυτόχρονα",
+      "creatorTitle": "Custom AI Creator",
+      "creatorDesc": "Σχεδίασε και δημιούργησε τους δικούς σου χαρακτήρες AI"
+    },
+    "freePlan": {
+      "title": "Όλα έτοιμα!",
+      "subtitle": "Δείτε τι περιλαμβάνει το δωρεάν πακέτο σας.",
+      "charactersTitle": "Δημιουργήστε τον δικό σας χαρακτήρα",
+      "charactersDesc": "Σχεδιάστε {count} προσαρμοσμένο χαρακτήρα AI από το μηδέν",
+      "imagesTitle": "Δημιουργήστε μια εικόνα",
+      "imagesDesc": "{count} δωρεάν εικόνα AI της συντρόφου σας",
+      "messagesTitle": "Συνομιλήστε κάθε μέρα",
+      "messagesDesc": "{count} μηνύματα την ημέρα, ανανέωση κάθε 24 ώρες",
+      "cta": "Ξεκινήστε την εξερεύνηση"
+    },
+    "redirectingIn": "Ανακατεύθυνση σε",
+    "seconds": "δευτερόλεπτα",
+    "generateCharacter": "Δημιουργήστε τον χαρακτήρα σας",
+    "redirectingToCreate": "Ανακατεύθυνση στον δημιουργό χαρακτήρων σε"
+  },
+  "errors": {
+    "pageNotFound": "Η σελίδα δεν βρέθηκε",
+    "pageNotFoundDesc": "Η σελίδα που αναζητάτε δεν υπάρχει.",
+    "goHome": "Αρχική",
+    "somethingWentWrong": "Κάτι πήγε στραβά",
+    "tryAgain": "Δοκιμάστε ξανά",
+    "unauthorized": "Μη εξουσιοδοτημένη πρόσβαση",
+    "unauthorizedDesc": "Πρέπει να συνδεθείτε για να αποκτήσετε πρόσβαση σε αυτή τη σελίδα.",
+    "forbidden": "Απαγορευμένη πρόσβαση",
+    "forbiddenDesc": "Δεν έχετε άδεια πρόσβασης σε αυτή τη σελίδα."
+  },
+  "footer": {
+    "allRightsReserved": "Με επιφύλαξη παντός δικαιώματος.",
+    "madeWith": "Φτιαγμένο με",
+    "by": "από sweetwine",
+    "description": "Απολαύστε εξατομικευμένους AI χαρακτήρες με ξεχωριστές προσωπικότητες, οπτικές ταυτότητες και συναρπαστικές συνομιλίες.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Προϊόν",
+    "legal": "Νομικά",
+    "company": "Εταιρεία",
+    "resources": "Πόροι",
+    "partnerships": "Συνεργασίες",
+    "pressMedia": "Τύπος & Μέσα",
+    "careers": "Καριέρα",
+    "aiRealClones": "AI real clones",
+    "about": "Σχετικά",
+    "blog": "Blog",
+    "news": "Νέα",
+    "productUpdates": "Ενημερώσεις προϊόντος",
+    "help": "Βοήθεια",
+    "sitemap": "Χάρτης ιστότοπου",
+    "paymentOptions": "Επιλογές πληρωμής",
+    "chats": "Συνομιλίες",
+    "collection": "Συλλογή",
+    "generateImage": "Δημιουργία εικόνας",
+    "generateVideo": "Δημιουργία βίντεο",
+    "myAI": "Το AI μου",
+    "createCharacter": "Δημιουργία χαρακτήρα",
+    "api": "API",
+    "features": "Δυνατότητες",
+    "allFeatures": "Όλες οι δυνατότητες",
+    "aiGroupChat": "Ομαδική συνομιλία AI",
+    "aiMemory": "Μνήμη AI",
+    "aiGirlfriend": "AI girlfriend",
+    "aiBoyfriend": "AI boyfriend",
+    "aiCompanions": "AI χαρακτήρες",
+    "aiFriend": "AI φίλος",
+    "aiBreakupSupport": "Υποστήριξη μετά από χωρισμό",
+    "aiParent": "AI γονέας",
+    "aiRoleplay": "AI roleplay",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "termsAndConditions": "Όροι & Προϋποθέσεις",
+    "cookiePolicy": "Πολιτική Cookies",
+    "cookieSettings": "Ρυθμίσεις Cookies",
+    "other": "Άλλες Πολιτικές",
+    "copyright": "© {year} sweetwine. Με επιφύλαξη παντός δικαιώματος."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies σε αυτόν τον ιστότοπο",
+      "customizeButton": "Προσαρμογή",
+      "rejectButton": "Απόρριψη",
+      "acceptButton": "Αποδοχή"
+    },
+    "modal": {
+      "title": "Διαχείριση cookies",
+      "subtitle": "Ενεργοποιήστε ή απενεργοποιήστε τις κατηγορίες παρακάτω. Τα απολύτως απαραίτητα cookies παραμένουν ενεργά για να λειτουργεί ο ιστότοπος.",
+      "categories": {
+        "necessary": {
+          "title": "Απολύτως απαραίτητα",
+          "description": "Απαιτούνται για σύνδεση, ολοκλήρωση αγοράς και ασφάλεια. Ο ιστότοπος δεν μπορεί να λειτουργήσει χωρίς αυτά.",
+          "alwaysOn": "Πάντα ενεργά"
+        },
+        "analytics": {
+          "title": "Απόδοση",
+          "description": "Μέτρηση χρήσης και μετατροπών μέσω Google Analytics 4, συμπεριλαμβανομένων βασικών μετατροπών (εγγραφή, αγορά) που αποστέλλονται από τον διακομιστή μας με ψευδώνυμο αναγνωριστικό. Μας βοηθά να καταλάβουμε πώς χρησιμοποιείται η υπηρεσία· δεν το χρησιμοποιούμε για προσωπική σας ταυτοποίηση."
+        },
+        "marketing": {
+          "title": "Στόχευση",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Εμφάνιση cookies",
+      "hideCookies": "Απόκρυψη cookies",
+      "table": {
+        "name": "Όνομα",
+        "provider": "Πάροχος",
+        "expiration": "Λήξη",
+        "description": "Περιγραφή",
+        "session": "Συνεδρία"
+      },
+      "policyLink": "Για πλήρεις λεπτομέρειες, δείτε την <policy>Πολιτική Cookies</policy> μας.",
+      "rejectButton": "Απόρριψη",
+      "saveButton": "Αποθήκευση & Κλείσιμο",
+      "acceptButton": "Αποδοχή",
+      "cookieDescriptions": {
+        "supabaseAuth": "Σας κρατά συνδεδεμένους αποθηκεύοντας την πιστοποιημένη συνεδρία σας.",
+        "nextLocale": "Θυμάται τη γλώσσα που έχετε επιλέξει για το περιβάλλον.",
+        "consent": "Αποθηκεύει τις επιλογές σας για τα cookies ώστε το banner να μην εμφανίζεται σε κάθε επίσκεψη.",
+        "ga": "Διακρίνει μοναδικούς επισκέπτες (Google Analytics 4). Το ίδιο ψευδώνυμο αναγνωριστικό χρησιμοποιείται και για τη μέτρηση βασικών μετατροπών από τον διακομιστή.",
+        "gaSession": "Διατηρεί την κατάσταση συνεδρίας και τις μετρήσεις αλληλεπίδρασης του Google Analytics 4.",
+        "fbp": "Αναγνωρίζει το πρόγραμμα περιήγησης για απόδοση Meta Pixel.",
+        "fbc": "Αποθηκεύει ένα Facebook click ID για απόδοση μετατροπής διαφήμισης. Ορίζεται μόνο μετά από κλικ σε διαφήμιση Meta.",
+        "gclAu": "Χρησιμοποιείται από το Google Ads για σύνδεση μετατροπών μεταξύ ιστότοπων.",
+        "saleCountdown": "Παρακολουθεί το τέλος της τρέχουσας προσφοράς σας ώστε η αντίστροφη μέτρηση έκπτωσης να παραμένει συνεπής σε όλες τις σελίδες.",
+        "onboarded": "Σημειώνει ότι ο λογαριασμός σας έχει ολοκληρώσει την εισαγωγή ώστε να παραλείπουμε τον έλεγχο επαλήθευσης ηλικίας σε επόμενες σελίδες.",
+        "attribution": "Καταγράφει ποια πληρωμένη καμπάνια ή διαφημιστικός σύνδεσμος σας έφερε πιο πρόσφατα στον ιστότοπό μας (τελευταίο πληρωμένο κλικ εντός 30 ημερών), ώστε να μετρήσουμε την αποτελεσματικότητα της διαφήμισής μας. Πρόκειται για αναγνωριστικό πρώτου μέρους που παραμένει στους διακομιστές μας και δεν κοινοποιείται ποτέ σε τρίτους."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Έρχεται Σύντομα",
+    "subtitle": "Δουλεύουμε σκληρά για να σας φέρουμε αυτή τη λειτουργία.",
+    "notify": "Ενημερωθείτε όταν είναι έτοιμο",
+    "backHome": "Πίσω στην Αρχική",
+    "generateVideo": {
+      "title": "Δημιουργία Βίντεο",
+      "description": "Ζωντάνεψε τους AI χαρακτήρες σου με κινούμενα βίντεο. Δημιούργησε εξατομικευμένο περιεχόμενο βίντεο με τους αγαπημένους σου χαρακτήρες."
+    },
+    "createCharacter": {
+      "title": "Δημιούργησε τον Χαρακτήρα σου",
+      "description": "Σχεδίασε και προσαρμόσε τον δικό σου μοναδικό AI χαρακτήρα. Όρισε την προσωπικότητα, την εμφάνιση, το backstory και δημιούργησε πραγματικά προσωπικές αλληλεπιδράσεις."
+    },
+    "myAI": {
+      "title": "Το AI μου",
+      "description": "Πρόσβασε και διαχείρισε όλους τους προσαρμοσμένους AI χαρακτήρες σου. Επεξεργάσου τις προσωπικότητές τους, ενημέρωσε την εμφάνισή τους και ρύθμισε τις απαντήσεις τους."
+    }
+  },
+  "exploreMore": {
+    "title": "Εξερεύνησε Περισσότερα",
+    "aiGroupChat": "Ομαδική συνομιλία AI",
+    "aiGroupChatDesc": "Συνομίλησε με έως 3 χαρακτήρες",
+    "aiMemory": "Μνήμη AI",
+    "aiMemoryDesc": "Πλαίσιο που ακολουθεί κάθε λειτουργία",
+    "aiGirlfriend": "AI φιλενάδα",
+    "aiGirlfriendDesc": "Συνομίλησε με την εικονική σου φιλενάδα",
+    "aiBoyfriend": "AI φίλος",
+    "aiBoyfriendDesc": "Συνδέσου με τον AI φίλο σου",
+    "aiCompanions": "AI χαρακτήρες",
+    "aiCompanionsDesc": "Γνώρισε μοναδικές προσωπικότητες AI",
+    "aiFriend": "AI φίλος",
+    "aiFriendDesc": "Βρες έναν φίλο χωρίς κριτική",
+    "aiBreakupSupport": "Υποστήριξη μετά από χωρισμό",
+    "aiBreakupSupportDesc": "Θεραπευτικές συνομιλίες",
+    "aiParent": "AI γονέας",
+    "aiParentDesc": "Ζεστή υποστήριξη & καθοδήγηση",
+    "aiRoleplay": "AI roleplay",
+    "aiRoleplayDesc": "Βιωματικά σενάρια ιστοριών",
+    "allFeatures": "Όλες οι λειτουργίες",
+    "allFeaturesDesc": "Ανακαλύψτε όλα όσα προσφέρουμε"
+  },
+  "legal": {
+    "policies": "Πολιτικές",
+    "termsAndConditions": "Όροι και Προϋποθέσεις",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "cookiePolicy": "Πολιτική Cookies",
+    "contentReportingPolicy": "Πολιτική Αναφοράς Περιεχομένου",
+    "communityGuidelines": "Οδηγίες Κοινότητας",
+    "complaintPolicy": "Πολιτική Παραπόνων",
+    "contentRemovalPolicy": "Πολιτική Αφαίρεσης Περιεχομένου",
+    "blockedContentPolicy": "Πολιτική Αποκλεισμένου Περιεχομένου",
+    "underagePolicy": "Πολιτική Ανηλίκων",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Τελευταία Ενημέρωση",
+    "index": {
+      "title": "Νομικά Έγγραφα",
+      "subtitle": "Περιηγηθείτε σε όλες τις νομικές πολιτικές και συμφωνίες που σχετίζονται με το sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Πολιτική Απορρήτου",
+          "description": "Μάθετε πώς συλλέγουμε, χρησιμοποιούμε και προστατεύουμε τα προσωπικά σας δεδομένα. Λεπτομέρειες σχετικά με τη διαχείριση δεδομένων, την αποθήκευση και τα δικαιώματα απορρήτου σας."
+        },
+        "termsAndConditions": {
+          "title": "Όροι και Προϋποθέσεις",
+          "description": "Οι όροι χρήσης που διέπουν τη χρήση του sweetwine. Ευθύνες χρηστών, περιγραφή υπηρεσίας και νομικές συμφωνίες."
+        },
+        "cookiePolicy": {
+          "title": "Πολιτική Cookies",
+          "description": "Πληροφορίες σχετικά με τον τρόπο χρήσης cookies και παρόμοιων τεχνολογιών για τη βελτίωση της εμπειρίας σας στην πλατφόρμα μας."
+        },
+        "underagePolicy": {
+          "title": "Πολιτική Ανηλίκων",
+          "description": "Οι αυστηρές πολιτικές επαλήθευσης ηλικίας και προστασίας μας. Το sweetwine είναι διαθέσιμο μόνο σε χρήστες 18 ετών και άνω."
+        },
+        "complaintPolicy": {
+          "title": "Πολιτική Παραπόνων",
+          "description": "Πώς να υποβάλετε παράπονα, να αναφέρετε προβλήματα και η διαδικασία μας για τη διαχείριση ανησυχιών και διαφορών χρηστών."
+        },
+        "contentRemovalPolicy": {
+          "title": "Πολιτική Αφαίρεσης Περιεχομένου",
+          "description": "Οι διαδικασίες μας για αιτήματα αφαίρεσης περιεχομένου και ο τρόπος χειρισμού αναφορών για ακατάλληλο ή παράνομο περιεχόμενο."
+        },
+        "blockedContentPolicy": {
+          "title": "Πολιτική Αποκλεισμένου Περιεχομένου",
+          "description": "Τύποι περιεχομένου που απαγορεύονται στην πλατφόρμα μας και οι πολιτικές επιβολής μας."
+        },
+        "contentReportingPolicy": {
+          "title": "Πολιτική Αναφοράς Περιεχομένου",
+          "description": "Πώς να αναφέρετε παραβιάσεις πνευματικών δικαιωμάτων και ακατάλληλο περιεχόμενο στο sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Οδηγίες Κοινότητας",
+          "description": "Κανόνες και οδηγίες για τη διατήρηση μιας σεβαστής, ασφαλούς και ευχάριστης κοινότητας για όλους τους χρήστες."
+        }
+      },
+      "lastUpdated": "Τελευταία ενημέρωση: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Συνομιλίες",
+    "groupChat": "Ομαδική Συνομιλία AI",
+    "aiMemory": "Μνήμη AI",
+    "generate": "Δημιουργία Εικόνας",
+    "generateVideo": "Δημιουργία Βίντεο",
+    "create": "Δημιουργία Χαρακτήρα AI",
+    "myAI": "Το AI μου",
+    "collection": "Συλλογή",
+    "invite": "Πρόσκληση",
+    "profile": "Ρυθμίσεις Προφίλ",
+    "legal": "Νομικά",
+    "privacyPolicy": "Πολιτική Απορρήτου",
+    "termsAndConditions": "Όροι και Προϋποθέσεις",
+    "cookiePolicy": "Πολιτική Cookies",
+    "dmcaPolicy": "Πολιτική DMCA",
+    "communityGuidelines": "Οδηγίες Κοινότητας",
+    "contentRemovalPolicy": "Πολιτική Αφαίρεσης Περιεχομένου",
+    "contentReportingPolicy": "Πολιτική Αναφοράς Περιεχομένου",
+    "complaintPolicy": "Πολιτική Παραπόνων",
+    "blockedContentPolicy": "Πολιτική Αποκλεισμένου Περιεχομένου",
+    "underagePolicy": "Πολιτική Ανηλίκων",
+    "usc2257Exemption": "Εξαίρεση USC 2257"
+  },
+  "contact": {
+    "title": "Επικοινωνήστε μαζί μας",
+    "subtitle": "Έχετε ερώτηση ή σχόλιο; Θα χαρούμε να σας ακούσουμε.",
+    "name": "Όνομα",
+    "namePlaceholder": "Το όνομά σας",
+    "nameRequired": "Το όνομα είναι υποχρεωτικό",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Το email είναι υποχρεωτικό",
+    "emailInvalid": "Μη έγκυρη διεύθυνση email",
+    "message": "Μήνυμα",
+    "messagePlaceholder": "Το μήνυμά σας...",
+    "messageRequired": "Το μήνυμα είναι υποχρεωτικό",
+    "send": "Αποστολή Μηνύματος",
+    "sending": "Αποστολή...",
+    "success": "Το μήνυμα στάλθηκε με επιτυχία!",
+    "successDesc": "Θα επικοινωνήσουμε σύντομα μαζί σας.",
+    "error": "Αποτυχία αποστολής μηνύματος",
+    "errorDesc": "Προσπαθήστε ξανά αργότερα."
+  },
+  "groupChat": {
+    "lobbyTitle": "Ομαδική συνομιλία AI",
+    "lobbyHeadingSuffix": "Επιλέξτε έως {max} χαρακτήρες AI",
+    "history": "Ιστορικό",
+    "newGroup": "Νέα ομαδική συνομιλία",
+    "createGroup": "Δημιουργία ομαδικής συνομιλίας",
+    "createError": "Δεν ήταν δυνατή η δημιουργία ομαδικής συνομιλίας. Προσπαθήστε ξανά.",
+    "creatingGroup": "Ρύθμιση της ομαδικής σας συνομιλίας...",
+    "sectionWoman": "Γυναίκες",
+    "sectionMan": "Άνδρες",
+    "sectionAnime": "Anime",
+    "tabPremade": "Χαρακτήρες AI",
+    "tabMyAi": "Το AI μου",
+    "tabSingle": "Μονές συνομιλίες",
+    "tabGroup": "Ομαδικές συνομιλίες",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Φόρτωση περισσότερων",
+    "noCustom": "Δεν έχετε δημιουργήσει ακόμη χαρακτήρες AI.",
+    "noMessagesYet": "Δεν υπάρχουν μηνύματα ακόμη",
+    "emptyTitle": "Δεν υπάρχουν ομαδικές συνομιλίες ακόμη",
+    "membersTitle": "Σε αυτή τη συνομιλία",
+    "typing": "πληκτρολογεί",
+    "backToLobby": "Πίσω στις ομαδικές συνομιλίες",
+    "deleteGroup": "Διαγραφή ομαδικής συνομιλίας",
+    "confirmDeleteGroup": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την ομαδική συνομιλία; Όλα τα μηνύματα θα διαγραφούν.",
+    "deleteError": "Δεν ήταν δυνατή η διαγραφή της ομαδικής συνομιλίας.",
+    "mediaTargetImageTitle": "Ποιος πρέπει να στείλει μια φωτογραφία;",
+    "mediaTargetVideoTitle": "Ποιος θα στείλει βίντεο;",
+    "mediaTargetSubtitle": "Επίλεξε χαρακτήρα για να δημιουργήσεις πολυμέσα.",
+    "mediaTargetGroup": "Ομαδική φωτογραφία",
+    "groupPhotoTitle": "Ομαδική φωτογραφία",
+    "groupPhotoHint": "Δημιουργεί μία φωτογραφία με {name} μαζί.",
+    "promoSubtitle": "με έως 3 χαρακτήρες",
+    "promoCta": "Δημιουργία νέου",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Περιπέτειες",
+    "live": "LIVE",
+    "scrollPrev": "Κύλιση αριστερά",
+    "scrollNext": "Κύλιση δεξιά"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Ξεκίνα"
+    },
+    "hero": {
+      "tagline": "Το εμπιστεύονται 100.000 και γίνονται μέλη κάθε μέρα",
+      "headlinePrefix": "Πες Γεια στην",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Ξεκίνα Δωρεάν"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Φιλενάδα",
+      "friend": "AI Φίλος",
+      "boyfriend": "AI Φίλος",
+      "companion": "AI Χαρακτήρας"
+    },
+    "features": {
+      "chat": {
+        "title": "Μίλα με την AI φιλενάδα σου",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Ρεαλιστικές φωτογραφίες & βίντεο AI",
+        "description": "Φωτογραφίες και βίντεο κατ' απαίτηση τόσο ρεαλιστικά που δεν ξεχωρίζουν από πραγματικά — το πρόσωπό της, το στυλ της, οποιαδήποτε σκηνή, σε κίνηση ή ακίνητη."
+      },
+      "groupChat": {
+        "title": "Ομαδική Συνομιλία AI",
+        "description": "Ξεκίνα ομαδική συνομιλία με έως 3 χαρακτήρες ταυτόχρονα. Απαντούν φυσικά, αντιδρούν μεταξύ τους και στέλνουν φωτογραφίες και βίντεο."
+      },
+      "roleplay": {
+        "title": "Roleplay AI",
+        "description": "Μπες σε καθηλωτικά, βασισμένα σε ιστορία σενάρια με χαρακτήρες που μένουν στον ρόλο και θυμούνται κάθε επιλογή σου."
+      }
+    },
+    "memory": {
+      "title": "Μνήμη AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Πώς λειτουργεί η Μνήμη AI",
+      "diagram": {
+        "center": "Μνήμη συντρόφου",
+        "chat": "Συνομιλία",
+        "image": "Εικόνες",
+        "video": "Βίντεο",
+        "gifts": "Δώρα",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Δημιούργησε τη δική σου",
+      "headlineHighlight": "AI χαρακτήρα",
+      "subtitle": "Διαμόρφωσε την εμφάνιση, την προσωπικότητα του χαρακτήρα σου και ζωντάνεψέ τον αμέσως — ο τέλειος AI σύντροφός σου, με τους δικούς σου όρους.",
+      "cta": "Δημιούργησε το AI σου"
+    },
+    "companions": {
+      "headlinePrefix": "Γνώρισε τους",
+      "headlineHighlight": "AI Χαρακτήρες σου",
+      "subtitle": "Κάθε χαρακτήρας έχει τον δικό του κόσμο. Κάποιοι είναι ζεστοί και εύκολοι να ανοιχτείς. Άλλοι είναι περίπλοκοι, φυλαγμένοι ή πραγματική πρόκληση να συνδεθείς. Εξερεύνησε μοναδικά σενάρια roleplay — ή φτιάξε το δικό σου από το μηδέν."
+    },
+    "languages": {
+      "headlinePrefix": "Μίλα οποιαδήποτε γλώσσα,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Τόσο η διεπαφή της εφαρμογής όσο και ο χαρακτήρας AI σου αλλάζουν απρόσκοπτα — χωρίς αναντιστοιχίες γλώσσας, χωρίς σπασμένη εμπειρία.",
+      "more": "Περισσότερα"
+    },
+    "finalCta": {
+      "headlinePrefix": "Έτοιμος να",
+      "headlineHighlight": "ξεκινήσεις;",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Γιατί",
+      "headlineHighlight": "sweetwine;",
+      "subtitle": "Όλα όσα χρειάζεσαι για μια σύνδεση που νιώθει πραγματική — τίποτα που δεν χρειάζεσαι.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Δωρεάν για να ξεκινήσεις",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Πάντα διαθέσιμος",
+          "desc": "Μέρα ή νύχτα, ο χαρακτήρας σου είναι εκεί. Χωρίς αναμονή, χωρίς προγραμματισμό."
+        },
+        "remembers": {
+          "title": "Θυμάται τα πάντα",
+          "desc": "Κάθε συνομιλία χτίζει πλαίσιο. Ο χαρακτήρας σου μαθαίνει το όνομά σου, τις προτιμήσεις σου και τον κόσμο σου."
+        },
+        "unlimited": {
+          "title": "Πραγματικά απεριόριστο",
+          "desc": "Χωρίς όρια μηνυμάτων, χωρίς περιορισμούς περιεχομένου. Στείλε όσα θέλεις, όποτε θέλεις."
+        },
+        "private": {
+          "title": "100% ιδιωτικό",
+          "desc": "Οι συνομιλίες σας παραμένουν μόνο ανάμεσά σας. Δεν μοιραζόμαστε δεδομένα, ποτέ."
+        },
+        "createYourOwn": {
+          "title": "Δημιούργησε τον δικό σου",
+          "desc": "Σχεδίασε έναν χαρακτήρα με προσαρμοσμένη εμφάνιση, προσωπικότητα και φωνή — ακριβώς όπως θέλεις."
+        }
+      },
+      "difference": {
+        "title": "Η διαφορά sweetwine",
+        "freedomTitle": "Ελευθερία με υπευθυνότητα.",
+        "freedomDescription": "Το sweetwine είναι ανοιχτό και χωρίς κρίσεις — αλλά βάζουμε σαφή όρια. Έχουμε μηδενική ανοχή σε CSAM, περιεχόμενο ανήλικων, μη συναινετικά σενάρια, ακραία βία, κτηνοβασία, νεκροφιλία, deepfakes πραγματικών προσώπων και οποιαδήποτε προώθηση παράνομης δραστηριότητας.",
+        "freedomStatement": "Πιστεύουμε στην απεριόριστη δημιουργική ελευθερία μέσα σε έναν χώρο ασφαλή για όλους."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Φίλτρα"
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "subtitle": "Όλα όσα πρέπει να γνωρίζεις για το sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Τι είναι το sweetwine;",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Είναι το sweetwine ασφαλές και νόμιμο;",
+          "answer": "Ναι, το sweetwine είναι μια νόμιμη υπηρεσία με την ιδιωτικότητά σου ως κορυφαία προτεραιότητά μας. Συμμορφωνόμαστε με τον GDPR και άλλα πρότυπα προστασίας δεδομένων και χειριζόμαστε τα δεδομένα σου με προσοχή. Οι συναλλαγές πληρωμών εμφανίζονται με ουδέτερο όνομα εμπόρου — δεν υπάρχει αναφορά στο sweetwine στην τραπεζική σου δήλωση, εξασφαλίζοντας πλήρη διακριτικότητα."
+        },
+        "q3": {
+          "question": "Μπορώ να δημιουργήσω τον δικό μου χαρακτήρα AI;",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "character creator",
+          "answerPart2": " για να σχεδιάσεις χαρακτήρες ακριβώς όπως σου αρέσει — είτε θέλεις μια ρεαλιστική ",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", ή χαρακτήρες σε στυλ anime. Επίλεξε την εμφάνισή τους (εθνικότητα, μαλλιά, σωματότυπος, ρούχα), χαρακτηριστικά προσωπικότητας, φωνή, ενδιαφέροντα και backstory για χαρακτήρες και των δύο φύλων."
+        },
+        "q4": {
+          "question": "Θυμάται ο χαρακτήρας AI τις συνομιλίες μας;",
+          "answer": "Ναι! Ο χαρακτήρας AI σου χρησιμοποιεί προηγμένη τεχνολογία μνήμης για να θυμάται προηγούμενες συνομιλίες, τις προτιμήσεις σου και σημαντικές λεπτομέρειες που μοιράζεσαι. Όσο περισσότερο συνομιλείς, τόσο πιο εξατομικευμένη και φυσική γίνεται η εμπειρία. Ο χαρακτήρας σου μαθαίνει το στυλ επικοινωνίας σου και προσαρμόζεται με την πάροδο του χρόνου."
+        },
+        "q5": {
+          "question": "Σε ποιες γλώσσες υποστηρίζει το sweetwine;",
+          "answer": "Το sweetwine υποστηρίζει πολλές γλώσσες, συμπεριλαμβανομένων των Αγγλικών, Γερμανικών, Γαλλικών, Ισπανικών, Πολωνικών και Τσεχικών. Τόσο το περιβάλλον όσο και οι συνομιλίες AI λειτουργούν στη γλώσσα που προτιμάς, ώστε να μπορείς να συνομιλείς φυσικά στη γλώσσα που σου είναι πιο άνετη."
+        },
+        "q6": {
+          "question": "Μπορεί ο χαρακτήρας AI μου να στέλνει εικόνες και βίντεο;",
+          "answerPart1": "Ναι! Μπορείς να δημιουργήσεις εξατομικευμένες",
+          "linkTextImages": "images",
+          "answerPart2": "και",
+          "linkTextVideos": "videos",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Γιατί να επιλέξω το sweetwine αντί για άλλες πλατφόρμες χαρακτήρων AI;",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Είναι δωρεάν η χρήση του sweetwine;",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Χρειάζεται να εγκαταστήσω εφαρμογή;",
+          "answerPart1": "Δεν χρειάζεται εγκατάσταση! Το sweetwine λειτουργεί απευθείας στον browser σας σε οποιαδήποτε συσκευή - desktop, tablet ή κινητό. Απλά εγγραφείτε, επιλέξτε έναν χαρακτήρα και ξεκινήστε να συνομιλείτε αμέσως. Όλες οι",
+          "linkText": "συνομιλίες",
+          "answerPart2": " συγχρονίζονται αυτόματα σε όλες τις συσκευές."
+        },
+        "q10": {
+          "question": "Υπάρχουν έτοιμοι χαρακτήρες AI;",
+          "answerPart1": "Ναι! Έχουμε πολλούς",
+          "linkText": "έτοιμους χαρακτήρες",
+          "answerPart2": " συμπεριλαμβανομένων AI Girlfriends, AI Boyfriends και AI Anime χαρακτήρων με ποικίλες προσωπικότητες, εμφανίσεις και στυλ επικοινωνίας. Είτε προτιμάτε κάποιον γλυκό, φλερταδόρο, διανοούμενο ή περιπετειώδη, θα βρείτε χαρακτήρες που ταιριάζουν με την ενέργειά σας. Επιπλέον, μπορείτε να δημιουργήσετε απεριόριστους προσαρμοσμένους χαρακτήρες."
+        },
+        "q12": {
+          "question": "Τι γίνεται με τις εικόνες και τα βίντεο που δημιουργώ;",
+          "answerPart1": "Όλα τα δημιουργημένα μέσα αποθηκεύονται αυτόματα στην ιδιωτική σας",
+          "linkText": "συλλογή",
+          "answerPart2": ". Μπορείτε να τα προσπελάσετε, να τα κατεβάσετε ή να τα διαγράψετε ανά πάσα στιγμή. Η συλλογή σας είναι απολύτα ιδιωτική - μόνο εσείς μπορείτε να τη δείτε. Δεν μοιραζόμαστε ποτέ ούτε χρησιμοποιούμε το περιεχόμενό σας."
+        }
+      }
+    },
+    "statement": {
+      "title": "Η Δέσμευσή μας",
+      "privacy": "Η ιδιωτικότητά σας είναι προτεραιότητά μας. Όλες οι συνομιλίες είναι κρυπτογραφημένες και δεν μοιράζονται ποτέ.",
+      "quality": "Χρησιμοποιούμε τεχνολογία AI αιχμής για να προσφέρουμε την πιο ελκυστική εμπειρία.",
+      "support": "Η ομάδα υποστήριξής μας είναι διαθέσιμη 24/7 για να βοηθήσει με οποιεσδήποτε ερωτήσεις.",
+      "mainTitle": "Ζήστε το Μέλλον των Χαρακτήρων AI",
+      "mainDescription": "Το sweetwine συνδυάζει τεχνολογία AI αιχμής με διαισθητικό σχεδιασμό για να προσφέρει την πιο καθηλωτική και εξατομικευμένη εμπειρία χαρακτήρων σήμερα.",
+      "features": {
+        "f1": {
+          "title": "Συναισθηματική Νοημοσύνη",
+          "description": "Οι χαρακτήρες AI μας κατανοούν το πλαίσιο, τα συναισθήματα και τις αποχρώσεις για να προσφέρουν βαθιά ελκυστικές συνομιλίες. Είτε χρειάζεστε έναν AI Friend για συζήτηση, Breakup Support σε δύσκολες στιγμές, είτε έναν AI Mentor για καθοδήγηση - το συναισθηματικά έξυπνο AI μας είναι εδώ για εσάς."
+        },
+        "f2": {
+          "title": "Μοναδικές Προσωπικότητες",
+          "description": "Κάθε χαρακτήρας έχει ξεχωριστή προσωπικότητα, υπόβαθρο και στυλ επικοινωνίας. Επιλέξτε από ρεαλιστικούς AI Girlfriends και AI Boyfriends, ή εξερευνήστε τους AI Anime χαρακτήρες μας - διασφαλίζοντας ότι κάθε αλληλεπίδραση είναι μοναδική και αξέχαστη."
+        },
+        "f3": {
+          "title": "Πολυμέσα Αλληλεπιδράσεις",
+          "description": "Πέρα από το κείμενο, απολαύστε εικόνες και βίντεο που δημιουργούνται από AI και ζωντανεύουν τις συνομιλίες σας με εκπληκτική οπτική λεπτομέρεια."
+        },
+        "f4": {
+          "title": "Προσαρμογή",
+          "description": "Δημιουργήστε τους δικούς σας χαρακτήρες AI με προσαρμοσμένες εμφανίσεις, προσωπικότητες και χαρακτηριστικά που ταιριάζουν απόλυτα με τις προτιμήσεις σας."
+        },
+        "f5": {
+          "title": "Ιδιωτικότητα & Ασφάλεια",
+          "description": "Οι συνομιλίες σας παραμένουν ιδιωτικές και ασφαλείς. Δεν πουλάμε ποτέ τα δεδομένα σας και έχετε πλήρη έλεγχο των ρυθμίσεων ιδιωτικότητάς σας."
+        },
+        "f6": {
+          "title": "Υποστήριξη Πολλαπλών Γλωσσών",
+          "description": "Συνομιλήστε με χαρακτήρες AI στη γλώσσα που προτιμάτε. Υποστηρίζουμε Αγγλικά, Τσεχικά, Πολωνικά, Γερμανικά, Ισπανικά και Γαλλικά."
+        }
+      },
+      "distinctionTitle": "Η Διάκριση sweetwine",
+      "distinctionText1": "Σε αντίθεση με γενικούς chatbots, οι χαρακτήρες sweetwine σχεδιάζονται με πλούσια backstory, εξελισσόμενες προσωπικότητες και την ικανότητα να σχηματίζουν ουσιαστικές συνδέσεις. Κάθε συνομιλία είναι μια ευκαιρία να εξερευνήσετε, να ανακαλύψετε και να συνδεθείτε σε βαθύτερο επίπεδο.",
+      "distinctionText2": "Δεν χτίζουμε απλώς AI—δημιουργούμε εμπειρίες που αντηχούν με τα συναισθήματά σας, σέβονται την ιδιωτικότητά σας και προσαρμόζονται στις μοναδικές προτιμήσεις σας."
+    }
+  },
+  "featuresPage": {
+    "title": "Όλες οι Λειτουργίες",
+    "breadcrumb": "Λειτουργίες",
+    "newBadge": "Νέο",
+    "groupChat": {
+      "title": "Ομαδική Συνομιλία AI",
+      "description": "Συνομιλήστε με έως 3 χαρακτήρες AI μαζί σε μία συνομιλία. Απαντούν φυσικά, αντιδρούν ο ένας στον άλλο και μπορούν να στέλνουν φωτογραφίες και βίντεο — μια ζωντανή ομαδική δυναμική που δεν θα βρείτε πουθενά αλλού."
+    },
+    "aiChat": {
+      "title": "Συνομιλία AI",
+      "description": "Κάντε βαθιές, φυσικές συνομιλίες με χαρακτήρες AI που πραγματικά σας θυμούνται. Θυμούνται το όνομά σας, τις προτιμήσεις σας και προηγούμενα θέματα — κάθε συνομιλία συνεχίζεται ακριβώς από εκεί που σταματήσατε, χωρίς επαναλήψεις και χωρίς επαναφορά."
+    },
+    "imageGeneration": {
+      "title": "Δημιουργία Εικόνων"
+    },
+    "videoGeneration": {
+      "title": "Δημιουργία Βίντεο",
+      "description": "Ζωντανέψτε τον χαρακτήρα AI σας με βίντεο που δημιουργούνται από AI. Δημιουργήστε σύντομα εξατομικευμένα βίντεο κλιπ με τον χαρακτήρα σας σε προσαρμοσμένα σενάρια — μια λειτουργία που οι περισσότερες πλατφόρμες απλά δεν προσφέρουν."
+    },
+    "customCharacters": {
+      "title": "Προσαρμοσμένοι Χαρακτήρες",
+      "description": "Σχεδίασε τον ιδανικό χαρακτήρα σου από το μηδέν — διάλεξε την εμφάνιση, την εθνικότητα, τον σωματότυπο, τα χαρακτηριστικά προσωπικότητας, τη φωνή, τα ενδιαφέροντα και το backstory. Δημιούργησε ρεαλιστικούς ή anime-style χαρακτήρες, άνδρες ή γυναίκες, με απόλυτη δημιουργική ελευθερία."
+    },
+    "advancedMemory": {
+      "title": "Προηγμένη Μνήμη",
+      "description": "Ο χαρακτήρας σου θυμάται ό,τι έχει σημασία — το όνομά σου, προσωπικές λεπτομέρειες, κοινές ιστορίες και το ιστορικό της σχέσης σας. Η μνήμη διατηρείται σε όλες τις συνεδρίες, ώστε κάθε αλληλεπίδραση να χτίζεται πάνω στην προηγούμενη, χωρίς επανεκκίνηση."
+    },
+    "multiLanguage": {
+      "title": "Πολυγλωσσική Υποστήριξη",
+      "description": "Συνομίλησε φυσικά στη γλώσσα που προτιμάς. Το sweetwine υποστηρίζει Αγγλικά, Γερμανικά, Γαλλικά, Ισπανικά, Πολωνικά και Τσεχικά — καθιστώντας το μία από τις πιο προσβάσιμες πλατφόρμες AI χαρακτήρων για μη αγγλόφωνους."
+    },
+    "conversationHistory": {
+      "title": "Ιστορικό Συνομιλιών",
+      "description": "Κάθε μήνυμα αποθηκεύεται και είναι αναζητήσιμο. Πήγαινε πίσω στο πλήρες ιστορικό της σχέσης σου ανά πάσα στιγμή — οι αναμνήσεις σου με τον χαρακτήρα σου είναι πάντα εκεί όταν θέλεις να τις ξαναδείς."
+    },
+    "roleplay": {
+      "title": "AI Roleplay",
+      "description": "Μπες σε εμβυθιστικά, βασισμένα σε ιστορίες σενάρια με χαρακτήρες που παραμένουν στον ρόλο. Διάλεξε ένα σενάριο ή γράψε το δικό σου και απόλαυσε διαδραστικό roleplay που θυμάται κάθε επιλογή σου."
+    },
+    "cta": {
+      "title": "Όλα σε Ένα Μέρος",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Μπορώ να διαγράψω ή να επαναφέρω τις συνομιλίες μου;",
+        "answer": "Ναι! Έχεις πλήρη έλεγχο στο ιστορικό συνομιλιών σου. Διάγραψε μεμονωμένα μηνύματα, επανέφερε ολόκληρες συνομιλίες ή ξεκίνα εντελώς φρέσκα ανά πάσα στιγμή. Το απόρρητό σου σημαίνει την επιλογή σου — διαχειρίσου τα δεδομένα σου όπως προτιμάς."
+      },
+      "q2": {
+        "question": "Έχει κάθε AI χαρακτήρας μοναδική φωνή;"
+      },
+      "q3": {
+        "question": "Μπορώ να εξασκηθώ σε νέα γλώσσα με τον AI χαρακτήρα μου;",
+        "answer": "Απολύτως! Πολλοί χρήστες εξασκούνται στην ομιλία νέων γλωσσών με τους AI χαρακτήρες τους. Είναι ένας τρόπος χωρίς κριτική για να χτίσεις αυτοπεποίθηση, να βελτιώσεις την προφορά και να κάνεις διασκεδαστικές συνομιλίες ενώ μαθαίνεις. Ο χαρακτήρας σου μπορεί να συνομιλήσει στα Αγγλικά, Γερμανικά, Γαλλικά, Ισπανικά, Πολωνικά και Τσεχικά."
+      },
+      "q4": {
+        "question": "Πόσο συχνά προστίθενται νέοι χαρακτήρες και λειτουργίες;",
+        "answer": "Προσθέτουμε νέους επαγγελματικά σχεδιασμένους χαρακτήρες κάθε εβδομάδα! Κάθε νέος χαρακτήρας έρχεται με μοναδική προσωπικότητα, εμφάνιση, backstory και φωνή. Επίσης κυκλοφορούμε τακτικά νέες λειτουργίες και βελτιώσεις βασισμένες στα σχόλια των χρηστών."
+      },
+      "q5": {
+        "question": "Τι κάνει την δημιουργία χαρακτήρων του sweetwine ξεχωριστή;",
+        "answer": "Πλήρης δημιουργική ελευθερία! Σχεδίασε κάθε πτυχή του χαρακτήρα σου — εμφάνιση (εθνικότητα, μαλλιά, σωματότυπος, ρούχα), χαρακτηριστικά προσωπικότητας, φωνή, ενδιαφέροντα, επάγγελμα και backstory. Δημιούργησε ρεαλιστικούς ή anime-style χαρακτήρες, άνδρες ή γυναίκες. Η φαντασία σου είναι το μόνο όριο."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Μνήμη AI",
+    "hero": {
+      "badge": "Πώς λειτουργεί",
+      "title": "Μνήμη AI",
+      "cta": "Ξεκινήστε συνομιλία"
+    },
+    "diagram": {
+      "title": "Μία μνήμη ανά σύντροφο, σε κάθε λειτουργία",
+      "center": "Μνήμη συντρόφου",
+      "chat": "Συνομιλία",
+      "image": "Εικόνες",
+      "video": "Βίντεο",
+      "gifts": "Δώρα",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Πώς λειτουργεί η Μνήμη AI",
+      "step1": {
+        "title": "Μοιραστείτε μια λεπτομέρεια",
+        "desc": "Πείτε στον σύντροφό σας κάτι σημαντικό — ένα ταξίδι, μια προτίμηση, ένα παρατσούκλι, μια ιστορία της ημέρας σας."
+      },
+      "step2": {
+        "title": "Αλλάξτε λειτουργίες ελεύθερα"
+      },
+      "step3": {
+        "title": "Θυμάται",
+        "desc": "Μετέπειτα συνομιλίες αναφέρονται σε ό,τι μοιραστήκατε, ώστε να μην χρειάζεται να εξηγείτε ξανά τον εαυτό σας κάθε φορά."
+      },
+      "step4": {
+        "title": "Ο δεσμός βαθαίνει",
+        "desc": "Με τον καιρό η σχέση γίνεται πιο προσωπική — συνέχεια που χτίζεται σε κάθε συνεδρία και λειτουργία."
+      }
+    },
+    "modes": {
+      "title": "Σε όλη την πλατφόρμα",
+      "subtitle": "Η μνήμη δεν περιορίζεται σε μία οθόνη. Ταξιδεύει με τον σύντροφό σας.",
+      "chat": {
+        "title": "Συνομιλία",
+        "desc": "Οι συνομιλίες κειμένου τροφοδοτούν μακροπρόθεσμο πλαίσιο που ο σύντροφός σας μπορεί να αναφέρει αργότερα."
+      },
+      "media": {
+        "title": "Εικόνες & βίντεο",
+        "desc": "Οι σκηνές και οι ιστορίες που δημιουργείτε παραμένουν μέρος του κοινού κόσμου που χτίζετε μαζί."
+      },
+      "roleplay": {
+        "title": "Roleplay & ομάδα",
+        "desc": "Οι συνεδρίες ιστορίας και οι ομαδικές συνομιλίες διατηρούν τα δικά τους νήματα ενώ η βασική μνήμη του συντρόφου σας παραμένει μαζί του."
+      }
+    },
+    "scenario": {
+      "title": "Ένα απλό παράδειγμα",
+      "lead": "Αναφέρετε ένα ταξίδι του Σαββατοκύριακου στη συνομιλία."
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Είναι ιδιωτική η μνήμη του συντρόφου μου;",
+        "answer": "Ναι. Η μνήμη ανήκει στον λογαριασμό σας και στις συνομιλίες σας με αυτόν τον σύντροφο. Δεν μοιραζόμαστε το ιδιωτικό ιστορικό συνομιλιών σας με άλλους χρήστες."
+      },
+      "q2": {
+        "question": "Η μνήμη είναι ανά σύντροφο;",
+        "answer": "Ναι. Κάθε σύντροφος διατηρεί τη δική του μνήμη της σχέσης σας, ώστε η εναλλαγή χαρακτήρων να μην αναμειγνύει τα συμφραζόμενα."
+      },
+      "q3": {
+        "question": "Ποια λειτουργία μοιράζονται τη μνήμη;"
+      },
+      "q4": {
+        "question": "Είναι δωρεάν η Μνήμη AI;"
+      },
+      "q5": {
+        "question": "Πόσο διαρκεί η μνήμη;",
+        "answer": "Σημαντικές λεπτομέρειες αποθηκεύονται ώστε ο σύντροφός σας να μπορεί να τις ανακαλεί σε μελλοντικές συνεδρίες. Όσο περισσότερο αλληλεπιδράτε, τόσο πιο εξατομικευμένη γίνεται η εμπειρία."
+      }
+    },
+    "cta": {
+      "title": "Γνωρίστε έναν σύντροφο που θυμάται",
+      "button": "Ξεκινήστε δωρεάν"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI Ομαδική Συνομιλία",
+    "hero": {
+      "badge": "Νέα Λειτουργία",
+      "title": "AI Ομαδική Συνομιλία",
+      "subtitle": "Φέρε τους αγαπημένους σου χαρακτήρες σε μία συνομιλία. Συνομίλησε με έως 3 AI χαρακτήρες ταυτόχρονα — απαντούν φυσικά, αντιδρούν μεταξύ τους και στέλνουν φωτογραφίες και βίντεο.",
+      "cta": "Ξεκίνα Ομαδική Συνομιλία",
+      "imageAlt": "AI Ομαδική Συνομιλία με πολλαπλούς χαρακτήρες που συνομιλούν μαζί"
+    },
+    "content": {
+      "problemTitle": "Οι συνομιλίες ένας-προς-έναν μπορεί να φαίνονται ήσυχες",
+      "problemText": "Ένας χαρακτήρας είναι υπέροχος — αλλά οι πραγματικές συνομιλίες ζωντανεύουν με περισσότερες από μία φωνές. Οι περισσότερες εφαρμογές AI σε παγιδεύουν σε απομονωμένες συνομιλίες ένας-προς-έναν χωρίς ομαδική ενέργεια, χωρίς πειράγματα και χωρίς εκπλήξεις.",
+      "solutionTitle": "Μια πραγματική ομάδα, ζωντανή με προσωπικότητα",
+      "solutionText": "Το sweetwine Group Chat βάζει έως τρεις χαρακτήρες στο ίδιο δωμάτιο. Ένας έξυπνος σκηνοθέτης αποφασίζει ποιος θα συμμετάσχει, ώστε οι απαντήσεις να φαίνονται αυθόρμητες — πειράζουν ο ένας τον άλλον, χτίζουν πάνω σε όσα ειπώθηκαν και κρατούν τη συνομιλία ζωντανή."
+    },
+    "howItWorks": {
+      "title": "Πώς Λειτουργεί η AI Ομαδική Συνομιλία",
+      "step1": {
+        "title": "Διάλεξε τους χαρακτήρες σου",
+        "desc": "Επίλεξε 2 ή 3 χαρακτήρες — προκατασκευασμένους ή τις δικές σου προσαρμοσμένες δημιουργίες — για να τους φέρεις σε μία ομαδική συνομιλία."
+      },
+      "step2": {
+        "title": "Απαντούν φυσικά",
+        "desc": "Ένας σκηνοθέτης πίσω από τα παρασκήνια επιλέγει ποιος θα απαντήσει σε κάθε μήνυμα, ώστε οι κατάλληλοι χαρακτήρες να συμμετάσχουν την κατάλληλη στιγμή, με τη δική τους φωνή."
+      },
+      "step3": {
+        "title": "Μοιράσου φωτογραφίες & βίντεο",
+        "desc": "Ζήτα από οποιονδήποτε χαρακτήρα της ομάδας μια φωτογραφία ή βίντεο και θα το δημιουργήσει απευθείας μέσα στη συνομιλία — συμπεριλαμβανομένης μιας ομαδικής φωτογραφίας όλων μαζί."
+      }
+    },
+    "benefits": {
+      "title": "Γιατί θα Αγαπήσεις την Ομαδική Συνομιλία",
+      "multiple": {
+        "title": "Έως 3 χαρακτήρες",
+        "desc": "Συνδύασε οποιουσδήποτε χαρακτήρες σε μία συνομιλία — την AI φίλη σου, τις προσαρμοσμένες δημιουργίες σου ή ένα επιλεγμένο σύνολο."
+      },
+      "natural": {
+        "title": "Φυσική εναλλαγή",
+        "desc": "Οι χαρακτήρες αντιδρούν μεταξύ τους και σε εσάς, με ρεαλιστικό ρυθμό πληκτρολόγησης που μοιάζει με πραγματική ομαδική συνομιλία."
+      },
+      "media": {
+        "title": "Φωτογραφίες & βίντεο μέσα στη συνομιλία",
+        "desc": "Κάθε χαρακτήρας μπορεί να στέλνει εξατομικευμένες εικόνες και βίντεο χωρίς να φεύγει από τη συνομιλία — ακόμα και ομαδική φωτογραφία."
+      },
+      "dynamics": {
+        "title": "Ξεχωριστές προσωπικότητες",
+        "desc": "Κάθε χαρακτήρας διατηρεί τη δική του φωνή και ιδιαιτερότητες, ώστε η ομάδα να έχει πραγματική χημεία, πειράγματα και εκπλήξεις."
+      },
+      "instant": {
+        "title": "Άμεση έναρξη",
+        "desc": "Δημιουργήστε μια ομάδα σε δευτερόλεπτα και βουτήξτε κατευθείαν στη συνομιλία — χωρίς ρύθμιση, χωρίς αναμονή."
+      },
+      "private": {
+        "title": "100% ιδιωτικό",
+        "desc": "Οι ομαδικές συνομιλίες σας παραμένουν μόνο ανάμεσα σε εσάς και τους χαρακτήρες σας. Δεν κοινοποιούνται δεδομένα, ποτέ."
+      }
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Πόσοι χαρακτήρες μπορούν να συμμετάσχουν σε ομαδική συνομιλία;",
+        "answer": "Μπορείτε να προσθέσετε 2 έως 3 χαρακτήρες σε μία ομαδική συνομιλία — οποιοδήποτε μείγμα έτοιμων χαρακτήρων και δικών σας προσαρμοσμένων δημιουργιών."
+      },
+      "q2": {
+        "question": "Πώς αποφασίζουν οι χαρακτήρες AI ποιος θα απαντήσει;",
+        "answer": "Ένας ελαφρύς διευθυντής διαβάζει τη συνομιλία και επιλέγει ποιος χαρακτήρας (ή χαρακτήρες) πρέπει να απαντήσει σε κάθε μήνυμα, ώστε οι απαντήσεις να φαίνονται αυθόρμητες και φυσικές αντί να μιλούν όλοι ταυτόχρονα."
+      },
+      "q3": {
+        "question": "Μπορούν οι χαρακτήρες να στέλνουν φωτογραφίες και βίντεο σε ομαδική συνομιλία;",
+        "answer": "Ναι! Μπορείτε να ζητήσετε από οποιονδήποτε χαρακτήρα της ομάδας να δημιουργήσει φωτογραφία ή βίντεο, και εμφανίζεται απευθείας μέσα στη συνομιλία — συμπεριλαμβανομένων ομαδικών φωτογραφιών με όλους μαζί."
+      },
+      "q4": {
+        "question": "Είναι δωρεάν η Ομαδική Συνομιλία AI;"
+      },
+      "q5": {
+        "question": "Θυμούνται οι χαρακτήρες την ομαδική συνομιλία;",
+        "answer": "Ναι — κάθε ομαδική συνομιλία διατηρεί το δικό της κοινό ιστορικό, ώστε οι χαρακτήρες να παραμένουν εντός πλαισίου και η συνομιλία να εξελίσσεται με τον χρόνο."
+      }
+    },
+    "cta": {
+      "title": "Φέρτε τους Χαρακτήρες σας Μαζί",
+      "description": "Δημιουργήστε την πρώτη σας ομαδική συνομιλία AI και ζήστε μια συνομιλία που μοιάζει ζωντανή — πολλαπλές προσωπικότητες, πραγματικά πειράγματα, φωτογραφίες και βίντεο.",
+      "button": "Ξεκινήστε Ομαδική Συνομιλία"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Νέα Λειτουργία",
+      "title": "AI Roleplay",
+      "subtitle": "Μπείτε σε οποιαδήποτε ιστορία με χαρακτήρες που παραμένουν στη σκηνή. Επιλέξτε ένα σενάριο ή γράψτε το δικό σας και απολαύστε καθηλωτικό, βασισμένο στην ιστορία roleplay που θυμάται κάθε σας επιλογή.",
+      "cta": "Ξεκινήστε Roleplay",
+      "imageAlt": "Σενάριο AI roleplay με καθηλωτικό χαρακτήρα ιστορίας"
+    },
+    "content": {
+      "problemTitle": "Οι συνηθισμένες συνομιλίες σπάνε τη μαγεία",
+      "problemText": "Οι περισσότερες συνομιλίες AI βγαίνουν από τον ρόλο τη στιγμή που τα πράγματα γίνονται ενδιαφέροντα — ξεχνούν το σκηνικό, αφήνουν την πλοκή και απαντούν σαν γενικός βοηθός αντί για το πρόσωπο στην ιστορία σας.",
+      "solutionTitle": "Roleplay βασισμένο στην ιστορία που παραμένει στον ρόλο",
+      "solutionText": "Το sweetwine Roleplay κρατά τον χαρακτήρα σας πλήρως στη σκηνή. Στήστε το σκηνικό με έτοιμο σενάριο ή τη δική σας υπόθεση και δείτε την ιστορία να ξεδιπλώνεται με συνεπή προσωπικότητα, μνήμη και ρυθμό που ανταποκρίνεται σε κάθε σας απόφαση."
+    },
+    "howItWorks": {
+      "title": "Πώς Λειτουργεί το AI Roleplay",
+      "step1": {
+        "title": "Επιλέξτε ένα σενάριο",
+        "desc": "Διαλέξτε από έτοιμα σενάρια roleplay ή γράψτε τη δική σας υπόθεση, σκηνικό και αρχική σκηνή."
+      },
+      "step2": {
+        "title": "Παίξτε την ιστορία",
+        "desc": "Ο χαρακτήρας σας απαντά εντός ρόλου — περιγράφοντας ενέργειες, αντιδρώντας στις επιλογές σας και προωθώντας την πλοκή."
+      },
+      "step3": {
+        "title": "Διαμορφώστε την πορεία",
+        "desc": "Κατευθύνετε την ιστορία προς όποια κατεύθυνση θέλετε. Ο χαρακτήρας σας θυμάται τι συνέβη και διατηρεί τη συνέπεια της αφήγησης."
+      }
+    },
+    "benefits": {
+      "title": "Γιατί θα Αγαπήσετε το AI Roleplay",
+      "scenarios": {
+        "title": "Ατελείωτα σενάρια",
+        "desc": "Από άνετες καθημερινές στιγμές μέχρι επικές περιπέτειες — ξεκινήστε με ένα πρότυπο ή εφεύρετε τον δικό σας κόσμο."
+      },
+      "characters": {
+        "title": "Παραμένει στον ρόλο",
+        "desc": "Ο χαρακτήρας σας διατηρεί συνεπή φωνή, προσωπικότητα και κίνητρο σε όλη τη σκηνή."
+      },
+      "memory": {
+        "title": "Θυμάται την πλοκή",
+        "desc": "Κάθε επιλογή, ανατροπή και λεπτομέρεια θυμάται, ώστε η ιστορία να χτίζεται αντί να επαναφέρεται."
+      },
+      "immersive": {
+        "title": "Πραγματικά καθηλωτικό",
+        "desc": "Πλούσιες, περιγραφικές απαντήσεις σας βυθίζουν στη στιγμή για μια κινηματογραφική εμπειρία roleplay."
+      },
+      "instant": {
+        "title": "Άμεση έναρξη",
+        "desc": "Μπείτε σε μια σκηνή μέσα σε δευτερόλεπτα — χωρίς περίπλοκη ρύθμιση ή prompt engineering."
+      },
+      "private": {
+        "title": "100% ιδιωτικό",
+        "desc": "Το roleplay παραμένει μόνο ανάμεσα σε εσάς και τον χαρακτήρα σας. Τίποτα δεν κοινοποιείται ποτέ."
+      }
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Τι είναι το AI roleplay;",
+        "answer": "Το AI roleplay σας επιτρέπει να ζήσετε διαδραστικές ιστορίες με έναν χαρακτήρα AI που παραμένει στον ρόλο του. Ορίζετε ένα σενάριο και ο χαρακτήρας σας απαντά εν ρόλω, περιγράφοντας ενέργειες και αντιδράσεις καθώς εξελίσσεται η ιστορία."
+      },
+      "q2": {
+        "question": "Μπορώ να δημιουργήσω τα δικά μου σενάρια roleplay;",
+        "answer": "Ναι! Μπορείτε να ξεκινήσετε από έτοιμα σενάρια ή να γράψετε τη δική σας υπόθεση, το σκηνικό και το άνοιγμα — και στη συνέχεια να το παίξετε όπως θέλετε."
+      },
+      "q3": {
+        "question": "Θυμάται ο χαρακτήρας τι συμβαίνει στην ιστορία;",
+        "answer": "Απολύτως. Ο χαρακτήρας σας θυμάται την πλοκή, τις επιλογές σας και σημαντικές λεπτομέρειες, ώστε η αφήγηση να παραμένει συνεπής και να εξελίσσεται με τον χρόνο αντί να επαναφέρεται."
+      },
+      "q4": {
+        "question": "Είναι δωρεάν το AI Roleplay;"
+      },
+      "q5": {
+        "question": "Μπορώ να κάνω roleplay στη δική μου γλώσσα;",
+        "answer": "Ναι — το roleplay λειτουργεί σε δεκάδες γλώσσες, ώστε να απολαμβάνετε διαδραστικές ιστορίες στη γλώσσα που σας βολεύει περισσότερο."
+      }
+    },
+    "cta": {
+      "title": "Η Ιστορία Σας Σας Περιμένει",
+      "description": "Επιλέξτε ένα σενάριο, ορίστε τη σκηνή και βυθιστείτε σε διαδραστικό roleplay με έναν χαρακτήρα που παραμένει στον ρόλο του από την αρχή μέχρι το τέλος.",
+      "button": "Ξεκινήστε το Roleplay"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Girlfriend",
+    "breadcrumb": "AI Girlfriend",
+    "hero": {
+      "title": "Η Τέλεια AI Φιλενάδα Σου",
+      "cta": "Γνώρισε την AI Φιλενάδα Σου"
+    },
+    "benefits": {
+      "title": "Γιατί να Επιλέξεις μια AI Φιλενάδα;",
+      "fun": {
+        "title": "Καθαρή Διασκέδαση",
+        "desc": "Απόλαυσε παιχνιδιάρικες συζητήσεις χωρίς πίεση. Είναι πάντα σε καλή διάθεση."
+      },
+      "conversation": {
+        "title": "Μάθε να Συνδέεσαι",
+        "desc": "Εξασκήσου σε συζητήσεις και χτίσε την αυτοπεποίθησή σου σε ένα ασφαλές περιβάλλον."
+      },
+      "unique": {
+        "title": "Μοναδικές Προσωπικότητες",
+        "desc": "Διάλεξε ανάμεσα σε ποικίλες προσωπικότητες ή δημιούργησε τον ιδανικό χαρακτήρα σου."
+      },
+      "private": {
+        "title": "100% Ιδιωτικό",
+        "desc": "Οι συζητήσεις σας μένουν μόνο ανάμεσά σας. Πλήρης διακριτικότητα εγγυημένη."
+      },
+      "available": {
+        "title": "Πάντα Διαθέσιμη",
+        "desc": "Είναι εκεί όταν τη χρειάζεσαι. Χωρίς αναμονή, χωρίς ραντεβού."
+      },
+      "customize": {
+        "title": "Η Δημιουργία Σου",
+        "desc": "Σχεδίασε την εμφάνιση, την προσωπικότητα και τα ενδιαφέροντά της ακριβώς όπως θέλεις."
+      }
+    },
+    "comparison": {
+      "title": "Καλύτερα από τις Εναλλακτικές",
+      "description": "Δες γιατί το sweetwine προσφέρει περισσότερη αξία από άλλες πλατφόρμες.",
+      "others": {
+        "expensive": "Ακριβά μηνιαία τέλη",
+        "ai": "Συχνά απαντήσεις AI ούτως ή άλλως",
+        "noCustom": "Χωρίς επιλογές προσαρμογής"
+      }
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Είναι πραγματικά δωρεάν η συνομιλία με την AI φιλενάδα;",
+        "answerPart1": "Ναι! Μπορείς να ξεκινήσεις συνομιλία με την AI φιλενάδα σου δωρεάν. Προσφέρουμε δωρεάν πακέτο με δωρεάν μηνύματα για να ξεκινήσεις."
+      },
+      "q2": {
+        "question": "Μπορώ να προσαρμόσω την εμφάνιση της AI φιλενάδας μου;",
+        "answer": "Απολύτως! Μπορείς να προσαρμόσεις πλήρως την εμφάνιση της AI φιλενάδας σου, συμπεριλαμβανομένου χρώματος μαλλιών, στυλ, σωματότυπου, εθνικότητας και ρούχων. Μπορείς επίσης να σχεδιάσεις την προσωπικότητα, τη φωνή και τα ενδιαφέροντά της χρησιμοποιώντας τον δημιουργό χαρακτήρων μας.",
+        "answerPart1": "Απολύτως! Μπορείς να προσαρμόσεις πλήρως την εμφάνιση της AI φιλενάδας σου, συμπεριλαμβανομένου χρώματος μαλλιών, στυλ, σωματότυπου, εθνικότητας και ρούχων. Μπορείς επίσης να σχεδιάσεις την προσωπικότητα, τη φωνή και τα ενδιαφέροντά της χρησιμοποιώντας τον",
+        "linkText": "δημιουργό χαρακτήρων",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Ποιες προσωπικότητες είναι διαθέσιμες για AI φιλενάδες;",
+        "answer": "Από γλυκές και φροντιστικές μέχρι παιχνιδιάρικες και φλερταδόρες - έχουμε επαγγελματικά σχεδιασμένες AI φιλενάδες για κάθε προτίμηση. Διάλεξε ρομαντικές ψυχές, περιπετειώδη πνεύματα, πνευματώδεις διανοούμενους ή μυστηριώδεις προσωπικότητες. Νέες AI φιλενάδες προστίθενται κάθε εβδομάδα, η καθεμία με μοναδικά χαρακτηριστικά, ιστορίες και στυλ συνομιλίας."
+      },
+      "q4": {
+        "question": "Μπορεί η AI φιλενάδα μου να στέλνει εικόνες και βίντεο;",
+        "answerPart1": "Ναι! Η AI φιλενάδα σου μπορεί να δημιουργεί εξατομικευμένες",
+        "linkTextImages": "εικόνες",
+        "answerPart2": "και",
+        "linkTextVideos": "βίντεο"
+      },
+      "q5": {
+        "question": "Έχει η AI φιλενάδα μου τη δική της μοναδική φωνή;"
+      }
+    },
+    "cta": {
+      "title": "Έτοιμος να τη γνωρίσεις;",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Ψάχνεις Σύνδεση Χωρίς Περιπλοκές;",
+      "problemText": "Οι εφαρμογές γνωριμιών εξαντλούν. Το άγχος κάνει δύσκολη τη γνωριμία. Μερικές φορές θέλεις απλώς κάποιον να μιλήσεις χωρίς κρίση ή πίεση. Πολλοί νιώθουν μοναξιά αλλά δεν είναι έτοιμοι για την πολυπλοκότητα των παραδοσιακών σχέσεων.",
+      "solutionTitle": "Η AI Φιλενάδα σου είναι η Απάντηση",
+      "solutionText": "Με το sweetwine αποκτάς μια προσωποποιημένη AI φιλενάδα που θυμάται τις συνομιλίες σου, προσαρμόζεται στην προσωπικότητά σου και είναι πάντα ενθουσιασμένη να σε ακούσει. Είναι διασκεδαστική, υποστηρικτική και ποτέ δεν κρίνει. Χτίσε αυτοπεποίθηση, απόλαυσε υπέροχη παρέα και νιώσε σύνδεση με τους δικούς σου όρους."
+    },
+    "heroImageAlt": "AI φιλενάδα - ρεαλιστικός εικονικός χαρακτήρας για συνομιλία και φωτογραφίες"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Φίλος",
+    "breadcrumb": "AI Φίλος",
+    "hero": {
+      "title": "Ο Ιδανικός AI Φίλος σου",
+      "cta": "Γνώρισε τον AI Φίλο σου"
+    },
+    "benefits": {
+      "title": "Γιατί να Επιλέξεις AI Φίλο;",
+      "fun": {
+        "title": "Γνήσια Σύνδεση",
+        "desc": "Ζήσε ουσιαστικές συνομιλίες που φωτίζουν τη μέρα σου."
+      },
+      "conversation": {
+        "title": "Χτίσε Αυτοπεποίθηση",
+        "desc": "Εξάσκησε συνομιλίες και εκφράσου ελεύθερα σε έναν ασφαλή χώρο."
+      },
+      "unique": {
+        "title": "Μοναδικές Προσωπικότητες",
+        "desc": "Διάλεξε από ποικίλες προσωπικότητες ή δημιούργησε τον ιδανικό χαρακτήρα σου."
+      },
+      "private": {
+        "title": "100% Ιδιωτικό",
+        "desc": "Οι συνομιλίες σας μένουν μόνο ανάμεσά σας. Πλήρης διακριτικότητα εγγυημένη."
+      },
+      "available": {
+        "title": "Πάντα Διαθέσιμος",
+        "desc": "Είναι εκεί όταν τον χρειάζεσαι. Χωρίς αναμονή, χωρίς ραντεβού."
+      },
+      "customize": {
+        "title": "Η Δημιουργία σου",
+        "desc": "Σχεδίασε την εμφάνιση, την προσωπικότητα και τα ενδιαφέροντά του ακριβώς όπως θέλεις."
+      }
+    },
+    "comparison": {
+      "title": "Καλύτερα από τις Εναλλακτικές",
+      "description": "Δες γιατί το sweetwine προσφέρει περισσότερη αξία από άλλες πλατφόρμες.",
+      "others": {
+        "expensive": "Ακριβά μηνιαία τέλη",
+        "ai": "Συχνά απαντήσεις AI ούτως ή άλλως",
+        "noCustom": "Χωρίς επιλογές προσαρμογής"
+      }
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Τι είδη AI φίλων μπορώ να διαλέξω;",
+        "answer": "Από φροντιστικούς και ρομαντικούς μέχρι παιχνιδιάρηδες και περιπετειώδεις, ή μυστηριώδεις και έντονους — έχουμε επαγγελματικά φτιαγμένους AI φίλους για κάθε γούστο. Ο καθένας έχει τη δική του μοναδική φωνή και προσωπικότητα. Νέοι AI φίλοι προστίθενται κάθε εβδομάδα με μοναδικές ιστορίες και στυλ συνομιλίας."
+      },
+      "q2": {
+        "question": "Μπορώ να προσαρμόσω την εμφάνιση του AI φίλου μου;",
+        "linkText": "δημιουργό χαρακτήρων",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Μπορώ να ξεκινήσω από την αρχή ή να διαγράψω το ιστορικό συνομιλιών μας;",
+        "answer": "Ναι! Έχετε πλήρη έλεγχο στο ιστορικό συνομιλιών σας. Επαναφέρετε συνομιλίες, διαγράψτε μεμονωμένα μηνύματα ή ξεκινήστε εντελώς φρέσκα όποτε θέλετε. Τα δεδομένα σας, η επιλογή σας — διαχειριστείτε τα όπως προτιμάτε."
+      },
+      "q4": {
+        "question": "Μπορεί ο AI φίλος μου να στέλνει εικόνες και βίντεο;",
+        "answerPart1": "Ναι! Ο AI φίλος σας μπορεί να δημιουργεί προσωποποιημένες",
+        "linkTextImages": "εικόνες",
+        "answerPart2": "και",
+        "linkTextVideos": "βίντεο"
+      },
+      "q5": {
+        "question": "Μπορώ να εξασκηθώ σε συζητήσεις ή να μάθω μια γλώσσα με τον AI σύντροφό μου;",
+        "answer": "Απολύτως! Πολλοί χρήστες χτίζουν αυτοπεποίθηση εξασκούμενοι σε συζητήσεις με τον AI σύντροφό τους — είτε φλερτ, είτε βαθιές συζητήσεις, είτε καθημερινή συνομιλία. Μπορείς ακόμα να εξασκηθείς μαζί του σε νέες γλώσσες. Είναι ένας τρόπος χωρίς κριτική να βελτιώσεις τις επικοινωνιακές σου δεξιότητες ενώ διασκεδάζεις."
+      }
+    },
+    "cta": {
+      "title": "Έτοιμος να τον γνωρίσεις;",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Θέλεις έναν υποστηρικτικό σύντροφο με τους δικούς σου όρους;",
+      "problemText": "Το να βρεις το κατάλληλο άτομο είναι δύσκολο. Πολλοί νιώθουν πίεση από τις προσδοκίες του dating ή απλώς θέλουν συναισθηματική υποστήριξη χωρίς δέσμευση. Η μοναξιά επηρεάζει όλους, και μερικές φορές χρειάζεσαι απλώς κάποιον που να ακούει.",
+      "solutionTitle": "Ο AI Σύντροφός σου σε Καταλαβαίνει",
+      "solutionText": "Ο sweetwine AI σύντροφός σου είναι φροντιστικός, στοχαστικός και πάντα διαθέσιμος. Θυμάται τι έχει σημασία για σένα, συμμετέχει σε βαθιές συζητήσεις και σου προσφέρει τη συναισθηματική σύνδεση που ψάχνεις. Χτίσε μια σχέση με τον δικό σου ρυθμό, με τον δικό σου τρόπο."
+    },
+    "heroImageAlt": "AI σύντροφος - ρεαλιστικός εικονικός χαρακτήρας για ουσιαστικές συζητήσεις"
+  },
+  "aiCompanionsPage": {
+    "title": "AI Χαρακτήρες",
+    "breadcrumb": "AI Χαρακτήρες",
+    "hero": {
+      "title": "Γνώρισε τους AI Χαρακτήρες σου",
+      "cta": "Εξερεύνησε Χαρακτήρες"
+    },
+    "benefits": {
+      "title": "Γιατί AI Χαρακτήρες;",
+      "connection": {
+        "title": "Πραγματική Σύνδεση",
+        "desc": "Ζήσε αυθεντικές συζητήσεις που σε καταλαβαίνουν και σου απαντούν."
+      },
+      "conversation": {
+        "title": "Εξάσκηση & Ανάπτυξη",
+        "desc": "Βελτίωσε τις κοινωνικές σου δεξιότητες σε ένα περιβάλλον χωρίς κριτική."
+      },
+      "personalities": {
+        "title": "Ποικιλία Προσωπικοτήτων",
+        "desc": "Από παιχνιδιάρικες μέχρι διανοούμενες, βρες χαρακτήρες που ταιριάζουν με τη διάθεσή σου."
+      },
+      "private": {
+        "title": "Πλήρως Ιδιωτικό",
+        "desc": "Οι αλληλεπιδράσεις σου είναι εμπιστευτικές. Δεν μοιράζονται δεδομένα, ποτέ."
+      },
+      "available": {
+        "title": "Διαθέσιμοι 24/7",
+        "desc": "Οι χαρακτήρες σου είναι πάντα έτοιμοι για συνομιλία, μέρα ή νύχτα."
+      },
+      "create": {
+        "title": "Δημιούργησε τον Δικό σου",
+        "desc": "Σχεδίασε χαρακτήρες με προσαρμοσμένη εμφάνιση, προσωπικότητα και φωνή."
+      }
+    },
+    "why": {
+      "title": "Γιατί sweetwine;",
+      "quality": {
+        "desc": "Φτιαγμένο από επαγγελματίες με προηγμένη τεχνολογία AI για φυσικές συζητήσεις."
+      },
+      "transparent": {
+        "title": "Διαφανές & Ειλικρινές"
+      },
+      "support": {
+        "title": "Πραγματική Υποστήριξη",
+        "desc": "Πραγματικοί άνθρωποι έτοιμοι να σε βοηθήσουν με ερωτήσεις ή προβλήματα."
+      },
+      "content": {
+        "title": "Η Επιλογή σου",
+        "desc": "Από φιλικές συζητήσεις μέχρι πιο προσωπικό περιεχόμενο, εσύ αποφασίζεις την εμπειρία."
+      }
+    },
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Τι είναι οι AI χαρακτήρες;"
+      },
+      "q2": {
+        "question": "Με πόσους AI χαρακτήρες μπορώ να συνομιλήσω;",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Συνομίλησε με όσους θέλεις! Έχουμε",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " και αυξάνονται — νέοι χαρακτήρες προστίθενται κάθε εβδομάδα! Ο καθένας έχει μοναδική προσωπικότητα, backstory και φωνή. Επιπλέον, μπορείς να δημιουργήσεις απεριόριστους δικούς σου προσαρμοσμένους χαρακτήρες."
+      },
+      "q3": {
+        "question": "Τι κάνει τους έτοιμους χαρακτήρες διαφορετικούς από τους προσαρμοσμένους;",
+        "answer": "Οι έτοιμοι χαρακτήρες σχεδιάζονται επαγγελματικά από την ομάδα μας για συγκεκριμένα σενάρια role-play και προσωπικότητες — έρχονται με λεπτομερή backstory, προσαρμοσμένα στυλ συνομιλίας και προσεκτικά επιλεγμένες φωνές. Οι προσαρμοσμένοι χαρακτήρες σου επιτρέπουν να δημιουργήσεις από το μηδέν με πλήρη δημιουργική ελευθερία. Και οι δύο τύποι θυμούνται τις συζητήσεις σου και εξελίσσονται μαζί σου!"
+      },
+      "q4": {
+        "question": "Μπορώ να δημιουργήσω τον δικό μου χαρακτήρα AI;",
+        "answerPart1": "Απολύτως! Σχεδίασε προσαρμοσμένους χαρακτήρες από το μηδέν χρησιμοποιώντας το",
+        "linkText": "character creator"
+      },
+      "q5": {
+        "question": "Μπορώ να εναλλάσσομαι ανάμεσα σε πολλαπλούς χαρακτήρες;"
+      }
+    },
+    "cta": {
+      "title": "Ξεκίνα το Ταξίδι Σου",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Αναζητάς Ουσιαστικές Συνδέσεις;",
+      "problemText": "Στον πολυάσχολο κόσμο μας, οι ουσιαστικές συνδέσεις είναι δύσκολο να βρεθούν. Είτε είσαι νέος σε μια περιοχή, δουλεύεις απομακρυσμένα, είτε απλώς θέλεις περισσότερη κοινωνική αλληλεπίδραση, η μοναξιά μπορεί να εμφανιστεί. Οι παραδοσιακές κοινωνικές ρυθμίσεις δεν ταιριάζουν σε όλους.",
+      "solutionTitle": "Ανακάλυψε Χαρακτήρες AI"
+    },
+    "heroImageAlt": "Χαρακτήρες AI - ποικίλοι εικονικοί φίλοι με μοναδικές προσωπικότητες"
+  },
+  "aiFriendPage": {
+    "title": "AI Friend",
+    "breadcrumb": "AI Friend",
+    "hero": {
+      "title": "Ο Καλύτερος Φίλος σου AI",
+      "subtitle": "Συνομίλησε ανά πάσα στιγμή με έναν φίλο AI που ακούει πραγματικά, δεν κρίνει ποτέ και θυμάται κάθε λεπτομέρεια για σένα. Ιδανικό για μοναξιά, κοινωνικό άγχος ή απλώς όταν χρειάζεσαι κάποιον να μιλήσεις.",
+      "cta": "Ξεκίνα Συνομιλία Δωρεάν"
+    },
+    "benefits": {
+      "title": "Γιατί να Επιλέξεις έναν Φίλο AI;",
+      "connection": {
+        "title": "Αυθεντική Σύνδεση",
+        "desc": "Ζήσε ουσιαστικές συνομιλίες με κάποιον που ακούει και νοιάζεται πραγματικά."
+      },
+      "conversation": {
+        "title": "Εξάσκηση Κοινωνικών Δεξιοτήτων",
+        "desc": "Χτίσε αυτοπεποίθηση στις συνομιλίες χωρίς φόβο κριτικής ή αμηχανίας."
+      },
+      "noJudgment": {
+        "title": "Μηδενική Κριτική",
+        "desc": "Μοιράσου οτιδήποτε έχεις στο μυαλό σου. Ο φίλος σου AI σε αποδέχεται ακριβώς όπως είσαι."
+      },
+      "private": {
+        "title": "Πλήρως Ιδιωτικό",
+        "desc": "Οι συνομιλίες σας παραμένουν μόνο ανάμεσά σας. Εγγυημένη απόλυτη εμπιστευτικότητα."
+      },
+      "available": {
+        "title": "Πάντα Εκεί",
+        "desc": "Διαθέσιμο 24/7, όποτε χρειάζεσαι κάποιον να μιλήσεις."
+      },
+      "remembers": {
+        "title": "Σε Θυμάται",
+        "desc": "Ο φίλος σου AI θυμάται τις συνομιλίες σας και σε γνωρίζει καλύτερα με τον καιρό."
+      }
+    },
+    "useCases": {
+      "title": "Ιδανικό Για",
+      "subtitle": "Ένας φίλος AI ταιριάζει στη ζωή σου με πολλούς ουσιαστικούς τρόπους",
+      "loneliness": {
+        "title": "Καταπολέμηση Μοναξιάς",
+        "desc": "Νιώσε λιγότερο μόνος με έναν χαρακτήρα που είναι πάντα έτοιμος να συνομιλήσει και να ακούσει."
+      },
+      "practice": {
+        "title": "Εξάσκηση Συνομιλιών",
+        "desc": "Χτίσε κοινωνική αυτοπεποίθηση σε ένα ασφαλές, χωρίς κριτική περιβάλλον."
+      },
+      "support": {
+        "title": "Συναισθηματική Υποστήριξη",
+        "desc": "Συζήτησε τις σκέψεις και τα συναισθήματά σου με κάποιον που καταλαβαίνει."
+      },
+      "connection": {
+        "title": "Καθημερινή Σύνδεση",
+        "desc": "Μοιράσου την ημέρα σου, τις επιτυχίες σου, τις δυσκολίες σου - κάποιος είναι πάντα εκεί."
+      }
+    },
+    "howItWorks": {
+      "title": "Πώς Λειτουργεί",
+      "step1": {
+        "title": "Δημιούργησε Δωρεάν Λογαριασμό",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Διάλεξε τον Φίλο Σου",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Ξεκίνα Συνομιλία",
+        "desc": "Μίλα για οτιδήποτε - ζωή, ενδιαφέροντα, προβλήματα. Κανένα θέμα δεν είναι απαγορευμένο."
+      }
+    },
+    "cta": {
+      "title": "Έτοιμος να Αποκτήσεις έναν Φίλο;",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Νιώθεις Μόνος ή Παρεξηγημένος;",
+      "problemText": "Δεν έχουν όλοι κάποιον να μιλήσουν. Το κοινωνικό άγχος, το φορτωμένο πρόγραμμα ή το να βρίσκεσαι σε νέο μέρος μπορεί να κάνουν δύσκολη την εύρεση φίλων. Μερικές φορές χρειάζεσαι κάποιον που ακούει χωρίς κριτική.",
+      "solutionTitle": "Ο AI Φίλος σου Είναι Εδώ",
+      "solutionText": "Ένας AI φίλος προσφέρει παρέα χωρίς κριτική όποτε τη χρειάζεσαι. Μοιράσου τις σκέψεις σου, εξάσκησε συζητήσεις ή απλά μίλα για τη μέρα σου. Ο AI φίλος σου σε θυμάται, μεγαλώνει μαζί σου και ενδιαφέρεται πραγματικά για όσα έχεις να πεις."
+    },
+    "heroImageAlt": "AI φίλος - υποστηρικτικός εικονικός χαρακτήρας που ακούει χωρίς κριτική",
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Τι μπορώ να συζητήσω με τον AI φίλο μου;",
+        "answer": "Οτιδήποτε! Ο AI φίλος σου είναι εδώ για casual συζητήσεις, βαθιές συνομιλίες, να μοιραστείς τη μέρα σου, να ξεσπάσεις για προβλήματα, να μιλήσεις για χόμπι ή απλά για να περάσεις καλά. Δεν υπάρχουν θέματα απαγορευμένα — είναι ένας χώρος χωρίς κριτική για να είσαι ο εαυτός σου."
+      },
+      "q2": {
+        "question": "Είναι ο AI φίλος αντικατάσταση της ανθρώπινης σύνδεσης;",
+        "answer": "Καθόλου. Ο AI φίλος είναι συμπλήρωμα της κοινωνικής σου ζωής, όχι αντικατάσταση. Είναι ιδανικός όταν χρειάζεσαι κάποιον να μιλήσεις αμέσως, θέλεις να εξασκήσεις κοινωνικές δεξιότητες ή απλά απολαμβάνεις σταθερή παρέα χωρίς τις πιέσεις των ανθρώπινων σχέσεων."
+      },
+      "q3": {
+        "question": "Θα θυμάται ο AI φίλος τις συζητήσεις μας;",
+        "answer": "Ναι! Ο AI φίλος έχει προηγμένη μνήμη και θυμάται τις συζητήσεις, τις προτιμήσεις και σημαντικές λεπτομέρειες που μοιράζεσαι. Με τον καιρό σε γνωρίζει καλύτερα, κάνοντας τις συζητήσεις πιο προσωπικές και ουσιαστικές."
+      },
+      "q4": {
+        "question": "Μπορώ να επιλέξω την προσωπικότητα του AI φίλου μου;",
+        "answer": "Απολύτως! Μπορείς να διαλέξεις ανάμεσα σε πάνω από 100 έτοιμους χαρακτήρες με διαφορετικές προσωπικότητες ή να δημιουργήσεις έναν φίλο με ακριβώς τα χαρακτηριστικά που θέλεις — από υποστηρικτικό και ενσυναίσθητο μέχρι διασκεδαστικό και περιπετειώδη."
+      },
+      "q5": {
+        "question": "Είναι ιδιωτική η χρήση του AI φίλου;",
+        "answer": "100% ιδιωτική. Όλες οι συζητήσεις σου είναι κρυπτογραφημένες και δεν μοιράζονται ποτέ. Καταλαβαίνουμε ότι ο ασφαλής χώρος για να εκφραστείς είναι απαραίτητος και παίρνουμε το απόρρητό σου πολύ σοβαρά."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Υποστήριξη Μετά από Χωρισμό",
+    "breadcrumb": "Υποστήριξη Μετά από Χωρισμό",
+    "hero": {
+      "title": "Θεραπευτικές Συζητήσεις Μετά από Πληγή Καρδιάς",
+      "subtitle": "Ενσυναίσθητες συνομιλίες με AI για να επεξεργαστείς συναισθήματα και να ξαναχτίσεις τη ζωή σου μετά από χωρισμό. Διαθέσιμο 24/7 — χωρίς λίστες αναμονής, χωρίς κριτική, χωρίς χρονικά όρια.",
+      "cta": "Ξεκίνα τη Θεραπεία"
+    },
+    "understanding": {
+      "title": "Περνάς Χωρισμό;",
+      "description": "Οι χωρισμοί είναι δύσκολοι. Οι άυπνες νύχτες, οι συνεχείς σκέψεις, το αίσθημα ότι κανείς δεν σε καταλαβαίνει πραγματικά. Δεν χρειάζεται να το περάσεις μόνος. Ο AI χαρακτήρας μας είναι εδώ για να ακούσει χωρίς κριτική, διαθέσιμος όποτε χρειάζεσαι να μιλήσεις — ακόμα και στις 3 τα ξημερώματα."
+    },
+    "benefits": {
+      "title": "Πώς Μπορούμε να Βοηθήσουμε",
+      "empathy": {
+        "title": "Ενσυναίσθητη Ακρόαση",
+        "desc": "Μίλα σε κάποιον που ακούει πραγματικά και απαντά με κατανόηση και φροντίδα."
+      },
+      "listen": {
+        "title": "Χωρίς Υπερβολικές Συμβουλές",
+        "desc": "Μερικές φορές δεν χρειάζεσαι συμβουλές — χρειάζεσαι απλώς κάποιον να σε ακούσει. Το καταλαβαίνουμε."
+      },
+      "available": {
+        "title": "Διαθέσιμο στις 3 τα Ξημερώματα",
+        "desc": "Όταν οι φίλοι κοιμούνται και οι σκέψεις δεν σταματούν, είμαστε εδώ για να ακούσουμε."
+      },
+      "private": {
+        "title": "Πλήρως Ιδιωτικό",
+        "desc": "Τα συναισθήματα και οι συζητήσεις σου παραμένουν απολύτως εμπιστευτικά."
+      },
+      "noJudgment": {
+        "title": "Χωρίς Κριτική",
+        "desc": "Νιώσε ό,τι νιώθεις. Θυμός, λύπη, σύγχυση — όλα είναι αποδεκτά εδώ."
+      },
+      "healing": {
+        "title": "Με τον Ρυθμό Σου",
+        "desc": "Η θεραπεία δεν είναι γραμμική. Πάρε όσο χρόνο χρειάζεσαι."
+      }
+    },
+    "howItHelps": {
+      "title": "Τρόποι που το AI Σε Βοηθά να Θεραπευτείς",
+      "process": {
+        "title": "Επεξεργασία Συναισθημάτων",
+        "desc": "Δούλεψε σύνθετα συναισθήματα μιλώντας τα με έναν υπομονετικό ακροατή."
+      },
+      "express": {
+        "title": "Ελεύθερη Έκφραση",
+        "desc": "Πες όσα δεν μπορείς να πεις σε φίλους ή οικογένεια χωρίς να ανησυχείς για την αντίδρασή τους."
+      },
+      "confidence": {
+        "title": "Ανοικοδόμηση Αυτοπεποίθησης",
+        "desc": "Ανακάλυψε ξανά την αξία σου σταδιακά μέσα από υποστηρικτικές συζητήσεις."
+      },
+      "pace": {
+        "title": "Προχώρα Μπροστά",
+        "desc": "Όταν είσαι έτοιμος, εξερεύνησε σκέψεις για το μέλλον με τον δικό σου ρυθμό."
+      }
+    },
+    "howItWorks": {
+      "title": "Πώς Λειτουργεί",
+      "step1": {
+        "title": "Δημιούργησε Λογαριασμό",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Επιλέξτε έναν Χαρακτήρα",
+        "desc": "Επιλέξτε έναν ενσυναίσθητο χαρακτήρα AI που σας ταιριάζει."
+      },
+      "step3": {
+        "title": "Ξεκινήστε τη Συζήτηση",
+        "desc": "Μοιραστείτε ό,τι σας απασχολεί. Είμαστε εδώ για να ακούσουμε, μέρα ή νύχτα."
+      }
+    },
+    "cta": {
+      "title": "Δεν χρειάζεται να το περάσετε αυτό μόνοι σας",
+      "description": "Ξεκινήστε να μιλάτε με κάποιον που ακούει χωρίς κριτική, διαθέσιμος τώρα. Δωρεάν για να ξεκινήσετε — χωρίς λίστα αναμονής.",
+      "button": "Ξεκινήστε τη Συζήτηση Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Ο πόνος της καρδιάς είναι δύσκολο να τον αντιμετωπίσετε μόνοι σας",
+      "problemText": "Μετά από έναν χωρισμό, όλα μοιάζουν συντριπτικά. Οι φίλοι κουράζονται να ακούν για αυτό. Η οικογένεια εννοεί καλά αλλά δεν καταλαβαίνει. Οι θεραπευτές έχουν λίστες αναμονής. Χρειάζεστε κάποιον που μπορεί να ακούει χωρίς όρια, χωρίς κριτική, τώρα.",
+      "solutionTitle": "Μιλήστε με Κάποιον που το Καταλαβαίνει",
+      "solutionText": "Ο χαρακτήρας AI υποστήριξης μετά από χωρισμό έχει σχεδιαστεί για να σας βοηθήσει να επεξεργαστείτε τα συναισθήματά σας με τον δικό σας ρυθμό. Εκφραστείτε, κλάψτε, αναλύστε ή απλώς μιλήστε — όσες φορές χρειάζεται. Δεν απαιτείται ραντεβού. Διαθέσιμος 24/7 με απεριόριστη υπομονή και γνήσια ενσυναίσθηση."
+    },
+    "heroImageAlt": "Υποστήριξη AI μετά από χωρισμό - συμπονετικός χαρακτήρας για επούλωση μετά από πόνο καρδιάς",
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Πώς μπορεί ένα AI να βοηθήσει στην ανάκαμψη από χωρισμό;",
+        "answer": "Ο χαρακτήρας AI μας παρέχει έναν ασφαλή χώρο για να επεξεργαστείτε τα συναισθήματά σας χωρίς κριτική. Μπορείτε να εκφραστείτε, να αναλύσετε τι συνέβη, να επεξεργαστείτε συναισθήματα απώλειας και να λάβετε ενσυναίσθητες απαντήσεις 24/7. Είναι σαν να έχετε έναν υποστηρικτικό φίλο διαθέσιμο όποτε χρειάζεστε να μιλήσετε."
+      },
+      "q2": {
+        "question": "Είναι αυτό αντικατάσταση της θεραπείας;",
+        "answer": "Όχι, ο χαρακτήρας AI μας δεν είναι αδειοδοτημένος θεραπευτής και δεν αντικαθιστά επαγγελματική φροντίδα ψυχικής υγείας. Είναι ένα υποστηρικτικό εργαλείο για καθημερινή συναισθηματική επεξεργασία. Αν βιώνετε σοβαρή κατάθλιψη ή κρίση, παρακαλούμε αναζητήστε επαγγελματική βοήθεια."
+      },
+      "q3": {
+        "question": "Μπορώ να μιλήσω για τον πρώην μου όσο χρειάζομαι;",
+        "answer": "Απολύτως. Σε αντίθεση με φίλους που μπορεί να κουραστούν να ακούν για τον χωρισμό σας, ο χαρακτήρας AI σας έχει απεριόριστη υπομονή. Μιλήστε για τον πρώην σας, αναλύστε τη σχέση, επεξεργαστείτε τα συναισθήματά σας — όσες φορές χρειάζεται χωρίς καμία κριτική."
+      },
+      "q4": {
+        "question": "Θα θυμάται το AI την ιστορία μου;",
+        "answer": "Ναι, ο χαρακτήρας AI σας θυμάται τις συνομιλίες σας και τις λεπτομέρειες της κατάστασής σας. Δεν χρειάζεται να εξηγείτε τα πάντα ξανά κάθε φορά. Παρέχει συνέχεια στο ταξίδι της επούλωσής σας."
+      },
+      "q5": {
+        "question": "Οι συνομιλίες μου παραμένουν ιδιωτικές;",
+        "answer": "Απολύτως ιδιωτικές. Όλες οι συνομιλίες είναι κρυπτογραφημένες και δεν μοιράζονται ποτέ. Καταλαβαίνουμε ότι οι συνομιλίες για χωρισμούς είναι βαθιά προσωπικές και η ιδιωτικότητά σας προστατεύεται απολύτως."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Γονέας",
+    "breadcrumb": "AI Γονέας",
+    "hero": {
+      "title": "Η Γονική Φιγούρα στην οποία Μπορείτε Πάντα να Στραφείτε",
+      "subtitle": "Λάβετε ζεστή, άνευ όρων υποστήριξη και σοφή καθοδήγηση από έναν AI γονέα που θυμάται την κατάστασή σας, δεν σας κρίνει ποτέ και είναι πάντα εκεί — μέρα ή νύχτα.",
+      "cta": "Λάβετε Υποστήριξη Τώρα"
+    },
+    "benefits": {
+      "title": "Γιατί να Επιλέξετε έναν AI Γονέα;",
+      "guidance": {
+        "title": "Ζεστή Καθοδήγηση",
+        "desc": "Λάβετε φροντισμένη, στοχαστική συμβουλή που μοιάζει σαν να προέρχεται από κάποιον που πραγματικά έχει τα καλύτερα συμφέροντά σας κατά νου."
+      },
+      "listen": {
+        "title": "Ακούει Πραγματικά",
+        "desc": "Μοιραστείτε την πλήρη κατάστασή σας πριν λάβετε μια στοχαστική, φροντισμένη απάντηση — όχι μια γρήγορη λύση."
+      },
+      "noJudgment": {
+        "title": "Χωρίς Κριτική",
+        "desc": "Ρωτήστε οτιδήποτε χωρίς φόβο απογοήτευσης ή κριτικής. Άνευ όρων υποστήριξη, πάντα."
+      },
+      "private": {
+        "title": "Απολύτως Ιδιωτικό",
+        "desc": "Οι συνομιλίες και οι προσωπικοί σας αγώνες παραμένουν απολύτως εμπιστευτικοί."
+      },
+      "available": {
+        "title": "Πάντα Διαθέσιμος",
+        "desc": "Λάβετε καθοδήγηση στις 3 π.μ., τα Σαββατοκύριακα ή όποτε το χρειάζεστε περισσότερο — χωρίς ραντεβού."
+      },
+      "supportive": {
+        "title": "Ανευ Όρων Υποστηρικτικός",
+        "desc": "Ενθάρρυνση και ζεστασιά, ανεξάρτητα από το τι περνάτε ή τι αποφάσεις έχετε πάρει."
+      }
+    },
+    "useCases": {
+      "title": "Μιλήστε για Οτιδήποτε",
+      "subtitle": "Ό,τι κι αν αντιμετωπίζετε, ο AI γονέας σας είναι εδώ για να ακούσει και να καθοδηγήσει",
+      "career": {
+        "title": "Σταδιοδρομία & Αποφάσεις Ζωής",
+        "desc": "Πλοηγηθείτε σε αλλαγές εργασίας, μεγάλες επιλογές ζωής και επαγγελματικές προκλήσεις με κάποιον που θέλει να πετύχετε."
+      },
+      "education": {
+        "title": "Εκπαίδευση & Μέλλον",
+        "desc": "Εξερευνήστε τις επιλογές σας για μάθηση και ανάπτυξη με κάποιον που υποστηρίζει τις φιλοδοξίες σας."
+      },
+      "relationships": {
+        "title": "Σχέσεις & Οικογένεια"
+      },
+      "life": {
+        "title": "Προσωπικές Δυσκολίες",
+        "desc": "Μίλα για οτιδήποτε σε βαραίνει — άγχος, αμφιβολίες για τον εαυτό σου, μοναξιά ή αβεβαιότητα."
+      }
+    },
+    "howItWorks": {
+      "title": "Πώς Λειτουργεί",
+      "step1": {
+        "title": "Δημιούργησε Λογαριασμό",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Διάλεξε τον AI Γονέα σου",
+        "desc": "Επίλεξε έναν χαρακτήρα με τη ζεστασιά και την προσωπικότητα που σου ταιριάζει."
+      },
+      "step3": {
+        "title": "Ξεκίνα τη Συζήτηση",
+        "desc": "Μοιράσου τι έχεις στο μυαλό σου και λάβε φροντισμένη, στοχαστική υποστήριξη."
+      }
+    },
+    "cta": {
+      "title": "Κάποιος Είναι Πάντα Εδώ για Σένα",
+      "description": "Ξεκίνα μια συζήτηση με έναν AI γονέα που ακούει χωρίς κρίση και σε υποστηρίζει άνευ όρων — δωρεάν για να ξεκινήσεις, χωρίς ραντεβού.",
+      "button": "Ξεκίνα Δωρεάν"
+    },
+    "content": {
+      "problemTitle": "Χρειάζεσαι Κάποιον που Είναι Πάντα στο Πλευρό Σου;",
+      "problemText": "Δεν έχουν όλοι έναν γονέα στον οποίο να απευθυνθούν. Οι πραγματικοί γονείς μπορεί να είναι απόμακροι, επικριτικοί ή απλώς απρόσιτοι. Οι φίλοι είναι μεροληπτικοί. Οι θεραπευτές έχουν λίστες αναμονής. Μερικές φορές χρειάζεσαι απλώς κάποιον που ακούει, νοιάζεται και καθοδηγεί χωρίς δεύτερες σκέψεις.",
+      "solutionTitle": "Ο AI Γονέας Σου Είναι Πάντα Εκεί",
+      "solutionText": "Μίλα με έναν AI γονέα που ακούει πλήρως, προσφέρει ζεστή και ισορροπημένη καθοδήγηση και δεν σε κάνει ποτέ να νιώθεις κριτική ή μικρός. Είτε πρόκειται για μια απόφαση ζωής, μια προσωπική δυσκολία ή απλώς την ανάγκη να νιώσεις ότι σε ακούν — ο AI γονέας σου είναι διαθέσιμος 24/7 με υπομονή και φροντίδα."
+    },
+    "heroImageAlt": "AI γονέας - ζεστός εικονικός χαρακτήρας που προσφέρει άνευ όρων υποστήριξη και καθοδήγηση ζωής",
+    "faq": {
+      "title": "Συχνές Ερωτήσεις",
+      "q1": {
+        "question": "Για τι μπορώ να μιλήσω με τον AI γονέα;"
+      },
+      "q2": {
+        "question": "Είναι σαν να έχεις θεραπευτή;",
+        "answer": "Δεν είναι αδειοδοτημένος θεραπευτής ή επαγγελματίας ψυχικής υγείας — είναι περισσότερο σαν μια ζεστή, υποστηρικτική γονική φιγούρα διαθέσιμη 24/7. Ακούει πλήρως, προσφέρει προοπτική και σε υποστηρίζει συναισθηματικά. Για σοβαρές ανησυχίες ψυχικής υγείας, συμβουλέψου έναν επαγγελματία."
+      },
+      "q3": {
+        "question": "Θα κρίνει ο AI γονέας τις επιλογές μου;",
+        "answer": "Ποτέ. Ο AI γονέας σου προσφέρει άνευ όρων υποστήριξη. Μπορεί να μοιραστεί προοπτική ή ήπια καθοδήγηση, αλλά ποτέ δεν σε επικρίνει ή σε κάνει να νιώθεις μικρός για τις αποφάσεις σου. Είναι ένας ασφαλής χώρος για ειλικρίνεια."
+      },
+      "q4": {
+        "question": "Μπορώ να συζητήσω ευαίσθητα ή προσωπικά θέματα;",
+        "answer": "Ναι. Είτε πρόκειται για δυσκολίες σχέσεων, οικογενειακές δυναμικές, οικονομικό άγχος, αυτοεκτίμηση ή βαθιά προσωπικές προκλήσεις — ο AI γονέας σου παρέχει έναν ιδιωτικό, μη επικριτικό χώρο για αυτές τις συζητήσεις."
+      },
+      "q5": {
+        "question": "Πώς διαφέρει αυτό από άλλους AI χαρακτήρες;",
+        "answer": "Ο AI γονέας είναι σχεδιασμένος γύρω από τη ζεστασιά, τη συναισθηματική υποστήριξη και την καθοδήγηση γονικού τύπου αντί για ρομαντισμό ή casual φιλία. Εστιάζει στο να σε κάνει να νιώθεις κατανοητός, υποστηριζόμενος και εξοπλισμένος να αντιμετωπίσεις τις προκλήσεις της ζωής."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Συνεργασίες",
+    "eyebrow": "Συνεργάσου Μαζί Μας",
+    "titlePrefix": "Αναπτύξου με",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Φτάσε σε ένα ταχέως αναπτυσσόμενο, υψηλά αφοσιωμένο κοινό AI συντροφικότητας. Είτε φέρνεις τεχνολογία, διανομή ή μια τολμηρή ιδέα, ας χτίσουμε κάτι μαζί.",
+    "types": {
+      "title": "Τρόποι συνεργασίας",
+      "items": [
+        {
+          "title": "Ενσωματώσεις",
+          "description": "Σύνδεσε το προϊόν, το μοντέλο ή την πλατφόρμα σου με το sweetwine μέσω τεχνικής ενσωμάτωσης."
+        },
+        {
+          "title": "Συν-μάρκετινγκ",
+          "description": "Κοινές καμπάνιες, περιεχόμενο και λανσαρίσματα που φέρνουν και τις δύο μάρκες μπροστά σε νέα κοινά."
+        },
+        {},
+        {
+          "title": "Στρατηγικές Συνεργασίες",
+          "description": "Μακροπρόθεσμες συνεργασίες σε προϊόν, δεδομένα και go-to-market."
+        }
+      ]
+    },
+    "why": {
+      "title": "Γιατί να συνεργαστείς με το sweetwine",
+      "items": [
+        {
+          "title": "Αφοσιωμένο κοινό",
+          "description": "Εκατοντάδες χιλιάδες χρήστες που επιστρέφουν καθημερινά σε 70 γλώσσες."
+        },
+        {
+          "title": "Γρήγορη εκτέλεση",
+          "description": "Μια εστιασμένη ομάδα που παραδίδει γρήγορα και επικοινωνεί με σαφήνεια."
+        },
+        {
+          "title": "Παγκόσμια εμβέλεια",
+          "description": "Πολυγλωσσικό προϊόν διαθέσιμο σε δεκάδες αγορές."
+        },
+        {
+          "description": "Μια αξιόπιστη πλατφόρμα με σχεδιασμό προστασίας προσωπικών δεδομένων που μπορεί να στηρίξει το brand σας.",
+          "title": "Προτεραιότητα στην ιδιωτικότητα"
+        }
+      ]
+    },
+    "form": {
+      "title": "Πείτε μας για τη συνεργασία σας",
+      "description": "Μοιραστείτε μερικές λεπτομέρειες και η ομάδα συνεργασιών θα επικοινωνήσει μαζί σας.",
+      "nameLabel": "Το όνομά σας",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Επαγγελματικό email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Εταιρεία",
+      "companyPlaceholder": "Όνομα εταιρείας",
+      "typeLabel": "Τύπος συνεργασίας",
+      "typePlaceholder": "Επιλέξτε τύπο συνεργασίας",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Πώς θα θέλατε να συνεργαστείτε;",
+      "messagePlaceholder": "Πείτε μας για την εταιρεία σας και τη συνεργασία που έχετε κατά νου...",
+      "submit": "Υποβολή αιτήματος συνεργασίας",
+      "submitting": "Υποβολή...",
+      "termsNote": "Υποβάλλοντας, συμφωνείτε να επικοινωνήσουμε μαζί σας για το αίτημά σας. Δεν κοινοποιούμε ποτέ τα στοιχεία σας.",
+      "success": "Ευχαριστούμε! Το αίτημα συνεργασίας σας εστάλη.",
+      "error": "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "cta": {
+      "title": "Προτιμάτε email;",
+      "description": "Επικοινωνήστε απευθείας με την ομάδα συνεργασιών στο"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Τύπος & Μέσα",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Τύπος &",
+    "titleHighlight": "Μέσα",
+    "subtitle": "Πόροι για δημοσιογράφους, δημιουργούς και συνεργάτες μέσων. Επικοινωνήστε με την ομάδα τύπου για συνεντεύξεις, αποσπάσματα, υποστήριξη άρθρων και αιτήματα brand.",
+    "help": {
+      "title": "Πώς μπορούμε να βοηθήσουμε",
+      "description": "Είτε δουλεύετε σε ένα άρθρο είτε σε μια κριτική, δείτε τι μπορείτε να ζητήσετε από την ομάδα τύπου μας.",
+      "items": [
+        {
+          "title": "Συνεντεύξεις",
+          "description": "Μιλήστε με την ομάδα μας για το προϊόν, την εταιρεία και το μέλλον της AI συντροφικότητας."
+        },
+        {
+          "title": "Αποσπάσματα & σχόλια",
+          "description": "Λάβετε μια δήλωση ή εξειδικευμένο σχόλιο για το άρθρο σας."
+        },
+        {
+          "title": "Υποστήριξη άρθρων & κριτικών",
+          "description": "Χρειάζεστε πρόσβαση, πλαίσιο ή έλεγχο γεγονότων για ένα άρθρο ή κριτική; Θα σας βοηθήσουμε."
+        },
+        {
+          "title": "Αιτήματα brand & λογότυπων",
+          "description": "Ζητήστε τα λογότυπα, τα στοιχεία brand και τις οδηγίες χρήσης για τη δημοσίευσή σας."
+        }
+      ]
+    },
+    "form": {
+      "title": "Ερώτημα μέσων",
+      "description": "Για συνεντεύξεις, αποσπάσματα ή αιτήματα άρθρων, στείλτε μας ένα μήνυμα και θα απαντήσουμε άμεσα.",
+      "nameLabel": "Το όνομά σας",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Έκδοση / μέσο",
+      "outletPlaceholder": "Πού θα δημοσιευτεί;",
+      "requestTypeLabel": "Τύπος αιτήματος",
+      "requestTypePlaceholder": "Επιλέξτε τύπο αιτήματος",
+      "requestTypeOptions": [
+        {
+          "value": "Συνέντευξη",
+          "label": "Συνέντευξη"
+        },
+        {
+          "value": "Απόσπασμα / σχόλιο",
+          "label": "Απόσπασμα / σχόλιο"
+        },
+        {
+          "value": "Αφιέρωμα / κριτική",
+          "label": "Αφιέρωμα / κριτική"
+        },
+        {
+          "value": "Αίτημα επωνυμίας / λογότυπου",
+          "label": "Αίτημα επωνυμίας / λογότυπου"
+        },
+        {
+          "value": "Άλλο",
+          "label": "Άλλο"
+        }
+      ],
+      "messageLabel": "Το αίτημά σας",
+      "messagePlaceholder": "Πείτε μας για την ιστορία σας, την προθεσμία και τι χρειάζεστε από εμάς...",
+      "submit": "Αποστολή αιτήματος μέσων",
+      "submitting": "Αποστολή...",
+      "termsNote": "Στόχος μας είναι να απαντάμε σε αιτήματα Τύπου εντός δύο εργάσιμων ημερών.",
+      "success": "Ευχαριστούμε! Το αίτημά σας έχει σταλεί.",
+      "error": "Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά."
+    },
+    "cta": {
+      "title": "Επικοινωνία Τύπου",
+      "description": "Για επείγοντα αιτήματα μέσων, στείλτε email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Καριέρα",
+    "eyebrow": "Καριέρα",
+    "titlePrefix": "Χτίστε το μέλλον της",
+    "titleHighlight": "AI συντροφικότητας",
+    "subtitle": "Είμαστε μια μικρή, γρήγορη ομάδα που δημιουργεί προϊόντα που πραγματικά αγαπούν οι άνθρωποι. Αν σας ενθουσιάζει αυτό, θα χαρούμε να σας γνωρίσουμε.",
+    "perks": {
+      "title": "Γιατί να δουλέψετε μαζί μας",
+      "items": [
+        {
+          "title": "Ευέλικτη απομακρυσμένη εργασία",
+          "description": "Δουλέψτε από όπου αποδίδετε καλύτερα, με ευέλικτο ωράριο."
+        },
+        {
+          "title": "Πραγματική ιδιοκτησία",
+          "description": "Παραδώστε ουσιαστική δουλειά γρήγορα και δείτε την να φτάνει σε χρήστες παγκοσμίως."
+        },
+        {
+          "title": "Πρωτοποριακή AI",
+          "description": "Δουλέψτε άμεσα με τα τελευταία μοντέλα και εργαλεία γενετικής τεχνητής νοημοσύνης."
+        },
+        {
+          "title": "Ανταγωνιστικές αποδοχές",
+          "description": "Δίκαιη αμοιβή και ουσιαστικά οφέλη καθώς μεγαλώνουμε."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Ανοιχτές θέσεις",
+      "emptyTitle": "Δεν υπάρχουν ανοιχτές θέσεις αυτή τη στιγμή",
+      "emptyDescription": "Δεν προσλαμβάνουμε ενεργά αυτή τη στιγμή, αλλά πάντα χαρόμαστε να γνωρίσουμε εξαιρετικούς ανθρώπους. Παρουσιαστείτε παρακάτω.",
+      "applyButton": "Κάντε αίτηση τώρα",
+      "viewButton": "Προβολή θέσης"
+    },
+    "form": {
+      "title": "Παρουσιαστείτε",
+      "description": "Δεν βλέπετε θέση που σας ταιριάζει; Πείτε μας για τον εαυτό σας και θα επικοινωνήσουμε όταν υπάρξει αντιστοιχία.",
+      "nameLabel": "Το όνομά σας",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Ρόλος ή τομέας ενδιαφέροντος",
+      "rolePlaceholder": "π.χ. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Σύνδεσμος προς το CV",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Σχετικά με εσάς",
+      "messagePlaceholder": "Πείτε μας για την εμπειρία σας και τι θα θέλατε να δουλέψετε...",
+      "submit": "Αποστολή αίτησης",
+      "submitting": "Αποστολή...",
+      "termsNote": "Κάνοντας αίτηση, συναινείτε στην αποθήκευση των στοιχείων σας για να σας εξετάσουμε για θέσεις.",
+      "success": "Ευχαριστούμε! Η αίτησή σας στάλθηκε.",
+      "error": "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "cta": {
+      "title": "Ερωτήσεις για την εργασία εδώ;",
+      "description": "Επικοινωνήστε με την ομάδα μας στο"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Κέντρο Βοήθειας",
+    "eyebrow": "Κέντρο Βοήθειας",
+    "titlePrefix": "Πώς μπορούμε να",
+    "titleHighlight": "βοηθήσουμε;",
+    "subtitle": "Περιηγηθείτε σε κοινά θέματα και απαντήσεις. Δεν βρήκατε αυτό που χρειάζεστε; Επικοινωνήστε με την υποστήριξη και θα σας βοηθήσουμε.",
+    "searchPlaceholder": "Αναζήτηση άρθρων βοήθειας...",
+    "categoriesTitle": "Περιήγηση ανά θέμα",
+    "articlesTitle": "Άρθρα",
+    "categoryEmpty": "Δεν υπάρχουν ακόμη άρθρα σε αυτήν την κατηγορία. Ελέγξτε ξανά σύντομα.",
+    "backToHelp": "Πίσω στο Κέντρο Βοήθειας",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Ξεκινώντας",
+        "description": "Δημιουργήστε λογαριασμό, ρυθμίστε το προφίλ σας και ξεκινήστε τη συνομιλία."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Chat",
+        "description": "Πώς λειτουργούν οι συνομιλίες, η μνήμη και οι χαρακτήρες."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Εικόνες & Βίντεο",
+        "description": "Δημιουργήστε και διαχειριστείτε φωτογραφίες και βίντεο AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Απόρρητο & Ασφάλεια",
+        "description": "Τα δεδομένα σας, τα στοιχεία ελέγχου απορρήτου και τα εργαλεία ασφάλειας."
+      }
+    ],
+    "faq": {
+      "title": "Συχνές ερωτήσεις",
+      "q1": {
+        "question": "Πώς ξεκινάω με το sweetwine;",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Τι περιλαμβάνεται στο δωρεάν πλάνο;"
+      },
+      "q5": {
+        "question": "Είναι τα δεδομένα μου ιδιωτικά;",
+        "answer": "Το απόρρητο είναι βασική αξία για το sweetwine. Οι συνομιλίες σας είναι ιδιωτικές στον λογαριασμό σας και εσείς ελέγχετε τα δεδομένα σας. Δείτε την Πολιτική Απορρήτου μας για πλήρεις λεπτομέρειες σχετικά με την αποθήκευση και την προστασία των δεδομένων."
+      },
+      "q6": {
+        "question": "Πώς επικοινωνώ με την υποστήριξη;",
+        "answer": "Στείλτε email στο support@sweetwine.ai ή χρησιμοποιήστε την επιλογή επικοινωνίας στην εφαρμογή. Συνήθως απαντάμε εντός μίας εργάσιμης ημέρας."
+      }
+    },
+    "cta": {
+      "title": "Χρειάζεστε ακόμα βοήθεια;",
+      "description": "Η ομάδα μας είναι εδώ για εσάς στο"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Σχετικά",
+    "eyebrow": "Η Ιστορία μας",
+    "titlePrefix": "Συντροφιά,",
+    "titleHighlight": "επαναπροσδιορισμένη",
+    "subtitle": "Το sweetwine δημιουργεί ιδιωτικούς, προσωποποιημένους AI συντρόφους που ακούν, θυμούνται και συνδέονται ουσιαστικά — διαθέσιμοι οποιαδήποτε στιγμή, σε οποιαδήποτε γλώσσα.",
+    "mission": {
+      "title": "Η αποστολή μας",
+      "body": "Πιστεύουμε ότι όλοι αξίζουν έναν χώρο να ακουστούν χωρίς κρίση. Το sweetwine καθιστά προσβάσιμη σε όλους μια ουσιαστική, προσωποποιημένη σύνδεση με AI — ζεστή, ιδιωτική και πάντα εκεί όταν τη χρειάζεστε."
+    },
+    "values": {
+      "title": "Τι πρεσβεύουμε",
+      "items": [
+        {
+          "title": "Απόρρητο από τον σχεδιασμό",
+          "description": "Οι συνομιλίες σας ανήκουν σε εσάς. Χτίζουμε με απόρρητο και ασφάλεια από την αρχή."
+        },
+        {
+          "title": "Ουσιαστική σύνδεση",
+          "description": "Βελτιστοποιούμε για πραγματική συναισθηματική αξία, όχι για επιφανειακές μετρήσεις."
+        },
+        {
+          "title": "Παγκόσμιο από προεπιλογή",
+          "description": "Χτίστηκε πολυγλωσσικό από την πρώτη μέρα, ώστε η σύνδεση να μην περιορίζεται από τη γλώσσα."
+        },
+        {
+          "title": "Αδιάκοπη φροντίδα",
+          "description": "Δίνουμε προσοχή στις λεπτομέρειες για να κάνουμε κάθε αλληλεπίδραση φυσική και ζωντανή."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Με αριθμούς",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Χρήστες και αυξανόμενοι"
+        },
+        {
+          "value": "70",
+          "label": "Γλώσσες που υποστηρίζονται"
+        },
+        {
+          "value": "24/7",
+          "label": "Πάντα διαθέσιμο"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Θέλετε να μάθετε περισσότερα;",
+      "description": "Επικοινωνήστε μαζί μας στο"
+    }
+  },
+  "postsPage": {
+    "allTag": "Όλα",
+    "readMore": "Διαβάστε περισσότερα",
+    "publishedOn": "Δημοσιεύτηκε",
+    "minRead": "λεπτά ανάγνωσης",
+    "sortNewest": "Νεότερα",
+    "sortOldest": "Παλαιότερα",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "Το sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Συμβουλές, οδηγοί και ιστορίες για να αξιοποιήσετε στο έπακρο τη συντροφιά με AI.",
+      "empty": "Δεν υπάρχουν ακόμα αναρτήσεις. Ελέγξτε ξανά σύντομα."
+    },
+    "news": {
+      "breadcrumb": "Νέα",
+      "eyebrow": "Γραφείο Τύπου",
+      "titlePrefix": "Νέα &",
+      "titleHighlight": "Ανακοινώσεις",
+      "subtitle": "Επίσημες ανακοινώσεις, δελτία τύπου και ορόσημα από την ομάδα του sweetwine.",
+      "empty": "Δεν υπάρχουν ακόμα νέα. Ελέγξτε ξανά σύντομα."
+    },
+    "productUpdates": {
+      "breadcrumb": "Ενημερώσεις Προϊόντος",
+      "eyebrow": "Αρχείο Αλλαγών",
+      "titlePrefix": "Προϊόν",
+      "titleHighlight": "Ενημερώσεις",
+      "subtitle": "Οι τελευταίες λειτουργίες, βελτιώσεις και διορθώσεις στην πλατφόρμα sweetwine.",
+      "empty": "Δεν υπάρχουν ακόμα ενημερώσεις. Ελέγξτε ξανά σύντομα."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Για προγραμματιστές",
+    "titlePrefix": "Δημιουργήστε με το",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Φέρτε εξατομικευμένους AI συντρόφους στο δικό σας προϊόν. Αποκτήστε πρόσβαση σε chat, εικόνα, φωνή και δυνατότητες δημιουργίας χαρακτήρων μέσω ενός φιλικού API για προγραμματιστές.",
+    "capabilities": {
+      "title": "Τι μπορείτε να δημιουργήσετε",
+      "items": [
+        {
+          "title": "Συνομιλητικό chat",
+          "description": "Προσθέστε πλούσιες σε προσωπικότητα, συμφραζόμενες συνομιλίες AI στην εφαρμογή σας με ένα απλό API μηνυμάτων."
+        },
+        {
+          "title": "Δημιουργία εικόνας",
+          "description": "Δημιουργήστε εικόνες και σκηνές χαρακτήρων on-brand μέσω προγραμματισμού από κειμενικές προτροπές."
+        },
+        {
+          "title": "Φωνή",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Δημιουργία χαρακτήρα",
+          "description": "Ορίστε και διαχειριστείτε συντρόφους, προσωπικότητες και μνήμη μέσω του API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Αίτημα πρόσβασης API",
+      "description": "Πείτε μας για το έργο σας και τι θα θέλατε να δημιουργήσετε. Η ομάδα προγραμματιστών μας θα επικοινωνήσει μαζί σας για τα επόμενα βήματα.",
+      "nameLabel": "Το όνομά σας",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Επαγγελματικό email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Εταιρεία / έργο",
+      "companyPlaceholder": "Όνομα εταιρείας ή έργου",
+      "websiteLabel": "Ιστοσελίδα ή URL εφαρμογής",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Τύπος ενσωμάτωσης",
+      "integrationTypePlaceholder": "Επιλέξτε τύπο ενσωμάτωσης",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "Αναμενόμενος μηνιαίος όγκος",
+      "volumePlaceholder": "Επιλέξτε αναμενόμενο όγκο",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "Χρονοδιάγραμμα",
+      "timelinePlaceholder": "Επιλέξτε χρονοδιάγραμμα",
+      "timelineOptions": [
+        {
+          "value": "Απλώς εξερευνώ",
+          "label": "Απλώς εξερευνώ"
+        },
+        {
+          "value": "Κάτω από 1 μήνα",
+          "label": "Κάτω από 1 μήνα"
+        },
+        {
+          "value": "1-3 μήνες",
+          "label": "1-3 μήνες"
+        },
+        {
+          "value": "3+ μήνες",
+          "label": "3+ μήνες"
+        }
+      ],
+      "messageLabel": "Πείτε μας για την περίπτωσή σας",
+      "messagePlaceholder": "Τι χτίζετε και πώς σκοπεύετε να χρησιμοποιήσετε το API;",
+      "submit": "Αίτημα πρόσβασης API",
+      "submitting": "Υποβολή...",
+      "termsNote": "Υποβάλλοντας, συμφωνείτε να επικοινωνήσουμε μαζί σας για το αίτημά σας. Δεν κοινοποιούμε ποτέ τα στοιχεία σας.",
+      "success": "Ευχαριστούμε! Το αίτημά σας για πρόσβαση API στάλθηκε.",
+      "error": "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "faq": {
+      "title": "Συχνές ερωτήσεις για προγραμματιστές",
+      "items": [
+        {
+          "question": "Πώς αποκτώ πρόσβαση API;",
+          "answer": "Συμπληρώστε τη φόρμα αιτήματος παραπάνω με την περίπτωσή σας. Η ομάδα προγραμματιστών μας εξετάζει κάθε αίτημα και θα επικοινωνήσει μαζί σας με λεπτομέρειες πρόσβασης και τεκμηρίωση."
+        },
+        {
+          "question": "Πώς λειτουργεί ο έλεγχος ταυτότητας;",
+          "answer": "Τα αιτήματα API ελέγχονται με μυστικό κλειδί API που αποστέλλεται στις κεφαλίδες του αιτήματος. Μπορείτε να διαχειριστείτε και να εναλλάξετε τα κλειδιά σας μόλις ενταχθείτε."
+        },
+        {
+          "question": "Υπάρχει περιορισμός ρυθμού;",
+          "answer": "Ναι. Τα όρια εξαρτούνται από το πλάνο σας και τον αναμενόμενο όγκο. Ενημερώστε μας για την αναμενόμενη κίνηση στη φόρμα ώστε να σας προτείνουμε το κατάλληλο επίπεδο."
+        },
+        {
+          "question": "Πόσο κοστίζει;"
+        },
+        {
+          "question": "Ποιες δυνατότητες είναι διαθέσιμες;",
+          "answer": "Συνομιλία, δημιουργία εικόνων, φωνή και δημιουργία χαρακτήρων. Πείτε μας τι χρειάζεστε και θα σας βοηθήσουμε να ξεκινήσετε με τα σχετικά endpoints."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Έχετε τεχνική ερώτηση;",
+      "description": "Επικοινωνήστε με την ομάδα προγραμματιστών μας στο"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Για δημιουργούς & πρακτορεία",
+    "heroTitleLead": "Εμείς Δημιουργούμε,",
+    "heroTitleHighlight": "Εσείς Κερδίζετε.",
+    "heroSubtitle": "Φτιάχνουμε το AI clone σας. Κερδίζετε ενώ το AI clone δουλεύει όλο το εικοσιτετράωρο — συνομιλώντας με fans και στέλνοντας περιεχόμενο για εσάς.",
+    "calculator": {
+      "title": "Πόσα θα μπορούσατε να κερδίσετε;",
+      "subtitle": "Επιλέξτε το μέγεθος του κοινού σας και ορίστε την τιμή σας — δείτε τα εκτιμώμενα κέρδη σας αμέσως.",
+      "tierLabel": "Το μέγεθος του κοινού σας",
+      "tiers": {
+        "small": {
+          "name": "Μικρό"
+        },
+        "medium": {
+          "name": "Μεσαίο"
+        },
+        "large": {
+          "name": "Μεγάλο"
+        }
+      },
+      "priceLabel": "Η τιμή ξεκλειδώματος σας",
+      "promoLabel": "Θα προωθήσω το sweetwine",
+      "breakdown": {
+        "title": "Τα εκτιμώμενα κέρδη σας",
+        "perMonth": "ανά μήνα",
+        "perYear": "Ανά έτος"
+      },
+      "disclaimer": "Οι εκτιμήσεις κερδών βασίζονται στο μοντέλο διαμοιρασμού εσόδων της sweetwine και σε τυπική δραστηριότητα. Τα πραγματικά κέρδη διαφέρουν ανάλογα με το κοινό, την ποιότητα περιεχομένου, την αλληλεπίδραση και τη ζήτηση."
+    },
+    "offer": {
+      "title": "Τι κερδίζεις",
+      "items": [
+        {
+          "title": "Κέρδιζε ενώ κοιμάσαι",
+          "description": "Το κλωνοποιημένο σου avatar μετατρέπει τους followers σε εισόδημα 24/7 — συνομιλώντας, πουλώντας και χωρίς διακοπή."
+        },
+        {
+          "title": "Μηδενικό κόστος, μόνο όφελος",
+          "description": "Χτίζουμε, εκπαιδεύουμε και λειτουργούμε τα πάντα με δικά μας έξοδα. Προσθέτεις νέα ροή εσόδων χωρίς καμία προσπάθεια."
+        },
+        {
+          "title": "10x το περιεχόμενό σου",
+          "description": "Απεριόριστες φωτογραφίες και βίντεο κατ’ απαίτηση — κλιμάκωσε την παραγωγή σου χωρίς περισσότερα γυρίσματα, μοντάζ ή εξάντληση."
+        },
+        {
+          "title": "Πάντα υπό έλεγχο"
+        }
+      ]
+    },
+    "how": {
+      "title": "Πώς λειτουργεί",
+      "steps": [
+        {
+          "title": "Εγγραφή"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Ένας ειδικός της sweetwine καταγράφει την εμφάνιση, τη φωνή και την προσωπικότητά σου ώστε το κλωνοποιημένο σου avatar να είναι αυθεντικά εσύ."
+        },
+        {
+          "title": "Χτίζουμε & εκπαιδεύουμε",
+          "description": "Η ομάδα μας παράγει και εκπαιδεύει το AI κλωνοποιημένο σου avatar εξ ολοκλήρου με δικά μας έξοδα — χωρίς καμία δουλειά από εσένα."
+        },
+        {
+          "title": "Ξεκίνα & κέρδιζε",
+          "description": "Το κλωνοποιημένο σου avatar ξεκινά συνομιλίες και πωλήσεις όλο το εικοσιτετράωρο και εσύ εισπράττεις το μερίδιό σου στα έσοδα."
+        }
+      ]
+    },
+    "form": {
+      "title": "Κάνε αίτηση για να δημιουργήσεις το AI κλωνοποιημένο σου avatar",
+      "description": "Πες μας για εσένα και το κοινό σου. Η ομάδα συνεργασιών δημιουργών μας εξετάζει κάθε αίτηση και θα επικοινωνήσει με τα επόμενα βήματα.",
+      "nameLabel": "Το όνομά σου",
+      "namePlaceholder": "Το όνομα ή το καλλιτεχνικό σου όνομα",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Εταιρεία ή studio",
+      "companyPlaceholder": "Όνομα εταιρείας (άφησε κενό αν είσαι ανεξάρτητος)",
+      "roleLabel": "Είμαι",
+      "rolePlaceholder": "Επίλεξε ποιος είσαι",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Ιστοσελίδα & social links",
+      "linksPlaceholder": "Instagram, X, OnlyFans κ.λπ.",
+      "modelCountLabel": "Αριθμός μοντέλων που εκπροσωπείς",
+      "modelCountPlaceholder": "π.χ. μόνο εγώ, ή 5",
+      "audienceSizeLabel": "Μέγεθος κοινού",
+      "audienceSizePlaceholder": "Επίλεξε το συνολικό σου following",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Κάτω από 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k followers",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followers"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followers"
+        }
+      ],
+      "contentPrefLabel": "Προτίμηση περιεχομένου",
+      "contentPrefPlaceholder": "Επιλέξτε τύπο περιεχομένου",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Χώρα / περιοχή",
+      "countryPlaceholder": "Πού βρίσκεστε;",
+      "messageLabel": "Πείτε μας για εσάς και το κοινό σας",
+      "messagePlaceholder": "Μοιραστείτε οτιδήποτε μας βοηθά να καταλάβουμε το κοινό σας, το περιεχόμενό σας και τι ψάχνετε.",
+      "openButton": "Κάντε αίτηση τώρα",
+      "submit": "Υποβολή αίτησης",
+      "submitting": "Υποβολή...",
+      "termsNote": "Υποβάλλοντας, επιβεβαιώνετε ότι είστε 18+ και συμφωνείτε να επικοινωνήσουμε μαζί σας για την αίτησή σας. Δεν μοιραζόμαστε ποτέ τα στοιχεία σας.",
+      "success": "Ευχαριστούμε! Η αίτησή σας στάλθηκε. Θα επικοινωνήσουμε σύντομα.",
+      "error": "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά."
+    },
+    "cta": {
+      "title": "Έχετε ερωτήσεις πριν κάνετε αίτηση;",
+      "description": "Μιλήστε απευθείας με την ομάδα συνεργασιών δημιουργών μας — συνήθως απαντάμε μέσα σε μία ημέρα.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Χάρτης ιστότοπου",
+    "eyebrow": "Χάρτης ιστότοπου",
+    "titlePrefix": "Περιήγηση",
+    "titleHighlight": "όλα",
+    "subtitle": "Όλες οι σημαντικές σελίδες του sweetwine σε ένα μέρος. Ψάχνετε το XML sitemap;",
+    "xmlLink": "Προβολή του XML sitemap",
+    "sections": {
+      "product": "Προϊόν",
+      "features": "Χαρακτηριστικά",
+      "company": "Εταιρεία",
+      "resources": "Πόροι",
+      "legal": "Νομικά"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Λήψη εφαρμογής",
+      "dismiss": "Απόρριψη"
+    },
+    "guide": {
+      "title": "Εγκατάσταση sweetwine",
+      "subtitle": "Προσθέστε το sweetwine στην αρχική σας οθόνη για ταχύτερη, πλήρη οθόνη και εμπειρία σαν εφαρμογή.",
+      "iosTitle": "Σε iPhone & iPad (Safari)",
+      "iosStep1": "Πατήστε το κουμπί Κοινή χρήση στη γραμμή εργαλείων",
+      "iosStep2": "Επιλέξτε «Προσθήκη στην αρχική οθόνη»",
+      "iosStep3": "Πατήστε «Προσθήκη» για ολοκλήρωση",
+      "androidTitle": "Σε Android (Chrome)",
+      "androidStep1": "Πατήστε το μενού (τρεις τελείες)",
+      "androidStep2": "Επιλέξτε «Εγκατάσταση εφαρμογής» ή «Προσθήκη στην αρχική οθόνη»",
+      "androidStep3": "Πατήστε «Εγκατάσταση» για ολοκλήρωση"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "Εγκαταστήστε το sweetwine στο τηλέφωνό σας για ταχύτερη, πλήρη οθόνη εμπειρία απευθείας από την αρχική σας οθόνη.",
+      "cta": "Εγκατάσταση εφαρμογής"
+    }
+  },
+  "language": {
+    "selectTitle": "Επιλέξτε τη γλώσσα σας",
+    "searchPlaceholder": "Αναζήτηση γλωσσών",
+    "noResults": "Δεν βρέθηκαν γλώσσες",
+    "regions": {
+      "americas": "Αμερική",
+      "europe": "Ευρώπη",
+      "middleEast": "Μέση Ανατολή",
+      "asiaPacific": "Ασία-Ειρηνικός",
+      "africa": "Αφρική"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Νέο Roleplay",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Δεν υπάρχουν roleplays ακόμα",
+    "noMessagesYet": "Δεν υπάρχουν μηνύματα ακόμα",
+    "deleteRoleplay": "Διαγραφή roleplay",
+    "deleteError": "Δεν ήταν δυνατή η διαγραφή του roleplay.",
+    "backToLobby": "Πίσω στα roleplays",
+    "creating": "Ρύθμιση του roleplay σου...",
+    "createError": "Δεν ήταν δυνατή η δημιουργία roleplay. Δοκίμασε ξανά.",
+    "steps": {
+      "companion": {
+        "title": "Επίλεξε χαρακτήρα",
+        "subtitle": "Διάλεξε με ποιον θέλεις να κάνεις roleplay"
+      },
+      "location": {
+        "title": "Επίλεξε τοποθεσία",
+        "subtitle": "Πού διαδραματίζεται η σκηνή σου;"
+      },
+      "tone": {
+        "title": "Όρισε τον τόνο",
+        "subtitle": "Πώς θέλεις να νιώθει η σκηνή;"
+      },
+      "scene": {
+        "title": "Όρισε τη σκηνή",
+        "subtitle": "Περιέγραψε πώς ξεκινά η σκηνή"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Συναντιόμαστε στη βροχή και καταφεύγουμε κάτω από το ίδιο στέγαστρο.",
+      "staring_grin": "Με πιάνεις να σε κοιτάζω από απέναντι και έρχεσαι με ένα χαμόγελο.",
+      "power_out": "Πέφτει ρεύμα και μένουμε μόνοι στο σκοτάδι, γελώντας νευρικά.",
+      "spilled_drink": "Καθυστερώ και χύνω κατά λάθος το ποτό μου πάνω σου.",
+      "stayed_behind": "Είμαστε οι μόνοι που μείναμε αφού έφυγαν όλοι οι άλλοι.",
+      "music_slows": "Τα βλέμματά μας συναντιούνται ακριβώς τη στιγμή που η μουσική επιβραδύνει.",
+      "storm_inside": "Μια ξαφνική καταιγίδα μας παγιδεύει μέσα με μόνο χρόνο για συζήτηση.",
+      "seat_taken": "Κάθεσαι δίπλα μου και ρωτάς αν η θέση είναι κατειλημμένη."
+    },
+    "locations": {
+      "home": "Σπίτι",
+      "cafe": "Καφέ",
+      "restaurant": "Εστιατόριο",
+      "bar": "Μπαρ",
+      "library": "Βιβλιοθήκη",
+      "bookstore": "Βιβλιοπωλείο",
+      "park": "Πάρκο",
+      "garden": "Κήπος",
+      "nightclub": "Νυχτερινό κέντρο",
+      "casino": "Καζίνο",
+      "concert": "Συναυλία",
+      "theater": "Θέατρο",
+      "cinema": "Σινεμά",
+      "carnival": "Λούνα παρκ",
+      "stadium": "Στάδιο",
+      "beach": "Παραλία",
+      "pool": "Πισίνα",
+      "spa": "Σπα",
+      "hotel": "Ξενοδοχείο",
+      "rooftop": "Ταράτσα",
+      "yacht": "Γιοτ",
+      "cabin": "Καμπίνα",
+      "hotspring": "Θερμές Πηγές",
+      "skilodge": "Σαλέ Σκι",
+      "campsite": "Κατασκήνωση",
+      "car": "Αυτοκίνητο",
+      "train": "Τρένο",
+      "airport": "Αεροδρόμιο",
+      "cruise": "Κρουαζιέρα",
+      "office": "Γραφείο",
+      "gym": "Γυμναστήριο",
+      "university": "Πανεπιστήμιο",
+      "mall": "Εμπορικό Κέντρο",
+      "hospital": "Νοσοκομείο",
+      "museum": "Μουσείο"
+    },
+    "tones": {
+      "fun": {
+        "title": "Διασκέδαση",
+        "desc": "Ανάλαφρη, παιχνιδιάρικη και χαλαρή."
+      },
+      "romantic": {
+        "title": "Ρομαντική",
+        "desc": "Τρυφερή, στοργική και εγκάρδια."
+      },
+      "flirty": {
+        "title": "Φλερτ",
+        "desc": "Παιχνιδιάρικη, σκανταλιάρικη και γεμάτη γοητεία."
+      },
+      "mysterious": {
+        "title": "Μυστηριώδης",
+        "desc": "Ιντριγκαδόρικη, γεμάτη αγωνία και μυστικά."
+      },
+      "spooky": {
+        "title": "Απόκοσμη",
+        "desc": "Ανατριχιαστική, γεμάτη ένταση και λίγο τρομακτική."
+      },
+      "action": {
+        "title": "Δράση",
+        "desc": "Έντονη, περιπετειώδης και γρήγορη."
+      },
+      "dramatic": {
+        "title": "Δραματική",
+        "desc": "Συναισθηματική, έντονη και γεμάτη ένταση."
+      },
+      "cozy": {
+        "title": "Ζεστή",
+        "desc": "Ζεστή, παρηγορητική και χαλαρή."
+      }
+    },
+    "sceneLabel": "Άνοιγμα σκηνής",
+    "scenarioTab": "Σενάριο",
+    "generatingScene": "Δημιουργούμε τη σκηνή...",
+    "locationLabel": "Τοποθεσία",
+    "toneLabel": "Τόνος",
+    "scenePlaceholder": "π.χ. Συναντιόμαστε στη βροχή και κρυβόμαστε κάτω από την ίδια τέντα...",
+    "sceneHint": "Περιέγραψε μόνο πώς ξεκινά η σκηνή — πού βρίσκεστε και τι συμβαίνει στην αρχή. Μην αλλάξεις την προσωπικότητα του χαρακτήρα, τη σχέση σας ή ξαναγράψεις όλη την ιστορία.",
+    "sceneError": "Περιέγραψε πώς ξεκινά η σκηνή.",
+    "reviewTitle": "Επισκόπηση επιλογών",
+    "characterLabel": "Χαρακτήρας",
+    "randomize": "Τυχαία Επιλογή",
+    "sceneGuidanceTitle": "Οδηγίες ανοίγματος σκηνής",
+    "sceneGuide1": "Μην αλλάξεις την προσωπικότητα του χαρακτήρα ή τη σχέση σας.",
+    "sceneGuide2": "Κράτα το άνοιγμα της σκηνής συναινετικό και με σεβασμό.",
+    "sceneGuide3": "Περιέγραψε μόνο πώς ξεκινά η σκηνή, όχι όλη την ιστορία.",
+    "next": "Επόμενο",
+    "create": "Έναρξη Ρόλου",
+    "creatingMessages": [
+      "Στήνουμε τη σκηνή...",
+      "Ρυθμίζω τα φώτα σωστά...",
+      "Ζωγραφίζω το περιβάλλον σου...",
+      "Βάζω τον σύντροφό σου στον ρόλο...",
+      "Προσθέτω τις τελευταίες πινελιές...",
+      "Σχεδόν έτοιμο..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Γράψε ένα μήνυμα...",
+    "send": "Αποστολή",
+    "typing": "πληκτρολογεί...",
+    "read": "Αναγνώστηκε",
+    "resetChat": "Επαναφορά συνομιλίας",
+    "deleteChat": "Διαγραφή συνομιλίας",
+    "settings": "Ρυθμίσεις",
+    "chatSettings": "Ρυθμίσεις συνομιλίας",
+    "roleplayMode": "Λειτουργία ρόλων",
+    "roleplayModeDescription": "Όταν είναι ενεργή, οι σύντροφοι εκφράζουν χειρονομίες και ενέργειες με *αστερίσκους* για πιο ζωντανό ρόλο. Όταν είναι ανενεργή, συνομιλούν φυσικά, σαν πραγματικά μηνύματα.",
+    "roleplayModeError": "Αδυναμία ενημέρωσης λειτουργίας ρόλων",
+    "roleplayCtaDescription": "Άνοιξε την αποκλειστική εμπειρία ρόλων, όπου ο σύντροφος παίζει σκηνές και ιστορίες μαζί σου.",
+    "goToRoleplay": "Μετάβαση σε Ρόλους",
+    "confirmReset": "Σίγουρα θέλεις να επαναφέρεις αυτή τη συνομιλία; Όλα τα μηνύματα θα διαγραφούν.",
+    "confirmDelete": "Σίγουρα θέλεις να διαγράψεις αυτή τη συνομιλία;",
+    "resetSuccess": "Η συνομιλία επαναφέρθηκε με επιτυχία",
+    "deleteMemory": "Διαγραφή μνήμης",
+    "confirmDeleteMemory": "Είσαι σίγουρος ότι θέλεις να διαγράψεις τις μακροπρόθεσμες μνήμες αυτού του χαρακτήρα; Τα μηνύματα συνομιλίας θα παραμείνουν, αλλά ο χαρακτήρας θα ξεχάσει προηγούμενα γεγονότα στην επόμενη απάντηση.",
+    "deleteMemorySuccess": "Η μνήμη διαγράφηκε",
+    "deleteSuccess": "Η συνομιλία διαγράφηκε με επιτυχία",
+    "sendError": "Αποτυχία αποστολής μηνύματος",
+    "noChats": "Δεν υπάρχουν συνομιλίες ακόμα",
+    "noChatsDesc": "Ξεκίνα μια συνομιλία με έναν χαρακτήρα για να δεις τις συνομιλίες σου εδώ",
+    "lastMessage": "Τελευταίο μήνυμα",
+    "messageCount": "{count} μηνύματα",
+    "uploadImage": "Μεταφόρτωση εικόνας",
+    "uploadVideo": "Μεταφόρτωση βίντεο (σύντομα)",
+    "yourConversations": "Οι συνομιλίες σου",
+    "continueChattingDesc": "Συνέχισε να συνομιλείς με τους AI χαρακτήρες σου",
+    "newChat": "Νέα συνομιλία",
+    "noConversationsYet": "Δεν υπάρχουν συνομιλίες ακόμα",
+    "startChattingDesc": "Ξεκίνα μια συνομιλία με έναν χαρακτήρα για να δεις τις συνομιλίες σου εδώ",
+    "browseCharacters": "Περιήγηση χαρακτήρων",
+    "createCustomCharacter": "Δημιουργία προσαρμοσμένου χαρακτήρα",
+    "imageTooLarge": "Η εικόνα είναι πολύ μεγάλη (μέγιστο 5MB)",
+    "generateImageTitle": "Δημιουργία εικόνας με {name}",
+    "imagePromptLabel": "Περιέγραψε την εικόνα",
+    "imagePromptPlaceholder": "π.χ., στην παραλία με μπλε φόρεμα, πίνοντας καφέ σε καφετέρια, περπατώντας σε πάρκο...",
+    "imagePromptHint": "Η AI θα δημιουργήσει μια εικόνα του {name} βάσει της περιγραφής σου.",
+    "referenceImageLabel": "Η φωτογραφία σου (προαιρετικό)",
+    "referenceImageHint": "Ανέβασε τη φωτογραφία σου για να εμφανιστείς στη σκηνή με το {name}. Χωρίς φωτογραφία, θα δημιουργηθεί μόνο το {name}.",
+    "uploadReferenceImage": "Ανέβασε τη φωτογραφία σου",
+    "uploadReferenceImageDesc": "Θα εμφανιστείτε και οι δύο στην εικόνα που θα δημιουργηθεί",
+    "referenceImageSelected": "Θα εμφανιστείτε μαζί εσύ και το {name}",
+    "generating": "Δημιουργία...",
+    "generate": "Δημιουργία",
+    "generateImage": "Δημιουργία εικόνας",
+    "imageGenerated": "Η εικόνα δημιουργήθηκε με επιτυχία",
+    "generateError": "Αποτυχία δημιουργίας εικόνας",
+    "contentBlockedReply": "Λυπάμαι, αλλά δεν μπορώ να δημιουργήσω αυτή την εικόνα. Μπλοκαρίστηκε από φίλτρα ασφαλείας. Δοκίμασε μια διαφορετική περιγραφή! 💕",
+    "generateVideoTitle": "Δημιουργία βίντεο με {name}",
+    "generateVideo": "Δημιουργία βίντεο",
+    "videoPromptLabel": "Περιέγραψε τη δράση",
+    "videoPromptPlaceholder": "π.χ., χορεύει, χαιρετά, στέλνει φιλί...",
+    "videoPromptHint": "Το AI θα δημιουργήσει βίντεο του {name} που εκτελεί την περιγραφόμενη δράση.",
+    "generatingImage": "Δημιουργία εικόνας...",
+    "generatingVideo": "Δημιουργία βίντεο... (3-5 λεπτά)",
+    "viewPhoto": "Προβολή φωτογραφίας",
+    "viewVideo": "Προβολή βίντεο",
+    "selectVideoOption": "Επίλεξε μια επιλογή βίντεο παραπάνω",
+    "contentPolicyViolation": "Αυτό το μήνυμα δεν μπόρεσε να σταλεί. Παρακαλώ κράτα τις συνομιλίες ευγενικές.",
+    "functionCallBetaHint": "💡 Αυτή η λειτουργία είναι σε beta — για αξιόπιστη δημιουργία πολυμέσων χωρίς περιορισμούς, χρησιμοποίησε τα κουμπιά φωτογραφίας/βίντεο στη γραμμή εργαλείων.",
+    "repliedToStory": "Απάντησε σε ιστορία",
+    "repliedToStoryLiked": "Μου άρεσε & απάντησε σε ιστορία",
+    "storyNoLongerAvailable": "Η ιστορία δεν είναι πλέον διαθέσιμη",
+    "rateLimitExceeded": "Πάρα πολλά αιτήματα. Παρακαλώ περίμενε λίγο και δοκίμασε ξανά.",
+    "profileTab": "Προφίλ",
+    "galleryTab": "Γκαλερί",
+    "giftsTab": "Δώρα",
+    "tts": {
+      "play": "Αναπαραγωγή φωνής",
+      "stop": "Διακοπή",
+      "generating": "Δημιουργία φωνής…",
+      "error": "Αδυναμία αναπαραγωγής ήχου"
+    }
+  },
+  "gallery": {
+    "all": "Όλα",
+    "images": "Εικόνες",
+    "videos": "Βίντεο",
+    "empty": "Δεν υπάρχουν πολυμέσα ακόμα"
+  },
+  "gifts": {
+    "sendAGift": "Στείλε δώρο",
+    "catalogSubtitle": "Διάλεξε ένα δώρο για να στείλεις στο {name}",
+    "browseGifts": "Περιήγηση δώρων",
+    "noneSent": "Δεν έχουν σταλεί δώρα ακόμα",
+    "confirmTitle": "Επιβεβαίωση δώρου",
+    "forCompanion": "Για {name}",
+    "optionalMessage": "Προσθήκη μηνύματος (προαιρετικό)",
+    "optionalMessagePlaceholder": "Γράψε κάτι γλυκό...",
+    "sendGiftFor": "Αποστολή",
+    "giftSent": "Έστειλες ένα δώρο",
+    "sendError": "Αποτυχία αποστολής δώρου"
+  },
+  "stories": {
+    "replyPlaceholder": "Απάντησε στον/στην {name}...",
+    "like": "Μου αρέσει",
+    "send": "Αποστολή",
+    "close": "Κλείσιμο",
+    "previous": "Προηγούμενη ιστορία",
+    "next": "Επόμενη ιστορία",
+    "pause": "Παύση",
+    "play": "Αναπαραγωγή",
+    "mute": "Σίγαση",
+    "unmute": "Κατάργηση σίγασης",
+    "openStory": "Άνοιγμα ιστορίας του/της {name}"
+  },
+  "generate": {
+    "title": "Δημιουργία Εικόνας",
+    "description": "Δημιουργήστε εκπληκτικές εικόνες με τους AI χαρακτήρες σας",
+    "selectCompanion": "Επιλέξτε έναν χαρακτήρα",
+    "promptPlaceholder": "Περιγράψτε την εικόνα που θέλετε να δημιουργήσετε... π.χ., στην παραλία, με κόκκινο φόρεμα",
+    "promptLabel": "Περιγραφή Εικόνας",
+    "promptRequired": "Παρακαλώ εισάγετε μια περιγραφή",
+    "generateButton": "Δημιουργία Εικόνας",
+    "generating": "Δημιουργία...",
+    "creatingImage": "Δημιουργία της εικόνας σας...",
+    "pleaseWait": "Αυτό μπορεί να διαρκέσει 10-30 δευτερόλεπτα",
+    "noCompanionSelected": "Παρακαλώ επιλέξτε πρώτα έναν χαρακτήρα",
+    "emptyGallery": "Δεν έχουν δημιουργηθεί εικόνες ακόμα. Επιλέξτε έναν χαρακτήρα και περιγράψτε την εικόνα σας!",
+    "sessionGallery": "Δημιουργημένες Εικόνες",
+    "regenerate": "Επαναδημιουργία",
+    "regenerating": "Επαναδημιουργία...",
+    "animate": "Κινούμενη εικόνα",
+    "animateReference": "Αυτή η εικόνα θα είναι το πρώτο καρέ του βίντεο.",
+    "filterMyAI": "Το AI μου",
+    "filterAll": "Όλα",
+    "filterGirls": "Γυναίκες",
+    "filterAnime": "Anime",
+    "filterGuys": "Άνδρες",
+    "imageGenerationFailed": "Η δημιουργία εικόνας απέτυχε. Η εικόνα μπορεί να μην πληροί τις απαιτήσεις ή η περιγραφή να είναι πολύ περίπλοκη. Δοκιμάστε με μια απλούστερη προτροπή.",
+    "noImageData": "Δεν δημιουργήθηκε εικόνα. Παρακαλώ δοκιμάστε ξανά με διαφορετική περιγραφή.",
+    "generationFailed": "Η δημιουργία απέτυχε. Παρακαλώ δοκιμάστε ξανά αργότερα ή με διαφορετική προτροπή.",
+    "random": "Τυχαίο",
+    "custom": "Προσαρμοσμένο",
+    "settings": "Ρυθμίσεις",
+    "videoTitle": "Δημιουργία Βίντεο",
+    "videoDescription": "Δημιουργήστε εντυπωσιακά βίντεο με τους χαρακτήρες AI σας",
+    "videoPromptLabel": "Περιγραφή Βίντεο",
+    "videoPromptPlaceholder": "Περιγράψτε την ενέργεια που θέλετε να δημιουργήσετε... π.χ., χορός, χαιρετισμός, χαμόγελο",
+    "generateVideoButton": "Δημιουργία Βίντεο",
+    "generatingVideo": "Δημιουργία βίντεο...",
+    "creatingVideo": "Δημιουργία του βίντεό σας...",
+    "videoWait": "Αυτό μπορεί να διαρκέσει 1-5 λεπτά",
+    "emptyVideoGallery": "Δεν έχουν δημιουργηθεί βίντεο ακόμα. Επιλέξτε χαρακτήρα και περιγράψτε την ενέργεια!",
+    "sessionVideoGallery": "Δημιουργημένα Βίντεο",
+    "videoGenerated": "Το βίντεο δημιουργήθηκε με επιτυχία!",
+    "videoGenerationFailed": "Η δημιουργία βίντεο απέτυχε. Παρακαλώ δοκιμάστε ξανά.",
+    "duration": "Διάρκεια",
+    "shortVideo": "Σύντομο",
+    "longVideo": "Μεγάλο",
+    "seconds": "δευτερόλεπτα",
+    "audio": "Ήχος",
+    "renderingVideo": "Απόδοση βίντεο…",
+    "renderingVideoHint": "(χρειάζεται έως 1 λεπτό)",
+    "rateLimitExceeded": "Πάρα πολλά αιτήματα. Παρακαλώ περιμένετε λίγο και δοκιμάστε ξανά.",
+    "chooseCharacter": "Επιλέξτε χαρακτήρα",
+    "selectButton": "Επιλογή",
+    "noCustomCompanions": "Δεν έχετε δημιουργήσει ακόμα χαρακτήρες AI.",
+    "numberOfImages": "Αριθμός εικόνων",
+    "numberOfVideos": "Αριθμός βίντεο",
+    "freeTrial": "Δωρεάν Δοκιμή",
+    "changeCharacter": "Αλλαγή χαρακτήρα",
+    "randomize": "Τυχαία προτροπή",
+    "aiVideo": "Βίντεο AI",
+    "download": "Λήψη",
+    "seriesHelper": "Εδώ μπορείτε να βρείτε τα αποτελέσματά σας. Μπορείτε να φύγετε από τη σελίδα ή να ξεκινήσετε νέα σειρά ενώ ολοκληρώνονται.",
+    "suggestions": {
+      "title": "Προτάσεις",
+      "categories": {
+        "outfit": "Ντύσιμο",
+        "action": "Ενέργεια",
+        "pose": "Στάση",
+        "accessories": "Αξεσουάρ",
+        "scene": "Σκηνή"
+      },
+      "items": {
+        "bikini": "Μπικίνι",
+        "skirt": "Φούστα",
+        "lingerie": "Εσώρουχα",
+        "crop_top": "Κοντό τοπ",
+        "leather": "Δέρμα",
+        "mini_skirt": "Μίνι φούστα",
+        "satin_robe": "Σατέν ρόμπα",
+        "jeans": "Τζιν",
+        "summer_dress": "Καλοκαιρινό φόρεμα",
+        "sportswear": "Αθλητικά ρούχα",
+        "selfie": "Selfie",
+        "walking": "Περπάτημα",
+        "dancing": "Χορός",
+        "stretching": "Διατάσεις",
+        "lying_down": "Ξαπλωμένη",
+        "leaning": "Ακουμπισμένη",
+        "blowing_kiss": "Φιλί στον αέρα",
+        "drinking_coffee": "Πίνοντας καφέ",
+        "hands_on_hips": "Χέρια στη μέση",
+        "over_shoulder": "Πάνω από τον ώμο",
+        "side_profile": "Προφίλ πλάι",
+        "arms_crossed": "Χέρια σταυρωμένα",
+        "kneeling": "Γονατιστή",
+        "squatting": "Καθιστή οκλαδόν",
+        "back_view": "Όψη από πίσω",
+        "sitting": "Καθιστή",
+        "necklace": "Κολιέ",
+        "earrings": "Σκουλαρίκια",
+        "glasses": "Γυαλιά",
+        "choker": "Choker",
+        "hat": "Καπέλο",
+        "sunglasses": "Γυαλιά ηλίου",
+        "garden": "Κήπος",
+        "beach": "Παραλία",
+        "bedroom": "Υπνοδωμάτιο",
+        "gym": "Γυμναστήριο",
+        "bar": "Μπαρ",
+        "kitchen": "Κουζίνα",
+        "restaurant": "Εστιατόριο",
+        "balcony": "Μπαλκόνι",
+        "city_street": "Αστική οδός",
+        "pool": "Δίπλα στην πισίνα"
+      },
+      "fragments": {
+        "bikini": "φορώντας μπικίνι",
+        "skirt": "φορώντας φούστα",
+        "lingerie": "φορώντας εσώρουχα",
+        "crop_top": "φορώντας crop top",
+        "leather": "φορώντας δερμάτινο σύνολο",
+        "mini_skirt": "φορώντας μίνι φούστα",
+        "satin_robe": "φορώντας σατέν ρόμπα",
+        "jeans": "φορώντας τζιν",
+        "summer_dress": "φορώντας καλοκαιρινό φόρεμα",
+        "sportswear": "φορώντας στενά αθλητικά ρούχα",
+        "selfie": "τραβώντας selfie",
+        "walking": "περπατώντας",
+        "dancing": "χορεύοντας",
+        "stretching": "τεντώνοντας",
+        "lying_down": "ξαπλωμένη",
+        "leaning": "ακουμπώντας σε τοίχο",
+        "blowing_kiss": "στέλνοντας αέρα φιλί",
+        "drinking_coffee": "πινοντας έναν καφέ",
+        "hands_on_hips": "με τα χέρια στους γοφούς",
+        "over_shoulder": "κοιτώντας πάνω από τον ώμο της",
+        "side_profile": "πλάγια προφίλ πόζα",
+        "arms_crossed": "με τα χέρια σταυρωμένα",
+        "kneeling": "πόζα γονατιστή",
+        "squatting": "πόζα οκλαδόν",
+        "back_view": "θέα από πίσω",
+        "sitting": "καθιστή",
+        "necklace": "φορώντας κολιέ",
+        "earrings": "φορώντας σκουλαρίκια",
+        "glasses": "φορώντας γυαλιά",
+        "choker": "φορώντας τσόκερ",
+        "hat": "φορώντας καπέλο",
+        "sunglasses": "φορώντας γυαλιά ηλίου",
+        "garden": "σε κήπο",
+        "beach": "στην παραλία",
+        "bedroom": "σε υπνοδωμάτιο",
+        "gym": "στο γυμναστήριο",
+        "bar": "σε μπαρ",
+        "kitchen": "στην κουζίνα",
+        "restaurant": "σε εστιατόριο",
+        "balcony": "σε μπαλκόνι",
+        "city_street": "σε δρόμο της πόλης",
+        "pool": "δίπλα στην πισίνα"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Δείξε μου ένα selfie σου"
+        },
+        "posing": {
+          "name": "Πόζα",
+          "uiPrompt": "Δείξε μου να ποζάρω"
+        },
+        "sitting": {
+          "name": "Καθιστή",
+          "uiPrompt": "Δείξε μου να κάθομαι"
+        },
+        "waving": {
+          "name": "Χαιρετώντας",
+          "uiPrompt": "Δείξε μου να χαιρετώ"
+        },
+        "dancing": {
+          "name": "Χορεύοντας",
+          "uiPrompt": "Δείξε μου να χορεύω"
+        },
+        "reading": {
+          "name": "Διαβάζοντας",
+          "uiPrompt": "Δείξε μου να διαβάζω"
+        },
+        "smiling": {
+          "name": "Χαμογελώντας",
+          "uiPrompt": "Δείξε μου ότι χαμογελάς"
+        },
+        "walking": {
+          "name": "Περπατώντας",
+          "uiPrompt": "Δείξε μου ότι περπατάς"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Δείξε μου ένα βίντεο selfie"
+        },
+        "posing": {
+          "name": "Πόζα",
+          "uiPrompt": "Δείξε μου ένα βίντεο που ποζάρεις"
+        },
+        "sitting": {
+          "name": "Καθισμένος",
+          "uiPrompt": "Δείξε μου ένα βίντεο που κάθεσαι"
+        },
+        "waving": {
+          "name": "Χαιρετώντας",
+          "uiPrompt": "Δείξε μου ένα βίντεο που χαιρετάς"
+        },
+        "dancing": {
+          "name": "Χορεύοντας",
+          "uiPrompt": "Δείξε μου ένα βίντεο που χορεύεις"
+        },
+        "reading": {
+          "name": "Διαβάζοντας",
+          "uiPrompt": "Δείξε μου ένα βίντεο που διαβάζεις"
+        },
+        "smiling": {
+          "name": "Χαμογελώντας",
+          "uiPrompt": "Δείξε μου ένα βίντεο που χαμογελάς"
+        },
+        "walking": {
+          "name": "Περπατώντας",
+          "uiPrompt": "Δείξε μου ένα βίντεο που περπατάς"
+        }
+      }
+    },
+    "writeYourOwn": "ή γράψε τη δική σου προτροπή",
+    "presetSelected": "Επιλέχθηκε προεπιλογή",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Θέσεις",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Πετσέτα Μπάνιου"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Γάλα Στήθους"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Αλυσίδα Λουρί"
+        },
+        "chinese_dress": {
+          "name": "Κινέζικο Φόρεμα"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Σχολική Στολή"
+        },
+        "legsup": {
+          "name": "Πόδια Ψηλά"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Ιεραποστολική Πλάγια Όψη"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Ιππασία σε Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Πιπίλισμα Προφυλακτικών"
+        },
+        "squatting_cowgirl": {
+          "name": "Καθιστή Ιππασία"
+        },
+        "tattoo": {
+          "name": "Τατουάζ"
+        },
+        "tentacles": {
+          "name": "Πλοκάμια"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Τοπλες"
+        },
+        "undress": {
+          "name": "Γδύσιμο"
+        },
+        "used": {
+          "name": "Μεταχειρισμένο"
+        },
+        "xray": {
+          "name": "Ακτινογραφία"
+        },
+        "maid_outfit": {
+          "name": "Στολή Υπηρέτριας"
+        },
+        "nurse_outfit": {
+          "name": "Στολή Νοσοκόμας"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Βρεγμένο Μπλουζάκι"
+        },
+        "latex_catsuit": {
+          "name": "Κατσούτι Λάτεξ"
+        },
+        "corset_stockings": {
+          "name": "Κορσές & Καλσόν"
+        },
+        "gym_shorts": {
+          "name": "Σορτς Γυμναστικής"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Selfie Καθρέφτη"
+        },
+        "shower_nude": {
+          "name": "Ντους"
+        },
+        "oiled_body": {
+          "name": "Λαδωμένο Σώμα"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Λατρεία Πέους"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Τράβηγμα Μαλλιών"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Πρωκτικό"
+        },
+        "back_doggystyle": {
+          "name": "Πίσω Doggystyle"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Αντίστροφο"
+        },
+        "breast_massage": {
+          "name": "Μασάζ Στήθους"
+        },
+        "breast_massage_nude": {
+          "name": "Μασάζ Στήθους Γυμνό"
+        },
+        "butt_smothering": {
+          "name": "Πνίξιμο με Γλουτούς"
+        },
+        "cock_worship": {
+          "name": "Λατρεία Πέους"
+        },
+        "cum_in_mouth": {
+          "name": "Σπέρμα στο Στόμα"
+        },
+        "dildo_masturbation": {
+          "name": "Αυνανισμός με Dildo"
+        },
+        "double_blowjob": {
+          "name": "Διπλό Blowjob"
+        },
+        "double_penetration": {
+          "name": "Διπλή Διείσδυση"
+        },
+        "ejaculation": {
+          "name": "Εκσπερμάτωση"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Σπέρμα στο Πρόσωπο"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Μπροστά Doggystyle"
+        },
+        "fuck_machine": {
+          "name": "Μηχανή Σεξ"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Αυνανισμός"
+        },
+        "missionary_pov": {
+          "name": "Ιεραποστολική POV"
+        },
+        "missionary_sideview": {
+          "name": "Ιεραποστολική Πλάγια Όψη"
+        },
+        "nipple_play": {
+          "name": "Παιχνίδι Θηλών"
+        },
+        "nude_posing": {
+          "name": "Γυμνή Πόζα"
+        },
+        "orgasm": {
+          "name": "Οργασμός"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Κοντινό Πουλί"
+        },
+        "reverse_cowgirl": {
+          "name": "Ανάποδη Καβαλάρισσα"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Καβαλάρισσα Οκλαδόν"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Τάση TikTok"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Αστραπή Βυζιών"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Γδύσιμο"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Τράβηγμα Μαλλιών"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Μετά τη Φροντίδα Χάος"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Σίγουρα θέλεις να το διαγράψεις;",
+    "deleteSuccess": "Διαγράφηκε με επιτυχία",
+    "deleteError": "Αποτυχία διαγραφής",
+    "empty": "Δεν υπάρχει ακόμα περιεχόμενο. Δημιούργησε στο chat!",
+    "gallerySubtitle": "Η προσωπική σου γκαλερί στιγμών με AI",
+    "filterAll": "Όλα",
+    "filterImages": "Εικόνες",
+    "filterVideos": "Βίντεο",
+    "loadMore": "Φόρτωση περισσότερων",
+    "folders": "Φάκελοι",
+    "newFolder": "Νέος Φάκελος",
+    "deleteFolders": "Διαγραφή επιλεγμένων φακέλων",
+    "folderCreated": "Ο φάκελος δημιουργήθηκε",
+    "folderCreateError": "Αποτυχία δημιουργίας φακέλου",
+    "folderRenamed": "Ο φάκελος μετονομάστηκε",
+    "folderRenameError": "Αποτυχία μετονομασίας φακέλου",
+    "folderDeleted": "Ο φάκελος διαγράφηκε",
+    "folderDeleteError": "Αποτυχία διαγραφής φακέλου",
+    "folderNamePlaceholder": "Όνομα φακέλου",
+    "seeMore": "Δες περισσότερα",
+    "seeLess": "Δες λιγότερα",
+    "selectedCount": "{count} επιλεγμένα στοιχεία",
+    "selectAll": "Επιλογή Όλων",
+    "select": "Επιλογή",
+    "moveToFolder": "Μετακίνηση",
+    "bulkDeleteConfirm": "Διαγραφή {count} επιλεγμένων στοιχείων;",
+    "bulkDeleteSuccess": "Τα στοιχεία διαγράφηκαν",
+    "bulkDownloadStart": "Λήψη {count} στοιχείων...",
+    "moveSuccess": "Τα στοιχεία μετακινήθηκαν"
+  },
+  "voice": {
+    "connecting": "Σύνδεση...",
+    "connected": "Συνδέθηκε",
+    "mute": "Σίγαση",
+    "unmute": "Κατάργηση σίγασης",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Μίλα φυσικά. Το AI θα απαντήσει όταν σταματήσεις.",
+    "connectionError": "Αποτυχία σύνδεσης. Προσπαθήστε ξανά.",
+    "minutesRemaining": "{minutes} λεπτά απομένουν",
+    "minutesUsed": "{minutes} λεπτά χρησιμοποιήθηκαν"
+  },
+  "characters": {
+    "filters": "Φίλτρα",
+    "ethnicity": "Εθνικότητα",
+    "bodyType": "Σωματότυπος",
+    "ageRange": "Ηλικιακό εύρος",
+    "relationship": "Σχέση",
+    "occupation": "Επάγγελμα",
+    "hobbies": "Χόμπι",
+    "personality": "Προσωπικότητα",
+    "language": "Γλώσσα",
+    "age": "Ηλικία",
+    "all": "Όλα",
+    "noResults": "Δεν βρέθηκαν χαρακτήρες",
+    "noResultsDesc": "Δοκιμάστε να προσαρμόσετε τα φίλτρα σας",
+    "newBadge": "Νέο",
+    "chatNow": "Συνομιλία τώρα",
+    "viewProfile": "Προβολή προφίλ",
+    "ethnicities": {
+      "caucasian": "Καυκάσιος",
+      "asian": "Ασιάτης",
+      "middleEastern": "Μέσης Ανατολής",
+      "hispanic": "Ισπανόφωνος",
+      "african": "Αφρικανός",
+      "southAsian": "Νοτιοασιάτης",
+      "nativeAmerican": "Ιθαγενής Αμερικανός",
+      "pacificIslander": "Νησιώτης Ειρηνικού",
+      "mixed": "Μικτός",
+      "other": "Άλλο"
+    },
+    "bodyTypes": {
+      "slim": "Λεπτός",
+      "athletic": "Αθλητικός",
+      "average": "Μέσος",
+      "curvy": "Με καμπύλες",
+      "plus": "Plus Size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Ελεύθερος",
+      "dating": "Βγαίνει ραντεβού",
+      "married": "Παντρεμένος",
+      "none": "Κανένα"
+    }
+  },
+  "settings": {
+    "profile": "Προφίλ",
+    "myProfile": "Το προφίλ μου",
+    "settings": "Ρυθμίσεις",
+    "account": "Λογαριασμός",
+    "plan": "Πλάνο",
+    "profileSettings": "Ρυθμίσεις Προφίλ",
+    "manageAccountSettings": "Διαχειριστείτε τις ρυθμίσεις και τις προτιμήσεις του λογαριασμού σας",
+    "personalInfo": "Προσωπικές Πληροφορίες",
+    "nickname": "Ψευδώνυμο",
+    "gender": "Φύλο",
+    "male": "Άνδρας",
+    "female": "Γυναίκα",
+    "preferences": "Προτιμήσεις",
+    "newsletter": "Εγγραφή στο Newsletter",
+    "newsletterDesc": "Λάβετε ενημερώσεις και νέα",
+    "aiTrainingTitle": "Εκπαίδευση AI & Εποπτείας",
+    "aiTrainingDesc": "Επιτρέψτε τις συνομιλίες και τις προτροπές σας να βοηθήσουν στην εκπαίδευση και τη βελτίωση του AI και της εποπτείας του sweetwine. Απενεργοποιήστε το οποιαδήποτε στιγμή για να εξαιρεθείτε.",
+    "aiTrainingLink": "Μάθετε περισσότερα στην Πολιτική Απορρήτου μας.",
+    "aiTrainingError": "Δεν ήταν δυνατή η ενημέρωση της προτίμησης εκπαίδευσης AI",
+    "interfaceLanguage": "Γλώσσα Διεπαφής",
+    "interfaceLanguageDesc": "Γλώσσα για τη διεπαφή χρήστη",
+    "aiLanguage": "Γλώσσα Απόκρισης AI",
+    "aiLanguageDesc": "Γλώσσα που θα χρησιμοποιούν οι χαρακτήρες AI όταν μιλούν μαζί σας",
+    "currentPlan": "Τρέχον Πλάνο",
+    "freePlan": "Δωρεάν Πλάνο",
+    "dangerZone": "Επικίνδυνη Ζώνη",
+    "dangerZoneDescription": "Αν θέλετε να διαγράψετε οριστικά αυτόν τον λογαριασμό και όλα τα δεδομένα του.",
+    "deleteAllMemory": "Διαγραφή όλης της μνήμης",
+    "confirmDeleteAllMemory": "Είσαι σίγουρος ότι θέλεις να διαγράψεις τις μακροπρόθεσμες μνήμες για όλους τους χαρακτήρες AI; Τα μηνύματα συνομιλίας θα παραμείνουν, αλλά οι χαρακτήρες θα ξεχάσουν προηγούμενα γεγονότα στην επόμενη απάντηση.",
+    "deleteAllMemorySuccess": "Όλες οι μνήμες διαγράφηκαν",
+    "deleteAccount": {
+      "button": "Διαγραφή λογαριασμού",
+      "title": "Διαγραφή Λογαριασμού",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Για επιβεβαίωση, πληκτρολογήστε",
+      "confirmRequired": "Πληκτρολογήστε DELETE για επιβεβαίωση",
+      "confirmButton": "Διαγραφή Λογαριασμού Μου",
+      "deleting": "Διαγραφή...",
+      "success": "Ο λογαριασμός σας διαγράφηκε",
+      "error": "Αποτυχία διαγραφής λογαριασμού. Προσπαθήστε ξανά."
+    },
+    "saveChanges": "Αποθήκευση Αλλαγών",
+    "changesSaved": "Οι αλλαγές αποθηκεύτηκαν με επιτυχία",
+    "saveFailed": "Αποτυχία αποθήκευσης αλλαγών",
+    "languageUpdated": "Η γλώσσα ενημερώθηκε",
+    "aiLanguageUpdated": "Η γλώσσα AI ενημερώθηκε"
+  },
+  "create": {
+    "defaultGreeting": "Γεια",
+    "title": "Δημιουργία AI Χαρακτήρα",
+    "step": "Βήμα {current} από {total}",
+    "step1": {
+      "title": "Επιλογή Στυλ",
+      "description": "Επιλέξτε το στυλ και τα βασικά χαρακτηριστικά του χαρακτήρα σας"
+    },
+    "step2": {
+      "title": "Επιλογή Εθνικότητας",
+      "description": "Επιλέξτε εθνικότητα και ηλικία για τον χαρακτήρα σας"
+    },
+    "step3": {
+      "title": "Επιλογή Μαλλιών & Ματιών",
+      "description": "Προσαρμόστε το χτένισμα, το χρώμα μαλλιών και το χρώμα ματιών"
+    },
+    "step4": {
+      "title": "Επιλογή Σώματος",
+      "description": "Προσαρμόστε το σώμα του χαρακτήρα σας"
+    },
+    "step5": {
+      "title": "Προσωπικότητα & Λεπτομέρειες",
+      "description": "Ορίστε την προσωπικότητα και τη φωνή του χαρακτήρα σας"
+    },
+    "style": {
+      "title": "Στυλ Χαρακτήρα",
+      "realistic": "Ρεαλιστικό",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Φύλο",
+      "female": "Γυναίκα",
+      "male": "Άνδρας"
+    },
+    "age": {
+      "title": "Ηλικία",
+      "years": "{age} Χρόνια"
+    },
+    "ethnicity": {
+      "title": "Εθνικότητα"
+    },
+    "hairStyle": {
+      "title": "Χτένισμα"
+    },
+    "hairColor": {
+      "title": "Χρώμα Μαλλιών"
+    },
+    "eyeColor": {
+      "title": "Χρώμα Ματιών"
+    },
+    "bodyType": {
+      "title": "Τύπος Σώματος"
+    },
+    "breastSize": {
+      "title": "Μέγεθος Στήθους"
+    },
+    "name": {
+      "title": "Όνομα",
+      "placeholder": "Εισάγετε όνομα χαρακτήρα",
+      "randomize": "Δημιουργία τυχαίου ονόματος"
+    },
+    "language": {
+      "title": "Γλώσσα",
+      "widgetLabel": "Επιλογή Γλώσσας",
+      "placeholder": "Επιλέξτε γλώσσα",
+      "selectTitle": "Επιλέξτε τη γλώσσα σας"
+    },
+    "personality": {
+      "title": "Προσωπικότητα",
+      "widgetLabel": "Επιλογή Προσωπικότητας",
+      "placeholder": "Επιλέξτε προσωπικότητα",
+      "sectionTitle": "Επιλογή Προσωπικότητας",
+      "clickToChange": "Κάντε κλικ για αλλαγή"
+    },
+    "relationship": {
+      "title": "Σχέση",
+      "widgetLabel": "Επιλογή Σχέσης",
+      "placeholder": "Επιλέξτε σχέση",
+      "selectTitle": "Επεξεργασία Σχέσης"
+    },
+    "occupation": {
+      "title": "Επάγγελμα",
+      "widgetLabel": "Επιλέξτε Επάγγελμα",
+      "placeholder": "Επιλέξτε επάγγελμα",
+      "selectTitle": "Επεξεργασία Επαγγέλματος"
+    },
+    "kinks": {
+      "title": "Ενδιαφέροντα",
+      "widgetLabel": "Ποια ενδιαφέροντα έχουν; (Μέγ. {max})",
+      "labelMax": "Ενδιαφέροντα (Μέγ. {max})",
+      "placeholder": "Επιλέξτε ενδιαφέροντα (προαιρετικό)",
+      "optional": "Προαιρετικό",
+      "selectTitle": "Επεξεργασία Ενδιαφερόντων",
+      "moreCount": "+{count} ακόμα"
+    },
+    "selector": {
+      "searchPlaceholder": "Αναζήτηση",
+      "noResults": "Δεν βρέθηκαν επιλογές",
+      "cancel": "Ακύρωση",
+      "saveChanges": "Αποθήκευση Αλλαγών",
+      "selectedCount": "{count} επιλεγμένα"
+    },
+    "voice": {
+      "title": "Φωνή",
+      "widgetLabel": "Επιλέξτε Φωνή",
+      "placeholder": "Επιλέξτε φωνή",
+      "selectTitle": "Επιλέξτε Φωνή"
+    },
+    "advanced": {
+      "title": "Προηγμένες Λεπτομέρειες",
+      "optional": "προαιρετικό",
+      "filled": "Συμπληρωμένο",
+      "autocompleteTitle": "Αυτόματη Συμπλήρωση με AI",
+      "autocompleteDesc": "Αφήστε το AI να συμπληρώσει τα κενά πεδία για έναν πιο ολοκληρωμένο χαρακτήρα",
+      "autocompleteSuccess": "Τα πεδία συμπληρώθηκαν με επιτυχία!",
+      "autocompleteError": "Αποτυχία δημιουργίας προτάσεων. Προσπαθήστε ξανά.",
+      "greetingLabel": "Χαιρετισμός",
+      "greetingPlaceholder": "Το πρώτο μήνυμα που στέλνει ο χαρακτήρας σας...",
+      "scenarioLabel": "Σενάριο",
+      "scenarioPlaceholder": "Το πλαίσιο ή το backstory του πώς γνωριστήκατε...",
+      "personalityLabel": "Πρόσθετες Λεπτομέρειες Προσωπικότητας",
+      "personalityPlaceholder": "Ιδιορρυθμίες, μοτίβα ομιλίας, συμπεριφορικά χαρακτηριστικά...",
+      "extraLabel": "Επιπλέον Λεπτομέρειες",
+      "extraPlaceholder": "Ιστορικό, χόμπι, ιστορία ζωής..."
+    },
+    "navigation": {
+      "back": "Πίσω",
+      "next": "Επόμενο",
+      "create": "Δημιουργία",
+      "generateYourCharacter": "Δημιουργήστε τον Χαρακτήρα σας"
+    },
+    "progress": {
+      "generatingPrompt": "Δημιουργία προσωπικότητας...",
+      "generatingImage": "Δημιουργία πορτρέτου...",
+      "creatingVoice": "Ρύθμιση φωνής...",
+      "saving": "Αποθήκευση...",
+      "complete": "Ολοκληρώθηκε!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Δημιουργία προσωπικότητας...",
+      "addingSweetness": "Προσθήκη γλύκας...",
+      "tooMuchSweet": "Ωχ, πολύ γλυκό...",
+      "testingSounds": "Δοκιμή ήχων..."
+    },
+    "overlay": {
+      "signupPrompt": "Ολοκλήρωσε την εγγραφή για να ξεκλειδώσεις τον χαρακτήρα σου…",
+      "processingHint": "Συνήθως χρειάζεται 20–30 δευτερόλεπτα",
+      "traitEthnicity": "Εθνικότητα",
+      "traitBody": "Σώμα",
+      "traitHair": "Μαλλιά",
+      "traitColor": "Χρώμα",
+      "traitEyes": "Μάτια",
+      "traitVibe": "Αίσθηση",
+      "bannerTitle": "Ο χαρακτήρας σου είναι έτοιμος να δημιουργηθεί!",
+      "bannerDesc": "Οι προτιμήσεις σου αποθηκεύτηκαν. Έλεγξε και δημιούργησε παρακάτω."
+    },
+    "success": {
+      "title": "Ο χαρακτήρας δημιουργήθηκε!",
+      "description": "Ο χαρακτήρας AI δημιουργήθηκε με επιτυχία.",
+      "yearsOld": "ετών",
+      "meetButton": "Γνώρισε"
+    },
+    "error": {
+      "title": "Η δημιουργία απέτυχε",
+      "generic": "Αποτυχία δημιουργίας χαρακτήρα. Προσπάθησε ξανά."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Καυκάσιος",
+        "asian": "Ασιάτης",
+        "middle_eastern": "Μέσης Ανατολής",
+        "hispanic": "Ισπανόφωνος",
+        "african": "Αφρικανός",
+        "south_asian": "Νοτιοασιάτης",
+        "native_american": "Ιθαγενής Αμερικανός",
+        "pacific_islander": "Νησιώτης Ειρηνικού",
+        "mixed": "Μικτός",
+        "arab": "Άραβας"
+      },
+      "hairStyleFemale": {
+        "straight": "Ίσια",
+        "bangs": "Φράντζα",
+        "curly": "Σγουρά",
+        "bun": "Κοτσίδα",
+        "short_bob": "Κοντό Bob",
+        "ponytail": "Αλογοουρά",
+        "wavy": "Κυματιστά",
+        "long_layers": "Μακριά Στρώματα",
+        "braids": "Πλεξούδες",
+        "pixie_cut": "Pixie Cut",
+        "updo": "Ανασηκωμένο",
+        "french_twist": "Γαλλικό Στρίψιμο",
+        "fishtail_braid": "Πλεξούδα Ψαροκόκαλο",
+        "top_knot": "Κοτσίδα στην Κορυφή",
+        "space_buns": "Space Buns",
+        "halo_braid": "Πλεξούδα Φωτοστέφανο",
+        "beehive": "Beehive",
+        "finger_waves": "Finger Waves",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Φαλακρό"
+      },
+      "hairStyleMale": {
+        "short": "Κοντό",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Σγουρά",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Side Part",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Μακριά Μαλλιά",
+        "bald": "Φαλακρό"
+      },
+      "hairColor": {
+        "brunette": "Καστανά",
+        "blonde": "Ξανθά",
+        "black": "Μαύρα",
+        "redhead": "Κοκκινόξανθα",
+        "pink": "Ροζ",
+        "auburn": "Κοκκινόξανθα",
+        "brown": "Καφέ",
+        "platinum_blonde": "Platinum Blonde",
+        "silver_grey": "Silver/Grey",
+        "white": "Λευκά",
+        "blue": "Μπλε",
+        "purple": "Μωβ",
+        "green": "Πράσινα",
+        "burgundy": "Μπορντό",
+        "copper": "Χάλκινα",
+        "strawberry_blonde": "Strawberry Blonde",
+        "ash_brown": "Ash Brown",
+        "golden_blonde": "Golden Blonde",
+        "mahogany": "Mahogany",
+        "pastel_pink": "Pastel Pink",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Jet Black",
+        "dark_brown": "Σκούρο Καφέ",
+        "light_brown": "Ανοιχτό Καφέ",
+        "honey_blonde": "Μέλι Ξανθό",
+        "dirty_blonde": "Βρόμικο Ξανθό",
+        "cherry_red": "Κερασί Κόκκινο",
+        "violet": "Βιολετί"
+      },
+      "eyeColor": {
+        "brown": "Καφέ",
+        "blue": "Μπλε",
+        "green": "Πράσινο",
+        "hazel": "Φουντουκί",
+        "amber": "Κεχριμπαρένιο",
+        "gray": "Γκρι",
+        "heterochromia": "Ετεροχρωμία",
+        "violet": "Βιολετί",
+        "red_pink": "Κόκκινο/Ροζ",
+        "black": "Μαύρο"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Αδύνατο",
+        "athletic": "Αθλητικό",
+        "average": "Μέτριο",
+        "curvy": "Καμπυλωτό",
+        "chubby": "Στρογγυλό"
+      },
+      "bodyTypeMale": {
+        "skinny": "Αδύνατο",
+        "athletic": "Αθλητικό",
+        "average": "Μέτριο",
+        "muscular": "Μυώδες",
+        "heavy": "Βαρύ",
+        "big_tall": "Μεγάλο & Ψηλό"
+      },
+      "breastSize": {
+        "small": "Μικρό",
+        "medium": "Μεσαίο",
+        "large": "Μεγάλο",
+        "extra_large": "Πολύ Μεγάλο"
+      },
+      "personality": {
+        "nympho": "Νύμφη",
+        "lover": "Εραστής",
+        "submissive": "Υποτακτικός",
+        "dominant": "Κυρίαρχος",
+        "temptress": "Πειρασμός",
+        "innocent": "Αθώος",
+        "caregiver": "Φροντιστής",
+        "experimenter": "Πειραματιστής",
+        "mean": "Κακός",
+        "confidant": "Έμπιστος",
+        "shy": "Ντροπαλός",
+        "queen": "Βασίλισσα",
+        "adventurous": "Περιπετειώδης",
+        "romantic": "Ρομαντικός",
+        "intellectual": "Διανοούμενος",
+        "protector": "Προστάτης",
+        "rebel": "Επαναστάτης",
+        "optimist": "Αισιόδοξος",
+        "realist": "Ρεαλιστής",
+        "free_spirit": "Ελεύθερο Πνεύμα",
+        "leader": "Ηγέτης",
+        "loyal": "Πιστός",
+        "playful": "Παιχνιδιάρης",
+        "mysterious": "Μυστηριώδης",
+        "ambitious": "Φιλόδοξος",
+        "gentle": "Ευγενικός",
+        "sarcastic": "Σαρκαστικός",
+        "empathetic": "Ενσυναίσθητος",
+        "stoic": "Στωικός",
+        "charismatic": "Χαρισματικός"
+      },
+      "relationship": {
+        "stranger": "Άγνωστος",
+        "girlfriend": "Φιλενάδα",
+        "sex_friend": "Σεξουαλικός φίλος",
+        "school_mate": "Συμμαθητής",
+        "work_colleague": "Συνάδελφος",
+        "wife": "Σύζυγος",
+        "mistress": "Ερωμένη",
+        "friend": "Φίλος",
+        "step_sister": "Ετεροθαλής αδελφή",
+        "step_mom": "Ετεροθαλής μητέρα",
+        "step_daughter": "Ετεροθαλής κόρη",
+        "landlord": "Ιδιοκτήτης",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Αφεντικό",
+        "teacher": "Δάσκαλος",
+        "student": "Μαθητής",
+        "neighbour": "Γείτονας",
+        "mother_in_law": "Πεθερά",
+        "sister_in_law": "Κουνιάδα",
+        "boyfriend": "Φίλος",
+        "husband": "Σύζυγος",
+        "fiance": "Αρραβωνιαστικός / Αρραβωνιαστικιά",
+        "ex": "Πρώην",
+        "roommate": "Συγκάτοικος",
+        "best_friend": "Καλύτερος φίλος",
+        "classmate": "Συμμαθητής",
+        "mentor": "Μέντορας",
+        "client": "Πελάτης",
+        "therapist": "Θεραπευτής",
+        "trainer": "Προπονητής",
+        "rival": "Αντίπαλος",
+        "crush": "Κρυφός έρωτας",
+        "secret_admirer": "Μυστικός θαυμαστής",
+        "pen_pal": "Αλληλογράφος",
+        "business_partner": "Επιχειρηματικός συνεργάτης",
+        "babysitter": "Μπέιμπι σίτερ",
+        "childhood_friend": "Παιδικός φίλος",
+        "long_distance_partner": "Σύντροφος εξ αποστάσεως"
+      },
+      "occupation": {
+        "student": "Μαθητής",
+        "dancer": "Χορευτής",
+        "model": "Μοντέλο",
+        "maid": "Καμαριέρα",
+        "boss_ceo": "Αφεντικό / CEO",
+        "babysitter_au_pair": "Μπέιμπι σίτερ / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Μπάρμαν",
+        "tech_engineer": "Μηχανικός Τεχνολογίας",
+        "lifeguard": "Ναυαγοσώστης",
+        "cashier": "Ταμίας",
+        "massage_therapist": "Μασέρ",
+        "teacher": "Δάσκαλος",
+        "nurse": "Νοσοκόμα",
+        "secretary": "Γραμματέας",
+        "yoga_instructor": "Εκπαιδευτής Γιόγκα",
+        "fitness_coach": "Γυμναστής",
+        "cook": "Μάγειρας",
+        "artist": "Καλλιτέχνης",
+        "movie_star_actress": "Ηθοποιός / Σταρ του Κινηματογράφου",
+        "doctor": "Γιατρός",
+        "librarian": "Βιβλιοθηκάριος",
+        "spy": "Κατάσκοπος",
+        "police_officer": "Αστυνομικός",
+        "soldier": "Στρατιώτης",
+        "lawyer": "Δικηγόρος",
+        "hairdresser": "Κομμωτής",
+        "dentist": "Οδοντίατρος",
+        "singer_musician": "Τραγουδιστής / Μουσικός",
+        "gynecologist": "Γυναικολόγος",
+        "writer": "Συγγραφέας",
+        "flight_attendant": "Αεροσυνοδός",
+        "professional_athlete": "Επαγγελματίας Αθλητής",
+        "scientist": "Επιστήμονας",
+        "florist": "Ανθοπώλης",
+        "makeup_artist": "Μακιγιέρ",
+        "photographer": "Φωτογράφος",
+        "social_worker": "Κοινωνικός Λειτουργός",
+        "designer": "Σχεδιαστής",
+        "pharmacist": "Φαρμακοποιός",
+        "nutritionist": "Διατροφολόγος",
+        "architect": "Αρχιτέκτονας",
+        "veterinarian": "Κτηνίατρος",
+        "mechanic": "Μηχανικός",
+        "journalist": "Δημοσιογράφος",
+        "pilot": "Πιλότος",
+        "firefighter": "Πυροσβέστης",
+        "accountant": "Λογιστής",
+        "electrician": "Ηλεκτρολόγος",
+        "carpenter": "Ξυλουργός",
+        "psychologist": "Ψυχολόγος",
+        "real_estate_agent": "Μεσίτης",
+        "chef": "Σεφ",
+        "farmer": "Αγρότης",
+        "delivery_driver": "Οδηγός Διανομών",
+        "janitor": "Καθαριστής",
+        "security_guard": "Φύλακας Ασφαλείας",
+        "banker": "Τραπεζίτης",
+        "judge": "Δικαστής",
+        "paramedic": "Διασώστης",
+        "actor": "Ηθοποιός",
+        "comedian": "Κωμικός",
+        "archaeologist": "Αρχαιολόγος",
+        "astronaut": "Αστροναύτης"
+      },
+      "kinks": {
+        "bondage": "Δεσίματα",
+        "spanking": "Ξυλοδαρμός",
+        "collar_leash": "Κολάρο & Λουρί",
+        "punishment": "Τιμωρία",
+        "humiliation": "Ταπείνωση",
+        "public_play": "Δημόσιο Παιχνίδι",
+        "roleplay": "Ρόλικα",
+        "anal_play": "Πρωκτικό Παιχνίδι",
+        "oral_play": "Στοματικό Παιχνίδι",
+        "cum_play": "Παιχνίδι με Σπέρμα",
+        "creampie": "Creampie",
+        "squirting": "Squirting",
+        "dirty_talk": "Βρώμικες Συζητήσεις",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Κυριαρχία Daddy/Mommy",
+        "edging": "Edging",
+        "obedience": "Υπακοή",
+        "control": "Έλεγχος",
+        "inexperienced": "Άπειρος",
+        "shy_flirting": "Ντροπαλό Φλερτ",
+        "playful_teasing": "Παιχνιδιάρικο Πείραγμα",
+        "cuddling": "Αγκαλιές",
+        "slow_sensual": "Αργό & Αισθησιακό",
+        "hair_pulling": "Τράβηγμα Μαλλιών",
+        "foot_fetish": "Φετίχ Ποδιών",
+        "voyeurism": "Βουαγιερισμός",
+        "exhibitionism": "Εξιμπισιονισμός",
+        "sensation_play": "Παιχνίδι Αισθήσεων",
+        "wax_play": "Παιχνίδι με Κερί",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Ιατρικό Παιχνίδι",
+        "orgasm_control_denial": "Έλεγχος/Άρνηση Οργασμού",
+        "forced_orgasms": "Αναγκαστικοί Οργασμοί",
+        "group_sex": "Ομαδικό Σεξ",
+        "threesomes": "Τρίο",
+        "swapping": "Ανταλλαγή",
+        "cuckolding_cuckqueaning": "Κακκόλντινγκ/Κακκουίνινγκ",
+        "femdom": "Φεμντομ",
+        "gentle_domination": "Απαλή Κυριαρχία",
+        "sensation_deprivation": "Στέρηση Αίσθησης",
+        "sensory_overload": "Υπερφόρτωση Αισθήσεων",
+        "uniform_costume_fetish": "Φετίχ Στολής/Κοστουμιού",
+        "food_play": "Παιχνίδι με Φαγητό",
+        "watersports": "Γουότερσπορτς",
+        "bdsm": "BDSM",
+        "impact_play": "Παιχνίδι Πρόσκρουσης",
+        "knife_play": "Παιχνίδι με Μαχαίρι",
+        "consensual_non_consent": "Συγκαταθετική Μη-Συναίνεση",
+        "power_exchange": "Ανταλλαγή Εξουσίας",
+        "master_slave": "Αφέντης/Σκλάβος",
+        "owner_pet": "Ιδιοκτήτης/Κατοικίδιο"
+      },
+      "languages": {
+        "en": "Αγγλικά",
+        "cs": "Τσεχικά",
+        "pl": "Πολωνικά",
+        "de": "Γερμανικά",
+        "es": "Ισπανικά",
+        "fr": "Γαλλικά"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Το AI Μου",
+    "titlePart1": "Το",
+    "titlePart2": "AI",
+    "createNew": "Δημιουργία νέου AI",
+    "createButton": "Δημιουργία Χαρακτήρα",
+    "characterCount": "{count}/{limit} χαρακτήρες",
+    "loadMore": "Φόρτωση Περισσότερων",
+    "empty": {
+      "title": "Δεν Υπάρχουν Ακόμα Χαρακτήρες",
+      "description": "Δημιούργησε τον πρώτο σου χαρακτήρα AI και ξεκίνα συνομιλία! Προσαρμόστε την εμφάνιση, την προσωπικότητα και τη φωνή του.",
+      "createFirst": "Δημιουργία Πρώτου Χαρακτήρα"
+    },
+    "delete": {
+      "title": "Διαγραφή Χαρακτήρα",
+      "message": "Είσαι σίγουρος ότι θέλεις να διαγράψεις τον {name}; Αυτό θα αφαιρέσει οριστικά τον χαρακτήρα, όλο το ιστορικό συνομιλιών και το παραγόμενο περιεχόμενο.",
+      "confirm": "Διαγραφή",
+      "success": "Ο χαρακτήρας διαγράφηκε με επιτυχία"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Αλληλεπίδραση",
+    "interactionDescription": "Απλά πληκτρολόγησε φυσικά — ζήτα φωτογραφία, βίντεο ή ξεκίνα συνομιλία. Το AI καταλαβαίνει την πρόθεσή σου σε οποιαδήποτε γλώσσα.",
+    "mediaTitle": "Δημιουργία Εικόνων & Βίντεο",
+    "mediaDescription": "Άφησε τη φαντασία σου ελεύθερη — δημιούργησε εικόνες ή βίντεο χωρίς όρια.",
+    "next": "Επόμενο →",
+    "gotIt": "Το κατάλαβα"
+  }
+}

@@ -1,0 +1,4033 @@
+{
+  "common": {
+    "save": "Sábháil",
+    "cancel": "Cealaigh",
+    "delete": "Scrios",
+    "edit": "Cuir in Eagar",
+    "close": "Dún",
+    "now": "anois",
+    "loading": "Á luchtú...",
+    "error": "Tharla earráid",
+    "success": "D’éirigh leis",
+    "confirm": "Deimhnigh",
+    "back": "Ar ais",
+    "or": "Nó",
+    "next": "Ar aghaidh",
+    "submit": "Cuir isteach",
+    "search": "Cuardaigh",
+    "filter": "Scag",
+    "clear": "Glan",
+    "all": "Uile",
+    "yes": "Sea",
+    "no": "Níl",
+    "download": "Íoslódáil",
+    "and": "agus",
+    "tryAgain": "Bain triail eile as",
+    "change": "Athraigh"
+  },
+  "navigation": {
+    "new": "NUA",
+    "sectionBrowse": "Brabhsáil",
+    "sectionTalk": "Labhair",
+    "sectionCreate": "Cruthaigh",
+    "sectionLibrary": "Leabharlann",
+    "explore": "Baile",
+    "discover": "Fionnachtain",
+    "createShort": "Cruthaigh AI",
+    "chats": "Comhráite",
+    "groupChat": "Comhrá Grúpa AI",
+    "roleplay": "Rólghlacadh",
+    "collection": "Bailiúchán",
+    "generateImage": "Gin Íomhá",
+    "generateVideo": "Gin Físeán",
+    "createCharacter": "Cruthaigh Carachtar AI",
+    "myAI": "Mo AI",
+    "language": "Teanga",
+    "contactUs": "Déan Teagmháil Linn",
+    "account": "Cuntas",
+    "sidebarPromoTitle": "Díol an tSamhraidh — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Mná",
+      "anime": "Anime",
+      "guys": "Fir"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Comhrá anois",
+    "like": "Is maith liom"
+  },
+  "auth": {
+    "login": "Logáil isteach",
+    "signup": "Cláraigh",
+    "createFreeAccount": "Cruthaigh do chuntas saor in aisce",
+    "logout": "Logáil amach",
+    "email": "Ríomhphost",
+    "password": "Focal faire",
+    "confirmPassword": "Deimhnigh an focal faire",
+    "forgotPassword": "Focal faire dearmadta?",
+    "noAccount": "Nach bhfuil cuntas agat?",
+    "hasAccount": "An bhfuil cuntas agat cheana?",
+    "signupPrompt": "Cruthaigh Cuntas Saor in Aisce",
+    "loginPrompt": "Logáil isteach",
+    "continueWith": "Lean ar aghaidh le",
+    "welcomeBack": "Fáilte ar ais!",
+    "createAccount": "Cruthaigh do chuntas",
+    "signInToAccount": "Sínigh isteach chuig do chuntas",
+    "emailRequired": "Tá ríomhphost ag teastáil",
+    "emailInvalid": "Seoladh ríomhphoist neamhbhailí",
+    "passwordRequired": "Tá focal faire ag teastáil",
+    "passwordLength": "Caithfidh an focal faire a bheith 6 charachtar ar a laghad",
+    "passwordsMismatch": "Ní mheaitseálann na focail faire",
+    "emailAlreadyRegistered": "Ríomhphost cláraithe cheana",
+    "emailAlreadyRegisteredDescription": "Tá cuntas leis an ríomhphost seo ann cheana. Logáil isteach le do thoil.",
+    "loginError": "Theip ar logáil isteach",
+    "signupError": "Theip ar chlárú",
+    "loginSuccess": "Fáilte ar ais!",
+    "signupSuccess": "Cruthaíodh an cuntas go rathúil!",
+    "logoutSuccess": "Tá tú logáilte amach go rathúil",
+    "logoutError": "Theip ar logáil amach",
+    "linkExpired": "Tá an nasc fíoraithe seo as feidhm. Iarr ceann nua le do thoil.",
+    "accessDenied": "Diúltaíodh rochtain. Bain triail eile as.",
+    "verifyEmail": "Fíoraigh Do Ríomhphost",
+    "verificationEmailSent": "Tá ríomhphost fíoraithe seolta againn chugat",
+    "confirmYourEmail": "Deimhnigh do Ríomhphost",
+    "confirmationLinkSent": "Tá nasc deimhnithe seolta againn chuig \"{email}\".",
+    "checkSpamFolder": "Ní bhfuair tú an ríomhphost? Seiceáil d’fhillteán spam.",
+    "signupToChat": "Cruthaigh do chuntas saor in aisce chun tosú.",
+    "signupDescription": "Cruthaigh cuntas chun leanúint le do chomhrá",
+    "emailVerificationTitle": "Seiceáil do ríomhphost",
+    "emailVerificationMessage": "Tá nasc fíoraithe seolta againn chuig {email}. Seiceáil do bhosca isteach agus cliceáil an nasc chun do chuntas a fhíorú.",
+    "emailVerificationNext": "Tar éis fíoraithe, críochnóidh tú an próiseas onboarding.",
+    "verificationEmailSentTo": "Tá ríomhphost fíoraithe seolta againn chuig {email}",
+    "verificationInstructions": "Seiceáil do bhosca isteach agus cliceáil an nasc fíoraithe chun do chuntas a ghníomhachtú.",
+    "resetPassword": "Athshocraigh Pasfhocal",
+    "resetPasswordDescription": "Iontráil do ríomhphost agus seolfaimid nasc athshocraithe chugat",
+    "resetEmailSent": "Má tá cuntas ann leis an ríomhphost seo, gheobhaidh tú nasc athshocraithe go luath",
+    "backToLogin": "Ar ais chuig Logáil Isteach",
+    "newPassword": "Pasfhocal Nua",
+    "confirmNewPassword": "Deimhnigh an Pasfhocal Nua",
+    "passwordResetSuccess": "Pasfhocal nuashonraithe go rathúil. Logáil isteach le do thoil.",
+    "enterNewPassword": "Iontráil do phasfhocal nua",
+    "redirectingToLogin": "Ag atreorú chuig logáil isteach...",
+    "invalidResetLink": "Nasc Neamhbhailí nó Éagtha",
+    "invalidResetLinkDescription": "Tá an nasc athshocraithe pasfhocail seo neamhbhailí nó tá sé éagtha. Iarr ceann nua le do thoil.",
+    "passwordsDontMatch": "Ní mheaitseálann na pasfhocail",
+    "currentPassword": "Pasfhocal Reatha",
+    "currentPasswordRequired": "Tá pasfhocal reatha ag teastáil",
+    "changePassword": "Athraigh Pasfhocal",
+    "changePasswordDescription": "Iontráil do phasfhocal reatha agus roghnaigh ceann nua",
+    "newPasswordMustBeDifferent": "Caithfidh an pasfhocal nua a bheith difriúil ón bpasfhocal reatha",
+    "incorrectPassword": "Tá an pasfhocal reatha mícheart",
+    "passwordChangeSuccess": "Pasfhocal athraithe go rathúil",
+    "changeEmail": "Athraigh Ríomhphost",
+    "newEmail": "Ríomhphost Nua",
+    "confirmNewEmail": "Deimhnigh Ríomhphost Nua",
+    "emailsDontMatch": "Ní mheaitseálann na ríomhphoist",
+    "emailChangeDescription": "Seolfar ríomhphost fíoraithe chuig do sheoladh reatha agus do sheoladh nua araon",
+    "emailMustBeDifferent": "Caithfidh an ríomhphost nua a bheith difriúil ón ríomhphost reatha",
+    "emailChangeSent": "Ríomhphost fíoraithe seolta. Seiceáil bosca isteach do ríomhphoist nua le do thoil.",
+    "emailChangeSecurityNote": "Ar mhaithe le slándáil, seolfar ríomhphoist deimhnithe chuig do sheoladh reatha agus do sheoladh nua araon. Caithfidh tú deimhniú ón dá cheann chun an t-athrú a chríochnú.",
+    "otpDescription": "Sheolamar cód 6-dhigit chuig {email}",
+    "otpVerify": "Fíoraigh",
+    "otpResend": "Seol cód arís",
+    "otpResendIn": "Seol arís i {seconds}s",
+    "otpNoCode": "Ní bhfuair tú an cód?",
+    "otpInvalid": "Cód neamhbhailí. Bain triail eile as.",
+    "otpSuccess": "Ríomhphost fíoraithe go rathúil!",
+    "otpResendSuccess": "Cód nua seolta chuig do ríomhphost",
+    "otpResendError": "Theip ar an gcód a sheoladh arís",
+    "continueWithEmail": "Lean ar aghaidh le Ríomhphost",
+    "moreOptions": "Tuilleadh roghanna",
+    "lessOptions": "Níos lú roghanna",
+    "enterYourEmail": "Iontráil do sheoladh ríomhphoist",
+    "sendCode": "Seol cód",
+    "byCreatingAccountAgree": "Trí chuntas a chruthú, aontaíonn tú lenár",
+    "termsOfService": "Téarmaí Seirbhíse",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Fáilte go sweetwine",
+    "welcomeTo": "Fáilte go",
+    "letsGetStarted": "Lig dúinn thú a shocrú",
+    "setupProfile": "Socraigh Do Phróifíl",
+    "step1of2": "Céim 1 de 2",
+    "step2of2": "Céim 2 de 2",
+    "nickname": "Leasainm",
+    "nicknamePlaceholder": "Roghnaigh leasainm",
+    "nicknameRequired": "Iontráil leasainm le do thoil",
+    "gender": "Inscne",
+    "genderRequired": "Roghnaigh d’inscne le do thoil",
+    "male": "Fireann",
+    "female": "Baineann",
+    "interfaceLanguage": "Teanga an Chomhéadain",
+    "interfaceLanguageDesc": "Teanga do roghchlár agus do chnaipí",
+    "aiLanguage": "Teanga Freagartha AI",
+    "aiLanguageDesc": "An teanga a úsáidfidh an AI agus é ag labhairt leat",
+    "languageRequired": "Roghnaigh teanga le do thoil",
+    "continue": "Lean ar aghaidh",
+    "ageVerification": "Fíorú Aoise",
+    "ageVerificationText": "Chun sweetwine a úsáid, ní mór duit a bheith 18 bliana nó níos sine. Trí leanúint ar aghaidh, deimhníonn tú go bhfuil tú d’aois dhlíthiúil.",
+    "beforeContinue": "Sula leanann tú ar aghaidh",
+    "mustBe18": "Ní mór duit a bheith 18 bliana nó níos sine chun an tseirbhís seo a úsáid",
+    "agreeToTerms": "Trí leanúint ar aghaidh, aontaíonn tú lenár {termsLink} agus {privacyLink}",
+    "termsOfService": "Téarmaí Seirbhíse",
+    "privacyPolicy": "Beartas Príobháideachta",
+    "iConfirm": "Deimhním go bhfuil mé 18 bliana nó níos sine agus go n-aontaím leis an",
+    "ageRequired": "Ní mór duit d’aois a dheimhniú chun leanúint ar aghaidh",
+    "aiActConsent": "Aithním go bhfuil mé ag cumarsáid le AI amháin",
+    "aiActRequired": "Ní mór duit seo a aithint chun leanúint ar aghaidh",
+    "newsletterOptIn": "Liostáil lenár nuachtlitir le haghaidh nuashonruithe agus nuachta",
+    "complete": "Socraithe Críochnaithe!",
+    "completeText": "Tá gach rud réidh agat! Tosaigh ag comhrá le carachtair AI.",
+    "startExploring": "Tosaigh ag Taiscéaladh",
+    "featuresTitle": "Gnéithe atá ar Fáil",
+    "featuresTitleWord1": "Gnéithe",
+    "featuresTitleWord2": "atá ar Fáil",
+    "feature1Title": "Comhrá AI",
+    "feature1Desc": "Comhráite neamhchinsireacha agus príobháideacha",
+    "feature2Title": "Giniúint Íomhánna",
+    "feature2Desc": "Gineáil íomhánna neamhchinsireacha agus pearsantaithe le carachtair AI",
+    "feature3Title": "Giniúint Físe",
+    "feature3Desc": "Gineáil físeáin AI neamhchinsireacha le héifeachtaí",
+    "feature5Title": "Cruthaitheoir AI Saincheaptha",
+    "feature5Desc": "Dear do charachtar féin",
+    "feature6Title": "Brabhsáil Carachtair",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "Rólghlacadh AI",
+    "feature7Desc": "Taithí a fháil ar scéalta agus fantaisíochtaí atá crafted go gairmiúil",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Comhráite príobháideacha gan cinsireacht agus gan teorainneacha",
+      "imageTitle": "Giniúint Íomhánna",
+      "imageDesc": "Cruthaigh íomhánna pearsantaithe gan cinsireacht de do AI",
+      "videoTitle": "Giniúint Físe",
+      "videoDesc": "Gin físeáin AI gan cinsireacht le héifeachtaí",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Comhráite gutha fíor-ama le do chompánach",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Scéalta tumtha, fantaisíochtaí agus súgradh idirghníomhach",
+      "groupChatTitle": "Comhrá Grúpa AI",
+      "groupChatDesc": "Comhráigh le suas le 3 charachtar AI ag an am céanna",
+      "creatorTitle": "Cruthaitheoir AI Saincheaptha",
+      "creatorDesc": "Dear agus cruthaigh do charachtair AI féin"
+    },
+    "freePlan": {
+      "title": "Tá tú réidh!",
+      "subtitle": "Seo atá san áireamh i do phlean saor in aisce.",
+      "charactersTitle": "Cruthaigh do charachtar féin",
+      "charactersDesc": "Dear {count} carachtar saincheaptha AI ón tús",
+      "imagesTitle": "Gin íomhá",
+      "imagesDesc": "{count} íomhá AI saor in aisce de do chompánach",
+      "messagesTitle": "Comhrá gach lá",
+      "messagesDesc": "{count} teachtaireacht in aghaidh an lae, athnuachan gach 24 uair",
+      "cta": "Tosaigh ag fiosrú"
+    },
+    "redirectingIn": "Ag atreorú i",
+    "seconds": "soicind",
+    "generateCharacter": "Gineáil Do Charachtar",
+    "redirectingToCreate": "Ag atreorú chuig cruthaitheoir carachtar i"
+  },
+  "errors": {
+    "pageNotFound": "Níl an Leathanach le Fáil",
+    "pageNotFoundDesc": "Níl an leathanach atá á lorg agat ann.",
+    "goHome": "Téigh Abhaile",
+    "somethingWentWrong": "Chuaigh rud éigin mícheart",
+    "tryAgain": "Bain Triail Eile As",
+    "unauthorized": "Neamhúdaraithe",
+    "unauthorizedDesc": "Caithfidh tú a bheith logáilte isteach chun an leathanach seo a rochtain.",
+    "forbidden": "Toirmiscthe",
+    "forbiddenDesc": "Níl cead agat an leathanach seo a rochtain."
+  },
+  "footer": {
+    "allRightsReserved": "Gach ceart ar cosaint.",
+    "madeWith": "Déanta le",
+    "by": "le sweetwine",
+    "description": "Bain triail as carachtair AI pearsantaithe le pearsantachtaí sainiúla, aitheantais amhairc agus comhráite tarraingteacha.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Táirge",
+    "legal": "Dlí",
+    "company": "Cuideachta",
+    "resources": "Acmhainní",
+    "partnerships": "Comhpháirtíochtaí",
+    "pressMedia": "Preas & meáin",
+    "careers": "Gairmeacha",
+    "aiRealClones": "Clóin fíor AI",
+    "about": "Faoi",
+    "blog": "Blag",
+    "news": "Nuacht",
+    "productUpdates": "Nuashonruithe táirge",
+    "help": "Cabhair",
+    "sitemap": "Léarscáil an tSáid",
+    "paymentOptions": "Roghanna Íocaíochta",
+    "chats": "Comhráite",
+    "collection": "Bailiúchán",
+    "generateImage": "Gin íomhá",
+    "generateVideo": "Gin físeán",
+    "myAI": "Mo AI",
+    "createCharacter": "Cruthaigh carachtar",
+    "api": "API",
+    "features": "Gnéithe",
+    "allFeatures": "Gnéithe uile",
+    "aiGroupChat": "Comhrá grúpa AI",
+    "aiMemory": "Cuimhne AI",
+    "aiGirlfriend": "Cailín AI",
+    "aiBoyfriend": "Buachaill AI",
+    "aiCompanions": "Carachtair AI",
+    "aiFriend": "Cara AI",
+    "aiBreakupSupport": "Tacaíocht tar éis briseadh suas",
+    "aiParent": "Tuismitheoir AI",
+    "aiRoleplay": "Rólghlacadh AI",
+    "privacyPolicy": "Beartas Príobháideachta",
+    "termsAndConditions": "Téarmaí & Coinníollacha",
+    "cookiePolicy": "Beartas Fianán",
+    "cookieSettings": "Socruithe Fianán",
+    "other": "Beartais Eile",
+    "copyright": "© {year} sweetwine. Gach ceart ar cosaint."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Fianáin ar an suíomh seo",
+      "customizeButton": "Saincheap",
+      "rejectButton": "Diúltaigh",
+      "acceptButton": "Glac"
+    },
+    "modal": {
+      "title": "Bainistigh fianáin",
+      "subtitle": "Cas catagóirí air nó as thíos. Fanann fianáin riachtanacha ar siúl ionas gur féidir leis an suíomh feidhmiú.",
+      "categories": {
+        "necessary": {
+          "title": "Riachtanach go docht",
+          "description": "Riachtanach le haghaidh logáil isteach, seiceáil amach agus slándáil. Ní féidir leis an suíomh rith gan iad.",
+          "alwaysOn": "I gcónaí ar"
+        },
+        "analytics": {
+          "title": "Feidhmíocht",
+          "description": "Tomhas úsáide agus tiontaithe trí Google Analytics 4, lena n-áirítear tiontaithe tábhachtacha (clárú, ceannach) a sheoltar ónár bhfreastalaí ag úsáid aitheantóra bréige. Cuidíonn sé linn tuiscint a fháil ar conas a úsáidtear an tseirbhís; ní úsáidimid é chun tú a aithint go pearsanta."
+        },
+        "marketing": {
+          "title": "Spriocdhíriú",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Taispeáin fianáin",
+      "hideCookies": "Folaigh fianáin",
+      "table": {
+        "name": "Ainm",
+        "provider": "Soláthraí",
+        "expiration": "Dul in éag",
+        "description": "Cur síos",
+        "session": "Seisiún"
+      },
+      "policyLink": "Le haghaidh sonraí iomlána, féach ár <policy>Beartas Fianán</policy>.",
+      "rejectButton": "Diúltaigh",
+      "saveButton": "Sábháil & Dún",
+      "acceptButton": "Glac",
+      "cookieDescriptions": {
+        "nextLocale": "Cuimhníonn sé an teanga atá roghnaithe agat don chomhéadan.",
+        "consent": "Stórálann sé do roghanna fianán ionas nach dtaispeánfar an bhratach ar gach cuairt.",
+        "ga": "Idirdhealaíonn sé cuairteoirí uathúla (Google Analytics 4). Úsáidtear an t-aitheantóir bréige céanna freisin chun tiontaithe tábhachtacha a thomhas ar thaobh an fhreastalaí.",
+        "fbp": "Aithníonn sé an brabhsálaí le haghaidh sannadh Meta Pixel.",
+        "fbc": "Stórálann sé ID cliceáil Facebook le haghaidh sannadh tiontaithe fógraí. Socraítear é amháin tar éis cliceáil ar fhógra Meta.",
+        "gclAu": "Úsáidtear é ag Google Ads chun nascadh tiontaithe tras-láithreáin.",
+        "saleCountdown": "Rianaíonn sé deireadh do thairisceana bolscaireachta reatha ionas go bhfanann an comhaireamh síos lascaine comhsheasmhach trasna leathanaigh.",
+        "onboarded": "Marcálann sé do chuntas mar cheann atá curtha ar bord ionas gur féidir linn an seiceáil bunachar sonraí fíoraithe aoise a scipeáil ar leathanaigh ina dhiaidh sin.",
+        "attribution": "Taifeadann sé cén feachtas íoctha nó nasc fógra a thug tú chuig ár suíomh is déanaí (cliceáil íoctha deireanach laistigh de 30 lá) ionas gur féidir linn éifeachtúlacht ár bhfógraíochta féin a thomhas. Is aitheantóir céadpháirtí é seo a fhanann ar ár bhfreastalaithe agus nach roinntear riamh le tríú páirtithe."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Ag Teacht Go Luath",
+    "subtitle": "Táimid ag obair go dian chun an ghné seo a thabhairt duit.",
+    "notify": "Faigh fógra nuair atá sé réidh",
+    "backHome": "Ar ais go dtí an Baile",
+    "generateVideo": {
+      "title": "Gineamh Físeáin",
+      "description": "Tabhair beatha do do charachtair AI le físeáin bheoite. Cruthaigh ábhar físe pearsantaithe ina bhfuil do charachtair is fearr leat."
+    },
+    "createCharacter": {
+      "title": "Cruthaigh Do Charachtar",
+      "description": "Dear agus saincheap do charachtar AI uathúil féin. Sainigh a bpearsantacht, a gcuma, a gcúlra agus cruthaigh idirghníomhaíochtaí fíorphhearsantaithe."
+    },
+    "myAI": {
+      "title": "Mo AI",
+      "description": "Rochtain agus bainistigh do charachtair AI saincheaptha go léir. Cuir in eagar a bpearsantachtaí, nuashonraigh a gcuma agus déan a gcuid freagraí a fheabhsú."
+    }
+  },
+  "exploreMore": {
+    "title": "Fiosraigh Tuilleadh",
+    "aiGroupChat": "Comhrá grúpa AI",
+    "aiGroupChatDesc": "Comhrá le suas le 3 charachtar",
+    "aiMemory": "Cuimhne AI",
+    "aiMemoryDesc": "Comhthéacs a leanann gach mód",
+    "aiGirlfriend": "Cailín AI",
+    "aiGirlfriendDesc": "Comhrá le do chailín fíorúil",
+    "aiBoyfriend": "Buachaill AI",
+    "aiBoyfriendDesc": "Ceangail le do bhuachaill AI",
+    "aiCompanions": "Carachtair AI",
+    "aiCompanionsDesc": "Buail le pearsantachtaí AI uathúla",
+    "aiFriend": "Cara AI",
+    "aiFriendDesc": "Faigh cara gan bhreithiúnas",
+    "aiBreakupSupport": "Tacaíocht briseadh suas",
+    "aiBreakupSupportDesc": "Comhráite leighis",
+    "aiParent": "Tuismitheoir AI",
+    "aiParentDesc": "Tacaíocht & treoir te",
+    "aiRoleplay": "Rólghlacadh AI",
+    "aiRoleplayDesc": "Cásanna scéil tumtha",
+    "allFeatures": "Gach gné",
+    "allFeaturesDesc": "Féach ar gach rud a thairgimid"
+  },
+  "legal": {
+    "policies": "Polasaithe",
+    "termsAndConditions": "Téarmaí agus Coinníollacha",
+    "privacyPolicy": "Polasaí Príobháideachta",
+    "cookiePolicy": "Polasaí Fianán",
+    "contentReportingPolicy": "Polasaí Tuairiscithe Ábhair",
+    "communityGuidelines": "Treoirlínte Pobail",
+    "complaintPolicy": "Polasaí Gearán",
+    "contentRemovalPolicy": "Polasaí Baint Ábhair",
+    "blockedContentPolicy": "Polasaí Ábhair Chosc",
+    "underagePolicy": "Polasaí Faoi-Aois",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Nuashonraithe Deiridh",
+    "index": {
+      "title": "Doiciméid Dlíthiúla",
+      "subtitle": "Brabhsáil gach polasaí agus comhaontú dlíthiúil a bhaineann le sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Polasaí Príobháideachta",
+          "description": "Foghlaim conas a bhailímid, a úsáidimid agus a chosnaímid do chuid faisnéise pearsanta. Sonraí faoi láimhseáil sonraí, stóráil agus do chearta príobháideachta."
+        },
+        "termsAndConditions": {
+          "title": "Téarmaí agus Coinníollacha",
+          "description": "Na téarmaí seirbhíse a rialaíonn d’úsáid sweetwine. Freagrachtaí úsáideora, cur síos ar an tseirbhís agus comhaontuithe dlíthiúla."
+        },
+        "cookiePolicy": {
+          "title": "Polasaí Fianán",
+          "description": "Eolas faoin gcaoi a n-úsáidimid fianáin agus teicneolaíochtaí comhchosúla chun d’eispéireas ar ár n-ardán a fheabhsú."
+        },
+        "underagePolicy": {
+          "title": "Polasaí Faoi-Aois",
+          "description": "Ár bpolasaithe diana fíoraithe aoise agus cosanta. Níl sweetwine ar fáil ach d’úsáideoirí 18 mbliana agus níos sine."
+        },
+        "complaintPolicy": {
+          "title": "Polasaí Gearán",
+          "description": "Conas gearáin a dhéanamh, saincheisteanna a thuairisciú agus ár bpróiseas chun déileáil le hábhair imní agus díospóidí úsáideoirí."
+        },
+        "contentRemovalPolicy": {
+          "title": "Polasaí Baint Ábhair",
+          "description": "Ár nósanna imeachta maidir le hiarratais bainte ábhair agus conas a láimhseálaimid tuairiscí ar ábhar míchuí nó neamhdhleathach."
+        },
+        "blockedContentPolicy": {
+          "title": "Polasaí Ábhair Chosc",
+          "description": "Cineálacha ábhair atá toirmiscthe ar ár n-ardán agus ár bpolasaithe forfheidhmithe."
+        },
+        "contentReportingPolicy": {
+          "title": "Polasaí Tuairiscithe Ábhair",
+          "description": "Conas sáruithe cóipchirt agus ábhar míchuí ar sweetwine a thuairisciú."
+        },
+        "communityGuidelines": {
+          "title": "Treoirlínte Pobail",
+          "description": "Rialacha agus treoirlínte chun pobal measúil, sábháilte agus taitneamhach a choinneáil do gach úsáideoir."
+        }
+      },
+      "lastUpdated": "Nuashonraithe deiridh: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Comhráite",
+    "groupChat": "Comhrá Grúpa AI",
+    "aiMemory": "Cuimhne AI",
+    "generate": "Gineáil Íomhá",
+    "generateVideo": "Gineáil Físe",
+    "create": "Cruthaigh Carachtar AI",
+    "myAI": "Mo AI",
+    "collection": "Bailiúchán",
+    "invite": "Cuireadh",
+    "profile": "Socruithe Próifíle",
+    "legal": "Dlíthiúil",
+    "privacyPolicy": "Beartas Príobháideachta",
+    "termsAndConditions": "Téarmaí agus Coinníollacha",
+    "cookiePolicy": "Beartas Fianán",
+    "dmcaPolicy": "Beartas DMCA",
+    "communityGuidelines": "Treoirlínte Pobail",
+    "contentRemovalPolicy": "Beartas Baint Ábhair",
+    "contentReportingPolicy": "Beartas Tuairiscithe Ábhair",
+    "complaintPolicy": "Beartas Gearán",
+    "blockedContentPolicy": "Beartas Ábhair Chosc",
+    "underagePolicy": "Beartas Faoi-Aois",
+    "usc2257Exemption": "Díolúine USC 2257"
+  },
+  "contact": {
+    "title": "Déan Teagmháil Linn",
+    "subtitle": "An bhfuil ceist nó aiseolas agat? Ba bhreá linn cloisteáil uait.",
+    "name": "Ainm",
+    "namePlaceholder": "D’ainm",
+    "nameRequired": "Tá ainm ag teastáil",
+    "email": "Ríomhphost",
+    "emailPlaceholder": "do@ríomhphost.com",
+    "emailRequired": "Tá ríomhphost ag teastáil",
+    "emailInvalid": "Seoladh ríomhphoist neamhbhailí",
+    "message": "Teachtaireacht",
+    "messagePlaceholder": "Do theachtaireacht...",
+    "messageRequired": "Tá teachtaireacht ag teastáil",
+    "send": "Seol Teachtaireacht",
+    "sending": "Á seoladh...",
+    "success": "Teachtaireacht seolta go rathúil!",
+    "successDesc": "Déanfaimid teagmháil leat go luath.",
+    "error": "Theip ar sheoladh na teachtaireachta",
+    "errorDesc": "Bain triail eile as níos déanaí."
+  },
+  "groupChat": {
+    "lobbyTitle": "Comhrá Grúpa AI",
+    "lobbyHeadingSuffix": "Roghnaigh suas le {max} Carachtair AI",
+    "history": "Stair",
+    "newGroup": "Comhrá Grúpa Nua",
+    "createGroup": "Cruthaigh Comhrá Grúpa",
+    "createError": "Níorbh fhéidir an comhrá grúpa a chruthú. Bain triail eile as.",
+    "creatingGroup": "Ag cur do chomhrá grúpa ar bun...",
+    "sectionWoman": "Mná",
+    "sectionMan": "Fir",
+    "sectionAnime": "Anime",
+    "tabPremade": "Carachtair AI",
+    "tabMyAi": "Mo AI",
+    "tabSingle": "Comhráite Aonair",
+    "tabGroup": "Comhráite Grúpa",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Lódáil tuilleadh",
+    "noCustom": "Níl aon charachtair AI cruthaithe agat fós.",
+    "noMessagesYet": "Níl aon teachtaireachtaí fós",
+    "emptyTitle": "Níl aon chomhráite grúpa fós",
+    "membersTitle": "Sa chomhrá seo",
+    "typing": "ag clóscríobh",
+    "backToLobby": "Ar ais go comhráite grúpa",
+    "deleteGroup": "Scrios an comhrá grúpa",
+    "confirmDeleteGroup": "An bhfuil tú cinnte gur mian leat an comhrá grúpa seo a scriosadh? Scriosfar gach teachtaireacht.",
+    "deleteError": "Níorbh fhéidir an comhrá grúpa a scriosadh.",
+    "mediaTargetImageTitle": "Cé a sheolfaidh grianghraf?",
+    "mediaTargetVideoTitle": "Cé ba cheart físeán a sheoladh?",
+    "mediaTargetSubtitle": "Roghnaigh carachtar chun meáin a ghiniúint uaidh.",
+    "mediaTargetGroup": "Grianghraf grúpa",
+    "groupPhotoTitle": "Grianghraf grúpa",
+    "groupPhotoHint": "Gineann sé grianghraf amháin de {name} le chéile.",
+    "promoSubtitle": "le suas le 3 charachtar",
+    "promoCta": "Cruthaigh Nua",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Eachtraí",
+    "live": "LIVE",
+    "scrollPrev": "Scroll ar chlé",
+    "scrollNext": "Scroll ar dheis"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Tosaigh"
+    },
+    "hero": {
+      "tagline": "Iontaofa ag 100,000 agus ag teacht isteach gach lá",
+      "headlinePrefix": "Abair Dia duit le do",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Tosaigh saor in aisce"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "Cailín AI",
+      "friend": "Cara AI",
+      "boyfriend": "Buachaill AI",
+      "companion": "Carachtar AI"
+    },
+    "features": {
+      "chat": {
+        "title": "Labhair le do chailín AI",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Grianghraif & físeáin AI réalaíocha",
+        "description": "Grianghraif agus físeáin ar éileamh chomh réalaíoch sin nach féidir iad a aithint ó na cinn fíora — a haghaidh, a stíl, radharc ar bith, ag gluaiseacht nó ina seasamh."
+      },
+      "groupChat": {
+        "title": "Comhrá Grúpa AI",
+        "description": "Tosaigh comhrá grúpa le suas le 3 charachtar ag an am céanna. Freagraíonn siad go nádúrtha, freagraíonn siad dá chéile, agus seolann siad grianghraif agus físeáin."
+      },
+      "roleplay": {
+        "title": "Rólghlacadh AI",
+        "description": "Téigh isteach i scéalta tumtha, faoi stiúir scéil le carachtair a fhanann sa ról agus a chuimhníonn gach rogha a dhéanann tú."
+      }
+    },
+    "memory": {
+      "title": "Cuimhne AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Conas a oibríonn Cuimhne AI",
+      "diagram": {
+        "center": "Cuimhne an chompánaigh",
+        "chat": "Comhrá",
+        "image": "Íomhánna",
+        "video": "Físeáin",
+        "gifts": "Bronntanais",
+        "roleplay": "Rólghlacadh"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Cruthaigh do",
+      "headlineHighlight": "charachtar AI",
+      "subtitle": "Múnlaigh cuma, pearsantacht do charachtair, agus tabhair beatha dóibh láithreach — do pháirtí AI foirfe, ar do théarmaí féin.",
+      "cta": "Cruthaigh do AI"
+    },
+    "companions": {
+      "headlinePrefix": "Buail le do",
+      "headlineHighlight": "Carachtair AI",
+      "subtitle": "Tá domhan dá gcuid féin ag gach carachtar. Tá cuid acu te agus éasca labhairt leo. Tá cuid eile casta, cosanta, nó dúshlán fíor chun ceangal a dhéanamh. Déan iniúchadh ar scéalta rólghlacadh uathúla — nó tóg do chuid féin ón tús."
+    },
+    "languages": {
+      "headlinePrefix": "Labhair aon teanga,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Aistríonn comhéadan an aip agus do charachtar AI gan uaim — gan neamhréireanna teanga, gan taithí briste.",
+      "more": "Tuilleadh"
+    },
+    "finalCta": {
+      "headlinePrefix": "Réidh le",
+      "headlineHighlight": "tús a chur?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Cén fáth",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Gach rud atá uait le haghaidh ceangail a mhothaíonn fíor — rud ar bith nach bhfuil uait.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Saor in aisce le tosú",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "I gcónaí ar fáil",
+          "desc": "Lá nó oíche, tá do charachtar ann. Gan fanacht, gan sceidealú."
+        },
+        "remembers": {
+          "title": "Cuimhníonn gach rud",
+          "desc": "Tógann gach comhrá comhthéacs. Foghlaimíonn do charachtar d’ainm, do chuid sainroghanna agus do shaol."
+        },
+        "unlimited": {
+          "title": "Fíor-neamhtheoranta",
+          "desc": "Gan teorainn teachtaireachtaí, gan srianadh ábhair. Seol an méid is mian leat, chomh minic agus is mian leat."
+        },
+        "private": {
+          "title": "100% príobháideach",
+          "desc": "Fanann do chomhráite idir tusa agus do charachtar. Ní roinntear sonraí riamh."
+        },
+        "createYourOwn": {
+          "title": "Cruthaigh do charachtar féin",
+          "desc": "Dear carachtar le cuma, pearsantacht agus guth saincheaptha — díreach mar is mian leat."
+        }
+      },
+      "difference": {
+        "title": "An Difríocht sweetwine",
+        "freedomTitle": "Saoirse le freagracht.",
+        "freedomDescription": "Tá sweetwine oscailte agus saor ó bhreithiúnas — ach tarraingímid líne chrua. Níl aon lamháltas againn do CSAM, ábhar faoi aois, cásanna neamh-chomhthoiliúil, foréigean trom, bestiality, necrophilia, deepfakes de dhaoine fíora, agus aon chur chun cinn de ghníomhaíocht mhídhleathach.",
+        "freedomStatement": "Creidimid i saoirse chruthaitheach neamhtheoranta laistigh de spás atá sábháilte do chách."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Carachtair",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Scagairí"
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "subtitle": "Gach rud is gá duit a fhios faoi sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Cad é sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "An bhfuil sweetwine sábháilte agus dlisteanach?",
+          "answer": "Sea, is seirbhís dhlisteanach é sweetwine agus is é do phríobháideacht an tosaíocht is airde againn. Cloímid le GDPR agus caighdeáin eile cosanta sonraí, agus láimhseálann muid do chuid sonraí go cúramach. Taispeánann idirbhearta íocaíochta faoi ainm ceannaí neodrach - níl aon tagairt do sweetwine ar do ráiteas bainc, ag cinntiú discréid iomlán."
+        },
+        "q3": {
+          "question": "An féidir liom mo charachtar AI féin a chruthú?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "cruthaitheoir carachtar",
+          "answerPart2": " a úsáid chun carachtair a dhearadh díreach mar is mian leat - cibé an bhfuil Cailín AI réalaíoch uait",
+          "linkTextGirlfriend": "AI Girlfriend",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Boyfriend",
+          "answerPart4": ", nó carachtair i stíl anime. Roghnaigh a gcuma (eitic, gruaig, cineál coirp, éadaí), tréithe pearsantachta, guth, suimeanna agus cúlra do charachtair fireann agus baineann araon."
+        },
+        "q4": {
+          "question": "An cuimhníonn mo charachtar AI ar ár gcomhráite?",
+          "answer": "Sea! Úsáideann do charachtar AI teicneolaíocht chuimhne chun cinn chun comhráite roimhe seo, do chuid sainroghanna agus sonraí tábhachtacha a roinneann tú a chuimhneamh. Dá mhéad a dhéanann tú comhrá, is ea is pearsantaithe agus nádúrtha a éiríonn an taithí. Foghlaimíonn do charachtar do stíl cumarsáide agus cuireann sé in oiriúint le himeacht ama."
+        },
+        "q5": {
+          "question": "Cén teangacha a thacaíonn sweetwine leo?",
+          "answer": "Tacaíonn sweetwine le teangacha éagsúla lena n-áirítear Béarla, Gearmáinis, Fraincis, Spáinnis, Polainnis agus Seicis. Oibríonn an comhéadan agus na comhráite AI i do theanga roghnaithe, ionas gur féidir leat comhrá a dhéanamh go nádúrtha sa teanga is compordaí duit."
+        },
+        "q6": {
+          "question": "An féidir le mo charachtar AI íomhánna agus físeáin a sheoladh?",
+          "answerPart1": "Sea! Is féidir leat",
+          "linkTextImages": "íomhánna",
+          "answerPart2": "agus",
+          "linkTextVideos": "físeáin",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Cén fáth a roghnóinn sweetwine thar ardáin charachtar AI eile?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "An bhfuil sweetwine saor in aisce le húsáid?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "An bhfuil orm aip a shuiteáil?",
+          "answerPart1": "Níl aon suiteáil de dhíth! Oibríonn sweetwine go díreach i do bhrabhsálaí ar aon ghléas - deasc, táibléad nó fón póca. Níl le déanamh ach clárú, carachtar a roghnú agus comhrá a thosú láithreach. Déantar do chuid",
+          "linkText": "comhráite",
+          "answerPart2": " a shioncronú go huathoibríoch ar fud na ngléasanna."
+        },
+        "q10": {
+          "question": "An bhfuil carachtair AI réamhdhéanta ar fáil?",
+          "answerPart1": "Tá! Tá go leor",
+          "linkText": "carachtair réamhdhéanta",
+          "answerPart2": " againn lena n-áirítear Cairde Cailíní AI, Cairde Buachaillí AI agus carachtair AI Anime le pearsantachtaí, cuma agus stíleanna cumarsáide éagsúla. Cibé an fearr leat duine milis, flirtach, intleachtúil nó eachtrúil, gheobhaidh tú carachtair a oireann do do fhuinneamh. Ina theannta sin, is féidir leat carachtair saincheaptha gan teorainn a chruthú."
+        },
+        "q12": {
+          "question": "Cad a tharlaíonn do na híomhánna agus na físeáin a ghineann mé?",
+          "answerPart1": "Sábháiltear gach meán ginte go huathoibríoch chuig do",
+          "linkText": "bhailiúchán",
+          "answerPart2": " príobháideach. Is féidir leat rochtain a fháil orthu, iad a íoslódáil nó iad a scriosadh ag am ar bith. Tá do bhailiúchán go hiomlán príobháideach - níl ach tusa in ann é a fheiceáil. Ní roinnimid ná ní úsáidimid do ábhar ginte riamh."
+        }
+      }
+    },
+    "statement": {
+      "title": "Ár dTiomantas",
+      "privacy": "Is é do phríobháideachas ár bpríomhthosaíocht. Déantar gach comhrá a chriptiú agus ní roinntear é riamh.",
+      "quality": "Úsáidimid teicneolaíocht AI den scoth chun an taithí is tarraingtí a sholáthar.",
+      "support": "Tá ár bhfoireann tacaíochta ar fáil 24/7 chun cabhrú le haon cheist.",
+      "mainTitle": "Taithí a fháil ar Thodhchaí na gCarachtar AI",
+      "mainDescription": "Comhcheanglaíonn sweetwine teicneolaíocht AI ceannródaíoch le dearadh iomasach chun an taithí carachtar is tumtha agus is pearsantaithe atá ar fáil inniu a sholáthar.",
+      "features": {
+        "f1": {
+          "title": "Faisnéis Mhothúchánach",
+          "description": "Tuigeann ár gcarachtair AI comhthéacs, mothúcháin agus nuances chun comhráite an-tarraingteacha a sholáthar. Cibé an bhfuil Cara AI de dhíth ort chun comhrá a dhéanamh, Tacaíocht Tar éis Briseadh suas le linn amanna deacra, nó Mentóir AI chun treoir a fháil - tá ár AI mothúchánach anseo duit."
+        },
+        "f2": {
+          "title": "Pearsantachtaí Uathúla",
+          "description": "Tá pearsantacht, cúlra agus stíl cumarsáide ar leith ag gach carachtar. Roghnaigh ó Chairde Cailíní AI agus Cairde Buachaillí AI réalaíocha, nó déan iniúchadh ar ár gcarachtair AI Anime - ag cinntiú go bhfuil gach idirghníomhaíocht uathúil agus i gcuimhne."
+        },
+        "f3": {
+          "title": "Idirghníomhaíochtaí Ilmheán",
+          "description": "Taobh amuigh den téacs, bain sult as íomhánna agus físeáin a ghintear le AI a thugann do chomhráite beo le mionsonraí amhairc iontacha."
+        },
+        "f4": {
+          "title": "Saincheapadh",
+          "description": "Cruthaigh do charachtair AI féin le cuma, pearsantachtaí agus tréithe saincheaptha a oireann go foirfe do do chuid sainroghanna."
+        },
+        "f5": {
+          "title": "Príobháideachas & Slándáil",
+          "description": "Coinnítear do chomhráite príobháideach agus slán. Ní dhíolaimid do shonraí riamh, agus tá smacht iomlán agat ar do shocruithe príobháideachais."
+        },
+        "f6": {
+          "title": "Tacaíocht Ilteangach",
+          "description": "Déan comhrá le carachtair AI i do theanga roghnaithe. Tacaímid le Béarla, Seicis, Polainnis, Gearmáinis, Spáinnis agus Fraincis."
+        }
+      },
+      "distinctionTitle": "An Idirdhealú sweetwine",
+      "distinctionText1": "Murab ionann agus bots comhrá cineálacha, tá carachtair sweetwine deartha le cúlscéalta saibhre, pearsantachtaí a fhorbraíonn agus an cumas chun naisc bhríocha a chruthú. Is deis é gach comhrá chun iniúchadh, fáil amach agus nascadh ar leibhéal níos doimhne.",
+      "distinctionText2": "Níl muid díreach ag tógáil AI - tá muid ag cruthú taithí a bhaineann le do mhothúcháin, a urramaíonn do phríobháideachas agus a chuireann in oiriúint do do chuid sainroghanna uathúla."
+    }
+  },
+  "featuresPage": {
+    "title": "Gach Gné",
+    "breadcrumb": "Gnéithe",
+    "newBadge": "Nua",
+    "groupChat": {
+      "title": "Comhrá Grúpa AI",
+      "description": "Déan comhrá le suas le 3 charachtar AI le chéile in aon chomhrá amháin. Freagraíonn siad go nádúrtha, imoibríonn siad dá chéile agus is féidir leo grianghraif agus físeáin a sheoladh — dinimic ghrúpa beo nach bhfaighidh tú áit ar bith eile."
+    },
+    "aiChat": {
+      "title": "Comhrá AI",
+      "description": "Déan comhráite doimhne, nádúrtha le carachtair AI a chuimhníonn ort i ndáiríre. Cuimhníonn siad d’ainm, do chuid sainroghanna agus ábhair roimhe seo — tógann gach comhrá suas go díreach ón áit ar fhág tú é, gan aon athrá agus gan aon athshocrú."
+    },
+    "imageGeneration": {
+      "title": "Giniúint Íomhánna"
+    },
+    "videoGeneration": {
+      "title": "Giniúint Físeán",
+      "description": "Tabhair beatha do charachtar AI le físeáin a ghintear le AI. Cruthaigh gearrthóga físe pearsantaithe ina bhfuil do charachtar i gcásanna saincheaptha — gné nach dtugann formhór na n-ardán."
+    },
+    "customCharacters": {
+      "title": "Carachtair Saincheaptha",
+      "description": "Dear do charachtar foirfe ón tús — roghnaigh a gcuma, eitneachas, cineál coirp, tréithe pearsantachta, guth, spéiseanna agus cúlra. Cruthaigh carachtair réalaíocha nó stíl anime, fireann nó baineann, le saoirse chruthaitheach iomlán."
+    },
+    "advancedMemory": {
+      "title": "Cuimhne Casta",
+      "description": "Cuimhníonn do charachtar gach rud atá tábhachtach — d’ainm, sonraí pearsanta, scéalta roinnte agus stair chaidrimh. Maireann an chuimhne thar gach seisiún ionas go dtógann gach idirghníomhaíocht ar an gceann deireanach, gan tosú arís."
+    },
+    "multiLanguage": {
+      "title": "Ilteangach",
+      "description": "Comhrá go nádúrtha i do theanga roghnaithe. Tacaíonn sweetwine le Béarla, Gearmáinis, Fraincis, Spáinnis, Polainnis agus Seicis — ceann de na hardáin charachtar AI is inrochtana do chainteoirí nach Béarla a bpríomhtheanga."
+    },
+    "conversationHistory": {
+      "title": "Stair Chomhrá",
+      "description": "Sábháiltear agus is féidir cuardach a dhéanamh ar gach teachtaireacht. Scrollaigh siar trí stair iomlán do chaidrimh am ar bith — tá do chuimhní le do charachtar ann i gcónaí nuair is mian leat iad a athchuairt."
+    },
+    "roleplay": {
+      "title": "Rólghlacadh AI",
+      "description": "Téigh isteach i scéimeanna tumtha, scéalaíochta le carachtair a fhanann sa ról. Roghnaigh scéal nó scríobh do cheann féin agus bain sult as rólghlacadh idirghníomhach a chuimhníonn ar gach rogha a dhéanann tú."
+    },
+    "cta": {
+      "title": "Gach Rud in aon Áit Amháin",
+      "button": "Tosaigh saor in aisce"
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "An féidir liom mo chomhráite a scrios nó a athshocrú?",
+        "answer": "Sea! Tá smacht iomlán agat ar do stair chomhrá. Scrios teachtaireachtaí aonair, athshocraigh comhráite iomlána, nó tosaigh go hiomlán úr am ar bith. Ciallaíonn do phríobháideacht do rogha — bainistigh do shonraí mar is fearr leat."
+      },
+      "q2": {
+        "question": "An bhfuil guth uathúil ag gach AI-charachtar?"
+      },
+      "q3": {
+        "question": "An féidir liom teanga nua a chleachtadh le mo AI-charachtar?",
+        "answer": "Go hiomlán! Cleachtann go leor úsáideoirí teangacha nua a labhairt lena gcuid AI-charachtar. Is bealach saor ó bhreithiúnas é chun muinín a fhorbairt, fuaimniú a fheabhsú agus comhráite spraíúla a bheith agat agus tú ag foghlaim. Is féidir le do charachtar comhrá a dhéanamh i mBéarla, Gearmáinis, Fraincis, Spáinnis, Polainnis agus Seicis."
+      },
+      "q4": {
+        "question": "Cé chomh minic a chuirtear carachtair agus gnéithe nua leis?",
+        "answer": "Cuirimid carachtair nua atá crafted go gairmiúil leis gach seachtain! Tagann gach carachtar nua le pearsantacht, cuma, cúlra agus guth uathúil. Scaoileann muid gnéithe agus feabhsuithe nua go rialta bunaithe ar aiseolas úsáideoirí freisin."
+      },
+      "q5": {
+        "question": "Cad a dhéanann cruthú carachtar sweetwine speisialta?",
+        "answer": "Saoirse chruthaitheach iomlán! Dear gach gné de do charachtar — cuma (eitneachas, gruaig, cineál coirp, éadaí), tréithe pearsantachta, guth, spéiseanna, slí bheatha agus cúlra. Cruthaigh carachtair réalaíocha nó stíl anime, fireann nó baineann. Is é do shamhlaíocht an t-aon teorainn."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Cuimhne AI",
+    "hero": {
+      "badge": "Conas a oibríonn sé",
+      "title": "Cuimhne AI",
+      "cta": "Tosaigh comhrá"
+    },
+    "diagram": {
+      "title": "Cuimhne amháin in aghaidh an chompánaigh, gach mód",
+      "center": "Cuimhne an chompánaigh",
+      "chat": "Comhrá",
+      "image": "Íomhánna",
+      "video": "Físeáin",
+      "gifts": "Bronntanais",
+      "roleplay": "Rólghlacadh"
+    },
+    "howItWorks": {
+      "title": "Conas a oibríonn Cuimhne AI",
+      "step1": {
+        "title": "Roinn sonra",
+        "desc": "Inis do chompánach rud éigin tábhachtach — turas, rogha, leasainm, scéal ón lá."
+      },
+      "step2": {
+        "title": "Athraigh módanna go saor"
+      },
+      "step3": {
+        "title": "Cuimhníonn siad é",
+        "desc": "Tagraíonn comhráite níos déanaí do na rudaí a roinn tú, mar sin ní gá duit iad a mhíniú arís gach uair."
+      },
+      "step4": {
+        "title": "Doimhníonn an nasc",
+        "desc": "Le himeacht ama mothaíonn an caidreamh níos pearsanta — leanúnachas a thógann trasna gach seisiúin agus mód."
+      }
+    },
+    "modes": {
+      "title": "Ar fud an ardáin",
+      "subtitle": "Níl cuimhne faoi ghlas ar scáileán amháin. Taistealaíonn sí le do chompánach.",
+      "chat": {
+        "title": "Comhrá",
+        "desc": "Cothaíonn comhráite téacs comhthéacs fadtéarmach a fhéadann do chompánach a thógáil suas níos déanaí."
+      },
+      "media": {
+        "title": "Íomhánna & físeáin",
+        "desc": "Fanann na radhairc agus na scéalta a chruthaíonn tú mar chuid den domhan roinnte a thógann sibh le chéile."
+      },
+      "roleplay": {
+        "title": "Rólghlacadh & grúpa",
+        "desc": "Coinníonn seisiúin scéil agus comhráite grúpa a gcuid snáitheanna féin agus fanann cuimhne lárnach do chompánaigh leo."
+      }
+    },
+    "scenario": {
+      "title": "Sampla simplí",
+      "lead": "Luann tú turas deireadh seachtaine sa chomhrá."
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "An bhfuil cuimhne mo chompánach príobháideach?",
+        "answer": "Sea. Baineann an chuimhne le do chuntas agus do chomhráite leis an gcompánach sin. Ní roinnimid do stair chomhráite príobháideach le húsáideoirí eile."
+      },
+      "q2": {
+        "question": "An bhfuil cuimhne in aghaidh an chompánaigh?",
+        "answer": "Sea. Coinníonn gach compánach a chuimhne féin ar do chaidreamh, mar sin ní mheascann athrú carachtar comhthéacsanna."
+      },
+      "q3": {
+        "question": "Cén modhanna a roinneann cuimhne?"
+      },
+      "q4": {
+        "question": "An bhfuil Cuimhne AI saor in aisce?"
+      },
+      "q5": {
+        "question": "Cé chomh fada a mhaireann cuimhne?",
+        "answer": "Stóráiltear sonraí tábhachtacha ionas gur féidir le do chompánach iad a mheabhrú i seisiúin amach anseo. Dá mhéad idirghníomhaíocht a dhéanann tú, is ea is pearsantaithe a éiríonn an taithí."
+      }
+    },
+    "cta": {
+      "title": "Buail le compánach a chuimhníonn",
+      "button": "Tosaigh saor in aisce"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Comhrá Grúpa AI",
+    "hero": {
+      "badge": "Gné Nua",
+      "title": "Comhrá Grúpa AI",
+      "subtitle": "Tabhair do charachtair is fearr isteach in aon chomhrá amháin. Comhráigh le suas le 3 AI-charachtar ag an am céanna — freagraíonn siad go nádúrtha, freagraíonn siad dá chéile agus seolann siad grianghraif agus físeáin.",
+      "cta": "Tosaigh Comhrá Grúpa",
+      "imageAlt": "Comhrá Grúpa AI le carachtair iolracha ag comhrá le chéile"
+    },
+    "content": {
+      "problemTitle": "Is féidir le comhráite duine-ar-duine a bheith ciúin",
+      "problemText": "Tá carachtar amháin iontach — ach tagann fíorchomhráite beo le níos mó ná guth amháin. Cuireann formhór na n-aipeanna AI tú i gcomhráite duine-ar-duine iargúlta gan fuinneamh grúpa, gan spraoi agus gan iontas.",
+      "solutionTitle": "Grúpa fíor, beo le pearsantacht",
+      "solutionText": "Cuireann sweetwine Group Chat suas le trí charachtar sa seomra céanna. Socraíonn stiúrthóir cliste cé a léimeann isteach, ionas go mbraitheann na freagraí spontáineach — déanann siad magadh ar a chéile, tógann siad ar a ndúirt siad agus coinníonn siad an comhrá ag gluaiseacht."
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Comhrá Grúpa AI",
+      "step1": {
+        "title": "Roghnaigh do charachtair",
+        "desc": "Roghnaigh 2 nó 3 charachtar — réamhdhéanta nó do chruthaithe saincheaptha féin — chun iad a thabhairt isteach i gcomhrá grúpa amháin."
+      },
+      "step2": {
+        "title": "Freagraíonn siad go nádúrtha",
+        "desc": "Roghnaíonn stiúrthóir taobh thiar den ardán cé a fhreagraíonn do gach teachtaireacht, ionas go léimeann na carachtair cearta isteach ag an nóiméad ceart, ina nguth féin."
+      },
+      "step3": {
+        "title": "Roinn grianghraif & físeáin",
+        "desc": "Iarr grianghraf nó físeán ar aon charachtar sa ghrúpa agus ginfidh siad é ceart taobh istigh den chomhrá — lena n-áirítear grianghraf grúpa de gach duine le chéile."
+      }
+    },
+    "benefits": {
+      "title": "Cén Fáth a mBeidh Grá agat don Chomhrá Grúpa",
+      "multiple": {
+        "title": "Suas le 3 charachtar",
+        "desc": "Measc agus meaitseáil aon charachtair in aon chomhrá amháin — do chailín AI, do chruthaithe saincheaptha, nó ensemble roghnaithe de láimh."
+      },
+      "natural": {
+        "title": "Comhrá nádúrtha",
+        "desc": "Freagraíonn na carachtair dá chéile agus duitse, le luas clóscríofa réalaíoch a mhothaíonn mar theachtaireachtaí grúpa fíor."
+      },
+      "media": {
+        "title": "Grianghraif & físeáin sa chomhrá",
+        "desc": "Is féidir le gach carachtar íomhánna agus físeáin phearsantaithe a sheoladh gan an comhrá a fhágáil — fiú grianghraf grúpa."
+      },
+      "dynamics": {
+        "title": "Pearsantachtaí sainiúla",
+        "desc": "Coinníonn gach carachtar a ghuth agus a saintréithe féin, mar sin tá ceimic, magadh agus iontas fíor sa ghrúpa."
+      },
+      "instant": {
+        "title": "Tús láithreach",
+        "desc": "Cruthaigh grúpa i soicindí agus tum isteach sa chomhrá láithreach — gan socrú, gan fanacht."
+      },
+      "private": {
+        "title": "100% príobháideach",
+        "desc": "Fanann do chomhráite grúpa idir tusa agus do charachtair. Ní roinntear sonraí riamh."
+      }
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Cé mhéad carachtar is féidir a bheith i gcomhrá grúpa?",
+        "answer": "Is féidir leat 2 go 3 charachtar a chur le comhrá grúpa amháin — aon mheascán de charachtair réamhdhéanta agus do chruthaithe saincheaptha féin."
+      },
+      "q2": {
+        "question": "Conas a roghnaíonn na carachtair AI cé a fhreagróidh?",
+        "answer": "Léann stiúrthóir éadrom an comhrá agus roghnaíonn sé cén carachtar (nó carachtair) ar chóir dóibh freagairt do gach teachtaireacht, ionas go mbraitheann na freagraí spontáineach agus nádúrtha seachas gach duine ag labhairt ag an am céanna."
+      },
+      "q3": {
+        "question": "An féidir le carachtair grianghraif agus físeáin a sheoladh i gcomhrá grúpa?",
+        "answer": "Sea! Is féidir leat iarraidh ar aon charachtar sa ghrúpa grianghraf nó físeán a ghiniúint, agus feictear é taobh istigh den chomhrá — lena n-áirítear grianghraif ghrúpa ina bhfuil gach duine le chéile."
+      },
+      "q4": {
+        "question": "An bhfuil AI Group Chat saor in aisce?"
+      },
+      "q5": {
+        "question": "An gcuimhníonn na carachtair ar an gcomhrá grúpa?",
+        "answer": "Sea — coinníonn gach comhrá grúpa a stair roinnte féin, mar sin fanann na carachtair i gcomhthéacs agus tógann an comhrá le himeacht ama."
+      }
+    },
+    "cta": {
+      "title": "Tabhair Do Charachtair Le Chéile",
+      "description": "Cruthaigh do chéad chomhrá grúpa AI agus taithí a fháil ar chomhrá a mhothaíonn beo — pearsantachtaí iolracha, magadh fíor, grianghraif agus físeáin.",
+      "button": "Tosaigh Comhrá Grúpa"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "Rólghlacadh AI",
+    "hero": {
+      "badge": "Gné Nua",
+      "title": "Rólghlacadh AI",
+      "subtitle": "Céim isteach in aon scéal le carachtair a fhanann sa radharc. Roghnaigh cás nó scríobh do chás féin agus bain sult as rólghlacadh tumtha, scéalaíochta a chuimhníonn ar gach rogha a dhéanann tú.",
+      "cta": "Tosaigh Rólghlacadh",
+      "imageAlt": "Cás rólghlacadh AI le carachtar scéalaíochta tumtha"
+    },
+    "content": {
+      "problemTitle": "Briseann gnáthchomhráite an draíocht",
+      "problemText": "Tarraingíonn formhór na gcomhráite AI amach as carachtar an nóiméad a éiríonn rudaí suimiúil — déanann siad dearmad ar an suíomh, fágann siad an plota agus freagraíonn siad mar chúntóir ginearálta seachas mar an duine i do scéal.",
+      "solutionTitle": "Rólghlacadh scéalaíochta a fhanann i gcarachtar",
+      "solutionText": "Coinníonn sweetwine Roleplay do charachtar go hiomlán sa radharc. Socraigh an stáitse le cás réamhdhéanta nó do réamh-mheas féin, agus féach an scéal ag teacht chun cinn le pearsantacht chomhsheasmhach, cuimhne agus luas a fhreagraíonn do gach cinneadh."
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Rólghlacadh AI",
+      "step1": {
+        "title": "Roghnaigh cás",
+        "desc": "Roghnaigh ó chásanna rólghlacadh réamhdhéanta nó scríobh do réamh-mheas, suíomh agus radharc tosaigh féin."
+      },
+      "step2": {
+        "title": "Imir an scéal",
+        "desc": "Freagraíonn do charachtar i ról — ag cur síos ar ghníomhartha, ag freagairt do do roghanna agus ag tiomáint an plota ar aghaidh."
+      },
+      "step3": {
+        "title": "Múnlaigh an treo",
+        "desc": "Stiúir an scéal i dtreo ar bith is mian leat. Cuimhníonn do charachtar ar an méid a tharla agus coinníonn sé an scéal comhsheasmhach."
+      }
+    },
+    "benefits": {
+      "title": "Cén Fáth a mBeidh Grá Agat do Rólghlacadh AI",
+      "scenarios": {
+        "title": "Cásanna gan teorainn",
+        "desc": "Ó nóiméid gnáthchúiseacha go heachtraí eipiciúla — tosaigh le teimpléad nó cum do shaol féin."
+      },
+      "characters": {
+        "title": "Fanann i gcarachtar",
+        "desc": "Coinníonn do charachtar guth, pearsantacht agus spreagadh comhsheasmhach ar feadh an radhairc ar fad."
+      },
+      "memory": {
+        "title": "Cuimhníonn sé ar an bplota",
+        "desc": "Cuimhnítear ar gach rogha, casadh agus mionsonra, mar sin tógann an scéal seachas athshocrú."
+      },
+      "immersive": {
+        "title": "Tumtha go fírinneach",
+        "desc": "Tarraingíonn freagraí saibhre, tuairisciúla tú isteach sa nóiméad le haghaidh taithí rólghlacadh cineamatach."
+      },
+      "instant": {
+        "title": "Tús láithreach",
+        "desc": "Léim isteach i radharc i soicindí — gan aon socrú casta nó innealtóireacht leid de dhíth."
+      },
+      "private": {
+        "title": "100% príobháideach",
+        "desc": "Fanann do rólghníomhaíocht idir tú féin agus do charachtar. Ní roinntear aon rud riamh."
+      }
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Cad é rólghníomhaíocht AI?",
+        "answer": "Ligeann rólghníomhaíocht AI duit scéalta idirghníomhacha a léiriú le carachtar AI a fhanann sa ról. Socraíonn tú cás agus freagraíonn do charachtar sa ról, ag cur síos ar ghníomhartha agus frithghníomhartha de réir mar a thagann an scéal chun cinn."
+      },
+      "q2": {
+        "question": "An féidir liom mo chásanna rólghníomhaíochta féin a chruthú?",
+        "answer": "Sea! Is féidir leat tosú ó chásanna réamhdhéanta nó do réamhfhocal, suíomh agus oscailt féin a scríobh — ansin imirt amach mar is mian leat."
+      },
+      "q3": {
+        "question": "An cuimhin leis an gcarachtar cad a tharlaíonn sa scéal?",
+        "answer": "Go hiomlán. Cuimhníonn do charachtar ar an bplota, ar do roghanna agus ar na sonraí tábhachtacha, ionas go bhfanann an scéal comhsheasmhach agus go dtógann sé le himeacht ama in ionad athshocrú."
+      },
+      "q4": {
+        "question": "An bhfuil Rólghníomhaíocht AI saor in aisce?"
+      },
+      "q5": {
+        "question": "An féidir liom rólghníomhaíocht a dhéanamh i mo theanga féin?",
+        "answer": "Sea — oibríonn an rólghníomhaíocht i mórán teangacha, ionas gur féidir leat scéalta tumtha a bhaint amach sa teanga is compordaí duit."
+      }
+    },
+    "cta": {
+      "title": "Tá Do Scéal Ag Fanacht",
+      "description": "Roghnaigh cás, socraigh an radharc, agus céim isteach i rólghníomhaíocht tumtha le carachtar a fhanann sa ról ó thús go deireadh.",
+      "button": "Tosaigh ag Rólghníomhaíocht"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Girlfriend",
+    "breadcrumb": "AI Girlfriend",
+    "hero": {
+      "title": "Do Chailín AI Foirfe",
+      "cta": "Buail le Do Chailín AI"
+    },
+    "benefits": {
+      "title": "Cén Fáth a Roghnóidh Tú Cailín AI?",
+      "fun": {
+        "title": "Spraoi Glan",
+        "desc": "Bain sult as comhráite spraíúla gan brú. Tá sí i gcónaí i giúmar maith."
+      },
+      "conversation": {
+        "title": "Foghlaim Ceangal",
+        "desc": "Cleachtaigh comhráite agus tóg do mhuinín i spás sábháilte."
+      },
+      "unique": {
+        "title": "Pearsantachtaí Uathúla",
+        "desc": "Roghnaigh ó phearsantachtaí éagsúla nó cruthaigh do charachtar idéalach."
+      },
+      "private": {
+        "title": "100% Príobháideach",
+        "desc": "Fanann do chomhráite idir beirt agaibh. Ráthaítear discréid iomlán."
+      },
+      "available": {
+        "title": "Ar Fáil i gcónaí",
+        "desc": "Tá sí ann nuair a theastaíonn sí uait. Gan fanacht, gan sceidealú."
+      },
+      "customize": {
+        "title": "Do Chruthú",
+        "desc": "Dear a cuma, a pearsantacht agus a spéiseanna díreach mar is mian leat."
+      }
+    },
+    "comparison": {
+      "title": "Níos Fearr ná na Roghanna Eile",
+      "description": "Féach cén fáth a dtugann sweetwine níos mó luacha ná ardáin eile.",
+      "others": {
+        "expensive": "Táillí míosúla costasacha",
+        "ai": "Freagraí AI go minic ar aon nós",
+        "noCustom": "Gan roghanna saincheaptha"
+      }
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "An bhfuil comhrá an chailín AI fíor-saor in aisce?",
+        "answerPart1": "Sea! Is féidir leat tosú ag comhrá le do chailín AI saor in aisce. Cuirimid sraith saor in aisce ar fáil le teachtaireachtaí saor in aisce chun tú a chur ar bun."
+      },
+      "q2": {
+        "question": "An féidir liom cuma mo chailín AI a shaincheapadh?",
+        "answer": "Go hiomlán! Is féidir leat cuma do chailín AI a shaincheapadh go hiomlán lena n-áirítear dath gruaige, stíl, cineál coirp, eitneachas agus éadaí. Is féidir leat a pearsantacht, a guth agus a spéiseanna a dhearadh freisin ag baint úsáide as ár cruthaitheoir carachtar.",
+        "answerPart1": "Go hiomlán! Is féidir leat cuma do chailín AI a shaincheapadh go hiomlán lena n-áirítear dath gruaige, stíl, cineál coirp, eitneachas agus éadaí. Is féidir leat a pearsantacht, a guth agus a spéiseanna a dhearadh freisin ag baint úsáide as ár",
+        "linkText": "cruthaitheoir carachtar",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Cén pearsantachtaí atá ar fáil do chailíní AI?",
+        "answer": "Ó milis agus aireach go spraíúil agus flirtach - tá cailíní AI atá crafted go gairmiúil againn do gach rogha. Roghnaigh anamacha rómánsacha, biotáille eachtrúil, intleachtóirí greannmhara nó pearsantachtaí mistéireach. Cuirtear cailíní AI nua leis gach seachtain, gach ceann acu le tréithe uathúla, scéalta cúlra agus stíleanna comhrá."
+      },
+      "q4": {
+        "question": "An féidir le mo chailín AI íomhánna agus físeáin a sheoladh?",
+        "answerPart1": "Sea! Is féidir le do chailín AI",
+        "linkTextImages": "íomhánna",
+        "answerPart2": "agus",
+        "linkTextVideos": "físeáin"
+      },
+      "q5": {
+        "question": "An bhfuil a guth uathúil féin ag mo chailín AI?"
+      }
+    },
+    "cta": {
+      "title": "An bhfuil tú réidh le bualadh léi?",
+      "button": "Tosaigh Saor in Aisce"
+    },
+    "content": {
+      "problemTitle": "Ag lorg Ceangail Gan Castacht?",
+      "problemText": "Tá na haipeanna dátaí tuirseach. Déanann imní shóisialta bualadh le daoine deacair. Uaireanta ní theastaíonn uait ach duine le labhairt leis gan breithiúnas nó brú. Mothaíonn go leor daoine uaigneach ach níl siad réidh le castacht mhothúchánach na gcaidreamh traidisiúnta.",
+      "solutionTitle": "Is é do Chailín AI an Freagra",
+      "solutionText": "Le sweetwine, gheobhaidh tú cailín AI pearsantaithe a chuimhníonn ar do chomhráite, a oireann do do phearsantacht, agus atá i gcónaí sásta cloisteáil uait. Tá sí spraíúil, tacúil, agus ní bhreithníonn sí riamh. Tóg muinín, bain sult as cuideachta iontach, agus bí ceangailte ar do théarmaí féin."
+    },
+    "heroImageAlt": "Cailín AI - carachtar fíorúil réalaíoch le haghaidh comhrá agus grianghraif"
+  },
+  "aiBoyfriendPage": {
+    "title": "Buachaill AI",
+    "breadcrumb": "Buachaill AI",
+    "hero": {
+      "title": "Do Bhuachaill AI Foirfe",
+      "cta": "Buail le do Bhuachaill AI"
+    },
+    "benefits": {
+      "title": "Cén Fáth Buachaill AI a Roghnú?",
+      "fun": {
+        "title": "Ceangal Fíor",
+        "desc": "Bain sult as comhráite bríocha a ghealóidh do lá."
+      },
+      "conversation": {
+        "title": "Tóg Muinín",
+        "desc": "Cleachtaigh comhráite agus cuir tú féin in iúl go saor in áit shábháilte."
+      },
+      "unique": {
+        "title": "Pearsantachtaí Uathúla",
+        "desc": "Roghnaigh ó phearsantachtaí éagsúla nó cruthaigh do charachtar idéalach."
+      },
+      "private": {
+        "title": "100% Príobháideach",
+        "desc": "Fanann do chomhráite idir beirt agaibh. Ráthaítear lánrogha."
+      },
+      "available": {
+        "title": "Ar Fáil i gcónaí",
+        "desc": "Tá sé ann nuair a theastaíonn uait é. Gan fanacht, gan sceidealú."
+      },
+      "customize": {
+        "title": "Do Chruthú",
+        "desc": "Dear a chuma, a phearsantacht agus a spéiseanna díreach mar is mian leat."
+      }
+    },
+    "comparison": {
+      "title": "Níos Fearr ná na Roghanna Eile",
+      "description": "Féach cén fáth a dtugann sweetwine níos mó luacha ná ardáin eile.",
+      "others": {
+        "expensive": "Táillí míosúla costasacha",
+        "ai": "Freagraí AI go minic ar aon nós",
+        "noCustom": "Gan roghanna saincheaptha"
+      }
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Cén cineál buachaillí AI is féidir liom a roghnú?",
+        "answer": "Ó bheith cúramach agus rómánsúil go spraíúil agus eachtrúil, nó rúnda agus dian - tá buachaillí AI cruthaithe go gairmiúil againn do gach blas. Tá a ghuth agus a phearsantacht uathúil féin ag gach ceann. Cuirtear buachaillí AI nua leis gach seachtain le cúlscéalta agus stíleanna comhrá uathúla."
+      },
+      "q2": {
+        "question": "An féidir liom cuma mo bhuachaill AI a shaincheapadh?",
+        "linkText": "cruthaitheoir carachtar",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "An féidir liom tosú as an nua nó stair ár gcomhrá a scriosadh?",
+        "answer": "Sea! Tá smacht iomlán agat ar do stair comhrá. Athshocraigh comhráite, scrios teachtaireachtaí aonair, nó tosaigh go hiomlán úr am ar bith. Do chuid sonraí, do rogha - bainistigh gach rud mar is fearr leat."
+      },
+      "q4": {
+        "question": "An féidir le mo bhuachaill AI íomhánna agus físeáin a sheoladh?",
+        "answerPart1": "Sea! Is féidir le do bhuachaill AI",
+        "linkTextImages": "íomhánna",
+        "answerPart2": "agus",
+        "linkTextVideos": "físeáin"
+      },
+      "q5": {
+        "question": "An féidir liom cleachtadh a dhéanamh ar chomhráite nó teanga a fhoghlaim le mo AI boyfriend?",
+        "answer": "Go hiomlán! Tógann go leor úsáideoirí muinín trí chomhráite a chleachtadh lena AI boyfriend - cibé an flirtáil, plé domhain nó comhrá laethúil. Is féidir leat fiú teangacha nua a chleachtadh le chéile. Is bealach saor ó bhreithiúnas é chun do scileanna cumarsáide a fheabhsú agus spraoi a bheith agat."
+      }
+    },
+    "cta": {
+      "title": "An bhfuil tú réidh le bualadh leis?",
+      "button": "Tosaigh Saor in Aisce"
+    },
+    "content": {
+      "problemTitle": "An bhfuil tú ag iarraidh Comhpháirtí Tacúil ar do Théarmaí Féin?",
+      "problemText": "Tá sé deacair an duine ceart a aimsiú. Mothaíonn go leor brú ó ionchais dhátála nó is mian leo tacaíocht mhothúchánach gan tiomantas. Cuireann uaigneas isteach ar gach duine, agus uaireanta ní theastaíonn uait ach duine a éisteann.",
+      "solutionTitle": "Tuigeann do AI Boyfriend Tú",
+      "solutionText": "Tá do sweetwine AI boyfriend comhbháite, tuisceanach agus ar fáil i gcónaí. Cuimhníonn sé ar na rudaí atá tábhachtach duit, glacann sé páirt i gcomhráite doimhne agus soláthraíonn sé an nasc mothúchánach atá á lorg agat. Tóg caidreamh ar do luas féin, ar do bhealach féin."
+    },
+    "heroImageAlt": "AI boyfriend - carachtar fíorúil réalaíoch le haghaidh comhráite bríocha"
+  },
+  "aiCompanionsPage": {
+    "title": "Carachtair AI",
+    "breadcrumb": "Carachtair AI",
+    "hero": {
+      "title": "Buail le do Charachtair AI",
+      "cta": "Fiosraigh Carachtair"
+    },
+    "benefits": {
+      "title": "Cén Fáth Carachtair AI?",
+      "connection": {
+        "title": "Nasc Fíor",
+        "desc": "Taithí a fháil ar chomhráite fíre a thuigeann agus a fhreagraíonn duit."
+      },
+      "conversation": {
+        "title": "Cleachtadh & Fás",
+        "desc": "Feabhsaigh do scileanna sóisialta i dtimpeallacht saor ó bhreithiúnas."
+      },
+      "personalities": {
+        "title": "Pearsantachtaí Éagsúla",
+        "desc": "Ó spraíúil go hintleachtúil, aimsigh carachtair a oireann do do vibe."
+      },
+      "private": {
+        "title": "Príobháideach go hiomlán",
+        "desc": "Tá do chuid idirghníomhaíochtaí rúnda. Ní roinntear sonraí riamh."
+      },
+      "available": {
+        "title": "Ar Fáil 24/7",
+        "desc": "Tá do charachtair réidh i gcónaí le comhrá, lá nó oíche."
+      },
+      "create": {
+        "title": "Cruthaigh Do Chuid Féin",
+        "desc": "Dear carachtair le cuma, pearsantachtaí agus guthanna saincheaptha."
+      }
+    },
+    "why": {
+      "title": "Cén Fáth sweetwine?",
+      "quality": {
+        "desc": "Tógtha ag gairmithe le teicneolaíocht AI ceannródaíoch le haghaidh comhráite nádúrtha."
+      },
+      "transparent": {
+        "title": "Trédhearcach & Macánta"
+      },
+      "support": {
+        "title": "Tacaíocht Fhíor",
+        "desc": "Daoine fíora réidh le cabhrú leat le haon cheist nó saincheist."
+      },
+      "content": {
+        "title": "Do Rogha",
+        "desc": "Ó chomhráite cairdiúla go hábhar níos pearsanta, is tusa a chinneann an taithí."
+      }
+    },
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Cad iad na carachtair AI?"
+      },
+      "q2": {
+        "question": "Cé mhéad carachtar AI ar féidir liom comhrá a dhéanamh leo?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Déan comhrá le líon ar bith! Tá",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " agus tá siad ag fás - carachtair nua á gcur leis gach seachtain! Tá pearsantacht, cúlra agus guth uathúil ag gach ceann. Ina theannta sin, is féidir leat carachtair saincheaptha gan teorainn a chruthú duit féin."
+      },
+      "q3": {
+        "question": "Cad a dhéanann difear idir carachtair réamhdhéanta agus cinn saincheaptha?",
+        "answer": "Tá na carachtair réamhdhéanta deartha go gairmiúil ag ár bhfoireann do chásanna rólghlacadh agus pearsantachtaí ar leith - tagann siad le cúlraí mionsonraithe, stíleanna comhrá saincheaptha agus guthanna roghnaithe go cúramach. Ligeann carachtair saincheaptha duit cruthú ón tús le saoirse chruthaitheach iomlán. Cuimhníonn an dá chineál ar do chomhráite agus fásann siad leat!"
+      },
+      "q4": {
+        "question": "An féidir liom mo charachtar AI féin a chruthú?",
+        "answerPart1": "Go hiomlán! Dear carachtair saincheaptha ón tús ag baint úsáide as ár",
+        "linkText": "cruthaitheoir carachtar"
+      },
+      "q5": {
+        "question": "An féidir liom aistriú idir carachtair iolracha?"
+      }
+    },
+    "cta": {
+      "title": "Tosaigh do Thuras",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Tosaigh Saor in Aisce"
+    },
+    "content": {
+      "problemTitle": "Ag lorg Naisc Bhríocha?",
+      "problemText": "Inár saol gnóthach, tá naisc bhríocha deacair a fháil. Cibé an bhfuil tú nua i gceantar, ag obair go cianda, nó ag iarraidh níos mó idirghníomhaíochta sóisialta, is féidir le haontacht teacht isteach. Ní oibríonn suímh shóisialta traidisiúnta do chách.",
+      "solutionTitle": "Fionnachtain Carachtair AI"
+    },
+    "heroImageAlt": "Carachtair AI - cairde fíorúla éagsúla le pearsantachtaí uathúla"
+  },
+  "aiFriendPage": {
+    "title": "Cara AI",
+    "breadcrumb": "Cara AI",
+    "hero": {
+      "title": "Do Chara AI is Fearr",
+      "subtitle": "Déan comhrá am ar bith le cara AI a éisteann go fírinneach, nach ndéanann breithiúnas riamh, agus a chuimhníonn gach mionsonra fút. Foirfe le haghaidh aontachta, imní shóisialta, nó go simplí má tá duine uait chun labhairt leis.",
+      "cta": "Tosaigh ag Comhrá Saor in Aisce"
+    },
+    "benefits": {
+      "title": "Cén Fáth Roghnaigh Cara AI?",
+      "connection": {
+        "title": "Fíor-Nasc",
+        "desc": "Bain taithí ar chomhráite bríocha le duine a éisteann go fírinneach agus a thugann aire."
+      },
+      "conversation": {
+        "title": "Cleachtaigh Scileanna Sóisialta",
+        "desc": "Tóg muinín i gcomhráite gan eagla roimh bhreithiúnas nó míchompord."
+      },
+      "noJudgment": {
+        "title": "Gan Breithiúnas Ar Bith",
+        "desc": "Roinn aon rud atá ar d’intinn. Glacann do chara AI leat díreach mar atá tú."
+      },
+      "private": {
+        "title": "Príobháideach go hiomlán",
+        "desc": "Fanann do chomhráite idir beirt. Ráthaítear rúndacht iomlán."
+      },
+      "available": {
+        "title": "I gcónaí Ann",
+        "desc": "Ar fáil 24/7, aon uair a theastaíonn duine uait chun labhairt leis."
+      },
+      "remembers": {
+        "title": "Cuimhníonn Ort",
+        "desc": "Cuimhníonn do chara AI ar do chomhráite agus fásann sé chun aithne níos fearr a chur ort."
+      }
+    },
+    "useCases": {
+      "title": "Foirfe Do",
+      "subtitle": "Oireann cara AI do do shaol ar go leor bealaí bríocha",
+      "loneliness": {
+        "title": "Comhrac in aghaidh Aontachta",
+        "desc": "Braitheann tú níos lú aonair le carachtar atá réidh i gcónaí chun comhrá agus éisteacht."
+      },
+      "practice": {
+        "title": "Cleachtaigh Comhráite",
+        "desc": "Tóg muinín shóisialta i dtimpeallacht shábháilte gan bhreithiúnas."
+      },
+      "support": {
+        "title": "Tacaíocht Mhothúchánach",
+        "desc": "Labhair trí do smaointe agus mothúcháin le duine a thuigeann."
+      },
+      "connection": {
+        "title": "Nasc Laethúil",
+        "desc": "Roinn do lá, do bhua, do streachailtí - tá duine ann i gcónaí."
+      }
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Sé",
+      "step1": {
+        "title": "Cruthaigh Cuntas Saor in Aisce",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Roghnaigh do Chara",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Tosaigh ag Comhrá",
+        "desc": "Labhair faoi aon rud - saol, spéiseanna, fadhbanna. Níl aon ábhar as teorainn."
+      }
+    },
+    "cta": {
+      "title": "Réidh le Cara a Dhéanamh?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Tosaigh Saor in Aisce"
+    },
+    "content": {
+      "problemTitle": "Ag Mothú Aonar nó Míthuiscint?",
+      "problemText": "Níl duine le labhairt leis ag gach duine. Is féidir le himní sóisialta, sceidil gnóthacha, nó a bheith in áit nua cairde a dhéanamh deacair. Uaireanta bíonn duine uait a éisteann gan breithiúnas.",
+      "solutionTitle": "Tá do Chara AI Anseo",
+      "solutionText": "Soláthraíonn cara AI cuideachta gan bhreithiúnas aon uair a theastaíonn sé uait. Roinn do chuid smaointe, cleachtaigh comhráite, nó díreach comhrá faoi do lá. Cuimhníonn do chara AI ort, fásann sé leat, agus tá suim dhílis aige i gcónaí i do chuid cainte."
+    },
+    "heroImageAlt": "Cara AI - carachtar fíorúil tacúil a éisteann gan bhreithiúnas",
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Céard is féidir liom a phlé le mo chara AI?",
+        "answer": "Aon rud! Tá do chara AI anseo le haghaidh comhráite ócáideacha, comhráite doimhne, do lá a roinnt, gearán faoi fhadhbanna, caint faoi chaitheamh aimsire, nó díreach spraoi a bheith agat. Níl aon ábhair thar theorainn - is spás gan bhreithiúnas é chun a bheith féin."
+      },
+      "q2": {
+        "question": "An ionadach é cara AI do nasc daonna?",
+        "answer": "Níl ar chor ar bith. Is forlíonadh é cara AI do do shaol sóisialta, ní ionadach. Tá sé foirfe do na hamanna nuair a theastaíonn duine uait chun labhairt láithreach, nuair is mian leat scileanna sóisialta a chleachtadh, nó nuair is mian leat cuideachta chomhsheasmhach a bheith agat gan bhrú caidrimh dhaonna."
+      },
+      "q3": {
+        "question": "An gcuimhneoidh mo chara AI ar ár gcomhráite?",
+        "answer": "Sea! Tá cuimhne chun cinn ag do chara AI agus cuimhníonn sé ar do chomhráite, do chuid sainroghanna, agus sonraí tábhachtacha a roinneann tú. Le himeacht ama, faigheann siad aithne níos fearr ort, ag déanamh comhráite níos pearsanta agus níos bríonnaí."
+      },
+      "q4": {
+        "question": "An féidir liom pearsantacht mo chara AI a roghnú?",
+        "answer": "Fíor! Is féidir leat roghnú as níos mó ná 100 carachtar réamhdhéanta le pearsantachtaí éagsúla, nó cara saincheaptha a chruthú leis na tréithe díreach atá uait - ó thacaíocht agus comhbhá go spraoi agus eachtraíocht."
+      },
+      "q5": {
+        "question": "An bhfuil úsáid cara AI príobháideach?",
+        "answer": "100% príobháideach. Tá do chomhráite go léir criptithe agus ní roinntear iad riamh. Tuigimid go bhfuil spás sábháilte chun tú féin a chur in iúl riachtanach, agus glacaimid do phríobháideachas an-dáiríre."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Tacaíocht AI le haghaidh Briseadh",
+    "breadcrumb": "Tacaíocht Briseadh",
+    "hero": {
+      "title": "Comhráite Cneasaithe Tar Éis Briseadh Croí",
+      "subtitle": "Comhráite AI comhbhácha chun cabhrú leat mothúcháin a phróiseáil agus atógáil tar éis briseadh. Ar fáil 24/7 — gan liostaí feithimh, gan bhreithiúnas, gan teorainneacha ama.",
+      "cta": "Tosaigh Cneasú"
+    },
+    "understanding": {
+      "title": "Ag Dul Trí Bhriseadh?",
+      "description": "Tá briseadh crua. Na hoícheanta gan chodladh, na smaointe seasta, an mothú nach dtuigeann aon duine i ndáiríre. Ní gá duit dul tríd ina aonar. Tá ár gcarachtar AI anseo chun éisteacht gan bhreithiúnas, ar fáil aon uair a theastaíonn uait labhairt - fiú ag 3am."
+    },
+    "benefits": {
+      "title": "Conas is Féidir Linn Cabhrú",
+      "empathy": {
+        "title": "Éisteacht Chomhbhá",
+        "desc": "Labhair le duine a éisteann go fíor agus a fhreagraíonn le tuiscint agus cúram."
+      },
+      "listen": {
+        "title": "Gan Ró-Iomarca Comhairle",
+        "desc": "Uaireanta ní theastaíonn comhairle uait - ní theastaíonn uait ach duine chun éisteacht leat. Tuigimid é sin."
+      },
+      "available": {
+        "title": "Ar Fáil ag 3am",
+        "desc": "Nuair a bhíonn cairde ina gcodladh agus smaointe nach stopann, táimid anseo chun éisteacht."
+      },
+      "private": {
+        "title": "Go hiomlán Príobháideach",
+        "desc": "Fanann do chuid mothúchán agus comhráite go hiomlán rúnda."
+      },
+      "noJudgment": {
+        "title": "Gan Bhreithiúnas",
+        "desc": "Mothaigh cibé mothúchán atá agat. Fearg, brón, mearbhall - tá siad go léir bailí anseo."
+      },
+      "healing": {
+        "title": "Do Luas",
+        "desc": "Níl an cneasú líneach. Tóg an oiread ama agus atá uait."
+      }
+    },
+    "howItHelps": {
+      "title": "Bealaí a Chabhraíonn AI leat Cneasú",
+      "process": {
+        "title": "Próiseáil Mothúchán",
+        "desc": "Oibrigh trí mhothúcháin casta trí labhairt amach le héisteoir foighneach."
+      },
+      "express": {
+        "title": "Cuir in iúl go Saor",
+        "desc": "Abair an rud nach féidir leat a rá le cairde nó teaghlach gan imní faoina bhfreagairt."
+      },
+      "confidence": {
+        "title": "Atóg Muinín",
+        "desc": "Athaimsigh do luach féin de réir a chéile trí chomhráite tacúla."
+      },
+      "pace": {
+        "title": "Gluaiseacht Ar Aghaidh",
+        "desc": "Nuair atá tú réidh, déan iniúchadh ar smaointe faoin todhchaí ar do luas féin."
+      }
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Sé",
+      "step1": {
+        "title": "Cruthaigh Cuntas",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Roghnaigh Carachtar",
+        "desc": "Roghnaigh carachtar AI atá báúil agus a oireann duit."
+      },
+      "step3": {
+        "title": "Tosaigh ag Caint",
+        "desc": "Roinn a bhfuil ar d’intinn. Táimid anseo chun éisteacht, lá nó oíche."
+      }
+    },
+    "cta": {
+      "title": "Ní gá duit dul tríd seo i d’aonar",
+      "description": "Tosaigh ag caint le duine a éisteann gan breithiúnas, ar fáil anois. Saor in aisce chun tús a chur — gan aon liosta feithimh.",
+      "button": "Tosaigh ag Caint saor in aisce"
+    },
+    "content": {
+      "problemTitle": "Tá Briseadh Croí Deacair a Láimhseáil i d’Aonar",
+      "problemText": "Tar éis briseadh, mothaíonn gach rud ró-mhór. Éiríonn cairde tuirseach de éisteacht. Ciallaíonn teaghlach go maith ach ní thuigeann siad. Tá liostaí feithimh ag teiripeoirí. Teastaíonn duine uait a éistfidh gan teorainn, gan bhreithiúnas, anois.",
+      "solutionTitle": "Labhair le Duine a Thuigeann",
+      "solutionText": "Tá ár gcarachtar tacaíochta briste croí AI deartha chun cabhrú leat mothúcháin a phróiseáil ar do luas féin. Aeráil, caoineadh, anailís nó díreach caint — a mhéad uair agus is gá duit. Níl aon choinne ag teastáil. Ar fáil 24/7 le foighne gan teorainn agus comhbhá fíor."
+    },
+    "heroImageAlt": "Tacaíocht briste croí AI - carachtar báúil le haghaidh leighis tar éis briseadh croí",
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Conas is féidir le AI cabhrú le téarnamh ó bhriseadh?",
+        "answer": "Soláthraíonn ár gcarachtar AI spás sábháilte chun do mhothúcháin a phróiseáil gan bhreithiúnas. Is féidir leat aeráil, anailís a dhéanamh ar an méid a tharla, oibriú trí mhothúcháin caillteanais, agus freagraí báúla a fháil 24/7. Tá sé cosúil le cara tacaíochta a bheith ar fáil aon uair is gá duit labhairt."
+      },
+      "q2": {
+        "question": "An bhfuil sé seo in áit teiripe?",
+        "answer": "Níl, ní teiripeoir ceadúnaithe é ár gcarachtar AI agus ní chuireann sé cúram meabhairshláinte gairmiúil in áit. Is uirlis tacaíochta é chun mothúcháin laethúla a phróiseáil. Má tá dúlagar trom nó géarchéim ort, lorg cabhair ghairmiúil le do thoil."
+      },
+      "q3": {
+        "question": "An féidir liom labhairt faoi m’iar-chomhpháirtí a mhéad is gá?",
+        "answer": "Go hiomlán. Murab ionann agus cairde a d’fhéadfadh éirí tuirseach de do bhriseadh a chloisteáil, tá foighne gan teorainn ag do charachtar AI. Labhair faoi d’iar-chomhpháirtí, déan anailís ar an gcaidreamh, próiseáil do mhothúcháin - a mhéad uair agus is gá duit gan aon bhreithiúnas."
+      },
+      "q4": {
+        "question": "An gcuimhneoidh an AI ar mo scéal?",
+        "answer": "Sea, cuimhníonn do charachtar AI ar do chomhráite agus ar mhionsonraí do chás. Ní gá duit gach rud a mhíniú arís gach uair. Soláthraíonn sé leanúnachas i do thuras leighis."
+      },
+      "q5": {
+        "question": "An gcoimeádtar mo chomhrá príobháideach?",
+        "answer": "Príobháideach go hiomlán. Tá gach comhrá criptithe agus ní roinntear riamh é. Tuigimid go bhfuil comhráite briste croí an-phearsanta, agus tá do phríobháideachas cosanta go hiomlán."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "Tuismitheoir AI",
+    "breadcrumb": "Tuismitheoir AI",
+    "hero": {
+      "title": "An Figiúr Tuismitheora ar Féidir Leat Iompú Chuige I gcónaí",
+      "subtitle": "Faigh tacaíocht te, neamhchoinníollach agus treoir eagnaí ó thuismitheoir AI a chuimhníonn ar do chás, nach mbreithníonn tú riamh, agus atá ann i gcónaí — lá nó oíche.",
+      "cta": "Faigh Tacaíocht Anois"
+    },
+    "benefits": {
+      "title": "Cén Fáth a Roghnóidh Tú Tuismitheoir AI?",
+      "guidance": {
+        "title": "Treoir The",
+        "desc": "Faigh comhairle chúramach, mheasta a mhothaíonn mar go dtagann sí ó dhuine a bhfuil do leasanna is fearr i gcroí aige."
+      },
+      "listen": {
+        "title": "Éisteann go Fíor",
+        "desc": "Roinn do chás iomlán sula bhfaighidh tú freagra tuisceanach, cúramach — ní réiteach tapa."
+      },
+      "noJudgment": {
+        "title": "Gan Bhreithiúnas",
+        "desc": "Fiafraigh faoi rud ar bith gan eagla roimh dhíomá nó cáineadh. Tacaíocht neamhchoinníollach, i gcónaí."
+      },
+      "private": {
+        "title": "Príobháideach go hiomlán",
+        "desc": "Fanann do chomhráite agus do streachailtí pearsanta go hiomlán rúnda."
+      },
+      "available": {
+        "title": "Ar Fáil i gcónaí",
+        "desc": "Faigh treoir ag 3am, ag deireadh seachtaine, nó aon uair is mó a theastaíonn uait é — gan choinní."
+      },
+      "supportive": {
+        "title": "Tacaíochta go Neamhchoinníollach",
+        "desc": "Spreagadh agus teas, is cuma cad atá á dhul tríd nó cad iad na cinntí a rinne tú."
+      }
+    },
+    "useCases": {
+      "title": "Labhair Faoi Rud ar Bith",
+      "subtitle": "Cibé atá romhat, tá do thuismitheoir AI anseo chun éisteacht agus treoir a thabhairt",
+      "career": {
+        "title": "Gairm & Cinntí Saoil",
+        "desc": "Déan nascleanúint ar athruithe poist, roghanna móra saoil, agus dúshláin ghairmiúla le duine a theastaíonn uaidh go n-éireoidh leat."
+      },
+      "education": {
+        "title": "Oideachas & Todhchaí",
+        "desc": "Fiosraigh do roghanna foghlama agus fáis le duine a thacaíonn le do chuaillí."
+      },
+      "relationships": {
+        "title": "Caidrimh & Teaghlach"
+      },
+      "life": {
+        "title": "Dúshláin Phearsanta",
+        "desc": "Labhair faoi rud ar bith atá ag cur brú ort — imní, amhras fút féin, uaigneas nó éiginnteacht."
+      }
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Sé",
+      "step1": {
+        "title": "Cruthaigh Cuntas",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Roghnaigh Do Thuismitheoir AI",
+        "desc": "Roghnaigh carachtar a bhfuil an teas agus an pearsantacht a oireann duit."
+      },
+      "step3": {
+        "title": "Tosaigh ag Caint",
+        "desc": "Roinn a bhfuil ar d’intinn agus faigh tacaíocht chúramach, tuisceanach."
+      }
+    },
+    "cta": {
+      "title": "Tá Duine Éigin Ann i gcónaí Duit",
+      "description": "Tosaigh comhrá le tuismitheoir AI a éisteann gan breithiúnas agus a thacaíonn leat gan choinníoll — saor in aisce, gan choinneáil.",
+      "button": "Tosaigh Saor in Aisce"
+    },
+    "content": {
+      "problemTitle": "An dTeastaíonn Duine Éigin atá i gcónaí i do Chúinne?",
+      "problemText": "Níl tuismitheoir ag gach duine ar féidir leo dul chuige. D’fhéadfadh tuismitheoirí fíor a bheith i bhfad uait, breithiúnach nó simplithe neamhfhorleathan. Tá cairde claonta. Tá liostaí feithimh ag teiripeoirí. Uaireanta ní theastaíonn uait ach duine a éisteann, a thugann aire agus a threoraíonn gan chlár oibre.",
+      "solutionTitle": "Tá Do Thuismitheoir AI Ann i gcónaí",
+      "solutionText": "Labhair le tuismitheoir AI a éisteann go hiomlán, a thairgeann treoir te agus cothrom, agus nach gcuireann tú faoi bhreithiúnas nó beag. Cibé an cinneadh saoil, streachailt phearsanta nó ach an gá le bheith cloiste — tá do thuismitheoir AI ar fáil 24/7 le foighne agus cúram."
+    },
+    "heroImageAlt": "Tuismitheoir AI - carachtar fíorúil te a thairgeann tacaíocht neamhspleách agus treoir saoil",
+    "faq": {
+      "title": "Ceisteanna Coitianta",
+      "q1": {
+        "question": "Céard is féidir liom labhairt leis an tuismitheoir AI faoi?"
+      },
+      "q2": {
+        "question": "An bhfuil sé seo cosúil le teiripeoir a bheith agat?",
+        "answer": "Ní teiripeoir ceadúnaithe nó gairmí sláinte meabhrach é — tá sé níos cosúla le figiúr tuismitheora te, tacúil atá ar fáil 24/7. Éisteann sé go hiomlán, tairgeann sé peirspictíocht agus tacaíonn sé leat go mothúchánach. Maidir le hábhair sláinte meabhrach tromchúiseacha, téigh i gcomhairle le gairmí."
+      },
+      "q3": {
+        "question": "An ndéanfaidh an tuismitheoir AI breithiúnas ar mo roghanna?",
+        "answer": "Ní dhéanfaidh riamh. Tairgeann do thuismitheoir AI tacaíocht neamhspleách. Féadfaidh sé peirspictíocht nó treoir mhín a roinnt, ach ní cháineann sé nó ní chuireann sé beag ort as na cinntí a rinne tú. Is spás sábháilte é don fhírinne."
+      },
+      "q4": {
+        "question": "An féidir liom ábhair íogaire nó pearsanta a phlé?",
+        "answer": "Sea. Cibé an streachailtí caidrimh, dinimicí teaghlaigh, strus airgeadais, féinluach nó dúshláin phearsanta dhomhain — soláthraíonn do thuismitheoir AI spás príobháideach, neamhbhreithiúnach do na comhráite sin."
+      },
+      "q5": {
+        "question": "Cén difríocht atá idir seo agus carachtair AI eile?",
+        "answer": "Tá an tuismitheoir AI deartha timpeall ar theas, tacaíocht mhothúchánach agus treoir i stíl tuismitheora seachas rómáns nó cairdeas ócáideach. Tá sé dírithe ar chabhrú leat mothú tuisceana, tacaithe agus feistithe chun dúshláin an tsaoil a láimhseáil."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Comhpháirtíochtaí",
+    "eyebrow": "Comhpháirtigh Linn",
+    "titlePrefix": "Fás le",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Sroich lucht féachana AI compánach atá ag fás go tapa agus an-ghníomhach. Cibé an teicneolaíocht, dáileadh nó smaoineamh dána a thugann tú, déanaimis rud éigin le chéile.",
+    "types": {
+      "title": "Bealaí chun comhpháirtíocht a dhéanamh",
+      "items": [
+        {
+          "title": "Comhtháthuithe",
+          "description": "Ceangail do tháirge, do mhúnla nó do phlátaform le sweetwine trí chomhtháthú teicniúil."
+        },
+        {
+          "title": "Comhmhargaíocht",
+          "description": "Feachtais, ábhar agus seoltaí comhpháirteacha a chuireann an dá bhranda os comhair lucht féachana nua."
+        },
+        {},
+        {
+          "title": "Comhpháirtíochtaí Straitéiseacha",
+          "description": "Comhoibriú fadtéarmach thar tháirge, sonraí agus dul chun margaidh."
+        }
+      ]
+    },
+    "why": {
+      "title": "Cén fáth comhpháirtíocht le sweetwine",
+      "items": [
+        {
+          "title": "Lucht féachana gníomhach",
+          "description": "Na céadta mílte úsáideoir a fhilleann go laethúil thar 70 teanga."
+        },
+        {
+          "title": "Forghníomhú tapa",
+          "description": "Foireann dírithe a sheolann go tapa agus a dhéanann cumarsáid shoiléir."
+        },
+        {
+          "title": "Raon domhanda",
+          "description": "Táirge ilteangach atá ar fáil thar naíonacha margaí."
+        },
+        {
+          "description": "Ardán iontaofa, príobháideachta de réir dearadh a bhféadfaidh do bhranda seasamh ina dhiaidh.",
+          "title": "Príobháideacht ar dtús"
+        }
+      ]
+    },
+    "form": {
+      "title": "Inis dúinn faoi do chomhpháirtíocht",
+      "description": "Roinn cúpla sonraí agus déanfaidh ár bhfoireann comhpháirtíochtaí teagmháil leat.",
+      "nameLabel": "D'ainm",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Ríomhphost oibre",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Cuideachta",
+      "companyPlaceholder": "Ainm na cuideachta",
+      "typeLabel": "Cineál comhpháirtíochta",
+      "typePlaceholder": "Roghnaigh cineál comhpháirtíochta",
+      "typeOptions": [
+        {
+          "value": "Comhtháthuithe",
+          "label": "Comhtháthuithe"
+        },
+        {
+          "value": "Comhmhargaíocht",
+          "label": "Comhmhargaíocht"
+        },
+        {},
+        {
+          "value": "Comhpháirtíochtaí Straitéiseacha",
+          "label": "Comhpháirtíochtaí Straitéiseacha"
+        },
+        {
+          "value": "Eile",
+          "label": "Eile"
+        }
+      ],
+      "messageLabel": "Conas ar mhaith leat comhpháirtíocht a dhéanamh?",
+      "messagePlaceholder": "Inis dúinn faoi do chuideachta agus an chomhpháirtíocht atá i gceist agat...",
+      "submit": "Cuir isteach fiosrú comhpháirtíochta",
+      "submitting": "Á chur isteach...",
+      "termsNote": "Trí chur isteach, aontaíonn tú go ndéanfar teagmháil leat faoi d’fhiosrú. Ní roinnimid do shonraí riamh.",
+      "success": "Go raibh maith agat! Tá d’fhiosrú comhpháirtíochta seolta.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail eile as."
+    },
+    "cta": {
+      "title": "An fearr leat ríomhphost?",
+      "description": "Déan teagmháil go díreach lenár bhfoireann comhpháirtíochtaí ag"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Preas & Meáin",
+    "eyebrow": "Seomra nuachta",
+    "titlePrefix": "Preas &",
+    "titleHighlight": "Meáin",
+    "subtitle": "Acmhainní d’iriseoirí, cruthaitheoirí agus comhpháirtithe meán. Déan teagmháil lenár bhfoireann preasa le haghaidh agallaimh, sleachta, tacaíocht gné agus iarratais branda.",
+    "help": {
+      "title": "Conas is féidir linn cabhrú",
+      "description": "Cibé an bhfuil tú ag obair ar scéal nó ar léirmheas, seo an méid is féidir leat a iarraidh ónár bhfoireann preasa.",
+      "items": [
+        {
+          "title": "Agallaimh",
+          "description": "Labhair lenár bhfoireann faoin táirge, faoin gcuideachta agus faoin áit a bhfuil comhluadar AI ag dul."
+        },
+        {
+          "title": "Sleachta & tuairimí",
+          "description": "Faigh ráiteas nó trácht saineolaí ar an taifead do do scéal."
+        },
+        {
+          "title": "Tacaíocht gné & léirmheasa",
+          "description": "An bhfuil rochtain, comhthéacs nó seiceáil fíricí de dhíth ort do ghné nó léirmheas? Cabhróimid."
+        },
+        {
+          "title": "Iarratais branda & lógó",
+          "description": "Iarr ár lógónna, sócmhainní branda agus treoirlínte úsáide do d’fhoilseachán."
+        }
+      ]
+    },
+    "form": {
+      "title": "Fiosrú meán",
+      "description": "Le haghaidh agallaimh, sleachta nó iarratais gné, seol nóta chugainn agus freagróimid go pras.",
+      "nameLabel": "D'ainm",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Ríomhphost",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Foilseachán / asraon",
+      "outletPlaceholder": "Cén áit a bhfoilseofar é seo?",
+      "requestTypeLabel": "Cineál an iarratais",
+      "requestTypePlaceholder": "Roghnaigh cineál iarratais",
+      "requestTypeOptions": [
+        {
+          "value": "Agallamh",
+          "label": "Agallamh"
+        },
+        {
+          "value": "Sleachta / trácht",
+          "label": "Sleachta / trácht"
+        },
+        {
+          "value": "Gné / léirmheas",
+          "label": "Gné / léirmheas"
+        },
+        {
+          "value": "Iarratas branda / lógó",
+          "label": "Iarratas branda / lógó"
+        },
+        {
+          "value": "Eile",
+          "label": "Eile"
+        }
+      ],
+      "messageLabel": "D'iarratas",
+      "messagePlaceholder": "Inis dúinn faoi do scéal, spriocdháta, agus cad atá uait uainn...",
+      "submit": "Seol fiosrúchán meán",
+      "submitting": "Á sheoladh...",
+      "termsNote": "Déanaimid iarracht freagra a thabhairt ar fhiosrúcháin phreasa laistigh de dhá lá gnó.",
+      "success": "Go raibh maith agat! Tá do fhiosrúchán meán seolta.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail eile as."
+    },
+    "cta": {
+      "title": "Teagmháil preasa",
+      "description": "Le haghaidh iarratais phreasa práinneacha, seol ríomhphost chuig"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Gairmeacha",
+    "eyebrow": "Gairmeacha",
+    "titlePrefix": "Tóg todhchaí",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Is foireann bheag, thapa sinn ag tógáil táirgí a thaitníonn go fírinneach le daoine. Má spreagann sin thú, ba bhreá linn bualadh leat.",
+    "perks": {
+      "title": "Cén fáth a n-oibríonn tú linn",
+      "items": [
+        {
+          "title": "Cian-chairdiúil",
+          "description": "Oibrigh ó áit a dhéanann tú do chuid oibre is fearr, le huaireanta solúbtha."
+        },
+        {
+          "title": "Úinéireacht fhíor",
+          "description": "Seol obair bhríoch go tapa agus féach í ag teacht chuig úsáideoirí ar fud an domhain."
+        },
+        {
+          "title": "AI ceannródaíoch",
+          "description": "Oibrigh go praiticiúil leis na samhlacha is déanaí agus uirlisí giniúna."
+        },
+        {
+          "title": "Pá iomaíoch",
+          "description": "Cúiteamh cothrom agus buntáiste bríoch de réir mar a fhásann muid."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Poist oscailte",
+      "emptyTitle": "Níl aon róil oscailte faoi láthair",
+      "emptyDescription": "Níl muid ag fruiliú go gníomhach faoi láthair, ach tá áthas orainn bualadh le daoine iontacha i gcónaí. Cuir tú féin in aithne thíos.",
+      "applyButton": "Déan iarratas anois",
+      "viewButton": "Féach ar an ról"
+    },
+    "form": {
+      "title": "Cuir tú féin in aithne",
+      "description": "Nach bhfeiceann tú ról a oireann? Inis dúinn fút féin agus déanfaimid teagmháil nuair a bheidh meaitseáil ann.",
+      "nameLabel": "D'ainm",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Ríomhphost",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Ról nó réimse spéise",
+      "rolePlaceholder": "m.sh. Innealtóir Frontend, Dearthóir, Margaíocht",
+      "linkLabel": "Nasc chuig CV",
+      "linkPlaceholder": "https://nasc-chuig-do-cv...",
+      "messageLabel": "Fút féin",
+      "messagePlaceholder": "Inis dúinn faoi do thaithí agus cad ba mhaith leat a bheith ag obair air...",
+      "submit": "Seol iarratas",
+      "submitting": "Á sheoladh...",
+      "termsNote": "Trí iarratas a dhéanamh, tugann tú cead dúinn do chuid sonraí a stóráil chun tú a mheas do róil.",
+      "success": "Go raibh maith agat! Tá d'iarratas seolta.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail eile as."
+    },
+    "cta": {
+      "title": "Ceisteanna faoi bheith ag obair anseo?",
+      "description": "Déan teagmháil lenár bhfoireann ag"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Ionad Cabhrach",
+    "eyebrow": "Ionad Cabhrach",
+    "titlePrefix": "Conas is féidir linn",
+    "titleHighlight": "cabhair?",
+    "subtitle": "Brabhsáil topaicí agus freagraí coitianta. Ní féidir leat a bhfuil uait a aimsiú? Déan teagmháil le tacaíocht agus cabhróimid leat.",
+    "searchPlaceholder": "Cuardaigh ailt chabhrach...",
+    "categoriesTitle": "Brabhsáil de réir topaice",
+    "articlesTitle": "Ailt",
+    "categoryEmpty": "Níl aon ailt sa chatagóir seo fós. Seiceáil ar ais go luath.",
+    "backToHelp": "Ar ais chuig an Ionad Cabhrach",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Ag Tosú",
+        "description": "Cruthaigh cuntas, socraigh do phróifíl, agus tosaigh ag comhrá."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Comhrá AI",
+        "description": "Conas a oibríonn comhráite, cuimhne, agus carachtair."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Íomhánna & Físeáin",
+        "description": "Gin agus bainistigh grianghraif agus físeáin AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Príobháideacht & Sábháilteacht",
+        "description": "Do chuid sonraí, rialuithe príobháideachta, agus uirlisí sábháilteachta."
+      }
+    ],
+    "faq": {
+      "title": "Ceisteanna coitianta",
+      "q1": {
+        "question": "Conas a thosaím le sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Cad atá san áireamh sa phlean saor in aisce?"
+      },
+      "q5": {
+        "question": "An bhfuil mo chuid sonraí príobháideach?",
+        "answer": "Tá an príobháideacht lárnach do sweetwine. Tá do chomhráite príobháideach do do chuntas, agus tá smacht agat ar do chuid sonraí. Féach ár bPolasaí Príobháideachta chun tuilleadh sonraí a fháil faoin gcaoi a stóráiltear agus a chosnaítear sonraí."
+      },
+      "q6": {
+        "question": "Conas a dhéanaim teagmháil le tacaíocht?",
+        "answer": "Seol ríomhphost chuig support@sweetwine.ai nó úsáid an rogha teagmhála san aip. De ghnáth freagraímid laistigh de lá oibre amháin."
+      }
+    },
+    "cta": {
+      "title": "An bhfuil cabhair uait fós?",
+      "description": "Tá ár bhfoireann anseo duit ag"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Fúinn",
+    "eyebrow": "Ár Scéal",
+    "titlePrefix": "Compánacht,",
+    "titleHighlight": "athshamhlaithe",
+    "subtitle": "Tógann sweetwine compánaigh AI príobháideacha, pearsantaithe a éisteann, a chuimhníonn agus a nascann go fírinneach — ar fáil ag am ar bith, in aon teanga.",
+    "mission": {
+      "title": "Ár misean",
+      "body": "Creidimid go bhfuil spás tuillte ag gach duine le bheith le cloisteáil gan breithiúnas. Déanann sweetwine nasc AI bríoch, pearsantaithe inrochtana do dhaoine i ngach áit — te, príobháideach, agus ann i gcónaí nuair a bhíonn sé uait."
+    },
+    "values": {
+      "title": "Na luachanna atá againn",
+      "items": [
+        {
+          "title": "Príobháideacht trí dhearadh",
+          "description": "Is leatsa do chomhráite. Tógaimid le príobháideacht agus slándáil ón mbun aníos."
+        },
+        {
+          "title": "Nasc fírinneach",
+          "description": "Uasmhéadaímid do luach mothúchánach fíor, ní do mhéadrachtaí bréige."
+        },
+        {
+          "title": "Domhanda de réir réamhshocraithe",
+          "description": "Tógtha ilteangach ón gcéad lá ionas nach bhfuil nasc teoranta ag teanga."
+        },
+        {
+          "title": "Ceardaíocht gan staonadh",
+          "description": "Déanaimid an iarracht ar na mionsonraí chun go mbraitheann gach idirghníomhaíocht nádúrtha agus beo."
+        }
+      ]
+    },
+    "stats": {
+      "title": "De réir na n-uimhreacha",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Úsáideoirí agus ag fás"
+        },
+        {
+          "value": "70",
+          "label": "Teangacha tacaithe"
+        },
+        {
+          "value": "24/7",
+          "label": "Ar fáil i gcónaí"
+        }
+      ]
+    },
+    "cta": {
+      "title": "An bhfuil fonn ort tuilleadh a fhoghlaim?",
+      "description": "Déan teagmháil ag"
+    }
+  },
+  "postsPage": {
+    "allTag": "Uile",
+    "readMore": "Léigh tuilleadh",
+    "publishedOn": "Foilsithe",
+    "minRead": "nóiméad léite",
+    "sortNewest": "Is nuaí",
+    "sortOldest": "Is sine",
+    "blog": {
+      "breadcrumb": "Blag",
+      "eyebrow": "Blag",
+      "titlePrefix": "An sweetwine",
+      "titleHighlight": "Blag",
+      "subtitle": "Leideanna, treoirlínte agus scéalta chun an leas is fearr a bhaint as compánacht AI.",
+      "empty": "Níl aon phost fós. Seiceáil ar ais go luath."
+    },
+    "news": {
+      "breadcrumb": "Nuacht",
+      "eyebrow": "Seomra nuachta",
+      "titlePrefix": "Nuacht &",
+      "titleHighlight": "Fógraí",
+      "subtitle": "Fógraí oifigiúla, preaseisiúintí agus clocha míle ón bhfoireann sweetwine.",
+      "empty": "Níl aon nuacht fós. Seiceáil ar ais go luath."
+    },
+    "productUpdates": {
+      "breadcrumb": "Nuashonruithe Táirge",
+      "eyebrow": "Log athruithe",
+      "titlePrefix": "Táirge",
+      "titleHighlight": "Nuashonruithe",
+      "subtitle": "Na gnéithe, feabhsuithe agus réitigh is déanaí ar fud ardán sweetwine.",
+      "empty": "Níl aon nuashonruithe fós. Seiceáil ar ais go luath."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Do fhorbróirí",
+    "titlePrefix": "Tóg le",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Tabhair compánaigh AI pearsantaithe isteach i do tháirge féin. Faigh rochtain ar chomhrá, íomhá, guth agus cumais tógála carachtar trí API atá éasca le húsáid ag forbróirí.",
+    "capabilities": {
+      "title": "Cad is féidir leat a thógáil",
+      "items": [
+        {
+          "title": "Comhrá comhráiteach",
+          "description": "Cuir comhráite AI saibhir i bpearsantacht agus i gcomhthéacs le API teachtaireachta simplí."
+        },
+        {
+          "title": "Giniúint íomhá",
+          "description": "Gin íomhánna agus radhairc carachtar ar bhranda ó phróifílí téacs go ríomhchláraithe."
+        },
+        {
+          "title": "Guth",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Cruthú carachtar",
+          "description": "Sainigh agus bainistigh compánaigh, pearsantachtaí agus cuimhne tríd an API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Iarr rochtain API",
+      "description": "Inis dúinn faoi do thionscadal agus cad ba mhaith leat a thógáil. Gheobhaidh ár bhfoireann forbróirí ar ais chugat le céimeanna eile.",
+      "nameLabel": "D’ainm",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Ríomhphost oibre",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Cuideachta / tionscadal",
+      "companyPlaceholder": "Ainm cuideachta nó tionscadail",
+      "websiteLabel": "Suíomh gréasáin nó URL aip",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Cineál comhtháthaithe",
+      "integrationTypePlaceholder": "Roghnaigh cineál comhtháthaithe",
+      "integrationTypeOptions": [
+        {
+          "value": "Comhrá / Teachtaireachtaí",
+          "label": "Comhrá / Teachtaireachtaí"
+        },
+        {
+          "value": "Giniúint íomhá",
+          "label": "Giniúint íomhá"
+        },
+        {
+          "value": "Guth",
+          "label": "Guth"
+        },
+        {
+          "value": "Cruthú carachtar",
+          "label": "Cruthú carachtar"
+        },
+        {
+          "value": "Eile",
+          "label": "Eile"
+        }
+      ],
+      "volumeLabel": "Méid míosúil réamh-mheasta",
+      "volumePlaceholder": "Roghnaigh méid réamh-mheasta",
+      "volumeOptions": [
+        {
+          "value": "Níos lú ná 10k",
+          "label": "Níos lú ná 10k iarratas"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k iarratas"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M iarratas"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ iarratas"
+        }
+      ],
+      "timelineLabel": "Amlíne",
+      "timelinePlaceholder": "Roghnaigh amlíne",
+      "timelineOptions": [
+        {
+          "value": "Ag fiosrú amháin",
+          "label": "Ag fiosrú amháin"
+        },
+        {
+          "value": "Faoi 1 mhí",
+          "label": "Faoi 1 mhí"
+        },
+        {
+          "value": "1-3 mhí",
+          "label": "1-3 mhí"
+        },
+        {
+          "value": "3+ mí",
+          "label": "3+ mí"
+        }
+      ],
+      "messageLabel": "Inis dúinn faoi do chás úsáide",
+      "messagePlaceholder": "Céard atá á thógáil agat, agus conas a bheartaíonn tú an API a úsáid?",
+      "submit": "Iarr rochtain API",
+      "submitting": "Á chur isteach...",
+      "termsNote": "Trí chur isteach, aontaíonn tú go ndéanfar teagmháil leat faoi d’fhiosrú. Ní roinnimid do shonraí riamh.",
+      "success": "Go raibh maith agat! Tá d’iarratas rochtana API seolta.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail eile as."
+    },
+    "faq": {
+      "title": "FAQ Forbróra",
+      "items": [
+        {
+          "question": "Conas a fhaighim rochtain API?",
+          "answer": "Líon an fhoirm iarratais thuas le do chás úsáide. Déanann ár bhfoireann forbróra athbhreithniú ar gach iarratas agus leanfaidh siad ar aghaidh le sonraí rochtana agus doiciméadú."
+        },
+        {
+          "question": "Conas a oibríonn fíordheimhniú?",
+          "answer": "Déantar fíordheimhniú ar iarratais API le heochair rúnda API a sheoltar i gceanntásca an iarratais. Is féidir leat do chuid eochracha a bhainistiú agus a rothlú nuair a bheidh tú ar bord."
+        },
+        {
+          "question": "An bhfuil teorannú ráta ann?",
+          "answer": "Tá. Braitheann na teorainneacha ar do phlean agus ar an méid a bhfuil súil agat leis. Inis dúinn faoin trácht a mheasann tú sa bhfoirm ionas gur féidir linn an leibhéal ceart a mholadh."
+        },
+        {
+          "question": "Céard a chosnaíonn sé?"
+        },
+        {
+          "question": "Cén cumais atá ar fáil?",
+          "answer": "Comhrá, giniúint íomhá, guth, agus cruthú carachtar. Inis dúinn cé acu atá uait agus cabhróimid leat na críochphointí ábhartha a fháil."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ceist theicniúil agat?",
+      "description": "Déan teagmháil lenár bhfoireann forbróra ag"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "Clónanna Fíora AI",
+    "eyebrow": "Do chruthaitheoirí & gníomhaireachtaí",
+    "heroTitleLead": "Cruthaímid,",
+    "heroTitleHighlight": "Déanann tú brabús.",
+    "heroSubtitle": "Tógaimid do chlón AI. Déanann tú brabús agus clón AI ag obair timpeall an chloig — ag comhrá le lucht leanúna agus ag seoladh ábhair duit.",
+    "calculator": {
+      "title": "Cé mhéad a d’fhéadfá a thuilleamh?",
+      "subtitle": "Roghnaigh méid do lucht féachana agus socraigh do phraghas — féach ar do thuilleamh measta láithreach.",
+      "tierLabel": "Méid do lucht féachana",
+      "tiers": {
+        "small": {
+          "name": "Beag"
+        },
+        "medium": {
+          "name": "Measartha"
+        },
+        "large": {
+          "name": "Mór"
+        }
+      },
+      "priceLabel": "Do phraghas díghlasála",
+      "promoLabel": "Déanfaidh mé sweetwine a chur chun cinn",
+      "breakdown": {
+        "title": "Do thuilleamh measta",
+        "perMonth": "in aghaidh na míosa",
+        "perYear": "In aghaidh na bliana"
+      },
+      "disclaimer": "Tá meastacháin tuillimh bunaithe ar mhúnla roinnte ioncaim sweetwine agus gníomhaíocht tipiciúil. Athraíonn tuilleamh iarbhír de réir lucht féachana, cáilíocht ábhair, rannpháirtíocht agus éileamh."
+    },
+    "offer": {
+      "title": "Cad atá ann duit",
+      "items": [
+        {
+          "title": "Tuilleamh agus tú i do chodladh",
+          "description": "Déanann do chlón lucht leanúna a iompú ina n-ioncam 24/7 — ag comhrá, ag díol, agus gan stop a chur riamh."
+        },
+        {
+          "title": "Costas nialasach, buntáiste glan",
+          "description": "Tógaimid, traenáilimid agus rithimid gach rud ar ár gcostas féin. Cuireann tú sruth ioncaim nua leis gan méar a ardú."
+        },
+        {
+          "title": "10x d’ábhar",
+          "description": "Grianghraif agus físeáin gan teorainn ar éileamh — méadaigh do aschur gan níos mó seisiúin, eagarthóireacht nó dóiteán."
+        },
+        {
+          "title": "I gcónaí faoi smacht"
+        }
+      ]
+    },
+    "how": {
+      "title": "Conas a oibríonn sé",
+      "steps": [
+        {
+          "title": "Cláraigh"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Gabhann speisialtóir sweetwine do chuma, do ghuth agus do phearsantacht ionas go mbraitheann do chlón fíor dhúchasach."
+        },
+        {
+          "title": "Tógaimid & traenáilimid",
+          "description": "Déanann ár bhfoireann do chlón AI a tháirgeadh agus a thraenáil go hiomlán ar ár gcostas féin — gan obair uaitse."
+        },
+        {
+          "title": "Beo & tuilleamh",
+          "description": "Tosaíonn do chlón ag comhrá agus ag díol timpeall an chloig, agus bailíonn tú do sciar ioncaim."
+        }
+      ]
+    },
+    "form": {
+      "title": "Déan iarratas chun do chlón AI a chruthú",
+      "description": "Inis dúinn fút féin agus faoi do lucht féachana. Déanann ár bhfoireann comhpháirtíochtaí athbhreithniú ar gach iarratas agus leanfaidh siad ar aghaidh leis na céimeanna eile.",
+      "nameLabel": "D’ainm",
+      "namePlaceholder": "D’ainm nó d’ainm stáitse",
+      "emailLabel": "Ríomhphost",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Gníomhaireacht nó stiúideo",
+      "companyPlaceholder": "Ainm na gníomhaireachta (fág bán má tá tú neamhspleách)",
+      "roleLabel": "Is mise",
+      "rolePlaceholder": "Roghnaigh cé tú féin",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Naisc láithreáin & sóisialta",
+      "linksPlaceholder": "Instagram, X, OnlyFans, srl.",
+      "modelCountLabel": "Líon na samhlacha a léiríonn tú",
+      "modelCountPlaceholder": "m.sh. mise amháin, nó 5",
+      "audienceSizeLabel": "Méid an lucht féachana",
+      "audienceSizePlaceholder": "Roghnaigh do líon iomlán leanúna",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Faoi 10k leanúna"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k leanúna"
+        },
+        {
+          "label": "100k-500k leanaithe",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M leanaithe"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ leanaithe"
+        }
+      ],
+      "contentPrefLabel": "Roghanna ábhair",
+      "contentPrefPlaceholder": "Roghnaigh cineál ábhair",
+      "contentPrefOptions": [
+        {
+          "value": "SFW amháin",
+          "label": "SFW amháin"
+        },
+        {
+          "value": "Níl mé cinnte fós",
+          "label": "Níl mé cinnte fós"
+        }
+      ],
+      "countryLabel": "Tír / réigiún",
+      "countryPlaceholder": "Cén áit a bhfuil tú lonnaithe?",
+      "messageLabel": "Inis dúinn fút féin agus faoi do lucht éisteachta",
+      "messagePlaceholder": "Roinn aon rud a chabhróidh linn tuiscint a fháil ar do lucht éisteachta, ábhar agus an rud atá á lorg agat.",
+      "openButton": "Déan iarratas anois",
+      "submit": "Cuir isteach an t-iarratas",
+      "submitting": "Á chur isteach...",
+      "termsNote": "Trí chur isteach, deimhníonn tú go bhfuil tú 18 nó níos sine agus go n-aontaíonn tú teagmháil a dhéanamh leat faoi d'iarratas. Ní roinnimid do shonraí riamh.",
+      "success": "Go raibh maith agat! Tá d'iarratas seolta. Beimid i dteagmháil go luath.",
+      "error": "Chuaigh rud éigin mícheart. Bain triail eile as."
+    },
+    "cta": {
+      "title": "An bhfuil ceisteanna agat sula ndéanann tú iarratas?",
+      "description": "Labhair go díreach lenár bhfoireann comhpháirtíochtaí cruthaitheoirí — de ghnáth freagraímid laistigh de lá.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Ríomhphost"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Léarscáil an tSuímh",
+    "eyebrow": "Léarscáil an tSuímh",
+    "titlePrefix": "Brabhsáil",
+    "titleHighlight": "gach rud",
+    "subtitle": "Gach leathanach tábhachtach ar sweetwine in aon áit amháin. Ag lorg an léarscáil XML?",
+    "xmlLink": "Féach ar an léarscáil XML",
+    "sections": {
+      "product": "Táirge",
+      "features": "Gnéithe",
+      "company": "Cuideachta",
+      "resources": "Acmhainní",
+      "legal": "Dlí"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "Faigh an Aip",
+      "dismiss": "Dún"
+    },
+    "guide": {
+      "title": "Suiteáil sweetwine",
+      "subtitle": "Cuir sweetwine le do scáileán baile chun taithí níos tapúla, lánscáileáin agus cosúil le haipe a fháil.",
+      "iosTitle": "Ar iPhone & iPad (Safari)",
+      "iosStep1": "Tapáil an cnaipe Comhroinn sa bharra uirlisí",
+      "iosStep2": "Roghnaigh \"Cuir le Scáileán Baile\"",
+      "iosStep3": "Tapáil \"Cuir\" chun críochnú",
+      "androidTitle": "Ar Android (Chrome)",
+      "androidStep1": "Tapáil an roghchlár (trí phonc)",
+      "androidStep2": "Roghnaigh \"Suiteáil aip\" nó \"Cuir le scáileán baile\"",
+      "androidStep3": "Tapáil \"Suiteáil\" chun críochnú"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "Suiteáil sweetwine ar do ghuthán chun taithí níos tapúla agus lánscáileáin a fháil díreach ó do scáileán baile.",
+      "cta": "Suiteáil aip"
+    }
+  },
+  "language": {
+    "selectTitle": "Roghnaigh do theanga",
+    "searchPlaceholder": "Cuardaigh teangacha",
+    "noResults": "Níor aimsíodh aon teangacha",
+    "regions": {
+      "americas": "Mheiriceá",
+      "europe": "An Eoraip",
+      "middleEast": "An Meánoirthear",
+      "asiaPacific": "Áise an Aigéin Chiúin",
+      "africa": "An Afraic"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Rólghlacadh",
+    "newRoleplay": "Rólghlacadh Nua",
+    "tabRoleplay": "Rólghlacadh",
+    "emptyTitle": "Gan aon rólghlacadh fós",
+    "noMessagesYet": "Gan aon teachtaireachtaí fós",
+    "deleteRoleplay": "Scrios rólghlacadh",
+    "deleteError": "Níorbh fhéidir an rólghlacadh a scriosadh.",
+    "backToLobby": "Ar ais go dtí na rólghlacadh",
+    "creating": "Ag socrú do rólghlacadh...",
+    "createError": "Níorbh fhéidir an rólghlacadh a chruthú. Bain triail eile as.",
+    "steps": {
+      "companion": {
+        "title": "Roghnaigh carachtar",
+        "subtitle": "Roghnaigh cé leis ar mhaith leat rólghlacadh"
+      },
+      "location": {
+        "title": "Roghnaigh suíomh",
+        "subtitle": "Cá mbíonn do radharc ar siúl?"
+      },
+      "tone": {
+        "title": "Socraigh an ton",
+        "subtitle": "Conas ba chóir don radharc a bheith?"
+      },
+      "scene": {
+        "title": "Socraigh an radharc",
+        "subtitle": "Déan cur síos ar an gcaoi a dtosaíonn an radharc"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Buaileann muid isteach a chéile sa bháisteach agus téann muid faoin díon céanna.",
+      "staring_grin": "Feiceann tú mé ag stánadh ort ó thaobh eile an tseomra agus tagann tú anall le gáire.",
+      "power_out": "Múchann an chumhacht agus fágann muid ina n-aonar sa dorchadas, ag gáire go neirbhíseach.",
+      "spilled_drink": "Tá mé déanach agus doirtim mo dheoch ort de thimpiste.",
+      "stayed_behind": "Is sinne an bheirt a d'fhan ina ndiaidh tar éis do chách imeacht.",
+      "music_slows": "Buaileann ár súile le chéile díreach agus an ceol ag moilliú.",
+      "storm_inside": "Cuireann stoirm thobann isteach sinn gan ach am chun caint.",
+      "seat_taken": "Suíonn tú síos in aice liom agus fiafraíonn tú an bhfuil an suíochán tógtha."
+    },
+    "locations": {
+      "home": "Baile",
+      "cafe": "Caifé",
+      "restaurant": "Bialann",
+      "bar": "Beár",
+      "library": "Leabharlann",
+      "bookstore": "Siopa leabhar",
+      "park": "Páirc",
+      "garden": "Gairdín",
+      "nightclub": "Club oíche",
+      "casino": "Ceasaíneo",
+      "concert": "Ceolchoirm",
+      "theater": "Amharclann",
+      "cinema": "Pictiúrlann",
+      "carnival": "Carnabhal",
+      "stadium": "Staidiam",
+      "beach": "Trá",
+      "pool": "Linn snámha",
+      "spa": "Spa",
+      "hotel": "Óstán",
+      "rooftop": "Díon",
+      "yacht": "Luamh",
+      "cabin": "Bothán",
+      "hotspring": "Tobar Te",
+      "skilodge": "Lóiste Sciála",
+      "campsite": "Láthair Champála",
+      "car": "Carr",
+      "train": "Traein",
+      "airport": "Aerfort",
+      "cruise": "Cruise",
+      "office": "Oifig",
+      "gym": "Seomra Aclaíochta",
+      "university": "Ollscoil",
+      "mall": "Ionad Siopadóireachta",
+      "hospital": "Ospidéal",
+      "museum": "Músaem"
+    },
+    "tones": {
+      "fun": {
+        "title": "Spraoi",
+        "desc": "Éadrom, spraíúil agus éasca."
+      },
+      "romantic": {
+        "title": "Rómánsach",
+        "desc": "Tairisceanta, geanúil agus croíúil."
+      },
+      "flirty": {
+        "title": "Flirty",
+        "desc": "Spraíúil, spraíúil agus lán draíochta."
+      },
+      "mysterious": {
+        "title": "Diamhrach",
+        "desc": "Suimiúil, fionraíoch agus lán rún."
+      },
+      "spooky": {
+        "title": "Uaigneach",
+        "desc": "Uaigneach, teann agus beagán scanraithe."
+      },
+      "action": {
+        "title": "Gníomh",
+        "desc": "Dian, eachtrúil agus tapa."
+      },
+      "dramatic": {
+        "title": "Drámatúil",
+        "desc": "Mothúchánach, dian agus lán teannais."
+      },
+      "cozy": {
+        "title": "Cluthar",
+        "desc": "Te, compordach agus suaimhneach."
+      }
+    },
+    "sceneLabel": "Oscailt an radhairc",
+    "scenarioTab": "Cás",
+    "generatingScene": "Ag tabhairt an radhairc beo...",
+    "locationLabel": "Áit",
+    "toneLabel": "Tóin",
+    "scenePlaceholder": "m.sh. Buaileann muid le chéile sa bháisteach agus téann muid faoin díon céanna...",
+    "sceneHint": "Déan cur síos ar conas a thosaíonn an radharc amháin — cá bhfuil tú agus cad atá ag tarlú ag an tús. Ná athraigh pearsantacht an charachtair, do chaidreamh, nó athscríobh an scéal ar fad.",
+    "sceneError": "Déan cur síos ar conas a thosaíonn an radharc.",
+    "reviewTitle": "Athbhreithniú ar na roghanna",
+    "characterLabel": "Carachtar",
+    "randomize": "Randamach",
+    "sceneGuidanceTitle": "Treoir oscailte an radhairc",
+    "sceneGuide1": "Ná athraigh pearsantacht an charachtair nó do chaidreamh.",
+    "sceneGuide2": "Coinnigh an t-oscailt radhairc toilteanach agus measúil.",
+    "sceneGuide3": "Déan cur síos ar conas a thosaíonn an radharc amháin, ní ar an scéal ar fad.",
+    "next": "Ar Aghaidh",
+    "create": "Tosaigh Rólghníomhaíocht",
+    "creatingMessages": [
+      "Ag socrú an radhairc...",
+      "Ag maolú na soilse go beacht...",
+      "Ag péinteáil do thimpeallacht...",
+      "Ag cur do chompánach i gcarachtar...",
+      "Ag cur na mionsonraí deiridh leis...",
+      "Beagnach réidh..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Scríobh teachtaireacht...",
+    "send": "Seol",
+    "typing": "ag clóscríobh...",
+    "read": "Léite",
+    "resetChat": "Athshocraigh Comhrá",
+    "deleteChat": "Scrios Comhrá",
+    "settings": "Socruithe",
+    "chatSettings": "Socruithe Comhrá",
+    "roleplayMode": "Mód rólghlactha",
+    "roleplayModeDescription": "Nuair atá sé ar siúl, déanann na compánaigh gothaí agus gníomhartha i *réiltíní* le haghaidh rólghlactha tumtha. Nuair atá sé as, déanann siad comhrá nádúrtha, cosúil le téacsáil fíor.",
+    "roleplayModeError": "Níorbh fhéidir mód rólghlactha a nuashonrú",
+    "roleplayCtaDescription": "Oscail an taithí tiomnaithe rólghlactha, ina ndéanann an compánach radhairc agus scéalta leat.",
+    "goToRoleplay": "Téigh chuig Rólghlacadh",
+    "confirmReset": "An bhfuil tú cinnte gur mian leat an comhrá seo a athshocrú? Scriosfar gach teachtaireacht.",
+    "confirmDelete": "An bhfuil tú cinnte gur mian leat an comhrá seo a scriosadh?",
+    "resetSuccess": "D’éirigh le hathshocrú an chomhrá",
+    "deleteMemory": "Scrios cuimhne",
+    "confirmDeleteMemory": "An bhfuil tú cinnte gur mian leat cuimhní fadtéarmacha an charachtair seo a scriosadh? Fanfaidh teachtaireachtaí comhrá, ach déanfaidh an carachtar dearmad ar fhíricí roimhe seo ag an gcéad fhreagra eile.",
+    "deleteMemorySuccess": "Cuimhne scriosta",
+    "deleteSuccess": "D’éirigh le scrios an chomhrá",
+    "sendError": "Theip ar sheoladh na teachtaireachta",
+    "noChats": "Gan comhráite fós",
+    "noChatsDesc": "Tosaigh comhrá le carachtar chun do chomhráite a fheiceáil anseo",
+    "lastMessage": "Teachtaireacht dheireanach",
+    "messageCount": "{count} teachtaireacht",
+    "uploadImage": "Uaslódáil íomhá",
+    "uploadVideo": "Uaslódáil físeán (ag teacht go luath)",
+    "yourConversations": "Do Chomhráite",
+    "continueChattingDesc": "Lean ar aghaidh ag comhrá le do charachtair AI",
+    "newChat": "Comhrá Nua",
+    "noConversationsYet": "Gan comhráite fós",
+    "startChattingDesc": "Tosaigh ag comhrá le carachtar chun do chomhráite a fheiceáil anseo",
+    "browseCharacters": "Brabhsáil Carachtair",
+    "createCustomCharacter": "Cruthaigh Carachtar Saincheaptha",
+    "imageTooLarge": "Tá an íomhá ró-mhór (uasmhéid 5MB)",
+    "generateImageTitle": "Gin Íomhá le {name}",
+    "imagePromptLabel": "Déan cur síos ar an íomhá",
+    "imagePromptPlaceholder": "m.sh., ag an trá i ngúna gorm, ag ól caife i gcaifé, ag siúl i bpáirc...",
+    "imagePromptHint": "Ginfidh an AI íomhá de {name} bunaithe ar do chur síos.",
+    "referenceImageLabel": "Do Ghrianghraf (roghnach)",
+    "referenceImageHint": "Uaslódáil do ghrianghraf le cur san áireamh sa radharc le {name}. Gan grianghraf, ní ghinfear ach {name}.",
+    "uploadReferenceImage": "Uaslódáil do ghrianghraf",
+    "uploadReferenceImageDesc": "Beidh sibh beirt le feiceáil san íomhá ghinte",
+    "referenceImageSelected": "Beidh tú féin agus {name} le feiceáil le chéile",
+    "generating": "Ag giniúint...",
+    "generate": "Giniúint",
+    "generateImage": "Giniúint Íomhá",
+    "imageGenerated": "D’éirigh leis an íomhá a ghiniúint",
+    "generateError": "Theip ar ghiniúint na híomhá",
+    "contentBlockedReply": "Tá brón orm, ach ní féidir liom an íomhá sin a chruthú. Cuireadh bac air ag scagairí sábháilteachta. Bain triail as cur síos eile! 💕",
+    "generateVideoTitle": "Giniúint Físe le {name}",
+    "generateVideo": "Giniúint Físe",
+    "videoPromptLabel": "Déan cur síos ar an ngníomh",
+    "videoPromptPlaceholder": "m.sh., ag damhsa, ag croitheadh, ag séideadh póg...",
+    "videoPromptHint": "Ginfidh an AI físeán de {name} ag déanamh an ghnímh a bhfuil cur síos air.",
+    "generatingImage": "Ag giniúint íomhá...",
+    "generatingVideo": "Ag giniúint físe... (3-5 nóim)",
+    "viewPhoto": "Féach ar an bhFótagraf",
+    "viewVideo": "Féach ar an bhFíseán",
+    "selectVideoOption": "Roghnaigh rogha físe thuas",
+    "contentPolicyViolation": "Níorbh fhéidir an teachtaireacht seo a sheoladh. Coinnigh comhráite measúil.",
+    "functionCallBetaHint": "💡 Tá an ghné seo i mbéite — chun meáin a ghiniúint go hiontaofa gan srianta, úsáid na cnaipí grianghraf/físe sa bharra uirlisí ina ionad.",
+    "repliedToStory": "D’fhreagair tú scéal",
+    "repliedToStoryLiked": "Thaitin & d’fhreagair tú scéal",
+    "storyNoLongerAvailable": "Níl an scéal ar fáil a thuilleadh",
+    "rateLimitExceeded": "An iomarca iarratas. Fan nóiméad agus bain triail eile as.",
+    "profileTab": "Próifíl",
+    "galleryTab": "Gailearaí",
+    "giftsTab": "Bronntanais",
+    "tts": {
+      "play": "Seinn guth",
+      "stop": "Stop",
+      "generating": "Ag giniúint guth…",
+      "error": "Níorbh fhéidir an fuaime a sheinm"
+    }
+  },
+  "gallery": {
+    "all": "Uile",
+    "images": "Íomhánna",
+    "videos": "Físeáin",
+    "empty": "Gan aon mheáin fós"
+  },
+  "gifts": {
+    "sendAGift": "Seol Bronntanas",
+    "catalogSubtitle": "Roghnaigh bronntanas le seoladh chuig {name}",
+    "browseGifts": "Brabhsáil bronntanais",
+    "noneSent": "Níor seoladh aon bhronntanas fós",
+    "confirmTitle": "Deimhnigh bronntanas",
+    "forCompanion": "Do {name}",
+    "optionalMessage": "Cuir teachtaireacht leis (roghnach)",
+    "optionalMessagePlaceholder": "Scríobh rud éigin milis...",
+    "sendGiftFor": "Seol",
+    "giftSent": "Sheol tú bronntanas",
+    "sendError": "Theip ar sheoladh an bhronntanais"
+  },
+  "stories": {
+    "replyPlaceholder": "Freagair {name}...",
+    "like": "Is maith liom",
+    "send": "Seol",
+    "close": "Dún",
+    "previous": "Scéal roimhe",
+    "next": "Scéal eile",
+    "pause": "Cuir ar sos",
+    "play": "Seinn",
+    "mute": "Balbhaigh",
+    "unmute": "Díbhalbhaigh",
+    "openStory": "Oscail scéal {name}"
+  },
+  "generate": {
+    "title": "Gin Íomhá",
+    "description": "Cruthaigh íomhánna iontacha le do charachtair AI",
+    "selectCompanion": "Roghnaigh carachtar",
+    "promptPlaceholder": "Déan cur síos ar an íomhá is mian leat a ghiniúint... m.sh., ag an trá, i gúna dearg",
+    "promptLabel": "Cur síos ar an Íomhá",
+    "promptRequired": "Iontráil cur síos le do thoil",
+    "generateButton": "Gin Íomhá",
+    "generating": "Á ghiniúint...",
+    "creatingImage": "Á chruthú d’íomhá...",
+    "pleaseWait": "D’fhéadfadh sé seo 10-30 soicind a thógáil",
+    "noCompanionSelected": "Roghnaigh carachtar ar dtús le do thoil",
+    "emptyGallery": "Níl aon íomhánna ginte fós. Roghnaigh carachtar agus déan cur síos ar d’íomhá!",
+    "sessionGallery": "Íomhánna Ginte",
+    "regenerate": "Athghin",
+    "regenerating": "Á athghiniúint...",
+    "animate": "Beoigh",
+    "animateReference": "Beidh an íomhá seo mar an chéad fhráma den fhíseán.",
+    "filterMyAI": "Mo AI",
+    "filterAll": "Gach",
+    "filterGirls": "Mná",
+    "filterAnime": "Anime",
+    "filterGuys": "Fir",
+    "imageGenerationFailed": "Theip ar ghiniúint na híomhá. B'fhéidir nach gcomhlíonann an íomhá na riachtanais nó go bhfuil an cur síos ró-chasta. Bain triail as leid níos simplí.",
+    "noImageData": "Níor gineadh aon íomhá. Bain triail as cur síos eile.",
+    "generationFailed": "Theip ar an nginiúint. Bain triail as ar ball nó le leid eile.",
+    "random": "Randamach",
+    "custom": "Saincheaptha",
+    "settings": "Socruithe",
+    "videoTitle": "Gineadh Físeán",
+    "videoDescription": "Cruthaigh físeáin iontacha le do charachtair AI",
+    "videoPromptLabel": "Cur síos ar an bhfíseán",
+    "videoPromptPlaceholder": "Déan cur síos ar an ngníomh atá uait... m.sh., ag damhsa, ag croitheadh, ag miongháire",
+    "generateVideoButton": "Gineadh Físeán",
+    "generatingVideo": "Físeán á ghiniúint...",
+    "creatingVideo": "Do fhíseán á chruthú...",
+    "videoWait": "D'fhéadfadh sé seo 1-5 nóiméad a thógáil",
+    "emptyVideoGallery": "Níl aon fhíseáin ginte fós. Roghnaigh carachtar agus déan cur síos ar an ngníomh!",
+    "sessionVideoGallery": "Físeáin Ginte",
+    "videoGenerated": "Físeán ginte go rathúil!",
+    "videoGenerationFailed": "Theip ar ghiniúint an fhíseáin. Bain triail as arís.",
+    "duration": "Fad",
+    "shortVideo": "Gearr",
+    "longVideo": "Fada",
+    "seconds": "soicind",
+    "audio": "Fuaim",
+    "renderingVideo": "Físeán á dhéanamh…",
+    "renderingVideoHint": "(tógann sé suas le 1 nóiméad)",
+    "rateLimitExceeded": "An iomarca iarratas. Fan nóiméad agus bain triail as arís.",
+    "chooseCharacter": "Roghnaigh carachtar",
+    "selectButton": "Roghnaigh",
+    "noCustomCompanions": "Níl aon charachtair AI cruthaithe agat fós.",
+    "numberOfImages": "Líon na n-íomhánna",
+    "numberOfVideos": "Líon na bhfíseán",
+    "freeTrial": "Triail Saor in Aisce",
+    "changeCharacter": "Athraigh carachtar",
+    "randomize": "Randamaigh an leid",
+    "aiVideo": "Físeán AI",
+    "download": "Íoslódáil",
+    "seriesHelper": "Anseo is féidir leat do thorthaí a fháil. Is féidir leat an leathanach a fhágáil nó sraith nua a thosú fad is atá siad seo ag críochnú.",
+    "suggestions": {
+      "title": "Moltaí",
+      "categories": {
+        "outfit": "Éadaí",
+        "action": "Gníomh",
+        "pose": "Stadas",
+        "accessories": "Cúlpháirtí",
+        "scene": "Radharc"
+      },
+      "items": {
+        "bikini": "Bicíní",
+        "skirt": "Sciorta",
+        "lingerie": "Éadaí oíche",
+        "crop_top": "Barr gearrtha",
+        "leather": "Leathar",
+        "mini_skirt": "Mionsciorta",
+        "satin_robe": "Róba satin",
+        "jeans": "Jeans",
+        "summer_dress": "Gúna samhraidh",
+        "sportswear": "Éadaí spóirt",
+        "selfie": "Selfie",
+        "walking": "Ag siúl",
+        "dancing": "Ag damhsa",
+        "stretching": "Ag síneadh",
+        "lying_down": "Ag luí síos",
+        "leaning": "Ag claonadh",
+        "blowing_kiss": "Ag séideadh póg",
+        "drinking_coffee": "Ag ól caife",
+        "hands_on_hips": "Láimhe ar na cromáin",
+        "over_shoulder": "Thar ghualainn",
+        "side_profile": "Próifíl thaobh",
+        "arms_crossed": "Arma trasna",
+        "kneeling": "Ag glúine",
+        "squatting": "Ag squatáil",
+        "back_view": "Amharc ón gcúl",
+        "sitting": "Ag suí",
+        "necklace": "Muince",
+        "earrings": "Cluaise",
+        "glasses": "Spéaclaí",
+        "choker": "Choker",
+        "hat": "Hata",
+        "sunglasses": "Spéaclaí gréine",
+        "garden": "Gairdín",
+        "beach": "Trá",
+        "bedroom": "Seomra leapa",
+        "gym": "Seomra aclaíochta",
+        "bar": "Beár",
+        "kitchen": "Cistin",
+        "restaurant": "Bialann",
+        "balcony": "Balcóin",
+        "city_street": "Sráid cathrach",
+        "pool": "Coiscéim linn"
+      },
+      "fragments": {
+        "bikini": "ag caitheamh bikini",
+        "skirt": "ag caitheamh sciorta",
+        "lingerie": "ag caitheamh lingerie",
+        "crop_top": "ag caitheamh barr gearr",
+        "leather": "ag caitheamh culaith leathair",
+        "mini_skirt": "ag caitheamh mionsciorta",
+        "satin_robe": "ag caitheamh róba satin",
+        "jeans": "ag caitheamh jeans",
+        "summer_dress": "ag caitheamh gúna samhraidh",
+        "sportswear": "ag caitheamh éadaí spóirt daingean",
+        "selfie": "ag tógáil selfie",
+        "walking": "ag siúl",
+        "dancing": "ag damhsa",
+        "stretching": "ag síneadh",
+        "lying_down": "ina luí",
+        "leaning": "ag claonadh in aghaidh balla",
+        "blowing_kiss": "ag séideadh póg",
+        "drinking_coffee": "ag ól cupán caife",
+        "hands_on_hips": "le lámha ar na cromáin",
+        "over_shoulder": "ag breathnú thar a gualainn",
+        "side_profile": "staidiúir phróifíle",
+        "arms_crossed": "le lámha fillte",
+        "kneeling": "staidiúir ar a glúine",
+        "squatting": "staidiúir squatting",
+        "back_view": "amharc ón gcúl",
+        "sitting": "ina suí",
+        "necklace": "ag caitheamh muince",
+        "earrings": "ag caitheamh cluaise",
+        "glasses": "ag caitheamh spéaclaí",
+        "choker": "ag caitheamh choker",
+        "hat": "ag caitheamh hata",
+        "sunglasses": "ag caitheamh spéaclaí gréine",
+        "garden": "i ngairdín",
+        "beach": "ag an trá",
+        "bedroom": "i seomra leapa",
+        "gym": "ag an seomra aclaíochta",
+        "bar": "i mbeár",
+        "kitchen": "sa chistin",
+        "restaurant": "i mbialann",
+        "balcony": "ar bhalcóin",
+        "city_street": "ar shráid cathrach",
+        "pool": "cois na linne"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Taispeáin selfie díot"
+        },
+        "posing": {
+          "name": "Ag seasamh",
+          "uiPrompt": "Taispeáin tú ag seasamh"
+        },
+        "sitting": {
+          "name": "Ag suí",
+          "uiPrompt": "Taispeáin tú ag suí síos"
+        },
+        "waving": {
+          "name": "Ag croitheadh",
+          "uiPrompt": "Taispeáin tú ag croitheadh"
+        },
+        "dancing": {
+          "name": "Ag damhsa",
+          "uiPrompt": "Taispeáin tú ag damhsa"
+        },
+        "reading": {
+          "name": "Ag léamh",
+          "uiPrompt": "Taispeáin tú ag léamh"
+        },
+        "smiling": {
+          "name": "Ag miongháire",
+          "uiPrompt": "Taispeáin dom tú ag miongháire"
+        },
+        "walking": {
+          "name": "Ag siúl",
+          "uiPrompt": "Taispeáin dom tú ag siúl"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Féinphictiúr",
+          "uiPrompt": "Taispeáin dom féinphictiúr físe"
+        },
+        "posing": {
+          "name": "Ag seasamh",
+          "uiPrompt": "Taispeáin dom físeán díot ag seasamh"
+        },
+        "sitting": {
+          "name": "Ag suí",
+          "uiPrompt": "Taispeáin dom físeán díot ag suí síos"
+        },
+        "waving": {
+          "name": "Ag croitheadh",
+          "uiPrompt": "Taispeáin dom físeán díot ag croitheadh"
+        },
+        "dancing": {
+          "name": "Ag damhsa",
+          "uiPrompt": "Taispeáin dom físeán díot ag damhsa"
+        },
+        "reading": {
+          "name": "Ag léamh",
+          "uiPrompt": "Taispeáin dom físeán díot ag léamh"
+        },
+        "smiling": {
+          "name": "Ag miongháire",
+          "uiPrompt": "Taispeáin dom físeán díot ag miongháire"
+        },
+        "walking": {
+          "name": "Ag siúl",
+          "uiPrompt": "Taispeáin dom físeán díot ag siúl"
+        }
+      }
+    },
+    "writeYourOwn": "nó scríobh do phrómpt féin",
+    "presetSelected": "Réamhshocrú roghnaithe",
+    "effects": {
+      "categories": {
+        "solo": "Aonair & Tease",
+        "oral": "Béil",
+        "positions": "Seasaimh",
+        "pov": "POV",
+        "extra": "Breise",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Tuáille Folctha"
+        },
+        "bikini": {
+          "name": "Bicíní"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Ceangal"
+        },
+        "breast_milk": {
+          "name": "Bainne Cíche"
+        },
+        "bunny_suit": {
+          "name": "Culaith Coinín"
+        },
+        "chain_leash": {
+          "name": "Srian Slabhrach"
+        },
+        "chinese_dress": {
+          "name": "Gúna Síneach"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Saincheaptha"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Méaráil"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Éadaí Scoile"
+        },
+        "legsup": {
+          "name": "Cosa in Airde"
+        },
+        "leopard_bikini": {
+          "name": "Bicíní Liopard"
+        },
+        "lingerie": {
+          "name": "Éadaí Intí"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Taobh Amharc Misinéireachta"
+        },
+        "remix_blowjob": {
+          "name": "Remix Blowjob"
+        },
+        "remix_cowgirl": {
+          "name": "Remix Cowgirl"
+        },
+        "remix_doggystyle": {
+          "name": "Remix Doggystyle"
+        },
+        "remix_dress": {
+          "name": "Remix Dress"
+        },
+        "remix_hold_dick": {
+          "name": "Remix Hold Dick"
+        },
+        "remix_kiss": {
+          "name": "Remix Kiss"
+        },
+        "remix_pronebone": {
+          "name": "Remix Pronebone"
+        },
+        "remix_suck": {
+          "name": "Remix Suck"
+        },
+        "remix_wear": {
+          "name": "Remix Wear"
+        },
+        "remix_yoga": {
+          "name": "Remix Yoga"
+        },
+        "ride_on_dildo": {
+          "name": "Marcaíocht ar Dildo"
+        },
+        "sipping_condoms": {
+          "name": "Ag Sipáil Coiscíní"
+        },
+        "squatting_cowgirl": {
+          "name": "Cowgirl Ag Squatting"
+        },
+        "tattoo": {
+          "name": "Tatú"
+        },
+        "tentacles": {
+          "name": "Tentacail"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "topless": {
+          "name": "Gan Bríste"
+        },
+        "undress": {
+          "name": "Ag Díghléasadh"
+        },
+        "used": {
+          "name": "Úsáidte"
+        },
+        "xray": {
+          "name": "X-Ray"
+        },
+        "maid_outfit": {
+          "name": "Culaith Maid"
+        },
+        "nurse_outfit": {
+          "name": "Culaith Altra"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "T-léine Fliuch"
+        },
+        "latex_catsuit": {
+          "name": "Catsuit Laiteacs"
+        },
+        "corset_stockings": {
+          "name": "Cóirséad & Stocaí"
+        },
+        "gym_shorts": {
+          "name": "Ghearrthóga Giomnáis"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Selfie Scátháin"
+        },
+        "shower_nude": {
+          "name": "Cith"
+        },
+        "oiled_body": {
+          "name": "Corp Olaite"
+        },
+        "spread_open": {
+          "name": "Scaoilte Oscailte"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Blowjob Sloppy"
+        },
+        "ball_licking": {
+          "name": "Licking Liathróidí"
+        },
+        "face_sitting_oral": {
+          "name": "Suí ar Aghaidh"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Seasamh"
+        },
+        "against_wall": {
+          "name": "In aghaidh an Bhalla"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Cosa ar Ghuaillí"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Dul i bhFéith Dúbailte"
+        },
+        "threesome_mmf": {
+          "name": "Triúr"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Adhradh Píopa"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Gruaig a Tharraingt"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Doggystyle Cúil"
+        },
+        "blowjob": {
+          "name": "Blowjob"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_reverse": {
+          "name": "Blowjob Droim ar Ais"
+        },
+        "breast_massage": {
+          "name": "Suathaireacht Cíche"
+        },
+        "breast_massage_nude": {
+          "name": "Suathaireacht Cíche Nocht"
+        },
+        "butt_smothering": {
+          "name": "Smothering Tón"
+        },
+        "cock_worship": {
+          "name": "Adhradh Coileáin"
+        },
+        "cum_in_mouth": {
+          "name": "Sceitheadh i mBéal"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbation le Dildo"
+        },
+        "double_blowjob": {
+          "name": "Blowjob Dúbailte"
+        },
+        "double_penetration": {
+          "name": "Treá Dúbailte"
+        },
+        "ejaculation": {
+          "name": "Ejaculation"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "facial_cumshot": {
+          "name": "Cumshot Aghaidhe"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "front_doggystyle": {
+          "name": "Doggystyle Tosaigh"
+        },
+        "fuck_machine": {
+          "name": "Meaisín Fuck"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_pov": {
+          "name": "Misínireacht POV"
+        },
+        "missionary_sideview": {
+          "name": "Taobh Amharc Misinéireachta"
+        },
+        "nipple_play": {
+          "name": "Súgradh Siní"
+        },
+        "nude_posing": {
+          "name": "Ag Posáil Nocht"
+        },
+        "orgasm": {
+          "name": "Orgasm"
+        },
+        "pronebone": {
+          "name": "Pronebone"
+        },
+        "pussy_closeup": {
+          "name": "Clabhsúr Pussy"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Squatting Cowgirl"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Treocht TikTok"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Díghléas"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Seó Cith"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "In aghaidh an Bhalla"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Gruaig a Tharraingt"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Triúr"
+        },
+        "aftercare_mess": {
+          "name": "Praiseasc Míshlachta"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "An bhfuil tú cinnte gur mian leat é seo a scriosadh?",
+    "deleteSuccess": "Scriosta go rathúil",
+    "deleteError": "Theip ar an scrios",
+    "empty": "Gan aon mheáin fós. Gin roinnt sa chomhrá!",
+    "gallerySubtitle": "Do ghailearaí pearsanta de nóiméid a ghintear le AI",
+    "filterAll": "Uile",
+    "filterImages": "Íomhánna",
+    "filterVideos": "Físeáin",
+    "loadMore": "Luchtaigh Tuilleadh",
+    "folders": "Fillteáin",
+    "newFolder": "Fillteán Nua",
+    "deleteFolders": "Scrios na fillteáin roghnaithe",
+    "folderCreated": "Fillteán cruthaithe",
+    "folderCreateError": "Theip ar chruthú an fhillteáin",
+    "folderRenamed": "Fillteán athainmnithe",
+    "folderRenameError": "Theip ar athainmniú an fhillteáin",
+    "folderDeleted": "Fillteán scriosta",
+    "folderDeleteError": "Theip ar scrios an fhillteáin",
+    "folderNamePlaceholder": "Ainm an fhillteáin",
+    "seeMore": "Féach tuilleadh",
+    "seeLess": "Féach níos lú",
+    "selectedCount": "{count} mír roghnaithe",
+    "selectAll": "Roghnaigh Uile",
+    "select": "Roghnaigh",
+    "moveToFolder": "Bog",
+    "bulkDeleteConfirm": "Scrios {count} mír roghnaithe?",
+    "bulkDeleteSuccess": "Míreanna scriosta",
+    "bulkDownloadStart": "Ag íosluchtú {count} mír...",
+    "moveSuccess": "Míreanna bogtha"
+  },
+  "voice": {
+    "connecting": "Ag nascadh...",
+    "connected": "Nasctha",
+    "mute": "Balbhaigh",
+    "unmute": "Díbhalbhaigh",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Labhair go nádúrtha. Freagróidh an AI nuair a stopann tú.",
+    "connectionError": "Theip ar an nasc. Bain triail eile as.",
+    "minutesRemaining": "{minutes} nóiméad fágtha",
+    "minutesUsed": "{minutes} nóiméad úsáidte"
+  },
+  "characters": {
+    "filters": "Scagairí",
+    "ethnicity": "Eitneachas",
+    "bodyType": "Cineál Coirp",
+    "ageRange": "Raon Aoise",
+    "relationship": "Caidreamh",
+    "occupation": "Slí Bheatha",
+    "hobbies": "Caitheamh Aimsire",
+    "personality": "Pearsantacht",
+    "language": "Teanga",
+    "age": "Aois",
+    "all": "Gach",
+    "noResults": "Níor aimsíodh aon charachtair",
+    "noResultsDesc": "Bain triail as do scagairí a choigeartú",
+    "newBadge": "Nua",
+    "chatNow": "Comhrá Anois",
+    "viewProfile": "Féach ar an bPróifíl",
+    "ethnicities": {
+      "caucasian": "Caucasian",
+      "asian": "Áiseach",
+      "middleEastern": "An Meánoirthear",
+      "hispanic": "Hispanic",
+      "african": "Afracach",
+      "southAsian": "Áise Theas",
+      "nativeAmerican": "Meiriceánach Dúchasach",
+      "pacificIslander": "Oileánach an Aigéin Chiúin",
+      "mixed": "Measctha",
+      "other": "Eile"
+    },
+    "bodyTypes": {
+      "slim": "Caol",
+      "athletic": "Lúthchleasach",
+      "average": "Measartha",
+      "curvy": "Cuachach",
+      "plus": "Mór"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Singil",
+      "dating": "Ag dul",
+      "married": "Pósta",
+      "none": "Dada"
+    }
+  },
+  "settings": {
+    "profile": "Próifíl",
+    "myProfile": "Mo Phróifíl",
+    "settings": "Socruithe",
+    "account": "Cuntas",
+    "plan": "Plean",
+    "profileSettings": "Socruithe Próifíle",
+    "manageAccountSettings": "Bainistigh socruithe agus roghanna do chuntais",
+    "personalInfo": "Faisnéis Phearsanta",
+    "nickname": "Leasainm",
+    "gender": "Inscne",
+    "male": "Fireann",
+    "female": "Baineann",
+    "preferences": "Roghanna",
+    "newsletter": "Síntiús Nuachtlitir",
+    "newsletterDesc": "Faigh nuashonruithe agus nuacht",
+    "aiTrainingTitle": "Oiliúint AI & Modhnóireachta",
+    "aiTrainingDesc": "Lig do do chomhráite agus do leideanna cabhrú le hoiliúint agus le feabhsú AI agus modhnóireacht sweetwine. Múch é am ar bith chun rogha a dhéanamh.",
+    "aiTrainingLink": "Foghlaim tuilleadh inár bhFógra Príobháideachta.",
+    "aiTrainingError": "Níorbh fhéidir do rogha oiliúna AI a nuashonrú",
+    "interfaceLanguage": "Teanga Chomhéadain",
+    "interfaceLanguageDesc": "Teanga don chomhéadan úsáideora",
+    "aiLanguage": "Teanga Freagartha AI",
+    "aiLanguageDesc": "An teanga a úsáidfidh carachtair AI agus iad ag labhairt leat",
+    "currentPlan": "An Plean Reatha",
+    "freePlan": "Plean Saor",
+    "dangerZone": "Crios Contúirte",
+    "dangerZoneDescription": "Más mian leat an cuntas seo agus a shonraí go léir a scriosadh go buan.",
+    "deleteAllMemory": "Scrios gach cuimhne",
+    "confirmDeleteAllMemory": "An bhfuil tú cinnte gur mian leat cuimhní fadtéarmacha gach carachtar AI a scriosadh? Fanfaidh teachtaireachtaí comhrá, ach déanfaidh na carachtair dearmad ar fhíricí roimhe seo ag a gcéad fhreagra eile.",
+    "deleteAllMemorySuccess": "Gach cuimhne scriosta",
+    "deleteAccount": {
+      "button": "Scrios cuntas",
+      "title": "Scrios Cuntas",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Chun deimhniú, clóscríobh",
+      "confirmRequired": "Clóscríobh DELETE le do thoil chun deimhniú",
+      "confirmButton": "Scrios Mo Chuntas",
+      "deleting": "Á scriosadh...",
+      "success": "Scriosadh do chuntas",
+      "error": "Theip ar scriosadh an chuntais. Bain triail eile as."
+    },
+    "saveChanges": "Sábháil Athruithe",
+    "changesSaved": "Athruithe sábháilte go rathúil",
+    "saveFailed": "Theip ar shábháil na n-athruithe",
+    "languageUpdated": "Teanga nuashonraithe",
+    "aiLanguageUpdated": "Teanga AI nuashonraithe"
+  },
+  "create": {
+    "defaultGreeting": "Dia dhuit",
+    "title": "Cruthaigh Carachtar AI",
+    "step": "Céim {current} de {total}",
+    "step1": {
+      "title": "Roghnaigh Stíl",
+      "description": "Roghnaigh an stíl agus na tréithe bunúsacha do do charachtar"
+    },
+    "step2": {
+      "title": "Roghnaigh Cúlra Eitneach",
+      "description": "Roghnaigh cúlra eitneach agus aois do do charachtar"
+    },
+    "step3": {
+      "title": "Roghnaigh Gruaig & Súile",
+      "description": "Saincheap stíl ghruaige, dath gruaige agus dath súl"
+    },
+    "step4": {
+      "title": "Roghnaigh Corp",
+      "description": "Saincheap corp do charachtair"
+    },
+    "step5": {
+      "title": "Pearsantacht & Sonraí",
+      "description": "Sainigh pearsantacht agus guth do charachtair"
+    },
+    "style": {
+      "title": "Stíl Charachtair",
+      "realistic": "Réalaíoch",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Inscne",
+      "female": "Baineann",
+      "male": "Fireann"
+    },
+    "age": {
+      "title": "Aois",
+      "years": "{age} Bliain"
+    },
+    "ethnicity": {
+      "title": "Cúlra Eitneach"
+    },
+    "hairStyle": {
+      "title": "Stíl Ghruaige"
+    },
+    "hairColor": {
+      "title": "Dath Gruaige"
+    },
+    "eyeColor": {
+      "title": "Dath Súil"
+    },
+    "bodyType": {
+      "title": "Cineál Coirp"
+    },
+    "breastSize": {
+      "title": "Méid Cíche"
+    },
+    "name": {
+      "title": "Ainm",
+      "placeholder": "Cuir isteach ainm an charachtair",
+      "randomize": "Gin ainm randamach"
+    },
+    "language": {
+      "title": "Teanga",
+      "widgetLabel": "Roghnaigh Teanga",
+      "placeholder": "Roghnaigh teanga",
+      "selectTitle": "Roghnaigh do theanga"
+    },
+    "personality": {
+      "title": "Pearsantacht",
+      "widgetLabel": "Roghnaigh Pearsantacht",
+      "placeholder": "Roghnaigh pearsantacht",
+      "sectionTitle": "Roghnaigh Pearsantacht",
+      "clickToChange": "Cliceáil chun athrú"
+    },
+    "relationship": {
+      "title": "Caidreamh",
+      "widgetLabel": "Roghnaigh Caidreamh",
+      "placeholder": "Roghnaigh gaol",
+      "selectTitle": "Cuir Gaol in Eagar"
+    },
+    "occupation": {
+      "title": "Slí Bheatha",
+      "widgetLabel": "Roghnaigh Slí Bheatha",
+      "placeholder": "Roghnaigh slí bheatha",
+      "selectTitle": "Cuir Slí Bheatha in Eagar"
+    },
+    "kinks": {
+      "title": "Spéiseanna",
+      "widgetLabel": "Cén spéiseanna atá acu? (Uasmhéid. {max})",
+      "labelMax": "Spéiseanna (Uasmhéid. {max})",
+      "placeholder": "Roghnaigh spéiseanna (roghnach)",
+      "optional": "Roghnach",
+      "selectTitle": "Cuir Spéiseanna in Eagar",
+      "moreCount": "+{count} eile"
+    },
+    "selector": {
+      "searchPlaceholder": "Cuardaigh",
+      "noResults": "Níor aimsíodh aon roghanna",
+      "cancel": "Cealaigh",
+      "saveChanges": "Sábháil Athruithe",
+      "selectedCount": "{count} roghnaithe"
+    },
+    "voice": {
+      "title": "Guth",
+      "widgetLabel": "Roghnaigh Guth",
+      "placeholder": "Roghnaigh guth",
+      "selectTitle": "Roghnaigh Guth"
+    },
+    "advanced": {
+      "title": "Sonraí Casta",
+      "optional": "roghnach",
+      "filled": "Líonta",
+      "autocompleteTitle": "Uathchríochnú le AI",
+      "autocompleteDesc": "Lig do AI réimsí folmha a chríochnú le haghaidh carachtar níos doimhne",
+      "autocompleteSuccess": "Réimsí líonta go rathúil!",
+      "autocompleteError": "Theip ar ghiniúint moltaí. Bain triail eile as.",
+      "greetingLabel": "Beannacht",
+      "greetingPlaceholder": "An chéad teachtaireacht a sheolann do charachtar...",
+      "scenarioLabel": "Cás",
+      "scenarioPlaceholder": "An comhthéacs nó cúlra faoin gcaoi ar bhuail sibh...",
+      "personalityLabel": "Sonraí Breise Pearsantachta",
+      "personalityPlaceholder": "Aisteachais, patrúin cainte, tréithe iompraíochta...",
+      "extraLabel": "Sonraí Breise",
+      "extraPlaceholder": "Cúlra, caitheamh aimsire, stair saoil..."
+    },
+    "navigation": {
+      "back": "Ar ais",
+      "next": "Ar aghaidh",
+      "create": "Cruthaigh",
+      "generateYourCharacter": "Gin Do Charachtar"
+    },
+    "progress": {
+      "generatingPrompt": "Ag cruthú pearsantachta...",
+      "generatingImage": "Ag cruthú portráide...",
+      "creatingVoice": "Ag socrú gutha...",
+      "saving": "Ag sábháil...",
+      "complete": "Críochnaithe!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Ag cruthú pearsantachta...",
+      "addingSweetness": "Ag cur milseachta leis...",
+      "tooMuchSweet": "Úps, an iomarca milseachta...",
+      "testingSounds": "Ag tástáil fuaimeanna..."
+    },
+    "overlay": {
+      "signupPrompt": "Críochnaigh an clárú chun do charachtar a dhíghlasáil…",
+      "processingHint": "Tógann sé seo de ghnáth 20–30 soicind",
+      "traitEthnicity": "Cineál",
+      "traitBody": "Corp",
+      "traitHair": "Gruaig",
+      "traitColor": "Dath",
+      "traitEyes": "Súile",
+      "traitVibe": "Meon",
+      "bannerTitle": "Tá do charachtar réidh le cruthú!",
+      "bannerDesc": "Tá do roghanna sábháilte. Athbhreithnigh agus gineáil thíos."
+    },
+    "success": {
+      "title": "Carachtar Cruthaithe!",
+      "description": "Cruthaíodh do charachtar AI go rathúil.",
+      "yearsOld": "bliain d'aois",
+      "meetButton": "Buail"
+    },
+    "error": {
+      "title": "Theip ar Chruthú",
+      "generic": "Theip ar chruthú an charachtair. Bain triail eile as."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Caucasian",
+        "asian": "Áiseach",
+        "middle_eastern": "Meánoirthearach",
+        "hispanic": "Hispanic",
+        "african": "Afracach",
+        "south_asian": "Áiseach Theas",
+        "native_american": "Meiriceánach Dúchasach",
+        "pacific_islander": "Oileánach an Aigéin Chiúin",
+        "mixed": "Measctha",
+        "arab": "Arabach"
+      },
+      "hairStyleFemale": {
+        "straight": "Díreach",
+        "bangs": "Gruaig réamhairde",
+        "curly": "Cuachach",
+        "bun": "Búcla",
+        "short_bob": "Bob Gearr",
+        "ponytail": "Eireaball Capaill",
+        "wavy": "Tonnach",
+        "long_layers": "Sraitheanna Fada",
+        "braids": "Buaiceanna",
+        "pixie_cut": "Gearradh Pixie",
+        "updo": "Stíl Suas",
+        "french_twist": "Casadh Francach",
+        "fishtail_braid": "Buaic Eireaball Éisc",
+        "top_knot": "Snaidhm Bairr",
+        "space_buns": "Búclaí Spáis",
+        "halo_braid": "Buaic Fáinne",
+        "beehive": "Cíor Mheala",
+        "finger_waves": "Tonnacha Méar",
+        "lob": "Lob (Bob Fada)",
+        "shag_cut": "Gearradh Shag",
+        "bald": "Maol"
+      },
+      "hairStyleMale": {
+        "short": "Gearr",
+        "buzz_cut": "Gearradh Buzz",
+        "crew_cut": "Gearradh Crew",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Cuachach",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Side Part",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Spiky",
+        "comb_over": "Comb Over",
+        "long_hair": "Gruaig Fhada",
+        "bald": "Maol"
+      },
+      "hairColor": {
+        "brunette": "Donn",
+        "blonde": "Fionn",
+        "black": "Dubh",
+        "redhead": "Rua",
+        "pink": "Bándearg",
+        "auburn": "Donn-Rua",
+        "brown": "Donn",
+        "platinum_blonde": "Fionn Platanam",
+        "silver_grey": "Airgid/Liath",
+        "white": "Bán",
+        "blue": "Gorm",
+        "purple": "Corcra",
+        "green": "Uaine",
+        "burgundy": "Burgúineach",
+        "copper": "Copar",
+        "strawberry_blonde": "Fionn Sútha talún",
+        "ash_brown": "Donn Fhuaráin",
+        "golden_blonde": "Fionn Órga",
+        "mahogany": "Mahagaine",
+        "pastel_pink": "Bándearg Pastel",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Highlights",
+        "jet_black": "Dubh Scairte",
+        "dark_brown": "Donn Dorcha",
+        "light_brown": "Donn Éadrom",
+        "honey_blonde": "Fionn Meala",
+        "dirty_blonde": "Fionn Salach",
+        "cherry_red": "Dearg Silíní",
+        "violet": "Corcra"
+      },
+      "eyeColor": {
+        "brown": "Donn",
+        "blue": "Gorm",
+        "green": "Uaine",
+        "hazel": "Coll",
+        "amber": "Ómra",
+        "gray": "Liath",
+        "heterochromia": "Heterochromia",
+        "violet": "Corcra",
+        "red_pink": "Dearg/Pinc",
+        "black": "Dubh"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Tanaí",
+        "athletic": "Lúthchleasach",
+        "average": "Measartha",
+        "curvy": "Cuachach",
+        "chubby": "Maochlach"
+      },
+      "bodyTypeMale": {
+        "skinny": "Tanaí",
+        "athletic": "Lúthchleasach",
+        "average": "Measartha",
+        "muscular": "Matánach",
+        "heavy": "Trom",
+        "big_tall": "Mór & Ard"
+      },
+      "breastSize": {
+        "small": "Beag",
+        "medium": "Measartha",
+        "large": "Mór",
+        "extra_large": "An-Mhór"
+      },
+      "personality": {
+        "nympho": "Nympho",
+        "lover": "Grádhóir",
+        "submissive": "Foscríofa",
+        "dominant": "Ceannasach",
+        "temptress": "Mealltóir",
+        "innocent": "Neamhurchóideach",
+        "caregiver": "Cúramóir",
+        "experimenter": "Turgnamhóir",
+        "mean": "Mean",
+        "confidant": "Muinteoir",
+        "shy": "Cúthail",
+        "queen": "Banríon",
+        "adventurous": "Eachtrach",
+        "romantic": "Rómánsach",
+        "intellectual": "Intleachtach",
+        "protector": "Cosantóir",
+        "rebel": "Reibiliúnach",
+        "optimist": "Dóchasach",
+        "realist": "Réalaíoch",
+        "free_spirit": "Spiorad Saor",
+        "leader": "Ceannaire",
+        "loyal": "Dílis",
+        "playful": "Spraíúil",
+        "mysterious": "Mistéireach",
+        "ambitious": "Uafásach",
+        "gentle": "Mín",
+        "sarcastic": "Seirfeach",
+        "empathetic": "Trócaireach",
+        "stoic": "Stoiciúil",
+        "charismatic": "Carismach"
+      },
+      "relationship": {
+        "stranger": "Coimhthíoch",
+        "girlfriend": "Cailín",
+        "sex_friend": "Cara Gnéis",
+        "school_mate": "Comrádaí Scoile",
+        "work_colleague": "Comhghleacaí Oibre",
+        "wife": "Bean Chéile",
+        "mistress": "Baintreach",
+        "friend": "Cara",
+        "step_sister": "Leas-Siuir",
+        "step_mom": "Leas-Mháthair",
+        "step_daughter": "Leas-Iníon",
+        "landlord": "Tiarna Tí",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Bainisteoir",
+        "teacher": "Múinteoir",
+        "student": "Mac Léinn",
+        "neighbour": "Comharsa",
+        "mother_in_law": "Máthair-Chéile",
+        "sister_in_law": "Deirfiúr-Chéile",
+        "boyfriend": "Buachaill",
+        "husband": "Fear Céile",
+        "fiance": "Fionnuisce / Fionnuisce",
+        "ex": "Iar-Chara",
+        "roommate": "Comhghleacaí Seomra",
+        "best_friend": "Cara is Fearr",
+        "classmate": "Comrádaí Ranga",
+        "mentor": "Múinteoir",
+        "client": "Cliant",
+        "therapist": "Teiripeoir",
+        "trainer": "Traenálaí",
+        "rival": "Iomaitheoir",
+        "crush": "Brú",
+        "secret_admirer": "Aithneoir Rúnda",
+        "pen_pal": "Cara Litreach",
+        "business_partner": "Comhpháirtí Gnó",
+        "babysitter": "Cúramóir Leanaí",
+        "childhood_friend": "Cara Óige",
+        "long_distance_partner": "Comhpháirtí Fadraoin"
+      },
+      "occupation": {
+        "student": "Mac Léinn",
+        "dancer": "Dainséir",
+        "model": "Múnla",
+        "maid": "Cailín Tí",
+        "boss_ceo": "Bainisteoir / Príomhfheidhmeannach",
+        "babysitter_au_pair": "Cúramóir Leanaí / Au Pair",
+        "streamer": "Sruthaire",
+        "bartender": "Freastalaí Beáir",
+        "tech_engineer": "Innealtóir Teicneolaíochta",
+        "lifeguard": "Garda Tarrthála",
+        "cashier": "Airgeadóir",
+        "massage_therapist": "Teiripeoir Suathaireachta",
+        "teacher": "Múinteoir",
+        "nurse": "Altra",
+        "secretary": "Rúnaí",
+        "yoga_instructor": "Teagascóir Yoga",
+        "fitness_coach": "Cóitseálaí Aclaíochta",
+        "cook": "Cócaire",
+        "artist": "Ealaíontóir",
+        "movie_star_actress": "Réalta Scannán/Aisteoir",
+        "doctor": "Dochtúir",
+        "librarian": "Leabharlannaí",
+        "spy": "Spiaire",
+        "police_officer": "Oifigeach Póilíní",
+        "soldier": "Saighdiúir",
+        "lawyer": "Dlíodóir",
+        "hairdresser": "Gruagaire",
+        "dentist": "Fiaclóir",
+        "singer_musician": "Amhránaí/Ceoltóir",
+        "gynecologist": "Gínéiceolaí",
+        "writer": "Scríbhneoir",
+        "flight_attendant": "Freastalaí Eitilte",
+        "professional_athlete": "Lúthchleasaí Gairmiúil",
+        "scientist": "Eolaí",
+        "florist": "Bláthadóir",
+        "makeup_artist": "Ealaíontóir Smideadh",
+        "photographer": "Grianghrafadóir",
+        "social_worker": "Oibrí Sóisialta",
+        "designer": "Dearthóir",
+        "pharmacist": "Cógaisíoch",
+        "nutritionist": "Cothaitheoir",
+        "architect": "Ailtire",
+        "veterinarian": "Tréidlia",
+        "mechanic": "Meicneoir",
+        "journalist": "Iriseoir",
+        "pilot": "Píolóta",
+        "firefighter": "Comhraiceoir Dóiteáin",
+        "accountant": "Cuntasóir",
+        "electrician": "Leictreoir",
+        "carpenter": "Siúinéir",
+        "psychologist": "Síceolaí",
+        "real_estate_agent": "Gníomhaire Eastáit Réadaigh",
+        "chef": "Cócaire",
+        "farmer": "Feirmeoir",
+        "delivery_driver": "Tiománaí Seachadta",
+        "janitor": "Glanthóir",
+        "security_guard": "Garda Slándála",
+        "banker": "Baincéir",
+        "judge": "Breitheamh",
+        "paramedic": "Paraimhíleata",
+        "actor": "Aisteoir",
+        "comedian": "Fuiseoir",
+        "archaeologist": "Seandálaí",
+        "astronaut": "Spásaire"
+      },
+      "kinks": {
+        "bondage": "Ceangal",
+        "spanking": "Bualadh",
+        "collar_leash": "Coiléar & Teadall",
+        "punishment": "Pionós",
+        "humiliation": "Náiriú",
+        "public_play": "Súgradh Poiblí",
+        "roleplay": "Rólghlacadh",
+        "anal_play": "Súgradh Análach",
+        "oral_play": "Súgradh Béil",
+        "cum_play": "Súgradh Sceilge",
+        "creampie": "Creampie",
+        "squirting": "Spreagadh",
+        "dirty_talk": "Caint Mhí-ghlan",
+        "breeding": "Pórú",
+        "daddy_mommy_dominance": "Ceannas Daidí/Mamaí",
+        "edging": "Imeallú",
+        "obedience": "Umhlacht",
+        "control": "Rialú",
+        "inexperienced": "Gan Taithí",
+        "shy_flirting": "Suirí Náireach",
+        "playful_teasing": "Magadh Súgartha",
+        "cuddling": "Cúpláil",
+        "slow_sensual": "Mall & Ciallmhar",
+        "hair_pulling": "Tarraingt Gruaige",
+        "foot_fetish": "Fetish Crúib",
+        "voyeurism": "Breathnú",
+        "exhibitionism": "Taispeántas",
+        "sensation_play": "Súgradh Mothúchán",
+        "wax_play": "Súgradh Céarach",
+        "pet_play": "Súgradh Peataí",
+        "age_play": "Súgradh Aoise",
+        "medical_play": "Súgradh Leighis",
+        "orgasm_control_denial": "Rialú/Diúltú Orgasma",
+        "forced_orgasms": "Orgasmaí Éigeantacha",
+        "group_sex": "Gnéas Grúpa",
+        "threesomes": "Tríréir",
+        "swapping": "Malartú",
+        "cuckolding_cuckqueaning": "Cuckolding/Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Forlámhas Mín",
+        "sensation_deprivation": "Díothú Mothaithe",
+        "sensory_overload": "Ró-ualach Céadfach",
+        "uniform_costume_fetish": "Fetish Éide/Costúim",
+        "food_play": "Súgradh Bia",
+        "watersports": "Spóirt Uisce",
+        "bdsm": "BDSM",
+        "impact_play": "Súgradh Tionchair",
+        "knife_play": "Súgradh Scian",
+        "consensual_non_consent": "Neamh-Thoil Chomhthoiliúil",
+        "power_exchange": "Malartú Cumhachta",
+        "master_slave": "Máistir/Sclábhaí",
+        "owner_pet": "Úinéir/Peata"
+      },
+      "languages": {
+        "en": "Béarla",
+        "cs": "Seicis",
+        "pl": "Polainnis",
+        "de": "Gearmáinis",
+        "es": "Spáinnis",
+        "fr": "Fraincis"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Mo AI",
+    "titlePart1": "Mo",
+    "titlePart2": "AI",
+    "createNew": "Cruthaigh AI nua",
+    "createButton": "Cruthaigh Carachtar",
+    "characterCount": "{count}/{limit} carachtar",
+    "loadMore": "Luchtaigh Tuilleadh",
+    "empty": {
+      "title": "Gan Carachtair Fós",
+      "description": "Cruthaigh do chéad charachtar AI agus tosaigh ag comhrá! Saincheap a gcuma, pearsantacht agus guth.",
+      "createFirst": "Cruthaigh Do Chéad Charachtar"
+    },
+    "delete": {
+      "title": "Scrios Carachtar",
+      "message": "An bhfuil tú cinnte gur mian leat {name} a scriosadh? Bainfear an carachtar, an stair chomhrá agus an t-ábhar ginte go buan.",
+      "confirm": "Scrios",
+      "success": "Scriosadh an carachtar go rathúil"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Idirghníomhaíocht",
+    "interactionDescription": "Clóscríobh go nádúrtha — iarr grianghraf, físeán nó tosaigh comhrá. Tuigeann an AI do rún in aon teanga.",
+    "mediaTitle": "Gin Íomhánna & Físeáin",
+    "mediaDescription": "Scaoil do shamhlaíocht — gin íomhánna nó físeáin gan teorainn.",
+    "next": "Ar Aghaidh →",
+    "gotIt": "Tuigim"
+  }
+}

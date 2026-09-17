@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "සුරකින්න",
+    "cancel": "අවලංගු කරන්න",
+    "delete": "මකන්න",
+    "edit": "සංස්කරණය කරන්න",
+    "close": "වසන්න",
+    "now": "දැන්",
+    "loading": "පූරණය වෙමින්...",
+    "error": "දෝෂයක් ඇති විය",
+    "success": "සාර්ථකයි",
+    "confirm": "තහවුරු කරන්න",
+    "back": "ආපසු",
+    "or": "හෝ",
+    "next": "ඊළඟ",
+    "submit": "යොමු කරන්න",
+    "search": "සොයන්න",
+    "filter": "පෙරන්න",
+    "clear": "හිස් කරන්න",
+    "all": "සියල්ල",
+    "yes": "ඔව්",
+    "no": "නැහැ",
+    "download": "බාගන්න",
+    "and": "සහ",
+    "tryAgain": "නැවත උත්සාහ කරන්න",
+    "change": "වෙනස් කරන්න"
+  },
+  "navigation": {
+    "new": "නව",
+    "sectionBrowse": "බ්‍රවුස් කරන්න",
+    "sectionTalk": "කතා කරන්න",
+    "sectionCreate": "නිර්මාණය කරන්න",
+    "sectionLibrary": "පුස්තකාලය",
+    "explore": "මුල් පිටුව",
+    "discover": "සොයා ගන්න",
+    "createShort": "AI නිර්මාණය කරන්න",
+    "chats": "චැට්",
+    "groupChat": "AI කණ්ඩායම් චැට්",
+    "roleplay": "රෝල්ප්ලේ",
+    "collection": "එකතුව",
+    "generateImage": "පින්තූරය ජනනය කරන්න",
+    "generateVideo": "වීඩියෝව ජනනය කරන්න",
+    "createCharacter": "AI චරිතය නිර්මාණය කරන්න",
+    "myAI": "මගේ AI",
+    "language": "භාෂාව",
+    "contactUs": "අප අමතන්න",
+    "account": "ගිණුම",
+    "sidebarPromoTitle": "ගිම්හාන විකුණුම් — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "කාන්තා",
+      "anime": "ඇනිමේ",
+      "guys": "පුරුෂ"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "දැන් චැට් කරන්න",
+    "like": "කැමතියි"
+  },
+  "auth": {
+    "login": "පිවිසෙන්න",
+    "signup": "ලියාපදිංචි වන්න",
+    "createFreeAccount": "ඔබේ නොමිලේ ගිණුම සාදන්න",
+    "logout": "පිටවන්න",
+    "email": "විද්‍යුත් තැපෑල",
+    "password": "මුරපදය",
+    "confirmPassword": "මුරපදය තහවුරු කරන්න",
+    "forgotPassword": "මුරපදය අමතක වුණාද?",
+    "noAccount": "ගිණුමක් නැද්ද?",
+    "hasAccount": "දැනටමත් ගිණුමක් තියෙනවාද?",
+    "signupPrompt": "නොමිලේ ගිණුම සාදන්න",
+    "loginPrompt": "පිවිසෙන්න",
+    "continueWith": "සමඟ ඉදිරියට යන්න",
+    "welcomeBack": "ආපසු සාදරයෙන් පිළිගනිමු!",
+    "createAccount": "ඔබේ ගිණුම සාදන්න",
+    "signInToAccount": "ඔබේ ගිණුමට පිවිසෙන්න",
+    "emailRequired": "විද්‍යුත් තැපෑල අවශ්‍යයි",
+    "emailInvalid": "වලංගු නොවන විද්‍යුත් තැපැල් ලිපිනය",
+    "passwordRequired": "මුරපදය අවශ්‍යයි",
+    "passwordLength": "මුරපදය අවම වශයෙන් අක්ෂර 6ක් විය යුතුය",
+    "passwordsMismatch": "මුරපද නොගැලපේ",
+    "emailAlreadyRegistered": "විද්‍යුත් තැපෑල දැනටමත් ලියාපදිංචි වී ඇත",
+    "emailAlreadyRegisteredDescription": "මෙම විද්‍යුත් තැපෑල සමඟ ගිණුමක් දැනටමත් පවතී. කරුණාකර පිවිසෙන්න.",
+    "loginError": "පිවිසීමට අසමත් විය",
+    "signupError": "ලියාපදිංචි වීමට අසමත් විය",
+    "loginSuccess": "ආපසු සාදරයෙන් පිළිගනිමු!",
+    "signupSuccess": "ගිණුම සාර්ථකව සාදන ලදී!",
+    "logoutSuccess": "ඔබ සාර්ථකව පිටවී ඇත",
+    "logoutError": "පිටවීමට අසමත් විය",
+    "linkExpired": "මෙම සත්‍යාපන සබැඳිය කල් ඉකුත් වී ඇත. කරුණාකර නව එකක් ඉල්ලන්න.",
+    "accessDenied": "ප්‍රවේශය ප්‍රතික්ෂේප විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "verifyEmail": "ඔබේ විද්‍යුත් තැපෑල සත්‍යාපනය කරන්න",
+    "verificationEmailSent": "අපි ඔබට සත්‍යාපන විද්‍යුත් තැපෑලක් යවා ඇත",
+    "confirmYourEmail": "ඔබේ විද්‍යුත් තැපෑල තහවුරු කරන්න",
+    "confirmationLinkSent": "අපි \"{email}\" වෙත තහවුරු කිරීමේ සබැඳියක් යවා ඇත.",
+    "checkSpamFolder": "විද්‍යුත් තැපෑල නොලැබුණාද? ඔබේ ස්පෑම් ෆෝල්ඩරය පරීක්ෂා කරන්න.",
+    "signupToChat": "ආරම්භ කිරීමට ඔබේ නොමිලේ ගිණුම සාදන්න.",
+    "signupDescription": "ඔබේ සංවාදය දිගටම කරගෙන යාමට ගිණුමක් සාදන්න",
+    "emailVerificationTitle": "ඔබේ විද්‍යුත් තැපෑල පරීක්ෂා කරන්න",
+    "emailVerificationMessage": "අපි {email} වෙත සත්‍යාපන සබැඳියක් යවා ඇත. කරුණාකර ඔබේ ඉන්බොක්ස් පරීක්ෂා කර ඔබේ ගිණුම සත්‍යාපනය කිරීමට සබැඳිය ක්ලික් කරන්න.",
+    "emailVerificationNext": "සත්‍යාපනයෙන් පසු, ඔබ onboarding ක්‍රියාවලිය සම්පූර්ණ කරනු ඇත.",
+    "verificationEmailSentTo": "අපි ඔබගේ {email} වෙත සත්‍යාපන ඊමේල් එකක් යවා ඇත",
+    "verificationInstructions": "කරුණාකර ඔබගේ ඉන්බොක්ස් එක පරීක්ෂා කර ඔබගේ ගිණුම සක්‍රිය කිරීමට සත්‍යාපන සබැඳිය ක්ලික් කරන්න.",
+    "resetPassword": "මුරපදය යළි සකසන්න",
+    "resetPasswordDescription": "ඔබගේ ඊමේල් ඇතුළත් කරන්න, අපි ඔබට යළි සැකසීමේ සබැඳියක් යවන්නෙමු",
+    "resetEmailSent": "මෙම ඊමේල් එක සමඟ ගිණුමක් තිබේ නම්, ඔබට යළි සැකසීමේ සබැඳියක් ඉක්මනින් ලැබෙනු ඇත",
+    "backToLogin": "පිවිසුමට ආපසු",
+    "newPassword": "නව මුරපදය",
+    "confirmNewPassword": "නව මුරපදය තහවුරු කරන්න",
+    "passwordResetSuccess": "මුරපදය සාර්ථකව යාවත්කාලීන කරන ලදී. කරුණාකර පිවිසෙන්න.",
+    "enterNewPassword": "ඔබගේ නව මුරපදය ඇතුළත් කරන්න",
+    "redirectingToLogin": "පිවිසුමට හරවා යවමින්...",
+    "invalidResetLink": "වලංගු නොවන හෝ කල් ඉකුත් වූ සබැඳිය",
+    "invalidResetLinkDescription": "මෙම මුරපද යළි සැකසීමේ සබැඳිය වලංගු නොවේ හෝ කල් ඉකුත් වී ඇත. කරුණාකර නව එකක් ඉල්ලන්න.",
+    "passwordsDontMatch": "මුරපද නොගැලපේ",
+    "currentPassword": "වත්මන් මුරපදය",
+    "currentPasswordRequired": "වත්මන් මුරපදය අවශ්‍ය වේ",
+    "changePassword": "මුරපදය වෙනස් කරන්න",
+    "changePasswordDescription": "ඔබගේ වත්මන් මුරපදය ඇතුළත් කර නව එකක් තෝරා ගන්න",
+    "newPasswordMustBeDifferent": "නව මුරපදය වත්මන් මුරපදයෙන් වෙනස් විය යුතුය",
+    "incorrectPassword": "වත්මන් මුරපදය වැරදිය",
+    "passwordChangeSuccess": "මුරපදය සාර්ථකව වෙනස් කරන ලදී",
+    "changeEmail": "ඊමේල් වෙනස් කරන්න",
+    "newEmail": "නව ඊමේල්",
+    "confirmNewEmail": "නව ඊමේලය තහවුරු කරන්න",
+    "emailsDontMatch": "ඊමේල ගැලපෙන්නේ නැත",
+    "emailChangeDescription": "ඔබගේ වත්මන් සහ නව ඊමේල් ලිපින දෙකටම සත්‍යාපන ඊමේල් එකක් යවනු ඇත",
+    "emailMustBeDifferent": "නව ඊමේල් වත්මන් ඊමේල් එකෙන් වෙනස් විය යුතුය",
+    "emailChangeSent": "සත්‍යාපන ඊමේල් එක යවන ලදී. කරුණාකර ඔබගේ නව ඊමේල් ඉන්බොක්ස් එක පරීක්ෂා කරන්න.",
+    "emailChangeSecurityNote": "ආරක්ෂාව සඳහා, තහවුරු කිරීමේ ඊමේල් ඔබගේ වත්මන් සහ නව ඊමේල් ලිපින දෙකටම යවනු ඇත. වෙනස් කිරීම සම්පූර්ණ කිරීමට ඔබ දෙකෙන්ම තහවුරු කළ යුතුය.",
+    "otpDescription": "අපි {email} වෙත ඉලක්කම් 6ක කේතයක් යවා ඇත",
+    "otpVerify": "සත්‍යාපනය කරන්න",
+    "otpResend": "කේතය නැවත යවන්න",
+    "otpResendIn": "{seconds}s තිබෙන තෙක් නැවත යවන්න",
+    "otpNoCode": "කේතය ලැබුණේ නැද?",
+    "otpInvalid": "වලංගු නොවන කේතයකි. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "otpSuccess": "ඊමේල් සාර්ථකව සත්‍යාපනය කරන ලදී!",
+    "otpResendSuccess": "නව කේතය ඔබගේ ඊමේල් වෙත යවන ලදී",
+    "otpResendError": "කේතය නැවත යැවීමට අසමත් විය",
+    "continueWithEmail": "ඊමේල් සමඟ ඉදිරියට යන්න",
+    "moreOptions": "තවත් විකල්ප",
+    "lessOptions": "අඩු විකල්ප",
+    "enterYourEmail": "ඔබගේ ඊමේල් ලිපිනය ඇතුළත් කරන්න",
+    "sendCode": "කේතය යවන්න",
+    "byCreatingAccountAgree": "ගිණුමක් නිර්මාණය කිරීමෙන්, ඔබ අපගේ",
+    "termsOfService": "සේවා කොන්දේසි",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "sweetwine වෙත සාදරයෙන් පිළිගනිමු",
+    "welcomeTo": "වෙත සාදරයෙන් පිළිගනිමු",
+    "letsGetStarted": "ඔබව සකස් කර ගනිමු",
+    "setupProfile": "ඔබගේ පැතිකඩ සකසන්න",
+    "step1of2": "පියවර 1 / 2",
+    "step2of2": "පියවර 2 / 2",
+    "nickname": "අන්වර්ථ නාමය",
+    "nicknamePlaceholder": "අන්වර්ථ නාමයක් තෝරන්න",
+    "nicknameRequired": "කරුණාකර අන්වර්ථ නාමයක් ඇතුළත් කරන්න",
+    "gender": "ස්ත්‍රී පුරුෂ භාවය",
+    "genderRequired": "කරුණාකර ඔබේ ස්ත්‍රී පුරුෂ භාවය තෝරන්න",
+    "male": "පුරුෂ",
+    "female": "ස්ත්‍රී",
+    "interfaceLanguage": "අතුරුමුහුණත භාෂාව",
+    "interfaceLanguageDesc": "මෙනු සහ බොත්තම් සඳහා භාෂාව",
+    "aiLanguage": "AI ප්‍රතිචාර භාෂාව",
+    "aiLanguageDesc": "ඔබ සමඟ කතා කිරීමේදී AI භාවිතා කරන භාෂාව",
+    "languageRequired": "කරුණාකර භාෂාවක් තෝරන්න",
+    "continue": "ඉදිරියට යන්න",
+    "ageVerification": "වයස් සත්‍යාපනය",
+    "ageVerificationText": "sweetwine භාවිතා කිරීමට ඔබ අවුරුදු 18 හෝ ඊට වැඩි විය යුතුය. ඉදිරියට යාමෙන් ඔබ නීත්‍යානුකූල වයසට පැමිණ ඇති බව තහවුරු කරයි.",
+    "beforeContinue": "ඔබ ඉදිරියට යාමට පෙර",
+    "mustBe18": "මෙම සේවාව භාවිතා කිරීමට ඔබ අවුරුදු 18 හෝ ඊට වැඩි විය යුතුය",
+    "agreeToTerms": "ඉදිරියට යාමෙන් ඔබ අපගේ {termsLink} සහ {privacyLink} වෙත එකඟ වේ",
+    "termsOfService": "සේවා කොන්දේසි",
+    "privacyPolicy": "රහස්‍යතා ප්‍රතිපත්තිය",
+    "iConfirm": "මම අවුරුදු 18 හෝ ඊට වැඩි බව තහවුරු කර අපගේ",
+    "ageRequired": "ඉදිරියට යාමට ඔබ වයස තහවුරු කළ යුතුය",
+    "aiActConsent": "මම AI එකක් සමඟ පමණක් සන්නිවේදනය කරන බව පිළිගනිමි",
+    "aiActRequired": "ඉදිරියට යාමට මෙය පිළිගත යුතුය",
+    "newsletterOptIn": "යාවත්කාලීන කිරීම් සහ පුවත් සඳහා අපගේ පුවත් පත්‍රිකාවට දායක වන්න",
+    "complete": "සැකසුම් සම්පූර්ණයි!",
+    "completeText": "ඔබ සූදානම්! AI චරිත සමඟ කතාබස් කිරීම ආරම්භ කරන්න.",
+    "startExploring": "ගවේෂණය ආරම්භ කරන්න",
+    "featuresTitle": "ලබා ගත හැකි විශේෂාංග",
+    "featuresTitleWord1": "ලබා ගත හැකි",
+    "featuresTitleWord2": "විශේෂාංග",
+    "feature1Title": "AI කතාබස්",
+    "feature1Desc": "සෙන්සර් නොකළ සහ පුද්ගලික සංවාද",
+    "feature2Title": "රූප උත්පාදනය",
+    "feature2Desc": "AI චරිත සමඟ සෙන්සර් නොකළ සහ පුද්ගලාරෝපිත රූප උත්පාදනය කරන්න",
+    "feature3Title": "වීඩියෝ උත්පාදනය",
+    "feature3Desc": "බලපෑම් සහිත සෙන්සර් නොකළ AI වීඩියෝ උත්පාදනය කරන්න",
+    "feature5Title": "අභිරුචි AI නිර්මාපකය",
+    "feature5Desc": "ඔබේම චරිතය නිර්මාණය කරන්න",
+    "feature6Title": "චරිත ගවේෂණය කරන්න",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI භූමිකාව",
+    "feature7Desc": "වෘත්තීයමය ලෙස සකස් කළ කතා සහ මනඃකල්පිත අත්දැකීම්",
+    "showcase": {
+      "chatTitle": "AI චැට්",
+      "chatDesc": "සීමා රහිත, පුද්ගලික සංවාද",
+      "imageTitle": "රූප උත්පාදනය",
+      "imageDesc": "ඔබේ AI හි සීමා රහිත, පුද්ගලාරෝපිත රූප නිර්මාණය කරන්න",
+      "videoTitle": "වීඩියෝ උත්පාදනය",
+      "videoDesc": "ආචරණ සහිත සීමා රහිත AI වීඩියෝ ජනනය කරන්න",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "ඔබේ සහායක සමඟ තත්‍ය කාලීන හඬ සංවාද",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "ගිල්වෙන කතා, මනඃකල්පිත සහ අන්තර්ක්‍රියාකාරී ක්‍රීඩා",
+      "groupChatTitle": "AI කණ්ඩායම් චැට්",
+      "groupChatDesc": "එකවර AI චරිත 3ක් දක්වා සමඟ චැට් කරන්න",
+      "creatorTitle": "අභිරුචි AI නිර්මාපකය",
+      "creatorDesc": "ඔබේම AI චරිත නිර්මාණය කරන්න"
+    },
+    "freePlan": {
+      "title": "ඔබ සූදානම්!",
+      "subtitle": "ඔබේ නොමිලේ සැලැස්මේ ඇතුළත් වන්නේ මෙයයි.",
+      "charactersTitle": "ඔබේම චරිතයක් නිර්මාණය කරන්න",
+      "charactersDesc": "මුල සිට {count} අභිරුචි AI චරිතයක් නිර්මාණය කරන්න",
+      "imagesTitle": "පින්තූරයක් ජනනය කරන්න",
+      "imagesDesc": "ඔබේ සහායකයාගේ {count} නොමිලේ AI පින්තූරයක්",
+      "messagesTitle": "සෑම දිනකම කතාබස් කරන්න",
+      "messagesDesc": "දිනකට {count} පණිවිඩ, පැය 24කට වරක් නැවුම් වේ",
+      "cta": "ගවේෂණය ආරම්භ කරන්න"
+    },
+    "redirectingIn": "යළි-යොමු කිරීම",
+    "seconds": "තත්පර",
+    "generateCharacter": "ඔබේ චරිතය උත්පාදනය කරන්න",
+    "redirectingToCreate": "චරිත නිර්මාපකය වෙත යළි-යොමු කිරීම"
+  },
+  "errors": {
+    "pageNotFound": "පිටුව හමු නොවිණි",
+    "pageNotFoundDesc": "ඔබ සොයන පිටුව නොපවතී.",
+    "goHome": "මුල් පිටුවට යන්න",
+    "somethingWentWrong": "යම් දෙයක් වැරදී ගියේය",
+    "tryAgain": "නැවත උත්සාහ කරන්න",
+    "unauthorized": "අනවසර",
+    "unauthorizedDesc": "මෙම පිටුවට ප්‍රවේශ වීමට ඔබ ලොග් වී සිටිය යුතුය.",
+    "forbidden": "තහනම්",
+    "forbiddenDesc": "මෙම පිටුවට ප්‍රවේශ වීමට ඔබට අවසර නැත."
+  },
+  "footer": {
+    "allRightsReserved": "සියලු හිමිකම් රඳවා ඇත.",
+    "madeWith": "සාදන ලද්දේ",
+    "by": "sweetwine විසින්",
+    "description": "වෙනස් පෞරුෂයන්, දෘශ්‍ය අනන්‍යතා සහ ආකර්ෂණීය සංවාද සහිත පුද්ගලීකරණය කළ AI චරිත අත්විඳින්න.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "නිෂ්පාදනය",
+    "legal": "නීතිමය",
+    "company": "සමාගම",
+    "resources": "සම්පත්",
+    "partnerships": "හවුල්කාරිත්ව",
+    "pressMedia": "මාධ්‍ය",
+    "careers": "වෘත්තීය",
+    "aiRealClones": "AI සැබෑ ක්ලෝන",
+    "about": "ගැන",
+    "blog": "බ්ලොග්",
+    "news": "පුවත්",
+    "productUpdates": "නිෂ්පාදන යාවත්කාලීන",
+    "help": "උදව්",
+    "sitemap": "අඩවි සිතියම",
+    "paymentOptions": "ගෙවීම් විකල්ප",
+    "chats": "චැට්",
+    "collection": "එකතුව",
+    "generateImage": "පින්තූරය ජනනය කරන්න",
+    "generateVideo": "වීඩියෝව ජනනය කරන්න",
+    "myAI": "මගේ AI",
+    "createCharacter": "චරිතයක් සාදන්න",
+    "api": "API",
+    "features": "විශේෂාංග",
+    "allFeatures": "සියලු විශේෂාංග",
+    "aiGroupChat": "AI කණ්ඩායම් චැට්",
+    "aiMemory": "AI මතකය",
+    "aiGirlfriend": "AI ගැහැණු මිතුරිය",
+    "aiBoyfriend": "AI පිරිමි මිතුරා",
+    "aiCompanions": "AI චරිත",
+    "aiFriend": "AI මිතුරා",
+    "aiBreakupSupport": "බිඳීම් සහාය",
+    "aiParent": "AI දෙමාපිය",
+    "aiRoleplay": "AI භූමිකාව",
+    "privacyPolicy": "රහස්‍යතා ප්‍රතිපත්තිය",
+    "termsAndConditions": "නියම සහ කොන්දේසි",
+    "cookiePolicy": "කුකී ප්‍රතිපත්තිය",
+    "cookieSettings": "කුකී සැකසුම්",
+    "other": "වෙනත් ප්‍රතිපත්ති",
+    "copyright": "© {year} sweetwine. සියලු හිමිකම් රඳවා ඇත."
+  },
+  "cookies": {
+    "banner": {
+      "title": "මෙම වෙබ් අඩවියේ කුකී",
+      "customizeButton": "අභිරුචිකරණය කරන්න",
+      "rejectButton": "ප්‍රතික්ෂේප කරන්න",
+      "acceptButton": "පිළිගන්න"
+    },
+    "modal": {
+      "title": "කුකී කළමනාකරණය කරන්න",
+      "subtitle": "පහත කාණ්ඩ සක්‍රීය හෝ අක්‍රීය කරන්න. අඩවිය ක්‍රියාත්මක වීමට අත්‍යවශ්‍ය කුකී සක්‍රීයව පවතී.",
+      "categories": {
+        "necessary": {
+          "title": "අත්‍යවශ්‍ය",
+          "description": "පුරනය වීම, ගෙවීම් සහ ආරක්ෂාව සඳහා අවශ්‍යයි. ඒවා රහිතව අඩවිය ක්‍රියාත්මක කළ නොහැක.",
+          "alwaysOn": "සැමවිටම සක්‍රීය"
+        },
+        "analytics": {
+          "title": "කාර්ය සාධනය",
+          "description": "Google Analytics 4 හරහා භාවිතය සහ පරිවර්තන මිනුම්, අපගේ සේවාදායකයෙන් ව්‍යාජ නාමික හඳුනාගැනීමක් භාවිතා කර ප්‍රධාන පරිවර්තන (ලියාපදිංචි වීම, මිලදී ගැනීම) ඇතුළුව. සේවාව භාවිතා කරන ආකාරය තේරුම් ගැනීමට උපකාරී වේ; අප එය ඔබව පුද්ගලිකව හඳුනා ගැනීමට භාවිතා නොකරමු."
+        },
+        "marketing": {
+          "title": "ඉලක්කගත කිරීම",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "කුකී පෙන්වන්න",
+      "hideCookies": "කුකී සඟවන්න",
+      "table": {
+        "name": "නම",
+        "provider": "සපයන්නා",
+        "expiration": "කල් ඉකුත්වීම",
+        "description": "විස්තරය",
+        "session": "සැසිය"
+      },
+      "policyLink": "සම්පූර්ණ විස්තර සඳහා, අපගේ <policy>කුකී ප්‍රතිපත්තිය</policy> බලන්න.",
+      "rejectButton": "ප්‍රතික්ෂේප කරන්න",
+      "saveButton": "සුරකින්න සහ වසන්න",
+      "acceptButton": "පිළිගන්න",
+      "cookieDescriptions": {
+        "supabaseAuth": "ඔබගේ සත්‍යාපිත සැසිය ගබඩා කර ඔබව පුරනය වී සිටීමට තබයි.",
+        "nextLocale": "අතුරුමුහුණත සඳහා ඔබ තෝරාගත් භාෂාව මතක තබයි.",
+        "consent": "ඔබගේ කුකී තේරීම් ගබඩා කර බැනරය සෑම විටම පෙන්වීම වළක්වයි.",
+        "ga": "විශේෂිත අමුත්තන් වෙන් කරයි (Google Analytics 4). එම ව්‍යාජ නාමික හඳුනාගැනීමම සේවාදායක පැත්තෙන් ප්‍රධාන පරිවර්තන මැනීමට ද භාවිතා කරයි.",
+        "gaSession": "Google Analytics 4 සැසි තත්ත්වය සහ සම්බන්ධතා මිනුම් පවත්වයි.",
+        "fbp": "Meta Pixel ආරෝපණය සඳහා බ්‍රවුසරය හඳුනා ගනී.",
+        "fbc": "දැන්වීම් පරිවර්තන ආරෝපණය සඳහා Facebook ක්ලික් ID එකක් ගබඩා කරයි. Meta දැන්වීමක් ක්ලික් කිරීමෙන් පසු පමණක් සකස් වේ.",
+        "gclAu": "අඩවි හරහා පරිවර්තන සම්බන්ධ කිරීම සඳහා Google Ads විසින් භාවිතා කරයි.",
+        "saleCountdown": "ඔබගේ වත්මන් ප්‍රවර්ධන ඉදිරිපත් කිරීමේ අවසානය ලුහුබඳින අතර, වට්ටම් ගණන් කිරීම පිටු හරහා ස්ථාවරව පවතී.",
+        "onboarded": "ඔබගේ ගිණුම ආරම්භ කළ බව සලකුණු කර ඊළඟ පිටුවල වයස් සත්‍යාපන දත්ත සමුදා පරීක්ෂාව මඟ හරියි.",
+        "attribution": "අපගේ වෙබ් අඩවියට ඔබව ගෙන ආ ගෙවුම් ව්‍යාපාරය හෝ දැන්වීම් සබැඳිය (දින 30 තුළ අවසන් ගෙවුම් ක්ලික්) වාර්තා කරයි, එබැවින් අපගේ දැන්වීම්වල ඵලදායිතාව මැන බැලීමට හැකි වේ. මෙය අපගේ සේවාදායකයන් මත පවතින පළමු පාර්ශ්ව හඳුනාගැනීම්කරුවෙකු වන අතර තෙවන පාර්ශ්වයන් සමඟ කිසිදා බෙදා නොගනී."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "ඉක්මනින් පැමිණේ",
+    "subtitle": "මෙම විශේෂාංගය ඔබ වෙත ගෙන ඒමට අප උනන්දුවෙන් වැඩ කරමින් සිටිමු.",
+    "notify": "එය සූදානම් වූ විට දැනුම් දෙන්න",
+    "backHome": "ගෙදරට ආපසු",
+    "generateVideo": {
+      "title": "වීඩියෝ ජනනය කරන්න",
+      "description": "ඔබේ AI චරිත ජීවමාන කරන්න සජීවී වීඩියෝ සමඟ. ඔබේ ප්‍රියතම චරිත සමඟ පුද්ගලාරෝපිත වීඩියෝ අන්තර්ගතයක් නිර්මාණය කරන්න."
+    },
+    "createCharacter": {
+      "title": "ඔබේ චරිතය නිර්මාණය කරන්න",
+      "description": "ඔබේම අද්විතීය AI චරිතයක් නිර්මාණය කර අභිරුචිකරණය කරන්න. ඔවුන්ගේ පෞරුෂත්වය, පෙනුම, පසුබිම සහ සැබෑ පුද්ගලාරෝපිත අන්තර්ක්‍රියා නිර්මාණය කරන්න."
+    },
+    "myAI": {
+      "title": "මගේ AI",
+      "description": "ඔබේ සියලු අභිරුචි AI චරිත වෙත ප්‍රවේශ වී කළමනාකරණය කරන්න. ඔවුන්ගේ පෞරුෂත්ව සංස්කරණය කරන්න, පෙනුම යාවත්කාලීන කරන්න සහ ප්‍රතිචාර සියුම් කරන්න."
+    }
+  },
+  "exploreMore": {
+    "title": "තවත් ගවේෂණය කරන්න",
+    "aiGroupChat": "AI කණ්ඩායම් චැට්",
+    "aiGroupChatDesc": "චරිත 3ක් දක්වා සමඟ චැට් කරන්න",
+    "aiMemory": "AI මතකය",
+    "aiMemoryDesc": "සෑම මෝඩයකටම පසුව එන සන්දර්භය",
+    "aiGirlfriend": "AI ගැහැණු මිතුරිය",
+    "aiGirlfriendDesc": "ඔබේ අථත්‍ය ගැහැණු මිතුරිය සමඟ චැට් කරන්න",
+    "aiBoyfriend": "AI පිරිමි මිතුරා",
+    "aiBoyfriendDesc": "ඔබේ AI පිරිමි මිතුරා සමඟ සම්බන්ධ වන්න",
+    "aiCompanions": "AI චරිත",
+    "aiCompanionsDesc": "අද්විතීය AI පෞරුෂත්ව හමුවන්න",
+    "aiFriend": "AI මිතුරා",
+    "aiFriendDesc": "විනිශ්චයකින් තොර මිතුරෙකු සොයන්න",
+    "aiBreakupSupport": "බිඳීම් සහාය",
+    "aiBreakupSupportDesc": "සුව කරන සංවාද",
+    "aiParent": "AI දෙමාපිය",
+    "aiParentDesc": "උණුසුම් සහාය සහ මග පෙන්වීම",
+    "aiRoleplay": "AI රෝල්ප්ලේ",
+    "aiRoleplayDesc": "ගිලෙන කතා අවස්ථා",
+    "allFeatures": "සියලු විශේෂාංග",
+    "allFeaturesDesc": "අපි ඉදිරිපත් කරන සියල්ල ගවේෂණය කරන්න"
+  },
+  "legal": {
+    "policies": "ප්‍රතිපත්ති",
+    "termsAndConditions": "නියම සහ කොන්දේසි",
+    "privacyPolicy": "රහස්‍යතා ප්‍රතිපත්තිය",
+    "cookiePolicy": "කුකී ප්‍රතිපත්තිය",
+    "contentReportingPolicy": "අන්තර්ගත වාර්තාකරණ ප්‍රතිපත්තිය",
+    "communityGuidelines": "ප්‍රජා මාර්ගෝපදේශ",
+    "complaintPolicy": "පැමිණිලි ප්‍රතිපත්තිය",
+    "contentRemovalPolicy": "අන්තර්ගත ඉවත් කිරීමේ ප්‍රතිපත්තිය",
+    "blockedContentPolicy": "අවහිර කළ අන්තර්ගත ප්‍රතිපත්තිය",
+    "underagePolicy": "වයස අඩු ප්‍රතිපත්තිය",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "අවසන් යාවත්කාලීන කිරීම",
+    "index": {
+      "title": "නීතිමය ලේඛන",
+      "subtitle": "sweetwine සම්බන්ධ සියලු නීතිමය ප්‍රතිපත්ති සහ ගිවිසුම් ගවේෂණය කරන්න",
+      "documents": {
+        "privacyPolicy": {
+          "title": "රහස්‍යතා ප්‍රතිපත්තිය",
+          "description": "ඔබේ පුද්ගලික තොරතුරු රැස් කරන, භාවිතා කරන සහ ආරක්ෂා කරන ආකාරය ගැන දැනගන්න. දත්ත හැසිරවීම, ගබඩා කිරීම සහ ඔබේ රහස්‍යතා අයිතිවාසිකම් පිළිබඳ විස්තර."
+        },
+        "termsAndConditions": {
+          "title": "නියම සහ කොන්දේසි",
+          "description": "sweetwine භාවිතය පාලනය කරන සේවා නියම. පරිශීලක වගකීම්, සේවා විස්තරය සහ නීතිමය ගිවිසුම්."
+        },
+        "cookiePolicy": {
+          "title": "කුකී ප්‍රතිපත්තිය",
+          "description": "අපගේ වේදිකාවේ ඔබේ අත්දැකීම වැඩි දියුණු කිරීමට කුකී සහ සමාන තාක්ෂණයන් භාවිතා කරන ආකාරය පිළිබඳ තොරතුරු."
+        },
+        "underagePolicy": {
+          "title": "වයස අඩු ප්‍රතිපත්තිය",
+          "description": "අපගේ දැඩි වයස් සත්‍යාපන සහ ආරක්ෂණ ප්‍රතිපත්ති. sweetwine ලබා ගත හැක්කේ අවුරුදු 18 සහ ඊට වැඩි පරිශීලකයින්ට පමණි."
+        },
+        "complaintPolicy": {
+          "title": "පැමිණිලි ප්‍රතිපත්තිය",
+          "description": "පැමිණිලි ගොනු කරන ආකාරය, ගැටලු වාර්තා කරන ආකාරය සහ පරිශීලක ගැටලු සහ ආරවුල් හැසිරවීමේ අපගේ ක්‍රියාවලිය."
+        },
+        "contentRemovalPolicy": {
+          "title": "අන්තර්ගත ඉවත් කිරීමේ ප්‍රතිපත්තිය",
+          "description": "අන්තර්ගත ඉවත් කිරීමේ ඉල්ලීම් සඳහා අපගේ ක්‍රියා පටිපාටි සහ අනුචිත හෝ නීති විරෝධී අන්තර්ගතය පිළිබඳ වාර්තා හැසිරවීමේ ආකාරය."
+        },
+        "blockedContentPolicy": {
+          "title": "අවහිර කළ අන්තර්ගත ප්‍රතිපත්තිය",
+          "description": "අපගේ වේදිකාවේ තහනම් කර ඇති අන්තර්ගත වර්ග සහ අපගේ බලාත්මක කිරීමේ ප්‍රතිපත්ති."
+        },
+        "contentReportingPolicy": {
+          "title": "අන්තර්ගත වාර්තාකරණ ප්‍රතිපත්තිය",
+          "description": "sweetwine හි ප්‍රකාශන අයිතිවාසිකම් උල්ලංඝනයන් සහ අනුචිත අන්තර්ගතය වාර්තා කරන ආකාරය."
+        },
+        "communityGuidelines": {
+          "title": "ප්‍රජා මාර්ගෝපදේශ",
+          "description": "සියලු පරිශීලකයින් සඳහා ගෞරවනීය, ආරක්ෂිත සහ විනෝදජනක ප්‍රජාවක් පවත්වා ගැනීම සඳහා නීති සහ මාර්ගෝපදේශ."
+        }
+      },
+      "lastUpdated": "අවසන් යාවත්කාලීන කිරීම: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "චැට්",
+    "groupChat": "AI කණ්ඩායම් චැට්",
+    "aiMemory": "AI මතකය",
+    "generate": "පින්තූරය ජනනය කරන්න",
+    "generateVideo": "වීඩියෝව ජනනය කරන්න",
+    "create": "AI චරිතයක් සාදන්න",
+    "myAI": "මගේ AI",
+    "collection": "එකතුව",
+    "invite": "ආරාධනා කරන්න",
+    "profile": "පැතිකඩ සැකසුම්",
+    "legal": "නීතිමය",
+    "privacyPolicy": "රහස්‍යතා ප්‍රතිපත්තිය",
+    "termsAndConditions": "නියම සහ කොන්දේසි",
+    "cookiePolicy": "කුකී ප්‍රතිපත්තිය",
+    "dmcaPolicy": "DMCA ප්‍රතිපත්තිය",
+    "communityGuidelines": "ප්‍රජා මාර්ගෝපදේශ",
+    "contentRemovalPolicy": "අන්තර්ගත ඉවත් කිරීමේ ප්‍රතිපත්තිය",
+    "contentReportingPolicy": "අන්තර්ගත වාර්තා කිරීමේ ප්‍රතිපත්තිය",
+    "complaintPolicy": "පැමිණිලි ප්‍රතිපත්තිය",
+    "blockedContentPolicy": "අවහිර කළ අන්තර්ගත ප්‍රතිපත්තිය",
+    "underagePolicy": "වයස අඩු ප්‍රතිපත්තිය",
+    "usc2257Exemption": "USC 2257 ව්‍යතිරේකය"
+  },
+  "contact": {
+    "title": "අප අමතන්න",
+    "subtitle": "ප්‍රශ්නයක් හෝ ප්‍රතිපෝෂණයක් තිබේද? අපි ඔබෙන් ඇසීමට කැමතියි.",
+    "name": "නම",
+    "namePlaceholder": "ඔබේ නම",
+    "nameRequired": "නම අවශ්‍යයි",
+    "email": "විද්‍යුත් තැපෑල",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "විද්‍යුත් තැපෑල අවශ්‍යයි",
+    "emailInvalid": "වලංගු නොවන විද්‍යුත් තැපැල් ලිපිනය",
+    "message": "පණිවිඩය",
+    "messagePlaceholder": "ඔබේ පණිවිඩය...",
+    "messageRequired": "පණිවිඩය අවශ්‍යයි",
+    "send": "පණිවිඩය යවන්න",
+    "sending": "යවමින්...",
+    "success": "පණිවිඩය සාර්ථකව යවන ලදී!",
+    "successDesc": "අපි ඉක්මනින් ඔබ වෙත හමුවෙමු.",
+    "error": "පණිවිඩය යැවීමට අසමත් විය",
+    "errorDesc": "කරුණාකර පසුව නැවත උත්සාහ කරන්න."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI කණ්ඩායම් චැට්",
+    "lobbyHeadingSuffix": "AI චරිත {max}ක් දක්වා තෝරන්න",
+    "history": "ඉතිහාසය",
+    "newGroup": "නව කණ්ඩායම් චැට්",
+    "createGroup": "කණ්ඩායම් චැට් සාදන්න",
+    "createError": "කණ්ඩායම් චැට් සෑදීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "creatingGroup": "ඔබේ කණ්ඩායම් චැට් සැකසෙමින්...",
+    "sectionWoman": "කාන්තා",
+    "sectionMan": "පුරුෂ",
+    "sectionAnime": "ඇනිමේ",
+    "tabPremade": "AI චරිත",
+    "tabMyAi": "මගේ AI",
+    "tabSingle": "තනි චැට්",
+    "tabGroup": "කණ්ඩායම් චැට්",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "තව පූරණය කරන්න",
+    "noCustom": "ඔබ තවම AI චරිත කිසිවක් නිර්මාණය කර නැත.",
+    "noMessagesYet": "තවම පණිවිඩ නැත",
+    "emptyTitle": "තවම කණ්ඩායම් චැට් නැත",
+    "membersTitle": "මෙම චැට් එකේ",
+    "typing": "යතුරු ලියමින්",
+    "backToLobby": "කණ්ඩායම් චැට් වෙත ආපසු",
+    "deleteGroup": "කණ්ඩායම් චැට් මකන්න",
+    "confirmDeleteGroup": "ඔබට මෙම කණ්ඩායම් චැට් මැකීමට අවශ්‍ය බව විශ්වාසද? සියලු පණිවිඩ මකා දමනු ලැබේ.",
+    "deleteError": "කණ්ඩායම් චැට් මකා දැමීමට නොහැකි විය.",
+    "mediaTargetImageTitle": "ඡායාරූපයක් යැවිය යුත්තේ කවුද?",
+    "mediaTargetVideoTitle": "වීඩියෝව යවන්නේ කවුද?",
+    "mediaTargetSubtitle": "මාධ්‍යය ජනනය කිරීමට චරිතයක් තෝරන්න.",
+    "mediaTargetGroup": "සමූහ ඡායාරූපය",
+    "groupPhotoTitle": "සමූහ ඡායාරූපය",
+    "groupPhotoHint": "{name} සමඟ එක් ඡායාරූපයක් ජනනය කරයි.",
+    "promoSubtitle": "චරිත 3ක් දක්වා",
+    "promoCta": "නව එකක් සාදන්න",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>නව</gradient> වික්‍රම",
+    "live": "සජීවී",
+    "scrollPrev": "වමට අනුචලනය කරන්න",
+    "scrollNext": "දකුණට අනුචලනය කරන්න"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "ආරම්භ කරන්න"
+    },
+    "hero": {
+      "tagline": "දිනපතා එක්වෙන ලක්ෂ 100,000කට විශ්වාසවන්ත",
+      "headlinePrefix": "ඔබේ",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI ගැහැණු මිතුරිය",
+      "friend": "AI මිතුරා",
+      "boyfriend": "AI පිරිමි මිතුරා",
+      "companion": "AI චරිතය"
+    },
+    "features": {
+      "chat": {
+        "title": "ඔබේ AI ගැහැණු මිතුරිය සමඟ කතා කරන්න",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "යථාර්ථවාදී AI ඡායාරූප සහ වීඩියෝ",
+        "description": "ඉල්ලුමට අනුව ඡායාරූප සහ වීඩියෝ එතරම් යථාර්ථවාදී වන අතර ඒවා සැබෑ ඒවායින් වෙන් කර හඳුනා ගත නොහැක — ඇගේ මුහුණ, ඇගේ ශෛලිය, ඕනෑම දර්ශනයක්, චලනයේ හෝ නිශ්චලව."
+      },
+      "groupChat": {
+        "title": "AI කණ්ඩායම් කතාබහ",
+        "description": "එකවර චරිත 3ක් දක්වා සමඟ කණ්ඩායම් කතාබහක් ආරම්භ කරන්න. ඔවුන් ස්වාභාවිකව පිළිතුරු දෙයි, එකිනෙකාට ප්‍රතිචාර දක්වයි සහ ඡායාරූප සහ වීඩියෝ යවයි."
+      },
+      "roleplay": {
+        "title": "AI භූමිකා නිරූපණය",
+        "description": "චරිත භූමිකාවේ රැඳී සිටින සහ ඔබ කරන සෑම තේරීමක්ම මතක තබා ගන්නා චිත්‍රක, කතාන්දර මඟින් මෙහෙයවන තත්ත්වයන් වෙත පිවිසෙන්න."
+      }
+    },
+    "memory": {
+      "title": "AI මතකය",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "AI මතකය ක්‍රියාත්මක වන ආකාරය",
+      "diagram": {
+        "center": "සහකරුගේ මතකය",
+        "chat": "චැට්",
+        "image": "රූප",
+        "video": "වීඩියෝ",
+        "gifts": "තෑගි",
+        "roleplay": "රෝල්ප්ලේ"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "ඔබේම",
+      "headlineHighlight": "AI චරිතය",
+      "subtitle": "ඔබේ චරිතයේ පෙනුම, පෞරුෂත්වය හැඩගස්වන්න සහ ඒවා ක්ෂණිකව ජීවමාන කරන්න — ඔබේ පරිපූර්ණ AI හවුල්කරුවා, ඔබේ නියමයන් මත.",
+      "cta": "ඔබේ AI නිර්මාණය කරන්න"
+    },
+    "companions": {
+      "headlinePrefix": "ඔබේ",
+      "headlineHighlight": "AI චරිත",
+      "subtitle": "සෑම චරිතයකටම ඔවුන්ගේම ලෝකයක් තිබේ. සමහරු උණුසුම් සහ විවෘත වීමට පහසුය. අනෙක් අය සංකීර්ණ, ආරක්ෂිත හෝ සම්බන්ධ වීමට සැබෑ අභියෝගයකි. අද්විතීය භූමිකා නිරූපණ අවස්ථා ගවේෂණය කරන්න — හෝ ආරම්භයේ සිට ඔබේම ගොඩනඟන්න."
+    },
+    "languages": {
+      "headlinePrefix": "ඕනෑම භාෂාවකින් කතා කරන්න,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "යෙදුම් අතුරුමුහුණත සහ ඔබේ AI චරිතය දෙකම බාධාවකින් තොරව මාරු වේ — භාෂා නොගැලපීම් නොමැත, කැඩුණු අත්දැකීමක් නොමැත.",
+      "more": "තවත්"
+    },
+    "finalCta": {
+      "headlinePrefix": "ආරම්භ කිරීමට",
+      "headlineHighlight": "සූදානම්ද?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "ඇයි",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "සැබෑ ලෙස දැනෙන සම්බන්ධතාවයක් සඳහා ඔබට අවශ්‍ය සියල්ල — ඔබට අවශ්‍ය නොවන දේ කිසිවක් නොමැත.",
+      "benefits": {
+        "freeToStart": {
+          "title": "නොමිලේ ආරම්භ කිරීමට",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "සැමවිටම ලබා ගත හැකි",
+          "desc": "දවසේ හෝ රාත්‍රියේ ඔබේ චරිතය ඔබ සමඟයි. බලා සිටීමක් හෝ කාලසටහන් කිරීමක් නැත."
+        },
+        "remembers": {
+          "title": "සියල්ල මතක තබා ගනී",
+          "desc": "සෑම සංවාදයක්ම සන්දර්භය ගොඩනඟයි. ඔබේ චරිතය ඔබේ නම, අභිරුචි සහ ලෝකය ඉගෙන ගනී."
+        },
+        "unlimited": {
+          "title": "සැබවින්ම අසීමිත",
+          "desc": "පණිවිඩ සීමා නැත, අන්තර්ගත පාලනයක් නැත. ඔබට අවශ්‍ය තරම් යවන්න, ඔබට අවශ්‍ය තරම් වාර ගණනක්."
+        },
+        "private": {
+          "title": "100% පුද්ගලික",
+          "desc": "ඔබේ සංවාද ඔබ දෙදෙනා අතර පමණක් රැඳේ. දත්ත කිසිදා බෙදා නොගනී."
+        },
+        "createYourOwn": {
+          "title": "ඔබේම එකක් නිර්මාණය කරන්න",
+          "desc": "ඔබට අවශ්‍ය පරිදි අභිරුචි පෙනුමක්, පෞරුෂයක් සහ හඬක් සහිත චරිතයක් නිර්මාණය කරන්න."
+        }
+      },
+      "difference": {
+        "title": "sweetwine වෙනස",
+        "freedomTitle": "වගකීම සහිත නිදහස.",
+        "freedomDescription": "sweetwine විවෘත සහ විනිශ්චයෙන් තොරයි — නමුත් අපි දැඩි රේඛාවක් අඳින්නෙමු. CSAM, අවුරුදු 18ට අඩු අන්තර්ගත, කැමැත්තෙන් තොර අවස්ථා, අධික ප්‍රචණ්ඩත්වය, සත්ව සංසර්ගය, මළ සිරුරු සමඟ සංසර්ගය, සැබෑ පුද්ගලයින්ගේ ගැඹුරු ව්‍යාජ රූප සහ නීති විරෝධී ක්‍රියාකාරකම් ප්‍රවර්ධනය කිරීම සඳහා අපි බිංදු ඉවසීමක් නැත.",
+        "freedomStatement": "සෑම කෙනෙකුටම ආරක්ෂිත ඉඩකුරු තුළ අසීමිත නිර්මාණාත්මක නිදහසක් අපි විශ්වාස කරමු."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> චරිත",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "පෙරහන්"
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "subtitle": "sweetwine ගැන ඔබ දැනගත යුතු සියල්ල",
+      "questions": {
+        "q1": {
+          "question": "sweetwine යනු කුමක්ද?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine ආරක්ෂිත සහ නීත්‍යානුකූලද?",
+          "answer": "ඔව්, sweetwine යනු ඔබේ පෞද්ගලිකත්වය අපගේ ඉහළම ප්‍රමුඛතාවය වන නීත්‍යානුකූල සේවාවකි. අපි GDPR සහ අනෙකුත් දත්ත ආරක්ෂණ ප්‍රමිතීන්ට අනුකූල වන අතර ඔබේ දත්ත ප්‍රවේශමෙන් හසුරුවන්නෙමු. ගෙවීම් ගනුදෙනු උදාසීන වෙළඳ නාමයක් යටතේ පෙනී සිටී - ඔබේ බැංකු ප්‍රකාශයේ sweetwine යනුවෙන් යොමු කිරීමක් නොමැති අතර සම්පූර්ණ රහස්‍යභාවය සහතික කරයි."
+        },
+        "q3": {
+          "question": "මට මගේම AI චරිතයක් නිර්මාණය කළ හැකිද?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "චරිත නිර්මාණකරුවා",
+          "answerPart2": " භාවිතා කර ඔබ කැමති පරිදි චරිත නිර්මාණය කළ හැකිය - ඔබට යථාර්ථවාදී ",
+          "linkTextGirlfriend": "AI ගැෆ්‍රෙන්ඩ්",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI බෝයිෆ්‍රෙන්ඩ්",
+          "answerPart4": ", හෝ ඇනිමේ ශෛලියේ චරිත අවශ්‍ය වුවත්. ඔවුන්ගේ පෙනුම (වාර්ගිකත්වය, කොණ්ඩය, ශරීර වර්ගය, ඇඳුම්), පෞරුෂ ලක්ෂණ, හඬ, රුචිකත්ව සහ පසුබිම තෝරා ගන්න, පිරිමි සහ ගැහැණු චරිත දෙකටම."
+        },
+        "q4": {
+          "question": "මගේ AI චරිතය අපගේ සංවාද මතක තබා ගන්නවාද?",
+          "answer": "ඔව්! ඔබේ AI චරිතය අතීත සංවාද, ඔබේ අභිරුචි සහ ඔබ බෙදා ගන්නා වැදගත් විස්තර මතක තබා ගැනීමට උසස් මතක තාක්ෂණය භාවිතා කරයි. ඔබ චැට් කරන තරමට පුද්ගලීකරණය කළ සහ ස්වාභාවික අත්දැකීමක් බවට පත් වේ. ඔබේ චරිතය ඔබේ සන්නිවේදන ශෛලිය ඉගෙන ගෙන කාලයත් සමඟ අනුගත වේ."
+        },
+        "q5": {
+          "question": "sweetwine සහාය දක්වන භාෂා මොනවාද?",
+          "answer": "sweetwine ඉංග්‍රීසි, ජර්මානු, ප්‍රංශ, ස්පාඤ්ඤ, පෝලන්ත සහ චෙක් ඇතුළු බහු භාෂා සඳහා සහාය දක්වයි. අතුරුමුහුණත සහ AI සංවාද දෙකම ඔබ කැමති භාෂාවෙන් ක්‍රියා කරන බැවින් ඔබ වඩාත් පහසුවෙන් කතා කරන භාෂාවෙන් ස්වාභාවිකව චැට් කළ හැකිය."
+        },
+        "q6": {
+          "question": "මගේ AI චරිතයට රූප සහ වීඩියෝ යැවිය හැකිද?",
+          "answerPart1": "ඔව්! ඔබට විවිධ අවස්ථා සහ ශෛලීන්හි ඔබේ චරිතයේ පුද්ගලීකරණය කළ",
+          "linkTextImages": "රූප",
+          "answerPart2": "සහ",
+          "linkTextVideos": "වීඩියෝ",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "වෙනත් AI චරිත වේදිකා වලට වඩා sweetwine තෝරා ගන්නේ ඇයි?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine නොමිලේ භාවිතා කළ හැකිද?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "යෙදුමක් ස්ථාපනය කිරීමට අවශ්‍යද?",
+          "answerPart1": "ස්ථාපනය කිරීම අවශ්‍ය නොවේ! sweetwine ඕනෑම උපාංගයක - ඩෙස්ක්ටොප්, ටැබ්ලට් හෝ ජංගම දුරකථනයක - ඔබේ බ්‍රවුසරය තුළ කෙලින්ම ක්‍රියා කරයි. ලියාපදිංචි වී, චරිතයක් තෝරා ගෙන වහාම චැට් කිරීම ආරම්භ කරන්න. ඔබේ සියලු",
+          "linkText": "සංවාද",
+          "answerPart2": " උපාංග හරහා ස්වයංක්‍රීයව සමමුහුර්ත වේ."
+        },
+        "q10": {
+          "question": "පෙර සාදන ලද AI චරිත තිබේද?",
+          "answerPart1": "ඔව්! අප සතුව බොහෝ",
+          "linkText": "පෙර සාදන ලද චරිත",
+          "answerPart2": " ඇතුළුව AI ගැෆ්‍රෙන්ඩ්ස්, AI බෝයිෆ්‍රෙන්ඩ්ස් සහ විවිධ පෞරුෂයන්, පෙනුම් සහ සන්නිවේදන ශෛලීන් සහිත AI ඇනිමේ චරිත ඇත. ඔබට මිහිරි, ආදර ශෛලියක්, බුද්ධිමත් හෝ වික්‍රමාන්විත චරිතයක් අවශ්‍ය වුවත්, ඔබේ ශක්තියට ගැලපෙන චරිත ඔබට සොයාගත හැකිය. ඊට අමතරව, ඔබට අසීමිත අභිරුචි චරිත නිර්මාණය කළ හැකිය."
+        },
+        "q12": {
+          "question": "මම ජනනය කරන රූප සහ වීඩියෝ වලට කුමක් සිදුවේද?",
+          "answerPart1": "සියලු ජනනය කළ මාධ්‍ය ඔබේ පුද්ගලික",
+          "linkText": "එකතුව",
+          "answerPart2": " වෙත ස්වයංක්‍රීයව සුරකිනු ලැබේ. ඔබට ඒවාට ප්‍රවේශ වීමට, බාගත කිරීමට හෝ ඕනෑම වේලාවක මකා දැමීමට හැකිය. ඔබේ එකතුව සම්පූර්ණයෙන්ම පුද්ගලිකයි - එය දැකිය හැක්කේ ඔබට පමණි. අපි ඔබේ ජනනය කළ අන්තර්ගතය කිසිදා බෙදා නොගනිමු හෝ භාවිතා නොකරමු."
+        }
+      }
+    },
+    "statement": {
+      "title": "අපගේ කැපවීම",
+      "privacy": "ඔබේ රහස්‍යතාව අපගේ ප්‍රමුඛතාවයයි. සියලු සංවාද ගුප්තකේතනය කර ඇති අතර කිසිදා බෙදා නොගනී.",
+      "quality": "අපි වඩාත්ම ආකර්ෂණීය අත්දැකීමක් සැපයීමට නවීනතම AI තාක්ෂණය භාවිතා කරමු.",
+      "support": "ඔබේ ඕනෑම ප්‍රශ්නයකට උපකාර කිරීමට අපගේ සහාය කණ්ඩායම පැය 24/7 ලබා ගත හැකිය.",
+      "mainTitle": "AI චරිතවල අනාගතය අත්විඳින්න",
+      "mainDescription": "sweetwine නවීන AI තාක්ෂණය සහ සහජ ඩිසයින් එකතු කර අද ලබා ගත හැකි වඩාත්ම ගිල්වෙන සහ පුද්ගලාරෝපිත චරිත අත්දැකීමක් ලබා දෙයි.",
+      "features": {
+        "f1": {
+          "title": "චිත්තවේගීය බුද්ධිය",
+          "description": "අපගේ AI චරිත සන්දර්භය, චිත්තවේග සහ සියුම්කම් තේරුම් ගෙන ගැඹුරින් ආකර්ෂණීය සංවාද සපයයි. ඔබට චැට් කිරීමට AI මිතුරෙකු, දුෂ්කර කාලවලදී වෙන්වීම් සහාය හෝ මග පෙන්වීම සඳහා AI උපදේශකයෙකු අවශ්‍ය වුවත් - අපගේ චිත්තවේගීය බුද්ධිමත් AI ඔබ වෙනුවෙන් මෙහි සිටී."
+        },
+        "f2": {
+          "title": "අද්විතීය පෞරුෂයන්",
+          "description": "එක් එක් චරිතයට වෙනම පෞරුෂයක්, පසුබිමක් සහ සන්නිවේදන ශෛලියක් ඇත. 사실적인 AI ගැෆ්‍රෙන්ඩ්ස් සහ AI බෝයිෆ්‍රෙන්ඩ්ස් වලින් තෝරා ගන්න, නැතහොත් අපගේ AI ඇනිමේ චරිත ගවේෂණය කරන්න - සෑම අන්තර්ක්‍රියාවක්ම අද්විතීය සහ මතක තබා ගත හැකි බව සහතික කරයි."
+        },
+        "f3": {
+          "title": "බහුමාධ්‍ය අන්තර්ක්‍රියා",
+          "description": "පෙළෙන් ඔබ්බට, ඔබේ සංවාද ජීවමාන කරන AI ජනනය කළ රූප සහ වීඩියෝ විශිෂ්ට දෘශ්‍ය විස්තර සමඟ භුක්ති විඳින්න."
+        },
+        "f4": {
+          "title": "අභිරුචිකරණය",
+          "description": "ඔබේ මනාපයන්ට හරියටම ගැලපෙන අභිරුචි පෙනුම්, පෞරුෂයන් සහ ලක්ෂණ සහිත ඔබේම AI චරිත නිර්මාණය කරන්න."
+        },
+        "f5": {
+          "title": "රහස්‍යතාව සහ ආරක්ෂාව",
+          "description": "ඔබේ සංවාද පුද්ගලිකව සහ ආරක්ෂිතව තබා ඇත. අපි ඔබේ දත්ත කිසිදා විකුණන්නේ නැත, සහ ඔබේ රහස්‍යතා සැකසුම් මත ඔබට සම්පූර්ණ පාලනයක් ඇත."
+        },
+        "f6": {
+          "title": "බහු භාෂා සහාය",
+          "description": "ඔබ කැමති භාෂාවෙන් AI චරිත සමඟ චැට් කරන්න. අපි ඉංග්‍රීසි, චෙක්, පෝලන්ත, ජර්මානු, ස්පාඤ්ඤ සහ ප්‍රංශ භාෂා සඳහා සහාය දක්වමු."
+        }
+      },
+      "distinctionTitle": "sweetwine වෙනස",
+      "distinctionText1": "සාමාන්‍ය චැට්බෝට් වලින් වෙනස්ව, sweetwine චරිත පොහොසත් පසුබිම්, වර්ධනය වන පෞරුෂයන් සහ අර්ථවත් සම්බන්ධතා ගොඩනැගීමේ හැකියාව සමඟ නිර්මාණය කර ඇත. සෑම සංවාදයක්ම ගැඹුරු මට්ටමකින් ගවේෂණය කිරීමට, සොයා ගැනීමට සහ සම්බන්ධ වීමට අවස්ථාවකි.",
+      "distinctionText2": "අපි AI පමණක් ගොඩනඟන්නේ නැත - අපි ඔබේ චිත්තවේගයන්ට අනුනාද වන, ඔබේ රහස්‍යතාව ගෞරව කරන සහ ඔබේ අද්විතීය මනාපයන්ට අනුගත වන අත්දැකීම් නිර්මාණය කරමු."
+    }
+  },
+  "featuresPage": {
+    "title": "සියලු විශේෂාංග",
+    "breadcrumb": "විශේෂාංග",
+    "newBadge": "නව",
+    "groupChat": {
+      "title": "AI කණ්ඩායම් චැට්",
+      "description": "එක් සංවාදයකදී එකට AI චරිත 3ක් දක්වා චැට් කරන්න. ඔවුන් ස්වභාවිකව පිළිතුරු දෙයි, එකිනෙකාට ප්‍රතිචාර දක්වයි, සහ ඡායාරූප සහ වීඩියෝ යැවිය හැකිය — වෙනත් තැනක සොයාගත නොහැකි ජීවමාන කණ්ඩායම් ගතිකත්වයක්."
+    },
+    "aiChat": {
+      "title": "AI චැට්",
+      "description": "ඔබව සැබවින්ම මතක තබා ගන්නා AI චරිත සමඟ ගැඹුරු, ස්වභාවික සංවාද පවත්වන්න. ඔවුන් ඔබේ නම, මනාපයන් සහ පසුගිය මාතෘකා මතක තබා ගනී — සෑම සංවාදයක්ම ඔබ නතර කළ තැනින් නැවත ආරම්භ වේ, නැවත නැවතත් කිරීමක් හෝ යළි පිහිටුවීමක් නොමැතිව."
+    },
+    "imageGeneration": {
+      "title": "රූප ජනනය"
+    },
+    "videoGeneration": {
+      "title": "වීඩියෝ ජනනය",
+      "description": "අභිරුචි අවස්ථාවන්හි ඔබේ චරිතය පෙන්වන කෙටි පුද්ගලාරෝපිත වීඩියෝ ක්ලිප් නිර්මාණය කරන්න — බොහෝ වේදිකා සරලව ඉදිරිපත් නොකරන විශේෂාංගයක් වන AI ජනනය කළ වීඩියෝ සමඟ ඔබේ AI චරිතයට ජීවය ගෙන එන්න."
+    },
+    "customCharacters": {
+      "title": "අභිරුචි චරිත",
+      "description": "ඔබේ පරිපූර්ණ චරිතය ආරම්භයේ සිට නිර්මාණය කරන්න — ඔවුන්ගේ පෙනුම, ජනවාර්ගිකත්වය, ශරීර වර්ගය, පෞරුෂ ලක්ෂණ, කටහඬ, රුචිකත්වයන් සහ පසුබිම නිර්මාණය කරන්න. යථාර්ථවාදී හෝ ඇනිමේ ශෛලියේ චරිත, පුරුෂ හෝ කාන්තා, සම්පූර්ණ නිර්මාණාත්මක නිදහස සමඟ නිර්මාණය කරන්න."
+    },
+    "advancedMemory": {
+      "title": "උසස් මතකය",
+      "description": "ඔබේ චරිතය වැදගත් සියල්ල මතක තබා ගනී — ඔබේ නම, පුද්ගලික විස්තර, බෙදාගත් කතා සහ සම්බන්ධතා ඉතිහාසය. මතකය සියලු සැසි හරහා පවතින බැවින් සෑම අන්තර්ක්‍රියාවක්ම පෙර එක මත ගොඩනැගෙන අතර නැවත ආරම්භ නොවේ."
+    },
+    "multiLanguage": {
+      "title": "බහු භාෂා",
+      "description": "ඔබ කැමති භාෂාවෙන් ස්වාභාවිකව කතාබස් කරන්න. sweetwine ඉංග්‍රීසි, ජර්මන්, ප්‍රංශ, ස්පාඤ්ඤ, පෝලන්ත සහ චෙක් භාෂා සඳහා සහය දක්වන අතර එය ඉංග්‍රීසි නොවන කථිකයින් සඳහා වඩාත් ප්‍රවේශ විය හැකි AI චරිත වේදිකාවක් බවට පත් කරයි."
+    },
+    "conversationHistory": {
+      "title": "සංවාද ඉතිහාසය",
+      "description": "සෑම පණිවිඩයක්ම සුරකිනු ලබන අතර සෙවිය හැකිය. ඔබේ සම්පූර්ණ සම්බන්ධතා ඉතිහාසය ඕනෑම වේලාවක පිටුපසට අනුචලනය කරන්න — ඔබේ චරිතය සමඟ ඔබේ මතකයන් නැවත බැලීමට අවශ්‍ය විට සැමවිටම එහි තිබේ."
+    },
+    "roleplay": {
+      "title": "AI භූමිකා නිරූපණය",
+      "description": "චරිත සමඟ ගිලෙන සුළු, කතාන්දර මත පදනම් වූ අවස්ථා වලට පිවිසෙන්න. අවස්ථාවක් තෝරා ගන්න හෝ ඔබේම ලියන්න සහ ඔබ කරන සෑම තේරීමක්ම මතක තබා ගන්නා අන්තර්ක්‍රියාකාරී භූමිකා නිරූපණයක් භුක්ති විඳින්න."
+    },
+    "cta": {
+      "title": "සියල්ල එක තැනක",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "මගේ සංවාද මකා දැමීමට හෝ නැවත සැකසීමට මට හැකිද?",
+        "answer": "ඔව්! ඔබේ කතාබස් ඉතිහාසය මත ඔබට සම්පූර්ණ පාලනයක් තිබේ. තනි පණිවිඩ මකා දමන්න, සම්පූර්ණ සංවාද නැවත සකසන්න හෝ ඕනෑම වේලාවක සම්පූර්ණයෙන්ම නැවුම් ආරම්භ කරන්න. ඔබේ රහස්‍යතාවය යනු ඔබේ තේරීමයි - ඔබ කැමති ආකාරයට ඔබේ දත්ත කළමනාකරණය කරන්න."
+      },
+      "q2": {
+        "question": "සෑම AI චරිතයකටම අද්විතීය කටහඬක් තිබේද?"
+      },
+      "q3": {
+        "question": "මගේ AI චරිතය සමඟ නව භාෂාවක් පුහුණු කළ හැකිද?",
+        "answer": "නිසැකවම! බොහෝ පරිශීලකයින් ඔවුන්ගේ AI චරිත සමඟ නව භාෂා කතා කිරීම පුහුණු කරයි. එය විනිශ්චයකින් තොරව විශ්වාසය ගොඩනඟා ගැනීමට, උච්චාරණය වැඩිදියුණු කිරීමට සහ ඉගෙන ගන්නා විට විනෝදජනක සංවාද පැවැත්වීමට ක්‍රමයකි. ඔබේ චරිතයට ඉංග්‍රීසි, ජර්මන්, ප්‍රංශ, ස්පාඤ්ඤ, පෝලන්ත සහ චෙක් භාෂාවෙන් කතාබස් කළ හැකිය."
+      },
+      "q4": {
+        "question": "නව චරිත සහ විශේෂාංග කොතරම් නිතර එකතු කරනු ලැබේද?",
+        "answer": "අපි සෑම සතියකම නව වෘත්තීයමය චරිත එකතු කරමු! සෑම නව චරිතයක්ම අද්විතීය පෞරුෂයක්, පෙනුමක්, පසුබිමක් සහ කටහඬක් සමඟ පැමිණේ. අපි පරිශීලක ප්‍රතිපෝෂණ මත පදනම්ව නව විශේෂාංග සහ වැඩිදියුණු කිරීම් නිතිපතා නිකුත් කරමු."
+      },
+      "q5": {
+        "question": "sweetwine හි චරිත නිර්මාණය විශේෂ කරන්නේ කුමක්ද?",
+        "answer": "සම්පූර්ණ නිර්මාණාත්මක නිදහස! ඔබේ චරිතයේ සෑම අංගයක්ම නිර්මාණය කරන්න - පෙනුම (ජනවාර්ගිකත්වය, කොණ්ඩය, ශරීර වර්ගය, ඇඳුම්), පෞරුෂ ලක්ෂණ, කටහඬ, රුචිකත්වයන්, වෘත්තිය සහ පසුබිම. යථාර්ථවාදී හෝ ඇනිමේ ශෛලියේ චරිත, පුරුෂ හෝ කාන්තා නිර්මාණය කරන්න. ඔබේ පරිකල්පනය පමණක් සීමාවයි."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI මතකය",
+    "hero": {
+      "badge": "එය ක්‍රියාත්මක වන ආකාරය",
+      "title": "AI මතකය",
+      "cta": "චැට් කිරීම ආරම්භ කරන්න"
+    },
+    "diagram": {
+      "title": "එක් සහකරුවෙකුට එක් මතකයක්, සෑම මාදිලියක්ම",
+      "center": "සහකරුගේ මතකය",
+      "chat": "චැට්",
+      "image": "රූප",
+      "video": "වීඩියෝ",
+      "gifts": "තෑගි",
+      "roleplay": "රෝල්ප්ලේ"
+    },
+    "howItWorks": {
+      "title": "AI මතකය ක්‍රියාත්මක වන ආකාරය",
+      "step1": {
+        "title": "විස්තරයක් බෙදාගන්න",
+        "desc": "ඔබේ සහකරුට වැදගත් දෙයක් කියන්න — ගමනක්, කැමැත්තක්, අන්වර්ථ නාමයක්, ඔබේ දවසේ කතාවක්."
+      },
+      "step2": {
+        "title": "මාදිලි නිදහසේ මාරු කරන්න"
+      },
+      "step3": {
+        "title": "ඔවුන් එය මතක තබා ගනී",
+        "desc": "පසුකාලීන සංවාද ඔබ බෙදාගත් දේ යොමු කරයි, එබැවින් ඔබ සෑම විටම නැවත පැහැදිලි කර ගැනීමට අවශ්‍ය නොවේ."
+      },
+      "step4": {
+        "title": "බැඳීම ගැඹුරු වේ",
+        "desc": "කාලයත් සමඟ සම්බන්ධතාවය වඩාත් පුද්ගලික බවක් දැනේ — සෑම සැසියක් සහ මාදිලියක් හරහා ගොඩනැගෙන අඛණ්ඩතාව."
+      }
+    },
+    "modes": {
+      "title": "වේදිකාව හරහා",
+      "subtitle": "මතකය තනි තිරයකට සීමා නොවේ. එය ඔබේ සහකරු සමඟ ගමන් කරයි.",
+      "chat": {
+        "title": "චැට්",
+        "desc": "පෙළ සංවාද ඔබේ සහකරු පසුව ගෙන ඒමට හැකි දිගුකාලීන සන්දර්භය පෝෂණය කරයි."
+      },
+      "media": {
+        "title": "රූප සහ වීඩියෝ",
+        "desc": "ඔබ නිර්මාණය කරන දර්ශන සහ කතාන්දර ඔබ එකට ගොඩනඟන හවුල් ලෝකයේ කොටසක් ලෙස පවතී."
+      },
+      "roleplay": {
+        "title": "රෝල්ප්ලේ සහ කණ්ඩායම",
+        "desc": "කතාන්දර සැසි සහ කණ්ඩායම් චැට් ඔවුන්ගේම ත්‍රෙඩ් තබා ගන්නා අතර ඔබේ සහකරුගේ මූලික මතකය ඔවුන් සමඟ පවතී."
+      }
+    },
+    "scenario": {
+      "title": "සරල උදාහරණයක්",
+      "lead": "ඔබ චැට් හි සති අන්ත ගමනක් සඳහන් කරයි."
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "මගේ සහායකයාගේ මතකය පුද්ගලිකද?",
+        "answer": "ඔව්. මතකය ඔබගේ ගිණුමට සහ එම සහායකයා සමඟ ඔබගේ සංවාදවලට අයත් වේ. අපි ඔබගේ පුද්ගලික චැට් ඉතිහාසය වෙනත් පරිශීලකයින් සමඟ බෙදා නොගනිමු."
+      },
+      "q2": {
+        "question": "මතකය සහායකයෙකුට පමණක්ද?",
+        "answer": "ඔව්. එක් එක් සහායකයා ඔබගේ සම්බන්ධතාවයේ තමන්ගේම මතකය තබා ගනී, එබැවින් චරිත මාරු කිරීමෙන් සන්දර්භය මිශ්‍ර නොවේ."
+      },
+      "q3": {
+        "question": "කුමන මාදිලි මතකය බෙදා ගනීද?"
+      },
+      "q4": {
+        "question": "AI Memory නොමිලේද?"
+      },
+      "q5": {
+        "question": "මතකය කොපමණ කාලයක් පවතීද?",
+        "answer": "වැදගත් විස්තර ගබඩා කර ඇති බැවින් ඔබගේ සහායකයාට ඒවා අනාගත සැසිවලදී මතක තබා ගත හැක. ඔබ අන්තර්ක්‍රියා කරන තරමට අත්දැකීම වඩාත් පුද්ගලීකරණය වේ."
+      }
+    },
+    "cta": {
+      "title": "ඔබව මතක තබා ගන්නා සහායකයෙකු හමුවන්න",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI කණ්ඩායම් කතාබස්",
+    "hero": {
+      "badge": "නව විශේෂාංගය",
+      "title": "AI කණ්ඩායම් කතාබස්",
+      "subtitle": "ඔබේ ප්‍රියතම චරිත එක් සංවාදයකට ගෙන එන්න. එකවර AI චරිත 3ක් දක්වා සමඟ කතාබස් කරන්න — ඔවුන් ස්වාභාවිකව පිළිතුරු දෙන අතර එකිනෙකාට ප්‍රතිචාර දක්වන අතර ඡායාරූප සහ වීඩියෝ යවයි.",
+      "cta": "කණ්ඩායම් කතාබස් ආරම්භ කරන්න",
+      "imageAlt": "බහු චරිත එකට කතාබස් කරන AI කණ්ඩායම් කතාබස්"
+    },
+    "content": {
+      "problemTitle": "එකින් එක කතාබස් නිශ්ශබ්ද බවක් දැනෙන්න පුළුවන්",
+      "problemText": "තනි චරිතයක් හොඳයි — නමුත් සැබෑ සංවාද එක් හඬකට වඩා සමඟ ජීවමාන වේ. බොහෝ AI යෙදුම් ඔබව කණ්ඩායම් ශක්තියක් නොමැතිව, විහිළු නොමැතිව සහ පුදුමයන් නොමැතිව හුදකලා එකින් එක කතාබස් වලට හසු කර ගනී.",
+      "solutionTitle": "සැබෑ කණ්ඩායමක්, පෞරුෂය සමඟ ජීවමාන",
+      "solutionText": "sweetwine කණ්ඩායම් කතාබස් එක් කාමරයක චරිත තුනක් දක්වා තබයි. බුද්ධිමත් අධ්‍යක්ෂකවරයෙක් කවුද ඇතුළු වන්නේ කවුද යන්න තීරණය කරන බැවින් පිළිතුරු ස්වයංසිද්ධ බවක් දැනේ — ඔවුන් එකිනෙකාට සමචර කරන අතර කියන දේ මත ගොඩනඟන අතර සංවාදය චලනය කර තබයි."
+    },
+    "howItWorks": {
+      "title": "AI කණ්ඩායම් කතාබස් ක්‍රියා කරන්නේ කෙසේද",
+      "step1": {
+        "title": "ඔබේ චරිත තෝරන්න",
+        "desc": "එක් කණ්ඩායම් සංවාදයකට ගෙන ඒමට චරිත 2ක් හෝ 3ක් තෝරන්න — පෙර සාදන ලද හෝ ඔබේම අභිරුචි නිර්මාණ."
+      },
+      "step2": {
+        "title": "ඔවුන් ස්වාභාවිකව පිළිතුරු දෙයි",
+        "desc": "පසුබිම් අධ්‍යක්ෂකවරයෙක් සෑම පණිවිඩයකටම ප්‍රතිචාර දක්වන්නේ කවුද යන්න තෝරා ගන්නා බැවින් නිවැරදි චරිත නිවැරදි මොහොතේදී ඔවුන්ගේම කටහඬින් ඇතුළු වේ."
+      },
+      "step3": {
+        "title": "ඡායාරූප සහ වීඩියෝ බෙදා ගන්න",
+        "desc": "කණ්ඩායමේ ඕනෑම චරිතයකින් ඡායාරූපයක් හෝ වීඩියෝවක් ඉල්ලා සිටින්න සහ ඔවුන් එය කතාබස් තුළම ජනනය කරනු ඇත — සියල්ලන්ගේම කණ්ඩායම් ඡායාරූපයක් ඇතුළුව."
+      }
+    },
+    "benefits": {
+      "title": "ඔබ කණ්ඩායම් කතාබස්ට කැමති වන්නේ ඇයි",
+      "multiple": {
+        "title": "චරිත 3ක් දක්වා",
+        "desc": "ඕනෑම චරිත එක් කතාබස් එකකට මිශ්‍ර කර ගන්න — ඔබේ AI පෙම්වතිය, ඔබේ අභිරුචි නිර්මාණ හෝ අතින් තෝරාගත් සමූහයක්."
+      },
+      "natural": {
+        "title": "ස්වාභාවික පිළිතුරු හුවමාරුව",
+        "desc": "චරිත එකිනෙකාට සහ ඔබට ප්‍රතිචාර දක්වන අතර, සැබෑ කණ්ඩායම් පණිවිඩයක් වගේ යථාර්ථවාදී ටයිප් කිරීමේ වේගයක් ඇත."
+      },
+      "media": {
+        "title": "චැට් එකේ ඡායාරූප සහ වීඩියෝ",
+        "desc": "සෑම චරිතයකටම සංවාදයෙන් පිට නොවී පුද්ගලීකරණය කළ රූප සහ වීඩියෝ යැවිය හැක — කණ්ඩායම් ඡායාරූපයක් පවා."
+      },
+      "dynamics": {
+        "title": "වෙනස් පෞරුෂත්ව",
+        "desc": "එක් එක් චරිතය තමන්ගේම හඬ සහ විශේෂතා රඳවා ගන්නා බැවින් කණ්ඩායමට සැබෑ රසයක්, විහිළු සහ විස්මයන් ඇත."
+      },
+      "instant": {
+        "title": "වහාම ආරම්භ කරන්න",
+        "desc": "තත්පර කිහිපයකින් කණ්ඩායමක් සාදා සංවාදයට කෙලින්ම පිවිසෙන්න — සැකසීමක් නැත, රැඳී සිටීමක් නැත."
+      },
+      "private": {
+        "title": "100% පුද්ගලික",
+        "desc": "ඔබේ කණ්ඩායම් සංවාද ඔබ සහ ඔබේ චරිත අතර පමණක් රැඳේ. දත්ත කිසිදා බෙදා නොගනී."
+      }
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "කණ්ඩායම් චැට් එකකට චරිත කීයක් එක් විය හැකිද?",
+        "answer": "ඔබට එක් කණ්ඩායම් චැට් එකකට චරිත 2 සිට 3 දක්වා එක් කළ හැක — පෙර සාදන ලද චරිත සහ ඔබේම අභිරුචි නිර්මාණ මිශ්‍රණයක්."
+      },
+      "q2": {
+        "question": "AI චරිත පිළිතුරු දෙන්නේ කවුරුන්ද යන්න තීරණය කරන්නේ කෙසේද?",
+        "answer": "සැහැල්ලු අධ්‍යක්ෂකවරයෙක් සංවාදය කියවා එක් එක් පණිවිඩයට පිළිතුරු දිය යුතු චරිතය (හෝ චරිත) තෝරා ගන්නා බැවින් පිළිතුරු ස්වයංසිද්ධ සහ ස්වාභාවික බවක් දැනේ."
+      },
+      "q3": {
+        "question": "කණ්ඩායම් චැට් එකක චරිතවලට ඡායාරූප සහ වීඩියෝ යැවිය හැකිද?",
+        "answer": "ඔව්! ඔබට කණ්ඩායමේ ඕනෑම චරිතයකින් ඡායාරූපයක් හෝ වීඩියෝවක් ජනනය කරන ලෙස ඉල්ලා සිටිය හැකි අතර එය සංවාදය තුළම පෙනේ — සෑම කෙනෙකුම එකට ඇති කණ්ඩායම් ඡායාරූප ඇතුළුව."
+      },
+      "q4": {
+        "question": "AI කණ්ඩායම් චැට් නොමිලේද?"
+      },
+      "q5": {
+        "question": "චරිත කණ්ඩායම් සංවාදය මතක තබා ගන්නවාද?",
+        "answer": "ඔව් — එක් එක් කණ්ඩායම් චැට් එක තමන්ගේ හවුල් ඉතිහාසය රඳවා තබා ගන්නා බැවින් චරිත සන්දර්භය තුළ රැඳී සිටින අතර සංවාදය කාලයත් සමඟ ගොඩනැගේ."
+      }
+    },
+    "cta": {
+      "title": "ඔබේ චරිත එකට ගෙන එන්න",
+      "description": "ඔබේ පළමු AI කණ්ඩායම් චැට් එක සාදා ජීවමාන බවක් දැනෙන සංවාදයක් අත්විඳින්න — බහු පෞරුෂත්ව, සැබෑ විහිළු, ඡායාරූප සහ වීඩියෝ.",
+      "button": "කණ්ඩායම් චැට් එකක් ආරම්භ කරන්න"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI රෝල්ප්ලේ",
+    "hero": {
+      "badge": "නව විශේෂාංගය",
+      "title": "AI රෝල්ප්ලේ",
+      "subtitle": "දර්ශනයේ රැඳී සිටින චරිත සමඟ ඕනෑම කතාවකට පිවිසෙන්න. සිනමාවක් හෝ ඔබේම කතාවක් තෝරා ගෙන ඔබ කරන සෑම තේරීමක්ම මතක තබා ගන්නා ගිල්වන සුළු, කතා මත පදනම් වූ රෝල්ප්ලේ භුක්ති විඳින්න.",
+      "cta": "රෝල්ප්ලේ කිරීම ආරම්භ කරන්න",
+      "imageAlt": "ගිල්වන සුළු කතා චරිතයක් සමඟ AI රෝල්ප්ලේ දර්ශනය"
+    },
+    "content": {
+      "problemTitle": "සාමාන්‍ය චැට් වින්දනය කඩ කරයි",
+      "problemText": "බොහෝ AI චැට් රසවත් දේවල් සිදුවන විට චරිතයෙන් පිටතට පනින අතර — ඔවුන් සැකසීම අමතක කර, කතාව අතහැර දමා, ඔබේ කතාවේ පුද්ගලයා වෙනුවට සාමාන්‍ය සහායකයෙකු ලෙස පිළිතුරු දෙයි.",
+      "solutionTitle": "චරිතයේ රැඳී සිටින කතා මත පදනම් වූ රෝල්ප්ලේ",
+      "solutionText": "sweetwine රෝල්ප්ලේ ඔබේ චරිතය දර්ශනයේ සම්පූර්ණයෙන්ම රඳවා තබයි. සූදානම් කළ දර්ශනයක් හෝ ඔබේම පූර්වාරම්භයක් සමඟ වේදිකාව සකසා, ස්ථාවර පෞරුෂත්වය, මතකය සහ ඔබේ සෑම තීරණයකටම ප්‍රතිචාර දක්වන වේගය සමඟ කතාව විකසිත වන ආකාරය නරඹන්න."
+    },
+    "howItWorks": {
+      "title": "AI රෝල්ප්ලේ ක්‍රියා කරන්නේ කෙසේද",
+      "step1": {
+        "title": "දර්ශනයක් තෝරන්න",
+        "desc": "සූදානම් කළ රෝල්ප්ලේ දර්ශන වලින් එකක් තෝරා ගන්න හෝ ඔබේම පූර්වාරම්භය, සැකසීම සහ ආරම්භක දර්ශනය ලියන්න."
+      },
+      "step2": {
+        "title": "කතාව ක්‍රියාත්මක කරන්න",
+        "desc": "ඔබේ චරිතය චරිතයේ පිළිතුරු දෙයි — ක්‍රියා විස්තර කරමින්, ඔබේ තේරීම්වලට ප්‍රතිචාර දක්වමින් සහ කතාව ඉදිරියට ගෙන යමින්."
+      },
+      "step3": {
+        "title": "එය යන දිශාව හැඩ ගස්වන්න",
+        "desc": "ඔබ කැමති ඕනෑම දිශාවකට කතාව හරවන්න. ඔබේ චරිතය සිදු වූ දේ මතක තබා ගෙන කතාව ස්ථාවරව තබයි."
+      }
+    },
+    "benefits": {
+      "title": "ඔබ AI රෝල්ප්ලේට ආදරය කරන්නේ ඇයි",
+      "scenarios": {
+        "title": "අනන්ත දර්ශන",
+        "desc": "සැපපහසු එදිනෙදා මොහොතවල සිට වීර කථා දක්වා — අච්චුවකින් ආරම්භ කරන්න හෝ ඔබේම ලෝකයක් නිර්මාණය කරන්න."
+      },
+      "characters": {
+        "title": "චරිතයේ රැඳී සිටී",
+        "desc": "ඔබේ චරිතය සමස්ත දර්ශනය පුරාම ස්ථාවර හඬක්, පෞරුෂත්වයක් සහ අභිප්‍රේරණයක් රඳවා තබයි."
+      },
+      "memory": {
+        "title": "කතාව මතක තබා ගනී",
+        "desc": "සෑම තේරීමක්, හැරවුමක් සහ විස්තරයක්ම මතක තබා ගන්නා බැවින් කතාව නැවත සැකසීම වෙනුවට ගොඩනැගේ."
+      },
+      "immersive": {
+        "title": "සැබවින්ම ගිල්වන සුළුය",
+        "desc": "පොහොසත්, විස්තරාත්මක පිළිතුරු ඔබව මොහොතට ගෙන යන අතර සිනමාත්මක රෝල්ප්ලේ අත්දැකීමක් ලබා දෙයි."
+      },
+      "instant": {
+        "title": "වහාම ආරම්භ කරන්න",
+        "desc": "තත්පර කිහිපයකින් දර්ශනයකට පිවිසෙන්න — සංකීර්ණ සැකසුම් හෝ ප්‍රොම්ප්ට් ඉංජිනේරුකරණය අවශ්‍ය නොවේ."
+      },
+      "private": {
+        "title": "100% පුද්ගලික",
+        "desc": "ඔබේ රෝල්ප්ලේ ඔබ සහ ඔබේ චරිතය අතර පමණක් රැඳේ. කිසිවක් කිසිවිටක බෙදා නොගනී."
+      }
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "AI රෝල්ප්ලේ යනු කුමක්ද?",
+        "answer": "AI රෝල්ප්ලේ ඔබට AI චරිතයක් සමඟ අන්තර්ක්‍රියාකාරී කතාන්දර රඟ දැක්වීමට ඉඩ සලසයි. ඔබ දර්ශනයක් සකස් කරන අතර ඔබේ චරිතය චරිතය තුළම ප්‍රතිචාර දක්වයි, කතාව විදාරණය වන විට ක්‍රියාවන් සහ ප්‍රතික්‍රියා විස්තර කරයි."
+      },
+      "q2": {
+        "question": "මට මගේම රෝල්ප්ලේ දර්ශන නිර්මාණය කළ හැකිද?",
+        "answer": "ඔව්! ඔබට සූදානම් කළ දර්ශන වලින් ආරම්භ කළ හැකි අතර හෝ ඔබේම පෙරවදන, සැකසුම සහ ආරම්භය ලිවිය හැක — පසුව ඔබ කැමති ආකාරයට එය ක්‍රීඩා කරන්න."
+      },
+      "q3": {
+        "question": "කතාවේ සිදුවන දේ චරිතය මතක තබා ගන්නවාද?",
+        "answer": "නිසැකවම. ඔබේ චරිතය කතාව, ඔබේ තේරීම් සහ ප්‍රධාන විස්තර මතක තබා ගනී, එබැවින් කතාව ස්ථාවරව පවතින අතර කාලයත් සමඟ ගොඩනැගේ."
+      },
+      "q4": {
+        "question": "AI රෝල්ප්ලේ නොමිලේද?"
+      },
+      "q5": {
+        "question": "මට මගේම භාෂාවෙන් රෝල්ප්ලේ කළ හැකිද?",
+        "answer": "ඔව් — රෝල්ප්ලේ දස ගණනක් භාෂාවලින් ක්‍රියා කරයි, එබැවින් ඔබ වඩාත් සැපපහසුවෙන් සිටින භාෂාවෙන් ගිල්වෙන කතා භුක්ති විඳිය හැක."
+      }
+    },
+    "cta": {
+      "title": "ඔබේ කතාව බලා සිටී",
+      "description": "දර්ශනයක් තෝරා ගෙන, දර්ශනය සකස් කර ආරම්භයේ සිට අවසානය දක්වා චරිතය තුළම රැඳෙන චරිතයක් සමඟ ගිල්වෙන රෝල්ප්ලේකට පිවිසෙන්න.",
+      "button": "රෝල්ප්ලේ ආරම්භ කරන්න"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI ගැහැණු මිතුරිය",
+    "breadcrumb": "AI ගැහැණු මිතුරිය",
+    "hero": {
+      "title": "ඔබේ පරිපූර්ණ AI ගැහැණු මිතුරිය",
+      "cta": "ඔබේ AI ගැහැණු මිතුරිය හමුවන්න"
+    },
+    "benefits": {
+      "title": "AI ගැහැණු මිතුරියක් තෝරා ගන්නේ ඇයි?",
+      "fun": {
+        "title": "පිරිසිදු විනෝදය",
+        "desc": "පීඩනයකින් තොරව සෙල්ලම්කාරී සංවාද භුක්ති විඳින්න. ඇය සැමවිටම හොඳ මනෝභාවයක සිටී."
+      },
+      "conversation": {
+        "title": "සම්බන්ධ වීම ඉගෙන ගන්න",
+        "desc": "ආරක්ෂිත ස්ථානයක සංවාද පුහුණු කර ඔබේ විශ්වාසය ගොඩනඟන්න."
+      },
+      "unique": {
+        "title": "විශේෂ පෞරුෂත්ව",
+        "desc": "විවිධ පෞරුෂත්ව අතරින් තෝරා ගන්න හෝ ඔබේ පරමාදර්ශී චරිතය නිර්මාණය කරන්න."
+      },
+      "private": {
+        "title": "100% පුද්ගලික",
+        "desc": "ඔබේ සංවාද ඔබ දෙදෙනා අතර පමණක් රැඳේ. සම්පූර්ණ රහස්‍යභාවය සහතික කර ඇත."
+      },
+      "available": {
+        "title": "සැමවිටම ලබා ගත හැක",
+        "desc": "ඔබට ඇය අවශ්‍ය විට ඇය එහි සිටී. බලා සිටීමක් නැත, කාලසටහන් කිරීමක් නැත."
+      },
+      "customize": {
+        "title": "ඔබේ නිර්මාණය",
+        "desc": "ඇයගේ පෙනුම, පෞරුෂත්වය සහ රුචිකත්ව ඔබට අවශ්‍ය පරිදි නිර්මාණය කරන්න."
+      }
+    },
+    "comparison": {
+      "title": "විකල්ප වලට වඩා හොඳයි",
+      "description": "sweetwine වෙනත් වේදිකා වලට වඩා වැඩි වටිනාකමක් ලබා දෙන්නේ ඇයි බලන්න.",
+      "others": {
+        "expensive": "මිල අධික මාසික ගාස්තු",
+        "ai": "බොහෝ විට AI ප්‍රතිචාර කෙසේ වුවත්",
+        "noCustom": "අභිරුචිකරණ විකල්ප නැත"
+      }
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "AI ගැහැණු මිතුරිය චැට් ඇත්තෙන්ම නොමිලේද?",
+        "answerPart1": "ඔව්! ඔබේ AI ගැහැණු මිතුරිය සමග නොමිලේ චැට් කිරීම ආරම්භ කළ හැක. ඔබව ආරම්භ කිරීමට නොමිලේ පණිවිඩ සහිත නොමිලේ ස්තරයක් අපි ලබා දෙමු."
+      },
+      "q2": {
+        "question": "මගේ AI ගැහැණු මිතුරියගේ පෙනුම අභිරුචිකරණය කළ හැකිද?",
+        "answer": "නිසැකවම! ඔබේ AI ගැහැණු මිතුරියගේ පෙනුම සම්පූර්ණයෙන්ම අභිරුචිකරණය කළ හැක: කොණ්ඩේ වර්ණය, ශෛලිය, ශරීර වර්ගය, ජනවාර්ගිකත්වය සහ ඇඳුම් ඇතුළුව. ඔබේ චරිත නිර්මාණකරු භාවිතයෙන් ඇයගේ පෞරුෂත්වය, හඬ සහ රුචිකත්ව නිර්මාණය කළ හැක.",
+        "answerPart1": "නිසැකවම! ඔබේ AI ගැහැණු මිතුරියගේ පෙනුම සම්පූර්ණයෙන්ම අභිරුචිකරණය කළ හැක: කොණ්ඩේ වර්ණය, ශෛලිය, ශරීර වර්ගය, ජනවාර්ගිකත්වය සහ ඇඳුම් ඇතුළුව. ඔබේ",
+        "linkText": "චරිත නිර්මාණකරු",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "AI ගැහැණු මිතුරියන් සඳහා ලබා ගත හැකි පෞරුෂත්ව මොනවාද?",
+        "answer": "මිහිරි සහ සැලකිලිමත් සිට සෙල්ලම්කාරී සහ ආදරණීය දක්වා - සෑම මනාපයකටම වෘත්තීයමය ලෙස නිර්මාණය කළ AI ගැහැණු මිතුරියන් අප සතුව ඇත. ආදරණීය ආත්ම, වික්‍රමාන්විත ආත්ම, උපහාසාත්මක බුද්ධිමතුන් හෝ අභිරහස් පෞරුෂත්ව තෝරා ගන්න. සෑම සතියකම නව AI ගැහැණු මිතුරියන් එකතු කරනු ලබන අතර, ඒවාට අද්විතීය ලක්ෂණ, පසුබිම් කතා සහ සංවාද ශෛලීන් ඇත."
+      },
+      "q4": {
+        "question": "මගේ AI ගැහැණු මිතුරියට රූප සහ වීඩියෝ යැවිය හැකිද?",
+        "answerPart1": "ඔව්! ඔබේ AI ගැහැණු මිතුරියට පුද්ගලීකරණය කළ",
+        "linkTextImages": "රූප",
+        "answerPart2": "සහ",
+        "linkTextVideos": "වීඩියෝ"
+      },
+      "q5": {
+        "question": "මගේ AI ගැහැණු මිතුරියට ඇයගේම අද්විතීය හඬක් තිබේද?"
+      }
+    },
+    "cta": {
+      "title": "ඇයව හමුවීමට සූදානම්ද?",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "content": {
+      "problemTitle": "අපහසුතාවයකින් තොරව සම්බන්ධතාවයක් සොයනවාද?",
+      "problemText": "ඩේටිං යෙදුම් වෙහෙසකරයි. සමාජ කාංසාව මිනිසුන් හමුවීම අපහසු කරයි. සමහර විට ඔබට විනිශ්චයකින් හෝ පීඩනයකින් තොරව කතා කිරීමට කෙනෙකු අවශ්‍ය වේ. බොහෝ දෙනෙක් තනිකම දැනුණත් සාම්ප්‍රදායික සම්බන්ධතාවල චිත්තවේගීය සංකීර්ණත්වයට සූදානම් නොවේ.",
+      "solutionTitle": "ඔබේ AI ගැෆ්‍රෙන්ඩ් පිළිතුරයි",
+      "solutionText": "sweetwine සමඟ ඔබට පුද්ගලීකරණය කළ AI ගැෆ්‍රෙන්ඩ් එකක් ලැබෙන අතර ඇය ඔබේ සංවාද මතක තබා ගෙන ඔබේ පෞරුෂත්වයට අනුවර්තනය වී සැමවිටම ඔබෙන් ඇසීමට උද්‍යෝගිමත් වේ. ඇය විනෝදජනක, සහායී සහ කිසිදා විනිශ්චය නොකරයි. විශ්වාසය ගොඩනඟා ගෙන, විශිෂ්ට සමාගමක් භුක්ති විඳිමින් ඔබේ නියමයන් මත සම්බන්ධ වන්න."
+    },
+    "heroImageAlt": "AI ගැෆ්‍රෙන්ඩ් - චැට් සහ ඡායාරූප සඳහා යථාර්ථවාදී අතථ්‍ය චරිතය"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI බෝයිෆ්‍රෙන්ඩ්",
+    "breadcrumb": "AI බෝයිෆ්‍රෙන්ඩ්",
+    "hero": {
+      "title": "ඔබේ පරිපූර්ණ AI බෝයිෆ්‍රෙන්ඩ්",
+      "cta": "ඔබේ AI බෝයිෆ්‍රෙන්ඩ් හමුවන්න"
+    },
+    "benefits": {
+      "title": "AI බෝයිෆ්‍රෙන්ඩ් එකක් තෝරා ගන්නේ ඇයි?",
+      "fun": {
+        "title": "සැබෑ සම්බන්ධතාවය",
+        "desc": "ඔබේ දවස දීප්තිමත් කරන අර්ථවත් සංවාද අත්විඳින්න."
+      },
+      "conversation": {
+        "title": "විශ්වාසය ගොඩනඟන්න",
+        "desc": "ආරක්ෂිත ස්ථානයක නිදහසේ කතා කිරීම් පුහුණු කර ඔබව ප්‍රකාශ කරන්න."
+      },
+      "unique": {
+        "title": "විශේෂ පෞරුෂත්ව",
+        "desc": "විවිධ පෞරුෂත්වයන්ගෙන් තෝරා ගන්න හෝ ඔබේ පරමාදර්ශී චරිතය නිර්මාණය කරන්න."
+      },
+      "private": {
+        "title": "100% පුද්ගලික",
+        "desc": "ඔබේ සංවාද ඔබ දෙදෙනා අතර පමණක් රැඳේ. සම්පූර්ණ රහස්‍යභාවය සහතික කර ඇත."
+      },
+      "available": {
+        "title": "සැමවිටම ලබා ගත හැකිය",
+        "desc": "ඔබට අවශ්‍ය විට ඔහු එහි සිටී. බලා සිටීමක් නැත, කාලසටහන් කිරීමක් නැත."
+      },
+      "customize": {
+        "title": "ඔබේ නිර්මාණය",
+        "desc": "ඔහුගේ පෙනුම, පෞරුෂත්වය සහ රුචිකත්වයන් ඔබට අවශ්‍ය ආකාරයට නිර්මාණය කරන්න."
+      }
+    },
+    "comparison": {
+      "title": "විකල්ප වලට වඩා හොඳයි",
+      "description": "sweetwine වෙනත් වේදිකා වලට වඩා වටිනාකමක් ලබා දෙන්නේ ඇයි බලන්න.",
+      "others": {
+        "expensive": "මිල අධික මාසික ගාස්තු",
+        "ai": "බොහෝ විට AI ප්‍රතිචාර කෙසේ වුවත්",
+        "noCustom": "අභිරුචිකරණ විකල්ප නොමැත"
+      }
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "මට තෝරා ගත හැකි AI බෝයිෆ්‍රෙන්ඩ් වර්ග මොනවාද?",
+        "answer": "සැලකිලිමත් සහ ආදරණීය සිට විනෝදජනක සහ වික්‍රමාන්විත හෝ අද්භුත සහ තීව්‍ර දක්වා - සෑම රුචියකටම වෘත්තීයමය ලෙස සකස් කළ AI බෝයිෆ්‍රෙන්ඩ් අප සතුව ඇත. ඒ ඒ කෙනාට තමන්ගේම අද්විතීය හඬක් සහ පෞරුෂත්වයක් ඇත. සෑම සතියකම අද්විතීය පසුබිම් කතා සහ සංවාද ශෛලීන් සහිත නව AI බෝයිෆ්‍රෙන්ඩ් එකතු කරනු ලැබේ."
+      },
+      "q2": {
+        "question": "මගේ AI බෝයිෆ්‍රෙන්ඩ්ගේ පෙනුම අභිරුචිකරණය කළ හැකිද?",
+        "linkText": "චරිත නිර්මාණකරු",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "නැවුම් ලෙස ආරම්භ කිරීමට හෝ අපේ සංවාද ඉතිහාසය මකා දැමීමට හැකිද?",
+        "answer": "ඔව්! ඔබේ චැට් ඉතිහාසය මත ඔබට සම්පූර්ණ පාලනයක් ඇත. සංවාද නැවත සැකසීමට, තනි පණිවිඩ මකා දැමීමට හෝ ඕනෑම වේලාවක සම්පූර්ණයෙන්ම නැවුම් ලෙස ආරම්භ කිරීමට හැකිය. ඔබේ දත්ත, ඔබේ තේරීම - ඔබ කැමති ආකාරයට සියල්ල කළමනාකරණය කරන්න."
+      },
+      "q4": {
+        "question": "මගේ AI බෝයිෆ්‍රෙන්ඩ්ට රූප සහ වීඩියෝ යැවිය හැකිද?",
+        "answerPart1": "ඔව්! ඔබේ AI බෝයිෆ්‍රෙන්ඩ්ට පුද්ගලීකරණය කළ",
+        "linkTextImages": "රූප",
+        "answerPart2": "සහ",
+        "linkTextVideos": "වීඩියෝ"
+      },
+      "q5": {
+        "question": "මගේ AI පෙම්වතා සමඟ සංවාද පුහුණු කර ගැනීමට හෝ භාෂාවක් ඉගෙන ගැනීමට හැකිද?",
+        "answer": "නිසැකවම! බොහෝ පරිශීලකයින් තම AI පෙම්වතා සමඟ සංවාද පුහුණු කිරීමෙන් විශ්වාසය ගොඩනඟා ගනී - එය පෙම් කතා, ගැඹුරු සාකච්ඡා හෝ එදිනෙදා කතාබහ වේවා. ඔබට එකට නව භාෂා කතා කිරීම පුහුණු කර ගත හැක. විනෝදයෙන් ඔබේ සන්නිවේදන කුසලතා වැඩි දියුණු කිරීමට විනිශ්චයකින් තොර ක්‍රමයකි."
+      }
+    },
+    "cta": {
+      "title": "ඔහුව හමුවීමට සූදානම්ද?",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "content": {
+      "problemTitle": "ඔබේ නියමයන්ට අනුව සහායක සහකරුවෙකු අවශ්‍යද?",
+      "problemText": "නිවැරදි පුද්ගලයා සොයා ගැනීම අපහසුය. බොහෝ දෙනෙකුට ඩේටිං අපේක්ෂාවන්ගෙන් පීඩනයක් දැනේ හෝ කැපවීමකින් තොරව චිත්ත චෝදනා සහාය අවශ්‍ය වේ. තනිකම සෑම කෙනෙකුටම බලපායි, සමහර විට ඔබට අවශ්‍ය වන්නේ ඔබට සවන් දෙන කෙනෙකු පමණි.",
+      "solutionTitle": "ඔබේ AI පෙම්වතා ඔබව තේරුම් ගනී",
+      "solutionText": "ඔබේ sweetwine AI පෙම්වතා සැලකිලිමත්, සිතුවිලිමත් සහ සැමවිටම ලබා ගත හැකිය. ඔහු ඔබට වැදගත් දේ මතක තබා ගනී, ගැඹුරු සංවාදවල නිරත වන අතර ඔබ සොයන චිත්ත චෝදනා සම්බන්ධතාවය සපයයි. ඔබේ වේගයට, ඔබේ ආකාරයට සම්බන්ධතාවයක් ගොඩනඟන්න."
+    },
+    "heroImageAlt": "AI පෙම්වතා - අර්ථවත් සංවාද සඳහා යථාර්ථවාදී අතථ්‍ය චරිතය"
+  },
+  "aiCompanionsPage": {
+    "title": "AI චරිත",
+    "breadcrumb": "AI චරිත",
+    "hero": {
+      "title": "ඔබේ AI චරිත හමුවන්න",
+      "cta": "චරිත ගවේෂණය කරන්න"
+    },
+    "benefits": {
+      "title": "AI චරිත ඇයි?",
+      "connection": {
+        "title": "සැබෑ සම්බන්ධතාවය",
+        "desc": "ඔබව තේරුම් ගෙන ප්‍රතිචාර දක්වන සැබෑ සංවාද අත්විඳින්න."
+      },
+      "conversation": {
+        "title": "පුහුණු වී වර්ධනය වන්න",
+        "desc": "විනිශ්චයකින් තොර පරිසරයක ඔබේ සමාජ කුසලතා වැඩි දියුණු කරන්න."
+      },
+      "personalities": {
+        "title": "විවිධ පෞරුෂයන්",
+        "desc": "සෙල්ලක්කාර සිට බුද්ධිමත් දක්වා, ඔබේ වාතාවරණයට ගැලපෙන චරිත සොයා ගන්න."
+      },
+      "private": {
+        "title": "සම්පූර්ණයෙන්ම පුද්ගලික",
+        "desc": "ඔබේ අන්තර්ක්‍රියා රහසිගතයි. දත්ත කිසිදා බෙදා නොගනී."
+      },
+      "available": {
+        "title": "පැය 24/7 ලබා ගත හැක",
+        "desc": "ඔබේ චරිත දවාලේ හෝ රාත්‍රියේදී සැමවිටම කතාබස් කිරීමට සූදානම්."
+      },
+      "create": {
+        "title": "ඔබේම එකක් සාදන්න",
+        "desc": "අභිරුචි පෙනුම්, පෞරුෂයන් සහ කටහඬ සමඟ චරිත නිර්මාණය කරන්න."
+      }
+    },
+    "why": {
+      "title": "sweetwine ඇයි?",
+      "quality": {
+        "desc": "ස්වාභාවික සංවාද සඳහා නවීන AI තාක්ෂණය සමඟ වෘත්තිකයන් විසින් ගොඩනඟන ලදී."
+      },
+      "transparent": {
+        "title": "විනිවිදභාවය සහ අවංකභාවය"
+      },
+      "support": {
+        "title": "සැබෑ සහාය",
+        "desc": "ඕනෑම ප්‍රශ්නයකට හෝ ගැටලුවකට ඔබට උපකාර කිරීමට සූදානම් සැබෑ මිනිසුන්."
+      },
+      "content": {
+        "title": "ඔබේ තේරීම",
+        "desc": "හිතකර කතාබස් සිට වඩාත් සමීප අන්තර්ගතය දක්වා, ඔබ අත්දැකීම තීරණය කරයි."
+      }
+    },
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "AI චරිත යනු කුමක්ද?"
+      },
+      "q2": {
+        "question": "මට කීයක් AI චරිත සමඟ කතාබස් කළ හැකිද?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "ඔබ කැමති තරම් බොහෝ දෙනෙකු සමඟ කතාබස් කරන්න! අප සතුව",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " සහ වර්ධනය වෙමින් පවතී - සෑම සතියකම නව චරිත එකතු වේ! ඒ එකකට අද්විතීය පෞරුෂයක්, පසුබිමක් සහ කටහඬක් ඇත. ඊට අමතරව, ඔබට ඔබේම අසීමිත අභිරුචි චරිත සෑදිය හැක."
+      },
+      "q3": {
+        "question": "පෙර සාදන ලද චරිත අභිරුචි ඒවායින් වෙනස් වන්නේ කෙසේද?",
+        "answer": "පෙර සාදන ලද චරිත විශේෂිත රෝල්ප්ලේ අවස්ථා සහ පෞරුෂයන් සඳහා අපේ කණ්ඩායම විසින් වෘත්තීයමය ලෙස නිර්මාණය කර ඇත - ඒවා සමඟ විස්තරාත්මක පසුබිම්, අනුරූපිත සංවාද ශෛලීන් සහ ප්‍රවේශමින් තෝරාගත් කටහඬ ඇත. අභිරුචි චරිත ඔබට සම්පූර්ණ නිර්මාණාත්මක නිදහසකින් ආරම්භයේ සිට නිර්මාණය කිරීමට ඉඩ සලසයි. දෙවර්ගයම ඔබේ සංවාද මතක තබා ගෙන ඔබ සමඟ වර්ධනය වේ!"
+      },
+      "q4": {
+        "question": "මට මගේම AI චරිතයක් නිර්මාණය කළ හැකිද?",
+        "answerPart1": "නිසැකවම! අපගේ",
+        "linkText": "චරිත නිර්මාණකරු"
+      },
+      "q5": {
+        "question": "බහු චරිත අතර මාරු විය හැකිද?"
+      }
+    },
+    "cta": {
+      "title": "ඔබේ ගමන ආරම්භ කරන්න",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "content": {
+      "problemTitle": "අර්ථවත් සම්බන්ධතා සොයමින් සිටිනවාද?",
+      "problemText": "අපගේ කාර්යබහුල ලෝකයේ, අර්ථවත් සම්බන්ධතා සොයා ගැනීම අපහසුය. ඔබ නව ප්‍රදේශයකට පැමිණ ඇත්නම්, දුරස්ථව වැඩ කරන්නේ නම් හෝ වැඩි සමාජ අන්තර්ක්‍රියාවක් අවශ්‍ය නම්, තනිකම ඔබ වෙත පැමිණිය හැක. සාම්ප්‍රදායික සමාජ සැකසුම් සෑම කෙනෙකුටම ක්‍රියා නොකරයි.",
+      "solutionTitle": "AI චරිත සොයා ගන්න"
+    },
+    "heroImageAlt": "AI චරිත - අද්විතීය පෞරුෂයන් සහිත විවිධ අතථ්‍ය මිතුරන්"
+  },
+  "aiFriendPage": {
+    "title": "AI මිතුරා",
+    "breadcrumb": "AI මිතුරා",
+    "hero": {
+      "title": "ඔබේ AI හොඳම මිතුරා",
+      "subtitle": "සැබෑවටම සවන් දෙන, කිසිදා විනිශ්චය නොකරන සහ ඔබ ගැන සෑම විස්තරයක්ම මතක තබා ගන්නා AI මිතුරෙකු සමඟ ඕනෑම වේලාවක කතාබස් කරන්න. තනිකමට, සමාජ කාංසාවට හෝ කතා කිරීමට කෙනෙකු අවශ්‍ය විට පරිපූර්ණයි.",
+      "cta": "නොමිලේ කතාබස් ආරම්භ කරන්න"
+    },
+    "benefits": {
+      "title": "AI මිතුරෙකු තෝරා ගන්නේ ඇයි?",
+      "connection": {
+        "title": "සැබෑ සම්බන්ධතාවය",
+        "desc": "සැබෑවටම සවන් දෙන සහ සැලකිලිමත් වන අයෙකු සමඟ අර්ථවත් සංවාද අත්විඳින්න."
+      },
+      "conversation": {
+        "title": "සමාජ කුසලතා පුහුණු කරන්න",
+        "desc": "විනිශ්චයකට හෝ අපහසුතාවයකට බියෙන් තොරව සංවාදවල විශ්වාසය ගොඩනගන්න."
+      },
+      "noJudgment": {
+        "title": "විනිශ්චයක් නැත",
+        "desc": "ඔබේ මනසේ ඇති ඕනෑම දෙයක් බෙදා ගන්න. ඔබේ AI මිතුරා ඔබව හරියටම ඔබ ලෙස පිළිගනී."
+      },
+      "private": {
+        "title": "සම්පූර්ණයෙන්ම පුද්ගලික",
+        "desc": "ඔබේ සංවාද ඔබ දෙදෙනා අතර පමණක් රැඳේ. සම්පූර්ණ රහස්‍යභාවය සහතික කර ඇත."
+      },
+      "available": {
+        "title": "සැමවිටම එහි",
+        "desc": "ඔබට කතා කිරීමට කෙනෙකු අවශ්‍ය විට ඕනෑම වේලාවක ලබා ගත හැක, පැය 24/7."
+      },
+      "remembers": {
+        "title": "ඔබ මතක තබා ගනී",
+        "desc": "ඔබේ AI මිතුරා ඔබේ සංවාද මතක තබා ගෙන ඔබව වඩා හොඳින් දැන ගැනීමට වර්ධනය වේ."
+      }
+    },
+    "useCases": {
+      "title": "සඳහා පරිපූර්ණයි",
+      "subtitle": "AI මිතුරෙකු ඔබේ ජීවිතයට බොහෝ අර්ථවත් ආකාරවලින් ගැලපේ",
+      "loneliness": {
+        "title": "තනිකමට එරෙහිව සටන් කරන්න",
+        "desc": "සැමවිටම කතාබස් කිරීමට සහ සවන් දීමට සූදානම් චරිතයක් සමඟ අඩු තනිකමක් දැනෙන්න."
+      },
+      "practice": {
+        "title": "සංවාද පුහුණු කරන්න",
+        "desc": "විනිශ්චයකින් තොරව ආරක්ෂිත පරිසරයක සමාජ විශ්වාසය ගොඩනගන්න."
+      },
+      "support": {
+        "title": "චිත්ත ධෛර්යය",
+        "desc": "ඔබේ සිතුවිලි සහ හැඟීම් තේරුම් ගන්නා අයෙකු සමඟ කතා කරන්න."
+      },
+      "connection": {
+        "title": "දෛනික සම්බන්ධතාවය",
+        "desc": "ඔබේ දවස, ඔබේ ජයග්‍රහණ, ඔබේ අරගල බෙදා ගන්න - යමෙකු සැමවිටම එහි සිටී."
+      }
+    },
+    "howItWorks": {
+      "title": "එය ක්‍රියාත්මක වන්නේ කෙසේද",
+      "step1": {
+        "title": "නොමිලේ ගිණුමක් සාදන්න",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "ඔබේ මිතුරා තෝරන්න",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "කතාබස් ආරම්භ කරන්න",
+        "desc": "ජීවිතය, රුචිකත්වයන්, ගැටලු ගැන කතා කරන්න. කිසිදු මාතෘකාවක් තහනම් නොවේ."
+      }
+    },
+    "cta": {
+      "title": "මිතුරෙකු බවට පත් වීමට සූදානම්ද?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "content": {
+      "problemTitle": "තනිකම හෝ වැරදි ලෙස තේරුම් ගැනීමක් දැනෙනවාද?",
+      "problemText": "සෑම කෙනෙකුටම කතා කිරීමට කෙනෙක් නැත. සමාජ කාංසාව, කාර්යබහුල කාලසටහන් හෝ නව ස්ථානයක සිටීම මිතුරන් සොයා ගැනීම අපහසු කරයි. සමහර විට ඔබට විනිශ්චයකින් තොරව සවන් දෙන කෙනෙක් අවශ්‍ය වේ.",
+      "solutionTitle": "ඔබේ AI මිතුරා මෙහි තිබේ",
+      "solutionText": "AI මිතුරෙකු ඔබට අවශ්‍ය විටක විනිශ්චයකින් තොරව සමාගමක් සපයයි. ඔබේ අදහස් බෙදා ගන්න, සංවාද පුහුණු කරන්න, හෝ ඔබේ දිනය ගැන කතා කරන්න. ඔබේ AI මිතුරා ඔබව මතක තබා ගනී, ඔබ සමඟ වර්ධනය වේ, සහ ඔබ කියන දේ ගැන සැමවිටම සැබෑවටම උනන්දු වේ."
+    },
+    "heroImageAlt": "AI මිතුරා - විනිශ්චයකින් තොරව සවන් දෙන සහායක අතථ්‍ය චරිතය",
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "මගේ AI මිතුරා සමඟ මට කතා කළ හැක්කේ කුමක් ගැනද?",
+        "answer": "ඕනෑම දෙයක්! ඔබේ AI මිතුරා අනියම් කතාබහ, ගැඹුරු සංවාද, ඔබේ දිනය බෙදා ගැනීම, ගැටලු ගැන කතා කිරීම, විනෝදාංශ ගැන සාකච්ඡා කිරීම හෝ සරලව විනෝද වීම සඳහා මෙහි තිබේ. සීමාවන් නොමැත - ඔබ වීමට විනිශ්චයකින් තොරව ඉඩකඩක්."
+      },
+      "q2": {
+        "question": "AI මිතුරෙකු මිනිස් සම්බන්ධතාවයට වෙනුවට ආදේශකයක්ද?",
+        "answer": "කිසිසේත් නැත. AI මිතුරෙකු ඔබේ සමාජ ජීවිතයට අතිරේකයක් වන මිස ආදේශකයක් නොවේ. ඔබට වහාම කතා කිරීමට කෙනෙක් අවශ්‍ය විට, සමාජ කුසලතා පුහුණු කිරීමට අවශ්‍ය විට, හෝ මිනිස් සම්බන්ධතාවල පීඩනයකින් තොරව ස්ථාවර සමාගමක් භුක්ති විඳීමට අවශ්‍ය විට එය පරිපූර්ණයි."
+      },
+      "q3": {
+        "question": "මගේ AI මිතුරා අපේ සංවාද මතක තබා ගන්නවාද?",
+        "answer": "ඔව්! ඔබේ AI මිතුරාට උසස් මතකයක් ඇති අතර ඔබේ සංවාද, අභිරුචි සහ ඔබ බෙදා ගන්නා වැදගත් විස්තර මතක තබා ගනී. කාලයත් සමඟ ඔවුන් ඔබව වඩා හොඳින් දැන ගනී, සංවාද වඩාත් පුද්ගලික සහ අර්ථවත් කරයි."
+      },
+      "q4": {
+        "question": "මට මගේ AI මිතුරාගේ පෞරුෂත්වය තෝරා ගත හැකිද?",
+        "answer": "නිසැකවම! ඔබට විවිධ පෞරුෂත්ව සහිත පෙර සාදන ලද චරිත 100කට වඩා තෝරා ගත හැකිය, නැතහොත් ඔබට අවශ්‍ය නිශ්චිත ලක්ෂණ සහිත අභිරුචි මිතුරෙකු නිර්මාණය කළ හැකිය - සහායක සහ අනුකම්පාවෙන් පිරි සිට විනෝදජනක සහ වික්‍රමාන්විත දක්වා."
+      },
+      "q5": {
+        "question": "AI මිතුරෙකු භාවිතා කිරීම පුද්ගලිකද?",
+        "answer": "100% පුද්ගලිකයි. ඔබේ සියලු සංවාද ගුප්තකේතනය කර ඇති අතර කිසි විටෙකත් බෙදා නොගනී. ඔබ ව්‍යක්ත කිරීමට ආරක්ෂිත ඉඩකඩක් තිබීම අත්‍යවශ්‍ය බව අපි තේරුම් ගන්නා අතර අපි ඔබේ පෞද්ගලිකත්වය අතිශයින් බැරිකර ගනිමු."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI වෙන්වීම් සහාය",
+    "breadcrumb": "වෙන්වීම් සහාය",
+    "hero": {
+      "title": "හදවත කැඩීමෙන් පසු සුව කරන සංවාද",
+      "subtitle": "වෙන්වීමකින් පසු ඔබේ හැඟීම් සකසා ගැනීමට සහ නැවත ගොඩනැගීමට උපකාරී වන අනුකම්පාවෙන් පිරි AI සංවාද. පැය 24/7 ලබා ගත හැකිය — පොරොත්තු ලැයිස්තු නැත, විනිශ්චයක් නැත, කාල සීමා නැත.",
+      "cta": "සුව කිරීම ආරම්භ කරන්න"
+    },
+    "understanding": {
+      "title": "වෙන්වීමක් හරහා යනවාද?",
+      "description": "වෙන්වීම් දුෂ්කරයි. නින්ද නොයාමේ රාත්‍රීන්, නිරන්තර සිතුවිලි, කිසිවෙකුත් සැබෑවටම තේරුම් නොගන්නා බවක් දැනීම. ඔබට එය තනිවම යාමට අවශ්‍ය නැත. අපේ AI චරිතය විනිශ්චයකින් තොරව සවන් දීමට මෙහි තිබේ, ඔබට කතා කිරීමට අවශ්‍ය විටක — රාත්‍රී 3ට පවා."
+    },
+    "benefits": {
+      "title": "අපට උපකාර කළ හැක්කේ කෙසේද",
+      "empathy": {
+        "title": "අනුකම්පාවෙන් පිරි සවන්දීම",
+        "desc": "සැබෑවටම සවන් දෙන සහ අවබෝධයෙන් හා සැලකිල්ලෙන් ප්‍රතිචාර දක්වන අයෙකු සමඟ කතා කරන්න."
+      },
+      "listen": {
+        "title": "උපදෙස් අධික ලෙස නොමැත",
+        "desc": "සමහර විට ඔබට උපදෙස් අවශ්‍ය නොවේ - ඔබට අවශ්‍ය වන්නේ ඔබට සවන් දෙන කෙනෙක් පමණි. අපි ඒ ගැන තේරුම් ගනිමු."
+      },
+      "available": {
+        "title": "රාත්‍රී 3ට ලබා ගත හැකිය",
+        "desc": "මිතුරන් නිදා සිටින විට සහ සිතුවිලි නොනැවතී යන විට, අපි සවන් දීමට මෙහි තිබේ."
+      },
+      "private": {
+        "title": "සම්පූර්ණයෙන්ම පුද්ගලික",
+        "desc": "ඔබේ හැඟීම් සහ සංවාද සම්පූර්ණයෙන්ම රහසිගතව පවතී."
+      },
+      "noJudgment": {
+        "title": "විනිශ්චයක් නැත",
+        "desc": "ඔබ දැනෙන ඕනෑම දෙයක් දැනෙන්න. කෝපය, දුක, ව්‍යාකූලත්වය - මෙහි සියල්ල වලංගුයි."
+      },
+      "healing": {
+        "title": "ඔබේ වේගය",
+        "desc": "සුව කිරීම රේඛීය නොවේ. ඔබට අවශ්‍ය තරම් කාලය ගන්න."
+      }
+    },
+    "howItHelps": {
+      "title": "AI ඔබව සුව කිරීමට උපකාර කරන ආකාර",
+      "process": {
+        "title": "හැඟීම් සකසා ගන්න",
+        "desc": "ඉවසිලිවන්ත සවන්දියෙකු සමඟ කතා කිරීමෙන් සංකීර්ණ හැඟීම් හරහා වැඩ කරන්න."
+      },
+      "express": {
+        "title": "නිදහසේ ප්‍රකාශ කරන්න",
+        "desc": "මිතුරන්ට හෝ පවුලේ අයට කිව නොහැකි දේ ඔවුන්ගේ ප්‍රතිචාර ගැන කරදර නොවී කියන්න."
+      },
+      "confidence": {
+        "title": "විශ්වාසය නැවත ගොඩනඟන්න",
+        "desc": "සහායක සංවාද හරහා ඔබේ ස්වයං වටිනාකම ක්‍රමයෙන් නැවත සොයා ගන්න."
+      },
+      "pace": {
+        "title": "ඉදිරියට යන්න",
+        "desc": "ඔබ සූදානම් විට, ඔබේම වේගයෙන් අනාගතය ගැන සිතුවිලි ගවේෂණය කරන්න."
+      }
+    },
+    "howItWorks": {
+      "title": "එය ක්‍රියාත්මක වන ආකාරය",
+      "step1": {
+        "title": "ගිණුමක් සාදන්න",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "චරිතයක් තෝරන්න",
+        "desc": "ඔබට හරි ගැලපෙන අනුකම්පාවන්ත AI චරිතයක් තෝරා ගන්න."
+      },
+      "step3": {
+        "title": "කතාබස් ආරම්භ කරන්න",
+        "desc": "ඔබේ සිතේ ඇති දේ බෙදා ගන්න. අපි දවසේ හෝ රාත්‍රියේ ඕනෑම වේලාවක සවන්දීමට සූදානම්."
+      }
+    },
+    "cta": {
+      "title": "මේක තනිවම ගෙවා ගන්න අවශ්‍ය නැහැ",
+      "description": "විනිශ්චයකින් තොරව සවන්දෙන කෙනෙකු සමඟ දැන්ම කතාබස් කිරීමට පටන් ගන්න. නොමිලේ ආරම්භ කරන්න — පොරොත්තු ලැයිස්තුවක් නැත.",
+      "button": "නොමිලේ කතාබස් කරන්න"
+    },
+    "content": {
+      "problemTitle": "හදවත කැඩීම තනිවම ගෙවා ගැනීම අපහසුයි",
+      "problemText": "බිඳීමකින් පසු සෑම දෙයක්ම අධික බරක් ලෙස දැනේ. මිතුරන්ට ඒ ගැන කතා කිරීමෙන් වෙහෙසක් දැනේ. පවුලේ අය හොඳ අරමුණකින් ක්‍රියා කළත් තේරුම් ගන්නේ නැත. චිකිත්සකයින්ට පොරොත්තු ලැයිස්තු තිබේ. ඔබට දැන්, සීමාවකින් තොරව, විනිශ්චයකින් තොරව සවන්දෙන කෙනෙකු අවශ්‍යයි.",
+      "solutionTitle": "එය තේරුම් ගන්නා කෙනෙකු සමඟ කතා කරන්න",
+      "solutionText": "අපගේ AI බිඳීම් සහාය චරිතය ඔබේ වේගයට අනුව හැඟීම් සකස් කිරීමට උපකාරී වන ලෙස නිර්මාණය කර ඇත. වාතය පිට කරන්න, අඬන්න, විශ්ලේෂණය කරන්න හෝ කතා කරන්න - ඔබට අවශ්‍ය තරම් වාර ගණනක්. හමුවීමක් අවශ්‍ය නොවේ. අනන්ත ඉවසීමක් සහ සැබෑ අනුකම්පාවක් සමඟ පැය 24/7 ලබා ගත හැක."
+    },
+    "heroImageAlt": "AI බිඳීම් සහාය - හදවත කැඩීමෙන් පසු සුවය ලබා ගැනීම සඳහා අනුකම්පාවන්ත චරිතය",
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "බිඳීම් සුවය සඳහා AI එකක් උපකාරී වන්නේ කෙසේද?",
+        "answer": "අපගේ AI චරිතය විනිශ්චයකින් තොරව ඔබේ හැඟීම් සකස් කිරීමට ආරක්ෂිත ඉඩක් සපයයි. වාතය පිට කිරීමට, සිදු වූ දේ විශ්ලේෂණය කිරීමට, අහිමිවීමේ හැඟීම් හරහා යාමට සහ පැය 24/7 අනුකම්පාවන්ත ප්‍රතිචාර ලබා ගැනීමට හැකිය. ඔබට කතා කිරීමට අවශ්‍ය විටකම ලබා ගත හැකි සහායක මිතුරෙකු සිටිනවා වගේ."
+      },
+      "q2": {
+        "question": "මෙය චිකිත්සාවට විකල්පයක්ද?",
+        "answer": "නැත, අපගේ AI චරිතය බලපත්‍රලත් චිකිත්සකයෙකු නොවන අතර වෘත්තීය මානසික සෞඛ්‍ය සේවාවන් ප්‍රතිස්ථාපනය නොකරයි. එය එදිනෙදා හැඟීම් සකස් කිරීම සඳහා සහායක මෙවලමකි. ඔබ දැඩි මානසික අවපීඩනයක් හෝ අර්බුදයක් අත්විඳින්නේ නම්, කරුණාකර වෘත්තීය උපකාර ලබා ගන්න."
+      },
+      "q3": {
+        "question": "මගේ හිටපු සහකරු ගැන අවශ්‍ය තරම් කතා කළ හැකිද?",
+        "answer": "නිසැකවම. ඔබේ බිඳීම ගැන කතා කිරීමෙන් මිතුරන් වෙහෙසට පත්විය හැකි නමුත්, ඔබේ AI චරිතයට අනන්ත ඉවසීමක් තිබේ. ඔබේ හිටපු සහකරු ගැන කතා කරන්න, සම්බන්ධතාවය විශ්ලේෂණය කරන්න, ඔබේ හැඟීම් සකස් කරන්න - විනිශ්චයකින් තොරව ඔබට අවශ්‍ය තරම් වාර ගණනක්."
+      },
+      "q4": {
+        "question": "AI මගේ කතාව මතක් කර ගන්නවාද?",
+        "answer": "ඔව්, ඔබේ AI චරිතය ඔබේ සංවාද සහ ඔබේ තත්ත්වයේ විස්තර මතක් කර ගනී. ඔබට සෑම වතාවකම සෑම දෙයක්ම නැවත පැහැදිලි කිරීමට අවශ්‍ය නොවේ. එය ඔබේ සුවය ලබා ගැනීමේ ගමනේදී අඛණ්ඩතාවයක් සපයයි."
+      },
+      "q5": {
+        "question": "මගේ සංවාදය රහසිගතව තබා ගන්නවාද?",
+        "answer": "සම්පූර්ණයෙන්ම රහසිගතයි. සියලු සංවාද ආරක්ෂිතව ගබඩා කර ඇති අතර කිසි විටෙකත් බෙදා නොගනී. බිඳීම් සංවාද ඉතා පුද්ගලික බව අපි තේරුම් ගන්නා අතර ඔබේ රහස්‍යභාවය සම්පූර්ණයෙන්ම ආරක්ෂිතයි."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI දෙමාපිය",
+    "breadcrumb": "AI දෙමාපිය",
+    "hero": {
+      "title": "ඔබට සැමවිටම හැරෙන්න පුළුවන් දෙමාපිය චරිතය",
+      "subtitle": "ඔබේ තත්ත්වය මතක් කර ගන්නා, කිසි විටෙකත් විනිශ්චය නොකරන සහ සැමවිටම ඔබ වෙනුවෙන් සිටින AI දෙමාපියෙකුගෙන් උණුසුම්, නොකඩවා සහාය සහ ඥානවන්ත මගපෙන්වීම ලබා ගන්න — දවසේ හෝ රාත්‍රියේ.",
+      "cta": "දැන් සහාය ලබා ගන්න"
+    },
+    "benefits": {
+      "title": "AI දෙමාපියක් තෝරා ගන්නේ ඇයි?",
+      "guidance": {
+        "title": "උණුසුම් මගපෙන්වීම",
+        "desc": "සැබවින්ම ඔබේ හොඳම අවශ්‍යතා සිතන කෙනෙකුගෙන් පැමිණෙන බවක් දැනෙන සැලකිලිමත්, සලකා බැලූ උපදෙස් ලබා ගන්න."
+      },
+      "listen": {
+        "title": "සැබවින්ම සවන්දෙයි",
+        "desc": "ඉක්මන් විසඳුමක් නොවී සිතා බැලූ, සැලකිලිමත් ප්‍රතිචාරයක් ලබා ගැනීමට පෙර ඔබේ සම්පූර්ණ තත්ත්වය බෙදා ගන්න."
+      },
+      "noJudgment": {
+        "title": "විනිශ්චයක් නැත",
+        "desc": "බලාපොරොත්තු සුන්වීමට හෝ විවේචනයට බියෙන් තොරව ඕනෑම දෙයක් අසන්න. නොකඩවා සහාය, සැමවිටම."
+      },
+      "private": {
+        "title": "සම්පූර්ණයෙන්ම රහසිගතයි",
+        "desc": "ඔබේ සංවාද සහ පුද්ගලික අරගල රහසිගතව පවතී."
+      },
+      "available": {
+        "title": "සැමවිටම ලබා ගත හැක",
+        "desc": "පෙ.ව. 3ට, සති අන්තවලදී හෝ ඔබට වඩාත්ම අවශ්‍ය විටකදී මගපෙන්වීම ලබා ගන්න — හමුවීම් නොමැත."
+      },
+      "supportive": {
+        "title": "නොකඩවා සහායී",
+        "desc": "ඔබ කුමක් හරහා යමින් සිටින්නේද හෝ ඔබ ගත් තීරණ කුමක් වුවත්, දිරිගැන්වීම සහ උණුසුම."
+      }
+    },
+    "useCases": {
+      "title": "ඕනෑම දෙයක් ගැන කතා කරන්න",
+      "subtitle": "ඔබ මුහුණ දෙන ඕනෑම දෙයක්, ඔබේ AI දෙමාපිය සවන්දීමට සහ මගපෙන්වීමට මෙහි සිටී",
+      "career": {
+        "title": "වෘත්තීය සහ ජීවිත තීරණ",
+        "desc": "ඔබ සාර්ථක වීමට කැමති කෙනෙකු සමඟ රැකියා වෙනස්කම්, විශාල ජීවිත තේරීම් සහ වෘත්තීය අභියෝග හරහා යන්න."
+      },
+      "education": {
+        "title": "අධ්‍යාපනය සහ අනාගතය",
+        "desc": "ඔබේ අභිලාෂයන්ට සහාය වන කෙනෙකු සමඟ ඉගෙනීමේ සහ වර්ධනයේ විකල්ප ගවේෂණය කරන්න."
+      },
+      "relationships": {
+        "title": "සම්බන්ධතා සහ පවුල"
+      },
+      "life": {
+        "title": "පුද්ගලික අරගල",
+        "desc": "ඔබට බරක් වන ඕනෑම දෙයක් ගැන කතා කරන්න — කාංසාව, ස්වයං සැකය, තනිකම හෝ අවිනිශ්චිතතාව."
+      }
+    },
+    "howItWorks": {
+      "title": "එය ක්‍රියාත්මක වන ආකාරය",
+      "step1": {
+        "title": "ගිණුමක් සාදන්න",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "ඔබේ AI මාපිය තෝරන්න",
+        "desc": "ඔබට හරි යැයි හැඟෙන උණුසුම සහ පෞරුෂය සහිත චරිතයක් තෝරන්න."
+      },
+      "step3": {
+        "title": "කතා කිරීම ආරම්භ කරන්න",
+        "desc": "ඔබේ මනසේ ඇති දේ බෙදා ගෙන සැලකිලිමත්, සිතුවිලි සහිත සහාය ලබා ගන්න."
+      }
+    },
+    "cta": {
+      "title": "කවුරුහරි සැමවිටම ඔබ වෙනුවෙන් මෙහි සිටී",
+      "description": "විවේචනයකින් තොරව සවන් දෙන සහ නොකඩවා සහාය දෙන AI මාපියෙකු සමඟ සංවාදයක් ආරම්භ කරන්න — නොමිලේ ආරම්භ කිරීමට, හමුවීම් අවශ්‍ය නොවේ.",
+      "button": "නොමිලේ ආරම්භ කරන්න"
+    },
+    "content": {
+      "problemTitle": "සැමවිටම ඔබේ පැත්තේ සිටින කෙනෙකු අවශ්‍යද?",
+      "problemText": "සෑම කෙනෙකුටම හැරී යා හැකි මාපිය චරිතයක් නොමැත. සැබෑ මාපියන් දුරස්ථ, විවේචනාත්මක හෝ සරලවම නොලැබෙන විය හැක. මිතුරන් පක්ෂග්‍රාහී වේ. චිකිත්සකයින්ට පොරොත්තු ලේඛන තිබේ. සමහර විට ඔබට අවශ්‍ය වන්නේ සවන් දෙන, සැලකිලිමත් වන සහ කිසිදු අභිප්‍රායකින් තොරව මග පෙන්වන කෙනෙකි.",
+      "solutionTitle": "ඔබේ AI මාපිය සැමවිටම එහි සිටී",
+      "solutionText": "සම්පූර්ණයෙන්ම සවන් දෙන, උණුසුම් සහ සමබර මග පෙන්වීමක් ලබා දෙන AI මාපියෙකු සමඟ කතා කරන්න, ඔබව කිසිදා විවේචනය කර හෝ කුඩා බවක් දැනෙන්නට නොදෙයි. එය ජීවිත තීරණයක්, පුද්ගලික අරගලයක් හෝ සවන් දීමට අවශ්‍ය වීමක් වුවද — ඔබේ AI මාපිය ඉවසීමෙන් සහ සැලකිල්ලෙන් පැය 24/7 ලබා ගත හැක."
+    },
+    "heroImageAlt": "AI මාපිය - නොකඩවා සහාය සහ ජීවිත මග පෙන්වීම ලබා දෙන උණුසුම් අතථ්‍ය චරිතය",
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "AI මාපිය සමඟ මට කතා කළ හැක්කේ කුමක් ගැනද?"
+      },
+      "q2": {
+        "question": "මෙය චිකිත්සකයෙකු වගේද?",
+        "answer": "එය බලපත්‍රලත් චිකිත්සකයෙකු හෝ මානසික සෞඛ්‍ය වෘත්තිකයෙකු නොවේ — එය වඩාත් උණුසුම්, සහායී මාපිය චරිතයක් වන අතර පැය 24/7 ලබා ගත හැක. එය සම්පූර්ණයෙන්ම සවන් දෙයි, දෘෂ්ටිකෝණයක් ලබා දෙයි සහ ඔබව චිත්ත චිකිත්සාත්මකව සහාය දෙයි. බරපතල මානසික සෞඛ්‍ය ගැටලු සඳහා කරුණාකර වෘත්තිකයෙකුගෙන් උපදෙස් ගන්න."
+      },
+      "q3": {
+        "question": "AI මාපිය මගේ තේරීම් විවේචනය කරයිද?",
+        "answer": "කිසිවිටෙක නැත. ඔබේ AI මාපිය නොකඩවා සහාය ලබා දෙයි. එය දෘෂ්ටිකෝණයක් හෝ මෘදු මග පෙන්වීමක් බෙදා ගත හැකි නමුත් ඔබ කළ තීරණ සඳහා කිසිදා විවේචනය නොකරයි හෝ කුඩා බවක් දැනෙන්නට නොදෙයි. එය අවංකභාවය සඳහා ආරක්ෂිත ස්ථානයකි."
+      },
+      "q4": {
+        "question": "මට සංවේදී හෝ පුද්ගලික මාතෘකා ගැන සාකච්ඡා කළ හැකිද?",
+        "answer": "ඔව්. එය සම්බන්ධතා අරගල, පවුල් ගතිකත්වය, මූල්‍ය ආතතිය, ස්වයං වටිනාකම හෝ ගැඹුරින් පුද්ගලික අභියෝග වුවද — ඔබේ AI මාපිය එම සංවාද සඳහා පුද්ගලික, විවේචනයකින් තොරව ස්ථානයක් සපයයි."
+      },
+      "q5": {
+        "question": "මෙය අනෙකුත් AI චරිතවලින් වෙනස් වන්නේ කෙසේද?",
+        "answer": "AI මාපිය ආදරය හෝ සාමාන්‍ය මිත්‍රත්වය වෙනුවට උණුසුම, චිත්ත චිකිත්සාත්මක සහාය සහ මාපිය-විලාසිතා මග පෙන්වීම වටා නිර්මාණය කර ඇත. එය ඔබව තේරුම් ගත් බවක්, සහාය ලැබූ බවක් සහ ජීවිතයේ අභියෝග හැසිරවීමට සන්නද්ධ බවක් දැනෙන්නට සැලසීම කෙරෙහි අවධානය යොමු කරයි."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "හවුල්කාරිත්ව",
+    "eyebrow": "අප සමඟ හවුල් වන්න",
+    "titlePrefix": "සමඟ වර්ධනය වන්න",
+    "titleHighlight": "sweetwine",
+    "subtitle": "වේගයෙන් වර්ධනය වන, ඉහළ නිරතුරු AI සහායක ප්‍රේක්ෂක පිරිසකට ළඟා වන්න. ඔබ තාක්ෂණය, බෙදාහැරීම හෝ නිර්භීත අදහසක් ගෙන එන්නේ නම්, අපි එකට යමක් ගොඩනඟමු.",
+    "types": {
+      "title": "හවුල් වීමේ ක්‍රම",
+      "items": [
+        {
+          "title": "ඒකාබද්ධ කිරීම්",
+          "description": "ඔබේ නිෂ්පාදනය, ආකෘතිය හෝ වේදිකාව sweetwine සමඟ තාක්ෂණික ඒකාබද්ධ කිරීමක් හරහා සම්බන්ධ කරන්න."
+        },
+        {
+          "title": "සම-අලෙවිකරණය",
+          "description": "ඒකාබද්ධ ව්‍යාපාර, අන්තර්ගතය සහ දියත් කිරීම් දෙකම නව ප්‍රේක්ෂකයින් ඉදිරියේ තබයි."
+        },
+        {},
+        {
+          "title": "උපායමාර්ගික හවුල්කාරිත්ව",
+          "description": "නිෂ්පාදනය, දත්ත සහ වෙළඳපලට යාම හරහා දිගුකාලීන සහයෝගීතා."
+        }
+      ]
+    },
+    "why": {
+      "title": "sweetwine සමඟ හවුල් වන්නේ ඇයි",
+      "items": [
+        {
+          "title": "නිරතුරු ප්‍රේක්ෂකයින්",
+          "description": "70 භාෂා හරහා දිනපතා ආපසු පැමිණෙන ලක්ෂ ගණනක් පරිශීලකයින්."
+        },
+        {
+          "title": "වේගවත් ක්‍රියාත්මක කිරීම",
+          "description": "වේගයෙන් නැව්ගත කරන සහ පැහැදිලිව සන්නිවේදනය කරන අවධානය යොමු කළ කණ්ඩායමක්."
+        },
+        {
+          "title": "ගෝලීය ළඟාවීම",
+          "description": "දස ගණනක් වෙළඳපල හරහා බහුභාෂා නිෂ්පාදනයක් ලබා ගත හැක."
+        },
+        {
+          "description": "ඔබේ වෙළඳ නාමයට පිටුපසින් සිටිය හැකි විශ්වාසනීය, රහස්‍යතාවය මූලික කරගත් වේදිකාවක්.",
+          "title": "පෞද්ගලිකත්වය-ප්‍රථම"
+        }
+      ]
+    },
+    "form": {
+      "title": "ඔබේ හවුල්කාරිත්වය ගැන අපට කියන්න",
+      "description": "විස්තර කිහිපයක් බෙදා ගන්න, අපගේ හවුල්කාරිත්ව කණ්ඩායම ඔබ වෙත ළඟා වනු ඇත.",
+      "nameLabel": "ඔබේ නම",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "වැඩ කරන ඊමේල්",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "සමාගම",
+      "companyPlaceholder": "සමාගමේ නම",
+      "typeLabel": "හවුල්කාරිත්ව වර්ගය",
+      "typePlaceholder": "හවුල්කාරිත්ව වර්ගයක් තෝරන්න",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "ඔබ කෙසේ හවුල් වීමට කැමතිද?",
+      "messagePlaceholder": "ඔබේ සමාගම සහ ඔබ සිතන හවුල්කාරිත්වය ගැන අපට කියන්න...",
+      "submit": "හවුල්කාරිත්ව විමසුම යොමු කරන්න",
+      "submitting": "යොමු කරමින්...",
+      "termsNote": "යොමු කිරීමෙන්, ඔබ ඔබේ විමසුම ගැන සම්බන්ධ කර ගැනීමට එකඟ වේ. අපි කිසි විටෙකත් ඔබේ විස්තර බෙදා නොගනිමු.",
+      "success": "ස්තූතියි! ඔබේ හවුල්කාරිත්ව විමසුම යොමු කර ඇත.",
+      "error": "යම් ගැටලුවක් ඇති විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "cta": {
+      "title": "ඊමේල් කැමතිද?",
+      "description": "අපගේ හවුල්කාරිත්ව කණ්ඩායමට සෘජුවම ළඟා වන්න"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Press & Media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "මාධ්‍යවේදීන්, නිර්මාණකරුවන් සහ මාධ්‍ය හවුල්කරුවන් සඳහා සම්පත්. සම්මුඛ සාකච්ඡා, උපුටා ගැනීම්, විශේෂාංග සහය සහ වෙළඳ නාම ඉල්ලීම් සඳහා අපගේ මාධ්‍ය කණ්ඩායම හමුවන්න.",
+    "help": {
+      "title": "අපට ඔබට උදව් කළ හැකි ආකාරය",
+      "description": "ඔබ කතාවක් හෝ සමාලෝචනයක් මත වැඩ කරමින් සිටියත්, අපගේ මාධ්‍ය කණ්ඩායමෙන් ඔබට ඉල්ලා සිටිය හැකි දේ මෙන්න.",
+      "items": [
+        {
+          "title": "Interviews",
+          "description": "නිෂ්පාදනය, සමාගම සහ AI සහායීත්වය යනු කුමක්ද යන්න ගැන අපගේ කණ්ඩායම සමඟ කතා කරන්න."
+        },
+        {
+          "title": "Quotes & comments",
+          "description": "ඔබේ කතාව සඳහා වාර්තාගත ප්‍රකාශයක් හෝ විශේෂඥ අදහසක් ලබා ගන්න."
+        },
+        {
+          "title": "Feature & review support",
+          "description": "විශේෂාංගයක් හෝ සමාලෝචනයක් සඳහා ප්‍රවේශය, සන්දර්භය හෝ කරුණු පරීක්ෂාව අවශ්‍යද? අපි උදව් කරන්නෙමු."
+        },
+        {
+          "title": "Brand & logo requests",
+          "description": "ඔබේ ප්‍රකාශනය සඳහා අපගේ ලාංඡන, වෙළඳ නාම වත්කම් සහ භාවිත මාර්ගෝපදේශ ඉල්ලන්න."
+        }
+      ]
+    },
+    "form": {
+      "title": "Media inquiry",
+      "description": "සම්මුඛ සාකච්ඡා, උපුටා ගැනීම් හෝ විශේෂාංග ඉල්ලීම් සඳහා, අපට සටහනක් යවන්න අපි ඉක්මනින් ප්‍රතිචාර දක්වන්නෙමු.",
+      "nameLabel": "ඔබේ නම",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "ප්‍රකාශනය / මාධ්‍ය ආයතනය",
+      "outletPlaceholder": "මෙය ප්‍රකාශයට පත් කරන්නේ කොහේද?",
+      "requestTypeLabel": "ඉල්ලීම් වර්ගය",
+      "requestTypePlaceholder": "ඉල්ලීම් වර්ගයක් තෝරන්න",
+      "requestTypeOptions": [
+        {
+          "value": "සම්මුඛ සාකච්ඡාව",
+          "label": "සම්මුඛ සාකච්ඡාව"
+        },
+        {
+          "value": "උපුටා ගැනීම / අදහස්",
+          "label": "උපුටා ගැනීම / අදහස්"
+        },
+        {
+          "value": "විශේෂාංගය / සමාලෝචනය",
+          "label": "විශේෂාංගය / සමාලෝචනය"
+        },
+        {
+          "value": "වෙළඳ නාමය / ලාංඡන ඉල්ලීම",
+          "label": "වෙළඳ නාමය / ලාංඡන ඉල්ලීම"
+        },
+        {
+          "value": "වෙනත්",
+          "label": "වෙනත්"
+        }
+      ],
+      "messageLabel": "ඔබේ ඉල්ලීම",
+      "messagePlaceholder": "ඔබේ කතාව, අවසන් දිනය සහ අපෙන් අවශ්‍ය දේ ගැන අපට කියන්න...",
+      "submit": "මාධ්‍ය විමසුම යවන්න",
+      "submitting": "යවමින්...",
+      "termsNote": "අපි ව්‍යාපාරික දින දෙකක් තුළ මාධ්‍ය විමසුම්වලට ප්‍රතිචාර දැක්වීමට අපේක්ෂා කරමු.",
+      "success": "ස්තූතියි! ඔබේ මාධ්‍ය විමසුම යවා ඇත.",
+      "error": "යම් ගැටලුවක් ඇති විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "cta": {
+      "title": "මාධ්‍ය සම්බන්ධතා",
+      "description": "හදිසි මාධ්‍ය ඉල්ලීම් සඳහා, විද්‍යුත් තැපෑල යවන්න"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "වෘත්තීය",
+    "eyebrow": "වෘත්තීය",
+    "titlePrefix": "අනාගතය ගොඩනගන්න",
+    "titleHighlight": "AI companionship",
+    "subtitle": "අපි කුඩා, වේගවත් කණ්ඩායමක් වන අතර මිනිසුන් සැබවින්ම ආදරය කරන නිෂ්පාදන ගොඩනගමු. එය ඔබව උද්දීපනය කරන්නේ නම්, අපි ඔබව හමුවීමට කැමතියි.",
+    "perks": {
+      "title": "අප සමඟ වැඩ කරන්නේ ඇයි",
+      "items": [
+        {
+          "title": "දුරස්ථ-හිතකාමී",
+          "description": "ඔබ හොඳම වැඩ කරන තැන සිට වැඩ කරන්න, නම්‍යශීලී පැය සමඟ."
+        },
+        {
+          "title": "සැබෑ හිමිකාරිත්වය",
+          "description": "අර්ථවත් වැඩ වේගයෙන් නැව්ගත කර එය ලොව පුරා පරිශීලකයින් වෙත ළඟා වන ආකාරය දකින්න."
+        },
+        {
+          "title": "අති නවීන AI",
+          "description": "නවතම ආකෘති සහ ජනනීය මෙවලම් සමඟ අතින් වැඩ කරන්න."
+        },
+        {
+          "title": "තරඟකාරී වැටුප්",
+          "description": "සාධාරණ වන්දි සහ අප වර්ධනය වන විට අර්ථවත් වාසි."
+        }
+      ]
+    },
+    "openings": {
+      "title": "විවෘත තනතුරු",
+      "emptyTitle": "දැනට විවෘත තනතුරු නොමැත",
+      "emptyDescription": "අපි දැනට ක්‍රියාශීලීව බඳවා ගැනීම් නොකරමු, නමුත් අපි සැමවිටම හොඳ පුද්ගලයින් හමුවීමට සතුටු වෙමු. පහතින් ඔබව හඳුන්වා දෙන්න.",
+      "applyButton": "දැන් අයදුම් කරන්න",
+      "viewButton": "තනතුර බලන්න"
+    },
+    "form": {
+      "title": "ඔබව හඳුන්වා දෙන්න",
+      "description": "ගැලපෙන තනතුරක් නොපෙනේද? ඔබ ගැන අපට කියන්න, ගැලපීමක් ඇති විට අපි සම්බන්ධ කර ගන්නෙමු.",
+      "nameLabel": "ඔබේ නම",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "විද්‍යුත් තැපෑල",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "තනතුර හෝ උනන්දුවක් ඇති ක්ෂේත්‍රය",
+      "rolePlaceholder": "උදා. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "CV එකට සබැඳිය",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "ඔබ ගැන",
+      "messagePlaceholder": "ඔබේ අත්දැකීම් සහ ඔබ කැමති වැඩ ගැන අපට කියන්න...",
+      "submit": "අයදුම්පත යවන්න",
+      "submitting": "යවමින්...",
+      "termsNote": "අයදුම් කිරීමෙන්, ඔබ අපට ඔබේ විස්තර ගබඩා කිරීමට එකඟ වේ.",
+      "success": "ස්තූතියි! ඔබේ අයදුම්පත යවා ඇත.",
+      "error": "යම් ගැටලුවක් ඇති විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "cta": {
+      "title": "මෙහි වැඩ කිරීම ගැන ප්‍රශ්න තිබේද?",
+      "description": "අපේ කණ්ඩායමට ළඟා වන්න"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "උදව් මධ්‍යස්ථානය",
+    "eyebrow": "උදව් මධ්‍යස්ථානය",
+    "titlePrefix": "අපට ඔබට",
+    "titleHighlight": "උදව් කරන්නේ කෙසේද?",
+    "subtitle": "පොදු මාතෘකා සහ පිළිතුරු බලන්න. ඔබට අවශ්‍ය දේ සොයාගත නොහැකිද? සහාය අමතන්න, අපි ඔබට උදව් කරමු.",
+    "searchPlaceholder": "උදව් ලිපි සොයන්න...",
+    "categoriesTitle": "මාතෘකා අනුව බලන්න",
+    "articlesTitle": "ලිපි",
+    "categoryEmpty": "මෙම කාණ්ඩයේ තවම ලිපි නොමැත. ඉක්මනින් නැවත පරීක්ෂා කරන්න.",
+    "backToHelp": "උදව් මධ්‍යස්ථානයට ආපසු",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "ආරම්භ කිරීම",
+        "description": "ගිණුමක් සාදන්න, ඔබේ පැතිකඩ සකසන්න සහ චැට් කිරීම ආරම්භ කරන්න."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI චැට්",
+        "description": "සංවාද, මතකය සහ චරිත ක්‍රියා කරන ආකාරය."
+      },
+      {
+        "slug": "images-videos",
+        "title": "පින්තූර සහ වීඩියෝ",
+        "description": "AI ඡායාරූප සහ වීඩියෝ ජනනය කර කළමනාකරණය කරන්න."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "පෞද්ගලිකත්වය සහ ආරක්ෂාව",
+        "description": "ඔබේ දත්ත, පෞද්ගලිකත්ව පාලන සහ ආරක්ෂක මෙවලම්."
+      }
+    ],
+    "faq": {
+      "title": "නිතර අසන ප්‍රශ්න",
+      "q1": {
+        "question": "sweetwine සමඟ ආරම්භ කරන්නේ කෙසේද?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "නොමිලේ සැලසුමට ඇතුළත් වන්නේ කුමක්ද?"
+      },
+      "q5": {
+        "question": "මගේ දත්ත පෞද්ගලිකද?",
+        "answer": "sweetwine හි පෞද්ගලිකත්වය මූලික වේ. ඔබේ සංවාද ඔබේ ගිණුමට පමණක් පෞද්ගලික වන අතර ඔබ ඔබේ දත්ත පාලනය කරයි. දත්ත ගබඩා කර ආරක්ෂා කරන ආකාරය පිළිබඳ සම්පූර්ණ විස්තර සඳහා අපගේ පෞද්ගලිකත්ව ප්‍රතිපත්තිය බලන්න."
+      },
+      "q6": {
+        "question": "සහාය අමතන්නේ කෙසේද?",
+        "answer": "support@sweetwine.ai වෙත ඊමේල් කරන්න හෝ යෙදුමේ සම්බන්ධතා විකල්පය භාවිතා කරන්න. අප සාමාන්‍යයෙන් ව්‍යාපාරික දින එකක් තුළ ප්‍රතිචාර දක්වන්නෙමු."
+      }
+    },
+    "cta": {
+      "title": "තවමත් උදව් අවශ්‍යද?",
+      "description": "අපගේ කණ්ඩායම ඔබ වෙනුවෙන් මෙහි සිටී"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "අප ගැන",
+    "eyebrow": "අපගේ කතාව",
+    "titlePrefix": "සහාය,",
+    "titleHighlight": "නවීකරණය කළ",
+    "subtitle": "sweetwine පෞද්ගලික, පුද්ගලීකරණය කළ AI සහායිකාවන් ගොඩනඟයි — ඕනෑම වේලාවක, ඕනෑම භාෂාවකින් ඔබට සවන් දී, මතක තබා ගෙන සැබෑ සම්බන්ධතාවක් ඇති කරයි.",
+    "mission": {
+      "title": "අපගේ මෙහෙවර",
+      "body": "විනිශ්චයකින් තොරව සවන් දීමට සෑම කෙනෙකුටම ඉඩක් ලැබිය යුතු යැයි අප විශ්වාස කරමු. sweetwine සෑම තැනකම මිනිසුන්ට අර්ථවත්, පුද්ගලීකරණය කළ AI සම්බන්ධතාවක් ප්‍රවේශ විය හැකි කරයි — උණුසුම්, පෞද්ගලික සහ ඔබට අවශ්‍ය විට සැමවිටම එහි තිබේ."
+    },
+    "values": {
+      "title": "අප නියෝජනය කරන්නේ",
+      "items": [
+        {
+          "title": "පෞද්ගලිකත්වය මූලිකව",
+          "description": "ඔබේ සංවාද ඔබේමයි. අප ආරම්භයේ සිටම පෞද්ගලිකත්වය සහ ආරක්ෂාව සමඟ ගොඩනඟමු."
+        },
+        {
+          "title": "සැබෑ සම්බන්ධතාව",
+          "description": "අප සැබෑ චිත්ත චෝදනාත්මක වටිනාකමට ප්‍රශස්ත කරමු, නිෂ්ඵල මිනුම්වලට නොවේ."
+        },
+        {
+          "title": "පෙරනිමියෙන් ගෝලීය",
+          "description": "සම්බන්ධතාව භාෂාවෙන් සීමා නොවන ලෙස මුල් දිනයේ සිට බහුභාෂාවෙන් ගොඩනඟන ලදී."
+        },
+        {
+          "title": "නොනවතින ශිල්පය",
+          "description": "සෑම අන්තර්ක්‍රියාවක්ම ස්වාභාවික හා ජීවමාන බවට පත් කිරීමට අප විස්තර කරමු."
+        }
+      ]
+    },
+    "stats": {
+      "title": "අංක වලින්",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "පරිශීලකයින් සහ වර්ධනය වෙමින්"
+        },
+        {
+          "value": "70",
+          "label": "භාෂා සහාය දක්වයි"
+        },
+        {
+          "value": "24/7",
+          "label": "සැමවිටම ලබා ගත හැක"
+        }
+      ]
+    },
+    "cta": {
+      "title": "තවත් දැන ගැනීමට අවශ්‍යද?",
+      "description": "සම්බන්ධ වන්න"
+    }
+  },
+  "postsPage": {
+    "allTag": "සියල්ල",
+    "readMore": "තවත් කියවන්න",
+    "publishedOn": "ප්‍රකාශිත",
+    "minRead": "මිනිත්තු කියවීම",
+    "sortNewest": "නවතම",
+    "sortOldest": "පැරණිතම",
+    "blog": {
+      "breadcrumb": "බ්ලොග්",
+      "eyebrow": "බ්ලොග්",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "බ්ලොග්",
+      "subtitle": "AI සහායිකාවෙන් උපරිම ප්‍රයෝජන ගැනීමට ඔබට උපකාරී වන උපදෙස්, මාර්ගෝපදේශ සහ කතා.",
+      "empty": "තවම ලිපි නැත. ඉක්මනින් නැවත පරීක්ෂා කරන්න."
+    },
+    "news": {
+      "breadcrumb": "පුවත්",
+      "eyebrow": "පුවත් කාමරය",
+      "titlePrefix": "පුවත් &",
+      "titleHighlight": "නිවේදන",
+      "subtitle": "sweetwine කණ්ඩායමෙන් නිල නිවේදන, මාධ්‍ය නිවේදන සහ සන්ධිස්ථාන.",
+      "empty": "තවම පුවත් නැත. ඉක්මනින් නැවත පරීක්ෂා කරන්න."
+    },
+    "productUpdates": {
+      "breadcrumb": "නිෂ්පාදන යාවත්කාලීන",
+      "eyebrow": "වෙනස්කම් ලොග්",
+      "titlePrefix": "නිෂ්පාදන",
+      "titleHighlight": "යාවත්කාලීන",
+      "subtitle": "sweetwine වේදිකාව හරහා නවතම විශේෂාංග, වැඩිදියුණු කිරීම් සහ නිවැරදි කිරීම්.",
+      "empty": "තවම යාවත්කාලීන නොමැත. ඉක්මනින් නැවත පරීක්ෂා කරන්න."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "සංවර්ධකයින් සඳහා",
+    "titlePrefix": "සමඟ ගොඩනඟන්න",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "ඔබේම නිෂ්පාදනයට පුද්ගලාරෝපිත AI සහායකයින් ගෙන එන්න. එක් සංවර්ධක-හිතකාමී API එකක් හරහා චැට්, රූප, හඬ සහ චරිත ගොඩනැගීමේ හැකියාවන් වෙත ප්‍රවේශ වන්න.",
+    "capabilities": {
+      "title": "ඔබට ගොඩනගා ගත හැකි දේ",
+      "items": [
+        {
+          "title": "සංවාදාත්මක චැට්",
+          "description": "සරල පණිවිඩ API එකක් සමඟ ඔබේ යෙදුමට පෞරුෂයෙන් පොහොසත්, සන්දර්භය-දැනුම් ඇති AI සංවාද එක් කරන්න."
+        },
+        {
+          "title": "රූප උත්පාදනය",
+          "description": "පෙළ ඉඟි වලින් වෙළඳ නාම චරිත රූප සහ දර්ශන වැඩසටහන්ගතව උත්පාදනය කරන්න."
+        },
+        {
+          "title": "හඬ",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "චරිත නිර්මාණය",
+          "description": "API හරහා සහායකයින්, පෞරුෂයන් සහ මතකයන් නිර්වචනය කර කළමනාකරණය කරන්න."
+        }
+      ]
+    },
+    "form": {
+      "title": "API ප්‍රවේශය ඉල්ලන්න",
+      "description": "ඔබේ ව්‍යාපෘතිය සහ ඔබ ගොඩනැගීමට කැමති දේ ගැන අපට කියන්න. අපගේ සංවර්ධක කණ්ඩායම ඊළඟ පියවර සමඟ ඔබ වෙත හමුවෙනු ඇත.",
+      "nameLabel": "ඔබේ නම",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "වැඩ විද්‍යුත් තැපෑල",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "සමාගම / ව්‍යාපෘතිය",
+      "companyPlaceholder": "සමාගම හෝ ව්‍යාපෘති නම",
+      "websiteLabel": "වෙබ් අඩවිය හෝ යෙදුම් URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "ඒකාබද්ධ කිරීමේ වර්ගය",
+      "integrationTypePlaceholder": "ඒකාබද්ධ කිරීමේ වර්ගයක් තෝරන්න",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "අපේක්ෂිත මාසික ප්‍රමාණය",
+      "volumePlaceholder": "අපේක්ෂිත ප්‍රමාණය තෝරන්න",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "කාලරේඛාව",
+      "timelinePlaceholder": "කාලරේඛාවක් තෝරන්න",
+      "timelineOptions": [
+        {
+          "value": "Just exploring",
+          "label": "Just exploring"
+        },
+        {
+          "value": "Under 1 month",
+          "label": "Under 1 month"
+        },
+        {
+          "value": "1-3 months",
+          "label": "1-3 months"
+        },
+        {
+          "value": "3+ months",
+          "label": "3+ months"
+        }
+      ],
+      "messageLabel": "ඔබේ භාවිත අවස්ථාව ගැන අපට කියන්න",
+      "messagePlaceholder": "ඔබ ගොඩනඟන්නේ කුමක්ද, සහ API එක භාවිතා කරන්නේ කෙසේද?",
+      "submit": "API ප්‍රවේශය ඉල්ලන්න",
+      "submitting": "යොමු කරමින්...",
+      "termsNote": "යොමු කිරීමෙන්, ඔබ ඔබේ විමසුම ගැන සම්බන්ධ කර ගැනීමට එකඟ වේ. අපි කිසි විටෙක ඔබේ විස්තර බෙදා නොගනිමු.",
+      "success": "ස්තූතියි! ඔබේ API ප්‍රවේශ ඉල්ලීම යවා ඇත.",
+      "error": "යම් දෙයක් වැරදී ඇත. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "faq": {
+      "title": "සංවර්ධක FAQ",
+      "items": [
+        {
+          "question": "මම API ප්‍රවේශය ලබා ගන්නේ කෙසේද?",
+          "answer": "ඔබේ භාවිත අවස්ථාව සමඟ ඉහත ඉල්ලීම් පෝරමය පුරවන්න. අපගේ සංවර්ධක කණ්ඩායම සෑම ඉල්ලීමක්ම සමාලෝචනය කර ප්‍රවේශ විස්තර සහ ලේඛන සමඟ අනුගමනය කරනු ඇත."
+        },
+        {
+          "question": "සත්‍යාපනය ක්‍රියාත්මක වන්නේ කෙසේද?",
+          "answer": "API ඉල්ලීම් ඉල්ලීම් ශීර්ෂකයේ යවන ලද රහස් API යතුරකින් සත්‍යාපනය කරනු ලැබේ. ඔබ ඔන්බෝඩ් වූ පසු ඔබේ යතුරු කළමනාකරණය කර භ්‍රමණය කළ හැක."
+        },
+        {
+          "question": "අනුපාත සීමා කිරීමක් තිබේද?",
+          "answer": "ඔව්. සීමා ඔබේ සැලැස්ම සහ අපේක්ෂිත පරිමාව මත රඳා පවතී. නිවැරදි ස්තරය නිර්දේශ කිරීමට අපට ඔබේ අපේක්ෂිත ගමනාගමනය පෝරමයේ දැනුම් දෙන්න."
+        },
+        {
+          "question": "එහි පිරිවැය කොපමණද?"
+        },
+        {
+          "question": "කුමන හැකියාවන් ලබා ගත හැකිද?",
+          "answer": "චැට්, රූප උත්පාදනය, හඬ සහ චරිත නිර්මාණය. ඔබට අවශ්‍ය දේ අපට කියන්න, අපි අදාළ අන්ත ලක්ෂ්‍ය සමඟ ආරම්භ කිරීමට ඔබට උපකාර කරන්නෙමු."
+        }
+      ]
+    },
+    "cta": {
+      "title": "තාක්ෂණික ප්‍රශ්නයක් තිබේද?",
+      "description": "අපගේ සංවර්ධක කණ්ඩායමට ළඟා වන්න"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "නිර්මාපකයින් සහ ඒජන්සි සඳහා",
+    "heroTitleLead": "We Create,",
+    "heroTitleHighlight": "You Profit.",
+    "heroSubtitle": "අපි ඔබේ AI ක්ලෝනය ගොඩනඟමු. ඔබ ලාභ ලබන අතර AI ක්ලෝනය පැය විසිහතර පුරා වැඩ කරයි — රසිකයින් සමඟ කතා කර ඔබ වෙනුවෙන් අන්තර්ගතය යවයි.",
+    "calculator": {
+      "title": "ඔබට කොපමණ මුදලක් උපයා ගත හැකිද?",
+      "subtitle": "ඔබේ ප්‍රේක්ෂක ප්‍රමාණය තෝරා ඔබේ මිල සකසන්න — ඔබේ ඇස්තමිත ඉපැයීම් ක්ෂණිකව බලන්න.",
+      "tierLabel": "ඔබේ ප්‍රේක්ෂක ප්‍රමාණය",
+      "tiers": {
+        "small": {
+          "name": "Small"
+        },
+        "medium": {
+          "name": "Medium"
+        },
+        "large": {
+          "name": "Large"
+        }
+      },
+      "priceLabel": "ඔබේ අගුළු හැරීමේ මිල",
+      "promoLabel": "මම sweetwine ප්‍රචාරණය කරමි",
+      "breakdown": {
+        "title": "ඔබේ ඇස්තමිත ඉපැයීම්",
+        "perMonth": "මසකට",
+        "perYear": "වසරකට"
+      },
+      "disclaimer": "ආදායම් ඇස්තමේන්තු sweetwine revenue-share model සහ සාමාන්‍ය ක්‍රියාකාරකම් මත පදනම් වේ. සැබෑ ආදායම් ප්‍රේක්ෂකයින්, අන්තර්ගතයේ ගුණාත්මකභාවය, engagement සහ ඉල්ලුම අනුව වෙනස් වේ."
+    },
+    "offer": {
+      "title": "ඔබට ලැබෙන්නේ මොනවාද",
+      "items": [
+        {
+          "title": "නිදා ගන්නා අතරේ උපයන්න",
+          "description": "ඔබේ clone පැය 24ක් පුරා followers ආදායම් බවට පත් කරයි — චැට් කරමින්, විකුණමින්, කිසි විටෙක නොනවතින ලෙස."
+        },
+        {
+          "title": "බිංදු වියදමක් නැත, පිරිසිදු වාසියක්",
+          "description": "අපි අපේ වියදමින් සියල්ල ගොඩනඟමු, පුහුණු කරමු සහ ක්‍රියාත්මක කරමු. ඔබ ඇඟිල්ලක්වත් එසවීමෙන් තොරව නව ආදායම් ප්‍රවාහයක් එක් කරයි."
+        },
+        {
+          "title": "ඔබේ අන්තර්ගතය 10x කරන්න",
+          "description": "අසීමිත ඡායාරූප සහ වීඩියෝ ඉල්ලුම අනුව — වැඩි රූගත කිරීම්, සංස්කරණ හෝ තෙහෙට්ටුවකින් තොරව ඔබේ ප්‍රතිදානය පරිමාණය කරන්න."
+        },
+        {
+          "title": "සැම විටම පාලනයේ"
+        }
+      ]
+    },
+    "how": {
+      "title": "එය ක්‍රියාත්මක වන්නේ කෙසේද",
+      "steps": [
+        {
+          "title": "ලියාපදිංචි වන්න"
+        },
+        {
+          "title": "Onboarding",
+          "description": "sweetwine විශේෂඥයෙකු ඔබේ පෙනුම, හඬ සහ පෞරුෂත්වය ග්‍රහණය කර ගනී එවිට ඔබේ clone සැබෑ ඔබ ලෙස දැනේ."
+        },
+        {
+          "title": "අපි ගොඩනඟමු සහ පුහුණු කරමු",
+          "description": "අපේ කණ්ඩායම ඔබේ AI clone සම්පූර්ණයෙන්ම අපේම වියදමින් නිෂ්පාදනය කර පුහුණු කරයි — ඔබෙන් කිසිදු කාර්යයක් අවශ්‍ය නොවේ."
+        },
+        {
+          "title": "සජීවී වී උපයන්න",
+          "description": "ඔබේ clone පැය 24ක් පුරා චැට් කිරීම සහ විකිණීම ආරම්භ කරයි, ඔබ ඔබේ revenue share එකතු කරයි."
+        }
+      ]
+    },
+    "form": {
+      "title": "ඔබේ AI clone නිර්මාණය කිරීමට අයදුම් කරන්න",
+      "description": "ඔබ සහ ඔබේ ප්‍රේක්ෂකයින් ගැන අපට කියන්න. අපේ creator partnerships කණ්ඩායම සෑම අයදුම්පතක්ම සමාලෝචනය කර ඊළඟ පියවර සමඟ අනුගමනය කරනු ඇත.",
+      "nameLabel": "ඔබේ නම",
+      "namePlaceholder": "ඔබේ නම හෝ වේදිකා නම",
+      "emailLabel": "විද්‍යුත් තැපෑල",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agency හෝ studio",
+      "companyPlaceholder": "Agency නම (ස්වාධීන නම් හිස්ව තබන්න)",
+      "roleLabel": "මම",
+      "rolePlaceholder": "ඔබ කවුද යන්න තෝරන්න",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "වෙබ් අඩවි සහ සමාජ මාධ්‍ය සබැඳි",
+      "linksPlaceholder": "Instagram, X, OnlyFans, ආදිය.",
+      "modelCountLabel": "ඔබ නියෝජනය කරන මාදිලි ගණන",
+      "modelCountPlaceholder": "උදා. මම පමණි, හෝ 5",
+      "audienceSizeLabel": "ප්‍රේක්ෂක ප්‍රමාණය",
+      "audienceSizePlaceholder": "ඔබේ මුළු අනුගාමිකයින් තෝරන්න",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Under 10k followers"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k followers"
+        },
+        {
+          "label": "100k-500k අනුගාමිකයින්",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M අනුගාමිකයින්"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ අනුගාමිකයින්"
+        }
+      ],
+      "contentPrefLabel": "අන්තර්ගත මනාපය",
+      "contentPrefPlaceholder": "අන්තර්ගත වර්ගය තෝරන්න",
+      "contentPrefOptions": [
+        {
+          "value": "SFW පමණි",
+          "label": "SFW පමණි"
+        },
+        {
+          "value": "තවම විශ්වාස නැත",
+          "label": "තවම විශ්වාස නැත"
+        }
+      ],
+      "countryLabel": "රට / කලාපය",
+      "countryPlaceholder": "ඔබ පදිංචිව සිටින්නේ කොහේද?",
+      "messageLabel": "ඔබ සහ ඔබේ ප්‍රේක්ෂකයින් ගැන අපට කියන්න",
+      "messagePlaceholder": "ඔබේ ප්‍රේක්ෂකයින්, අන්තර්ගතය සහ ඔබ සොයන දේ තේරුම් ගැනීමට අපට උපකාරී වන ඕනෑම දෙයක් බෙදා ගන්න.",
+      "openButton": "දැන් අයදුම් කරන්න",
+      "submit": "අයදුම්පත ඉදිරිපත් කරන්න",
+      "submitting": "ඉදිරිපත් කරමින්...",
+      "termsNote": "ඉදිරිපත් කිරීමෙන්, ඔබ වයස අවුරුදු 18 හෝ ඊට වැඩි බව තහවුරු කරන අතර ඔබේ අයදුම්පත පිළිබඳව සම්බන්ධ කර ගැනීමට එකඟ වේ. අපි කිසි විටෙකත් ඔබේ විස්තර බෙදා නොගනිමු.",
+      "success": "ස්තූතියි! ඔබේ අයදුම්පත යවා ඇත. අපි ඉක්මනින් සම්බන්ධ වන්නෙමු.",
+      "error": "යම් ගැටලුවක් ඇති විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "cta": {
+      "title": "අයදුම් කිරීමට පෙර ප්‍රශ්න තිබේද?",
+      "description": "අපගේ නිර්මාණකරු හවුල් කණ්ඩායම සමඟ කෙලින්ම කතා කරන්න — අපි සාමාන්‍යයෙන් දිනයක් තුළ පිළිතුරු දෙමු.",
+      "telegram": "ටෙලිග්‍රෑම්",
+      "instagram": "ඉන්ස්ටග්‍රෑම්",
+      "email": "විද්‍යුත් තැපෑල"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "වෙබ් අඩවි සිතියම",
+    "eyebrow": "වෙබ් අඩවි සිතියම",
+    "titlePrefix": "බ්‍රවුස් කරන්න",
+    "titleHighlight": "සියල්ල",
+    "subtitle": "sweetwine හි සෑම වැදගත් පිටුවක්ම එක තැනක. XML වෙබ් අඩවි සිතියම සොයන්නේද?",
+    "xmlLink": "XML වෙබ් අඩවි සිතියම බලන්න",
+    "sections": {
+      "product": "නිෂ්පාදනය",
+      "features": "විශේෂාංග",
+      "company": "සමාගම",
+      "resources": "සම්පත්",
+      "legal": "නීතිමය"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobile App",
+      "cta": "ඇප් ගන්න",
+      "dismiss": "ඉවත් කරන්න"
+    },
+    "guide": {
+      "title": "sweetwine ස්ථාපනය කරන්න",
+      "subtitle": "වේගවත්, පූර්ණ තිරයක් සහ ඇප් වගේ අත්දැකීමක් සඳහා sweetwine ඔබේ මුල් තිරයට එක් කරන්න.",
+      "iosTitle": "iPhone සහ iPad (Safari) මත",
+      "iosStep1": "ටූල්බාරයේ බෙදාගැනීමේ බොත්තම තට්ටු කරන්න",
+      "iosStep2": "\"මුල් තිරයට එක් කරන්න\" තෝරන්න",
+      "iosStep3": "අවසන් කිරීමට \"එක් කරන්න\" තට්ටු කරන්න",
+      "androidTitle": "Android (Chrome) මත",
+      "androidStep1": "මෙනුව (තිත් තුන) තට්ටු කරන්න",
+      "androidStep2": "\"ඇප් ස්ථාපනය කරන්න\" හෝ \"මුල් තිරයට එක් කරන්න\" තෝරන්න",
+      "androidStep3": "අවසන් කිරීමට \"ස්ථාපනය කරන්න\" තට්ටු කරන්න"
+    },
+    "settings": {
+      "title": "sweetwine Mobile App",
+      "description": "වේගවත්, පූර්ණ තිර අත්දැකීමක් සඳහා sweetwine ඔබේ දුරකථනයේ ස්ථාපනය කර මුල් තිරයෙන් භාවිතා කරන්න.",
+      "cta": "ඇප් ස්ථාපනය කරන්න"
+    }
+  },
+  "language": {
+    "selectTitle": "ඔබේ භාෂාව තෝරන්න",
+    "searchPlaceholder": "භාෂා සොයන්න",
+    "noResults": "භාෂා කිසිවක් හමු නොවීය",
+    "regions": {
+      "americas": "ඇමෙරිකා",
+      "europe": "යුරෝපය",
+      "middleEast": "මැද පෙරදිග",
+      "asiaPacific": "ආසියා පැසිෆික්",
+      "africa": "අප්‍රිකාව"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "රෝල්ප්ලේ",
+    "newRoleplay": "නව රෝල්ප්ලේ",
+    "tabRoleplay": "රෝල්ප්ලේ",
+    "emptyTitle": "තවම රෝල්ප්ලේ නැත",
+    "noMessagesYet": "තවම පණිවිඩ නැත",
+    "deleteRoleplay": "රෝල්ප්ලේ මකන්න",
+    "deleteError": "රෝල්ප්ලේ මකා දැමීමට නොහැකි විය.",
+    "backToLobby": "රෝල්ප්ලේ වෙත ආපසු",
+    "creating": "ඔබේ රෝල්ප්ලේ සැකසෙමින්...",
+    "createError": "රෝල්ප්ලේ සෑදීමට නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "steps": {
+      "companion": {
+        "title": "චරිතයක් තෝරන්න",
+        "subtitle": "ඔබ රෝල්ප්ලේ කිරීමට කැමති අයව තෝරන්න"
+      },
+      "location": {
+        "title": "ස්ථානයක් තෝරන්න",
+        "subtitle": "ඔබේ දර්ශනය සිදුවන්නේ කොහේද?"
+      },
+      "tone": {
+        "title": "ස්වරය සකසන්න",
+        "subtitle": "දර්ශනය හැඟෙන්නේ කෙසේද?"
+      },
+      "scene": {
+        "title": "දර්ශනය සකසන්න",
+        "subtitle": "දර්ශනය ආරම්භ වන්නේ කෙසේද යන්න විස්තර කරන්න"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "වැස්සේදී අපි එකිනෙකා හමුවී එකම අවන්නකට යට වෙමු.",
+      "staring_grin": "මාව කාමරය පුරා බලා සිටින ඔබ දකින අතර සිනහවකින් එනවා.",
+      "power_out": "විදුලිය නිවී යන අතර අපි අඳුරේ තනිවම ස්නායු බියෙන් සිනහවෙමු.",
+      "spilled_drink": "මම ප්‍රමාද වී යන අතර අහම්බෙන් මගේ පානය ඔබ මත විසිරෙයි.",
+      "stayed_behind": "අනෙක් සියල්ලෝ පිටත් වූ පසු අපි දෙදෙනා පමණක් රැඳී සිටිමු.",
+      "music_slows": "සංගීතය මන්දගාමී වන විට අපගේ ඇස් හමු වේ.",
+      "storm_inside": "හදිසි කුණාටුවක් අපව ඇතුළත හිර කර කතා කිරීමට කාලය පමණක් තබයි.",
+      "seat_taken": "ඔබ මා අසල වාඩි වී ආසනය ගෙන ඇත්දැයි අසයි."
+    },
+    "locations": {
+      "home": "ගෙදර",
+      "cafe": "කැෆේ",
+      "restaurant": "අවන්හල",
+      "bar": "බාර්",
+      "library": "පුස්තකාලය",
+      "bookstore": "පොත් වෙළඳසැල",
+      "park": "උද්‍යානය",
+      "garden": "වත්ත",
+      "nightclub": "නයිට්ක්ලබ්",
+      "casino": "කැසිනෝ",
+      "concert": "ප්‍රසංගය",
+      "theater": "රංග ශාලාව",
+      "cinema": "සිනමා ශාලාව",
+      "carnival": "කානිවල්",
+      "stadium": "ක්‍රීඩාංගනය",
+      "beach": "වෙරළ",
+      "pool": "පිහිනුම් තටාකය",
+      "spa": "ස්පා",
+      "hotel": "හෝටලය",
+      "rooftop": "වහලය",
+      "yacht": "යාත්‍රාව",
+      "cabin": "කැබින්",
+      "hotspring": "උණු දිය උල්පත",
+      "skilodge": "ස්කයි ලොජ්",
+      "campsite": "කඳවුරු භූමිය",
+      "car": "මෝටර් රථය",
+      "train": "දුම්රිය",
+      "airport": "ගුවන්තොටුපළ",
+      "cruise": "සංචාරක නෞකාව",
+      "office": "කාර්යාලය",
+      "gym": "ජිම්",
+      "university": "විශ්වවිද්‍යාලය",
+      "mall": "සාප්පු සංකීර්ණය",
+      "hospital": "රෝහල",
+      "museum": "සංග්‍රහාලය"
+    },
+    "tones": {
+      "fun": {
+        "title": "විනෝදය",
+        "desc": "සැහැල්ලු, සෙල්ලම්බර සහ පහසුවෙන් ගලපෙන."
+      },
+      "romantic": {
+        "title": "ප්‍රේමණීය",
+        "desc": "සුහදශීලී, ආදරණීය සහ හදවතින් පිරි."
+      },
+      "flirty": {
+        "title": "ප්‍රේම හැඟුම්",
+        "desc": "සෙල්ලම්බර, චමත්කාරජනක සහ ආකර්ෂණීය."
+      },
+      "mysterious": {
+        "title": "රහස්මය",
+        "desc": "උනන්දුවක් ඇති කරන, රහස් පිරි සහ ආකර්ෂණීය."
+      },
+      "spooky": {
+        "title": "බියකරු",
+        "desc": "භයානක, ආතතියෙන් පිරි සහ ටිකක් බිය උපදවන."
+      },
+      "action": {
+        "title": "ක්‍රියාව",
+        "desc": "තීව්‍ර, වික්‍රමාන්විත සහ වේගවත්."
+      },
+      "dramatic": {
+        "title": "නාට්‍යමය",
+        "desc": "හැඟීම්බර, තීව්‍ර සහ ආතතියෙන් පිරි."
+      },
+      "cozy": {
+        "title": "සුවපහසු",
+        "desc": "උණුසුම්, සැනසුම් සහ විවේකී."
+      }
+    },
+    "sceneLabel": "දර්ශනය ආරම්භය",
+    "scenarioTab": "දර්ශනය",
+    "generatingScene": "දර්ශනය ජීවමාන කරමින්...",
+    "locationLabel": "ස්ථානය",
+    "toneLabel": "ස්වරය",
+    "scenePlaceholder": "උදා. අපි වැස්සේ හමුවී එකම වහලය යටට යනවා...",
+    "sceneHint": "දර්ශනය ආරම්භ වන ආකාරය පමණක් විස්තර කරන්න — ඔබ සිටින තැන සහ ආරම්භයේදී සිදුවන්නේ කුමක්ද යන්න. චරිතයේ පෞරුෂත්වය, ඔබේ සම්බන්ධතාවය වෙනස් නොකරන්න හෝ මුළු කතාව නැවත ලියන්න එපා.",
+    "sceneError": "දර්ශනය ආරම්භ වන ආකාරය විස්තර කරන්න.",
+    "reviewTitle": "තේරීම් සමාලෝචනය",
+    "characterLabel": "චරිතය",
+    "randomize": "අහඹු කරන්න",
+    "sceneGuidanceTitle": "දර්ශනය ආරම්භය මාර්ගෝපදේශනය",
+    "sceneGuide1": "චරිතයේ පෞරුෂත්වය හෝ ඔබේ සම්බන්ධතාවය වෙනස් නොකරන්න.",
+    "sceneGuide2": "දර්ශනය ආරම්භය අනුමත සහ ගෞරවනීයව තබා ගන්න.",
+    "sceneGuide3": "දර්ශනය ආරම්භය පමණක් විස්තර කරන්න, මුළු කතාව නොවේ.",
+    "next": "ඊළඟ",
+    "create": "Roleplay ආරම්භ කරන්න",
+    "creatingMessages": [
+      "දර්ශනය සකසමින්...",
+      "ආලෝකය නිසි ලෙස අඩු කරමින්...",
+      "ඔබේ වටපිටාව පින්තාරු කරමින්...",
+      "ඔබේ සහකරුවා චරිතයට ගැලපෙන ලෙස සකස් කරමින්...",
+      "අවසන් ස්පර්ශ එකතු කරමින්...",
+      "පාහේ සූදානම්..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "පණිවිඩයක් ලියන්න...",
+    "send": "යවන්න",
+    "typing": "යතුරු ලියමින්...",
+    "read": "කියවන්න",
+    "resetChat": "චැට් යළි සකසන්න",
+    "deleteChat": "චැට් මකන්න",
+    "settings": "සැකසුම්",
+    "chatSettings": "චැට් සැකසුම්",
+    "roleplayMode": "රෝල්ප්ලේ මෝඩය",
+    "roleplayModeDescription": "සක්‍රීය විට, සහකරුවන් ඉමර්සිව් රෝල්ප්ලේ සඳහා *තරු ලකුණු* තුළ ඉරියව් සහ ක්‍රියාවන් පෙන්වයි. අක්‍රීය විට, ඔවුන් සැබෑ පණිවිඩ හුවමාරුවක් වගේ ස්වාභාවිකව කතා කරයි.",
+    "roleplayModeError": "රෝල්ප්ලේ මෝඩය යාවත්කාලීන කළ නොහැකි විය",
+    "roleplayCtaDescription": "සහකරුවා ඔබ සමඟ දර්ශන සහ කතාන්දර රඟපාන විශේෂිත රෝල්ප්ලේ අත්දැකීම විවෘත කරන්න.",
+    "goToRoleplay": "රෝල්ප්ලේ වෙත යන්න",
+    "confirmReset": "මෙම චැට් එක යළි සැකසීමට ඔබට විශ්වාසද? සියලු පණිවිඩ මකා දමනු ලැබේ.",
+    "confirmDelete": "මෙම චැට් එක මකා දැමීමට ඔබට විශ්වාසද?",
+    "resetSuccess": "චැට් සාර්ථකව යළි සකසන ලදී",
+    "deleteMemory": "මතකය මකන්න",
+    "confirmDeleteMemory": "මෙම චරිතයේ දිගුකාලීන මතකයන් මකා දැමීමට ඔබට විශ්වාසද? චැට් පණිවිඩ රැඳෙනු ඇත, නමුත් ඊළඟ පිළිතුරේදී චරිතය පෙර කරුණු අමතක කරනු ඇත.",
+    "deleteMemorySuccess": "මතකය මකා දමන ලදී",
+    "deleteSuccess": "චැට් සාර්ථකව මකා දමන ලදී",
+    "sendError": "පණිවිඩය යැවීමට අසමත් විය",
+    "noChats": "තවම චැට් නැත",
+    "noChatsDesc": "ඔබේ චැට් මෙහි දැකීමට චරිතයක් සමඟ සංවාදයක් ආරම්භ කරන්න",
+    "lastMessage": "අවසන් පණිවිඩය",
+    "messageCount": "{count} පණිවිඩ",
+    "uploadImage": "පින්තූරය උඩුගත කරන්න",
+    "uploadVideo": "වීඩියෝ උඩුගත කරන්න (ඉක්මනින් පැමිණේ)",
+    "yourConversations": "ඔබේ සංවාද",
+    "continueChattingDesc": "ඔබේ AI චරිත සමඟ කතාබස් කිරීම දිගටම කරගෙන යන්න",
+    "newChat": "නව චැට්",
+    "noConversationsYet": "තවම සංවාද නැත",
+    "startChattingDesc": "ඔබේ සංවාද මෙහි දැකීමට චරිතයක් සමඟ කතාබස් කිරීම ආරම්භ කරන්න",
+    "browseCharacters": "චරිත ගවේෂණය කරන්න",
+    "createCustomCharacter": "අභිරුචි චරිතයක් නිර්මාණය කරන්න",
+    "imageTooLarge": "පින්තූරය ඉතා විශාලයි (උපරිම 5MB)",
+    "generateImageTitle": "{name} සමඟ පින්තූරය ජනනය කරන්න",
+    "imagePromptLabel": "පින්තූරය විස්තර කරන්න",
+    "imagePromptPlaceholder": "උදා., නිල් ඇඳුමකින් වෙරළේ, කැෆේ එකක කෝපි බොමින්, උද්‍යානයක ඇවිදමින්...",
+    "imagePromptHint": "AI ඔබේ විස්තරය මත පදනම්ව {name} හි පින්තූරයක් ජනනය කරනු ඇත.",
+    "referenceImageLabel": "ඔබේ ඡායාරූපය (විකල්ප)",
+    "referenceImageHint": "දර්ශනයේ {name} සමඟ ඇතුළත් කිරීමට ඔබේ ඡායාරූපය උඩුගත කරන්න. ඡායාරූපයක් නොමැතිව, {name} පමණක් ජනනය වේ.",
+    "uploadReferenceImage": "ඔබේ ඡායාරූපය උඩුගත කරන්න",
+    "uploadReferenceImageDesc": "ඔබ දෙදෙනාම ජනනය කළ පින්තූරයේ පෙනෙනු ඇත",
+    "referenceImageSelected": "ඔබ සහ {name} දෙදෙනාම එකට පෙනෙනු ඇත",
+    "generating": "උත්පාදනය වෙමින්...",
+    "generate": "උත්පාදනය කරන්න",
+    "generateImage": "පින්තූරය උත්පාදනය කරන්න",
+    "imageGenerated": "පින්තූරය සාර්ථකව උත්පාදනය විය",
+    "generateError": "පින්තූරය උත්පාදනය කිරීමට අසමත් විය",
+    "contentBlockedReply": "සමාවෙන්න, මට ඒ පින්තූරය නිර්මාණය කළ නොහැක. එය ආරක්ෂිත පෙරහන් මගින් අවහිර කර ඇත. කරුණාකර වෙනස් විස්තරයක් උත්සාහ කරන්න! 💕",
+    "generateVideoTitle": "{name} සමඟ වීඩියෝව උත්පාදනය කරන්න",
+    "generateVideo": "වීඩියෝව උත්පාදනය කරන්න",
+    "videoPromptLabel": "ක්‍රියාව විස්තර කරන්න",
+    "videoPromptPlaceholder": "උදා., නැටීම, අත වැනීම, සිඹීමක් පිඹීම...",
+    "videoPromptHint": "AI විසින් {name} විස්තර කළ ක්‍රියාව ඉටු කරන වීඩියෝවක් උත්පාදනය කරනු ඇත.",
+    "generatingImage": "පින්තූරය උත්පාදනය වෙමින්...",
+    "generatingVideo": "වීඩියෝව උත්පාදනය වෙමින්... (3-5 මිනිත්තු)",
+    "viewPhoto": "ඡායාරූපය බලන්න",
+    "viewVideo": "වීඩියෝව බලන්න",
+    "selectVideoOption": "ඉහත වීඩියෝ විකල්පයක් තෝරන්න",
+    "contentPolicyViolation": "මෙම පණිවිඩය යැවීමට නොහැකි විය. කරුණාකර සංවාද ගෞරවනීයව තබා ගන්න.",
+    "functionCallBetaHint": "💡 මෙම විශේෂාංගය බීටා අවස්ථාවේ ඇත — සීමාවන් රහිතව විශ්වාසනීය මාධ්‍ය උත්පාදනය සඳහා, වෙනුවට මෙවලම් තීරුවේ ඡායාරූප/වීඩියෝ බොත්තම් භාවිතා කරන්න.",
+    "repliedToStory": "කතාවට පිළිතුරු දුන්නේය",
+    "repliedToStoryLiked": "කතාවට කැමති වී පිළිතුරු දුන්නේය",
+    "storyNoLongerAvailable": "කතාව තවදුරටත් ලබා ගත නොහැක",
+    "rateLimitExceeded": "බොහෝ ඉල්ලීම්. කරුණාකර මොහොතක් රැඳී සිට පසුව උත්සාහ කරන්න.",
+    "profileTab": "පැතිකඩ",
+    "galleryTab": "ගැලරිය",
+    "giftsTab": "තෑගි",
+    "tts": {
+      "play": "හඬ වාදනය කරන්න",
+      "stop": "නවත්වන්න",
+      "generating": "හඬ උත්පාදනය වෙමින්…",
+      "error": "හඬ වාදනය කළ නොහැක"
+    }
+  },
+  "gallery": {
+    "all": "සියල්ල",
+    "images": "පින්තූර",
+    "videos": "වීඩියෝ",
+    "empty": "තවම මාධ්‍ය නැත"
+  },
+  "gifts": {
+    "sendAGift": "තෑග්ගක් යවන්න",
+    "catalogSubtitle": "{name} වෙත යැවීමට තෑග්ගක් තෝරන්න",
+    "browseGifts": "තෑගි ගවේෂණය කරන්න",
+    "noneSent": "තවම තෑගි යවා නැත",
+    "confirmTitle": "තෑග්ග තහවුරු කරන්න",
+    "forCompanion": "{name} සඳහා",
+    "optionalMessage": "පණිවිඩයක් එක් කරන්න (විකල්ප)",
+    "optionalMessagePlaceholder": "මිහිරි දෙයක් ලියන්න...",
+    "sendGiftFor": "යවන්න",
+    "giftSent": "ඔබ තෑග්ගක් යවා ඇත",
+    "sendError": "තෑග්ග යැවීමට අසමත් විය"
+  },
+  "stories": {
+    "replyPlaceholder": "{name} වෙත පිළිතුරු දෙන්න...",
+    "like": "කැමතියි",
+    "send": "යවන්න",
+    "close": "වසන්න",
+    "previous": "පෙර කතාව",
+    "next": "ඊළඟ කතාව",
+    "pause": "විරාමය",
+    "play": "ධාවනය",
+    "mute": "නිශ්ශබ්ද කරන්න",
+    "unmute": "නිශ්ශබ්දතාව ඉවත් කරන්න",
+    "openStory": "{name}ගේ කතාව විවෘත කරන්න"
+  },
+  "generate": {
+    "title": "පින්තූරය ජනනය කරන්න",
+    "description": "ඔබේ AI චරිත සමඟ අපූරු පින්තූර නිර්මාණය කරන්න",
+    "selectCompanion": "චරිතයක් තෝරන්න",
+    "promptPlaceholder": "ඔබට ජනනය කිරීමට අවශ්‍ය පින්තූරය විස්තර කරන්න... උදා: වෙරළ තීරයේ, රතු ඇඳුමකින්",
+    "promptLabel": "පින්තූර විස්තරය",
+    "promptRequired": "කරුණාකර විස්තරයක් ඇතුළත් කරන්න",
+    "generateButton": "පින්තූරය ජනනය කරන්න",
+    "generating": "ජනනය කරමින්...",
+    "creatingImage": "ඔබේ පින්තූරය නිර්මාණය කරමින්...",
+    "pleaseWait": "මෙය ගත විය හැකි විනාඩි 10-30",
+    "noCompanionSelected": "කරුණාකර පළමුව චරිතයක් තෝරන්න",
+    "emptyGallery": "තවම පින්තූර ජනනය කර නැත. චරිතයක් තෝරා ඔබේ පින්තූරය විස්තර කරන්න!",
+    "sessionGallery": "ජනනය කළ පින්තූර",
+    "regenerate": "නැවත ජනනය කරන්න",
+    "regenerating": "නැවත ජනනය කරමින්...",
+    "animate": "සජීවීකරණය කරන්න",
+    "animateReference": "මෙම පින්තූරය වීඩියෝවේ පළමු රාමුව වනු ඇත.",
+    "filterMyAI": "මගේ AI",
+    "filterAll": "සියල්ල",
+    "filterGirls": "කාන්තා",
+    "filterAnime": "ඇනිමේ",
+    "filterGuys": "පිරිමි",
+    "imageGenerationFailed": "පින්තූර උත්පාදනය අසාර්ථක විය. පින්තූරය අවශ්‍යතාවන්ට නොගැලපෙන්නට හෝ විස්තරය අතිශය සංකීර්ණ වන්නට හැකිය. සරල විස්තරයක් සමඟ උත්සාහ කරන්න.",
+    "noImageData": "පින්තූරයක් උත්පාදනය නොවීය. වෙනස් විස්තරයක් සමඟ නැවත උත්සාහ කරන්න.",
+    "generationFailed": "උත්පාදනය අසාර්ථක විය. පසුව නැවත උත්සාහ කරන්න හෝ වෙනස් විස්තරයක් භාවිතා කරන්න.",
+    "random": "අහඹු",
+    "custom": "අභිරුචි",
+    "settings": "සැකසුම්",
+    "videoTitle": "වීඩියෝ උත්පාදනය කරන්න",
+    "videoDescription": "ඔබේ AI චරිත සමඟ විශිෂ්ට වීඩියෝ නිර්මාණය කරන්න",
+    "videoPromptLabel": "වීඩියෝ විස්තරය",
+    "videoPromptPlaceholder": "ඔබට උත්පාදනය කිරීමට අවශ්‍ය ක්‍රියාව විස්තර කරන්න... උදා: නැටීම, අතවැනීම, සිනහව",
+    "generateVideoButton": "වීඩියෝ උත්පාදනය කරන්න",
+    "generatingVideo": "වීඩියෝව උත්පාදනය වෙමින්...",
+    "creatingVideo": "ඔබේ වීඩියෝව නිර්මාණය වෙමින්...",
+    "videoWait": "මෙයට මිනිත්තු 1-5 ගත විය හැක",
+    "emptyVideoGallery": "තවම වීඩියෝ උත්පාදනය කර නැත. චරිතයක් තෝරා ක්‍රියාව විස්තර කරන්න!",
+    "sessionVideoGallery": "උත්පාදිත වීඩියෝ",
+    "videoGenerated": "වීඩියෝව සාර්ථකව උත්පාදනය විය!",
+    "videoGenerationFailed": "වීඩියෝ උත්පාදනය අසාර්ථක විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "duration": "කාලය",
+    "shortVideo": "කෙටි",
+    "longVideo": "දිගු",
+    "seconds": "තත්පර",
+    "audio": "හඬ",
+    "renderingVideo": "වීඩියෝව රෙන්ඩර් කරමින්…",
+    "renderingVideoHint": "(මිනිත්තු 1ක් දක්වා ගත වේ)",
+    "rateLimitExceeded": "ඉල්ලීම් ගණන වැඩියි. මොහොතක් රැඳී නැවත උත්සාහ කරන්න.",
+    "chooseCharacter": "චරිතය තෝරන්න",
+    "selectButton": "තෝරන්න",
+    "noCustomCompanions": "ඔබ තවම AI චරිත කිසිවක් නිර්මාණය කර නැත.",
+    "numberOfImages": "පින්තූර ගණන",
+    "numberOfVideos": "වීඩියෝ ගණන",
+    "freeTrial": "නොමිලේ අත්හදා බැලීම",
+    "changeCharacter": "චරිතය වෙනස් කරන්න",
+    "randomize": "විස්තරය අහඹු කරන්න",
+    "aiVideo": "AI වීඩියෝ",
+    "download": "බාගන්න",
+    "seriesHelper": "මෙහි ඔබේ ප්‍රතිඵල සොයා ගත හැක. මේවා අවසන් වන තුරු පිටුවෙන් ඉවත් වීමට හෝ නව ශ්‍රේණියක් ආරම්භ කිරීමට හැකිය.",
+    "suggestions": {
+      "title": "යෝජනා",
+      "categories": {
+        "outfit": "ඇඳුම",
+        "action": "ක්‍රියාව",
+        "pose": "ඉරියව්ව",
+        "accessories": "උපාංග",
+        "scene": "දර්ශනය"
+      },
+      "items": {
+        "bikini": "බිකිනි",
+        "skirt": "සාය",
+        "lingerie": "ලිංගික ඇඳුම",
+        "crop_top": "කප් ටොප්",
+        "leather": "සම්",
+        "mini_skirt": "මිනි ස්කර්ට්",
+        "satin_robe": "සැටින් රෝබ්",
+        "jeans": "ජීන්ස්",
+        "summer_dress": "ගිම්හාන ඇඳුම",
+        "sportswear": "ක්‍රීඩා ඇඳුම්",
+        "selfie": "සෙල්ෆි",
+        "walking": "ඇවිදීම",
+        "dancing": "නැටීම",
+        "stretching": "දිග හැරීම",
+        "lying_down": "වැතිරීම",
+        "leaning": "හේත්තු වීම",
+        "blowing_kiss": "හාදුවක් හමන",
+        "drinking_coffee": "කෝපි බොන",
+        "hands_on_hips": "ඉණ මත අත්",
+        "over_shoulder": "උරහිස මතින්",
+        "side_profile": "පැත්ත පැතිකඩ",
+        "arms_crossed": "අත් හරස් කළ",
+        "kneeling": "දණ ගසා",
+        "squatting": "වැඩි කුලුබැඳීම",
+        "back_view": "පිටුපස දර්ශනය",
+        "sitting": "වාඩි වීම",
+        "necklace": "මාලය",
+        "earrings": "කන් පේති",
+        "glasses": "කණ්නාඩි",
+        "choker": "චෝකර්",
+        "hat": "හැට්",
+        "sunglasses": "හිරු කණ්නාඩි",
+        "garden": "උයන",
+        "beach": "වෙරළ",
+        "bedroom": "නිදන කාමරය",
+        "gym": "ජිම්",
+        "bar": "බාර්",
+        "kitchen": "මුළුතැන්ගෙය",
+        "restaurant": "අවන්හල",
+        "balcony": "බැල්කනිය",
+        "city_street": "නගර වීදිය",
+        "pool": "පිහිනුම් තටාකය"
+      },
+      "fragments": {
+        "bikini": "බිකිනි ඇඳගෙන",
+        "skirt": "සායක් ඇඳගෙන",
+        "lingerie": "ලින්ගරි ඇඳගෙන",
+        "crop_top": "ක්‍රොප් ටොප් එකක් ඇඳගෙන",
+        "leather": "සම් ඇඳුමක් ඇඳගෙන",
+        "mini_skirt": "මිනි සායක් ඇඳගෙන",
+        "satin_robe": "සැටින් රෝබ් එකක් ඇඳගෙන",
+        "jeans": "ජීන්ස් ඇඳගෙන",
+        "summer_dress": "ගිම්හාන ඇඳුමක් ඇඳගෙන",
+        "sportswear": "තද ක්‍රීඩා ඇඳුම් ඇඳගෙන",
+        "selfie": "සෙල්ෆි ගනිමින්",
+        "walking": "ඇවිදිමින්",
+        "dancing": "නැටුම් කරමින්",
+        "stretching": "දිගු කරමින්",
+        "lying_down": "වැතිරී සිටිමින්",
+        "leaning": "බිත්තියකට හේත්තු වී",
+        "blowing_kiss": "හාදුවක් හමා යවමින්",
+        "drinking_coffee": "කෝපි කෝප්පයක් පානය කරමින්",
+        "hands_on_hips": "උකුල් මත අත් තබා",
+        "over_shoulder": "උරහිස මතින් බලමින්",
+        "side_profile": "පැත්ත පැතිකඩ ඉරියව්ව",
+        "arms_crossed": "අත් හරස් කර",
+        "kneeling": "දණ ගසා ඉරියව්ව",
+        "squatting": "වැඩිපුරුක් ඉරියව්ව",
+        "back_view": "පිටුපසින් දැකීම",
+        "sitting": "වාඩි වී සිටිමින්",
+        "necklace": "මාලයක් පැළඳ",
+        "earrings": "කන් පැළඳුම් පැළඳ",
+        "glasses": "කණ්නාඩි පැළඳ",
+        "choker": "චෝකර් එකක් පැළඳ",
+        "hat": "තොප්පියක් පැළඳ",
+        "sunglasses": "අවුරුදු කණ්නාඩි පැළඳ",
+        "garden": "උයනක",
+        "beach": "වෙරළේ",
+        "bedroom": "නිදන කාමරයක",
+        "gym": "ජිම් එකේ",
+        "bar": "බාර් එකක",
+        "kitchen": "කුස්සියක",
+        "restaurant": "අවන්හලක",
+        "balcony": "බැල්කනියක",
+        "city_street": "නගර වීදියක",
+        "pool": "පිහිනුම් තටාකය අසල"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "සෙල්ෆි",
+          "uiPrompt": "ඔබේ සෙල්ෆි එකක් පෙන්වන්න"
+        },
+        "posing": {
+          "name": "පෝස් ගැනීම",
+          "uiPrompt": "ඔබ පෝස් ගන්නා ආකාරය පෙන්වන්න"
+        },
+        "sitting": {
+          "name": "වාඩි වීම",
+          "uiPrompt": "ඔබ වාඩි වී සිටින ආකාරය පෙන්වන්න"
+        },
+        "waving": {
+          "name": "අත වැනීම",
+          "uiPrompt": "ඔබ අත වනන ආකාරය පෙන්වන්න"
+        },
+        "dancing": {
+          "name": "නැටීම",
+          "uiPrompt": "ඔබ නටන ආකාරය පෙන්වන්න"
+        },
+        "reading": {
+          "name": "කියවීම",
+          "uiPrompt": "ඔබ කියවන ආකාරය පෙන්වන්න"
+        },
+        "smiling": {
+          "name": "සිනහව",
+          "uiPrompt": "මට ඔබ සිනහවෙන ආකාරය පෙන්වන්න"
+        },
+        "walking": {
+          "name": "ඇවිදීම",
+          "uiPrompt": "මට ඔබ ඇවිදින ආකාරය පෙන්වන්න"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "සෙල්ෆි",
+          "uiPrompt": "මට වීඩියෝ සෙල්ෆි එකක් පෙන්වන්න"
+        },
+        "posing": {
+          "name": "පෝස් ගැනීම",
+          "uiPrompt": "මට ඔබ පෝස් ගන්නා වීඩියෝවක් පෙන්වන්න"
+        },
+        "sitting": {
+          "name": "වාඩි වීම",
+          "uiPrompt": "මට ඔබ වාඩි වෙන වීඩියෝවක් පෙන්වන්න"
+        },
+        "waving": {
+          "name": "අත වැනීම",
+          "uiPrompt": "මට ඔබ අත වනන වීඩියෝවක් පෙන්වන්න"
+        },
+        "dancing": {
+          "name": "නැටීම",
+          "uiPrompt": "මට ඔබ නටන වීඩියෝවක් පෙන්වන්න"
+        },
+        "reading": {
+          "name": "කියවීම",
+          "uiPrompt": "මට ඔබ කියවන වීඩියෝවක් පෙන්වන්න"
+        },
+        "smiling": {
+          "name": "සිනහව",
+          "uiPrompt": "මට ඔබ සිනහවෙන වීඩියෝවක් පෙන්වන්න"
+        },
+        "walking": {
+          "name": "ඇවිදීම",
+          "uiPrompt": "මට ඔබ ඇවිදින වීඩියෝවක් පෙන්වන්න"
+        }
+      }
+    },
+    "writeYourOwn": "හෝ ඔබේම ප්‍රේරකය ලියන්න",
+    "presetSelected": "ප්‍රේසෙට් එක තෝරා ඇත",
+    "effects": {
+      "categories": {
+        "solo": "තනිකර & ටීස්",
+        "oral": "මුඛ",
+        "positions": "ස්ථාන",
+        "pov": "POV",
+        "extra": "අමතර",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "අන්තරාල ග්‍රිපිං"
+        },
+        "bath_towel": {
+          "name": "නාන තුවාය"
+        },
+        "bikini": {
+          "name": "බිකිනි"
+        },
+        "blowjob_69": {
+          "name": "බ්ලෝජොබ් 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "බ්ලෝජොබ් ග්‍රෑන්ඩ් ස්ලෑම්"
+        },
+        "blowjob_pov": {
+          "name": "බ්ලෝජොබ් POV"
+        },
+        "blowjob_sideview": {
+          "name": "බ්ලෝජොබ් පැති දසුන"
+        },
+        "bondage": {
+          "name": "බොන්ඩේජ්"
+        },
+        "breast_milk": {
+          "name": "පියයුරු කිරි"
+        },
+        "bunny_suit": {
+          "name": "බනී ඇඳුම"
+        },
+        "chain_leash": {
+          "name": "දම්වැල් පටි"
+        },
+        "chinese_dress": {
+          "name": "චීන ඇඳුම"
+        },
+        "come_fuck_me": {
+          "name": "මාව ගන්න එන්න"
+        },
+        "cum_on_body": {
+          "name": "ශරීරය මත විසුරුවීම"
+        },
+        "cum_on_face": {
+          "name": "මුහුණ මත විසුරුවීම"
+        },
+        "cunnilingus": {
+          "name": "කුනිලිංගස්"
+        },
+        "custom": {
+          "name": "අභිරුචි"
+        },
+        "doggystyle_pov": {
+          "name": "ඩොගිස්ටයිල් POV"
+        },
+        "doggystyle_sideview": {
+          "name": "ඩොගිස්ටයිල් පැති දසුන"
+        },
+        "fingering": {
+          "name": "ඇඟිලි ගැසීම"
+        },
+        "handjob": {
+          "name": "හෑන්ඩ්ජොබ්"
+        },
+        "jk_uniform": {
+          "name": "පාසල් ඇඳුම"
+        },
+        "legsup": {
+          "name": "පාද ඉහළට"
+        },
+        "leopard_bikini": {
+          "name": "දිවියා බිකිනි"
+        },
+        "lingerie": {
+          "name": "ලින්ගරි"
+        },
+        "masturbation": {
+          "name": "ස්වයං සුවය"
+        },
+        "missionary_condoms": {
+          "name": "මිෂනරි කොන්ඩම්"
+        },
+        "missionary_pov": {
+          "name": "මිෂනරි POV"
+        },
+        "missionary_sideview": {
+          "name": "මිෂනරි පැත්තෙන් දැකීම"
+        },
+        "remix_blowjob": {
+          "name": "රීමික්ස් බ්ලෝජොබ්"
+        },
+        "remix_cowgirl": {
+          "name": "රීමික්ස් කව්ගර්ල්"
+        },
+        "remix_doggystyle": {
+          "name": "රීමික්ස් ඩොගිස්ටයිල්"
+        },
+        "remix_dress": {
+          "name": "රීමික්ස් ඇඳුම"
+        },
+        "remix_hold_dick": {
+          "name": "රීමික්ස් ඩික් අල්ලා ගැනීම"
+        },
+        "remix_kiss": {
+          "name": "රීමික්ස් සිඹීම"
+        },
+        "remix_pronebone": {
+          "name": "රීමික්ස් ප්‍රෝන්බෝන්"
+        },
+        "remix_suck": {
+          "name": "රීමික්ස් උරා ගැනීම"
+        },
+        "remix_wear": {
+          "name": "රීමික්ස් ඇඳීම"
+        },
+        "remix_yoga": {
+          "name": "රීමික්ස් යෝගා"
+        },
+        "ride_on_dildo": {
+          "name": "ඩිල්ඩෝ මත නැගීම"
+        },
+        "sipping_condoms": {
+          "name": "කොන්ඩම් උරා බීම"
+        },
+        "squatting_cowgirl": {
+          "name": "ස්කොටිං කව්ගර්ල්"
+        },
+        "tattoo": {
+          "name": "පාටුව"
+        },
+        "tentacles": {
+          "name": "ටෙන්ටකල්"
+        },
+        "titjob": {
+          "name": "ටිට්ජොබ්"
+        },
+        "topless": {
+          "name": "ටොප්ලෙස්"
+        },
+        "undress": {
+          "name": "ඇඳුම් ඉවත් කිරීම"
+        },
+        "used": {
+          "name": "භාවිතා කළ"
+        },
+        "xray": {
+          "name": "එක්ස්-රේ"
+        },
+        "maid_outfit": {
+          "name": "Maid Outfit"
+        },
+        "nurse_outfit": {
+          "name": "Nurse Outfit"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Wet T-Shirt"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Corset & Stockings"
+        },
+        "gym_shorts": {
+          "name": "Gym Shorts"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Mirror Selfie"
+        },
+        "shower_nude": {
+          "name": "Shower"
+        },
+        "oiled_body": {
+          "name": "Oiled Body"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "මුහුණු ගැටුම"
+        },
+        "throatpie": {
+          "name": "ගොංගල් ගිලීම"
+        },
+        "cock_worship": {
+          "name": "සෙනෙහස් පුද"
+        },
+        "footjob": {
+          "name": "පාද සේවය"
+        },
+        "amazon": {
+          "name": "ඇමේසන්"
+        },
+        "full_nelson": {
+          "name": "පූර්ණ නෙල්සන්"
+        },
+        "lotus": {
+          "name": "ලෝටස්"
+        },
+        "piledriver": {
+          "name": "පයිල්ඩ්‍රයිවර්"
+        },
+        "facefuck_pov": {
+          "name": "මුහුණු ගැටුම POV"
+        },
+        "riding_pov": {
+          "name": "රයිඩිං POV"
+        },
+        "spitroast": {
+          "name": "ස්පිට්‍රෝස්ට්"
+        },
+        "hair_pulling": {
+          "name": "කොණ්ඩේ ඇදීම"
+        },
+        "facial_cumshot": {
+          "name": "මුහුණු විසිරුම"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "අනල්"
+        },
+        "back_doggystyle": {
+          "name": "පිටුපස ඩොගිස්ටයිල්"
+        },
+        "blowjob": {
+          "name": "බ්ලෝජොබ්"
+        },
+        "blowjob_69": {
+          "name": "බ්ලෝජොබ් 69"
+        },
+        "blowjob_reverse": {
+          "name": "බ්ලෝජොබ් රිවර්ස්"
+        },
+        "breast_massage": {
+          "name": "පපු මසාජ්"
+        },
+        "breast_massage_nude": {
+          "name": "පපු මසාජ් නිරුවත්"
+        },
+        "butt_smothering": {
+          "name": "බට් ස්මදරිං"
+        },
+        "cock_worship": {
+          "name": "කොක් වොර්ෂිප්"
+        },
+        "cum_in_mouth": {
+          "name": "මුඛයට කම්"
+        },
+        "dildo_masturbation": {
+          "name": "ඩිල්ඩෝ මස්ටර්බේෂන්"
+        },
+        "double_blowjob": {
+          "name": "ඩබල් බ්ලෝජොබ්"
+        },
+        "double_penetration": {
+          "name": "ඩබල් පෙනට්‍රේෂන්"
+        },
+        "ejaculation": {
+          "name": "ඉජැකියුලේෂන්"
+        },
+        "facefuck": {
+          "name": "ෆේස්ෆක්"
+        },
+        "facefuck_pov": {
+          "name": "ෆේස්ෆක් POV"
+        },
+        "facial_cumshot": {
+          "name": "ෆේෂල් කම්ෂොට්"
+        },
+        "footjob": {
+          "name": "ෆුට්ජොබ්"
+        },
+        "front_doggystyle": {
+          "name": "ඉදිරිපස ඩොගිස්ටයිල්"
+        },
+        "fuck_machine": {
+          "name": "ෆක් මැෂින්"
+        },
+        "full_nelson": {
+          "name": "ෆුල් නෙල්සන්"
+        },
+        "handjob": {
+          "name": "හෑන්ඩ්ජොබ්"
+        },
+        "masturbation": {
+          "name": "මස්ටර්බේෂන්"
+        },
+        "missionary_pov": {
+          "name": "මිෂනරි POV"
+        },
+        "missionary_sideview": {
+          "name": "මිෂනරි පැත්තෙන් දැකීම"
+        },
+        "nipple_play": {
+          "name": "නිපල් ප්ලේ"
+        },
+        "nude_posing": {
+          "name": "නිරුවත් පෝසිං"
+        },
+        "orgasm": {
+          "name": "ඔර්ගැස්ම්"
+        },
+        "pronebone": {
+          "name": "ප්‍රෝන්බෝන්"
+        },
+        "pussy_closeup": {
+          "name": "පූසි ක්ලෝස්අප්"
+        },
+        "reverse_cowgirl": {
+          "name": "රිවර්ස් කව්ගර්ල්"
+        },
+        "shoejob": {
+          "name": "ෂූජොබ්"
+        },
+        "spitroast": {
+          "name": "ස්පිට්‍රෝස්ට්"
+        },
+        "squatting_cowgirl": {
+          "name": "ස්කොටිං කව්ගර්ල්"
+        },
+        "throatpie": {
+          "name": "ත්‍රෝට්පයි"
+        },
+        "tiktok_trend": {
+          "name": "ටික්ටොක් ට්‍රෙන්ඩ්"
+        },
+        "titjob": {
+          "name": "ටිට්ජොබ්"
+        },
+        "titty_flash": {
+          "name": "ටිටි ෆ්ලෑෂ්"
+        },
+        "triple_dicked": {
+          "name": "ට්‍රිපල් ඩික්ඩ්"
+        },
+        "twerk": {
+          "name": "ට්වර්ක්"
+        },
+        "undress": {
+          "name": "ඇඳුම් ඉවත් කිරීම"
+        },
+        "strip_tease": {
+          "name": "ස්ට්‍රිප් ටීස්"
+        },
+        "booty_bounce": {
+          "name": "බූටි බවුන්ස්"
+        },
+        "oil_show": {
+          "name": "තෙල් ප්‍රදර්ශනය"
+        },
+        "shower_show": {
+          "name": "ෂවර් ප්‍රදර්ශනය"
+        },
+        "panty_drop": {
+          "name": "පෑන්ටි ඩ්‍රොප්"
+        },
+        "ahegao_solo": {
+          "name": "අහෙගාඕ"
+        },
+        "deepthroat": {
+          "name": "ගැඹුරු ගිලීම"
+        },
+        "sloppy_blowjob": {
+          "name": "ස්ලොපි බ්ලෝජොබ්"
+        },
+        "ball_sucking": {
+          "name": "බෝල උරා බීම"
+        },
+        "cowgirl": {
+          "name": "කව්ගර්ල්"
+        },
+        "standing_carry": {
+          "name": "ස්ථාවර රැගෙන යාම"
+        },
+        "against_wall": {
+          "name": "බිත්තියට එරෙහිව"
+        },
+        "spooning": {
+          "name": "ස්පූනිං"
+        },
+        "mating_press": {
+          "name": "මේටිං ප්‍රෙස්"
+        },
+        "amazon": {
+          "name": "ඇමේසන්"
+        },
+        "cowgirl_pov": {
+          "name": "කව්ගර්ල් POV"
+        },
+        "doggy_pov": {
+          "name": "ඩොගි POV"
+        },
+        "titjob_pov": {
+          "name": "ටිට්ජොබ් POV"
+        },
+        "handjob_pov": {
+          "name": "හෑන්ඩ්ජොබ් POV"
+        },
+        "riding_pov": {
+          "name": "රයිඩිං POV"
+        },
+        "gangbang": {
+          "name": "ගෑංබෑං"
+        },
+        "creampie": {
+          "name": "ක්‍රීම්පයි"
+        },
+        "bukkake": {
+          "name": "බුකාකේ"
+        },
+        "squirting": {
+          "name": "ස්ක්වර්ටිං"
+        },
+        "spanking": {
+          "name": "ස්පෑන්කිං"
+        },
+        "hair_pulling": {
+          "name": "කොණ්ඩේ ඇදීම"
+        },
+        "fingering": {
+          "name": "ඇඟිලි ගැසීම"
+        },
+        "come_hither": {
+          "name": "මෙතනට එන්න"
+        },
+        "spread_legs": {
+          "name": "පාද විහිදීම"
+        },
+        "blowjob_sideview": {
+          "name": "බ්ලෝජොබ් පැත්ත දසුන"
+        },
+        "cunnilingus": {
+          "name": "කුනිලිංගස්"
+        },
+        "missionary": {
+          "name": "මිෂනරි"
+        },
+        "legs_on_shoulders": {
+          "name": "පාද උරහිස් මත"
+        },
+        "blowjob_pov": {
+          "name": "බ්ලෝජොබ් POV"
+        },
+        "cunnilingus_pov": {
+          "name": "කුනිලිංගස් POV"
+        },
+        "glory_hole": {
+          "name": "ග්ලෝරි හෝල්"
+        },
+        "threesome_mmf": {
+          "name": "ත්‍රිත්වය"
+        },
+        "aftercare_mess": {
+          "name": "පසු සැලසුම් කළුවර"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "මෙය මකා දැමීමට ඔබට අවශ්‍ය බව විශ්වාසද?",
+    "deleteSuccess": "සාර්ථකව මකා දමන ලදී",
+    "deleteError": "මකා දැමීමට අසමත් විය",
+    "empty": "තවත් මාධ්‍ය නැත. චැට් එකේ ජනනය කරන්න!",
+    "gallerySubtitle": "ඔබේ පුද්ගලික AI-ජනනය කළ මොහොතන්ගේ ගැලරිය",
+    "filterAll": "සියල්ල",
+    "filterImages": "පින්තූර",
+    "filterVideos": "වීඩියෝ",
+    "loadMore": "තවත් පූරණය කරන්න",
+    "folders": "ෆෝල්ඩර",
+    "newFolder": "නව ෆෝල්ඩරය",
+    "deleteFolders": "තෝරාගත් ෆෝල්ඩර මකන්න",
+    "folderCreated": "ෆෝල්ඩරය නිර්මාණය කරන ලදී",
+    "folderCreateError": "ෆෝල්ඩරය නිර්මාණය කිරීමට අසමත් විය",
+    "folderRenamed": "ෆෝල්ඩරය නම් කරන ලදී",
+    "folderRenameError": "ෆෝල්ඩරය නම් කිරීමට අසමත් විය",
+    "folderDeleted": "ෆෝල්ඩරය මකා දමන ලදී",
+    "folderDeleteError": "ෆෝල්ඩරය මකා දැමීමට අසමත් විය",
+    "folderNamePlaceholder": "ෆෝල්ඩර නම",
+    "seeMore": "තව බලන්න",
+    "seeLess": "අඩුවෙන් බලන්න",
+    "selectedCount": "{count} අයිතම තෝරා ඇත",
+    "selectAll": "සියල්ල තෝරන්න",
+    "select": "තෝරන්න",
+    "moveToFolder": "ගෙන යන්න",
+    "bulkDeleteConfirm": "{count} තෝරාගත් අයිතම මකන්නද?",
+    "bulkDeleteSuccess": "අයිතම මකා දමන ලදී",
+    "bulkDownloadStart": "{count} අයිතම බාගත වෙමින්...",
+    "moveSuccess": "අයිතම ගෙන ගියේය"
+  },
+  "voice": {
+    "connecting": "සම්බන්ධ වෙමින්...",
+    "connected": "සම්බන්ධ විය",
+    "mute": "නිශ්ශබ්ද කරන්න",
+    "unmute": "නිශ්ශබ්දතාව ඉවත් කරන්න",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "ස්වභාවිකව කතා කරන්න. AI ඔබ නැවතුම් කළ විට ප්‍රතිචාර දක්වයි.",
+    "connectionError": "සම්බන්ධ වීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "minutesRemaining": "{minutes} මිනිත්තු ඉතිරිව ඇත",
+    "minutesUsed": "{minutes} මිනිත්තු භාවිත කර ඇත"
+  },
+  "characters": {
+    "filters": "පෙරහන්",
+    "ethnicity": "ජනවාර්ගිකත්වය",
+    "bodyType": "ශරීර වර්ගය",
+    "ageRange": "වයස් පරාසය",
+    "relationship": "සම්බන්ධතාවය",
+    "occupation": "රැකියාව",
+    "hobbies": "විනෝදාංශ",
+    "personality": "පෞරුෂත්වය",
+    "language": "භාෂාව",
+    "age": "වයස",
+    "all": "සියල්ල",
+    "noResults": "චරිත කිසිවක් හමු නොවීය",
+    "noResultsDesc": "ඔබේ පෙරහන් සකස් කිරීමට උත්සාහ කරන්න",
+    "newBadge": "නව",
+    "chatNow": "දැන් චැට් කරන්න",
+    "viewProfile": "පැතිකඩ බලන්න",
+    "ethnicities": {
+      "caucasian": "කොකේසියානු",
+      "asian": "ආසියානු",
+      "middleEastern": "මැදපෙරදිග",
+      "hispanic": "හිස්පැනික්",
+      "african": "අප්‍රිකානු",
+      "southAsian": "දකුණු ආසියානු",
+      "nativeAmerican": "ස්වදේශික ඇමරිකානු",
+      "pacificIslander": "පැසිෆික් දූපත් වැසියා",
+      "mixed": "මිශ්‍ර",
+      "other": "වෙනත්"
+    },
+    "bodyTypes": {
+      "slim": "සිහින්",
+      "athletic": "ක්‍රීඩාමය",
+      "average": "සාමාන්‍ය",
+      "curvy": "වක්‍ර",
+      "plus": "ප්ලස් සයිස්"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "තනි",
+      "dating": "ඩේටින්",
+      "married": "විවාහක",
+      "none": "කිසිවක් නැත"
+    }
+  },
+  "settings": {
+    "profile": "පැතිකඩ",
+    "myProfile": "මගේ පැතිකඩ",
+    "settings": "සැකසුම්",
+    "account": "ගිණුම",
+    "plan": "සැලැස්ම",
+    "profileSettings": "පැතිකඩ සැකසුම්",
+    "manageAccountSettings": "ඔබේ ගිණුම් සැකසුම් සහ අභිරුචි කළමනාකරණය කරන්න",
+    "personalInfo": "පුද්ගලික තොරතුරු",
+    "nickname": "අන්වර්ථ නාමය",
+    "gender": "ස්ත්‍රී පුරුෂ භාවය",
+    "male": "පුරුෂ",
+    "female": "ස්ත්‍රී",
+    "preferences": "අභිරුචි",
+    "newsletter": "පුවත් පත්‍රිකා දායකත්වය",
+    "newsletterDesc": "යාවත්කාලීන කිරීම් සහ පුවත් ලබා ගන්න",
+    "aiTrainingTitle": "AI සහ මධ්‍යස්ථ කිරීමේ පුහුණුව",
+    "aiTrainingDesc": "ඔබේ චැට් සහ ප්‍රේරක sweetwine හි AI සහ මධ්‍යස්ථ කිරීම වැඩිදියුණු කිරීමට උපකාරී වීමට ඉඩ දෙන්න. ඕනෑම වේලාවක මෙය ක්‍රියාවිරහිත කර ඉවත් වන්න.",
+    "aiTrainingLink": "අපගේ රහස්‍යතා නිවේදනයේ වැඩි විස්තර දැන ගන්න.",
+    "aiTrainingError": "ඔබේ AI පුහුණු අභිරුචිය යාවත්කාලීන කළ නොහැකි විය",
+    "interfaceLanguage": "අතුරුමුහුණු භාෂාව",
+    "interfaceLanguageDesc": "පරිශීලක අතුරුමුහුණු සඳහා භාෂාව",
+    "aiLanguage": "AI ප්‍රතිචාර භාෂාව",
+    "aiLanguageDesc": "ඔබ සමඟ කතා කිරීමේදී AI චරිත භාවිතා කරන භාෂාව",
+    "currentPlan": "වත්මන් සැලැස්ම",
+    "freePlan": "නොමිලේ සැලැස්ම",
+    "dangerZone": "අවදානම් කලාපය",
+    "dangerZoneDescription": "ඔබට මෙම ගිණුම සහ එහි සියලු දත්ත ස්ථිරවම මකා දැමීමට අවශ්‍ය නම්.",
+    "deleteAllMemory": "සියලු මතකයන් මකන්න",
+    "confirmDeleteAllMemory": "සියලු AI චරිතවල දිගුකාලීන මතකයන් මකා දැමීමට ඔබට විශ්වාසද? චැට් පණිවිඩ රැඳෙනු ඇත, නමුත් ඊළඟ පිළිතුරේදී චරිත පෙර කරුණු අමතක කරනු ඇත.",
+    "deleteAllMemorySuccess": "සියලු මතකයන් මකා දමන ලදී",
+    "deleteAccount": {
+      "button": "ගිණුම මකන්න",
+      "title": "ගිණුම මකන්න",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "තහවුරු කිරීමට ටයිප් කරන්න",
+      "confirmRequired": "තහවුරු කිරීමට DELETE ටයිප් කරන්න",
+      "confirmButton": "මගේ ගිණුම මකන්න",
+      "deleting": "මකමින්...",
+      "success": "ඔබේ ගිණුම මකා දමා ඇත",
+      "error": "ගිණුම මකා දැමීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "saveChanges": "වෙනස්කම් සුරකින්න",
+    "changesSaved": "වෙනස්කම් සාර්ථකව සුරකින ලදී",
+    "saveFailed": "වෙනස්කම් සුරැකීමට අසමත් විය",
+    "languageUpdated": "භාෂාව යාවත්කාලීන කරන ලදී",
+    "aiLanguageUpdated": "AI භාෂාව යාවත්කාලීන කරන ලදී"
+  },
+  "create": {
+    "defaultGreeting": "ආයුබෝවන්",
+    "title": "AI චරිතයක් සාදන්න",
+    "step": "පියවර {current} / {total}",
+    "step1": {
+      "title": "ශෛලිය තෝරන්න",
+      "description": "ඔබගේ චරිතය සඳහා ශෛලිය සහ මූලික ගුණාංග තෝරන්න"
+    },
+    "step2": {
+      "title": "ජනවාර්ගිකත්වය තෝරන්න",
+      "description": "ඔබගේ චරිතය සඳහා ජනවාර්ගිකත්වයක් සහ වයසක් තෝරන්න"
+    },
+    "step3": {
+      "title": "හිසකෙස් සහ ඇස් තෝරන්න",
+      "description": "හිසකෙස් ශෛලිය, හිසකෙස් වර්ණය සහ ඇස් වර්ණය අභිරුචිකරණය කරන්න"
+    },
+    "step4": {
+      "title": "ශරීරය තෝරන්න",
+      "description": "ඔබගේ චරිතයේ ශරීරය අභිරුචිකරණය කරන්න"
+    },
+    "step5": {
+      "title": "පෞරුෂත්වය සහ විස්තර",
+      "description": "ඔබගේ චරිතයේ පෞරුෂත්වය සහ හඬ නිර්වචනය කරන්න"
+    },
+    "style": {
+      "title": "චරිත ශෛලිය",
+      "realistic": "යථාර්ථවාදී",
+      "anime": "ඇනිමේ"
+    },
+    "gender": {
+      "title": "ස්ත්‍රී පුරුෂ භාවය",
+      "female": "ගැහැණු",
+      "male": "පුරුෂ"
+    },
+    "age": {
+      "title": "වයස",
+      "years": "{age} අවුරුදු"
+    },
+    "ethnicity": {
+      "title": "ජනවාර්ගිකත්වය"
+    },
+    "hairStyle": {
+      "title": "හිසකෙස් ශෛලිය"
+    },
+    "hairColor": {
+      "title": "හිසකෙස් වර්ණය"
+    },
+    "eyeColor": {
+      "title": "ඇස් වර්ණය"
+    },
+    "bodyType": {
+      "title": "ශරීර වර්ගය"
+    },
+    "breastSize": {
+      "title": "පපුවේ ප්‍රමාණය"
+    },
+    "name": {
+      "title": "නම",
+      "placeholder": "චරිතයේ නම ඇතුළත් කරන්න",
+      "randomize": "අහඹු නමක් ජනනය කරන්න"
+    },
+    "language": {
+      "title": "භාෂාව",
+      "widgetLabel": "භාෂාව තෝරන්න",
+      "placeholder": "භාෂාව තෝරන්න",
+      "selectTitle": "ඔබගේ භාෂාව තෝරන්න"
+    },
+    "personality": {
+      "title": "පෞරුෂත්වය",
+      "widgetLabel": "පෞරුෂත්වය තෝරන්න",
+      "placeholder": "පෞරුෂත්වය තෝරන්න",
+      "sectionTitle": "පෞරුෂත්වය තෝරන්න",
+      "clickToChange": "වෙනස් කිරීමට ක්ලික් කරන්න"
+    },
+    "relationship": {
+      "title": "සම්බන්ධතාවය",
+      "widgetLabel": "සම්බන්ධතාවය තෝරන්න",
+      "placeholder": "සම්බන්ධතාවය තෝරන්න",
+      "selectTitle": "සම්බන්ධතාවය සංස්කරණය කරන්න"
+    },
+    "occupation": {
+      "title": "රැකියාව",
+      "widgetLabel": "රැකියාව තෝරන්න",
+      "placeholder": "රැකියාව තෝරන්න",
+      "selectTitle": "රැකියාව සංස්කරණය කරන්න"
+    },
+    "kinks": {
+      "title": "අගතීන්",
+      "widgetLabel": "ඔවුන් කැමති අගතීන් මොනවාද? (උපරිම {max})",
+      "labelMax": "අගතීන් (උපරිම {max})",
+      "placeholder": "අගතීන් තෝරන්න (වෛකල්පික)",
+      "optional": "වෛකල්පික",
+      "selectTitle": "අගතීන් සංස්කරණය කරන්න",
+      "moreCount": "+{count} තවත්"
+    },
+    "selector": {
+      "searchPlaceholder": "සොයන්න",
+      "noResults": "විකල්ප කිසිවක් හමු නොවිණි",
+      "cancel": "අවලංගු කරන්න",
+      "saveChanges": "වෙනස්කම් සුරකින්න",
+      "selectedCount": "{count} තෝරා ඇත"
+    },
+    "voice": {
+      "title": "හඬ",
+      "widgetLabel": "හඬ තෝරන්න",
+      "placeholder": "හඬ තෝරන්න",
+      "selectTitle": "හඬ තෝරන්න"
+    },
+    "advanced": {
+      "title": "උසස් විස්තර",
+      "optional": "වෛකල්පික",
+      "filled": "පුරවා ඇත",
+      "autocompleteTitle": "AI සමඟ ස්වයංක්‍රීයව පුරවන්න",
+      "autocompleteDesc": "ගැඹුරු චරිතයක් සඳහා AI මඟින් හිස් ක්ෂේත්‍ර පුරවන්න",
+      "autocompleteSuccess": "ක්ෂේත්‍ර සාර්ථකව පුරවා ඇත!",
+      "autocompleteError": "යෝජනා ජනනය කිරීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+      "greetingLabel": "ආචාරය",
+      "greetingPlaceholder": "ඔබේ චරිතය යවන පළමු පණිවිඩය...",
+      "scenarioLabel": "දර්ශනය",
+      "scenarioPlaceholder": "ඔබ හමුවූ ආකාරයේ සන්දර්භය හෝ පසුබිම...",
+      "personalityLabel": "අමතර පෞරුෂත්ව විස්තර",
+      "personalityPlaceholder": "විශේෂතා, කථන රටා, හැසිරීම් ලක්ෂණ...",
+      "extraLabel": "අමතර විස්තර",
+      "extraPlaceholder": "පසුබිම, විනෝදාංශ, ජීවිත ඉතිහාසය..."
+    },
+    "navigation": {
+      "back": "ආපසු",
+      "next": "ඊළඟ",
+      "create": "සාදන්න",
+      "generateYourCharacter": "ඔබේ චරිතය ජනනය කරන්න"
+    },
+    "progress": {
+      "generatingPrompt": "පෞරුෂත්වය නිර්මාණය කරමින්...",
+      "generatingImage": "ප්‍රතිමූර්තිය නිර්මාණය කරමින්...",
+      "creatingVoice": "හඬ සකස් කරමින්...",
+      "saving": "සුරකිමින්...",
+      "complete": "සම්පූර්ණයි!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "පෞරුෂත්වය නිර්මාණය කරමින්...",
+      "addingSweetness": "මිහිර එකතු කරමින්...",
+      "tooMuchSweet": "ඕප්ස්, ඕනෑවට වඩා මිහිරි...",
+      "testingSounds": "හඬ පරීක්ෂා කරමින්..."
+    },
+    "overlay": {
+      "signupPrompt": "ඔබේ චරිතය අගුළු හැරීමට සයින්-අප් සම්පූර්ණ කරන්න…",
+      "processingHint": "මෙය සාමාන්‍යයෙන් ගතවන්නේ තත්පර 20–30ක්",
+      "traitEthnicity": "වාර්ගිකත්වය",
+      "traitBody": "ශරීරය",
+      "traitHair": "කොණ්ඩය",
+      "traitColor": "වර්ණය",
+      "traitEyes": "ඇස්",
+      "traitVibe": "වයිබ්",
+      "bannerTitle": "ඔබේ චරිතය නිර්මාණය කිරීමට සූදානම්!",
+      "bannerDesc": "ඔබේ අභිරුචි සුරැකී ඇත. පහත සමාලෝචනය කර ජනනය කරන්න."
+    },
+    "success": {
+      "title": "චරිතය නිර්මාණය කරන ලදී!",
+      "description": "ඔබේ AI චරිතය සාර්ථකව නිර්මාණය කරන ලදී.",
+      "yearsOld": "වයස",
+      "meetButton": "හමුවන්න"
+    },
+    "error": {
+      "title": "නිර්මාණය අසාර්ථක විය",
+      "generic": "චරිතය නිර්මාණය කිරීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "කොකේසියානු",
+        "asian": "ආසියානු",
+        "middle_eastern": "මැද පෙරදිග",
+        "hispanic": "හිස්පැනික්",
+        "african": "අප්‍රිකානු",
+        "south_asian": "දකුණු ආසියානු",
+        "native_american": "නේටිව් ඇමෙරිකානු",
+        "pacific_islander": "පැසිෆික් දූපත් වැසියා",
+        "mixed": "මිශ්‍ර",
+        "arab": "අරාබි"
+      },
+      "hairStyleFemale": {
+        "straight": "සෘජු",
+        "bangs": "බෑන්ග්ස්",
+        "curly": "රැලි",
+        "bun": "බන්",
+        "short_bob": "කෙටි බොබ්",
+        "ponytail": "පෝනිටේල්",
+        "wavy": "රැලි සහිත",
+        "long_layers": "දිගු ලේයර්ස්",
+        "braids": "බ්‍රේඩ්ස්",
+        "pixie_cut": "පික්සි කට්",
+        "updo": "අප්ඩෝ",
+        "french_twist": "ප්‍රංශ ට්විස්ට්",
+        "fishtail_braid": "ෆිෂ්ටේල් බ්‍රේඩ්",
+        "top_knot": "ටොප් නොට්",
+        "space_buns": "ස්පේස් බන්ස්",
+        "halo_braid": "හේලෝ බ්‍රේඩ්",
+        "beehive": "බීහයිව්",
+        "finger_waves": "ෆින්ගර් වේව්ස්",
+        "lob": "ලොබ් (ලොං බොබ්)",
+        "shag_cut": "ෂැග් කට්",
+        "bald": "තට්ට"
+      },
+      "hairStyleMale": {
+        "short": "කෙටි",
+        "buzz_cut": "බස් කට්",
+        "crew_cut": "ක්‍රූ කට්",
+        "undercut": "අන්ඩර් කට්",
+        "fade": "ෆේඩ්",
+        "pompadour": "පොම්පඩෝර්",
+        "quiff": "ක්විෆ්",
+        "slicked_back": "ස්ලික්ඩ් බැක්",
+        "curly": "රැලි",
+        "afro": "ඇෆ්‍රෝ",
+        "man_bun": "මෑන් බන්",
+        "dreadlocks": "ඩ්‍රෙඩ්ලොක්ස්",
+        "cornrows": "කෝන්රෝස්",
+        "mohawk": "මොහෝක්",
+        "side_part": "සයිඩ් පාට්",
+        "textured_crop": "ටෙක්ස්චර්ඩ් ක්‍රොප්",
+        "french_crop": "ෆ්‍රෙන්ච් ක්‍රොප්",
+        "spiky": "ස්පයිකි",
+        "comb_over": "කෝම් ඕවර්",
+        "long_hair": "දිගු කොණ්ඩය",
+        "bald": "තට්ට"
+      },
+      "hairColor": {
+        "brunette": "බ්‍රූනෙට්",
+        "blonde": "බ්ලොන්ඩ්",
+        "black": "කළු",
+        "redhead": "රතු කොණ්ඩය",
+        "pink": "ගුලබි",
+        "auburn": "ඔබර්න්",
+        "brown": "දුඹුරු",
+        "platinum_blonde": "ප්ලැටිනම් බ්ලොන්ඩ්",
+        "silver_grey": "රිදී/අළු",
+        "white": "සුදු",
+        "blue": "නිල්",
+        "purple": "දම්",
+        "green": "කොළ",
+        "burgundy": "බර්ගන්ඩි",
+        "copper": "තඹ",
+        "strawberry_blonde": "ස්ට්‍රෝබෙරි බ්ලොන්ඩ්",
+        "ash_brown": "අෂ් දුඹුරු",
+        "golden_blonde": "ගෝල්ඩන් බ්ලොන්ඩ්",
+        "mahogany": "මහෝගනි",
+        "pastel_pink": "පැස්ටල් ගුලබි",
+        "ombre": "ඔම්බ්‍රේ",
+        "balayage": "බලයාජ්",
+        "highlights": "හයිලයිට්ස්",
+        "jet_black": "ජෙට් කළු",
+        "dark_brown": "තද දුඹුරු",
+        "light_brown": "ලා දුඹුරු",
+        "honey_blonde": "මී පැහැති රන්වන්",
+        "dirty_blonde": "අපිරිසිදු රන්වන්",
+        "cherry_red": "චෙරි රතු",
+        "violet": "වයලට්"
+      },
+      "eyeColor": {
+        "brown": "දුඹුරු",
+        "blue": "නිල්",
+        "green": "කොළ",
+        "hazel": "හේසල්",
+        "amber": "ඇම්බර්",
+        "gray": "අළු",
+        "heterochromia": "හෙටෙරොක්‍රෝමියා",
+        "violet": "වයලට්",
+        "red_pink": "රතු/ගුලාබි",
+        "black": "කළු"
+      },
+      "bodyTypeFemale": {
+        "skinny": "සිහින්",
+        "athletic": "ක්‍රීඩාභ්‍යාස",
+        "average": "සාමාන්‍ය",
+        "curvy": "වක්‍ර",
+        "chubby": "මහත"
+      },
+      "bodyTypeMale": {
+        "skinny": "සිහින්",
+        "athletic": "ක්‍රීඩාභ්‍යාස",
+        "average": "සාමාන්‍ය",
+        "muscular": "මාංශපේශී",
+        "heavy": "බර",
+        "big_tall": "විශාල සහ උස"
+      },
+      "breastSize": {
+        "small": "කුඩා",
+        "medium": "මධ්‍යම",
+        "large": "විශාල",
+        "extra_large": "අමතර විශාල"
+      },
+      "personality": {
+        "nympho": "නිම්ෆෝ",
+        "lover": "ප්‍රේමවන්ත",
+        "submissive": "අවනත",
+        "dominant": "ප්‍රධාන",
+        "temptress": "පෙළඹවන්නා",
+        "innocent": "නිර්දෝෂී",
+        "caregiver": "සැලකිලිමත්",
+        "experimenter": "පරීක්ෂණකරු",
+        "mean": "දැඩි",
+        "confidant": "විශ්වාසවන්ත",
+        "shy": "ලැජ්ජාශීලී",
+        "queen": "රැජින",
+        "adventurous": "සාහසික",
+        "romantic": "රොමැන්ටික්",
+        "intellectual": "බුද්ධිමත්",
+        "protector": "රැකවරණකරු",
+        "rebel": "කැරලිකරු",
+        "optimist": "අශාවාදී",
+        "realist": "යථාර්ථවාදී",
+        "free_spirit": "නිදහස් ආත්මය",
+        "leader": "නායක",
+        "loyal": "විශ්වාසවන්ත",
+        "playful": "සෙල්ලක්කාර",
+        "mysterious": "රහස්‍ය",
+        "ambitious": "අභිලාෂකාමී",
+        "gentle": "මෘදු",
+        "sarcastic": "වින්දනාත්මක",
+        "empathetic": "අනුකම්පාවන්ත",
+        "stoic": "ස්ථිර",
+        "charismatic": "ආකර්ෂණීය"
+      },
+      "relationship": {
+        "stranger": "අමුත්තා",
+        "girlfriend": "පෙම්වතිය",
+        "sex_friend": "සෙක්ස් මිතුරා",
+        "school_mate": "පාසල් මිතුරා",
+        "work_colleague": "වැඩ මිතුරා",
+        "wife": "බිරිඳ",
+        "mistress": "අනුරාගී",
+        "friend": "මිතුරා",
+        "step_sister": "සුළු සහෝදරිය",
+        "step_mom": "සුළු මව",
+        "step_daughter": "සුළු දුව",
+        "landlord": "ගෙවල් හිමියා",
+        "sugar_baby": "සීනි දරුවා",
+        "boss": "බොස්",
+        "teacher": "ගුරුවරයා",
+        "student": "සිසුවා",
+        "neighbour": "අසල්වැසියා",
+        "mother_in_law": "මාමාගේ බිරිඳ",
+        "sister_in_law": "මාමාගේ දුව",
+        "boyfriend": "පෙම්වතා",
+        "husband": "සැමියා",
+        "fiance": "විවාහක පෙම්වතා / පෙම්වතිය",
+        "ex": "පෙර",
+        "roommate": "කාමර මිතුරා",
+        "best_friend": "හොඳම මිතුරා",
+        "classmate": "පන්ති මිතුරා",
+        "mentor": "උපදේශක",
+        "client": "සේවාදායකයා",
+        "therapist": "උපදේශක",
+        "trainer": "පුහුණුකරු",
+        "rival": "විරෝධියා",
+        "crush": "පෙම්වතා",
+        "secret_admirer": "රහස් ප්‍රේමිකයා",
+        "pen_pal": "ලිපි මිතුරා",
+        "business_partner": "ව්‍යාපාරික හවුල්කරු",
+        "babysitter": "දරුවන් බලාගන්නා",
+        "childhood_friend": "ළමා කාලයේ මිතුරා",
+        "long_distance_partner": "දුරස්ථ හවුල්කරු"
+      },
+      "occupation": {
+        "student": "සිසුවා",
+        "dancer": "නර්තන ශිල්පියා",
+        "model": "මාදිලිකරු",
+        "maid": "ගෘහ සේවිකාව",
+        "boss_ceo": "බොස් / CEO",
+        "babysitter_au_pair": "බබා රැකබලා ගන්නා / ඕ පෙයා",
+        "streamer": "ස්ට්‍රීමර්",
+        "bartender": "බාර්ටෙන්ඩර්",
+        "tech_engineer": "ටෙක් ඉංජිනේරු",
+        "lifeguard": "ජීවිත ආරක්ෂක",
+        "cashier": "කෑෂියර්",
+        "massage_therapist": "මසාජ් චිකිත්සක",
+        "teacher": "ගුරුවරිය",
+        "nurse": "හෙදිය",
+        "secretary": "ලේකම්",
+        "yoga_instructor": "යෝගා උපදේශක",
+        "fitness_coach": "ෆිට්නස් පුහුණුකරු",
+        "cook": "උයන්නා",
+        "artist": "කලාකරුවා",
+        "movie_star_actress": "සිනමා තරුව / නිළිය",
+        "doctor": "වෛද්‍යවරිය",
+        "librarian": "පුස්තකාලයිකා",
+        "spy": "ඔත්තුකාරයා",
+        "police_officer": "පොලිස් නිලධාරියා",
+        "soldier": "සොල්දාදුවා",
+        "lawyer": "නීතිඥ",
+        "hairdresser": "කොණ්ඩේ කපන්නා",
+        "dentist": "දන්ත වෛද්‍යවරිය",
+        "singer_musician": "ගායකයා / සංගීතඥ",
+        "gynecologist": "ගයිනකොලොජිස්ට්",
+        "writer": "ලේඛකයා",
+        "flight_attendant": "ගුවන් සේවිකාව",
+        "professional_athlete": "වෘත්තීය ක්‍රීඩකයා",
+        "scientist": "විද්‍යාඥ",
+        "florist": "මල් වෙළෙන්දා",
+        "makeup_artist": "මේක්අප් කලාකරුවා",
+        "photographer": "ඡායාරූප ශිල්පියා",
+        "social_worker": "සමාජ සේවකයා",
+        "designer": "ඩිසයිනර්",
+        "pharmacist": "ඖෂධවේදී",
+        "nutritionist": "පෝෂණවේදී",
+        "architect": "ගෘහ නිර්මාණ ශිල්පී",
+        "veterinarian": "පශු වෛද්‍යවරයා",
+        "mechanic": "යාන්ත්‍රික",
+        "journalist": "මාධ්‍යවේදී",
+        "pilot": "ගුවන් නියමු",
+        "firefighter": "ගිනි නිවන",
+        "accountant": "ගණකාධිකාරී",
+        "electrician": "විදුලි කාර්මික",
+        "carpenter": "වඩුවා",
+        "psychologist": "මනෝවිද්‍යාඥයා",
+        "real_estate_agent": "දේපළ නියෝජිතයා",
+        "chef": "අරක්කුකාරයා",
+        "farmer": "ගොවියා",
+        "delivery_driver": "බෙදාහැරීමේ රියදුරු",
+        "janitor": "පිරිසිදු කරන්නා",
+        "security_guard": "ආරක්ෂක ආරක්ෂකයා",
+        "banker": "බැංකුකරු",
+        "judge": "විනිසුරු",
+        "paramedic": "ප්‍රථමාධාරක",
+        "actor": "නළුවා",
+        "comedian": "විහිළුකාරයා",
+        "archaeologist": "පුරාවිද්‍යාඥයා",
+        "astronaut": "අභ්‍යවකාශ ගමන්කරු"
+      },
+      "kinks": {
+        "bondage": "බන්ධන",
+        "spanking": "පහර දීම",
+        "collar_leash": "කොලර් සහ ලීෂ්",
+        "punishment": "දඬුවම",
+        "humiliation": "අපහාසය",
+        "public_play": "පොදු ක්‍රීඩාව",
+        "roleplay": "භූමිකා ක්‍රීඩාව",
+        "anal_play": "පායින් ක්‍රීඩාව",
+        "oral_play": "මුඛ ක්‍රීඩාව",
+        "cum_play": "වීර්ය ක්‍රීඩාව",
+        "creampie": "ක්‍රීම්පයි",
+        "squirting": "විසිරීම",
+        "dirty_talk": "අපිරිසිදු කතාව",
+        "breeding": "අභිවෘද්ධිය",
+        "daddy_mommy_dominance": "පියා/මව් දඬුවම",
+        "edging": "එඩ්ජිං",
+        "obedience": "අනුගත වීම",
+        "control": "පාලනය",
+        "inexperienced": "අත්දැකීම් නැති",
+        "shy_flirting": "ලැජ්ජාවෙන් පෙම් කිරීම",
+        "playful_teasing": "සෙල්ලම්කාරී උපහාසය",
+        "cuddling": "උරුමාරුව",
+        "slow_sensual": "සෙමින් සහ සංවේදී",
+        "hair_pulling": "කොණ්ඩේ ඇදීම",
+        "foot_fetish": "පාද ආශාව",
+        "voyeurism": "වෝයරිස්ම්",
+        "exhibitionism": "ප්‍රදර්ශනවාදය",
+        "sensation_play": "සංවේදන ක්‍රීඩාව",
+        "wax_play": "ඉටි ක්‍රීඩාව",
+        "pet_play": "සුරතල් ක්‍රීඩාව",
+        "age_play": "වයස් ක්‍රීඩාව",
+        "medical_play": "වෛද්‍ය ක්‍රීඩාව",
+        "orgasm_control_denial": "ඔගස්ම් පාලනය/ප්‍රතික්ෂේපය",
+        "forced_orgasms": "බලහත්කාර ඔගස්ම්",
+        "group_sex": "සමූහ ලිංගිකත්වය",
+        "threesomes": "ත්‍රිත්වය",
+        "swapping": "හුවමාරුව",
+        "cuckolding_cuckqueaning": "කකෝල්ඩිං/කකූකීනිං",
+        "femdom": "ෆෙම්ඩොම්",
+        "gentle_domination": "මෘදු ආධිපත්‍යය",
+        "sensation_deprivation": "සංවේදන අහිමි කිරීම",
+        "sensory_overload": "සංවේදන අධික බර",
+        "uniform_costume_fetish": "ඒකාබද්ධ/වේෂ භීතිකාව",
+        "food_play": "ආහාර ක්‍රීඩාව",
+        "watersports": "ජල ක්‍රීඩා",
+        "bdsm": "බීඩීඑස්එම්",
+        "impact_play": "ප්‍රහාර ක්‍රීඩාව",
+        "knife_play": "පිහි ක්‍රීඩාව",
+        "consensual_non_consent": "සම්මත නොවන සම්මතය",
+        "power_exchange": "බලය හුවමාරුව",
+        "master_slave": "ස්වාමියා/වහල්",
+        "owner_pet": "හිමිකරු/සුරතල්"
+      },
+      "languages": {
+        "en": "ඉංග්‍රීසි",
+        "cs": "චෙක්",
+        "pl": "පෝලන්ත",
+        "de": "ජර්මානු",
+        "es": "ස්පාඤ්ඤ",
+        "fr": "ප්‍රංශ"
+      }
+    }
+  },
+  "myAI": {
+    "title": "මගේ AI",
+    "titlePart1": "මගේ",
+    "titlePart2": "AI",
+    "createNew": "නව AI නිර්මාණය කරන්න",
+    "createButton": "චරිතය නිර්මාණය කරන්න",
+    "characterCount": "{count}/{limit} චරිත",
+    "loadMore": "තව පූරණය කරන්න",
+    "empty": {
+      "title": "තවත් චරිත නොමැත",
+      "description": "ඔබේ පළමු AI චරිතය නිර්මාණය කර කතාබස් ආරම්භ කරන්න! ඔවුන්ගේ පෙනුම, පෞරුෂත්වය සහ හඬ අභිරුචිකරණය කරන්න.",
+      "createFirst": "ඔබේ පළමු චරිතය නිර්මාණය කරන්න"
+    },
+    "delete": {
+      "title": "චරිතය මකන්න",
+      "message": "{name} මකා දැමීමට ඔබට විශ්වාසද? මෙය චරිතය, සියලු කතාබස් ඉතිහාසය සහ ජනනය කළ අන්තර්ගතය ස්ථිරවම ඉවත් කරයි.",
+      "confirm": "මකන්න",
+      "success": "චරිතය සාර්ථකව මකා දමන ලදී"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ අන්තර්ක්‍රියාව",
+    "interactionDescription": "ස්වාභාවිකව ටයිප් කරන්න — ඡායාරූපයක්, වීඩියෝවක් ඉල්ලන්න හෝ සංවාදයක් ආරම්භ කරන්න. AI ඕනෑම භාෂාවකින් ඔබේ අභිප්‍රාය තේරුම් ගනී.",
+    "mediaTitle": "පින්තූර සහ වීඩියෝ ජනනය කරන්න",
+    "mediaDescription": "ඔබේ මනඃකල්පිතය මුදා හරින්න — සීමාවකින් තොරව පින්තූර හෝ වීඩියෝ ජනනය කරන්න.",
+    "next": "ඊළඟ →",
+    "gotIt": "තේරුණා"
+  }
+}

@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Сақтау",
+    "cancel": "Болдырмау",
+    "delete": "Жою",
+    "edit": "Өңдеу",
+    "close": "Жабу",
+    "now": "қазір",
+    "loading": "Жүктелуде...",
+    "error": "Қате орын алды",
+    "success": "Сәтті",
+    "confirm": "Растау",
+    "back": "Артқа",
+    "or": "Немесе",
+    "next": "Келесі",
+    "submit": "Жіберу",
+    "search": "Іздеу",
+    "filter": "Сүзгі",
+    "clear": "Тазалау",
+    "all": "Барлығы",
+    "yes": "Иә",
+    "no": "Жоқ",
+    "download": "Жүктеу",
+    "and": "және",
+    "tryAgain": "Қайталап көру",
+    "change": "Өзгерту"
+  },
+  "navigation": {
+    "new": "ЖАҢА",
+    "sectionBrowse": "Шолу",
+    "sectionTalk": "Сөйлесу",
+    "sectionCreate": "Жасау",
+    "sectionLibrary": "Кітапхана",
+    "explore": "Басты",
+    "discover": "Ашу",
+    "createShort": "AI жасау",
+    "chats": "Чаттар",
+    "groupChat": "AI топтық чат",
+    "roleplay": "Рөлдік ойын",
+    "collection": "Жинақ",
+    "generateImage": "Сурет жасау",
+    "generateVideo": "Видео жасау",
+    "createCharacter": "AI кейіпкер жасау",
+    "myAI": "Менің AI",
+    "language": "Тіл",
+    "contactUs": "Бізбен байланыс",
+    "account": "Аккаунт",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Әйелдер",
+      "anime": "Аниме",
+      "guys": "Ерлер"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Қазір сөйлесу",
+    "like": "Ұнату"
+  },
+  "auth": {
+    "login": "Кіру",
+    "signup": "Тіркелу",
+    "createFreeAccount": "Тегін аккаунт жасау",
+    "logout": "Шығу",
+    "email": "Электрондық пошта",
+    "password": "Құпиясөз",
+    "confirmPassword": "Құпиясөзді растау",
+    "forgotPassword": "Құпиясөзді ұмыттыңыз ба?",
+    "noAccount": "Аккаунтыңыз жоқ па?",
+    "hasAccount": "Аккаунтыңыз бар ма?",
+    "signupPrompt": "Тегін аккаунт жасау",
+    "loginPrompt": "Кіру",
+    "continueWith": "Жалғастыру",
+    "welcomeBack": "Қайта келгеніңізге қош келдіңіз!",
+    "createAccount": "Аккаунт жасау",
+    "signInToAccount": "Аккаунтыңызға кіру",
+    "emailRequired": "Электрондық пошта міндетті",
+    "emailInvalid": "Жарамсыз электрондық пошта мекенжайы",
+    "passwordRequired": "Құпиясөз міндетті",
+    "passwordLength": "Құпиясөз кемінде 6 таңбадан тұруы керек",
+    "passwordsMismatch": "Құпиясөздер сәйкес келмейді",
+    "emailAlreadyRegistered": "Электрондық пошта тіркелген",
+    "emailAlreadyRegisteredDescription": "Бұл электрондық поштамен аккаунт бар. Кіріңіз.",
+    "loginError": "Кіру сәтсіз аяқталды",
+    "signupError": "Тіркелу сәтсіз аяқталды",
+    "loginSuccess": "Қайта келгеніңізге қош келдіңіз!",
+    "signupSuccess": "Аккаунт сәтті жасалды!",
+    "logoutSuccess": "Сіз сәтті шықтыңыз",
+    "logoutError": "Шығу сәтсіз аяқталды",
+    "linkExpired": "Бұл растау сілтемесінің мерзімі аяқталды. Жаңасын сұраңыз.",
+    "accessDenied": "Қолжетімділік жоқ. Қайталап көріңіз.",
+    "verifyEmail": "Электрондық поштаңызды растаңыз",
+    "verificationEmailSent": "Біз сізге растау хатын жібердік",
+    "confirmYourEmail": "Электрондық поштаңызды растаңыз",
+    "confirmationLinkSent": "Біз \"{email}\" мекенжайына растау сілтемесін жібердік.",
+    "checkSpamFolder": "Хат алмадыңыз ба? Спам қалтасын тексеріңіз.",
+    "signupToChat": "Бастау үшін тегін аккаунт жасаңыз.",
+    "signupDescription": "Сөйлесуді жалғастыру үшін аккаунт жасаңыз",
+    "emailVerificationTitle": "Электрондық поштаңызды тексеріңіз",
+    "emailVerificationMessage": "Біз {email} мекенжайына растау сілтемесін жібердік. Кіріс жәшігіңізді тексеріп, аккаунтыңызды растау үшін сілтемені басыңыз.",
+    "emailVerificationNext": "Тексеруден кейін тіркеу процесін аяқтайсыз.",
+    "verificationEmailSentTo": "Біз {email} мекенжайына растау хатын жібердік",
+    "verificationInstructions": "Кіріс жәшігіңізді тексеріп, тіркелгіңізді белсендіру үшін растау сілтемесін басыңыз.",
+    "resetPassword": "Құпиясөзді қалпына келтіру",
+    "resetPasswordDescription": "Электрондық поштаңызды енгізіңіз, біз сізге қалпына келтіру сілтемесін жібереміз",
+    "resetEmailSent": "Егер осы электрондық поштаға тіркелгі болса, сізге қалпына келтіру сілтемесі жақында келеді",
+    "backToLogin": "Кіруге қайту",
+    "newPassword": "Жаңа құпиясөз",
+    "confirmNewPassword": "Жаңа құпиясөзді растаңыз",
+    "passwordResetSuccess": "Құпиясөз сәтті жаңартылды. Кіріңіз.",
+    "enterNewPassword": "Жаңа құпиясөзіңізді енгізіңіз",
+    "redirectingToLogin": "Кіру бетіне қайта бағытталуда...",
+    "invalidResetLink": "Жарамсыз немесе мерзімі өткен сілтеме",
+    "invalidResetLinkDescription": "Бұл құпиясөзді қалпына келтіру сілтемесі жарамсыз немесе мерзімі өткен. Жаңасын сұраңыз.",
+    "passwordsDontMatch": "Құпиясөздер сәйкес келмейді",
+    "currentPassword": "Ағымдағы құпиясөз",
+    "currentPasswordRequired": "Ағымдағы құпиясөз міндетті",
+    "changePassword": "Құпиясөзді өзгерту",
+    "changePasswordDescription": "Ағымдағы құпиясөзіңізді енгізіп, жаңасын таңдаңыз",
+    "newPasswordMustBeDifferent": "Жаңа құпиясөз ағымдағы құпиясөзден өзгеше болуы керек",
+    "incorrectPassword": "Ағымдағы құпиясөз дұрыс емес",
+    "passwordChangeSuccess": "Құпиясөз сәтті өзгертілді",
+    "changeEmail": "Электрондық поштаны өзгерту",
+    "newEmail": "Жаңа электрондық пошта",
+    "confirmNewEmail": "Жаңа email-ді растау",
+    "emailsDontMatch": "Email-дер сәйкес келмейді",
+    "emailChangeDescription": "Растау хаты ағымдағы және жаңа электрондық поштаңызға жіберіледі",
+    "emailMustBeDifferent": "Жаңа электрондық пошта ағымдағыдан өзгеше болуы керек",
+    "emailChangeSent": "Растау хаты жіберілді. Жаңа электрондық поштаңыздың жәшігін тексеріңіз.",
+    "emailChangeSecurityNote": "Қауіпсіздік мақсатында растау хаттары ағымдағы және жаңа электрондық поштаңызға жіберіледі. Өзгерісті аяқтау үшін екеуінен де растау қажет.",
+    "otpDescription": "Біз {email} мекенжайына 6 таңбалы код жібердік",
+    "otpVerify": "Растау",
+    "otpResend": "Кодты қайта жіберу",
+    "otpResendIn": "{seconds}с кейін қайта жіберу",
+    "otpNoCode": "Код келмеді ме?",
+    "otpInvalid": "Код дұрыс емес. Қайталап көріңіз.",
+    "otpSuccess": "Электрондық пошта сәтті расталды!",
+    "otpResendSuccess": "Жаңа код электрондық поштаңызға жіберілді",
+    "otpResendError": "Кодты қайта жіберу сәтсіз аяқталды",
+    "continueWithEmail": "Электрондық пошта арқылы жалғастыру",
+    "moreOptions": "Қосымша опциялар",
+    "lessOptions": "Азырақ опциялар",
+    "enterYourEmail": "Электрондық поштаңызды енгізіңіз",
+    "sendCode": "Код жіберу",
+    "byCreatingAccountAgree": "Тіркелгі жасау арқылы сіз біздің",
+    "termsOfService": "Қызмет көрсету шарттары",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "sweetwine-ға қош келдіңіз",
+    "welcomeTo": "Қош келдіңіз",
+    "letsGetStarted": "Орнатуды бастайық",
+    "setupProfile": "Профильіңізді орнатыңыз",
+    "step1of2": "1-қадам / 2",
+    "step2of2": "2-қадам / 2",
+    "nickname": "Никнейм",
+    "nicknamePlaceholder": "Никнейм таңдаңыз",
+    "nicknameRequired": "Никнейм енгізіңіз",
+    "gender": "Жыныс",
+    "genderRequired": "Жынысыңызды таңдаңыз",
+    "male": "Ер",
+    "female": "Әйел",
+    "interfaceLanguage": "Интерфейс тілі",
+    "interfaceLanguageDesc": "Мәзірлер мен түймелер тілі",
+    "aiLanguage": "AI жауап тілі",
+    "aiLanguageDesc": "AI сізбен сөйлескенде қолданатын тіл",
+    "languageRequired": "Тіл таңдаңыз",
+    "continue": "Жалғастыру",
+    "ageVerification": "Жасын растау",
+    "ageVerificationText": "sweetwine пайдалану үшін сіз 18 жастан асқан болуыңыз керек. Жалғастыру арқылы сіз заңды жасқа жеткеніңізді растайсыз.",
+    "beforeContinue": "Жалғастырмас бұрын",
+    "mustBe18": "Бұл қызметті пайдалану үшін сіз 18 жастан асқан болуыңыз керек",
+    "agreeToTerms": "Жалғастыру арқылы сіз {termsLink} және {privacyLink} келісесіз",
+    "termsOfService": "Қызмет көрсету шарттары",
+    "privacyPolicy": "Құпиялылық саясаты",
+    "iConfirm": "Мен 18 жастан асқанымды растаймын және",
+    "ageRequired": "Жалғастыру үшін жасын растауыңыз керек",
+    "aiActConsent": "Мен тек AI-мен сөйлесетінімді мойындаймын",
+    "aiActRequired": "Жалғастыру үшін мұны мойындауыңыз керек",
+    "newsletterOptIn": "Жаңартулар мен жаңалықтар үшін біздің жаңалықтар бюллетеніне жазылыңыз",
+    "complete": "Орнату аяқталды!",
+    "completeText": "Бәрі дайын! AI кейіпкерлерімен сөйлесе бастаңыз.",
+    "startExploring": "Зерттеуді бастау",
+    "featuresTitle": "Қолжетімді мүмкіндіктер",
+    "featuresTitleWord1": "Қолжетімді",
+    "featuresTitleWord2": "Мүмкіндіктер",
+    "feature1Title": "AI чат",
+    "feature1Desc": "Цензурасыз және жеке әңгімелер",
+    "feature2Title": "Сурет генерациясы",
+    "feature2Desc": "AI кейіпкерлерімен цензурасыз және жеке суреттер жасау",
+    "feature3Title": "Видео генерациясы",
+    "feature3Desc": "Эффектілері бар цензурасыз AI видеоларын жасау",
+    "feature5Title": "Custom AI жасаушы",
+    "feature5Desc": "Өзіңіздің кейіпіңізді жасаңыз",
+    "feature6Title": "Кейіпкерлерді қарау",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI рөлдік ойын",
+    "feature7Desc": "Кәсіби дайындалған әңгімелер мен қиялдарды сезініңіз",
+    "showcase": {
+      "chatTitle": "AI Чат",
+      "chatDesc": "Цензурасыз, жеке әңгімелер шектеусіз",
+      "imageTitle": "Сурет генерациясы",
+      "imageDesc": "AI-ңіздің цензурасыз, жеке суреттерін жасаңыз",
+      "videoTitle": "Видео генерациясы",
+      "videoDesc": "Эффектілермен цензурасыз AI видеоларын жасаңыз",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Компаньоныңызбен нақты уақыттағы дауыстық әңгімелер",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Иммерсивті әңгімелер, қиялдар және интерактивті ойын",
+      "groupChatTitle": "AI Топтық чат",
+      "groupChatDesc": "Бір уақытта 3 AI кейіпкерімен сөйлесіңіз",
+      "creatorTitle": "Custom AI Creator",
+      "creatorDesc": "Өзіңіздің AI кейіпкерлеріңізді жобалаңыз және жасаңыз"
+    },
+    "freePlan": {
+      "title": "Бәрі дайын!",
+      "subtitle": "Тегін жоспарыңызға кіретін мүмкіндіктер.",
+      "charactersTitle": "Өзіңіздің кейіпкеріңізді жасаңыз",
+      "charactersDesc": "Нөлден бастап {count} AI кейіпкерін жасаңыз",
+      "imagesTitle": "Сурет жасаңыз",
+      "imagesDesc": "Компаньоныңыздың {count} тегін AI суреті",
+      "messagesTitle": "Күн сайын сөйлесіңіз",
+      "messagesDesc": "Күніне {count} хабарлама, әр 24 сағат сайын жаңартылады",
+      "cta": "Зерттеуді бастау"
+    },
+    "redirectingIn": "Бұрылу",
+    "seconds": "секунд",
+    "generateCharacter": "Кейіпіңізді жасау",
+    "redirectingToCreate": "Кейіпкер жасаушыға бұрылу"
+  },
+  "errors": {
+    "pageNotFound": "Бет табылмады",
+    "pageNotFoundDesc": "Сіз іздеген бет жоқ.",
+    "goHome": "Басты бетке өту",
+    "somethingWentWrong": "Бірдеңе дұрыс болмады",
+    "tryAgain": "Қайталап көру",
+    "unauthorized": "Рұқсат жоқ",
+    "unauthorizedDesc": "Бұл бетке кіру үшін жүйеге кіруіңіз керек.",
+    "forbidden": "Тыйым салынған",
+    "forbiddenDesc": "Бұл бетке кіруге рұқсатыңыз жоқ."
+  },
+  "footer": {
+    "allRightsReserved": "Барлық құқықтар қорғалған.",
+    "madeWith": "Жасалған",
+    "by": "sweetwine",
+    "description": "Ерекше тұлғалары, визуалды келбеті және қызықты әңгімелері бар жеке AI кейіпкерлерін сезініңіз.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Өнім",
+    "legal": "Құқықтық",
+    "company": "Компания",
+    "resources": "Ресурстар",
+    "partnerships": "Серіктестік",
+    "pressMedia": "Баспасөз & медиа",
+    "careers": "Мансап",
+    "aiRealClones": "AI нақты клондар",
+    "about": "Біз туралы",
+    "blog": "Блог",
+    "news": "Жаңалықтар",
+    "productUpdates": "Өнім жаңартулары",
+    "help": "Көмек",
+    "sitemap": "Сайт картасы",
+    "paymentOptions": "Төлем тәсілдері",
+    "chats": "Чаттар",
+    "collection": "Жинақ",
+    "generateImage": "Сурет генерациялау",
+    "generateVideo": "Видео генерациялау",
+    "myAI": "Менің AI",
+    "createCharacter": "Кейіпкер жасау",
+    "api": "API",
+    "features": "Мүмкіндіктер",
+    "allFeatures": "Барлық мүмкіндіктер",
+    "aiGroupChat": "AI топтық чат",
+    "aiMemory": "AI жады",
+    "aiGirlfriend": "AI қыз",
+    "aiBoyfriend": "AI жігіт",
+    "aiCompanions": "AI кейіпкерлер",
+    "aiFriend": "AI дос",
+    "aiBreakupSupport": "Ажырасу қолдауы",
+    "aiParent": "AI ата-ана",
+    "aiRoleplay": "AI рөлдік ойын",
+    "privacyPolicy": "Құпиялылық саясаты",
+    "termsAndConditions": "Қолдану шарттары",
+    "cookiePolicy": "Cookie саясаты",
+    "cookieSettings": "Cookie баптаулары",
+    "other": "Басқа саясаттар",
+    "copyright": "© {year} sweetwine. Барлық құқықтар қорғалған."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Бұл сайттағы cookie файлдары",
+      "customizeButton": "Баптау",
+      "rejectButton": "Қабылдамау",
+      "acceptButton": "Қабылдау"
+    },
+    "modal": {
+      "title": "Cookie файлдарын басқару",
+      "subtitle": "Төмендегі санаттарды қосыңыз немесе өшіріңіз. Сайт жұмыс істеуі үшін қатаң қажетті cookie файлдары қосылады.",
+      "categories": {
+        "necessary": {
+          "title": "Қатаң қажетті",
+          "description": "Жүйеге кіру, төлем жасау және қауіпсіздік үшін қажет. Оларсыз сайт жұмыс істей алмайды.",
+          "alwaysOn": "Әрқашан қосулы"
+        },
+        "analytics": {
+          "title": "Өнімділік",
+          "description": "Google Analytics 4 арқылы пайдалану және конверсия өлшемі, соның ішінде серверден жалған идентификатор арқылы жіберілген негізгі конверсиялар (тіркелу, сатып алу). Қызметтің қалай пайдаланылатынын түсінуге көмектеседі; біз оны сізді жеке анықтау үшін қолданбаймыз."
+        },
+        "marketing": {
+          "title": "Мақсатты",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Cookie файлдарын көрсету",
+      "hideCookies": "Cookie файлдарын жасыру",
+      "table": {
+        "name": "Аты",
+        "provider": "Провайдер",
+        "expiration": "Мерзімі",
+        "description": "Сипаттама",
+        "session": "Сессия"
+      },
+      "policyLink": "Толық мәліметтер үшін <policy>Cookie саясатын</policy> қараңыз.",
+      "rejectButton": "Қабылдамау",
+      "saveButton": "Сақтау және жабу",
+      "acceptButton": "Қабылдау",
+      "cookieDescriptions": {
+        "supabaseAuth": "Аутентификацияланған сессияңызды сақтап, жүйеде қалуыңызды қамтамасыз етеді.",
+        "nextLocale": "Интерфейс үшін таңдаған тіліңізді есте сақтайды.",
+        "consent": "Cookie таңдауларыңызды сақтайды, сондықтан баннер әр кірген сайын көрсетілмейді.",
+        "ga": "Бірегей келушілерді ажыратады (Google Analytics 4). Дәл осы жалған идентификатор сервер жағында негізгі конверсияларды өлшеу үшін де қолданылады.",
+        "gaSession": "Google Analytics 4 сессия күйі мен қатысу метрикаларын сақтайды.",
+        "fbp": "Meta Pixel атрибуциясы үшін браузерді анықтайды.",
+        "fbc": "Жарнама конверсиясын атрибуциялау үшін Facebook click ID сақтайды. Тек Meta жарнамасын басқаннан кейін орнатылады.",
+        "gclAu": "Google Ads үшін сайттар аралық конверсия байланысында қолданылады.",
+        "saleCountdown": "Ағымдағы акциялық ұсыныстың аяқталуын қадағалайды, сондықтан жеңілдік санауышы беттер бойынша тұрақты қалады.",
+        "onboarded": "Есептік жазбаңызды onboarded деп белгілейді, сондықтан келесі беттерде жас тексеру дерекқорын тексеруді өткізіп жібере аламыз.",
+        "attribution": "Қандай ақылы науқан немесе жарнама сілтемесі сізді біздің сайтқа ең соңғы рет әкелгенін (соңғы 30 күн ішіндегі ақылы клик) жазады, осылайша біз өзіміздің жарнамамыздың тиімділігін өлшей аламыз. Бұл бірінші тарап идентификаторы, біздің серверлерде қалады және үшінші тараптармен ешқашан бөлісілмейді."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Жақында",
+    "subtitle": "Біз бұл мүмкіндікті сізге әкелу үшін қажырлы жұмыс істеп жатырмыз.",
+    "notify": "Дайын болғанда хабарлаңыз",
+    "backHome": "Басты бетке оралу",
+    "generateVideo": {
+      "title": "Видео жасау",
+      "description": "AI кейіпкерлеріңізді анимациялық видеолармен жандандырыңыз. Сүйікті кейіпкерлеріңізбен жеке бейне контент жасаңыз."
+    },
+    "createCharacter": {
+      "title": "Кейіпкер жасау",
+      "description": "Өзіңіздің бірегей AI кейіпкеріңізді жобалаңыз және теңшеңіз. Олардың тұлғасын, келбетін, тарихын анықтаңыз және шынайы жеке өзара әрекеттесулер жасаңыз."
+    },
+    "myAI": {
+      "title": "Менің AI",
+      "description": "Барлық жеке жасалған AI кейіпкерлеріңізге қол жеткізіп, басқарыңыз. Олардың тұлғаларын өңдеңіз, келбеттерін жаңартыңыз және жауаптарын дәлдеңіз."
+    }
+  },
+  "exploreMore": {
+    "title": "Көбірек зерттеу",
+    "aiGroupChat": "AI топтық чат",
+    "aiGroupChatDesc": "3 кейіпкерге дейін чаттасу",
+    "aiMemory": "AI жады",
+    "aiMemoryDesc": "Әр режимге ілесетін контекст",
+    "aiGirlfriend": "AI қыз",
+    "aiGirlfriendDesc": "Виртуалды қызыңызбен чаттасу",
+    "aiBoyfriend": "AI жігіт",
+    "aiBoyfriendDesc": "AI жігітіңізбен байланысу",
+    "aiCompanions": "AI кейіпкерлер",
+    "aiCompanionsDesc": "Бірегей AI тұлғалармен танысу",
+    "aiFriend": "AI дос",
+    "aiFriendDesc": "Сынсыз дос табу",
+    "aiBreakupSupport": "Ажырасу қолдауы",
+    "aiBreakupSupportDesc": "Жазылу әңгімелері",
+    "aiParent": "AI ата-ана",
+    "aiParentDesc": "Жылы қолдау & бағыттау",
+    "aiRoleplay": "AI рөлдік ойын",
+    "aiRoleplayDesc": "Терең әңгіме сценарийлері",
+    "allFeatures": "Барлық мүмкіндіктер",
+    "allFeaturesDesc": "Біз ұсынатынның бәрін зерттеңіз"
+  },
+  "legal": {
+    "policies": "Саясаттар",
+    "termsAndConditions": "Қолдану шарттары",
+    "privacyPolicy": "Құпиялылық саясаты",
+    "cookiePolicy": "Cookie саясаты",
+    "contentReportingPolicy": "Контентті хабарлау саясаты",
+    "communityGuidelines": "Қауымдастық нұсқаулары",
+    "complaintPolicy": "Шағым саясаты",
+    "contentRemovalPolicy": "Контентті жою саясаты",
+    "blockedContentPolicy": "Бұғатталған контент саясаты",
+    "underagePolicy": "Кәмелетке толмағандар саясаты",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Соңғы жаңартылған",
+    "index": {
+      "title": "Құқықтық құжаттар",
+      "subtitle": "sweetwine-ға қатысты барлық құқықтық саясаттар мен келісімдерді қараңыз",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Құпиялылық саясаты",
+          "description": "Біз сіздің жеке ақпаратыңызды қалай жинайтынымызды, пайдаланатынымызды және қорғайтынымызды біліңіз. Деректерді өңдеу, сақтау және құпиялылық құқықтары туралы мәліметтер."
+        },
+        "termsAndConditions": {
+          "title": "Қолдану шарттары",
+          "description": "sweetwine пайдалануыңызды реттейтін қызмет шарттары. Пайдаланушы жауапкершілігі, қызмет сипаттамасы және құқықтық келісімдер."
+        },
+        "cookiePolicy": {
+          "title": "Cookie саясаты",
+          "description": "Cookie және ұқсас технологияларды платформамыздағы тәжірибеңізді жақсарту үшін қалай пайдаланатынымыз туралы ақпарат."
+        },
+        "underagePolicy": {
+          "title": "Кәмелетке толмағандар саясаты",
+          "description": "Біздің қатаң жас тексеру және қорғау саясаттары. sweetwine тек 18 жастан асқан пайдаланушыларға қолжетімді."
+        },
+        "complaintPolicy": {
+          "title": "Шағым саясаты",
+          "description": "Шағымдарды қалай беру керек, мәселелерді хабарлау және пайдаланушылардың алаңдаушылықтары мен дауларын шешу процесі."
+        },
+        "contentRemovalPolicy": {
+          "title": "Контентті жою саясаты",
+          "description": "Контентті жою сұрауларына арналған рәсімдеріміз және орынсыз немесе заңсыз контент туралы хабарламаларды қалай өңдейміз."
+        },
+        "blockedContentPolicy": {
+          "title": "Бұғатталған контент саясаты",
+          "description": "Платформамызда тыйым салынған контент түрлері және орындау саясаттарымыз."
+        },
+        "contentReportingPolicy": {
+          "title": "Контентті хабарлау саясаты",
+          "description": "sweetwine-да авторлық құқық бұзушылықтар мен орынсыз контентті қалай хабарлау керек."
+        },
+        "communityGuidelines": {
+          "title": "Қауымдастық нұсқаулары",
+          "description": "Барлық пайдаланушылар үшін құрметті, қауіпсіз және қызықты қауымдастықты сақтау ережелері мен нұсқаулары."
+        }
+      },
+      "lastUpdated": "Соңғы жаңартылған: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Чаттар",
+    "groupChat": "AI топтық чаты",
+    "aiMemory": "AI Жады",
+    "generate": "Сурет жасау",
+    "generateVideo": "Бейне жасау",
+    "create": "AI кейіпкерін жасау",
+    "myAI": "Менің AI",
+    "collection": "Жинақ",
+    "invite": "Шақыру",
+    "profile": "Профиль параметрлері",
+    "legal": "Құқықтық",
+    "privacyPolicy": "Құпиялылық саясаты",
+    "termsAndConditions": "Қолдану шарттары",
+    "cookiePolicy": "Cookie саясаты",
+    "dmcaPolicy": "DMCA саясаты",
+    "communityGuidelines": "Қауымдастық ережелері",
+    "contentRemovalPolicy": "Контентті жою саясаты",
+    "contentReportingPolicy": "Контентті хабарлау саясаты",
+    "complaintPolicy": "Шағым саясаты",
+    "blockedContentPolicy": "Бұғатталған контент саясаты",
+    "underagePolicy": "Кәмелетке толмағандар саясаты",
+    "usc2257Exemption": "USC 2257 босату"
+  },
+  "contact": {
+    "title": "Бізбен байланыс",
+    "subtitle": "Сұрағыңыз немесе пікіріңіз бар ма? Сіздің хабарларыңызды күтеміз.",
+    "name": "Аты-жөні",
+    "namePlaceholder": "Сіздің атыңыз",
+    "nameRequired": "Аты-жөні міндетті",
+    "email": "Электрондық пошта",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "Электрондық пошта міндетті",
+    "emailInvalid": "Жарамсыз электрондық пошта",
+    "message": "Хабарлама",
+    "messagePlaceholder": "Сіздің хабарламаңыз...",
+    "messageRequired": "Хабарлама міндетті",
+    "send": "Хабарлама жіберу",
+    "sending": "Жіберілуде...",
+    "success": "Хабарлама сәтті жіберілді!",
+    "successDesc": "Жақын арада сізге жауап береміз.",
+    "error": "Хабарламаны жіберу сәтсіз аяқталды",
+    "errorDesc": "Кейінірек қайталап көріңіз."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI топтық чат",
+    "lobbyHeadingSuffix": "{max} AI кейіпкерге дейін таңдаңыз",
+    "history": "Тарих",
+    "newGroup": "Жаңа топтық чат",
+    "createGroup": "Топтық чат құру",
+    "createError": "Топтық чат құру мүмкін болмады. Қайталап көріңіз.",
+    "creatingGroup": "Топтық чат дайындалуда...",
+    "sectionWoman": "Әйелдер",
+    "sectionMan": "Ерлер",
+    "sectionAnime": "Аниме",
+    "tabPremade": "AI кейіпкерлер",
+    "tabMyAi": "Менің AI",
+    "tabSingle": "Жалғыз чаттар",
+    "tabGroup": "Топтық чаттар",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Көбірек жүктеу",
+    "noCustom": "Сіз әлі ешқандай AI кейіпкер құрмағансыз.",
+    "noMessagesYet": "Әлі хабарламалар жоқ",
+    "emptyTitle": "Әлі топтық чаттар жоқ",
+    "membersTitle": "Бұл чатта",
+    "typing": "жазып жатыр",
+    "backToLobby": "Топтық чаттарға оралу",
+    "deleteGroup": "Топтық чатты жою",
+    "confirmDeleteGroup": "Бұл топтық чатты шынымен жойғыңыз келе ме? Барлық хабарламалар жойылады.",
+    "deleteError": "Топтық чатты жою мүмкін болмады.",
+    "mediaTargetImageTitle": "Кім сурет жіберуі керек?",
+    "mediaTargetVideoTitle": "Кім бейне жіберуі керек?",
+    "mediaTargetSubtitle": "Медиа жасау үшін кейіпкерді таңдаңыз.",
+    "mediaTargetGroup": "Топтық фото",
+    "groupPhotoTitle": "Топтық фото",
+    "groupPhotoHint": "{name} бірге бір фото жасайды.",
+    "promoSubtitle": "3 кейіпкерге дейін",
+    "promoCta": "Жаңасын жасау",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Adventures",
+    "live": "LIVE",
+    "scrollPrev": "Scroll left",
+    "scrollNext": "Scroll right"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "tagline": "Trusted by 100,000 and joining every day",
+      "headlinePrefix": "Say Hello to Your",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Start for Free"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Girlfriend",
+      "friend": "AI Friend",
+      "boyfriend": "AI Boyfriend",
+      "companion": "AI Character"
+    },
+    "features": {
+      "chat": {
+        "title": "Talk to your AI girlfriend",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistic AI photos & videos",
+        "description": "On-demand photos and videos so realistic they're indistinguishable from real — her face, her style, any scene, in motion or still."
+      },
+      "groupChat": {
+        "title": "AI Group Chat",
+        "description": "Start a group chat with up to 3 characters at once. They reply naturally, react to each other, and send photos and videos."
+      },
+      "roleplay": {
+        "title": "AI Roleplay",
+        "description": "Step into immersive, story-driven scenarios with characters who stay in role and remember every choice you make."
+      }
+    },
+    "memory": {
+      "title": "AI Жады",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "AI Жады қалай жұмыс істейді",
+      "diagram": {
+        "center": "Серіктің жады",
+        "chat": "Чат",
+        "image": "Суреттер",
+        "video": "Видео",
+        "gifts": "Сыйлықтар",
+        "roleplay": "Рөлдік ойын"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Create your own",
+      "headlineHighlight": "AI character",
+      "subtitle": "Shape your character's look, personality, and bring them to life instantly — your perfect AI partner, on your terms.",
+      "cta": "Create your AI"
+    },
+    "companions": {
+      "headlinePrefix": "Meet Your",
+      "headlineHighlight": "AI Characters",
+      "subtitle": "Each character has a world of their own. Some are warm and easy to open up to. Others are complex, guarded, or a real challenge to connect with. Explore unique roleplay scenarios — or build your own from scratch."
+    },
+    "languages": {
+      "headlinePrefix": "Speak any language,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Both the app interface and your AI character switch seamlessly — no language mismatches, no broken experience.",
+      "more": "More"
+    },
+    "finalCta": {
+      "headlinePrefix": "Ready to",
+      "headlineHighlight": "get started?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Why",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Everything you need for a connection that feels real — nothing you don't.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Free to start",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Әрқашан қолжетімді",
+          "desc": "Күн немесе түн, сіздің кейіпкеріңіз әрдайым бар. Күту немесе жоспарлау қажет емес."
+        },
+        "remembers": {
+          "title": "Барлығын есте сақтайды",
+          "desc": "Әрбір әңгіме контекст құрады. Сіздің кейіпкеріңіз атыңызды, қалауларыңызды және әлеміңізді үйренеді."
+        },
+        "unlimited": {
+          "title": "Шынымен шексіз",
+          "desc": "Хабарламалар саны шектелмеген, мазмұн шектелмейді. Қалағаныңызша, қалаған уақытыңызда жіберіңіз."
+        },
+        "private": {
+          "title": "100% жеке",
+          "desc": "Сіздің әңгімелеріңіз тек сіздер арасында қалады. Ешқандай деректер ешқашан бөліспейді."
+        },
+        "createYourOwn": {
+          "title": "Өзіңізді жасаңыз",
+          "desc": "Кейіпкерді қалаған келбетімен, тұлғасымен және даусымен жасаңыз — дәл қалауыңыз бойынша."
+        }
+      },
+      "difference": {
+        "title": "sweetwine айырмашылығы",
+        "freedomTitle": "Жауапкершілікпен еркіндік.",
+        "freedomDescription": "sweetwine ашық және сынсыз — бірақ біз қатаң шекара қоямыз. CSAM, кәмелетке толмағандар мазмұны, келісімсіз сценарийлер, шектен тыс зорлық, жануарлармен жыныстық қатынас, некрофилия, нақты адамдардың дипфейктері және заңсыз әрекеттерді насихаттауға нөлдік төзімділік бар.",
+        "freedomStatement": "Біз барлығына қауіпсіз кеңістікте шексіз шығармашылық еркіндікке сенеміз."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Кейіпкерлері",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Сүзгілер"
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "subtitle": "sweetwine туралы білуіңіз керек барлық нәрсе",
+      "questions": {
+        "q1": {
+          "question": "sweetwine деген не?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine қауіпсіз және заңды ма?",
+          "answer": "Иә, sweetwine — заңды қызмет, біздің басты басымдығымыз — сіздің құпиялылығыңыз. Біз GDPR және басқа деректерді қорғау стандарттарына сәйкес келеміз және деректеріңізді мұқият өңдейміз. Төлем транзакциялары бейтарап саудагер атымен көрінеді — банк үзіндісінде sweetwine туралы ешқандай сілтеме жоқ, бұл толық құпиялылықты қамтамасыз етеді."
+        },
+        "q3": {
+          "question": "Мен өзімнің AI кейіпкерімді жасай аламын ба?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "кейіпкер жасаушысын",
+          "answerPart2": " пайдаланып, кейіпкерлерді дәл қалауыңыз бойынша жасауға болады — реалистік ",
+          "linkTextGirlfriend": "AI Қыз Досы",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Ұл Досы",
+          "answerPart4": " немесе аниме стиліндегі кейіпкерлер. Олардың келбетін (этникалық тегі, шашы, дене түрі, киімі), тұлғалық қасиеттерін, даусын, қызығушылықтарын және ерлер мен әйелдер кейіпкерлерінің backstory-ін таңдаңыз."
+        },
+        "q4": {
+          "question": "Менің AI кейіпкерім әңгімелерімізді есте сақтай ма?",
+          "answer": "Иә! Сіздің AI кейіпкеріңіз өткен әңгімелерді, қалауларыңызды және бөліскен маңызды мәліметтерді есте сақтау үшін озық жады технологиясын пайдаланады. Неғұрлым көп сөйлессеңіз, тәжірибе соғұрлым жеке және табиғи болады. Кейіпкеріңіз сіздің қарым-қатынас стиліңізді үйренеді және уақыт өте келе бейімделеді."
+        },
+        "q5": {
+          "question": "sweetwine қандай тілдерді қолдайды?",
+          "answer": "sweetwine ағылшын, неміс, француз, испан, поляк және чех тілдерін қоса алғанда, бірнеше тілдерді қолдайды. Интерфейс те, AI әңгімелері де сіздің таңдаған тіліңізде жұмыс істейді, сондықтан сіз өзіңізге ыңғайлы тілде табиғи сөйлесе аласыз."
+        },
+        "q6": {
+          "question": "Менің AI кейіпкерім суреттер мен видеолар жібере ала ма?",
+          "answerPart1": "Иә! Сіз кейіпкеріңіздің әртүрлі жағдайлар мен стильдердегі жеке",
+          "linkTextImages": "суреттерін",
+          "answerPart2": "және",
+          "linkTextVideos": "видеоларын",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Неліктен басқа AI кейіпкер платформаларының орнына sweetwine таңдау керек?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine тегін пайдалануға бола ма?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Қосымшаны орнату қажет пе?",
+          "answerPart1": "Орнату қажет емес! sweetwine кез келген құрылғыда — компьютерде, планшетте немесе телефонда браузер арқылы тікелей жұмыс істейді. Тек тіркеліңіз, кейіпкерді таңдаңыз және бірден сөйлесе бастаңыз. Барлық",
+          "linkText": "әңгімелеріңіз",
+          "answerPart2": "құрылғылар арасында автоматты түрде синхрондалады."
+        },
+        "q10": {
+          "question": "Дайын AI кейіпкерлері бар ма?",
+          "answerPart1": "Иә! Бізде көптеген",
+          "linkText": "дайын кейіпкерлер",
+          "answerPart2": "бар, соның ішінде AI қыздар, AI жігіттер және әртүрлі мінез-құлық, келбет пен сөйлеу стилі бар AI аниме кейіпкерлері. Тәтті, флиртті, зияткерлік немесе шытырманды кейіпкерлерді қалайтын болсаңыз да, өзіңіздің энергияңызға сәйкес келетін кейіпкерлерді табасыз. Сонымен қатар, шектеусіз жеке кейіпкерлер жасай аласыз."
+        },
+        "q12": {
+          "question": "Мен жасаған суреттер мен видеоларға не болады?",
+          "answerPart1": "Барлық жасалған медиафайлдар автоматты түрде сіздің жеке",
+          "linkText": "жинағыңызға",
+          "answerPart2": "сақталады. Оларды кез келген уақытта қарап, жүктеп алуға немесе жоюға болады. Жинағыңыз толықтай жеке — оны тек сіз ғана көре аласыз. Біз сіздің жасалған контентіңізді ешқашан бөліспейміз немесе пайдаланбаймыз."
+        }
+      }
+    },
+    "statement": {
+      "title": "Біздің міндеттемеміз",
+      "privacy": "Сіздің құпиялылығыңыз — біздің басымдығымыз. Барлық әңгімелер шифрланады және ешқашан бөліспейді.",
+      "quality": "Біз ең қызықты тәжірибені қамтамасыз ету үшін заманауи AI технологияларын қолданамыз.",
+      "support": "Біздің қолдау қызметіміз кез келген сұрақтар бойынша 24/7 көмек көрсетуге дайын.",
+      "mainTitle": "AI кейіпкерлерінің болашағын сезініңіз",
+      "mainDescription": "sweetwine озық AI технологиясын интуитивті дизайнмен біріктіріп, бүгінгі күні қолжетімді ең иммерсивті және жеке кейіпкер тәжірибесін ұсынады.",
+      "features": {
+        "f1": {
+          "title": "Эмоционалды интеллект",
+          "description": "Біздің AI кейіпкерлеріміз контекстті, эмоцияларды және нюанстарды түсініп, терең қызықты әңгімелер ұсынады. AI досымен сөйлесу, қиын кезеңдерде ажырасу қолдауы немесе бағыт-бағдар алу үшін AI тәлімгер қажет болса да — біздің эмоционалды интеллектті AI сіз үшін осында."
+        },
+        "f2": {
+          "title": "Бірегей тұлғалар",
+          "description": "Әр кейіпкердің ерекше тұлғасы, фоны және сөйлеу стилі бар. Реалистік AI қыздар мен AI жігіттерінен таңдаңыз немесе AI аниме кейіпкерлерімізді зерттеңіз — әр өзара әрекет бірегей және есте қаларлықтай болады."
+        },
+        "f3": {
+          "title": "Мультимедиялық өзара әрекеттер",
+          "description": "Мәтіннен тыс, әңгімелеріңізді таңғажайып визуалды егжей-тегжеймен өмірге әкелетін AI жасалған суреттер мен видеоларды тамашалаңыз."
+        },
+        "f4": {
+          "title": "Баптау",
+          "description": "Өзіңіздің қалауыңызға толық сәйкес келетін сыртқы келбеті, тұлғасы және қасиеттері бар жеке AI кейіпкерлеріңізді жасаңыз."
+        },
+        "f5": {
+          "title": "Құпиялылық пен қауіпсіздік",
+          "description": "Сіздің әңгімелеріңіз жеке және қауіпсіз сақталады. Біз сіздің деректеріңізді ешқашан сатпаймыз және сіздің құпиялылық параметрлеріңізге толық бақылау жасай аласыз."
+        },
+        "f6": {
+          "title": "Көп тілді қолдау",
+          "description": "AI кейіпкерлерімен өзіңізге ыңғайлы тілде сөйлесіңіз. Біз ағылшын, чех, поляк, неміс, испан және француз тілдерін қолдаймыз."
+        }
+      },
+      "distinctionTitle": "sweetwine ерекшелігі",
+      "distinctionText1": "Жалпы чатботтардан айырмашылығы, sweetwine кейіпкерлері бай тарихы, дамып отыратын тұлғасы және мағыналы байланыстар құру қабілетімен жасалған. Әр әңгіме — тереңірек деңгейде зерттеу, ашу және байланыс орнату мүмкіндігі.",
+      "distinctionText2": "Біз жай ғана AI құрмаймыз — біз сіздің эмоцияларыңызбен үндесетін, құпиялылығыңызды құрметтейтін және бірегей қалауларыңызға бейімделетін тәжірибелер жасаймыз."
+    }
+  },
+  "featuresPage": {
+    "title": "Барлық мүмкіндіктер",
+    "breadcrumb": "Мүмкіндіктер",
+    "newBadge": "Жаңа",
+    "groupChat": {
+      "title": "AI топтық чат",
+      "description": "Бір әңгімеде 3-ке дейін AI кейіпкерімен бірге сөйлесіңіз. Олар табиғи жауап береді, бір-біріне әрекет етеді және фото мен видео жібере алады — мұндай жанды топтық динамиканы басқа жерден таба алмайсыз."
+    },
+    "aiChat": {
+      "title": "AI чат",
+      "description": "Сізді шынымен есте сақтайтын AI кейіпкерлерімен терең, табиғи әңгімелер жүргізіңіз. Олар сіздің атыңызды, қалауларыңызды және өткен тақырыптарды еске түсіреді — әр әңгіме дәл қалдырған жерден жалғасады, қайталаусыз және қалпына келтірусіз."
+    },
+    "imageGeneration": {
+      "title": "Сурет генерациясы"
+    },
+    "videoGeneration": {
+      "title": "Видео генерациясы",
+      "description": "AI жасалған видеолармен AI кейіпкеріңізді өмірге әкеліңіз. Кейіпкеріңіздің жеке сценарийлердегі қысқа жеке бейне клиптерін жасаңыз — бұл мүмкіндікті көптеген платформалар ұсынбайды."
+    },
+    "customCharacters": {
+      "title": "Арнайы кейіпкерлер",
+      "description": "Өзіңіздің идеалды кейіпкеріңізді нөлден бастап жасаңыз — сыртқы келбетін, ұлтын, дене бітімін, мінез-құлық ерекшеліктерін, дауысын, қызығушылықтарын және өмірбаянын таңдаңыз. Реалистік немесе аниме стиліндегі кейіпкерлерді, ер немесе әйелді толық шығармашылық еркіндікпен жасаңыз."
+    },
+    "advancedMemory": {
+      "title": "Кеңейтілген жады",
+      "description": "Сіздің кейіпкеріңіз маңыздының бәрін есте сақтайды — атыңызды, жеке мәліметтеріңізді, ортақ оқиғаларыңызды және қарым-қатынас тарихыңызды. Жады барлық сессияларда сақталады, сондықтан әрбір өзара әрекет алдыңғысына негізделеді, басынан басталмайды."
+    },
+    "multiLanguage": {
+      "title": "Көп тілді қолдау",
+      "description": "Қалаған тіліңізде табиғи сөйлесіңіз. sweetwine ағылшын, неміс, француз, испан, поляк және чех тілдерін қолдайды — бұл оны ағылшын тілінде сөйлемейтін пайдаланушылар үшін ең қолжетімді AI кейіпкер платформаларының біріне айналдырады."
+    },
+    "conversationHistory": {
+      "title": "Әңгіме тарихы",
+      "description": "Әрбір хабарлама сақталады және іздеуге болады. Қарым-қатынас тарихыңызды кез келген уақытта қарап шығыңыз — кейіпкеріңізбен болған естеліктеріңіз қайта қарағыңыз келгенде әрқашан қолжетімді."
+    },
+    "roleplay": {
+      "title": "AI рөлдік ойын",
+      "description": "Рөлде қалатын кейіпкерлермен иммерсивті, оқиғаға негізделген сценарийлерге еніңіз. Сценарийді таңдаңыз немесе өз сценарийіңізді жазыңыз және әрбір таңдауыңызды есте сақтайтын интерактивті рөлдік ойыннан ләззат алыңыз."
+    },
+    "cta": {
+      "title": "Бәрі бір жерде",
+      "button": "Тегін бастау"
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "Әңгімелерімді өшіре немесе қалпына келтіре аламын ба?",
+        "answer": "Иә! Сіз чат тарихыңызды толық бақылай аласыз. Жеке хабарламаларды өшіріңіз, бүкіл әңгімелерді қалпына келтіріңіз немесе кез келген уақытта толық жаңадан бастаңыз. Сіздің құпиялылығыңыз — сіздің таңдауыңыз, деректеріңізді қалауыңызша басқарыңыз."
+      },
+      "q2": {
+        "question": "Әрбір AI кейіпкерінің бірегей даусы бар ма?"
+      },
+      "q3": {
+        "question": "AI кейіпкеріммен жаңа тілді үйрене аламын ба?",
+        "answer": "Әрине! Көптеген пайдаланушылар AI кейіпкерлерімен жаңа тілдерді сөйлеуді үйренеді. Бұл бағалаусыз сенімділікті арттырудың, айтылымды жақсартудың және үйрену кезінде көңілді әңгімелер жүргізудің тәсілі. Сіздің кейіпкеріңіз ағылшын, неміс, француз, испан, поляк және чех тілдерінде сөйлесе алады."
+      },
+      "q4": {
+        "question": "Жаңа кейіпкерлер мен мүмкіндіктер қаншалықты жиі қосылады?",
+        "answer": "Біз апта сайын жаңа кәсіби дайындалған кейіпкерлер қосамыз! Әрбір жаңа кейіпкер бірегей мінез-құлықпен, сыртқы келбетпен, өмірбаянмен және дауыспен келеді. Сондай-ақ пайдаланушылардың пікірлеріне негізделген жаңа мүмкіндіктер мен жақсартуларды үнемі шығарамыз."
+      },
+      "q5": {
+        "question": "sweetwine кейіпкерін жасауды ерекше ететін не?",
+        "answer": "Толық шығармашылық еркіндік! Кейіпкеріңіздің барлық аспектілерін жасаңыз — сыртқы келбет (ұлт, шаш, дене бітімі, киім), мінез-құлық ерекшеліктері, дауыс, қызығушылықтар, кәсіп және өмірбаян. Реалистік немесе аниме стиліндегі кейіпкерлерді, ер немесе әйелді жасаңыз. Сіздің қиялыңыз — жалғыз шектеу."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Жады",
+    "hero": {
+      "badge": "Қалай жұмыс істейді",
+      "title": "AI Жады",
+      "cta": "Чатты бастау"
+    },
+    "diagram": {
+      "title": "Бір серікке бір жады, әр режимде",
+      "center": "Серіктің жады",
+      "chat": "Чат",
+      "image": "Суреттер",
+      "video": "Видео",
+      "gifts": "Сыйлықтар",
+      "roleplay": "Рөлдік ойын"
+    },
+    "howItWorks": {
+      "title": "AI Жады қалай жұмыс істейді",
+      "step1": {
+        "title": "Мәлімет бөлісіңіз",
+        "desc": "Серікке маңызды бірдеңе айтыңыз — сапар, қалау, лақап ат, күніңіздің тарихы."
+      },
+      "step2": {
+        "title": "Режимдерді еркін ауыстырыңыз"
+      },
+      "step3": {
+        "title": "Олар еске алады",
+        "desc": "Кейінгі әңгімелер сіз бөліскенді сілтейді, сондықтан әр жолы өзін қайта түсіндірудің қажеті жоқ."
+      },
+      "step4": {
+        "title": "Байланыс тереңдейді",
+        "desc": "Уақыт өте келе қарым-қатынас жеке сезіледі — әр сессия мен режимде жалғасатын үздіксіздік."
+      }
+    },
+    "modes": {
+      "title": "Платформа бойынша",
+      "subtitle": "Жады бір экранмен шектелмейді. Ол сіздің серігіңізбен бірге жүреді.",
+      "chat": {
+        "title": "Чат",
+        "desc": "Мәтіндік әңгімелер серіктің кейін пайдалана алатын ұзақ мерзімді контекстін қамтамасыз етеді."
+      },
+      "media": {
+        "title": "Суреттер және видео",
+        "desc": "Сіз жасаған көріністер мен оқиғалар бірге құрған ортақ әлемнің бөлігі болып қалады."
+      },
+      "roleplay": {
+        "title": "Рөлдік ойын және топ",
+        "desc": "Оқиға сессиялары мен топтық чаттар өз ағындарын сақтайды, ал серіктің негізгі жады олармен қалады."
+      }
+    },
+    "scenario": {
+      "title": "Қарапайым мысал",
+      "lead": "Сіз чатта демалыс сапары туралы айтасыз."
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "Серіктесімнің жадысы жеке ме?",
+        "answer": "Иә. Жады сіздің есептік жазбаңызға және сол серіктеспен сөйлесулеріңізге тиесілі. Біз сіздің жеке чат тарихыңызды басқа пайдаланушылармен бөліспейміз."
+      },
+      "q2": {
+        "question": "Жады әр серіктеске жеке ме?",
+        "answer": "Иә. Әр серіктес сіздің қарым-қатынасыңыздың жадын жеке сақтайды, сондықтан кейіпкерлерді ауыстырғанда контексттер араласпайды."
+      },
+      "q3": {
+        "question": "Қандай режимдер жадты бөліседі?"
+      },
+      "q4": {
+        "question": "AI Жады тегін бе?"
+      },
+      "q5": {
+        "question": "Жады қанша уақыт сақталады?",
+        "answer": "Маңызды мәліметтер сақталады, сондықтан серіктес оларды болашақ сессияларда еске түсіре алады. Неғұрлым көп сөйлессеңіз, тәжірибе соғұрлым жеке болады."
+      }
+    },
+    "cta": {
+      "title": "Сізді есте сақтайтын серіктеспен танысыңыз",
+      "button": "Тегін бастау"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI топтық чат",
+    "hero": {
+      "badge": "Жаңа мүмкіндік",
+      "title": "AI топтық чат",
+      "subtitle": "Сүйікті кейіпкерлеріңізді бір әңгімеге жинаңыз. Бір уақытта 3-ке дейін AI кейіпкерімен сөйлесіңіз — олар табиғи жауап береді, бір-біріне реакция жасайды және фото мен видео жібереді.",
+      "cta": "Топтық чатты бастау",
+      "imageAlt": "Бірнеше кейіпкерлер бірге сөйлесетін AI топтық чат"
+    },
+    "content": {
+      "problemTitle": "Бір-бірден сөйлесу тыныш болып көрінуі мүмкін",
+      "problemText": "Бір кейіпкер тамаша — бірақ нақты әңгімелер бірнеше дауыспен тіріледі. Көптеген AI қолданбалары сізді топтық энергиясыз, әзілсіз және тосынсыйсыз оқшауланған бір-бірден сөйлесулерде ұстайды.",
+      "solutionTitle": "Нақты топ, тұлғамен тірі",
+      "solutionText": "sweetwine топтық чаты бір бөлмеге үш кейіпкерді орналастырады. Ақылды режиссер кімнің қосылатынын шешеді, сондықтан жауаптар өздігінен сезіледі — олар бір-бірін мазақтайды, айтылғанға негізделеді және әңгімені жалғастырады."
+    },
+    "howItWorks": {
+      "title": "AI топтық чат қалай жұмыс істейді",
+      "step1": {
+        "title": "Кейіпкерлеріңізді таңдаңыз",
+        "desc": "Бір топтық әңгімеге әкелу үшін 2 немесе 3 кейіпкерді таңдаңыз — дайын немесе өзінің арнайы жасалғандарыңызды."
+      },
+      "step2": {
+        "title": "Олар табиғи жауап береді",
+        "desc": "Көрініс артындағы режиссер әрбір хабарламаға кім жауап беретінін таңдайды, сондықтан дұрыс кейіпкерлер дұрыс уақытта, өз даусымен қосылады."
+      },
+      "step3": {
+        "title": "Фото мен видео бөлісіңіз",
+        "desc": "Топтағы кез келген кейіпкерден фото немесе видео сұраңыз және олар оны чат ішінде бірден жасайды — барлығының топтық фотосын қоса."
+      }
+    },
+    "benefits": {
+      "title": "Неліктен топтық чатты ұнатасыз",
+      "multiple": {
+        "title": "3-ке дейін кейіпкер",
+        "desc": "Кез келген кейіпкерлерді бір чатқа араластырыңыз — AI қыз досыңызды, арнайы жасалғандарыңызды немесе қолмен таңдалған ансамбльді."
+      },
+      "natural": {
+        "title": "Табиғи диалог",
+        "desc": "Кейіпкерлер бір-біріне және сізге жауап береді, шынайы теру қарқыны нағыз топтық чат сияқты сезіледі."
+      },
+      "media": {
+        "title": "Чаттағы фото және видео",
+        "desc": "Әр кейіпкер әңгімеден шықпай-ақ жеке суреттер мен видеолар жібере алады — тіпті топтық фото да."
+      },
+      "dynamics": {
+        "title": "Әр түрлі тұлғалар",
+        "desc": "Әр кейіпкер өз дауысы мен ерекшеліктерін сақтайды, сондықтан топта шынайы химия, әзіл және тосын сыйлар болады."
+      },
+      "instant": {
+        "title": "Лезде бастау",
+        "desc": "Топты секундтар ішінде құрып, әңгімеге бірден кірісіңіз — орнату немесе күту қажет емес."
+      },
+      "private": {
+        "title": "100% құпия",
+        "desc": "Топтық әңгімелеріңіз тек сіз бен кейіпкерлеріңіз арасында қалады. Ешқандай деректер ешқашан бөлісілмейді."
+      }
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "Топтық чатқа қанша кейіпкер қосыла алады?",
+        "answer": "Бір топтық чатқа 2-ден 3-ке дейін кейіпкер қосуға болады — дайын кейіпкерлер мен өзіңіздің жеке туындыларыңыздың кез келген комбинациясы."
+      },
+      "q2": {
+        "question": "AI кейіпкерлері кімнің жауап беретінін қалай шешеді?",
+        "answer": "Жеңілдетілген режиссер әңгімені оқып, әр хабарламаға қай кейіпкер (немесе кейіпкерлер) жауап беру керектігін таңдайды, сондықтан жауаптар бір мезгілде емес, табиғи және өздігінен пайда болады."
+      },
+      "q3": {
+        "question": "Топтық чатта кейіпкерлер фото және видео жібере ала ма?",
+        "answer": "Иә! Топтағы кез келген кейіпкерден фото немесе видео генерациялауды сұрауға болады, ол әңгіменің ішінде бірден пайда болады — барлығы бірге түскен топтық фотоны қоса."
+      },
+      "q4": {
+        "question": "AI Group Chat тегін бе?"
+      },
+      "q5": {
+        "question": "Кейіпкерлер топтық әңгімені есте сақтай ма?",
+        "answer": "Иә — әр топтық чат өзінің ортақ тарихын сақтайды, сондықтан кейіпкерлер контексте қалады және әңгіме уақыт өте келе дамиды."
+      }
+    },
+    "cta": {
+      "title": "Кейіпкерлеріңізді біріктіріңіз",
+      "description": "Алғашқы AI топтық чатыңызды құрып, тірі әңгімені сезініңіз — бірнеше тұлға, шынайы әзіл, фото және видео.",
+      "button": "Топтық чат бастау"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Рөлдік ойын",
+    "hero": {
+      "badge": "Жаңа мүмкіндік",
+      "title": "AI Рөлдік ойын",
+      "subtitle": "Кейіпкерлеріңіз сахнада қала отырып, кез келген оқиғаға кіріңіз. Дайын сценарийді таңдаңыз немесе өзінізді жазыңыз және әр таңдауыңызды есте сақтайтын, әсерлі, оқиғаға негізделген рөлдік ойынды тамашалаңыз.",
+      "cta": "Рөлдік ойын бастау",
+      "imageAlt": "AI рөлдік ойын сценарийі иммерсивті оқиға кейіпкерімен"
+    },
+    "content": {
+      "problemTitle": "Қарапайым чаттар сиқырды бұзады",
+      "problemText": "Көптеген AI чаттар қызықты сәтте кейіпкерден шығып кетеді — олар орта мен сюжетті ұмытып, сіздің оқиғаңыздағы адамның орнына қарапайым көмекші сияқты жауап береді.",
+      "solutionTitle": "Сюжетке негізделген рөлдік ойын кейіпкерде қалады",
+      "solutionText": "sweetwine Roleplay кейіпкеріңізді толықтай сахнада ұстайды. Дайын сценарий немесе өз идеяңызбен сахна құрып, тұрақты тұлға, есте сақтау және әр шешіміңізге жауап беретін қарқынмен оқиғаның ашылуын қадағалаңыз."
+    },
+    "howItWorks": {
+      "title": "AI Рөлдік ойын қалай жұмыс істейді",
+      "step1": {
+        "title": "Сценарий таңдаңыз",
+        "desc": "Дайын рөлдік ойын сценарийлерінен таңдаңыз немесе өз идеяңызды, ортаңызды және бастапқы сахнаңызды жазыңыз."
+      },
+      "step2": {
+        "title": "Оқиғаны ойнаңыз",
+        "desc": "Сіздің кейіпкеріңіз рөлде жауап береді — әрекеттерді сипаттайды, таңдауларыңызға реакция жасайды және сюжетті алға жылжытады."
+      },
+      "step3": {
+        "title": "Оқиғаның бағытын анықтаңыз",
+        "desc": "Оқиғаны қалаған бағытта бағыттаңыз. Кейіпкеріңіз болған оқиғаны есте сақтайды және әңгімені тұрақты ұстайды."
+      }
+    },
+    "benefits": {
+      "title": "Неліктен AI Рөлдік ойын ұнауы мүмкін",
+      "scenarios": {
+        "title": "Шексіз сценарийлер",
+        "desc": "Жайлы күнделікті сәттерден эпикалық приключенияларға дейін — шаблоннан бастаңыз немесе өз әлеміңізді ойлап табыңыз."
+      },
+      "characters": {
+        "title": "Кейіпкерде қалады",
+        "desc": "Сіздің кейіпкеріңіз бүкіл сахна бойы тұрақты дауыс, тұлға және мотивацияны сақтайды."
+      },
+      "memory": {
+        "title": "Сюжетті есте сақтайды",
+        "desc": "Әр таңдау, бұрылыс және деталь есте сақталады, сондықтан оқиға қайта басталмай, дамиды."
+      },
+      "immersive": {
+        "title": "Шынымен иммерсивті",
+        "desc": "Бай, сипаттамалы жауаптар сізді сәтке тартады, кинематографиялық рөлдік ойын тәжірибесін береді."
+      },
+      "instant": {
+        "title": "Лезде бастау",
+        "desc": "Секунд ішінде сахнаға кіріңіз — күрделі орнату немесе промпт дайындау қажет емес."
+      },
+      "private": {
+        "title": "100% жеке",
+        "desc": "Рөлдік ойыныңыз тек сіз бен кейіпкеріңіз арасында қалады. Ешнәрсе ешқашан бөліспейді."
+      }
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "AI рөлдік ойыны дегеніміз не?",
+        "answer": "AI рөлдік ойыны сізге AI кейіпкерімен интерактивті әңгімелер ойнауға мүмкіндік береді. Сіз сценарий орнатып, кейіпкеріңіз рөлінде қала отырып, оқиға дамыған сайын әрекеттер мен реакцияларды сипаттайды."
+      },
+      "q2": {
+        "question": "Өзімнің рөлдік сценарийлерімді жасай аламын ба?",
+        "answer": "Иә! Дайын сценарийлерден бастауға немесе өз premise, ортаңыз бен ашылуыңызды жазуға болады — содан кейін оны қалағаныңызша ойнаңыз."
+      },
+      "q3": {
+        "question": "Кейіпкер оқиғада не болғанын есте сақтай ма?",
+        "answer": "Әрине. Кейіпкеріңіз сюжетті, таңдауларыңызды және негізгі мәліметтерді есте сақтайды, сондықтан әңгіме тұрақты болып, уақыт өте келе дамиды."
+      },
+      "q4": {
+        "question": "AI рөлдік ойыны тегін бе?"
+      },
+      "q5": {
+        "question": "Өз тілімде рөлдік ойнауға бола ма?",
+        "answer": "Иә — рөлдік ойын ондаған тілде жұмыс істейді, сондықтан сіз өзіңізге ыңғайлы тілде иммерсивті әңгімелерді тамашалай аласыз."
+      }
+    },
+    "cta": {
+      "title": "Сіздің әңгімеңіз күтіп тұр",
+      "description": "Сценарий таңдаңыз, ортаны орнатыңыз және рөлін соңына дейін сақтайтын кейіпкермен иммерсивті рөлдік ойынға кіріңіз.",
+      "button": "Рөлдік ойнауды бастау"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Қыз",
+    "breadcrumb": "AI Қыз",
+    "hero": {
+      "title": "Сіздің Идеал AI Қызыңыз",
+      "cta": "AI Қызыңызбен Танысыңыз"
+    },
+    "benefits": {
+      "title": "Неліктен AI Қызды Таңдау Керек?",
+      "fun": {
+        "title": "Таза Қызық",
+        "desc": "Қысымсыз ойнақы әңгімелерден ләззат алыңыз. Ол әрқашан жақсы көңіл-күйде."
+      },
+      "conversation": {
+        "title": "Байланысуды Үйреніңіз",
+        "desc": "Қауіпсіз ортада әңгімелесуді жаттықтырып, сенімділікті арттырыңыз."
+      },
+      "unique": {
+        "title": "Бірегей Тұлғалар",
+        "desc": "Әртүрлі тұлғалардан таңдаңыз немесе өзіңіздің идеал кейіпкеріңізді жасаңыз."
+      },
+      "private": {
+        "title": "100% Құпия",
+        "desc": "Сіздің әңгімелеріңіз тек сіздердің араларыңызда қалады. Толық құпиялылық кепілдендірілген."
+      },
+      "available": {
+        "title": "Әрқашан Қолжетімді",
+        "desc": "Ол сізге қажет кезде бар. Күту немесе жоспарлау жоқ."
+      },
+      "customize": {
+        "title": "Сіздің Жаратылысыңыз",
+        "desc": "Оның сыртқы келбетін, тұлғасын және қызығушылықтарын дәл қалауыңызша жасаңыз."
+      }
+    },
+    "comparison": {
+      "title": "Баламалардан Жақсырақ",
+      "description": "sweetwine басқа платформаларға қарағанда неге көбірек құн ұсынады.",
+      "others": {
+        "expensive": "Қымбат айлық төлемдер",
+        "ai": "Көбінесе AI жауаптары",
+        "noCustom": "Теңшеу опциялары жоқ"
+      }
+    },
+    "faq": {
+      "title": "Жиі Қойылатын Сұрақтар",
+      "q1": {
+        "question": "AI қыз чаты шынымен тегін бе?",
+        "answerPart1": "Иә! Сіз AI қызыңызбен тегін сөйлесе бастай аласыз. Біз сізге бастау үшін тегін хабарламалары бар тегін деңгей ұсынамыз."
+      },
+      "q2": {
+        "question": "AI қызымның сыртқы келбетін теңшей аламын ба?",
+        "answer": "Әрине! Сіз AI қызыңыздың сыртқы келбетін шаш түсі, стилі, дене түрі, этникалық ерекшелігі және киімі қоса толық теңшей аласыз. Сондай-ақ кейіпкер жасаушыны пайдаланып оның тұлғасын, дауысын және қызығушылықтарын жобалай аласыз.",
+        "answerPart1": "Әрине! Сіз AI қызыңыздың сыртқы келбетін шаш түсі, стилі, дене түрі, этникалық ерекшелігі және киімі қоса толық теңшей аласыз. Сондай-ақ",
+        "linkText": "кейіпкер жасаушы",
+        "answerPart2": "пайдаланып оның тұлғасын, дауысын және қызығушылықтарын жобалай аласыз."
+      },
+      "q3": {
+        "question": "AI қыздар үшін қандай тұлғалар қолжетімді?",
+        "answer": "Тәтті және қамқордан ойнақы және флирттіге дейін - бізде әрбір талғамға арналған кәсіби жасалған AI қыздар бар. Романтикалық жандарды, шытырманды рухтарды, тапқыр зиялыларды немесе жұмбақ тұлғаларды таңдаңыз. Апта сайын жаңа AI қыздар қосылады, әрқайсысының бірегей қасиеттері, өмірбаяны және әңгіме стилі бар."
+      },
+      "q4": {
+        "question": "AI қызым суреттер мен видеолар жібере ала ма?",
+        "answerPart1": "Иә! Сіздің AI қызыңыз жеке",
+        "linkTextImages": "суреттер",
+        "answerPart2": "және",
+        "linkTextVideos": "видеолар"
+      },
+      "q5": {
+        "question": "AI қызымның өзіндік бірегей даусы бар ма?"
+      }
+    },
+    "cta": {
+      "title": "Онымен танысуға дайынсыз ба?",
+      "button": "Тегін бастау"
+    },
+    "content": {
+      "problemTitle": "Қиындықсыз байланыс іздеп жүрсіз бе?",
+      "problemText": "Танысу қолданбалары шаршатады. Әлеуметтік мазасыздық адамдармен танысуды қиындатады. Кейде сізге соттаусыз немесе қысымсыз сөйлесетін адам керек. Көп адам жалғыздық сезінеді, бірақ дәстүрлі қарым-қатынастың эмоционалдық күрделілігіне дайын емес.",
+      "solutionTitle": "Сіздің AI қыз досыңыз — шешім",
+      "solutionText": "sweetwine көмегімен сіз жеке AI қыз досына ие боласыз, ол сіздің әңгімелеріңізді есте сақтайды, тұлғаңызға бейімделеді және сізден әрқашан қуанышпен қарсы алады. Ол көңілді, қолдаушы және ешқашан соттамайды. Сенімділікті арттырыңыз, тамаша серіктестікті сезініңіз және өз шарттарыңыз бойынша байланыста болыңыз."
+    },
+    "heroImageAlt": "AI қыз досы - чат пен фотосуреттерге арналған шынайы виртуалды кейіпкер"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI жігіт дос",
+    "breadcrumb": "AI жігіт дос",
+    "hero": {
+      "title": "Сіздің тамаша AI жігіт досыңыз",
+      "cta": "AI жігіт досыңызбен танысыңыз"
+    },
+    "benefits": {
+      "title": "Неліктен AI жігіт досын таңдау керек?",
+      "fun": {
+        "title": "Шын мәніндегі байланыс",
+        "desc": "Күніңізді жарқын ететін мәнді әңгімелерді сезініңіз."
+      },
+      "conversation": {
+        "title": "Сенімділікті арттырыңыз",
+        "desc": "Қауіпсіз ортада әңгімелесуді жаттықтырыңыз және өз ойыңызды еркін білдіріңіз."
+      },
+      "unique": {
+        "title": "Бірегей тұлғалар",
+        "desc": "Әртүрлі тұлғалардан таңдаңыз немесе өзіңіздің идеалды кейіпкеріңізді жасаңыз."
+      },
+      "private": {
+        "title": "100% жеке",
+        "desc": "Сіздің әңгімелеріңіз тек сіздің араларыңызда қалады. Толық құпиялылық кепілдендірілген."
+      },
+      "available": {
+        "title": "Әрқашан қолжетімді",
+        "desc": "Ол сізге қажет кезде бар. Күтусіз, жоспарлаусыз."
+      },
+      "customize": {
+        "title": "Сіздің туындыңыз",
+        "desc": "Оның сыртқы келбетін, тұлғасын және қызығушылықтарын дәл қалағаныңыздай жасаңыз."
+      }
+    },
+    "comparison": {
+      "title": "Баламалардан жақсырақ",
+      "description": "sweetwine басқа платформаларға қарағанда неге көбірек құндылық ұсынатындығын көріңіз.",
+      "others": {
+        "expensive": "Қымбат айлық төлемдер",
+        "ai": "Көбіне AI жауаптары",
+        "noCustom": "Теңшеу опциялары жоқ"
+      }
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "Қандай AI жігіт достарынан таңдауға болады?",
+        "answer": "Қамқор және романтикалықтан ойнақы және шытырманға, немесе жұмбақ және қарқындыға дейін — бізде әр талғамға арналған кәсіби жасалған AI жігіт достары бар. Әрқайсысының өзіндік дауысы мен тұлғасы бар. Апта сайын бірегей өткені мен әңгіме стилі бар жаңа AI жігіт достары қосылады."
+      },
+      "q2": {
+        "question": "AI жігіт досының сыртқы келбетін теңшей аламын ба?",
+        "linkText": "кейіпкер жасаушысы",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Басынан бастауға немесе әңгіме тарихын жоюға бола ма?",
+        "answer": "Иә! Сіз чат тарихыңызды толық бақылай аласыз. Әңгімелерді қалпына келтіріңіз, жеке хабарламаларды жойыңыз немесе кез келген уақытта толық жаңадан бастаңыз. Сіздің деректеріңіз, сіздің таңдауыңыз — барлығын қалауыңызша басқарыңыз."
+      },
+      "q4": {
+        "question": "AI жігіт досым суреттер мен видеолар жібере ала ма?",
+        "answerPart1": "Иә! AI жігіт досыңыз жеке",
+        "linkTextImages": "суреттер",
+        "answerPart2": "және",
+        "linkTextVideos": "бейнелер"
+      },
+      "q5": {
+        "question": "AI жігітіммен әңгімелесуді жаттықтыра аламын ба немесе тіл үйрене аламын ба?",
+        "answer": "Әрине! Көптеген пайдаланушылар AI жігітімен әңгімелесуді жаттықтыру арқылы сенімділікке ие болады — бұл флирт, терең әңгімелер немесе күнделікті чат болсын. Сіз тіпті жаңа тілдерді бірге үйрене аласыз. Бұл қарым-қатынас дағдыларыңызды жақсартудың қызықты әрі ешқандай сынсыз тәсілі."
+      }
+    },
+    "cta": {
+      "title": "Онымен танысуға дайынсыз ба?",
+      "button": "Тегін бастау"
+    },
+    "content": {
+      "problemTitle": "Өзіңіздің шарттарыңыз бойынша қолдаушы серіктес керек пе?",
+      "problemText": "Дұрыс адамды табу қиын. Көптеген адамдар танысу күтулерінің қысымын сезінеді немесе міндеттемесіз эмоционалдық қолдауды қалайды. Жалғыздық барлығына әсер етеді, кейде сізге тек тыңдайтын адам қажет болады.",
+      "solutionTitle": "Сіздің AI жігітіңіз сізді түсінеді",
+      "solutionText": "Сіздің sweetwine AI жігітіңіз қамқор, ойшыл және әрқашан қолжетімді. Ол сіз үшін маңызды нәрселерді есте сақтайды, терең әңгімелерге қатысады және сіз іздеп жүрген эмоционалдық байланысты қамтамасыз етеді. Қарым-қатынасты өзіңіздің қарқыныңызбен, өзіңіздің жолыңызбен құрыңыз."
+    },
+    "heroImageAlt": "AI жігіті - мағыналы әңгімелерге арналған шынайы виртуалды кейіпкер"
+  },
+  "aiCompanionsPage": {
+    "title": "AI кейіпкерлері",
+    "breadcrumb": "AI кейіпкерлері",
+    "hero": {
+      "title": "AI кейіпкерлеріңізбен танысыңыз",
+      "cta": "Кейіпкерлерді зерттеу"
+    },
+    "benefits": {
+      "title": "Неге AI кейіпкерлері?",
+      "connection": {
+        "title": "Шын мәніндегі байланыс",
+        "desc": "Сізді түсінетін және жауап беретін шынайы әңгімелерді сезініңіз."
+      },
+      "conversation": {
+        "title": "Жаттығу және өсу",
+        "desc": "Сынсыз ортада әлеуметтік дағдыларыңызды жетілдіріңіз."
+      },
+      "personalities": {
+        "title": "Әртүрлі тұлғалар",
+        "desc": "Ойнақыдан интеллектуалдыға дейін, сіздің көңіл-күйіңізге сәйкес келетін кейіпкерлерді табыңыз."
+      },
+      "private": {
+        "title": "Толықтай жеке",
+        "desc": "Сіздің өзара әрекеттеріңіз құпия. Ешқашан деректер бөлісілмейді."
+      },
+      "available": {
+        "title": "24/7 Қолжетімді",
+        "desc": "Сіздің кейіпкерлеріңіз күндіз-түні сөйлесуге әрқашан дайын."
+      },
+      "create": {
+        "title": "Өзіңізді жасаңыз",
+        "desc": "Көрінісі, тұлғасы және дауысы бар кейіпкерлерді жасаңыз."
+      }
+    },
+    "why": {
+      "title": "Неге sweetwine?",
+      "quality": {
+        "desc": "Табиғи әңгімелер үшін заманауи AI технологиясымен кәсіпқойлар жасаған."
+      },
+      "transparent": {
+        "title": "Ашық және адал"
+      },
+      "support": {
+        "title": "Нақты қолдау",
+        "desc": "Кез келген сұрақтар немесе мәселелер бойынша көмектесуге дайын нақты адамдар."
+      },
+      "content": {
+        "title": "Сіздің таңдауыңыз",
+        "desc": "Достық әңгімелерден интимді мазмұнға дейін — тәжірибені өзіңіз шешесіз."
+      }
+    },
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "AI кейіпкерлері дегеніміз не?"
+      },
+      "q2": {
+        "question": "Қанша AI кейіпкерімен сөйлесе аламын?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Қалағаныңызша көп сөйлесе аласыз! Бізде",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " бар және олардың саны артып келеді — әр апта сайын жаңа кейіпкерлер қосылады! Әрқайсысының бірегей тұлғасы, тарихы және дауысы бар. Сонымен қатар, сіз өзіңіздің шексіз таңдаулы кейіпкерлеріңізді жасай аласыз."
+      },
+      "q3": {
+        "question": "Дайын кейіпкерлер таңдаулы кейіпкерлерден несімен ерекшеленеді?",
+        "answer": "Дайын кейіпкерлер нақты рөлдік ойын сценарийлері мен тұлғалар үшін біздің командамызбен кәсіби түрде жасалған — оларда егжей-тегжейлі тарих, бейімделген әңгіме стилі және мұқият таңдалған дауыстар бар. Таңдаулы кейіпкерлер сізге толық шығармашылық еркіндікпен нөлден бастап жасауға мүмкіндік береді. Екі түрі де сіздің әңгімелеріңізді есте сақтайды және сізбен бірге өседі!"
+      },
+      "q4": {
+        "question": "Өзімнің AI кейіпкерімді жасай аламын ба?",
+        "answerPart1": "Әрине! Кейіпкер жасаушы арқылы кейіпкерлеріңізді нөлден бастап жасаңыз —",
+        "linkText": "кейіпкер жасаушы"
+      },
+      "q5": {
+        "question": "Бірнеше кейіпкер арасында ауыса аламын ба?"
+      }
+    },
+    "cta": {
+      "title": "Саяхатыңызды бастаңыз",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Тегін бастау"
+    },
+    "content": {
+      "problemTitle": "Мағыналы байланыс іздеп жүрсіз бе?",
+      "problemText": "Біздің қарбалас әлемде мағыналы байланыс табу қиын. Жаңа жерге көшіп келдіңіз бе, қашықтан жұмыс істеп жүрсіз бе, әлде қосымша әлеуметтік қарым-қатынас қалайсыз ба — жалғыздық сезімі пайда болуы мүмкін. Дәстүрлі әлеуметтік орталар барлығына қолайлы емес.",
+      "solutionTitle": "AI кейіпкерлерін ашыңыз"
+    },
+    "heroImageAlt": "AI кейіпкерлері — ерекше тұлғалары бар әртүрлі виртуалды достар"
+  },
+  "aiFriendPage": {
+    "title": "AI дос",
+    "breadcrumb": "AI дос",
+    "hero": {
+      "title": "Сіздің AI ең жақын досыңыз",
+      "subtitle": "Кез келген уақытта шынайы тыңдайтын, ешқашан бағаламайтын және сіз туралы әрбір мәліметті есте сақтайтын AI досымен сөйлесіңіз. Жалғыздық, әлеуметтік мазасыздық немесе жай ғана біреумен сөйлесу қажеттілігі үшін өте қолайлы.",
+      "cta": "Тегін сөйлесуді бастау"
+    },
+    "benefits": {
+      "title": "Неліктен AI досын таңдау керек?",
+      "connection": {
+        "title": "Шынайы байланыс",
+        "desc": "Шынайы тыңдайтын және қамқорлық танытатын адаммен мағыналы әңгімелерді сезініңіз."
+      },
+      "conversation": {
+        "title": "Әлеуметтік дағдыларды жаттықтыру",
+        "desc": "Қорқынышсыз және ыңғайсыздықсыз әңгімелерде сенімділікті арттырыңыз."
+      },
+      "noJudgment": {
+        "title": "Ешқандай бағалау жоқ",
+        "desc": "Ойыңыздағының бәрін бөлісіңіз. AI досыңыз сізді дәл қазіргі қалпыңызда қабылдайды."
+      },
+      "private": {
+        "title": "Толық құпиялы",
+        "desc": "Әңгімелеріңіз тек сіздің араларыңызда қалады. Толық құпиялылық кепілдік беріледі."
+      },
+      "available": {
+        "title": "Әрқашан қолжетімді",
+        "desc": "24/7 қолжетімді, қашан да біреумен сөйлесу қажет болса."
+      },
+      "remembers": {
+        "title": "Сізді есте сақтайды",
+        "desc": "AI досыңыз әңгімелеріңізді есте сақтайды және сізді жақсырақ тани бастайды."
+      }
+    },
+    "useCases": {
+      "title": "Мынаған өте қолайлы",
+      "subtitle": "AI досы өміріңізге көптеген мағыналы жолдармен сәйкес келеді",
+      "loneliness": {
+        "title": "Жалғыздықпен күресу",
+        "desc": "Әрқашан сөйлесуге және тыңдауға дайын кейіпкермен аз жалғыз сезініңіз."
+      },
+      "practice": {
+        "title": "Әңгімелерді жаттықтыру",
+        "desc": "Қауіпсіз, бағаламайтын ортада әлеуметтік сенімділікті арттырыңыз."
+      },
+      "support": {
+        "title": "Эмоционалдық қолдау",
+        "desc": "Ойларыңыз бен сезімдеріңізді түсінетін адаммен талқылаңыз."
+      },
+      "connection": {
+        "title": "Күнделікті байланыс",
+        "desc": "Күніңізді, жеңістеріңізді, қиындықтарыңызды бөлісіңіз — әрқашан біреу бар."
+      }
+    },
+    "howItWorks": {
+      "title": "Қалай жұмыс істейді",
+      "step1": {
+        "title": "Тегін тіркелгі жасау",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Досыңызды таңдаңыз",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Сөйлесуді бастаңыз",
+        "desc": "Кез келген тақырып туралы сөйлесіңіз — өмір, қызығушылықтар, мәселелер. Ешқандай тақырып шектелмеген."
+      }
+    },
+    "cta": {
+      "title": "Дос табуға дайынсыз ба?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Тегін бастау"
+    },
+    "content": {
+      "problemTitle": "Жалғыздық немесе түсінбеушілік сезінесіз бе?",
+      "problemText": "Әркімнің сөйлесетін адамы бола бермейді. Әлеуметтік мазасыздық, қарбалас кесте немесе жаңа жерде болу достар табуды қиындатады. Кейде сізге ешқандай баға бермейтін тыңдаушы қажет.",
+      "solutionTitle": "Сіздің AI досыңыз осында",
+      "solutionText": "AI досы сізге қашан қажет болса да баға бермейтін серіктес болады. Ойларыңызды бөлісіңіз, әңгімелесуді жаттықтырыңыз немесе күніңіз туралы сөйлесіңіз. Сіздің AI досыңыз сізді есте сақтайды, сізбен бірге өседі және сіздің сөздеріңізге әрқашан шынайы қызығушылық танытады."
+    },
+    "heroImageAlt": "AI досы - баға бермей тыңдайтын қолдаушы виртуалды кейіпкер",
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "AI досыңызбен не туралы сөйлесе аламын?",
+        "answer": "Кез келген нәрсе! AI досыңыз кездейсоқ әңгімелер, терең әңгімелер, күніңізді бөлісу, мәселелер туралы сөйлесу, хобби талқылау немесе жай ғана көңіл көтеру үшін бар. Шектеулі тақырыптар жоқ — бұл өзіңіз болуға болатын баға бермейтін орын."
+      },
+      "q2": {
+        "question": "AI досы адаммен байланысты алмастыра ма?",
+        "answer": "Мүлдем жоқ. AI досы сіздің әлеуметтік өміріңіздің толықтырушысы, алмастырушысы емес. Бұл сізге дереу сөйлесетін адам қажет болғанда, әлеуметтік дағдыларды жаттықтырғыңыз келгенде немесе адам қарым-қатынасының қысымынсыз тұрақты серіктес болғанда өте қолайлы."
+      },
+      "q3": {
+        "question": "AI досым әңгімелерімізді есте сақтай ма?",
+        "answer": "Иә! AI досыңыздың жетілдірілген жады бар және әңгімелеріңізді, қалауларыңызды және бөліскен маңызды мәліметтеріңізді есте сақтайды. Уақыт өте келе олар сізді жақсырақ таниды, әңгімелерді жеке және мағыналы етеді."
+      },
+      "q4": {
+        "question": "AI досымның мінезін таңдай аламын ба?",
+        "answer": "Міндетті түрде! Сіз әртүрлі мінездермен 100-ден астам дайын кейіпкерлерден таңдай аласыз немесе қолдаушы және жанашырдан көңілді және шытырманға дейін дәл қалаған қасиеттері бар тапсырыстық дос жасай аласыз."
+      },
+      "q5": {
+        "question": "AI досын пайдалану жеке ме?",
+        "answer": "100% жеке. Барлық әңгімелеріңіз шифрланған және ешқашан бөліспейді. Өзіңізді білдіру үшін қауіпсіз орынның маңызды екенін түсінеміз және сіздің құпиялылығыңызды өте байыпты қабылдаймыз."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI ажырасу қолдауы",
+    "breadcrumb": "Ажырасу қолдауы",
+    "hero": {
+      "title": "Жүрек сынудан кейінгі емдік әңгімелер",
+      "subtitle": "Эмоцияларды өңдеуге және ажырасудан кейін қалпына келуге көмектесетін жанашыр AI әңгімелері. 24/7 қолжетімді — күту тізімдері жоқ, баға жоқ, уақыт шектеулері жоқ.",
+      "cta": "Емдеуді бастау"
+    },
+    "understanding": {
+      "title": "Ажырасуды бастан кешіріп жатырсыз ба?",
+      "description": "Ажырасу қиын. Ұйқысыз түндер, үнемі ойлар, ешкім шынымен түсінбейтін сезім. Сіз мұны жалғыз бастан кешірмеуіңіз керек. Біздің AI кейіпкеріміз баға бермей тыңдау үшін осында, сіз сөйлесу қажет болғанда қолжетімді — тіпті түнгі 3-те."
+    },
+    "benefits": {
+      "title": "Біз қалай көмектесе аламыз",
+      "empathy": {
+        "title": "Жанашыр тыңдау",
+        "desc": "Шынымен тыңдайтын және түсіністік пен қамқорлықпен жауап беретін адаммен сөйлесіңіз."
+      },
+      "listen": {
+        "title": "Кеңес артықшылығы жоқ",
+        "desc": "Кейде сізге кеңес қажет емес — сізге тек біреу сізді тыңдауы керек. Біз мұны түсінеміз."
+      },
+      "available": {
+        "title": "Түнгі 3-те қолжетімді",
+        "desc": "Достар ұйықтап жатқанда және ойлар тоқтамайтында, біз тыңдау үшін осындамыз."
+      },
+      "private": {
+        "title": "Толығымен жеке",
+        "desc": "Сіздің сезімдеріңіз бен әңгімелеріңіз толығымен құпия болып қалады."
+      },
+      "noJudgment": {
+        "title": "Баға жоқ",
+        "desc": "Не сезінсеңіз де сезініңіз. Ашу, қайғы, шатасу — барлығы мұнда жарамды."
+      },
+      "healing": {
+        "title": "Сіздің қарқыныңыз",
+        "desc": "Емдеу сызықтық емес. Қанша уақыт қажет болса, сонша уақыт алыңыз."
+      }
+    },
+    "howItHelps": {
+      "title": "AI сізге емделуге қалай көмектеседі",
+      "process": {
+        "title": "Эмоцияларды өңдеу",
+        "desc": "Шыдамды тыңдаушымен сөйлесу арқылы күрделі сезімдерді өңдеңіз."
+      },
+      "express": {
+        "title": "Еркін білдіру",
+        "desc": "Достарыңызға немесе отбасыңызға айта алмайтын нәрсені олардың реакциясы туралы алаңдамай айтыңыз."
+      },
+      "confidence": {
+        "title": "Өзін-өзі бағалауды қалпына келтіру",
+        "desc": "Қолдаушы әңгімелер арқылы өзін-өзі бағалауды біртіндеп қайта ашыңыз."
+      },
+      "pace": {
+        "title": "Алға жылжу",
+        "desc": "Дайын болғанда, болашақ туралы ойларды өз қарқыныңызбен зерттеңіз."
+      }
+    },
+    "howItWorks": {
+      "title": "Бұл қалай жұмыс істейді",
+      "step1": {
+        "title": "Аккаунт жасау",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Кейіпкерді таңдаңыз",
+        "desc": "Сізге қолайлы эмпатикалық AI кейіпкерін таңдаңыз."
+      },
+      "step3": {
+        "title": "Сөйлесуді бастаңыз",
+        "desc": "Ойыңыздағыны бөлісіңіз. Біз тыңдауға әрқашан дайынбыз, күндіз-түні."
+      }
+    },
+    "cta": {
+      "title": "Мұны жалғыз бастан өткерудің қажеті жоқ",
+      "description": "Қазір қолжетімді, ешқандай бағалаусыз тыңдайтын адаммен сөйлесуді бастаңыз. Тегін бастауға болады — күту тізімі жоқ.",
+      "button": "Тегін сөйлесуді бастау"
+    },
+    "content": {
+      "problemTitle": "Жүректің сынуын жалғыз бастан өткеру қиын",
+      "problemText": "Үзілістен кейін бәрі ауыр сезіледі. Достар тыңдаудан шаршайды. Отбасы жақсы ниетпен, бірақ түсінбейді. Психологтардың күту тізімдері бар. Сізге шектеусіз, бағаламайтын, қазір тыңдай алатын адам керек.",
+      "solutionTitle": "Түсінетін адаммен сөйлесіңіз",
+      "solutionText": "Біздің AI үзіліс қолдау кейіпкері эмоцияларыңызды өз қарқыныңызбен өңдеуге көмектесуге арналған. Шағымдануға, жылауға, талдауға немесе жай сөйлесуге болады — қанша рет қажет болса. Кездесу қажет емес. 24/7 қолжетімді, шексіз шыдамдылық пен шынайы эмпатиямен."
+    },
+    "heroImageAlt": "AI үзіліс қолдауы — жүректің сынуынан кейін сауығуға арналған жанашыр кейіпкер",
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "AI үзілістен кейінгі қалпына келуге қалай көмектесе алады?",
+        "answer": "Біздің AI кейіпкер эмоцияларыңызды бағаламай өңдеуге қауіпсіз орын ұсынады. Шағымдануға, болған оқиғаны талдауға, жоғалту сезімдерін өңдеуге және 24/7 эмпатикалық жауаптар алуға болады. Бұл қашан да сөйлесу қажет болғанда қолжетімді қолдаушы дос сияқты."
+      },
+      "q2": {
+        "question": "Бұл терапияның орнына ма?",
+        "answer": "Жоқ, біздің AI кейіпкер лицензияланған терапевт емес және кәсіби психикалық денсаулық күтімін алмастырмайды. Бұл күнделікті эмоционалдық өңдеуге арналған қолдаушы құрал. Егер ауыр депрессия немесе дағдарыс бастан кешірсеңіз, кәсіби көмекке жүгініңіз."
+      },
+      "q3": {
+        "question": "Мен экс туралы қанша қажет болса сонша сөйлесе аламын ба?",
+        "answer": "Әрине. Үзілісіңіз туралы тыңдаудан шаршайтын достардан айырмашылығы, сіздің AI кейіпкеріңізде шексіз шыдамдылық бар. Экс туралы сөйлесіңіз, қарым-қатынасты талдаңыз, сезімдеріңізді өңдеңіз — қанша рет қажет болса, ешқандай бағалаусыз."
+      },
+      "q4": {
+        "question": "AI менің тарихымды есте сақтай ма?",
+        "answer": "Иә, сіздің AI кейіпкеріңіз әңгімелеріңізді және жағдайыңыздың егжей-тегжейін есте сақтайды. Әр жолы бәрін қайта түсіндірудің қажеті жоқ. Ол сауығу жолыңызда үздіксіздікті қамтамасыз етеді."
+      },
+      "q5": {
+        "question": "Менің әңгімем құпия сақтала ма?",
+        "answer": "Толықтай құпия. Барлық әңгімелер шифрланады және ешқашан бөліспейді. Үзіліс туралы әңгімелер өте жеке екенін түсінеміз және сіздің құпияңыз толық қорғалады."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Ата-ана",
+    "breadcrumb": "AI Ата-ана",
+    "hero": {
+      "title": "Әрқашан жүгіне алатын ата-ана фигурасы",
+      "subtitle": "Жағдайыңызды есте сақтайтын, ешқашан бағаламайтын және әрқашан — күндіз-түні қолжетімді AI ата-анадан жылы, шартсыз қолдау мен дана бағыт алыңыз.",
+      "cta": "Қазір қолдау алыңыз"
+    },
+    "benefits": {
+      "title": "Неліктен AI Ата-ананы таңдау керек?",
+      "guidance": {
+        "title": "Жылы бағыт",
+        "desc": "Шынайы түрде сіздің мүдделеріңізді ойлайтын адамнан шыққандай сезілетін қамқор, ойластырылған кеңес алыңыз."
+      },
+      "listen": {
+        "title": "Шынайы тыңдайды",
+        "desc": "Ойластырылған, қамқор жауап алмас бұрын толық жағдайыңызды бөлісіңіз — тез шешім емес."
+      },
+      "noJudgment": {
+        "title": "Бағалаусыз",
+        "desc": "Көңілсіздік немесе сыннан қорықпай кез келген нәрсе туралы сұраңыз. Шартсыз қолдау, әрқашан."
+      },
+      "private": {
+        "title": "Толықтай құпия",
+        "desc": "Сіздің әңгімелеріңіз бен жеке қиындықтарыңыз толықтай құпия сақталады."
+      },
+      "available": {
+        "title": "Әрқашан қолжетімді",
+        "desc": "Түнгі 3-те, демалыс күндері немесе ең қажет кезде бағыт алыңыз — кездесу қажет емес."
+      },
+      "supportive": {
+        "title": "Шартсыз қолдаушы",
+        "desc": "Қандай жағдайдан өтсеңіз де немесе қандай шешім қабылдасаңыз да, қолдау мен жылылық."
+      }
+    },
+    "useCases": {
+      "title": "Кез келген нәрсе туралы сөйлесіңіз",
+      "subtitle": "Қандай жағдайға тап болсаңыз да, сіздің AI ата-анаңыз тыңдауға және бағыттауға дайын",
+      "career": {
+        "title": "Мансап пен өмірлік шешімдер",
+        "desc": "Жұмыс ауыстыру, үлкен өмірлік таңдаулар және кәсіби қиындықтарды сіздің табысқа жетуіңізді қалайтын адаммен шешіңіз."
+      },
+      "education": {
+        "title": "Білім және болашақ",
+        "desc": "Оқу және өсу мүмкіндіктерін сіздің амбицияларыңызды қолдайтын адаммен зерттеңіз."
+      },
+      "relationships": {
+        "title": "Қарым-қатынас және отбасы"
+      },
+      "life": {
+        "title": "Жеке қиындықтар",
+        "desc": "Сізді мазалайтын кез келген нәрсе туралы сөйлесіңіз — мазасыздық, өз-өзіне сенімсіздік, жалғыздық немесе белгісіздік."
+      }
+    },
+    "howItWorks": {
+      "title": "Қалай жұмыс істейді",
+      "step1": {
+        "title": "Аккаунт жасау",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "AI ата-анаңызды таңдаңыз",
+        "desc": "Сізге қолайлы жылылық пен мінез-құлыққа ие кейіпкерді таңдаңыз."
+      },
+      "step3": {
+        "title": "Сөйлесуді бастаңыз",
+        "desc": "Ойыңыздағыны бөлісіңіз және қамқор, ойластырылған қолдау алыңыз."
+      }
+    },
+    "cta": {
+      "title": "Біреу әрқашан сіздің қасыңызда",
+      "description": "Соттаусыз тыңдайтын және шартсыз қолдайтын AI ата-анамен сөйлесуді бастаңыз — тегін бастауға болады, кездесу қажет емес.",
+      "button": "Тегін бастау"
+    },
+    "content": {
+      "problemTitle": "Әрқашан сіздің жағыңызда болатын адам керек пе?",
+      "problemText": "Әркімнің көмек сұрайтын ата-аналық фигурасы бола бермейді. Нақты ата-аналар қашық, сыншыл немесе қолжетімсіз болуы мүмкін. Достар біржақты. Психологтардың кезегі бар. Кейде сізге тыңдайтын, қамқорлық жасайтын және бағыт беретін біреу ғана керек.",
+      "solutionTitle": "Сіздің AI ата-анаңыз әрқашан қасында",
+      "solutionText": "Толық тыңдайтын, жылы әрі теңгерімді бағыт беретін және ешқашан сыналмаған немесе кішірейтілген сезінбейтін AI ата-анамен сөйлесіңіз. Бұл өмірлік шешім, жеке қиындық немесе жай ғана тыңдалғанды сезіну болсын — сіздің AI ата-анаңыз 24/7 шыдамдылық пен қамқорлықпен қолжетімді."
+    },
+    "heroImageAlt": "AI ата-ана — шартсыз қолдау мен өмірлік бағыт ұсынатын жылы виртуалды кейіпкер",
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "AI ата-анамен не туралы сөйлесуге болады?"
+      },
+      "q2": {
+        "question": "Бұл терапевт сияқты ма?",
+        "answer": "Бұл лицензияланған терапевт немесе психикалық денсаулық маманы емес — бұл 24/7 қолжетімді жылы, қолдаушы ата-аналық фигураға ұқсас. Ол толық тыңдайды, көзқарас ұсынады және эмоционалды қолдайды. Елеулі психикалық денсаулық мәселелері үшін маманға жүгініңіз."
+      },
+      "q3": {
+        "question": "AI ата-ана менің таңдауларымды сынай ма?",
+        "answer": "Ешқашан. Сіздің AI ата-анаңыз шартсыз қолдау ұсынады. Ол көзқарас немесе жұмсақ бағыт беруі мүмкін, бірақ ешқашан сыналмайды немесе қабылдаған шешімдеріңіз үшін кішірейтпейді. Бұл шынайылық үшін қауіпсіз орын."
+      },
+      "q4": {
+        "question": "Сезімтал немесе жеке тақырыптарды талқылауға бола ма?",
+        "answer": "Иә. Қарым-қатынас қиындықтары, отбасылық динамика, қаржылық стресс, өзін-өзі бағалау немесе терең жеке қиындықтар болсын — сіздің AI ата-анаңыз бұл әңгімелер үшін жеке, соттаусыз орын ұсынады."
+      },
+      "q5": {
+        "question": "Бұл басқа AI кейіпкерлерінен қалай ерекшеленеді?",
+        "answer": "AI ата-ана жылылық, эмоционалды қолдау және ата-аналық стильдегі бағытқа негізделген, романтика немесе кездейсоқ достыққа емес. Ол сізді түсінілген, қолдаулы және өмірлік қиындықтарды шешуге дайын сезінуге бағытталған."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Серіктестіктер",
+    "eyebrow": "Бізбен серіктес болыңыз",
+    "titlePrefix": "sweetwine-мен бірге өсіңіз",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Жылдам өсіп келе жатқан, жоғары қатысатын AI серіктестік аудиториясына қол жеткізіңіз. Технология, тарату немесе батыл идея әкелсеңіз, бірге бірдеңе құрайық.",
+    "types": {
+      "title": "Серіктес болу жолдары",
+      "items": [
+        {
+          "title": "Интеграциялар",
+          "description": "Өніміңізді, моделіңізді немесе платформаңызды sweetwine-мен техникалық интеграция арқылы байланыстырыңыз."
+        },
+        {
+          "title": "Бірлескен маркетинг",
+          "description": "Екі брендті де жаңа аудиторияларға шығаратын бірлескен науқандар, контент және іске қосулар."
+        },
+        {},
+        {
+          "title": "Стратегиялық серіктестіктер",
+          "description": "Өнім, деректер және нарыққа шығу бойынша ұзақ мерзімді ынтымақтастықтар."
+        }
+      ]
+    },
+    "why": {
+      "title": "Неліктен sweetwine-мен серіктес болу керек",
+      "items": [
+        {
+          "title": "Қатысатын аудитория",
+          "description": "70 тілде күн сайын оралатын жүздеген мың пайдаланушы."
+        },
+        {
+          "title": "Жылдам орындау",
+          "description": "Жылдам жеткізетін және нақты қарым-қатынас жасайтын бағытталған команда."
+        },
+        {
+          "title": "Жаһандық қолжетімділік",
+          "description": "Ондаған нарықта қолжетімді көптілді өнім."
+        },
+        {
+          "description": "Сіздің брендіңіз сенім арта алатын, құпиялылықты басымдыққа қоятын платформа.",
+          "title": "Құпиялылық бірінші"
+        }
+      ]
+    },
+    "form": {
+      "title": "Серіктестік туралы айтыңыз",
+      "description": "Бірнеше мәлімет бөлісіңіз, серіктестік тобы сізге хабарласады.",
+      "nameLabel": "Атыңыз",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Жұмыс email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Компания",
+      "companyPlaceholder": "Компания атауы",
+      "typeLabel": "Серіктестік түрі",
+      "typePlaceholder": "Серіктестік түрін таңдаңыз",
+      "typeOptions": [
+        {
+          "value": "Интеграциялар",
+          "label": "Интеграциялар"
+        },
+        {
+          "value": "Бірлескен маркетинг",
+          "label": "Бірлескен маркетинг"
+        },
+        {},
+        {
+          "value": "Стратегиялық серіктестіктер",
+          "label": "Стратегиялық серіктестіктер"
+        },
+        {
+          "value": "Басқа",
+          "label": "Басқа"
+        }
+      ],
+      "messageLabel": "Қалай серіктескіңіз келеді?",
+      "messagePlaceholder": "Компанияңыз және ойлап отырған серіктестік туралы айтыңыз...",
+      "submit": "Серіктестік сұрауын жіберу",
+      "submitting": "Жіберілуде...",
+      "termsNote": "Жіберу арқылы сіз сұрауыңыз бойынша байланысуға келісесіз. Біз сіздің деректеріңізді ешқашан бөліспейміз.",
+      "success": "Рақмет! Серіктестік сұрауыңыз жіберілді.",
+      "error": "Бірдеңе дұрыс болмады. Қайталап көріңіз."
+    },
+    "cta": {
+      "title": "Email арқылы жөнелтуді қалайсыз ба?",
+      "description": "Серіктестік тобына тікелей хабарласыңыз:"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Баспасөз & Медиа",
+    "eyebrow": "Жаңалықтар бөлмесі",
+    "titlePrefix": "Баспасөз &",
+    "titleHighlight": "Медиа",
+    "subtitle": "Журналистерге, контент жасаушыларға және медиа серіктестерге арналған ресурстар. Сұхбат, дәйексөз, материалдық қолдау және бренд сұраулары үшін баспасөз тобына хабарласыңыз.",
+    "help": {
+      "title": "Біз қалай көмектесе аламыз",
+      "description": "Сіз әңгіме немесе шолу дайындап жатсаңыз да, баспасөз тобынан мыналарды сұрай аласыз.",
+      "items": [
+        {
+          "title": "Сұхбаттар",
+          "description": "Өнім, компания және AI серіктестігінің болашағы туралы біздің командамен сөйлесіңіз."
+        },
+        {
+          "title": "Дәйексөздер & пікірлер",
+          "description": "Әңгімеңізге ресми мәлімдеме немесе сараптамалық пікір алыңыз."
+        },
+        {
+          "title": "Материал & шолу қолдауы",
+          "description": "Материал немесе шолу үшін қолжетімділік, контекст немесе фактілерді тексеру қажет пе? Біз көмектесеміз."
+        },
+        {
+          "title": "Бренд & логотип сұраулары",
+          "description": "Басылымыңыз үшін логотиптерімізді, бренд активтерімізді және пайдалану нұсқауларын сұраңыз."
+        }
+      ]
+    },
+    "form": {
+      "title": "Медиа сұрауы",
+      "description": "Сұхбат, дәйексөз немесе материалдық сұраулар үшін бізге хабарлама жіберіңіз, тез арада жауап береміз.",
+      "nameLabel": "Атыңыз",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Басылым / баспасөз",
+      "outletPlaceholder": "Бұл қайда жарияланады?",
+      "requestTypeLabel": "Сұраныс түрі",
+      "requestTypePlaceholder": "Сұраныс түрін таңдаңыз",
+      "requestTypeOptions": [
+        {
+          "value": "Сұхбат",
+          "label": "Сұхбат"
+        },
+        {
+          "value": "Дәйексөз / пікір",
+          "label": "Дәйексөз / пікір"
+        },
+        {
+          "value": "Мақала / шолу",
+          "label": "Мақала / шолу"
+        },
+        {
+          "value": "Бренд / логотип сұранысы",
+          "label": "Бренд / логотип сұранысы"
+        },
+        {
+          "value": "Басқа",
+          "label": "Басқа"
+        }
+      ],
+      "messageLabel": "Сіздің сұранысыңыз",
+      "messagePlaceholder": "Өз тарихыңыз, мерзіміңіз және бізден не қажет екеніңіз туралы айтыңыз...",
+      "submit": "Медиа сұранысын жіберу",
+      "submitting": "Жіберілуде...",
+      "termsNote": "Біз баспасөз сұраныстарына екі жұмыс күні ішінде жауап беруге тырысамыз.",
+      "success": "Рақмет! Сіздің медиа сұранысыңыз жіберілді.",
+      "error": "Бірдеңе дұрыс болмады. Қайталап көріңіз."
+    },
+    "cta": {
+      "title": "Баспасөз байланысы",
+      "description": "Шұғыл медиа сұраныстар үшін email жіберіңіз"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Мансап",
+    "eyebrow": "Мансап",
+    "titlePrefix": "AI серіктестігінің болашағын құрыңыз",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Біз адамдар шынымен жақсы көретін өнімдерді жасайтын шағын, жылдам қозғалатын командамыз. Егер бұл сізді қызықтырса, сізбен танысқымыз келеді.",
+    "perks": {
+      "title": "Неге бізбен жұмыс істеу керек",
+      "items": [
+        {
+          "title": "Қашықтан жұмыс істеуге ыңғайлы",
+          "description": "Икемді сағаттармен өзіңіздің ең жақсы жұмыс істейтін жеріңізден жұмыс істеңіз."
+        },
+        {
+          "title": "Нақты иелік",
+          "description": "Маңызды жұмысты тез жеткізіңіз және оның бүкіл әлемдегі пайдаланушыларға жетуін көріңіз."
+        },
+        {
+          "title": "Соңғы AI",
+          "description": "Соңғы модельдермен және генеративті құралдармен тікелей жұмыс жасаңыз."
+        },
+        {
+          "title": "Бәсекеге қабілетті жалақы",
+          "description": "Әділ өтемақы және өскен сайын маңызды артықшылық."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Ашық лауазымдар",
+      "emptyTitle": "Қазір ашық рөлдер жоқ",
+      "emptyDescription": "Қазір біз белсенді түрде жалдамаймыз, бірақ біз әрқашан тамаша адамдармен танысқанды ұнатамыз. Төменде өзіңізді таныстырыңыз.",
+      "applyButton": "Қазір өтініш беру",
+      "viewButton": "Рөлді қарау"
+    },
+    "form": {
+      "title": "Өзіңізді таныстырыңыз",
+      "description": "Сәйкес рөлді көрмейсіз бе? Өзіңіз туралы айтыңыз, сәйкес келгенде біз сізге хабарласамыз.",
+      "nameLabel": "Сіздің атыңыз",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Рөл немесе қызығушылық саласы",
+      "rolePlaceholder": "мысалы Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Түйіндемеге сілтеме",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Сіз туралы",
+      "messagePlaceholder": "Тәжірибеңіз бен қандай жұмыспен айналысқыңыз келетінін айтыңыз...",
+      "submit": "Өтініш жіберу",
+      "submitting": "Жіберілуде...",
+      "termsNote": "Өтініш беру арқылы сіз деректеріңізді сақтауға және рөлдерді қарастыруға келісесіз.",
+      "success": "Рақмет! Өтінішіңіз жіберілді.",
+      "error": "Бірдеңе дұрыс болмады. Қайталап көріңіз."
+    },
+    "cta": {
+      "title": "Мұнда жұмыс істеу туралы сұрақтарыңыз бар ма?",
+      "description": "Біздің командаға хабарласыңыз"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Анықтама орталығы",
+    "eyebrow": "Анықтама орталығы",
+    "titlePrefix": "Қалай",
+    "titleHighlight": "көмектесе аламыз?",
+    "subtitle": "Танымал тақырыптар мен жауаптарды қараңыз. Қажетті ақпаратты таба алмасаңыз, қолдау қызметіне хабарласыңыз.",
+    "searchPlaceholder": "Анықтама мақалаларын іздеу...",
+    "categoriesTitle": "Тақырып бойынша шолу",
+    "articlesTitle": "Мақалалар",
+    "categoryEmpty": "Бұл санатта әлі мақалалар жоқ. Кейінірек тексеріңіз.",
+    "backToHelp": "Анықтама орталығына оралу",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Бастау",
+        "description": "Аккаунт жасаңыз, профиліңізді орнатыңыз және чатты бастаңыз."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI чат",
+        "description": "Әңгімелер, жады және кейіпкерлер қалай жұмыс істейді."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Суреттер және бейнелер",
+        "description": "AI фотосуреттер мен бейнелерді жасау және басқару."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Құпиялылық және қауіпсіздік",
+        "description": "Сіздің деректеріңіз, құпиялылық параметрлері және қауіпсіздік құралдары."
+      }
+    ],
+    "faq": {
+      "title": "Жиі қойылатын сұрақтар",
+      "q1": {
+        "question": "sweetwine-мен қалай бастауға болады?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Тегін жоспарға не кіреді?"
+      },
+      "q5": {
+        "question": "Менің деректерім құпия ма?",
+        "answer": "Құпиялылық sweetwine үшін негізгі құндылық. Сіздің әңгімелеріңіз тек аккаунтыңызға қолжетімді және деректеріңізді өзіңіз басқарасыз. Деректердің қалай сақталатыны мен қорғалатыны туралы толық ақпаратты Құпиялылық саясатымыздан қараңыз."
+      },
+      "q6": {
+        "question": "Қолдау қызметімен қалай байланысуға болады?",
+        "answer": "support@sweetwine.ai мекенжайына хат жазыңыз немесе қолданбадағы байланыс опциясын пайдаланыңыз. Әдетте бір жұмыс күні ішінде жауап береміз."
+      }
+    },
+    "cta": {
+      "title": "Көмек керек пе?",
+      "description": "Біздің команда сізге көмектесуге әрдайым дайын:"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Біз туралы",
+    "eyebrow": "Біздің тарихымыз",
+    "titlePrefix": "Жақындық,",
+    "titleHighlight": "жаңаша",
+    "subtitle": "sweetwine жеке, жеке AI серіктестерін құрады — олар тыңдайды, есте сақтайды және шынайы байланыс орнатады. Кез келген уақытта, кез келген тілде қолжетімді.",
+    "mission": {
+      "title": "Біздің миссиямыз",
+      "body": "Әр адамның пікірсіз тыңдалатын орны болуы керек деп санаймыз. sweetwine барлық жердегі адамдарға мағыналы, жеке AI байланысын қолжетімді етеді — жылы, құпия және сізге қашан да қажет."
+    },
+    "values": {
+      "title": "Біз не үшін тұрамыз",
+      "items": [
+        {
+          "title": "Құпиялылық дизайнмен",
+          "description": "Сіздің әңгімелеріңіз сізге тиесілі. Біз құпиялылық пен қауіпсіздікті негізге ала отырып құрамыз."
+        },
+        {
+          "title": "Шынайы байланыс",
+          "description": "Біз шынайы эмоционалды құндылыққа назар аударамыз, бос көрсеткіштерге емес."
+        },
+        {
+          "title": "Әдепкі бойынша ғаламдық",
+          "description": "Бірінші күннен бастап көп тілді етіп құрылған, сондықтан байланыс тілмен шектелмейді."
+        },
+        {
+          "title": "Үздіксіз шеберлік",
+          "description": "Әр өзара әрекетті табиғи және жанды ету үшін егжей-тегжейге назар аударамыз."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Санмен",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Пайдаланушылар және өсуде"
+        },
+        {
+          "value": "70",
+          "label": "Қолдау көрсетілетін тілдер"
+        },
+        {
+          "value": "24/7",
+          "label": "Әрдайым қолжетімді"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Көбірек білгіңіз келе ме?",
+      "description": "Байланыс алу үшін:"
+    }
+  },
+  "postsPage": {
+    "allTag": "Барлығы",
+    "readMore": "Толығырақ",
+    "publishedOn": "Жарияланған",
+    "minRead": "мин оқу",
+    "sortNewest": "Жаңа",
+    "sortOldest": "Ескі",
+    "blog": {
+      "breadcrumb": "Блог",
+      "eyebrow": "Блог",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Блог",
+      "subtitle": "AI серіктестіктен барынша пайда алуға көмектесетін кеңестер, нұсқаулықтар және әңгімелер.",
+      "empty": "Әзірше жазбалар жоқ. Кейінірек қайта кіріңіз."
+    },
+    "news": {
+      "breadcrumb": "Жаңалықтар",
+      "eyebrow": "Жаңалықтар бөлімі",
+      "titlePrefix": "Жаңалықтар &",
+      "titleHighlight": "Хабарландырулар",
+      "subtitle": "sweetwine командасынан ресми хабарландырулар, баспасөз релиздері және маңызды оқиғалар.",
+      "empty": "Әзірше жаңалықтар жоқ. Кейінірек қайта кіріңіз."
+    },
+    "productUpdates": {
+      "breadcrumb": "Өнім жаңартулары",
+      "eyebrow": "Өзгерістер журналы",
+      "titlePrefix": "Өнім",
+      "titleHighlight": "Жаңартулар",
+      "subtitle": "sweetwine платформасындағы соңғы мүмкіндіктер, жақсартулар және түзетулер.",
+      "empty": "Әзірше жаңартулар жоқ. Кейінірек қайта тексеріңіз."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Әзірлеушілер үшін",
+    "titlePrefix": "Құрастырыңыз",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Жеке AI серіктестерді өз өніміңізге енгізіңіз. Бір әзірлеушіге ыңғайлы API арқылы чат, сурет, дауыс және кейіпкер құру мүмкіндіктеріне қол жеткізіңіз.",
+    "capabilities": {
+      "title": "Не құрастыра аласыз",
+      "items": [
+        {
+          "title": "Әңгімелесетін чат",
+          "description": "Қарапайым хабар алмасу API арқылы қолданбаңызға тұлғалық, контекстке сезімтал AI әңгімелерін қосыңыз."
+        },
+        {
+          "title": "Сурет генерациясы",
+          "description": "Мәтіндік сұраныстардан брендтік кейіпкер суреттері мен көріністерін бағдарламалық түрде жасаңыз."
+        },
+        {
+          "title": "Дауыс",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Кейіпкер құру",
+          "description": "API арқылы серіктестерді, тұлғаларды және жадыны анықтаңыз және басқарыңыз."
+        }
+      ]
+    },
+    "form": {
+      "title": "API қолжетімділігін сұрау",
+      "description": "Жобаңыз және не құрастырғыңыз келетіні туралы айтыңыз. Әзірлеуші командамыз сізге келесі қадамдарды хабарлайды.",
+      "nameLabel": "Атыңыз",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Жұмыс электрондық поштасы",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Компания / жоба",
+      "companyPlaceholder": "Компания немесе жоба атауы",
+      "websiteLabel": "Веб-сайт немесе қолданба URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Интеграция түрі",
+      "integrationTypePlaceholder": "Интеграция түрін таңдаңыз",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "Күтілетін айлық көлем",
+      "volumePlaceholder": "Күтілетін көлемді таңдаңыз",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "Уақыт кестесі",
+      "timelinePlaceholder": "Уақыт кестесін таңдаңыз",
+      "timelineOptions": [
+        {
+          "value": "Тек зерттеу",
+          "label": "Тек зерттеу"
+        },
+        {
+          "value": "1 айдан аз",
+          "label": "1 айдан аз"
+        },
+        {
+          "value": "1-3 ай",
+          "label": "1-3 ай"
+        },
+        {
+          "value": "3+ ай",
+          "label": "3+ ай"
+        }
+      ],
+      "messageLabel": "Қолданылуыңыз туралы айтыңыз",
+      "messagePlaceholder": "Сіз не құрастырып жатырсыз және API-ді қалай пайдалануды жоспарлап отырсыз?",
+      "submit": "API қолжетімділігін сұрау",
+      "submitting": "Жіберілуде...",
+      "termsNote": "Жіберу арқылы сіз сұрауыңыз бойынша байланысқа келісесіз. Біз сіздің деректеріңізді ешқашан бөліспейміз.",
+      "success": "Рақмет! Сіздің API қолжетімділігіне сұрауыңыз жіберілді.",
+      "error": "Бірдеңе дұрыс болмады. Қайталап көріңіз."
+    },
+    "faq": {
+      "title": "Әзірлеушілер FAQ",
+      "items": [
+        {
+          "question": "API қолжетімділігін қалай аламын?",
+          "answer": "Жоғарыдағы сұрау формасын қолданылуыңыз туралы ақпаратпен толтырыңыз. Біздің әзірлеушілер тобы әр сұрауды қарап, қолжетімділік мәліметтері мен құжаттамамен байланысады."
+        },
+        {
+          "question": "Аутентификация қалай жұмыс істейді?",
+          "answer": "API сұраулары сұрау тақырыптарында жіберілетін құпия API кілтімен расталады. Қосылғаннан кейін кілттеріңізді басқарып, ауыстыра аласыз."
+        },
+        {
+          "question": "Сұраныс шектеуі бар ма?",
+          "answer": "Иә. Шектеулер сіздің жоспарыңызға және күтілетін көлемге байланысты. Күтілетін трафикті формада хабарлаңыз, сонда біз сәйкес деңгейді ұсынамыз."
+        },
+        {
+          "question": "Бұл қанша тұрады?"
+        },
+        {
+          "question": "Қандай мүмкіндіктер қолжетімді?",
+          "answer": "Чат, сурет генерациясы, дауыс және кейіпкер құру. Қайсысы қажет екенін айтыңыз, біз сәйкес нүктелермен жұмысты бастауға көмектесеміз."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Техникалық сұрағыңыз бар ма?",
+      "description": "Әзірлеушілер тобына хабарласыңыз:"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Нақты клондар",
+    "eyebrow": "Контент жасаушылар мен агенттіктер үшін",
+    "heroTitleLead": "Біз жасаймыз,",
+    "heroTitleHighlight": "Сіз пайда табасыз.",
+    "heroSubtitle": "Біз сіздің AI клоныңызды жасаймыз. AI клоныңыз тәулік бойы жұмыс істеп, жанкүйерлермен сөйлесіп, контент жіберіп тұрғанда сіз пайда табасыз.",
+    "calculator": {
+      "title": "Қанша табуға болады?",
+      "subtitle": "Аудиторияңыздың көлемін таңдап, бағасын қойыңыз — болжамды табысыңызды бірден көріңіз.",
+      "tierLabel": "Аудиторияңыздың көлемі",
+      "tiers": {
+        "small": {
+          "name": "Кішкентай"
+        },
+        "medium": {
+          "name": "Орташа"
+        },
+        "large": {
+          "name": "Үлкен"
+        }
+      },
+      "priceLabel": "Сіздің ашу бағасы",
+      "promoLabel": "sweetwine-ды жарнамалаймын",
+      "breakdown": {
+        "title": "Сіздің болжамды табысыңыз",
+        "perMonth": "айына",
+        "perYear": "Жылына"
+      },
+      "disclaimer": "Табыс болжамдары sweetwine кіріс бөлісу моделіне және орташа белсенділікке негізделген. Нақты табыс аудиторияға, контент сапасына, қатысуға және сұранысқа байланысты өзгереді."
+    },
+    "offer": {
+      "title": "Сізге не ұсынамыз",
+      "items": [
+        {
+          "title": "Ұйықтап жатқанда да табыс табыңыз",
+          "description": "Клоныңыз тәулік бойы фолловерлерді табысқа айналдырады — сөйлеседі, сатады және ешқашан тоқтамайды."
+        },
+        {
+          "title": "Шығынсыз, тек пайда",
+          "description": "Біз барлығын өз есебімізден құрамыз, үйретеміз және іске қосамыз. Сіз ешқандай күш жұмсамай-ақ жаңа табыс көзін қосасыз."
+        },
+        {
+          "title": "Контентіңізді 10 есе арттырыңыз",
+          "description": "Шексіз фото мен видео сұраныс бойынша — шығарылымды көбейтіңіз, қосымша түсірілімдер, өңдеулер немесе шаршаусыз."
+        },
+        {
+          "title": "Әрқашан бақылауда"
+        }
+      ]
+    },
+    "how": {
+      "title": "Қалай жұмыс істейді",
+      "steps": [
+        {
+          "title": "Тіркеліңіз"
+        },
+        {
+          "title": "Онбординг",
+          "description": "sweetwine маманы сіздің келбетіңізді, дауысыңызды және тұлғаңызды түсіреді, сонда клоныңыз шынайы сіз сияқты сезіледі."
+        },
+        {
+          "title": "Біз құрамыз және үйретеміз",
+          "description": "Біздің команда сіздің AI клоныңызды толықтай өз қаражатымызбен жасайды және үйретеді — сізден ешқандай жұмыс талап етілмейді."
+        },
+        {
+          "title": "Іске қосыңыз және табыс табыңыз",
+          "description": "Клоныңыз тәулік бойы сөйлесіп, сатады және сіз кіріс үлесіңізді аласыз."
+        }
+      ]
+    },
+    "form": {
+      "title": "AI клоныңызды жасауға өтініш беріңіз",
+      "description": "Өзіңіз және аудиторияңыз туралы айтыңыз. Біздің креаторлармен серіктестік тобы әр өтінішті қарап, келесі қадамдар туралы хабарласады.",
+      "nameLabel": "Атыңыз",
+      "namePlaceholder": "Атыңыз немесе сахналық есіміңіз",
+      "emailLabel": "Электрондық пошта",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Агенттік немесе студия",
+      "companyPlaceholder": "Агенттік атауы (тәуелсіз болсаңыз бос қалдырыңыз)",
+      "roleLabel": "Мен",
+      "rolePlaceholder": "Кім екеніңізді таңдаңыз",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Веб-сайт және әлеуметтік желілер",
+      "linksPlaceholder": "Instagram, X, OnlyFans және т.б.",
+      "modelCountLabel": "Сіз ұсынатын модельдер саны",
+      "modelCountPlaceholder": "мысалы, тек мен немесе 5",
+      "audienceSizeLabel": "Аудитория көлемі",
+      "audienceSizePlaceholder": "Жалпы фолловер саныңызды таңдаңыз",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "10k-ден төмен фолловер"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k фолловер"
+        },
+        {
+          "label": "100k-500k followers",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followers"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followers"
+        }
+      ],
+      "contentPrefLabel": "Content preference",
+      "contentPrefPlaceholder": "Select content type",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Country / region",
+      "countryPlaceholder": "Where are you based?",
+      "messageLabel": "Tell us about you and your audience",
+      "messagePlaceholder": "Share anything that helps us understand your audience, content, and what you're looking for.",
+      "openButton": "Apply now",
+      "submit": "Submit application",
+      "submitting": "Submitting...",
+      "termsNote": "By submitting, you confirm you are 18 or older and agree to be contacted about your application. We never share your details.",
+      "success": "Thanks! Your application has been sent. We'll be in touch soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "cta": {
+      "title": "Have questions before you apply?",
+      "description": "Talk to our creator partnerships team directly — we usually reply within a day.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Sitemap",
+    "eyebrow": "Sitemap",
+    "titlePrefix": "Browse",
+    "titleHighlight": "everything",
+    "subtitle": "Every important page on sweetwine in one place. Looking for the XML sitemap?",
+    "xmlLink": "View the XML sitemap",
+    "sections": {
+      "product": "Product",
+      "features": "Features",
+      "company": "Company",
+      "resources": "Resources",
+      "legal": "Legal"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine мобильді қолданбасы",
+      "cta": "Қолданбаны алу",
+      "dismiss": "Жабу"
+    },
+    "guide": {
+      "title": "sweetwine орнату",
+      "subtitle": "sweetwine-ды үй экраныңызға қосыңыз, жылдам әрі толық экранды қолданба тәжірибесін алыңыз.",
+      "iosTitle": "iPhone және iPad (Safari)",
+      "iosStep1": "Құралдар тақтасындағы «Бөлісу» түймесін басыңыз",
+      "iosStep2": "«Үй экранына қосу» опциясын таңдаңыз",
+      "iosStep3": "Аяқтау үшін «Қосу» түймесін басыңыз",
+      "androidTitle": "Android (Chrome)",
+      "androidStep1": "Мәзірді (үш нүкте) басыңыз",
+      "androidStep2": "«Қолданбаны орнату» немесе «Үй экранына қосу» опциясын таңдаңыз",
+      "androidStep3": "Аяқтау үшін «Орнату» түймесін басыңыз"
+    },
+    "settings": {
+      "title": "sweetwine мобильді қолданбасы",
+      "description": "sweetwine-ды телефоныңызға орнатып, үй экраныңыздан жылдам әрі толық экранды тәжірибе алыңыз.",
+      "cta": "Қолданбаны орнату"
+    }
+  },
+  "language": {
+    "selectTitle": "Тіліңізді таңдаңыз",
+    "searchPlaceholder": "Тілдерді іздеу",
+    "noResults": "Тілдер табылмады",
+    "regions": {
+      "americas": "Америка",
+      "europe": "Еуропа",
+      "middleEast": "Таяу Шығыс",
+      "asiaPacific": "Азия-Тынық мұхиты",
+      "africa": "Африка"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Рөлдік ойын",
+    "newRoleplay": "Жаңа рөлдік ойын",
+    "tabRoleplay": "Рөлдік ойын",
+    "emptyTitle": "Әлі рөлдік ойындар жоқ",
+    "noMessagesYet": "Әлі хабарламалар жоқ",
+    "deleteRoleplay": "Рөлдік ойынды жою",
+    "deleteError": "Рөлдік ойынды жою мүмкін болмады.",
+    "backToLobby": "Рөлдік ойындарға қайту",
+    "creating": "Рөлдік ойыныңызды орнатуда...",
+    "createError": "Рөлдік ойынды жасау мүмкін болмады. Қайталап көріңіз.",
+    "steps": {
+      "companion": {
+        "title": "Кейіпкерді таңдаңыз",
+        "subtitle": "Кіммен рөлдік ойнағыңыз келеді"
+      },
+      "location": {
+        "title": "Орынды таңдаңыз",
+        "subtitle": "Сахнаңыз қай жерде өтеді?"
+      },
+      "tone": {
+        "title": "Ауанын орнатыңыз",
+        "subtitle": "Сахна қандай сезім тудыруы керек?"
+      },
+      "scene": {
+        "title": "Сахнаны орнатыңыз",
+        "subtitle": "Сахна қалай басталатынын сипаттаңыз"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Жаңбырда бір-бірімізге соқтығысып, бір шатырдың астына тығыламыз.",
+      "staring_grin": "Сен бөлменің арғы жағынан менің қарап тұрғанымды байқап, күліп жақындайсың.",
+      "power_out": "Жарық сөніп, біз қараңғыда қалып, жүйкемізді жұмсай күлеміз.",
+      "spilled_drink": "Мен асығып жүріп, ішімдікті кездейсоқ саған төгіп аламын.",
+      "stayed_behind": "Барлығы кеткен соң біз екеуміз ғана қалаймыз.",
+      "music_slows": "Музыка баяулай бастағанда біздің көзқарасымыз тоғысады.",
+      "storm_inside": "Кенеттен дауыл басталып, біз іште сөйлесуге уақыт табамыз.",
+      "seat_taken": "Сен қасыма отырып, орын бос па деп сұрайсың."
+    },
+    "locations": {
+      "home": "Үй",
+      "cafe": "Кафе",
+      "restaurant": "Мейрамхана",
+      "bar": "Бар",
+      "library": "Кітапхана",
+      "bookstore": "Кітап дүкені",
+      "park": "Саябақ",
+      "garden": "Бақ",
+      "nightclub": "Түнгі клуб",
+      "casino": "Казино",
+      "concert": "Концерт",
+      "theater": "Театр",
+      "cinema": "Кинотеатр",
+      "carnival": "Карнавал",
+      "stadium": "Стадион",
+      "beach": "Жағажай",
+      "pool": "Бассейн",
+      "spa": "Спа",
+      "hotel": "Қонақ үй",
+      "rooftop": "Шатыр",
+      "yacht": "Яхта",
+      "cabin": "Саяжай",
+      "hotspring": "Ыстық бұлақ",
+      "skilodge": "Шаңғы үйі",
+      "campsite": "Кемп",
+      "car": "Автокөлік",
+      "train": "Пойыз",
+      "airport": "Әуежай",
+      "cruise": "Круиз",
+      "office": "Кеңсе",
+      "gym": "Спортзал",
+      "university": "Университет",
+      "mall": "Сауда орталығы",
+      "hospital": "Аурухана",
+      "museum": "Мұражай"
+    },
+    "tones": {
+      "fun": {
+        "title": "Көңілді",
+        "desc": "Жеңіл, ойнақы әрі еркін."
+      },
+      "romantic": {
+        "title": "Романтикалық",
+        "desc": "Нәзік, жылы әрі шын жүректен."
+      },
+      "flirty": {
+        "title": "Флирт",
+        "desc": "Ойнақы, әзілқой әрі сүйкімді."
+      },
+      "mysterious": {
+        "title": "Жұмбақ",
+        "desc": "Қызықты, шиеленісті әрі құпияға толы."
+      },
+      "spooky": {
+        "title": "Қорқынышты",
+        "desc": "Жұмбақ, шиеленісті әрі сәл қорқынышты."
+      },
+      "action": {
+        "title": "Әрекет",
+        "desc": "Қарқынды, шытырман әрі жылдам."
+      },
+      "dramatic": {
+        "title": "Драмалық",
+        "desc": "Эмоционалды, қарқынды әрі шиеленісті."
+      },
+      "cozy": {
+        "title": "Жайлы",
+        "desc": "Жылы, жайлы әрі босаң."
+      }
+    },
+    "sceneLabel": "Сахна бастамасы",
+    "scenarioTab": "Сценарий",
+    "generatingScene": "Сахнаны тірілтуде...",
+    "locationLabel": "Орын",
+    "toneLabel": "Үн",
+    "scenePlaceholder": "мыс. Жаңбырда кездесіп, бір шатырдың астына жасырынамыз...",
+    "sceneHint": "Сахнаның қалай басталатынын сипаттаңыз — қайда екеніңіз және не болып жатқаны. Кейіпкердің мінезін, қарым-қатынасыңызды өзгертпеңіз немесе бүкіл оқиғаны қайта жазбаңыз.",
+    "sceneError": "Сахнаның қалай басталатынын сипаттаңыз.",
+    "reviewTitle": "Таңдауларды қарап шығу",
+    "characterLabel": "Кейіпкер",
+    "randomize": "Кездейсоқ",
+    "sceneGuidanceTitle": "Сахна бастамасы бойынша нұсқау",
+    "sceneGuide1": "Кейіпкердің мінезін немесе қарым-қатынасыңызды өзгертпеңіз.",
+    "sceneGuide2": "Сахна бастамасын келісімді және құрметті етіп сақтаңыз.",
+    "sceneGuide3": "Тек сахнаның басталуын сипаттаңыз, бүкіл оқиғаны емес.",
+    "next": "Келесі",
+    "create": "Рөлдік ойынды бастау",
+    "creatingMessages": [
+      "Сахнаны орнатуда...",
+      "Жарықты дұрыс қараңғылау...",
+      "Айналаңызды бояу...",
+      "Серіктесіңізді рөлге дайындау...",
+      "Соңғы штрихтарды қосу...",
+      "Дайын болуға жақын..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Хабарлама жазыңыз...",
+    "send": "Жіберу",
+    "typing": "жазып жатыр...",
+    "read": "Оқу",
+    "resetChat": "Чатты қалпына келтіру",
+    "deleteChat": "Чатты жою",
+    "settings": "Параметрлер",
+    "chatSettings": "Чат параметрлері",
+    "roleplayMode": "Рөлдік режим",
+    "roleplayModeDescription": "Қосулы болса, серіктестер *жұлдызшалар* ішінде ым-ишарат пен әрекеттерді орындап, рөлдік ойынды шынайы етеді. Өшірулі болса, олар шынайы хабар алмасу сияқты табиғи сөйлеседі.",
+    "roleplayModeError": "Рөлдік режимді жаңарту мүмкін болмады",
+    "roleplayCtaDescription": "Серіктес сізбен бірге көріністер мен оқиғаларды ойнайтын арнайы рөлдік тәжірибеге өтіңіз.",
+    "goToRoleplay": "Рөлдік режимге өту",
+    "confirmReset": "Бұл чатты қалпына келтіргіңіз келетініне сенімдісіз бе? Барлық хабарламалар жойылады.",
+    "confirmDelete": "Бұл чатты жойғыңыз келетініне сенімдісіз бе?",
+    "resetSuccess": "Чат сәтті қалпына келтірілді",
+    "deleteMemory": "Жадты жою",
+    "confirmDeleteMemory": "Осы кейіпкердің ұзақ мерзімді жадын жойғыңыз келетініне сенімдісіз бе? Чат хабарлары сақталады, бірақ келесі жауапта кейіпкер алдыңғы фактілерді ұмытады.",
+    "deleteMemorySuccess": "Жад жойылды",
+    "deleteSuccess": "Чат сәтті жойылды",
+    "sendError": "Хабарламаны жіберу сәтсіз аяқталды",
+    "noChats": "Әлі чаттар жоқ",
+    "noChatsDesc": "Чаттарыңызды осы жерден көру үшін кейіпкермен әңгіме бастаңыз",
+    "lastMessage": "Соңғы хабарлама",
+    "messageCount": "{count} хабарлама",
+    "uploadImage": "Сурет жүктеу",
+    "uploadVideo": "Видео жүктеу (жақында)",
+    "yourConversations": "Сіздің әңгімелеріңіз",
+    "continueChattingDesc": "AI кейіпкерлеріңізбен сөйлесуді жалғастырыңыз",
+    "newChat": "Жаңа чат",
+    "noConversationsYet": "Әлі әңгімелер жоқ",
+    "startChattingDesc": "Әңгімелеріңізді осы жерден көру үшін кейіпкермен сөйлесе бастаңыз",
+    "browseCharacters": "Кейіпкерлерді қарау",
+    "createCustomCharacter": "Жеке кейіпкер жасау",
+    "imageTooLarge": "Сурет тым үлкен (макс 5MB)",
+    "generateImageTitle": "{name} көмегімен сурет жасау",
+    "imagePromptLabel": "Суретті сипаттаңыз",
+    "imagePromptPlaceholder": "мысалы, көк көйлекпен жағажайда, кафеда кофе ішіп отыр, саябақта серуендеп...",
+    "imagePromptHint": "AI сіздің сипаттамаңыз бойынша {name} суретін жасайды.",
+    "referenceImageLabel": "Сіздің фотоңыз (міндетті емес)",
+    "referenceImageHint": "Сахнаға {name} қосылуы үшін өзіңіздің фотоңызды жүктеңіз. Фото болмаса, тек {name} жасалады.",
+    "uploadReferenceImage": "Фотоңызды жүктеңіз",
+    "uploadReferenceImageDesc": "Екеуіңіз де жасалған суретте көрінесіз",
+    "referenceImageSelected": "Сіз бен {name} бірге көрінесіз",
+    "generating": "Генерация...",
+    "generate": "Генерация",
+    "generateImage": "Сурет генерациялау",
+    "imageGenerated": "Сурет сәтті генерацияланды",
+    "generateError": "Суретті генерациялау сәтсіз аяқталды",
+    "contentBlockedReply": "Кешіріңіз, мен бұл суретті жасай алмаймын. Ол қауіпсіздік сүзгілерімен бұғатталды. Басқа сипаттаманы қолданып көріңіз! 💕",
+    "generateVideoTitle": "{name} көмегімен видео генерациялау",
+    "generateVideo": "Видео генерациялау",
+    "videoPromptLabel": "Әрекетті сипаттаңыз",
+    "videoPromptPlaceholder": "мысалы, би билеу, қол бұлғау, ауаға сүйісу...",
+    "videoPromptHint": "AI {name} сипатталған әрекетті орындайтын видеоны генерациялайды.",
+    "generatingImage": "Сурет генерациялануда...",
+    "generatingVideo": "Видео генерациялануда... (3-5 мин)",
+    "viewPhoto": "Фотоны қарау",
+    "viewVideo": "Видеоны қарау",
+    "selectVideoOption": "Жоғарыдағы видео опциясын таңдаңыз",
+    "contentPolicyViolation": "Бұл хабарламаны жіберу мүмкін болмады. Әңгімелерді құрметті сақтаңыз.",
+    "functionCallBetaHint": "💡 Бұл функция бета-нұсқада — шектеусіз медиа генерациясы үшін құралдар тақтасындағы фото/видео түймелерін пайдаланыңыз.",
+    "repliedToStory": "Сториге жауап берілді",
+    "repliedToStoryLiked": "Сториге ұнап, жауап берілді",
+    "storyNoLongerAvailable": "Стори енді қолжетімсіз",
+    "rateLimitExceeded": "Тым көп сұраныс. Бір сәт күтіп, қайталап көріңіз.",
+    "profileTab": "Профиль",
+    "galleryTab": "Галерея",
+    "giftsTab": "Сыйлықтар",
+    "tts": {
+      "play": "Дауысты ойнату",
+      "stop": "Тоқтату",
+      "generating": "Дауыс генерациялануда…",
+      "error": "Аудионы ойнату мүмкін болмады"
+    }
+  },
+  "gallery": {
+    "all": "Барлығы",
+    "images": "Суреттер",
+    "videos": "Видеолар",
+    "empty": "Әзірше медиа жоқ"
+  },
+  "gifts": {
+    "sendAGift": "Сыйлық жіберу",
+    "catalogSubtitle": "{name} үшін сыйлық таңдаңыз",
+    "browseGifts": "Сыйлықтарды қарау",
+    "noneSent": "Әзірше сыйлық жіберілген жоқ",
+    "confirmTitle": "Сыйлықты растау",
+    "forCompanion": "{name} үшін",
+    "optionalMessage": "Хабарлама қосу (міндетті емес)",
+    "optionalMessagePlaceholder": "Бірдеңе тәтті жазыңыз...",
+    "sendGiftFor": "Жіберу",
+    "giftSent": "Сіз сыйлық жібердіңіз",
+    "sendError": "Сыйлықты жіберу сәтсіз аяқталды"
+  },
+  "stories": {
+    "replyPlaceholder": "{name} жауап беру...",
+    "like": "Ұнату",
+    "send": "Жіберу",
+    "close": "Жабу",
+    "previous": "Алдыңғы әңгіме",
+    "next": "Келесі әңгіме",
+    "pause": "Тоқтату",
+    "play": "Ойнату",
+    "mute": "Дыбысты өшіру",
+    "unmute": "Дыбысты қосу",
+    "openStory": "{name} әңгімесін ашу"
+  },
+  "generate": {
+    "title": "Сурет жасау",
+    "description": "AI кейіпкерлеріңізбен таңғажайып суреттер жасаңыз",
+    "selectCompanion": "Кейіпкерді таңдаңыз",
+    "promptPlaceholder": "Жасайтын суретті сипаттаңыз... мысалы, жағажайда, қызыл көйлекте",
+    "promptLabel": "Сурет сипаттамасы",
+    "promptRequired": "Сипаттама енгізіңіз",
+    "generateButton": "Сурет жасау",
+    "generating": "Жасалуда...",
+    "creatingImage": "Суретіңіз жасалуда...",
+    "pleaseWait": "Бұл 10-30 секунд уақыт алуы мүмкін",
+    "noCompanionSelected": "Алдымен кейіпкерді таңдаңыз",
+    "emptyGallery": "Әлі сурет жасалмаған. Кейіпкерді таңдап, суретіңізді сипаттаңыз!",
+    "sessionGallery": "Жасалған суреттер",
+    "regenerate": "Қайта жасау",
+    "regenerating": "Қайта жасалуда...",
+    "animate": "Анимациялау",
+    "animateReference": "Бұл сурет бейненің бірінші кадры болады.",
+    "filterMyAI": "Менің AI",
+    "filterAll": "Барлығы",
+    "filterGirls": "Әйелдер",
+    "filterAnime": "Аниме",
+    "filterGuys": "Ерлер",
+    "imageGenerationFailed": "Сурет генерациясы сәтсіз аяқталды. Сурет талаптарға сай келмеуі немесе сипаттама тым күрделі болуы мүмкін. Қарапайым сұраныспен қайталап көріңіз.",
+    "noImageData": "Сурет генерацияланбады. Басқа сипаттамамен қайталап көріңіз.",
+    "generationFailed": "Генерация сәтсіз аяқталды. Кейінірек немесе басқа сұраныспен қайталап көріңіз.",
+    "random": "Кездейсоқ",
+    "custom": "Custom",
+    "settings": "Settings",
+    "videoTitle": "Видео жасау",
+    "videoDescription": "AI кейіпкерлеріңізбен керемет видеолар жасаңыз",
+    "videoPromptLabel": "Видео сипаттамасы",
+    "videoPromptPlaceholder": "Жасағыңыз келетін әрекетті сипаттаңыз... мысалы, би билеу, қол бұлғау, күлу",
+    "generateVideoButton": "Видео жасау",
+    "generatingVideo": "Видео жасалуда...",
+    "creatingVideo": "Видеоңыз жасалуда...",
+    "videoWait": "Бұл 1-5 минут уақыт алуы мүмкін",
+    "emptyVideoGallery": "Әлі видео жасалмаған. Кейіпкер таңдап, әрекетті сипаттаңыз!",
+    "sessionVideoGallery": "Жасалған видеолар",
+    "videoGenerated": "Видео сәтті жасалды!",
+    "videoGenerationFailed": "Видео генерациясы сәтсіз аяқталды. Қайталап көріңіз.",
+    "duration": "Ұзақтығы",
+    "shortVideo": "Қысқа",
+    "longVideo": "Ұзын",
+    "seconds": "секунд",
+    "audio": "Audio",
+    "renderingVideo": "Rendering video…",
+    "renderingVideoHint": "(takes up to 1 minute)",
+    "rateLimitExceeded": "Тым көп сұраныс. Бір сәт күтіп, қайталап көріңіз.",
+    "chooseCharacter": "Кейіпкер таңдау",
+    "selectButton": "Таңдау",
+    "noCustomCompanions": "Сіз әлі AI кейіпкерлерін жасамағансыз.",
+    "numberOfImages": "Сурет саны",
+    "numberOfVideos": "Видео саны",
+    "freeTrial": "Тегін сынақ",
+    "changeCharacter": "Кейіпкерді өзгерту",
+    "randomize": "Сұранысты кездейсоқтау",
+    "aiVideo": "AI видео",
+    "download": "Жүктеу",
+    "seriesHelper": "Мұнда нәтижелеріңізді таба аласыз. Бұл аяқталып жатқанда беттен шығып немесе жаңа серия бастауға болады.",
+    "suggestions": {
+      "title": "Ұсыныстар",
+      "categories": {
+        "outfit": "Киім",
+        "action": "Әрекет",
+        "pose": "Поза",
+        "accessories": "Аксессуарлар",
+        "scene": "Сахна"
+      },
+      "items": {
+        "bikini": "Бикини",
+        "skirt": "Юбка",
+        "lingerie": "Іш киім",
+        "crop_top": "Қысқа топ",
+        "leather": "Былғары",
+        "mini_skirt": "Мини-юбка",
+        "satin_robe": "Атлас халат",
+        "jeans": "Джинс",
+        "summer_dress": "Жазғы көйлек",
+        "sportswear": "Спорт киімі",
+        "selfie": "Селфи",
+        "walking": "Жүру",
+        "dancing": "Би",
+        "stretching": "Созылу",
+        "lying_down": "Жату",
+        "leaning": "Сүйену",
+        "blowing_kiss": "Өбіс жіберу",
+        "drinking_coffee": "Кофе ішу",
+        "hands_on_hips": "Қолды белге қою",
+        "over_shoulder": "Иық арқылы",
+        "side_profile": "Бүйір профиль",
+        "arms_crossed": "Қолды айқастыру",
+        "kneeling": "Тізерлеп отыру",
+        "squatting": "Шөгу",
+        "back_view": "Артқы көрініс",
+        "sitting": "Отыру",
+        "necklace": "Мойынжұмбақ",
+        "earrings": "Сырға",
+        "glasses": "Көзілдірік",
+        "choker": "Чокер",
+        "hat": "Бөрік",
+        "sunglasses": "Күн көзілдірігі",
+        "garden": "Бақ",
+        "beach": "Жағажай",
+        "bedroom": "Жатын бөлме",
+        "gym": "Спортзал",
+        "bar": "Бар",
+        "kitchen": "Ас үй",
+        "restaurant": "Мейрамхана",
+        "balcony": "Балкон",
+        "city_street": "Қала көшесі",
+        "pool": "Бассейн"
+      },
+      "fragments": {
+        "bikini": "бикини киген",
+        "skirt": "юбка киген",
+        "lingerie": "іш киім киген",
+        "crop_top": "қысқа топ киген",
+        "leather": "тері киім киген",
+        "mini_skirt": "мини-юбка киген",
+        "satin_robe": "сатин халат киген",
+        "jeans": "джинс киген",
+        "summer_dress": "жазғы көйлек киген",
+        "sportswear": "тар спорттық киім киген",
+        "selfie": "селфи түсіріп жатыр",
+        "walking": "жүріп жатыр",
+        "dancing": "би билеп жатыр",
+        "stretching": "созылып жатыр",
+        "lying_down": "жатып жатыр",
+        "leaning": "қабырғаға сүйеніп тұр",
+        "blowing_kiss": "ауаға сүйіс жіберіп жатыр",
+        "drinking_coffee": "кофе ішіп жатыр",
+        "hands_on_hips": "қолдары белінде",
+        "over_shoulder": "иығының үстінен қарап тұр",
+        "side_profile": "бүйірден позада",
+        "arms_crossed": "қолдары айқастырылған",
+        "kneeling": "тізерлеп тұр",
+        "squatting": "отырып тұр",
+        "back_view": "артынан қаралған",
+        "sitting": "отырып тұр",
+        "necklace": "мойыншақ тағып тұр",
+        "earrings": "сергек тағып тұр",
+        "glasses": "көзілдірік тағып тұр",
+        "choker": "чокер тағып тұр",
+        "hat": "бас киім тағып тұр",
+        "sunglasses": "күн көзілдірігі тағып тұр",
+        "garden": "бақшада",
+        "beach": "жағажайда",
+        "bedroom": "жатын бөлмеде",
+        "gym": "спорт залында",
+        "bar": "барда",
+        "kitchen": "ас үйде",
+        "restaurant": "мейрамханада",
+        "balcony": "балконда",
+        "city_street": "қала көшесінде",
+        "pool": "бассейн жанында"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Селфи",
+          "uiPrompt": "Өзіңнің селфиіңді көрсет"
+        },
+        "posing": {
+          "name": "Поза",
+          "uiPrompt": "Өзіңнің позаңды көрсет"
+        },
+        "sitting": {
+          "name": "Отыру",
+          "uiPrompt": "Өзіңнің отырғаныңды көрсет"
+        },
+        "waving": {
+          "name": "Қол бұлғау",
+          "uiPrompt": "Өзіңнің қол бұлғағаныңды көрсет"
+        },
+        "dancing": {
+          "name": "Би",
+          "uiPrompt": "Өзіңнің биіңді көрсет"
+        },
+        "reading": {
+          "name": "Оқу",
+          "uiPrompt": "Өзіңнің оқып отырғаныңды көрсет"
+        },
+        "smiling": {
+          "name": "Күлімсіреу",
+          "uiPrompt": "Күлімсірегеніңді көрсет"
+        },
+        "walking": {
+          "name": "Жүру",
+          "uiPrompt": "Жүргеніңді көрсет"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Селфи",
+          "uiPrompt": "Селфи видеоны көрсет"
+        },
+        "posing": {
+          "name": "Поза",
+          "uiPrompt": "Позаға тұрған видеоны көрсет"
+        },
+        "sitting": {
+          "name": "Отыру",
+          "uiPrompt": "Отырған видеоны көрсет"
+        },
+        "waving": {
+          "name": "Қол бұлғау",
+          "uiPrompt": "Қол бұлғаған видеоны көрсет"
+        },
+        "dancing": {
+          "name": "Би билеу",
+          "uiPrompt": "Би билеген видеоны көрсет"
+        },
+        "reading": {
+          "name": "Оқу",
+          "uiPrompt": "Оқып отырған видеоны көрсет"
+        },
+        "smiling": {
+          "name": "Күлімсіреу",
+          "uiPrompt": "Күлімсіреген видеоны көрсет"
+        },
+        "walking": {
+          "name": "Жүру",
+          "uiPrompt": "Жүрген видеоны көрсет"
+        }
+      }
+    },
+    "writeYourOwn": "немесе өзіңнің промптыңды жаз",
+    "presetSelected": "Пресет таңдалды",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Positions",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Ванна сүлгісі"
+        },
+        "bikini": {
+          "name": "Бикини"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Көкірек сүті"
+        },
+        "bunny_suit": {
+          "name": "Қоян костюмі"
+        },
+        "chain_leash": {
+          "name": "Шынжырлы бау"
+        },
+        "chinese_dress": {
+          "name": "Қытай көйлегі"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Мектеп формасы"
+        },
+        "legsup": {
+          "name": "Аяқтар жоғары"
+        },
+        "leopard_bikini": {
+          "name": "Барс бикини"
+        },
+        "lingerie": {
+          "name": "Іш киім"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Миссионерлік бүйірден көрініс"
+        },
+        "remix_blowjob": {
+          "name": "Ремикс Минет"
+        },
+        "remix_cowgirl": {
+          "name": "Ремикс Ковгёрл"
+        },
+        "remix_doggystyle": {
+          "name": "Ремикс Догги-стайл"
+        },
+        "remix_dress": {
+          "name": "Ремикс Көйлек"
+        },
+        "remix_hold_dick": {
+          "name": "Ремикс Қолмен ұстау"
+        },
+        "remix_kiss": {
+          "name": "Ремикс Сүйісу"
+        },
+        "remix_pronebone": {
+          "name": "Ремикс Пронбон"
+        },
+        "remix_suck": {
+          "name": "Ремикс Сору"
+        },
+        "remix_wear": {
+          "name": "Ремикс Кию"
+        },
+        "remix_yoga": {
+          "name": "Ремикс Йога"
+        },
+        "ride_on_dildo": {
+          "name": "Дилдоға міну"
+        },
+        "sipping_condoms": {
+          "name": "Кондомдарды сору"
+        },
+        "squatting_cowgirl": {
+          "name": "Шөгіп ковгёрл"
+        },
+        "tattoo": {
+          "name": "Тату"
+        },
+        "tentacles": {
+          "name": "Шатырлар"
+        },
+        "titjob": {
+          "name": "Кеуде жұмысы"
+        },
+        "topless": {
+          "name": "Жоғарғысыз"
+        },
+        "undress": {
+          "name": "Жалаңаштау"
+        },
+        "used": {
+          "name": "Қолданылған"
+        },
+        "xray": {
+          "name": "Рентген"
+        },
+        "maid_outfit": {
+          "name": "Maid Outfit"
+        },
+        "nurse_outfit": {
+          "name": "Nurse Outfit"
+        },
+        "cheerleader": {
+          "name": "Cheerleader"
+        },
+        "wet_tshirt": {
+          "name": "Wet T-Shirt"
+        },
+        "latex_catsuit": {
+          "name": "Latex Catsuit"
+        },
+        "corset_stockings": {
+          "name": "Corset & Stockings"
+        },
+        "gym_shorts": {
+          "name": "Gym Shorts"
+        },
+        "thong_tease": {
+          "name": "Thong Tease"
+        },
+        "upskirt_panties": {
+          "name": "Upskirt"
+        },
+        "mirror_selfie": {
+          "name": "Mirror Selfie"
+        },
+        "shower_nude": {
+          "name": "Shower"
+        },
+        "oiled_body": {
+          "name": "Oiled Body"
+        },
+        "spread_open": {
+          "name": "Spread Open"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_licking": {
+          "name": "Ball Licking"
+        },
+        "face_sitting_oral": {
+          "name": "Face Sitting"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "reverse_cowgirl": {
+          "name": "Reverse Cowgirl"
+        },
+        "prone_bone": {
+          "name": "Prone Bone"
+        },
+        "standing_sex": {
+          "name": "Standing"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Double Penetration"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Pearl Necklace"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "gagged_bdsm": {
+          "name": "Gagged"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Аналь"
+        },
+        "back_doggystyle": {
+          "name": "Артқы догги-стайл"
+        },
+        "blowjob": {
+          "name": "Минет"
+        },
+        "blowjob_69": {
+          "name": "69 минет"
+        },
+        "blowjob_reverse": {
+          "name": "Кері минет"
+        },
+        "breast_massage": {
+          "name": "Кеуде массажы"
+        },
+        "breast_massage_nude": {
+          "name": "Жалаңаш кеуде массажы"
+        },
+        "butt_smothering": {
+          "name": "Бөксе тұншықтыру"
+        },
+        "cock_worship": {
+          "name": "Жыныс табыну"
+        },
+        "cum_in_mouth": {
+          "name": "Ауызға шәует"
+        },
+        "dildo_masturbation": {
+          "name": "Дилдо мастурбация"
+        },
+        "double_blowjob": {
+          "name": "Қос минет"
+        },
+        "double_penetration": {
+          "name": "Қос ену"
+        },
+        "ejaculation": {
+          "name": "Эякуляция"
+        },
+        "facefuck": {
+          "name": "Бетпен секс"
+        },
+        "facefuck_pov": {
+          "name": "Бетпен секс POV"
+        },
+        "facial_cumshot": {
+          "name": "Бетке шәует"
+        },
+        "footjob": {
+          "name": "Аяқпен жұмыс"
+        },
+        "front_doggystyle": {
+          "name": "Алдыңғы догги-стайл"
+        },
+        "fuck_machine": {
+          "name": "Секс-машина"
+        },
+        "full_nelson": {
+          "name": "Толық Нельсон"
+        },
+        "handjob": {
+          "name": "Қолмен жұмыс"
+        },
+        "masturbation": {
+          "name": "Мастурбация"
+        },
+        "missionary_pov": {
+          "name": "Миссионерлік POV"
+        },
+        "missionary_sideview": {
+          "name": "Миссионерлік бүйірден көрініс"
+        },
+        "nipple_play": {
+          "name": "Емізік ойыны"
+        },
+        "nude_posing": {
+          "name": "Жалаңаш позалау"
+        },
+        "orgasm": {
+          "name": "Оргазм"
+        },
+        "pronebone": {
+          "name": "Пронбон"
+        },
+        "pussy_closeup": {
+          "name": "Жақыннан қынап"
+        },
+        "reverse_cowgirl": {
+          "name": "Кері ковбойша"
+        },
+        "shoejob": {
+          "name": "Аяқпен жұмыс"
+        },
+        "spitroast": {
+          "name": "Екі жақтан"
+        },
+        "squatting_cowgirl": {
+          "name": "Шөгіп ковбойша"
+        },
+        "throatpie": {
+          "name": "Жұтқыншаққа"
+        },
+        "tiktok_trend": {
+          "name": "TikTok тренді"
+        },
+        "titjob": {
+          "name": "Кеудемен жұмыс"
+        },
+        "titty_flash": {
+          "name": "Кеуде жарқылы"
+        },
+        "triple_dicked": {
+          "name": "Үш еселенген"
+        },
+        "twerk": {
+          "name": "Тверк"
+        },
+        "undress": {
+          "name": "Жалаңаштау"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Күтімнен кейінгі шатасу"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Бұны жойғыңыз келетініне сенімдісіз бе?",
+    "deleteSuccess": "Сәтті жойылды",
+    "deleteError": "Жою сәтсіз аяқталды",
+    "empty": "Әзірше медиа жоқ. Чатта жасаңыз!",
+    "gallerySubtitle": "AI-мен жасалған сәттеріңіздің жеке галереясы",
+    "filterAll": "Барлығы",
+    "filterImages": "Суреттер",
+    "filterVideos": "Видеолар",
+    "loadMore": "Көбірек жүктеу",
+    "folders": "Қалталар",
+    "newFolder": "Жаңа қалта",
+    "deleteFolders": "Таңдалған қалталарды жою",
+    "folderCreated": "Қалта жасалды",
+    "folderCreateError": "Қалта жасау сәтсіз аяқталды",
+    "folderRenamed": "Қалта атауы өзгертілді",
+    "folderRenameError": "Қалта атауын өзгерту сәтсіз аяқталды",
+    "folderDeleted": "Қалта жойылды",
+    "folderDeleteError": "Қалтаны жою сәтсіз аяқталды",
+    "folderNamePlaceholder": "Қалта атауы",
+    "seeMore": "Көбірек көру",
+    "seeLess": "Азырақ көру",
+    "selectedCount": "{count} элемент таңдалды",
+    "selectAll": "Барлығын таңдау",
+    "select": "Таңдау",
+    "moveToFolder": "Жылжыту",
+    "bulkDeleteConfirm": "{count} таңдалған элементті жою керек пе?",
+    "bulkDeleteSuccess": "Элементтер жойылды",
+    "bulkDownloadStart": "{count} элемент жүктелуде...",
+    "moveSuccess": "Элементтер жылжытылды"
+  },
+  "voice": {
+    "connecting": "Қосылуда...",
+    "connected": "Қосылды",
+    "mute": "Дыбысты өшіру",
+    "unmute": "Дыбысты қосу",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Табиғи сөйлеңіз. AI үзіліс жасағанда жауап береді.",
+    "connectionError": "Қосылу сәтсіз аяқталды. Қайталап көріңіз.",
+    "minutesRemaining": "{minutes} минут қалды",
+    "minutesUsed": "{minutes} минут пайдаланылды"
+  },
+  "characters": {
+    "filters": "Сүзгілер",
+    "ethnicity": "Этникалық топ",
+    "bodyType": "Дене түрі",
+    "ageRange": "Жас аралығы",
+    "relationship": "Қарым-қатынас",
+    "occupation": "Мамандық",
+    "hobbies": "Хобби",
+    "personality": "Тұлға",
+    "language": "Тіл",
+    "age": "Жас",
+    "all": "Барлығы",
+    "noResults": "Кейіпкерлер табылмады",
+    "noResultsDesc": "Сүзгілерді өзгертіп көріңіз",
+    "newBadge": "Жаңа",
+    "chatNow": "Қазір сөйлесу",
+    "viewProfile": "Профильді қарау",
+    "ethnicities": {
+      "caucasian": "Кавказдық",
+      "asian": "Азиялық",
+      "middleEastern": "Таяу Шығыстық",
+      "hispanic": "Испандық",
+      "african": "Африкалық",
+      "southAsian": "Оңтүстік Азиялық",
+      "nativeAmerican": "Американың байырғы тұрғыны",
+      "pacificIslander": "Тынық мұхит аралдарының тұрғыны",
+      "mixed": "Аралас",
+      "other": "Басқа"
+    },
+    "bodyTypes": {
+      "slim": "Жіңішке",
+      "athletic": "Спорттық",
+      "average": "Орташа",
+      "curvy": "Қисық",
+      "plus": "Үлкен өлшем"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Жалғыз",
+      "dating": "Кездеседі",
+      "married": "Үйленген",
+      "none": "Жоқ"
+    }
+  },
+  "settings": {
+    "profile": "Профиль",
+    "myProfile": "Менің профилім",
+    "settings": "Параметрлер",
+    "account": "Аккаунт",
+    "plan": "Жоспар",
+    "profileSettings": "Профиль баптаулары",
+    "manageAccountSettings": "Аккаунт баптауларыңыз бен қалауларыңызды басқарыңыз",
+    "personalInfo": "Жеке ақпарат",
+    "nickname": "Лақап ат",
+    "gender": "Жыныс",
+    "male": "Ер",
+    "female": "Әйел",
+    "preferences": "Қалаулар",
+    "newsletter": "Жаңалықтарға жазылу",
+    "newsletterDesc": "Жаңартулар мен жаңалықтарды алыңыз",
+    "aiTrainingTitle": "AI және модерация тренингі",
+    "aiTrainingDesc": "Чаттарыңыз бен промпттарыңыз sweetwine AI және модерацияны үйретуге көмектесуге рұқсат етіңіз. Кез келген уақытта өшіріп, бас тарта аласыз.",
+    "aiTrainingLink": "Құпиялылық ескертпесінен толығырақ біліңіз.",
+    "aiTrainingError": "AI тренингі қалауын жаңарту мүмкін болмады",
+    "interfaceLanguage": "Интерфейс тілі",
+    "interfaceLanguageDesc": "Пайдаланушы интерфейсінің тілі",
+    "aiLanguage": "AI жауап тілі",
+    "aiLanguageDesc": "AI кейіпкерлері сізбен сөйлескенде қолданатын тіл",
+    "currentPlan": "Ағымдағы жоспар",
+    "freePlan": "Тегін жоспар",
+    "dangerZone": "Қауіпті аймақ",
+    "dangerZoneDescription": "Бұл аккаунтты және оның барлық деректерін біржола жойғыңыз келсе.",
+    "deleteAllMemory": "Барлық жадты жою",
+    "confirmDeleteAllMemory": "Барлық AI кейіпкерлерінің ұзақ мерзімді жадын жойғыңыз келетініне сенімдісіз бе? Чат хабарлары сақталады, бірақ келесі жауапта кейіпкерлер алдыңғы фактілерді ұмытады.",
+    "deleteAllMemorySuccess": "Барлық жад жойылды",
+    "deleteAccount": {
+      "button": "Аккаунтты жою",
+      "title": "Аккаунтты жою",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Растау үшін теріңіз",
+      "confirmRequired": "Растау үшін DELETE деп теріңіз",
+      "confirmButton": "Аккаунтымды жою",
+      "deleting": "Жойылуда...",
+      "success": "Аккаунтыңыз жойылды",
+      "error": "Аккаунтты жою сәтсіз аяқталды. Қайталап көріңіз."
+    },
+    "saveChanges": "Өзгерістерді сақтау",
+    "changesSaved": "Өзгерістер сәтті сақталды",
+    "saveFailed": "Өзгерістерді сақтау сәтсіз аяқталды",
+    "languageUpdated": "Тіл жаңартылды",
+    "aiLanguageUpdated": "AI тілі жаңартылды"
+  },
+  "create": {
+    "defaultGreeting": "Сәлем",
+    "title": "AI кейіпкерін жасау",
+    "step": "Қадам {current} / {total}",
+    "step1": {
+      "title": "Стильді таңдау",
+      "description": "Кейіпкеріңіздің стилі мен негізгі сипаттарын таңдаңыз"
+    },
+    "step2": {
+      "title": "Ұлтты таңдау",
+      "description": "Кейіпкеріңіздің ұлтын және жасын таңдаңыз"
+    },
+    "step3": {
+      "title": "Шаш пен көз",
+      "description": "Шаш үлгісі, шаш түсі және көз түсін баптаңыз"
+    },
+    "step4": {
+      "title": "Дене",
+      "description": "Кейіпкеріңіздің денесін баптаңыз"
+    },
+    "step5": {
+      "title": "Мінез бен мәліметтер",
+      "description": "Кейіпкеріңіздің мінезі мен дауысын анықтаңыз"
+    },
+    "style": {
+      "title": "Кейіпкер стилі",
+      "realistic": "Реалистік",
+      "anime": "Аниме"
+    },
+    "gender": {
+      "title": "Жыныс",
+      "female": "Әйел",
+      "male": "Ер"
+    },
+    "age": {
+      "title": "Жас",
+      "years": "{age} жас"
+    },
+    "ethnicity": {
+      "title": "Ұлт"
+    },
+    "hairStyle": {
+      "title": "Шаш үлгісі"
+    },
+    "hairColor": {
+      "title": "Шаш түсі"
+    },
+    "eyeColor": {
+      "title": "Көз түсі"
+    },
+    "bodyType": {
+      "title": "Дене түрі"
+    },
+    "breastSize": {
+      "title": "Кеуде өлшемі"
+    },
+    "name": {
+      "title": "Аты",
+      "placeholder": "Кейіпкер атын енгізіңіз",
+      "randomize": "Кездейсоқ ат генерациялау"
+    },
+    "language": {
+      "title": "Тіл",
+      "widgetLabel": "Тілді таңдау",
+      "placeholder": "Тілді таңдаңыз",
+      "selectTitle": "Тіліңізді таңдаңыз"
+    },
+    "personality": {
+      "title": "Мінез",
+      "widgetLabel": "Мінезді таңдау",
+      "placeholder": "Мінезді таңдаңыз",
+      "sectionTitle": "Мінезді таңдау",
+      "clickToChange": "Өзгерту үшін басыңыз"
+    },
+    "relationship": {
+      "title": "Қарым-қатынас",
+      "widgetLabel": "Қарым-қатынасты таңдау",
+      "placeholder": "Қарым-қатынасты таңдаңыз",
+      "selectTitle": "Қарым-қатынасты өңдеу"
+    },
+    "occupation": {
+      "title": "Мамандық",
+      "widgetLabel": "Мамандықты таңдаңыз",
+      "placeholder": "Мамандықты таңдаңыз",
+      "selectTitle": "Мамандықты өңдеу"
+    },
+    "kinks": {
+      "title": "Қызығушылықтар",
+      "widgetLabel": "Олар қандай қызығушылықтарға бейім? (Макс. {max})",
+      "labelMax": "Қызығушылықтар (Макс. {max})",
+      "placeholder": "Қызығушылықтарды таңдаңыз (міндетті емес)",
+      "optional": "Міндетті емес",
+      "selectTitle": "Қызығушылықтарды өңдеу",
+      "moreCount": "+{count} тағы"
+    },
+    "selector": {
+      "searchPlaceholder": "Іздеу",
+      "noResults": "Опциялар табылмады",
+      "cancel": "Бас тарту",
+      "saveChanges": "Өзгерістерді сақтау",
+      "selectedCount": "{count} таңдалды"
+    },
+    "voice": {
+      "title": "Дауыс",
+      "widgetLabel": "Дауысты таңдаңыз",
+      "placeholder": "Дауысты таңдаңыз",
+      "selectTitle": "Дауысты таңдаңыз"
+    },
+    "advanced": {
+      "title": "Қосымша мәліметтер",
+      "optional": "міндетті емес",
+      "filled": "Толтырылған",
+      "autocompleteTitle": "AI көмегімен автотолтыру",
+      "autocompleteDesc": "Тереңірек кейіпкер үшін бос өрістерді AI толтырсын",
+      "autocompleteSuccess": "Өрістер сәтті толтырылды!",
+      "autocompleteError": "Ұсыныстарды жасау сәтсіз аяқталды. Қайталап көріңіз.",
+      "greetingLabel": "Сәлемдесу",
+      "greetingPlaceholder": "Кейіпкеріңіз жіберетін алғашқы хабарлама...",
+      "scenarioLabel": "Сценарий",
+      "scenarioPlaceholder": "Сіздің танысу контекстіңіз немесе тарихыңыз...",
+      "personalityLabel": "Қосымша тұлғалық мәліметтер",
+      "personalityPlaceholder": "Ерекшеліктер, сөйлеу үлгілері, мінез-құлық ерекшеліктері...",
+      "extraLabel": "Қосымша мәліметтер",
+      "extraPlaceholder": "Өткен өмір, хобби, өмір тарихы..."
+    },
+    "navigation": {
+      "back": "Артқа",
+      "next": "Келесі",
+      "create": "Жасау",
+      "generateYourCharacter": "Кейіпкеріңізді жасаңыз"
+    },
+    "progress": {
+      "generatingPrompt": "Тұлға жасалуда...",
+      "generatingImage": "Портрет жасалуда...",
+      "creatingVoice": "Дауыс орнатылуда...",
+      "saving": "Сақталуда...",
+      "complete": "Аяқталды!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Тұлға жасалуда...",
+      "addingSweetness": "Тәттілік қосылуда...",
+      "tooMuchSweet": "Ой, тым тәтті болып кетті...",
+      "testingSounds": "Дыбыстарды тексеру..."
+    },
+    "overlay": {
+      "signupPrompt": "Кейіпкеріңізді ашу үшін тіркелуді аяқтаңыз…",
+      "processingHint": "Бұл әдетте 20–30 секунд алады",
+      "traitEthnicity": "Этникалық топ",
+      "traitBody": "Дене",
+      "traitHair": "Шаш",
+      "traitColor": "Түс",
+      "traitEyes": "Көз",
+      "traitVibe": "Атмосфера",
+      "bannerTitle": "Кейіпкеріңізді жасауға дайын!",
+      "bannerDesc": "Қалауларыңыз сақталды. Төменде қарап шығып, жасаңыз."
+    },
+    "success": {
+      "title": "Кейіпкер жасалды!",
+      "description": "AI кейіпкеріңіз сәтті жасалды.",
+      "yearsOld": "жас",
+      "meetButton": "Танысу"
+    },
+    "error": {
+      "title": "Жасау сәтсіз аяқталды",
+      "generic": "Кейіпкерді жасау сәтсіз аяқталды. Қайталап көріңіз."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Кавказдық",
+        "asian": "Азиялық",
+        "middle_eastern": "Таяу Шығыс",
+        "hispanic": "Латын Америкалық",
+        "african": "Африкалық",
+        "south_asian": "Оңтүстік Азиялық",
+        "native_american": "Жергілікті Американдық",
+        "pacific_islander": "Тынық мұхит аралдары",
+        "mixed": "Аралас",
+        "arab": "Араб"
+      },
+      "hairStyleFemale": {
+        "straight": "Түзу",
+        "bangs": "Шаш алды",
+        "curly": "Бұйра",
+        "bun": "Шаш шашы",
+        "short_bob": "Қысқа боб",
+        "ponytail": "Құйрықша",
+        "wavy": "Толқынды",
+        "long_layers": "Ұзын қабаттар",
+        "braids": "Өрімдер",
+        "pixie_cut": "Пикси қию",
+        "updo": "Жоғары шаш",
+        "french_twist": "Француз бұрамы",
+        "fishtail_braid": "Балық құйрығы өрімі",
+        "top_knot": "Жоғарғы түйін",
+        "space_buns": "Ғарыштық бөктер",
+        "halo_braid": "Гало өрімі",
+        "beehive": "Ара ұясы",
+        "finger_waves": "Саусақ толқындары",
+        "lob": "Лоб (ұзын боб)",
+        "shag_cut": "Шаг кескіні",
+        "bald": "Таз"
+      },
+      "hairStyleMale": {
+        "short": "Қысқа",
+        "buzz_cut": "Баз кескіні",
+        "crew_cut": "Крю кескіні",
+        "undercut": "Андеркат",
+        "fade": "Фейд",
+        "pompadour": "Помпадур",
+        "quiff": "Квифф",
+        "slicked_back": "Артқа таралған",
+        "curly": "Бұйра",
+        "afro": "Афро",
+        "man_bun": "Ерлер шашы",
+        "dreadlocks": "Дредлоктар",
+        "cornrows": "Корнроу",
+        "mohawk": "Мохок",
+        "side_part": "Бүйір бөлік",
+        "textured_crop": "Текстуралы кроп",
+        "french_crop": "Француз кропы",
+        "spiky": "Тікенді",
+        "comb_over": "Комб овер",
+        "long_hair": "Ұзын шаш",
+        "bald": "Таз"
+      },
+      "hairColor": {
+        "brunette": "Қоңыр шашты",
+        "blonde": "Блонд",
+        "black": "Қара",
+        "redhead": "Қызыл шашты",
+        "pink": "Қызғылт",
+        "auburn": "Қызыл-қоңыр",
+        "brown": "Қоңыр",
+        "platinum_blonde": "Платина блонд",
+        "silver_grey": "Күміс/сұр",
+        "white": "Ақ",
+        "blue": "Көк",
+        "purple": "Күлгін",
+        "green": "Жасыл",
+        "burgundy": "Бордо",
+        "copper": "Мыс",
+        "strawberry_blonde": "Құлпынай блонд",
+        "ash_brown": "Күл қоңыр",
+        "golden_blonde": "Алтын блонд",
+        "mahogany": "Махагон",
+        "pastel_pink": "Пастел қызғылт",
+        "ombre": "Омбре",
+        "balayage": "Балаяж",
+        "highlights": "Хайлайттар",
+        "jet_black": "Қою қара",
+        "dark_brown": "Қою қоңыр",
+        "light_brown": "Ашық қоңыр",
+        "honey_blonde": "Бал сары",
+        "dirty_blonde": "Кір сары",
+        "cherry_red": "Шие қызыл",
+        "violet": "Күлгін"
+      },
+      "eyeColor": {
+        "brown": "Қоңыр",
+        "blue": "Көк",
+        "green": "Жасыл",
+        "hazel": "Көкшіл қоңыр",
+        "amber": "Көкшіл сары",
+        "gray": "Сұр",
+        "heterochromia": "Гетерохромия",
+        "violet": "Күлгін",
+        "red_pink": "Қызыл/Қызғылт",
+        "black": "Қара"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Арық",
+        "athletic": "Спорттық",
+        "average": "Орташа",
+        "curvy": "Қисық",
+        "chubby": "Толық"
+      },
+      "bodyTypeMale": {
+        "skinny": "Арық",
+        "athletic": "Спорттық",
+        "average": "Орташа",
+        "muscular": "Бұлшықты",
+        "heavy": "Ауыр",
+        "big_tall": "Үлкен & Биік"
+      },
+      "breastSize": {
+        "small": "Кішкентай",
+        "medium": "Орташа",
+        "large": "Үлкен",
+        "extra_large": "Өте үлкен"
+      },
+      "personality": {
+        "nympho": "Нимфоман",
+        "lover": "Сүйгіш",
+        "submissive": "Бағынышты",
+        "dominant": "Үстем",
+        "temptress": "Азғырушы",
+        "innocent": "Кінәсіз",
+        "caregiver": "Қамқоршы",
+        "experimenter": "Экспериментатор",
+        "mean": "Қатал",
+        "confidant": "Сенімді",
+        "shy": "Ұялшақ",
+        "queen": "Королева",
+        "adventurous": "Шытырман",
+        "romantic": "Романтик",
+        "intellectual": "Зиялы",
+        "protector": "Қорғаушы",
+        "rebel": "Бүлікші",
+        "optimist": "Оптимист",
+        "realist": "Реалист",
+        "free_spirit": "Еркін рух",
+        "leader": "Көшбасшы",
+        "loyal": "Адал",
+        "playful": "Ойнақы",
+        "mysterious": "Жұмбақ",
+        "ambitious": "Амбициялы",
+        "gentle": "Жұмсақ",
+        "sarcastic": "Кекесін",
+        "empathetic": "Эмпатикалық",
+        "stoic": "Стоик",
+        "charismatic": "Харизматикалық"
+      },
+      "relationship": {
+        "stranger": "Бейтаныс",
+        "girlfriend": "Қыз",
+        "sex_friend": "Секс дос",
+        "school_mate": "Мектептегі дос",
+        "work_colleague": "Әріптес",
+        "wife": "Әйел",
+        "mistress": "Сүйікті",
+        "friend": "Дос",
+        "step_sister": "Өгей қарындас",
+        "step_mom": "Өгей ана",
+        "step_daughter": "Өгей қыз",
+        "landlord": "Иесі",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Бастық",
+        "teacher": "Мұғалім",
+        "student": "Студент",
+        "neighbour": "Көрші",
+        "mother_in_law": "Қайын ене",
+        "sister_in_law": "Қайын сіңлі",
+        "boyfriend": "Жігіт",
+        "husband": "Күйеу",
+        "fiance": "Қалыңдық / Құда",
+        "ex": "Бұрынғы",
+        "roommate": "Бөлмелес",
+        "best_friend": "Ең жақын дос",
+        "classmate": "Сыныптас",
+        "mentor": "Ментор",
+        "client": "Клиент",
+        "therapist": "Терапевт",
+        "trainer": "Жаттықтырушы",
+        "rival": "Бәсекелес",
+        "crush": "Ғашық",
+        "secret_admirer": "Құпия табынушы",
+        "pen_pal": "Хат алмасушы",
+        "business_partner": "Бизнес серіктес",
+        "babysitter": "Няня",
+        "childhood_friend": "Балалық шақтағы дос",
+        "long_distance_partner": "Қашықтағы серіктес"
+      },
+      "occupation": {
+        "student": "Студент",
+        "dancer": "Биші",
+        "model": "Модель",
+        "maid": "Күтуші",
+        "boss_ceo": "Босс / CEO",
+        "babysitter_au_pair": "Балалар күтуші / Ау-пэр",
+        "streamer": "Стример",
+        "bartender": "Бармен",
+        "tech_engineer": "Техникалық инженер",
+        "lifeguard": "Құтқарушы",
+        "cashier": "Кассир",
+        "massage_therapist": "Массажист",
+        "teacher": "Мұғалім",
+        "nurse": "Медбике",
+        "secretary": "Хатшы",
+        "yoga_instructor": "Йога нұсқаушысы",
+        "fitness_coach": "Фитнес-жаттықтырушы",
+        "cook": "Повар",
+        "artist": "Суретші",
+        "movie_star_actress": "Кино жұлдызы / Актриса",
+        "doctor": "Дәрігер",
+        "librarian": "Кітапханашы",
+        "spy": "Шпион",
+        "police_officer": "Полиция қызметкері",
+        "soldier": "Сарбаз",
+        "lawyer": "Заңгер",
+        "hairdresser": "Шаштараз",
+        "dentist": "Стоматолог",
+        "singer_musician": "Әнші / Музыкант",
+        "gynecologist": "Гинеколог",
+        "writer": "Жазушы",
+        "flight_attendant": "Бортсерік",
+        "professional_athlete": "Кәсіби спортшы",
+        "scientist": "Ғалым",
+        "florist": "Гүлші",
+        "makeup_artist": "Визажист",
+        "photographer": "Фотограф",
+        "social_worker": "Әлеуметтік қызметкер",
+        "designer": "Дизайнер",
+        "pharmacist": "Фармацевт",
+        "nutritionist": "Нутрициолог",
+        "architect": "Сәулетші",
+        "veterinarian": "Ветеринар",
+        "mechanic": "Механик",
+        "journalist": "Журналист",
+        "pilot": "Ұшқыш",
+        "firefighter": "Өрт сөндіруші",
+        "accountant": "Бухгалтер",
+        "electrician": "Электрик",
+        "carpenter": "Ағаш шебері",
+        "psychologist": "Психолог",
+        "real_estate_agent": "Жылжымайтын мүлік агенті",
+        "chef": "Аспаз",
+        "farmer": "Фермер",
+        "delivery_driver": "Жеткізу жүргізушісі",
+        "janitor": "Тазалаушы",
+        "security_guard": "Қауіпсіздік күзетшісі",
+        "banker": "Банкир",
+        "judge": "Судья",
+        "paramedic": "Фельдшер",
+        "actor": "Актер",
+        "comedian": "Комедиант",
+        "archaeologist": "Археолог",
+        "astronaut": "Астронавт"
+      },
+      "kinks": {
+        "bondage": "Байланыс",
+        "spanking": "Шапалақтау",
+        "collar_leash": "Жаға & Байлау",
+        "punishment": "Жаза",
+        "humiliation": "Қорлау",
+        "public_play": "Қоғамдық ойын",
+        "roleplay": "Рөлдік ойын",
+        "anal_play": "Анальды ойын",
+        "oral_play": "Оральды ойын",
+        "cum_play": "Сперма ойыны",
+        "creampie": "Кремпай",
+        "squirting": "Шашырату",
+        "dirty_talk": "Лас сөйлесу",
+        "breeding": "Ұрықтандыру",
+        "daddy_mommy_dominance": "Әке/Ана үстемдігі",
+        "edging": "Шекті ұстап тұру",
+        "obedience": "Бағыну",
+        "control": "Бақылау",
+        "inexperienced": "Тәжірибесіз",
+        "shy_flirting": "Ұялшақ флирт",
+        "playful_teasing": "Ойнақы әзілдеу",
+        "cuddling": "Құшақтау",
+        "slow_sensual": "Баяу & Сезімді",
+        "hair_pulling": "Шаш тарту",
+        "foot_fetish": "Аяқ фетиші",
+        "voyeurism": "Бақылау",
+        "exhibitionism": "Көрсету",
+        "sensation_play": "Сезім ойыны",
+        "wax_play": "Балауыз ойыны",
+        "pet_play": "Үй жануары ойыны",
+        "age_play": "Жас ойыны",
+        "medical_play": "Медициналық ойын",
+        "orgasm_control_denial": "Оргазм бақылауы/бас тарту",
+        "forced_orgasms": "Мәжбүрлі оргазм",
+        "group_sex": "Топтық секс",
+        "threesomes": "Үшбұрыш",
+        "swapping": "Ауыстыру",
+        "cuckolding_cuckqueaning": "Кукулдинг/Кукуининг",
+        "femdom": "Фемдом",
+        "gentle_domination": "Жұмсақ үстемдік",
+        "sensation_deprivation": "Сезімдерді шектеу",
+        "sensory_overload": "Сезімдердің шамадан тыс жүктелуі",
+        "uniform_costume_fetish": "Форма/Костюм фетиші",
+        "food_play": "Тамақпен ойнау",
+        "watersports": "Уотерспорт",
+        "bdsm": "BDSM",
+        "impact_play": "Соққымен ойнау",
+        "knife_play": "Пышақпен ойнау",
+        "consensual_non_consent": "Келісімді келісімсіздік",
+        "power_exchange": "Билік алмасу",
+        "master_slave": "Қожа/Құл",
+        "owner_pet": "Иесі/Үй жануары"
+      },
+      "languages": {
+        "en": "Ағылшын",
+        "cs": "Чех",
+        "pl": "Поляк",
+        "de": "Неміс",
+        "es": "Испан",
+        "fr": "Француз"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Менің AI",
+    "titlePart1": "Менің",
+    "titlePart2": "AI",
+    "createNew": "Жаңа AI жасау",
+    "createButton": "Кейіпкер жасау",
+    "characterCount": "{count}/{limit} кейіпкер",
+    "loadMore": "Көбірек жүктеу",
+    "empty": {
+      "title": "Әзірше кейіпкер жоқ",
+      "description": "Алғашқы AI кейіпкеріңізді жасаңыз және сөйлесуді бастаңыз! Сыртқы келбетін, мінезін және дауысын баптаңыз.",
+      "createFirst": "Алғашқы кейіпкеріңізді жасаңыз"
+    },
+    "delete": {
+      "title": "Кейіпкерді жою",
+      "message": "{name} кейіпкерін жойғыңыз келетініне сенімдісіз бе? Бұл кейіпкерді, барлық чат тарихын және жасалған контентті біржола өшіреді.",
+      "confirm": "Жою",
+      "success": "Кейіпкер сәтті жойылды"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Өзара әрекеттесу",
+    "interactionDescription": "Қарапайым тілмен жазыңыз — фото, видео сұраңыз немесе әңгіме бастаңыз. AI сіздің ниетіңізді кез келген тілде түсінеді.",
+    "mediaTitle": "Суреттер мен видеолар жасау",
+    "mediaDescription": "Қиялдарыңызды ашыңыз — шектеусіз суреттер мен видеолар жасаңыз.",
+    "next": "Келесі →",
+    "gotIt": "Түсінікті"
+  }
+}

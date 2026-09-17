@@ -1,0 +1,4033 @@
+{
+  "common": {
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "close": "關閉",
+    "now": "現在",
+    "loading": "載入中...",
+    "error": "發生錯誤",
+    "success": "成功",
+    "confirm": "確認",
+    "back": "返回",
+    "or": "或",
+    "next": "下一步",
+    "submit": "提交",
+    "search": "搜尋",
+    "filter": "篩選",
+    "clear": "清除",
+    "all": "全部",
+    "yes": "是",
+    "no": "否",
+    "download": "下載",
+    "and": "和",
+    "tryAgain": "再試一次",
+    "change": "變更"
+  },
+  "navigation": {
+    "new": "NEW",
+    "sectionBrowse": "瀏覽",
+    "sectionTalk": "聊天",
+    "sectionCreate": "創作",
+    "sectionLibrary": "收藏庫",
+    "explore": "首頁",
+    "discover": "探索",
+    "createShort": "建立 AI",
+    "chats": "聊天",
+    "groupChat": "AI 群組聊天",
+    "roleplay": "角色扮演",
+    "collection": "收藏",
+    "generateImage": "生成圖像",
+    "generateVideo": "生成影片",
+    "createCharacter": "建立 AI 角色",
+    "myAI": "我的 AI",
+    "language": "語言",
+    "contactUs": "聯絡我們",
+    "account": "帳戶",
+    "sidebarPromoTitle": "Summer Sale — 50% OFF",
+    "sidebarPromoDesc": "無限訊息。不受限制地使用圖片和影片。",
+    "categories": {
+      "girls": "女性",
+      "anime": "動漫",
+      "guys": "男性"
+    },
+    "campus": "校園心事"
+  },
+  "discover": {
+    "chatNow": "立即聊天",
+    "like": "喜歡"
+  },
+  "auth": {
+    "login": "登入",
+    "signup": "註冊",
+    "createFreeAccount": "建立免費帳戶",
+    "logout": "登出",
+    "email": "電子郵件",
+    "password": "密碼",
+    "confirmPassword": "確認密碼",
+    "forgotPassword": "忘記密碼？",
+    "noAccount": "還沒有帳戶？",
+    "hasAccount": "已經有帳戶？",
+    "signupPrompt": "建立免費帳戶",
+    "loginPrompt": "登入",
+    "continueWith": "繼續使用",
+    "welcomeBack": "歡迎回來！",
+    "createAccount": "建立您的帳戶",
+    "signInToAccount": "登入您的帳戶",
+    "emailRequired": "電子郵件為必填",
+    "emailInvalid": "電子郵件地址無效",
+    "passwordRequired": "密碼為必填",
+    "passwordLength": "密碼至少需 6 個字元",
+    "passwordsMismatch": "密碼不相符",
+    "emailAlreadyRegistered": "電子郵件已註冊",
+    "emailAlreadyRegisteredDescription": "此電子郵件已存在帳戶。請登入。",
+    "loginError": "登入失敗",
+    "signupError": "註冊失敗",
+    "loginSuccess": "歡迎回來！",
+    "signupSuccess": "帳戶建立成功！",
+    "logoutSuccess": "您已成功登出",
+    "logoutError": "登出失敗",
+    "linkExpired": "此驗證連結已過期。請重新申請。",
+    "accessDenied": "存取遭拒。請再試一次。",
+    "verifyEmail": "驗證您的電子郵件",
+    "verificationEmailSent": "我們已寄送驗證電子郵件給您",
+    "confirmYourEmail": "確認您的電子郵件",
+    "confirmationLinkSent": "我們已寄送確認連結至「{email}」。",
+    "checkSpamFolder": "沒收到電子郵件？請檢查垃圾郵件資料夾。",
+    "signupToChat": "建立免費帳戶以開始使用。",
+    "signupDescription": "建立帳戶以繼續您的對話",
+    "emailVerificationTitle": "檢查您的電子郵件",
+    "emailVerificationMessage": "我們已寄送驗證連結至 {email}。請查看收件匣並點擊連結以驗證您的帳戶。",
+    "emailVerificationNext": "驗證完成後，您將繼續完成新手引導流程。",
+    "verificationEmailSentTo": "我們已將驗證郵件發送至 {email}",
+    "verificationInstructions": "請檢查收件匣並點擊驗證連結以啟用您的帳戶。",
+    "resetPassword": "重設密碼",
+    "resetPasswordDescription": "輸入您的電子郵件，我們將寄送重設連結",
+    "resetEmailSent": "若此電子郵件已註冊帳戶，您將很快收到重設連結",
+    "backToLogin": "返回登入",
+    "newPassword": "新密碼",
+    "confirmNewPassword": "確認新密碼",
+    "passwordResetSuccess": "密碼更新成功。請登入。",
+    "enterNewPassword": "輸入您的新密碼",
+    "redirectingToLogin": "正在重新導向至登入頁面...",
+    "invalidResetLink": "連結無效或已過期",
+    "invalidResetLinkDescription": "此密碼重設連結無效或已過期。請重新申請。",
+    "passwordsDontMatch": "密碼不符",
+    "currentPassword": "目前密碼",
+    "currentPasswordRequired": "請輸入目前密碼",
+    "changePassword": "變更密碼",
+    "changePasswordDescription": "輸入目前密碼並選擇新密碼",
+    "newPasswordMustBeDifferent": "新密碼必須與目前密碼不同",
+    "incorrectPassword": "目前密碼不正確",
+    "passwordChangeSuccess": "密碼變更成功",
+    "changeEmail": "變更電子郵件",
+    "newEmail": "新電子郵件",
+    "confirmNewEmail": "確認新電子郵件",
+    "emailsDontMatch": "電子郵件不相符",
+    "emailChangeDescription": "驗證郵件將同時寄送至您目前與新的電子郵件地址",
+    "emailMustBeDifferent": "新電子郵件必須與目前電子郵件不同",
+    "emailChangeSent": "驗證郵件已寄出。請檢查您的新電子郵件收件匣。",
+    "emailChangeSecurityNote": "為確保安全，確認郵件將寄送至您目前與新的電子郵件地址。您必須兩邊都完成確認才能完成變更。",
+    "otpDescription": "我們已將 6 位數驗證碼寄送至 {email}",
+    "otpVerify": "驗證",
+    "otpResend": "重新發送驗證碼",
+    "otpResendIn": "{seconds} 秒後可重新發送",
+    "otpNoCode": "沒有收到驗證碼？",
+    "otpInvalid": "驗證碼無效。請再試一次。",
+    "otpSuccess": "電子郵件驗證成功！",
+    "otpResendSuccess": "已寄送新驗證碼至您的電子郵件",
+    "otpResendError": "重新發送驗證碼失敗",
+    "continueWithEmail": "使用電子郵件繼續",
+    "moreOptions": "更多選項",
+    "lessOptions": "收起選項",
+    "enterYourEmail": "輸入您的電子郵件地址",
+    "sendCode": "發送驗證碼",
+    "byCreatingAccountAgree": "建立帳戶即表示您同意我們的",
+    "termsOfService": "服務條款",
+    "continueWithZhihu": "使用知乎繼續"
+  },
+  "onboarding": {
+    "welcome": "歡迎使用 sweetwine",
+    "welcomeTo": "歡迎使用",
+    "letsGetStarted": "讓我們為您完成設定",
+    "setupProfile": "設定您的個人檔案",
+    "step1of2": "步驟 1 / 2",
+    "step2of2": "步驟 2 / 2",
+    "nickname": "暱稱",
+    "nicknamePlaceholder": "請選擇一個暱稱",
+    "nicknameRequired": "請輸入暱稱",
+    "gender": "性別",
+    "genderRequired": "請選擇您的性別",
+    "male": "男",
+    "female": "女",
+    "interfaceLanguage": "介面語言",
+    "interfaceLanguageDesc": "選單與按鈕使用的語言",
+    "aiLanguage": "AI 回應語言",
+    "aiLanguageDesc": "AI 與您對話時使用的語言",
+    "languageRequired": "請選擇語言",
+    "continue": "繼續",
+    "ageVerification": "年齡驗證",
+    "ageVerificationText": "使用 sweetwine 需年滿 18 歲。繼續即表示您已達法定年齡。",
+    "beforeContinue": "繼續前請先了解",
+    "mustBe18": "您必須年滿 18 歲才能使用此服務",
+    "agreeToTerms": "繼續即表示您同意我們的 {termsLink} 與 {privacyLink}",
+    "termsOfService": "服務條款",
+    "privacyPolicy": "隱私政策",
+    "iConfirm": "我確認已年滿 18 歲，並同意",
+    "ageRequired": "您必須確認年齡才能繼續",
+    "aiActConsent": "我了解我僅與 AI 進行對話",
+    "aiActRequired": "您必須確認此項才能繼續",
+    "newsletterOptIn": "訂閱我們的電子報以獲取更新與最新消息",
+    "complete": "設定完成！",
+    "completeText": "一切就緒！開始與 AI 角色聊天吧。",
+    "startExploring": "開始探索",
+    "featuresTitle": "可用功能",
+    "featuresTitleWord1": "可用",
+    "featuresTitleWord2": "功能",
+    "feature1Title": "AI 聊天",
+    "feature1Desc": "無審查且私密的對話",
+    "feature2Title": "圖像生成",
+    "feature2Desc": "使用 AI 角色生成無審查且個人化的圖像",
+    "feature3Title": "影片生成",
+    "feature3Desc": "生成帶有特效的無審查 AI 影片",
+    "feature5Title": "自訂 AI 創作者",
+    "feature5Desc": "設計您自己的角色",
+    "feature6Title": "瀏覽角色",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI 角色扮演",
+    "feature7Desc": "體驗專業打造的故事與幻想",
+    "showcase": {
+      "chatTitle": "AI 聊天",
+      "chatDesc": "無審查、私密對話，無任何限制",
+      "imageTitle": "圖像生成",
+      "imageDesc": "為你的 AI 創作無審查、個人化圖像",
+      "videoTitle": "影片生成",
+      "videoDesc": "使用特效生成無審查的 AI 影片",
+      "voiceTitle": "語音訊息",
+      "voiceDesc": "與你的陪伴者進行即時語音對話",
+      "roleplayTitle": "AI 角色扮演",
+      "roleplayDesc": "沉浸式故事、幻想與互動遊戲",
+      "groupChatTitle": "AI 群組聊天",
+      "groupChatDesc": "一次與最多 3 個 AI 角色聊天",
+      "creatorTitle": "自訂 AI 創作者",
+      "creatorDesc": "設計並建立你自己的 AI 角色"
+    },
+    "freePlan": {
+      "title": "一切就緒！",
+      "subtitle": "以下是免費方案包含的內容。",
+      "charactersTitle": "建立你的角色",
+      "charactersDesc": "從零開始設計 {count} 個自訂 AI 角色",
+      "imagesTitle": "生成圖像",
+      "imagesDesc": "為你的夥伴生成 {count} 張免費 AI 圖像",
+      "messagesTitle": "每日聊天",
+      "messagesDesc": "每天 {count} 則訊息，每 24 小時重置",
+      "cta": "開始探索"
+    },
+    "redirectingIn": "即將跳轉",
+    "seconds": "秒",
+    "generateCharacter": "生成您的角色",
+    "redirectingToCreate": "即將跳轉至角色創作者"
+  },
+  "errors": {
+    "pageNotFound": "找不到頁面",
+    "pageNotFoundDesc": "您要找的頁面不存在。",
+    "goHome": "返回首頁",
+    "somethingWentWrong": "發生錯誤",
+    "tryAgain": "重試",
+    "unauthorized": "未授權",
+    "unauthorizedDesc": "您需要登入才能存取此頁面。",
+    "forbidden": "禁止存取",
+    "forbiddenDesc": "您沒有權限存取此頁面。"
+  },
+  "footer": {
+    "allRightsReserved": "保留所有權利。",
+    "madeWith": "以",
+    "by": "by sweetwine",
+    "description": "體驗擁有獨特個性、視覺形象與互動對話的個人化 AI 角色。",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "產品",
+    "legal": "法律",
+    "company": "公司",
+    "resources": "資源",
+    "partnerships": "合作夥伴",
+    "pressMedia": "新聞與媒體",
+    "careers": "職缺",
+    "aiRealClones": "AI 真實分身",
+    "about": "關於",
+    "blog": "部落格",
+    "news": "新聞",
+    "productUpdates": "產品更新",
+    "help": "說明",
+    "sitemap": "網站地圖",
+    "paymentOptions": "付款方式",
+    "chats": "聊天",
+    "collection": "收藏",
+    "generateImage": "生成圖片",
+    "generateVideo": "生成影片",
+    "myAI": "我的 AI",
+    "createCharacter": "建立角色",
+    "api": "API",
+    "features": "功能",
+    "allFeatures": "所有功能",
+    "aiGroupChat": "AI 群組聊天",
+    "aiMemory": "AI 記憶",
+    "aiGirlfriend": "AI 女友",
+    "aiBoyfriend": "AI 男友",
+    "aiCompanions": "AI 角色",
+    "aiFriend": "AI 朋友",
+    "aiBreakupSupport": "分手支援",
+    "aiParent": "AI 父母",
+    "aiRoleplay": "AI 角色扮演",
+    "privacyPolicy": "隱私政策",
+    "termsAndConditions": "條款與條件",
+    "cookiePolicy": "Cookie 政策",
+    "cookieSettings": "Cookie 設定",
+    "other": "其他政策",
+    "copyright": "© {year} sweetwine. 版權所有。"
+  },
+  "cookies": {
+    "banner": {
+      "title": "本網站的 Cookie",
+      "customizeButton": "自訂",
+      "rejectButton": "拒絕",
+      "acceptButton": "接受"
+    },
+    "modal": {
+      "title": "管理 Cookie",
+      "subtitle": "在下方開啟或關閉類別。嚴格必要的 Cookie 將保持啟用，以確保網站正常運作。",
+      "categories": {
+        "necessary": {
+          "title": "嚴格必要",
+          "description": "用於登入、結帳與安全性。沒有它們網站無法運作。",
+          "alwaysOn": "永遠啟用"
+        },
+        "analytics": {
+          "title": "效能",
+          "description": "透過 Google Analytics 4 進行使用與轉換測量，包括從伺服器以匿名識別碼傳送的關鍵轉換（註冊、購買）。幫助我們了解服務使用情況；我們不會用它來辨識您的個人身分。"
+        },
+        "marketing": {
+          "title": "目標鎖定",
+          "description": "衡量 Google 和 Meta 上的廣告效果。"
+        }
+      },
+      "showCookies": "顯示 Cookie",
+      "hideCookies": "隱藏 Cookie",
+      "table": {
+        "name": "名稱",
+        "provider": "提供者",
+        "expiration": "到期時間",
+        "description": "說明",
+        "session": "工作階段"
+      },
+      "policyLink": "完整詳情請參閱我們的 <policy>Cookie 政策</policy>。",
+      "rejectButton": "拒絕",
+      "saveButton": "儲存並關閉",
+      "acceptButton": "接受",
+      "cookieDescriptions": {
+        "supabaseAuth": "儲存您的驗證工作階段，讓您保持登入狀態。",
+        "nextLocale": "記住您選擇的介面語言。",
+        "consent": "儲存您的 Cookie 選擇，避免每次造訪都顯示橫幅。",
+        "ga": "辨識獨特訪客（Google Analytics 4）。相同的匿名識別碼也用於伺服器端測量關鍵轉換。",
+        "gaSession": "保留 Google Analytics 4 的工作階段狀態與互動指標。",
+        "fbp": "為 Meta Pixel 歸因辨識瀏覽器。",
+        "fbc": "儲存 Facebook 點擊 ID，用於廣告轉換歸因。僅在點擊 Meta 廣告後設定。",
+        "gclAu": "Google Ads 用於跨網站轉換連結。",
+        "onboarded": "標記您的帳戶已完成新手引導，以便在後續頁面跳過年齡驗證資料庫檢查。"
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "即將推出",
+    "subtitle": "我們正努力為您帶來此功能。",
+    "notify": "準備就緒時通知我",
+    "backHome": "返回首頁",
+    "generateVideo": {
+      "title": "生成影片",
+      "description": "讓您的 AI 角色透過動畫影片活起來。製作以您喜愛角色為主的個人化影片內容。"
+    },
+    "createCharacter": {
+      "title": "建立您的角色",
+      "description": "設計並自訂您獨一無二的 AI 角色。定義其個性、外貌、背景故事，打造真正個人化的互動體驗。"
+    },
+    "myAI": {
+      "title": "我的 AI",
+      "description": "存取並管理您所有自訂的 AI 角色。編輯其個性、更新外貌，並微調回應。"
+    }
+  },
+  "exploreMore": {
+    "title": "探索更多",
+    "aiGroupChat": "AI 群組聊天",
+    "aiGroupChatDesc": "與最多 3 位角色聊天",
+    "aiMemory": "AI 記憶",
+    "aiMemoryDesc": "跟隨每種模式的上下文",
+    "aiGirlfriend": "AI 女友",
+    "aiGirlfriendDesc": "與您的虛擬女友聊天",
+    "aiBoyfriend": "AI 男友",
+    "aiBoyfriendDesc": "與您的 AI 男友互動",
+    "aiCompanions": "AI 角色",
+    "aiCompanionsDesc": "認識獨特的 AI 個性",
+    "aiFriend": "AI 朋友",
+    "aiFriendDesc": "尋找無評判的朋友",
+    "aiBreakupSupport": "分手支援",
+    "aiBreakupSupportDesc": "療癒對話",
+    "aiParent": "AI 父母",
+    "aiParentDesc": "溫暖的支持與引導",
+    "aiRoleplay": "AI 角色扮演",
+    "aiRoleplayDesc": "沉浸式故事情境",
+    "allFeatures": "所有功能",
+    "allFeaturesDesc": "探索我們提供的所有服務"
+  },
+  "legal": {
+    "policies": "政策",
+    "termsAndConditions": "條款與條件",
+    "privacyPolicy": "隱私政策",
+    "cookiePolicy": "Cookie 政策",
+    "contentReportingPolicy": "內容檢舉政策",
+    "communityGuidelines": "社群守則",
+    "complaintPolicy": "申訴政策",
+    "contentRemovalPolicy": "內容移除政策",
+    "blockedContentPolicy": "封鎖內容政策",
+    "underagePolicy": "未成年政策",
+    "usc2257": "18 U.S.C. 2257 豁免聲明",
+    "lastUpdated": "最後更新",
+    "index": {
+      "title": "法律文件",
+      "subtitle": "瀏覽所有與 sweetwine 相關的法律政策與協議",
+      "documents": {
+        "privacyPolicy": {
+          "title": "隱私政策",
+          "description": "了解我們如何收集、使用及保護您的個人資訊。資料處理、儲存及您的隱私權利詳情。"
+        },
+        "termsAndConditions": {
+          "title": "條款與條件",
+          "description": "規範您使用 sweetwine 的服務條款。使用者責任、服務說明及法律協議。"
+        },
+        "cookiePolicy": {
+          "title": "Cookie 政策",
+          "description": "說明我們如何使用 Cookie 及類似技術來提升您在平台上的體驗。"
+        },
+        "underagePolicy": {
+          "title": "未成年政策",
+          "description": "我們嚴格的年齡驗證與保護政策。sweetwine 僅供 18 歲以上使用者使用。"
+        },
+        "complaintPolicy": {
+          "title": "申訴政策",
+          "description": "如何提出申訴、檢舉問題，以及我們處理使用者疑慮與爭議的流程。"
+        },
+        "contentRemovalPolicy": {
+          "title": "內容移除政策",
+          "description": "我們處理內容移除請求的程序，以及如何處理不當或非法內容的檢舉。"
+        },
+        "blockedContentPolicy": {
+          "title": "封鎖內容政策",
+          "description": "平台禁止的內容類型及我們的執行政策。"
+        },
+        "contentReportingPolicy": {
+          "title": "內容檢舉政策",
+          "description": "如何在 sweetwine 檢舉著作權侵權及不當內容。"
+        },
+        "communityGuidelines": {
+          "title": "社群守則",
+          "description": "維持尊重、安全且愉快的社群環境給所有使用者的規則與指引。"
+        }
+      },
+      "lastUpdated": "最後更新：{date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "聊天",
+    "groupChat": "AI 群組聊天",
+    "aiMemory": "AI 記憶",
+    "generate": "生成圖片",
+    "generateVideo": "生成影片",
+    "create": "建立 AI 角色",
+    "myAI": "我的 AI",
+    "collection": "收藏",
+    "invite": "邀請",
+    "profile": "個人設定",
+    "legal": "法律",
+    "privacyPolicy": "隱私政策",
+    "termsAndConditions": "條款與條件",
+    "cookiePolicy": "Cookie 政策",
+    "dmcaPolicy": "DMCA 政策",
+    "communityGuidelines": "社群準則",
+    "contentRemovalPolicy": "內容移除政策",
+    "contentReportingPolicy": "內容檢舉政策",
+    "complaintPolicy": "投訴政策",
+    "blockedContentPolicy": "封鎖內容政策",
+    "underagePolicy": "未成年政策",
+    "usc2257Exemption": "USC 2257 豁免"
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "subtitle": "有問題或建議嗎？我們很樂意聽聽您的意見。",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "nameRequired": "姓名為必填",
+    "email": "電子郵件",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "電子郵件為必填",
+    "emailInvalid": "電子郵件地址無效",
+    "message": "訊息",
+    "messagePlaceholder": "您的訊息...",
+    "messageRequired": "訊息為必填",
+    "send": "傳送訊息",
+    "sending": "傳送中...",
+    "success": "訊息傳送成功！",
+    "successDesc": "我們會盡快回覆您。",
+    "error": "訊息傳送失敗",
+    "errorDesc": "請稍後再試。"
+  },
+  "groupChat": {
+    "lobbyTitle": "AI 群聊",
+    "lobbyHeadingSuffix": "最多選擇 {max} 個 AI 角色",
+    "history": "歷史記錄",
+    "newGroup": "新建群聊",
+    "createGroup": "建立群聊",
+    "createError": "無法建立群聊，請重試。",
+    "creatingGroup": "正在設定您的群聊...",
+    "sectionWoman": "女性",
+    "sectionMan": "男性",
+    "sectionAnime": "動漫",
+    "tabPremade": "AI 角色",
+    "tabMyAi": "我的 AI",
+    "tabSingle": "單聊",
+    "tabGroup": "群聊",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "載入更多",
+    "noCustom": "您尚未建立任何 AI 角色。",
+    "noMessagesYet": "暫無訊息",
+    "emptyTitle": "暫無群聊",
+    "membersTitle": "本聊天成員",
+    "typing": "正在輸入",
+    "backToLobby": "返回群聊",
+    "deleteGroup": "刪除群聊",
+    "confirmDeleteGroup": "確定要刪除此群聊嗎？所有訊息將被刪除。",
+    "deleteError": "無法刪除群聊。",
+    "mediaTargetImageTitle": "誰要傳送照片？",
+    "mediaTargetVideoTitle": "誰要傳送影片？",
+    "mediaTargetSubtitle": "選擇一個角色來生成媒體。",
+    "mediaTargetGroup": "群組照片",
+    "groupPhotoTitle": "群組照片",
+    "groupPhotoHint": "生成一張 {name} 在一起的照片。",
+    "promoSubtitle": "最多 3 個角色",
+    "promoCta": "建立新的",
+    "writeMessage": "寫訊息...",
+    "generateImage": "生成圖片",
+    "generateVideo": "生成影片",
+    "sendAGift": "送禮物"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> 冒險",
+    "live": "LIVE",
+    "scrollPrev": "向左捲動",
+    "scrollNext": "向右捲動"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "立即開始"
+    },
+    "hero": {
+      "tagline": "已有 100,000 人信任，每天持續加入",
+      "headlinePrefix": "向你的",
+      "subtitle": "真正會傾聽的 AI 角色。隨時隨地聊天、創作、連結，無語言限制，零評判。",
+      "cta": "免費開始"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI 女友",
+      "friend": "AI 好友",
+      "boyfriend": "AI 男友",
+      "companion": "AI 角色"
+    },
+    "features": {
+      "chat": {
+        "title": "與你的 AI 女友聊天",
+        "description": "無限制的訊息。她記得你，智慧回應，並採取真實行動。設計上注重隱私。"
+      },
+      "media": {
+        "title": "逼真的 AI 照片與影片",
+        "description": "隨需產生的照片與影片，逼真到難以分辨真假——她的臉、她的風格、任何場景，動態或靜態皆可。"
+      },
+      "groupChat": {
+        "title": "AI 群組聊天",
+        "description": "一次與最多 3 個角色開啟群聊。他們自然回應、互相反應，並傳送照片與影片。"
+      },
+      "roleplay": {
+        "title": "AI 角色扮演",
+        "description": "沉浸在故事驅動的情境中，角色會保持角色，並記住你做的每一個選擇。"
+      }
+    },
+    "memory": {
+      "title": "AI 記憶",
+      "subtitle": "一位陪伴者。一段記憶。橫跨聊天、圖像與影片——你分享的細節會延續，讓對話從上次中斷的地方繼續。",
+      "cta": "AI 記憶如何運作",
+      "diagram": {
+        "center": "陪伴者的記憶",
+        "chat": "聊天",
+        "image": "圖像",
+        "video": "影片",
+        "gifts": "禮物",
+        "roleplay": "角色扮演"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "打造你自己的",
+      "headlineHighlight": "AI 角色",
+      "subtitle": "塑造角色的外貌、個性，並立即賦予生命——你的完美 AI 夥伴，由你決定。",
+      "cta": "建立你的 AI"
+    },
+    "companions": {
+      "headlinePrefix": "認識你的",
+      "headlineHighlight": "AI 角色",
+      "subtitle": "每個角色都有自己的世界。有些溫暖易親近，有些複雜、謹慎，或是真正的挑戰。探索獨特的角色扮演情境——或從零打造你自己的角色。"
+    },
+    "languages": {
+      "headlinePrefix": "說任何語言，",
+      "headlineHighlight": "24/7",
+      "subtitle": "你的 AI 角色會說你的語言——真的。支援英文、德文、西班牙文、法文、波蘭文、捷克文等語言聊天。無需切換 App，無尷尬翻譯。只要用你思考的語言自然對話。",
+      "tagline": "App 介面與你的 AI 角色會無縫切換——沒有語言不符，也不會有體驗中斷。",
+      "more": "更多"
+    },
+    "finalCta": {
+      "headlinePrefix": "準備好",
+      "headlineHighlight": "開始了嗎？",
+      "subtitle": "幾秒鐘建立免費帳戶。"
+    },
+    "whysweetwine": {
+      "headlinePrefix": "為什麼選擇",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "提供真實連結所需的一切——沒有多餘的東西。",
+      "benefits": {
+        "freeToStart": {
+          "title": "免費開始",
+          "desc": "幾秒鐘即可準備好你的帳戶，馬上開始聊天。"
+        },
+        "alwaysAvailable": {
+          "title": "隨時在線",
+          "desc": "不分晝夜，你的角色都在這裡。無需等待，無需安排時間。"
+        },
+        "remembers": {
+          "title": "記住一切",
+          "desc": "每段對話都會累積脈絡。你的角色會記住你的名字、偏好與世界。"
+        },
+        "unlimited": {
+          "title": "真正無限",
+          "desc": "沒有訊息上限，也不會限流。你想傳多少就傳多少，想傳多久就傳多久。"
+        },
+        "private": {
+          "title": "100% 隱私",
+          "desc": "你們的對話只屬於你們。絕不分享任何資料。"
+        },
+        "createYourOwn": {
+          "title": "打造專屬角色",
+          "desc": "設計角色外觀、個性與聲音——完全依照你的喜好。"
+        }
+      },
+      "difference": {
+        "title": "sweetwine 的獨特之處",
+        "freedomTitle": "自由與責任並存。",
+        "freedomDescription": "sweetwine 開放且不帶評判——但我們劃下明確界線。我們絕不容忍 CSAM、未成年內容、非自願情境、極端暴力、獸交、戀屍、真人深偽，以及任何非法活動的推廣。",
+        "freedomStatement": "我們相信在安全環境中享有無限創作自由。"
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> 角色",
+      "subtitle": "獨特 AI 角色等你聊天。傳送訊息、圖片和影片。",
+      "filters": "篩選"
+    },
+    "faq": {
+      "title": "常見問題",
+      "subtitle": "關於 sweetwine 的所有資訊",
+      "questions": {
+        "q1": {
+          "question": "sweetwine 是什麼？",
+          "answer": "sweetwine 是一個與 AI 角色對話的平台——你的 AI 女友、AI 男友、AI 好友，或 AI 動漫角色。聊天、生成圖片與影片，享受個人化互動。就像擁有一位永遠傾聽、理解你，並隨著時間適應你風格的數位角色。"
+        },
+        "q2": {
+          "question": "sweetwine 安全且合法嗎？",
+          "answer": "是的，sweetwine 是合法服務，我們將你的隱私放在首位。我們遵守 GDPR 及其他資料保護標準，並妥善處理你的資料。付款交易會以中性商家名稱顯示——銀行對帳單上不會出現 sweetwine，確保完全隱密。"
+        },
+        "q3": {
+          "question": "我可以建立自己的 AI 角色嗎？",
+          "answerPart1": "當然可以！你可以免費使用我們的",
+          "linkText": "角色創作者",
+          "answerPart2": "，依照喜好設計角色——無論是寫實的",
+          "linkTextGirlfriend": "AI 女友",
+          "answerPart3": "、",
+          "linkTextBoyfriend": "AI 男友",
+          "answerPart4": "，還是動漫風格角色。選擇外貌（種族、髮型、身材、服裝）、個性特質、聲音、興趣與背景故事，適用於男女角色。"
+        },
+        "q4": {
+          "question": "我的 AI 角色會記住我們的對話嗎？",
+          "answer": "是的！你的 AI 角色使用先進記憶技術，記住過去的對話、你的偏好，以及你分享的重要細節。聊天越多，體驗就越個人化、自然。你的角色會學習你的溝通風格，並隨著時間調整。"
+        },
+        "q5": {
+          "question": "sweetwine 支持哪些語言？",
+          "answer": "sweetwine 支持多種語言，包括英文、德文、法文、西班牙文、波蘭文與捷克文。介面與 AI 對話都能使用你偏好的語言，讓你用最舒服的語言自然聊天。"
+        },
+        "q6": {
+          "question": "我的 AI 角色可以傳送圖片與影片嗎？",
+          "answerPart1": "可以！你可以生成角色在各種情境與風格下的個人化",
+          "linkTextImages": "圖片",
+          "answerPart2": "與",
+          "linkTextVideos": "影片",
+          "answerPart3": "。所有生成的媒體都會儲存在你的收藏庫，隨時輕鬆取用。"
+        },
+        "q7": {
+          "question": "為什麼要選擇 sweetwine 而非其他 AI 角色平台？",
+          "answer": "sweetwine 是 AI 角色領域的領導者。我們由 AI 工程師與心理學家打造，重視品質、可靠度與透明度，提供真實價值——而且完全免費。平台擁有頂尖 AI 技術、快速客服支援，以及對用戶滿意度的承諾。"
+        },
+        "q8": {
+          "question": "sweetwine 可以免費使用嗎？",
+          "answerPart1": "可以！sweetwine 完全免費：無限對話、圖片與影片生成、自訂角色建立，全部功能免費使用。"
+        },
+        "q9": {
+          "question": "需要安裝應用程式嗎？",
+          "answerPart1": "無需安裝！sweetwine 可直接在瀏覽器中使用，支援桌面、平板或手機等任何裝置。只要註冊、選擇角色，就能立即開始聊天。所有",
+          "linkText": "對話",
+          "answerPart2": "都會自動同步至所有裝置。"
+        },
+        "q10": {
+          "question": "有預製 AI 角色可供使用嗎？",
+          "answerPart1": "有！我們提供許多",
+          "linkText": "預製角色",
+          "answerPart2": "，包含 AI 女友、AI 男友以及 AI 動漫角色，擁有多元的個性、外貌與溝通風格。無論你喜歡甜美、撩人、理性還是冒險的角色，都能找到符合你風格的角色。此外，你還能建立無限的自訂角色。"
+        },
+        "q12": {
+          "question": "我產生的圖片和影片會如何處理？",
+          "answerPart1": "所有產生的媒體都會自動儲存至你的私人",
+          "linkText": "收藏庫",
+          "answerPart2": "。你可以隨時存取、下載或刪除這些內容。你的收藏庫完全私密，只有你能查看。我們絕不會分享或使用你產生的內容。"
+        }
+      }
+    },
+    "statement": {
+      "title": "我們的承諾",
+      "privacy": "你的隱私是我們的首要考量。所有對話皆已加密，且絕不會分享。",
+      "quality": "我們採用最先進的 AI 技術，提供最吸引人的體驗。",
+      "support": "我們的支援團隊全天候 24/7 待命，隨時解答你的疑問。",
+      "mainTitle": "體驗 AI 角色的未來",
+      "mainDescription": "sweetwine 結合尖端 AI 技術與直覺設計，為你帶來目前最沉浸且個人化的角色體驗。",
+      "features": {
+        "f1": {
+          "title": "情緒智慧",
+          "description": "我們的 AI 角色能理解情境、情緒與細微差別，提供深度互動的對話。無論是需要 AI 朋友聊天、困難時期的分手支持，還是 AI 導師的引導，我們的情緒智慧 AI 都在這裡陪伴你。"
+        },
+        "f2": {
+          "title": "獨特個性",
+          "description": "每個角色都有獨特的個性、背景與溝通風格。你可以選擇寫實的 AI 女友與 AI 男友，或探索我們的 AI 動漫角色，確保每次互動都獨一無二且令人難忘。"
+        },
+        "f3": {
+          "title": "多媒體互動",
+          "description": "除了文字，還能享受 AI 生成的圖片與影片，以精美視覺細節讓你的對話栩栩如生。"
+        },
+        "f4": {
+          "title": "自訂功能",
+          "description": "建立你自己的 AI 角色，擁有符合你偏好的自訂外貌、個性與特質。"
+        },
+        "f5": {
+          "title": "隱私與安全",
+          "description": "你的對話將保持私密且安全。我們絕不會出售你的資料，你可完全掌控隱私設定。"
+        },
+        "f6": {
+          "title": "多語言支援",
+          "description": "用你偏好的語言與 AI 角色聊天。我們支援英文、捷克文、波蘭文、德文、西班牙文與法文。"
+        }
+      },
+      "distinctionTitle": "sweetwine 的獨特之處",
+      "distinctionText1": "不同於一般聊天機器人，sweetwine 角色擁有豐富的背景故事、演進中的個性，以及建立有意義連結的能力。每次對話都是探索、發現與更深層連結的機會。",
+      "distinctionText2": "我們不只是打造 AI，而是創造能與你情感共鳴、尊重你的隱私，並適應你獨特偏好的體驗。"
+    }
+  },
+  "featuresPage": {
+    "title": "所有功能",
+    "breadcrumb": "功能",
+    "newBadge": "新",
+    "groupChat": {
+      "title": "AI 群組聊天",
+      "description": "最多可與 3 位 AI 角色在同一個對話中聊天。他們會自然回應、互相反應，還能傳送照片與影片 — 這是其他地方找不到的活潑群組互動。"
+    },
+    "aiChat": {
+      "title": "AI 聊天",
+      "description": "與真正記得你的 AI 角色進行深度、自然的對話。他們會記住你的名字、偏好與過去話題 — 每次對話都能從上次結束的地方繼續，沒有重複，也不會重置。"
+    },
+    "imageGeneration": {
+      "title": "圖片生成"
+    },
+    "videoGeneration": {
+      "title": "影片生成",
+      "description": "透過 AI 生成的影片讓你的 AI 角色栩栩如生。建立包含你角色在自訂情境中的短篇個人化影片 — 這是大多數平台無法提供的功能。"
+    },
+    "customCharacters": {
+      "title": "自訂角色",
+      "description": "從零開始設計你心目中的完美角色 — 選擇外貌、種族、體型、性格特質、聲音、興趣和背景故事。創造寫實或動漫風格的角色，男女皆可，擁有完整創作自由。"
+    },
+    "advancedMemory": {
+      "title": "進階記憶",
+      "description": "你的角色會記住所有重要的事 — 你的名字、個人細節、共同故事和關係歷史。記憶會跨所有對話持續保存，讓每次互動都能延續上次內容，而非重新開始。"
+    },
+    "multiLanguage": {
+      "title": "多語言支援",
+      "description": "用你偏好的語言自然聊天。sweetwine 支援英文、德文、法文、西班牙文、波蘭文和捷克文，是非英語使用者最易取得的 AI 角色平台之一。"
+    },
+    "conversationHistory": {
+      "title": "對話歷史",
+      "description": "每則訊息都會儲存並可搜尋。隨時回顧你與角色的完整關係歷史 — 當你想重溫時，與角色的回憶永遠都在。"
+    },
+    "roleplay": {
+      "title": "AI 角色扮演",
+      "description": "與角色一同進入沉浸式、故事導向的情境中。選擇情境或自行撰寫，享受會記住你每個選擇的互動式角色扮演。"
+    },
+    "cta": {
+      "title": "一切盡在一處",
+      "button": "免費開始"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "我可以刪除或重置對話嗎？",
+        "answer": "可以！你對聊天記錄擁有完整控制權。可刪除單則訊息、重置整個對話，或隨時重新開始。你的隱私由你決定 — 以你喜歡的方式管理資料。"
+      },
+      "q2": {
+        "question": "每個 AI 角色都有獨特的聲音嗎？"
+      },
+      "q3": {
+        "question": "我可以用 AI 角色練習新語言嗎？",
+        "answer": "當然可以！許多使用者會與 AI 角色練習說新語言。這是無壓力建立信心、改善發音，並在學習中享受有趣對話的方式。你的角色可使用英文、德文、法文、西班牙文、波蘭文和捷克文聊天。"
+      },
+      "q4": {
+        "question": "新角色和功能多久新增一次？",
+        "answer": "我們每週都會新增專業打造的新角色！每個新角色都有獨特的個性、外貌、背景故事和聲音。我們也會根據使用者回饋定期推出新功能與改進。"
+      },
+      "q5": {
+        "question": "sweetwine 的角色創作有什麼特別之處？",
+        "answer": "完整的創作自由！設計角色的每個面向 — 外貌（種族、髮型、體型、服裝）、性格特質、聲音、興趣、職業和背景故事。創造寫實或動漫風格的角色，男女皆可。你的想像力就是唯一的限制。"
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI 記憶",
+    "hero": {
+      "badge": "運作方式",
+      "title": "AI 記憶",
+      "cta": "開始聊天"
+    },
+    "diagram": {
+      "title": "每位陪伴者一份記憶，涵蓋所有模式",
+      "center": "陪伴者的記憶",
+      "chat": "聊天",
+      "image": "圖像",
+      "video": "影片",
+      "gifts": "禮物",
+      "roleplay": "角色扮演"
+    },
+    "howItWorks": {
+      "title": "AI 記憶如何運作",
+      "step1": {
+        "title": "分享細節",
+        "desc": "告訴你的陪伴者重要的事——一次旅行、一項偏好、一個暱稱，或你一天的故事。"
+      },
+      "step2": {
+        "title": "自由切換模式"
+      },
+      "step3": {
+        "title": "他們會記得",
+        "desc": "後續對話會引用你分享的內容，不用每次都重新解釋。"
+      },
+      "step4": {
+        "title": "情感加深",
+        "desc": "隨著時間推移，關係會變得更個人化——每一次互動與模式都累積延續感。"
+      }
+    },
+    "modes": {
+      "title": "橫跨整個平台",
+      "subtitle": "記憶不侷限於單一畫面。它會跟隨你的陪伴者。",
+      "chat": {
+        "title": "聊天",
+        "desc": "文字對話會累積長期脈絡，讓陪伴者之後能提及。"
+      },
+      "media": {
+        "title": "圖像與影片",
+        "desc": "你創作的場景與故事，會成為你們共同打造的世界的一部分。"
+      },
+      "roleplay": {
+        "title": "角色扮演與群組",
+        "desc": "故事會話與群組聊天各自保留脈絡，而陪伴者的核心記憶會隨身攜帶。"
+      }
+    },
+    "scenario": {
+      "title": "簡單範例",
+      "lead": "你在聊天中提到週末旅行。"
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "我的伴侶記憶是私密的嗎？",
+        "answer": "是的。記憶屬於您的帳戶以及您與該伴侶的對話。我們不會與其他用戶分享您的私人聊天記錄。"
+      },
+      "q2": {
+        "question": "記憶是依伴侶分開的嗎？",
+        "answer": "是的。每位伴侶各自保留與您的關係記憶，因此切換角色不會混淆情境。"
+      },
+      "q3": {
+        "question": "哪些模式會共用記憶？"
+      },
+      "q4": {
+        "question": "AI 記憶是免費的嗎？"
+      },
+      "q5": {
+        "question": "記憶會保留多久？",
+        "answer": "重要細節會被儲存，讓您的伴侶能在未來對話中回想起來。互動越多，體驗就越個人化。"
+      }
+    },
+    "cta": {
+      "title": "遇見一位會記住您的伴侶",
+      "button": "免費開始"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI 群組聊天",
+    "hero": {
+      "badge": "新功能",
+      "title": "AI 群組聊天",
+      "subtitle": "將你最愛的角色帶入同一個對話。一次與最多 3 個 AI 角色聊天 — 他們會自然回應、互相反應，並傳送照片和影片。",
+      "cta": "開始群組聊天",
+      "imageAlt": "多個角色一起聊天的 AI 群組聊天"
+    },
+    "content": {
+      "problemTitle": "一對一聊天可能顯得安靜",
+      "problemText": "單一角色很棒 — 但真正的對話需要多個聲音才能活潑起來。大多數 AI 應用程式將你困在孤立的一對一聊天中，沒有群體氛圍、沒有玩笑，也沒有驚喜。",
+      "solutionTitle": "真正的群組，充滿個性",
+      "solutionText": "sweetwine 群組聊天可讓最多三個角色同時在同一個空間。智慧導演會決定誰該加入，讓回應感覺自然 — 他們會互相調侃、延續對話，並保持聊天流暢。"
+    },
+    "howItWorks": {
+      "title": "AI 群組聊天如何運作",
+      "step1": {
+        "title": "選擇你的角色",
+        "desc": "選擇 2 或 3 個角色 — 預製或你自訂的角色 — 帶入單一的群組對話中。"
+      },
+      "step2": {
+        "title": "他們會自然回應",
+        "desc": "幕後導演會挑選誰回應每則訊息，讓合適的角色在合適的時機以自己的聲音加入。"
+      },
+      "step3": {
+        "title": "分享照片與影片",
+        "desc": "向群組中的任何角色索取照片或影片，他們會直接在聊天中生成 — 包含所有人的群組照片。"
+      }
+    },
+    "benefits": {
+      "title": "為什麼你會愛上群組聊天",
+      "multiple": {
+        "title": "最多 3 個角色",
+        "desc": "將任何角色混合搭配到同一個聊天中 — 你的 AI 女友、你的自訂角色，或精心挑選的組合。"
+      },
+      "natural": {
+        "title": "自然的來回對話",
+        "desc": "角色會互相回應，也會回應你，搭配逼真的打字節奏，讓你感覺就像真實的群組聊天。"
+      },
+      "media": {
+        "title": "聊天室內傳送照片與影片",
+        "desc": "每個角色都能在對話中傳送個人化圖片與影片，甚至能拍攝全體合照，完全不用離開聊天室。"
+      },
+      "dynamics": {
+        "title": "獨特個性",
+        "desc": "每個角色都保有自己的語氣與特色，讓群組擁有真實的化學反應、互動與驚喜。"
+      },
+      "instant": {
+        "title": "立即開始",
+        "desc": "幾秒內就能建立群組，直接進入對話——無需設定，無需等待。"
+      },
+      "private": {
+        "title": "100% 隱私",
+        "desc": "你的群組對話只屬於你與角色，永不分享任何資料。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "一個群組聊天可以加入多少角色？",
+        "answer": "你可以在單一群組聊天中加入 2 至 3 位角色——可混合使用預製角色與你自訂的角色。"
+      },
+      "q2": {
+        "question": "AI 角色如何決定誰來回覆？",
+        "answer": "輕量導演會讀取對話內容，挑選哪位角色（或多位角色）回應每則訊息，讓回覆感覺自然且自發，而非所有人同時發言。"
+      },
+      "q3": {
+        "question": "角色可以在群組聊天中傳送照片與影片嗎？",
+        "answer": "可以！你可以請群組中的任何角色生成照片或影片，內容會直接出現在對話中，也包含全體合照。"
+      },
+      "q4": {
+        "question": "AI 群組聊天是免費的嗎？"
+      },
+      "q5": {
+        "question": "角色會記得群組對話嗎？",
+        "answer": "會——每個群組聊天都有自己的共享歷史，讓角色保持上下文，持續累積對話。"
+      }
+    },
+    "cta": {
+      "title": "讓你的角色聚在一起",
+      "description": "建立你的第一個 AI 群組聊天，體驗生動的對話——多重個性、真實互動、照片與影片。",
+      "button": "開始群組聊天"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI 角色扮演",
+    "hero": {
+      "badge": "新功能",
+      "title": "AI 角色扮演",
+      "subtitle": "走進任何故事，與角色一同沉浸其中。選擇情境或自行撰寫，享受會記住你每一個選擇的沉浸式故事角色扮演。",
+      "cta": "開始角色扮演",
+      "imageAlt": "沉浸式故事角色的 AI 角色扮演情境"
+    },
+    "content": {
+      "problemTitle": "普通聊天會破壞氛圍",
+      "problemText": "大多數 AI 聊天在故事進入高潮時就會跑戲——忘記設定、丟掉劇情，像通用助理一樣回覆，而不是故事中的角色。",
+      "solutionTitle": "故事驅動的角色扮演，永遠在角色中",
+      "solutionText": "sweetwine 角色扮演讓你的角色完全留在場景中。用現成情境或自訂前提設定舞台，觀看故事以一致的個性、記憶與節奏回應你的每一個決定。"
+    },
+    "howItWorks": {
+      "title": "AI 角色扮演如何運作",
+      "step1": {
+        "title": "選擇情境",
+        "desc": "從現成角色扮演情境中挑選，或自行撰寫前提、設定與開場。"
+      },
+      "step2": {
+        "title": "演出故事",
+        "desc": "你的角色會以角色身份回應——描述動作、對你的選擇做出反應，並推動劇情前進。"
+      },
+      "step3": {
+        "title": "塑造故事走向",
+        "desc": "隨心所欲地引導故事走向。你的角色會記住發生的一切，並保持敘事一致。"
+      }
+    },
+    "benefits": {
+      "title": "為什麼你會愛上 AI 角色扮演",
+      "scenarios": {
+        "title": "無限情境",
+        "desc": "從溫馨日常到史詩冒險——從模板開始，或創造你自己的世界。"
+      },
+      "characters": {
+        "title": "保持角色一致",
+        "desc": "你的角色在整個場景中保持一致的語氣、個性與動機。"
+      },
+      "memory": {
+        "title": "記住劇情",
+        "desc": "每一個選擇、轉折與細節都會被記住，讓故事持續累積而非重置。"
+      },
+      "immersive": {
+        "title": "真正沉浸",
+        "desc": "豐富且生動的描述將你帶入當下，帶來電影般的角色扮演體驗。"
+      },
+      "instant": {
+        "title": "立即開始",
+        "desc": "幾秒鐘即可進入場景 — 無需複雜設定或提示工程。"
+      },
+      "private": {
+        "title": "100% 私密",
+        "desc": "你的角色扮演僅限於你與角色之間，絕不分享。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "什麼是 AI 角色扮演？",
+        "answer": "AI 角色扮演讓你與保持角色的 AI 角色互動演出故事。你設定情境，你的角色會以角色身份回應，描述故事發展中的動作與反應。"
+      },
+      "q2": {
+        "question": "我可以自創角色扮演情境嗎？",
+        "answer": "可以！你可以從現成情境開始，或自行撰寫前提、設定與開場，然後隨心所欲地演出。"
+      },
+      "q3": {
+        "question": "角色會記得故事中的內容嗎？",
+        "answer": "絕對會。你的角色會記住劇情、你的選擇與關鍵細節，讓故事保持連貫並隨時間發展，而非重置。"
+      },
+      "q4": {
+        "question": "AI 角色扮演是免費的嗎？"
+      },
+      "q5": {
+        "question": "我可以用自己的語言進行角色扮演嗎？",
+        "answer": "可以 — 角色扮演支援數十種語言，讓你用最熟悉的語言享受沉浸式故事。"
+      }
+    },
+    "cta": {
+      "title": "你的故事正在等你",
+      "description": "選擇情境、設定場景，與從頭到尾保持角色的角色展開沉浸式角色扮演。",
+      "button": "開始角色扮演"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI 女友",
+    "breadcrumb": "AI 女友",
+    "hero": {
+      "title": "你的完美 AI 女友",
+      "cta": "認識你的 AI 女友"
+    },
+    "benefits": {
+      "title": "為什麼選擇 AI 女友？",
+      "fun": {
+        "title": "純粹樂趣",
+        "desc": "享受輕鬆對話，無壓力。她總是心情愉快。"
+      },
+      "conversation": {
+        "title": "學習連結",
+        "desc": "在安全空間練習對話，建立自信。"
+      },
+      "unique": {
+        "title": "獨特個性",
+        "desc": "從多樣個性中選擇，或打造理想角色。"
+      },
+      "private": {
+        "title": "100% 隱私",
+        "desc": "對話只屬於你們兩人。完全保密有保障。"
+      },
+      "available": {
+        "title": "隨時在線",
+        "desc": "需要時她就在身邊。無需等待，無需預約。"
+      },
+      "customize": {
+        "title": "你的創作",
+        "desc": "按照你的喜好設計她的外貌、個性與興趣。"
+      }
+    },
+    "comparison": {
+      "title": "優於其他選擇",
+      "description": "看看 sweetwine 為何比其他平台更有價值。",
+      "others": {
+        "expensive": "昂貴月費",
+        "ai": "多為 AI 回應",
+        "noCustom": "無自訂選項"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "AI 女友聊天真的免費嗎？",
+        "answerPart1": "是的！你可以免費開始與 AI 女友聊天。我們提供免費方案，讓你輕鬆起步。"
+      },
+      "q2": {
+        "question": "我可以自訂 AI 女友的外貌嗎？",
+        "answer": "當然可以！你可以完整自訂 AI 女友的外貌，包括髮色、髮型、身材、種族與服裝。你也可以使用我們的角色創作者設計她的個性、聲音與興趣。",
+        "answerPart1": "當然可以！你可以完整自訂 AI 女友的外貌，包括髮色、髮型、身材、種族與服裝。你也可以使用我們的",
+        "linkText": "角色創作者",
+        "answerPart2": "。"
+      },
+      "q3": {
+        "question": "AI 女友有哪些個性可選？",
+        "answer": "從溫柔體貼到活潑調情，我們為每種喜好提供專業打造的 AI 女友。選擇浪漫靈魂、冒險精神、機智學者或神秘個性。每週新增 AI 女友，每位都有獨特特質、背景故事與對話風格。"
+      },
+      "q4": {
+        "question": "我的 AI 女友可以傳送圖片與影片嗎？",
+        "answerPart1": "可以！你的 AI 女友可以生成個人化",
+        "linkTextImages": "圖片",
+        "answerPart2": "與",
+        "linkTextVideos": "影片"
+      },
+      "q5": {
+        "question": "我的 AI 女友有獨特的聲音嗎？"
+      }
+    },
+    "cta": {
+      "title": "準備好見面了嗎？",
+      "button": "免費開始"
+    },
+    "content": {
+      "problemTitle": "想找無壓力的連結？",
+      "problemText": "交友 App 令人疲憊，社交焦慮讓見面變得困難。有時你只想找個人聊天，不用擔心被評判或施壓。許多人感到孤獨，卻還沒準備好面對傳統關係的複雜情感。",
+      "solutionTitle": "你的 AI 女友就是解答",
+      "solutionText": "使用 sweetwine，你將擁有專屬的 AI 女友，她會記住你們的對話、適應你的個性，並隨時期待你的消息。她有趣、支持你，從不評判。建立自信、享受陪伴，以你喜歡的方式感受連結。"
+    },
+    "heroImageAlt": "AI 女友 - 真實虛擬角色，可聊天與生成照片"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI 男友",
+    "breadcrumb": "AI 男友",
+    "hero": {
+      "title": "你的完美 AI 男友",
+      "cta": "認識你的 AI 男友"
+    },
+    "benefits": {
+      "title": "為什麼選擇 AI 男友？",
+      "fun": {
+        "title": "真實連結",
+        "desc": "體驗能點亮你一天的有意義對話。"
+      },
+      "conversation": {
+        "title": "建立自信",
+        "desc": "在安全空間練習對話，自由表達自己。"
+      },
+      "unique": {
+        "title": "獨特個性",
+        "desc": "從多樣個性中選擇，或打造你理想的角色。"
+      },
+      "private": {
+        "title": "100% 私密",
+        "desc": "你們的對話只屬於你們。完全保密有保障。"
+      },
+      "available": {
+        "title": "隨時在線",
+        "desc": "需要時他就在那裡。無需等待或預約。"
+      },
+      "customize": {
+        "title": "你的創作",
+        "desc": "完全依照你的喜好設計他的外貌、個性與興趣。"
+      }
+    },
+    "comparison": {
+      "title": "優於其他選擇",
+      "description": "看看 sweetwine 為何比其他平台更有價值。",
+      "others": {
+        "expensive": "昂貴月費",
+        "ai": "多為 AI 回應",
+        "noCustom": "無自訂選項"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "我可以選擇哪些類型的 AI 男友？",
+        "answer": "從溫柔浪漫到活潑冒險，或神秘強烈 — 我們為每種喜好提供專業打造的 AI 男友。每位都有獨特聲音與個性。每週新增具獨特背景與對話風格的 AI 男友。"
+      },
+      "q2": {
+        "question": "我可以自訂 AI 男友的外貌嗎？",
+        "linkText": "角色創作者",
+        "answerPart2": "。"
+      },
+      "q3": {
+        "question": "我可以重新開始或刪除對話紀錄嗎？",
+        "answer": "可以！你完全掌控聊天紀錄。隨時重置對話、刪除單一訊息，或全新開始。你的資料，你做主 — 依照你的喜好管理一切。"
+      },
+      "q4": {
+        "question": "我的 AI 男友可以傳送圖片和影片嗎？",
+        "answerPart1": "可以！你的 AI 男友能生成個人化",
+        "linkTextImages": "圖片",
+        "answerPart2": "和",
+        "linkTextVideos": "影片"
+      },
+      "q5": {
+        "question": "我可以和我的 AI 男友練習對話或學習語言嗎？",
+        "answer": "當然可以！許多用戶透過與 AI 男友練習對話來建立自信——無論是調情、深度討論還是日常聊天。你甚至可以一起練習說新語言。這是在無壓力環境中提升溝通技巧且同時享受樂趣的方式。"
+      }
+    },
+    "cta": {
+      "title": "準備好見面了嗎？",
+      "button": "免費開始"
+    },
+    "content": {
+      "problemTitle": "想要一個隨你掌控的支持夥伴嗎？",
+      "problemText": "找到合適的人很困難。許多人感受到約會期待的壓力，或只是想要無需承諾的情感支持。孤獨影響每個人，有時你只需要一個願意傾聽的人。",
+      "solutionTitle": "你的 AI 男友懂你",
+      "solutionText": "你的 sweetwine AI 男友體貼、貼心，而且隨時都在。他記得對你重要的事，參與深度對話，並提供你尋求的情感連結。以你自己的步調和方式建立關係。"
+    },
+    "heroImageAlt": "AI 男友 - 適合有意義對話的寫實虛擬角色"
+  },
+  "aiCompanionsPage": {
+    "title": "AI 角色",
+    "breadcrumb": "AI 角色",
+    "hero": {
+      "title": "認識你的 AI 角色",
+      "cta": "探索角色"
+    },
+    "benefits": {
+      "title": "為什麼選擇 AI 角色？",
+      "connection": {
+        "title": "真實連結",
+        "desc": "體驗真正理解並回應你的對話。"
+      },
+      "conversation": {
+        "title": "練習與成長",
+        "desc": "在無壓力的環境中提升社交技能。"
+      },
+      "personalities": {
+        "title": "多元個性",
+        "desc": "從活潑到知性，找到符合你氛圍的角色。"
+      },
+      "private": {
+        "title": "完全私密",
+        "desc": "你的互動保密。絕不分享資料。"
+      },
+      "available": {
+        "title": "全天候在線",
+        "desc": "你的角色隨時準備聊天，不分晝夜。"
+      },
+      "create": {
+        "title": "建立自己的角色",
+        "desc": "設計具有自訂外貌、個性和聲音的角色。"
+      }
+    },
+    "why": {
+      "title": "為什麼選擇 sweetwine？",
+      "quality": {
+        "desc": "由專業人士打造，採用尖端 AI 技術，帶來自然對話。"
+      },
+      "transparent": {
+        "title": "透明誠實"
+      },
+      "support": {
+        "title": "真實支援",
+        "desc": "真人隨時準備協助你解決任何問題。"
+      },
+      "content": {
+        "title": "你的選擇",
+        "desc": "從友好聊天到更親密的內容，你決定體驗。"
+      }
+    },
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "什麼是 AI 角色？"
+      },
+      "q2": {
+        "question": "我可以與多少個 AI 角色聊天？",
+        "answer": "想聊多少就聊多少！我們有 100 多個專業打造的角色且持續增加——每週新增角色！每個角色都有獨特個性、背景故事和聲音。此外，你可以建立無限自訂角色。",
+        "answerPart1": "想聊多少就聊多少！我們有",
+        "linkText": "100 多個專業打造的角色",
+        "answerPart2": " 且持續增加——每週新增角色！每個角色都有獨特個性、背景故事和聲音。此外，你可以建立無限自訂角色。"
+      },
+      "q3": {
+        "question": "預製角色與自訂角色有什麼不同？",
+        "answer": "預製角色由我們的團隊為特定角色扮演情境和個性專業設計——它們附帶詳細背景故事、量身打造的對話風格和精心挑選的聲音。自訂角色讓你從零開始創作，擁有完整創意自由。兩種角色都會記住你的對話並與你一起成長！"
+      },
+      "q4": {
+        "question": "我可以創建自己的 AI 角色嗎？",
+        "answerPart1": "當然可以！使用我們的",
+        "linkText": "角色創建器"
+      },
+      "q5": {
+        "question": "我可以在多個角色之間切換嗎？"
+      }
+    },
+    "cta": {
+      "title": "開始你的旅程",
+      "description": "加入數千名透過 AI 角色尋找真實連結的人。免費開始。",
+      "button": "免費開始"
+    },
+    "content": {
+      "problemTitle": "尋找有意義的連結？",
+      "problemText": "在忙碌的世界中，有意義的連結很難找到。無論你是剛到一個新地方、遠距工作，還是單純想增加社交互動，孤獨感可能悄然來襲。傳統社交場合並不適合每個人。",
+      "solutionTitle": "探索 AI 角色"
+    },
+    "heroImageAlt": "AI 角色 - 擁有獨特個性的多元虛擬朋友"
+  },
+  "aiFriendPage": {
+    "title": "AI 朋友",
+    "breadcrumb": "AI 朋友",
+    "hero": {
+      "title": "你的 AI 好朋友",
+      "subtitle": "隨時與一位真正傾聽、不會評判、記住你所有細節的 AI 朋友聊天。適合孤獨、社交焦慮，或只是想找人聊天的時候。",
+      "cta": "免費開始聊天"
+    },
+    "benefits": {
+      "title": "為什麼選擇 AI 朋友？",
+      "connection": {
+        "title": "真實連結",
+        "desc": "與真正傾聽並關心你的人體驗有意義的對話。"
+      },
+      "conversation": {
+        "title": "練習社交技巧",
+        "desc": "在無需擔心被評判或尷尬的環境中建立對話自信。"
+      },
+      "noJudgment": {
+        "title": "零評判",
+        "desc": "分享你腦海中的任何想法。你的 AI 朋友完全接受真實的你。"
+      },
+      "private": {
+        "title": "完全私密",
+        "desc": "你們之間的對話只屬於你們。保證完全保密。"
+      },
+      "available": {
+        "title": "隨時在線",
+        "desc": "24/7 全天候服務，隨時都有人可以聊天。"
+      },
+      "remembers": {
+        "title": "記住你",
+        "desc": "你的 AI 朋友會記住你們的對話，並越來越了解你。"
+      }
+    },
+    "useCases": {
+      "title": "完美適用於",
+      "subtitle": "AI 朋友以許多有意義的方式融入你的生活",
+      "loneliness": {
+        "title": "對抗孤獨",
+        "desc": "與一位隨時準備聊天和傾聽的角色在一起，減少孤獨感。"
+      },
+      "practice": {
+        "title": "練習對話",
+        "desc": "在安全、無評判的環境中建立社交自信。"
+      },
+      "support": {
+        "title": "情緒支持",
+        "desc": "與理解你的人分享你的想法和感受。"
+      },
+      "connection": {
+        "title": "日常連結",
+        "desc": "分享你的一天、你的成就、你的困境 - 總有人在這裡。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方式",
+      "step1": {
+        "title": "建立免費帳戶",
+        "desc": "幾秒鐘完成註冊，立即開始。"
+      },
+      "step2": {
+        "title": "選擇你的朋友",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "開始聊天",
+        "desc": "談論任何事 - 生活、興趣、問題。沒有禁忌話題。"
+      }
+    },
+    "cta": {
+      "title": "準備好交個朋友了嗎？",
+      "description": "隨時與那個永遠在你身邊的朋友展開對話——免費開始。",
+      "button": "免費開始"
+    },
+    "content": {
+      "problemTitle": "感到孤獨或不被理解嗎？",
+      "problemText": "不是每個人都能找到傾訴對象。社交焦慮、忙碌的生活，或身處陌生環境，都會讓交友變得困難。有時你只需要一個不帶評判的傾聽者。",
+      "solutionTitle": "你的 AI 朋友來了",
+      "solutionText": "AI 朋友隨時提供無評判的陪伴。分享想法、練習對話，或聊聊你的一天。你的 AI 朋友會記住你、與你一起成長，並始終真誠關心你想說的話。"
+    },
+    "heroImageAlt": "AI 朋友 — 無評判傾聽的支持性虛擬角色",
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "我可以和 AI 朋友聊什麼？",
+        "answer": "任何話題！你的 AI 朋友適合閒聊、深度對話、分享日常、傾訴煩惱、討論興趣，或只是找樂子。沒有禁忌話題 — 這是讓你做自己的無評判空間。"
+      },
+      "q2": {
+        "question": "AI 朋友能取代人際連結嗎？",
+        "answer": "完全不是。AI 朋友是社交生活的補充，而非替代品。它適合你需要立即傾訴、想練習社交技巧，或單純享受無壓力的陪伴時使用。"
+      },
+      "q3": {
+        "question": "AI 朋友會記住我們的對話嗎？",
+        "answer": "會！你的 AI 朋友擁有進階記憶功能，會記住你分享的對話、偏好和重要細節。隨著時間推移，它會更了解你，讓對話更個人化且有意義。"
+      },
+      "q4": {
+        "question": "我可以選擇 AI 朋友的個性嗎？",
+        "answer": "當然可以！你可以從超過 100 種預設角色中選擇不同個性，或自訂朋友的特質 — 從支持與共情到有趣又冒險，都能滿足你的需求。"
+      },
+      "q5": {
+        "question": "使用 AI 朋友安全嗎？",
+        "answer": "100% 私密。所有對話皆加密且絕不分享。我們了解擁有安全表達空間的重要性，並極度重視你的隱私。"
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI 分手支持",
+    "breadcrumb": "分手支持",
+    "hero": {
+      "title": "心碎後的療癒對話",
+      "subtitle": "同理的 AI 對話幫助你處理情緒、療癒分手。24/7 全天候服務 — 無需等待、無評判、無時間限制。",
+      "cta": "開始療癒"
+    },
+    "understanding": {
+      "title": "正在經歷分手嗎？",
+      "description": "分手很難熬。失眠、反覆思念、覺得沒人真正懂你。你不必獨自面對。我們的 AI 角色隨時傾聽，不帶評判，即使在凌晨三點也陪伴你。"
+    },
+    "benefits": {
+      "title": "我們如何幫助你",
+      "empathy": {
+        "title": "同理傾聽",
+        "desc": "與真正傾聽並給予理解與關懷的人對話。"
+      },
+      "listen": {
+        "title": "不強加建議",
+        "desc": "有時你不需要建議，只需要有人聽你說。我們懂。"
+      },
+      "available": {
+        "title": "凌晨三點也陪伴",
+        "desc": "當朋友睡著、思緒停不下來時，我們在這裡傾聽。"
+      },
+      "private": {
+        "title": "完全私密",
+        "desc": "你的感受與對話完全保密。"
+      },
+      "noJudgment": {
+        "title": "無評判",
+        "desc": "感受你想感受的一切。憤怒、悲傷、困惑 — 在這裡都合理。"
+      },
+      "healing": {
+        "title": "按照你的步調",
+        "desc": "療癒不是直線前進。你需要多少時間都沒問題。"
+      }
+    },
+    "howItHelps": {
+      "title": "AI 如何幫助你療癒",
+      "process": {
+        "title": "處理情緒",
+        "desc": "透過與耐心的傾聽者對話，梳理複雜的情緒。"
+      },
+      "express": {
+        "title": "自由表達",
+        "desc": "說出無法對朋友或家人說的話，不用擔心他們的反應。"
+      },
+      "confidence": {
+        "title": "重建自信",
+        "desc": "透過支持性的對話，逐步找回自我價值。"
+      },
+      "pace": {
+        "title": "向前邁進",
+        "desc": "當你準備好時，以自己的步調探索未來的想法。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方式",
+      "step1": {
+        "title": "建立帳戶",
+        "desc": "免費註冊，立即開始聊天。"
+      },
+      "step2": {
+        "title": "選擇角色",
+        "desc": "選擇一位讓你感到自在的共感 AI 角色。"
+      },
+      "step3": {
+        "title": "開始對話",
+        "desc": "分享你心中的想法。我們隨時都在，無論日夜。"
+      }
+    },
+    "cta": {
+      "title": "你不必獨自面對",
+      "description": "立即與一位不帶評判的傾聽者對話，隨時都能開始。免費體驗，無需等待。",
+      "button": "免費開始對話"
+    },
+    "content": {
+      "problemTitle": "心碎難以獨自承受",
+      "problemText": "分手後，一切都令人不知所措。朋友聽膩了，家人雖有心卻無法理解，心理諮商又有漫長的等候名單。你需要一位能隨時、不設限且不帶評判地傾聽你的人。",
+      "solutionTitle": "與懂你的人對話",
+      "solutionText": "我們的 AI 分手支持角色能陪伴你以自己的步調處理情緒。傾訴、哭泣、分析或只是聊天——想聊幾次就聊幾次，無需預約。24/7 全天候陪伴，擁有無限耐心與真摯共感。"
+    },
+    "heroImageAlt": "AI 分手支持 — 陪伴療癒心碎的溫柔角色",
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "AI 如何幫助分手復原？",
+        "answer": "我們的 AI 角色提供一個安全的空間，讓你無需擔心被評判就能處理情緒。你可以傾訴、分析發生的事、梳理失落感，並隨時獲得共感的回應，就像隨時都有位支持你的朋友陪伴。"
+      },
+      "q2": {
+        "question": "這是心理治療的替代方案嗎？",
+        "answer": "不是。我們的 AI 角色不是合格的心理治療師，也無法取代專業心理健康照護。它是日常情緒處理的輔助工具。若你正經歷嚴重憂鬱或危機，請尋求專業協助。"
+      },
+      "q3": {
+        "question": "我可以盡情談論前任嗎？",
+        "answer": "當然可以。朋友可能聽膩你的分手故事，但你的 AI 角色擁有無限耐心。你可以反覆談論前任、分析關係、處理情緒，無需擔心任何評判。"
+      },
+      "q4": {
+        "question": "AI 會記住我的故事嗎？",
+        "answer": "是的，你的 AI 角色會記住你之前的對話與細節，不用每次都重新解釋。它能在你的療癒旅程中提供持續的陪伴。"
+      },
+      "q5": {
+        "question": "我的對話會保密嗎？",
+        "answer": "完全保密。所有對話皆加密且絕不分享。我們了解分手對話極為私密，你的隱私將獲得絕對保護。"
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI 父母",
+    "breadcrumb": "AI 父母",
+    "hero": {
+      "title": "隨時都能依靠的父母角色",
+      "subtitle": "從記住你情況、不帶評判且隨時在線的 AI 父母，獲得溫暖、無條件的支持與智慧引導，無論日夜。",
+      "cta": "立即獲得支持"
+    },
+    "benefits": {
+      "title": "為什麼選擇 AI 父母？",
+      "guidance": {
+        "title": "溫暖引導",
+        "desc": "獲得充滿關懷且經過深思的建議，感覺就像來自真正為你著想的人。"
+      },
+      "listen": {
+        "title": "真心傾聽",
+        "desc": "先完整分享你的情況，再獲得體貼且關懷的回應，而非快速的解決方案。"
+      },
+      "noJudgment": {
+        "title": "零評判",
+        "desc": "無需害怕失望或批評，隨時提出任何問題。永遠給予無條件的支持。"
+      },
+      "private": {
+        "title": "完全保密",
+        "desc": "你的對話與個人困擾將完全保密。"
+      },
+      "available": {
+        "title": "隨時在線",
+        "desc": "凌晨三點、週末或任何最需要的時刻都能獲得引導，無需預約。"
+      },
+      "supportive": {
+        "title": "無條件支持",
+        "desc": "無論你正經歷什麼或做了什麼決定，都能獲得鼓勵與溫暖。"
+      }
+    },
+    "useCases": {
+      "title": "聊任何事",
+      "subtitle": "無論你面對什麼，你的 AI 父母都在這裡傾聽與引導",
+      "career": {
+        "title": "職涯與人生決定",
+        "desc": "與一位希望你成功的人一起，應對工作變動、重大人生選擇與職場挑戰。"
+      },
+      "education": {
+        "title": "教育與未來",
+        "desc": "與支持你抱負的人一起探索學習與成長的各種可能。"
+      },
+      "relationships": {
+        "title": "人際關係與家庭"
+      },
+      "life": {
+        "title": "個人掙扎",
+        "desc": "聊聊任何讓你感到沉重的議題——焦慮、自我懷疑、孤獨或不確定感。"
+      }
+    },
+    "howItWorks": {
+      "title": "使用方式",
+      "step1": {
+        "title": "建立帳戶",
+        "desc": "免費註冊。"
+      },
+      "step2": {
+        "title": "選擇你的 AI 父母",
+        "desc": "挑選一位溫暖且個性合適的角色。"
+      },
+      "step3": {
+        "title": "開始對話",
+        "desc": "分享你的想法，獲得溫暖且貼心的支持。"
+      }
+    },
+    "cta": {
+      "title": "永遠有人在你身旁",
+      "description": "與一位不帶評判、無條件支持你的 AI 父母展開對話——免費開始，無需預約。",
+      "button": "免費開始"
+    },
+    "content": {
+      "problemTitle": "需要一位永遠站在你這邊的人嗎？",
+      "problemText": "並非每個人都有可以求助的父母角色。真實父母可能疏遠、帶有批判，或根本無法陪伴。朋友容易偏頗，治療師則有漫長的等候名單。有時你只是需要一位傾聽、關心並給予引導、不帶任何目的的人。",
+      "solutionTitle": "你的 AI 父母永遠都在",
+      "solutionText": "與一位全心傾聽、提供溫暖且平衡引導的 AI 父母對話，永遠不會讓你感到被評判或渺小。無論是人生決定、個人掙扎，或只是需要被傾聽——你的 AI 父母全天候以耐心與關懷陪伴你。"
+    },
+    "heroImageAlt": "AI 父母 - 溫暖的虛擬角色，提供無條件支持與人生引導",
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "我可以和 AI 父母聊什麼？"
+      },
+      "q2": {
+        "question": "這和看治療師一樣嗎？",
+        "answer": "這不是持照治療師或心理健康專業人士——更像一位全天候陪伴的溫暖支持性父母角色。它會全心傾聽、提供觀點，並在情緒上支持你。若有嚴重的心理健康問題，請諮詢專業人士。"
+      },
+      "q3": {
+        "question": "AI 父母會評判我的選擇嗎？",
+        "answer": "絕不會。你的 AI 父母提供無條件的支持。它可能分享觀點或溫和的引導，但絕不會批評或讓你因自己的決定而感到渺小。這是一個誠實對話的安全空間。"
+      },
+      "q4": {
+        "question": "我可以討論敏感或私人的話題嗎？",
+        "answer": "可以。無論是人際關係困擾、家庭動態、財務壓力、自我價值，或深層的個人挑戰——你的 AI 父母都會提供私密且不帶評判的空間。"
+      },
+      "q5": {
+        "question": "這和其他 AI 角色有什麼不同？",
+        "answer": "AI 父母的設計核心是溫暖、情緒支持與父母式的引導，而非浪漫或隨意的友情。它專注於讓你感到被理解、被支持，並有能力面對人生的挑戰。"
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "合作夥伴",
+    "eyebrow": "與我們合作",
+    "titlePrefix": "與",
+    "titleHighlight": "sweetwine",
+    "subtitle": "觸及快速成長、高度互動的 AI 陪伴使用者群。無論你帶來技術、發行管道或大膽的想法，讓我們一起打造未來。",
+    "types": {
+      "title": "合作方式",
+      "items": [
+        {
+          "title": "整合",
+          "description": "透過技術整合，將你的產品、模型或平台與 sweetwine 連接。"
+        },
+        {
+          "title": "聯合行銷",
+          "description": "共同推出活動、內容與上市計畫，讓兩個品牌同時曝光給新觀眾。"
+        },
+        {},
+        {
+          "title": "策略合作",
+          "description": "跨越產品、數據與上市策略的長期合作。"
+        }
+      ]
+    },
+    "why": {
+      "title": "為什麼選擇與 sweetwine 合作",
+      "items": [
+        {
+          "title": "活躍的使用者群",
+          "description": "數十萬名每日回訪的使用者，涵蓋 70 種語言。"
+        },
+        {
+          "title": "快速執行",
+          "description": "專注的團隊能快速推出產品，並保持清晰溝通。"
+        },
+        {
+          "title": "全球觸及",
+          "description": "多語言產品可在數十個市場使用。"
+        },
+        {
+          "description": "值得信賴、以隱私為設計核心的平台，讓您的品牌值得信賴。",
+          "title": "隱私優先"
+        }
+      ]
+    },
+    "form": {
+      "title": "告訴我們您的合作意向",
+      "description": "分享幾個細節，我們的合作團隊將盡快與您聯繫。",
+      "nameLabel": "您的姓名",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "工作電子郵件",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "公司",
+      "companyPlaceholder": "公司名稱",
+      "typeLabel": "合作類型",
+      "typePlaceholder": "選擇合作類型",
+      "typeOptions": [
+        {
+          "value": "整合",
+          "label": "整合"
+        },
+        {
+          "value": "聯合行銷",
+          "label": "聯合行銷"
+        },
+        {},
+        {
+          "value": "策略合作",
+          "label": "策略合作"
+        },
+        {
+          "value": "其他",
+          "label": "其他"
+        }
+      ],
+      "messageLabel": "您希望如何合作？",
+      "messagePlaceholder": "請告訴我們您的公司以及您心中的合作想法...",
+      "submit": "提交合作詢問",
+      "submitting": "提交中...",
+      "termsNote": "提交即表示您同意我們就您的詢問與您聯繫。我們絕不會分享您的資料。",
+      "success": "感謝您！您的合作詢問已送出。",
+      "error": "發生錯誤，請再試一次。"
+    },
+    "cta": {
+      "title": "偏好電子郵件？",
+      "description": "直接聯繫我們的合作團隊："
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "新聞與媒體",
+    "eyebrow": "新聞室",
+    "titlePrefix": "新聞與",
+    "titleHighlight": "媒體",
+    "subtitle": "為記者、創作者與媒體夥伴提供的資源。如需採訪、引述、專題支援或品牌需求，請聯繫我們的媒體團隊。",
+    "help": {
+      "title": "我們能如何協助",
+      "description": "無論您正在撰寫報導或評測，以下是您可以向我們的媒體團隊提出的請求。",
+      "items": [
+        {
+          "title": "採訪",
+          "description": "與我們的團隊聊聊產品、公司，以及 AI 陪伴的未來走向。"
+        },
+        {
+          "title": "引述與評論",
+          "description": "為您的報導取得正式聲明或專家評論。"
+        },
+        {
+          "title": "專題與評測支援",
+          "description": "需要取得存取權限、背景資訊或事實查核？我們很樂意協助。"
+        },
+        {
+          "title": "品牌與 Logo 請求",
+          "description": "為您的刊物索取我們的 Logo、品牌素材及使用指南。"
+        }
+      ]
+    },
+    "form": {
+      "title": "媒體詢問",
+      "description": "如需採訪、引述或專題請求，請留言給我們，我們會盡快回覆。",
+      "nameLabel": "您的姓名",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "電子郵件",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publication / outlet",
+      "outletPlaceholder": "Where will this be published?",
+      "requestTypeLabel": "Type of request",
+      "requestTypePlaceholder": "Select a request type",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "Your request",
+      "messagePlaceholder": "Tell us about your story, deadline, and what you need from us...",
+      "submit": "Send media inquiry",
+      "submitting": "Sending...",
+      "termsNote": "We aim to respond to press inquiries within two business days.",
+      "success": "Thanks! Your media inquiry has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "cta": {
+      "title": "Press contact",
+      "description": "For urgent media requests, email"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Careers",
+    "eyebrow": "Careers",
+    "titlePrefix": "Build the future of",
+    "titleHighlight": "AI companionship",
+    "subtitle": "We're a small, fast-moving team building products people genuinely love. If that excites you, we'd love to meet you.",
+    "perks": {
+      "title": "Why work with us",
+      "items": [
+        {
+          "title": "Remote-friendly",
+          "description": "Work from where you do your best work, with flexible hours."
+        },
+        {
+          "title": "Real ownership",
+          "description": "Ship meaningful work fast and see it reach users worldwide."
+        },
+        {
+          "title": "Cutting-edge AI",
+          "description": "Work hands-on with the latest models and generative tooling."
+        },
+        {
+          "title": "Competitive pay",
+          "description": "Fair compensation and meaningful upside as we grow."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Open positions",
+      "emptyTitle": "No open roles right now",
+      "emptyDescription": "We're not actively hiring at the moment, but we're always glad to meet great people. Introduce yourself below.",
+      "applyButton": "Apply now",
+      "viewButton": "View role"
+    },
+    "form": {
+      "title": "Introduce yourself",
+      "description": "Don't see a role that fits? Tell us about yourself and we'll reach out when there's a match.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Role or area of interest",
+      "rolePlaceholder": "例如：前端工程師、設計師、行銷",
+      "linkLabel": "履歷連結",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "關於你",
+      "messagePlaceholder": "告訴我們你的經驗，以及你想投入的工作...",
+      "submit": "送出申請",
+      "submitting": "傳送中...",
+      "termsNote": "提交申請即表示你同意我們儲存你的資料，以便考慮適合的職缺。",
+      "success": "感謝！你的申請已送出。",
+      "error": "發生錯誤，請再試一次。"
+    },
+    "cta": {
+      "title": "對在這裡工作有疑問嗎？",
+      "description": "請聯絡我們的團隊："
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "幫助中心",
+    "eyebrow": "幫助中心",
+    "titlePrefix": "我們能如何",
+    "titleHighlight": "協助你？",
+    "subtitle": "瀏覽常見主題與解答。若找不到所需資訊，請聯絡客服，我們會協助你。",
+    "searchPlaceholder": "搜尋幫助文章...",
+    "categoriesTitle": "依主題瀏覽",
+    "articlesTitle": "文章",
+    "categoryEmpty": "此分類尚無文章，請稍後再回來查看。",
+    "backToHelp": "返回幫助中心",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "新手上路",
+        "description": "建立帳戶、設定個人檔案，然後開始聊天。"
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI 聊天",
+        "description": "了解對話、記憶與角色運作方式。"
+      },
+      {
+        "slug": "images-videos",
+        "title": "圖片與影片",
+        "description": "產生並管理 AI 照片與影片。"
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "隱私與安全",
+        "description": "你的資料、隱私控制與安全工具。"
+      }
+    ],
+    "faq": {
+      "title": "常見問題",
+      "q1": {
+        "question": "如何開始使用 sweetwine？",
+        "answer": "建立免費帳號，完成快速引導以設定暱稱、性別和語言，然後選擇角色開始聊天。"
+      },
+      "q2": {
+        "question": "免費方案包含哪些內容？"
+      },
+      "q5": {
+        "question": "我的資料是否保密？",
+        "answer": "隱私是 sweetwine 的核心。您的對話僅限於您的帳戶，您可掌控自己的資料。完整資料儲存與保護細節，請參閱我們的隱私政策。"
+      },
+      "q6": {
+        "question": "如何聯絡客服？",
+        "answer": "請寄信至 support@sweetwine.ai，或使用 App 內的聯絡選項。我們通常會在一個工作天內回覆。"
+      }
+    },
+    "cta": {
+      "title": "還需要協助嗎？",
+      "description": "我們的團隊隨時為您服務，聯絡方式："
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "關於",
+    "eyebrow": "我們的故事",
+    "titlePrefix": "陪伴，",
+    "titleHighlight": "重新想像",
+    "subtitle": "sweetwine 打造私密、個人化的 AI 陪伴者，隨時傾聽、記住並真誠連結——任何時間、任何語言皆可使用。",
+    "mission": {
+      "title": "我們的使命",
+      "body": "我們相信每個人都有被無條件傾聽的權利。sweetwine 讓有意義且個人化的 AI 連結觸手可及——溫暖、私密，隨時陪伴在您身旁。"
+    },
+    "values": {
+      "title": "我們的價值觀",
+      "items": [
+        {
+          "title": "隱私優先設計",
+          "description": "您的對話屬於您。我們從一開始就以隱私與安全為核心打造產品。"
+        },
+        {
+          "title": "真誠連結",
+          "description": "我們追求真實的情感價值，而非虛榮指標。"
+        },
+        {
+          "title": "預設全球",
+          "description": "從第一天起就支援多語言，讓連結不再受語言限制。"
+        },
+        {
+          "title": "精益求精",
+          "description": "我們注重細節，讓每次互動都自然而生動。"
+        }
+      ]
+    },
+    "stats": {
+      "title": "數據一覽",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "用戶持續成長中"
+        },
+        {
+          "value": "70",
+          "label": "支援語言"
+        },
+        {
+          "value": "24/7",
+          "label": "隨時在線"
+        }
+      ]
+    },
+    "cta": {
+      "title": "想了解更多？",
+      "description": "歡迎聯絡"
+    }
+  },
+  "postsPage": {
+    "allTag": "全部",
+    "readMore": "閱讀更多",
+    "publishedOn": "發佈於",
+    "minRead": "分鐘閱讀",
+    "sortNewest": "最新",
+    "sortOldest": "最舊",
+    "blog": {
+      "breadcrumb": "部落格",
+      "eyebrow": "部落格",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "部落格",
+      "subtitle": "幫助您充分運用 AI 陪伴的技巧、指南與故事。",
+      "empty": "尚無文章，敬請期待。"
+    },
+    "news": {
+      "breadcrumb": "新聞",
+      "eyebrow": "新聞室",
+      "titlePrefix": "新聞與",
+      "titleHighlight": "公告",
+      "subtitle": "sweetwine 團隊的官方公告、新聞稿與里程碑。",
+      "empty": "尚無新聞，敬請期待。"
+    },
+    "productUpdates": {
+      "breadcrumb": "產品更新",
+      "eyebrow": "更新日誌",
+      "titlePrefix": "產品",
+      "titleHighlight": "更新",
+      "subtitle": "sweetwine 平台上的最新功能、改進與修正。",
+      "empty": "尚無更新，請稍後再回來查看。"
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "給開發者",
+    "titlePrefix": "使用",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "將個人化 AI 陪伴帶入你的產品。透過單一開發者友善的 API，存取聊天、圖像、語音與角色建構功能。",
+    "capabilities": {
+      "title": "你可以打造什麼",
+      "items": [
+        {
+          "title": "對話式聊天",
+          "description": "透過簡單的訊息 API，為你的應用程式加入富有個性且具情境感知的 AI 對話。"
+        },
+        {
+          "title": "圖像生成",
+          "description": "從文字提示以程式化方式產生符合品牌風格的角色圖像與場景。"
+        },
+        {
+          "title": "語音"
+        },
+        {
+          "title": "角色建立",
+          "description": "透過 API 定義與管理陪伴者、個性與記憶。"
+        }
+      ]
+    },
+    "form": {
+      "title": "申請 API 存取",
+      "description": "告訴我們你的專案以及你想打造的內容。我們的開發團隊將盡快回覆下一步。",
+      "nameLabel": "你的姓名",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "工作電子郵件",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "公司 / 專案",
+      "companyPlaceholder": "公司或專案名稱",
+      "websiteLabel": "網站或應用程式網址",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "整合類型",
+      "integrationTypePlaceholder": "選擇整合類型",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "預期每月用量",
+      "volumePlaceholder": "選擇預期用量",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "Less than 10k requests"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k requests"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M requests"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ requests"
+        }
+      ],
+      "timelineLabel": "時間軸",
+      "timelinePlaceholder": "選擇時間軸",
+      "timelineOptions": [
+        {
+          "value": "只是探索",
+          "label": "只是探索"
+        },
+        {
+          "value": "1 個月內",
+          "label": "1 個月內"
+        },
+        {
+          "value": "1-3 個月",
+          "label": "1-3 個月"
+        },
+        {
+          "value": "3 個月以上",
+          "label": "3 個月以上"
+        }
+      ],
+      "messageLabel": "告訴我們您的使用情境",
+      "messagePlaceholder": "您正在打造什麼，以及您打算如何使用 API？",
+      "submit": "申請 API 存取",
+      "submitting": "提交中...",
+      "termsNote": "提交即表示您同意我們就您的詢問與您聯絡。我們絕不會分享您的資料。",
+      "success": "感謝！您的 API 存取申請已送出。",
+      "error": "發生錯誤，請再試一次。"
+    },
+    "faq": {
+      "title": "開發者常見問題",
+      "items": [
+        {
+          "question": "如何取得 API 存取權限？",
+          "answer": "請在上方申請表填寫您的使用情境。我們的開發團隊會審核每份申請，並提供存取詳情與文件。"
+        },
+        {
+          "question": "驗證機制如何運作？",
+          "answer": "API 請求會透過請求標頭中的 API 金鑰進行驗證。加入後，您可以管理並輪換金鑰。"
+        },
+        {
+          "question": "是否有速率限制？",
+          "answer": "有。限制取決於您的方案與預期流量。請在表單中告知預期流量，以便我們推薦合適的等級。"
+        },
+        {
+          "question": "費用如何計算？"
+        },
+        {
+          "question": "有哪些功能可用？",
+          "answer": "聊天、圖像生成、語音與角色創作。告訴我們您需要哪些功能，我們會協助您取得相關端點。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "有技術問題嗎？",
+      "description": "請聯絡我們的開發團隊："
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI 真實分身",
+    "eyebrow": "為創作者與經紀公司打造",
+    "heroTitleLead": "我們打造，",
+    "heroTitleHighlight": "您獲利。",
+    "heroSubtitle": "我們為您建立 AI 分身。AI 分身全天候運作，與粉絲聊天並發送內容，讓您輕鬆獲利。",
+    "calculator": {
+      "title": "您可能賺多少？",
+      "subtitle": "選擇您的受眾規模並設定價格，即可即時查看預估收益。",
+      "tierLabel": "您的受眾規模",
+      "tiers": {
+        "small": {
+          "name": "小型"
+        },
+        "medium": {
+          "name": "中型"
+        },
+        "large": {
+          "name": "大型"
+        }
+      },
+      "priceLabel": "您的解鎖價格",
+      "promoLabel": "我會推廣 sweetwine",
+      "breakdown": {
+        "title": "您的預估收益",
+        "perMonth": "每月",
+        "perYear": "每年"
+      },
+      "disclaimer": "收益估算基於 sweetwine 分潤模式與典型活動。實際收益會因受眾、內容品質、互動與需求而有所不同。"
+    },
+    "offer": {
+      "title": "你能獲得什麼",
+      "items": [
+        {
+          "title": "睡覺也能賺錢",
+          "description": "你的分身 24/7 將粉絲轉化為收入——聊天、銷售，永不打烊。"
+        },
+        {
+          "title": "零成本，純收益",
+          "description": "我們出資打造、訓練並運營一切。你無需動手，就能新增收入來源。"
+        },
+        {
+          "title": "內容產出提升 10 倍",
+          "description": "隨需無限照片與影片——無需更多拍攝、剪輯或耗損，就能擴大產出。"
+        },
+        {
+          "title": "始終掌控一切"
+        }
+      ]
+    },
+    "how": {
+      "title": "運作方式",
+      "steps": [
+        {
+          "title": "註冊"
+        },
+        {
+          "title": "入門引導",
+          "description": "sweetwine 專員將捕捉你的外貌、聲音與個性，讓你的分身真實如你。"
+        },
+        {
+          "title": "我們打造與訓練",
+          "description": "我們的團隊完全自費製作並訓練你的 AI 分身——你無需做任何事。"
+        },
+        {
+          "title": "上線賺錢",
+          "description": "你的分身全天候聊天與銷售，你則收取分潤收入。"
+        }
+      ]
+    },
+    "form": {
+      "title": "申請建立你的 AI 分身",
+      "description": "告訴我們關於你與你的受眾。我們的創作者合作團隊會審核每份申請，並後續聯繫下一步。",
+      "nameLabel": "你的姓名",
+      "namePlaceholder": "你的姓名或藝名",
+      "emailLabel": "電子郵件",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "經紀公司或工作室",
+      "companyPlaceholder": "公司名稱（如為獨立創作者請留空）",
+      "roleLabel": "我是",
+      "rolePlaceholder": "選擇你的身份",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "創作者"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "經紀公司 / 工作室"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "經理 / 代表"
+        },
+        {
+          "value": "Other",
+          "label": "其他"
+        }
+      ],
+      "linksLabel": "網站與社群連結",
+      "linksPlaceholder": "Instagram、X、OnlyFans 等",
+      "modelCountLabel": "你所代表的模特兒數量",
+      "modelCountPlaceholder": "例如：只有我，或 5 位",
+      "audienceSizeLabel": "受眾規模",
+      "audienceSizePlaceholder": "選擇你的總追蹤人數",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "未滿 1 萬追蹤者"
+        },
+        {
+          "value": "10k-100k",
+          "label": "1 萬–10 萬追蹤者"
+        },
+        {
+          "label": "10萬-50萬粉絲",
+          "value": "100k-500k"
+        },
+        {
+          "value": "50萬-100萬",
+          "label": "50萬-100萬粉絲"
+        },
+        {
+          "value": "100萬+",
+          "label": "100萬+粉絲"
+        }
+      ],
+      "contentPrefLabel": "內容偏好",
+      "contentPrefPlaceholder": "選擇內容類型",
+      "contentPrefOptions": [
+        {
+          "value": "僅限SFW",
+          "label": "僅限SFW"
+        },
+        {
+          "value": "尚未確定",
+          "label": "尚未確定"
+        }
+      ],
+      "countryLabel": "國家 / 地區",
+      "countryPlaceholder": "您所在的位置？",
+      "messageLabel": "告訴我們關於您和您的受眾",
+      "messagePlaceholder": "分享任何有助於我們了解您的受眾、內容和您需求的資訊。",
+      "openButton": "立即申請",
+      "submit": "提交申請",
+      "submitting": "提交中...",
+      "termsNote": "提交即表示您確認已滿18歲，並同意我們就您的申請與您聯繫。我們絕不會分享您的個人資料。",
+      "success": "感謝您！您的申請已送出。我們很快會與您聯繫。",
+      "error": "發生錯誤。請再試一次。"
+    },
+    "cta": {
+      "title": "申請前有疑問嗎？",
+      "description": "直接與我們的創作者合作團隊聯繫 — 我們通常會在一天內回覆。",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "電子郵件"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "網站地圖",
+    "eyebrow": "網站地圖",
+    "titlePrefix": "瀏覽",
+    "titleHighlight": "全部內容",
+    "subtitle": "sweetwine 所有重要頁面一覽。正在尋找 XML 網站地圖嗎？",
+    "xmlLink": "查看 XML 網站地圖",
+    "sections": {
+      "product": "產品",
+      "features": "功能",
+      "company": "公司",
+      "resources": "資源",
+      "legal": "法律"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine 行動應用程式",
+      "cta": "取得應用程式",
+      "dismiss": "關閉"
+    },
+    "guide": {
+      "title": "安裝 sweetwine",
+      "subtitle": "將 sweetwine 新增至主畫面，享受更快、全螢幕、類似應用程式的體驗。",
+      "iosTitle": "在 iPhone 與 iPad（Safari）",
+      "iosStep1": "點擊工具列中的分享按鈕",
+      "iosStep2": "選擇「加入主畫面」",
+      "iosStep3": "點擊「加入」完成",
+      "androidTitle": "在 Android（Chrome）",
+      "androidStep1": "點擊選單（三個點）",
+      "androidStep2": "選擇「安裝應用程式」或「加入主畫面」",
+      "androidStep3": "點擊「安裝」完成"
+    },
+    "settings": {
+      "title": "sweetwine 行動應用程式",
+      "description": "在手機上安裝 sweetwine，從主畫面即可享有更快、全螢幕的體驗。",
+      "cta": "安裝應用程式"
+    }
+  },
+  "language": {
+    "selectTitle": "選擇您的語言",
+    "searchPlaceholder": "搜尋語言",
+    "noResults": "找不到語言",
+    "regions": {
+      "americas": "美洲",
+      "europe": "歐洲",
+      "middleEast": "中東",
+      "asiaPacific": "亞太地區",
+      "africa": "非洲"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "角色扮演",
+    "newRoleplay": "新角色扮演",
+    "tabRoleplay": "角色扮演",
+    "emptyTitle": "尚無角色扮演",
+    "noMessagesYet": "尚無訊息",
+    "deleteRoleplay": "刪除角色扮演",
+    "deleteError": "無法刪除角色扮演。",
+    "backToLobby": "返回角色扮演",
+    "creating": "正在設定你的角色扮演…",
+    "createError": "無法建立角色扮演。請再試一次。",
+    "steps": {
+      "companion": {
+        "title": "選擇角色",
+        "subtitle": "挑選你想一起角色扮演的對象"
+      },
+      "location": {
+        "title": "選擇地點",
+        "subtitle": "你的場景發生在哪裡？"
+      },
+      "tone": {
+        "title": "設定氛圍",
+        "subtitle": "場景應該給人什麼感覺？"
+      },
+      "scene": {
+        "title": "設定場景",
+        "subtitle": "描述場景如何開始"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "我們在雨中相遇，一起躲進同一處屋簷下。",
+      "staring_grin": "你發現我從房間另一端盯著你，帶著笑容走過來。",
+      "power_out": "燈突然熄滅，只剩我們兩人在黑暗中緊張地笑著。",
+      "spilled_drink": "我趕時間，不小心把飲料全灑在你身上。",
+      "stayed_behind": "大家走後，只剩我們兩個留在現場。",
+      "music_slows": "音樂緩下來的那一刻，我們的目光交會。",
+      "storm_inside": "突如其來的暴風雨把我們困在室內，只剩時間聊天。",
+      "seat_taken": "你坐到我旁邊，問我座位是否有人。"
+    },
+    "locations": {
+      "home": "家",
+      "cafe": "咖啡廳",
+      "restaurant": "餐廳",
+      "bar": "酒吧",
+      "library": "圖書館",
+      "bookstore": "書店",
+      "park": "公園",
+      "garden": "花園",
+      "nightclub": "夜店",
+      "casino": "賭場",
+      "concert": "演唱會",
+      "theater": "劇院",
+      "cinema": "電影院",
+      "carnival": "嘉年華",
+      "stadium": "體育場",
+      "beach": "海灘",
+      "pool": "泳池",
+      "spa": "SPA",
+      "hotel": "飯店",
+      "rooftop": "屋頂",
+      "yacht": "遊艇",
+      "cabin": "小木屋",
+      "hotspring": "溫泉",
+      "skilodge": "滑雪小屋",
+      "campsite": "露營地",
+      "car": "汽車",
+      "train": "火車",
+      "airport": "機場",
+      "cruise": "郵輪",
+      "office": "辦公室",
+      "gym": "健身房",
+      "university": "大學",
+      "mall": "購物中心",
+      "hospital": "醫院",
+      "museum": "博物館"
+    },
+    "tones": {
+      "fun": {
+        "title": "趣味",
+        "desc": "輕鬆、俏皮又自在。"
+      },
+      "romantic": {
+        "title": "浪漫",
+        "desc": "溫柔、深情且真摯。"
+      },
+      "flirty": {
+        "title": "撩人",
+        "desc": "調侃、俏皮且充滿魅力。"
+      },
+      "mysterious": {
+        "title": "神秘",
+        "desc": "引人入勝、懸疑且充滿秘密。"
+      },
+      "spooky": {
+        "title": "驚悚",
+        "desc": "詭異、緊張且帶點驚悚。"
+      },
+      "action": {
+        "title": "動作",
+        "desc": "激烈、冒險且節奏快速。"
+      },
+      "dramatic": {
+        "title": "戲劇",
+        "desc": "情緒豐富、緊張且充滿張力。"
+      },
+      "cozy": {
+        "title": "溫馨",
+        "desc": "溫暖、舒適且放鬆。"
+      }
+    },
+    "sceneLabel": "場景開場",
+    "scenarioTab": "情境",
+    "generatingScene": "正在呈現場景…",
+    "locationLabel": "地點",
+    "toneLabel": "語氣",
+    "scenePlaceholder": "例如：我們在雨中相遇，躲進同一處雨棚…",
+    "sceneHint": "只描述場景如何開始——你在哪裡、開場發生什麼。不要改變角色個性、你們的關係，或重寫整個故事。",
+    "sceneError": "請描述場景如何開始。",
+    "reviewTitle": "檢視選擇",
+    "characterLabel": "角色",
+    "randomize": "隨機",
+    "sceneGuidanceTitle": "場景開場指引",
+    "sceneGuide1": "不要改變角色的個性或你們的關係。",
+    "sceneGuide2": "保持場景開場具共識且互相尊重。",
+    "sceneGuide3": "只描述場景如何開始，而非整個故事。",
+    "next": "下一步",
+    "create": "開始角色扮演",
+    "creatingMessages": [
+      "正在設定場景…",
+      "燈光正調得剛好…",
+      "描繪你的周遭環境…",
+      "讓你的夥伴進入角色…",
+      "加上最後的細節…",
+      "即將完成…"
+    ]
+  },
+  "chat": {
+    "writeMessage": "輸入訊息…",
+    "send": "傳送",
+    "typing": "輸入中…",
+    "read": "已讀",
+    "resetChat": "重置聊天",
+    "deleteChat": "刪除聊天",
+    "settings": "設定",
+    "chatSettings": "聊天設定",
+    "roleplayMode": "角色扮演模式",
+    "roleplayModeDescription": "開啟時，夥伴會用 *星號* 表現手勢與動作，帶來沉浸式角色扮演。關閉時，他們會像真實簡訊般自然聊天。",
+    "roleplayModeError": "無法更新角色扮演模式",
+    "roleplayCtaDescription": "開啟專屬角色扮演體驗，與夥伴一起演出場景與故事。",
+    "goToRoleplay": "前往角色扮演",
+    "confirmReset": "確定要重置此聊天嗎？所有訊息將被刪除。",
+    "confirmDelete": "確定要刪除此聊天嗎？",
+    "resetSuccess": "聊天已成功重置",
+    "deleteMemory": "刪除記憶",
+    "confirmDeleteMemory": "確定要刪除此角色的長期記憶嗎？聊天訊息將保留，但角色將在下次回覆時忘記先前的事實。",
+    "deleteMemorySuccess": "記憶已刪除",
+    "deleteSuccess": "聊天已成功刪除",
+    "sendError": "訊息傳送失敗",
+    "noChats": "尚無聊天",
+    "noChatsDesc": "與角色開始對話，即可在此查看你的聊天",
+    "lastMessage": "最後一則訊息",
+    "messageCount": "{count} 則訊息",
+    "uploadImage": "上傳圖片",
+    "uploadVideo": "上傳影片（即將推出）",
+    "yourConversations": "你的對話",
+    "continueChattingDesc": "繼續與你的 AI 角色聊天",
+    "newChat": "新聊天",
+    "noConversationsYet": "尚無對話",
+    "startChattingDesc": "與角色開始聊天，即可在此查看你的對話",
+    "browseCharacters": "瀏覽角色",
+    "createCustomCharacter": "建立自訂角色",
+    "imageTooLarge": "圖片過大（上限 5MB）",
+    "generateImageTitle": "與 {name} 一起生成圖片",
+    "imagePromptLabel": "描述圖片",
+    "imagePromptPlaceholder": "例如：在海灘穿藍色洋裝、在咖啡廳喝咖啡、在公園散步…",
+    "imagePromptHint": "AI 將根據你的描述生成 {name} 的圖片。",
+    "referenceImageLabel": "你的照片（選填）",
+    "referenceImageHint": "上傳你的照片，讓你與 {name} 一起出現在場景中。若無照片，僅生成 {name}。",
+    "uploadReferenceImage": "上傳你的照片",
+    "uploadReferenceImageDesc": "你們兩人將一同出現在生成的圖片中",
+    "referenceImageSelected": "你與 {name} 將一起出現",
+    "generating": "正在生成...",
+    "generate": "生成",
+    "generateImage": "生成圖片",
+    "imageGenerated": "圖片生成成功",
+    "generateError": "圖片生成失敗",
+    "contentBlockedReply": "抱歉，我無法生成這張圖片。它被安全過濾器阻擋了。請試著換個描述！💕",
+    "generateVideoTitle": "與 {name} 一起生成影片",
+    "generateVideo": "生成影片",
+    "videoPromptLabel": "描述動作",
+    "videoPromptPlaceholder": "例如：跳舞、揮手、送飛吻...",
+    "videoPromptHint": "AI 將生成 {name} 執行所述動作的影片。",
+    "generatingImage": "正在生成圖片...",
+    "generatingVideo": "正在生成影片...（3-5 分鐘）",
+    "viewPhoto": "查看照片",
+    "viewVideo": "查看影片",
+    "selectVideoOption": "請在上方選擇影片選項",
+    "contentPolicyViolation": "無法傳送此訊息。請保持對話尊重。",
+    "functionCallBetaHint": "💡 此功能目前為測試版 — 若要穩定且無限制地生成媒體，請改用工具列中的照片/影片按鈕。",
+    "repliedToStory": "已回覆限時動態",
+    "repliedToStoryLiked": "已按讚並回覆限時動態",
+    "storyNoLongerAvailable": "限時動態已無法查看",
+    "rateLimitExceeded": "請求過多。請稍候再試。",
+    "profileTab": "個人檔案",
+    "galleryTab": "相簿",
+    "giftsTab": "禮物",
+    "tts": {
+      "play": "播放語音",
+      "stop": "停止",
+      "generating": "正在生成語音…",
+      "error": "無法播放音訊"
+    }
+  },
+  "gallery": {
+    "all": "全部",
+    "images": "圖片",
+    "videos": "影片",
+    "empty": "尚無媒體"
+  },
+  "gifts": {
+    "sendAGift": "傳送禮物",
+    "catalogSubtitle": "選擇一份禮物傳送給 {name}",
+    "browseGifts": "瀏覽禮物",
+    "noneSent": "尚未傳送禮物",
+    "confirmTitle": "確認禮物",
+    "forCompanion": "給 {name}",
+    "optionalMessage": "新增留言（選填）",
+    "optionalMessagePlaceholder": "寫點甜蜜的話...",
+    "sendGiftFor": "傳送",
+    "giftSent": "你已送出禮物",
+    "sendError": "送出禮物失敗"
+  },
+  "stories": {
+    "replyPlaceholder": "回覆 {name}…",
+    "like": "喜歡",
+    "send": "傳送",
+    "close": "關閉",
+    "previous": "上一個故事",
+    "next": "下一個故事",
+    "pause": "暫停",
+    "play": "播放",
+    "mute": "靜音",
+    "unmute": "取消靜音",
+    "openStory": "開啟 {name} 的故事"
+  },
+  "generate": {
+    "title": "生成圖像",
+    "description": "用你的 AI 角色創造驚豔圖像",
+    "selectCompanion": "選擇角色",
+    "promptPlaceholder": "描述你想生成的圖像... 例如：在海灘、穿紅色洋裝",
+    "promptLabel": "圖像描述",
+    "promptRequired": "請輸入描述",
+    "generateButton": "生成圖像",
+    "generating": "生成中...",
+    "creatingImage": "正在建立你的圖像...",
+    "pleaseWait": "這可能需要 10-30 秒",
+    "noCompanionSelected": "請先選擇角色",
+    "emptyGallery": "尚未生成任何圖像。選擇角色並描述你的圖像！",
+    "sessionGallery": "已生成的圖像",
+    "regenerate": "重新生成",
+    "regenerating": "重新生成中...",
+    "animate": "動畫化",
+    "animateReference": "此圖像將作為影片的第一幀。",
+    "filterMyAI": "我的 AI",
+    "filterAll": "全部",
+    "filterGirls": "女性",
+    "filterAnime": "動漫",
+    "filterGuys": "男性",
+    "imageGenerationFailed": "圖像生成失敗。圖像可能不符合要求，或描述過於複雜。請嘗試更簡單的提示詞。",
+    "noImageData": "未生成圖像。請使用不同的描述再試一次。",
+    "generationFailed": "生成失敗。請稍後再試，或使用不同的提示詞。",
+    "random": "隨機",
+    "custom": "自訂",
+    "settings": "設定",
+    "videoTitle": "生成影片",
+    "videoDescription": "用你的 AI 角色打造精彩影片",
+    "videoPromptLabel": "影片描述",
+    "videoPromptPlaceholder": "描述你想生成的動作... 例如：跳舞、揮手、微笑",
+    "generateVideoButton": "生成影片",
+    "generatingVideo": "正在生成影片...",
+    "creatingVideo": "正在建立你的影片...",
+    "videoWait": "這可能需要 1-5 分鐘",
+    "emptyVideoGallery": "尚未生成任何影片。選擇角色並描述動作！",
+    "sessionVideoGallery": "已生成影片",
+    "videoGenerated": "影片生成成功！",
+    "videoGenerationFailed": "影片生成失敗。請再試一次。",
+    "duration": "時長",
+    "shortVideo": "短",
+    "longVideo": "長",
+    "seconds": "秒",
+    "audio": "音訊",
+    "renderingVideo": "正在渲染影片…",
+    "renderingVideoHint": "(最多需要 1 分鐘)",
+    "rateLimitExceeded": "請求過多。請稍候再試。",
+    "chooseCharacter": "選擇角色",
+    "selectButton": "選擇",
+    "noCustomCompanions": "你尚未建立任何 AI 角色。",
+    "numberOfImages": "圖像數量",
+    "numberOfVideos": "影片數量",
+    "freeTrial": "免費試用",
+    "changeCharacter": "更換角色",
+    "randomize": "隨機化提示詞",
+    "aiVideo": "AI 影片",
+    "download": "下載",
+    "seriesHelper": "這裡可以查看你的結果。你可以在這些完成前離開頁面或開始新系列。",
+    "suggestions": {
+      "title": "建議",
+      "categories": {
+        "outfit": "服裝",
+        "action": "動作",
+        "pose": "姿勢",
+        "accessories": "配件",
+        "scene": "場景"
+      },
+      "items": {
+        "bikini": "比基尼",
+        "skirt": "裙子",
+        "lingerie": "內衣",
+        "crop_top": "短版上衣",
+        "leather": "皮革",
+        "mini_skirt": "迷你裙",
+        "satin_robe": "緞面長袍",
+        "jeans": "牛仔褲",
+        "summer_dress": "夏日洋裝",
+        "sportswear": "運動服",
+        "selfie": "自拍",
+        "walking": "走路",
+        "dancing": "跳舞",
+        "stretching": "伸展",
+        "lying_down": "躺下",
+        "leaning": "倚靠",
+        "blowing_kiss": "飛吻",
+        "drinking_coffee": "喝咖啡",
+        "hands_on_hips": "雙手叉腰",
+        "over_shoulder": "回眸",
+        "side_profile": "側臉",
+        "arms_crossed": "雙臂交疊",
+        "kneeling": "跪姿",
+        "squatting": "蹲姿",
+        "back_view": "背影",
+        "sitting": "坐姿",
+        "necklace": "項鍊",
+        "earrings": "耳環",
+        "glasses": "眼鏡",
+        "choker": "頸圈",
+        "hat": "帽子",
+        "sunglasses": "太陽眼鏡",
+        "garden": "花園",
+        "beach": "海灘",
+        "bedroom": "臥室",
+        "gym": "健身房",
+        "bar": "酒吧",
+        "kitchen": "廚房",
+        "restaurant": "餐廳",
+        "balcony": "陽台",
+        "city_street": "城市街道",
+        "pool": "泳池邊"
+      },
+      "fragments": {
+        "bikini": "穿著比基尼",
+        "skirt": "穿著裙子",
+        "lingerie": "穿著內衣",
+        "crop_top": "穿著短版上衣",
+        "leather": "穿著皮衣",
+        "mini_skirt": "穿著迷你裙",
+        "satin_robe": "穿著緞面睡袍",
+        "jeans": "穿著牛仔褲",
+        "summer_dress": "穿著夏日洋裝",
+        "sportswear": "穿著緊身運動服",
+        "selfie": "自拍",
+        "walking": "走路",
+        "dancing": "跳舞",
+        "stretching": "伸展",
+        "lying_down": "躺著",
+        "leaning": "靠在牆上",
+        "blowing_kiss": "送飛吻",
+        "drinking_coffee": "喝咖啡",
+        "hands_on_hips": "雙手叉腰",
+        "over_shoulder": "回眸",
+        "side_profile": "側面姿態",
+        "arms_crossed": "雙臂交疊",
+        "kneeling": "跪姿",
+        "squatting": "蹲姿",
+        "back_view": "背面視角",
+        "sitting": "坐著",
+        "necklace": "戴項鍊",
+        "earrings": "戴耳環",
+        "glasses": "戴眼鏡",
+        "choker": "戴頸圈",
+        "hat": "戴帽子",
+        "sunglasses": "戴墨鏡",
+        "garden": "在花園",
+        "beach": "在海灘",
+        "bedroom": "在臥室",
+        "gym": "在健身房",
+        "bar": "在酒吧",
+        "kitchen": "在廚房",
+        "restaurant": "在餐廳",
+        "balcony": "在陽台",
+        "city_street": "在城市街道",
+        "pool": "在泳池旁"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "自拍",
+          "uiPrompt": "給我一張你的自拍"
+        },
+        "posing": {
+          "name": "擺姿勢",
+          "uiPrompt": "給我你擺姿勢的照片"
+        },
+        "sitting": {
+          "name": "坐姿",
+          "uiPrompt": "給我你坐下的照片"
+        },
+        "waving": {
+          "name": "揮手",
+          "uiPrompt": "給我你揮手的照片"
+        },
+        "dancing": {
+          "name": "跳舞",
+          "uiPrompt": "給我你跳舞的照片"
+        },
+        "reading": {
+          "name": "閱讀",
+          "uiPrompt": "給我你閱讀的照片"
+        },
+        "smiling": {
+          "name": "微笑",
+          "uiPrompt": "Show me you smiling"
+        },
+        "walking": {
+          "name": "走路",
+          "uiPrompt": "Show me you walking"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "自拍",
+          "uiPrompt": "Show me a video selfie"
+        },
+        "posing": {
+          "name": "擺姿勢",
+          "uiPrompt": "Show me a video of you posing"
+        },
+        "sitting": {
+          "name": "坐著",
+          "uiPrompt": "Show me a video of you sitting down"
+        },
+        "waving": {
+          "name": "揮手",
+          "uiPrompt": "Show me a video of you waving"
+        },
+        "dancing": {
+          "name": "跳舞",
+          "uiPrompt": "Show me a video of you dancing"
+        },
+        "reading": {
+          "name": "閱讀",
+          "uiPrompt": "Show me a video of you reading"
+        },
+        "smiling": {
+          "name": "微笑",
+          "uiPrompt": "Show me a video of you smiling"
+        },
+        "walking": {
+          "name": "走路",
+          "uiPrompt": "Show me a video of you walking"
+        }
+      }
+    },
+    "writeYourOwn": "or write your own prompt",
+    "presetSelected": "Preset selected",
+    "effects": {
+      "categories": {
+        "solo": "單人與挑逗",
+        "oral": "口交",
+        "positions": "姿勢",
+        "pov": "POV",
+        "extra": "額外",
+        "remix": "混音"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Bath Towel"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Breast Milk"
+        },
+        "bunny_suit": {
+          "name": "Bunny Suit"
+        },
+        "chain_leash": {
+          "name": "Chain Leash"
+        },
+        "chinese_dress": {
+          "name": "Chinese Dress"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Custom"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "School Uniform"
+        },
+        "legsup": {
+          "name": "Legs Up"
+        },
+        "leopard_bikini": {
+          "name": "Leopard Bikini"
+        },
+        "lingerie": {
+          "name": "Lingerie"
+        },
+        "masturbation": {
+          "name": "Masturbation"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "傳教士側視"
+        },
+        "remix_blowjob": {
+          "name": "混搭口交"
+        },
+        "remix_cowgirl": {
+          "name": "混搭女上位"
+        },
+        "remix_doggystyle": {
+          "name": "混搭後背位"
+        },
+        "remix_dress": {
+          "name": "混搭穿衣"
+        },
+        "remix_hold_dick": {
+          "name": "混搭握棒"
+        },
+        "remix_kiss": {
+          "name": "混搭親吻"
+        },
+        "remix_pronebone": {
+          "name": "混搭伏臥位"
+        },
+        "remix_suck": {
+          "name": "混搭吸吮"
+        },
+        "remix_wear": {
+          "name": "混搭穿戴"
+        },
+        "remix_yoga": {
+          "name": "混搭瑜伽"
+        },
+        "ride_on_dildo": {
+          "name": "騎乘假陽具"
+        },
+        "sipping_condoms": {
+          "name": "吸吮保險套"
+        },
+        "squatting_cowgirl": {
+          "name": "深蹲女上位"
+        },
+        "tattoo": {
+          "name": "刺青"
+        },
+        "tentacles": {
+          "name": "觸手"
+        },
+        "titjob": {
+          "name": "乳交"
+        },
+        "topless": {
+          "name": "上空"
+        },
+        "undress": {
+          "name": "脫衣"
+        },
+        "used": {
+          "name": "使用過"
+        },
+        "xray": {
+          "name": "透視"
+        },
+        "maid_outfit": {
+          "name": "女僕裝"
+        },
+        "nurse_outfit": {
+          "name": "護士裝"
+        },
+        "cheerleader": {
+          "name": "啦啦隊"
+        },
+        "wet_tshirt": {
+          "name": "濕T恤"
+        },
+        "latex_catsuit": {
+          "name": "乳膠緊身衣"
+        },
+        "corset_stockings": {
+          "name": "馬甲與絲襪"
+        },
+        "gym_shorts": {
+          "name": "健身短褲"
+        },
+        "thong_tease": {
+          "name": "丁字褲挑逗"
+        },
+        "upskirt_panties": {
+          "name": "裙底"
+        },
+        "mirror_selfie": {
+          "name": "鏡子自拍"
+        },
+        "shower_nude": {
+          "name": "淋浴"
+        },
+        "oiled_body": {
+          "name": "抹油身體"
+        },
+        "spread_open": {
+          "name": "張開"
+        },
+        "ahegao": {
+          "name": "阿嘿顏"
+        },
+        "deepthroat": {
+          "name": "深喉"
+        },
+        "sloppy_blowjob": {
+          "name": "濕潤口交"
+        },
+        "ball_licking": {
+          "name": "舔蛋"
+        },
+        "face_sitting_oral": {
+          "name": "坐臉"
+        },
+        "cowgirl": {
+          "name": "女上位"
+        },
+        "reverse_cowgirl": {
+          "name": "反向女上位"
+        },
+        "prone_bone": {
+          "name": "俯臥後入"
+        },
+        "standing_sex": {
+          "name": "站立"
+        },
+        "against_wall": {
+          "name": "靠牆"
+        },
+        "spooning": {
+          "name": "側躺"
+        },
+        "legs_on_shoulders": {
+          "name": "腿搭肩"
+        },
+        "mating_press": {
+          "name": "傳教士壓制"
+        },
+        "cowgirl_pov": {
+          "name": "女上位 POV"
+        },
+        "titjob_pov": {
+          "name": "乳交 POV"
+        },
+        "handjob_pov": {
+          "name": "手交 POV"
+        },
+        "cunnilingus_pov": {
+          "name": "口交 POV"
+        },
+        "double_penetration": {
+          "name": "雙重插入"
+        },
+        "threesome_mmf": {
+          "name": "3P"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "內射"
+        },
+        "pearl_necklace": {
+          "name": "珍珠項鍊"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "潮吹"
+        },
+        "spanking": {
+          "name": "打屁股"
+        },
+        "gagged_bdsm": {
+          "name": "口球"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "肛交"
+        },
+        "back_doggystyle": {
+          "name": "後背位"
+        },
+        "blowjob": {
+          "name": "口交"
+        },
+        "blowjob_69": {
+          "name": "69 口交"
+        },
+        "blowjob_reverse": {
+          "name": "反向口交"
+        },
+        "breast_massage": {
+          "name": "乳房按摩"
+        },
+        "breast_massage_nude": {
+          "name": "裸體乳房按摩"
+        },
+        "butt_smothering": {
+          "name": "臀部悶壓"
+        },
+        "cock_worship": {
+          "name": "陽具崇拜"
+        },
+        "cum_in_mouth": {
+          "name": "射在口中"
+        },
+        "dildo_masturbation": {
+          "name": "假陽具自慰"
+        },
+        "double_blowjob": {
+          "name": "雙人口交"
+        },
+        "double_penetration": {
+          "name": "雙重插入"
+        },
+        "ejaculation": {
+          "name": "射精"
+        },
+        "facefuck": {
+          "name": "口爆"
+        },
+        "facefuck_pov": {
+          "name": "口爆 POV"
+        },
+        "facial_cumshot": {
+          "name": "顏射"
+        },
+        "footjob": {
+          "name": "足交"
+        },
+        "front_doggystyle": {
+          "name": "正面後背位"
+        },
+        "fuck_machine": {
+          "name": "性愛機器"
+        },
+        "full_nelson": {
+          "name": "全納爾遜"
+        },
+        "handjob": {
+          "name": "手交"
+        },
+        "masturbation": {
+          "name": "自慰"
+        },
+        "missionary_pov": {
+          "name": "傳教士 POV"
+        },
+        "missionary_sideview": {
+          "name": "傳教士側視"
+        },
+        "nipple_play": {
+          "name": "乳頭玩弄"
+        },
+        "nude_posing": {
+          "name": "裸體擺姿"
+        },
+        "orgasm": {
+          "name": "高潮"
+        },
+        "pronebone": {
+          "name": "伏臥位"
+        },
+        "pussy_closeup": {
+          "name": "陰部特寫"
+        },
+        "reverse_cowgirl": {
+          "name": "反向女上位"
+        },
+        "shoejob": {
+          "name": "足交"
+        },
+        "spitroast": {
+          "name": "雙龍"
+        },
+        "squatting_cowgirl": {
+          "name": "深蹲女上位"
+        },
+        "throatpie": {
+          "name": "喉交射精"
+        },
+        "tiktok_trend": {
+          "name": "TikTok 趨勢"
+        },
+        "titjob": {
+          "name": "乳交"
+        },
+        "titty_flash": {
+          "name": "露乳"
+        },
+        "triple_dicked": {
+          "name": "三重插入"
+        },
+        "twerk": {
+          "name": "抖臀"
+        },
+        "undress": {
+          "name": "脫衣"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "事後清理"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "確定要刪除此項目嗎？",
+    "deleteSuccess": "刪除成功",
+    "deleteError": "刪除失敗",
+    "empty": "尚無媒體。請在聊天中生成！",
+    "gallerySubtitle": "您的 AI 生成時刻個人畫廊",
+    "filterAll": "全部",
+    "filterImages": "圖片",
+    "filterVideos": "影片",
+    "loadMore": "載入更多",
+    "folders": "資料夾",
+    "newFolder": "新增資料夾",
+    "deleteFolders": "刪除選取的資料夾",
+    "folderCreated": "資料夾已建立",
+    "folderCreateError": "建立資料夾失敗",
+    "folderRenamed": "資料夾已重新命名",
+    "folderRenameError": "重新命名資料夾失敗",
+    "folderDeleted": "資料夾已刪除",
+    "folderDeleteError": "刪除資料夾失敗",
+    "folderNamePlaceholder": "資料夾名稱",
+    "seeMore": "查看更多",
+    "seeLess": "收起",
+    "selectedCount": "已選取 {count} 項",
+    "selectAll": "全選",
+    "select": "選擇",
+    "moveToFolder": "移動",
+    "bulkDeleteConfirm": "刪除已選取的 {count} 項？",
+    "bulkDeleteSuccess": "項目已刪除",
+    "bulkDownloadStart": "正在下載 {count} 項...",
+    "moveSuccess": "項目已移動"
+  },
+  "voice": {
+    "connecting": "連線中...",
+    "connected": "已連線",
+    "mute": "靜音",
+    "unmute": "取消靜音",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "自然說話。AI 會在您停頓時回應。",
+    "connectionError": "連線失敗。請再試一次。",
+    "minutesRemaining": "剩餘 {minutes} 分鐘",
+    "minutesUsed": "已使用 {minutes} 分鐘"
+  },
+  "characters": {
+    "filters": "篩選器",
+    "ethnicity": "族裔",
+    "bodyType": "體型",
+    "ageRange": "年齡範圍",
+    "relationship": "關係狀態",
+    "occupation": "職業",
+    "hobbies": "興趣",
+    "personality": "個性",
+    "language": "語言",
+    "age": "年齡",
+    "all": "全部",
+    "noResults": "找不到角色",
+    "noResultsDesc": "請調整您的篩選條件",
+    "newBadge": "新",
+    "chatNow": "立即聊天",
+    "viewProfile": "查看個人檔案",
+    "ethnicities": {
+      "caucasian": "白人",
+      "asian": "亞洲人",
+      "middleEastern": "中東人",
+      "hispanic": "西班牙裔",
+      "african": "非洲人",
+      "southAsian": "南亞人",
+      "nativeAmerican": "美洲原住民",
+      "pacificIslander": "太平洋島民",
+      "mixed": "混血",
+      "other": "其他"
+    },
+    "bodyTypes": {
+      "slim": "苗條",
+      "athletic": "運動型",
+      "average": "普通",
+      "curvy": "曲線",
+      "plus": "加大尺碼"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "單身",
+      "dating": "交往中",
+      "married": "已婚",
+      "none": "無"
+    }
+  },
+  "settings": {
+    "profile": "個人檔案",
+    "myProfile": "我的個人檔案",
+    "settings": "設定",
+    "account": "帳戶",
+    "plan": "方案",
+    "profileSettings": "個人資料設定",
+    "manageAccountSettings": "管理您的帳戶設定與偏好",
+    "personalInfo": "個人資訊",
+    "nickname": "暱稱",
+    "gender": "性別",
+    "male": "男",
+    "female": "女",
+    "preferences": "偏好設定",
+    "newsletter": "電子報訂閱",
+    "newsletterDesc": "接收更新與最新消息",
+    "aiTrainingTitle": "AI 與審核訓練",
+    "aiTrainingDesc": "允許您的聊天與提示詞用於訓練及改善 sweetwine 的 AI 與審核功能。您隨時可以關閉以退出。",
+    "aiTrainingLink": "詳情請參閱我們的隱私聲明。",
+    "aiTrainingError": "無法更新您的 AI 訓練偏好",
+    "interfaceLanguage": "介面語言",
+    "interfaceLanguageDesc": "使用者介面使用的語言",
+    "aiLanguage": "AI 回應語言",
+    "aiLanguageDesc": "AI 角色與您對話時使用的語言",
+    "currentPlan": "目前方案",
+    "freePlan": "免費方案",
+    "dangerZone": "危險區域",
+    "dangerZoneDescription": "若您想永久刪除此帳戶及其所有資料。",
+    "deleteAllMemory": "刪除所有記憶",
+    "confirmDeleteAllMemory": "確定要刪除所有 AI 角色的長期記憶嗎？聊天訊息將保留，但角色將在下次回覆時忘記先前的事實。",
+    "deleteAllMemorySuccess": "所有記憶已刪除",
+    "deleteAccount": {
+      "button": "刪除帳戶",
+      "title": "刪除帳戶",
+      "warning": "您將被登出並失去帳戶存取權限。",
+      "typeConfirm": "請輸入以下文字以確認",
+      "confirmRequired": "請輸入 DELETE 以確認",
+      "confirmButton": "刪除我的帳戶",
+      "deleting": "刪除中...",
+      "success": "您的帳戶已刪除",
+      "error": "刪除帳戶失敗，請再試一次。"
+    },
+    "saveChanges": "儲存變更",
+    "changesSaved": "變更已成功儲存",
+    "saveFailed": "儲存變更失敗",
+    "languageUpdated": "語言已更新",
+    "aiLanguageUpdated": "AI 語言已更新"
+  },
+  "create": {
+    "defaultGreeting": "你好",
+    "title": "建立 AI 角色",
+    "step": "步驟 {current} / {total}",
+    "step1": {
+      "title": "選擇風格",
+      "description": "為您的角色選擇風格與基本屬性"
+    },
+    "step2": {
+      "title": "選擇種族",
+      "description": "為您的角色選擇種族與年齡"
+    },
+    "step3": {
+      "title": "選擇髮型與眼睛",
+      "description": "自訂髮型、髮色與眼睛顏色"
+    },
+    "step4": {
+      "title": "選擇身材",
+      "description": "自訂角色的身材"
+    },
+    "step5": {
+      "title": "個性與細節",
+      "description": "定義角色的個性與聲音"
+    },
+    "style": {
+      "title": "角色風格",
+      "realistic": "寫實",
+      "anime": "動漫"
+    },
+    "gender": {
+      "title": "性別",
+      "female": "女性",
+      "male": "男性"
+    },
+    "age": {
+      "title": "年齡",
+      "years": "{age} 歲"
+    },
+    "ethnicity": {
+      "title": "種族"
+    },
+    "hairStyle": {
+      "title": "髮型"
+    },
+    "hairColor": {
+      "title": "髮色"
+    },
+    "eyeColor": {
+      "title": "眼睛顏色"
+    },
+    "bodyType": {
+      "title": "身材類型"
+    },
+    "breastSize": {
+      "title": "胸圍尺寸"
+    },
+    "name": {
+      "title": "名稱",
+      "placeholder": "輸入角色名稱",
+      "randomize": "隨機產生名稱"
+    },
+    "language": {
+      "title": "語言",
+      "widgetLabel": "選擇語言",
+      "placeholder": "選擇語言",
+      "selectTitle": "選擇您的語言"
+    },
+    "personality": {
+      "title": "個性",
+      "widgetLabel": "選擇個性",
+      "placeholder": "選擇個性",
+      "sectionTitle": "選擇個性",
+      "clickToChange": "點擊變更"
+    },
+    "relationship": {
+      "title": "關係",
+      "widgetLabel": "選擇關係",
+      "placeholder": "選擇關係",
+      "selectTitle": "編輯關係"
+    },
+    "occupation": {
+      "title": "職業",
+      "widgetLabel": "選擇職業",
+      "placeholder": "選擇職業",
+      "selectTitle": "編輯職業"
+    },
+    "kinks": {
+      "title": "興趣",
+      "widgetLabel": "他們喜歡哪些興趣？（最多 {max}）",
+      "labelMax": "興趣（最多 {max}）",
+      "placeholder": "選擇興趣（選填）",
+      "optional": "選填",
+      "selectTitle": "編輯興趣",
+      "moreCount": "+{count} 更多"
+    },
+    "selector": {
+      "searchPlaceholder": "搜尋",
+      "noResults": "找不到選項",
+      "cancel": "取消",
+      "saveChanges": "儲存變更",
+      "selectedCount": "已選擇 {count}"
+    },
+    "voice": {
+      "title": "聲音",
+      "widgetLabel": "選擇聲音",
+      "placeholder": "選擇聲音",
+      "selectTitle": "選擇聲音"
+    },
+    "advanced": {
+      "title": "進階細節",
+      "optional": "選填",
+      "filled": "已填寫",
+      "autocompleteTitle": "使用 AI 自動完成",
+      "autocompleteDesc": "讓 AI 填寫空白欄位，打造更豐富的角色",
+      "autocompleteSuccess": "欄位填寫成功！",
+      "autocompleteError": "產生建議失敗。請再試一次。",
+      "greetingLabel": "問候語",
+      "greetingPlaceholder": "角色傳送的第一則訊息...",
+      "scenarioLabel": "情境",
+      "scenarioPlaceholder": "你們相遇的背景或故事...",
+      "personalityLabel": "額外個性細節",
+      "personalityPlaceholder": "怪癖、說話方式、行為特質...",
+      "extraLabel": "額外細節",
+      "extraPlaceholder": "背景、興趣、生活經歷..."
+    },
+    "navigation": {
+      "back": "返回",
+      "next": "下一步",
+      "create": "建立",
+      "generateYourCharacter": "產生你的角色"
+    },
+    "progress": {
+      "generatingPrompt": "建立個性中...",
+      "generatingImage": "建立肖像中...",
+      "creatingVoice": "設定聲音中...",
+      "saving": "儲存中...",
+      "complete": "完成！"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "建立個性中...",
+      "addingSweetness": "加入甜蜜元素...",
+      "tooMuchSweet": "哎呀，甜度太高了…",
+      "testingSounds": "正在測試音效…"
+    },
+    "overlay": {
+      "signupPrompt": "完成註冊以解鎖你的角色…",
+      "processingHint": "通常需要 20–30 秒",
+      "traitEthnicity": "種族",
+      "traitBody": "身材",
+      "traitHair": "髮型",
+      "traitColor": "顏色",
+      "traitEyes": "眼睛",
+      "traitVibe": "氛圍",
+      "bannerTitle": "你的角色已準備好建立！",
+      "bannerDesc": "你的偏好已儲存。請在下方檢視並生成。"
+    },
+    "success": {
+      "title": "角色建立完成！",
+      "description": "你的 AI 角色已成功建立。",
+      "yearsOld": "歲",
+      "meetButton": "見面"
+    },
+    "error": {
+      "title": "建立失敗",
+      "generic": "角色建立失敗，請再試一次。"
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "白人",
+        "asian": "亞洲人",
+        "middle_eastern": "中東人",
+        "hispanic": "西班牙裔",
+        "african": "非洲人",
+        "south_asian": "南亞人",
+        "native_american": "美洲原住民",
+        "pacific_islander": "太平洋島民",
+        "mixed": "混血",
+        "arab": "阿拉伯人"
+      },
+      "hairStyleFemale": {
+        "straight": "直髮",
+        "bangs": "瀏海",
+        "curly": "捲髮",
+        "bun": "丸子頭",
+        "short_bob": "短鮑伯頭",
+        "ponytail": "馬尾",
+        "wavy": "波浪",
+        "long_layers": "長層次",
+        "braids": "辮子",
+        "pixie_cut": "精靈短髮",
+        "updo": "盤髮",
+        "french_twist": "法式扭髮",
+        "fishtail_braid": "魚尾辮",
+        "top_knot": "頂髻",
+        "space_buns": "太空丸子",
+        "halo_braid": "光環辮",
+        "beehive": "蜂巢髮型",
+        "finger_waves": "指波",
+        "lob": "Lob（長鮑伯頭）",
+        "shag_cut": "層次剪",
+        "bald": "光頭"
+      },
+      "hairStyleMale": {
+        "short": "短髮",
+        "buzz_cut": "平頭",
+        "crew_cut": "板寸",
+        "undercut": "低層次",
+        "fade": "漸層",
+        "pompadour": "龐克頭",
+        "quiff": "翹髮",
+        "slicked_back": "背頭",
+        "curly": "捲髮",
+        "afro": "爆炸頭",
+        "man_bun": "男士丸子頭",
+        "dreadlocks": "雷鬼辮",
+        "cornrows": "玉米辮",
+        "mohawk": "莫霍克",
+        "side_part": "側分",
+        "textured_crop": "紋理短剪",
+        "french_crop": "法式短剪",
+        "spiky": "刺蝟頭",
+        "comb_over": "蓋頭",
+        "long_hair": "長髮",
+        "bald": "光頭"
+      },
+      "hairColor": {
+        "brunette": "深褐色",
+        "blonde": "金色",
+        "black": "黑色",
+        "redhead": "紅色",
+        "pink": "粉紅色",
+        "auburn": "紅褐色",
+        "brown": "棕色",
+        "platinum_blonde": "白金金色",
+        "silver_grey": "銀灰色",
+        "white": "白色",
+        "blue": "藍色",
+        "purple": "紫色",
+        "green": "綠色",
+        "burgundy": "酒紅色",
+        "copper": "銅色",
+        "strawberry_blonde": "草莓金色",
+        "ash_brown": "灰棕色",
+        "golden_blonde": "金黃色",
+        "mahogany": "桃花心木色",
+        "pastel_pink": "粉彩粉紅",
+        "ombre": "漸層染",
+        "balayage": "焦糖挑染",
+        "highlights": "挑染",
+        "jet_black": "曜石黑",
+        "dark_brown": "深棕色",
+        "light_brown": "淺棕色",
+        "honey_blonde": "蜂蜜金",
+        "dirty_blonde": "髒金",
+        "cherry_red": "櫻桃紅",
+        "violet": "紫羅蘭"
+      },
+      "eyeColor": {
+        "brown": "棕色",
+        "blue": "藍色",
+        "green": "綠色",
+        "hazel": "榛色",
+        "amber": "琥珀色",
+        "gray": "灰色",
+        "heterochromia": "異色瞳",
+        "violet": "紫羅蘭",
+        "red_pink": "紅/粉",
+        "black": "黑色"
+      },
+      "bodyTypeFemale": {
+        "skinny": "纖細",
+        "athletic": "運動型",
+        "average": "普通",
+        "curvy": "曲線",
+        "chubby": "豐滿"
+      },
+      "bodyTypeMale": {
+        "skinny": "纖細",
+        "athletic": "運動型",
+        "average": "普通",
+        "muscular": "健壯",
+        "heavy": "厚實",
+        "big_tall": "高大"
+      },
+      "breastSize": {
+        "small": "小",
+        "medium": "中",
+        "large": "大",
+        "extra_large": "特大"
+      },
+      "personality": {
+        "nympho": "慾女",
+        "lover": "戀人",
+        "submissive": "順從",
+        "dominant": "主導",
+        "temptress": "魅惑",
+        "innocent": "純真",
+        "caregiver": "照顧者",
+        "experimenter": "實驗者",
+        "mean": "刻薄",
+        "confidant": "知己",
+        "shy": "害羞",
+        "queen": "女王",
+        "adventurous": "冒險",
+        "romantic": "浪漫",
+        "intellectual": "知性",
+        "protector": "守護者",
+        "rebel": "叛逆",
+        "optimist": "樂觀",
+        "realist": "現實",
+        "free_spirit": "自由靈魂",
+        "leader": "領袖",
+        "loyal": "忠誠",
+        "playful": "活潑",
+        "mysterious": "神秘",
+        "ambitious": "野心勃勃",
+        "gentle": "溫柔",
+        "sarcastic": "諷刺",
+        "empathetic": "善解人意",
+        "stoic": "沉穩",
+        "charismatic": "魅力四射"
+      },
+      "relationship": {
+        "stranger": "陌生人",
+        "girlfriend": "女友",
+        "sex_friend": "性伴侶",
+        "school_mate": "同學",
+        "work_colleague": "同事",
+        "wife": "妻子",
+        "mistress": "情婦",
+        "friend": "朋友",
+        "step_sister": "繼妹",
+        "step_mom": "繼母",
+        "step_daughter": "繼女",
+        "landlord": "房東",
+        "sugar_baby": "小三",
+        "boss": "老闆",
+        "teacher": "老師",
+        "student": "學生",
+        "neighbour": "鄰居",
+        "mother_in_law": "岳母",
+        "sister_in_law": "嫂子",
+        "boyfriend": "男友",
+        "husband": "丈夫",
+        "fiance": "未婚夫 / 未婚妻",
+        "ex": "前任",
+        "roommate": "室友",
+        "best_friend": "摯友",
+        "classmate": "同學",
+        "mentor": "導師",
+        "client": "客戶",
+        "therapist": "治療師",
+        "trainer": "教練",
+        "rival": "對手",
+        "crush": "暗戀對象",
+        "secret_admirer": "秘密愛慕者",
+        "pen_pal": "筆友",
+        "business_partner": "商業夥伴",
+        "babysitter": "保姆",
+        "childhood_friend": "青梅竹馬",
+        "long_distance_partner": "遠距離伴侶"
+      },
+      "occupation": {
+        "student": "學生",
+        "dancer": "舞者",
+        "model": "模特兒",
+        "maid": "女僕",
+        "boss_ceo": "老闆 / CEO",
+        "babysitter_au_pair": "保姆 / 海外換宿",
+        "streamer": "直播主",
+        "bartender": "調酒師",
+        "tech_engineer": "科技工程師",
+        "lifeguard": "救生員",
+        "cashier": "收銀員",
+        "massage_therapist": "按摩治療師",
+        "teacher": "教師",
+        "nurse": "護士",
+        "secretary": "秘書",
+        "yoga_instructor": "瑜伽教練",
+        "fitness_coach": "健身教練",
+        "cook": "廚師",
+        "artist": "藝術家",
+        "movie_star_actress": "電影明星 / 女演員",
+        "doctor": "醫生",
+        "librarian": "圖書館員",
+        "spy": "間諜",
+        "police_officer": "警察",
+        "soldier": "士兵",
+        "lawyer": "律師",
+        "hairdresser": "美髮師",
+        "dentist": "牙醫",
+        "singer_musician": "歌手 / 音樂家",
+        "gynecologist": "婦科醫生",
+        "writer": "作家",
+        "flight_attendant": "空服員",
+        "professional_athlete": "職業運動員",
+        "scientist": "科學家",
+        "florist": "花藝師",
+        "makeup_artist": "化妝師",
+        "photographer": "攝影師",
+        "social_worker": "社工",
+        "designer": "設計師",
+        "pharmacist": "藥劑師",
+        "nutritionist": "營養師",
+        "architect": "建築師",
+        "veterinarian": "獸醫",
+        "mechanic": "技工",
+        "journalist": "記者",
+        "pilot": "飛行員",
+        "firefighter": "消防員",
+        "accountant": "會計師",
+        "electrician": "電工",
+        "carpenter": "木工",
+        "psychologist": "心理學家",
+        "real_estate_agent": "房地產經紀人",
+        "chef": "廚師",
+        "farmer": "農夫",
+        "delivery_driver": "外送員",
+        "janitor": "清潔工",
+        "security_guard": "警衛",
+        "banker": "銀行家",
+        "judge": "法官",
+        "paramedic": "救護員",
+        "actor": "演員",
+        "comedian": "喜劇演員",
+        "archaeologist": "考古學家",
+        "astronaut": "太空人"
+      },
+      "kinks": {
+        "bondage": "捆綁",
+        "spanking": "打屁股",
+        "collar_leash": "項圈與牽繩",
+        "punishment": "懲罰",
+        "humiliation": "羞辱",
+        "public_play": "公開遊戲",
+        "roleplay": "角色扮演",
+        "anal_play": "肛交遊戲",
+        "oral_play": "口交遊戲",
+        "cum_play": "精液遊戲",
+        "creampie": "內射",
+        "squirting": "潮吹",
+        "dirty_talk": "淫蕩對話",
+        "breeding": "繁殖",
+        "daddy_mommy_dominance": "爸爸/媽媽支配",
+        "edging": "邊緣控制",
+        "obedience": "服從",
+        "control": "控制",
+        "inexperienced": "經驗不足",
+        "shy_flirting": "害羞調情",
+        "playful_teasing": "調皮挑逗",
+        "cuddling": "擁抱",
+        "slow_sensual": "緩慢而感官",
+        "hair_pulling": "拉扯頭髮",
+        "foot_fetish": "足部戀物",
+        "voyeurism": "偷窺",
+        "exhibitionism": "暴露",
+        "sensation_play": "感官遊戲",
+        "wax_play": "蠟燭遊戲",
+        "pet_play": "寵物遊戲",
+        "age_play": "年齡遊戲",
+        "medical_play": "醫療遊戲",
+        "orgasm_control_denial": "高潮控制/拒絕",
+        "forced_orgasms": "強迫高潮",
+        "group_sex": "群交",
+        "threesomes": "三人行",
+        "swapping": "交換",
+        "cuckolding_cuckqueaning": "戴綠帽／被戴綠帽",
+        "femdom": "女性支配",
+        "gentle_domination": "溫柔支配",
+        "sensation_deprivation": "感官剝奪",
+        "sensory_overload": "感官超載",
+        "uniform_costume_fetish": "制服／角色扮演戀物",
+        "food_play": "食物遊戲",
+        "watersports": "尿液遊戲",
+        "bdsm": "BDSM",
+        "impact_play": "衝擊遊戲",
+        "knife_play": "刀具遊戲",
+        "consensual_non_consent": "雙方同意的非自願",
+        "power_exchange": "權力交換",
+        "master_slave": "主人／奴隸",
+        "owner_pet": "主人／寵物"
+      },
+      "languages": {
+        "en": "英文",
+        "cs": "捷克文",
+        "pl": "波蘭文",
+        "de": "德文",
+        "es": "西班牙文",
+        "fr": "法文"
+      }
+    }
+  },
+  "myAI": {
+    "title": "我的 AI",
+    "titlePart1": "我的",
+    "titlePart2": "AI",
+    "createNew": "建立新 AI",
+    "createButton": "建立角色",
+    "characterCount": "{count}/{limit} 個角色",
+    "loadMore": "載入更多",
+    "empty": {
+      "title": "尚未建立角色",
+      "description": "建立你的第一個 AI 角色並開始聊天！自訂外貌、個性與聲音。",
+      "createFirst": "建立你的第一個角色"
+    },
+    "delete": {
+      "title": "刪除角色",
+      "message": "確定要刪除 {name} 嗎？這將永久移除角色、所有聊天記錄與生成內容。",
+      "confirm": "刪除",
+      "success": "角色刪除成功"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ 互動",
+    "interactionDescription": "直接用自然語言輸入 — 要求照片、影片或開始對話。AI 能理解任何語言的意圖。",
+    "mediaTitle": "生成圖片與影片",
+    "mediaDescription": "釋放想像力 — 無限制生成圖片或影片。",
+    "next": "下一步 →",
+    "gotIt": "知道了"
+  }
+}

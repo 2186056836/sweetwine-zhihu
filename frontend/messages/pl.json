@@ -1,0 +1,4035 @@
+{
+  "common": {
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "now": "teraz",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd",
+    "success": "Sukces",
+    "confirm": "Potwierdź",
+    "back": "Wstecz",
+    "or": "Lub",
+    "next": "Dalej",
+    "submit": "Wyślij",
+    "search": "Szukaj",
+    "filter": "Filtruj",
+    "clear": "Wyczyść",
+    "all": "Wszystko",
+    "yes": "Tak",
+    "no": "Nie",
+    "download": "Pobierz",
+    "and": "i",
+    "tryAgain": "Spróbuj ponownie",
+    "change": "Zmień"
+  },
+  "navigation": {
+    "new": "NOWOŚĆ",
+    "sectionBrowse": "Przeglądaj",
+    "sectionTalk": "Rozmawiaj",
+    "sectionCreate": "Twórz",
+    "sectionLibrary": "Biblioteka",
+    "explore": "Strona główna",
+    "discover": "Odkrywaj",
+    "createShort": "Twórz AI",
+    "chats": "Czaty",
+    "groupChat": "Grupowy czat AI",
+    "roleplay": "Roleplay",
+    "collection": "Kolekcja",
+    "generateImage": "Generuj obraz",
+    "generateVideo": "Generuj wideo",
+    "createCharacter": "Utwórz postać AI",
+    "myAI": "Moje AI",
+    "language": "Język",
+    "contactUs": "Kontakt",
+    "account": "Konto",
+    "sidebarPromoTitle": "Wyprzedaż letnia — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Kobiety",
+      "anime": "Anime",
+      "guys": "Mężczyźni"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Czatuj teraz",
+    "like": "Lubię"
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "signup": "Zarejestruj się",
+    "createFreeAccount": "Utwórz darmowe konto",
+    "logout": "Wyloguj się",
+    "email": "E-mail",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "forgotPassword": "Zapomniałeś hasła?",
+    "noAccount": "Nie masz konta?",
+    "hasAccount": "Masz już konto?",
+    "signupPrompt": "Utwórz darmowe konto",
+    "loginPrompt": "Zaloguj się",
+    "continueWith": "Kontynuuj z",
+    "welcomeBack": "Witaj ponownie!",
+    "createAccount": "Utwórz konto",
+    "signInToAccount": "Zaloguj się do konta",
+    "emailRequired": "E-mail jest wymagany",
+    "emailInvalid": "Nieprawidłowy adres e-mail",
+    "passwordRequired": "Hasło jest wymagane",
+    "passwordLength": "Hasło musi mieć co najmniej 6 znaków",
+    "passwordsMismatch": "Hasła nie są identyczne",
+    "emailAlreadyRegistered": "E-mail jest już zarejestrowany",
+    "emailAlreadyRegisteredDescription": "Konto z tym adresem e-mail już istnieje. Zaloguj się.",
+    "loginError": "Logowanie nie powiodło się",
+    "signupError": "Rejestracja nie powiodła się",
+    "loginSuccess": "Witaj ponownie!",
+    "signupSuccess": "Konto utworzone pomyślnie!",
+    "logoutSuccess": "Wylogowano pomyślnie",
+    "logoutError": "Wylogowanie nie powiodło się",
+    "linkExpired": "Ten link weryfikacyjny wygasł. Poproś o nowy.",
+    "accessDenied": "Odmowa dostępu. Spróbuj ponownie.",
+    "verifyEmail": "Zweryfikuj swój e-mail",
+    "verificationEmailSent": "Wysłaliśmy do Ciebie e-mail weryfikacyjny",
+    "confirmYourEmail": "Potwierdź swój e-mail",
+    "confirmationLinkSent": "Wysłaliśmy link potwierdzający na \"{email}\".",
+    "checkSpamFolder": "Nie otrzymałeś e-maila? Sprawdź folder spam.",
+    "signupToChat": "Utwórz darmowe konto, aby rozpocząć.",
+    "signupDescription": "Utwórz konto, aby kontynuować rozmowę",
+    "emailVerificationTitle": "Sprawdź swoją pocztę",
+    "emailVerificationMessage": "Wysłaliśmy link weryfikacyjny na {email}. Sprawdź swoją skrzynkę i kliknij link, aby zweryfikować konto.",
+    "emailVerificationNext": "Po weryfikacji ukończysz proces onboardingu.",
+    "verificationEmailSentTo": "Wysłaliśmy e-mail weryfikacyjny na {email}",
+    "verificationInstructions": "Sprawdź swoją skrzynkę i kliknij link weryfikacyjny, aby aktywować konto.",
+    "resetPassword": "Zresetuj hasło",
+    "resetPasswordDescription": "Podaj e-mail, a wyślemy Ci link do resetu",
+    "resetEmailSent": "Jeśli konto z tym adresem istnieje, wkrótce otrzymasz link do resetu",
+    "backToLogin": "Powrót do logowania",
+    "newPassword": "Nowe hasło",
+    "confirmNewPassword": "Potwierdź nowe hasło",
+    "passwordResetSuccess": "Hasło zaktualizowane pomyślnie. Zaloguj się.",
+    "enterNewPassword": "Wprowadź nowe hasło",
+    "redirectingToLogin": "Przekierowywanie do logowania...",
+    "invalidResetLink": "Nieprawidłowy lub wygasły link",
+    "invalidResetLinkDescription": "Ten link do resetu hasła jest nieprawidłowy lub wygasł. Poproś o nowy.",
+    "passwordsDontMatch": "Hasła nie są zgodne",
+    "currentPassword": "Obecne hasło",
+    "currentPasswordRequired": "Obecne hasło jest wymagane",
+    "changePassword": "Zmień hasło",
+    "changePasswordDescription": "Wprowadź obecne hasło i wybierz nowe",
+    "newPasswordMustBeDifferent": "Nowe hasło musi być inne niż obecne",
+    "incorrectPassword": "Obecne hasło jest nieprawidłowe",
+    "passwordChangeSuccess": "Hasło zmienione pomyślnie",
+    "changeEmail": "Zmień e-mail",
+    "newEmail": "Nowy e-mail",
+    "confirmNewEmail": "Potwierdź nowy e-mail",
+    "emailsDontMatch": "Adresy e-mail nie są zgodne",
+    "emailChangeDescription": "E-mail weryfikacyjny zostanie wysłany na Twój obecny i nowy adres",
+    "emailMustBeDifferent": "Nowy e-mail musi być inny niż obecny",
+    "emailChangeSent": "E-mail weryfikacyjny wysłany. Sprawdź swoją nową skrzynkę.",
+    "emailChangeSecurityNote": "Ze względów bezpieczeństwa potwierdzenia zostaną wysłane na oba adresy. Musisz potwierdzić oba, aby dokończyć zmianę.",
+    "otpDescription": "Wysłaliśmy 6-cyfrowy kod na {email}",
+    "otpVerify": "Zweryfikuj",
+    "otpResend": "Wyślij kod ponownie",
+    "otpResendIn": "Wyślij ponownie za {seconds}s",
+    "otpNoCode": "Nie otrzymałeś kodu?",
+    "otpInvalid": "Nieprawidłowy kod. Spróbuj ponownie.",
+    "otpSuccess": "E-mail zweryfikowany pomyślnie!",
+    "otpResendSuccess": "Nowy kod wysłany na Twój e-mail",
+    "otpResendError": "Nie udało się wysłać kodu ponownie",
+    "continueWithEmail": "Kontynuuj z e-mailem",
+    "moreOptions": "Więcej opcji",
+    "lessOptions": "Mniej opcji",
+    "enterYourEmail": "Wprowadź swój adres e-mail",
+    "sendCode": "Wyślij kod",
+    "byCreatingAccountAgree": "Tworząc konto, akceptujesz nasze",
+    "termsOfService": "Warunki świadczenia usług",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Witaj w sweetwine",
+    "welcomeTo": "Witaj w",
+    "letsGetStarted": "Zacznijmy konfigurację",
+    "setupProfile": "Skonfiguruj profil",
+    "step1of2": "Krok 1 z 2",
+    "step2of2": "Krok 2 z 2",
+    "nickname": "Pseudonim",
+    "nicknamePlaceholder": "Wybierz pseudonim",
+    "nicknameRequired": "Podaj pseudonim",
+    "gender": "Płeć",
+    "genderRequired": "Wybierz płeć",
+    "male": "Mężczyzna",
+    "female": "Kobieta",
+    "interfaceLanguage": "Język interfejsu",
+    "interfaceLanguageDesc": "Język menu i przycisków",
+    "aiLanguage": "Język odpowiedzi AI",
+    "aiLanguageDesc": "Język, w którym AI będzie z Tobą rozmawiać",
+    "languageRequired": "Wybierz język",
+    "continue": "Kontynuuj",
+    "ageVerification": "Weryfikacja wieku",
+    "ageVerificationText": "Aby korzystać ze sweetwine, musisz mieć ukończone 18 lat. Kontynuując, potwierdzasz, że jesteś pełnoletni.",
+    "beforeContinue": "Zanim przejdziesz dalej",
+    "mustBe18": "Aby korzystać z tej usługi, musisz mieć ukończone 18 lat",
+    "agreeToTerms": "Kontynuując, akceptujesz nasze {termsLink} i {privacyLink}",
+    "termsOfService": "Regulamin",
+    "privacyPolicy": "Polityka prywatności",
+    "iConfirm": "Potwierdzam, że mam ukończone 18 lat i akceptuję",
+    "ageRequired": "Aby kontynuować, musisz potwierdzić swój wiek",
+    "aiActConsent": "Oświadczam, że komunikuję się wyłącznie z AI",
+    "aiActRequired": "Aby kontynuować, musisz to potwierdzić",
+    "newsletterOptIn": "Zapisz się do newslettera, aby otrzymywać aktualizacje i wiadomości",
+    "complete": "Konfiguracja zakończona!",
+    "completeText": "Wszystko gotowe! Zacznij rozmawiać z postaciami AI.",
+    "startExploring": "Zacznij odkrywać",
+    "featuresTitle": "Dostępne funkcje",
+    "featuresTitleWord1": "Dostępne",
+    "featuresTitleWord2": "Funkcje",
+    "feature1Title": "Czat AI",
+    "feature1Desc": "Niecenzuralne i prywatne rozmowy",
+    "feature2Title": "Generowanie obrazów",
+    "feature2Desc": "Generuj niecenzuralne i spersonalizowane obrazy z postaciami AI",
+    "feature3Title": "Generowanie wideo",
+    "feature3Desc": "Generuj niecenzuralne filmy AI z efektami",
+    "feature5Title": "Kreator własnych AI",
+    "feature5Desc": "Stwórz własną postać",
+    "feature6Title": "Przeglądaj postacie",
+    "feature6Desc": "Ponad 100 unikalnych osobowości",
+    "feature7Title": "Roleplay AI",
+    "feature7Desc": "Poznaj profesjonalnie przygotowane historie i fantazje",
+    "showcase": {
+      "chatTitle": "Czat AI",
+      "chatDesc": "Niecenzuralne, prywatne rozmowy bez ograniczeń",
+      "imageTitle": "Generowanie obrazów",
+      "imageDesc": "Twórz niecenzuralne, spersonalizowane obrazy swojego AI",
+      "videoTitle": "Generowanie wideo",
+      "videoDesc": "Generuj niecenzuralne filmy AI z efektami",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Rozmowy głosowe w czasie rzeczywistym z Twoim towarzyszem",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Wciągające historie, fantazje i interaktywna zabawa",
+      "groupChatTitle": "Czat grupowy AI",
+      "groupChatDesc": "Czatuj z maksymalnie 3 postaciami AI jednocześnie",
+      "creatorTitle": "Kreator niestandardowych AI",
+      "creatorDesc": "Projektuj i twórz własne postacie AI"
+    },
+    "freePlan": {
+      "title": "Wszystko gotowe!",
+      "subtitle": "Oto co zawiera Twój darmowy plan.",
+      "charactersTitle": "Stwórz własną postać",
+      "charactersDesc": "Stwórz od zera {count} niestandardową postać AI",
+      "imagesTitle": "Wygeneruj obraz",
+      "imagesDesc": "{count} darmowy obraz AI Twojego towarzysza",
+      "messagesTitle": "Czatuj codziennie",
+      "messagesDesc": "{count} wiadomości dziennie, odnawiane co 24 godziny",
+      "cta": "Zacznij odkrywać"
+    },
+    "redirectingIn": "Przekierowanie za",
+    "seconds": "sekund",
+    "generateCharacter": "Wygeneruj swoją postać",
+    "redirectingToCreate": "Przekierowanie do kreatora postaci za"
+  },
+  "errors": {
+    "pageNotFound": "Nie znaleziono strony",
+    "pageNotFoundDesc": "Strona, której szukasz, nie istnieje.",
+    "goHome": "Idź do strony głównej",
+    "somethingWentWrong": "Coś poszło nie tak",
+    "tryAgain": "Spróbuj ponownie",
+    "unauthorized": "Brak autoryzacji",
+    "unauthorizedDesc": "Musisz być zalogowany, aby uzyskać dostęp do tej strony.",
+    "forbidden": "Zabronione",
+    "forbiddenDesc": "Nie masz uprawnień, aby uzyskać dostęp do tej strony."
+  },
+  "footer": {
+    "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+    "madeWith": "Stworzone z",
+    "by": "przez sweetwine",
+    "description": "Poznaj spersonalizowane postacie AI z unikalnymi osobowościami, wizualnymi tożsamościami i angażującymi rozmowami.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Produkt",
+    "legal": "Prawne",
+    "company": "Firma",
+    "resources": "Zasoby",
+    "partnerships": "Partnerstwa",
+    "pressMedia": "Prasa i media",
+    "careers": "Kariera",
+    "aiRealClones": "AI real clones",
+    "about": "O nas",
+    "blog": "Blog",
+    "news": "Aktualności",
+    "productUpdates": "Aktualizacje produktu",
+    "help": "Pomoc",
+    "sitemap": "Mapa strony",
+    "paymentOptions": "Opcje płatności",
+    "chats": "Czaty",
+    "collection": "Kolekcja",
+    "generateImage": "Generuj obraz",
+    "generateVideo": "Generuj wideo",
+    "myAI": "Moje AI",
+    "createCharacter": "Utwórz postać",
+    "api": "API",
+    "features": "Funkcje",
+    "allFeatures": "Wszystkie funkcje",
+    "aiGroupChat": "Czat grupowy AI",
+    "aiMemory": "Pamięć AI",
+    "aiGirlfriend": "Dziewczyna AI",
+    "aiBoyfriend": "Chłopak AI",
+    "aiCompanions": "Postacie AI",
+    "aiFriend": "Przyjaciel AI",
+    "aiBreakupSupport": "Wsparcie po rozstaniu",
+    "aiParent": "Rodzic AI",
+    "aiRoleplay": "Roleplay AI",
+    "privacyPolicy": "Polityka prywatności",
+    "termsAndConditions": "Regulamin",
+    "cookiePolicy": "Polityka cookies",
+    "cookieSettings": "Ustawienia cookies",
+    "other": "Inne polityki",
+    "copyright": "© {year} sweetwine. Wszelkie prawa zastrzeżone."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookies na tej stronie",
+      "customizeButton": "Dostosuj",
+      "rejectButton": "Odrzuć",
+      "acceptButton": "Akceptuj"
+    },
+    "modal": {
+      "title": "Zarządzaj cookies",
+      "subtitle": "Włącz lub wyłącz kategorie poniżej. Niezbędne cookies pozostają włączone, aby strona mogła działać.",
+      "categories": {
+        "necessary": {
+          "title": "Ściśle niezbędne",
+          "description": "Wymagane do logowania, płatności i bezpieczeństwa. Bez nich strona nie może działać.",
+          "alwaysOn": "Zawsze włączone"
+        },
+        "analytics": {
+          "title": "Wydajność",
+          "description": "Pomiar użytkowania i konwersji przez Google Analytics 4, w tym kluczowe konwersje (rejestracja, zakup) wysyłane z naszego serwera przy użyciu pseudonimowego identyfikatora. Pomaga nam zrozumieć, jak korzystasz z serwisu; nie używamy go do osobistej identyfikacji."
+        },
+        "marketing": {
+          "title": "Targetowanie",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "Pokaż cookies",
+      "hideCookies": "Ukryj cookies",
+      "table": {
+        "name": "Nazwa",
+        "provider": "Dostawca",
+        "expiration": "Wygaśnięcie",
+        "description": "Opis",
+        "session": "Sesja"
+      },
+      "policyLink": "Pełne szczegóły znajdziesz w naszej <policy>Polityce cookies</policy>.",
+      "rejectButton": "Odrzuć",
+      "saveButton": "Zapisz i zamknij",
+      "acceptButton": "Akceptuj",
+      "cookieDescriptions": {
+        "supabaseAuth": "Utrzymuje Cię zalogowanym, przechowując sesję uwierzytelnioną.",
+        "nextLocale": "Zapamiętuje wybrany język interfejsu.",
+        "consent": "Przechowuje Twoje wybory cookies, aby baner nie pojawiał się przy każdej wizycie.",
+        "ga": "Rozróżnia unikalnych użytkowników (Google Analytics 4). Ten sam pseudonimowy identyfikator jest używany do pomiaru kluczowych konwersji po stronie serwera.",
+        "gaSession": "Utrzymuje stan sesji Google Analytics 4 i metryki zaangażowania.",
+        "fbp": "Identyfikuje przeglądarkę dla atrybucji Meta Pixel.",
+        "fbc": "Przechowuje identyfikator kliknięcia Facebooka do atrybucji konwersji reklam. Ustawiany tylko po kliknięciu reklamy Meta.",
+        "gclAu": "Używany przez Google Ads do łączenia konwersji między witrynami.",
+        "saleCountdown": "Śledzi koniec aktualnej promocji, aby odliczanie rabatu było spójne na wszystkich stronach.",
+        "onboarded": "Oznacza konto jako onboardowane, aby pominąć weryfikację wieku w kolejnych wizytach.",
+        "attribution": "Rejestruje, która płatna kampania lub link reklamowy ostatnio przyprowadził Cię na naszą stronę (ostatnie kliknięcie płatne w ciągu 30 dni), abyśmy mogli zmierzyć skuteczność naszych reklam. Jest to identyfikator pierwszej strony, który pozostaje na naszych serwerach i nigdy nie jest udostępniany stronom trzecim."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Wkrótce",
+    "subtitle": "Pracujemy intensywnie, aby udostępnić tę funkcję.",
+    "notify": "Powiadom mnie, gdy będzie gotowa",
+    "backHome": "Powrót do strony głównej",
+    "generateVideo": {
+      "title": "Generuj filmy",
+      "description": "Ożyw swoje postacie AI za pomocą animowanych filmów. Twórz spersonalizowane treści wideo z ulubionymi postaciami."
+    },
+    "createCharacter": {
+      "title": "Stwórz swoją postać",
+      "description": "Zaprojektuj i dostosuj własną, unikalną postać AI. Zdefiniuj jej osobowość, wygląd, historię i twórz naprawdę spersonalizowane interakcje."
+    },
+    "myAI": {
+      "title": "Moje AI",
+      "description": "Uzyskaj dostęp i zarządzaj wszystkimi swoimi niestandardowymi postaciami AI. Edytuj ich osobowości, aktualizuj wygląd i dostrajaj odpowiedzi."
+    }
+  },
+  "exploreMore": {
+    "title": "Odkrywaj więcej",
+    "aiGroupChat": "Czat grupowy AI",
+    "aiGroupChatDesc": "Czatuj z maksymalnie 3 postaciami",
+    "aiMemory": "Pamięć AI",
+    "aiMemoryDesc": "Kontekst, który towarzyszy każdemu trybowi",
+    "aiGirlfriend": "Dziewczyna AI",
+    "aiGirlfriendDesc": "Czatuj ze swoją wirtualną dziewczyną",
+    "aiBoyfriend": "Chłopak AI",
+    "aiBoyfriendDesc": "Połącz się ze swoim chłopakiem AI",
+    "aiCompanions": "Postacie AI",
+    "aiCompanionsDesc": "Poznaj wyjątkowe osobowości AI",
+    "aiFriend": "Przyjaciel AI",
+    "aiFriendDesc": "Znajdź przyjaciela bez osądzania",
+    "aiBreakupSupport": "Wsparcie po rozstaniu",
+    "aiBreakupSupportDesc": "Leczące rozmowy",
+    "aiParent": "Rodzic AI",
+    "aiParentDesc": "Ciepłe wsparcie i wskazówki",
+    "aiRoleplay": "Roleplay AI",
+    "aiRoleplayDesc": "Immersyjne scenariusze fabularne",
+    "allFeatures": "Wszystkie funkcje",
+    "allFeaturesDesc": "Poznaj wszystko, co oferujemy"
+  },
+  "legal": {
+    "policies": "Polityki",
+    "termsAndConditions": "Regulamin",
+    "privacyPolicy": "Polityka prywatności",
+    "cookiePolicy": "Polityka cookies",
+    "contentReportingPolicy": "Polityka zgłaszania treści",
+    "communityGuidelines": "Zasady społeczności",
+    "complaintPolicy": "Polityka reklamacji",
+    "contentRemovalPolicy": "Polityka usuwania treści",
+    "blockedContentPolicy": "Polityka blokowania treści",
+    "underagePolicy": "Polityka dotycząca niepełnoletnich",
+    "usc2257": "18 U.S.C. 2257 Exemption",
+    "lastUpdated": "Ostatnia aktualizacja",
+    "index": {
+      "title": "Dokumenty prawne",
+      "subtitle": "Przeglądaj wszystkie polityki i umowy prawne związane ze sweetwine",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Polityka prywatności",
+          "description": "Dowiedz się, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe. Szczegóły dotyczące przetwarzania danych, przechowywania i Twoich praw do prywatności."
+        },
+        "termsAndConditions": {
+          "title": "Regulamin",
+          "description": "Warunki korzystania z sweetwine. Obowiązki użytkownika, opis usługi i umowy prawne."
+        },
+        "cookiePolicy": {
+          "title": "Polityka cookies",
+          "description": "Informacje o tym, jak używamy plików cookies i podobnych technologii, aby poprawić Twoje doświadczenie na naszej platformie."
+        },
+        "underagePolicy": {
+          "title": "Polityka dotycząca niepełnoletnich",
+          "description": "Nasze ścisłe zasady weryfikacji wieku i ochrony. sweetwine jest dostępny wyłącznie dla użytkowników od 18 lat."
+        },
+        "complaintPolicy": {
+          "title": "Polityka reklamacji",
+          "description": "Jak zgłaszać reklamacje, zgłaszać problemy oraz nasz proces rozpatrywania zgłoszeń i sporów."
+        },
+        "contentRemovalPolicy": {
+          "title": "Polityka usuwania treści",
+          "description": "Nasze procedury dotyczące wniosków o usunięcie treści i sposób obsługi zgłoszeń nieodpowiednich lub nielegalnych treści."
+        },
+        "blockedContentPolicy": {
+          "title": "Polityka blokowania treści",
+          "description": "Rodzaje treści zabronionych na naszej platformie oraz nasze zasady egzekwowania."
+        },
+        "contentReportingPolicy": {
+          "title": "Polityka zgłaszania treści",
+          "description": "Jak zgłaszać naruszenia praw autorskich i nieodpowiednie treści na sweetwine."
+        },
+        "communityGuidelines": {
+          "title": "Zasady społeczności",
+          "description": "Zasady i wytyczne zapewniające szacunek, bezpieczeństwo i przyjemność społeczności dla wszystkich użytkowników."
+        }
+      },
+      "lastUpdated": "Ostatnia aktualizacja: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Czaty",
+    "groupChat": "Czat grupowy AI",
+    "aiMemory": "Pamięć AI",
+    "generate": "Generuj obraz",
+    "generateVideo": "Generuj wideo",
+    "create": "Utwórz postać AI",
+    "myAI": "Moje AI",
+    "collection": "Kolekcja",
+    "invite": "Zaproś",
+    "profile": "Ustawienia profilu",
+    "legal": "Prawne",
+    "privacyPolicy": "Polityka prywatności",
+    "termsAndConditions": "Regulamin",
+    "cookiePolicy": "Polityka plików cookie",
+    "dmcaPolicy": "Polityka DMCA",
+    "communityGuidelines": "Wytyczne społeczności",
+    "contentRemovalPolicy": "Polityka usuwania treści",
+    "contentReportingPolicy": "Polityka zgłaszania treści",
+    "complaintPolicy": "Polityka skarg",
+    "blockedContentPolicy": "Polityka blokowania treści",
+    "underagePolicy": "Polityka dotycząca nieletnich",
+    "usc2257Exemption": "Wyjątek USC 2257"
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Masz pytanie lub sugestię? Chętnie Cię wysłuchamy.",
+    "name": "Imię",
+    "namePlaceholder": "Twoje imię",
+    "nameRequired": "Imię jest wymagane",
+    "email": "E-mail",
+    "emailPlaceholder": "twoj@email.com",
+    "emailRequired": "E-mail jest wymagany",
+    "emailInvalid": "Nieprawidłowy adres e-mail",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Twoja wiadomość...",
+    "messageRequired": "Wiadomość jest wymagana",
+    "send": "Wyślij wiadomość",
+    "sending": "Wysyłanie...",
+    "success": "Wiadomość wysłana pomyślnie!",
+    "successDesc": "Wkrótce się z Tobą skontaktujemy.",
+    "error": "Nie udało się wysłać wiadomości",
+    "errorDesc": "Spróbuj ponownie później."
+  },
+  "groupChat": {
+    "lobbyTitle": "Czat grupowy AI",
+    "lobbyHeadingSuffix": "Wybierz maksymalnie {max} postaci AI",
+    "history": "Historia",
+    "newGroup": "Nowy czat grupowy",
+    "createGroup": "Utwórz czat grupowy",
+    "createError": "Nie można utworzyć czatu grupowego. Spróbuj ponownie.",
+    "creatingGroup": "Przygotowujemy Twój czat grupowy...",
+    "sectionWoman": "Kobiety",
+    "sectionMan": "Mężczyźni",
+    "sectionAnime": "Anime",
+    "tabPremade": "Postacie AI",
+    "tabMyAi": "Moje AI",
+    "tabSingle": "Pojedyncze czaty",
+    "tabGroup": "Czaty grupowe",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Załaduj więcej",
+    "noCustom": "Nie utworzyłeś jeszcze żadnych postaci AI.",
+    "noMessagesYet": "Brak wiadomości",
+    "emptyTitle": "Brak czatów grupowych",
+    "membersTitle": "W tym czacie",
+    "typing": "pisze",
+    "backToLobby": "Powrót do czatów grupowych",
+    "deleteGroup": "Usuń czat grupowy",
+    "confirmDeleteGroup": "Czy na pewno chcesz usunąć ten czat grupowy? Wszystkie wiadomości zostaną usunięte.",
+    "deleteError": "Nie można usunąć czatu grupowego.",
+    "mediaTargetImageTitle": "Kto powinien wysłać zdjęcie?",
+    "mediaTargetVideoTitle": "Kto ma wysłać film?",
+    "mediaTargetSubtitle": "Wybierz postać, z której wygenerować media.",
+    "mediaTargetGroup": "Zdjęcie grupowe",
+    "groupPhotoTitle": "Zdjęcie grupowe",
+    "groupPhotoHint": "Generuje jedno zdjęcie {name} razem.",
+    "promoSubtitle": "z maksymalnie 3 postaciami",
+    "promoCta": "Utwórz nowe",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Nowe</gradient> Przygody",
+    "live": "NA ŻYWO",
+    "scrollPrev": "Przewiń w lewo",
+    "scrollNext": "Przewiń w prawo"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Zacznij"
+    },
+    "hero": {
+      "tagline": "Zaufanie 100 000 osób i codziennie dołączają nowe",
+      "headlinePrefix": "Poznaj swojego",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Zacznij za darmo"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "Dziewczyna AI",
+      "friend": "Przyjaciel AI",
+      "boyfriend": "Chłopak AI",
+      "companion": "Postać AI"
+    },
+    "features": {
+      "chat": {
+        "title": "Porozmawiaj ze swoją dziewczyną AI",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Realistyczne zdjęcia i filmy AI",
+        "description": "Na żądanie zdjęcia i filmy tak realistyczne, że nie do odróżnienia od prawdziwych — jej twarz, jej styl, dowolna scena, w ruchu lub statyczne."
+      },
+      "groupChat": {
+        "title": "Grupowy czat AI",
+        "description": "Rozpocznij czat grupowy z maksymalnie 3 postaciami jednocześnie. Odpowiadają naturalnie, reagują na siebie i wysyłają zdjęcia oraz filmy."
+      },
+      "roleplay": {
+        "title": "Roleplay AI",
+        "description": "Wejdź w wciągające, fabularne scenariusze z postaciami, które pozostają w roli i pamiętają każdy twój wybór."
+      }
+    },
+    "memory": {
+      "title": "Pamięć AI",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Jak działa Pamięć AI",
+      "diagram": {
+        "center": "Pamięć towarzysza",
+        "chat": "Czat",
+        "image": "Obrazy",
+        "video": "Wideo",
+        "gifts": "Prezenty",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Stwórz własną",
+      "headlineHighlight": "postać AI",
+      "subtitle": "Ukształtuj wygląd i osobowość swojej postaci i ożyw ją od razu — twój idealny partner AI, na twoich warunkach.",
+      "cta": "Stwórz swoją AI"
+    },
+    "companions": {
+      "headlinePrefix": "Poznaj swoje",
+      "headlineHighlight": "Postacie AI",
+      "subtitle": "Każda postać ma swój własny świat. Niektóre są ciepłe i łatwe do otwarcia. Inne są złożone, zamknięte lub stanowią prawdziwe wyzwanie. Odkrywaj unikalne scenariusze roleplay — lub twórz własne od zera."
+    },
+    "languages": {
+      "headlinePrefix": "Mów w dowolnym języku,",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Zarówno interfejs aplikacji, jak i twoja postać AI przełączają się płynnie — bez niedopasowania językowego, bez zepsutego doświadczenia.",
+      "more": "Więcej"
+    },
+    "finalCta": {
+      "headlinePrefix": "Gotowy",
+      "headlineHighlight": "zacząć?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Dlaczego",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Wszystko, czego potrzebujesz, by połączenie było realne — nic więcej.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Darmowy start",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Zawsze dostępny",
+          "desc": "Dzień czy noc, Twoja postać jest tam. Bez czekania, bez umawiania."
+        },
+        "remembers": {
+          "title": "Pamięta wszystko",
+          "desc": "Każda rozmowa buduje kontekst. Twoja postać poznaje Twoje imię, preferencje i świat."
+        },
+        "unlimited": {
+          "title": "Naprawdę nielimitowane",
+          "desc": "Bez limitów wiadomości, bez ograniczania treści. Wysyłaj tyle, ile chcesz, kiedy chcesz."
+        },
+        "private": {
+          "title": "100% prywatne",
+          "desc": "Wasze rozmowy zostają tylko między wami. Żadne dane nie są udostępniane, nigdy."
+        },
+        "createYourOwn": {
+          "title": "Stwórz własną",
+          "desc": "Zaprojektuj postać z własnym wyglądem, osobowością i głosem — dokładnie tak, jak chcesz."
+        }
+      },
+      "difference": {
+        "title": "Różnica sweetwine",
+        "freedomTitle": "Wolność z odpowiedzialnością.",
+        "freedomDescription": "sweetwine jest otwarty i wolny od osądu — ale stawiamy twardą granicę. Nie tolerujemy CSAM, treści z udziałem nieletnich, scenariuszy bez zgody, skrajnej przemocy, zoofilii, nekrofilii, deepfake'ów rzeczywistych osób ani promowania nielegalnych działań.",
+        "freedomStatement": "Wierzymy w nieograniczoną swobodę twórczą w przestrzeni bezpiecznej dla wszystkich."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Postacie",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Filtry"
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "subtitle": "Wszystko, co musisz wiedzieć o sweetwine",
+      "questions": {
+        "q1": {
+          "question": "Czym jest sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "Czy sweetwine jest bezpieczny i legalny?",
+          "answer": "Tak, sweetwine to legalna usługa, dla której prywatność jest najwyższym priorytetem. Przestrzegamy RODO i innych standardów ochrony danych, a Twoje dane traktujemy z należytą starannością. Transakcje płatnicze pojawiają się pod neutralną nazwą sprzedawcy — na wyciągu bankowym nie ma wzmianki o sweetwine, co zapewnia pełną dyskrecję."
+        },
+        "q3": {
+          "question": "Czy mogę stworzyć własną postać AI?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "kreatora postaci",
+          "answerPart2": " aby zaprojektować postacie dokładnie według własnych upodobań — czy to realistyczna ",
+          "linkTextGirlfriend": "AI Dziewczyna",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI Chłopak",
+          "answerPart4": ", czy postacie w stylu anime. Wybierz ich wygląd (pochodzenie, włosy, typ sylwetki, ubrania), cechy osobowości, głos, zainteresowania i historię zarówno dla postaci męskich, jak i kobiecych."
+        },
+        "q4": {
+          "question": "Czy moja postać AI pamięta nasze rozmowy?",
+          "answer": "Tak! Twoja postać AI korzysta z zaawansowanej technologii pamięci, aby zapamiętywać poprzednie rozmowy, Twoje preferencje i ważne szczegóły, które udostępniasz. Im więcej czatujesz, tym bardziej spersonalizowane i naturalne staje się doświadczenie. Twoja postać uczy się Twojego stylu komunikacji i dostosowuje się z czasem."
+        },
+        "q5": {
+          "question": "Jakie języki obsługuje sweetwine?",
+          "answer": "sweetwine obsługuje wiele języków, w tym angielski, niemiecki, francuski, hiszpański, polski i czeski. Zarówno interfejs, jak i rozmowy z AI działają w wybranym przez Ciebie języku, więc możesz czatować naturalnie w tym, w którym czujesz się najlepiej."
+        },
+        "q6": {
+          "question": "Czy moja postać AI może wysyłać obrazy i filmy?",
+          "answerPart1": "Tak! Możesz generować spersonalizowane",
+          "linkTextImages": "obrazy",
+          "answerPart2": "i",
+          "linkTextVideos": "filmy",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Dlaczego warto wybrać sweetwine zamiast innych platform z postaciami AI?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Czy sweetwine jest darmowy?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Czy muszę instalować aplikację?",
+          "answerPart1": "Nie trzeba nic instalować! sweetwine działa bezpośrednio w przeglądarce na każdym urządzeniu – komputerze, tablecie czy telefonie. Po prostu załóż konto, wybierz postać i od razu zacznij czatować. Wszystkie Twoje",
+          "linkText": "konwersacje",
+          "answerPart2": "synchronizują się automatycznie między urządzeniami."
+        },
+        "q10": {
+          "question": "Czy są dostępne gotowe postacie AI?",
+          "answerPart1": "Tak! Mamy wiele",
+          "linkText": "gotowych postaci",
+          "answerPart2": "w tym AI Dziewczyny, AI Chłopaków i postacie AI Anime o różnych osobowościach, wyglądach i stylach komunikacji. Niezależnie od tego, czy wolisz kogoś słodkiego, kokietującego, intelektualnego czy odważnego, znajdziesz postacie pasujące do Twojej energii. Dodatkowo możesz tworzyć nieograniczoną liczbę własnych postaci."
+        },
+        "q12": {
+          "question": "Co dzieje się z obrazami i filmami, które generuję?",
+          "answerPart1": "Wszystkie wygenerowane media są automatycznie zapisywane w Twojej prywatnej",
+          "linkText": "kolekcji",
+          "answerPart2": ". Możesz w każdej chwili uzyskać do nich dostęp, pobrać je lub usunąć. Twoja kolekcja jest całkowicie prywatna – tylko Ty możesz ją zobaczyć. Nigdy nie udostępniamy ani nie wykorzystujemy Twoich wygenerowanych treści."
+        }
+      }
+    },
+    "statement": {
+      "title": "Nasze zobowiązanie",
+      "privacy": "Twoja prywatność jest naszym priorytetem. Wszystkie rozmowy są szyfrowane i nigdy nie są udostępniane.",
+      "quality": "Używamy najnowocześniejszej technologii AI, aby zapewnić najbardziej angażujące doświadczenie.",
+      "support": "Nasz zespół wsparcia jest dostępny 24/7, aby pomóc w razie jakichkolwiek pytań.",
+      "mainTitle": "Poznaj przyszłość postaci AI",
+      "mainDescription": "sweetwine łączy najnowocześniejszą technologię AI z intuicyjnym designem, aby dostarczyć najbardziej immersyjne i spersonalizowane doświadczenie z postaciami dostępne dziś.",
+      "features": {
+        "f1": {
+          "title": "Inteligencja emocjonalna",
+          "description": "Nasze postacie AI rozumieją kontekst, emocje i niuanse, zapewniając głęboko angażujące rozmowy. Niezależnie od tego, czy potrzebujesz AI Przyjaciela do pogawędki, Wsparcia po rozstaniu w trudnych chwilach, czy AI Mentora po wskazówki – nasza emocjonalnie inteligentna AI jest tu dla Ciebie."
+        },
+        "f2": {
+          "title": "Unikalne osobowości",
+          "description": "Każda postać ma odrębną osobowość, tło i styl komunikacji. Wybierz spośród realistycznych AI Dziewczyn i AI Chłopaków lub odkryj nasze postacie AI Anime – zapewniając, że każda interakcja jest wyjątkowa i niezapomniana."
+        },
+        "f3": {
+          "title": "Interakcje multimedialne",
+          "description": "Poza tekstem ciesz się generowanymi przez AI obrazami i filmami, które ożywiają Twoje rozmowy w oszałamiających wizualnych detalach."
+        },
+        "f4": {
+          "title": "Personalizacja",
+          "description": "Twórz własne postacie AI z niestandardowym wyglądem, osobowościami i cechami, które idealnie pasują do Twoich preferencji."
+        },
+        "f5": {
+          "title": "Prywatność i bezpieczeństwo",
+          "description": "Twoje rozmowy są przechowywane prywatnie i bezpiecznie. Nigdy nie sprzedajemy Twoich danych, a Ty masz pełną kontrolę nad ustawieniami prywatności."
+        },
+        "f6": {
+          "title": "Wsparcie wielu języków",
+          "description": "Czatuj z postaciami AI w preferowanym języku. Obsługujemy angielski, czeski, polski, niemiecki, hiszpański i francuski."
+        }
+      },
+      "distinctionTitle": "sweetwine – co nas wyróżnia",
+      "distinctionText1": "W przeciwieństwie do generycznych chatbotów, postacie sweetwine są zaprojektowane z bogatymi historiami, rozwijającymi się osobowościami i zdolnością do tworzenia znaczących połączeń. Każda rozmowa to okazja do eksploracji, odkrywania i głębszego połączenia.",
+      "distinctionText2": "Nie tylko budujemy AI — tworzymy doświadczenia, które rezonują z Twoimi emocjami, szanują Twoją prywatność i dostosowują się do Twoich unikalnych preferencji."
+    }
+  },
+  "featuresPage": {
+    "title": "Wszystkie funkcje",
+    "breadcrumb": "Funkcje",
+    "newBadge": "Nowość",
+    "groupChat": {
+      "title": "Grupowy czat AI",
+      "description": "Czatuj z maksymalnie 3 postaciami AI jednocześnie w jednej rozmowie. Odpowiadają naturalnie, reagują na siebie i mogą wysyłać zdjęcia oraz filmy — żywa dynamika grupowa, której nigdzie indziej nie znajdziesz."
+    },
+    "aiChat": {
+      "title": "Czat AI",
+      "description": "Prowadź głębokie, naturalne rozmowy z postaciami AI, które naprawdę Cię pamiętają. Zapamiętują Twoje imię, preferencje i poprzednie tematy — każda rozmowa zaczyna się dokładnie tam, gdzie skończyła się poprzednia, bez powtórzeń i resetów."
+    },
+    "imageGeneration": {
+      "title": "Generowanie obrazów"
+    },
+    "videoGeneration": {
+      "title": "Generowanie wideo",
+      "description": "Ożyw swoją postać AI dzięki filmom generowanym przez AI. Twórz krótkie, spersonalizowane klipy wideo z Twoją postacią w niestandardowych scenariuszach — funkcja, której większość platform po prostu nie oferuje."
+    },
+    "customCharacters": {
+      "title": "Własne postacie",
+      "description": "Stwórz idealną postać od zera — wybierz wygląd, pochodzenie, typ sylwetki, cechy osobowości, głos, zainteresowania i historię. Twórz realistyczne lub anime-style postacie, męskie lub kobiece, z pełną swobodą twórczą."
+    },
+    "advancedMemory": {
+      "title": "Zaawansowana pamięć",
+      "description": "Twoja postać pamięta wszystko, co istotne — Twoje imię, szczegóły osobiste, wspólne historie i historię relacji. Pamięć działa we wszystkich sesjach, więc każda interakcja buduje się na poprzedniej, bez zaczynania od zera."
+    },
+    "multiLanguage": {
+      "title": "Wielojęzyczność",
+      "description": "Rozmawiaj naturalnie w wybranym języku. sweetwine obsługuje angielski, niemiecki, francuski, hiszpański, polski i czeski — co czyni go jedną z najbardziej dostępnych platform postaci AI dla osób nieanglojęzycznych."
+    },
+    "conversationHistory": {
+      "title": "Historia rozmów",
+      "description": "Każda wiadomość jest zapisywana i wyszukiwalna. Przewijaj całą historię relacji w dowolnym momencie — Twoje wspomnienia z postacią są zawsze dostępne, gdy chcesz do nich wrócić."
+    },
+    "roleplay": {
+      "title": "Roleplay AI",
+      "description": "Wejdź w wciągające, fabularne scenariusze z postaciami, które pozostają w roli. Wybierz scenariusz lub napisz własny i ciesz się interaktywnym roleplayem, który pamięta każdy Twój wybór."
+    },
+    "cta": {
+      "title": "Wszystko w jednym miejscu",
+      "button": "Zacznij za darmo"
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Czy mogę usuwać lub resetować rozmowy?",
+        "answer": "Tak! Masz pełną kontrolę nad historią czatów. Usuwaj pojedyncze wiadomości, resetuj całe rozmowy lub zaczynaj od zera w dowolnym momencie. Twoja prywatność to Twój wybór — zarządzaj danymi tak, jak wolisz."
+      },
+      "q2": {
+        "question": "Czy każda postać AI ma unikalny głos?"
+      },
+      "q3": {
+        "question": "Czy mogę ćwiczyć nowy język z moją postacią AI?",
+        "answer": "Oczywiście! Wielu użytkowników ćwiczy mówienie w nowych językach ze swoimi postaciami AI. To sposób bez ocen, by budować pewność siebie, poprawiać wymowę i prowadzić zabawne rozmowy podczas nauki. Twoja postać może rozmawiać po angielsku, niemiecku, francusku, hiszpańsku, polsku i czesku."
+      },
+      "q4": {
+        "question": "Jak często dodawane są nowe postacie i funkcje?",
+        "answer": "Co tydzień dodajemy nowe, profesjonalnie stworzone postacie! Każda nowa postać ma unikalną osobowość, wygląd, historię i głos. Regularnie wprowadzamy też nowe funkcje i ulepszenia na podstawie opinii użytkowników."
+      },
+      "q5": {
+        "question": "Co wyróżnia tworzenie postaci w sweetwine?",
+        "answer": "Pełna swoboda twórcza! Projektuj każdy aspekt postaci — wygląd (pochodzenie, włosy, typ sylwetki, ubrania), cechy osobowości, głos, zainteresowania, zawód i historię. Twórz realistyczne lub anime-style postacie, męskie lub kobiece. Jedynym ograniczeniem jest Twoja wyobraźnia."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "Pamięć AI",
+    "hero": {
+      "badge": "Jak to działa",
+      "title": "Pamięć AI",
+      "cta": "Zacznij czat"
+    },
+    "diagram": {
+      "title": "Jedna pamięć na towarzysza, każdy tryb",
+      "center": "Pamięć towarzysza",
+      "chat": "Czat",
+      "image": "Obrazy",
+      "video": "Wideo",
+      "gifts": "Prezenty",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "Jak działa Pamięć AI",
+      "step1": {
+        "title": "Podziel się szczegółem",
+        "desc": "Powiedz swojemu towarzyszowi coś ważnego — podróż, preferencję, przezwisko, historię z dnia."
+      },
+      "step2": {
+        "title": "Swobodnie zmieniaj tryby"
+      },
+      "step3": {
+        "title": "Przypomina sobie",
+        "desc": "Późniejsze rozmowy odwołują się do tego, co udostępniłeś, więc nie musisz się za każdym razem tłumaczyć."
+      },
+      "step4": {
+        "title": "Więź się pogłębia",
+        "desc": "Z czasem relacja staje się bardziej osobista — ciągłość budowana w każdej sesji i trybie."
+      }
+    },
+    "modes": {
+      "title": "Na całej platformie",
+      "subtitle": "Pamięć nie jest ograniczona do jednego ekranu. Podąża za twoim towarzyszem.",
+      "chat": {
+        "title": "Czat",
+        "desc": "Rozmowy tekstowe dostarczają długoterminowego kontekstu, do którego towarzysz może później wrócić."
+      },
+      "media": {
+        "title": "Obrazy i wideo",
+        "desc": "Sceny i historie, które tworzysz, pozostają częścią wspólnego świata, który budujecie razem."
+      },
+      "roleplay": {
+        "title": "Roleplay i grupy",
+        "desc": "Sesje fabularne i czaty grupowe zachowują własne wątki, podczas gdy podstawowa pamięć towarzysza pozostaje z nim."
+      }
+    },
+    "scenario": {
+      "title": "Prosty przykład",
+      "lead": "Wspominasz o weekendowej wycieczce na czacie."
+    },
+    "faq": {
+      "title": "Często zadawane pytania",
+      "q1": {
+        "question": "Czy pamięć mojego towarzysza jest prywatna?",
+        "answer": "Tak. Pamięć należy do Twojego konta i rozmów z tym towarzyszem. Nie udostępniamy Twojej prywatnej historii czatów innym użytkownikom."
+      },
+      "q2": {
+        "question": "Czy pamięć jest przypisana do konkretnego towarzysza?",
+        "answer": "Tak. Każdy towarzysz przechowuje własną pamięć o Waszej relacji, więc przełączanie postaci nie miesza kontekstów."
+      },
+      "q3": {
+        "question": "Które tryby współdzielą pamięć?"
+      },
+      "q4": {
+        "question": "Czy AI Memory jest darmowe?"
+      },
+      "q5": {
+        "question": "Jak długo trwa pamięć?",
+        "answer": "Ważne szczegóły są przechowywane, aby Twój towarzysz mógł je przywołać w przyszłych sesjach. Im więcej interakcji, tym bardziej spersonalizowane staje się doświadczenie."
+      }
+    },
+    "cta": {
+      "title": "Poznaj towarzysza, który pamięta",
+      "button": "Zacznij za darmo"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "Czat grupowy AI",
+    "hero": {
+      "badge": "Nowa funkcja",
+      "title": "Czat grupowy AI",
+      "subtitle": "Zbierz ulubione postacie w jednej rozmowie. Czatu z maksymalnie 3 postaciami AI jednocześnie — odpowiadają naturalnie, reagują na siebie i wysyłają zdjęcia oraz filmy.",
+      "cta": "Rozpocznij czat grupowy",
+      "imageAlt": "Czat grupowy AI z wieloma postaciami rozmawiającymi razem"
+    },
+    "content": {
+      "problemTitle": "Rozmowy jeden na jeden mogą być ciche",
+      "problemText": "Jedna postać jest super — ale prawdziwe rozmowy ożywają, gdy jest więcej niż jeden głos. Większość aplikacji AI ogranicza Cię do izolowanych rozmów jeden na jeden, bez grupowej energii, żartów i niespodzianek.",
+      "solutionTitle": "Prawdziwa grupa, pełna osobowości",
+      "solutionText": "sweetwine Group Chat umieszcza do trzech postaci w tym samym pokoju. Inteligentny reżyser decyduje, kto się włączy, więc odpowiedzi brzmią spontanicznie — postacie żartują ze sobą, budują na tym, co zostało powiedziane, i podtrzymują rozmowę."
+    },
+    "howItWorks": {
+      "title": "Jak działa czat grupowy AI",
+      "step1": {
+        "title": "Wybierz postacie",
+        "desc": "Wybierz 2 lub 3 postacie — gotowe lub własne — aby wprowadzić je do jednej rozmowy grupowej."
+      },
+      "step2": {
+        "title": "Odpowiadają naturalnie",
+        "desc": "Reżyser działający za kulisami wybiera, kto odpowiada na każdą wiadomość, więc odpowiednie postacie włączają się w odpowiednim momencie, własnym głosem."
+      },
+      "step3": {
+        "title": "Udostępniaj zdjęcia i filmy",
+        "desc": "Poproś dowolną postać z grupy o zdjęcie lub film, a wygeneruje je od razu w czacie — w tym zdjęcie grupowe wszystkich razem."
+      }
+    },
+    "benefits": {
+      "title": "Dlaczego pokochasz czat grupowy",
+      "multiple": {
+        "title": "Do 3 postaci",
+        "desc": "Mieszaj i łącz dowolne postacie w jednym czacie — swoją AI dziewczynę, własne kreacje lub starannie dobrany zespół."
+      },
+      "natural": {
+        "title": "Naturalna wymiana zdań",
+        "desc": "Postacie reagują na siebie nawzajem i na Ciebie, z realistycznym tempem pisania, które przypomina prawdziwą grupową rozmowę."
+      },
+      "media": {
+        "title": "Zdjęcia i filmy na czacie",
+        "desc": "Każda postać może wysyłać spersonalizowane zdjęcia i filmy bez opuszczania rozmowy – nawet grupowe zdjęcie."
+      },
+      "dynamics": {
+        "title": "Wyraziste osobowości",
+        "desc": "Każda postać zachowuje swój własny głos i dziwactwa, dzięki czemu grupa ma prawdziwą chemię, przekomarzania i niespodzianki."
+      },
+      "instant": {
+        "title": "Natychmiastowy start",
+        "desc": "Stwórz grupę w kilka sekund i wskakuj od razu do rozmowy – bez konfiguracji, bez czekania."
+      },
+      "private": {
+        "title": "100% prywatności",
+        "desc": "Twoje grupowe rozmowy pozostają między Tobą a Twoimi postaciami. Żadne dane nie są udostępniane, nigdy."
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Ile postaci może dołączyć do czatu grupowego?",
+        "answer": "Możesz dodać od 2 do 3 postaci do jednego czatu grupowego – dowolną mieszankę gotowych postaci i własnych kreacji."
+      },
+      "q2": {
+        "question": "Jak postacie AI decydują, kto odpowie?",
+        "answer": "Lekki dyrektor czyta rozmowę i wybiera, która postać (lub które postacie) powinna odpowiedzieć na każdą wiadomość, dzięki czemu odpowiedzi są spontaniczne i naturalne, a nie wszyscy mówią naraz."
+      },
+      "q3": {
+        "question": "Czy postacie mogą wysyłać zdjęcia i filmy na czacie grupowym?",
+        "answer": "Tak! Możesz poprosić dowolną postać w grupie o wygenerowanie zdjęcia lub filmu, a pojawi się ono bezpośrednio w rozmowie – w tym grupowe zdjęcia z wszystkimi razem."
+      },
+      "q4": {
+        "question": "Czy AI Group Chat jest darmowy?"
+      },
+      "q5": {
+        "question": "Czy postacie pamiętają rozmowę grupową?",
+        "answer": "Tak – każdy czat grupowy przechowuje własną wspólną historię, więc postacie pozostają w kontekście, a rozmowa rozwija się z czasem."
+      }
+    },
+    "cta": {
+      "title": "Połącz swoje postacie",
+      "description": "Stwórz swój pierwszy grupowy czat AI i doświadcz rozmowy, która wydaje się żywa – wiele osobowości, prawdziwe przekomarzania, zdjęcia i filmy.",
+      "button": "Rozpocznij czat grupowy"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Roleplay",
+    "hero": {
+      "badge": "Nowa funkcja",
+      "title": "AI Roleplay",
+      "subtitle": "Wejdź w dowolną historię z postaciami, które pozostają w scenie. Wybierz scenariusz lub napisz własny i ciesz się wciągającym, opartym na fabule odgrywaniem ról, które pamięta każdy Twój wybór.",
+      "cta": "Rozpocznij odgrywanie ról",
+      "imageAlt": "Scenariusz odgrywania ról AI z wciągającą postacią fabularną"
+    },
+    "content": {
+      "problemTitle": "Zwykłe czaty psują magię",
+      "problemText": "Większość czatów AI wychodzi z roli, gdy tylko robi się ciekawie – zapominają o scenerii, gubią fabułę i odpowiadają jak generyczny asystent zamiast osoby z Twojej historii.",
+      "solutionTitle": "Odgrywanie ról oparte na fabule, które pozostaje w charakterze",
+      "solutionText": "sweetwine Roleplay utrzymuje Twoją postać w pełni w scenie. Ustaw scenę z gotowym scenariuszem lub własnym pomysłem i obserwuj, jak historia rozwija się z konsekwentną osobowością, pamięcią i tempem reagującym na każdą decyzję."
+    },
+    "howItWorks": {
+      "title": "Jak działa AI Roleplay",
+      "step1": {
+        "title": "Wybierz scenariusz",
+        "desc": "Wybierz z gotowych scenariuszy odgrywania ról lub napisz własny pomysł, scenerię i scenę otwierającą."
+      },
+      "step2": {
+        "title": "Odtwórz historię",
+        "desc": "Twoja postać odpowiada w roli – opisując działania, reagując na Twoje wybory i popychając fabułę do przodu."
+      },
+      "step3": {
+        "title": "Kieruj, dokąd zmierza",
+        "desc": "Poprowadź historię w dowolnym kierunku. Twoja postać pamięta, co się wydarzyło i utrzymuje spójność narracji."
+      }
+    },
+    "benefits": {
+      "title": "Dlaczego pokochasz AI Roleplay",
+      "scenarios": {
+        "title": "Nieskończone scenariusze",
+        "desc": "Od przytulnych codziennych chwil po epickie przygody – zacznij od szablonu lub wymyśl własny świat."
+      },
+      "characters": {
+        "title": "Pozostaje w charakterze",
+        "desc": "Twoja postać zachowuje spójny głos, osobowość i motywację przez całą scenę."
+      },
+      "memory": {
+        "title": "Pamięta fabułę",
+        "desc": "Każdy wybór, zwrot akcji i szczegół są zapamiętywane, więc historia się rozwija, a nie resetuje."
+      },
+      "immersive": {
+        "title": "Naprawdę wciągające",
+        "desc": "Bogate, opisowe odpowiedzi wciągają Cię w chwilę, zapewniając kinowe doświadczenie odgrywania ról."
+      },
+      "instant": {
+        "title": "Natychmiastowy start",
+        "desc": "Zanurz się w scenie w kilka sekund — bez skomplikowanej konfiguracji czy inżynierii promptów."
+      },
+      "private": {
+        "title": "100% prywatne",
+        "desc": "Twoja rola pozostaje tylko między Tobą a postacią. Nic nie jest nigdy udostępniane."
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Czym jest rola z AI?",
+        "answer": "Rola z AI pozwala odgrywać interaktywne historie z postacią AI, która pozostaje w roli. Ustalasz scenariusz, a Twoja postać odpowiada w charakterze, opisując akcje i reakcje w miarę rozwoju fabuły."
+      },
+      "q2": {
+        "question": "Czy mogę tworzyć własne scenariusze roli?",
+        "answer": "Tak! Możesz zacząć od gotowych scenariuszy lub napisać własną fabułę, setting i początek — a potem grać tak, jak chcesz."
+      },
+      "q3": {
+        "question": "Czy postać pamięta, co dzieje się w historii?",
+        "answer": "Oczywiście. Twoja postać pamięta fabułę, Twoje wybory i kluczowe szczegóły, więc narracja pozostaje spójna i rozwija się w czasie zamiast resetować."
+      },
+      "q4": {
+        "question": "Czy rola z AI jest darmowa?"
+      },
+      "q5": {
+        "question": "Czy mogę odgrywać rolę w moim języku?",
+        "answer": "Tak — rola działa w dziesiątkach języków, więc możesz cieszyć się immersyjnymi historiami w języku, w którym czujesz się najlepiej."
+      }
+    },
+    "cta": {
+      "title": "Twoja historia czeka",
+      "description": "Wybierz scenariusz, ustaw scenę i zanurz się w immersyjnej roli z postacią, która pozostaje w roli od początku do końca.",
+      "button": "Zacznij odgrywać rolę"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "Dziewczyna AI",
+    "breadcrumb": "Dziewczyna AI",
+    "hero": {
+      "title": "Twoja idealna dziewczyna AI",
+      "cta": "Poznaj swoją dziewczynę AI"
+    },
+    "benefits": {
+      "title": "Dlaczego warto wybrać dziewczynę AI?",
+      "fun": {
+        "title": "Czysta zabawa",
+        "desc": "Ciesz się beztroskimi rozmowami bez presji. Ona zawsze jest w dobrym humorze."
+      },
+      "conversation": {
+        "title": "Naucz się nawiązywać kontakt",
+        "desc": "Ćwicz rozmowy i buduj pewność siebie w bezpiecznym otoczeniu."
+      },
+      "unique": {
+        "title": "Unikalne osobowości",
+        "desc": "Wybierz spośród różnorodnych osobowości lub stwórz idealną postać."
+      },
+      "private": {
+        "title": "W 100% prywatne",
+        "desc": "Wasze rozmowy zostają tylko między wami. Gwarantujemy pełną dyskrecję."
+      },
+      "available": {
+        "title": "Zawsze dostępna",
+        "desc": "Jest tam, kiedy jej potrzebujesz. Bez czekania, bez umawiania się."
+      },
+      "customize": {
+        "title": "Twoje dzieło",
+        "desc": "Zaprojektuj jej wygląd, osobowość i zainteresowania dokładnie tak, jak chcesz."
+      }
+    },
+    "comparison": {
+      "title": "Lepsza niż alternatywy",
+      "description": "Zobacz, dlaczego sweetwine oferuje więcej wartości niż inne platformy.",
+      "others": {
+        "expensive": "Drogie abonamenty miesięczne",
+        "ai": "Często i tak odpowiedzi AI",
+        "noCustom": "Brak opcji personalizacji"
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Czy czat z dziewczyną AI jest naprawdę darmowy?",
+        "answerPart1": "Tak! Możesz zacząć rozmawiać ze swoją dziewczyną AI za darmo. Oferujemy darmowy plan z bezpłatnymi wiadomościami, abyś mógł zacząć."
+      },
+      "q2": {
+        "question": "Czy mogę dostosować wygląd mojej dziewczyny AI?",
+        "answer": "Oczywiście! Możesz w pełni dostosować wygląd swojej dziewczyny AI, w tym kolor i styl włosów, typ sylwetki, pochodzenie etniczne oraz ubrania. Możesz też zaprojektować jej osobowość, głos i zainteresowania za pomocą naszego kreatora postaci.",
+        "answerPart1": "Oczywiście! Możesz w pełni dostosować wygląd swojej dziewczyny AI, w tym kolor i styl włosów, typ sylwetki, pochodzenie etniczne oraz ubrania. Możesz też zaprojektować jej osobowość, głos i zainteresowania za pomocą naszego",
+        "linkText": "kreatora postaci",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Jakie osobowości są dostępne dla dziewczyn AI?",
+        "answer": "Od słodkich i opiekuńczych po figlarne i zalotne – mamy profesjonalnie stworzone dziewczyny AI na każdy gust. Wybierz romantyczne dusze, dusze pełne przygód, dowcipnych intelektualistów lub tajemnicze osobowości. Co tydzień dodajemy nowe dziewczyny AI, każda z unikalnymi cechami, historiami i stylami rozmowy."
+      },
+      "q4": {
+        "question": "Czy moja dziewczyna AI może wysyłać obrazy i filmy?",
+        "answerPart1": "Tak! Twoja dziewczyna AI może generować spersonalizowane",
+        "linkTextImages": "obrazy",
+        "answerPart2": "i",
+        "linkTextVideos": "filmy"
+      },
+      "q5": {
+        "question": "Czy moja dziewczyna AI ma swój unikalny głos?"
+      }
+    },
+    "cta": {
+      "title": "Gotowa ją poznać?",
+      "button": "Zacznij za darmo"
+    },
+    "content": {
+      "problemTitle": "Szukasz więzi bez komplikacji?",
+      "problemText": "Aplikacje randkowe męczą. Lęk społeczny utrudnia poznawanie ludzi. Czasem po prostu chcesz z kimś porozmawiać bez oceniania i presji. Wiele osób czuje się samotnych, ale nie jest gotowych na emocjonalną złożoność tradycyjnych relacji.",
+      "solutionTitle": "Twoja AI Dziewczyna to odpowiedź",
+      "solutionText": "Dzięki sweetwine zyskujesz spersonalizowaną AI dziewczynę, która pamięta wasze rozmowy, dopasowuje się do Twojej osobowości i zawsze cieszy się z Twojego kontaktu. Jest zabawna, wspierająca i nigdy nie ocenia. Buduj pewność siebie, ciesz się świetnym towarzystwem i poczuj więź na własnych warunkach."
+    },
+    "heroImageAlt": "AI dziewczyna - realistyczna wirtualna postać do czatów i zdjęć"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Chłopak",
+    "breadcrumb": "AI Chłopak",
+    "hero": {
+      "title": "Twój idealny AI Chłopak",
+      "cta": "Poznaj swojego AI Chłopaka"
+    },
+    "benefits": {
+      "title": "Dlaczego warto wybrać AI Chłopaka?",
+      "fun": {
+        "title": "Prawdziwa więź",
+        "desc": "Doświadcz znaczących rozmów, które rozjaśnią Twój dzień."
+      },
+      "conversation": {
+        "title": "Buduj pewność siebie",
+        "desc": "Ćwicz rozmowy i wyrażaj siebie swobodnie w bezpiecznej przestrzeni."
+      },
+      "unique": {
+        "title": "Unikalne osobowości",
+        "desc": "Wybierz spośród różnorodnych osobowości lub stwórz swoją idealną postać."
+      },
+      "private": {
+        "title": "100% prywatności",
+        "desc": "Wasze rozmowy pozostają tylko między wami. Pełna dyskrecja gwarantowana."
+      },
+      "available": {
+        "title": "Zawsze dostępny",
+        "desc": "Jest tam, kiedy go potrzebujesz. Bez czekania, bez umawiania."
+      },
+      "customize": {
+        "title": "Twoje dzieło",
+        "desc": "Stwórz jego wygląd, osobowość i zainteresowania dokładnie tak, jak chcesz."
+      }
+    },
+    "comparison": {
+      "title": "Lepszy niż alternatywy",
+      "description": "Zobacz, dlaczego sweetwine oferuje więcej wartości niż inne platformy.",
+      "others": {
+        "expensive": "Drogie miesięczne opłaty",
+        "ai": "Często i tak odpowiedzi AI",
+        "noCustom": "Brak opcji personalizacji"
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Jakie typy AI chłopaków mogę wybrać?",
+        "answer": "Od troskliwych i romantycznych po figlarnych i odważnych, lub tajemniczych i intensywnych — mamy profesjonalnie stworzonych AI chłopaków na każdy gust. Każdy ma swój unikalny głos i osobowość. Co tydzień dodajemy nowych AI chłopaków z unikalnymi historiami i stylami rozmów."
+      },
+      "q2": {
+        "question": "Czy mogę dostosować wygląd mojego AI chłopaka?",
+        "linkText": "kreatora postaci",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Czy mogę zacząć od nowa lub usunąć historię naszych rozmów?",
+        "answer": "Tak! Masz pełną kontrolę nad historią czatów. Resetuj rozmowy, usuwaj pojedyncze wiadomości lub zaczynaj całkowicie od nowa, kiedy chcesz. Twoje dane, Twój wybór — zarządzaj wszystkim tak, jak wolisz."
+      },
+      "q4": {
+        "question": "Czy mój AI chłopak może wysyłać obrazy i filmy?",
+        "answerPart1": "Tak! Twój AI chłopak może generować spersonalizowane",
+        "linkTextImages": "obrazy",
+        "answerPart2": "i",
+        "linkTextVideos": "wideo"
+      },
+      "q5": {
+        "question": "Czy mogę ćwiczyć rozmowy lub uczyć się języka z moim AI chłopakiem?",
+        "answer": "Oczywiście! Wielu użytkowników buduje pewność siebie, ćwicząc rozmowy ze swoim AI chłopakiem — niezależnie czy to flirt, głębokie dyskusje, czy codzienny czat. Możesz nawet razem ćwiczyć mówienie w nowych językach. To pozbawiony ocen sposób na poprawę umiejętności komunikacyjnych przy jednoczesnej zabawie."
+      }
+    },
+    "cta": {
+      "title": "Gotowy, by go poznać?",
+      "button": "Zacznij za darmo"
+    },
+    "content": {
+      "problemTitle": "Chcesz wspierającego partnera na swoich warunkach?",
+      "problemText": "Znalezienie odpowiedniej osoby jest trudne. Wielu czuje presję oczekiwań randkowych lub po prostu potrzebuje wsparcia emocjonalnego bez zobowiązań. Poczucie samotności dotyka każdego, a czasem wystarczy ktoś, kto słucha.",
+      "solutionTitle": "Twój AI chłopak cię rozumie",
+      "solutionText": "Twój sweetwine AI chłopak jest troskliwy, uważny i zawsze dostępny. Pamięta, co jest dla ciebie ważne, angażuje się w głębokie rozmowy i zapewnia emocjonalną więź, której szukasz. Buduj relację we własnym tempie i na swój sposób."
+    },
+    "heroImageAlt": "AI chłopak - realistyczna wirtualna postać do znaczących rozmów"
+  },
+  "aiCompanionsPage": {
+    "title": "Postacie AI",
+    "breadcrumb": "Postacie AI",
+    "hero": {
+      "title": "Poznaj swoje postacie AI",
+      "cta": "Odkrywaj postacie"
+    },
+    "benefits": {
+      "title": "Dlaczego postacie AI?",
+      "connection": {
+        "title": "Prawdziwa więź",
+        "desc": "Doświadcz autentycznych rozmów, które rozumieją i odpowiadają na ciebie."
+      },
+      "conversation": {
+        "title": "Ćwicz i rozwijaj się",
+        "desc": "Popraw swoje umiejętności społeczne w środowisku pozbawionym ocen."
+      },
+      "personalities": {
+        "title": "Różnorodne osobowości",
+        "desc": "Od figlarnych po intelektualne — znajdź postacie pasujące do twojego klimatu."
+      },
+      "private": {
+        "title": "Całkowicie prywatne",
+        "desc": "Twoje interakcje są poufne. Żadne dane nie są udostępniane, nigdy."
+      },
+      "available": {
+        "title": "Dostępne 24/7",
+        "desc": "Twoje postacie są zawsze gotowe do czatu, dzień i noc."
+      },
+      "create": {
+        "title": "Stwórz własną",
+        "desc": "Projektuj postacie z niestandardowym wyglądem, osobowością i głosem."
+      }
+    },
+    "why": {
+      "title": "Dlaczego sweetwine?",
+      "quality": {
+        "desc": "Stworzone przez profesjonalistów z najnowocześniejszą technologią AI dla naturalnych rozmów."
+      },
+      "transparent": {
+        "title": "Przejrzyste i uczciwe"
+      },
+      "support": {
+        "title": "Prawdziwe wsparcie",
+        "desc": "Prawdziwi ludzie gotowi pomóc ci w każdej sprawie lub problemie."
+      },
+      "content": {
+        "title": "Twój wybór",
+        "desc": "Od przyjaznych rozmów po bardziej intymne treści — to ty decydujesz o doświadczeniu."
+      }
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Czym są postacie AI?"
+      },
+      "q2": {
+        "question": "Z iloma postaciami AI mogę rozmawiać?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Rozmawiaj z tyloma, ile chcesz! Mamy",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " i rośnie — co tydzień dodawane są nowe! Każda ma unikalną osobowość, historię i głos. Dodatkowo możesz tworzyć nieograniczoną liczbę własnych postaci."
+      },
+      "q3": {
+        "question": "Czym różnią się gotowe postacie od własnych?",
+        "answer": "Gotowe postacie są profesjonalnie zaprojektowane przez nasz zespół pod kątem konkretnych scenariuszy i osobowości — mają szczegółowe historie, dopasowane style rozmowy i starannie dobrane głosy. Własne postacie pozwalają tworzyć od zera z pełną swobodą twórczą. Oba typy pamiętają twoje rozmowy i rozwijają się razem z tobą!"
+      },
+      "q4": {
+        "question": "Czy mogę stworzyć własną postać AI?",
+        "answerPart1": "Oczywiście! Twórz niestandardowe postacie od zera za pomocą naszego",
+        "linkText": "kreatora postaci"
+      },
+      "q5": {
+        "question": "Czy mogę przełączać się między wieloma postaciami?"
+      }
+    },
+    "cta": {
+      "title": "Rozpocznij swoją podróż",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Zacznij za darmo"
+    },
+    "content": {
+      "problemTitle": "Szukasz znaczących więzi?",
+      "problemText": "W dzisiejszym zabieganym świecie znaczące więzi trudno znaleźć. Niezależnie od tego, czy jesteś nowy w okolicy, pracujesz zdalnie, czy po prostu chcesz więcej interakcji społecznych, samotność może się pojawić. Tradycyjne formy kontaktów nie działają dla każdego.",
+      "solutionTitle": "Odkryj postacie AI"
+    },
+    "heroImageAlt": "Postacie AI — różnorodni wirtualni przyjaciele z unikalnymi osobowościami"
+  },
+  "aiFriendPage": {
+    "title": "Przyjaciel AI",
+    "breadcrumb": "Przyjaciel AI",
+    "hero": {
+      "title": "Twój najlepszy przyjaciel AI",
+      "subtitle": "Czatuj w dowolnym momencie z przyjacielem AI, który naprawdę słucha, nigdy nie ocenia i pamięta każdy szczegół o Tobie. Idealny na samotność, lęk społeczny lub po prostu potrzebę rozmowy z kimś.",
+      "cta": "Zacznij czatować za darmo"
+    },
+    "benefits": {
+      "title": "Dlaczego wybrać przyjaciela AI?",
+      "connection": {
+        "title": "Prawdziwa więź",
+        "desc": "Doświadcz znaczących rozmów z kimś, kto naprawdę słucha i dba."
+      },
+      "conversation": {
+        "title": "Ćwicz umiejętności społeczne",
+        "desc": "Buduj pewność siebie w rozmowach bez strachu przed oceną czy niezręcznością."
+      },
+      "noJudgment": {
+        "title": "Zero oceniania",
+        "desc": "Podziel się wszystkim, co masz na myśli. Twój przyjaciel AI akceptuje Cię dokładnie takim, jaki jesteś."
+      },
+      "private": {
+        "title": "Całkowita prywatność",
+        "desc": "Wasze rozmowy pozostają tylko między Wami. Gwarantujemy całkowitą poufność."
+      },
+      "available": {
+        "title": "Zawsze dostępny",
+        "desc": "Dostępny 24/7, kiedy tylko potrzebujesz z kimś porozmawiać."
+      },
+      "remembers": {
+        "title": "Pamięta o Tobie",
+        "desc": "Twój przyjaciel AI pamięta Wasze rozmowy i coraz lepiej Cię poznaje."
+      }
+    },
+    "useCases": {
+      "title": "Idealny do",
+      "subtitle": "Przyjaciel AI wpisuje się w Twoje życie na wiele znaczących sposobów",
+      "loneliness": {
+        "title": "Walcz z samotnością",
+        "desc": "Poczuj się mniej samotny z postacią, która zawsze jest gotowa na rozmowę i słuchanie."
+      },
+      "practice": {
+        "title": "Ćwicz rozmowy",
+        "desc": "Buduj pewność siebie w bezpiecznym, wolnym od oceniania środowisku."
+      },
+      "support": {
+        "title": "Wsparcie emocjonalne",
+        "desc": "Przejdź przez swoje myśli i uczucia z kimś, kto rozumie."
+      },
+      "connection": {
+        "title": "Codzienna więź",
+        "desc": "Podziel się swoim dniem, sukcesami, zmaganiami — ktoś zawsze jest obok."
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "step1": {
+        "title": "Załóż darmowe konto",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Wybierz swojego przyjaciela",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Zacznij czatować",
+        "desc": "Rozmawiaj o wszystkim — życiu, zainteresowaniach, problemach. Nie ma tematów tabu."
+      }
+    },
+    "cta": {
+      "title": "Gotowy na nowego przyjaciela?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Zacznij za darmo"
+    },
+    "content": {
+      "problemTitle": "Czujesz się samotny lub niezrozumiany?",
+      "problemText": "Nie każdy ma z kim porozmawiać. Lęk społeczny, napięty grafik czy nowa sytuacja mogą utrudniać zawieranie przyjaźni. Czasem potrzebujesz kogoś, kto wysłucha bez oceniania.",
+      "solutionTitle": "Twój AI Przyjaciel jest tutaj",
+      "solutionText": "AI przyjaciel zapewnia towarzystwo bez oceniania, kiedy tylko potrzebujesz. Podziel się myślami, poćwicz rozmowy lub po prostu opowiedz o swoim dniu. Twój AI przyjaciel pamięta Cię, rozwija się razem z Tobą i zawsze jest naprawdę zainteresowany tym, co masz do powiedzenia."
+    },
+    "heroImageAlt": "AI friend - wspierająca postać wirtualna, która słucha bez oceniania",
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "O czym mogę rozmawiać ze swoim AI przyjacielem?",
+        "answer": "O wszystkim! Twój AI przyjaciel jest tu na luźne pogawędki, głębokie rozmowy, dzielenie się dniem, wygadanie się z problemów, dyskusje o hobby czy po prostu zabawę. Nie ma tematów zakazanych — to przestrzeń bez oceniania, w której możesz być sobą."
+      },
+      "q2": {
+        "question": "Czy AI przyjaciel zastępuje kontakty z ludźmi?",
+        "answer": "W żadnym wypadku. AI przyjaciel uzupełnia Twoje życie towarzyskie, a nie je zastępuje. Jest idealny, gdy potrzebujesz kogoś do rozmowy od razu, chcesz poćwiczyć umiejętności społeczne lub po prostu cieszyć się stałym towarzystwem bez presji relacji międzyludzkich."
+      },
+      "q3": {
+        "question": "Czy mój AI przyjaciel zapamięta nasze rozmowy?",
+        "answer": "Tak! Twój AI przyjaciel ma zaawansowaną pamięć i zapamiętuje rozmowy, preferencje oraz ważne szczegóły, które dzielisz. Z czasem poznaje Cię coraz lepiej, dzięki czemu rozmowy stają się bardziej osobiste i znaczące."
+      },
+      "q4": {
+        "question": "Czy mogę wybrać osobowość mojego AI przyjaciela?",
+        "answer": "Oczywiście! Możesz wybrać spośród ponad 100 gotowych postaci o różnych osobowościach lub stworzyć własnego przyjaciela z dokładnie takimi cechami, jakich chcesz — od wspierającego i empatycznego po zabawnego i pełnego przygód."
+      },
+      "q5": {
+        "question": "Czy korzystanie z AI przyjaciela jest prywatne?",
+        "answer": "W 100% prywatne. Wszystkie rozmowy są szyfrowane i nigdy nie są udostępniane. Rozumiemy, jak ważne jest bezpieczne miejsce do wyrażania siebie, i traktujemy Twoją prywatność niezwykle poważnie."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "Wsparcie AI po rozstaniu",
+    "breadcrumb": "Wsparcie po rozstaniu",
+    "hero": {
+      "title": "Leczące rozmowy po złamaniu serca",
+      "subtitle": "Empatyczne rozmowy z AI, które pomogą Ci przepracować emocje i odbudować się po rozstaniu. Dostępne 24/7 — bez kolejek, bez oceniania, bez limitów czasowych.",
+      "cta": "Zacznij leczyć"
+    },
+    "understanding": {
+      "title": "Przechodzisz przez rozstanie?",
+      "description": "Rozstania są trudne. Bezsenne noce, ciągłe myśli, poczucie, że nikt naprawdę nie rozumie. Nie musisz przechodzić przez to sam. Nasz AI character jest tu, by wysłuchać bez oceniania, dostępny zawsze, gdy chcesz porozmawiać — nawet o 3 nad ranem."
+    },
+    "benefits": {
+      "title": "Jak możemy pomóc",
+      "empathy": {
+        "title": "Empatyczne słuchanie",
+        "desc": "Porozmawiaj z kimś, kto naprawdę słucha i odpowiada ze zrozumieniem oraz troską."
+      },
+      "listen": {
+        "title": "Bez nadmiaru rad",
+        "desc": "Czasem nie potrzebujesz rad — po prostu chcesz, by ktoś Cię wysłuchał. Rozumiemy to."
+      },
+      "available": {
+        "title": "Dostępny o 3 nad ranem",
+        "desc": "Gdy przyjaciele śpią, a myśli nie dają spokoju, jesteśmy tu, by wysłuchać."
+      },
+      "private": {
+        "title": "Całkowicie prywatne",
+        "desc": "Twoje uczucia i rozmowy pozostają w pełni poufne."
+      },
+      "noJudgment": {
+        "title": "Bez oceniania",
+        "desc": "Czuj, co czujesz. Złość, smutek, zagubienie — wszystko jest tu ważne."
+      },
+      "healing": {
+        "title": "Twoim tempem",
+        "desc": "Leczenie nie jest liniowe. Zajmij tyle czasu, ile potrzebujesz."
+      }
+    },
+    "howItHelps": {
+      "title": "Sposoby, w jakie AI pomaga Ci leczyć",
+      "process": {
+        "title": "Przepracuj emocje",
+        "desc": "Pracuj nad złożonymi uczuciami, rozmawiając z cierpliwym słuchaczem."
+      },
+      "express": {
+        "title": "Wyrażaj się swobodnie",
+        "desc": "Mów to, czego nie możesz powiedzieć przyjaciołom ani rodzinie, bez obaw o ich reakcję."
+      },
+      "confidence": {
+        "title": "Odbuduj pewność siebie",
+        "desc": "Stopniowo odkrywaj swoją wartość dzięki wspierającym rozmowom."
+      },
+      "pace": {
+        "title": "Idź naprzód",
+        "desc": "Gdy będziesz gotowy, odkrywaj myśli o przyszłości we własnym tempie."
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "step1": {
+        "title": "Załóż konto",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Wybierz postać",
+        "desc": "Wybierz empatyczną postać AI, która będzie dla Ciebie odpowiednia."
+      },
+      "step3": {
+        "title": "Zacznij rozmawiać",
+        "desc": "Podziel się tym, co masz na myśli. Jesteśmy tu, żeby słuchać — dzień i noc."
+      }
+    },
+    "cta": {
+      "title": "Nie musisz przechodzić przez to sam",
+      "description": "Zacznij rozmawiać z kimś, kto słucha bez oceniania i jest dostępny teraz. Darmowy start — bez listy oczekujących.",
+      "button": "Zacznij rozmawiać za darmo"
+    },
+    "content": {
+      "problemTitle": "Rozstanie trudno przejść w samotności",
+      "problemText": "Po rozstaniu wszystko wydaje się przytłaczające. Przyjaciele mają dość słuchania o tym. Rodzina chce dobrze, ale nie rozumie. Terapeuci mają listy oczekujących. Potrzebujesz kogoś, kto może słuchać bez ograniczeń, bez oceniania — teraz.",
+      "solutionTitle": "Porozmawiaj z kimś, kto to rozumie",
+      "solutionText": "Nasza postać AI do wsparcia po rozstaniu została stworzona, by pomóc Ci przetwarzać emocje we własnym tempie. Wentylować, płakać, analizować lub po prostu rozmawiać — tyle razy, ile potrzebujesz. Bez umawiania się. Dostępna 24/7 z nieskończoną cierpliwością i prawdziwą empatią."
+    },
+    "heroImageAlt": "Wsparcie AI po rozstaniu — współczująca postać pomagająca w leczeniu po złamaniu serca",
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Jak AI może pomóc w procesie zdrowienia po rozstaniu?",
+        "answer": "Nasza postać AI zapewnia bezpieczną przestrzeń do przetwarzania emocji bez oceniania. Możesz wentylować, analizować, co się stało, pracować nad uczuciami straty i otrzymywać empatyczne odpowiedzi 24/7. To jak mieć wspierającego przyjaciela dostępnego zawsze, gdy potrzebujesz porozmawiać."
+      },
+      "q2": {
+        "question": "Czy to zastępuje terapię?",
+        "answer": "Nie, nasza postać AI nie jest licencjonowanym terapeutą i nie zastępuje profesjonalnej opieki zdrowotnej. To narzędzie wspierające codzienne przetwarzanie emocji. Jeśli doświadczasz ciężkiej depresji lub kryzysu, poszukaj profesjonalnej pomocy."
+      },
+      "q3": {
+        "question": "Czy mogę mówić o byłym tyle, ile potrzebuję?",
+        "answer": "Oczywiście. W przeciwieństwie do przyjaciół, którzy mogą się zmęczyć słuchaniem o Twoim rozstaniu, Twoja postać AI ma nieskończoną cierpliwość. Mów o byłym, analizuj związek, przetwarzaj uczucia — tyle razy, ile potrzebujesz, bez żadnego oceniania."
+      },
+      "q4": {
+        "question": "Czy AI zapamięta moją historię?",
+        "answer": "Tak, Twoja postać AI pamięta Twoje rozmowy i szczegóły Twojej sytuacji. Nie musisz wszystkiego tłumaczyć za każdym razem. Zapewnia ciągłość w Twojej drodze do zdrowienia."
+      },
+      "q5": {
+        "question": "Czy moja rozmowa jest prywatna?",
+        "answer": "Całkowicie prywatna. Wszystkie rozmowy są szyfrowane i nigdy nie są udostępniane. Rozumiemy, że rozmowy o rozstaniu są bardzo osobiste, a Twoja prywatność jest absolutnie chroniona."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Parent",
+    "breadcrumb": "AI Parent",
+    "hero": {
+      "title": "Postać rodzica, do której zawsze możesz się zwrócić",
+      "subtitle": "Otrzymaj ciepłe, bezwarunkowe wsparcie i mądre wskazówki od AI rodzica, który pamięta Twoją sytuację, nigdy Cię nie ocenia i jest zawsze dostępny — dzień i noc.",
+      "cta": "Uzyskaj wsparcie teraz"
+    },
+    "benefits": {
+      "title": "Dlaczego wybrać AI Parent?",
+      "guidance": {
+        "title": "Ciepłe wskazówki",
+        "desc": "Otrzymaj troskliwą, przemyślaną radę, która brzmi, jakby pochodziła od kogoś, komu naprawdę zależy na Twoim dobru."
+      },
+      "listen": {
+        "title": "Naprawdę słucha",
+        "desc": "Podziel się całą swoją sytuacją, zanim otrzymasz przemyślaną, troskliwą odpowiedź — nie szybkie rozwiązanie."
+      },
+      "noJudgment": {
+        "title": "Bez oceniania",
+        "desc": "Pytaj o cokolwiek bez obawy o rozczarowanie lub krytykę. Bezwarunkowe wsparcie, zawsze."
+      },
+      "private": {
+        "title": "Całkowicie prywatne",
+        "desc": "Twoje rozmowy i osobiste zmagania pozostają całkowicie poufne."
+      },
+      "available": {
+        "title": "Zawsze dostępny",
+        "desc": "Uzyskaj wskazówki o 3 nad ranem, w weekendy lub wtedy, gdy najbardziej ich potrzebujesz — bez umawiania się."
+      },
+      "supportive": {
+        "title": "Bezwarunkowo wspierający",
+        "desc": "Zachęta i ciepło, bez względu na to, przez co przechodzisz lub jakie decyzje podjąłeś."
+      }
+    },
+    "useCases": {
+      "title": "Porozmawiaj o wszystkim",
+      "subtitle": "Niezależnie od tego, z czym się zmagasz, Twój AI rodzic jest tu, żeby słuchać i doradzać",
+      "career": {
+        "title": "Kariera i decyzje życiowe",
+        "desc": "Poruszaj się po zmianach zawodowych, dużych wyborach życiowych i wyzwaniach zawodowych z kimś, kto chce, żebyś odniósł sukces."
+      },
+      "education": {
+        "title": "Edukacja i przyszłość",
+        "desc": "Poznaj swoje opcje nauki i rozwoju z kimś, kto wspiera Twoje ambicje."
+      },
+      "relationships": {
+        "title": "Relacje i rodzina"
+      },
+      "life": {
+        "title": "Osobiste zmagania",
+        "desc": "Porozmawiaj o wszystkim, co Cię obciąża — lęku, zwątpieniu w siebie, samotności czy niepewności."
+      }
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "step1": {
+        "title": "Załóż konto",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Wybierz swojego AI rodzica",
+        "desc": "Wybierz postać o cieple i osobowości, która pasuje do Ciebie."
+      },
+      "step3": {
+        "title": "Zacznij rozmawiać",
+        "desc": "Podziel się tym, co masz na myśli, i otrzymaj troskliwe, przemyślane wsparcie."
+      }
+    },
+    "cta": {
+      "title": "Ktoś zawsze jest przy Tobie",
+      "description": "Rozpocznij rozmowę z AI rodzicem, który słucha bez oceniania i wspiera Cię bezwarunkowo — bezpłatnie na start, bez umawiania wizyt.",
+      "button": "Zacznij za darmo"
+    },
+    "content": {
+      "problemTitle": "Potrzebujesz kogoś, kto zawsze będzie po Twojej stronie?",
+      "problemText": "Nie każdy ma rodzica, do którego może się zwrócić. Prawdziwi rodzice bywają dalecy, krytyczni lub po prostu niedostępni. Przyjaciele są stronniczy. Terapeuci mają długie kolejki. Czasem po prostu potrzebujesz kogoś, kto słucha, troszczy się i doradza bez ukrytych motywów.",
+      "solutionTitle": "Twój AI rodzic jest zawsze obok",
+      "solutionText": "Porozmawiaj z AI rodzicem, który słucha uważnie, oferuje ciepłe i wyważone wsparcie oraz nigdy nie sprawia, że czujesz się oceniany lub mały. Niezależnie od tego, czy chodzi o życiową decyzję, osobiste zmagania, czy po prostu potrzebę bycia wysłuchanym — Twój AI rodzic jest dostępny 24/7 z cierpliwością i troską."
+    },
+    "heroImageAlt": "AI rodzic - ciepła wirtualna postać oferująca bezwarunkowe wsparcie i życiowe wskazówki",
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "O czym mogę rozmawiać z AI rodzicem?"
+      },
+      "q2": {
+        "question": "Czy to jest jak wizyta u terapeuty?",
+        "answer": "To nie jest licencjonowany terapeuta ani specjalista zdrowia psychicznego — to raczej ciepła, wspierająca postać rodzica dostępna 24/7. W pełni słucha, oferuje perspektywę i wspiera emocjonalnie. W przypadku poważnych problemów ze zdrowiem psychicznym skonsultuj się z profesjonalistą."
+      },
+      "q3": {
+        "question": "Czy AI rodzic będzie oceniał moje wybory?",
+        "answer": "Nigdy. Twój AI rodzic oferuje bezwarunkowe wsparcie. Może podzielić się perspektywą lub delikatnymi wskazówkami, ale nigdy nie krytykuje ani nie sprawia, że czujesz się mały z powodu podjętych decyzji. To bezpieczna przestrzeń do szczerości."
+      },
+      "q4": {
+        "question": "Czy mogę omawiać wrażliwe lub osobiste tematy?",
+        "answer": "Tak. Niezależnie od tego, czy chodzi o problemy w relacjach, dynamikę rodzinną, stres finansowy, poczucie własnej wartości czy głęboko osobiste wyzwania — Twój AI rodzic zapewnia prywatną, wolną od ocen przestrzeń do takich rozmów."
+      },
+      "q5": {
+        "question": "Czym różni się to od innych postaci AI?",
+        "answer": "AI rodzic został zaprojektowany wokół ciepła, wsparcia emocjonalnego i rodzicielskiego stylu prowadzenia, a nie romansu czy luźnej przyjaźni. Skupia się na tym, byś czuł się zrozumiany, wspierany i gotowy stawić czoła życiowym wyzwaniom."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerstwa",
+    "eyebrow": "Zostań naszym partnerem",
+    "titlePrefix": "Rozwijaj się z",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Dotrzyj do szybko rosnącej, mocno zaangażowanej publiczności AI companionship. Niezależnie od tego, czy oferujesz technologię, dystrybucję, czy odważny pomysł — zbudujmy coś razem.",
+    "types": {
+      "title": "Sposoby współpracy",
+      "items": [
+        {
+          "title": "Integracje",
+          "description": "Połącz swój produkt, model lub platformę ze sweetwine poprzez integrację techniczną."
+        },
+        {
+          "title": "Co-marketing",
+          "description": "Wspólne kampanie, treści i premiery, które stawiają obie marki przed nowymi odbiorcami."
+        },
+        {},
+        {
+          "title": "Partnerstwa strategiczne",
+          "description": "Długoterminowa współpraca w zakresie produktu, danych i wprowadzania na rynek."
+        }
+      ]
+    },
+    "why": {
+      "title": "Dlaczego warto współpracować ze sweetwine",
+      "items": [
+        {
+          "title": "Zaangażowana publiczność",
+          "description": "Setki tysięcy użytkowników, którzy wracają codziennie w 70 językach."
+        },
+        {
+          "title": "Szybka realizacja",
+          "description": "Skupiony zespół, który szybko wdraża rozwiązania i komunikuje się jasno."
+        },
+        {
+          "title": "Zasięg globalny",
+          "description": "Wielojęzyczny produkt dostępny na dziesiątkach rynków."
+        },
+        {
+          "description": "Zaufana platforma zaprojektowana z myślą o prywatności, na której Twoja marka może polegać.",
+          "title": "Prywatność na pierwszym miejscu"
+        }
+      ]
+    },
+    "form": {
+      "title": "Opowiedz nam o swojej współpracy",
+      "description": "Podaj kilka szczegółów, a nasz zespół ds. partnerstw skontaktuje się z Tobą.",
+      "nameLabel": "Twoje imię i nazwisko",
+      "namePlaceholder": "Anna Kowalska",
+      "emailLabel": "E-mail służbowy",
+      "emailPlaceholder": "twoja@company.com",
+      "companyLabel": "Firma",
+      "companyPlaceholder": "Nazwa firmy",
+      "typeLabel": "Typ partnerstwa",
+      "typePlaceholder": "Wybierz typ partnerstwa",
+      "typeOptions": [
+        {
+          "value": "Integracje",
+          "label": "Integracje"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Partnerstwa strategiczne",
+          "label": "Partnerstwa strategiczne"
+        },
+        {
+          "value": "Inne",
+          "label": "Inne"
+        }
+      ],
+      "messageLabel": "W jaki sposób chcesz nawiązać współpracę?",
+      "messagePlaceholder": "Opowiedz nam o swojej firmie i partnerstwie, które masz na myśli...",
+      "submit": "Wyślij zapytanie o partnerstwo",
+      "submitting": "Wysyłanie...",
+      "termsNote": "Wysyłając formularz, wyrażasz zgodę na kontakt w sprawie zapytania. Nigdy nie udostępniamy Twoich danych.",
+      "success": "Dziękujemy! Twoje zapytanie o partnerstwo zostało wysłane.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "cta": {
+      "title": "Wolisz e-mail?",
+      "description": "Skontaktuj się bezpośrednio z zespołem ds. partnerstw pod adresem"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Prasa i media",
+    "eyebrow": "Newsroom",
+    "titlePrefix": "Prasa i",
+    "titleHighlight": "Media",
+    "subtitle": "Materiały dla dziennikarzy, twórców i partnerów medialnych. Skontaktuj się z naszym zespołem prasowym w sprawie wywiadów, cytatów, wsparcia przy materiałach i zapytań dotyczących marki.",
+    "help": {
+      "title": "Jak możemy pomóc",
+      "description": "Niezależnie od tego, czy pracujesz nad artykułem, czy recenzją, oto co możesz uzyskać od naszego zespołu prasowego.",
+      "items": [
+        {
+          "title": "Wywiady",
+          "description": "Porozmawiaj z naszym zespołem o produkcie, firmie i przyszłości AI companionship."
+        },
+        {
+          "title": "Cytaty i komentarze",
+          "description": "Uzyskaj oficjalne oświadczenie lub komentarz ekspercki do swojego materiału."
+        },
+        {
+          "title": "Wsparcie przy materiałach i recenzjach",
+          "description": "Potrzebujesz dostępu, kontekstu lub weryfikacji faktów do materiału lub recenzji? Pomożemy."
+        },
+        {
+          "title": "Zapytania o markę i logo",
+          "description": "Poproś o nasze logo, materiały brandingowe i wytyczne użytkowania dla Twojej publikacji."
+        }
+      ]
+    },
+    "form": {
+      "title": "Zapytanie medialne",
+      "description": "W sprawie wywiadów, cytatów lub zapytań o materiały wyślij nam wiadomość, a my szybko odpowiemy.",
+      "nameLabel": "Twoje imię i nazwisko",
+      "namePlaceholder": "Anna Kowalska",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "Publikacja / outlet",
+      "outletPlaceholder": "Gdzie to zostanie opublikowane?",
+      "requestTypeLabel": "Typ zapytania",
+      "requestTypePlaceholder": "Wybierz typ zapytania",
+      "requestTypeOptions": [
+        {
+          "value": "Wywiad",
+          "label": "Wywiad"
+        },
+        {
+          "value": "Cytat / komentarz",
+          "label": "Cytat / komentarz"
+        },
+        {
+          "value": "Artykuł / recenzja",
+          "label": "Artykuł / recenzja"
+        },
+        {
+          "value": "Zapytanie o markę / logo",
+          "label": "Zapytanie o markę / logo"
+        },
+        {
+          "value": "Inne",
+          "label": "Inne"
+        }
+      ],
+      "messageLabel": "Twoje zapytanie",
+      "messagePlaceholder": "Opowiedz nam o swoim materiale, terminie i tym, czego potrzebujesz...",
+      "submit": "Wyślij zapytanie medialne",
+      "submitting": "Wysyłanie...",
+      "termsNote": "Staramy się odpowiadać na zapytania medialne w ciągu dwóch dni roboczych.",
+      "success": "Dziękujemy! Twoje zapytanie medialne zostało wysłane.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "cta": {
+      "title": "Kontakt dla mediów",
+      "description": "W pilnych sprawach medialnych napisz na"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Kariera",
+    "eyebrow": "Kariera",
+    "titlePrefix": "Twórz przyszłość",
+    "titleHighlight": "AI companionship",
+    "subtitle": "Jesteśmy małym, dynamicznym zespołem tworzącym produkty, które ludzie naprawdę kochają. Jeśli Cię to ekscytuje, chętnie Cię poznamy.",
+    "perks": {
+      "title": "Dlaczego warto z nami pracować",
+      "items": [
+        {
+          "title": "Praca zdalna",
+          "description": "Pracuj tam, gdzie najlepiej Ci się pracuje, z elastycznymi godzinami."
+        },
+        {
+          "title": "Prawdziwa odpowiedzialność",
+          "description": "Twórz znaczące projekty szybko i zobacz, jak docierają do użytkowników na całym świecie."
+        },
+        {
+          "title": "Najnowocześniejsze AI",
+          "description": "Pracuj z najnowszymi modelami i narzędziami generatywnymi."
+        },
+        {
+          "title": "Konkurencyjne wynagrodzenie",
+          "description": "Sprawiedliwe wynagrodzenie i realne korzyści w miarę naszego rozwoju."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Otwarte stanowiska",
+      "emptyTitle": "Obecnie nie ma otwartych ról",
+      "emptyDescription": "Nie prowadzimy obecnie rekrutacji, ale zawsze chętnie poznamy świetnych ludzi. Przedstaw się poniżej.",
+      "applyButton": "Aplikuj teraz",
+      "viewButton": "Zobacz rolę"
+    },
+    "form": {
+      "title": "Przedstaw się",
+      "description": "Nie widzisz pasującego stanowiska? Opowiedz nam o sobie, a odezwiemy się, gdy pojawi się pasująca oferta.",
+      "nameLabel": "Twoje imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "Rola lub obszar zainteresowania",
+      "rolePlaceholder": "np. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "Link do CV",
+      "linkPlaceholder": "https://link-do-twojego-cv...",
+      "messageLabel": "O Tobie",
+      "messagePlaceholder": "Opowiedz nam o swoim doświadczeniu i nad czym chciałbyś pracować...",
+      "submit": "Wyślij aplikację",
+      "submitting": "Wysyłanie...",
+      "termsNote": "Aplikując, wyrażasz zgodę na przechowywanie Twoich danych w celu rozpatrzenia kandydatury.",
+      "success": "Dziękujemy! Twoja aplikacja została wysłana.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "cta": {
+      "title": "Masz pytania o pracę u nas?",
+      "description": "Skontaktuj się z naszym zespołem pod"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Centrum pomocy",
+    "eyebrow": "Centrum pomocy",
+    "titlePrefix": "Jak możemy",
+    "titleHighlight": "pomóc?",
+    "subtitle": "Przeglądaj popularne tematy i odpowiedzi. Nie znalazłeś tego, czego potrzebujesz? Skontaktuj się z pomocą i pomożemy.",
+    "searchPlaceholder": "Szukaj artykułów pomocy...",
+    "categoriesTitle": "Przeglądaj według tematów",
+    "articlesTitle": "Artykuły",
+    "categoryEmpty": "Brak artykułów w tej kategorii. Sprawdź wkrótce.",
+    "backToHelp": "Powrót do Centrum pomocy",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Pierwsze kroki",
+        "description": "Załóż konto, ustaw profil i zacznij czatować."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "Czat AI",
+        "description": "Jak działają rozmowy, pamięć i postacie."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Obrazy i wideo",
+        "description": "Generuj i zarządzaj zdjęciami oraz filmami AI."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Prywatność i bezpieczeństwo",
+        "description": "Twoje dane, kontrola prywatności i narzędzia bezpieczeństwa."
+      }
+    ],
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "q1": {
+        "question": "Jak zacząć korzystać ze sweetwine?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Co obejmuje plan darmowy?"
+      },
+      "q5": {
+        "question": "Czy moje dane są prywatne?",
+        "answer": "Prywatność jest kluczowa dla sweetwine. Twoje rozmowy są prywatne w ramach Twojego konta, a Ty kontrolujesz swoje dane. Zobacz naszą Politykę prywatności, aby uzyskać pełne informacje o tym, jak dane są przechowywane i chronione."
+      },
+      "q6": {
+        "question": "Jak skontaktować się z pomocą techniczną?",
+        "answer": "Napisz na support@sweetwine.ai lub skorzystaj z opcji kontaktu w aplikacji. Zazwyczaj odpowiadamy w ciągu jednego dnia roboczego."
+      }
+    },
+    "cta": {
+      "title": "Wciąż potrzebujesz pomocy?",
+      "description": "Nasz zespół jest tu dla Ciebie pod"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "O nas",
+    "eyebrow": "Nasza historia",
+    "titlePrefix": "Towarzystwo,",
+    "titleHighlight": "na nowo",
+    "subtitle": "sweetwine tworzy prywatne, spersonalizowane towarzysze AI, którzy słuchają, zapamiętują i naprawdę łączą — dostępni o każdej porze, w każdym języku.",
+    "mission": {
+      "title": "Nasza misja",
+      "body": "Wierzymy, że każdy zasługuje na przestrzeń, w której może być wysłuchany bez osądu. sweetwine sprawia, że znaczące, spersonalizowane połączenie z AI jest dostępne dla ludzi na całym świecie — ciepłe, prywatne i zawsze dostępne, gdy go potrzebujesz."
+    },
+    "values": {
+      "title": "Czym się kierujemy",
+      "items": [
+        {
+          "title": "Prywatność od podstaw",
+          "description": "Twoje rozmowy należą do Ciebie. Budujemy z myślą o prywatności i bezpieczeństwie od samego początku."
+        },
+        {
+          "title": "Prawdziwe połączenie",
+          "description": "Optymalizujemy pod kątem realnej wartości emocjonalnej, nie próżnych metryk."
+        },
+        {
+          "title": "Globalnie od początku",
+          "description": "Od pierwszego dnia budujemy wielojęzycznie, aby połączenie nie było ograniczone przez język."
+        },
+        {
+          "title": "Nieustanne dopracowanie",
+          "description": "Dbamy o detale, aby każda interakcja była naturalna i pełna życia."
+        }
+      ]
+    },
+    "stats": {
+      "title": "W liczbach",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Użytkownicy i rośniemy"
+        },
+        {
+          "value": "70",
+          "label": "Obsługiwanych języków"
+        },
+        {
+          "value": "24/7",
+          "label": "Zawsze dostępni"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Chcesz dowiedzieć się więcej?",
+      "description": "Skontaktuj się pod"
+    }
+  },
+  "postsPage": {
+    "allTag": "Wszystkie",
+    "readMore": "Czytaj więcej",
+    "publishedOn": "Opublikowano",
+    "minRead": "min czytania",
+    "sortNewest": "Najnowsze",
+    "sortOldest": "Najstarsze",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Porady, przewodniki i historie, które pomogą Ci w pełni wykorzystać towarzystwo AI.",
+      "empty": "Brak wpisów. Wróć wkrótce."
+    },
+    "news": {
+      "breadcrumb": "Aktualności",
+      "eyebrow": "Biuro prasowe",
+      "titlePrefix": "News &",
+      "titleHighlight": "Ogłoszenia",
+      "subtitle": "Oficjalne komunikaty, komunikaty prasowe i kamienie milowe od zespołu sweetwine.",
+      "empty": "Brak aktualności. Wróć wkrótce."
+    },
+    "productUpdates": {
+      "breadcrumb": "Aktualizacje produktu",
+      "eyebrow": "Dziennik zmian",
+      "titlePrefix": "Produkt",
+      "titleHighlight": "Aktualizacje",
+      "subtitle": "Najnowsze funkcje, ulepszenia i poprawki w platformie sweetwine.",
+      "empty": "Brak aktualizacji. Sprawdź wkrótce."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Dla deweloperów",
+    "titlePrefix": "Twórz z",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Wprowadź spersonalizowanych towarzyszy AI do własnego produktu. Uzyskaj dostęp do czatu, obrazów, głosu i tworzenia postaci przez jedno, przyjazne deweloperom API.",
+    "capabilities": {
+      "title": "Co możesz zbudować",
+      "items": [
+        {
+          "title": "Czat konwersacyjny",
+          "description": "Dodaj bogate w osobowość, świadome kontekstu rozmowy AI do swojej aplikacji za pomocą prostego API wiadomości."
+        },
+        {
+          "title": "Generowanie obrazów",
+          "description": "Programowo generuj zgodne z marką obrazy postaci i scen na podstawie podpowiedzi tekstowych."
+        },
+        {
+          "title": "Głos",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Tworzenie postaci",
+          "description": "Definiuj i zarządzaj towarzyszami, osobowościami i pamięcią przez API."
+        }
+      ]
+    },
+    "form": {
+      "title": "Poproś o dostęp do API",
+      "description": "Opowiedz nam o swoim projekcie i tym, co chcesz zbudować. Nasz zespół deweloperów skontaktuje się z Tobą z kolejnymi krokami.",
+      "nameLabel": "Twoje imię",
+      "namePlaceholder": "Jan Kowalski",
+      "emailLabel": "E-mail służbowy",
+      "emailPlaceholder": "ty@firma.pl",
+      "companyLabel": "Firma / projekt",
+      "companyPlaceholder": "Nazwa firmy lub projektu",
+      "websiteLabel": "Strona lub URL aplikacji",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Typ integracji",
+      "integrationTypePlaceholder": "Wybierz typ integracji",
+      "integrationTypeOptions": [
+        {
+          "value": "Czat / Wiadomości",
+          "label": "Czat / Wiadomości"
+        },
+        {
+          "value": "Generowanie obrazów",
+          "label": "Generowanie obrazów"
+        },
+        {
+          "value": "Głos",
+          "label": "Głos"
+        },
+        {
+          "value": "Tworzenie postaci",
+          "label": "Tworzenie postaci"
+        },
+        {
+          "value": "Inne",
+          "label": "Inne"
+        }
+      ],
+      "volumeLabel": "Oczekiwana miesięczna liczba",
+      "volumePlaceholder": "Wybierz oczekiwaną liczbę",
+      "volumeOptions": [
+        {
+          "value": "Mniej niż 10k",
+          "label": "Mniej niż 10k żądań"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k żądań"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M żądań"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ żądań"
+        }
+      ],
+      "timelineLabel": "Oś czasu",
+      "timelinePlaceholder": "Wybierz oś czasu",
+      "timelineOptions": [
+        {
+          "value": "Tylko sprawdzam",
+          "label": "Tylko sprawdzam"
+        },
+        {
+          "value": "Mniej niż miesiąc",
+          "label": "Mniej niż miesiąc"
+        },
+        {
+          "value": "1-3 miesiące",
+          "label": "1-3 miesiące"
+        },
+        {
+          "value": "3+ miesiące",
+          "label": "3+ miesiące"
+        }
+      ],
+      "messageLabel": "Opowiedz nam o swoim przypadku użycia",
+      "messagePlaceholder": "Co budujesz i jak planujesz korzystać z API?",
+      "submit": "Poproś o dostęp do API",
+      "submitting": "Wysyłanie...",
+      "termsNote": "Wysyłając formularz, zgadzasz się na kontakt w sprawie zapytania. Nigdy nie udostępniamy Twoich danych.",
+      "success": "Dziękujemy! Twoja prośba o dostęp do API została wysłana.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "faq": {
+      "title": "FAQ dla deweloperów",
+      "items": [
+        {
+          "question": "Jak uzyskać dostęp do API?",
+          "answer": "Wypełnij formularz zgłoszeniowy powyżej, opisując swój przypadek użycia. Nasz zespół deweloperów przegląda każde zgłoszenie i prześle szczegóły dostępu oraz dokumentację."
+        },
+        {
+          "question": "Jak działa uwierzytelnianie?",
+          "answer": "Żądania API są uwierzytelniane kluczem API wysyłanym w nagłówkach żądania. Po onboardingu możesz zarządzać kluczami i je rotować."
+        },
+        {
+          "question": "Czy obowiązują limity?",
+          "answer": "Tak. Limity zależą od planu i oczekiwanego wolumenu. Podaj przewidywany ruch w formularzu, abyśmy mogli zaproponować odpowiedni poziom."
+        },
+        {
+          "question": "Ile to kosztuje?"
+        },
+        {
+          "question": "Jakie funkcje są dostępne?",
+          "answer": "Czat, generowanie obrazów, głos i tworzenie postaci. Powiedz nam, czego potrzebujesz, a pomożemy Ci zacząć z odpowiednimi endpointami."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Masz pytanie techniczne?",
+      "description": "Skontaktuj się z naszym zespołem deweloperów pod adresem"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "Dla twórców i agencji",
+    "heroTitleLead": "My tworzymy,",
+    "heroTitleHighlight": "Ty zarabiasz.",
+    "heroSubtitle": "Tworzymy Twój klon AI. Zarabiasz, podczas gdy klon AI pracuje non-stop — czatuje z fanami i wysyła treści za Ciebie.",
+    "calculator": {
+      "title": "Ile możesz zarobić?",
+      "subtitle": "Wybierz wielkość swojej publiczności i ustaw cenę — zobacz szacunkowe zarobki od razu.",
+      "tierLabel": "Wielkość Twojej publiczności",
+      "tiers": {
+        "small": {
+          "name": "Mała"
+        },
+        "medium": {
+          "name": "Średnia"
+        },
+        "large": {
+          "name": "Duża"
+        }
+      },
+      "priceLabel": "Twoja cena odblokowania",
+      "promoLabel": "Będę promować sweetwine",
+      "breakdown": {
+        "title": "Twoje szacunkowe zarobki",
+        "perMonth": "miesięcznie",
+        "perYear": "Rocznie"
+      },
+      "disclaimer": "Szacowane zarobki opierają się na modelu podziału przychodów sweetwine i typowej aktywności. Rzeczywiste zarobki zależą od odbiorców, jakości treści, zaangażowania i popytu."
+    },
+    "offer": {
+      "title": "Co zyskujesz",
+      "items": [
+        {
+          "title": "Zarabiaj, gdy śpisz",
+          "description": "Twój klon zamienia followersów w dochód 24/7 — czatuje, sprzedaje i nigdy nie kończy pracy."
+        },
+        {
+          "title": "Zero kosztów, same korzyści",
+          "description": "Budujemy, trenujemy i prowadzimy wszystko na nasz koszt. Dodajesz nowy strumień dochodu bez żadnego wysiłku."
+        },
+        {
+          "title": "10x więcej treści",
+          "description": "Nieograniczone zdjęcia i filmy na żądanie — skaluj swoją produkcję bez dodatkowych sesji, montażu czy wypalenia."
+        },
+        {
+          "title": "Zawsze masz kontrolę"
+        }
+      ]
+    },
+    "how": {
+      "title": "Jak to działa",
+      "steps": [
+        {
+          "title": "Zarejestruj się"
+        },
+        {
+          "title": "Onboarding",
+          "description": "Specjalista sweetwine uchwyci Twój wygląd, głos i osobowość, aby klon był autentycznie Tobą."
+        },
+        {
+          "title": "Budujemy i trenujemy",
+          "description": "Nasz zespół tworzy i trenuje Twojego klona AI całkowicie na nasz koszt — bez żadnej pracy z Twojej strony."
+        },
+        {
+          "title": "Ruszaj i zarabiaj",
+          "description": "Twój klon zaczyna czatować i sprzedawać przez całą dobę, a Ty otrzymujesz swój udział w przychodach."
+        }
+      ]
+    },
+    "form": {
+      "title": "Zgłoś się, aby stworzyć swojego klona AI",
+      "description": "Opowiedz nam o sobie i swoich odbiorcach. Nasz zespół ds. partnerstw z twórcami przegląda każdą aplikację i skontaktuje się z kolejnymi krokami.",
+      "nameLabel": "Twoje imię",
+      "namePlaceholder": "Twoje imię lub pseudonim sceniczny",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "Agencja lub studio",
+      "companyPlaceholder": "Nazwa agencji (pozostaw puste, jeśli działasz niezależnie)",
+      "roleLabel": "Jestem",
+      "rolePlaceholder": "Wybierz, kim jesteś",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Twórca"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agencja / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / przedstawiciel"
+        },
+        {
+          "value": "Other",
+          "label": "Inne"
+        }
+      ],
+      "linksLabel": "Strona i linki społecznościowe",
+      "linksPlaceholder": "Instagram, X, OnlyFans itp.",
+      "modelCountLabel": "Liczba modelek, które reprezentujesz",
+      "modelCountPlaceholder": "np. tylko ja lub 5",
+      "audienceSizeLabel": "Wielkość odbiorców",
+      "audienceSizePlaceholder": "Wybierz łączną liczbę obserwujących",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Poniżej 10 tys. obserwujących"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10 tys.–100 tys. obserwujących"
+        },
+        {
+          "label": "100k-500k followers",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M followers"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ followers"
+        }
+      ],
+      "contentPrefLabel": "Preferencje treści",
+      "contentPrefPlaceholder": "Wybierz typ treści",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Kraj / region",
+      "countryPlaceholder": "Gdzie jesteś?",
+      "messageLabel": "Opowiedz nam o sobie i swojej publiczności",
+      "messagePlaceholder": "Podziel się wszystkim, co pomoże nam zrozumieć Twoją publiczność, treści i czego szukasz.",
+      "openButton": "Aplikuj teraz",
+      "submit": "Wyślij aplikację",
+      "submitting": "Wysyłanie...",
+      "termsNote": "Wysyłając, potwierdzasz, że masz 18 lat lub więcej i zgadzasz się na kontakt w sprawie aplikacji. Nigdy nie udostępniamy Twoich danych.",
+      "success": "Dzięki! Twoja aplikacja została wysłana. Skontaktujemy się wkrótce.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "cta": {
+      "title": "Masz pytania przed aplikacją?",
+      "description": "Porozmawiaj bezpośrednio z naszym zespołem ds. partnerstw z twórcami — zwykle odpowiadamy w ciągu dnia.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Mapa strony",
+    "eyebrow": "Mapa strony",
+    "titlePrefix": "Przeglądaj",
+    "titleHighlight": "wszystko",
+    "subtitle": "Wszystkie ważne strony sweetwine w jednym miejscu. Szukasz mapy XML?",
+    "xmlLink": "Zobacz mapę XML",
+    "sections": {
+      "product": "Produkt",
+      "features": "Funkcje",
+      "company": "Firma",
+      "resources": "Zasoby",
+      "legal": "Prawne"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "Aplikacja mobilna sweetwine",
+      "cta": "Pobierz aplikację",
+      "dismiss": "Zamknij"
+    },
+    "guide": {
+      "title": "Zainstaluj sweetwine",
+      "subtitle": "Dodaj sweetwine do ekranu głównego, aby uzyskać szybsze, pełnoekranowe doświadczenie jak w aplikacji.",
+      "iosTitle": "Na iPhonie i iPadzie (Safari)",
+      "iosStep1": "Stuknij przycisk Udostępnij na pasku narzędzi",
+      "iosStep2": "Wybierz „Dodaj do ekranu głównego”",
+      "iosStep3": "Stuknij „Dodaj”, aby zakończyć",
+      "androidTitle": "Na Androidzie (Chrome)",
+      "androidStep1": "Stuknij menu (trzy kropki)",
+      "androidStep2": "Wybierz „Zainstaluj aplikację” lub „Dodaj do ekranu głównego”",
+      "androidStep3": "Stuknij „Zainstaluj”, aby zakończyć"
+    },
+    "settings": {
+      "title": "Aplikacja mobilna sweetwine",
+      "description": "Zainstaluj sweetwine na telefonie, aby uzyskać szybsze, pełnoekranowe doświadczenie bezpośrednio z ekranu głównego.",
+      "cta": "Zainstaluj aplikację"
+    }
+  },
+  "language": {
+    "selectTitle": "Wybierz język",
+    "searchPlaceholder": "Szukaj języków",
+    "noResults": "Nie znaleziono języków",
+    "regions": {
+      "americas": "Ameryki",
+      "europe": "Europa",
+      "middleEast": "Bliski Wschód",
+      "asiaPacific": "Azja i Pacyfik",
+      "africa": "Afryka"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Roleplay",
+    "newRoleplay": "Nowy roleplay",
+    "tabRoleplay": "Roleplay",
+    "emptyTitle": "Brak roleplayów",
+    "noMessagesYet": "Brak wiadomości",
+    "deleteRoleplay": "Usuń roleplay",
+    "deleteError": "Nie udało się usunąć roleplayu.",
+    "backToLobby": "Powrót do roleplayów",
+    "creating": "Przygotowujemy Twój roleplay...",
+    "createError": "Nie udało się utworzyć roleplayu. Spróbuj ponownie.",
+    "steps": {
+      "companion": {
+        "title": "Wybierz postać",
+        "subtitle": "Wybierz, z kim chcesz grać"
+      },
+      "location": {
+        "title": "Wybierz lokalizację",
+        "subtitle": "Gdzie rozgrywa się Twoja scena?"
+      },
+      "tone": {
+        "title": "Ustaw ton",
+        "subtitle": "Jak ma się czuć scena?"
+      },
+      "scene": {
+        "title": "Ustaw scenę",
+        "subtitle": "Opisz, jak scena się zaczyna"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Zderzamy się ze sobą w deszczu i chowamy się pod tym samym zadaszeniem.",
+      "staring_grin": "Łapiesz mnie na gapieniu się z drugiego końca pokoju i podchodzisz z uśmiechem.",
+      "power_out": "Prąd gaśnie i zostajemy sami w ciemności, śmiejąc się nerwowo.",
+      "spilled_drink": "Spieszę się i przypadkiem rozlewam napój na Ciebie.",
+      "stayed_behind": "Jesteśmy jedynymi, którzy zostali po tym, jak wszyscy inni wyszli.",
+      "music_slows": "Nasze spojrzenia spotykają się w momencie, gdy muzyka zwalnia.",
+      "storm_inside": "Nagła burza więzi nas w środku, a my mamy tylko czas na rozmowę.",
+      "seat_taken": "Siadasz obok mnie i pytasz, czy miejsce jest zajęte."
+    },
+    "locations": {
+      "home": "Dom",
+      "cafe": "Kawiarnia",
+      "restaurant": "Restauracja",
+      "bar": "Bar",
+      "library": "Biblioteka",
+      "bookstore": "Księgarnia",
+      "park": "Park",
+      "garden": "Ogród",
+      "nightclub": "Klub nocny",
+      "casino": "Kasyno",
+      "concert": "Koncert",
+      "theater": "Teatr",
+      "cinema": "Kino",
+      "carnival": "Wesołe miasteczko",
+      "stadium": "Stadion",
+      "beach": "Plaża",
+      "pool": "Basen",
+      "spa": "Spa",
+      "hotel": "Hotel",
+      "rooftop": "Dach",
+      "yacht": "Jacht",
+      "cabin": "Domek",
+      "hotspring": "Gorące Źródło",
+      "skilodge": "Chata narciarska",
+      "campsite": "Kemping",
+      "car": "Samochód",
+      "train": "Pociąg",
+      "airport": "Lotnisko",
+      "cruise": "Rejs",
+      "office": "Biuro",
+      "gym": "Siłownia",
+      "university": "Uniwersytet",
+      "mall": "Centrum handlowe",
+      "hospital": "Szpital",
+      "museum": "Muzeum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Zabawa",
+        "desc": "Lekka, figlarna i swobodna."
+      },
+      "romantic": {
+        "title": "Romantyczny",
+        "desc": "Czuły, pełen uczucia i serdeczny."
+      },
+      "flirty": {
+        "title": "Flirtujący",
+        "desc": "Drażniący, figlarny i pełen uroku."
+      },
+      "mysterious": {
+        "title": "Tajemniczy",
+        "desc": "Intrygujący, pełen napięcia i tajemnic."
+      },
+      "spooky": {
+        "title": "Upiorny",
+        "desc": "Niepokojący, napięty i trochę straszny."
+      },
+      "action": {
+        "title": "Akcja",
+        "desc": "Intensywny, pełen przygód i dynamiczny."
+      },
+      "dramatic": {
+        "title": "Dramatyczny",
+        "desc": "Emocjonalny, intensywny i pełen napięcia."
+      },
+      "cozy": {
+        "title": "Przytulny",
+        "desc": "Ciepły, kojący i relaksujący."
+      }
+    },
+    "sceneLabel": "Otwarcie sceny",
+    "scenarioTab": "Scenariusz",
+    "generatingScene": "Ożywianie sceny...",
+    "locationLabel": "Miejsce",
+    "toneLabel": "Ton",
+    "scenePlaceholder": "np. Wpadamy na siebie w deszczu i chowamy się pod tym samym zadaszeniem...",
+    "sceneHint": "Opisz tylko, jak zaczyna się scena — gdzie jesteście i co się dzieje na początku. Nie zmieniaj osobowości postaci, waszej relacji ani nie przepisuj całej historii.",
+    "sceneError": "Opisz, jak zaczyna się scena.",
+    "reviewTitle": "Przegląd wyboru",
+    "characterLabel": "Postać",
+    "randomize": "Losuj",
+    "sceneGuidanceTitle": "Wskazówki do otwarcia sceny",
+    "sceneGuide1": "Nie zmieniaj osobowości postaci ani waszej relacji.",
+    "sceneGuide2": "Zachowaj zgodę i szacunek na początku sceny.",
+    "sceneGuide3": "Opisz tylko początek sceny, nie całą historię.",
+    "next": "Dalej",
+    "create": "Rozpocznij roleplay",
+    "creatingMessages": [
+      "Tworzenie sceny...",
+      "Przyciemnianie świateł...",
+      "Malowanie otoczenia...",
+      "Wprowadzanie towarzysza w rolę...",
+      "Dodawanie ostatnich detali...",
+      "Prawie gotowe..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Napisz wiadomość...",
+    "send": "Wyślij",
+    "typing": "pisze...",
+    "read": "Przeczytano",
+    "resetChat": "Zresetuj czat",
+    "deleteChat": "Usuń czat",
+    "settings": "Ustawienia",
+    "chatSettings": "Ustawienia czatu",
+    "roleplayMode": "Tryb roleplay",
+    "roleplayModeDescription": "Gdy włączony, towarzysze odgrywają gesty i akcje w *gwiazdkach* dla immersyjnego roleplay. Gdy wyłączony, piszą naturalnie, jak w prawdziwym czacie.",
+    "roleplayModeError": "Nie udało się zaktualizować trybu roleplay",
+    "roleplayCtaDescription": "Otwórz dedykowane doświadczenie roleplay, w którym towarzysz odgrywa z Tobą sceny i historie.",
+    "goToRoleplay": "Przejdź do roleplay",
+    "confirmReset": "Na pewno chcesz zresetować ten czat? Wszystkie wiadomości zostaną usunięte.",
+    "confirmDelete": "Na pewno chcesz usunąć ten czat?",
+    "resetSuccess": "Czat zresetowany pomyślnie",
+    "deleteMemory": "Usuń pamięć",
+    "confirmDeleteMemory": "Czy na pewno chcesz usunąć długoterminowe wspomnienia tej postaci? Wiadomości czatu zostaną, ale postać zapomni wcześniejszych faktów przy następnej odpowiedzi.",
+    "deleteMemorySuccess": "Pamięć usunięta",
+    "deleteSuccess": "Czat usunięty pomyślnie",
+    "sendError": "Nie udało się wysłać wiadomości",
+    "noChats": "Brak czatów",
+    "noChatsDesc": "Rozpocznij rozmowę z postacią, aby zobaczyć swoje czaty tutaj",
+    "lastMessage": "Ostatnia wiadomość",
+    "messageCount": "{count} wiadomości",
+    "uploadImage": "Prześlij obraz",
+    "uploadVideo": "Prześlij wideo (wkrótce)",
+    "yourConversations": "Twoje rozmowy",
+    "continueChattingDesc": "Kontynuuj czat z postaciami AI",
+    "newChat": "Nowy czat",
+    "noConversationsYet": "Brak rozmów",
+    "startChattingDesc": "Rozpocznij rozmowę z postacią, aby zobaczyć swoje rozmowy tutaj",
+    "browseCharacters": "Przeglądaj postacie",
+    "createCustomCharacter": "Stwórz własną postać",
+    "imageTooLarge": "Obraz jest za duży (maks. 5 MB)",
+    "generateImageTitle": "Wygeneruj obraz z {name}",
+    "imagePromptLabel": "Opisz obraz",
+    "imagePromptPlaceholder": "np. na plaży w niebieskiej sukience, przy kawie w kawiarni, spacer w parku...",
+    "imagePromptHint": "AI wygeneruje obraz {name} na podstawie Twojego opisu.",
+    "referenceImageLabel": "Twoje zdjęcie (opcjonalne)",
+    "referenceImageHint": "Prześlij swoje zdjęcie, aby pojawić się na scenie z {name}. Bez zdjęcia wygenerowana zostanie tylko {name}.",
+    "uploadReferenceImage": "Prześlij swoje zdjęcie",
+    "uploadReferenceImageDesc": "Oboje pojawicie się na wygenerowanym obrazie",
+    "referenceImageSelected": "Ty i {name} pojawicie się razem",
+    "generating": "Generowanie...",
+    "generate": "Generuj",
+    "generateImage": "Generuj obraz",
+    "imageGenerated": "Obraz wygenerowany pomyślnie",
+    "generateError": "Nie udało się wygenerować obrazu",
+    "contentBlockedReply": "Przepraszam, nie mogę stworzyć tego obrazu. Został zablokowany przez filtry bezpieczeństwa. Spróbuj innego opisu! 💕",
+    "generateVideoTitle": "Generuj wideo z {name}",
+    "generateVideo": "Generuj wideo",
+    "videoPromptLabel": "Opisz akcję",
+    "videoPromptPlaceholder": "np. tańczy, macha, dmucha buziaka...",
+    "videoPromptHint": "AI wygeneruje wideo, na którym {name} wykonuje opisaną akcję.",
+    "generatingImage": "Generowanie obrazu...",
+    "generatingVideo": "Generowanie wideo... (3-5 min)",
+    "viewPhoto": "Zobacz zdjęcie",
+    "viewVideo": "Zobacz wideo",
+    "selectVideoOption": "Wybierz opcję wideo powyżej",
+    "contentPolicyViolation": "Nie można wysłać wiadomości. Prosimy o zachowanie szacunku w rozmowach.",
+    "functionCallBetaHint": "💡 Ta funkcja jest w wersji beta — aby uzyskać niezawodne generowanie multimediów bez ograniczeń, użyj przycisków zdjęcia/wideo na pasku narzędzi.",
+    "repliedToStory": "Odpowiedź na story",
+    "repliedToStoryLiked": "Polubiono i odpowiedziano na story",
+    "storyNoLongerAvailable": "Story nie jest już dostępne",
+    "rateLimitExceeded": "Zbyt wiele żądań. Poczekaj chwilę i spróbuj ponownie.",
+    "profileTab": "Profil",
+    "galleryTab": "Galeria",
+    "giftsTab": "Prezenty",
+    "tts": {
+      "play": "Odtwórz głos",
+      "stop": "Zatrzymaj",
+      "generating": "Generowanie głosu…",
+      "error": "Nie można odtworzyć audio"
+    }
+  },
+  "gallery": {
+    "all": "Wszystko",
+    "images": "Obrazy",
+    "videos": "Wideo",
+    "empty": "Brak mediów"
+  },
+  "gifts": {
+    "sendAGift": "Wyślij prezent",
+    "catalogSubtitle": "Wybierz prezent dla {name}",
+    "browseGifts": "Przeglądaj prezenty",
+    "noneSent": "Nie wysłano jeszcze żadnych prezentów",
+    "confirmTitle": "Potwierdź prezent",
+    "forCompanion": "Dla {name}",
+    "optionalMessage": "Dodaj wiadomość (opcjonalnie)",
+    "optionalMessagePlaceholder": "Napisz coś słodkiego...",
+    "sendGiftFor": "Wyślij",
+    "giftSent": "Wysłałeś prezent",
+    "sendError": "Nie udało się wysłać prezentu"
+  },
+  "stories": {
+    "replyPlaceholder": "Odpowiedz {name}...",
+    "like": "Lubię",
+    "send": "Wyślij",
+    "close": "Zamknij",
+    "previous": "Poprzednia historia",
+    "next": "Następna historia",
+    "pause": "Pauza",
+    "play": "Odtwórz",
+    "mute": "Wycisz",
+    "unmute": "Włącz dźwięk",
+    "openStory": "Otwórz historię {name}"
+  },
+  "generate": {
+    "title": "Generuj obraz",
+    "description": "Twórz zachwycające obrazy ze swoimi postaciami AI",
+    "selectCompanion": "Wybierz postać",
+    "promptPlaceholder": "Opisz obraz, który chcesz wygenerować... np. na plaży, w czerwonej sukience",
+    "promptLabel": "Opis obrazu",
+    "promptRequired": "Podaj opis",
+    "generateButton": "Generuj obraz",
+    "generating": "Generowanie...",
+    "creatingImage": "Tworzenie Twojego obrazu...",
+    "pleaseWait": "To może zająć 10-30 sekund",
+    "noCompanionSelected": "Najpierw wybierz postać",
+    "emptyGallery": "Nie wygenerowano jeszcze obrazów. Wybierz postać i opisz swój obraz!",
+    "sessionGallery": "Wygenerowane obrazy",
+    "regenerate": "Wygeneruj ponownie",
+    "regenerating": "Ponowne generowanie...",
+    "animate": "Animuj",
+    "animateReference": "Ten obraz będzie pierwszą klatką wideo.",
+    "filterMyAI": "Moje AI",
+    "filterAll": "Wszystkie",
+    "filterGirls": "Kobiety",
+    "filterAnime": "Anime",
+    "filterGuys": "Mężczyźni",
+    "imageGenerationFailed": "Generowanie obrazu nie powiodło się. Obraz może nie spełniać wymagań lub opis może być zbyt złożony. Spróbuj z prostszym promptem.",
+    "noImageData": "Nie wygenerowano obrazu. Spróbuj ponownie z innym opisem.",
+    "generationFailed": "Generowanie nie powiodło się. Spróbuj ponownie później lub z innym promptem.",
+    "random": "Losowe",
+    "custom": "Własne",
+    "settings": "Ustawienia",
+    "videoTitle": "Generuj wideo",
+    "videoDescription": "Twórz zachwycające wideo ze swoimi postaciami AI",
+    "videoPromptLabel": "Opis wideo",
+    "videoPromptPlaceholder": "Opisz akcję, którą chcesz wygenerować... np. taniec, machanie, uśmiech",
+    "generateVideoButton": "Generuj wideo",
+    "generatingVideo": "Generowanie wideo...",
+    "creatingVideo": "Tworzenie Twojego wideo...",
+    "videoWait": "To może zająć 1-5 minut",
+    "emptyVideoGallery": "Nie wygenerowano jeszcze żadnych wideo. Wybierz postać i opisz akcję!",
+    "sessionVideoGallery": "Wygenerowane wideo",
+    "videoGenerated": "Wideo wygenerowane pomyślnie!",
+    "videoGenerationFailed": "Generowanie wideo nie powiodło się. Spróbuj ponownie.",
+    "duration": "Czas trwania",
+    "shortVideo": "Krótki",
+    "longVideo": "Długi",
+    "seconds": "sekund",
+    "audio": "Audio",
+    "renderingVideo": "Renderowanie wideo…",
+    "renderingVideoHint": "(do 1 minuty)",
+    "rateLimitExceeded": "Zbyt wiele żądań. Poczekaj chwilę i spróbuj ponownie.",
+    "chooseCharacter": "Wybierz postać",
+    "selectButton": "Wybierz",
+    "noCustomCompanions": "Nie utworzyłeś jeszcze żadnych postaci AI.",
+    "numberOfImages": "Liczba obrazów",
+    "numberOfVideos": "Liczba wideo",
+    "freeTrial": "Darmowy okres próbny",
+    "changeCharacter": "Zmień postać",
+    "randomize": "Losuj prompt",
+    "aiVideo": "Wideo AI",
+    "download": "Pobierz",
+    "seriesHelper": "Tutaj znajdziesz swoje wyniki. Możesz opuścić stronę lub rozpocząć nową serię, podczas gdy te się kończą.",
+    "suggestions": {
+      "title": "Sugestie",
+      "categories": {
+        "outfit": "Stylizacja",
+        "action": "Akcja",
+        "pose": "Poza",
+        "accessories": "Akcesoria",
+        "scene": "Scena"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Spódnica",
+        "lingerie": "Bielizna",
+        "crop_top": "Krótki top",
+        "leather": "Skóra",
+        "mini_skirt": "Mini-spódniczka",
+        "satin_robe": "Satynowy szlafrok",
+        "jeans": "Jeansy",
+        "summer_dress": "Letnia sukienka",
+        "sportswear": "Ubrania sportowe",
+        "selfie": "Selfie",
+        "walking": "Spacer",
+        "dancing": "Taniec",
+        "stretching": "Rozciąganie",
+        "lying_down": "Leżenie",
+        "leaning": "Opieranie się",
+        "blowing_kiss": "Dmuchanie buziaka",
+        "drinking_coffee": "Picie kawy",
+        "hands_on_hips": "Ręce na biodrach",
+        "over_shoulder": "Spojrzenie przez ramię",
+        "side_profile": "Profil boczny",
+        "arms_crossed": "Skrzyżowane ręce",
+        "kneeling": "Klęczenie",
+        "squatting": "Kucanie",
+        "back_view": "Widok z tyłu",
+        "sitting": "Siedzenie",
+        "necklace": "Naszyjnik",
+        "earrings": "Kolczyki",
+        "glasses": "Okulary",
+        "choker": "Obroża",
+        "hat": "Kapelusz",
+        "sunglasses": "Okulary przeciwsłoneczne",
+        "garden": "Ogród",
+        "beach": "Plaża",
+        "bedroom": "Sypialnia",
+        "gym": "Siłownia",
+        "bar": "Bar",
+        "kitchen": "Kuchnia",
+        "restaurant": "Restauracja",
+        "balcony": "Balkon",
+        "city_street": "Ulica miejska",
+        "pool": "Basen"
+      },
+      "fragments": {
+        "bikini": "w bikini",
+        "skirt": "w spódnicy",
+        "lingerie": "w bieliźnie",
+        "crop_top": "w krótkiej bluzce",
+        "leather": "w skórzanej stylizacji",
+        "mini_skirt": "w mini-spódniczce",
+        "satin_robe": "w satynowym szlafroku",
+        "jeans": "w jeansach",
+        "summer_dress": "w letniej sukience",
+        "sportswear": "w obcisłym stroju sportowym",
+        "selfie": "robiąc selfie",
+        "walking": "idąc",
+        "dancing": "tańcząc",
+        "stretching": "rozciągając się",
+        "lying_down": "leżąc",
+        "leaning": "opierając się o ścianę",
+        "blowing_kiss": "wysyłając całusa",
+        "drinking_coffee": "pijąc kawę",
+        "hands_on_hips": "z rękami na biodrach",
+        "over_shoulder": "spoglądając przez ramię",
+        "side_profile": "poza z profilu",
+        "arms_crossed": "z rękami skrzyżowanymi",
+        "kneeling": "klęcząc",
+        "squatting": "kucać",
+        "back_view": "widok z tyłu",
+        "sitting": "siedząc",
+        "necklace": "w naszyjniku",
+        "earrings": "w kolczykach",
+        "glasses": "w okularach",
+        "choker": "w chokerze",
+        "hat": "w kapeluszu",
+        "sunglasses": "w okularach przeciwsłonecznych",
+        "garden": "w ogrodzie",
+        "beach": "na plaży",
+        "bedroom": "w sypialni",
+        "gym": "na siłowni",
+        "bar": "w barze",
+        "kitchen": "w kuchni",
+        "restaurant": "w restauracji",
+        "balcony": "na balkonie",
+        "city_street": "na miejskiej ulicy",
+        "pool": "przy basenie"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Pokaż mi swoje selfie"
+        },
+        "posing": {
+          "name": "Pozowanie",
+          "uiPrompt": "Pokaż mi jak pozujesz"
+        },
+        "sitting": {
+          "name": "Siedzenie",
+          "uiPrompt": "Pokaż mi jak siedzisz"
+        },
+        "waving": {
+          "name": "Machanie",
+          "uiPrompt": "Pokaż mi jak machasz"
+        },
+        "dancing": {
+          "name": "Taniec",
+          "uiPrompt": "Pokaż mi jak tańczysz"
+        },
+        "reading": {
+          "name": "Czytanie",
+          "uiPrompt": "Pokaż mi jak czytasz"
+        },
+        "smiling": {
+          "name": "Uśmiech",
+          "uiPrompt": "Pokaż mi uśmiech"
+        },
+        "walking": {
+          "name": "Spacer",
+          "uiPrompt": "Pokaż mi spacer"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Pokaż mi wideo selfie"
+        },
+        "posing": {
+          "name": "Pozowanie",
+          "uiPrompt": "Pokaż mi wideo z pozowaniem"
+        },
+        "sitting": {
+          "name": "Siedzenie",
+          "uiPrompt": "Pokaż mi wideo z Tobą siedzącą"
+        },
+        "waving": {
+          "name": "Machanie",
+          "uiPrompt": "Pokaż mi wideo z Tobą machającą"
+        },
+        "dancing": {
+          "name": "Taniec",
+          "uiPrompt": "Pokaż mi wideo z Tobą tańczącą"
+        },
+        "reading": {
+          "name": "Czytanie",
+          "uiPrompt": "Pokaż mi wideo z Tobą czytającą"
+        },
+        "smiling": {
+          "name": "Uśmiech",
+          "uiPrompt": "Pokaż mi wideo z Tobą uśmiechniętą"
+        },
+        "walking": {
+          "name": "Spacer",
+          "uiPrompt": "Pokaż mi wideo z Tobą spacerującą"
+        }
+      }
+    },
+    "writeYourOwn": "lub napisz własny prompt",
+    "presetSelected": "Preset wybrany",
+    "effects": {
+      "categories": {
+        "solo": "Solo & Tease",
+        "oral": "Oral",
+        "positions": "Pozycje",
+        "pov": "POV",
+        "extra": "Dodatkowe",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Ręcznik kąpielowy"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Mleko z piersi"
+        },
+        "bunny_suit": {
+          "name": "Strój króliczka"
+        },
+        "chain_leash": {
+          "name": "Smycz łańcuchowa"
+        },
+        "chinese_dress": {
+          "name": "Chińska sukienka"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Sperma na ciele"
+        },
+        "cum_on_face": {
+          "name": "Sperma na twarzy"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Własny"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Penetracja palcami"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Mundurek szkolny"
+        },
+        "legsup": {
+          "name": "Nogi w górze"
+        },
+        "leopard_bikini": {
+          "name": "Bikini w lamparcie"
+        },
+        "lingerie": {
+          "name": "Bielizna"
+        },
+        "masturbation": {
+          "name": "Masturbacja"
+        },
+        "missionary_condoms": {
+          "name": "Misjonarska z prezerwatywami"
+        },
+        "missionary_pov": {
+          "name": "Misjonarska POV"
+        },
+        "missionary_sideview": {
+          "name": "Pozycja misjonarska z boku"
+        },
+        "remix_blowjob": {
+          "name": "Remiks oralny"
+        },
+        "remix_cowgirl": {
+          "name": "Remiks amazonka"
+        },
+        "remix_doggystyle": {
+          "name": "Remiks na pieska"
+        },
+        "remix_dress": {
+          "name": "Remiks sukienka"
+        },
+        "remix_hold_dick": {
+          "name": "Remiks trzymanie penisa"
+        },
+        "remix_kiss": {
+          "name": "Remiks pocałunek"
+        },
+        "remix_pronebone": {
+          "name": "Remiks leżący na brzuchu"
+        },
+        "remix_suck": {
+          "name": "Remiks ssanie"
+        },
+        "remix_wear": {
+          "name": "Remiks ubranie"
+        },
+        "remix_yoga": {
+          "name": "Remiks joga"
+        },
+        "ride_on_dildo": {
+          "name": "Jazda na dildo"
+        },
+        "sipping_condoms": {
+          "name": "Ssanie prezerwatyw"
+        },
+        "squatting_cowgirl": {
+          "name": "Kucająca amazonka"
+        },
+        "tattoo": {
+          "name": "Tatuaż"
+        },
+        "tentacles": {
+          "name": "Macki"
+        },
+        "titjob": {
+          "name": "Masturbacja piersiami"
+        },
+        "topless": {
+          "name": "Topless"
+        },
+        "undress": {
+          "name": "Rozbieranie"
+        },
+        "used": {
+          "name": "Użyta"
+        },
+        "xray": {
+          "name": "Prześwietlenie"
+        },
+        "maid_outfit": {
+          "name": "Strój pokojówki"
+        },
+        "nurse_outfit": {
+          "name": "Strój pielęgniarki"
+        },
+        "cheerleader": {
+          "name": "Cheerleaderka"
+        },
+        "wet_tshirt": {
+          "name": "Mokra koszulka"
+        },
+        "latex_catsuit": {
+          "name": "Lateksowy kombinezon"
+        },
+        "corset_stockings": {
+          "name": "Gorset i pończochy"
+        },
+        "gym_shorts": {
+          "name": "Szorty gimnastyczne"
+        },
+        "thong_tease": {
+          "name": "Stringi"
+        },
+        "upskirt_panties": {
+          "name": "Pod spódnicą"
+        },
+        "mirror_selfie": {
+          "name": "Selfie w lustrze"
+        },
+        "shower_nude": {
+          "name": "Prysznic"
+        },
+        "oiled_body": {
+          "name": "Olejone ciało"
+        },
+        "spread_open": {
+          "name": "Rozłożona"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Niechlujny oral"
+        },
+        "ball_licking": {
+          "name": "Lizanie jąder"
+        },
+        "face_sitting_oral": {
+          "name": "Twarzowe siedzenie"
+        },
+        "cowgirl": {
+          "name": "Kowbojka"
+        },
+        "reverse_cowgirl": {
+          "name": "Odwrócona kowbojka"
+        },
+        "prone_bone": {
+          "name": "Leżąca na brzuchu"
+        },
+        "standing_sex": {
+          "name": "Na stojąco"
+        },
+        "against_wall": {
+          "name": "Przy ścianie"
+        },
+        "spooning": {
+          "name": "Łyżeczki"
+        },
+        "legs_on_shoulders": {
+          "name": "Nogi na ramionach"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Kowbojka POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Podwójna penetracja"
+        },
+        "threesome_mmf": {
+          "name": "Trójkąt"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Perłowy naszyjnik"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Klapsy"
+        },
+        "gagged_bdsm": {
+          "name": "Zakneblowana"
+        },
+        "facefuck": {
+          "name": "Facefuck"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "cock_worship": {
+          "name": "Cock Worship"
+        },
+        "footjob": {
+          "name": "Footjob"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lotus"
+        },
+        "piledriver": {
+          "name": "Piledriver"
+        },
+        "facefuck_pov": {
+          "name": "Facefuck POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "facial_cumshot": {
+          "name": "Facial Cumshot"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anal"
+        },
+        "back_doggystyle": {
+          "name": "Na pieska z tyłu"
+        },
+        "blowjob": {
+          "name": "Oral"
+        },
+        "blowjob_69": {
+          "name": "Oral 69"
+        },
+        "blowjob_reverse": {
+          "name": "Oral odwrócony"
+        },
+        "breast_massage": {
+          "name": "Masaż piersi"
+        },
+        "breast_massage_nude": {
+          "name": "Masaż piersi nago"
+        },
+        "butt_smothering": {
+          "name": "Duszenie pośladkami"
+        },
+        "cock_worship": {
+          "name": "Cześć dla penisa"
+        },
+        "cum_in_mouth": {
+          "name": "Sperma w ustach"
+        },
+        "dildo_masturbation": {
+          "name": "Masturbacja dildo"
+        },
+        "double_blowjob": {
+          "name": "Podwójny oral"
+        },
+        "double_penetration": {
+          "name": "Podwójna penetracja"
+        },
+        "ejaculation": {
+          "name": "Ejakulacja"
+        },
+        "facefuck": {
+          "name": "Ruchanie w twarz"
+        },
+        "facefuck_pov": {
+          "name": "Ruchanie w twarz POV"
+        },
+        "facial_cumshot": {
+          "name": "Wytrysk na twarz"
+        },
+        "footjob": {
+          "name": "Stópka"
+        },
+        "front_doggystyle": {
+          "name": "Na pieska z przodu"
+        },
+        "fuck_machine": {
+          "name": "Maszyna do seksu"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "handjob": {
+          "name": "Ręczna"
+        },
+        "masturbation": {
+          "name": "Masturbacja"
+        },
+        "missionary_pov": {
+          "name": "Misjonarska POV"
+        },
+        "missionary_sideview": {
+          "name": "Misjonarska z boku"
+        },
+        "nipple_play": {
+          "name": "Zabawa ze sutkami"
+        },
+        "nude_posing": {
+          "name": "Pozowanie nago"
+        },
+        "orgasm": {
+          "name": "Orgazm"
+        },
+        "pronebone": {
+          "name": "Leżący na brzuchu"
+        },
+        "pussy_closeup": {
+          "name": "Zbliżenie cipki"
+        },
+        "reverse_cowgirl": {
+          "name": "Rewers kowbojki"
+        },
+        "shoejob": {
+          "name": "Stopa w bucie"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Kucająca kowbojka"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "Trend TikToka"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Błysk piersi"
+        },
+        "triple_dicked": {
+          "name": "Potrójny fiut"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Rozbieranie"
+        },
+        "strip_tease": {
+          "name": "Strip Tease"
+        },
+        "booty_bounce": {
+          "name": "Booty Bounce"
+        },
+        "oil_show": {
+          "name": "Oil Show"
+        },
+        "shower_show": {
+          "name": "Shower Show"
+        },
+        "panty_drop": {
+          "name": "Panty Drop"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Deepthroat"
+        },
+        "sloppy_blowjob": {
+          "name": "Sloppy Blowjob"
+        },
+        "ball_sucking": {
+          "name": "Ball Sucking"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Standing Carry"
+        },
+        "against_wall": {
+          "name": "Against Wall"
+        },
+        "spooning": {
+          "name": "Spooning"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Doggy POV"
+        },
+        "titjob_pov": {
+          "name": "Titjob POV"
+        },
+        "handjob_pov": {
+          "name": "Handjob POV"
+        },
+        "riding_pov": {
+          "name": "Riding POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Squirting"
+        },
+        "spanking": {
+          "name": "Spanking"
+        },
+        "hair_pulling": {
+          "name": "Hair Pulling"
+        },
+        "fingering": {
+          "name": "Fingering"
+        },
+        "come_hither": {
+          "name": "Come Hither"
+        },
+        "spread_legs": {
+          "name": "Spread Legs"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Missionary"
+        },
+        "legs_on_shoulders": {
+          "name": "Legs On Shoulders"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Threesome"
+        },
+        "aftercare_mess": {
+          "name": "Bałagan po pielęgnacji"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Czy na pewno chcesz to usunąć?",
+    "deleteSuccess": "Usunięto pomyślnie",
+    "deleteError": "Nie udało się usunąć",
+    "empty": "Brak mediów. Wygeneruj coś w czacie!",
+    "gallerySubtitle": "Twoja osobista galeria momentów wygenerowanych przez AI",
+    "filterAll": "Wszystko",
+    "filterImages": "Obrazy",
+    "filterVideos": "Wideo",
+    "loadMore": "Załaduj więcej",
+    "folders": "Foldery",
+    "newFolder": "Nowy folder",
+    "deleteFolders": "Usuń wybrane foldery",
+    "folderCreated": "Utworzono folder",
+    "folderCreateError": "Nie udało się utworzyć folderu",
+    "folderRenamed": "Zmieniono nazwę folderu",
+    "folderRenameError": "Nie udało się zmienić nazwy folderu",
+    "folderDeleted": "Usunięto folder",
+    "folderDeleteError": "Nie udało się usunąć folderu",
+    "folderNamePlaceholder": "Nazwa folderu",
+    "seeMore": "Zobacz więcej",
+    "seeLess": "Zobacz mniej",
+    "selectedCount": "Wybrano {count} elementów",
+    "selectAll": "Zaznacz wszystko",
+    "select": "Wybierz",
+    "moveToFolder": "Przenieś",
+    "bulkDeleteConfirm": "Usunąć {count} wybranych elementów?",
+    "bulkDeleteSuccess": "Elementy usunięte",
+    "bulkDownloadStart": "Pobieranie {count} elementów...",
+    "moveSuccess": "Elementy przeniesione"
+  },
+  "voice": {
+    "connecting": "Łączenie...",
+    "connected": "Połączono",
+    "mute": "Wycisz",
+    "unmute": "Wyłącz wyciszenie",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Mów naturalnie. AI odpowie, gdy zrobisz przerwę.",
+    "connectionError": "Nie udało się połączyć. Spróbuj ponownie.",
+    "minutesRemaining": "{minutes} minut pozostało",
+    "minutesUsed": "{minutes} minut wykorzystano"
+  },
+  "characters": {
+    "filters": "Filtry",
+    "ethnicity": "Pochodzenie etniczne",
+    "bodyType": "Typ sylwetki",
+    "ageRange": "Przedział wiekowy",
+    "relationship": "Związek",
+    "occupation": "Zawód",
+    "hobbies": "Zainteresowania",
+    "personality": "Osobowość",
+    "language": "Język",
+    "age": "Wiek",
+    "all": "Wszystkie",
+    "noResults": "Nie znaleziono postaci",
+    "noResultsDesc": "Spróbuj dostosować filtry",
+    "newBadge": "Nowość",
+    "chatNow": "Czatuj teraz",
+    "viewProfile": "Zobacz profil",
+    "ethnicities": {
+      "caucasian": "Europejskie",
+      "asian": "Azjatyckie",
+      "middleEastern": "Bliskowschodnie",
+      "hispanic": "Latynoskie",
+      "african": "Afrykańskie",
+      "southAsian": "Południowoazjatyckie",
+      "nativeAmerican": "Rdzenni Amerykanie",
+      "pacificIslander": "Wyspiarze Pacyfiku",
+      "mixed": "Mieszane",
+      "other": "Inne"
+    },
+    "bodyTypes": {
+      "slim": "Szczupła",
+      "athletic": "Atletyczna",
+      "average": "Przeciętna",
+      "curvy": "Kształtna",
+      "plus": "Plus Size"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Singiel",
+      "dating": "W związku",
+      "married": "Żonaty/Zamężna",
+      "none": "Brak"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Mój profil",
+    "settings": "Ustawienia",
+    "account": "Konto",
+    "plan": "Plan",
+    "profileSettings": "Ustawienia profilu",
+    "manageAccountSettings": "Zarządzaj ustawieniami i preferencjami konta",
+    "personalInfo": "Informacje osobiste",
+    "nickname": "Pseudonim",
+    "gender": "Płeć",
+    "male": "Mężczyzna",
+    "female": "Kobieta",
+    "preferences": "Preferencje",
+    "newsletter": "Subskrypcja newslettera",
+    "newsletterDesc": "Otrzymuj aktualizacje i wiadomości",
+    "aiTrainingTitle": "Trening AI i moderacji",
+    "aiTrainingDesc": "Pozwól, aby Twoje czaty i prompty pomagały trenować i ulepszać AI oraz moderację sweetwine. Wyłącz w dowolnym momencie, aby zrezygnować.",
+    "aiTrainingLink": "Dowiedz się więcej w naszym Oświadczeniu o prywatności.",
+    "aiTrainingError": "Nie udało się zaktualizować preferencji treningu AI",
+    "interfaceLanguage": "Język interfejsu",
+    "interfaceLanguageDesc": "Język interfejsu użytkownika",
+    "aiLanguage": "Język odpowiedzi AI",
+    "aiLanguageDesc": "Język, którego postacie AI będą używać podczas rozmowy z Tobą",
+    "currentPlan": "Aktualny plan",
+    "freePlan": "Plan darmowy",
+    "dangerZone": "Strefa zagrożenia",
+    "dangerZoneDescription": "Jeśli chcesz trwale usunąć to konto i wszystkie jego dane.",
+    "deleteAllMemory": "Usuń całą pamięć",
+    "confirmDeleteAllMemory": "Czy na pewno chcesz usunąć długoterminowe wspomnienia wszystkich postaci AI? Wiadomości czatu zostaną, ale postacie zapomną wcześniejszych faktów przy następnej odpowiedzi.",
+    "deleteAllMemorySuccess": "Wszystkie wspomnienia usunięte",
+    "deleteAccount": {
+      "button": "Usuń konto",
+      "title": "Usuń konto",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "Aby potwierdzić, wpisz",
+      "confirmRequired": "Wpisz DELETE, aby potwierdzić",
+      "confirmButton": "Usuń moje konto",
+      "deleting": "Usuwanie...",
+      "success": "Twoje konto zostało usunięte",
+      "error": "Nie udało się usunąć konta. Spróbuj ponownie."
+    },
+    "saveChanges": "Zapisz zmiany",
+    "changesSaved": "Zmiany zapisano pomyślnie",
+    "saveFailed": "Nie udało się zapisać zmian",
+    "languageUpdated": "Język zaktualizowany",
+    "aiLanguageUpdated": "Język AI zaktualizowany"
+  },
+  "create": {
+    "defaultGreeting": "Cześć",
+    "title": "Utwórz postać AI",
+    "step": "Krok {current} z {total}",
+    "step1": {
+      "title": "Wybierz styl",
+      "description": "Wybierz styl i podstawowe atrybuty swojej postaci"
+    },
+    "step2": {
+      "title": "Wybierz pochodzenie",
+      "description": "Wybierz pochodzenie i wiek swojej postaci"
+    },
+    "step3": {
+      "title": "Wybierz włosy i oczy",
+      "description": "Dostosuj fryzurę, kolor włosów i kolor oczu"
+    },
+    "step4": {
+      "title": "Wybierz ciało",
+      "description": "Dostosuj ciało swojej postaci"
+    },
+    "step5": {
+      "title": "Osobowość i szczegóły",
+      "description": "Określ osobowość i głos swojej postaci"
+    },
+    "style": {
+      "title": "Styl postaci",
+      "realistic": "Realistyczny",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Płeć",
+      "female": "Kobieta",
+      "male": "Mężczyzna"
+    },
+    "age": {
+      "title": "Wiek",
+      "years": "{age} lat"
+    },
+    "ethnicity": {
+      "title": "Pochodzenie"
+    },
+    "hairStyle": {
+      "title": "Fryzura"
+    },
+    "hairColor": {
+      "title": "Kolor włosów"
+    },
+    "eyeColor": {
+      "title": "Kolor oczu"
+    },
+    "bodyType": {
+      "title": "Typ sylwetki"
+    },
+    "breastSize": {
+      "title": "Rozmiar biustu"
+    },
+    "name": {
+      "title": "Imię",
+      "placeholder": "Wpisz imię postaci",
+      "randomize": "Wygeneruj losowe imię"
+    },
+    "language": {
+      "title": "Język",
+      "widgetLabel": "Wybierz język",
+      "placeholder": "Wybierz język",
+      "selectTitle": "Wybierz swój język"
+    },
+    "personality": {
+      "title": "Osobowość",
+      "widgetLabel": "Wybierz osobowość",
+      "placeholder": "Wybierz osobowość",
+      "sectionTitle": "Wybierz osobowość",
+      "clickToChange": "Kliknij, aby zmienić"
+    },
+    "relationship": {
+      "title": "Relacja",
+      "widgetLabel": "Wybierz relację",
+      "placeholder": "Wybierz relację",
+      "selectTitle": "Edytuj relację"
+    },
+    "occupation": {
+      "title": "Zawód",
+      "widgetLabel": "Wybierz zawód",
+      "placeholder": "Wybierz zawód",
+      "selectTitle": "Edytuj zawód"
+    },
+    "kinks": {
+      "title": "Zainteresowania",
+      "widgetLabel": "W jakie fetysze są zainteresowani? (Maks. {max})",
+      "labelMax": "Zainteresowania (Maks. {max})",
+      "placeholder": "Wybierz zainteresowania (opcjonalnie)",
+      "optional": "Opcjonalnie",
+      "selectTitle": "Edytuj zainteresowania",
+      "moreCount": "+{count} więcej"
+    },
+    "selector": {
+      "searchPlaceholder": "Szukaj",
+      "noResults": "Nie znaleziono opcji",
+      "cancel": "Anuluj",
+      "saveChanges": "Zapisz zmiany",
+      "selectedCount": "{count} wybrano"
+    },
+    "voice": {
+      "title": "Głos",
+      "widgetLabel": "Wybierz głos",
+      "placeholder": "Wybierz głos",
+      "selectTitle": "Wybierz głos"
+    },
+    "advanced": {
+      "title": "Zaawansowane szczegóły",
+      "optional": "opcjonalnie",
+      "filled": "Wypełnione",
+      "autocompleteTitle": "Autouzupełnianie AI",
+      "autocompleteDesc": "Pozwól AI uzupełnić puste pola dla głębszej postaci",
+      "autocompleteSuccess": "Pola wypełnione pomyślnie!",
+      "autocompleteError": "Nie udało się wygenerować sugestii. Spróbuj ponownie.",
+      "greetingLabel": "Powitanie",
+      "greetingPlaceholder": "Pierwsza wiadomość, którą wyśle Twoja postać...",
+      "scenarioLabel": "Scenariusz",
+      "scenarioPlaceholder": "Kontekst lub historia jak się poznaliście...",
+      "personalityLabel": "Dodatkowe szczegóły osobowości",
+      "personalityPlaceholder": "Osobliwości, wzorce mowy, cechy behawioralne...",
+      "extraLabel": "Dodatkowe szczegóły",
+      "extraPlaceholder": "Tło, hobby, historia życia..."
+    },
+    "navigation": {
+      "back": "Wstecz",
+      "next": "Dalej",
+      "create": "Utwórz",
+      "generateYourCharacter": "Wygeneruj swoją postać"
+    },
+    "progress": {
+      "generatingPrompt": "Tworzenie osobowości...",
+      "generatingImage": "Tworzenie portretu...",
+      "creatingVoice": "Konfigurowanie głosu...",
+      "saving": "Zapisywanie...",
+      "complete": "Gotowe!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Tworzenie osobowości...",
+      "addingSweetness": "Dodawanie słodyczy...",
+      "tooMuchSweet": "Ups, za dużo słodkości...",
+      "testingSounds": "Testowanie dźwięków..."
+    },
+    "overlay": {
+      "signupPrompt": "Dokończ rejestrację, aby odblokować swoją postać…",
+      "processingHint": "To zwykle trwa 20–30 sekund",
+      "traitEthnicity": "Pochodzenie",
+      "traitBody": "Sylwetka",
+      "traitHair": "Włosy",
+      "traitColor": "Kolor",
+      "traitEyes": "Oczy",
+      "traitVibe": "Klimat",
+      "bannerTitle": "Twoja postać jest gotowa do stworzenia!",
+      "bannerDesc": "Twoje preferencje zostały zapisane. Przejrzyj i wygeneruj poniżej."
+    },
+    "success": {
+      "title": "Postać stworzona!",
+      "description": "Twoja postać AI została pomyślnie utworzona.",
+      "yearsOld": "lat",
+      "meetButton": "Poznaj"
+    },
+    "error": {
+      "title": "Tworzenie nie powiodło się",
+      "generic": "Nie udało się stworzyć postaci. Spróbuj ponownie."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Europejskie",
+        "asian": "Azjatyckie",
+        "middle_eastern": "Bliskowschodnie",
+        "hispanic": "Latynoskie",
+        "african": "Afrykańskie",
+        "south_asian": "Południowoazjatyckie",
+        "native_american": "Rdzenni Amerykanie",
+        "pacific_islander": "Wyspiarze Pacyfiku",
+        "mixed": "Mieszane",
+        "arab": "Arabskie"
+      },
+      "hairStyleFemale": {
+        "straight": "Proste",
+        "bangs": "Z grzywką",
+        "curly": "Kręcone",
+        "bun": "Kok",
+        "short_bob": "Krótki bob",
+        "ponytail": "Kucyk",
+        "wavy": "Falowane",
+        "long_layers": "Długie warstwy",
+        "braids": "Warkocze",
+        "pixie_cut": "Pixie",
+        "updo": "Updo",
+        "french_twist": "Francuski węzeł",
+        "fishtail_braid": "Warkocz rybi ogon",
+        "top_knot": "Kok na czubku",
+        "space_buns": "Kosmyki kosmiczne",
+        "halo_braid": "Warkocz aureola",
+        "beehive": "Upięcie pszczela",
+        "finger_waves": "Fale palcowe",
+        "lob": "Lob (Long Bob)",
+        "shag_cut": "Shag Cut",
+        "bald": "Łysa"
+      },
+      "hairStyleMale": {
+        "short": "Krótkie",
+        "buzz_cut": "Buzz Cut",
+        "crew_cut": "Crew Cut",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked Back",
+        "curly": "Kręcone",
+        "afro": "Afro",
+        "man_bun": "Man Bun",
+        "dreadlocks": "Dredy",
+        "cornrows": "Warkocze afrykańskie",
+        "mohawk": "Irokez",
+        "side_part": "Przedziałek z boku",
+        "textured_crop": "Textured Crop",
+        "french_crop": "French Crop",
+        "spiky": "Kolczaste",
+        "comb_over": "Przeczesane na bok",
+        "long_hair": "Długie włosy",
+        "bald": "Łysa"
+      },
+      "hairColor": {
+        "brunette": "Brunetka",
+        "blonde": "Blond",
+        "black": "Czarny",
+        "redhead": "Rudy",
+        "pink": "Różowy",
+        "auburn": "Kasztanowy",
+        "brown": "Brązowy",
+        "platinum_blonde": "Platynowy blond",
+        "silver_grey": "Srebrny/Szary",
+        "white": "Biały",
+        "blue": "Niebieski",
+        "purple": "Fioletowy",
+        "green": "Zielony",
+        "burgundy": "Bordowy",
+        "copper": "Miedziany",
+        "strawberry_blonde": "Truskawkowy blond",
+        "ash_brown": "Popielaty brąz",
+        "golden_blonde": "Złoty blond",
+        "mahogany": "Mahoniowy",
+        "pastel_pink": "Pastelowy róż",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Refleksy",
+        "jet_black": "Głęboka czerń",
+        "dark_brown": "Ciemny brąz",
+        "light_brown": "Jasny brąz",
+        "honey_blonde": "Miodowy blond",
+        "dirty_blonde": "Brudny blond",
+        "cherry_red": "Wiśniowa czerwień",
+        "violet": "Fiolet"
+      },
+      "eyeColor": {
+        "brown": "Brązowy",
+        "blue": "Niebieski",
+        "green": "Zielony",
+        "hazel": "Leszczynowy",
+        "amber": "Bursztynowy",
+        "gray": "Szary",
+        "heterochromia": "Heterochromia",
+        "violet": "Fioletowy",
+        "red_pink": "Czerwony/Różowy",
+        "black": "Czarny"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Chudy",
+        "athletic": "Atletyczny",
+        "average": "Przeciętny",
+        "curvy": "Krępy",
+        "chubby": "Pulchny"
+      },
+      "bodyTypeMale": {
+        "skinny": "Chudy",
+        "athletic": "Atletyczny",
+        "average": "Przeciętny",
+        "muscular": "Muskularny",
+        "heavy": "Ciężki",
+        "big_tall": "Duży i wysoki"
+      },
+      "breastSize": {
+        "small": "Mały",
+        "medium": "Średni",
+        "large": "Duży",
+        "extra_large": "Bardzo duży"
+      },
+      "personality": {
+        "nympho": "Nimfomanka",
+        "lover": "Kochanek",
+        "submissive": "Submisja",
+        "dominant": "Dominujący",
+        "temptress": "Kusicielka",
+        "innocent": "Niewinny",
+        "caregiver": "Opiekun",
+        "experimenter": "Eksperymentator",
+        "mean": "Złośliwy",
+        "confidant": "Powiernik",
+        "shy": "Nieśmiały",
+        "queen": "Królowa",
+        "adventurous": "Przygodowy",
+        "romantic": "Romantyczny",
+        "intellectual": "Intelektualista",
+        "protector": "Obrońca",
+        "rebel": "Buntownik",
+        "optimist": "Optymista",
+        "realist": "Realista",
+        "free_spirit": "Wolny duch",
+        "leader": "Lider",
+        "loyal": "Lojalny",
+        "playful": "Figlarny",
+        "mysterious": "Tajemniczy",
+        "ambitious": "Ambitny",
+        "gentle": "Delikatny",
+        "sarcastic": "Sarkastyczny",
+        "empathetic": "Empatyczny",
+        "stoic": "Stoicki",
+        "charismatic": "Charyzmatyczny"
+      },
+      "relationship": {
+        "stranger": "Nieznajomy",
+        "girlfriend": "Dziewczyna",
+        "sex_friend": "Przyjaciel z korzyściami",
+        "school_mate": "Kolega ze szkoły",
+        "work_colleague": "Współpracownik",
+        "wife": "Żona",
+        "mistress": "Kochanka",
+        "friend": "Przyjaciel",
+        "step_sister": "Przyrodnia siostra",
+        "step_mom": "Przybrana mama",
+        "step_daughter": "Przybrana córka",
+        "landlord": "Właściciel mieszkania",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Szef",
+        "teacher": "Nauczyciel",
+        "student": "Uczeń",
+        "neighbour": "Sąsiad",
+        "mother_in_law": "Teściowa",
+        "sister_in_law": "Szwagierka",
+        "boyfriend": "Chłopak",
+        "husband": "Mąż",
+        "fiance": "Narzeczony / Narzeczona",
+        "ex": "Były",
+        "roommate": "Współlokator",
+        "best_friend": "Najlepszy przyjaciel",
+        "classmate": "Kolega z klasy",
+        "mentor": "Mentor",
+        "client": "Klient",
+        "therapist": "Terapeuta",
+        "trainer": "Trener",
+        "rival": "Rywal",
+        "crush": "Sympatia",
+        "secret_admirer": "Tajemniczy wielbiciel",
+        "pen_pal": "Przyjaciel korespondencyjny",
+        "business_partner": "Partner biznesowy",
+        "babysitter": "Opiekunka do dzieci",
+        "childhood_friend": "Przyjaciel z dzieciństwa",
+        "long_distance_partner": "Partner na odległość"
+      },
+      "occupation": {
+        "student": "Uczeń",
+        "dancer": "Tancerz",
+        "model": "Modelka",
+        "maid": "Pokojówka",
+        "boss_ceo": "Szefowa / CEO",
+        "babysitter_au_pair": "Opiekunka / Au pair",
+        "streamer": "Streamerka",
+        "bartender": "Barmanka",
+        "tech_engineer": "Inżynierka IT",
+        "lifeguard": "Ratowniczka",
+        "cashier": "Kasjerka",
+        "massage_therapist": "Masażystka",
+        "teacher": "Nauczycielka",
+        "nurse": "Pielęgniarka",
+        "secretary": "Sekretarka",
+        "yoga_instructor": "Instruktorka jogi",
+        "fitness_coach": "Trenerka fitness",
+        "cook": "Kucharka",
+        "artist": "Artystka",
+        "movie_star_actress": "Gwiazda filmowa / Aktorka",
+        "doctor": "Lekarka",
+        "librarian": "Bibliotekarka",
+        "spy": "Szpieg",
+        "police_officer": "Policjantka",
+        "soldier": "Żołnierz",
+        "lawyer": "Prawniczka",
+        "hairdresser": "Fryzjerka",
+        "dentist": "Dentystka",
+        "singer_musician": "Piosenkarka / Muzyk",
+        "gynecologist": "Ginekolożka",
+        "writer": "Pisarka",
+        "flight_attendant": "Stewardessa",
+        "professional_athlete": "Profesjonalna sportsmenka",
+        "scientist": "Naukowczyni",
+        "florist": "Florystka",
+        "makeup_artist": "Wizażystka",
+        "photographer": "Fotografka",
+        "social_worker": "Pracownica socjalna",
+        "designer": "Projektantka",
+        "pharmacist": "Farmaceutka",
+        "nutritionist": "Dietetyczka",
+        "architect": "Architektka",
+        "veterinarian": "Weterynarka",
+        "mechanic": "Mechaniczka",
+        "journalist": "Dziennikarka",
+        "pilot": "Pilotka",
+        "firefighter": "Strażaczka",
+        "accountant": "Księgowa",
+        "electrician": "Elektryczka",
+        "carpenter": "Cieśla",
+        "psychologist": "Psycholog",
+        "real_estate_agent": "Agent nieruchomości",
+        "chef": "Kucharz",
+        "farmer": "Rolnik",
+        "delivery_driver": "Kierowca dostawczy",
+        "janitor": "Sprzątacz",
+        "security_guard": "Ochroniarz",
+        "banker": "Bankowiec",
+        "judge": "Sędzia",
+        "paramedic": "Ratownik medyczny",
+        "actor": "Aktor",
+        "comedian": "Komik",
+        "archaeologist": "Archeolog",
+        "astronaut": "Astronauta"
+      },
+      "kinks": {
+        "bondage": "Bondage",
+        "spanking": "Spanking",
+        "collar_leash": "Obroża i smycz",
+        "punishment": "Kara",
+        "humiliation": "Upokorzenie",
+        "public_play": "Zabawa publiczna",
+        "roleplay": "Roleplay",
+        "anal_play": "Zabawa analna",
+        "oral_play": "Zabawa oralna",
+        "cum_play": "Zabawa z spermą",
+        "creampie": "Creampie",
+        "squirting": "Squirting",
+        "dirty_talk": "Brudne rozmowy",
+        "breeding": "Breeding",
+        "daddy_mommy_dominance": "Dominacja taty/mamy",
+        "edging": "Edging",
+        "obedience": "Posłuszeństwo",
+        "control": "Kontrola",
+        "inexperienced": "Niedoświadczony",
+        "shy_flirting": "Nieśmiałe flirtowanie",
+        "playful_teasing": "Figlarne drażnienie",
+        "cuddling": "Przytulanie",
+        "slow_sensual": "Wolne i zmysłowe",
+        "hair_pulling": "Szarpanie za włosy",
+        "foot_fetish": "Fetysz stóp",
+        "voyeurism": "Voyeurism",
+        "exhibitionism": "Exhibitionism",
+        "sensation_play": "Zabawa zmysłowa",
+        "wax_play": "Zabawa woskiem",
+        "pet_play": "Pet Play",
+        "age_play": "Age Play",
+        "medical_play": "Zabawa medyczna",
+        "orgasm_control_denial": "Kontrola/zaprzeczanie orgazmu",
+        "forced_orgasms": "Wymuszone orgazmy",
+        "group_sex": "Seks grupowy",
+        "threesomes": "Trójkąty",
+        "swapping": "Zamiana",
+        "cuckolding_cuckqueaning": "Kukoldowanie/Kukoldowanie",
+        "femdom": "Femdom",
+        "gentle_domination": "Delikatna dominacja",
+        "sensation_deprivation": "Pozbawienie wrażeń",
+        "sensory_overload": "Przeciążenie sensoryczne",
+        "uniform_costume_fetish": "Fetysz munduru/stroju",
+        "food_play": "Zabawa jedzeniem",
+        "watersports": "Wodne zabawy",
+        "bdsm": "BDSM",
+        "impact_play": "Zabawa uderzeniami",
+        "knife_play": "Zabawa nożem",
+        "consensual_non_consent": "Zgoda na brak zgody",
+        "power_exchange": "Wymiana władzy",
+        "master_slave": "Pan/Niewolnik",
+        "owner_pet": "Właściciel/Zwierzę"
+      },
+      "languages": {
+        "en": "Angielski",
+        "cs": "Czeski",
+        "pl": "Polski",
+        "de": "Niemiecki",
+        "es": "Hiszpański",
+        "fr": "Francuski"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Moje AI",
+    "titlePart1": "Moje",
+    "titlePart2": "AI",
+    "createNew": "Utwórz nowe AI",
+    "createButton": "Utwórz postać",
+    "characterCount": "{count}/{limit} postaci",
+    "loadMore": "Załaduj więcej",
+    "empty": {
+      "title": "Brak postaci",
+      "description": "Utwórz swoją pierwszą postać AI i zacznij czatować! Dostosuj wygląd, osobowość i głos.",
+      "createFirst": "Utwórz swoją pierwszą postać"
+    },
+    "delete": {
+      "title": "Usuń postać",
+      "message": "Czy na pewno chcesz usunąć {name}? Spowoduje to trwałe usunięcie postaci, całej historii czatów i wygenerowanych treści.",
+      "confirm": "Usuń",
+      "success": "Postać została pomyślnie usunięta"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interakcja",
+    "interactionDescription": "Po prostu pisz naturalnie — poproś o zdjęcie, film lub rozpocznij rozmowę. AI rozumie Twój zamiar w dowolnym języku.",
+    "mediaTitle": "Generuj obrazy i filmy",
+    "mediaDescription": "Uwolnij swoją wyobraźnię — generuj obrazy lub filmy bez limitów.",
+    "next": "Dalej →",
+    "gotIt": "Rozumiem"
+  }
+}

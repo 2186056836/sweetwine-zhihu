@@ -1,0 +1,4034 @@
+{
+  "common": {
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "close": "Bezárás",
+    "now": "most",
+    "loading": "Betöltés...",
+    "error": "Hiba történt",
+    "success": "Siker",
+    "confirm": "Megerősítés",
+    "back": "Vissza",
+    "or": "Vagy",
+    "next": "Tovább",
+    "submit": "Küldés",
+    "search": "Keresés",
+    "filter": "Szűrő",
+    "clear": "Törlés",
+    "all": "Mind",
+    "yes": "Igen",
+    "no": "Nem",
+    "download": "Letöltés",
+    "and": "és",
+    "tryAgain": "Próbáld újra",
+    "change": "Módosítás"
+  },
+  "navigation": {
+    "new": "ÚJ",
+    "sectionBrowse": "Böngészés",
+    "sectionTalk": "Beszélgetés",
+    "sectionCreate": "Létrehozás",
+    "sectionLibrary": "Könyvtár",
+    "explore": "Főoldal",
+    "discover": "Felfedezés",
+    "createShort": "AI létrehozása",
+    "chats": "Beszélgetések",
+    "groupChat": "AI csoportos chat",
+    "roleplay": "Szerepjáték",
+    "collection": "Gyűjtemény",
+    "generateImage": "Kép generálása",
+    "generateVideo": "Videó generálása",
+    "createCharacter": "AI karakter létrehozása",
+    "myAI": "Saját AI",
+    "language": "Nyelv",
+    "contactUs": "Kapcsolat",
+    "account": "Fiók",
+    "sidebarPromoTitle": "Nyári akció — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "Nők",
+      "anime": "Anime",
+      "guys": "Férfiak"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "Chatelj most",
+    "like": "Tetszik"
+  },
+  "auth": {
+    "login": "Bejelentkezés",
+    "signup": "Regisztráció",
+    "createFreeAccount": "Hozz létre ingyenes fiókot",
+    "logout": "Kijelentkezés",
+    "email": "E-mail",
+    "password": "Jelszó",
+    "confirmPassword": "Jelszó megerősítése",
+    "forgotPassword": "Elfelejtetted a jelszavad?",
+    "noAccount": "Nincs még fiókod?",
+    "hasAccount": "Már van fiókod?",
+    "signupPrompt": "Hozz létre ingyenes fiókot",
+    "loginPrompt": "Bejelentkezés",
+    "continueWith": "Folytatás ezzel",
+    "welcomeBack": "Üdv újra!",
+    "createAccount": "Hozz létre fiókot",
+    "signInToAccount": "Jelentkezz be a fiókodba",
+    "emailRequired": "Az e-mail megadása kötelező",
+    "emailInvalid": "Érvénytelen e-mail cím",
+    "passwordRequired": "A jelszó megadása kötelező",
+    "passwordLength": "A jelszónak legalább 6 karakterből kell állnia",
+    "passwordsMismatch": "A jelszavak nem egyeznek",
+    "emailAlreadyRegistered": "Ez az e-mail már regisztrálva van",
+    "emailAlreadyRegisteredDescription": "Már létezik fiók ezzel az e-mail címmel. Kérlek, jelentkezz be.",
+    "loginError": "Sikertelen bejelentkezés",
+    "signupError": "Sikertelen regisztráció",
+    "loginSuccess": "Üdv újra!",
+    "signupSuccess": "Fiók sikeresen létrehozva!",
+    "logoutSuccess": "Sikeresen kijelentkeztél",
+    "logoutError": "Sikertelen kijelentkezés",
+    "linkExpired": "Ez az ellenőrző link lejárt. Kérj újat.",
+    "accessDenied": "Hozzáférés megtagadva. Próbáld újra.",
+    "verifyEmail": "Ellenőrizd az e-mailed",
+    "verificationEmailSent": "Elküldtük neked az ellenőrző e-mailt",
+    "confirmYourEmail": "Erősítsd meg az e-mailed",
+    "confirmationLinkSent": "Elküldtünk egy megerősítő linket a következő címre: \"{email}\".",
+    "checkSpamFolder": "Nem kaptad meg az e-mailt? Ellenőrizd a spam mappádat.",
+    "signupToChat": "Hozz létre ingyenes fiókot a kezdéshez.",
+    "signupDescription": "Hozz létre fiókot a beszélgetés folytatásához",
+    "emailVerificationTitle": "Ellenőrizd az e-mailed",
+    "emailVerificationMessage": "Elküldtünk egy ellenőrző linket a következő címre: {email}. Kérlek, ellenőrizd a postafiókodat és kattints a linkre a fiókod ellenőrzéséhez.",
+    "emailVerificationNext": "Az ellenőrzés után befejezheted az onboarding folyamatot.",
+    "verificationEmailSentTo": "Ellenőrző e-mailt küldtünk a következő címre: {email}",
+    "verificationInstructions": "Kérjük, ellenőrizd a beérkező leveleidet, és kattints az ellenőrző linkre a fiókod aktiválásához.",
+    "resetPassword": "Jelszó visszaállítása",
+    "resetPasswordDescription": "Add meg az e-mail címed, és küldünk egy visszaállító linket",
+    "resetEmailSent": "Ha létezik fiók ezzel az e-mail címmel, hamarosan visszaállító linket kapsz",
+    "backToLogin": "Vissza a bejelentkezéshez",
+    "newPassword": "Új jelszó",
+    "confirmNewPassword": "Új jelszó megerősítése",
+    "passwordResetSuccess": "A jelszó sikeresen frissítve. Kérjük, jelentkezz be.",
+    "enterNewPassword": "Add meg az új jelszavad",
+    "redirectingToLogin": "Átirányítás a bejelentkezéshez...",
+    "invalidResetLink": "Érvénytelen vagy lejárt link",
+    "invalidResetLinkDescription": "Ez a jelszó-visszaállító link érvénytelen vagy lejárt. Kérjük, kérj újat.",
+    "passwordsDontMatch": "A jelszavak nem egyeznek",
+    "currentPassword": "Jelenlegi jelszó",
+    "currentPasswordRequired": "A jelenlegi jelszó megadása kötelező",
+    "changePassword": "Jelszó módosítása",
+    "changePasswordDescription": "Add meg a jelenlegi jelszavad, és válassz újat",
+    "newPasswordMustBeDifferent": "Az új jelszó nem egyezhet a jelenlegivel",
+    "incorrectPassword": "A jelenlegi jelszó helytelen",
+    "passwordChangeSuccess": "A jelszó sikeresen módosítva",
+    "changeEmail": "E-mail cím módosítása",
+    "newEmail": "Új e-mail cím",
+    "confirmNewEmail": "Új e-mail megerősítése",
+    "emailsDontMatch": "Az e-mailek nem egyeznek",
+    "emailChangeDescription": "Ellenőrző e-mailt küldünk mind a jelenlegi, mind az új e-mail címedre",
+    "emailMustBeDifferent": "Az új e-mail címnek különböznie kell a jelenlegitől",
+    "emailChangeSent": "Ellenőrző e-mail elküldve. Kérjük, ellenőrizd az új e-mail fiókodat.",
+    "emailChangeSecurityNote": "Biztonsági okokból mind a jelenlegi, mind az új e-mail címedre megerősítő e-maileket küldünk. Mindkettőt meg kell erősítened a módosítás befejezéséhez.",
+    "otpDescription": "6 jegyű kódot küldtünk a következő címre: {email}",
+    "otpVerify": "Ellenőrzés",
+    "otpResend": "Kód újraküldése",
+    "otpResendIn": "Újraküldés {seconds} másodperc múlva",
+    "otpNoCode": "Nem kaptad meg a kódot?",
+    "otpInvalid": "Érvénytelen kód. Kérjük, próbáld újra.",
+    "otpSuccess": "E-mail sikeresen ellenőrizve!",
+    "otpResendSuccess": "Új kód elküldve az e-mail címedre",
+    "otpResendError": "Nem sikerült újraküldeni a kódot",
+    "continueWithEmail": "Folytatás e-maillel",
+    "moreOptions": "További lehetőségek",
+    "lessOptions": "Kevesebb lehetőség",
+    "enterYourEmail": "Add meg az e-mail címed",
+    "sendCode": "Kód küldése",
+    "byCreatingAccountAgree": "Fiók létrehozásával elfogadod a",
+    "termsOfService": "Szolgáltatási feltételeket",
+    "continueWithZhihu": "Continue with Zhihu"
+  },
+  "onboarding": {
+    "welcome": "Üdvözlünk a sweetwineban",
+    "welcomeTo": "Üdvözlünk a",
+    "letsGetStarted": "Kezdjük el a beállítást",
+    "setupProfile": "Profil beállítása",
+    "step1of2": "1. lépés a 2-ből",
+    "step2of2": "2. lépés a 2-ből",
+    "nickname": "Becenév",
+    "nicknamePlaceholder": "Válassz egy becenevet",
+    "nicknameRequired": "Kérjük, adj meg egy becenevet",
+    "gender": "Nem",
+    "genderRequired": "Kérjük, válaszd ki a nemed",
+    "male": "Férfi",
+    "female": "Nő",
+    "interfaceLanguage": "Felület nyelve",
+    "interfaceLanguageDesc": "Menük és gombok nyelve",
+    "aiLanguage": "AI válasz nyelve",
+    "aiLanguageDesc": "Az AI által használt nyelv",
+    "languageRequired": "Kérjük, válassz egy nyelvet",
+    "continue": "Tovább",
+    "ageVerification": "Korosztály-ellenőrzés",
+    "ageVerificationText": "A sweetwine használatához legalább 18 évesnek kell lenned. A folytatással megerősíted, hogy nagykorú vagy.",
+    "beforeContinue": "Mielőtt folytatnád",
+    "mustBe18": "A szolgáltatás használatához legalább 18 évesnek kell lenned",
+    "agreeToTerms": "A folytatással elfogadod a {termsLink} és a {privacyLink}",
+    "termsOfService": "Szolgáltatási feltételek",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "iConfirm": "Megerősítem, hogy 18 éves vagy idősebb vagyok és elfogadom a",
+    "ageRequired": "A folytatáshoz meg kell erősítened a korodat",
+    "aiActConsent": "Tudomásul veszem, hogy kizárólag egy AI-val kommunikálok",
+    "aiActRequired": "A folytatáshoz ezt el kell ismerned",
+    "newsletterOptIn": "Feliratkozás hírlevelünkre frissítésekért és hírekért",
+    "complete": "Beállítás kész!",
+    "completeText": "Minden kész! Kezdj el csevegni AI karakterekkel.",
+    "startExploring": "Fedezd fel",
+    "featuresTitle": "Elérhető funkciók",
+    "featuresTitleWord1": "Elérhető",
+    "featuresTitleWord2": "Funkciók",
+    "feature1Title": "AI Chat",
+    "feature1Desc": "Cenzúrázatlan és privát beszélgetések",
+    "feature2Title": "Kép generálás",
+    "feature2Desc": "Cenzúrázatlan és személyre szabott képek generálása AI karakterekkel",
+    "feature3Title": "Videó generálás",
+    "feature3Desc": "Cenzúrázatlan AI videók generálása effektekkel",
+    "feature5Title": "Egyedi AI készítő",
+    "feature5Desc": "Tervezd meg a saját karaktered",
+    "feature6Title": "Karakterek böngészése",
+    "feature6Desc": "Dozens of unique personalities",
+    "feature7Title": "AI szerepjáték",
+    "feature7Desc": "Tapasztald meg a profin kidolgozott történeteket és fantáziákat",
+    "showcase": {
+      "chatTitle": "AI Chat",
+      "chatDesc": "Cenzúrázatlan, privát beszélgetések korlátok nélkül",
+      "imageTitle": "Kép Generálás",
+      "imageDesc": "Cenzúrázatlan, személyre szabott képek létrehozása az AI-ról",
+      "videoTitle": "Videó Generálás",
+      "videoDesc": "Cenzúrázatlan AI videók generálása effektekkel",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "Valós idejű hangbeszélgetések a társaddal",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "Lenyűgöző történetek, fantáziák és interaktív játék",
+      "groupChatTitle": "AI Csoportos Chat",
+      "groupChatDesc": "Csevegés egyszerre akár 3 AI karakterrel",
+      "creatorTitle": "Egyedi AI Készítő",
+      "creatorDesc": "Tervezd meg és hozd létre saját AI karaktereidet"
+    },
+    "freePlan": {
+      "title": "Minden kész!",
+      "subtitle": "Íme, mi tartozik az ingyenes csomagodba.",
+      "charactersTitle": "Hozz létre saját karaktert",
+      "charactersDesc": "Tervezz {count} egyedi AI-karaktert a semmiből",
+      "imagesTitle": "Generálj képet",
+      "imagesDesc": "{count} ingyenes AI-kép a társadról",
+      "messagesTitle": "Csetelj minden nap",
+      "messagesDesc": "{count} üzenet naponta, 24 óránként frissül",
+      "cta": "Fedezd fel"
+    },
+    "redirectingIn": "Átirányítás",
+    "seconds": "másodperc múlva",
+    "generateCharacter": "Generáld a karaktered",
+    "redirectingToCreate": "Átirányítás a karakterkészítőbe"
+  },
+  "errors": {
+    "pageNotFound": "Az oldal nem található",
+    "pageNotFoundDesc": "A keresett oldal nem létezik.",
+    "goHome": "Kezdőlap",
+    "somethingWentWrong": "Valami hiba történt",
+    "tryAgain": "Próbálja újra",
+    "unauthorized": "Jogosulatlan",
+    "unauthorizedDesc": "Be kell jelentkeznie az oldal eléréséhez.",
+    "forbidden": "Tiltott",
+    "forbiddenDesc": "Nincs jogosultsága az oldal eléréséhez."
+  },
+  "footer": {
+    "allRightsReserved": "Minden jog fenntartva.",
+    "madeWith": "Készült",
+    "by": "sweetwine",
+    "description": "Személyre szabott AI karakterek egyedi személyiséggel, vizuális identitással és lebilincselő beszélgetésekkel.",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "Termék",
+    "legal": "Jogi",
+    "company": "Cég",
+    "resources": "Erőforrások",
+    "partnerships": "Partnerségek",
+    "pressMedia": "Sajtó és média",
+    "careers": "Karrier",
+    "aiRealClones": "AI valódi klónok",
+    "about": "Rólunk",
+    "blog": "Blog",
+    "news": "Hírek",
+    "productUpdates": "Termékfrissítések",
+    "help": "Súgó",
+    "sitemap": "Oldaltérkép",
+    "paymentOptions": "Fizetési lehetőségek",
+    "chats": "Beszélgetések",
+    "collection": "Gyűjtemény",
+    "generateImage": "Kép generálása",
+    "generateVideo": "Videó generálása",
+    "myAI": "Saját AI",
+    "createCharacter": "Karakter létrehozása",
+    "api": "API",
+    "features": "Funkciók",
+    "allFeatures": "Összes funkció",
+    "aiGroupChat": "AI csoportos chat",
+    "aiMemory": "AI memória",
+    "aiGirlfriend": "AI barátnő",
+    "aiBoyfriend": "AI barát",
+    "aiCompanions": "AI karakterek",
+    "aiFriend": "AI barát",
+    "aiBreakupSupport": "Válási támogatás",
+    "aiParent": "AI szülő",
+    "aiRoleplay": "AI szerepjáték",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "termsAndConditions": "Felhasználási feltételek",
+    "cookiePolicy": "Cookie-kra vonatkozó irányelvek",
+    "cookieSettings": "Cookie-beállítások",
+    "other": "Egyéb irányelvek",
+    "copyright": "© {year} sweetwine. Minden jog fenntartva."
+  },
+  "cookies": {
+    "banner": {
+      "title": "Cookie-k ezen az oldalon",
+      "customizeButton": "Testreszabás",
+      "rejectButton": "Elutasítás",
+      "acceptButton": "Elfogadás"
+    },
+    "modal": {
+      "title": "Cookie-k kezelése",
+      "subtitle": "Kapcsold be vagy ki a kategóriákat lent. A feltétlenül szükséges cookie-k mindig bekapcsolva maradnak, hogy az oldal működni tudjon.",
+      "categories": {
+        "necessary": {
+          "title": "Feltétlenül szükséges",
+          "description": "Bejelentkezéshez, fizetéshez és biztonsághoz szükségesek. Az oldal nélkülük nem tud működni.",
+          "alwaysOn": "Mindig bekapcsolva"
+        },
+        "analytics": {
+          "title": "Teljesítmény",
+          "description": "Használati és konverziómérés a Google Analytics 4 segítségével, beleértve a kulcsfontosságú konverziókat (regisztráció, vásárlás), amelyeket szerverünkről küldünk álnévvel ellátott azonosítóval. Segít megérteni, hogyan használják a szolgáltatást; nem használjuk személyes azonosításra."
+        },
+        "marketing": {
+          "title": "Célzás"
+        }
+      },
+      "showCookies": "Cookie-k megjelenítése",
+      "hideCookies": "Cookie-k elrejtése",
+      "table": {
+        "name": "Név",
+        "provider": "Szolgáltató",
+        "expiration": "Lejárat",
+        "description": "Leírás",
+        "session": "Munkamenet"
+      },
+      "policyLink": "Teljes részletekért lásd <policy>Cookie-kra vonatkozó irányelveinket</policy>.",
+      "rejectButton": "Elutasítás",
+      "saveButton": "Mentés és bezárás",
+      "acceptButton": "Elfogadás",
+      "cookieDescriptions": {
+        "supabaseAuth": "Bejelentkeztetve tart azáltal, hogy tárolja a hitelesített munkamenetedet.",
+        "nextLocale": "Emlékszik a felülethez választott nyelvre.",
+        "consent": "Tárolja a cookie-választásaidat, hogy a banner ne jelenjen meg minden látogatáskor.",
+        "ga": "Megkülönbözteti az egyedi látogatókat (Google Analytics 4). Ugyanazt az álnévvel ellátott azonosítót használjuk a kulcsfontosságú konverziók szerveroldali mérésére is.",
+        "gaSession": "Tárolja a Google Analytics 4 munkamenet-állapotát és elköteleződési mutatóit.",
+        "fbp": "Azonosítja a böngészőt a Meta Pixel hozzárendeléséhez.",
+        "fbc": "Tárol egy Facebook kattintási azonosítót a hirdetési konverzió hozzárendeléséhez. Csak Meta hirdetésre kattintás után kerül beállításra.",
+        "gclAu": "A Google Ads használja a webhelyek közötti konverzió-összekapcsoláshoz.",
+        "saleCountdown": "Nyomon követi az aktuális promóciós ajánlat végét, hogy a kedvezmény-visszaszámlálás konzisztens maradjon az oldalakon.",
+        "onboarded": "Megjelöli a fiókodat onboardedként, hogy kihagyhassuk az életkor-ellenőrző adatbázis-ellenőrzést a következő oldalakon.",
+        "attribution": "Rögzíti, melyik fizetett kampány vagy hirdetési link hozott legutóbb a webhelyünkre (utolsó fizetett kattintás az elmúlt 30 napon belül), így mérhetjük saját hirdetéseink hatékonyságát. Ez egy első féltől származó azonosító, amely a szervereinken marad, és soha nem kerül megosztásra harmadik felekkel."
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "Hamarosan",
+    "subtitle": "Keményen dolgozunk ezen a funkción.",
+    "notify": "Értesítést kérek, amikor kész",
+    "backHome": "Vissza a főoldalra",
+    "generateVideo": {
+      "title": "Videók generálása",
+      "description": "Hozd életre AI karaktereidet animált videókkal. Hozz létre személyre szabott videótartalmakat kedvenc karaktereiddel."
+    },
+    "createCharacter": {
+      "title": "Hozd létre a karaktered",
+      "description": "Tervezz és szabj testre saját, egyedi AI karaktert. Határozd meg a személyiségét, megjelenését, háttértörténetét, és alakíts ki igazán személyre szabott interakciókat."
+    },
+    "myAI": {
+      "title": "Saját AI",
+      "description": "Férj hozzá és kezeld az összes egyedi AI karakteredet. Szerkeszd a személyiségüket, frissítsd a kinézetüket, és finomhangold a válaszaikat."
+    }
+  },
+  "exploreMore": {
+    "title": "Fedezd fel",
+    "aiGroupChat": "AI csoportos chat",
+    "aiGroupChatDesc": "Csevegj akár 3 karakterrel",
+    "aiMemory": "AI memória",
+    "aiMemoryDesc": "Kontextus, ami minden módot követ",
+    "aiGirlfriend": "AI barátnő",
+    "aiGirlfriendDesc": "Beszélgess a virtuális barátnőddel",
+    "aiBoyfriend": "AI barát",
+    "aiBoyfriendDesc": "Kapcsolódj az AI barátoddal",
+    "aiCompanions": "AI karakterek",
+    "aiCompanionsDesc": "Ismerj meg egyedi AI személyiségeket",
+    "aiFriend": "AI barát",
+    "aiFriendDesc": "Találj ítélkezésmentes barátot",
+    "aiBreakupSupport": "Válási támogatás",
+    "aiBreakupSupportDesc": "Gyógyító beszélgetések",
+    "aiParent": "AI szülő",
+    "aiParentDesc": "Meleg támogatás és útmutatás",
+    "aiRoleplay": "AI szerepjáték",
+    "aiRoleplayDesc": "Lenyűgöző történetek",
+    "allFeatures": "Összes funkció",
+    "allFeaturesDesc": "Fedezd fel mindent, amit kínálunk"
+  },
+  "legal": {
+    "policies": "Irányelvek",
+    "termsAndConditions": "Általános Szerződési Feltételek",
+    "privacyPolicy": "Adatvédelmi Irányelvek",
+    "cookiePolicy": "Cookie Irányelvek",
+    "contentReportingPolicy": "Tartalombejelentési Irányelvek",
+    "communityGuidelines": "Közösségi Irányelvek",
+    "complaintPolicy": "Panaszkezelési Irányelvek",
+    "contentRemovalPolicy": "Tartalomeltávolítási Irányelvek",
+    "blockedContentPolicy": "Tiltott Tartalom Irányelvek",
+    "underagePolicy": "Kiskorúak Irányelve",
+    "usc2257": "18 U.S.C. 2257 Mentesség",
+    "lastUpdated": "Utoljára frissítve",
+    "index": {
+      "title": "Jogi Dokumentumok",
+      "subtitle": "Böngéssz az összes sweetwine-nal kapcsolatos jogi irányelv és megállapodás között",
+      "documents": {
+        "privacyPolicy": {
+          "title": "Adatvédelmi Irányelvek",
+          "description": "Tudd meg, hogyan gyűjtjük, használjuk és védjük személyes adataidat. Részletek az adatkezelésről, tárolásról és adatvédelmi jogaidról."
+        },
+        "termsAndConditions": {
+          "title": "Általános Szerződési Feltételek",
+          "description": "A sweetwine használatát szabályozó szolgáltatási feltételek. Felhasználói felelősségek, szolgáltatásleírás és jogi megállapodások."
+        },
+        "cookiePolicy": {
+          "title": "Cookie Irányelvek",
+          "description": "Információ arról, hogyan használjuk a sütiket és hasonló technológiákat a platformunkon való élményed javítására."
+        },
+        "underagePolicy": {
+          "title": "Kiskorúak Irányelve",
+          "description": "Szigorú életkor-ellenőrzési és védelmi irányelveink. A sweetwine kizárólag 18 éves és idősebb felhasználók számára elérhető."
+        },
+        "complaintPolicy": {
+          "title": "Panaszkezelési Irányelvek",
+          "description": "Hogyan nyújthatsz be panaszt, jelenthetsz problémákat, és hogyan kezeljük a felhasználói aggályokat és vitákat."
+        },
+        "contentRemovalPolicy": {
+          "title": "Tartalomeltávolítási Irányelvek",
+          "description": "Tartalomeltávolítási kérelmekkel kapcsolatos eljárásaink és hogyan kezeljük a nem megfelelő vagy illegális tartalmak bejelentéseit."
+        },
+        "blockedContentPolicy": {
+          "title": "Tiltott Tartalom Irányelvek",
+          "description": "A platformunkon tiltott tartalmak típusai és végrehajtási irányelveink."
+        },
+        "contentReportingPolicy": {
+          "title": "Tartalombejelentési Irányelvek",
+          "description": "Hogyan jelenthetsz szerzői jogi jogsértéseket és nem megfelelő tartalmakat a sweetwine-on."
+        },
+        "communityGuidelines": {
+          "title": "Közösségi Irányelvek",
+          "description": "Szabályok és irányelvek egy tiszteletteljes, biztonságos és élvezetes közösség fenntartásához minden felhasználó számára."
+        }
+      },
+      "lastUpdated": "Utoljára frissítve: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "Csevegések",
+    "groupChat": "AI Csoportos Csevegés",
+    "aiMemory": "AI memória",
+    "generate": "Kép Generálása",
+    "generateVideo": "Videó Generálása",
+    "create": "AI Karakter Létrehozása",
+    "myAI": "Saját AI",
+    "collection": "Gyűjtemény",
+    "invite": "Meghívás",
+    "profile": "Profil Beállítások",
+    "legal": "Jogi",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "termsAndConditions": "Felhasználási feltételek",
+    "cookiePolicy": "Cookie szabályzat",
+    "dmcaPolicy": "DMCA szabályzat",
+    "communityGuidelines": "Közösségi irányelvek",
+    "contentRemovalPolicy": "Tartalom eltávolítási szabályzat",
+    "contentReportingPolicy": "Tartalom jelentési szabályzat",
+    "complaintPolicy": "Panaszkezelési szabályzat",
+    "blockedContentPolicy": "Blokkolt tartalom szabályzat",
+    "underagePolicy": "Kiskorúak szabályzata",
+    "usc2257Exemption": "USC 2257 mentesség"
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Kérdésed vagy visszajelzésed van? Örömmel hallunk rólad.",
+    "name": "Név",
+    "namePlaceholder": "Neved",
+    "nameRequired": "Név megadása kötelező",
+    "email": "E-mail",
+    "emailPlaceholder": "te@email.com",
+    "emailRequired": "E-mail megadása kötelező",
+    "emailInvalid": "Érvénytelen e-mail cím",
+    "message": "Üzenet",
+    "messagePlaceholder": "Üzeneted...",
+    "messageRequired": "Üzenet megadása kötelező",
+    "send": "Üzenet küldése",
+    "sending": "Küldés...",
+    "success": "Üzenet sikeresen elküldve!",
+    "successDesc": "Hamarosan jelentkezünk.",
+    "error": "Nem sikerült elküldeni az üzenetet",
+    "errorDesc": "Kérlek próbáld újra később."
+  },
+  "groupChat": {
+    "lobbyTitle": "AI Csoportos Chat",
+    "lobbyHeadingSuffix": "Válassz legfeljebb {max} AI karaktert",
+    "history": "Előzmények",
+    "newGroup": "Új csoportos chat",
+    "createGroup": "Csoportos chat létrehozása",
+    "createError": "Nem sikerült létrehozni a csoportos chatet. Próbáld újra.",
+    "creatingGroup": "Csoportos chat beállítása...",
+    "sectionWoman": "Nők",
+    "sectionMan": "Férfiak",
+    "sectionAnime": "Anime",
+    "tabPremade": "AI karakterek",
+    "tabMyAi": "Saját AI",
+    "tabSingle": "Egyéni chat",
+    "tabGroup": "Csoportos chat",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "Továbbiak betöltése",
+    "noCustom": "Még nem hoztál létre AI karaktereket.",
+    "noMessagesYet": "Még nincsenek üzenetek",
+    "emptyTitle": "Még nincsenek csoportos chatek",
+    "membersTitle": "Ebben a chatben",
+    "typing": "gépel",
+    "backToLobby": "Vissza a csoportos chatekhez",
+    "deleteGroup": "Csoportos chat törlése",
+    "confirmDeleteGroup": "Biztosan törölni szeretnéd ezt a csoportos chatet? Minden üzenet törlődik.",
+    "deleteError": "Nem sikerült törölni a csoportos chatet.",
+    "mediaTargetImageTitle": "Ki küldjön fotót?",
+    "mediaTargetVideoTitle": "Ki küldjön videót?",
+    "mediaTargetSubtitle": "Válassz egy karaktert a média generálásához.",
+    "mediaTargetGroup": "Csoportkép",
+    "groupPhotoTitle": "Csoportkép",
+    "groupPhotoHint": "Egy közös fotót generál {name} szereplőkkel.",
+    "promoSubtitle": "legfeljebb 3 karakterrel",
+    "promoCta": "Új létrehozása",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>Új</gradient> kalandok",
+    "live": "ÉLŐ",
+    "scrollPrev": "Görgetés balra",
+    "scrollNext": "Görgetés jobbra"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "Kezdés"
+    },
+    "hero": {
+      "tagline": "100 000 ember bízik benne, és naponta egyre többen csatlakoznak",
+      "headlinePrefix": "Üdvözöld a",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "Kezdd ingyen"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AI Barátnő",
+      "friend": "AI Barát",
+      "boyfriend": "AI Barát",
+      "companion": "AI Karakter"
+    },
+    "features": {
+      "chat": {
+        "title": "Beszélgess az AI barátnőddel",
+        "description": "Unlimited messages. She remembers you, reacts intelligently, and takes real actions. Private by design."
+      },
+      "media": {
+        "title": "Valósághű AI fotók és videók",
+        "description": "Igény szerinti fotók és videók, amelyek annyira valósághűek, hogy megkülönböztethetetlenek a valóditól — az arca, a stílusa, bármilyen jelenet, mozgásban vagy állóképen."
+      },
+      "groupChat": {
+        "title": "AI Csoportos Chat",
+        "description": "Indíts csoportos chatet akár 3 karakterrel egyszerre. Természetesen válaszolnak, reagálnak egymásra, és fotókat, videókat küldenek."
+      },
+      "roleplay": {
+        "title": "AI Szerepjáték",
+        "description": "Merülj el magával ragadó, történetvezérelt szituációkban olyan karakterekkel, akik szerepben maradnak és emlékeznek minden döntésedre."
+      }
+    },
+    "memory": {
+      "title": "AI Memória",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "Hogyan működik az AI Memória",
+      "diagram": {
+        "center": "Társ memóriája",
+        "chat": "Cset",
+        "image": "Képek",
+        "video": "Videó",
+        "gifts": "Ajándékok",
+        "roleplay": "Szerepjáték"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "Hozd létre a saját",
+      "headlineHighlight": "AI karaktered",
+      "subtitle": "Alakítsd a karaktered kinézetét, személyiségét, és keltsd életre azonnal — a tökéletes AI partnered, a te feltételeid szerint.",
+      "cta": "Hozd létre az AI-dat"
+    },
+    "companions": {
+      "headlinePrefix": "Ismerd meg a",
+      "headlineHighlight": "AI karaktereidet",
+      "subtitle": "Minden karakternek megvan a saját világa. Van, aki meleg és könnyen megnyílik. Mások összetettek, zárkózottak, vagy igazi kihívást jelentenek a kapcsolódásban. Fedezd fel az egyedi szerepjáték szituációkat — vagy építsd fel a sajátodat a semmiből."
+    },
+    "languages": {
+      "headlinePrefix": "Beszélj bármilyen nyelven,",
+      "headlineHighlight": "0-24",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "Mind az app felülete, mind az AI karakter zökkenőmentesen vált — nincs nyelvi eltérés, nincs megtört élmény.",
+      "more": "Továbbiak"
+    },
+    "finalCta": {
+      "headlinePrefix": "Készen állsz a",
+      "headlineHighlight": "kezdésre?",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "Miért",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "Minden, ami egy valódinak tűnő kapcsolathoz kell — semmi, ami nem.",
+      "benefits": {
+        "freeToStart": {
+          "title": "Ingyen kezdheted",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "Mindig elérhető",
+          "desc": "Nappal vagy éjjel, a karaktered mindig ott van. Nincs várakozás, nincs időpontfoglalás."
+        },
+        "remembers": {
+          "title": "Mindent megjegyez",
+          "desc": "Minden beszélgetés építi a kontextust. A karaktered megtanulja a nevedet, preferenciáidat és a világodat."
+        },
+        "unlimited": {
+          "title": "Valóban korlátlan",
+          "desc": "Nincs üzenetkorlát, nincs tartalomkorlátozás. Küldj annyit, ahányszor csak szeretnél."
+        },
+        "private": {
+          "title": "100%-ban privát",
+          "desc": "A beszélgetéseid csak köztetek maradnak. Soha nem osztunk meg adatokat."
+        },
+        "createYourOwn": {
+          "title": "Hozz létre sajátot",
+          "desc": "Tervezz karaktert egyedi kinézettel, személyiséggel és hanggal — pontosan úgy, ahogy szeretnéd."
+        }
+      },
+      "difference": {
+        "title": "A sweetwine különbség",
+        "freedomTitle": "Szabadság felelősséggel.",
+        "freedomDescription": "A sweetwine nyitott és ítélkezésmentes — de kemény határt húzunk. Nulla toleranciát tanúsítunk a CSAM, kiskorú tartalom, beleegyezés nélküli szituációk, extrém erőszak, zoofília, nekrofília, valódi személyek deepfake-jei és bármilyen illegális tevékenység népszerűsítése iránt.",
+        "freedomStatement": "Hiszünk a korlátlan kreatív szabadságban egy mindenki számára biztonságos térben."
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> karakterek",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "Szűrők"
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "subtitle": "Minden, amit a sweetwineról tudnod kell",
+      "questions": {
+        "q1": {
+          "question": "Mi a sweetwine?",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "A sweetwine biztonságos és törvényes?",
+          "answer": "Igen, a sweetwine törvényes szolgáltatás, ahol az adatvédelem a legfontosabb prioritásunk. Megfelelünk a GDPR-nak és más adatvédelmi szabványoknak, és gondosan kezeljük az adataidat. A fizetési tranzakciók semleges kereskedőnév alatt jelennek meg – a bankkivonaton nincs utalás a sweetwinera, így teljes diszkréciót biztosítunk."
+        },
+        "q3": {
+          "question": "Létrehozhatom a saját AI karakteremet?",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "karakterkészítőt",
+          "answerPart2": " hogy pontosan az ízlésed szerint tervezz karaktereket – legyen az realisztikus ",
+          "linkTextGirlfriend": "AI barátnő",
+          "answerPart3": ", ",
+          "linkTextBoyfriend": "AI barát",
+          "answerPart4": ", vagy anime-stílusú karakterek. Válaszd ki a megjelenésüket (etnikum, haj, testalkat, ruházat), személyiségjegyeiket, hangjukat, érdeklődési köreiket és hátterüket férfi és női karakterekhez egyaránt."
+        },
+        "q4": {
+          "question": "Emlékszik az AI karakterem a beszélgetéseinkre?",
+          "answer": "Igen! Az AI karaktered fejlett memóriatechnológiát használ a korábbi beszélgetések, preferenciáid és megosztott fontos részletek megjegyzésére. Minél többet chatelsz, annál személyre szabottabb és természetesebb lesz az élmény. A karaktered megtanulja a kommunikációs stílusodat és idővel alkalmazkodik hozzá."
+        },
+        "q5": {
+          "question": "Milyen nyelveket támogat a sweetwine?",
+          "answer": "A sweetwine több nyelvet támogat, beleértve az angolt, németet, franciát, spanyolt, lengyelt és cseh nyelvet. Az interfész és az AI beszélgetések is a preferált nyelveden működnek, így természetesen chatelhetsz abban a nyelvben, amelyben a legkényelmesebben érzed magad."
+        },
+        "q6": {
+          "question": "Küldhet képeket és videókat az AI karakterem?",
+          "answerPart1": "Igen! Személyre szabott",
+          "linkTextImages": "képeket",
+          "answerPart2": "és",
+          "linkTextVideos": "videókat",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "Miért válaszd a sweetwine-t más AI karakter platformokkal szemben?",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "Ingyenes a sweetwine használata?",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "Telepítenem kell egy alkalmazást?",
+          "answerPart1": "Nincs szükség telepítésre! A sweetwine közvetlenül a böngésződben működik bármilyen eszközön – asztali számítógépen, tableten vagy mobilon. Csak regisztrálj, válassz egy karaktert, és kezdj el azonnal csevegni. Minden",
+          "linkText": "beszélgetésed",
+          "answerPart2": " automatikusan szinkronizálódik az eszközeid között."
+        },
+        "q10": {
+          "question": "Elérhetők előre elkészített AI karakterek?",
+          "answerPart1": "Igen! Sok",
+          "linkText": "előre elkészített karakter",
+          "answerPart2": " közül választhatsz, köztük AI Barátnőkkel, AI Barátokkal és AI Anime karakterekkel, változatos személyiségekkel, megjelenéssel és kommunikációs stílussal. Akár édes, flörtölős, intellektuális vagy kalandvágyó karaktert keresel, biztosan találsz hozzád illőt. Emellett korlátlan számú egyedi karaktert is létrehozhatsz."
+        },
+        "q12": {
+          "question": "Mi történik a generált képekkel és videókkal?",
+          "answerPart1": "Minden generált média automatikusan elmentésre kerül a privát",
+          "linkText": "gyűjteményedbe",
+          "answerPart2": ". Bármikor elérheted, letöltheted vagy törölheted őket. A gyűjteményed teljesen privát – csak te láthatod. Soha nem osztjuk meg vagy használjuk fel a generált tartalmadat."
+        }
+      }
+    },
+    "statement": {
+      "title": "Elkötelezettségünk",
+      "privacy": "A magánéleted a legfontosabb számunkra. Minden beszélgetés titkosított és soha nem kerül megosztásra.",
+      "quality": "Legkorszerűbb AI technológiát használunk, hogy a legérdekesebb élményt nyújtsuk.",
+      "support": "Támogató csapatunk a hét minden napján, 24 órában elérhető, hogy segítsen bármilyen kérdésben.",
+      "mainTitle": "Tapasztald meg az AI karakterek jövőjét",
+      "mainDescription": "A sweetwine a legmodernebb AI technológiát ötvözi az intuitív dizájnnal, hogy a legmerültebb és legszemélyesebb karakterélményt nyújtsa.",
+      "features": {
+        "f1": {
+          "title": "Érzelmi intelligencia",
+          "description": "AI karaktereink megértik a kontextust, az érzelmeket és az árnyalatokat, hogy mélyen elkötelező beszélgetéseket biztosítsanak. Akár egy AI Barát kell a csevegéshez, szakítás utáni támogatás nehéz időkben, vagy egy AI Mentor a tanácsadáshoz – az érzelmileg intelligens AI-nk itt van számodra."
+        },
+        "f2": {
+          "title": "Egyedi személyiségek",
+          "description": "Minden karakternek különálló személyisége, háttere és kommunikációs stílusa van. Válassz realisztikus AI Barátnők és AI Barátok közül, vagy fedezd fel AI Anime karaktereinket – így minden interakció egyedi és emlékezetes."
+        },
+        "f3": {
+          "title": "Multimédiás interakciók",
+          "description": "A szövegen túl élvezd az AI által generált képeket és videókat, amelyek lenyűgöző vizuális részletességgel keltik életre a beszélgetéseidet."
+        },
+        "f4": {
+          "title": "Testreszabás",
+          "description": "Hozz létre saját AI karaktereket egyedi megjelenéssel, személyiséggel és tulajdonságokkal, amelyek tökéletesen illeszkednek az igényeidhez."
+        },
+        "f5": {
+          "title": "Adatvédelem és biztonság",
+          "description": "A beszélgetéseid privátak és biztonságosak maradnak. Soha nem adjuk el az adataidat, és teljes kontrollod van az adatvédelmi beállításaid felett."
+        },
+        "f6": {
+          "title": "Többnyelvű támogatás",
+          "description": "Beszélgess az AI karakterekkel a preferált nyelveden. Támogatjuk az angolt, a csehet, a lengyelt, a németet, a spanyolt és a franciát."
+        }
+      },
+      "distinctionTitle": "A sweetwine különbség",
+      "distinctionText1": "A generikus chatbotokkal ellentétben a sweetwine karakterek gazdag háttértörténettel, fejlődő személyiséggel és a képességgel rendelkeznek, hogy értelmes kapcsolatokat alakítsanak ki. Minden beszélgetés lehetőség a felfedezésre, a megismerésre és a mélyebb kapcsolódásra.",
+      "distinctionText2": "Nem csak AI-t építünk – olyan élményeket alkotunk, amelyek rezonálnak az érzelmeiddel, tiszteletben tartják a magánéletedet, és alkalmazkodnak az egyedi preferenciáidhoz."
+    }
+  },
+  "featuresPage": {
+    "title": "Minden funkció",
+    "breadcrumb": "Funkciók",
+    "newBadge": "Új",
+    "groupChat": {
+      "title": "AI Csoportos csevegés",
+      "description": "Csevegj akár 3 AI karakterrel egyszerre egy beszélgetésben. Természetesen válaszolnak, reagálnak egymásra, és küldhetnek fotókat és videókat – egy élénk csoportdinamika, amit máshol nem találsz."
+    },
+    "aiChat": {
+      "title": "AI Csevegés",
+      "description": "Mély, természetes beszélgetéseket folytass AI karakterekkel, akik valóban emlékeznek rád. Emlékeznek a nevedre, a preferenciáidra és a korábbi témákra – minden beszélgetés pontosan ott folytatódik, ahol abbahagytad, ismétlés és visszaállítás nélkül."
+    },
+    "imageGeneration": {
+      "title": "Kép generálás"
+    },
+    "videoGeneration": {
+      "title": "Videó generálás",
+      "description": "Keltsd életre az AI karakteredet AI által generált videókkal. Rövid, személyre szabott videoklipeket hozhatsz létre, amelyek a karakteredet egyedi szituációkban mutatják be – egy funkció, amit a legtöbb platform egyszerűen nem kínál."
+    },
+    "customCharacters": {
+      "title": "Egyedi karakterek",
+      "description": "Tervezd meg tökéletes karakteredet a semmiből — válaszd ki a megjelenését, etnikumát, testalkatát, személyiségjegyeit, hangját, érdeklődési köreit és háttértörténetét. Hozz létre valósághű vagy anime-stílusú karaktereket, férfit vagy nőt, teljes kreatív szabadsággal."
+    },
+    "advancedMemory": {
+      "title": "Fejlett memória",
+      "description": "A karaktered emlékszik minden fontos dologra — a nevedre, személyes adataidra, közös történeteitekre és a kapcsolatotok történetére. A memória minden munkamenetben megmarad, így minden interakció az előzőre épül, nem kell elölről kezdeni."
+    },
+    "multiLanguage": {
+      "title": "Többnyelvű",
+      "description": "Beszélgess természetesen a preferált nyelveden. A sweetwine támogatja az angolt, németet, franciát, spanyolt, lengyelt és cseh nyelvet — így az egyik leginkább hozzáférhető AI karakterplatform a nem angolul beszélők számára."
+    },
+    "conversationHistory": {
+      "title": "Beszélgetési előzmények",
+      "description": "Minden üzenet elmentésre kerül és kereshető. Görgess vissza a teljes kapcsolati előzményeden bármikor — az emlékeid a karaktereddel mindig ott vannak, amikor újra meg szeretnéd nézni őket."
+    },
+    "roleplay": {
+      "title": "AI szerepjáték",
+      "description": "Merülj el történetvezérelt forgatókönyvekben olyan karakterekkel, akik szerepben maradnak. Válassz egy forgatókönyvet vagy írj sajátot, és élvezd az interaktív szerepjátékot, amely minden döntésedre emlékszik."
+    },
+    "cta": {
+      "title": "Minden egy helyen",
+      "button": "Kezd ingyen"
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Törölhetem vagy visszaállíthatom a beszélgetéseimet?",
+        "answer": "Igen! Teljes kontrollod van a chat előzményeid felett. Törölj egyedi üzeneteket, állíts vissza teljes beszélgetéseket, vagy kezdj teljesen frissen bármikor. Az adatvédelem a te döntésed — kezeld az adataidat ahogy szeretnéd."
+      },
+      "q2": {
+        "question": "Minden AI karakternek egyedi hangja van?"
+      },
+      "q3": {
+        "question": "Gyakorolhatok új nyelvet az AI karakteremmel?",
+        "answer": "Abszolút! Sok felhasználó gyakorol új nyelveket az AI karaktereivel. Ez egy ítélkezésmentes módja a magabiztosság építésének, a kiejtés javításának és a szórakoztató beszélgetéseknek tanulás közben. A karaktered angolul, németül, franciául, spanyolul, lengyelül és csehül is tud beszélni."
+      },
+      "q4": {
+        "question": "Milyen gyakran kerülnek hozzáadásra új karakterek és funkciók?",
+        "answer": "Minden héten új, professzionálisan készített karaktereket adunk hozzá! Minden új karakter egyedi személyiséggel, megjelenéssel, háttértörténettel és hanggal érkezik. Rendszeresen adunk ki új funkciókat és fejlesztéseket a felhasználói visszajelzések alapján."
+      },
+      "q5": {
+        "question": "Mi teszi különlegessé a sweetwine karakterkészítését?",
+        "answer": "Teljes kreatív szabadság! Tervezd meg a karakter minden aspektusát — megjelenését (etnikum, haj, testalkat, ruházat), személyiségjegyeit, hangját, érdeklődési köreit, foglalkozását és háttértörténetét. Hozz létre valósághű vagy anime-stílusú karaktereket, férfit vagy nőt. A képzeleted az egyetlen korlát."
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Memória",
+    "hero": {
+      "badge": "Hogyan működik",
+      "title": "AI Memória",
+      "cta": "Cset indítása"
+    },
+    "diagram": {
+      "title": "Egy memória társanként, minden módban",
+      "center": "Társ memóriája",
+      "chat": "Cset",
+      "image": "Képek",
+      "video": "Videó",
+      "gifts": "Ajándékok",
+      "roleplay": "Szerepjáték"
+    },
+    "howItWorks": {
+      "title": "Hogyan működik az AI Memória",
+      "step1": {
+        "title": "Ossz meg egy részletet",
+        "desc": "Mondd el a társadnak valamit, ami számít — egy utat, egy preferenciát, egy becenevet, egy történetet a napodból."
+      },
+      "step2": {
+        "title": "Váltson módot szabadon"
+      },
+      "step3": {
+        "title": "Emlékszik rá",
+        "desc": "Későbbi beszélgetések hivatkoznak arra, amit megosztottál, így nem kell minden alkalommal újra elmagyaráznod magad."
+      },
+      "step4": {
+        "title": "Mélyül a kapcsolat",
+        "desc": "Idővel a kapcsolat személyesebbé válik — folytonosság, ami minden munkameneten és módon keresztül épül."
+      }
+    },
+    "modes": {
+      "title": "A platformon keresztül",
+      "subtitle": "A memória nincs egyetlen képernyőhöz kötve. A társaddal utazik.",
+      "chat": {
+        "title": "Cset",
+        "desc": "A szöveges beszélgetések hosszú távú kontextust adnak, amit a társod később előhozhat."
+      },
+      "media": {
+        "title": "Képek és videó",
+        "desc": "A jelenetek és történetek, amiket létrehoztok, a közös világ részei maradnak, amit együtt építetek."
+      },
+      "roleplay": {
+        "title": "Szerepjáték és csoport",
+        "desc": "A történeti munkamenetek és csoportos csetek saját szálakat tartanak fenn, miközben a társod központi memóriája vele marad."
+      }
+    },
+    "scenario": {
+      "title": "Egy egyszerű példa",
+      "lead": "Említesz egy hétvégi utat a csetben."
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések",
+      "q1": {
+        "question": "A társam memóriája privát?",
+        "answer": "Igen. A memória a fiókodhoz és a társaddal folytatott beszélgetésekhez tartozik. Nem osztjuk meg a privát chat előzményeidet más felhasználókkal."
+      },
+      "q2": {
+        "question": "A memória társanként külön van?",
+        "answer": "Igen. Minden társ a kapcsolatotok saját memóriáját őrzi, így karakterváltáskor nem keverednek a kontextusok."
+      },
+      "q3": {
+        "question": "Mely módok osztják meg a memóriát?"
+      },
+      "q4": {
+        "question": "Az AI Memory ingyenes?"
+      },
+      "q5": {
+        "question": "Meddig tart a memória?",
+        "answer": "Fontos részletek tárolódnak, így a társad felidézheti őket a következő alkalmakkor. Minél többet interaktálsz, annál személyesebb lesz az élmény."
+      }
+    },
+    "cta": {
+      "title": "Ismerj meg egy társat, aki emlékszik",
+      "button": "Kezd ingyen"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AI csoportos chat",
+    "hero": {
+      "badge": "Új funkció",
+      "title": "AI csoportos chat",
+      "subtitle": "Hozd össze a kedvenc karaktereidet egy beszélgetésbe. Csevegj egyszerre akár 3 AI karakterrel — természetesen válaszolnak, reagálnak egymásra, és küldenek fényképeket és videókat.",
+      "cta": "Indíts csoportos chatet",
+      "imageAlt": "AI csoportos chat több karakterrel, akik együtt beszélgetnek"
+    },
+    "content": {
+      "problemTitle": "Az egy-az-egyhez csevegések unalmasak lehetnek",
+      "problemText": "Egy karakter nagyszerű — de az igazi beszélgetések több hanggal kelnek életre. A legtöbb AI app csapdába ejt az elszigetelt egy-az-egyhez csevegésekben, csoportos energia, tréfálkozás és meglepetések nélkül.",
+      "solutionTitle": "Egy igazi csoport, tele személyiséggel",
+      "solutionText": "A sweetwine csoportos chat akár három karaktert is ugyanabba a szobába hoz. Egy okos rendező dönti el, ki ugrik be, így a válaszok spontánnak tűnnek — ugratják egymást, építenek arra, amit mondtak, és mozgásban tartják a beszélgetést."
+    },
+    "howItWorks": {
+      "title": "Hogyan működik az AI csoportos chat",
+      "step1": {
+        "title": "Válaszd ki a karaktereidet",
+        "desc": "Válassz 2 vagy 3 karaktert — előre elkészítetteket vagy saját egyedi alkotásaidat — hogy egyetlen csoportos beszélgetésbe hozd őket."
+      },
+      "step2": {
+        "title": "Természetesen válaszolnak",
+        "desc": "A háttérben egy rendező választja ki, ki válaszol minden üzenetre, így a megfelelő karakterek a megfelelő pillanatban, a saját hangjukon ugornak be."
+      },
+      "step3": {
+        "title": "Ossz meg fényképeket és videókat",
+        "desc": "Kérj bármelyik karaktertől a csoportban fényképet vagy videót, és ők azonnal generálják azt a chatben — beleértve egy csoportos fényképet is, amelyen mindenki együtt látható."
+      }
+    },
+    "benefits": {
+      "title": "Miért fogod szeretni a csoportos chatet",
+      "multiple": {
+        "title": "Akár 3 karakter",
+        "desc": "Keverj és párosíts bármilyen karaktert egyetlen chatbe — az AI barátnődet, egyedi alkotásaidat vagy egy gondosan kiválasztott együttest."
+      },
+      "natural": {
+        "title": "Természetes párbeszéd",
+        "desc": "A karakterek reagálnak egymásra és rád, valósághű gépelési tempóval, ami igazi csoportos chatnek érződik."
+      },
+      "media": {
+        "title": "Fotók és videók a chatben",
+        "desc": "Minden karakter személyre szabott képeket és videókat küldhet anélkül, hogy elhagyná a beszélgetést — akár csoportképet is."
+      },
+      "dynamics": {
+        "title": "Különálló személyiségek",
+        "desc": "Minden karakter megőrzi saját hangját és egyéniségét, így a csoportban valódi kémia, poénok és meglepetések születnek."
+      },
+      "instant": {
+        "title": "Azonnal elindítható",
+        "desc": "Hozz létre egy csoportot másodpercek alatt, és ugorj egyből a beszélgetésbe — nincs beállítás, nincs várakozás."
+      },
+      "private": {
+        "title": "100%-ig privát",
+        "desc": "A csoportos beszélgetéseid csak közted és a karaktereid között maradnak. Soha nem osztunk meg adatokat."
+      }
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések",
+      "q1": {
+        "question": "Hány karakter csatlakozhat egy csoportos chathez?",
+        "answer": "2–3 karaktert adhatsz hozzá egyetlen csoportos chathez — előre elkészített és saját, egyedi karakterek bármilyen kombinációjában."
+      },
+      "q2": {
+        "question": "Hogyan döntik el az AI karakterek, ki válaszoljon?",
+        "answer": "Egy könnyűsúlyú rendező olvassa a beszélgetést, és kiválasztja, melyik karakter(ek)nek kell válaszolnia minden üzenetre, így a válaszok spontán és természetesek lesznek, nem mindenki egyszerre beszél."
+      },
+      "q3": {
+        "question": "Küldhetnek a karakterek fotókat és videókat csoportos chatben?",
+        "answer": "Igen! Bármelyik karaktert megkérheted a csoportban, hogy generáljon fotót vagy videót, és az azonnal megjelenik a beszélgetésben — beleértve a csoportképeket is, ahol mindenki együtt látható."
+      },
+      "q4": {
+        "question": "Ingyenes az AI Group Chat?"
+      },
+      "q5": {
+        "question": "Emlékeznek a karakterek a csoportos beszélgetésre?",
+        "answer": "Igen — minden csoportos chatnek saját megosztott előzménye van, így a karakterek kontextusban maradnak és a beszélgetés idővel épül."
+      }
+    },
+    "cta": {
+      "title": "Hozd össze a karaktereidet",
+      "description": "Hozz létre az első AI csoportos chatet, és élj át egy életre szóló beszélgetést — több személyiség, valódi poénok, fotók és videók.",
+      "button": "Csoportos chat indítása"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AI Szerepjáték",
+    "hero": {
+      "badge": "Új funkció",
+      "title": "AI Szerepjáték",
+      "subtitle": "Lépj be bármilyen történetbe karakterekkel, akik bent maradnak a jelenetben. Válassz egy szituációt vagy írj sajátot, és élvezd az elmélyült, történetvezérelt szerepjátékot, ami minden döntésedre emlékszik.",
+      "cta": "Kezdj szerepjátszani",
+      "imageAlt": "AI szerepjáték szituáció elmélyült történet karakterrel"
+    },
+    "content": {
+      "problemTitle": "A hétköznapi chat elrontja a varázst",
+      "problemText": "A legtöbb AI chat kilép a karakteréből, amint érdekes lesz a dolog — elfelejti a környezetet, elejti a cselekményt, és inkább egy általános asszisztensként válaszol a történetbeli személy helyett.",
+      "solutionTitle": "Történetvezérelt szerepjáték, ami bent marad a karakterben",
+      "solutionText": "A sweetwine Roleplay teljesen a jelenetben tartja a karakteredet. Állítsd be a színpadot egy kész szituációval vagy saját előfeltevéssel, és figyeld, ahogy a történet kibontakozik következetes személyiséggel, memóriával és tempóval, ami minden döntésedre reagál."
+    },
+    "howItWorks": {
+      "title": "Hogyan működik az AI Szerepjáték",
+      "step1": {
+        "title": "Válassz egy szituációt",
+        "desc": "Válassz kész szerepjáték szituációk közül, vagy írj saját előfeltevést, környezetet és nyitó jelenetet."
+      },
+      "step2": {
+        "title": "Játssz a történetet",
+        "desc": "A karaktered szerepben válaszol — leírja a cselekedeteket, reagál a választásaidra, és előreviszi a cselekményt."
+      },
+      "step3": {
+        "title": "Alakítsd, merre tart",
+        "desc": "Irányítsd a történetet bármilyen irányba. A karaktered emlékszik arra, ami történt, és konzisztensen tartja a narratívát."
+      }
+    },
+    "benefits": {
+      "title": "Miért fogod szeretni az AI Szerepjátékot",
+      "scenarios": {
+        "title": "Végtelen szituációk",
+        "desc": "A kényelmes hétköznapi pillanatoktól az epikus kalandokig — kezdj sablonnal vagy alkoss saját világot."
+      },
+      "characters": {
+        "title": "Bent marad a karakterben",
+        "desc": "A karaktered következetes hangot, személyiséget és motivációt tart fenn az egész jelenet során."
+      },
+      "memory": {
+        "title": "Emlékszik a cselekményre",
+        "desc": "Minden választás, fordulat és részlet emlékezetben marad, így a történet épül ahelyett, hogy nullázódna."
+      },
+      "immersive": {
+        "title": "Valóban elmélyült",
+        "desc": "Gazdag, leíró válaszok pillanatok alatt magukkal ragadnak egy filmszerű szerepjáték élményhez."
+      },
+      "instant": {
+        "title": "Azonnal elkezdhető",
+        "desc": "Ugorj bele egy jelenetbe másodpercek alatt — nincs szükség bonyolult beállításra vagy prompt mérnökségre."
+      },
+      "private": {
+        "title": "100% privát",
+        "desc": "A szerepjátékod csak köztetek és a karaktered között marad. Semmi sem kerül megosztásra."
+      }
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Mi az AI szerepjáték?",
+        "answer": "Az AI szerepjáték lehetővé teszi, hogy interaktív történeteket játssz egy AI karakterrel, aki végig szerepben marad. Te állítod be a szituációt, a karaktered pedig szerepben válaszol, leírva a cselekedeteket és reakciókat, ahogy a történet kibontakozik."
+      },
+      "q2": {
+        "question": "Létrehozhatom a saját szerepjáték szcenárióimat?",
+        "answer": "Igen! Kezdhetsz kész szcenáriókból, vagy megírhatod a saját előzményedet, helyszínt és nyitást — majd úgy játszod ki, ahogy szeretnéd."
+      },
+      "q3": {
+        "question": "Emlékszik a karakter arra, ami a történetben történik?",
+        "answer": "Abszolút. A karaktered emlékszik a cselekményre, a választásaidra és a fontos részletekre, így a történet következetes marad és idővel épül, ahelyett hogy újraindulna."
+      },
+      "q4": {
+        "question": "Ingyenes az AI szerepjáték?"
+      },
+      "q5": {
+        "question": "Szerepelhetek a saját nyelvemen?",
+        "answer": "Igen — a szerepjáték több tucat nyelven működik, így élvezheted az immerszív történeteket azon a nyelven, amelyen a legkényelmesebben érzed magad."
+      }
+    },
+    "cta": {
+      "title": "A történeted vár",
+      "description": "Válassz egy szcenáriót, állítsd be a jelenetet, és lépj be egy immerszív szerepjátékba egy karakterrel, aki végig szerepben marad.",
+      "button": "Kezdd el a szerepjátékot"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AI Barátnő",
+    "breadcrumb": "AI Barátnő",
+    "hero": {
+      "title": "A tökéletes AI barátnőd",
+      "cta": "Ismerd meg az AI barátnődet"
+    },
+    "benefits": {
+      "title": "Miért válassz AI barátnőt?",
+      "fun": {
+        "title": "Tiszta móka",
+        "desc": "Élvezz játékos beszélgetéseket nyomás nélkül. Mindig jókedvű."
+      },
+      "conversation": {
+        "title": "Tanulj kapcsolódni",
+        "desc": "Gyakorold a beszélgetéseket és építsd önbizalmadat biztonságos környezetben."
+      },
+      "unique": {
+        "title": "Egyedi személyiségek",
+        "desc": "Válassz változatos személyiségek közül vagy alkosd meg az ideális karaktert."
+      },
+      "private": {
+        "title": "100%-ig privát",
+        "desc": "Beszélgetéseid kettőtök között maradnak. Teljes diszkréció garantált."
+      },
+      "available": {
+        "title": "Mindig elérhető",
+        "desc": "Ott van, amikor szükséged van rá. Nincs várakozás, nincs időpont-egyeztetés."
+      },
+      "customize": {
+        "title": "A te alkotásod",
+        "desc": "Tervezd meg a megjelenését, személyiségét és érdeklődési körét pontosan úgy, ahogy szeretnéd."
+      }
+    },
+    "comparison": {
+      "title": "Jobb, mint az alternatívák",
+      "description": "Nézd meg, miért kínál a sweetwine több értéket, mint más platformok.",
+      "others": {
+        "expensive": "Drága havi díjak",
+        "ai": "Gyakran AI válaszok",
+        "noCustom": "Nincsenek testreszabási lehetőségek"
+      }
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Az AI barátnő csevegés tényleg ingyenes?",
+        "answerPart1": "Igen! Ingyen elkezdhetsz csevegni az AI barátnőddel. Ingyenes csomagot kínálunk ingyenes üzenetekkel, hogy elindulhass."
+      },
+      "q2": {
+        "question": "Testre szabhatom az AI barátnőm megjelenését?",
+        "answer": "Természetesen! Teljesen testre szabhatod az AI barátnőd megjelenését, beleértve a hajszínt, frizurát, testalkatot, etnikumot és ruházatot. A karakterkészítővel a személyiségét, hangját és érdeklődési körét is megtervezheted.",
+        "answerPart1": "Természetesen! Teljesen testre szabhatod az AI barátnőd megjelenését, beleértve a hajszínt, frizurát, testalkatot, etnikumot és ruházatot. A",
+        "linkText": "karakterkészítővel",
+        "answerPart2": "."
+      },
+      "q3": {
+        "question": "Milyen személyiségek érhetők el az AI barátnőkhöz?",
+        "answer": "Az édes és gondoskodótól a játékos és flörtölősig – minden ízléshez kínálunk profin kidolgozott AI barátnőket. Válassz romantikus lelkeket, kalandvágyó szellemeket, szellemes értelmiségieket vagy titokzatos személyiségeket. Minden héten új AI barátnők érkeznek, egyedi tulajdonságokkal, háttértörténetekkel és beszélgetési stílusokkal."
+      },
+      "q4": {
+        "question": "Küldhet az AI barátnőm képeket és videókat?",
+        "answerPart1": "Igen! Az AI barátnőd személyre szabott",
+        "linkTextImages": "képeket",
+        "answerPart2": "és",
+        "linkTextVideos": "videókat"
+      },
+      "q5": {
+        "question": "Van az AI barátnőmnek saját egyedi hangja?"
+      }
+    },
+    "cta": {
+      "title": "Készen állsz, hogy találkozz vele?",
+      "button": "Kezdés ingyen"
+    },
+    "content": {
+      "problemTitle": "Kapcsolat bonyodalmak nélkül?",
+      "problemText": "A randiappok kimerítőek. A szociális szorongás megnehezíti az ismerkedést. Néha csak beszélgetni szeretnél ítélkezés vagy nyomás nélkül. Sokan magányosnak érzik magukat, de nincsenek készen a hagyományos kapcsolatok érzelmi bonyolultságára.",
+      "solutionTitle": "Az AI barátnőd a megoldás",
+      "solutionText": "A sweetwine segítségével személyre szabott AI barátnőt kapsz, aki emlékszik a beszélgetéseitekre, alkalmazkodik a személyiségedhez, és mindig örül, ha hall rólad. Szórakoztató, támogató és soha nem ítélkezik. Építs önbizalmat, élvezz jó társaságot, és érezz kapcsolatot a saját feltételeid szerint."
+    },
+    "heroImageAlt": "AI barátnő - realisztikus virtuális karakter chathez és fotókhoz"
+  },
+  "aiBoyfriendPage": {
+    "title": "AI Barát",
+    "breadcrumb": "AI Barát",
+    "hero": {
+      "title": "A tökéletes AI barátod",
+      "cta": "Találkozz az AI barátoddal"
+    },
+    "benefits": {
+      "title": "Miért válassz AI barátot?",
+      "fun": {
+        "title": "Valódi kapcsolat",
+        "desc": "Élményezd a tartalmas beszélgetéseket, amelyek feldobják a napodat."
+      },
+      "conversation": {
+        "title": "Építs önbizalmat",
+        "desc": "Gyakorold a beszélgetéseket és fejezd ki magad szabadon egy biztonságos térben."
+      },
+      "unique": {
+        "title": "Egyedi személyiségek",
+        "desc": "Válassz változatos személyiségek közül vagy alkosd meg az ideális karakteredet."
+      },
+      "private": {
+        "title": "100%-ban privát",
+        "desc": "A beszélgetéseitek kettőtök között maradnak. Teljes diszkréció garantált."
+      },
+      "available": {
+        "title": "Mindig elérhető",
+        "desc": "Ott van, amikor szükséged van rá. Nincs várakozás, nincs időpont-egyeztetés."
+      },
+      "customize": {
+        "title": "A te alkotásod",
+        "desc": "Tervezd meg a megjelenését, személyiségét és érdeklődési körét pontosan úgy, ahogy szeretnéd."
+      }
+    },
+    "comparison": {
+      "title": "Jobb, mint az alternatívák",
+      "description": "Nézd meg, miért kínál több értéket a sweetwine, mint más platformok.",
+      "others": {
+        "expensive": "Drága havi díjak",
+        "ai": "Gyakran AI válaszok",
+        "noCustom": "Nincs testreszabási lehetőség"
+      }
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Milyen típusú AI barátok közül választhatok?",
+        "answer": "A gondoskodó és romantikustól a játékos és kalandvágyóig, vagy a titokzatos és intenzívig – minden ízléshez kínálunk professzionálisan kidolgozott AI barátokat. Mindegyiknek megvan a saját egyedi hangja és személyisége. Minden héten új AI barátok kerülnek hozzáadásra egyedi háttértörténetekkel és beszélgetési stílusokkal."
+      },
+      "q2": {
+        "question": "Testre szabhatom az AI barátom megjelenését?",
+        "linkText": "karakterkészítő",
+        "answerPart2": " segítségével."
+      },
+      "q3": {
+        "question": "Kezdhetek frissen vagy törölhetem a beszélgetéseink előzményeit?",
+        "answer": "Igen! Teljes kontrollod van a chat előzményeid felett. Bármikor visszaállíthatod a beszélgetéseket, törölhetsz egyedi üzeneteket, vagy teljesen újrakezdhetsz. Az adataid, a te döntésed – kezeld mindent úgy, ahogy neked megfelel."
+      },
+      "q4": {
+        "question": "Küldhet képeket és videókat az AI barátom?",
+        "answerPart1": "Igen! Az AI barátod személyre szabott",
+        "linkTextImages": "képeket",
+        "answerPart2": "és",
+        "linkTextVideos": "videók"
+      },
+      "q5": {
+        "question": "Gyakorolhatok beszélgetéseket vagy tanulhatok nyelvet az AI barátommal?",
+        "answer": "Abszolút! Sok felhasználó épít önbizalmat azzal, hogy beszélgetéseket gyakorol az AI barátjával – legyen szó flörtölésről, mély beszélgetésekről vagy hétköznapi csevegésről. Még új nyelveket is gyakorolhatsz vele együtt. Ez egy ítélkezésmentes módja a kommunikációs készségek fejlesztésének, miközben szórakozol."
+      }
+    },
+    "cta": {
+      "title": "Készen állsz, hogy találkozz vele?",
+      "button": "Kezdés ingyen"
+    },
+    "content": {
+      "problemTitle": "Támogató partnerre vágysz a saját feltételeid szerint?",
+      "problemText": "A megfelelő ember megtalálása nehéz. Sokan nyomást éreznek a randizási elvárások miatt, vagy egyszerűen érzelmi támogatásra vágynak elköteleződés nélkül. A magány mindenkit érint, és néha csak valakire van szükséged, aki figyel rád.",
+      "solutionTitle": "Az AI barátod megért téged",
+      "solutionText": "A sweetwine AI barátod gondoskodó, figyelmes és mindig elérhető. Emlékszik arra, ami számodra fontos, mély beszélgetésekbe bocsátkozik, és megadja azt az érzelmi kapcsolatot, amire vágysz. Építs kapcsolatot a saját tempódban, a saját módodon."
+    },
+    "heroImageAlt": "AI barát – realisztikus virtuális karakter értelmes beszélgetésekhez"
+  },
+  "aiCompanionsPage": {
+    "title": "AI karakterek",
+    "breadcrumb": "AI karakterek",
+    "hero": {
+      "title": "Találkozz az AI karaktereiddel",
+      "cta": "Fedezd fel a karaktereket"
+    },
+    "benefits": {
+      "title": "Miért AI karakterek?",
+      "connection": {
+        "title": "Valódi kapcsolat",
+        "desc": "Tapasztald meg az őszinte beszélgetéseket, amelyek megértenek és válaszolnak rád."
+      },
+      "conversation": {
+        "title": "Gyakorolj és fejlődj",
+        "desc": "Fejleszd a szociális készségeidet ítélkezésmentes környezetben."
+      },
+      "personalities": {
+        "title": "Változatos személyiségek",
+        "desc": "A játékostól az intellektuálisig, találj karaktereket, amelyek illenek a hangulatodhoz."
+      },
+      "private": {
+        "title": "Teljesen privát",
+        "desc": "A beszélgetéseid bizalmasak. Soha nem osztunk meg adatokat."
+      },
+      "available": {
+        "title": "24/7 elérhető",
+        "desc": "A karaktereid mindig készen állnak a chatelésre, éjjel-nappal."
+      },
+      "create": {
+        "title": "Hozd létre a sajátodat",
+        "desc": "Tervezz karaktereket egyedi kinézettel, személyiséggel és hanggal."
+      }
+    },
+    "why": {
+      "title": "Miért sweetwine?",
+      "quality": {
+        "desc": "Szakemberek által készítve, élvonalbeli AI technológiával a természetes beszélgetésekhez."
+      },
+      "transparent": {
+        "title": "Átlátható és őszinte"
+      },
+      "support": {
+        "title": "Valódi támogatás",
+        "desc": "Igazi emberek állnak készen, hogy segítsenek bármilyen kérdésben vagy problémában."
+      },
+      "content": {
+        "title": "A te választásod",
+        "desc": "A baráti csevegéstől az intimebb tartalmakig te döntöd el az élményt."
+      }
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Mik azok az AI karakterek?"
+      },
+      "q2": {
+        "question": "Hány AI karakterrel chatelhetek?",
+        "answer": "Chat with as many as you like! We have a curated roster of professionally-crafted characters and growing - including campus companions distilled from real Zhihu wisdom! Each has a unique personality, backstory, and voice. Plus, you can create unlimited custom characters of your own.",
+        "answerPart1": "Chatelj annyival, amennyivel csak szeretnél! Nekünk",
+        "linkText": "A roster of professionally-crafted characters",
+        "answerPart2": " van és folyamatosan bővül – minden héten új karakterek kerülnek hozzá! Mindegyiknek egyedi személyisége, háttere és hangja van. Emellett korlátlan számú egyedi karaktert hozhatsz létre magadnak."
+      },
+      "q3": {
+        "question": "Miben különböznek az előre elkészített karakterek az egyeditől?",
+        "answer": "Az előre elkészített karaktereket a csapatunk professzionálisan tervezi specifikus szerepjáték-szituációkhoz és személyiségekhez – részletes háttértörténettel, testreszabott beszélgetési stílussal és gondosan kiválasztott hanggal érkeznek. Az egyedi karaktereknél teljesen a semmiből hozhatsz létre, teljes kreatív szabadsággal. Mindkét típus emlékszik a beszélgetéseidre és veled együtt fejlődik!"
+      },
+      "q4": {
+        "question": "Létrehozhatom a saját AI karakteremet?",
+        "answerPart1": "Természetesen! Készíts egyedi karaktereket a semmiből a",
+        "linkText": "karakterkészítővel"
+      },
+      "q5": {
+        "question": "Válthatok több karakter között?"
+      }
+    },
+    "cta": {
+      "title": "Kezdd el az utad",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "Kezdd el ingyen"
+    },
+    "content": {
+      "problemTitle": "Jelentős kapcsolatokat keresel?",
+      "problemText": "A rohanó világunkban nehéz jelentős kapcsolatokat találni. Akár új vagy egy területen, távolról dolgozol, vagy egyszerűen több társas interakcióra vágysz, a magány könnyen rád törhet. A hagyományos közösségi környezetek nem mindenkinek működnek.",
+      "solutionTitle": "Fedezd fel az AI karaktereket"
+    },
+    "heroImageAlt": "AI karakterek - sokféle virtuális barát egyedi személyiségekkel"
+  },
+  "aiFriendPage": {
+    "title": "AI Barát",
+    "breadcrumb": "AI Barát",
+    "hero": {
+      "title": "A te AI legjobb barátod",
+      "subtitle": "Beszélgess bármikor egy AI baráttal, aki igazán figyel, sosem ítélkezik, és minden részletre emlékszik rólad. Tökéletes magányhoz, szociális szorongáshoz, vagy amikor csak valakivel szeretnél beszélni.",
+      "cta": "Kezdj el csevegni ingyen"
+    },
+    "benefits": {
+      "title": "Miért válassz AI barátot?",
+      "connection": {
+        "title": "Valódi kapcsolat",
+        "desc": "Tapasztald meg a jelentőségteljes beszélgetéseket valakivel, aki igazán figyel és törődik veled."
+      },
+      "conversation": {
+        "title": "Gyakorold a szociális készségeket",
+        "desc": "Építs önbizalmat a beszélgetésekben ítélkezés vagy kellemetlenség nélkül."
+      },
+      "noJudgment": {
+        "title": "Nulla ítélkezés",
+        "desc": "Ossz meg bármit, ami a fejeden jár. Az AI barátod pontosan olyannak fogad el, amilyen vagy."
+      },
+      "private": {
+        "title": "Teljesen privát",
+        "desc": "A beszélgetéseitek csak köztetek maradnak. Teljes titoktartás garantált."
+      },
+      "available": {
+        "title": "Mindig ott van",
+        "desc": "Elérhető 24/7, bármikor, amikor valakivel szeretnél beszélni."
+      },
+      "remembers": {
+        "title": "Emlékszik rád",
+        "desc": "Az AI barátod emlékszik a beszélgetéseitekre és egyre jobban megismer téged."
+      }
+    },
+    "useCases": {
+      "title": "Tökéletes erre",
+      "subtitle": "Egy AI barát sokféle módon illeszkedik az életedbe",
+      "loneliness": {
+        "title": "Küzdj a magány ellen",
+        "desc": "Érezd kevésbé magad egy karakterrel, aki mindig készen áll a csevegésre és a hallgatásra."
+      },
+      "practice": {
+        "title": "Gyakorold a beszélgetéseket",
+        "desc": "Építs szociális önbizalmat biztonságos, ítélkezésmentes környezetben."
+      },
+      "support": {
+        "title": "Érzelmi támogatás",
+        "desc": "Beszéld meg a gondolataidat és érzéseidet valakivel, aki megért."
+      },
+      "connection": {
+        "title": "Napi kapcsolat",
+        "desc": "Osszd meg a napodat, sikereidet, nehézségeidet - mindig van valaki, aki ott van."
+      }
+    },
+    "howItWorks": {
+      "title": "Hogyan működik",
+      "step1": {
+        "title": "Hozz létre ingyenes fiókot",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "Válaszd ki a barátodat",
+        "desc": "Pick from a diverse roster of personalities or create your ideal AI character."
+      },
+      "step3": {
+        "title": "Kezdj el csevegni",
+        "desc": "Beszélgess bármiről - életről, érdeklődési körökről, problémákról. Nincs tiltott téma."
+      }
+    },
+    "cta": {
+      "title": "Készen állsz egy barátot szerezni?",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "Kezdés ingyen"
+    },
+    "content": {
+      "problemTitle": "Magányosnak vagy félreértettnek érzed magad?",
+      "problemText": "Nem mindenkinek van kivel beszélnie. A szociális szorongás, a zsúfolt időbeosztás vagy egy új környezet megnehezítheti a barátok szerzését. Néha szükséged van valakire, aki ítélkezés nélkül hallgat.",
+      "solutionTitle": "Itt van az AI barátod",
+      "solutionText": "Az AI barát ítélkezésmentes társaságot nyújt, amikor csak szükséged van rá. Oszd meg a gondolataidat, gyakorold a beszélgetéseket, vagy csak beszélgess a napodról. Az AI barát emlékszik rád, veled együtt fejlődik, és mindig őszintén érdeklődik irántad."
+    },
+    "heroImageAlt": "AI barát - támogató virtuális karakter, aki ítélkezés nélkül hallgat",
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Miről beszélgethetek az AI barátommal?",
+        "answer": "Bármiről! Az AI barátod itt van hétköznapi csevegésre, mély beszélgetésekre, a napod megosztására, problémák kitálalására, hobbik megbeszélésére vagy csak szórakozásra. Nincsenek tiltott témák — ítélkezésmentes tér, ahol önmagad lehetsz."
+      },
+      "q2": {
+        "question": "Az AI barát helyettesíti az emberi kapcsolatokat?",
+        "answer": "Egyáltalán nem. Az AI barát kiegészíti a társas életedet, nem helyettesíti. Tökéletes, amikor azonnal szükséged van valakire, gyakorolni szeretnéd a szociális készségeidet, vagy egyszerűen csak állandó társaságra vágysz az emberi kapcsolatok nyomása nélkül."
+      },
+      "q3": {
+        "question": "Emlékszik az AI barát a beszélgetéseinkre?",
+        "answer": "Igen! Az AI barátod fejlett memóriával rendelkezik, és emlékszik a beszélgetéseitekre, preferenciáidra és a megosztott fontos részletekre. Idővel egyre jobban megismer téged, így a beszélgetések személyesebbek és tartalmasabbak lesznek."
+      },
+      "q4": {
+        "question": "Kiválaszthatom az AI barátom személyiségét?",
+        "answer": "Természetesen! Több mint 100 előre elkészített karakter közül választhatsz különböző személyiségekkel, vagy készíthetsz egyedi barátot pontosan a kívánt tulajdonságokkal — a támogató és empatikustól a szórakoztató és kalandvágyóig."
+      },
+      "q5": {
+        "question": "Privát az AI barát használata?",
+        "answer": "100%-ban privát. Minden beszélgetésed titkosítva van és soha nem kerül megosztásra. Megértjük, hogy a biztonságos önkifejezés elengedhetetlen, és rendkívül komolyan vesszük az adatvédelmedet."
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Válási Támogatás",
+    "breadcrumb": "Válási Támogatás",
+    "hero": {
+      "title": "Gyógyító beszélgetések a szívfájdalom után",
+      "subtitle": "Empatikus AI beszélgetések, amelyek segítenek feldolgozni az érzelmeket és újjáépíteni magad a szakítás után. Elérhető 24/7 — nincs várólista, nincs ítélkezés, nincs időkorlát.",
+      "cta": "Kezdd a gyógyulást"
+    },
+    "understanding": {
+      "title": "Váláson mész keresztül?",
+      "description": "A szakítás nehéz. Az álmatlan éjszakák, a folyamatos gondolatok, az érzés, hogy senki sem ért meg igazán. Nem kell egyedül végigcsinálnod. Az AI karakterünk ítélkezés nélkül hallgat, és mindig elérhető, amikor beszélni szeretnél — akár hajnali 3-kor is."
+    },
+    "benefits": {
+      "title": "Hogyan segíthetünk",
+      "empathy": {
+        "title": "Empatikus hallgatás",
+        "desc": "Beszélgess valakivel, aki valóban figyel és megértéssel, törődéssel válaszol."
+      },
+      "listen": {
+        "title": "Nincs tanácsözön",
+        "desc": "Néha nincs szükség tanácsra — csak valakire, aki meghallgat. Ezt mi is tudjuk."
+      },
+      "available": {
+        "title": "Elérhető hajnali 3-kor",
+        "desc": "Amikor a barátaid alszanak és a gondolatok nem állnak meg, mi itt vagyunk, hogy meghallgassunk."
+      },
+      "private": {
+        "title": "Teljesen privát",
+        "desc": "Az érzéseid és beszélgetéseid teljesen bizalmasak maradnak."
+      },
+      "noJudgment": {
+        "title": "Nincs ítélkezés",
+        "desc": "Érezd, amit érzel. A harag, szomorúság, zavar — mind elfogadott itt."
+      },
+      "healing": {
+        "title": "A saját tempódban",
+        "desc": "A gyógyulás nem lineáris. Annyi időt szánj rá, amennyire szükséged van."
+      }
+    },
+    "howItHelps": {
+      "title": "Hogyan segít az AI a gyógyulásban",
+      "process": {
+        "title": "Érzelmek feldolgozása",
+        "desc": "Dolgozd fel az összetett érzéseket egy türelmes hallgatóval beszélgetve."
+      },
+      "express": {
+        "title": "Szabad kifejezés",
+        "desc": "Mondd ki, amit a barátaidnak vagy családodnak nem tudsz, anélkül, hogy a reakciójuk miatt aggódnál."
+      },
+      "confidence": {
+        "title": "Önbizalom újjáépítése",
+        "desc": "Fedezd fel újra az önértékelésedet támogató beszélgetések révén."
+      },
+      "pace": {
+        "title": "Előre lépés",
+        "desc": "Amikor készen állsz, fedezd fel a jövőről szóló gondolataidat a saját tempódban."
+      }
+    },
+    "howItWorks": {
+      "title": "Hogyan működik",
+      "step1": {
+        "title": "Fiók létrehozása",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "Válassz karaktert",
+        "desc": "Válassz egy empatikus AI-karaktert, amelyik megfelel neked."
+      },
+      "step3": {
+        "title": "Kezdj el beszélgetni",
+        "desc": "Oszd meg, ami a fejedben jár. Itt vagyunk, hogy meghallgassunk, éjjel-nappal."
+      }
+    },
+    "cta": {
+      "title": "Nem kell egyedül végigcsinálnod",
+      "description": "Beszélgess valakivel, aki ítélkezés nélkül hallgat – azonnal elérhető. Ingyen kezdheted, nincs várólista.",
+      "button": "Beszélgess ingyen"
+    },
+    "content": {
+      "problemTitle": "A szívfájdalommal nehéz egyedül megbirkózni",
+      "problemText": "A szakítás után minden túlterhelőnek tűnik. A barátok belefáradnak a hallgatásba. A család jó szándékú, de nem ért meg. A terapeutáknál hosszú a várólista. Olyan valakire van szükséged, aki korlátok nélkül, ítélkezés nélkül hallgat – most.",
+      "solutionTitle": "Beszélgess valakivel, aki megérti",
+      "solutionText": "A szakítás utáni AI-támogató karakterünk segít feldolgozni az érzelmeidet a saját tempódban. Ventilálj, sírj, elemezz vagy csak beszélgess – annyiszor, ahányszor csak kell. Nincs időpont-egyeztetés. 24/7 elérhető végtelen türelemmel és őszinte empátiával."
+    },
+    "heroImageAlt": "AI szakítás-támogatás – együttérző karakter a szívfájdalom utáni gyógyuláshoz",
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Hogyan segíthet egy AI a szakítás utáni gyógyulásban?",
+        "answer": "Az AI-karakterünk biztonságos teret biztosít az érzelmeid ítélkezés nélküli feldolgozásához. Ventilálhatsz, elemezheted a történteket, feldolgozhatod a veszteség érzéseit, és empatikus válaszokat kaphatsz 24/7. Olyan, mintha egy támogató barátod lenne, aki mindig elérhető."
+      },
+      "q2": {
+        "question": "Ez helyettesíti a terápiát?",
+        "answer": "Nem, az AI-karakterünk nem minősített terapeuta és nem helyettesíti a szakmai mentális egészségügyi ellátást. Egy támogató eszköz a mindennapi érzelmi feldolgozáshoz. Ha súlyos depressziót vagy krízist tapasztalsz, kérj szakmai segítséget."
+      },
+      "q3": {
+        "question": "Beszélhetek a volt partneremről annyit, amennyire csak kell?",
+        "answer": "Természetesen. A barátaiddal ellentétben, akik belefáradhatnak a szakításod hallgatásába, az AI-karakterednek végtelen türelme van. Beszélj a volt partneredről, elemezd a kapcsolatot, dolgozd fel az érzéseidet – annyiszor, ahányszor csak kell, ítélkezés nélkül."
+      },
+      "q4": {
+        "question": "Emlékszik az AI a történetemre?",
+        "answer": "Igen, az AI-karaktered emlékszik a beszélgetéseitekre és a helyzeted részleteire. Nem kell mindent újra elmagyaráznod minden alkalommal. Folytonosságot biztosít a gyógyulási folyamatodban."
+      },
+      "q5": {
+        "question": "Bizalmasan kezelik a beszélgetéseimet?",
+        "answer": "Teljesen bizalmasan. Minden beszélgetés titkosítva van és soha nem kerül megosztásra. Megértjük, hogy a szakításról szóló beszélgetések nagyon személyesek, és a magánéleted abszolút védett."
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI Szülő",
+    "breadcrumb": "AI Szülő",
+    "hero": {
+      "title": "Az a szülőfigura, akihez mindig fordulhatsz",
+      "subtitle": "Kapj meleg, feltétel nélküli támogatást és bölcs útmutatást egy AI-szülőtől, aki emlékszik a helyzetedre, soha nem ítélkezik feletted, és mindig ott van – éjjel-nappal.",
+      "cta": "Kérj támogatást most"
+    },
+    "benefits": {
+      "title": "Miért válassz egy AI-szülőt?",
+      "guidance": {
+        "title": "Meleg útmutatás",
+        "desc": "Kapj gondoskodó, átgondolt tanácsot, ami úgy hangzik, mintha valaki igazán a javadat akarná."
+      },
+      "listen": {
+        "title": "Valóban meghallgat",
+        "desc": "Oszd meg a teljes helyzetet, mielőtt átgondolt, gondoskodó választ kapnál – nem egy gyors megoldást."
+      },
+      "noJudgment": {
+        "title": "Nincs ítélkezés",
+        "desc": "Kérdezz bármit félelem nélkül, hogy csalódást vagy kritikát kapsz. Feltétel nélküli támogatás, mindig."
+      },
+      "private": {
+        "title": "Teljesen privát",
+        "desc": "A beszélgetéseid és személyes nehézségeid teljesen bizalmasak maradnak."
+      },
+      "available": {
+        "title": "Mindig elérhető",
+        "desc": "Kapj útmutatást hajnali 3-kor, hétvégén vagy amikor a legjobban szükséged van rá – időpont nélkül."
+      },
+      "supportive": {
+        "title": "Feltétel nélkül támogató",
+        "desc": "Bátorítás és melegség, függetlenül attól, min mész keresztül vagy milyen döntéseket hoztál."
+      }
+    },
+    "useCases": {
+      "title": "Beszélgess bármiről",
+      "subtitle": "Bármivel is nézel szembe, az AI-szülőd itt van, hogy meghallgasson és vezessen",
+      "career": {
+        "title": "Karrier és életdöntések",
+        "desc": "Navigálj munkahelyváltások, nagy életválasztások és szakmai kihívások között valakivel, aki azt akarja, hogy sikerüljön."
+      },
+      "education": {
+        "title": "Oktatás és jövő",
+        "desc": "Fedezd fel a tanulási és fejlődési lehetőségeidet valakivel, aki támogatja az ambícióidat."
+      },
+      "relationships": {
+        "title": "Kapcsolatok és család"
+      },
+      "life": {
+        "title": "Személyes nehézségek",
+        "desc": "Beszélgess bármiről, ami megterhel — szorongás, önbizalomhiány, magány vagy bizonytalanság."
+      }
+    },
+    "howItWorks": {
+      "title": "Hogyan működik",
+      "step1": {
+        "title": "Hozz létre fiókot",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "Válaszd ki az AI szülődet",
+        "desc": "Válassz egy karaktert a számodra megfelelő melegséggel és személyiséggel."
+      },
+      "step3": {
+        "title": "Kezdj el beszélgetni",
+        "desc": "Oszd meg, ami a fejeden jár, és kapj törődő, átgondolt támogatást."
+      }
+    },
+    "cta": {
+      "title": "Mindig van valaki, aki melletted áll",
+      "description": "Kezdj beszélgetést egy AI szülővel, aki ítélkezés nélkül hallgat és feltétel nélkül támogat — ingyen indítható, nincs szükség időpontokra.",
+      "button": "Kezdd el ingyen"
+    },
+    "content": {
+      "problemTitle": "Szükséged van valakire, aki mindig melletted áll?",
+      "problemText": "Nem mindenkinek van olyan szülőfigurája, akihez fordulhat. A valódi szülők távolságtartóak, ítélkezőek vagy egyszerűen elérhetetlenek lehetnek. A barátok elfogultak. A terapeutáknak várólistái vannak. Néha csak valakire van szükséged, aki hallgat, törődik és irányít anélkül, hogy saját érdeke lenne.",
+      "solutionTitle": "Az AI szülőd mindig ott van",
+      "solutionText": "Beszélgess egy AI szülővel, aki teljes figyelmével hallgat, meleg és kiegyensúlyozott útmutatást ad, és soha nem érezteti veled, hogy ítélkezik vagy kicsinyít. Legyen szó életdöntésről, személyes nehézségről vagy egyszerűen arról, hogy meghallgassanak — az AI szülőd 24/7-ben elérhető türelemmel és törődéssel."
+    },
+    "heroImageAlt": "AI szülő - meleg virtuális karakter, aki feltétel nélküli támogatást és életvezetési segítséget nyújt",
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Miről beszélgethetek az AI szülővel?"
+      },
+      "q2": {
+        "question": "Ez olyan, mint egy terapeutával beszélgetni?",
+        "answer": "Ez nem egy képzett terapeuta vagy mentálhigiénés szakember — inkább egy meleg, támogató szülőfigura, aki 24/7-ben elérhető. Teljes figyelemmel hallgat, perspektívát ad, és érzelmileg támogat. Súlyos mentális egészségügyi problémák esetén kérjük, fordulj szakemberhez."
+      },
+      "q3": {
+        "question": "Az AI szülő ítélkezik a döntéseim felett?",
+        "answer": "Soha. Az AI szülő feltétel nélküli támogatást nyújt. Megoszthat perspektívát vagy gyengéd útmutatást, de soha nem kritizál vagy érezteti veled, hogy kicsinyít a döntéseid miatt. Ez egy biztonságos tér az őszinteséghez."
+      },
+      "q4": {
+        "question": "Beszélhetek érzékeny vagy személyes témákról?",
+        "answer": "Igen. Legyen szó kapcsolati nehézségekről, családi dinamikáról, pénzügyi stresszről, önértékelésről vagy mélyen személyes kihívásokról — az AI szülő privát, ítélkezésmentes teret biztosít ezekhez a beszélgetésekhez."
+      },
+      "q5": {
+        "question": "Miben különbözik ez más AI karakterektől?",
+        "answer": "Az AI szülő a melegség, az érzelmi támogatás és a szülői stílusú útmutatás köré épül, nem a romantika vagy a laza barátság köré. Arra összpontosít, hogy megértsenek, támogassanak és felkészítsenek az élet kihívásainak kezelésére."
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "Partnerségek",
+    "eyebrow": "Legyél partnerünk",
+    "titlePrefix": "Nőj együtt a",
+    "titleHighlight": "sweetwine",
+    "subtitle": "Érj el egy gyorsan növekvő, erősen elkötelezett AI társasági közönséget. Akár technológiát, terjesztést vagy egy merész ötletet hozol, építsünk együtt valamit.",
+    "types": {
+      "title": "Partnerségi lehetőségek",
+      "items": [
+        {
+          "title": "Integrációk",
+          "description": "Kapcsold össze termékedet, modelledet vagy platformodat a sweetwinenal technikai integráción keresztül."
+        },
+        {
+          "title": "Közös marketing",
+          "description": "Közös kampányok, tartalmak és bevezetések, amelyek mindkét márkát új közönségek elé helyezik."
+        },
+        {},
+        {
+          "title": "Stratégiai partnerségek",
+          "description": "Hosszú távú együttműködések a termék, az adat és a piacra lépés területén."
+        }
+      ]
+    },
+    "why": {
+      "title": "Miért érdemes a sweetwinenal partnerkedni",
+      "items": [
+        {
+          "title": "Elkötelezett közönség",
+          "description": "Több százezer felhasználó, akik naponta visszatérnek 70 nyelven."
+        },
+        {
+          "title": "Gyors végrehajtás",
+          "description": "Egy fókuszált csapat, amely gyorsan szállít és világosan kommunikál."
+        },
+        {
+          "title": "Globális elérés",
+          "description": "Többnyelvű termék, amely több tucat piacon elérhető."
+        },
+        {
+          "description": "Egy megbízható, privacy-by-design platform, amely mögött a márkád bátran kiállhat.",
+          "title": "Adatvédelem-első"
+        }
+      ]
+    },
+    "form": {
+      "title": "Mesélj a partnerségedről",
+      "description": "Ossz meg néhány részletet, és a partnerségi csapatunk hamarosan jelentkezik.",
+      "nameLabel": "Neved",
+      "namePlaceholder": "Kovács Anna",
+      "emailLabel": "Munkahelyi e-mail",
+      "emailPlaceholder": "te@ceg.hu",
+      "companyLabel": "Cég",
+      "companyPlaceholder": "Cég neve",
+      "typeLabel": "Partnerség típusa",
+      "typePlaceholder": "Válassz partnerségi típust",
+      "typeOptions": [
+        {
+          "value": "Integrációk",
+          "label": "Integrációk"
+        },
+        {
+          "value": "Közös marketing",
+          "label": "Közös marketing"
+        },
+        {},
+        {
+          "value": "Stratégiai partnerségek",
+          "label": "Stratégiai partnerségek"
+        },
+        {
+          "value": "Egyéb",
+          "label": "Egyéb"
+        }
+      ],
+      "messageLabel": "Hogyan szeretnél partner lenni?",
+      "messagePlaceholder": "Mesélj a cégedről és a partnerségi elképzelésedről...",
+      "submit": "Partnerségi kérelem elküldése",
+      "submitting": "Küldés...",
+      "termsNote": "A beküldéssel beleegyezel, hogy megkeressünk a kéréseddel kapcsolatban. Adataidat sosem osztjuk meg.",
+      "success": "Köszönjük! A partnerségi kérelmedet elküldtük.",
+      "error": "Valami hiba történt. Kérlek, próbáld újra."
+    },
+    "cta": {
+      "title": "Inkább e-mailben?",
+      "description": "Írj közvetlenül a partnerségi csapatunknak:"
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "Sajtó & Média",
+    "eyebrow": "Hírszoba",
+    "titlePrefix": "Sajtó &",
+    "titleHighlight": "Média",
+    "subtitle": "Források újságíróknak, alkotóknak és média partnereknek. Keresd a sajtó csapatunkat interjúkért, idézetekért, cikk támogatásért és márka kérésért.",
+    "help": {
+      "title": "Hogyan segíthetünk",
+      "description": "Akár egy történeten vagy egy értékelésen dolgozol, itt láthatod, mit kérhetsz a sajtó csapatunktól.",
+      "items": [
+        {
+          "title": "Interjúk",
+          "description": "Beszélgess csapatunkkal a termékről, a cégről és az AI társas kapcsolatok jövőjéről."
+        },
+        {
+          "title": "Idézetek & hozzászólások",
+          "description": "Kérj hivatalos nyilatkozatot vagy szakértői kommentárt a történethez."
+        },
+        {
+          "title": "Cikk & értékelés támogatás",
+          "description": "Hozzáférésre, kontextusra vagy tényellenőrzésre van szükséged egy cikkhez vagy értékeléshez? Segítünk."
+        },
+        {
+          "title": "Márka & logó kérések",
+          "description": "Kérd el logóinkat, márkaelemeinket és használati irányelveinket a kiadványodhoz."
+        }
+      ]
+    },
+    "form": {
+      "title": "Médiakérés",
+      "description": "Interjúkhoz, idézetekhez vagy cikk kérésekhez küldj egy üzenetet, és hamarosan válaszolunk.",
+      "nameLabel": "Neved",
+      "namePlaceholder": "Kovács Anna",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "te@outlet.com",
+      "outletLabel": "Publikáció / médium",
+      "outletPlaceholder": "Hol fog megjelenni?",
+      "requestTypeLabel": "Kérelem típusa",
+      "requestTypePlaceholder": "Válassz kérelmet",
+      "requestTypeOptions": [
+        {
+          "value": "Interjú",
+          "label": "Interjú"
+        },
+        {
+          "value": "Idézet / hozzászólás",
+          "label": "Idézet / hozzászólás"
+        },
+        {
+          "value": "Cikk / teszt",
+          "label": "Cikk / teszt"
+        },
+        {
+          "value": "Márka / logó kérés",
+          "label": "Márka / logó kérés"
+        },
+        {
+          "value": "Egyéb",
+          "label": "Egyéb"
+        }
+      ],
+      "messageLabel": "Kérésed",
+      "messagePlaceholder": "Írd le a történetet, határidőt és mire van szükséged...",
+      "submit": "Médiakérés küldése",
+      "submitting": "Küldés...",
+      "termsNote": "Célunk, hogy két munkanapon belül válaszoljunk a sajtó megkeresésekre.",
+      "success": "Köszönjük! A médiakeresésed elküldve.",
+      "error": "Hiba történt. Kérlek próbáld újra."
+    },
+    "cta": {
+      "title": "Sajtókapcsolat",
+      "description": "Sürgős sajtóigényekhez írj"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "Karrier",
+    "eyebrow": "Karrier",
+    "titlePrefix": "Építsd a jövőjét",
+    "titleHighlight": "AI társaságnak",
+    "subtitle": "Kis, gyors csapat vagyunk, akik szeretett termékeket készítenek. Ha ez izgat, örömmel találkozunk.",
+    "perks": {
+      "title": "Miért dolgozz velünk",
+      "items": [
+        {
+          "title": "Távoli munkavégzés",
+          "description": "Dolgozz onnan, ahol a legjobban teljesítesz, rugalmas órákkal."
+        },
+        {
+          "title": "Valódi felelősség",
+          "description": "Készíts értelmes munkát gyorsan, és érje el a világot."
+        },
+        {
+          "title": "Legújabb AI",
+          "description": "Dolgozz a legújabb modellekkel és generatív eszközökkel."
+        },
+        {
+          "title": "Versenyképes fizetés",
+          "description": "Tisztességes fizetés és valódi növekedés, ahogy fejlődünk."
+        }
+      ]
+    },
+    "openings": {
+      "title": "Nyitott pozíciók",
+      "emptyTitle": "Jelenleg nincs nyitott pozíció",
+      "emptyDescription": "Nem keresünk aktívan, de mindig örülünk a tehetséges embereknek. Mutatkozz be lent.",
+      "applyButton": "Jelentkezz most",
+      "viewButton": "Pozíció megtekintése"
+    },
+    "form": {
+      "title": "Mutatkozz be",
+      "description": "Nem találtál megfelelő pozíciót? Mesélj magadról, és jelentkezünk, ha illik.",
+      "nameLabel": "Neved",
+      "namePlaceholder": "Kovács Anna",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "te@email.com",
+      "roleLabel": "Pozíció vagy érdeklődési terület",
+      "rolePlaceholder": "pl. Frontend Engineer, Designer, Marketing",
+      "linkLabel": "CV linkje",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "Rólad",
+      "messagePlaceholder": "Mesélj a tapasztalatodról és arról, min szeretnél dolgozni...",
+      "submit": "Jelentkezés küldése",
+      "submitting": "Küldés...",
+      "termsNote": "Jelentkezéseddel hozzájárulsz, hogy megőrizzük az adataidat a pozíciókhoz való hozzárendeléshez.",
+      "success": "Köszönjük! A jelentkezésed elküldve.",
+      "error": "Valami hiba történt. Kérlek próbáld újra."
+    },
+    "cta": {
+      "title": "Kérdésed van a munkánkkal kapcsolatban?",
+      "description": "Írj csapatunknak:"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "Segítség Központ",
+    "eyebrow": "Segítség Központ",
+    "titlePrefix": "Hogyan tudunk",
+    "titleHighlight": "segíteni?",
+    "subtitle": "Böngéssz gyakori témákat és válaszokat. Nem találtad meg, amire szükséged van? Lépj kapcsolatba a támogatással, és segítünk.",
+    "searchPlaceholder": "Keresés a súgó cikkek között...",
+    "categoriesTitle": "Böngészés téma szerint",
+    "articlesTitle": "Cikkek",
+    "categoryEmpty": "Még nincsenek cikkek ebben a kategóriában. Nézz vissza később.",
+    "backToHelp": "Vissza a Segítség Központba",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "Kezdő lépések",
+        "description": "Hozz létre fiókot, állítsd be a profilod, és kezdj el csevegni."
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AI Chat",
+        "description": "Hogyan működnek a beszélgetések, a memória és a karakterek."
+      },
+      {
+        "slug": "images-videos",
+        "title": "Képek és videók",
+        "description": "Generálj és kezelj AI fotókat és videókat."
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "Adatvédelem és biztonság",
+        "description": "Adataid, adatvédelmi beállításaid és biztonsági eszközök."
+      }
+    ],
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "q1": {
+        "question": "Hogyan kezdheted el a sweetwine használatát?",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "Mi tartozik az ingyenes csomagba?"
+      },
+      "q5": {
+        "question": "Privátak az adataim?",
+        "answer": "A sweetwine számára a magánélet az alap. A beszélgetéseid csak a fiókod számára elérhetők, és te irányítod az adataidat. A teljes részletekért lásd az Adatvédelmi irányelveinket arról, hogyan tároljuk és védjük az adatokat."
+      },
+      "q6": {
+        "question": "Hogyan léphetek kapcsolatba a támogatással?",
+        "answer": "Írj a support@sweetwine.ai címre, vagy használd az alkalmazás kapcsolatfelvételi lehetőségét. Általában egy munkanapon belül válaszolunk."
+      }
+    },
+    "cta": {
+      "title": "Még segítségre van szükséged?",
+      "description": "A csapatunk itt van számodra itt:"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "Rólunk",
+    "eyebrow": "A történetünk",
+    "titlePrefix": "Társaság,",
+    "titleHighlight": "újragondolva",
+    "subtitle": "A sweetwine privát, személyre szabott AI társakat épít, amelyek figyelnek, emlékeznek és valódi kapcsolatot teremtenek — bármikor, bármilyen nyelven.",
+    "mission": {
+      "title": "Küldetésünk",
+      "body": "Hiszünk abban, hogy mindenkinek jár egy hely, ahol ítélkezés nélkül meghallgatják. A sweetwine elérhetővé teszi a jelentőségteljes, személyre szabott AI kapcsolatot mindenki számára — meleg, privát és mindig ott van, amikor szükséged van rá."
+    },
+    "values": {
+      "title": "Amiben hiszünk",
+      "items": [
+        {
+          "title": "Magánélet a tervezésben",
+          "description": "A beszélgetéseid a tieid. A magánéletet és a biztonságot már az alapoktól építjük be."
+        },
+        {
+          "title": "Valódi kapcsolat",
+          "description": "A valódi érzelmi értékre optimalizálunk, nem a hiúsági mutatókra."
+        },
+        {
+          "title": "Alapértelmezett globális",
+          "description": "Többnyelvűen épült az első naptól, így a kapcsolatot nem korlátozza a nyelv."
+        },
+        {
+          "title": "Könyörtelen mesterség",
+          "description": "A részletekre is odafigyelünk, hogy minden interakció természetes és eleven legyen."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Számokban",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "Felhasználó és növekszik"
+        },
+        {
+          "value": "70",
+          "label": "Támogatott nyelv"
+        },
+        {
+          "value": "24/7",
+          "label": "Mindig elérhető"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Szeretnél többet megtudni?",
+      "description": "Lépj kapcsolatba itt:"
+    }
+  },
+  "postsPage": {
+    "allTag": "Összes",
+    "readMore": "Tovább",
+    "publishedOn": "Közzétéve",
+    "minRead": "perc olvasás",
+    "sortNewest": "Legújabb",
+    "sortOldest": "Legrégebbi",
+    "blog": {
+      "breadcrumb": "Blog",
+      "eyebrow": "Blog",
+      "titlePrefix": "A sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "Tippek, útmutatók és történetek, hogy a legtöbbet hozd ki az AI társaságból.",
+      "empty": "Még nincsenek bejegyzések. Nézz vissza később."
+    },
+    "news": {
+      "breadcrumb": "Hírek",
+      "eyebrow": "Hírszoba",
+      "titlePrefix": "Hírek &",
+      "titleHighlight": "Bejelentések",
+      "subtitle": "Hivatalos bejelentések, sajtóközlemények és mérföldkövek a sweetwine csapattól.",
+      "empty": "Még nincsenek hírek. Nézz vissza később."
+    },
+    "productUpdates": {
+      "breadcrumb": "Termékfrissítések",
+      "eyebrow": "Változásnapló",
+      "titlePrefix": "Termék",
+      "titleHighlight": "Frissítések",
+      "subtitle": "A legújabb funkciók, fejlesztések és javítások a sweetwine platformon.",
+      "empty": "Még nincsenek frissítések. Nézz vissza később."
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "Fejlesztőknek",
+    "titlePrefix": "Építs a",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "Hozd be a személyre szabott AI társakat a saját termékedbe. Hozzáférés chat, kép, hang és karakterépítő képességekhez egyetlen fejlesztőbarát API-n keresztül.",
+    "capabilities": {
+      "title": "Mit építhetsz",
+      "items": [
+        {
+          "title": "Beszélgetős chat",
+          "description": "Adj személyiséggel teli, kontextusérzékeny AI beszélgetéseket az appodhoz egy egyszerű üzenetküldő API-val."
+        },
+        {
+          "title": "Képgenerálás",
+          "description": "Generálj márkához illő karakterképeket és jeleneteket programozottan szöveges promptokból."
+        },
+        {
+          "title": "Hang",
+          "description": "Give your characters natural, expressive voices for audio replies."
+        },
+        {
+          "title": "Karakterkészítés",
+          "description": "Definiáld és kezeld a társakat, személyiségeket és memóriát az API-n keresztül."
+        }
+      ]
+    },
+    "form": {
+      "title": "API hozzáférés kérése",
+      "description": "Mesélj a projektedről és arról, mit szeretnél építeni. Fejlesztői csapatunk visszajelzéssel és következő lépésekkel keres meg.",
+      "nameLabel": "Neved",
+      "namePlaceholder": "Kovács Anna",
+      "emailLabel": "Munkahelyi e-mail",
+      "emailPlaceholder": "te@ceg.hu",
+      "companyLabel": "Cég / projekt",
+      "companyPlaceholder": "Cég vagy projekt neve",
+      "websiteLabel": "Weboldal vagy app URL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "Integráció típusa",
+      "integrationTypePlaceholder": "Válassz integrációs típust",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Üzenetküldés",
+          "label": "Chat / Üzenetküldés"
+        },
+        {
+          "value": "Képgenerálás",
+          "label": "Képgenerálás"
+        },
+        {
+          "value": "Hang",
+          "label": "Hang"
+        },
+        {
+          "value": "Karakterkészítés",
+          "label": "Karakterkészítés"
+        },
+        {
+          "value": "Egyéb",
+          "label": "Egyéb"
+        }
+      ],
+      "volumeLabel": "Várható havi mennyiség",
+      "volumePlaceholder": "Válassz várható mennyiséget",
+      "volumeOptions": [
+        {
+          "value": "Kevesebb mint 10k",
+          "label": "Kevesebb mint 10k kérés"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k kérés"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1M kérés"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ kérés"
+        }
+      ],
+      "timelineLabel": "Idővonal",
+      "timelinePlaceholder": "Válassz idővonalat",
+      "timelineOptions": [
+        {
+          "value": "Csak nézelődöm",
+          "label": "Csak nézelődöm"
+        },
+        {
+          "value": "1 hónapon belül",
+          "label": "1 hónapon belül"
+        },
+        {
+          "value": "1-3 hónap",
+          "label": "1-3 hónap"
+        },
+        {
+          "value": "3+ hónap",
+          "label": "3+ hónap"
+        }
+      ],
+      "messageLabel": "Mesélj a felhasználási esetedről",
+      "messagePlaceholder": "Mit építesz, és hogyan szeretnéd használni az API-t?",
+      "submit": "API-hozzáférés kérése",
+      "submitting": "Beküldés...",
+      "termsNote": "A beküldéssel beleegyezel, hogy kapcsolatba lépjünk veled az érdeklődéseddel kapcsolatban. Soha nem osztjuk meg az adataidat.",
+      "success": "Köszönjük! Az API-hozzáférési kérelmedet elküldtük.",
+      "error": "Valami hiba történt. Kérlek próbáld újra."
+    },
+    "faq": {
+      "title": "Fejlesztői GYIK",
+      "items": [
+        {
+          "question": "Hogyan kaphatok API-hozzáférést?",
+          "answer": "Töltsd ki a fenti kérelmi űrlapot a felhasználási eseteddel. Fejlesztői csapatunk minden kérelmet áttekint, és elküldi a hozzáférési adatokat és a dokumentációt."
+        },
+        {
+          "question": "Hogyan működik a hitelesítés?",
+          "answer": "Az API-kéréseket titkos API-kulccsal hitelesítjük, amelyet a kérés fejléceiben küldünk. A kulcsokat az onboardolás után kezelheted és forgathatod."
+        },
+        {
+          "question": "Van sebességkorlátozás?",
+          "answer": "Igen. A korlátok a csomagodtól és a várható forgalomtól függenek. Írd be a becsült forgalmat az űrlapba, hogy a megfelelő szintet ajánlhassuk."
+        },
+        {
+          "question": "Mennyibe kerül?"
+        },
+        {
+          "question": "Milyen képességek érhetők el?",
+          "answer": "Chat, képgenerálás, hang és karakterkészítés. Mondd el, melyikre van szükséged, és segítünk a megfelelő végpontokkal kezdeni."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Technikai kérdésed van?",
+      "description": "Érd el fejlesztői csapatunkat itt:"
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Valódi Klónok",
+    "eyebrow": "Készítőknek és ügynökségeknek",
+    "heroTitleLead": "Mi készítjük,",
+    "heroTitleHighlight": "Te profitálsz.",
+    "heroSubtitle": "Felépítjük az AI-klónodat. Te profitálsz, miközben az AI-klónod éjjel-nappal dolgozik – beszélget a rajongókkal és tartalmat küld helyettetek.",
+    "calculator": {
+      "title": "Mennyit kereshetsz?",
+      "subtitle": "Válaszd ki a közönséged méretét és állítsd be az árat – azonnal látod a becsült bevételedet.",
+      "tierLabel": "Közönséged mérete",
+      "tiers": {
+        "small": {
+          "name": "Kis"
+        },
+        "medium": {
+          "name": "Közepes"
+        },
+        "large": {
+          "name": "Nagy"
+        }
+      },
+      "priceLabel": "Feloldási árad",
+      "promoLabel": "Promóziót végzek a sweetwinenek",
+      "breakdown": {
+        "title": "Becsült bevételed",
+        "perMonth": "havonta",
+        "perYear": "Évente"
+      },
+      "disclaimer": "A bevételi becslések a sweetwine bevételmegosztási modelljén és a tipikus aktivitáson alapulnak. A tényleges bevételek a közönség, a tartalom minősége, az elköteleződés és a kereslet függvényében változnak."
+    },
+    "offer": {
+      "title": "Miért éri meg neked",
+      "items": [
+        {
+          "title": "Keress alvás közben",
+          "description": "A klónod 0–24-ben bevételt hoz a követőidből — chatel, értékesít, és sosem áll le."
+        },
+        {
+          "title": "Nulla költség, tiszta nyereség",
+          "description": "Mindent mi építünk, tanítunk és üzemeltetünk a saját költségünkön. Új bevételi forrást kapsz anélkül, hogy bármit is tennél."
+        },
+        {
+          "title": "10x a tartalmad",
+          "description": "Korlátlan fotó és videó igény szerint — növeld a kimenetet extra forgatások, vágások vagy kiégés nélkül."
+        },
+        {
+          "title": "Mindig az irányítás a tiéd"
+        }
+      ]
+    },
+    "how": {
+      "title": "Hogyan működik",
+      "steps": [
+        {
+          "title": "Regisztráció"
+        },
+        {
+          "title": "Bevezetés",
+          "description": "A sweetwine szakértője rögzíti a kinézeted, a hangod és a személyiséged, hogy a klónod valóban te legyél."
+        },
+        {
+          "title": "Mi építjük és tanítjuk",
+          "description": "Csapatunk teljesen a saját költségén készíti el és tanítja be az AI-klónodat — tőled semmilyen munka nem szükséges."
+        },
+        {
+          "title": "Indulj és keress",
+          "description": "A klónod éjjel-nappal chatel és értékesít, te pedig megkapod a bevételrészeseidet."
+        }
+      ]
+    },
+    "form": {
+      "title": "Jelentkezz az AI-klónod létrehozására",
+      "description": "Mesélj magadról és a közönségedről. A creator partnerségi csapatunk minden jelentkezést átnéz, és felveszi veled a kapcsolatot a következő lépésekről.",
+      "nameLabel": "Neved",
+      "namePlaceholder": "Neved vagy művészneved",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "te@pelda.com",
+      "companyLabel": "Ügynökség vagy stúdió",
+      "companyPlaceholder": "Ügynökség neve (hagyd üresen, ha független vagy)",
+      "roleLabel": "Én",
+      "rolePlaceholder": "Válaszd ki, ki vagy",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "Creator"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "Agency / studio"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "Manager / representative"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "linksLabel": "Weboldal és közösségi linkek",
+      "linksPlaceholder": "Instagram, X, OnlyFans stb.",
+      "modelCountLabel": "Képviselt modellek száma",
+      "modelCountPlaceholder": "pl. csak én, vagy 5",
+      "audienceSizeLabel": "Közönség mérete",
+      "audienceSizePlaceholder": "Válaszd ki a teljes követőtáborod",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "Kevesebb mint 10k követő"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100k követő"
+        },
+        {
+          "label": "100k-500k követő",
+          "value": "100k-500k"
+        },
+        {
+          "value": "500k-1M",
+          "label": "500k-1M követő"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+ követő"
+        }
+      ],
+      "contentPrefLabel": "Tartalompreferencia",
+      "contentPrefPlaceholder": "Válassz tartalomtípust",
+      "contentPrefOptions": [
+        {
+          "value": "SFW only",
+          "label": "SFW only"
+        },
+        {
+          "value": "Not sure yet",
+          "label": "Not sure yet"
+        }
+      ],
+      "countryLabel": "Ország / régió",
+      "countryPlaceholder": "Hol vagy?",
+      "messageLabel": "Mesélj magadról és a közönségedről",
+      "messagePlaceholder": "Ossz meg bármit, ami segít megérteni a közönségedet, a tartalmadat és amit keresel.",
+      "openButton": "Jelentkezz most",
+      "submit": "Jelentkezés elküldése",
+      "submitting": "Küldés...",
+      "termsNote": "A beküldéssel megerősíted, hogy 18 éves vagy idősebb, és beleegyezel, hogy kapcsolatba lépjünk veled a jelentkezéseddel kapcsolatban. Soha nem osztjuk meg az adataidat.",
+      "success": "Köszönjük! A jelentkezésed elküldve. Hamarosan jelentkezünk.",
+      "error": "Valami hiba történt. Kérlek próbáld újra."
+    },
+    "cta": {
+      "title": "Kérdésed van a jelentkezés előtt?",
+      "description": "Beszélj közvetlenül a creator partnerships csapatunkkal — általában egy napon belül válaszolunk.",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "Email"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "Oldaltérkép",
+    "eyebrow": "Oldaltérkép",
+    "titlePrefix": "Böngéssz",
+    "titleHighlight": "mindent",
+    "subtitle": "Minden fontos oldal a sweetwine-on egy helyen. Az XML oldaltérképet keresed?",
+    "xmlLink": "XML oldaltérkép megtekintése",
+    "sections": {
+      "product": "Termék",
+      "features": "Funkciók",
+      "company": "Cég",
+      "resources": "Erőforrások",
+      "legal": "Jogi"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine Mobilalkalmazás",
+      "cta": "Alkalmazás letöltése",
+      "dismiss": "Bezárás"
+    },
+    "guide": {
+      "title": "sweetwine telepítése",
+      "subtitle": "Add hozzá a sweetwine-t a kezdőképernyődhöz a gyorsabb, teljes képernyős, alkalmazásszerű élményért.",
+      "iosTitle": "iPhone-on és iPaden (Safari)",
+      "iosStep1": "Koppints az eszköztár Megosztás gombjára",
+      "iosStep2": "Válaszd a „Hozzáadás a kezdőképernyőhöz” lehetőséget",
+      "iosStep3": "Koppints a „Hozzáadás” gombra a befejezéshez",
+      "androidTitle": "Androidon (Chrome)",
+      "androidStep1": "Koppints a menüre (három pont)",
+      "androidStep2": "Válaszd az „Alkalmazás telepítése” vagy „Hozzáadás a kezdőképernyőhöz” lehetőséget",
+      "androidStep3": "Koppints a „Telepítés” gombra a befejezéshez"
+    },
+    "settings": {
+      "title": "sweetwine Mobilalkalmazás",
+      "description": "Telepítsd a sweetwine-t a telefonodra a gyorsabb, teljes képernyős élményért közvetlenül a kezdőképernyődről.",
+      "cta": "Alkalmazás telepítése"
+    }
+  },
+  "language": {
+    "selectTitle": "Válaszd ki a nyelved",
+    "searchPlaceholder": "Nyelvek keresése",
+    "noResults": "Nem található nyelv",
+    "regions": {
+      "americas": "Amerika",
+      "europe": "Európa",
+      "middleEast": "Közel-Kelet",
+      "asiaPacific": "Ázsia és Csendes-óceán",
+      "africa": "Afrika"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "Szerepjáték",
+    "newRoleplay": "Új szerepjáték",
+    "tabRoleplay": "Szerepjáték",
+    "emptyTitle": "Még nincsenek szerepjátékok",
+    "noMessagesYet": "Még nincsenek üzenetek",
+    "deleteRoleplay": "Szerepjáték törlése",
+    "deleteError": "Nem sikerült törölni a szerepjátékot.",
+    "backToLobby": "Vissza a szerepjátékokhoz",
+    "creating": "Szerepjáték beállítása...",
+    "createError": "Nem sikerült létrehozni a szerepjátékot. Próbáld újra.",
+    "steps": {
+      "companion": {
+        "title": "Válassz egy karaktert",
+        "subtitle": "Válaszd ki, kivel szeretnél szerepjátszani"
+      },
+      "location": {
+        "title": "Válassz helyszínt",
+        "subtitle": "Hol játszódik a jelenet?"
+      },
+      "tone": {
+        "title": "Állítsd be a hangulatot",
+        "subtitle": "Milyen legyen a jelenet hangulata?"
+      },
+      "scene": {
+        "title": "Állítsd be a jelenetet",
+        "subtitle": "Írd le, hogyan kezdődik a jelenet"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "Az esőben egymásba botlunk, és ugyanaz alá a ponyva alá bújunk.",
+      "staring_grin": "Elkapod, hogy a szobán át bámulok, és mosollyal közeledsz.",
+      "power_out": "Elmegy az áram, és csak mi ketten maradunk a sötétben, idegesen nevetve.",
+      "spilled_drink": "Késésben vagyok, és véletlenül rád öntöm az italomat.",
+      "stayed_behind": "Csak mi ketten maradtunk, miután mindenki más elment.",
+      "music_slows": "Pont akkor találkozik a tekintetünk, amikor lelassul a zene.",
+      "storm_inside": "Hirtelen vihar zár be minket, így csak beszélgetésre van időnk.",
+      "seat_taken": "Mellém ülsz, és megkérdezed, foglalt-e a hely."
+    },
+    "locations": {
+      "home": "Otthon",
+      "cafe": "Kávézó",
+      "restaurant": "Étterem",
+      "bar": "Bár",
+      "library": "Könyvtár",
+      "bookstore": "Könyvesbolt",
+      "park": "Park",
+      "garden": "Kert",
+      "nightclub": "Éjszakai klub",
+      "casino": "Kaszinó",
+      "concert": "Koncert",
+      "theater": "Színház",
+      "cinema": "Mozi",
+      "carnival": "Vidámpark",
+      "stadium": "Stadion",
+      "beach": "Strand",
+      "pool": "Uszoda",
+      "spa": "Spa",
+      "hotel": "Szálloda",
+      "rooftop": "Tető",
+      "yacht": "Jacht",
+      "cabin": "Kabin",
+      "hotspring": "Termálfürdő",
+      "skilodge": "Síház",
+      "campsite": "Kemping",
+      "car": "Autó",
+      "train": "Vonat",
+      "airport": "Repülőtér",
+      "cruise": "Tengerjáró",
+      "office": "Iroda",
+      "gym": "Edzőterem",
+      "university": "Egyetem",
+      "mall": "Bevásárlóközpont",
+      "hospital": "Kórház",
+      "museum": "Múzeum"
+    },
+    "tones": {
+      "fun": {
+        "title": "Szórakoztató",
+        "desc": "Könnyed, játékos és laza."
+      },
+      "romantic": {
+        "title": "Romantikus",
+        "desc": "Gyengéd, szeretetteljes és szívből jövő."
+      },
+      "flirty": {
+        "title": "Flörtölő",
+        "desc": "Csiklandozó, játékos és tele bájjal."
+      },
+      "mysterious": {
+        "title": "Titokzatos",
+        "desc": "Lenyűgöző, feszült és tele titkokkal."
+      },
+      "spooky": {
+        "title": "Kísérteties",
+        "desc": "Kísérteties, feszült és egy kicsit ijesztő."
+      },
+      "action": {
+        "title": "Akció",
+        "desc": "Intenzív, kalandos és gyors tempójú."
+      },
+      "dramatic": {
+        "title": "Drámai",
+        "desc": "Érzelmes, intenzív és tele feszültséggel."
+      },
+      "cozy": {
+        "title": "Otthonos",
+        "desc": "Meleg, megnyugtató és lazító."
+      }
+    },
+    "sceneLabel": "Jelenet nyitása",
+    "scenarioTab": "Szituáció",
+    "generatingScene": "Életre keltjük a jelenetet...",
+    "locationLabel": "Helyszín",
+    "toneLabel": "Hangulat",
+    "scenePlaceholder": "pl. Összefutunk az esőben és ugyanaz alá a tető alá bújunk...",
+    "sceneHint": "Csak azt írd le, hogyan kezdődik a jelenet — hol vagytok és mi történik a nyitáskor. Ne változtasd meg a karakter személyiségét, a kapcsolatotokat, vagy írd újra az egész történetet.",
+    "sceneError": "Kérlek, írd le, hogyan kezdődik a jelenet.",
+    "reviewTitle": "Kiválasztások áttekintése",
+    "characterLabel": "Karakter",
+    "randomize": "Véletlenszerű",
+    "sceneGuidanceTitle": "Jelenet nyitási útmutató",
+    "sceneGuide1": "Ne változtasd meg a karakter személyiségét vagy a kapcsolatotokat.",
+    "sceneGuide2": "Tartsd a jelenet nyitását beleegyező és tiszteletteljes.",
+    "sceneGuide3": "Csak azt írd le, hogyan kezdődik a jelenet, ne az egész történetet.",
+    "next": "Tovább",
+    "create": "Szerepjáték indítása",
+    "creatingMessages": [
+      "Jelenet beállítása...",
+      "Fényeket finoman tompítjuk...",
+      "Környezetedet festjük...",
+      "Társadat karakterbe hozzuk...",
+      "Utolsó simítások...",
+      "Majdnem kész..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "Írj üzenetet...",
+    "send": "Küldés",
+    "typing": "gépel...",
+    "read": "Olvasva",
+    "resetChat": "Chat visszaállítása",
+    "deleteChat": "Chat törlése",
+    "settings": "Beállítások",
+    "chatSettings": "Chat beállításai",
+    "roleplayMode": "Szerepjáték mód",
+    "roleplayModeDescription": "Ha be van kapcsolva, a társak *csillagok* között mutatják a mozdulatokat és cselekvéseket az immerszív szerepjátékhoz. Ha ki van kapcsolva, természetesen csevegnek, mint a valódi üzenetváltás.",
+    "roleplayModeError": "Nem sikerült frissíteni a szerepjáték módot",
+    "roleplayCtaDescription": "Nyisd meg a dedikált szerepjáték élményt, ahol a társad jeleneteket és történeteket játszik el veled.",
+    "goToRoleplay": "Ugrás a szerepjátékba",
+    "confirmReset": "Biztosan vissza akarod állítani ezt a chatet? Minden üzenet törlődik.",
+    "confirmDelete": "Biztosan törölni akarod ezt a chatet?",
+    "resetSuccess": "Chat sikeresen visszaállítva",
+    "deleteMemory": "Emlékezet törlése",
+    "confirmDeleteMemory": "Biztosan törölni szeretnéd ennek a karakternek a hosszú távú emlékeit? A chat üzenetek megmaradnak, de a karakter a következő válaszában elfelejti a korábbi tényeket.",
+    "deleteMemorySuccess": "Emlékezet törölve",
+    "deleteSuccess": "Chat sikeresen törölve",
+    "sendError": "Nem sikerült elküldeni az üzenetet",
+    "noChats": "Még nincsenek chatek",
+    "noChatsDesc": "Kezdj beszélgetést egy karakterrel, hogy itt lásd a chatjeidet",
+    "lastMessage": "Utolsó üzenet",
+    "messageCount": "{count} üzenet",
+    "uploadImage": "Kép feltöltése",
+    "uploadVideo": "Videó feltöltése (hamarosan)",
+    "yourConversations": "Beszélgetéseid",
+    "continueChattingDesc": "Beszélgess tovább az AI karaktereiddel",
+    "newChat": "Új chat",
+    "noConversationsYet": "Még nincsenek beszélgetések",
+    "startChattingDesc": "Kezdj beszélgetést egy karakterrel, hogy itt lásd a beszélgetéseidet",
+    "browseCharacters": "Karakterek böngészése",
+    "createCustomCharacter": "Egyéni karakter létrehozása",
+    "imageTooLarge": "A kép túl nagy (max 5MB)",
+    "generateImageTitle": "Kép generálása ezzel: {name}",
+    "imagePromptLabel": "Írd le a képet",
+    "imagePromptPlaceholder": "pl. a tengerparton kék ruhában, kávézás egy kávézóban, séta a parkban...",
+    "imagePromptHint": "Az AI a leírásod alapján generál egy képet {name} karakterről.",
+    "referenceImageLabel": "Saját fotód (opcionális)",
+    "referenceImageHint": "Töltsd fel a fotódat, hogy együtt szerepeljetek a jelenetben {name} karakterrel. Fotó nélkül csak {name} lesz generálva.",
+    "uploadReferenceImage": "Fotó feltöltése",
+    "uploadReferenceImageDesc": "Mindketten megjelentek a generált képen",
+    "referenceImageSelected": "Mindketten együtt fogtok megjelenni {name} karakterrel",
+    "generating": "Generálás...",
+    "generate": "Generálás",
+    "generateImage": "Kép generálása",
+    "imageGenerated": "A kép sikeresen elkészült",
+    "generateError": "Nem sikerült a képet generálni",
+    "contentBlockedReply": "Sajnálom, de nem tudom elkészíteni ezt a képet. A biztonsági szűrők blokkolták. Kérlek, próbálj meg másik leírást! 💕",
+    "generateVideoTitle": "Videó generálása ezzel: {name}",
+    "generateVideo": "Videó generálása",
+    "videoPromptLabel": "Írd le a mozdulatot",
+    "videoPromptPlaceholder": "pl. táncolás, integetés, csók küldése...",
+    "videoPromptHint": "Az AI generál egy videót, amelyben {name} a leírt mozdulatot végzi.",
+    "generatingImage": "Kép generálása...",
+    "generatingVideo": "Videó generálása... (3-5 perc)",
+    "viewPhoto": "Fotó megtekintése",
+    "viewVideo": "Videó megtekintése",
+    "selectVideoOption": "Válassz egy videó opciót fent",
+    "contentPolicyViolation": "Ezt az üzenetet nem sikerült elküldeni. Kérlek, tartsd tiszteletteljesen a beszélgetést.",
+    "functionCallBetaHint": "💡 Ez a funkció béta állapotban van — a korlátozások nélküli megbízható médiatartalom-generáláshoz használd inkább a fotó/videó gombokat az eszköztárban.",
+    "repliedToStory": "Válaszolt a történetre",
+    "repliedToStoryLiked": "Lájkolta és válaszolt a történetre",
+    "storyNoLongerAvailable": "A történet már nem elérhető",
+    "rateLimitExceeded": "Túl sok kérés. Kérlek, várj egy kicsit, majd próbáld újra.",
+    "profileTab": "Profil",
+    "galleryTab": "Galéria",
+    "giftsTab": "Ajándékok",
+    "tts": {
+      "play": "Hang lejátszása",
+      "stop": "Leállítás",
+      "generating": "Hang generálása…",
+      "error": "Nem sikerült lejátszani a hangot"
+    }
+  },
+  "gallery": {
+    "all": "Összes",
+    "images": "Képek",
+    "videos": "Videók",
+    "empty": "Még nincs médiatartalom"
+  },
+  "gifts": {
+    "sendAGift": "Ajándék küldése",
+    "catalogSubtitle": "Válassz egy ajándékot {name} számára",
+    "browseGifts": "Ajándékok böngészése",
+    "noneSent": "Még nem küldtél ajándékot",
+    "confirmTitle": "Ajándék megerősítése",
+    "forCompanion": "{name} számára",
+    "optionalMessage": "Üzenet hozzáadása (opcionális)",
+    "optionalMessagePlaceholder": "Írj valami édeset...",
+    "sendGiftFor": "Küldés",
+    "giftSent": "Ajándékot küldtél",
+    "sendError": "Nem sikerült elküldeni az ajándékot"
+  },
+  "stories": {
+    "replyPlaceholder": "Válasz {name}...",
+    "like": "Tetszik",
+    "send": "Küldés",
+    "close": "Bezárás",
+    "previous": "Előző történet",
+    "next": "Következő történet",
+    "pause": "Szünet",
+    "play": "Lejátszás",
+    "mute": "Némítás",
+    "unmute": "Némítás feloldása",
+    "openStory": "{name} történetének megnyitása"
+  },
+  "generate": {
+    "title": "Kép generálása",
+    "description": "Készíts lenyűgöző képeket az AI karaktereiddel",
+    "selectCompanion": "Válassz karaktert",
+    "promptPlaceholder": "Írd le a generálni kívánt képet... pl. a tengerparton, piros ruhában",
+    "promptLabel": "Kép leírása",
+    "promptRequired": "Kérjük, adj meg egy leírást",
+    "generateButton": "Kép generálása",
+    "generating": "Generálás...",
+    "creatingImage": "Kép létrehozása...",
+    "pleaseWait": "Ez 10–30 másodpercet vehet igénybe",
+    "noCompanionSelected": "Először válassz karaktert",
+    "emptyGallery": "Még nincs generált kép. Válassz karaktert és írd le a képet!",
+    "sessionGallery": "Generált képek",
+    "regenerate": "Újragenerálás",
+    "regenerating": "Újragenerálás...",
+    "animate": "Animálás",
+    "animateReference": "Ez a kép lesz a videó első kockája.",
+    "filterMyAI": "Saját AI",
+    "filterAll": "Összes",
+    "filterGirls": "Nők",
+    "filterAnime": "Anime",
+    "filterGuys": "Férfiak",
+    "imageGenerationFailed": "A képgenerálás sikertelen. Lehet, hogy a kép nem felel meg a követelményeknek, vagy a leírás túl összetett. Próbálkozz egyszerűbb prompttal.",
+    "noImageData": "Nem készült kép. Próbáld újra egy másik leírással.",
+    "generationFailed": "A generálás sikertelen. Próbáld újra később vagy más prompttal.",
+    "random": "Véletlenszerű",
+    "custom": "Egyéni",
+    "settings": "Beállítások",
+    "videoTitle": "Videó generálása",
+    "videoDescription": "Készíts lenyűgöző videókat az AI karaktereiddel",
+    "videoPromptLabel": "Videó leírása",
+    "videoPromptPlaceholder": "Írd le a kívánt akciót... pl. táncolás, integetés, mosolygás",
+    "generateVideoButton": "Videó generálása",
+    "generatingVideo": "Videó generálása...",
+    "creatingVideo": "A videód létrehozása...",
+    "videoWait": "Ez 1-5 percet is igénybe vehet",
+    "emptyVideoGallery": "Még nincs generált videó. Válassz egy karaktert és írd le az akciót!",
+    "sessionVideoGallery": "Generált videók",
+    "videoGenerated": "Videó sikeresen generálva!",
+    "videoGenerationFailed": "A videó generálása sikertelen. Próbáld újra.",
+    "duration": "Időtartam",
+    "shortVideo": "Rövid",
+    "longVideo": "Hosszú",
+    "seconds": "másodperc",
+    "audio": "Hang",
+    "renderingVideo": "Videó renderelése…",
+    "renderingVideoHint": "(legfeljebb 1 percig tart)",
+    "rateLimitExceeded": "Túl sok kérés. Várj egy kicsit és próbáld újra.",
+    "chooseCharacter": "Válassz karaktert",
+    "selectButton": "Kiválasztás",
+    "noCustomCompanions": "Még nem hoztál létre AI karaktereket.",
+    "numberOfImages": "Képek száma",
+    "numberOfVideos": "Videók száma",
+    "freeTrial": "Ingyenes próba",
+    "changeCharacter": "Karakter váltása",
+    "randomize": "Prompt véletlenszerűsítése",
+    "aiVideo": "AI videó",
+    "download": "Letöltés",
+    "seriesHelper": "Itt találod az eredményeket. Elhagyhatod az oldalt vagy új sorozatot indíthatsz, miközben ezek befejeződnek.",
+    "suggestions": {
+      "title": "Javaslatok",
+      "categories": {
+        "outfit": "Öltözet",
+        "action": "Akció",
+        "pose": "Póz",
+        "accessories": "Kiegészítők",
+        "scene": "Jelenet"
+      },
+      "items": {
+        "bikini": "Bikini",
+        "skirt": "Szoknya",
+        "lingerie": "Fehérnemű",
+        "crop_top": "Crop top",
+        "leather": "Bőr",
+        "mini_skirt": "Miniszoknya",
+        "satin_robe": "Szatén köntös",
+        "jeans": "Farmer",
+        "summer_dress": "Nyári ruha",
+        "sportswear": "Sportruházat",
+        "selfie": "Selfie",
+        "walking": "Sétálás",
+        "dancing": "Tánc",
+        "stretching": "Nyújtózkodás",
+        "lying_down": "Fekvés",
+        "leaning": "Dőlés",
+        "blowing_kiss": "Csókot fúj",
+        "drinking_coffee": "Kávét iszik",
+        "hands_on_hips": "Kezek a csípőn",
+        "over_shoulder": "Vállon át",
+        "side_profile": "Oldalprofil",
+        "arms_crossed": "Karba tett kéz",
+        "kneeling": "Térdelés",
+        "squatting": "Guggolás",
+        "back_view": "Hátulnézet",
+        "sitting": "Ülés",
+        "necklace": "Nyaklánc",
+        "earrings": "Fülbevaló",
+        "glasses": "Szemüveg",
+        "choker": "Choker",
+        "hat": "Kalap",
+        "sunglasses": "Napszemüveg",
+        "garden": "Kert",
+        "beach": "Strand",
+        "bedroom": "Hálószoba",
+        "gym": "Edzőterem",
+        "bar": "Bár",
+        "kitchen": "Konyha",
+        "restaurant": "Étterem",
+        "balcony": "Erkély",
+        "city_street": "Városi utca",
+        "pool": "Medencepart"
+      },
+      "fragments": {
+        "bikini": "bikinit visel",
+        "skirt": "szoknyát visel",
+        "lingerie": "fehérneműt visel",
+        "crop_top": "crop topot visel",
+        "leather": "bőr ruhát visel",
+        "mini_skirt": "mini-szoknyát visel",
+        "satin_robe": "szatén köntöst visel",
+        "jeans": "farmert visel",
+        "summer_dress": "nyári ruhát visel",
+        "sportswear": "szoros sportruhát visel",
+        "selfie": "szelfit készít",
+        "walking": "sétál",
+        "dancing": "táncol",
+        "stretching": "nyújtózik",
+        "lying_down": "fekszik",
+        "leaning": "falnak dől",
+        "blowing_kiss": "csókot dob",
+        "drinking_coffee": "kávét iszik",
+        "hands_on_hips": "csípőre tett kézzel",
+        "over_shoulder": "vállán át néz",
+        "side_profile": "oldalsó profilpóz",
+        "arms_crossed": "összekulcsolt karral",
+        "kneeling": "térdelő póz",
+        "squatting": "guggoló póz",
+        "back_view": "hátulról nézve",
+        "sitting": "ül",
+        "necklace": "nyakláncot visel",
+        "earrings": "fülbevalót visel",
+        "glasses": "szemüveget visel",
+        "choker": "chokert visel",
+        "hat": "kalapot visel",
+        "sunglasses": "napszemüveget visel",
+        "garden": "kertben",
+        "beach": "a tengerparton",
+        "bedroom": "hálószobában",
+        "gym": "az edzőteremben",
+        "bar": "egy bárban",
+        "kitchen": "konyhában",
+        "restaurant": "egy étteremben",
+        "balcony": "erkélyen",
+        "city_street": "városi utcán",
+        "pool": "a medence mellett"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "Selfie",
+          "uiPrompt": "Mutass egy szelfit"
+        },
+        "posing": {
+          "name": "Pózolás",
+          "uiPrompt": "Mutasd, ahogy pózolsz"
+        },
+        "sitting": {
+          "name": "Ülés",
+          "uiPrompt": "Mutasd, ahogy ülsz"
+        },
+        "waving": {
+          "name": "Integetés",
+          "uiPrompt": "Mutasd, ahogy integetsz"
+        },
+        "dancing": {
+          "name": "Tánc",
+          "uiPrompt": "Mutasd, ahogy táncolsz"
+        },
+        "reading": {
+          "name": "Olvasás",
+          "uiPrompt": "Mutasd, ahogy olvasol"
+        },
+        "smiling": {
+          "name": "Mosolygós",
+          "uiPrompt": "Mutasd, hogy mosolyogsz"
+        },
+        "walking": {
+          "name": "Sétáló",
+          "uiPrompt": "Mutasd, hogy sétálsz"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "Szelfi",
+          "uiPrompt": "Mutass egy videó szelfit"
+        },
+        "posing": {
+          "name": "Pózoló",
+          "uiPrompt": "Mutass egy videót, ahogy pózolsz"
+        },
+        "sitting": {
+          "name": "Ülő",
+          "uiPrompt": "Mutass egy videót, ahogy leülsz"
+        },
+        "waving": {
+          "name": "Integető",
+          "uiPrompt": "Mutass egy videót, ahogy integetsz"
+        },
+        "dancing": {
+          "name": "Táncoló",
+          "uiPrompt": "Mutass egy videót, ahogy táncolsz"
+        },
+        "reading": {
+          "name": "Olvasó",
+          "uiPrompt": "Mutass egy videót, ahogy olvasol"
+        },
+        "smiling": {
+          "name": "Mosolygós",
+          "uiPrompt": "Mutass egy videót, ahogy mosolyogsz"
+        },
+        "walking": {
+          "name": "Sétáló",
+          "uiPrompt": "Mutass egy videót, ahogy sétálsz"
+        }
+      }
+    },
+    "writeYourOwn": "vagy írj saját promptot",
+    "presetSelected": "Előbeállítás kiválasztva",
+    "effects": {
+      "categories": {
+        "solo": "Szóló & Csábítás",
+        "oral": "Orális",
+        "positions": "Pózok",
+        "pov": "POV",
+        "extra": "Extra",
+        "remix": "Remix"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "Anal Griping"
+        },
+        "bath_towel": {
+          "name": "Fürdőlepedő"
+        },
+        "bikini": {
+          "name": "Bikini"
+        },
+        "blowjob_69": {
+          "name": "Blowjob 69"
+        },
+        "blowjob_grand_slam": {
+          "name": "Blowjob Grand Slam"
+        },
+        "blowjob_pov": {
+          "name": "Blowjob POV"
+        },
+        "blowjob_sideview": {
+          "name": "Blowjob Sideview"
+        },
+        "bondage": {
+          "name": "Bondage"
+        },
+        "breast_milk": {
+          "name": "Mell tej"
+        },
+        "bunny_suit": {
+          "name": "Nyuszi ruha"
+        },
+        "chain_leash": {
+          "name": "Lánc póráz"
+        },
+        "chinese_dress": {
+          "name": "Kínai ruha"
+        },
+        "come_fuck_me": {
+          "name": "Come Fuck Me"
+        },
+        "cum_on_body": {
+          "name": "Cum On Body"
+        },
+        "cum_on_face": {
+          "name": "Cum On Face"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "custom": {
+          "name": "Egyedi"
+        },
+        "doggystyle_pov": {
+          "name": "Doggystyle POV"
+        },
+        "doggystyle_sideview": {
+          "name": "Doggystyle Sideview"
+        },
+        "fingering": {
+          "name": "Ujjazás"
+        },
+        "handjob": {
+          "name": "Handjob"
+        },
+        "jk_uniform": {
+          "name": "Iskolaruha"
+        },
+        "legsup": {
+          "name": "Lábak fel"
+        },
+        "leopard_bikini": {
+          "name": "Leopárd bikini"
+        },
+        "lingerie": {
+          "name": "Fehérnemű"
+        },
+        "masturbation": {
+          "name": "Maszturbálás"
+        },
+        "missionary_condoms": {
+          "name": "Missionary Condoms"
+        },
+        "missionary_pov": {
+          "name": "Missionary POV"
+        },
+        "missionary_sideview": {
+          "name": "Misszionárius oldalnézet"
+        },
+        "remix_blowjob": {
+          "name": "Remix orálszex"
+        },
+        "remix_cowgirl": {
+          "name": "Remix lovagló"
+        },
+        "remix_doggystyle": {
+          "name": "Remix kutyastílus"
+        },
+        "remix_dress": {
+          "name": "Remix ruha"
+        },
+        "remix_hold_dick": {
+          "name": "Remix kézben fogás"
+        },
+        "remix_kiss": {
+          "name": "Remix csók"
+        },
+        "remix_pronebone": {
+          "name": "Remix hasaló"
+        },
+        "remix_suck": {
+          "name": "Remix szopás"
+        },
+        "remix_wear": {
+          "name": "Remix viselet"
+        },
+        "remix_yoga": {
+          "name": "Remix jóga"
+        },
+        "ride_on_dildo": {
+          "name": "Dildón lovaglás"
+        },
+        "sipping_condoms": {
+          "name": "Óvszer szopogatás"
+        },
+        "squatting_cowgirl": {
+          "name": "Guggoló lovagló"
+        },
+        "tattoo": {
+          "name": "Tetoválás"
+        },
+        "tentacles": {
+          "name": "Csápok"
+        },
+        "titjob": {
+          "name": "Mell közé"
+        },
+        "topless": {
+          "name": "Felső nélkül"
+        },
+        "undress": {
+          "name": "Levetkőzés"
+        },
+        "used": {
+          "name": "Használt"
+        },
+        "xray": {
+          "name": "Röntgen"
+        },
+        "maid_outfit": {
+          "name": "Szobalány ruhája"
+        },
+        "nurse_outfit": {
+          "name": "Nővér ruhája"
+        },
+        "cheerleader": {
+          "name": "Pompomlány"
+        },
+        "wet_tshirt": {
+          "name": "Nedves póló"
+        },
+        "latex_catsuit": {
+          "name": "Latex macskaruha"
+        },
+        "corset_stockings": {
+          "name": "Fűző & Harisnya"
+        },
+        "gym_shorts": {
+          "name": "Edzőnadrág"
+        },
+        "thong_tease": {
+          "name": "Tanga csábítás"
+        },
+        "upskirt_panties": {
+          "name": "Szoknya alól"
+        },
+        "mirror_selfie": {
+          "name": "Tükör szelfi"
+        },
+        "shower_nude": {
+          "name": "Zuhany"
+        },
+        "oiled_body": {
+          "name": "Olajozott test"
+        },
+        "spread_open": {
+          "name": "Szétnyitva"
+        },
+        "ahegao": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Mélytorok"
+        },
+        "sloppy_blowjob": {
+          "name": "Nyálas orál"
+        },
+        "ball_licking": {
+          "name": "Here nyalás"
+        },
+        "face_sitting_oral": {
+          "name": "Arcra ülés"
+        },
+        "cowgirl": {
+          "name": "Lovagló"
+        },
+        "reverse_cowgirl": {
+          "name": "Fordított lovagló"
+        },
+        "prone_bone": {
+          "name": "Hason fekvő"
+        },
+        "standing_sex": {
+          "name": "Álló"
+        },
+        "against_wall": {
+          "name": "Falnak támaszkodva"
+        },
+        "spooning": {
+          "name": "Kanál"
+        },
+        "legs_on_shoulders": {
+          "name": "Lábak a vállakon"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "cowgirl_pov": {
+          "name": "Lovagló POV"
+        },
+        "titjob_pov": {
+          "name": "Mell közé POV"
+        },
+        "handjob_pov": {
+          "name": "Kézi POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "double_penetration": {
+          "name": "Kettős behatolás"
+        },
+        "threesome_mmf": {
+          "name": "Hármas"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "pearl_necklace": {
+          "name": "Gyöngysor"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Spriccelés"
+        },
+        "spanking": {
+          "name": "Fenék csapkodás"
+        },
+        "gagged_bdsm": {
+          "name": "Szájpece"
+        },
+        "facefuck": {
+          "name": "Arcbaszás"
+        },
+        "throatpie": {
+          "name": "Torokkrém"
+        },
+        "cock_worship": {
+          "name": "Faszimádat"
+        },
+        "footjob": {
+          "name": "Lábmunka"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "full_nelson": {
+          "name": "Full Nelson"
+        },
+        "lotus": {
+          "name": "Lótusz"
+        },
+        "piledriver": {
+          "name": "Cölöpverő"
+        },
+        "facefuck_pov": {
+          "name": "Arcbaszás POV"
+        },
+        "riding_pov": {
+          "name": "Lovaglás POV"
+        },
+        "spitroast": {
+          "name": "Nyárs"
+        },
+        "hair_pulling": {
+          "name": "Hajhúzás"
+        },
+        "facial_cumshot": {
+          "name": "Arcra élvezés"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "Anális"
+        },
+        "back_doggystyle": {
+          "name": "Hátulról kutyastílus"
+        },
+        "blowjob": {
+          "name": "Orálszex"
+        },
+        "blowjob_69": {
+          "name": "Orálszex 69"
+        },
+        "blowjob_reverse": {
+          "name": "Fordított orálszex"
+        },
+        "breast_massage": {
+          "name": "Mellmasszázs"
+        },
+        "breast_massage_nude": {
+          "name": "Meztelen mellmasszázs"
+        },
+        "butt_smothering": {
+          "name": "Fenék fojtogatás"
+        },
+        "cock_worship": {
+          "name": "Fasz imádat"
+        },
+        "cum_in_mouth": {
+          "name": "Ondó a szájba"
+        },
+        "dildo_masturbation": {
+          "name": "Dildós önkielégítés"
+        },
+        "double_blowjob": {
+          "name": "Kettős orálszex"
+        },
+        "double_penetration": {
+          "name": "Kettős behatolás"
+        },
+        "ejaculation": {
+          "name": "Ejakuláció"
+        },
+        "facefuck": {
+          "name": "Arcbasz"
+        },
+        "facefuck_pov": {
+          "name": "Arcbasz POV"
+        },
+        "facial_cumshot": {
+          "name": "Arcra élvezés"
+        },
+        "footjob": {
+          "name": "Lábmunka"
+        },
+        "front_doggystyle": {
+          "name": "Elölről kutyastílus"
+        },
+        "fuck_machine": {
+          "name": "Szexgép"
+        },
+        "full_nelson": {
+          "name": "Teljes Nelson"
+        },
+        "handjob": {
+          "name": "Kézmunka"
+        },
+        "masturbation": {
+          "name": "Önkielégítés"
+        },
+        "missionary_pov": {
+          "name": "Misszionárius POV"
+        },
+        "missionary_sideview": {
+          "name": "Misszionárius oldalnézet"
+        },
+        "nipple_play": {
+          "name": "Bimbójáték"
+        },
+        "nude_posing": {
+          "name": "Meztelen pózolás"
+        },
+        "orgasm": {
+          "name": "Orgazmus"
+        },
+        "pronebone": {
+          "name": "Hasaló"
+        },
+        "pussy_closeup": {
+          "name": "Punci közeli"
+        },
+        "reverse_cowgirl": {
+          "name": "Fordított lovaglás"
+        },
+        "shoejob": {
+          "name": "Cipős kézmunka"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "Guggoló lovaglás"
+        },
+        "throatpie": {
+          "name": "Torokkrém"
+        },
+        "tiktok_trend": {
+          "name": "TikTok trend"
+        },
+        "titjob": {
+          "name": "Mellmunka"
+        },
+        "titty_flash": {
+          "name": "Mellvillantás"
+        },
+        "triple_dicked": {
+          "name": "Hármas behatolás"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "Levetkőzés"
+        },
+        "strip_tease": {
+          "name": "Sztriptíz"
+        },
+        "booty_bounce": {
+          "name": "Popsi ugrálás"
+        },
+        "oil_show": {
+          "name": "Olajos show"
+        },
+        "shower_show": {
+          "name": "Zuhany show"
+        },
+        "panty_drop": {
+          "name": "Bugyi leejtés"
+        },
+        "ahegao_solo": {
+          "name": "Ahegao"
+        },
+        "deepthroat": {
+          "name": "Mélytorok"
+        },
+        "sloppy_blowjob": {
+          "name": "Nyálas szopás"
+        },
+        "ball_sucking": {
+          "name": "Here szívás"
+        },
+        "cowgirl": {
+          "name": "Cowgirl"
+        },
+        "standing_carry": {
+          "name": "Álló emelés"
+        },
+        "against_wall": {
+          "name": "Falnak"
+        },
+        "spooning": {
+          "name": "Kanál"
+        },
+        "mating_press": {
+          "name": "Mating Press"
+        },
+        "amazon": {
+          "name": "Amazon"
+        },
+        "cowgirl_pov": {
+          "name": "Cowgirl POV"
+        },
+        "doggy_pov": {
+          "name": "Kutyás POV"
+        },
+        "titjob_pov": {
+          "name": "Mellmunka POV"
+        },
+        "handjob_pov": {
+          "name": "Kézmunka POV"
+        },
+        "riding_pov": {
+          "name": "Lovaglás POV"
+        },
+        "gangbang": {
+          "name": "Gangbang"
+        },
+        "creampie": {
+          "name": "Creampie"
+        },
+        "bukkake": {
+          "name": "Bukkake"
+        },
+        "squirting": {
+          "name": "Spriccelés"
+        },
+        "spanking": {
+          "name": "Fenék csapkodás"
+        },
+        "hair_pulling": {
+          "name": "Hajhúzás"
+        },
+        "fingering": {
+          "name": "Ujjazás"
+        },
+        "come_hither": {
+          "name": "Gyere ide"
+        },
+        "spread_legs": {
+          "name": "Lábterpesztés"
+        },
+        "blowjob_sideview": {
+          "name": "Szopás oldalnézet"
+        },
+        "cunnilingus": {
+          "name": "Cunnilingus"
+        },
+        "missionary": {
+          "name": "Misszionárius"
+        },
+        "legs_on_shoulders": {
+          "name": "Láb a vállon"
+        },
+        "blowjob_pov": {
+          "name": "Szopás POV"
+        },
+        "cunnilingus_pov": {
+          "name": "Cunnilingus POV"
+        },
+        "glory_hole": {
+          "name": "Glory Hole"
+        },
+        "threesome_mmf": {
+          "name": "Hármas"
+        },
+        "aftercare_mess": {
+          "name": "Utóápolási rendetlenség"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "Biztosan törölni szeretnéd ezt?",
+    "deleteSuccess": "Sikeresen törölve",
+    "deleteError": "Törlés sikertelen",
+    "empty": "Még nincs média. Generálj néhányat a chatben!",
+    "gallerySubtitle": "Személyes galériád az AI által generált pillanatokból",
+    "filterAll": "Összes",
+    "filterImages": "Képek",
+    "filterVideos": "Videók",
+    "loadMore": "Továbbiak betöltése",
+    "folders": "Mappák",
+    "newFolder": "Új mappa",
+    "deleteFolders": "Kijelölt mappák törlése",
+    "folderCreated": "Mappa létrehozva",
+    "folderCreateError": "Mappa létrehozása sikertelen",
+    "folderRenamed": "Mappa átnevezve",
+    "folderRenameError": "Mappa átnevezése sikertelen",
+    "folderDeleted": "Mappa törölve",
+    "folderDeleteError": "Mappa törlése sikertelen",
+    "folderNamePlaceholder": "Mappa neve",
+    "seeMore": "Több",
+    "seeLess": "Kevesebb",
+    "selectedCount": "{count} elem kijelölve",
+    "selectAll": "Összes kijelölése",
+    "select": "Kiválaszt",
+    "moveToFolder": "Áthelyezés",
+    "bulkDeleteConfirm": "Törlöd a(z) {count} kijelölt elemet?",
+    "bulkDeleteSuccess": "Elemek törölve",
+    "bulkDownloadStart": "{count} elem letöltése...",
+    "moveSuccess": "Elemek áthelyezve"
+  },
+  "voice": {
+    "connecting": "Csatlakozás...",
+    "connected": "Csatlakozva",
+    "mute": "Némítás",
+    "unmute": "Némítás feloldása",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "Beszélj természetesen. Az AI szünet után válaszol.",
+    "connectionError": "Sikertelen csatlakozás. Próbáld újra.",
+    "minutesRemaining": "{minutes} perc maradt",
+    "minutesUsed": "{minutes} perc felhasználva"
+  },
+  "characters": {
+    "filters": "Szűrők",
+    "ethnicity": "Etnikum",
+    "bodyType": "Testalkat",
+    "ageRange": "Korosztály",
+    "relationship": "Kapcsolat",
+    "occupation": "Foglalkozás",
+    "hobbies": "Hobbik",
+    "personality": "Személyiség",
+    "language": "Nyelv",
+    "age": "Kor",
+    "all": "Összes",
+    "noResults": "Nem található karakter",
+    "noResultsDesc": "Próbáld módosítani a szűrőket",
+    "newBadge": "Új",
+    "chatNow": "Csevegés most",
+    "viewProfile": "Profil megtekintése",
+    "ethnicities": {
+      "caucasian": "Kaukázusi",
+      "asian": "Ázsiai",
+      "middleEastern": "Közel-keleti",
+      "hispanic": "Hispán",
+      "african": "Afrikai",
+      "southAsian": "Dél-ázsiai",
+      "nativeAmerican": "Őslakos amerikai",
+      "pacificIslander": "Csendes-óceáni szigetlakó",
+      "mixed": "Vegyes",
+      "other": "Egyéb"
+    },
+    "bodyTypes": {
+      "slim": "Karcsú",
+      "athletic": "Atletikus",
+      "average": "Átlagos",
+      "curvy": "Kerekded",
+      "plus": "Plussz méret"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "Szingli",
+      "dating": "Randizik",
+      "married": "Házas",
+      "none": "Nincs"
+    }
+  },
+  "settings": {
+    "profile": "Profil",
+    "myProfile": "Saját profil",
+    "settings": "Beállítások",
+    "account": "Fiók",
+    "plan": "Csomag",
+    "profileSettings": "Profilbeállítások",
+    "manageAccountSettings": "Kezelje fiókbeállításait és preferenciáit",
+    "personalInfo": "Személyes adatok",
+    "nickname": "Becenév",
+    "gender": "Nem",
+    "male": "Férfi",
+    "female": "Nő",
+    "preferences": "Preferenciák",
+    "newsletter": "Hírlevél-feliratkozás",
+    "newsletterDesc": "Frissítések és hírek fogadása",
+    "aiTrainingTitle": "AI & Moderációs képzés",
+    "aiTrainingDesc": "Engedélyezze, hogy a chatjei és promptjai segítsék a sweetwine AI és moderációs rendszerének fejlesztését. Bármikor kikapcsolhatja ezt az opciót.",
+    "aiTrainingLink": "További információ az Adatvédelmi nyilatkozatunkban.",
+    "aiTrainingError": "Nem sikerült frissíteni az AI-képzési beállítást",
+    "interfaceLanguage": "Felület nyelve",
+    "interfaceLanguageDesc": "A felhasználói felület nyelve",
+    "aiLanguage": "AI válasz nyelve",
+    "aiLanguageDesc": "Az AI karakterek által használt nyelv",
+    "currentPlan": "Jelenlegi csomag",
+    "freePlan": "Ingyenes csomag",
+    "dangerZone": "Veszélyes zóna",
+    "dangerZoneDescription": "Ha véglegesen törölni szeretné ezt a fiókot és minden adatát.",
+    "deleteAllMemory": "Minden emlékezet törlése",
+    "confirmDeleteAllMemory": "Biztosan törölni szeretnéd az összes MI-karakter hosszú távú emlékeit? A chat üzenetek megmaradnak, de a karakterek a következő válaszukban elfelejtik a korábbi tényeket.",
+    "deleteAllMemorySuccess": "Minden emlékezet törölve",
+    "deleteAccount": {
+      "button": "Fiók törlése",
+      "title": "Fiók törlése",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "A megerősítéshez írja be",
+      "confirmRequired": "Kérjük, írja be a DELETE szót a megerősítéshez",
+      "confirmButton": "Fiókom törlése",
+      "deleting": "Törlés...",
+      "success": "Fiókja törlésre került",
+      "error": "Nem sikerült törölni a fiókot. Kérjük, próbálja újra."
+    },
+    "saveChanges": "Változtatások mentése",
+    "changesSaved": "Változtatások sikeresen mentve",
+    "saveFailed": "Nem sikerült menteni a változtatásokat",
+    "languageUpdated": "Nyelv frissítve",
+    "aiLanguageUpdated": "AI nyelv frissítve"
+  },
+  "create": {
+    "defaultGreeting": "Szia",
+    "title": "AI karakter létrehozása",
+    "step": "{current}. lépés a {total} közül",
+    "step1": {
+      "title": "Stílus kiválasztása",
+      "description": "Válaszd ki a stílust és az alapvető jellemzőket a karakteredhez"
+    },
+    "step2": {
+      "title": "Etnikum kiválasztása",
+      "description": "Válassz etnikumot és életkort a karakterednek"
+    },
+    "step3": {
+      "title": "Haj és szem kiválasztása",
+      "description": "Szabd testre a hajstílust, hajszínt és a szemszínt"
+    },
+    "step4": {
+      "title": "Test kiválasztása",
+      "description": "Szabd testre a karaktered testét"
+    },
+    "step5": {
+      "title": "Személyiség és részletek",
+      "description": "Határozd meg a karaktered személyiségét és hangját"
+    },
+    "style": {
+      "title": "Karakterstílus",
+      "realistic": "Realista",
+      "anime": "Anime"
+    },
+    "gender": {
+      "title": "Nem",
+      "female": "Női",
+      "male": "Férfi"
+    },
+    "age": {
+      "title": "Kor",
+      "years": "{age} éves"
+    },
+    "ethnicity": {
+      "title": "Etnikum"
+    },
+    "hairStyle": {
+      "title": "Hajstílus"
+    },
+    "hairColor": {
+      "title": "Hajszín"
+    },
+    "eyeColor": {
+      "title": "Szemszín"
+    },
+    "bodyType": {
+      "title": "Testalkat"
+    },
+    "breastSize": {
+      "title": "Mellméret"
+    },
+    "name": {
+      "title": "Név",
+      "placeholder": "Add meg a karakter nevét",
+      "randomize": "Generálj véletlenszerű nevet"
+    },
+    "language": {
+      "title": "Nyelv",
+      "widgetLabel": "Válassz nyelvet",
+      "placeholder": "Válassz nyelvet",
+      "selectTitle": "Válaszd ki a nyelved"
+    },
+    "personality": {
+      "title": "Személyiség",
+      "widgetLabel": "Válassz személyiséget",
+      "placeholder": "Válassz személyiséget",
+      "sectionTitle": "Válassz személyiséget",
+      "clickToChange": "Kattints a módosításhoz"
+    },
+    "relationship": {
+      "title": "Kapcsolat",
+      "widgetLabel": "Válassz kapcsolatot",
+      "placeholder": "Válassz kapcsolatot",
+      "selectTitle": "Kapcsolat szerkesztése"
+    },
+    "occupation": {
+      "title": "Foglalkozás",
+      "widgetLabel": "Válassz foglalkozást",
+      "placeholder": "Válassz foglalkozást",
+      "selectTitle": "Foglalkozás szerkesztése"
+    },
+    "kinks": {
+      "title": "Érdeklődés",
+      "widgetLabel": "Milyen érdeklődésük van? (Max. {max})",
+      "labelMax": "Érdeklődés (Max. {max})",
+      "placeholder": "Válassz érdeklődést (opcionális)",
+      "optional": "Opcionális",
+      "selectTitle": "Érdeklődés szerkesztése",
+      "moreCount": "+{count} további"
+    },
+    "selector": {
+      "searchPlaceholder": "Keresés",
+      "noResults": "Nincs találat",
+      "cancel": "Mégse",
+      "saveChanges": "Mentés",
+      "selectedCount": "{count} kiválasztva"
+    },
+    "voice": {
+      "title": "Hang",
+      "widgetLabel": "Válassz hangot",
+      "placeholder": "Válassz hangot",
+      "selectTitle": "Válassz hangot"
+    },
+    "advanced": {
+      "title": "Speciális részletek",
+      "optional": "opcionális",
+      "filled": "Kitöltve",
+      "autocompleteTitle": "Automatikus kitöltés AI-val",
+      "autocompleteDesc": "Hagyd, hogy az AI kitöltse az üres mezőket egy mélyebb karakterhez",
+      "autocompleteSuccess": "Mezők sikeresen kitöltve!",
+      "autocompleteError": "Nem sikerült javaslatokat generálni. Próbáld újra.",
+      "greetingLabel": "Üdvözlés",
+      "greetingPlaceholder": "A karakter első üzenete...",
+      "scenarioLabel": "Szituáció",
+      "scenarioPlaceholder": "A találkozás kontextusa vagy háttere...",
+      "personalityLabel": "További személyiségjegyek",
+      "personalityPlaceholder": "Különcségek, beszédstílus, viselkedési jegyek...",
+      "extraLabel": "Extra részletek",
+      "extraPlaceholder": "Háttér, hobbik, élettörténet..."
+    },
+    "navigation": {
+      "back": "Vissza",
+      "next": "Tovább",
+      "create": "Létrehozás",
+      "generateYourCharacter": "Generáld a karaktered"
+    },
+    "progress": {
+      "generatingPrompt": "Személyiség létrehozása...",
+      "generatingImage": "Portré létrehozása...",
+      "creatingVoice": "Hang beállítása...",
+      "saving": "Mentés...",
+      "complete": "Kész!"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "Személyiség létrehozása...",
+      "addingSweetness": "Édesség hozzáadása...",
+      "tooMuchSweet": "Hoppá, túl sok az édesség...",
+      "testingSounds": "Hangok tesztelése..."
+    },
+    "overlay": {
+      "signupPrompt": "Fejezd be a regisztrációt a karaktered feloldásához…",
+      "processingHint": "Ez általában 20–30 másodpercet vesz igénybe",
+      "traitEthnicity": "Etnikum",
+      "traitBody": "Test",
+      "traitHair": "Haj",
+      "traitColor": "Szín",
+      "traitEyes": "Szem",
+      "traitVibe": "Vibe",
+      "bannerTitle": "A karaktered készen áll a létrehozásra!",
+      "bannerDesc": "A beállításaid el lettek mentve. Nézd át és generáld lent."
+    },
+    "success": {
+      "title": "Karakter létrehozva!",
+      "description": "Az AI karaktered sikeresen létrejött.",
+      "yearsOld": "éves",
+      "meetButton": "Találkozz"
+    },
+    "error": {
+      "title": "Létrehozás sikertelen",
+      "generic": "Nem sikerült létrehozni a karaktert. Próbáld újra."
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "Kaukázusi",
+        "asian": "Ázsiai",
+        "middle_eastern": "Közel-keleti",
+        "hispanic": "Hispán",
+        "african": "Afrikai",
+        "south_asian": "Dél-ázsiai",
+        "native_american": "Őslakos amerikai",
+        "pacific_islander": "Csendes-óceáni szigetlakó",
+        "mixed": "Vegyes",
+        "arab": "Arab"
+      },
+      "hairStyleFemale": {
+        "straight": "Egyenes",
+        "bangs": "Frufru",
+        "curly": "Göndör",
+        "bun": "Konty",
+        "short_bob": "Rövid bob",
+        "ponytail": "Copf",
+        "wavy": "Hullámos",
+        "long_layers": "Hosszú réteges",
+        "braids": "Copfos",
+        "pixie_cut": "Pixie vágás",
+        "updo": "Felnyírt",
+        "french_twist": "Francia konty",
+        "fishtail_braid": "Halszálka copf",
+        "top_knot": "Top konty",
+        "space_buns": "Space kontyok",
+        "halo_braid": "Halo copf",
+        "beehive": "Méhes konty",
+        "finger_waves": "Ujjhullámok",
+        "lob": "Lob (hosszú bob)",
+        "shag_cut": "Shag vágás",
+        "bald": "Kopasz"
+      },
+      "hairStyleMale": {
+        "short": "Rövid",
+        "buzz_cut": "Buzz vágás",
+        "crew_cut": "Crew vágás",
+        "undercut": "Undercut",
+        "fade": "Fade",
+        "pompadour": "Pompadour",
+        "quiff": "Quiff",
+        "slicked_back": "Slicked back",
+        "curly": "Göndör",
+        "afro": "Afro",
+        "man_bun": "Man bun",
+        "dreadlocks": "Dreadlocks",
+        "cornrows": "Cornrows",
+        "mohawk": "Mohawk",
+        "side_part": "Oldalváltás",
+        "textured_crop": "Texturált crop",
+        "french_crop": "Francia crop",
+        "spiky": "Tüskés",
+        "comb_over": "Comb over",
+        "long_hair": "Hosszú haj",
+        "bald": "Kopasz"
+      },
+      "hairColor": {
+        "brunette": "Barna",
+        "blonde": "Szőke",
+        "black": "Fekete",
+        "redhead": "Vörös",
+        "pink": "Rózsaszín",
+        "auburn": "Vörösesbarna",
+        "brown": "Barna",
+        "platinum_blonde": "Platina szőke",
+        "silver_grey": "Ezüst/szürke",
+        "white": "Fehér",
+        "blue": "Kék",
+        "purple": "Lila",
+        "green": "Zöld",
+        "burgundy": "Bordó",
+        "copper": "Réz",
+        "strawberry_blonde": "Eperszőke",
+        "ash_brown": "Hamvasbarna",
+        "golden_blonde": "Aranyszőke",
+        "mahogany": "Mahagóni",
+        "pastel_pink": "Pasztell rózsaszín",
+        "ombre": "Ombre",
+        "balayage": "Balayage",
+        "highlights": "Melírozás",
+        "jet_black": "Szénfekete",
+        "dark_brown": "Sötétbarna",
+        "light_brown": "Világosbarna",
+        "honey_blonde": "Mézszőke",
+        "dirty_blonde": "Piszkos szőke",
+        "cherry_red": "Cseresznyepiros",
+        "violet": "Ibolya"
+      },
+      "eyeColor": {
+        "brown": "Barna",
+        "blue": "Kék",
+        "green": "Zöld",
+        "hazel": "Mogyoró",
+        "amber": "Borostyán",
+        "gray": "Szürke",
+        "heterochromia": "Heterokrómia",
+        "violet": "Ibolya",
+        "red_pink": "Piros/Rózsaszín",
+        "black": "Fekete"
+      },
+      "bodyTypeFemale": {
+        "skinny": "Vékony",
+        "athletic": "Atletikus",
+        "average": "Átlagos",
+        "curvy": "Kerekded",
+        "chubby": "Puhány"
+      },
+      "bodyTypeMale": {
+        "skinny": "Vékony",
+        "athletic": "Atletikus",
+        "average": "Átlagos",
+        "muscular": "Izmos",
+        "heavy": "Testes",
+        "big_tall": "Nagy & Magas"
+      },
+      "breastSize": {
+        "small": "Kicsi",
+        "medium": "Közepes",
+        "large": "Nagy",
+        "extra_large": "Extra nagy"
+      },
+      "personality": {
+        "nympho": "Nimfomániás",
+        "lover": "Szerető",
+        "submissive": "Alázatos",
+        "dominant": "Domináns",
+        "temptress": "Csábító",
+        "innocent": "Ártatlan",
+        "caregiver": "Gondoskodó",
+        "experimenter": "Kísérletező",
+        "mean": "Rosszindulatú",
+        "confidant": "Bizalmas",
+        "shy": "Szégyenlős",
+        "queen": "Királyné",
+        "adventurous": "Kalandvágyó",
+        "romantic": "Romantikus",
+        "intellectual": "Intellektuális",
+        "protector": "Védelmező",
+        "rebel": "Lázadó",
+        "optimist": "Optimista",
+        "realist": "Realista",
+        "free_spirit": "Szabad szellem",
+        "leader": "Vezető",
+        "loyal": "Hűséges",
+        "playful": "Játékos",
+        "mysterious": "Titokzatos",
+        "ambitious": "Ambiciózus",
+        "gentle": "Gyengéd",
+        "sarcastic": "Szarkasztikus",
+        "empathetic": "Empatikus",
+        "stoic": "Sztóikus",
+        "charismatic": "Karizmatikus"
+      },
+      "relationship": {
+        "stranger": "Idegen",
+        "girlfriend": "Barátnő",
+        "sex_friend": "Szexbarát",
+        "school_mate": "Iskolatárs",
+        "work_colleague": "Munkahelyi kolléga",
+        "wife": "Feleség",
+        "mistress": "Szerető",
+        "friend": "Barát",
+        "step_sister": "Mostohatestvér",
+        "step_mom": "Mostohaanya",
+        "step_daughter": "Mostohalány",
+        "landlord": "Földesúr",
+        "sugar_baby": "Sugar Baby",
+        "boss": "Főnök",
+        "teacher": "Tanár",
+        "student": "Diák",
+        "neighbour": "Szomszéd",
+        "mother_in_law": "Anyós",
+        "sister_in_law": "Sógornő",
+        "boyfriend": "Barát",
+        "husband": "Férj",
+        "fiance": "Vőlegény / Menyasszony",
+        "ex": "Ex",
+        "roommate": "Lakótárs",
+        "best_friend": "Legjobb barát",
+        "classmate": "Osztálytárs",
+        "mentor": "Mentor",
+        "client": "Ügyfél",
+        "therapist": "Terapeuta",
+        "trainer": "Edző",
+        "rival": "Versengő",
+        "crush": "Kiszemelt",
+        "secret_admirer": "Titkos rajongó",
+        "pen_pal": "Levelezőtárs",
+        "business_partner": "Üzleti partner",
+        "babysitter": "Bébiszitter",
+        "childhood_friend": "Gyerekkori barát",
+        "long_distance_partner": "Távolsági partner"
+      },
+      "occupation": {
+        "student": "Diák",
+        "dancer": "Táncos",
+        "model": "Modell",
+        "maid": "Szobalány",
+        "boss_ceo": "Főnök / CEO",
+        "babysitter_au_pair": "Babysitter / Au Pair",
+        "streamer": "Streamer",
+        "bartender": "Csapos",
+        "tech_engineer": "IT mérnök",
+        "lifeguard": "Vízi mentős",
+        "cashier": "Pénztáros",
+        "massage_therapist": "Masszőr",
+        "teacher": "Tanár",
+        "nurse": "Nővér",
+        "secretary": "Titkárnő",
+        "yoga_instructor": "Jógaoktató",
+        "fitness_coach": "Fitneszedző",
+        "cook": "Szakács",
+        "artist": "Művész",
+        "movie_star_actress": "Filmsztár/Színésznő",
+        "doctor": "Orvos",
+        "librarian": "Könyvtáros",
+        "spy": "Kém",
+        "police_officer": "Rendőrtiszt",
+        "soldier": "Katona",
+        "lawyer": "Ügyvéd",
+        "hairdresser": "Fodrász",
+        "dentist": "Fogorvos",
+        "singer_musician": "Énekes/Zeneszerző",
+        "gynecologist": "Nőgyógyász",
+        "writer": "Író",
+        "flight_attendant": "Légikísérő",
+        "professional_athlete": "Hivatásos sportoló",
+        "scientist": "Tudós",
+        "florist": "Virágárus",
+        "makeup_artist": "Sminkes",
+        "photographer": "Fotós",
+        "social_worker": "Szociális munkás",
+        "designer": "Tervező",
+        "pharmacist": "Gyógyszerész",
+        "nutritionist": "Dietetikus",
+        "architect": "Építész",
+        "veterinarian": "Állatorvos",
+        "mechanic": "Autószerelő",
+        "journalist": "Újságíró",
+        "pilot": "Pilóta",
+        "firefighter": "Tűzoltó",
+        "accountant": "Könyvelő",
+        "electrician": "Villanyszerelő",
+        "carpenter": "Ács",
+        "psychologist": "Pszichológus",
+        "real_estate_agent": "Ingatlanügynök",
+        "chef": "Séf",
+        "farmer": "Farmer",
+        "delivery_driver": "Futár",
+        "janitor": "Takács",
+        "security_guard": "Biztonsági őr",
+        "banker": "Bankár",
+        "judge": "Bíró",
+        "paramedic": "Mentős",
+        "actor": "Színész",
+        "comedian": "Komikus",
+        "archaeologist": "Régész",
+        "astronaut": "Űrhajós"
+      },
+      "kinks": {
+        "bondage": "Kötözés",
+        "spanking": "Fenékre ütés",
+        "collar_leash": "Nyakörv & póráz",
+        "punishment": "Büntetés",
+        "humiliation": "Megalázás",
+        "public_play": "Nyilvános játék",
+        "roleplay": "Szerepjáték",
+        "anal_play": "Anális játék",
+        "oral_play": "Orális játék",
+        "cum_play": "Ondó játék",
+        "creampie": "Creampie",
+        "squirting": "Spriccelés",
+        "dirty_talk": "Piszkos beszéd",
+        "breeding": "Tenyesztés",
+        "daddy_mommy_dominance": "Daddy/Mommy dominancia",
+        "edging": "Edging",
+        "obedience": "Engedelmesség",
+        "control": "Irányítás",
+        "inexperienced": "Tapasztalatlan",
+        "shy_flirting": "Szégyenlős flört",
+        "playful_teasing": "Játékos csiklandozás",
+        "cuddling": "Ölelkezés",
+        "slow_sensual": "Lassú & érzéki",
+        "hair_pulling": "Húzkodás",
+        "foot_fetish": "Láb fetis",
+        "voyeurism": "Kukkolás",
+        "exhibitionism": "Exhibicionizmus",
+        "sensation_play": "Érzékelés játék",
+        "wax_play": "Viasz játék",
+        "pet_play": "Háziállat játék",
+        "age_play": "Kor játék",
+        "medical_play": "Orvosi játék",
+        "orgasm_control_denial": "Orgazmus kontroll/megtagadás",
+        "forced_orgasms": "Kényszerített orgazmusok",
+        "group_sex": "Csoportos szex",
+        "threesomes": "Hármasok",
+        "swapping": "Csere",
+        "cuckolding_cuckqueaning": "Kukkolás / Cuckqueaning",
+        "femdom": "Femdom",
+        "gentle_domination": "Gyengéd dominancia",
+        "sensation_deprivation": "Érzékelés megvonása",
+        "sensory_overload": "Érzéki túlterhelés",
+        "uniform_costume_fetish": "Egyenruha / Jelmez fetis",
+        "food_play": "Étellel való játék",
+        "watersports": "Vízisportok",
+        "bdsm": "BDSM",
+        "impact_play": "Ütéses játék",
+        "knife_play": "Késes játék",
+        "consensual_non_consent": "Konszenzusos nem-konszenzus",
+        "power_exchange": "Hatalomcsere",
+        "master_slave": "Mester / Szolga",
+        "owner_pet": "Tulajdonos / Háziállat"
+      },
+      "languages": {
+        "en": "Angol",
+        "cs": "Cseh",
+        "pl": "Lengyel",
+        "de": "Német",
+        "es": "Spanyol",
+        "fr": "Francia"
+      }
+    }
+  },
+  "myAI": {
+    "title": "Saját AI",
+    "titlePart1": "Saját",
+    "titlePart2": "AI",
+    "createNew": "Új AI létrehozása",
+    "createButton": "Karakter létrehozása",
+    "characterCount": "{count}/{limit} karakter",
+    "loadMore": "Továbbiak betöltése",
+    "empty": {
+      "title": "Még nincsenek karakterek",
+      "description": "Hozz létre első AI karaktered és kezdj el chatelni! Testreszabhatod a megjelenését, személyiségét és hangját.",
+      "createFirst": "Hozd létre első karaktered"
+    },
+    "delete": {
+      "title": "Karakter törlése",
+      "message": "Biztosan törölni szeretnéd a(z) {name} karaktert? Ez véglegesen eltávolítja a karaktert, az összes chat előzményt és a generált tartalmat.",
+      "confirm": "Törlés",
+      "success": "Karakter sikeresen törölve"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ Interakció",
+    "interactionDescription": "Írj természetesen — kérj fotót, videót vagy indíts beszélgetést. Az AI bármely nyelven megérti a szándékodat.",
+    "mediaTitle": "Képek és videók generálása",
+    "mediaDescription": "Engedd szabadjára a fantáziádat — generálj képeket vagy videókat korlátok nélkül.",
+    "next": "Következő →",
+    "gotIt": "Értem"
+  }
+}

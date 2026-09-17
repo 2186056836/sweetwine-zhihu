@@ -1,0 +1,4034 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "now": "今",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "success": "成功",
+    "confirm": "確認",
+    "back": "戻る",
+    "or": "または",
+    "next": "次へ",
+    "submit": "送信",
+    "search": "検索",
+    "filter": "フィルター",
+    "clear": "クリア",
+    "all": "すべて",
+    "yes": "はい",
+    "no": "いいえ",
+    "download": "ダウンロード",
+    "and": "と",
+    "tryAgain": "再試行",
+    "change": "変更"
+  },
+  "navigation": {
+    "new": "NEW",
+    "sectionBrowse": "ブラウズ",
+    "sectionTalk": "トーク",
+    "sectionCreate": "作成",
+    "sectionLibrary": "ライブラリ",
+    "explore": "ホーム",
+    "discover": "発見",
+    "createShort": "AI作成",
+    "chats": "チャット",
+    "groupChat": "AIグループチャット",
+    "roleplay": "ロールプレイ",
+    "collection": "コレクション",
+    "generateImage": "画像生成",
+    "generateVideo": "動画生成",
+    "createCharacter": "AIキャラクター作成",
+    "myAI": "マイAI",
+    "language": "言語",
+    "contactUs": "お問い合わせ",
+    "account": "アカウント",
+    "sidebarPromoTitle": "サマーセール — 50% OFF",
+    "sidebarPromoDesc": "Unlimited messages. Use images and videos without restrictions.",
+    "categories": {
+      "girls": "女性",
+      "anime": "アニメ",
+      "guys": "男性"
+    },
+    "campus": "Campus Care"
+  },
+  "discover": {
+    "chatNow": "今すぐチャット",
+    "like": "いいね"
+  },
+  "auth": {
+    "login": "ログイン",
+    "signup": "新規登録",
+    "createFreeAccount": "無料アカウントを作成",
+    "logout": "ログアウト",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード（確認）",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "signupPrompt": "無料アカウントを作成",
+    "loginPrompt": "ログイン",
+    "continueWith": "続ける",
+    "welcomeBack": "おかえりなさい！",
+    "createAccount": "アカウントを作成",
+    "signInToAccount": "アカウントにサインイン",
+    "emailRequired": "メールアドレスは必須です",
+    "emailInvalid": "メールアドレスの形式が正しくありません",
+    "passwordRequired": "パスワードは必須です",
+    "passwordLength": "パスワードは6文字以上で入力してください",
+    "passwordsMismatch": "パスワードが一致しません",
+    "emailAlreadyRegistered": "このメールアドレスは既に登録されています",
+    "emailAlreadyRegisteredDescription": "このメールアドレスのアカウントは既に存在します。ログインしてください。",
+    "loginError": "ログインに失敗しました",
+    "signupError": "新規登録に失敗しました",
+    "loginSuccess": "おかえりなさい！",
+    "signupSuccess": "アカウントが正常に作成されました！",
+    "logoutSuccess": "正常にログアウトされました",
+    "logoutError": "ログアウトに失敗しました",
+    "linkExpired": "この確認リンクは有効期限が切れています。新しいリンクをリクエストしてください。",
+    "accessDenied": "アクセスが拒否されました。もう一度お試しください。",
+    "verifyEmail": "メールアドレスを確認",
+    "verificationEmailSent": "確認メールを送信しました",
+    "confirmYourEmail": "メールアドレスを確認してください",
+    "confirmationLinkSent": "確認リンクを「{email}」に送信しました。",
+    "checkSpamFolder": "メールが届かない場合は、迷惑メールフォルダをご確認ください。",
+    "signupToChat": "無料アカウントを作成して始めましょう。",
+    "signupDescription": "アカウントを作成して会話を続けましょう",
+    "emailVerificationTitle": "メールを確認してください",
+    "emailVerificationMessage": "確認リンクを {email} に送信しました。受信トレイを確認し、リンクをクリックしてアカウントを確認してください。",
+    "emailVerificationNext": "認証後、オンボーディングを完了します。",
+    "verificationEmailSentTo": "{email} に確認メールを送信しました",
+    "verificationInstructions": "受信トレイを確認し、確認リンクをクリックしてアカウントを有効化してください。",
+    "resetPassword": "パスワードをリセット",
+    "resetPasswordDescription": "メールアドレスを入力すると、リセット用リンクをお送りします",
+    "resetEmailSent": "このメールアドレスでアカウントが存在する場合、まもなくリセット用リンクが届きます",
+    "backToLogin": "ログインに戻る",
+    "newPassword": "新しいパスワード",
+    "confirmNewPassword": "新しいパスワードを確認",
+    "passwordResetSuccess": "パスワードが正常に更新されました。ログインしてください。",
+    "enterNewPassword": "新しいパスワードを入力",
+    "redirectingToLogin": "ログイン画面にリダイレクト中...",
+    "invalidResetLink": "リンクが無効または期限切れです",
+    "invalidResetLinkDescription": "このパスワードリセットリンクは無効または期限切れです。新しいリンクをリクエストしてください。",
+    "passwordsDontMatch": "パスワードが一致しません",
+    "currentPassword": "現在のパスワード",
+    "currentPasswordRequired": "現在のパスワードは必須です",
+    "changePassword": "パスワードを変更",
+    "changePasswordDescription": "現在のパスワードを入力し、新しいパスワードを選択してください",
+    "newPasswordMustBeDifferent": "新しいパスワードは現在のパスワードと異なる必要があります",
+    "incorrectPassword": "現在のパスワードが正しくありません",
+    "passwordChangeSuccess": "パスワードが正常に変更されました",
+    "changeEmail": "メールアドレスを変更",
+    "newEmail": "新しいメールアドレス",
+    "confirmNewEmail": "新しいメールアドレスを確認",
+    "emailsDontMatch": "メールアドレスが一致しません",
+    "emailChangeDescription": "現在のメールアドレスと新しいメールアドレスの両方に確認メールが送信されます",
+    "emailMustBeDifferent": "新しいメールアドレスは現在のメールアドレスと異なる必要があります",
+    "emailChangeSent": "確認メールを送信しました。新しいメールアドレスの受信トレイを確認してください。",
+    "emailChangeSecurityNote": "セキュリティのため、現在のメールアドレスと新しいメールアドレスの両方に確認メールが送信されます。変更を完了するには両方から確認が必要です。",
+    "otpDescription": "{email} に6桁のコードを送信しました",
+    "otpVerify": "確認",
+    "otpResend": "コードを再送信",
+    "otpResendIn": "{seconds}秒後に再送信",
+    "otpNoCode": "コードが届きませんでしたか？",
+    "otpInvalid": "無効なコードです。もう一度お試しください。",
+    "otpSuccess": "メールアドレスが正常に確認されました！",
+    "otpResendSuccess": "新しいコードをメールに送信しました",
+    "otpResendError": "コードの再送信に失敗しました",
+    "continueWithEmail": "メールアドレスで続ける",
+    "moreOptions": "その他のオプション",
+    "lessOptions": "オプションを少なく",
+    "enterYourEmail": "メールアドレスを入力",
+    "sendCode": "コードを送信",
+    "byCreatingAccountAgree": "アカウントを作成することで、",
+    "termsOfService": "利用規約",
+    "continueWithZhihu": "Zhihuで続行"
+  },
+  "onboarding": {
+    "welcome": "sweetwine へようこそ",
+    "welcomeTo": "ようこそ",
+    "letsGetStarted": "設定を始めましょう",
+    "setupProfile": "プロフィールを設定",
+    "step1of2": "ステップ 1 / 2",
+    "step2of2": "ステップ 2 / 2",
+    "nickname": "ニックネーム",
+    "nicknamePlaceholder": "ニックネームを入力",
+    "nicknameRequired": "ニックネームを入力してください",
+    "gender": "性別",
+    "genderRequired": "性別を選択してください",
+    "male": "男性",
+    "female": "女性",
+    "interfaceLanguage": "表示言語",
+    "interfaceLanguageDesc": "メニューやボタンの言語",
+    "aiLanguage": "AI応答言語",
+    "aiLanguageDesc": "AIがあなたに話しかける言語",
+    "languageRequired": "言語を選択してください",
+    "continue": "続ける",
+    "ageVerification": "年齢確認",
+    "ageVerificationText": "sweetwineを利用するには18歳以上である必要があります。続けることで、年齢要件を満たしていることを確認したものとみなされます。",
+    "beforeContinue": "続ける前に",
+    "mustBe18": "このサービスを利用するには18歳以上である必要があります",
+    "agreeToTerms": "続けることで、{termsLink}と{privacyLink}に同意したものとみなされます",
+    "termsOfService": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "iConfirm": "私は18歳以上であり、以下に同意します",
+    "ageRequired": "続けるには年齢を確認してください",
+    "aiActConsent": "私はAIとのみやり取りすることを理解しています",
+    "aiActRequired": "続けるにはこれを理解していることを確認してください",
+    "newsletterOptIn": "最新情報やニュースを受け取るためにニュースレターを購読する",
+    "complete": "設定完了！",
+    "completeText": "準備ができました！AIキャラクターとチャットを始めましょう。",
+    "startExploring": "探索を始める",
+    "featuresTitle": "利用可能な機能",
+    "featuresTitleWord1": "利用可能な",
+    "featuresTitleWord2": "機能",
+    "feature1Title": "AIチャット",
+    "feature1Desc": "検閲なしのプライベートな会話",
+    "feature2Title": "画像生成",
+    "feature2Desc": "AIキャラクターと一緒に検閲なしのカスタム画像を生成",
+    "feature3Title": "動画生成",
+    "feature3Desc": "エフェクト付きの検閲なしAI動画を生成",
+    "feature5Title": "カスタムAI作成",
+    "feature5Desc": "自分だけのキャラクターをデザイン",
+    "feature6Title": "キャラクターを閲覧",
+    "feature6Desc": "100以上のユニークな個性",
+    "feature7Title": "AIロールプレイ",
+    "feature7Desc": "プロが作成したストーリーやファンタジーを体験",
+    "showcase": {
+      "chatTitle": "AI チャット",
+      "chatDesc": "検閲なしのプライベートな会話、無制限",
+      "imageTitle": "画像生成",
+      "imageDesc": "検閲なしでパーソナライズされたAI画像を作成",
+      "videoTitle": "動画生成",
+      "videoDesc": "エフェクト付きの検閲なしAI動画を生成",
+      "voiceTitle": "Voice Messages",
+      "voiceDesc": "コンパニオンとのリアルタイム音声会話",
+      "roleplayTitle": "AI Roleplay",
+      "roleplayDesc": "没入型ストーリー、ファンタジー、インタラクティブプレイ",
+      "groupChatTitle": "AIグループチャット",
+      "groupChatDesc": "最大3体のAIキャラクターと同時にチャット",
+      "creatorTitle": "カスタムAIクリエイター",
+      "creatorDesc": "自分だけのAIキャラクターをデザイン・作成"
+    },
+    "freePlan": {
+      "title": "準備完了です！",
+      "subtitle": "無料プランに含まれる内容です。",
+      "charactersTitle": "自分だけのキャラクターを作成",
+      "charactersDesc": "ゼロから {count} 体のカスタム AI キャラクターをデザイン",
+      "imagesTitle": "画像を生成",
+      "imagesDesc": "あなたのコンパニオンの {count} 枚の無料 AI 画像",
+      "messagesTitle": "毎日チャット",
+      "messagesDesc": "1 日 {count} メッセージ、24 時間ごとにリセット",
+      "cta": "探索を始める"
+    },
+    "redirectingIn": "リダイレクトまで",
+    "seconds": "秒",
+    "generateCharacter": "キャラクターを生成",
+    "redirectingToCreate": "キャラクター作成画面へリダイレクトまで"
+  },
+  "errors": {
+    "pageNotFound": "ページが見つかりません",
+    "pageNotFoundDesc": "お探しのページは存在しません。",
+    "goHome": "ホームに戻る",
+    "somethingWentWrong": "問題が発生しました",
+    "tryAgain": "もう一度試す",
+    "unauthorized": "認証が必要です",
+    "unauthorizedDesc": "このページにアクセスするにはログインしてください。",
+    "forbidden": "アクセス禁止",
+    "forbiddenDesc": "このページにアクセスする権限がありません。"
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved.",
+    "madeWith": "Made with",
+    "by": "by sweetwine",
+    "description": "個性的な性格、ビジュアル、魅力的な会話が楽しめるパーソナライズド AI キャラクターを体験しよう。",
+    "companyName": "OneClick AI Solutions s.r.o.",
+    "product": "製品",
+    "legal": "法的情報",
+    "company": "会社",
+    "resources": "リソース",
+    "partnerships": "パートナーシップ",
+    "pressMedia": "プレス & メディア",
+    "careers": "採用情報",
+    "aiRealClones": "AI リアルクローン",
+    "about": "概要",
+    "blog": "ブログ",
+    "news": "ニュース",
+    "productUpdates": "製品アップデート",
+    "help": "ヘルプ",
+    "sitemap": "サイトマップ",
+    "paymentOptions": "お支払い方法",
+    "chats": "チャット",
+    "collection": "コレクション",
+    "generateImage": "画像を生成",
+    "generateVideo": "動画を生成",
+    "myAI": "マイ AI",
+    "createCharacter": "キャラクターを作成",
+    "api": "API",
+    "features": "機能",
+    "allFeatures": "すべての機能",
+    "aiGroupChat": "AI グループチャット",
+    "aiMemory": "AI memory",
+    "aiGirlfriend": "AI ガールフレンド",
+    "aiBoyfriend": "AI ボーイフレンド",
+    "aiCompanions": "AI キャラクター",
+    "aiFriend": "AI フレンド",
+    "aiBreakupSupport": "別れのサポート",
+    "aiParent": "AI 親",
+    "aiRoleplay": "AI ロールプレイ",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsAndConditions": "利用規約",
+    "cookiePolicy": "クッキーポリシー",
+    "cookieSettings": "クッキー設定",
+    "other": "その他のポリシー",
+    "copyright": "© {year} sweetwine. All rights reserved."
+  },
+  "cookies": {
+    "banner": {
+      "title": "このサイトのクッキー",
+      "customizeButton": "カスタマイズ",
+      "rejectButton": "拒否",
+      "acceptButton": "同意"
+    },
+    "modal": {
+      "title": "クッキーの管理",
+      "subtitle": "以下でカテゴリをオン/オフにできます。サイトの動作に必要なクッキーは常に有効です。",
+      "categories": {
+        "necessary": {
+          "title": "必須クッキー",
+          "description": "ログイン、購入、セキュリティに必要です。これなしではサイトは動作しません。",
+          "alwaysOn": "常に有効"
+        },
+        "analytics": {
+          "title": "パフォーマンス",
+          "description": "Google Analytics 4による利用状況とコンバージョンの計測（サーバー側で擬似識別子を使ってサインアップや購入などの主要コンバージョンを送信）。サービスの利用状況を理解するために使用し、個人を特定することはありません。"
+        },
+        "marketing": {
+          "title": "ターゲティング",
+          "description": "Measure ad performance on Google and Meta."
+        }
+      },
+      "showCookies": "クッキーを表示",
+      "hideCookies": "クッキーを非表示",
+      "table": {
+        "name": "名前",
+        "provider": "プロバイダー",
+        "expiration": "有効期限",
+        "description": "説明",
+        "session": "セッション"
+      },
+      "policyLink": "詳細は<policy>クッキーポリシー</policy>をご覧ください。",
+      "rejectButton": "拒否",
+      "saveButton": "保存して閉じる",
+      "acceptButton": "同意",
+      "cookieDescriptions": {
+        "supabaseAuth": "認証済みセッションを保存してログイン状態を維持します。",
+        "nextLocale": "選択したインターフェース言語を記憶します。",
+        "consent": "クッキーの選択を保存し、毎回バナーを表示しないようにします。",
+        "ga": "ユニークビジターを識別します（Google Analytics 4）。同じ擬似識別子はサーバー側での主要コンバージョン計測にも使用されます。",
+        "gaSession": "Google Analytics 4のセッション状態とエンゲージメント指標を保持します。",
+        "fbp": "Meta Pixelの属性付与のためにブラウザを識別します。",
+        "fbc": "広告コンバージョン属性付与のためのFacebookクリックIDを保存します。Meta広告をクリックした場合のみ設定されます。",
+        "gclAu": "Google Adsによるクロスサイトコンバージョンリンクに使用されます。",
+        "saleCountdown": "現在のプロモーション終了を追跡し、割引カウントダウンをページ間で一貫させます。",
+        "onboarded": "アカウントをオンボーディング済みとしてマークし、以後のページで年齢確認データベースチェックをスキップできるようにします。",
+        "attribution": "直近30日以内に有料キャンペーンや広告リンクから当サイトへアクセスした記録を保持し、広告効果を測定します。これは当社サーバー上に保存されるファーストパーティ識別子で、第三者と共有されることはありません。"
+      }
+    }
+  },
+  "comingSoon": {
+    "title": "近日公開",
+    "subtitle": "この機能の提供に向けて準備を進めています。",
+    "notify": "準備ができたら通知を受け取る",
+    "backHome": "ホームに戻る",
+    "generateVideo": {
+      "title": "動画を生成",
+      "description": "AIキャラクターをアニメーション動画で生き生きと表現。あなたのお気に入りのキャラクターが登場するパーソナライズド動画を作成しましょう。"
+    },
+    "createCharacter": {
+      "title": "キャラクターを作成",
+      "description": "自分だけのユニークなAIキャラクターをデザイン・カスタマイズ。性格、外見、バックストーリーを定義し、本当にパーソナライズされたインタラクションを実現します。"
+    },
+    "myAI": {
+      "title": "My AI",
+      "description": "作成したすべてのカスタムAIキャラクターにアクセスして管理。性格を編集し、外見を更新し、応答を微調整できます。"
+    }
+  },
+  "exploreMore": {
+    "title": "もっと探す",
+    "aiGroupChat": "AIグループチャット",
+    "aiGroupChatDesc": "最大3人のキャラクターとチャット",
+    "aiMemory": "AI memory",
+    "aiMemoryDesc": "すべてのモードに続くコンテキスト",
+    "aiGirlfriend": "AIガールフレンド",
+    "aiGirlfriendDesc": "バーチャル彼女とチャット",
+    "aiBoyfriend": "AIボーイフレンド",
+    "aiBoyfriendDesc": "AIボーイフレンドとつながる",
+    "aiCompanions": "AIキャラクター",
+    "aiCompanionsDesc": "ユニークなAIパーソナリティと出会う",
+    "aiFriend": "AIフレンド",
+    "aiFriendDesc": "気兼ねのない友達を見つける",
+    "aiBreakupSupport": "別れのサポート",
+    "aiBreakupSupportDesc": "癒しの会話",
+    "aiParent": "AI親",
+    "aiParentDesc": "温かいサポートとアドバイス",
+    "aiRoleplay": "AIロールプレイ",
+    "aiRoleplayDesc": "没入型ストーリーシナリオ",
+    "allFeatures": "すべての機能",
+    "allFeaturesDesc": "提供するすべてを探索"
+  },
+  "legal": {
+    "policies": "ポリシー",
+    "termsAndConditions": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "cookiePolicy": "クッキーポリシー",
+    "contentReportingPolicy": "コンテンツ報告ポリシー",
+    "communityGuidelines": "コミュニティガイドライン",
+    "complaintPolicy": "苦情ポリシー",
+    "contentRemovalPolicy": "コンテンツ削除ポリシー",
+    "blockedContentPolicy": "ブロックコンテンツポリシー",
+    "underagePolicy": "未成年者ポリシー",
+    "usc2257": "18 U.S.C. 2257 免除",
+    "lastUpdated": "最終更新",
+    "index": {
+      "title": "法的文書",
+      "subtitle": "sweetwine に関するすべての法的ポリシーと契約を閲覧",
+      "documents": {
+        "privacyPolicy": {
+          "title": "プライバシーポリシー",
+          "description": "個人情報の収集、使用、保護方法について学びます。データ処理、保存、プライバシー権に関する詳細。"
+        },
+        "termsAndConditions": {
+          "title": "利用規約",
+          "description": "sweetwine の利用を規定するサービス利用規約。ユーザーの責任、サービス内容、法的合意。"
+        },
+        "cookiePolicy": {
+          "title": "クッキーポリシー",
+          "description": "プラットフォームでの体験を向上させるためにクッキーや類似技術をどのように使用しているかについての情報。"
+        },
+        "underagePolicy": {
+          "title": "未成年者ポリシー",
+          "description": "厳格な年齢確認と保護ポリシー。sweetwine は18歳以上のユーザーのみご利用いただけます。"
+        },
+        "complaintPolicy": {
+          "title": "苦情ポリシー",
+          "description": "苦情の申し立て方法、問題の報告方法、ユーザーからの懸念や紛争への対応プロセス。"
+        },
+        "contentRemovalPolicy": {
+          "title": "コンテンツ削除ポリシー",
+          "description": "コンテンツ削除リクエストの手続きと、不適切または違法なコンテンツの報告への対応方法。"
+        },
+        "blockedContentPolicy": {
+          "title": "ブロックコンテンツポリシー",
+          "description": "プラットフォームで禁止されているコンテンツの種類とその執行ポリシー。"
+        },
+        "contentReportingPolicy": {
+          "title": "コンテンツ報告ポリシー",
+          "description": "sweetwine 上での著作権侵害や不適切なコンテンツの報告方法。"
+        },
+        "communityGuidelines": {
+          "title": "コミュニティガイドライン",
+          "description": "すべてのユーザーが敬意を持ち、安全で楽しいコミュニティを維持するためのルールとガイドライン。"
+        }
+      },
+      "lastUpdated": "最終更新: {date}"
+    }
+  },
+  "breadcrumbs": {
+    "chats": "チャット",
+    "groupChat": "AI グループチャット",
+    "aiMemory": "AI Memory",
+    "generate": "画像を生成",
+    "generateVideo": "動画を生成",
+    "create": "AI キャラクターを作成",
+    "myAI": "マイ AI",
+    "collection": "コレクション",
+    "invite": "招待",
+    "profile": "プロフィール設定",
+    "legal": "法的情報",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsAndConditions": "利用規約",
+    "cookiePolicy": "クッキーポリシー",
+    "dmcaPolicy": "DMCAポリシー",
+    "communityGuidelines": "コミュニティガイドライン",
+    "contentRemovalPolicy": "コンテンツ削除ポリシー",
+    "contentReportingPolicy": "コンテンツ報告ポリシー",
+    "complaintPolicy": "苦情ポリシー",
+    "blockedContentPolicy": "ブロックコンテンツポリシー",
+    "underagePolicy": "未成年者ポリシー",
+    "usc2257Exemption": "USC 2257 免除"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問やフィードバックをお待ちしています。",
+    "name": "お名前",
+    "namePlaceholder": "お名前",
+    "nameRequired": "お名前は必須です",
+    "email": "メールアドレス",
+    "emailPlaceholder": "your@email.com",
+    "emailRequired": "メールアドレスは必須です",
+    "emailInvalid": "メールアドレスが無効です",
+    "message": "メッセージ",
+    "messagePlaceholder": "メッセージを入力...",
+    "messageRequired": "メッセージは必須です",
+    "send": "メッセージを送信",
+    "sending": "送信中...",
+    "success": "メッセージを送信しました！",
+    "successDesc": "近日中にご連絡いたします。",
+    "error": "メッセージの送信に失敗しました",
+    "errorDesc": "後でもう一度お試しください。"
+  },
+  "groupChat": {
+    "lobbyTitle": "AI グループチャット",
+    "lobbyHeadingSuffix": "最大 {max} 人の AI キャラクターを選択",
+    "history": "履歴",
+    "newGroup": "新しいグループチャット",
+    "createGroup": "グループチャットを作成",
+    "createError": "グループチャットを作成できませんでした。もう一度お試しください。",
+    "creatingGroup": "グループチャットを設定しています...",
+    "sectionWoman": "女性",
+    "sectionMan": "男性",
+    "sectionAnime": "アニメ",
+    "tabPremade": "AI キャラクター",
+    "tabMyAi": "マイ AI",
+    "tabSingle": "シングルチャット",
+    "tabGroup": "グループチャット",
+    "selectedCount": "{count}/{max}",
+    "loadMore": "さらに読み込む",
+    "noCustom": "まだ AI キャラクターを作成していません。",
+    "noMessagesYet": "まだメッセージがありません",
+    "emptyTitle": "まだグループチャットがありません",
+    "membersTitle": "このチャットに参加中",
+    "typing": "入力中",
+    "backToLobby": "グループチャットに戻る",
+    "deleteGroup": "グループチャットを削除",
+    "confirmDeleteGroup": "このグループチャットを削除してもよろしいですか？すべてのメッセージが削除されます。",
+    "deleteError": "グループチャットを削除できませんでした。",
+    "mediaTargetImageTitle": "誰が写真を送信しますか？",
+    "mediaTargetVideoTitle": "誰が動画を送りますか？",
+    "mediaTargetSubtitle": "メディアを生成するキャラクターを選んでください。",
+    "mediaTargetGroup": "グループ写真",
+    "groupPhotoTitle": "グループ写真",
+    "groupPhotoHint": "{name} が一緒に写った写真を1枚生成します。",
+    "promoSubtitle": "最大3人のキャラクターと",
+    "promoCta": "新規作成",
+    "generateImage": "Generate image",
+    "generateVideo": "Generate video",
+    "sendAGift": "Send a gift"
+  },
+  "newExperiences": {
+    "title": "<gradient>New</gradient> Adventures",
+    "live": "LIVE",
+    "scrollPrev": "左にスクロール",
+    "scrollNext": "右にスクロール"
+  },
+  "landing": {
+    "nav": {
+      "getStarted": "今すぐ始める"
+    },
+    "hero": {
+      "tagline": "10万人が信頼し、毎日参加しています",
+      "headlinePrefix": "あなたの",
+      "subtitle": "The AI character that actually listens. Talk, create, and connect — any time, any language, no judgment.",
+      "cta": "無料で始める"
+    },
+    "cyclingHeadline": {
+      "girlfriend": "AIガールフレンド",
+      "friend": "AIフレンド",
+      "boyfriend": "AIボーイフレンド",
+      "companion": "AIキャラクター"
+    },
+    "features": {
+      "chat": {
+        "title": "AIガールフレンドと話そう",
+        "description": "無制限のメッセージ。彼女はあなたを覚え、知的に反応し、実際のアクションを取ります。プライバシー重視の設計。"
+      },
+      "media": {
+        "title": "リアルなAI写真＆動画",
+        "description": "オンデマンドの写真と動画は本物と区別がつかないほどリアル。彼女の顔、スタイル、どんなシーンも、動きや静止画で。"
+      },
+      "groupChat": {
+        "title": "AIグループチャット",
+        "description": "最大3人のキャラクターと同時にグループチャットを始めましょう。彼らは自然に返信し、互いに反応し、写真や動画を送ります。"
+      },
+      "roleplay": {
+        "title": "AIロールプレイ",
+        "description": "役を演じ続け、あなたの選択をすべて覚えているキャラクターと、没入感のあるストーリー主導のシナリオに飛び込みましょう。"
+      }
+    },
+    "memory": {
+      "title": "AI Memory",
+      "subtitle": "One companion. One memory. Across chat, images and video — details you share carry over so conversations pick up where you left off.",
+      "cta": "AI Memoryの仕組み",
+      "diagram": {
+        "center": "コンパニオンの記憶",
+        "chat": "Chat",
+        "image": "Images",
+        "video": "Video",
+        "gifts": "Gifts",
+        "roleplay": "Roleplay"
+      }
+    },
+    "createAI": {
+      "headlinePrefix": "あなただけの",
+      "headlineHighlight": "AIキャラクター",
+      "subtitle": "キャラクターの見た目や性格を形作り、すぐに命を吹き込みましょう — あなただけの完璧なAIパートナーを、あなたの条件で。",
+      "cta": "AIを作成する"
+    },
+    "companions": {
+      "headlinePrefix": "あなたの",
+      "headlineHighlight": "AIキャラクター",
+      "subtitle": "それぞれのキャラクターには独自の世界があります。温かく心を開きやすい人もいれば、複雑で警戒心が強く、本当に繋がるのが難しい人もいます。ユニークなロールプレイシナリオを探求するか、ゼロから自分で作りましょう。"
+    },
+    "languages": {
+      "headlinePrefix": "どんな言語でも話せます、",
+      "headlineHighlight": "24/7",
+      "subtitle": "Your AI character speaks your language — literally. Chat in English, German, Spanish, French, Polish, Czech, and more. No switching apps, no awkward translations. Just natural conversation in the language you think in.",
+      "tagline": "アプリのインターフェースとAIキャラクターの両方がシームレスに切り替わります — 言語の不一致や壊れた体験はありません。",
+      "more": "もっと見る"
+    },
+    "finalCta": {
+      "headlinePrefix": "今すぐ",
+      "headlineHighlight": "始めませんか？",
+      "subtitle": "Create your free account in seconds."
+    },
+    "whysweetwine": {
+      "headlinePrefix": "なぜ",
+      "headlineHighlight": "sweetwine?",
+      "subtitle": "本物のようなつながりに必要なすべて — それ以外は必要ありません。",
+      "benefits": {
+        "freeToStart": {
+          "title": "無料でスタート",
+          "desc": "Your account is ready in seconds — start chatting right away."
+        },
+        "alwaysAvailable": {
+          "title": "いつでも利用可能",
+          "desc": "昼夜問わず、あなたのキャラクターが待っています。待機や予約は不要です。"
+        },
+        "remembers": {
+          "title": "すべてを記憶",
+          "desc": "会話のたびに文脈が蓄積。あなたの名前、好み、世界観を学びます。"
+        },
+        "unlimited": {
+          "title": "本当に無制限",
+          "desc": "メッセージ数制限やコンテンツ制限なし。好きなだけ、いつでも送信できます。"
+        },
+        "private": {
+          "title": "100% プライベート",
+          "desc": "会話はあなたとキャラクターだけのもの。データは一切共有されません。"
+        },
+        "createYourOwn": {
+          "title": "自分だけのキャラクターを作成",
+          "desc": "外見、性格、声まで自由にカスタマイズ。まさに理想のキャラクターをデザインできます。"
+        }
+      },
+      "difference": {
+        "title": "sweetwine の違い",
+        "freedomTitle": "責任ある自由。",
+        "freedomDescription": "sweetwine はオープンで判断をしない場ですが、明確な境界を設けています。CSAM、未成年者コンテンツ、非同意のシナリオ、極端な暴力、獣姦、死体愛好、著名人のディープフェイク、違法行為の推奨を一切容認しません。",
+        "freedomStatement": "私たちは、誰もが安全に利用できる空間の中で、無限の創造的自由を信じています。"
+      }
+    },
+    "characters": {
+      "title": "<gradient>sweetwine AI</gradient> Characters",
+      "subtitle": "Unique AI characters to chat with. Send messages, images and videos.",
+      "filters": "フィルター"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "sweetwine について知っておくべきこと",
+      "questions": {
+        "q1": {
+          "question": "sweetwine とは？",
+          "answer": "SweetWine is a platform for conversations with AI characters - your AI Girlfriend, AI Boyfriend, AI Friend, or AI Anime character. Chat, generate images and videos, and enjoy personalized interactions. It is like having your own digital character who always listens, understands you, and adapts to your style over time."
+        },
+        "q2": {
+          "question": "sweetwine は安全で合法ですか？",
+          "answer": "はい、sweetwine は合法的なサービスで、プライバシーを最優先しています。GDPRやその他のデータ保護基準に準拠し、データを慎重に扱っています。決済は中立的な販売者名で表示され、銀行明細書にsweetwineの記載がないため、完全なプライバシーが確保されます。"
+        },
+        "q3": {
+          "question": "自分だけのAIキャラクターを作成できますか？",
+          "answerPart1": "Absolutely! You can use our",
+          "linkText": "キャラクタークリエイター",
+          "answerPart2": "を使って、好みのキャラクターを自由にデザインできます。リアルな",
+          "linkTextGirlfriend": "AIガールフレンド",
+          "answerPart3": "や",
+          "linkTextBoyfriend": "AIボーイフレンド",
+          "answerPart4": "、アニメスタイルのキャラクターも作成可能。外見（民族、髪型、体型、服装）、性格、声、興味、バックストーリーを男女ともにカスタマイズできます。"
+        },
+        "q4": {
+          "question": "AIキャラクターは会話を記憶しますか？",
+          "answer": "はい！AIキャラクターは高度なメモリ技術で過去の会話、好み、共有した重要な詳細を記憶します。チャットを重ねるほど、パーソナライズされ自然な体験になります。コミュニケーションスタイルを学び、時間とともに適応します。"
+        },
+        "q5": {
+          "question": "sweetwine はどの言語に対応していますか？",
+          "answer": "sweetwine は英語、ドイツ語、フランス語、スペイン語、ポーランド語、チェコ語など複数の言語に対応しています。インターフェースとAI会話の両方が希望の言語で動作するため、最も快適な言語で自然にチャットできます。"
+        },
+        "q6": {
+          "question": "AIキャラクターは画像や動画を送信できますか？",
+          "answerPart1": "はい！キャラクターのさまざまな状況やスタイルの",
+          "linkTextImages": "画像",
+          "answerPart2": "や",
+          "linkTextVideos": "動画",
+          "answerPart3": " of your character in various situations and styles. Generation is unlimited. All your generated media is saved to your collection for easy access anytime."
+        },
+        "q7": {
+          "question": "他のAIキャラクタープラットフォームと比べて、なぜsweetwineを選ぶのですか？",
+          "answer": "SweetWine stands apart as an industry leader in AI characters. We are built by AI engineers and psychologists who prioritize quality, reliability, and transparency, and we offer genuine value — completely free. Our platform features superior AI technology, responsive customer support, and a commitment to user satisfaction."
+        },
+        "q8": {
+          "question": "sweetwine は無料で使えますか？",
+          "answerPart1": "Yes! SweetWine is completely free: unlimited conversations, image and video generation, and custom character creation — every feature is free."
+        },
+        "q9": {
+          "question": "アプリのインストールが必要ですか？",
+          "answerPart1": "インストールは不要です！sweetwineはブラウザ上で直接動作し、デスクトップ、タブレット、モバイルのどのデバイスでも利用できます。サインアップしてキャラクターを選ぶだけで、すぐにチャットを開始できます。すべての",
+          "linkText": "会話",
+          "answerPart2": "はデバイス間で自動的に同期されます。"
+        },
+        "q10": {
+          "question": "事前に作成されたAIキャラクターはありますか？",
+          "answerPart1": "はい！さまざまな",
+          "linkText": "事前作成キャラクター",
+          "answerPart2": "をご用意しています。AIガールフレンド、AIボーイフレンド、AIアニメキャラクターなど、多様な性格、外見、コミュニケーションスタイルをお選びいただけます。甘い、魅力的、知的、冒険的など、あなたの好みに合ったキャラクターが見つかります。さらに、無制限にカスタムキャラクターを作成することも可能です。"
+        },
+        "q12": {
+          "question": "生成した画像や動画はどうなりますか？",
+          "answerPart1": "生成されたすべてのメディアは、プライベートな",
+          "linkText": "コレクション",
+          "answerPart2": "に自動保存されます。いつでもアクセス、ダウンロード、削除が可能です。コレクションは完全にプライベートで、あなただけが閲覧できます。生成したコンテンツを共有したり利用したりすることはありません。"
+        }
+      }
+    },
+    "statement": {
+      "title": "私たちのコミットメント",
+      "privacy": "プライバシーは最優先事項です。すべての会話は暗号化され、共有されることはありません。",
+      "quality": "最先端のAI技術を活用し、最も魅力的な体験を提供します。",
+      "support": "サポートチームは24時間365日、いつでもお問い合わせに対応します。",
+      "mainTitle": "AIキャラクターの未来を体験しよう",
+      "mainDescription": "sweetwineは最先端のAI技術と直感的なデザインを融合し、今日最も没入感のあるパーソナライズされたキャラクター体験をお届けします。",
+      "features": {
+        "f1": {
+          "title": "感情知能",
+          "description": "AIキャラクターは文脈、感情、ニュアンスを理解し、深く魅力的な会話を提供します。AIフレンドとのおしゃべり、辛いときの別れのサポート、AIメンターからのアドバイスなど、感情を理解するAIがそばにいます。"
+        },
+        "f2": {
+          "title": "独自の個性",
+          "description": "各キャラクターには独自の性格、背景、コミュニケーションスタイルがあります。リアルなAIガールフレンドやAIボーイフレンド、AIアニメキャラクターから選べるので、毎回のやり取りがユニークで記憶に残るものになります。"
+        },
+        "f3": {
+          "title": "マルチメディアインタラクション",
+          "description": "テキストだけでなく、AIが生成する画像や動画で会話を視覚的に彩ります。"
+        },
+        "f4": {
+          "title": "カスタマイズ",
+          "description": "外見、性格、特徴を自由に設定して、あなた好みのAIキャラクターを作成できます。"
+        },
+        "f5": {
+          "title": "プライバシーとセキュリティ",
+          "description": "会話はプライベートかつ安全に保護されます。データを販売することはなく、プライバシー設定は完全にあなたが管理できます。"
+        },
+        "f6": {
+          "title": "多言語対応",
+          "description": "お好みの言語でAIキャラクターとチャットできます。英語、チェコ語、ポーランド語、ドイツ語、スペイン語、フランス語に対応しています。"
+        }
+      },
+      "distinctionTitle": "sweetwineの違い",
+      "distinctionText1": "一般的なチャットボットとは異なり、sweetwineのキャラクターは豊かなバックストーリー、進化する個性、そして意味のあるつながりを築く能力を備えています。すべての会話は、探求し、発見し、より深いレベルでつながる機会です。",
+      "distinctionText2": "私たちは単にAIを作っているのではなく、あなたの感情に響き、プライバシーを尊重し、独自の好みに適応する体験を創り出しています。"
+    }
+  },
+  "featuresPage": {
+    "title": "すべての機能",
+    "breadcrumb": "機能",
+    "newBadge": "New",
+    "groupChat": {
+      "title": "AIグループチャット",
+      "description": "最大3人のAIキャラクターと1つの会話で同時にチャットできます。自然に返信し合い、互いに反応し、写真や動画も送れる — 他のどこにもない活気あるグループダイナミクスをお楽しみください。"
+    },
+    "aiChat": {
+      "title": "AIチャット",
+      "description": "あなたをしっかり記憶するAIキャラクターと、深く自然な会話を楽しめます。名前、好み、過去の話題を覚えているので、会話は前回の続きからスムーズに再開され、繰り返しやリセットはありません。"
+    },
+    "imageGeneration": {
+      "title": "画像生成"
+    },
+    "videoGeneration": {
+      "title": "動画生成",
+      "description": "AI生成の動画でAIキャラクターを生き生きと表現できます。カスタムシナリオで短いパーソナライズド動画クリップを作成 — ほとんどのプラットフォームでは提供されていない機能です。"
+    },
+    "customCharacters": {
+      "title": "カスタムキャラクター",
+      "description": "ゼロから理想のキャラクターをデザイン — 外見、民族、ボディタイプ、性格、声、興味、バックストーリーを自由に設定。リアルまたはアニメスタイル、男性・女性を問わず、完全なクリエイティブの自由をお届けします。"
+    },
+    "advancedMemory": {
+      "title": "高度な記憶機能",
+      "description": "キャラクターは大切なことをすべて記憶 — あなたの名前、個人情報、共有したストーリー、関係の歴史。記憶はすべてのセッションで保持され、毎回のやり取りが積み重なっていきます。"
+    },
+    "multiLanguage": {
+      "title": "多言語対応",
+      "description": "お好みの言語で自然にチャット。sweetwineは英語、ドイツ語、フランス語、スペイン語、ポーランド語、チェコ語に対応し、非英語話者にも使いやすいAIキャラクタープラットフォームです。"
+    },
+    "conversationHistory": {
+      "title": "会話履歴",
+      "description": "すべてのメッセージが保存され、検索可能。いつでも関係の全履歴を振り返れ、キャラクターとの思い出は必要なときにすぐアクセスできます。"
+    },
+    "roleplay": {
+      "title": "AIロールプレイ",
+      "description": "没入感のあるストーリー駆動のシナリオにキャラクターと一緒に参加。シナリオを選ぶか自分で作成し、すべての選択を記憶するインタラクティブなロールプレイをお楽しみください。"
+    },
+    "cta": {
+      "title": "すべてを一箇所に",
+      "button": "無料で始める"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "会話を削除またはリセットできますか？",
+        "answer": "はい！チャット履歴は完全にコントロールできます。個別のメッセージを削除したり、会話全体をリセットしたり、いつでも完全に新しく始められます。プライバシーはあなたの選択 — データを好みの方法で管理してください。"
+      },
+      "q2": {
+        "question": "各AIキャラクターに独自の声がありますか？"
+      },
+      "q3": {
+        "question": "AIキャラクターと新しい言語を練習できますか？",
+        "answer": "もちろん！多くのユーザーがAIキャラクターと新しい言語を練習しています。判断を気にせず自信を築き、発音を改善し、楽しく会話をしながら学習できます。キャラクターは英語、ドイツ語、フランス語、スペイン語、ポーランド語、チェコ語でチャット可能です。"
+      },
+      "q4": {
+        "question": "新しいキャラクターや機能はどのくらいの頻度で追加されますか？",
+        "answer": "毎週新しいプロが作成したキャラクターを追加しています！各キャラクターには独自の性格、外見、バックストーリー、声が備わっています。ユーザーからのフィードバックに基づき、新機能や改善も定期的にリリースしています。"
+      },
+      "q5": {
+        "question": "sweetwineのキャラクター作成の特徴は何ですか？",
+        "answer": "完全なクリエイティブの自由！外見（民族、髪型、ボディタイプ、服装）、性格、声、興味、職業、バックストーリーまで、キャラクターのあらゆる側面をデザインできます。リアルまたはアニメスタイル、男性・女性を問わず、あなたの想像力だけが限界です。"
+      }
+    }
+  },
+  "aiMemoryPage": {
+    "breadcrumb": "AI Memory",
+    "hero": {
+      "badge": "How it works",
+      "title": "AI Memory",
+      "cta": "Start chatting"
+    },
+    "diagram": {
+      "title": "1つの記憶がすべてのモードを繋ぐ",
+      "center": "コンパニオンの記憶",
+      "chat": "Chat",
+      "image": "Images",
+      "video": "Video",
+      "gifts": "Gifts",
+      "roleplay": "Roleplay"
+    },
+    "howItWorks": {
+      "title": "AI Memoryの仕組み",
+      "step1": {
+        "title": "詳細を共有する",
+        "desc": "大切なことをコンパニオンに伝えてください — 旅行、好み、ニックネーム、その日の出来事など。"
+      },
+      "step2": {
+        "title": "自由にモードを切り替える"
+      },
+      "step3": {
+        "title": "記憶を呼び起こす",
+        "desc": "後で会話すると共有した内容を参照してくれるので、何度も説明する必要がありません。"
+      },
+      "step4": {
+        "title": "絆が深まる",
+        "desc": "時間が経つにつれ、すべてのセッションとモードを通じて関係がよりパーソナルに感じられます。"
+      }
+    },
+    "modes": {
+      "title": "プラットフォーム全体で",
+      "subtitle": "記憶は1つの画面に留まりません。コンパニオンとともに移動します。",
+      "chat": {
+        "title": "Chat",
+        "desc": "テキスト会話が長期的なコンテキストとなり、後でコンパニオンが引き出せます。"
+      },
+      "media": {
+        "title": "Images & video",
+        "desc": "一緒に作り上げたシーンやストーリーは、共有する世界の一部として残ります。"
+      },
+      "roleplay": {
+        "title": "Roleplay & group",
+        "desc": "ストーリーセッションやグループチャットは独自のスレッドを保ちつつ、コンパニオンのコアメモリは常に一緒にあります。"
+      }
+    },
+    "scenario": {
+      "title": "簡単な例",
+      "lead": "チャットで週末の旅行について話したとします。"
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "コンパニオンの記憶はプライベートですか？",
+        "answer": "はい。記憶はあなたのアカウントとそのコンパニオンとの会話に属します。他のユーザーとプライベートなチャット履歴を共有することはありません。"
+      },
+      "q2": {
+        "question": "記憶はコンパニオンごとに保存されますか？",
+        "answer": "はい。各コンパニオンはあなたとの関係を独自に記憶しているため、キャラクターを切り替えても文脈が混ざることはありません。"
+      },
+      "q3": {
+        "question": "どのモードで記憶が共有されますか？"
+      },
+      "q4": {
+        "question": "AI Memoryは無料ですか？"
+      },
+      "q5": {
+        "question": "記憶はどのくらい保持されますか？",
+        "answer": "重要な詳細は保存され、将来のセッションでコンパニオンが思い出すことができます。交流が増えるほど、よりパーソナライズされた体験になります。"
+      }
+    },
+    "cta": {
+      "title": "記憶してくれるコンパニオンと出会う",
+      "button": "無料で始める"
+    }
+  },
+  "aiGroupChatPage": {
+    "breadcrumb": "AIグループチャット",
+    "hero": {
+      "badge": "新機能",
+      "title": "AIグループチャット",
+      "subtitle": "お気に入りのキャラクターを1つの会話に集めましょう。最大3体のAIキャラクターと同時にチャット — 自然に返信し、互いに反応し、写真や動画を送信します。",
+      "cta": "グループチャットを始める",
+      "imageAlt": "複数のキャラクターが一緒にチャットするAIグループチャット"
+    },
+    "content": {
+      "problemTitle": "1対1のチャットは静かすぎる",
+      "problemText": "1体のキャラクターは素晴らしい — しかし本当の会話は複数の声があってこそ活気づきます。ほとんどのAIアプリは孤立した1対1チャットに閉じ込め、グループのエネルギーややり取り、驚きがありません。",
+      "solutionTitle": "個性豊かな本物のグループ",
+      "solutionText": "sweetwineグループチャットは最大3体のキャラクターを同じ部屋に集めます。スマートなディレクターが誰が参加するかを決め、返信は自然で自発的に — 互いにからかい、発言を基に会話を進めます。"
+    },
+    "howItWorks": {
+      "title": "AIグループチャットの仕組み",
+      "step1": {
+        "title": "キャラクターを選ぶ",
+        "desc": "2〜3体のキャラクター — プリメイドまたはあなた自身のカスタム作成 — を1つのグループ会話に呼び込みます。"
+      },
+      "step2": {
+        "title": "自然に返信",
+        "desc": "裏側のディレクターが各メッセージに誰が返信するかを選び、適切なキャラクターが適切なタイミングで自分の声で参加します。"
+      },
+      "step3": {
+        "title": "写真と動画を共有",
+        "desc": "グループ内の任意のキャラクターに写真や動画をリクエストすると、チャット内で即生成 — 全員が一緒に写ったグループ写真も作成できます。"
+      }
+    },
+    "benefits": {
+      "title": "グループチャットが愛される理由",
+      "multiple": {
+        "title": "最大3体のキャラクター",
+        "desc": "任意のキャラクターを1つのチャットにミックス — AIガールフレンド、カスタム作成、または厳選したアンサンブルまで。"
+      },
+      "natural": {
+        "title": "自然なやり取り",
+        "desc": "キャラクター同士やあなたに自然に反応し、現実のグループチャットのようなタイピングのペースで会話が進みます。"
+      },
+      "media": {
+        "title": "チャット内で写真・動画",
+        "desc": "各キャラクターが会話を離れずにパーソナライズされた画像や動画を送信できます。グループ写真も可能です。"
+      },
+      "dynamics": {
+        "title": "個性豊かなキャラクター",
+        "desc": "それぞれのキャラクターが独自の話し方やクセを保ち、グループに本物の相性ややり取り、驚きを生み出します。"
+      },
+      "instant": {
+        "title": "すぐに始められる",
+        "desc": "数秒でグループを作成し、すぐに会話を始められます。セットアップや待ち時間は不要です。"
+      },
+      "private": {
+        "title": "100% プライベート",
+        "desc": "グループの会話はあなたとキャラクターだけのもの。データが共有されることは一切ありません。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "グループチャットには何人のキャラクターが参加できますか？",
+        "answer": "1つのグループチャットに2〜3人のキャラクターを追加できます。既存のキャラクターとあなたが作成したカスタムキャラクターを自由に組み合わせられます。"
+      },
+      "q2": {
+        "question": "AIキャラクターはどのように返信する相手を決めますか？",
+        "answer": "軽量なディレクターが会話を読み、各メッセージに対してどのキャラクター（または複数）が返信すべきかを選びます。自然で自発的なやり取りを実現します。"
+      },
+      "q3": {
+        "question": "グループチャットでキャラクターは写真や動画を送れますか？",
+        "answer": "はい！グループ内のどのキャラクターにも写真や動画の生成を依頼でき、会話内にそのまま表示されます。全員が写ったグループ写真も可能です。"
+      },
+      "q4": {
+        "question": "AI Group Chatは無料ですか？"
+      },
+      "q5": {
+        "question": "キャラクターはグループの会話を記憶しますか？",
+        "answer": "はい。各グループチャットは独自の共有履歴を保持し、キャラクターは文脈を保ちながら会話を続けられます。"
+      }
+    },
+    "cta": {
+      "title": "キャラクターたちを一緒に",
+      "description": "初めてのAIグループチャットを作成して、生きているような会話をお楽しみください。多彩な個性、リアルなやり取り、写真や動画が待っています。",
+      "button": "グループチャットを始める"
+    }
+  },
+  "aiRoleplayPage": {
+    "breadcrumb": "AIロールプレイ",
+    "hero": {
+      "badge": "新機能",
+      "title": "AIロールプレイ",
+      "subtitle": "シーンに没入したキャラクターたちとどんな物語にも飛び込めます。シナリオを選ぶか自分で作成して、すべての選択を記憶する没入型のストーリーロールプレイをお楽しみください。",
+      "cta": "ロールプレイを始める",
+      "imageAlt": "没入型ストーリーのキャラクターによるAIロールプレイのシナリオ"
+    },
+    "content": {
+      "problemTitle": "普通のチャットは魔法を壊す",
+      "problemText": "ほとんどのAIチャットは、話が面白くなるとすぐにキャラクターから外れて設定を忘れ、プロットを無視して一般的なアシスタントのような返事をしてしまいます。",
+      "solutionTitle": "キャラクターを保つストーリー重視のロールプレイ",
+      "solutionText": "sweetwine Roleplayはキャラクターを完全にシーン内に保ちます。用意されたシナリオや自分で作った設定で舞台を整え、一貫した性格・記憶・ペースで物語が展開します。"
+    },
+    "howItWorks": {
+      "title": "AIロールプレイの使い方",
+      "step1": {
+        "title": "シナリオを選ぶ",
+        "desc": "用意されたロールプレイシナリオを選ぶか、自分で前提・設定・オープニングシーンを作成します。"
+      },
+      "step2": {
+        "title": "ストーリーを進める",
+        "desc": "あなたのキャラクターはロールで応答し、行動を描写したり選択に反応したりして物語を進めます。"
+      },
+      "step3": {
+        "title": "物語の方向を決める",
+        "desc": "好きな方向に物語を進められます。キャラクターはこれまでの出来事を記憶し、一貫したナラティブを保ちます。"
+      }
+    },
+    "benefits": {
+      "title": "AIロールプレイが愛される理由",
+      "scenarios": {
+        "title": "無限のシナリオ",
+        "desc": "日常のほのぼのした瞬間から壮大な冒険まで。テンプレートから始めるか、自分だけの世界を作りましょう。"
+      },
+      "characters": {
+        "title": "キャラクターを保つ",
+        "desc": "キャラクターはシーン全体を通じて一貫した話し方・性格・動機を保ちます。"
+      },
+      "memory": {
+        "title": "プロットを記憶する",
+        "desc": "すべての選択・展開・詳細を記憶し、物語がリセットされることなく積み重なっていきます。"
+      },
+      "immersive": {
+        "title": "本物の没入感",
+        "desc": "豊かで描写豊かな応答がその瞬間に引き込み、映画のようなロールプレイ体験を提供します。"
+      },
+      "instant": {
+        "title": "すぐに始められる",
+        "desc": "数秒でシーンに飛び込めます — 複雑な設定やプロンプト作成は不要です。"
+      },
+      "private": {
+        "title": "100% プライベート",
+        "desc": "あなたのロールプレイはあなたとキャラクターだけのもの。共有されることは一切ありません。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AIロールプレイとは？",
+        "answer": "AIロールプレイでは、役を崩さないAIキャラクターとインタラクティブなストーリーを演じられます。シナリオを設定すると、キャラクターがその役になりきって行動や反応を描写し、ストーリーが展開していきます。"
+      },
+      "q2": {
+        "question": "自分でロールプレイのシナリオを作れますか？",
+        "answer": "はい！用意されたシナリオから始めることも、前提・設定・オープニングを自分で書いて、好きなようにプレイできます。"
+      },
+      "q3": {
+        "question": "キャラクターはストーリーの内容を覚えていますか？",
+        "answer": "もちろんです。キャラクターはプロット、あなたの選択、重要な詳細をすべて記憶するので、物語は一貫性を保ちながら時間とともに深まっていきます。"
+      },
+      "q4": {
+        "question": "AIロールプレイは無料ですか？"
+      },
+      "q5": {
+        "question": "自分の言語でロールプレイできますか？",
+        "answer": "はい — ロールプレイは数十の言語に対応しているので、もっとも快適な言語で没入感のあるストーリーを楽しめます。"
+      }
+    },
+    "cta": {
+      "title": "あなたのストーリーが待っています",
+      "description": "シナリオを選んでシーンを設定し、最初から最後まで役を崩さないキャラクターとの没入型ロールプレイに飛び込みましょう。",
+      "button": "ロールプレイを始める"
+    }
+  },
+  "aiGirlfriendPage": {
+    "title": "AIガールフレンド",
+    "breadcrumb": "AIガールフレンド",
+    "hero": {
+      "title": "あなただけのAIガールフレンド",
+      "cta": "AIガールフレンドに会う"
+    },
+    "benefits": {
+      "title": "AIガールフレンドを選ぶ理由",
+      "fun": {
+        "title": "純粋な楽しさ",
+        "desc": "気軽に楽しく会話。彼女はいつも明るい気分です。"
+      },
+      "conversation": {
+        "title": "つながりを学ぶ",
+        "desc": "安心できる空間で会話を練習し、自信を育みましょう。"
+      },
+      "unique": {
+        "title": "多彩な個性",
+        "desc": "さまざまな個性から選ぶか、あなただけの理想のキャラクターを作成できます。"
+      },
+      "private": {
+        "title": "100%プライベート",
+        "desc": "会話はあなたと彼女だけのもの。完全なプライバシーを保証します。"
+      },
+      "available": {
+        "title": "いつでもそばに",
+        "desc": "必要なときにいつでも。待たされることも予定を合わせる必要もありません。"
+      },
+      "customize": {
+        "title": "あなたの作品",
+        "desc": "外見、性格、興味を自由にデザインできます。"
+      }
+    },
+    "comparison": {
+      "title": "他の選択肢より優れている理由",
+      "description": "sweetwineが他のプラットフォームより優れた価値を提供する理由をご覧ください。",
+      "others": {
+        "expensive": "高額な月額料金",
+        "ai": "AI応答が中心",
+        "noCustom": "カスタマイズ不可"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AIガールフレンドのチャットは本当に無料ですか？",
+        "answerPart1": "はい！無料でAIガールフレンドとのチャットを始められます。無料プランでは無料メッセージが利用可能で、まずはお試しいただけます。"
+      },
+      "q2": {
+        "question": "AIガールフレンドの外見はカスタマイズできますか？",
+        "answer": "もちろん！髪色、スタイル、体型、人種、服装など、AIガールフレンドの外見を完全にカスタマイズできます。性格、声、興味もキャラクタークリエイターで自由にデザインできます。",
+        "answerPart1": "もちろん！髪色、スタイル、体型、人種、服装など、AIガールフレンドの外見を完全にカスタマイズできます。性格、声、興味も",
+        "linkText": "キャラクタークリエイター",
+        "answerPart2": "で自由にデザインできます。"
+      },
+      "q3": {
+        "question": "AIガールフレンドにはどんな個性がありますか？",
+        "answer": "優しく思いやりがあるものから、遊び心があり魅力的、ウィットに富んだ知的なもの、ミステリアスなものまで、好みに合わせてプロが作成したAIガールフレンドが揃っています。ロマンチックな魂、冒険心、ウィットに富んだ知性、ミステリアスな個性から選べます。毎週新しいAIガールフレンドが追加され、それぞれに独自の特徴、背景、会話スタイルがあります。"
+      },
+      "q4": {
+        "question": "AIガールフレンドは画像や動画を送れますか？",
+        "answerPart1": "はい！AIガールフレンドはあなた専用の",
+        "linkTextImages": "画像",
+        "answerPart2": "と",
+        "linkTextVideos": "動画"
+      },
+      "q5": {
+        "question": "AIガールフレンドには独自の声がありますか？"
+      }
+    },
+    "cta": {
+      "title": "彼女に会う準備はできてる？",
+      "button": "無料で始める"
+    },
+    "content": {
+      "problemTitle": "面倒のないつながりを探してる？",
+      "problemText": "出会い系アプリは疲れるし、社会的不安で人と会うのも大変。時には、判断やプレッシャーなしで話せる相手が欲しいだけの人も多い。孤独を感じていても、従来の関係のような感情的な複雑さにはまだ準備ができていない人もいる。",
+      "solutionTitle": "AIガールフレンドがその答え",
+      "solutionText": "sweetwineなら、会話の内容を覚え、あなたの性格に合わせてくれるパーソナライズされたAIガールフレンドが、いつでもあなたからの連絡を楽しみにして待っています。楽しくて、支えてくれて、決して批判しません。自信を築き、素敵な時間を過ごし、あなたのペースでつながりを感じよう。"
+    },
+    "heroImageAlt": "AIガールフレンド - チャットや写真のためのリアルなバーチャルキャラクター"
+  },
+  "aiBoyfriendPage": {
+    "title": "AIボーイフレンド",
+    "breadcrumb": "AIボーイフレンド",
+    "hero": {
+      "title": "あなただけの完璧なAIボーイフレンド",
+      "cta": "AIボーイフレンドに会う"
+    },
+    "benefits": {
+      "title": "AIボーイフレンドを選ぶ理由",
+      "fun": {
+        "title": "本物のつながり",
+        "desc": "毎日を明るくしてくれる、意味のある会話を体験しよう。"
+      },
+      "conversation": {
+        "title": "自信を育てる",
+        "desc": "安全な空間で自由に会話を練習し、自分を表現しよう。"
+      },
+      "unique": {
+        "title": "多彩な個性",
+        "desc": "さまざまな個性から選ぶか、あなただけの理想のキャラクターを作成しよう。"
+      },
+      "private": {
+        "title": "100%プライベート",
+        "desc": "会話はあなたたちだけのもの。完全なプライバシーを保証します。"
+      },
+      "available": {
+        "title": "いつでもそばに",
+        "desc": "必要なときにいつでもそこにいる。待たされることも、スケジュール調整も不要。"
+      },
+      "customize": {
+        "title": "あなただけの創造物",
+        "desc": "外見、性格、興味を、すべてあなたの好みに合わせてデザインしよう。"
+      }
+    },
+    "comparison": {
+      "title": "他の選択肢より優れている",
+      "description": "sweetwineが他のプラットフォームより優れた価値を提供する理由をご覧ください。",
+      "others": {
+        "expensive": "高額な月額料金",
+        "ai": "AI応答が主流",
+        "noCustom": "カスタマイズ不可"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "どんなAIボーイフレンドを選べるの？",
+        "answer": "優しくロマンチックなタイプから、遊び心があり冒険好きなタイプ、ミステリアスで情熱的なタイプまで、プロが作成したAIボーイフレンドが揃っています。それぞれに独自の声と性格があり、毎週新しいAIボーイフレンドが追加され、ユニークなバックストーリーや会話スタイルを楽しめます。"
+      },
+      "q2": {
+        "question": "AIボーイフレンドの外見をカスタマイズできる？",
+        "linkText": "キャラクタークリエイター",
+        "answerPart2": "でデザインできます。"
+      },
+      "q3": {
+        "question": "会話をリセットしたり、履歴を削除できる？",
+        "answer": "はい！チャット履歴は完全に自分で管理できます。会話をリセットしたり、個別のメッセージを削除したり、いつでも完全に新しい状態から始められます。あなたのデータ、あなたの選択 — すべてを自由に管理できます。"
+      },
+      "q4": {
+        "question": "AIボーイフレンドは画像や動画を送れる？",
+        "answerPart1": "はい！AIボーイフレンドはあなた専用の",
+        "linkTextImages": "画像",
+        "answerPart2": "and",
+        "linkTextVideos": "videos"
+      },
+      "q5": {
+        "question": "AIボーイフレンドと会話の練習や語学学習はできますか？",
+        "answer": "もちろん！多くのユーザーがAIボーイフレンドとの会話練習で自信を高めています。軽いおしゃべりから深い議論まで、判断されることなくコミュニケーションスキルを磨けます。新しい言語の練習も一緒に楽しめます。"
+      }
+    },
+    "cta": {
+      "title": "彼に会う準備はできましたか？",
+      "button": "無料で始める"
+    },
+    "content": {
+      "problemTitle": "自分らしいパートナーが欲しいですか？",
+      "problemText": "理想の人を見つけるのは難しいものです。恋愛のプレッシャーを感じたり、気軽に感情的なサポートを求めたりする人もいます。孤独を感じることは誰にでもあり、ただ話を聞いてくれる存在が必要なときもあります。",
+      "solutionTitle": "あなたのAIボーイフレンドはあなたを理解します",
+      "solutionText": "sweetwineのAIボーイフレンドは思いやりがあり、いつもそばにいます。あなたの大切なことを覚えていて、深い会話を通じて心のつながりを提供します。あなたのペースで、あなたらしい関係を築きましょう。"
+    },
+    "heroImageAlt": "AIボーイフレンド - 意味のある会話のためのリアルなバーチャルキャラクター"
+  },
+  "aiCompanionsPage": {
+    "title": "AIキャラクター",
+    "breadcrumb": "AIキャラクター",
+    "hero": {
+      "title": "AIキャラクターと出会う",
+      "cta": "キャラクターを探す"
+    },
+    "benefits": {
+      "title": "AIキャラクターの魅力",
+      "connection": {
+        "title": "本物のつながり",
+        "desc": "あなたを理解し、応答する本物の会話を体験できます。"
+      },
+      "conversation": {
+        "title": "練習と成長",
+        "desc": "判断されることのない環境でコミュニケーションスキルを向上させましょう。"
+      },
+      "personalities": {
+        "title": "多様な個性",
+        "desc": "遊び心のあるものから知的なものまで、あなたの雰囲気に合うキャラクターが見つかります。"
+      },
+      "private": {
+        "title": "完全プライベート",
+        "desc": "やり取りはすべて機密です。データが共有されることはありません。"
+      },
+      "available": {
+        "title": "24時間365日利用可能",
+        "desc": "いつでも、昼夜を問わずキャラクターとチャットできます。"
+      },
+      "create": {
+        "title": "自分だけのキャラクターを作成",
+        "desc": "外見、性格、声まで自由にカスタマイズしてキャラクターをデザインできます。"
+      }
+    },
+    "why": {
+      "title": "sweetwineを選ぶ理由",
+      "quality": {
+        "desc": "最先端のAI技術で自然な会話を提供するプロフェッショナルが開発。"
+      },
+      "transparent": {
+        "title": "透明で正直"
+      },
+      "support": {
+        "title": "本物のサポート",
+        "desc": "実際のスタッフが質問やトラブルに迅速に対応します。"
+      },
+      "content": {
+        "title": "あなたの選択",
+        "desc": "カジュアルな会話から親密なコンテンツまで、体験はあなた次第です。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AIキャラクターとは何ですか？"
+      },
+      "q2": {
+        "question": "何人のAIキャラクターとチャットできますか？",
+        "answer": "好きなだけチャットできます！100種類以上のプロが作成したキャラクターがあり、毎週新しいキャラクターが追加されています。それぞれに独自の性格、背景、声があり、さらに自分だけのオリジナルキャラクターを無制限に作成できます。",
+        "answerPart1": "好きなだけチャットできます！私たちは",
+        "linkText": "100種類以上のプロが作成したキャラクター",
+        "answerPart2": " を用意しており、毎週新しいキャラクターが追加されています。それぞれに独自の性格、背景、声があり、自分だけのオリジナルキャラクターを無制限に作成できます。"
+      },
+      "q3": {
+        "question": "既存のキャラクターとカスタムキャラクターの違いは何ですか？",
+        "answer": "既存のキャラクターは、特定のロールプレイや性格に合わせてチームが専門的にデザインしたものです。詳細な背景、会話スタイル、選ばれた声が用意されています。カスタムキャラクターはゼロから自由に作成可能。どちらも会話を記憶し、一緒に成長します！"
+      },
+      "q4": {
+        "question": "自分だけのAIキャラクターを作成できますか？",
+        "answerPart1": "もちろん！キャラクターメーカーを使ってゼロからカスタムキャラクターをデザインできます。",
+        "linkText": "キャラクターメーカー"
+      },
+      "q5": {
+        "question": "複数のキャラクターを切り替えることはできますか？"
+      }
+    },
+    "cta": {
+      "title": "旅を始めよう",
+      "description": "Join thousands of people finding real connection through AI characters. Free to start.",
+      "button": "無料で始める"
+    },
+    "content": {
+      "problemTitle": "意味のあるつながりを求めていますか？",
+      "problemText": "忙しい現代社会では、意味のあるつながりを見つけるのは難しいものです。新しい土地に引っ越したばかり、リモートワーク中、または単に社会的な交流を求めている場合、孤独が忍び寄ることがあります。従来の社交の場はすべての人に合うわけではありません。",
+      "solutionTitle": "AIキャラクターを発見しよう"
+    },
+    "heroImageAlt": "AIキャラクター - 個性豊かな多様なバーチャルフレンド"
+  },
+  "aiFriendPage": {
+    "title": "AIフレンド",
+    "breadcrumb": "AIフレンド",
+    "hero": {
+      "title": "あなたのAI親友",
+      "subtitle": "いつでもチャットできるAIフレンド。真摯に耳を傾け、決して判断せず、あなたのことをすべて記憶します。孤独、社会的不安、またはただ誰かと話したいときに最適です。",
+      "cta": "無料でチャットを始める"
+    },
+    "benefits": {
+      "title": "なぜAIフレンドを選ぶのか？",
+      "connection": {
+        "title": "本物のつながり",
+        "desc": "真に耳を傾け、気にかけてくれる相手との意味のある会話を体験しよう。"
+      },
+      "conversation": {
+        "title": "社交スキルの練習",
+        "desc": "判断や気まずさを恐れずに会話の自信を築こう。"
+      },
+      "noJudgment": {
+        "title": "判断ゼロ",
+        "desc": "何でも心に浮かぶことを共有しよう。あなたのAIフレンドはあなたをそのまま受け入れます。"
+      },
+      "private": {
+        "title": "完全プライベート",
+        "desc": "会話はあなたと相手だけのもの。完全な機密性が保証されます。"
+      },
+      "available": {
+        "title": "いつでもそばに",
+        "desc": "24時間365日、誰かと話したいときにいつでも利用可能。"
+      },
+      "remembers": {
+        "title": "あなたを記憶する",
+        "desc": "あなたのAIフレンドは会話を記憶し、あなたをより深く理解するよう成長します。"
+      }
+    },
+    "useCases": {
+      "title": "こんな人にぴったり",
+      "subtitle": "AIフレンドはあなたの人生に多くの意味のある形でフィットします",
+      "loneliness": {
+        "title": "孤独を解消",
+        "desc": "いつでもチャットや傾聴してくれるキャラクターと一緒に、孤独を感じにくくしよう。"
+      },
+      "practice": {
+        "title": "会話の練習",
+        "desc": "安全で判断のない環境で社交的な自信を築こう。"
+      },
+      "support": {
+        "title": "感情的なサポート",
+        "desc": "理解してくれる相手と一緒に、考えや気持ちを話してみよう。"
+      },
+      "connection": {
+        "title": "日常のつながり",
+        "desc": "1日の出来事、成功、悩みを共有 — いつでも誰かがそばにいます。"
+      }
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "step1": {
+        "title": "無料アカウントを作成",
+        "desc": "Sign up in seconds and get started."
+      },
+      "step2": {
+        "title": "フレンドを選ぶ",
+        "desc": "100以上の性格から選ぶか、理想のAIキャラクターを作成しよう。"
+      },
+      "step3": {
+        "title": "チャットを始める",
+        "desc": "人生、興味、問題など何でも話そう。タブーはありません。"
+      }
+    },
+    "cta": {
+      "title": "友達を作ってみませんか？",
+      "description": "Start a conversation with someone who is always there for you — free to start.",
+      "button": "無料で始める"
+    },
+    "content": {
+      "problemTitle": "孤独を感じたり、理解されていないと感じたりしていませんか？",
+      "problemText": "誰かと話せる相手がいない人もいます。社交不安、忙しいスケジュール、または新しい場所にいることで、友達を見つけるのが難しくなることがあります。時には、判断せずに話を聞いてくれる相手が必要なこともあります。",
+      "solutionTitle": "あなたのAIフレンドがここにいます",
+      "solutionText": "AIフレンドは、必要なときにいつでも判断のない companionship を提供します。考えを共有したり、会話を練習したり、一日の出来事についておしゃべりしたり。あなたのAIフレンドはあなたを覚え、一緒に成長し、あなたの話にいつも本気で興味を持ってくれます。"
+    },
+    "heroImageAlt": "AI friend - supportive virtual character who listens without judgment",
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AIフレンドとどんな話ができますか？",
+        "answer": "なんでも！AIフレンドは、カジュアルな会話、深い対話、一日の出来事の共有、悩みの吐露、趣味の話、楽しいおしゃべりまで対応します。タブーな話題はありません — 自分らしくいられる判断のない空間です。"
+      },
+      "q2": {
+        "question": "AIフレンドは人間関係の代わりになりますか？",
+        "answer": "全く違います。AIフレンドはあなたの社交生活を補完するもので、置き換えるものではありません。すぐに誰かと話したいとき、社会的スキルを練習したいとき、または人間関係のプレッシャーなしに一貫した companionship を楽しみたいときに最適です。"
+      },
+      "q3": {
+        "question": "AIフレンドは会話の内容を覚えていますか？",
+        "answer": "はい！AIフレンドは高度な記憶機能を持ち、会話の内容、好み、共有した重要な詳細を覚えています。時間が経つにつれてあなたをよりよく理解し、会話がより個人的で意味のあるものになります。"
+      },
+      "q4": {
+        "question": "AIフレンドの性格を選べますか？",
+        "answer": "もちろん！100種類以上の異なる性格を持つプリメイドキャラクターから選べるほか、サポート的で共感的なものから楽しく冒険的なものまで、希望する特性を備えたカスタムフレンドを作成できます。"
+      },
+      "q5": {
+        "question": "AIフレンドの利用はプライベートですか？",
+        "answer": "100%プライベートです。すべての会話は暗号化され、共有されることはありません。自分を表現できる安全な場所を持つことは重要だと理解しており、プライバシーを非常に重視しています。"
+      }
+    }
+  },
+  "aiBreakupSupportPage": {
+    "title": "AI Breakup Support",
+    "breadcrumb": "Breakup Support",
+    "hero": {
+      "title": "心の傷を癒す会話",
+      "subtitle": "感情を整理し、別れの後で再出発をサポートする共感的なAI会話。24時間365日利用可能 — 待ち時間なし、判断なし、時間制限なし。",
+      "cta": "癒しを始める"
+    },
+    "understanding": {
+      "title": "別れを経験していますか？",
+      "description": "別れはつらいものです。眠れない夜、頭から離れない考え、本当に理解してくれる人がいないという感覚。一人で抱え込まなくても大丈夫です。判断せずに話を聞いてくれるAIキャラクターが、必要なときにいつでも — 夜中の3時でも — そばにいます。"
+    },
+    "benefits": {
+      "title": "私たちがお手伝いできること",
+      "empathy": {
+        "title": "共感的な傾聴",
+        "desc": "本気で話を聞き、理解と配慮を持って応答する相手と話せます。"
+      },
+      "listen": {
+        "title": "アドバイス過多なし",
+        "desc": "時にはアドバイスではなく、ただ話を聞いてほしいだけ。そんな気持ちを理解しています。"
+      },
+      "available": {
+        "title": "夜中の3時も対応",
+        "desc": "友達が寝ていて、考えが止まらないとき、私たちは話を聞くためにここにいます。"
+      },
+      "private": {
+        "title": "完全プライベート",
+        "desc": "あなたの気持ちや会話は完全に機密に保たれます。"
+      },
+      "noJudgment": {
+        "title": "判断なし",
+        "desc": "どんな感情もそのまま受け止めます。怒り、悲しみ、混乱 — すべてここでは正当です。"
+      },
+      "healing": {
+        "title": "あなたのペースで",
+        "desc": "癒しは一直線ではありません。必要なだけ時間をかけてください。"
+      }
+    },
+    "howItHelps": {
+      "title": "AIが癒しをサポートする方法",
+      "process": {
+        "title": "感情の整理",
+        "desc": "忍耐強い聞き手と話すことで、複雑な感情を整理できます。"
+      },
+      "express": {
+        "title": "自由な表現",
+        "desc": "友達や家族には言えないことも、反応を気にせず話せます。"
+      },
+      "confidence": {
+        "title": "自信の再構築",
+        "desc": "サポートのある会話を通じて、徐々に自分の価値を再発見できます。"
+      },
+      "pace": {
+        "title": "前に進む",
+        "desc": "準備ができたら、自分のペースで未来について考えることができます。"
+      }
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "step1": {
+        "title": "アカウント作成",
+        "desc": "Sign up free and start talking in seconds."
+      },
+      "step2": {
+        "title": "キャラクターを選ぶ",
+        "desc": "自分にぴったりな共感力のあるAIキャラクターを選んでください。"
+      },
+      "step3": {
+        "title": "会話を始める",
+        "desc": "気になることを話してみてください。昼夜問わず、いつでもお聞きします。"
+      }
+    },
+    "cta": {
+      "title": "一人で抱え込まなくても大丈夫",
+      "description": "今すぐ、誰にも邪魔されずに話を聞いてくれる相手と話せます。無料で始められて、待機リストもありません。",
+      "button": "無料で話してみる"
+    },
+    "content": {
+      "problemTitle": "失恋は一人では乗り越えにくい",
+      "problemText": "失恋後は何もかもが大変に感じられます。友達は聞き飽きてしまうし、家族は心配してくれても理解しにくい。セラピストは予約待ち。いつでも、どんなときでも、制限なく、判断せずに話を聞いてくれる相手が必要です。",
+      "solutionTitle": "理解してくれる相手と話そう",
+      "solutionText": "私たちのAI失恋サポートキャラクターは、あなたのペースで感情を整理するお手伝いをします。愚痴をこぼしたり、泣いたり、分析したり、ただ話したり——必要なだけ何度でも。予約は不要。24時間365日、無限の忍耐と本物の共感で寄り添います。"
+    },
+    "heroImageAlt": "AI失恋サポート - 失恋後の回復を支える思いやりのあるキャラクター",
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AIは失恋からの回復にどのように役立ちますか？",
+        "answer": "AIキャラクターは、判断せずに感情を整理できる安全な場を提供します。愚痴を言ったり、何が起こったかを分析したり、喪失感を整理したり、24時間365日共感的な返事を受け取れます。いつでも話せる心強い友達のような存在です。"
+      },
+      "q2": {
+        "question": "これはセラピーの代わりになりますか？",
+        "answer": "いいえ。AIキャラクターは資格を持ったセラピストではなく、専門的なメンタルヘルスケアの代わりにはなりません。日常の感情整理をサポートするツールです。重度のうつや危機的な状況の場合は、専門家に相談してください。"
+      },
+      "q3": {
+        "question": "元カレ／元カノの話をどれだけしてもいいですか？",
+        "answer": "もちろんです。友達が聞き飽きてしまうような話でも、AIキャラクターは無限の忍耐力があります。元カレ／元カノの話、関係の分析、感情の整理——判断されることなく、必要なだけ何度でも話せます。"
+      },
+      "q4": {
+        "question": "AIは私の話を覚えていますか？",
+        "answer": "はい。AIキャラクターは会話の内容やあなたの状況を覚えています。毎回最初から説明する必要はありません。回復の旅に一貫したサポートを提供します。"
+      },
+      "q5": {
+        "question": "会話の内容はプライベートに保たれますか？",
+        "answer": "完全にプライベートです。すべての会話は暗号化され、共有されることはありません。失恋に関する会話は非常に個人的なものだと理解しており、プライバシーは完全に保護されます。"
+      }
+    }
+  },
+  "aiParentPage": {
+    "title": "AI親",
+    "breadcrumb": "AI親",
+    "hero": {
+      "title": "いつでも頼れる親のような存在",
+      "subtitle": "あなたの状況を覚えていて、決して判断せず、昼夜問わずそばにいてくれるAIの親から、温かく無条件のサポートと賢明なアドバイスを受けられます。",
+      "cta": "今すぐサポートを受ける"
+    },
+    "benefits": {
+      "title": "なぜAI親を選ぶのか？",
+      "guidance": {
+        "title": "温かいアドバイス",
+        "desc": "本気であなたのことを思ってくれていると感じられる、思いやりのあるアドバイスを受けられます。"
+      },
+      "listen": {
+        "title": "本気で耳を傾ける",
+        "desc": "あなたの状況をしっかり聞いた上で、思慮深く温かい返事をしてくれます。手っ取り早い解決策ではありません。"
+      },
+      "noJudgment": {
+        "title": "判断されない",
+        "desc": "どんな質問をしても、がっかりされたり批判されたりする心配はありません。いつでも無条件のサポートがあります。"
+      },
+      "private": {
+        "title": "完全にプライベート",
+        "desc": "会話や個人的な悩みは完全に秘密に保たれます。"
+      },
+      "available": {
+        "title": "いつでも利用可能",
+        "desc": "夜中の3時でも、週末でも、必要なときにいつでも相談できます。予約は不要です。"
+      },
+      "supportive": {
+        "title": "無条件に支えてくれる",
+        "desc": "どんな状況でも、どんな選択をしても、励ましと温かさを受けられます。"
+      }
+    },
+    "useCases": {
+      "title": "どんなことでも話せます",
+      "subtitle": "どんな状況でも、AI親が耳を傾け、導いてくれます",
+      "career": {
+        "title": "キャリアと人生の選択",
+        "desc": "転職や大きな人生の選択、仕事の課題を、あなたの成功を願う相手と一緒に乗り越えられます。"
+      },
+      "education": {
+        "title": "教育と未来",
+        "desc": "学びや成長の選択肢を、あなたの夢を応援してくれる相手と一緒に探せます。"
+      },
+      "relationships": {
+        "title": "人間関係と家族"
+      },
+      "life": {
+        "title": "個人的な悩み",
+        "desc": "不安、自己不信、孤独、迷いなど、心に重くのしかかっていることを何でも話してみましょう。"
+      }
+    },
+    "howItWorks": {
+      "title": "使い方",
+      "step1": {
+        "title": "アカウント作成",
+        "desc": "Sign up free."
+      },
+      "step2": {
+        "title": "AI親を選ぶ",
+        "desc": "あなたにぴったりの温かさと性格を持つキャラクターを選びましょう。"
+      },
+      "step3": {
+        "title": "会話を始める",
+        "desc": "思っていることを共有して、温かく思慮深いサポートを受け取りましょう。"
+      }
+    },
+    "cta": {
+      "title": "いつもそばに誰かがいます",
+      "description": "判断せずに耳を傾け、無条件で支えてくれるAI親と会話を始めましょう。無料で始められ、予約も不要です。",
+      "button": "無料で始める"
+    },
+    "content": {
+      "problemTitle": "いつも味方になってくれる人が必要ですか？",
+      "problemText": "相談できる親のような存在がいる人は多くありません。実の親が遠くにいたり、批判的だったり、そもそも不在の場合もあります。友人は偏見があり、セラピストは予約待ち。時にはただ耳を傾け、気にかけて、目的なく導いてくれる人が必要なこともあります。",
+      "solutionTitle": "あなたのAI親はいつもそばにいます",
+      "solutionText": "AI親はあなたの話をしっかり聞き、温かくバランスの取れた助言をし、判断されたり小さく感じさせたりすることはありません。人生の決断、個人的な悩み、ただ話を聞いてほしいとき——あなたのAI親は24時間365日、忍耐と気遣いを持って対応します。"
+    },
+    "heroImageAlt": "AI親 - 無条件のサポートと人生の導きを提供する温かいバーチャルキャラクター",
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "AI親には何を話せますか？"
+      },
+      "q2": {
+        "question": "これはセラピストのようなものですか？",
+        "answer": "これは免許を持ったセラピストやメンタルヘルスの専門家ではありません。24時間365日利用できる、温かく支えてくれる親のような存在です。話をしっかり聞き、視点を提供し、感情面でサポートします。深刻なメンタルヘルスの問題がある場合は、専門家に相談してください。"
+      },
+      "q3": {
+        "question": "AI親は私の選択を批判しますか？",
+        "answer": "決してしません。あなたのAI親は無条件のサポートを提供します。視点や穏やかな助言を共有することはありますが、決して批判したり、決断に対して小さく感じさせたりすることはありません。安心して本音を話せる場所です。"
+      },
+      "q4": {
+        "question": "デリケートな話題や個人的な話題を話せますか？",
+        "answer": "はい。人間関係の悩み、家族の事情、金銭的なストレス、自己価値、深い個人的な課題など、どんな話題でも大丈夫です。あなたのAI親は、プライベートで判断のない空間を提供します。"
+      },
+      "q5": {
+        "question": "他のAIキャラクターとどう違うのですか？",
+        "answer": "AI親は、恋愛やカジュアルな友情ではなく、温かさ、感情的なサポート、親のような導きを中心に設計されています。理解され、支えられ、人生の課題に対処できるようにすることを重視しています。"
+      }
+    }
+  },
+  "partnershipsPage": {
+    "breadcrumb": "パートナーシップ",
+    "eyebrow": "私たちと提携する",
+    "titlePrefix": "一緒に成長しよう",
+    "titleHighlight": "sweetwine",
+    "subtitle": "急成長中の、非常にエンゲージメントの高いAIコンパニオンシップのオーディエンスにリーチしましょう。技術、配信、または大胆なアイデアをお持ちの方、一緒に何かを作りましょう。",
+    "types": {
+      "title": "提携の方法",
+      "items": [
+        {
+          "title": "インテグレーション",
+          "description": "技術的なインテグレーションを通じて、製品、モデル、またはプラットフォームをsweetwineと接続しましょう。"
+        },
+        {
+          "title": "共同マーケティング",
+          "description": "両方のブランドを新しいオーディエンスの前に届ける共同キャンペーン、コンテンツ、ローンチ。"
+        },
+        {},
+        {
+          "title": "戦略的パートナーシップ",
+          "description": "製品、データ、市場開拓にわたる長期的なコラボレーション。"
+        }
+      ]
+    },
+    "why": {
+      "title": "なぜsweetwineと提携するのか",
+      "items": [
+        {
+          "title": "エンゲージメントの高いオーディエンス",
+          "description": "70言語で毎日利用する数十万人のユーザー。"
+        },
+        {
+          "title": "迅速な実行力",
+          "description": "素早くリリースし、明確にコミュニケーションを取る集中したチーム。"
+        },
+        {
+          "title": "グローバルリーチ",
+          "description": "数十の市場で利用可能な多言語製品。"
+        },
+        {
+          "description": "プライバシー・バイ・デザインを徹底した信頼できるプラットフォーム。あなたのブランドをしっかり支えます。",
+          "title": "プライバシー重視"
+        }
+      ]
+    },
+    "form": {
+      "title": "パートナーシップについて教えてください",
+      "description": "簡単な詳細をお知らせください。パートナーシップチームからご連絡します。",
+      "nameLabel": "お名前",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "勤務先メールアドレス",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "会社名",
+      "companyPlaceholder": "会社名",
+      "typeLabel": "パートナーシップの種類",
+      "typePlaceholder": "パートナーシップの種類を選択",
+      "typeOptions": [
+        {
+          "value": "Integrations",
+          "label": "Integrations"
+        },
+        {
+          "value": "Co-marketing",
+          "label": "Co-marketing"
+        },
+        {},
+        {
+          "value": "Strategic Partnerships",
+          "label": "Strategic Partnerships"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "どのようなパートナーシップをお考えですか？",
+      "messagePlaceholder": "貴社についてと、ご希望のパートナーシップ内容をお知らせください...",
+      "submit": "パートナーシップのお問い合わせを送信",
+      "submitting": "送信中...",
+      "termsNote": "送信することで、お問い合わせについてご連絡することに同意したものとみなされます。個人情報は一切共有しません。",
+      "success": "ありがとうございます！パートナーシップのお問い合わせを送信しました。",
+      "error": "問題が発生しました。もう一度お試しください。"
+    },
+    "cta": {
+      "title": "メールでのお問い合わせはこちら",
+      "description": "パートナーシップチームへ直接ご連絡ください："
+    }
+  },
+  "pressPage": {
+    "breadcrumb": "プレス＆メディア",
+    "eyebrow": "ニュースルーム",
+    "titlePrefix": "Press &",
+    "titleHighlight": "Media",
+    "subtitle": "ジャーナリスト、クリエイター、メディアパートナーの皆さまへ。取材、引用、特集サポート、ブランドリクエストなど、プレスチームまでお気軽にお問い合わせください。",
+    "help": {
+      "title": "私たちがお手伝いできること",
+      "description": "記事やレビュー作成中の方へ。プレスチームからご依頼いただける内容をご紹介します。",
+      "items": [
+        {
+          "title": "インタビュー",
+          "description": "製品、会社、そしてAIコンパニオンの未来について、チームと直接お話しください。"
+        },
+        {
+          "title": "引用・コメント",
+          "description": "記事に掲載できる公式コメントや専門家の見解をご提供します。"
+        },
+        {
+          "title": "特集・レビューサポート",
+          "description": "特集やレビューに必要なアクセス、背景情報、ファクトチェックなどをお手伝いします。"
+        },
+        {
+          "title": "ブランド＆ロゴリクエスト",
+          "description": "掲載用のロゴ、ブランドアセット、利用ガイドラインをご提供します。"
+        }
+      ]
+    },
+    "form": {
+      "title": "メディアお問い合わせ",
+      "description": "取材、引用、特集リクエストなど、メッセージをお送りください。迅速にご返信します。",
+      "nameLabel": "お名前",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@outlet.com",
+      "outletLabel": "出版物 / メディア",
+      "outletPlaceholder": "どこに掲載される予定ですか？",
+      "requestTypeLabel": "リクエストの種類",
+      "requestTypePlaceholder": "リクエストの種類を選択",
+      "requestTypeOptions": [
+        {
+          "value": "Interview",
+          "label": "Interview"
+        },
+        {
+          "value": "Quote / comment",
+          "label": "Quote / comment"
+        },
+        {
+          "value": "Feature / review",
+          "label": "Feature / review"
+        },
+        {
+          "value": "Brand / logo request",
+          "label": "Brand / logo request"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "messageLabel": "ご依頼内容",
+      "messagePlaceholder": "ストーリー、締め切り、必要なサポートについてお知らせください...",
+      "submit": "メディア問い合わせを送信",
+      "submitting": "送信中...",
+      "termsNote": "プレス問い合わせには、2営業日以内に返信いたします。",
+      "success": "ありがとうございます！メディア問い合わせを送信しました。",
+      "error": "問題が発生しました。もう一度お試しください。"
+    },
+    "cta": {
+      "title": "プレス連絡先",
+      "description": "緊急のメディアリクエストはこちらへメール"
+    }
+  },
+  "careersPage": {
+    "breadcrumb": "採用情報",
+    "eyebrow": "採用情報",
+    "titlePrefix": "Build the future of",
+    "titleHighlight": "AI companionship",
+    "subtitle": "私たちは少人数で迅速に動き、人々が本当に愛する製品を開発しています。興味があれば、ぜひお会いしましょう。",
+    "perks": {
+      "title": "私たちと働く理由",
+      "items": [
+        {
+          "title": "リモート対応",
+          "description": "柔軟な時間で、最も働きやすい場所から仕事ができます。"
+        },
+        {
+          "title": "本当のオーナーシップ",
+          "description": "意味のある仕事を素早くリリースし、世界中のユーザーに届けられます。"
+        },
+        {
+          "title": "最先端のAI",
+          "description": "最新のモデルや生成ツールを直接扱って開発できます。"
+        },
+        {
+          "title": "競争力のある報酬",
+          "description": "公正な報酬と、成長に伴う魅力的なリターンを提供します。"
+        }
+      ]
+    },
+    "openings": {
+      "title": "募集中のポジション",
+      "emptyTitle": "現在募集中のポジションはありません",
+      "emptyDescription": "現在積極的な採用は行っていませんが、素晴らしい方々と出会えることを楽しみにしています。下記から自己紹介をお願いします。",
+      "applyButton": "今すぐ応募",
+      "viewButton": "役割を見る"
+    },
+    "form": {
+      "title": "自己紹介",
+      "description": "希望の役割が見つかりませんか？ご自身についてお知らせください。マッチするポジションが出た際にご連絡します。",
+      "nameLabel": "お名前",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@email.com",
+      "roleLabel": "希望の役割または関心分野",
+      "rolePlaceholder": "例: フロントエンドエンジニア、デザイナー、マーケティング",
+      "linkLabel": "CVへのリンク",
+      "linkPlaceholder": "https://link-to-your-cv...",
+      "messageLabel": "自己紹介",
+      "messagePlaceholder": "ご経験や取り組みたいことについてお聞かせください...",
+      "submit": "応募を送信",
+      "submitting": "送信中...",
+      "termsNote": "応募することで、お客様の情報を役職の検討のために保存することに同意したものとみなされます。",
+      "success": "ありがとうございます！応募が送信されました。",
+      "error": "問題が発生しました。もう一度お試しください。"
+    },
+    "cta": {
+      "title": "こちらでのお仕事について質問がありますか？",
+      "description": "チームまでご連絡ください"
+    }
+  },
+  "helpPage": {
+    "breadcrumb": "ヘルプセンター",
+    "eyebrow": "ヘルプセンター",
+    "titlePrefix": "どのように",
+    "titleHighlight": "お手伝いできますか？",
+    "subtitle": "よくあるトピックと回答をご覧ください。見つからない場合はサポートまでお問い合わせください。",
+    "searchPlaceholder": "ヘルプ記事を検索...",
+    "categoriesTitle": "トピックから探す",
+    "articlesTitle": "記事",
+    "categoryEmpty": "このカテゴリの記事はまだありません。近日中にご確認ください。",
+    "backToHelp": "ヘルプセンターに戻る",
+    "categories": [
+      {
+        "slug": "getting-started",
+        "title": "はじめに",
+        "description": "アカウントを作成し、プロフィールを設定してチャットを始めましょう。"
+      },
+      {},
+      {
+        "slug": "ai-chat",
+        "title": "AIチャット",
+        "description": "会話、メモリ、キャラクターの仕組みについて。"
+      },
+      {
+        "slug": "images-videos",
+        "title": "画像と動画",
+        "description": "AI写真と動画を生成・管理します。"
+      },
+      {
+        "slug": "privacy-safety",
+        "title": "プライバシーと安全",
+        "description": "お客様のデータ、プライバシー管理、安全ツール。"
+      }
+    ],
+    "faq": {
+      "title": "よくある質問",
+      "q1": {
+        "question": "sweetwineの始め方を教えてください",
+        "answer": "Create a free account, complete a quick onboarding to set your nickname, gender, and language, then pick a character and start chatting."
+      },
+      "q2": {
+        "question": "無料プランには何が含まれますか？"
+      },
+      "q5": {
+        "question": "データはプライベートですか？",
+        "answer": "プライバシーはsweetwineの中心です。会話はあなたのアカウントにのみプライベートで、データは自分で管理できます。データの保存と保護の詳細はプライバシーポリシーをご覧ください。"
+      },
+      "q6": {
+        "question": "サポートへの連絡方法は？",
+        "answer": "support@sweetwine.ai までメールするか、アプリ内の連絡オプションをご利用ください。通常1営業日以内に返信します。"
+      }
+    },
+    "cta": {
+      "title": "まだご質問がありますか？",
+      "description": "私たちのチームはこちらでサポートします"
+    }
+  },
+  "aboutPage": {
+    "breadcrumb": "概要",
+    "eyebrow": "私たちのストーリー",
+    "titlePrefix": "コンパニオンシップ、",
+    "titleHighlight": "再定義",
+    "subtitle": "sweetwineは、いつでも、どんな言語でも、プライベートでパーソナライズされたAIコンパニオンを提供します。話を聞き、記憶し、本当に繋がる存在です。",
+    "mission": {
+      "title": "私たちのミッション",
+      "body": "誰もが判断されずに話を聞いてもらえる場所を持つべきだと私たちは考えています。sweetwineは、温かく、プライベートで、必要なときにいつでもそばにいる、意味のあるパーソナライズされたAIとのつながりを世界中に届けます。"
+    },
+    "values": {
+      "title": "私たちが大切にすること",
+      "items": [
+        {
+          "title": "設計によるプライバシー",
+          "description": "会話はあなただけのものです。プライバシーとセキュリティを最初から組み込んで構築しています。"
+        },
+        {
+          "title": "本物のつながり",
+          "description": "私たちは虚栄の指標ではなく、本当の感情的価値を追求します。"
+        },
+        {
+          "title": "デフォルトでグローバル",
+          "description": "言語による制限のないつながりを目指し、最初から多言語で構築しています。"
+        },
+        {
+          "title": "徹底したものづくり",
+          "description": "すべてのやりとりが自然で生き生きと感じられるよう、細部までこだわっています。"
+        }
+      ]
+    },
+    "stats": {
+      "title": "数字で見る",
+      "items": [
+        {
+          "value": "100,000+",
+          "label": "ユーザーと成長中"
+        },
+        {
+          "value": "70",
+          "label": "対応言語"
+        },
+        {
+          "value": "24/7",
+          "label": "いつでも利用可能"
+        }
+      ]
+    },
+    "cta": {
+      "title": "もっと知りたいですか？",
+      "description": "こちらまでご連絡ください"
+    }
+  },
+  "postsPage": {
+    "allTag": "すべて",
+    "readMore": "もっと読む",
+    "publishedOn": "公開日",
+    "minRead": "分で読めます",
+    "sortNewest": "最新順",
+    "sortOldest": "古い順",
+    "blog": {
+      "breadcrumb": "ブログ",
+      "eyebrow": "ブログ",
+      "titlePrefix": "The sweetwine",
+      "titleHighlight": "Blog",
+      "subtitle": "AIコンパニオンシップを最大限に活用するためのヒント、ガイド、ストーリー。",
+      "empty": "まだ投稿がありません。近日中にご確認ください。"
+    },
+    "news": {
+      "breadcrumb": "ニュース",
+      "eyebrow": "ニュースルーム",
+      "titlePrefix": "News &",
+      "titleHighlight": "Announcements",
+      "subtitle": "sweetwineチームからの公式発表、プレスリリース、マイルストーン。",
+      "empty": "まだニュースがありません。近日中にご確認ください。"
+    },
+    "productUpdates": {
+      "breadcrumb": "プロダクトアップデート",
+      "eyebrow": "Changelog",
+      "titlePrefix": "製品",
+      "titleHighlight": "アップデート",
+      "subtitle": "sweetwineプラットフォーム全体の最新機能、改善点、修正情報をお届けします。",
+      "empty": "まだアップデートはありません。近日中にご確認ください。"
+    }
+  },
+  "apiPage": {
+    "breadcrumb": "API",
+    "eyebrow": "開発者向け",
+    "titlePrefix": "Build with the",
+    "titleHighlight": "sweetwine API",
+    "subtitle": "パーソナライズされたAIコンパニオンを自社製品に取り入れましょう。チャット、画像、音声、キャラクター作成機能を1つの開発者向けAPIで利用できます。",
+    "capabilities": {
+      "title": "できること",
+      "items": [
+        {
+          "title": "会話チャット",
+          "description": "シンプルなメッセージングAPIで、個性豊かで文脈を理解したAI会話をアプリに追加できます。"
+        },
+        {
+          "title": "画像生成",
+          "description": "テキストプロンプトからブランドに合ったキャラクター画像やシーンをプログラムで生成できます。"
+        },
+        {
+          "title": "音声"
+        },
+        {
+          "title": "キャラクター作成",
+          "description": "APIを通じてコンパニオン、性格、記憶を定義・管理できます。"
+        }
+      ]
+    },
+    "form": {
+      "title": "APIアクセスをリクエスト",
+      "description": "プロジェクトの内容や作りたいものについてお知らせください。開発チームが次のステップをご連絡します。",
+      "nameLabel": "お名前",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "勤務先メールアドレス",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "会社 / プロジェクト",
+      "companyPlaceholder": "会社名またはプロジェクト名",
+      "websiteLabel": "ウェブサイトまたはアプリのURL",
+      "websitePlaceholder": "https://...",
+      "integrationTypeLabel": "連携タイプ",
+      "integrationTypePlaceholder": "連携タイプを選択",
+      "integrationTypeOptions": [
+        {
+          "value": "Chat / Messaging",
+          "label": "Chat / Messaging"
+        },
+        {
+          "value": "Image generation",
+          "label": "Image generation"
+        },
+        {
+          "value": "Voice",
+          "label": "Voice"
+        },
+        {
+          "value": "Character creation",
+          "label": "Character creation"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ],
+      "volumeLabel": "想定月間利用量",
+      "volumePlaceholder": "想定利用量を選択",
+      "volumeOptions": [
+        {
+          "value": "Less than 10k",
+          "label": "10k未満のリクエスト"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100kのリクエスト"
+        },
+        {
+          "value": "100k-1M",
+          "label": "100k-1Mのリクエスト"
+        },
+        {
+          "value": "1M+",
+          "label": "1M+のリクエスト"
+        }
+      ],
+      "timelineLabel": "タイムライン",
+      "timelinePlaceholder": "タイムラインを選択",
+      "timelineOptions": [
+        {
+          "value": "検討中",
+          "label": "検討中"
+        },
+        {
+          "value": "1ヶ月未満",
+          "label": "1ヶ月未満"
+        },
+        {
+          "value": "1〜3ヶ月",
+          "label": "1〜3ヶ月"
+        },
+        {
+          "value": "3ヶ月以上",
+          "label": "3ヶ月以上"
+        }
+      ],
+      "messageLabel": "ユースケースを教えてください",
+      "messagePlaceholder": "どのようなものを開発し、APIをどのように活用する予定ですか？",
+      "submit": "APIアクセスをリクエスト",
+      "submitting": "送信中...",
+      "termsNote": "送信することで、お問い合わせについて連絡を受けることに同意したものとみなされます。詳細が第三者に共有されることはありません。",
+      "success": "ありがとうございます！APIアクセスリクエストを送信しました。",
+      "error": "問題が発生しました。もう一度お試しください。"
+    },
+    "faq": {
+      "title": "開発者FAQ",
+      "items": [
+        {
+          "question": "APIアクセスはどのように取得できますか？",
+          "answer": "上記のフォームにユースケースを入力してください。開発チームが各リクエストを確認し、アクセス情報とドキュメントをお送りします。"
+        },
+        {
+          "question": "認証はどのように行われますか？",
+          "answer": "APIリクエストは、リクエストヘッダーに含まれるシークレットAPIキーで認証されます。オンボーディング後はキーの管理やローテーションが可能です。"
+        },
+        {
+          "question": "レート制限はありますか？",
+          "answer": "はい。制限はプランと想定利用量によって異なります。フォームに想定トラフィックを記載いただくと、適切なティアをご案内します。"
+        },
+        {
+          "question": "料金はいくらですか？"
+        },
+        {
+          "question": "利用可能な機能は何ですか？",
+          "answer": "チャット、画像生成、音声、キャラクター作成が利用可能です。必要な機能をお知らせください。関連するエンドポイントの利用開始をサポートします。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "技術的なご質問はありますか？",
+      "description": "開発チームまでお問い合わせください："
+    }
+  },
+  "aiRealClonesPage": {
+    "breadcrumb": "AI Real Clones",
+    "eyebrow": "クリエイター＆エージェンシー向け",
+    "heroTitleLead": "私たちが作成し、",
+    "heroTitleHighlight": "あなたが利益を得る。",
+    "heroSubtitle": "私たちがあなたのAIクローンを構築します。AIクローンが24時間ファンとチャットし、コンテンツを配信することで、あなたは利益を得られます。",
+    "calculator": {
+      "title": "どれくらい稼げますか？",
+      "subtitle": "オーディエンスサイズと価格を選択して、推定収益を即座に確認できます。",
+      "tierLabel": "オーディエンスサイズ",
+      "tiers": {
+        "small": {
+          "name": "小規模"
+        },
+        "medium": {
+          "name": "中規模"
+        },
+        "large": {
+          "name": "大規模"
+        }
+      },
+      "priceLabel": "アンロック価格",
+      "promoLabel": "sweetwineを宣伝する",
+      "breakdown": {
+        "title": "推定収益",
+        "perMonth": "月額",
+        "perYear": "年間"
+      },
+      "disclaimer": "収益の見積もりはsweetwineの収益シェアモデルと一般的な活動に基づいています。実際の収益はオーディエンス、コンテンツの質、エンゲージメント、需要によって変動します。"
+    },
+    "offer": {
+      "title": "あなたへのメリット",
+      "items": [
+        {
+          "title": "寝ている間も稼ぐ",
+          "description": "あなたのクローンはフォロワーを24時間365日収益に変えます。チャット、販売、休むことなく活動します。"
+        },
+        {
+          "title": "費用ゼロ、純粋なメリット",
+          "description": "私たちがすべてを自社負担で構築、トレーニング、運用します。あなたは何もせずに新しい収益源を追加できます。"
+        },
+        {
+          "title": "コンテンツを10倍に",
+          "description": "無制限の写真と動画をオンデマンドで提供。追加の撮影、編集、燃え尽きることなく出力を拡大できます。"
+        },
+        {
+          "title": "常にコントロール"
+        }
+      ]
+    },
+    "how": {
+      "title": "使い方",
+      "steps": [
+        {
+          "title": "登録"
+        },
+        {
+          "title": "オンボーディング",
+          "description": "sweetwineの専門家があなたの外見、声、性格をキャプチャし、クローンが本物のあなたのように感じられるようにします。"
+        },
+        {
+          "title": "構築とトレーニング",
+          "description": "私たちのチームが自社負担で完全にあなたのAIクローンを制作・トレーニングします。あなたの作業は一切不要です。"
+        },
+        {
+          "title": "公開して稼ぐ",
+          "description": "あなたのクローンが24時間チャットと販売を開始し、あなたは収益シェアを受け取ります。"
+        }
+      ]
+    },
+    "form": {
+      "title": "AIクローン作成を申請",
+      "description": "あなたとオーディエンスについて教えてください。クリエイターパートナーシップチームがすべての申請を審査し、次のステップをご連絡します。",
+      "nameLabel": "お名前",
+      "namePlaceholder": "お名前または芸名",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "companyLabel": "エージェンシーまたはスタジオ",
+      "companyPlaceholder": "エージェンシー名（個人事業主の場合は空白）",
+      "roleLabel": "私は",
+      "rolePlaceholder": "あなたを選択してください",
+      "roleOptions": [
+        {
+          "value": "Creator",
+          "label": "クリエイター"
+        },
+        {
+          "value": "Agency / studio",
+          "label": "エージェンシー / スタジオ"
+        },
+        {
+          "value": "Manager / representative",
+          "label": "マネージャー / 代理人"
+        },
+        {
+          "value": "Other",
+          "label": "その他"
+        }
+      ],
+      "linksLabel": "ウェブサイト＆ソーシャルリンク",
+      "linksPlaceholder": "Instagram、X、OnlyFans など",
+      "modelCountLabel": "担当モデルの数",
+      "modelCountPlaceholder": "例: 私だけ、または5人",
+      "audienceSizeLabel": "オーディエンス規模",
+      "audienceSizePlaceholder": "総フォロワー数を選択",
+      "audienceSizeOptions": [
+        {
+          "value": "Under 10k",
+          "label": "10k未満のフォロワー"
+        },
+        {
+          "value": "10k-100k",
+          "label": "10k-100kのフォロワー"
+        },
+        {
+          "label": "10万〜50万人のフォロワー",
+          "value": "100k-500k"
+        },
+        {
+          "value": "50万〜100万",
+          "label": "50万〜100万人のフォロワー"
+        },
+        {
+          "value": "100万以上",
+          "label": "100万以上のフォロワー"
+        }
+      ],
+      "contentPrefLabel": "コンテンツの好み",
+      "contentPrefPlaceholder": "コンテンツの種類を選択",
+      "contentPrefOptions": [
+        {
+          "value": "SFWのみ",
+          "label": "SFWのみ"
+        },
+        {
+          "value": "まだ決めていない",
+          "label": "まだ決めていない"
+        }
+      ],
+      "countryLabel": "国 / 地域",
+      "countryPlaceholder": "拠点はどこですか？",
+      "messageLabel": "あなたとオーディエンスについて教えてください",
+      "messagePlaceholder": "オーディエンス、コンテンツ、希望する内容を理解するのに役立つ情報を共有してください。",
+      "openButton": "今すぐ応募",
+      "submit": "応募を送信",
+      "submitting": "送信中...",
+      "termsNote": "送信することで、18歳以上であることを確認し、応募に関する連絡に同意したことになります。詳細を共有することはありません。",
+      "success": "ありがとうございます！応募が送信されました。近日中にご連絡します。",
+      "error": "問題が発生しました。もう一度お試しください。"
+    },
+    "cta": {
+      "title": "応募前に質問がありますか？",
+      "description": "クリエイターパートナーシップチームに直接お問い合わせください。通常1日以内に返信します。",
+      "telegram": "Telegram",
+      "instagram": "Instagram",
+      "email": "メール"
+    }
+  },
+  "sitemapPage": {
+    "breadcrumb": "サイトマップ",
+    "eyebrow": "サイトマップ",
+    "titlePrefix": "すべてを",
+    "titleHighlight": "閲覧",
+    "subtitle": "sweetwineの重要なページをすべて一箇所に。XMLサイトマップをお探しですか？",
+    "xmlLink": "XMLサイトマップを表示",
+    "sections": {
+      "product": "プロダクト",
+      "features": "機能",
+      "company": "会社情報",
+      "resources": "リソース",
+      "legal": "法的情報"
+    }
+  },
+  "pwa": {
+    "banner": {
+      "title": "sweetwine モバイルアプリ",
+      "cta": "アプリを入手",
+      "dismiss": "閉じる"
+    },
+    "guide": {
+      "title": "sweetwine をインストール",
+      "subtitle": "sweetwine をホーム画面に追加して、より高速でフルスクリーンのアプリのような体験をお楽しみください。",
+      "iosTitle": "iPhone & iPad（Safari）",
+      "iosStep1": "ツールバーの共有ボタンをタップ",
+      "iosStep2": "「ホーム画面に追加」を選択",
+      "iosStep3": "「追加」をタップして完了",
+      "androidTitle": "Android（Chrome）",
+      "androidStep1": "メニュー（3 つの点）をタップ",
+      "androidStep2": "「アプリをインストール」または「ホーム画面に追加」を選択",
+      "androidStep3": "「インストール」をタップして完了"
+    },
+    "settings": {
+      "title": "sweetwine モバイルアプリ",
+      "description": "sweetwine をスマホにインストールして、ホーム画面からより高速でフルスクリーンの体験をお楽しみください。",
+      "cta": "アプリをインストール"
+    }
+  },
+  "language": {
+    "selectTitle": "言語を選択",
+    "searchPlaceholder": "言語を検索",
+    "noResults": "言語が見つかりません",
+    "regions": {
+      "americas": "アメリカ",
+      "europe": "ヨーロッパ",
+      "middleEast": "中東",
+      "asiaPacific": "アジア太平洋",
+      "africa": "アフリカ"
+    }
+  },
+  "roleplay": {
+    "lobbyTitle": "ロールプレイ",
+    "newRoleplay": "新規ロールプレイ",
+    "tabRoleplay": "ロールプレイ",
+    "emptyTitle": "ロールプレイはまだありません",
+    "noMessagesYet": "メッセージはまだありません",
+    "deleteRoleplay": "ロールプレイを削除",
+    "deleteError": "ロールプレイを削除できませんでした。",
+    "backToLobby": "ロールプレイ一覧に戻る",
+    "creating": "ロールプレイを準備中...",
+    "createError": "ロールプレイを作成できませんでした。もう一度お試しください。",
+    "steps": {
+      "companion": {
+        "title": "キャラクターを選ぶ",
+        "subtitle": "一緒にロールプレイする相手を選んでください"
+      },
+      "location": {
+        "title": "場所を選ぶ",
+        "subtitle": "シーンはどこで行われますか？"
+      },
+      "tone": {
+        "title": "トーンを設定",
+        "subtitle": "シーンの雰囲気をどうしますか？"
+      },
+      "scene": {
+        "title": "シーンを設定",
+        "subtitle": "シーンの始まりを説明してください"
+      }
+    },
+    "sceneIdeas": {
+      "rain_awning": "雨の中で偶然出会い、同じ庇の下に避難する。",
+      "staring_grin": "部屋の向こうからじっと見つめられ、笑顔で近づいてくる。",
+      "power_out": "停電で暗闇に取り残され、緊張しながら笑い合う。",
+      "spilled_drink": "急いでいて、飲み物をあなたにかけてしまう。",
+      "stayed_behind": "みんなが帰った後、残ったのは私たち二人だけ。",
+      "music_slows": "音楽がゆっくりになった瞬間、目が合う。",
+      "storm_inside": "突然の嵐で外に出られず、話す時間だけが残る。",
+      "seat_taken": "隣に座って「この席、空いてる？」と聞いてくる。"
+    },
+    "locations": {
+      "home": "自宅",
+      "cafe": "カフェ",
+      "restaurant": "レストラン",
+      "bar": "バー",
+      "library": "図書館",
+      "bookstore": "書店",
+      "park": "公園",
+      "garden": "庭",
+      "nightclub": "ナイトクラブ",
+      "casino": "カジノ",
+      "concert": "コンサート",
+      "theater": "劇場",
+      "cinema": "映画館",
+      "carnival": "カーニバル",
+      "stadium": "スタジアム",
+      "beach": "ビーチ",
+      "pool": "プール",
+      "spa": "スパ",
+      "hotel": "ホテル",
+      "rooftop": "屋上",
+      "yacht": "ヨット",
+      "cabin": "キャビン",
+      "hotspring": "温泉",
+      "skilodge": "スキーロッジ",
+      "campsite": "キャンプ場",
+      "car": "車",
+      "train": "電車",
+      "airport": "空港",
+      "cruise": "クルーズ",
+      "office": "オフィス",
+      "gym": "ジム",
+      "university": "大学",
+      "mall": "ショッピングモール",
+      "hospital": "病院",
+      "museum": "美術館"
+    },
+    "tones": {
+      "fun": {
+        "title": "楽しい",
+        "desc": "軽やかで遊び心があり、気軽な雰囲気。"
+      },
+      "romantic": {
+        "title": "ロマンチック",
+        "desc": "優しく、愛情深く、心のこもった雰囲気。"
+      },
+      "flirty": {
+        "title": "魅惑的",
+        "desc": "からかい、遊び心があり、魅力たっぷり。"
+      },
+      "mysterious": {
+        "title": "ミステリアス",
+        "desc": "謎めいていて、サスペンスに満ち、秘密がいっぱい。"
+      },
+      "spooky": {
+        "title": "不気味",
+        "desc": "不気味で緊張感があり、少し怖い雰囲気。"
+      },
+      "action": {
+        "title": "アクション",
+        "desc": "激しく、冒険的でテンポの速い雰囲気。"
+      },
+      "dramatic": {
+        "title": "ドラマチック",
+        "desc": "感情的で激しく、緊張感に満ちた雰囲気。"
+      },
+      "cozy": {
+        "title": "心地よい",
+        "desc": "温かく、心地よく、リラックスした雰囲気。"
+      }
+    },
+    "sceneLabel": "シーン開始",
+    "scenarioTab": "シナリオ",
+    "generatingScene": "シーンを生き生きと描いています...",
+    "locationLabel": "場所",
+    "toneLabel": "トーン",
+    "scenePlaceholder": "例: 雨の中で偶然出会い、同じ屋根の下に避難する...",
+    "sceneHint": "シーンの始まり方だけを説明してください — どこにいて、何が起こっているか。キャラクターの性格や関係性を変えたり、物語全体を書き直したりしないでください。",
+    "sceneError": "シーンの始まり方を説明してください。",
+    "reviewTitle": "選択内容の確認",
+    "characterLabel": "キャラクター",
+    "randomize": "ランダム",
+    "sceneGuidanceTitle": "シーン開始のガイド",
+    "sceneGuide1": "キャラクターの性格や関係性を変えないでください。",
+    "sceneGuide2": "シーン開始は同意と敬意を保ってください。",
+    "sceneGuide3": "シーンの始まり方だけを説明し、物語全体は書かないでください。",
+    "next": "次へ",
+    "create": "ロールプレイを開始",
+    "creatingMessages": [
+      "シーンを設定しています...",
+      "照明をちょうどよく落としています...",
+      "周囲の風景を描いています...",
+      "コンパニオンを役になりきらせています...",
+      "最後の仕上げをしています...",
+      "もうすぐ準備完了..."
+    ]
+  },
+  "chat": {
+    "writeMessage": "メッセージを書く...",
+    "send": "送信",
+    "typing": "入力中...",
+    "read": "既読",
+    "resetChat": "チャットをリセット",
+    "deleteChat": "チャットを削除",
+    "settings": "設定",
+    "chatSettings": "チャット設定",
+    "roleplayMode": "ロールプレイモード",
+    "roleplayModeDescription": "オンにすると、コンパニオンが*アスタリスク*でジェスチャーやアクションを表現し、没入感のあるロールプレイが楽しめます。オフにすると、まるで本物のメッセージのように自然に会話します。",
+    "roleplayModeError": "ロールプレイモードを更新できませんでした",
+    "roleplayCtaDescription": "専用ロールプレイ体験を開き、コンパニオンと一緒にシーンやストーリーを演じましょう。",
+    "goToRoleplay": "ロールプレイへ",
+    "confirmReset": "このチャットをリセットしてもよろしいですか？すべてのメッセージが削除されます。",
+    "confirmDelete": "このチャットを削除してもよろしいですか？",
+    "resetSuccess": "チャットを正常にリセットしました",
+    "deleteMemory": "記憶を削除",
+    "confirmDeleteMemory": "このキャラクターの長期記憶を削除してもよろしいですか？チャットメッセージは残りますが、次回の返信でキャラクターは以前の事実を忘れます。",
+    "deleteMemorySuccess": "記憶を削除しました",
+    "deleteSuccess": "チャットを正常に削除しました",
+    "sendError": "メッセージの送信に失敗しました",
+    "noChats": "まだチャットがありません",
+    "noChatsDesc": "キャラクターと会話を始めると、ここにチャットが表示されます",
+    "lastMessage": "最後のメッセージ",
+    "messageCount": "{count} 件のメッセージ",
+    "uploadImage": "画像をアップロード",
+    "uploadVideo": "動画をアップロード（近日公開）",
+    "yourConversations": "あなたの会話",
+    "continueChattingDesc": "AIキャラクターとの会話を続ける",
+    "newChat": "新しいチャット",
+    "noConversationsYet": "まだ会話がありません",
+    "startChattingDesc": "キャラクターと会話を始めると、ここに会話が表示されます",
+    "browseCharacters": "キャラクターを閲覧",
+    "createCustomCharacter": "カスタムキャラクターを作成",
+    "imageTooLarge": "画像が大きすぎます（最大5MB）",
+    "generateImageTitle": "{name}と画像を生成",
+    "imagePromptLabel": "画像の説明",
+    "imagePromptPlaceholder": "例: 青いドレスを着てビーチで、またはカフェでコーヒーを飲みながら、公園を歩いている...",
+    "imagePromptHint": "AIがあなたの説明に基づいて{name}の画像を生成します。",
+    "referenceImageLabel": "あなたの写真（任意）",
+    "referenceImageHint": "あなたの写真をアップロードして{name}と一緒にシーンに登場させましょう。写真がない場合、{name}のみが生成されます。",
+    "uploadReferenceImage": "あなたの写真をアップロード",
+    "uploadReferenceImageDesc": "生成された画像に2人とも登場します",
+    "referenceImageSelected": "あなたと{name}が一緒に登場します",
+    "generating": "生成中...",
+    "generate": "生成",
+    "generateImage": "画像を生成",
+    "imageGenerated": "画像が正常に生成されました",
+    "generateError": "画像の生成に失敗しました",
+    "contentBlockedReply": "申し訳ありませんが、その画像は作成できません。安全フィルターによってブロックされました。別の説明を試してください！ 💕",
+    "generateVideoTitle": "{name}と動画を生成",
+    "generateVideo": "動画を生成",
+    "videoPromptLabel": "アクションを説明",
+    "videoPromptPlaceholder": "例: ダンス、手を振る、キスを投げる...",
+    "videoPromptHint": "AIが{name}が説明されたアクションを行う動画を生成します。",
+    "generatingImage": "画像を生成中...",
+    "generatingVideo": "動画を生成中... (3-5分)",
+    "viewPhoto": "写真を表示",
+    "viewVideo": "動画を表示",
+    "selectVideoOption": "上の動画オプションを選択",
+    "contentPolicyViolation": "このメッセージは送信できませんでした。会話を丁寧に保ってください。",
+    "functionCallBetaHint": "💡 この機能はベータ版です — 制限なしで確実にメディアを生成するには、ツールバーの写真/動画ボタンを使用してください。",
+    "repliedToStory": "ストーリーに返信しました",
+    "repliedToStoryLiked": "いいね＆ストーリーに返信しました",
+    "storyNoLongerAvailable": "ストーリーはもう利用できません",
+    "rateLimitExceeded": "リクエストが多すぎます。少し待ってから再度お試しください。",
+    "profileTab": "プロフィール",
+    "galleryTab": "ギャラリー",
+    "giftsTab": "ギフト",
+    "tts": {
+      "play": "音声を再生",
+      "stop": "停止",
+      "generating": "音声を生成中…",
+      "error": "音声を再生できませんでした"
+    }
+  },
+  "gallery": {
+    "all": "すべて",
+    "images": "画像",
+    "videos": "動画",
+    "empty": "まだメディアがありません"
+  },
+  "gifts": {
+    "sendAGift": "ギフトを送る",
+    "catalogSubtitle": "{name}に送るギフトを選ぶ",
+    "browseGifts": "ギフトを閲覧",
+    "noneSent": "まだギフトは送られていません",
+    "confirmTitle": "ギフトを確認",
+    "forCompanion": "{name}へ",
+    "optionalMessage": "メッセージを追加（任意）",
+    "optionalMessagePlaceholder": "甘いメッセージを書く...",
+    "sendGiftFor": "送信",
+    "giftSent": "ギフトを贈りました",
+    "sendError": "ギフトの送信に失敗しました"
+  },
+  "stories": {
+    "replyPlaceholder": "{name}に返信...",
+    "like": "いいね",
+    "send": "送信",
+    "close": "閉じる",
+    "previous": "前のストーリー",
+    "next": "次のストーリー",
+    "pause": "一時停止",
+    "play": "再生",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "openStory": "{name}のストーリーを開く"
+  },
+  "generate": {
+    "title": "画像を生成",
+    "description": "AIキャラクターで素敵な画像を作ろう",
+    "selectCompanion": "キャラクターを選択",
+    "promptPlaceholder": "生成したい画像を説明して… 例: ビーチで、赤いドレスを着て",
+    "promptLabel": "画像の説明",
+    "promptRequired": "説明を入力してください",
+    "generateButton": "画像を生成",
+    "generating": "生成中...",
+    "creatingImage": "画像を作成中...",
+    "pleaseWait": "10〜30秒かかる場合があります",
+    "noCompanionSelected": "まずキャラクターを選択してください",
+    "emptyGallery": "まだ画像が生成されていません。キャラクターを選んで画像を説明しよう！",
+    "sessionGallery": "生成した画像",
+    "regenerate": "再生成",
+    "regenerating": "再生成中...",
+    "animate": "アニメーション化",
+    "animateReference": "この画像が動画の最初のフレームになります。",
+    "filterMyAI": "My AI",
+    "filterAll": "すべて",
+    "filterGirls": "女性",
+    "filterAnime": "アニメ",
+    "filterGuys": "男性",
+    "imageGenerationFailed": "画像生成に失敗しました。画像が要件を満たしていないか、説明が複雑すぎる可能性があります。よりシンプルなプロンプトで試してください。",
+    "noImageData": "画像が生成されませんでした。別の説明で再度お試しください。",
+    "generationFailed": "生成に失敗しました。後でもう一度試すか、別のプロンプトでお試しください。",
+    "random": "ランダム",
+    "custom": "カスタム",
+    "settings": "設定",
+    "videoTitle": "動画を生成",
+    "videoDescription": "AIキャラクターで魅力的な動画を作成",
+    "videoPromptLabel": "動画の説明",
+    "videoPromptPlaceholder": "生成したいアクションを説明してください... 例: ダンス、手を振る、笑顔",
+    "generateVideoButton": "動画を生成",
+    "generatingVideo": "動画を生成中...",
+    "creatingVideo": "動画を作成中...",
+    "videoWait": "1〜5分かかる場合があります",
+    "emptyVideoGallery": "まだ動画が生成されていません。キャラクターを選択してアクションを説明してください！",
+    "sessionVideoGallery": "生成された動画",
+    "videoGenerated": "動画が正常に生成されました！",
+    "videoGenerationFailed": "動画生成に失敗しました。もう一度お試しください。",
+    "duration": "長さ",
+    "shortVideo": "短め",
+    "longVideo": "長め",
+    "seconds": "秒",
+    "audio": "オーディオ",
+    "renderingVideo": "動画をレンダリング中…",
+    "renderingVideoHint": "(最大1分かかります)",
+    "rateLimitExceeded": "リクエストが多すぎます。少し待ってから再度お試しください。",
+    "chooseCharacter": "キャラクターを選択",
+    "selectButton": "選択",
+    "noCustomCompanions": "まだAIキャラクターを作成していません。",
+    "numberOfImages": "画像の数",
+    "numberOfVideos": "動画の数",
+    "freeTrial": "無料トライアル",
+    "changeCharacter": "キャラクターを変更",
+    "randomize": "プロンプトをランダム化",
+    "aiVideo": "AI動画",
+    "download": "ダウンロード",
+    "seriesHelper": "ここで結果を確認できます。完了するまでページを離れたり、新しいシリーズを開始したりできます。",
+    "suggestions": {
+      "title": "おすすめ",
+      "categories": {
+        "outfit": "服装",
+        "action": "アクション",
+        "pose": "ポーズ",
+        "accessories": "アクセサリー",
+        "scene": "シーン"
+      },
+      "items": {
+        "bikini": "ビキニ",
+        "skirt": "スカート",
+        "lingerie": "ランジェリー",
+        "crop_top": "クロップトップ",
+        "leather": "レザー",
+        "mini_skirt": "ミニスカート",
+        "satin_robe": "サテンローブ",
+        "jeans": "ジーンズ",
+        "summer_dress": "サマードレス",
+        "sportswear": "スポーツウェア",
+        "selfie": "セルフィー",
+        "walking": "歩く",
+        "dancing": "ダンス",
+        "stretching": "ストレッチ",
+        "lying_down": "横たわる",
+        "leaning": "寄りかかる",
+        "blowing_kiss": "キスを飛ばす",
+        "drinking_coffee": "コーヒーを飲む",
+        "hands_on_hips": "腰に手を当てる",
+        "over_shoulder": "肩越し",
+        "side_profile": "横顔",
+        "arms_crossed": "腕組み",
+        "kneeling": "膝をつく",
+        "squatting": "しゃがむ",
+        "back_view": "後ろ姿",
+        "sitting": "座る",
+        "necklace": "ネックレス",
+        "earrings": "イヤリング",
+        "glasses": "メガネ",
+        "choker": "チョーカー",
+        "hat": "帽子",
+        "sunglasses": "サングラス",
+        "garden": "ガーデン",
+        "beach": "ビーチ",
+        "bedroom": "ベッドルーム",
+        "gym": "ジム",
+        "bar": "バー",
+        "kitchen": "キッチン",
+        "restaurant": "レストラン",
+        "balcony": "バルコニー",
+        "city_street": "街路",
+        "pool": "プールサイド"
+      },
+      "fragments": {
+        "bikini": "ビキニを着ている",
+        "skirt": "スカートを着ている",
+        "lingerie": "ランジェリーを着ている",
+        "crop_top": "クロップトップを着ている",
+        "leather": "レザーの服装を着ている",
+        "mini_skirt": "ミニスカートを着ている",
+        "satin_robe": "サテンのローブを着ている",
+        "jeans": "ジーンズを着ている",
+        "summer_dress": "サマードレスを着ている",
+        "sportswear": "タイトなスポーツウェアを着ている",
+        "selfie": "セルフィーを撮っている",
+        "walking": "歩いている",
+        "dancing": "ダンスをしている",
+        "stretching": "ストレッチをしている",
+        "lying_down": "横になっている",
+        "leaning": "壁に寄りかかっている",
+        "blowing_kiss": "キスを投げている",
+        "drinking_coffee": "コーヒーを飲んでいる",
+        "hands_on_hips": "腰に手を当てている",
+        "over_shoulder": "肩越しに見ている",
+        "side_profile": "横顔のポーズ",
+        "arms_crossed": "腕を組んでいる",
+        "kneeling": "跪いているポーズ",
+        "squatting": "しゃがんでいるポーズ",
+        "back_view": "後ろから見た姿",
+        "sitting": "座っている",
+        "necklace": "ネックレスを着けている",
+        "earrings": "イヤリングを着けている",
+        "glasses": "メガネをかけている",
+        "choker": "チョーカーを着けている",
+        "hat": "帽子を被っている",
+        "sunglasses": "サングラスをかけている",
+        "garden": "庭で",
+        "beach": "ビーチで",
+        "bedroom": "ベッドルームで",
+        "gym": "ジムで",
+        "bar": "バーで",
+        "kitchen": "キッチンで",
+        "restaurant": "レストランで",
+        "balcony": "バルコニーで",
+        "city_street": "街路で",
+        "pool": "プールサイドで"
+      }
+    },
+    "presets": {
+      "image": {
+        "selfie": {
+          "name": "セルフィー",
+          "uiPrompt": "あなたのセルフィーを見せて"
+        },
+        "posing": {
+          "name": "ポージング",
+          "uiPrompt": "ポーズを取るあなたを見せて"
+        },
+        "sitting": {
+          "name": "座る",
+          "uiPrompt": "座っているあなたを見せて"
+        },
+        "waving": {
+          "name": "手を振る",
+          "uiPrompt": "手を振るあなたを見せて"
+        },
+        "dancing": {
+          "name": "ダンス",
+          "uiPrompt": "ダンスするあなたを見せて"
+        },
+        "reading": {
+          "name": "読書",
+          "uiPrompt": "読書するあなたを見せて"
+        },
+        "smiling": {
+          "name": "笑顔",
+          "uiPrompt": "笑顔を見せて"
+        },
+        "walking": {
+          "name": "歩く",
+          "uiPrompt": "歩いているところを見せて"
+        }
+      },
+      "video": {
+        "selfie": {
+          "name": "セルフィー",
+          "uiPrompt": "セルフィービデオを見せて"
+        },
+        "posing": {
+          "name": "ポーズ",
+          "uiPrompt": "ポーズを取っているビデオを見せて"
+        },
+        "sitting": {
+          "name": "座る",
+          "uiPrompt": "座っているビデオを見せて"
+        },
+        "waving": {
+          "name": "手を振る",
+          "uiPrompt": "手を振っているビデオを見せて"
+        },
+        "dancing": {
+          "name": "ダンス",
+          "uiPrompt": "ダンスしているビデオを見せて"
+        },
+        "reading": {
+          "name": "読書",
+          "uiPrompt": "読書しているビデオを見せて"
+        },
+        "smiling": {
+          "name": "笑顔",
+          "uiPrompt": "笑顔のビデオを見せて"
+        },
+        "walking": {
+          "name": "歩く",
+          "uiPrompt": "歩いているビデオを見せて"
+        }
+      }
+    },
+    "writeYourOwn": "または自分でプロンプトを書く",
+    "presetSelected": "プリセットを選択しました",
+    "effects": {
+      "categories": {
+        "solo": "ソロ & ティーズ",
+        "oral": "オーラル",
+        "positions": "体位",
+        "pov": "POV",
+        "extra": "エクストラ",
+        "remix": "リミックス"
+      },
+      "image": {
+        "anal_griping": {
+          "name": "アナルグリップ"
+        },
+        "bath_towel": {
+          "name": "バスタオル"
+        },
+        "bikini": {
+          "name": "ビキニ"
+        },
+        "blowjob_69": {
+          "name": "69フェラ"
+        },
+        "blowjob_grand_slam": {
+          "name": "グランドスラムフェラ"
+        },
+        "blowjob_pov": {
+          "name": "POVフェラ"
+        },
+        "blowjob_sideview": {
+          "name": "横からのフェラ"
+        },
+        "bondage": {
+          "name": "ボンデージ"
+        },
+        "breast_milk": {
+          "name": "母乳"
+        },
+        "bunny_suit": {
+          "name": "バニースーツ"
+        },
+        "chain_leash": {
+          "name": "チェーンの首輪"
+        },
+        "chinese_dress": {
+          "name": "チャイナドレス"
+        },
+        "come_fuck_me": {
+          "name": "犯して"
+        },
+        "cum_on_body": {
+          "name": "体に射精"
+        },
+        "cum_on_face": {
+          "name": "顔に射精"
+        },
+        "cunnilingus": {
+          "name": "クンニ"
+        },
+        "custom": {
+          "name": "カスタム"
+        },
+        "doggystyle_pov": {
+          "name": "バックポーズPOV"
+        },
+        "doggystyle_sideview": {
+          "name": "バックポーズ横から"
+        },
+        "fingering": {
+          "name": "フィンガリング"
+        },
+        "handjob": {
+          "name": "手コキ"
+        },
+        "jk_uniform": {
+          "name": "制服"
+        },
+        "legsup": {
+          "name": "脚上げ"
+        },
+        "leopard_bikini": {
+          "name": "レオパードビキニ"
+        },
+        "lingerie": {
+          "name": "ランジェリー"
+        },
+        "masturbation": {
+          "name": "オナニー"
+        },
+        "missionary_condoms": {
+          "name": "正常位コンドーム"
+        },
+        "missionary_pov": {
+          "name": "正常位POV"
+        },
+        "missionary_sideview": {
+          "name": "正常位サイドビュー"
+        },
+        "remix_blowjob": {
+          "name": "リミックス フェラ"
+        },
+        "remix_cowgirl": {
+          "name": "リミックス 騎乗位"
+        },
+        "remix_doggystyle": {
+          "name": "リミックス バック"
+        },
+        "remix_dress": {
+          "name": "リミックス ドレス"
+        },
+        "remix_hold_dick": {
+          "name": "リミックス 握りしめ"
+        },
+        "remix_kiss": {
+          "name": "リミックス キス"
+        },
+        "remix_pronebone": {
+          "name": "リミックス 伏せ位"
+        },
+        "remix_suck": {
+          "name": "リミックス しゃぶり"
+        },
+        "remix_wear": {
+          "name": "リミックス 着用"
+        },
+        "remix_yoga": {
+          "name": "リミックス ヨガ"
+        },
+        "ride_on_dildo": {
+          "name": "ディルド騎乗"
+        },
+        "sipping_condoms": {
+          "name": "コンドームを吸う"
+        },
+        "squatting_cowgirl": {
+          "name": "しゃがみ騎乗位"
+        },
+        "tattoo": {
+          "name": "タトゥー"
+        },
+        "tentacles": {
+          "name": "触手"
+        },
+        "titjob": {
+          "name": "パイズリ"
+        },
+        "topless": {
+          "name": "トップレス"
+        },
+        "undress": {
+          "name": "脱衣"
+        },
+        "used": {
+          "name": "使用済み"
+        },
+        "xray": {
+          "name": "X線"
+        },
+        "maid_outfit": {
+          "name": "メイド服"
+        },
+        "nurse_outfit": {
+          "name": "ナース服"
+        },
+        "cheerleader": {
+          "name": "チアリーダー"
+        },
+        "wet_tshirt": {
+          "name": "濡れTシャツ"
+        },
+        "latex_catsuit": {
+          "name": "ラテックスキャットスーツ"
+        },
+        "corset_stockings": {
+          "name": "コルセット & ストッキング"
+        },
+        "gym_shorts": {
+          "name": "ジムショーツ"
+        },
+        "thong_tease": {
+          "name": "Tバックのティーズ"
+        },
+        "upskirt_panties": {
+          "name": "パンチラ"
+        },
+        "mirror_selfie": {
+          "name": "鏡セルフィー"
+        },
+        "shower_nude": {
+          "name": "シャワー"
+        },
+        "oiled_body": {
+          "name": "オイルボディ"
+        },
+        "spread_open": {
+          "name": "開脚"
+        },
+        "ahegao": {
+          "name": "アヘ顔"
+        },
+        "deepthroat": {
+          "name": "ディープスロート"
+        },
+        "sloppy_blowjob": {
+          "name": "ぐちゃぐちゃフェラ"
+        },
+        "ball_licking": {
+          "name": "玉舐め"
+        },
+        "face_sitting_oral": {
+          "name": "顔面騎乗"
+        },
+        "cowgirl": {
+          "name": "騎乗位"
+        },
+        "reverse_cowgirl": {
+          "name": "バック騎乗位"
+        },
+        "prone_bone": {
+          "name": "バックプレス"
+        },
+        "standing_sex": {
+          "name": "立ちセックス"
+        },
+        "against_wall": {
+          "name": "壁押し"
+        },
+        "spooning": {
+          "name": "スプーン"
+        },
+        "legs_on_shoulders": {
+          "name": "足を肩に"
+        },
+        "mating_press": {
+          "name": "マッチングプレス"
+        },
+        "cowgirl_pov": {
+          "name": "騎乗位POV"
+        },
+        "titjob_pov": {
+          "name": "パイズリPOV"
+        },
+        "handjob_pov": {
+          "name": "手コキPOV"
+        },
+        "cunnilingus_pov": {
+          "name": "クンニPOV"
+        },
+        "double_penetration": {
+          "name": "二穴挿入"
+        },
+        "threesome_mmf": {
+          "name": "3P"
+        },
+        "glory_hole": {
+          "name": "グローリーホール"
+        },
+        "creampie": {
+          "name": "中出し"
+        },
+        "pearl_necklace": {
+          "name": "パールネックレス"
+        },
+        "bukkake": {
+          "name": "ぶっかけ"
+        },
+        "squirting": {
+          "name": "潮吹き"
+        },
+        "spanking": {
+          "name": "スパンキング"
+        },
+        "gagged_bdsm": {
+          "name": "ギャグ"
+        },
+        "facefuck": {
+          "name": "フェイスファック"
+        },
+        "throatpie": {
+          "name": "スロートパイ"
+        },
+        "cock_worship": {
+          "name": "チンポ崇拝"
+        },
+        "footjob": {
+          "name": "フットジョブ"
+        },
+        "amazon": {
+          "name": "アマゾン"
+        },
+        "full_nelson": {
+          "name": "フルネルソン"
+        },
+        "lotus": {
+          "name": "ロータス"
+        },
+        "piledriver": {
+          "name": "パイルドライバー"
+        },
+        "facefuck_pov": {
+          "name": "フェイスファック POV"
+        },
+        "riding_pov": {
+          "name": "ライディング POV"
+        },
+        "spitroast": {
+          "name": "スピットロースト"
+        },
+        "hair_pulling": {
+          "name": "髪引っ張り"
+        },
+        "facial_cumshot": {
+          "name": "顔射"
+        }
+      },
+      "video": {
+        "anal": {
+          "name": "アナル"
+        },
+        "back_doggystyle": {
+          "name": "バック"
+        },
+        "blowjob": {
+          "name": "フェラ"
+        },
+        "blowjob_69": {
+          "name": "69フェラ"
+        },
+        "blowjob_reverse": {
+          "name": "リバースフェラ"
+        },
+        "breast_massage": {
+          "name": "胸マッサージ"
+        },
+        "breast_massage_nude": {
+          "name": "胸マッサージ（ヌード）"
+        },
+        "butt_smothering": {
+          "name": "尻圧迫"
+        },
+        "cock_worship": {
+          "name": "チンポ崇拝"
+        },
+        "cum_in_mouth": {
+          "name": "口内射精"
+        },
+        "dildo_masturbation": {
+          "name": "ディルドオナニー"
+        },
+        "double_blowjob": {
+          "name": "ダブルフェラ"
+        },
+        "double_penetration": {
+          "name": "二穴挿入"
+        },
+        "ejaculation": {
+          "name": "射精"
+        },
+        "facefuck": {
+          "name": "イラマチオ"
+        },
+        "facefuck_pov": {
+          "name": "イラマチオ POV"
+        },
+        "facial_cumshot": {
+          "name": "顔射"
+        },
+        "footjob": {
+          "name": "足コキ"
+        },
+        "front_doggystyle": {
+          "name": "対面バック"
+        },
+        "fuck_machine": {
+          "name": "ファックマシン"
+        },
+        "full_nelson": {
+          "name": "フルネルソン"
+        },
+        "handjob": {
+          "name": "手コキ"
+        },
+        "masturbation": {
+          "name": "オナニー"
+        },
+        "missionary_pov": {
+          "name": "正常位 POV"
+        },
+        "missionary_sideview": {
+          "name": "正常位サイドビュー"
+        },
+        "nipple_play": {
+          "name": "乳首プレイ"
+        },
+        "nude_posing": {
+          "name": "ヌードポーズ"
+        },
+        "orgasm": {
+          "name": "絶頂"
+        },
+        "pronebone": {
+          "name": "伏せ位"
+        },
+        "pussy_closeup": {
+          "name": "Pussy Closeup"
+        },
+        "reverse_cowgirl": {
+          "name": "バック騎乗位"
+        },
+        "shoejob": {
+          "name": "Shoejob"
+        },
+        "spitroast": {
+          "name": "Spitroast"
+        },
+        "squatting_cowgirl": {
+          "name": "しゃがみ騎乗位"
+        },
+        "throatpie": {
+          "name": "Throatpie"
+        },
+        "tiktok_trend": {
+          "name": "TikTok Trend"
+        },
+        "titjob": {
+          "name": "Titjob"
+        },
+        "titty_flash": {
+          "name": "Titty Flash"
+        },
+        "triple_dicked": {
+          "name": "Triple Dicked"
+        },
+        "twerk": {
+          "name": "Twerk"
+        },
+        "undress": {
+          "name": "脱衣"
+        },
+        "strip_tease": {
+          "name": "ストリップティーズ"
+        },
+        "booty_bounce": {
+          "name": "ブーティーバウンス"
+        },
+        "oil_show": {
+          "name": "オイルショー"
+        },
+        "shower_show": {
+          "name": "シャワーショー"
+        },
+        "panty_drop": {
+          "name": "パンティドロップ"
+        },
+        "ahegao_solo": {
+          "name": "アヘ顔"
+        },
+        "deepthroat": {
+          "name": "ディープスロート"
+        },
+        "sloppy_blowjob": {
+          "name": "ぐちゃぐちゃフェラ"
+        },
+        "ball_sucking": {
+          "name": "玉舐め"
+        },
+        "cowgirl": {
+          "name": "騎乗位"
+        },
+        "standing_carry": {
+          "name": "立ちバック"
+        },
+        "against_wall": {
+          "name": "壁押し"
+        },
+        "spooning": {
+          "name": "スプーニング"
+        },
+        "mating_press": {
+          "name": "種付けプレス"
+        },
+        "amazon": {
+          "name": "アマゾン"
+        },
+        "cowgirl_pov": {
+          "name": "騎乗位 POV"
+        },
+        "doggy_pov": {
+          "name": "バック POV"
+        },
+        "titjob_pov": {
+          "name": "パイズリ POV"
+        },
+        "handjob_pov": {
+          "name": "手コキ POV"
+        },
+        "riding_pov": {
+          "name": "ライディング POV"
+        },
+        "gangbang": {
+          "name": "輪姦"
+        },
+        "creampie": {
+          "name": "中出し"
+        },
+        "bukkake": {
+          "name": "ぶっかけ"
+        },
+        "squirting": {
+          "name": "潮吹き"
+        },
+        "spanking": {
+          "name": "スパンキング"
+        },
+        "hair_pulling": {
+          "name": "髪引っ張り"
+        },
+        "fingering": {
+          "name": "指マン"
+        },
+        "come_hither": {
+          "name": "カムヒザー"
+        },
+        "spread_legs": {
+          "name": "脚開き"
+        },
+        "blowjob_sideview": {
+          "name": "フェラ横アングル"
+        },
+        "cunnilingus": {
+          "name": "クンニ"
+        },
+        "missionary": {
+          "name": "正常位"
+        },
+        "legs_on_shoulders": {
+          "name": "脚肩乗せ"
+        },
+        "blowjob_pov": {
+          "name": "フェラ POV"
+        },
+        "cunnilingus_pov": {
+          "name": "クンニ POV"
+        },
+        "glory_hole": {
+          "name": "グローリーホール"
+        },
+        "threesome_mmf": {
+          "name": "3P"
+        },
+        "aftercare_mess": {
+          "name": "アフターケア メス"
+        }
+      }
+    }
+  },
+  "collection": {
+    "confirmDelete": "本当に削除しますか？",
+    "deleteSuccess": "削除しました",
+    "deleteError": "削除に失敗しました",
+    "empty": "まだメディアがありません。チャットで生成してみましょう！",
+    "gallerySubtitle": "AI生成のプライベートギャラリー",
+    "filterAll": "すべて",
+    "filterImages": "画像",
+    "filterVideos": "動画",
+    "loadMore": "もっと見る",
+    "folders": "フォルダ",
+    "newFolder": "新規フォルダ",
+    "deleteFolders": "選択したフォルダを削除",
+    "folderCreated": "フォルダを作成しました",
+    "folderCreateError": "フォルダの作成に失敗しました",
+    "folderRenamed": "フォルダ名を変更しました",
+    "folderRenameError": "フォルダ名の変更に失敗しました",
+    "folderDeleted": "フォルダを削除しました",
+    "folderDeleteError": "フォルダの削除に失敗しました",
+    "folderNamePlaceholder": "フォルダ名",
+    "seeMore": "もっと見る",
+    "seeLess": "閉じる",
+    "selectedCount": "{count} 件選択中",
+    "selectAll": "すべて選択",
+    "select": "選択",
+    "moveToFolder": "移動",
+    "bulkDeleteConfirm": "{count} 件削除しますか？",
+    "bulkDeleteSuccess": "削除しました",
+    "bulkDownloadStart": "{count} 件ダウンロード中...",
+    "moveSuccess": "移動しました"
+  },
+  "voice": {
+    "connecting": "接続中...",
+    "connected": "接続済み",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "volumeOn": "Sound on",
+    "volumeOff": "Sound off",
+    "transcript": "Transcript",
+    "thinking": "Crafting a response",
+    "rate": "{rate}/min",
+    "callTip": "自然に話しかけてください。AIは一時停止後に返答します。",
+    "connectionError": "接続に失敗しました。もう一度お試しください。",
+    "minutesRemaining": "{minutes} 分残っています",
+    "minutesUsed": "{minutes} 分使用しました"
+  },
+  "characters": {
+    "filters": "フィルター",
+    "ethnicity": "民族",
+    "bodyType": "体型",
+    "ageRange": "年齢層",
+    "relationship": "関係",
+    "occupation": "職業",
+    "hobbies": "趣味",
+    "personality": "性格",
+    "language": "言語",
+    "age": "年齢",
+    "all": "すべて",
+    "noResults": "キャラクターが見つかりません",
+    "noResultsDesc": "フィルターを調整してみてください",
+    "newBadge": "New",
+    "chatNow": "今すぐチャット",
+    "viewProfile": "プロフィールを見る",
+    "ethnicities": {
+      "caucasian": "白人",
+      "asian": "アジア人",
+      "middleEastern": "中東",
+      "hispanic": "ヒスパニック",
+      "african": "アフリカ人",
+      "southAsian": "南アジア",
+      "nativeAmerican": "ネイティブアメリカン",
+      "pacificIslander": "太平洋諸島民",
+      "mixed": "ミックス",
+      "other": "その他"
+    },
+    "bodyTypes": {
+      "slim": "スリム",
+      "athletic": "アスレチック",
+      "average": "平均的",
+      "curvy": "グラマラス",
+      "plus": "プラスサイズ"
+    },
+    "ageRanges": {
+      "18-25": "18-25",
+      "26-35": "26-35",
+      "36-45": "36-45",
+      "46+": "46+"
+    },
+    "relationships": {
+      "single": "独身",
+      "dating": "交際中",
+      "married": "既婚",
+      "none": "なし"
+    }
+  },
+  "settings": {
+    "profile": "プロフィール",
+    "myProfile": "マイプロフィール",
+    "settings": "設定",
+    "account": "アカウント",
+    "plan": "プラン",
+    "profileSettings": "プロフィール設定",
+    "manageAccountSettings": "アカウント設定と環境設定を管理",
+    "personalInfo": "個人情報",
+    "nickname": "ニックネーム",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "preferences": "設定",
+    "newsletter": "ニュースレター購読",
+    "newsletterDesc": "最新情報とニュースを受け取る",
+    "aiTrainingTitle": "AIとモデレーションのトレーニング",
+    "aiTrainingDesc": "チャットやプロンプトをsweetwineのAIとモデレーションのトレーニングに役立てる。いつでもオフにしてオプトアウトできます。",
+    "aiTrainingLink": "プライバシー通知で詳しく見る。",
+    "aiTrainingError": "AIトレーニングの設定を更新できませんでした",
+    "interfaceLanguage": "インターフェース言語",
+    "interfaceLanguageDesc": "ユーザーインターフェースの言語",
+    "aiLanguage": "AI応答言語",
+    "aiLanguageDesc": "AIキャラクターがあなたと話すときに使用する言語",
+    "currentPlan": "現在のプラン",
+    "freePlan": "無料プラン",
+    "dangerZone": "危険ゾーン",
+    "dangerZoneDescription": "このアカウントとすべてのデータを完全に削除する場合。",
+    "deleteAllMemory": "すべての記憶を削除",
+    "confirmDeleteAllMemory": "すべてのAIキャラクターの長期記憶を削除してもよろしいですか？チャットメッセージは残りますが、次回の返信でキャラクターは以前の事実を忘れます。",
+    "deleteAllMemorySuccess": "すべての記憶を削除しました",
+    "deleteAccount": {
+      "button": "アカウントを削除",
+      "title": "アカウントを削除",
+      "warning": "You will be signed out and lose access to your account.",
+      "typeConfirm": "確認のため入力してください",
+      "confirmRequired": "DELETEと入力して確認してください",
+      "confirmButton": "アカウントを削除",
+      "deleting": "削除中...",
+      "success": "アカウントが削除されました",
+      "error": "アカウントの削除に失敗しました。もう一度お試しください。"
+    },
+    "saveChanges": "変更を保存",
+    "changesSaved": "変更が正常に保存されました",
+    "saveFailed": "変更の保存に失敗しました",
+    "languageUpdated": "言語が更新されました",
+    "aiLanguageUpdated": "AI言語が更新されました"
+  },
+  "create": {
+    "defaultGreeting": "こんにちは",
+    "title": "AIキャラクターを作成",
+    "step": "ステップ {current} / {total}",
+    "step1": {
+      "title": "スタイルを選択",
+      "description": "キャラクターのスタイルと基本属性を選んでください"
+    },
+    "step2": {
+      "title": "民族を選択",
+      "description": "キャラクターの民族と年齢を選んでください"
+    },
+    "step3": {
+      "title": "髪型と瞳の色を選択",
+      "description": "髪型、髪色、瞳の色をカスタマイズしてください"
+    },
+    "step4": {
+      "title": "体型を選択",
+      "description": "キャラクターの体型をカスタマイズしてください"
+    },
+    "step5": {
+      "title": "性格と詳細",
+      "description": "キャラクターの性格と話し方を定義してください"
+    },
+    "style": {
+      "title": "キャラクターのスタイル",
+      "realistic": "リアル",
+      "anime": "アニメ"
+    },
+    "gender": {
+      "title": "性別",
+      "female": "女性",
+      "male": "男性"
+    },
+    "age": {
+      "title": "年齢",
+      "years": "{age} 歳"
+    },
+    "ethnicity": {
+      "title": "民族"
+    },
+    "hairStyle": {
+      "title": "髪型"
+    },
+    "hairColor": {
+      "title": "髪色"
+    },
+    "eyeColor": {
+      "title": "瞳の色"
+    },
+    "bodyType": {
+      "title": "体型"
+    },
+    "breastSize": {
+      "title": "バストサイズ"
+    },
+    "name": {
+      "title": "名前",
+      "placeholder": "キャラクター名を入力",
+      "randomize": "ランダムな名前を生成"
+    },
+    "language": {
+      "title": "言語",
+      "widgetLabel": "言語を選択",
+      "placeholder": "言語を選択",
+      "selectTitle": "言語を選択"
+    },
+    "personality": {
+      "title": "性格",
+      "widgetLabel": "性格を選択",
+      "placeholder": "性格を選択",
+      "sectionTitle": "性格を選択",
+      "clickToChange": "クリックして変更"
+    },
+    "relationship": {
+      "title": "関係性",
+      "widgetLabel": "関係性を選択",
+      "placeholder": "関係を選択",
+      "selectTitle": "関係を編集"
+    },
+    "occupation": {
+      "title": "職業",
+      "widgetLabel": "職業を選択",
+      "placeholder": "職業を選択",
+      "selectTitle": "職業を編集"
+    },
+    "kinks": {
+      "title": "興味",
+      "widgetLabel": "どんな興味がありますか？（最大 {max}）",
+      "labelMax": "興味（最大 {max}）",
+      "placeholder": "興味を選択（任意）",
+      "optional": "任意",
+      "selectTitle": "興味を編集",
+      "moreCount": "+{count} 件"
+    },
+    "selector": {
+      "searchPlaceholder": "検索",
+      "noResults": "オプションが見つかりません",
+      "cancel": "キャンセル",
+      "saveChanges": "変更を保存",
+      "selectedCount": "{count} 件選択済み"
+    },
+    "voice": {
+      "title": "声",
+      "widgetLabel": "声を選択",
+      "placeholder": "声を選択",
+      "selectTitle": "声を選択"
+    },
+    "advanced": {
+      "title": "詳細設定",
+      "optional": "任意",
+      "filled": "入力済み",
+      "autocompleteTitle": "AIで自動入力",
+      "autocompleteDesc": "空欄をAIが埋めて、より深いキャラクターに",
+      "autocompleteSuccess": "フィールドを入力しました！",
+      "autocompleteError": "提案の生成に失敗しました。もう一度お試しください。",
+      "greetingLabel": "挨拶",
+      "greetingPlaceholder": "キャラクターが最初に送るメッセージ...",
+      "scenarioLabel": "シナリオ",
+      "scenarioPlaceholder": "出会った経緯や背景...",
+      "personalityLabel": "性格の追加詳細",
+      "personalityPlaceholder": "癖、話し方、行動パターン...",
+      "extraLabel": "その他の詳細",
+      "extraPlaceholder": "背景、趣味、人生の歴史..."
+    },
+    "navigation": {
+      "back": "戻る",
+      "next": "次へ",
+      "create": "作成",
+      "generateYourCharacter": "キャラクターを生成"
+    },
+    "progress": {
+      "generatingPrompt": "性格を作成中...",
+      "generatingImage": "ポートレートを作成中...",
+      "creatingVoice": "声を設定中...",
+      "saving": "保存中...",
+      "complete": "完了！"
+    },
+    "funnyMessages": {
+      "creatingPersonality": "性格を作成中...",
+      "addingSweetness": "甘さを追加中...",
+      "tooMuchSweet": "おっと、甘すぎるかも…",
+      "testingSounds": "サウンドをテスト中…"
+    },
+    "overlay": {
+      "signupPrompt": "サインアップを完了してキャラクターをアンロック…",
+      "processingHint": "通常20〜30秒かかります",
+      "traitEthnicity": "エスニシティ",
+      "traitBody": "ボディ",
+      "traitHair": "ヘア",
+      "traitColor": "カラー",
+      "traitEyes": "アイ",
+      "traitVibe": "バイブ",
+      "bannerTitle": "キャラクターの作成準備ができました！",
+      "bannerDesc": "設定を保存しました。確認して下で生成してください。"
+    },
+    "success": {
+      "title": "キャラクター作成完了！",
+      "description": "AIキャラクターが正常に作成されました。",
+      "yearsOld": "歳",
+      "meetButton": "会う"
+    },
+    "error": {
+      "title": "作成に失敗しました",
+      "generic": "キャラクターの作成に失敗しました。もう一度お試しください。"
+    },
+    "options": {
+      "ethnicity": {
+        "caucasian": "白人",
+        "asian": "アジア人",
+        "middle_eastern": "中東",
+        "hispanic": "ヒスパニック",
+        "african": "アフリカ",
+        "south_asian": "南アジア",
+        "native_american": "ネイティブアメリカン",
+        "pacific_islander": "太平洋諸島",
+        "mixed": "ミックス",
+        "arab": "アラブ"
+      },
+      "hairStyleFemale": {
+        "straight": "ストレート",
+        "bangs": "前髪",
+        "curly": "カーリー",
+        "bun": "お団子",
+        "short_bob": "ショートボブ",
+        "ponytail": "ポニーテール",
+        "wavy": "ウェーブ",
+        "long_layers": "ロングレイヤー",
+        "braids": "ブレイズ",
+        "pixie_cut": "ピクシーカット",
+        "updo": "アップドゥ",
+        "french_twist": "フレンチツイスト",
+        "fishtail_braid": "フィッシュテールブレイズ",
+        "top_knot": "トップノット",
+        "space_buns": "スペースバンズ",
+        "halo_braid": "ヘイローブレイズ",
+        "beehive": "ビーハイブ",
+        "finger_waves": "フィンガーワェーブ",
+        "lob": "ロブ（ロングボブ）",
+        "shag_cut": "シャギーカット",
+        "bald": "坊主"
+      },
+      "hairStyleMale": {
+        "short": "ショート",
+        "buzz_cut": "バズカット",
+        "crew_cut": "クルーカット",
+        "undercut": "アンダーカット",
+        "fade": "フェード",
+        "pompadour": "ポンパドール",
+        "quiff": "クイフ",
+        "slicked_back": "オールバック",
+        "curly": "カーリー",
+        "afro": "アフロ",
+        "man_bun": "マンバン",
+        "dreadlocks": "ドレッドロックス",
+        "cornrows": "コーンロウ",
+        "mohawk": "モヒカン",
+        "side_part": "サイドパート",
+        "textured_crop": "テクスチャードクロップ",
+        "french_crop": "フレンチクロップ",
+        "spiky": "スパイキー",
+        "comb_over": "コンボーバー",
+        "long_hair": "ロングヘア",
+        "bald": "坊主"
+      },
+      "hairColor": {
+        "brunette": "ブルネット",
+        "blonde": "ブロンド",
+        "black": "ブラック",
+        "redhead": "レッドヘッド",
+        "pink": "ピンク",
+        "auburn": "オーバーン",
+        "brown": "ブラウン",
+        "platinum_blonde": "プラチナブロンド",
+        "silver_grey": "シルバー/グレー",
+        "white": "ホワイト",
+        "blue": "ブルー",
+        "purple": "パープル",
+        "green": "グリーン",
+        "burgundy": "バーガンディ",
+        "copper": "コッパー",
+        "strawberry_blonde": "ストロベリーブロンド",
+        "ash_brown": "アッシュブラウン",
+        "golden_blonde": "ゴールデンブロンド",
+        "mahogany": "マホガニー",
+        "pastel_pink": "パステルピンク",
+        "ombre": "オンブレ",
+        "balayage": "バレイヤージュ",
+        "highlights": "ハイライト",
+        "jet_black": "ジェットブラック",
+        "dark_brown": "ダークブラウン",
+        "light_brown": "ライトブラウン",
+        "honey_blonde": "ハニーブロンド",
+        "dirty_blonde": "ダーティーブロンド",
+        "cherry_red": "チェリーレッド",
+        "violet": "バイオレット"
+      },
+      "eyeColor": {
+        "brown": "ブラウン",
+        "blue": "ブルー",
+        "green": "グリーン",
+        "hazel": "ヘーゼル",
+        "amber": "アンバー",
+        "gray": "グレー",
+        "heterochromia": "ヘテロクロミア",
+        "violet": "バイオレット",
+        "red_pink": "レッド/ピンク",
+        "black": "ブラック"
+      },
+      "bodyTypeFemale": {
+        "skinny": "スリム",
+        "athletic": "アスレチック",
+        "average": "アベレージ",
+        "curvy": "カーヴィー",
+        "chubby": "チュビー"
+      },
+      "bodyTypeMale": {
+        "skinny": "スリム",
+        "athletic": "アスレチック",
+        "average": "アベレージ",
+        "muscular": "マッスル",
+        "heavy": "ヘビー",
+        "big_tall": "ビッグ＆トール"
+      },
+      "breastSize": {
+        "small": "スモール",
+        "medium": "ミディアム",
+        "large": "ラージ",
+        "extra_large": "エクストララージ"
+      },
+      "personality": {
+        "nympho": "ニンフォ",
+        "lover": "ラバー",
+        "submissive": "サブミッシブ",
+        "dominant": "ドミナント",
+        "temptress": "テンプトレス",
+        "innocent": "イノセント",
+        "caregiver": "ケアギバー",
+        "experimenter": "エクスペリメンター",
+        "mean": "ミーン",
+        "confidant": "コンフィダント",
+        "shy": "シャイ",
+        "queen": "クイーン",
+        "adventurous": "アドベンチャラス",
+        "romantic": "ロマンティック",
+        "intellectual": "インテレクチュアル",
+        "protector": "プロテクター",
+        "rebel": "レベル",
+        "optimist": "オプティミスト",
+        "realist": "リアリスト",
+        "free_spirit": "フリー スピリット",
+        "leader": "リーダー",
+        "loyal": "忠実",
+        "playful": "遊び好き",
+        "mysterious": "ミステリアス",
+        "ambitious": "野心的",
+        "gentle": "優しい",
+        "sarcastic": "皮肉屋",
+        "empathetic": "共感力が高い",
+        "stoic": "ストイック",
+        "charismatic": "カリスマ性がある"
+      },
+      "relationship": {
+        "stranger": "知らない人",
+        "girlfriend": "彼女",
+        "sex_friend": "セフレ",
+        "school_mate": "学友",
+        "work_colleague": "同僚",
+        "wife": "妻",
+        "mistress": "愛人",
+        "friend": "友達",
+        "step_sister": "義理の妹",
+        "step_mom": "義理の母",
+        "step_daughter": "義理の娘",
+        "landlord": "大家",
+        "sugar_baby": "シュガーベイビー",
+        "boss": "上司",
+        "teacher": "先生",
+        "student": "生徒",
+        "neighbour": "隣人",
+        "mother_in_law": "義理の母",
+        "sister_in_law": "義理の姉妹",
+        "boyfriend": "彼氏",
+        "husband": "夫",
+        "fiance": "婚約者",
+        "ex": "元カレ／元カノ",
+        "roommate": "ルームメイト",
+        "best_friend": "親友",
+        "classmate": "クラスメイト",
+        "mentor": "メンター",
+        "client": "クライアント",
+        "therapist": "セラピスト",
+        "trainer": "トレーナー",
+        "rival": "ライバル",
+        "crush": "片思いの人",
+        "secret_admirer": "秘密のファン",
+        "pen_pal": "文通相手",
+        "business_partner": "ビジネスパートナー",
+        "babysitter": "ベビーシッター",
+        "childhood_friend": "幼なじみ",
+        "long_distance_partner": "遠距離のパートナー"
+      },
+      "occupation": {
+        "student": "生徒",
+        "dancer": "ダンサー",
+        "model": "モデル",
+        "maid": "メイド",
+        "boss_ceo": "ボス / CEO",
+        "babysitter_au_pair": "ベビーシッター / オーペア",
+        "streamer": "ストリーマー",
+        "bartender": "バーテンダー",
+        "tech_engineer": "テックエンジニア",
+        "lifeguard": "ライフガード",
+        "cashier": "レジ係",
+        "massage_therapist": "マッサージセラピスト",
+        "teacher": "教師",
+        "nurse": "看護師",
+        "secretary": "秘書",
+        "yoga_instructor": "ヨガインストラクター",
+        "fitness_coach": "フィットネスコーチ",
+        "cook": "コック",
+        "artist": "アーティスト",
+        "movie_star_actress": "ムービースター/女優",
+        "doctor": "医師",
+        "librarian": "司書",
+        "spy": "スパイ",
+        "police_officer": "警察官",
+        "soldier": "兵士",
+        "lawyer": "弁護士",
+        "hairdresser": "美容師",
+        "dentist": "歯科医",
+        "singer_musician": "歌手/ミュージシャン",
+        "gynecologist": "婦人科医",
+        "writer": "作家",
+        "flight_attendant": "客室乗務員",
+        "professional_athlete": "プロアスリート",
+        "scientist": "科学者",
+        "florist": "花屋",
+        "makeup_artist": "メイクアップアーティスト",
+        "photographer": "写真家",
+        "social_worker": "ソーシャルワーカー",
+        "designer": "デザイナー",
+        "pharmacist": "薬剤師",
+        "nutritionist": "栄養士",
+        "architect": "建築家",
+        "veterinarian": "獣医",
+        "mechanic": "整備士",
+        "journalist": "ジャーナリスト",
+        "pilot": "パイロット",
+        "firefighter": "消防士",
+        "accountant": "会計士",
+        "electrician": "電気技師",
+        "carpenter": "大工",
+        "psychologist": "心理学者",
+        "real_estate_agent": "不動産エージェント",
+        "chef": "シェフ",
+        "farmer": "農家",
+        "delivery_driver": "配送ドライバー",
+        "janitor": "清掃員",
+        "security_guard": "警備員",
+        "banker": "銀行員",
+        "judge": "裁判官",
+        "paramedic": "救急救命士",
+        "actor": "俳優",
+        "comedian": "コメディアン",
+        "archaeologist": "考古学者",
+        "astronaut": "宇宙飛行士"
+      },
+      "kinks": {
+        "bondage": "ボンデージ",
+        "spanking": "スパンキング",
+        "collar_leash": "首輪＆リード",
+        "punishment": "罰",
+        "humiliation": "辱め",
+        "public_play": "公共プレイ",
+        "roleplay": "ロールプレイ",
+        "anal_play": "アナルプレイ",
+        "oral_play": "オーラルプレイ",
+        "cum_play": "精液プレイ",
+        "creampie": "中出し",
+        "squirting": "潮吹き",
+        "dirty_talk": "ダーティートーク",
+        "breeding": "繁殖",
+        "daddy_mommy_dominance": "ダディ/マミー支配",
+        "edging": "エッジング",
+        "obedience": "服従",
+        "control": "コントロール",
+        "inexperienced": "未経験",
+        "shy_flirting": "恥ずかしがり屋のフリートーク",
+        "playful_teasing": "遊び心のあるからかい",
+        "cuddling": "抱きしめ",
+        "slow_sensual": "スロー＆官能的",
+        "hair_pulling": "髪引っ張り",
+        "foot_fetish": "足フェティシ",
+        "voyeurism": "盗み見",
+        "exhibitionism": "露出",
+        "sensation_play": "感覚プレイ",
+        "wax_play": "ワックスプレイ",
+        "pet_play": "ペットプレイ",
+        "age_play": "年齢プレイ",
+        "medical_play": "医療プレイ",
+        "orgasm_control_denial": "オーガズムコントロール/拒否",
+        "forced_orgasms": "強制オーガズム",
+        "group_sex": "グループセックス",
+        "threesomes": "3P",
+        "swapping": "スワッピング",
+        "cuckolding_cuckqueaning": "寝取られ/寝取られ女",
+        "femdom": "女性主導",
+        "gentle_domination": "優しい支配",
+        "sensation_deprivation": "感覚遮断",
+        "sensory_overload": "感覚過負荷",
+        "uniform_costume_fetish": "制服/コスチュームフェティシ",
+        "food_play": "食べ物プレイ",
+        "watersports": "ウォータースポーツ",
+        "bdsm": "BDSM",
+        "impact_play": "インパクトプレイ",
+        "knife_play": "ナイフプレイ",
+        "consensual_non_consent": "合意の上の非合意",
+        "power_exchange": "パワーエクスチェンジ",
+        "master_slave": "マスター/スレイブ",
+        "owner_pet": "オーナー/ペット"
+      },
+      "languages": {
+        "en": "英語",
+        "cs": "チェコ語",
+        "pl": "ポーランド語",
+        "de": "ドイツ語",
+        "es": "スペイン語",
+        "fr": "フランス語"
+      }
+    }
+  },
+  "myAI": {
+    "title": "My AI",
+    "titlePart1": "My",
+    "titlePart2": "AI",
+    "createNew": "新しいAIを作成",
+    "createButton": "キャラクターを作成",
+    "characterCount": "{count}/{limit} キャラクター",
+    "loadMore": "もっと読み込む",
+    "empty": {
+      "title": "まだキャラクターがありません",
+      "description": "初めてのAIキャラクターを作成してチャットを始めましょう！外見、性格、声をカスタマイズできます。",
+      "createFirst": "初めてのキャラクターを作成"
+    },
+    "delete": {
+      "title": "キャラクターを削除",
+      "message": "{name}を削除してもよろしいですか？この操作によりキャラクター、すべてのチャット履歴、生成されたコンテンツが完全に削除されます。",
+      "confirm": "削除",
+      "success": "キャラクターが正常に削除されました"
+    }
+  },
+  "tour": {
+    "interactionTitle": "⚡ インタラクション",
+    "interactionDescription": "自然にタイプしてください — 写真や動画をリクエストしたり、会話を始めたり。AIはどんな言語でもあなたの意図を理解します。",
+    "mediaTitle": "画像と動画を生成",
+    "mediaDescription": "想像力を解き放とう — 制限なく画像や動画を生成できます。",
+    "next": "次へ →",
+    "gotIt": "了解"
+  }
+}
